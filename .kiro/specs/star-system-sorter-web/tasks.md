@@ -94,7 +94,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add loading state management (≥200ms debounce)
   - _Requirements: 3.12, 5.13_
 
-- [ ] 8. Implement OnboardingScreen
+- [x] 8. Implement OnboardingScreen
 
   - Create src/screens/OnboardingScreen.tsx
   - Import Button from Figma components
@@ -106,7 +106,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Implement navigation to /input on button click
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.6_
 
-- [ ] 9. Implement InputScreen
+- [x] 9. Implement InputScreen
 
   - Create src/screens/InputScreen.tsx
   - Import Field component from Figma
@@ -126,7 +126,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Navigate to /result on success
   - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12_
 
-- [ ] 10. Implement ResultScreen
+- [x] 10. Implement ResultScreen
 
   - Create src/screens/ResultScreen.tsx
   - Import StarSystemCrests, Chip, Button, Card from Figma
@@ -141,7 +141,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Handle loading state while classification computes
   - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.9, 6.10_
 
-- [ ] 11. Implement WhyScreen
+- [x] 11. Implement WhyScreen
 
   - Create src/screens/WhyScreen.tsx
   - Import Card component from Figma
