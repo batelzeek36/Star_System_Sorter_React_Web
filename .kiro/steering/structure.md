@@ -187,3 +187,41 @@ server/dist/                  # TypeScript compiled output (Node.js)
 previews/                     # Playwright screenshots
 coverage/                     # Vitest coverage reports
 ```
+
+
+## Figma Design Reference
+
+### Screen Implementations
+All 19 screen designs are implemented in `/Figma/App.tsx` with visual references in `/Figma/Screnshots/`.
+
+**MVP Screens (Tasks 8-11):**
+- Screen 1: `onboarding` - Welcome + Begin Sorting CTA
+- Screen 2: `input` - Birth data form with tabs
+- Screen 3: `result` - Star system result with radial chart
+- Screen 4: `why` - Contributors explanation
+
+**Phase 2 Screens:**
+- Screens 5-9: Community, Profile, Paywall, Settings, EmptyStates
+- Screens 10-19: Game Layer (Hub, Team Select, HUD, Leaderboard, etc.)
+
+**Implementation Approach:**
+1. Reference `/Figma/App.tsx` for complete JSX implementation
+2. View `/Figma/Screnshots/screen-X-Y-Z.png` for visual design
+3. Import components from `src/components/figma/` (already copied into project)
+4. Wire up navigation (React Router) and data (stores/hooks)
+
+**Detailed Reference:** #[[file:star-system-sorter/FIGMA_SCREENS_REFERENCE.md]]
+
+### Component Location
+Figma components have been copied to `star-system-sorter/src/components/figma/` for easy import:
+
+```typescript
+// Import from local project
+import { Button, Card, Chip, Field, PleiadesCrest } from '@/components/figma';
+```
+
+**Available Components:**
+- Core: Button, Card, Chip, Field, Toast, AppBar, TabBar
+- Crests: PleiadesCrest, SiriusCrest, LyraCrest, AndromedaCrest, OrionCrest, ArcturusCrest
+- Screens (Phase 2): PaywallScreen, SettingsScreen, EmptyStatesScreen
+- Game (Phase 2): TeamBadge, GameModeCard, HUDComponents, etc.

@@ -152,7 +152,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add back button to navigate to /result
   - _Requirements: 7.1, 7.2, 7.3, 7.4_
 
-- [ ] 12. Set up React Router
+- [x] 12. Set up React Router
 
   - Create src/App.tsx with BrowserRouter
   - Define routes: / → OnboardingScreen, /input → InputScreen, /result → ResultScreen, /why → WhyScreen
@@ -161,7 +161,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Test navigation flow between all screens
   - _Requirements: 11.9_
 
-- [ ] 13. Add global styles and Figma integration
+- [x] 13. Add global styles and Figma integration
 
   - Copy /Figma/globals.css to src/index.css
   - Import Tailwind directives (@tailwind base/components/utilities)
