@@ -1,0 +1,62 @@
+# Canon Example - Star System Definitions
+# 
+# This is a simplified example of the canon structure.
+# Replace with your actual star system definitions.
+#
+# Structure:
+# - version: Canon version identifier
+# - systems: Map of system names to their definitions
+#   - weights: Map of HD attributes to their weights
+#   - why: Explanation of the system's characteristics
+
+version: "1.0.0"
+
+systems:
+  Gryffindor:
+    weights:
+      type_manifestor: 10
+      type_manifesting_generator: 8
+      authority_emotional: 5
+      profile_1_3: 3
+      profile_3_5: 3
+      gate_1: 2
+      gate_13: 2
+      gate_25: 2
+      channel_34_20: 3
+    why: "Brave, daring, and chivalrous. Natural leaders with strong willpower."
+
+  Ravenclaw:
+    weights:
+      type_projector: 10
+      authority_mental: 8
+      profile_5_1: 5
+      profile_2_4: 4
+      gate_11: 3
+      gate_17: 3
+      gate_43: 3
+      channel_11_56: 4
+    why: "Intelligent, wise, and creative. Values knowledge and learning."
+
+  Hufflepuff:
+    weights:
+      type_generator: 10
+      authority_sacral: 8
+      profile_6_2: 5
+      profile_4_6: 4
+      gate_2: 3
+      gate_7: 3
+      gate_27: 3
+      channel_5_15: 4
+    why: "Loyal, patient, and hardworking. Values fairness and dedication."
+
+  Slytherin:
+    weights:
+      type_reflector: 10
+      authority_lunar: 8
+      profile_1_4: 5
+      profile_3_6: 4
+      gate_8: 3
+      gate_14: 3
+      gate_29: 3
+      channel_10_20: 4
+    why: "Ambitious, cunning, and resourceful. Natural strategists."

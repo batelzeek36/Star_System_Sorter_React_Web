@@ -1,0 +1,121 @@
+I'm building a React Web version of the Star System Sorter app. I have a migration package with all the necessary documentation, business logic, and design system from the original React Native project.
+
+## Project Context
+
+**App Name:** Star System Sorter (S³)
+**Purpose:** Deterministic star system classification based on Human Design birth chart data
+**Tech Stack:** React + TypeScript + Vite + Tailwind CSS + Zustand + React Hook Form + Zod
+
+## What I Have
+
+I have a `.migration-package/` folder containing:
+- Complete design system (Tailwind config with all design tokens)
+- Business logic (scoring algorithm, validation schemas)
+- API integration guide (BodyGraph Chart API)
+- Architecture documentation
+- Testing strategy
+- Legal/compliance guidelines
+- Reference examples and canon data
+
+## What I Need
+
+Please help me:
+1. Set up the React Web project structure following the migration package guidelines
+2. Implement the core features using the provided business logic
+3. Integrate with the BodyGraph API using the documented patterns
+4. Apply the design system tokens to create components
+5. Follow the architecture rules (layered structure, no circular dependencies)
+
+## Key Requirements
+
+**Design System:**
+- Dark theme with lavender/purple gradients
+- Cosmic/space aesthetic with starfield backgrounds
+- All design tokens are in `design-system/tokens.ts` and `design-system/tailwind.config.js`
+
+**Business Logic:**
+- Deterministic scoring algorithm (already implemented in `business-logic/scorer.ts`)
+- Zod validation schemas (in `business-logic/schemas.ts`)
+- BodyGraph API integration with 30-day caching
+
+**Architecture:**
+- Layered structure: Screens → Components → Hooks → Store/API → Lib
+- No circular dependencies
+- Import from module index files only (no deep imports)
+- File size target: 100-200 LOC, max 500 LOC
+
+**Compliance:**
+- Always use "star system" terminology (never "house")
+- Display disclaimer: "For insight & entertainment. Not medical, financial, or legal advice."
+- Never log birth data or PII
+- Hash user identifiers in any metrics
+
+## Screens to Build
+
+1. **OnboardingScreen** - Welcome screen with "Get Started" button
+2. **InputScreen** - Birth data form (date, time, location, timezone)
+3. **ResultScreen** - Classification results with star system crest
+4. **WhyScreen** - Explanation of classification
+5. **ProfileScreen** - User profile (optional)
+6. **SettingsScreen** - App settings (optional)
+
+## API Integration
+
+**BodyGraph API:**
+- Endpoint: `https://api.bodygraphchart.com/v221006/hd-data`
+- Requires API key (stored in `.env` as `VITE_BODYGRAPH_API_KEY`)
+- Server-side proxy pattern (API key never exposed to client)
+- 30-day caching strategy
+
+**Server Setup:**
+- Node.js + Express backend
+- Proxy endpoint: `POST /api/hd`
+- In-memory caching with node-cache
+
+## Environment Variables
+
+```
+VITE_BODYGRAPH_API_KEY=your-api-key-here
+VITE_API_BASE_URL=http://localhost:3000
+VITE_CACHE_DURATION_DAYS=30
+```
+
+## Getting Started
+
+Please start by:
+1. Reading `QUICK_START.md` for the 5-minute setup
+2. Following `SETUP_CHECKLIST.md` for step-by-step instructions
+3. Referencing `MIGRATION_GUIDE.md` for detailed migration patterns
+4. Using `reference/api-examples.md` for code examples
+
+## Documentation Structure
+
+- `README.md` - Overview
+- `QUICK_START.md` - Fast setup guide
+- `SETUP_CHECKLIST.md` - Step-by-step checklist
+- `MIGRATION_GUIDE.md` - Complete migration guide
+- `design-system/` - Tailwind config and design tokens
+- `business-logic/` - Schemas, scorer, moderation
+- `api-docs/` - BodyGraph API integration
+- `architecture/` - Project structure and dependency rules
+- `testing/` - Testing strategy
+- `legal/` - Compliance guidelines
+- `reference/` - Examples and canon data
+- `tech-stack/` - Recommended dependencies
+
+## My Current Status
+
+[Tell me where you are in the process:]
+- [ ] Just starting - need project setup
+- [ ] Project created - need component implementation
+- [ ] Components done - need API integration
+- [ ] API working - need testing setup
+- [ ] Other: ___________
+
+## Questions or Issues
+
+[Describe any specific questions or issues you're facing]
+
+---
+
+**Note:** All the business logic, design tokens, and documentation are already complete in the migration package. We just need to implement the React Web UI and wire everything together following the documented patterns.
