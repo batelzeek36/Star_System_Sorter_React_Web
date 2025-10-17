@@ -66,7 +66,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Test rate limiting returns 429 when limit exceeded (curl or test stub)
   - _Requirements: 4.2, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 4.11_
 
-- [ ] 5. Create API client
+- [x] 5. Create API client
 
   - Create src/api/bodygraph-client.ts
   - Implement computeHDExtract() function with fetch to /api/hd
@@ -77,7 +77,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Implement computeHDExtractWithCache() wrapper
   - _Requirements: 4.1, 8.8, 10.1, 10.2_
 
-- [ ] 6. Create Zustand store
+- [x] 6. Create Zustand store
 
   - Create src/store/birthDataStore.ts
   - Define BirthDataState interface with date, time, location, timeZone, hdData, classification
@@ -86,7 +86,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Configure localStorage persistence with key 'birth-data-storage'
   - _Requirements: 11.7_
 
-- [ ] 7. Create custom hooks
+- [x] 7. Create custom hooks
 
   - Create src/hooks/useHDData.ts with data, loading, error, fetchHDData
   - Create src/hooks/useClassification.ts with result, loading, error, classify
