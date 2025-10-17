@@ -41,7 +41,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Test contributor label generation
   - _Requirements: 12.7_
 
-- [ ] 3. Set up Express backend server
+- [x] 3. Set up Express backend server
 
   - Create server/ directory with package.json
   - Install Express, cors, dotenv, node-cache, express-rate-limit
@@ -51,7 +51,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Create server/tsconfig.json
   - _Requirements: 4.1, 4.4, 4.11_
 
-- [ ] 4. Implement /api/hd endpoint
+- [x] 4. Implement /api/hd endpoint
 
   - Create server/src/routes/hd.ts
   - Implement POST /api/hd handler with request validation
