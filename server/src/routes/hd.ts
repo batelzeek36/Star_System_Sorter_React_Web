@@ -51,8 +51,12 @@ function extractHDData(bodyGraphResponse: any): HDExtract {
     type: props.Type?.option || '',
     authority: props.InnerAuthority?.option || '',
     profile: props.Profile?.option || '',
-    centers: props.Centers?.list?.map((c: any) => c.option) || [],
-    channels: props.Channels?.list?.map((c: any) => parseInt(c.option, 10)) || [],
+    centers: props.DefinedCenters?.list?.map((c: any) => c.option) || [],
+    channels: props.Channels?.list?.map((c: any) => {
+      // Channels are in format "13 - 33", extract first number
+      const match = c.option.match(/^(\d+)/);
+      return match ? parseInt(match[1], 10) : parseInt(c.option, 10);
+    }) || [],
     gates: props.Gates?.list?.map((g: any) => parseInt(g.option, 10)) || [],
   };
 }
@@ -93,20 +97,19 @@ router.post('/hd', async (req: Request, res: Response) => {
       return res.json(cachedData);
     }
 
-    // Call BodyGraph API
+    // Call BodyGraph API (GET request with query parameters)
     console.log('[API Call] Fetching HD data from BodyGraph API');
     
-    const bodyGraphUrl = 'https://api.bodygraphchart.com/v221006/hd-data';
+    const params = new URLSearchParams({
+      api_key: process.env.BODYGRAPH_API_KEY,
+      date: `${birthData.dateISO} ${birthData.time}`,
+      timezone: birthData.timeZone,
+    });
+    
+    const bodyGraphUrl = `https://api.bodygraphchart.com/v221006/hd-data?${params.toString()}`;
+    
     const response = await fetch(bodyGraphUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.BODYGRAPH_API_KEY}`,
-      },
-      body: JSON.stringify({
-        date: `${birthData.dateISO} ${birthData.time}`,
-        timezone: birthData.timeZone,
-      }),
+      method: 'GET',
     });
 
     if (!response.ok) {
@@ -122,6 +125,15 @@ router.post('/hd', async (req: Request, res: Response) => {
     }
 
     const bodyGraphData = await response.json();
+
+    // Check for API error response
+    if (bodyGraphData.error) {
+      console.error('[BodyGraph API Error]', bodyGraphData.error);
+      return res.status(500).json({
+        error: 'Failed to retrieve chart data',
+        message: bodyGraphData.error,
+      });
+    }
 
     // Extract HD data
     const hdExtract = extractHDData(bodyGraphData);
