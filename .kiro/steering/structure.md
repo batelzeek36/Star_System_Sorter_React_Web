@@ -1,0 +1,189 @@
+# Project Structure & Architecture
+
+## Monorepo Layout
+
+```
+/
+├── Figma/                    # Pre-built UI components from Figma
+│   ├── components/s3/        # Button, Card, Chip, Field, Crests, etc.
+│   ├── design-tokens.json    # Design system tokens
+│   ├── game-tokens.json      # Phase 2: Game-specific tokens (not used in MVP)
+│   └── globals.css           # Global CSS variables
+├── star-system-sorter/       # React web app (Vite)
+│   ├── src/
+│   │   ├── screens/          # 4 MVP screens (Onboarding, Input, Result, Why)
+│   │   ├── lib/              # Pure logic (schemas, scorer, canon)
+│   │   ├── api/              # bodygraph-client.ts
+│   │   ├── store/            # Zustand stores (birthDataStore)
+│   │   ├── hooks/            # useHDData, useClassification
+│   │   └── data/             # canon-data.yaml
+│   ├── tests/                # Vitest unit + Playwright E2E
+│   └── previews/             # Screenshot outputs
+├── server/                   # Express proxy server
+│   └── src/
+│       ├── routes/hd.ts      # POST /api/hd endpoint
+│       └── index.ts          # Server entry point
+└── migration-package/        # Reference docs from React Native version
+```
+
+## Layered Architecture
+
+**Dependency Flow** (top → bottom, never reverse):
+
+```
+Screens
+  ↓
+Components (Figma)
+  ↓
+Hooks
+  ↓
+Store / API
+  ↓
+Lib (schemas, scorer, canon)
+```
+
+**Rules**:
+- Lib cannot import from Components, Screens, Hooks, Store, or API
+- Components cannot import from Screens
+- Store and API cannot import from Components, Screens, or Hooks
+- No circular dependencies
+- Export module interfaces through `index.ts` files
+- Prohibit deep imports (use path aliases)
+
+## Path Aliases
+
+Configure in `tsconfig.json` and `vite.config.ts`:
+
+```typescript
+{
+  "@components": "./src/components",
+  "@lib": "./src/lib",
+  "@screens": "./src/screens",
+  "@api": "./src/api",
+  "@store": "./src/store",
+  "@hooks": "./src/hooks",
+  "@theme": "./src/theme"
+}
+```
+
+## File Size Guidelines
+
+- Target: 100-200 lines per file
+- Maximum: 500 lines
+- Split larger files into focused modules
+
+## Key Files
+
+### Client (star-system-sorter/src/)
+
+**Lib** (pure logic, no React):
+- `lib/schemas.ts`: Zod schemas (BirthDataFormSchema, HDExtractSchema, etc.)
+- `lib/scorer.ts`: Classification algorithm (computeClassification)
+- `lib/canon.ts`: Canon data loader and validator
+
+**API**:
+- `api/bodygraph-client.ts`: Fetch wrapper for POST /api/hd
+
+**Store**:
+- `store/birthDataStore.ts`: Zustand store for birth data and classification results
+
+**Hooks**:
+- `hooks/useHDData.ts`: Fetch HD data from API
+- `hooks/useClassification.ts`: Compute classification from HD data
+
+**Screens**:
+- `screens/OnboardingScreen.tsx`: Welcome + "Begin Sorting"
+- `screens/InputScreen.tsx`: Birth data form (React Hook Form + Zod)
+- `screens/ResultScreen.tsx`: Star system crest + percentages + allies
+- `screens/WhyScreen.tsx`: Contributors explanation
+
+### Server (server/src/)
+
+- `routes/hd.ts`: POST /api/hd endpoint with caching logic
+- `index.ts`: Express app setup with CORS, rate limiting, error handling
+
+### Figma Components
+
+Import from `/Figma/components/s3/`:
+- `Button.tsx`: Variants (primary, secondary, ghost, destructive)
+- `Card.tsx`: Variants (default, emphasis, warning)
+- `Chip.tsx`: For ally systems
+- `Field.tsx`: Form inputs
+- `StarSystemCrests.tsx`: PleiadesCrest, SiriusCrest, LyraCrest, AndromedaCrest, OrionCrest, ArcturusCrest
+- `Toast.tsx`: Error notifications
+
+## Module Boundaries
+
+**Screens**:
+- Can import: Components, Hooks, Store, API, Lib
+- Responsibility: Layout, routing, user interaction orchestration
+
+**Components**:
+- Can import: Lib (for types)
+- Responsibility: Reusable UI elements, no business logic
+
+**Hooks**:
+- Can import: Store, API, Lib
+- Responsibility: Stateful logic, side effects
+
+**Store**:
+- Can import: Lib
+- Responsibility: Global state management (Zustand)
+
+**API**:
+- Can import: Lib
+- Responsibility: HTTP requests, error handling
+
+**Lib**:
+- Can import: Nothing (pure functions)
+- Responsibility: Schemas, algorithms, data structures
+
+## Testing Structure
+
+```
+tests/
+├── lib/                      # Unit tests for schemas, scorer
+│   ├── schemas.test.ts
+│   └── scorer.test.ts
+├── components/               # Component tests (RTL)
+│   └── Field.test.tsx
+└── e2e/                      # Playwright tests
+    └── user-flow.spec.ts     # MVP: 1 smoke test
+```
+
+## Environment Variables
+
+**Client** (star-system-sorter/.env):
+```bash
+# NO API keys here! Anything with VITE_ prefix is bundled to client
+VITE_API_BASE_URL=/api  # Dev only, uses Vite proxy
+```
+
+**Server** (server/.env):
+```bash
+BODYGRAPH_API_KEY=your_key_here  # NO VITE_ prefix!
+PORT=3000
+NODE_ENV=development
+```
+
+## Deployment Structure
+
+**Development**:
+- Vite dev server: `http://localhost:5173`
+- Express server: `http://localhost:3000`
+- Vite proxy: `/api/*` → `http://localhost:3000/api/*`
+
+**Production**:
+- Static files: Vercel/Netlify CDN
+- API routes: Serverless functions (Vercel Functions / Netlify Functions)
+- Rewrites: `/api/*` → serverless function (NO Vite proxy)
+- Environment: `BODYGRAPH_API_KEY` set in platform dashboard
+
+## Build Outputs
+
+```
+star-system-sorter/dist/      # Vite build output (static files)
+server/dist/                  # TypeScript compiled output (Node.js)
+previews/                     # Playwright screenshots
+coverage/                     # Vitest coverage reports
+```
