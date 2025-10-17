@@ -45,15 +45,15 @@ function generateCacheKey(data: BirthDataAPIRequest): string {
  * Extract HD data from BodyGraph API response
  */
 function extractHDData(bodyGraphResponse: any): HDExtract {
-  const { data } = bodyGraphResponse;
+  const props = bodyGraphResponse.Properties || {};
   
   return {
-    type: data.type || '',
-    authority: data.authority || '',
-    profile: data.profile || '',
-    centers: data.centers || [],
-    channels: data.channels || [],
-    gates: data.gates || [],
+    type: props.Type?.option || '',
+    authority: props.InnerAuthority?.option || '',
+    profile: props.Profile?.option || '',
+    centers: props.Centers?.list?.map((c: any) => c.option) || [],
+    channels: props.Channels?.list?.map((c: any) => parseInt(c.option, 10)) || [],
+    gates: props.Gates?.list?.map((g: any) => parseInt(g.option, 10)) || [],
   };
 }
 
@@ -96,7 +96,7 @@ router.post('/hd', async (req: Request, res: Response) => {
     // Call BodyGraph API
     console.log('[API Call] Fetching HD data from BodyGraph API');
     
-    const bodyGraphUrl = 'https://api.bodygraphchart.com/v1/chart';
+    const bodyGraphUrl = 'https://api.bodygraphchart.com/v221006/hd-data';
     const response = await fetch(bodyGraphUrl, {
       method: 'POST',
       headers: {
@@ -104,13 +104,8 @@ router.post('/hd', async (req: Request, res: Response) => {
         'Authorization': `Bearer ${process.env.BODYGRAPH_API_KEY}`,
       },
       body: JSON.stringify({
-        date: birthData.dateISO,
-        time: birthData.time,
+        date: `${birthData.dateISO} ${birthData.time}`,
         timezone: birthData.timeZone,
-        ...(birthData.lat && birthData.lon && {
-          lat: birthData.lat,
-          lon: birthData.lon,
-        }),
       }),
     });
 
