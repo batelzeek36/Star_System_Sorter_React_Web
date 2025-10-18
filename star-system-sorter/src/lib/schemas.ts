@@ -118,6 +118,7 @@ export const ClassificationResultSchema = z.object({
   allies: z.array(AllySchema),
   percentages: z.record(z.string(), z.number()),
   contributorsPerSystem: z.record(z.string(), z.array(z.string())),
+  contributorsWithWeights: z.record(z.string(), z.array(ContributorSchema)),
   meta: z.object({
     canonVersion: z.string(),
     canonChecksum: z.string(),

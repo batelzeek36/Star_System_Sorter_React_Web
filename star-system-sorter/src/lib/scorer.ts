@@ -43,6 +43,7 @@ export interface ClassificationResult {
   allies: Array<{ system: string; percentage: number }>;
   percentages: Record<string, number>;
   contributorsPerSystem: Record<string, string[]>;
+  contributorsWithWeights: Record<string, Contributor[]>;
   meta: {
     canonVersion: string;
     canonChecksum: string;
@@ -239,10 +240,12 @@ export function classify(
 
   const percentages: Record<string, number> = {};
   const contributorsPerSystem: Record<string, string[]> = {};
+  const contributorsWithWeights: Record<string, Contributor[]> = {};
 
   scores.forEach(s => {
     percentages[s.system] = s.percentage;
     contributorsPerSystem[s.system] = s.contributors.map(c => c.label);
+    contributorsWithWeights[s.system] = s.contributors;
   });
 
   return {
@@ -252,6 +255,7 @@ export function classify(
     allies,
     percentages,
     contributorsPerSystem,
+    contributorsWithWeights,
     meta: {
       canonVersion: canon.version,
       canonChecksum: 'computed-at-runtime',
