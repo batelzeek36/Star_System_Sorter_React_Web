@@ -2,45 +2,51 @@
 
 ## Phase 0: Repository & CI Setup
 
-- [ ] 0. Prepare repository and CI pipeline
-- [ ] 0.1 Pin Node version
+- [x] 0. Prepare repository and CI pipeline
+- [x] 0.1 Pin Node version
+
   - Create .nvmrc with Node ≥18
   - Update CI configuration to use Node ≥18
   - _Requirements: 16.1_
 
-- [ ] 0.2 Add essential npm scripts
+- [x] 0.2 Add essential npm scripts
+
   - Add "compile:lore": "tsx scripts/compile-lore.ts"
   - Add "typecheck": "tsc -p tsconfig.json --noEmit"
   - Ensure "lint": "eslint ." exists
   - _Requirements: 16.1, 16.2_
 
-- [ ] 0.3 Set up pre-commit hooks
+- [x] 0.3 Set up pre-commit hooks
+
   - Configure pre-commit to run lint, typecheck, and fast unit tests
   - _Requirements: 16.4_
 
-- [ ] 0.4 Update CI pipeline
+- [x] 0.4 Update CI pipeline
   - Add npm run compile:lore before build and tests in CI
   - Ensure CI runs typecheck and lint
   - _Requirements: 16.4, 16.5_
 
 ## Phase 1: Foundation & Data Layer
 
-- [ ] 1. Set up lore data structure and compiler
-- [ ] 1.1 Move lore.yaml to data/lore/lore.yaml
+- [x] 1. Set up lore data structure and compiler
+- [x] 1.1 Move lore.yaml to data/lore/lore.yaml
+
   - Create data/lore/ directory
   - Move lore.yaml from workspace root
   - Update .gitignore if needed
   - _Requirements: 14.1, 14.2_
 
-- [ ] 1.2 Create lore bundle TypeScript interfaces
+- [x] 1.2 Create lore bundle TypeScript interfaces
+
   - Define LoreSource, LoreRule, LoreSystem, LoreBundle interfaces in src/lib/schemas.ts
   - Add Zod schemas for validation
   - Export types for use in compiler and scorer
   - _Requirements: 1.2, 1.3_
 
-- [ ] 1.3 Implement lore compiler script
+- [x] 1.3 Implement lore compiler script
+
   - Create scripts/compile-lore.ts
-  - Read data/lore/*.yaml files (support multiple files)
+  - Read data/lore/\*.yaml files (support multiple files)
   - Dedup policy: fail with readable error on duplicate IDs (no silent last-writer-wins)
   - Validate with Zod schemas (enforce id format: ^[a-z0-9_]+$, channelsAny: string[] only)
   - Sort systems/sources/rules alphabetically by ID
@@ -50,14 +56,15 @@
   - Emit dev banner if bundle missing (for Why/Dossier friendly alert)
   - _Requirements: 1.1, 1.6, 1.7, 1.9_
 
-- [ ] 1.4 Integrate compiler into build pipeline
+- [x] 1.4 Integrate compiler into build pipeline
+
   - Add "compile:lore": "tsx scripts/compile-lore.ts" to package.json
   - Add "predev": "npm run compile:lore" to package.json
   - Add "prebuild": "npm run compile:lore" to package.json
   - Test that dev server runs compiler automatically
   - _Requirements: 1.8, 16.1, 16.2, 16.3_
 
-- [ ] 1.5 Write unit tests for lore compiler
+- [x] 1.5 Write unit tests for lore compiler
   - Test bundle structure validation
   - Test rules_hash stability (same input → same hash)
   - Test source lookup by ID
@@ -67,30 +74,35 @@
 ## Phase 2: Enhanced Classification
 
 - [ ] 2. Enhance scorer with provenance metadata
-- [ ] 2.1 Update scorer to import lore bundle
+- [x] 2.1 Update scorer to import lore bundle
+
   - Import loreBundle from ./lore.bundle in src/lib/scorer.ts
   - Match HD attributes to lore rules
   - Create EnhancedContributor interface with ruleId, rationale, sources, confidence
   - _Requirements: 2.1, 2.2, 2.5_
 
-- [ ] 2.2 Implement deterministic percentage rounding
+- [x] 2.2 Implement deterministic percentage rounding
+
   - Implement largest remainder (Hamilton) rounding algorithm
   - Round to 2 decimal places
   - Ensure percentages sum to exactly 100.00
   - _Requirements: 2.7_
 
-- [ ] 2.3 Add input hash and rules hash to classification meta
+- [x] 2.3 Add input hash and rules hash to classification meta
+
   - Compute input_hash from normalized HD data (sorted arrays)
   - Add lore_version, rules_hash, input_hash to meta object
   - Maintain backward compatibility with deprecated fields
   - _Requirements: 2.6_
 
-- [ ] 2.4 Update hybrid classification logic
+- [x] 2.4 Update hybrid classification logic
+
   - Implement hybrid rule: |p1 - p2| ≤ tieThresholdPct
   - Ensure deterministic tie-breaking
   - _Requirements: 2.8_
 
-- [ ] 2.5 Write unit tests for enhanced scorer
+- [x] 2.5 Write unit tests for enhanced scorer
+
   - Property test: percentage rounding via largest remainder sums to 100.00 (1k randomized vectors)
   - Test input hash stability (same HD data → same hash)
   - Test enhanced contributor output includes all required fields
@@ -98,7 +110,7 @@
   - Test synergy multiplier path (if applicable)
   - _Requirements: 2.7, 2.8_
 
-- [ ] 2.6 Add rules_hash mismatch detection
+- [x] 2.6 Add rules_hash mismatch detection
   - Persist meta.rules_hash in birthDataStore
   - On classification load, compare persisted rules_hash with current loreBundle.rules_hash
   - If mismatch, show "Recompute with new lore" banner/button
@@ -119,6 +131,7 @@
 
 - [ ] 4. Build SourceBadge component
 - [ ] 4.1 Create SourceBadge component
+
   - Create src/components/lore/SourceBadge.tsx
   - Accept sourceId and showTooltip props
   - Look up source from loreBundle.sources
@@ -130,10 +143,11 @@
 
 - [ ] 5. Build ContributionCard component
 - [ ] 5.1 Create ContributionCard component
+
   - Create src/components/lore/ContributionCard.tsx
   - Accept contributor, totalWeight, systemId props
   - Compose from Figma Card, Chip, Button components
-  - Display percentage bar showing (weight / totalWeight) * 100
+  - Display percentage bar showing (weight / totalWeight) \* 100
   - Show rationale text from lore rule
   - Render SourceBadge components for each source
   - Display confidence level as filled/empty dots (●●○○○)
@@ -142,6 +156,7 @@
 
 - [ ] 6. Build SystemSummary component
 - [ ] 6.1 Create SystemSummary component
+
   - Create src/components/lore/SystemSummary.tsx
   - Accept classification prop
   - Compose from Figma Card (emphasis variant) and Chip components
@@ -167,39 +182,46 @@
 
 - [ ] 8. Refactor Why screen with enhanced features
 - [ ] 8.1 Add SystemSummary to Why screen
+
   - Import and render SystemSummary component at top of WhyScreen
   - Pass classification from birthDataStore
   - _Requirements: 8.1_
 
 - [ ] 8.2 Implement tabbed navigation for star systems
+
   - Add tabs for Primary and Ally star systems
   - Set default active tab to primary system
   - Update displayed contributors when tab changes
   - _Requirements: 8.2_
 
 - [ ] 8.3 Integrate filters from UI store
+
   - Connect hideDisputed and minConfidence from uiStore
   - Filter contributors based on disputed sources and confidence level
   - Memoize filtered contributors for performance
   - _Requirements: 8.4, 8.9_
 
 - [ ] 8.4 Render ContributionCard list
+
   - Map filtered contributors to ContributionCard components
   - Sort by weight descending
   - Pass totalWeight for percentage calculation
   - _Requirements: 8.3_
 
 - [ ] 8.5 Add empty state for filtered results
+
   - Show "Nothing matches your filters." card when filteredContributors.length === 0
   - Suggest adjusting filter preferences
   - _Requirements: 8.8_
 
 - [ ] 8.6 Add footer with lore version and disclaimer
+
   - Display "Lore v{lore_version} • Deterministic rules engine. For insight & entertainment."
   - Use hybrid copy format: "Hybrid: Pleiades + Sirius (Δ 3.2%)" for hybrid classifications
   - _Requirements: 8.5_
 
 - [ ] 8.7 Implement list virtualization for large contributor lists
+
   - Add @tanstack/react-virtual dependency if needed
   - Implement virtualization when contributors > 75
   - _Requirements: 8.9_
@@ -213,6 +235,7 @@
 
 - [ ] 9. Create Dossier screen with all sections
 - [ ] 9.1 Create DossierScreen component skeleton
+
   - Create src/screens/DossierScreen.tsx
   - Add lazy-loaded route in src/App.tsx: /dossier
   - Set up basic layout with starfield background
@@ -220,6 +243,7 @@
   - _Requirements: 9.1, 9.2, 9.10_
 
 - [ ] 9.2 Implement Identity Snapshot section
+
   - Display type, authority, profile from hdData
   - List defined centers
   - Compute signature channel: highest-weight channel rule; tie-break by lower channel number, then alphabetical
@@ -227,12 +251,14 @@
   - _Requirements: 9.3, 9.12_
 
 - [ ] 9.3 Implement One-Line Verdict section
+
   - Format verdict based on primary/hybrid classification
   - Include system descriptions from lore bundle
   - Use emphasis Card variant
   - _Requirements: 9.4_
 
 - [ ] 9.4 Implement "Why Not" panel
+
   - Compute next 1-2 systems by score (skip hybrid pair if applicable)
   - Find top 3 unmatched rules for each system
   - Sort unmatched rules by: weight desc → confidence desc → ID asc
@@ -240,16 +266,19 @@
   - _Requirements: 9.5, 9.11_
 
 - [ ] 9.5 Implement Deployment Matrix section
+
   - Rank all systems by percentage
   - Display table with columns: Rank (Primary/Secondary/Tertiary), System, Alignment %, Role (description)
   - _Requirements: 9.6_
 
 - [ ] 9.6 Implement Gate→Faction Grid section
+
   - Reuse EvidenceMatrix component
   - Pass all contributors and active system ID
   - _Requirements: 9.7_
 
 - [ ] 9.7 Implement Sources Gallery section
+
   - Deduplicate sources by ID from all contributors
   - Render SourceBadge components with tooltips
   - Sort alphabetically by title
@@ -266,10 +295,12 @@
 
 - [ ] 10. Implement export actions for Dossier
 - [ ] 10.1 Add html-to-image dependency
+
   - Install html-to-image@^1.11.11
   - _Requirements: 10.2_
 
 - [ ] 10.2 Implement PNG export
+
   - Add "Export PNG" button with primary variant
   - Use html-to-image toPng function
   - Target 1080×1920 resolution (or current viewport)
@@ -279,11 +310,13 @@
   - _Requirements: 10.1, 10.2, 10.3, 10.8_
 
 - [ ] 10.3 Implement Print/PDF functionality
+
   - Add "Print/PDF" button with secondary variant
   - Trigger browser print dialog on click
   - _Requirements: 10.4, 10.5_
 
 - [ ] 10.4 Add print-specific CSS
+
   - Create @media print styles
   - Disable animations and transitions
   - Improve text contrast for readability
@@ -311,6 +344,7 @@
 
 - [ ] 12. Organize project files
 - [ ] 12.1 Move prompt2.md to spec directory
+
   - Move prompt2.md to .kiro/specs/why-2-dossier/prompt.md
   - _Requirements: 14.2_
 
@@ -323,6 +357,7 @@
 
 - [ ] 13. Write E2E tests for Why 2.0
 - [ ] 13.1 Create why.spec.ts
+
   - Create tests/e2e/why.spec.ts
   - Test: Navigate to /why after completing classification
   - Test: Toggle "Hide disputed" filter
@@ -333,6 +368,7 @@
 
 - [ ] 14. Write E2E tests for Dossier
 - [ ] 14.1 Create dossier.spec.ts
+
   - Create tests/e2e/dossier.spec.ts
   - Test: Navigate to /dossier after completing classification
   - Test: Verify Identity Snapshot section is visible
@@ -355,6 +391,7 @@
 
 - [ ] 16. Implement accessibility features
 - [ ] 16.1 Verify keyboard accessibility
+
   - Test all tooltips are keyboard-reachable
   - Verify tab order: filters → tabs → cards
   - Test Escape key closes expanded cards
@@ -362,12 +399,14 @@
   - _Requirements: 15.1_
 
 - [ ] 16.2 Add reduced motion support
+
   - Implement @media (prefers-reduced-motion: reduce) styles
   - Disable animations for contribution cards and starfield
   - Ensure no animations flash >3 Hz
   - _Requirements: 15.2, 15.3_
 
 - [ ] 16.3 Verify disclaimers on all screens
+
   - Confirm insight/entertainment disclaimer on Why screen
   - Confirm disclaimer on Dossier screen
   - _Requirements: 15.4_
@@ -381,34 +420,40 @@
 
 - [ ] 17. Verify no breaking changes
 - [ ] 17.1 Verify TypeScript compilation
+
   - Run npm run build
   - Ensure zero TypeScript errors
   - _Requirements: 17.4_
 
 - [ ] 17.2 Verify CSS tokens
+
   - Audit all new components for color usage
   - Ensure only existing Tailwind tokens are used
   - Verify no new hex color values
   - _Requirements: 17.5_
 
 - [ ] 17.3 Verify file sizes
+
   - Check all new files are ≤300 LOC where possible
   - Refactor any files exceeding limit
   - _Requirements: 17.6_
 
 - [ ] 17.4 Run full test suite
+
   - Run npm run test (unit tests)
   - Run npm run test:e2e (E2E tests)
   - Verify all tests pass
   - _Requirements: 17.3_
 
 - [ ] 17.5 Verify all routes work
+
   - Test navigation: / → /input → /result → /why → /dossier
   - Verify back navigation works
   - Confirm lazy loading works for Dossier
   - _Requirements: 17.2_
 
 - [ ] 17.6 Performance audit
+
   - Verify Why 2.0 renders in <50ms
   - Verify Dossier renders in <200ms
   - Check bundle size increase is <50KB gzipped
@@ -423,12 +468,14 @@
 
 - [ ] 18. Add documentation and manual QA
 - [ ] 18.1 Update README
+
   - Add section: "How to add/modify lore"
   - Add section: "How the compiler validates"
   - Add section: "How to run tests"
   - _Requirements: 17.1_
 
 - [ ] 18.2 Manual QA script
+
   - Test full flow: / → /input → /result → /why → /dossier
   - Test back navigation
   - Test print to PDF
@@ -437,7 +484,7 @@
   - Test on mobile viewport
   - _Requirements: 17.5_
 
-- [ ]* 18.3 Optional: Dev CLI for classification
+- [ ]\* 18.3 Optional: Dev CLI for classification
   - Add npm script: classify -- --date YYYY-MM-DD --time HH:MM --tz TIMEZONE
   - Prints classification JSON to console
   - Useful for debugging lore rules

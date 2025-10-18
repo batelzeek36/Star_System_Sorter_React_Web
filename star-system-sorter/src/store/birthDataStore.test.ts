@@ -22,6 +22,7 @@ describe('birthDataStore', () => {
     expect(state.timeZone).toBe('');
     expect(state.hdData).toBeNull();
     expect(state.classification).toBeNull();
+    expect(state.persistedRulesHash).toBeNull();
   });
 
   it('should set birth data', () => {
@@ -140,5 +141,51 @@ describe('birthDataStore', () => {
     expect(state.timeZone).toBe('');
     expect(state.hdData).toBeNull();
     expect(state.classification).toBeNull();
+    expect(state.persistedRulesHash).toBeNull();
+  });
+
+  it('should persist rules_hash when setting classification', () => {
+    const { setClassification } = useBirthDataStore.getState();
+
+    const mockClassification: ClassificationResult = {
+      classification: 'primary',
+      primary: 'Pleiades',
+      allies: [],
+      percentages: {},
+      contributorsPerSystem: {},
+      contributorsWithWeights: {},
+      meta: {
+        canonVersion: '1.0.0',
+        canonChecksum: 'abc123',
+        rules_hash: 'test_hash_12345',
+      },
+    };
+
+    setClassification(mockClassification);
+
+    const state = useBirthDataStore.getState();
+    expect(state.persistedRulesHash).toBe('test_hash_12345');
+  });
+
+  it('should handle classification without rules_hash', () => {
+    const { setClassification } = useBirthDataStore.getState();
+
+    const mockClassification: ClassificationResult = {
+      classification: 'primary',
+      primary: 'Pleiades',
+      allies: [],
+      percentages: {},
+      contributorsPerSystem: {},
+      contributorsWithWeights: {},
+      meta: {
+        canonVersion: '1.0.0',
+        canonChecksum: 'abc123',
+      },
+    };
+
+    setClassification(mockClassification);
+
+    const state = useBirthDataStore.getState();
+    expect(state.persistedRulesHash).toBeNull();
   });
 });

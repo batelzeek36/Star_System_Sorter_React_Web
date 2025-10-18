@@ -95,6 +95,18 @@ export const ContributorSchema = z.object({
 
 export type Contributor = z.infer<typeof ContributorSchema>;
 
+export const EnhancedContributorSchema = z.object({
+  ruleId: z.string(),
+  key: z.string(),
+  weight: z.number(),
+  label: z.string(),
+  rationale: z.string(),
+  sources: z.array(z.string()),
+  confidence: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]),
+});
+
+export type EnhancedContributor = z.infer<typeof EnhancedContributorSchema>;
+
 export const SystemScoreSchema = z.object({
   system: z.string(),
   rawScore: z.number(),
@@ -119,9 +131,13 @@ export const ClassificationResultSchema = z.object({
   percentages: z.record(z.string(), z.number()),
   contributorsPerSystem: z.record(z.string(), z.array(z.string())),
   contributorsWithWeights: z.record(z.string(), z.array(ContributorSchema)),
+  enhancedContributorsWithWeights: z.record(z.string(), z.array(EnhancedContributorSchema)).optional(),
   meta: z.object({
     canonVersion: z.string(),
     canonChecksum: z.string(),
+    lore_version: z.string().optional(),
+    rules_hash: z.string().optional(),
+    input_hash: z.string().optional(),
   }),
 });
 
@@ -157,3 +173,75 @@ export function parse<T>(
     throw error;
   }
 }
+
+// ============================================================================
+// Lore Bundle Schemas (Why 2.0 + Dossier)
+// ============================================================================
+
+/**
+ * Lore System Schema
+ * Represents a star system in the lore bundle
+ */
+export const LoreSystemSchema = z.object({
+  id: z.string().regex(/^[A-Z_]+$/, 'System ID must be uppercase letters and underscores'),
+  label: z.string().min(1, 'System label is required'),
+  description: z.string().min(1, 'System description is required'),
+});
+
+export type LoreSystem = z.infer<typeof LoreSystemSchema>;
+
+/**
+ * Lore Source Schema
+ * Represents a source citation in the lore bundle
+ */
+export const LoreSourceSchema = z.object({
+  id: z.string().regex(/^[a-z0-9_-]+$/, 'Source ID must be lowercase letters, numbers, hyphens, and underscores'),
+  title: z.string().min(1, 'Source title is required'),
+  author: z.string().min(1, 'Source author is required'),
+  year: z.number().int().min(1900).max(2100),
+  disputed: z.boolean(),
+  url: z.string().url().optional(),
+});
+
+export type LoreSource = z.infer<typeof LoreSourceSchema>;
+
+/**
+ * Lore Rule Schema
+ * Represents a classification rule in the lore bundle
+ */
+export const LoreRuleSchema = z.object({
+  id: z.string().regex(/^[a-z0-9_]+$/, 'Rule ID must be lowercase letters, numbers, and underscores'),
+  systems: z.array(z.object({
+    id: z.string(),
+    w: z.number().positive(),
+  })).min(1, 'Rule must have at least one system'),
+  if: z.object({
+    typeAny: z.array(z.string()).optional(),
+    authorityAny: z.array(z.string()).optional(),
+    profileAny: z.array(z.string()).optional(),
+    centersAny: z.array(z.string()).optional(),
+    channelsAny: z.array(z.string()).optional(),
+    gatesAny: z.array(z.number()).optional(),
+  }),
+  rationale: z.string().min(1, 'Rule rationale is required'),
+  sources: z.array(z.string()).min(1, 'Rule must have at least one source'),
+  confidence: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4), z.literal(5)]),
+  synergy: z.boolean().optional(),
+});
+
+export type LoreRule = z.infer<typeof LoreRuleSchema>;
+
+/**
+ * Lore Bundle Schema
+ * Complete compiled lore data structure
+ */
+export const LoreBundleSchema = z.object({
+  lore_version: z.string().min(1, 'Lore version is required'),
+  tieThresholdPct: z.number().positive(),
+  rules_hash: z.string().min(1, 'Rules hash is required'),
+  systems: z.array(LoreSystemSchema).min(1, 'Bundle must have at least one system'),
+  sources: z.array(LoreSourceSchema).min(1, 'Bundle must have at least one source'),
+  rules: z.array(LoreRuleSchema).min(1, 'Bundle must have at least one rule'),
+});
+
+export type LoreBundle = z.infer<typeof LoreBundleSchema>;

@@ -24,6 +24,9 @@ export interface BirthDataState {
   hdData: HDExtract | null;
   classification: ClassificationResult | null;
   
+  // Lore version tracking
+  persistedRulesHash: string | null;
+  
   // Actions
   setData: (data: {
     date: string;
@@ -47,6 +50,7 @@ const initialState = {
   timeZone: '',
   hdData: null,
   classification: null,
+  persistedRulesHash: null,
 };
 
 // ============================================================================
@@ -67,7 +71,11 @@ export const useBirthDataStore = create<BirthDataState>()(
       
       setHDData: (hdData) => set({ hdData }),
       
-      setClassification: (classification) => set({ classification }),
+      setClassification: (classification) => set({
+        classification,
+        // Persist rules_hash from classification meta
+        persistedRulesHash: classification.meta?.rules_hash || null,
+      }),
       
       clear: () => set(initialState),
     }),

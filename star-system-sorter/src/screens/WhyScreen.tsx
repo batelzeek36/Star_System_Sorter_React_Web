@@ -1,7 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '@/store/birthDataStore';
+import { useLoreVersionCheck } from '@/hooks/useLoreVersionCheck';
+import { useClassification } from '@/hooks/useClassification';
 import { Card } from '@/components/figma/Card';
-import { Star, Scroll, Activity, Circle, User, Zap } from 'lucide-react';
+import { Button } from '@/components/figma/Button';
+import { Star, Scroll, Activity, Circle, User, Zap, AlertCircle } from 'lucide-react';
 
 // Starfield component
 const Starfield = () => (
@@ -55,12 +58,20 @@ export default function WhyScreen() {
   const navigate = useNavigate();
   const classification = useBirthDataStore((state) => state.classification);
   const hdData = useBirthDataStore((state) => state.hdData);
+  const loreVersionStatus = useLoreVersionCheck();
+  const { recompute, isLoading } = useClassification();
 
   // Redirect to input if no classification or HD data
   if (!classification || !hdData) {
     navigate('/input');
     return null;
   }
+
+  // Handle recompute with new lore
+  const handleRecompute = async () => {
+    if (!hdData) return;
+    await recompute(hdData);
+  };
 
   // Determine primary system name
   const primarySystem = classification.classification === 'hybrid' && classification.hybrid
@@ -121,6 +132,35 @@ export default function WhyScreen() {
             Deterministic sort contributors
           </p>
         </div>
+
+        {/* Lore Version Mismatch Banner */}
+        {loreVersionStatus.hasChanged && (
+          <div className="mb-6">
+            <Card variant="warning">
+              <div className="flex items-start gap-3">
+                <AlertCircle className="w-5 h-5 text-[var(--s3-gold-400)] flex-shrink-0 mt-0.5" />
+                <div className="flex-1">
+                  <p className="text-sm text-[var(--s3-lavender-200)] mb-2">
+                    Lore rules have been updated
+                  </p>
+                  <p className="text-xs text-[var(--s3-text-subtle)] mb-3">
+                    Your classification was computed with an older version of the lore rules. 
+                    Recompute to see results with the latest lore (v{loreVersionStatus.currentVersion}).
+                  </p>
+                  <Button
+                    variant="primary"
+                    size="sm"
+                    onClick={handleRecompute}
+                    disabled={isLoading}
+                    className="w-full"
+                  >
+                    {isLoading ? 'Recomputing...' : 'Recompute with new lore'}
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </div>
+        )}
 
         {/* Core HD Attributes Section */}
         <div className="mb-6">

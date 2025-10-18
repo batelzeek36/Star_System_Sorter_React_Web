@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: star-system-sorter/package-lock.json
+      
+      - name: Install dependencies
+        working-directory: star-system-sorter
+        run: npm ci
+      
+      - name: Compile lore
+        working-directory: star-system-sorter
+        run: npm run compile:lore
+      
+      - name: Type check
+        working-directory: star-system-sorter
+        run: npm run typecheck
+      
+      - name: Lint
+        working-directory: star-system-sorter
+        run: npm run lint
+      
+      - name: Run unit tests
+        working-directory: star-system-sorter
+        run: npm run test -- --run
+      
+      - name: Build
+        working-directory: star-system-sorter
+        run: npm run build

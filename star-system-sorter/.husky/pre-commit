@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd star-system-sorter
+npm run lint
+npm run typecheck
+npm run test -- --run --reporter=basic

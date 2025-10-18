@@ -6,6 +6,61 @@
  * based on their Human Design birth chart data.
  */
 
+import { loreBundle } from './lore.bundle';
+import type { LoreRule } from './schemas';
+
+/**
+ * Compute SHA-256 hash of a string
+ * Returns first 16 characters for brevity
+ */
+function computeHash(input: string): string {
+  // Use browser's SubtleCrypto API if available, otherwise use a simple hash
+  if (typeof crypto !== 'undefined' && crypto.subtle) {
+    // For browser environment, we'll use a synchronous fallback
+    // since SubtleCrypto is async
+    return simpleHash(input);
+  }
+  return simpleHash(input);
+}
+
+/**
+ * Simple deterministic hash function for input data
+ * Returns first 16 characters
+ */
+function simpleHash(str: string): string {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash; // Convert to 32-bit integer
+  }
+  // Convert to hex and pad to 16 characters
+  const hex = Math.abs(hash).toString(16).padStart(8, '0');
+  return (hex + hex).substring(0, 16);
+}
+
+/**
+ * Compute input hash from normalized HD data
+ * Normalizes by sorting arrays to ensure deterministic output
+ */
+function computeInputHash(extract: HDExtract): string {
+  // Create normalized version with sorted arrays
+  const normalized = {
+    type: extract.type || '',
+    authority: extract.authority || '',
+    profile: extract.profile || '',
+    centers: [...(extract.centers || [])].sort(),
+    channels: [...(extract.channels || [])].sort((a, b) => a - b),
+    gates: [...(extract.gates || [])].sort((a, b) => a - b),
+  };
+  
+  // Convert to stable JSON string
+  const jsonStr = JSON.stringify(normalized);
+  
+  // Compute hash
+  return computeHash(jsonStr);
+}
+
 export interface HDExtract {
   type: string;
   authority: string;
@@ -29,11 +84,26 @@ export interface Contributor {
   label: string;
 }
 
+/**
+ * Enhanced Contributor with provenance metadata
+ * Includes rule ID, rationale, sources, and confidence level
+ */
+export interface EnhancedContributor {
+  ruleId: string;
+  key: string;
+  weight: number;
+  label: string;
+  rationale: string;
+  sources: string[];  // source IDs
+  confidence: 1 | 2 | 3 | 4 | 5;
+}
+
 export interface SystemScore {
   system: string;
   rawScore: number;
   percentage: number;
   contributors: Contributor[];
+  enhancedContributors?: EnhancedContributor[];
 }
 
 export interface ClassificationResult {
@@ -44,10 +114,114 @@ export interface ClassificationResult {
   percentages: Record<string, number>;
   contributorsPerSystem: Record<string, string[]>;
   contributorsWithWeights: Record<string, Contributor[]>;
+  enhancedContributorsWithWeights?: Record<string, EnhancedContributor[]>;
   meta: {
     canonVersion: string;
     canonChecksum: string;
+    lore_version?: string;
+    rules_hash?: string;
+    input_hash?: string;
   };
+}
+
+/**
+ * Match HD attributes to lore rules
+ * Returns array of matched rules with their system weights
+ */
+function matchLoreRules(extract: HDExtract): Array<{
+  rule: LoreRule;
+  matchedAttribute: string;
+  attributeType: string;
+}> {
+  const matches: Array<{
+    rule: LoreRule;
+    matchedAttribute: string;
+    attributeType: string;
+  }> = [];
+
+  loreBundle.rules.forEach(rule => {
+    // Check type match
+    if (rule.if.typeAny && extract.type) {
+      const normalizedType = extract.type;
+      if (rule.if.typeAny.includes(normalizedType)) {
+        matches.push({
+          rule,
+          matchedAttribute: normalizedType,
+          attributeType: 'type',
+        });
+      }
+    }
+
+    // Check authority match
+    if (rule.if.authorityAny && extract.authority) {
+      const normalizedAuthority = extract.authority;
+      if (rule.if.authorityAny.includes(normalizedAuthority)) {
+        matches.push({
+          rule,
+          matchedAttribute: normalizedAuthority,
+          attributeType: 'authority',
+        });
+      }
+    }
+
+    // Check profile match
+    if (rule.if.profileAny && extract.profile) {
+      if (rule.if.profileAny.includes(extract.profile)) {
+        matches.push({
+          rule,
+          matchedAttribute: extract.profile,
+          attributeType: 'profile',
+        });
+      }
+    }
+
+    // Check centers match
+    if (rule.if.centersAny && extract.centers && extract.centers.length > 0) {
+      rule.if.centersAny.forEach(ruleCenter => {
+        if (extract.centers.includes(ruleCenter)) {
+          matches.push({
+            rule,
+            matchedAttribute: ruleCenter,
+            attributeType: 'center',
+          });
+        }
+      });
+    }
+
+    // Check channels match
+    if (rule.if.channelsAny && extract.channels && extract.channels.length > 0) {
+      rule.if.channelsAny.forEach(ruleChannel => {
+        // Parse channel string (e.g., "13-33") to check against numeric channels
+        const channelParts = ruleChannel.split('-').map(Number);
+        if (channelParts.length === 2) {
+          const [gate1, gate2] = channelParts;
+          // Check if both gates of the channel are present
+          if (extract.gates.includes(gate1) && extract.gates.includes(gate2)) {
+            matches.push({
+              rule,
+              matchedAttribute: ruleChannel,
+              attributeType: 'channel',
+            });
+          }
+        }
+      });
+    }
+
+    // Check gates match
+    if (rule.if.gatesAny && extract.gates && extract.gates.length > 0) {
+      rule.if.gatesAny.forEach(ruleGate => {
+        if (extract.gates.includes(ruleGate)) {
+          matches.push({
+            rule,
+            matchedAttribute: String(ruleGate),
+            attributeType: 'gate',
+          });
+        }
+      });
+    }
+  });
+
+  return matches;
 }
 
 /**
@@ -90,6 +264,28 @@ function generateAttributeKeys(extract: HDExtract): string[] {
 }
 
 /**
+ * Create human-readable label from attribute type and value
+ */
+function createLabelFromAttribute(attributeType: string, attributeValue: string): string {
+  switch (attributeType) {
+    case 'type':
+      return `Type: ${attributeValue}`;
+    case 'authority':
+      return `Authority: ${attributeValue}`;
+    case 'profile':
+      return `Profile: ${attributeValue}`;
+    case 'center':
+      return `Center: ${attributeValue}`;
+    case 'channel':
+      return `Channel: ${attributeValue}`;
+    case 'gate':
+      return `Gate: ${attributeValue}`;
+    default:
+      return attributeValue;
+  }
+}
+
+/**
  * Create human-readable label from attribute key
  */
 function createLabel(key: string): string {
@@ -125,6 +321,45 @@ function createLabel(key: string): string {
 }
 
 /**
+ * Create enhanced contributors from matched lore rules
+ * Maps each matched rule to contributors for each system it affects
+ */
+function createEnhancedContributors(
+  matches: Array<{
+    rule: LoreRule;
+    matchedAttribute: string;
+    attributeType: string;
+  }>
+): Record<string, EnhancedContributor[]> {
+  const contributorsBySystem: Record<string, EnhancedContributor[]> = {};
+
+  matches.forEach(({ rule, matchedAttribute, attributeType }) => {
+    // Each rule can contribute to multiple systems
+    rule.systems.forEach(systemWeight => {
+      const systemId = systemWeight.id;
+      
+      if (!contributorsBySystem[systemId]) {
+        contributorsBySystem[systemId] = [];
+      }
+
+      const contributor: EnhancedContributor = {
+        ruleId: rule.id,
+        key: `${attributeType}_${matchedAttribute}`,
+        weight: systemWeight.w,
+        label: createLabelFromAttribute(attributeType, matchedAttribute),
+        rationale: rule.rationale,
+        sources: rule.sources,
+        confidence: rule.confidence,
+      };
+
+      contributorsBySystem[systemId].push(contributor);
+    });
+  });
+
+  return contributorsBySystem;
+}
+
+/**
  * Compute raw score for a single system
  */
 function computeSystemScore(
@@ -146,7 +381,8 @@ function computeSystemScore(
 }
 
 /**
- * Normalize scores to percentages with 0.1% precision
+ * Normalize scores to percentages using largest remainder (Hamilton) method
+ * Ensures percentages sum to exactly 100.00 with 2 decimal places
  */
 function normalizeScores(
   scores: Array<{ system: string; rawScore: number }>
@@ -159,13 +395,101 @@ function normalizeScores(
     return percentages;
   }
 
-  const percentages: Record<string, number> = {};
-  scores.forEach(s => {
-    const pct = (s.rawScore / totalScore) * 100;
-    percentages[s.system] = Math.round(pct * 10) / 10;
+  // Calculate exact percentages
+  const exactPercentages = scores.map(s => ({
+    system: s.system,
+    exact: (s.rawScore / totalScore) * 100,
+  }));
+
+  // Floor to 2 decimal places and calculate remainders
+  const floored = exactPercentages.map(p => {
+    const flooredValue = Math.floor(p.exact * 100) / 100;
+    const remainder = p.exact - flooredValue;
+    return {
+      system: p.system,
+      floored: flooredValue,
+      remainder,
+    };
   });
 
+  // Calculate how many 0.01 increments we need to distribute
+  const currentSum = floored.reduce((sum, p) => sum + p.floored, 0);
+  const roundedCurrentSum = Math.round(currentSum * 100) / 100;
+  let incrementsNeeded = Math.round((100.00 - roundedCurrentSum) * 100);
+
+  // Sort by remainder descending (largest remainder method)
+  const sorted = [...floored].sort((a, b) => b.remainder - a.remainder);
+
+  // Distribute increments to items with largest remainders
+  const percentages: Record<string, number> = {};
+  floored.forEach(p => {
+    percentages[p.system] = p.floored;
+  });
+
+  for (let i = 0; i < incrementsNeeded && i < sorted.length; i++) {
+    percentages[sorted[i].system] = Math.round((percentages[sorted[i].system] + 0.01) * 100) / 100;
+  }
+
   return percentages;
+}
+
+/**
+ * Compute scores for all systems using lore bundle
+ * Returns enhanced scores with provenance metadata
+ */
+export function computeScoresWithLore(extract: HDExtract): SystemScore[] {
+  // Match HD attributes to lore rules
+  const matches = matchLoreRules(extract);
+  
+  // Create enhanced contributors grouped by system
+  const enhancedContributorsBySystem = createEnhancedContributors(matches);
+
+  // Calculate raw scores for each system
+  const rawScores: Array<{
+    system: string;
+    rawScore: number;
+    enhancedContributors: EnhancedContributor[];
+  }> = [];
+
+  // Get all systems from lore bundle
+  loreBundle.systems.forEach(system => {
+    const systemId = system.id;
+    const contributors = enhancedContributorsBySystem[systemId] || [];
+    const rawScore = contributors.reduce((sum, c) => sum + c.weight, 0);
+    
+    rawScores.push({
+      system: system.label,  // Use human-readable label
+      rawScore,
+      enhancedContributors: contributors,
+    });
+  });
+
+  // Normalize to percentages
+  const percentages = normalizeScores(rawScores.map(s => ({
+    system: s.system,
+    rawScore: s.rawScore,
+  })));
+
+  // Create system scores with both legacy and enhanced contributors
+  const systemScores: SystemScore[] = rawScores.map(s => {
+    // Convert enhanced contributors to legacy format for backward compatibility
+    const legacyContributors: Contributor[] = s.enhancedContributors.map(ec => ({
+      key: ec.key,
+      weight: ec.weight,
+      label: ec.label,
+    }));
+
+    return {
+      system: s.system,
+      rawScore: s.rawScore,
+      percentage: percentages[s.system],
+      contributors: legacyContributors,
+      enhancedContributors: s.enhancedContributors,
+    };
+  });
+
+  systemScores.sort((a, b) => b.percentage - a.percentage);
+  return systemScores;
 }
 
 /**
@@ -204,29 +528,34 @@ export function computeScores(extract: HDExtract, canon: Canon): SystemScore[] {
  * Classify user into star system(s)
  * 
  * Classification rules:
- * - Primary: One system with >6% lead over second place
- * - Hybrid: Top two systems within 6% of each other
+ * - Primary: One system with lead > tieThresholdPct over second place
+ * - Hybrid: Top two systems within tieThresholdPct of each other (|p1 - p2| ≤ tieThresholdPct)
  * - Unresolved: No clear classification
  */
 export function classify(
   scores: SystemScore[],
-  canon: Canon
+  canon: Canon,
+  extract?: HDExtract
 ): ClassificationResult {
   if (scores.length === 0) {
     throw new Error('No scores provided');
   }
 
   const [first, second] = scores;
-  const hybridWindowPct = 6.0;
+  // Use tieThresholdPct from lore bundle for deterministic hybrid classification
+  const tieThresholdPct = loreBundle.tieThresholdPct;
 
   let classification: 'primary' | 'hybrid' | 'unresolved';
   let primary: string | undefined;
   let hybrid: [string, string] | undefined;
 
-  if (!second || first.percentage - second.percentage > hybridWindowPct) {
+  // Deterministic tie-breaking: |p1 - p2| ≤ tieThresholdPct qualifies as hybrid
+  const percentageDiff = first.percentage - (second?.percentage ?? 0);
+  
+  if (!second || percentageDiff > tieThresholdPct) {
     classification = 'primary';
     primary = first.system;
-  } else if (first.percentage - second.percentage <= hybridWindowPct) {
+  } else if (Math.abs(percentageDiff) <= tieThresholdPct) {
     classification = 'hybrid';
     hybrid = [first.system, second.system];
   } else {
@@ -241,12 +570,28 @@ export function classify(
   const percentages: Record<string, number> = {};
   const contributorsPerSystem: Record<string, string[]> = {};
   const contributorsWithWeights: Record<string, Contributor[]> = {};
+  const enhancedContributorsWithWeights: Record<string, EnhancedContributor[]> = {};
 
   scores.forEach(s => {
     percentages[s.system] = s.percentage;
-    contributorsPerSystem[s.system] = s.contributors.map(c => c.label);
-    contributorsWithWeights[s.system] = s.contributors;
+    
+    // Sort contributors by weight descending
+    const sortedContributors = [...s.contributors].sort((a, b) => b.weight - a.weight);
+    contributorsPerSystem[s.system] = sortedContributors.map(c => c.label);
+    contributorsWithWeights[s.system] = sortedContributors;
+    
+    // Include enhanced contributors if available (also sorted by weight)
+    if (s.enhancedContributors) {
+      const sortedEnhanced = [...s.enhancedContributors].sort((a, b) => b.weight - a.weight);
+      enhancedContributorsWithWeights[s.system] = sortedEnhanced;
+    }
   });
+
+  // Check if we have enhanced contributors (from lore bundle)
+  const hasEnhancedContributors = Object.keys(enhancedContributorsWithWeights).length > 0;
+
+  // Compute input hash if extract is provided
+  const inputHash = extract ? computeInputHash(extract) : undefined;
 
   return {
     classification,
@@ -256,9 +601,15 @@ export function classify(
     percentages,
     contributorsPerSystem,
     contributorsWithWeights,
+    ...(hasEnhancedContributors && { enhancedContributorsWithWeights }),
     meta: {
       canonVersion: canon.version,
       canonChecksum: 'computed-at-runtime',
+      ...(hasEnhancedContributors && {
+        lore_version: loreBundle.lore_version,
+        rules_hash: loreBundle.rules_hash,
+      }),
+      ...(inputHash && { input_hash: inputHash }),
     },
   };
 }

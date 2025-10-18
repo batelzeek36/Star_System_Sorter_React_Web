@@ -8,7 +8,7 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { useBirthDataStore } from '../store/birthDataStore';
-import { computeScores, classify } from '../lib/scorer';
+import { computeScoresWithLore, classify } from '../lib/scorer';
 import { getCanon } from '../lib/canon';
 import type { HDExtract, ClassificationResult } from '../lib/schemas';
 
@@ -21,6 +21,8 @@ interface UseClassificationReturn {
   loading: boolean;
   error: Error | null;
   classify: (hdData: HDExtract) => Promise<void>;
+  recompute: (hdData: HDExtract) => Promise<void>;
+  isLoading: boolean;
 }
 
 // ============================================================================
@@ -65,16 +67,16 @@ export function useClassification(): UseClassificationReturn {
       }, LOADING_DEBOUNCE_MS);
 
       try {
-        // Load canon data
+        // Load canon data (for backward compatibility)
         const canon = getCanon();
         
-        // Compute scores
-        const scores = computeScores(hdData, canon);
+        // Compute scores using lore bundle (includes enhanced contributors with provenance)
+        const scores = computeScoresWithLore(hdData);
         
-        // Classify based on scores
-        const result = classify(scores, canon);
+        // Classify based on scores (pass hdData for input hash computation)
+        const result = classify(scores, canon, hdData);
         
-        // Store in Zustand store
+        // Store in Zustand store (this will also persist rules_hash)
         setClassification(result);
         
       } catch (err) {
@@ -105,5 +107,7 @@ export function useClassification(): UseClassificationReturn {
     loading,
     error,
     classify: classifyHDData,
+    recompute: classifyHDData, // Alias for recomputing with new lore
+    isLoading: loading,
   };
 }

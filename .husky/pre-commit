@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+# Run checks in star-system-sorter directory
+cd star-system-sorter || exit 1
+
+echo "Running pre-commit checks..."
+
+echo "→ Linting..."
+npm run lint || exit 1
+
+echo "→ Type checking..."
+npm run typecheck || exit 1
+
+echo "→ Running unit tests..."
+npm run test -- --run --reporter=basic || exit 1
+
+echo "✓ All pre-commit checks passed!"
