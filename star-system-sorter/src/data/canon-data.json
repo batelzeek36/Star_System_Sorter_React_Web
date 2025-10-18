@@ -1,0 +1,92 @@
+{
+  "version": "0.1.0",
+  "systems": {
+    "Pleiades": {
+      "weights": {
+        "type_manifestor": 15,
+        "type_generator": 10,
+        "authority_emotional": 12,
+        "profile_1_3": 8,
+        "profile_3_5": 7,
+        "center_sacral_defined": 10,
+        "center_throat_defined": 8,
+        "channel_34_57": 20,
+        "channel_20_34": 15,
+        "gate_1": 5,
+        "gate_13": 6,
+        "gate_25": 7
+      },
+      "why": "Manifestors with emotional authority and channel 34-57 show strong Pleiadian alignment. These individuals are natural initiators with powerful creative energy."
+    },
+    "Sirius": {
+      "weights": {
+        "type_projector": 15,
+        "type_generator": 8,
+        "authority_splenic": 12,
+        "authority_emotional": 10,
+        "profile_2_4": 10,
+        "profile_4_6": 9,
+        "center_spleen_defined": 10,
+        "center_g_defined": 8,
+        "channel_18_58": 18,
+        "channel_10_57": 14,
+        "gate_2": 5,
+        "gate_14": 6,
+        "gate_29": 7
+      },
+      "why": "Projectors with splenic authority and channel 18-58 show strong Sirian alignment. These individuals are natural guides with deep wisdom."
+    },
+    "Arcturus": {
+      "weights": {
+        "type_generator": 15,
+        "type_manifestor": 8,
+        "authority_sacral": 12,
+        "authority_emotional": 10,
+        "profile_5_1": 10,
+        "profile_6_2": 9,
+        "center_sacral_defined": 12,
+        "center_solar_plexus_defined": 8,
+        "channel_5_15": 18,
+        "channel_27_50": 14,
+        "gate_3": 5,
+        "gate_9": 6,
+        "gate_42": 7
+      },
+      "why": "Generators with sacral authority and channel 5-15 show strong Arcturian alignment. These individuals are natural builders with sustainable energy."
+    },
+    "Andromeda": {
+      "weights": {
+        "type_reflector": 20,
+        "type_projector": 12,
+        "authority_lunar": 15,
+        "profile_6_3": 10,
+        "profile_3_6": 9,
+        "center_all_open": 15,
+        "channel_11_56": 18,
+        "channel_13_33": 14,
+        "gate_4": 5,
+        "gate_7": 6,
+        "gate_23": 7
+      },
+      "why": "Reflectors with lunar authority show strong Andromedan alignment. These individuals are natural mirrors with deep sensitivity to their environment."
+    },
+    "Orion": {
+      "weights": {
+        "type_manifestor": 12,
+        "type_projector": 10,
+        "authority_ego": 15,
+        "authority_self": 12,
+        "profile_1_4": 10,
+        "profile_4_1": 9,
+        "center_heart_defined": 12,
+        "center_throat_defined": 10,
+        "channel_21_45": 18,
+        "channel_25_51": 14,
+        "gate_8": 5,
+        "gate_16": 6,
+        "gate_31": 7
+      },
+      "why": "Manifestors and Projectors with ego or self authority show strong Orion alignment. These individuals are natural leaders with strong willpower."
+    }
+  }
+}

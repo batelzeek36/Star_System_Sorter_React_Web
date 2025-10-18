@@ -4,8 +4,7 @@
  * Loads and parses the canon-data.yaml file containing star system weights.
  */
 
-import canonDataYaml from '../data/canon-data.yaml?raw';
-import { parse as parseYaml } from 'yaml';
+import canonData from '../data/canon-data.json';
 import type { Canon } from './scorer';
 
 let cachedCanon: Canon | null = null;
@@ -19,7 +18,7 @@ export function loadCanon(): Canon {
   }
 
   try {
-    const parsed = parseYaml(canonDataYaml) as Canon;
+    const parsed = canonData as Canon;
     
     if (!parsed.version || !parsed.systems) {
       throw new Error('Invalid canon data structure');
