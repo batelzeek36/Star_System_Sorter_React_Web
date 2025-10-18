@@ -1,7 +1,56 @@
-import { SourceBadge } from '@/components/lore';
+import { SourceBadge, ContributionCard, SystemSummary, EvidenceMatrix } from '@/components/lore';
 import { loreBundle } from '@/lib/lore.bundle';
+import type { ClassificationResult } from '@/lib/schemas';
 
 export default function DevLoreScreen() {
+  // Mock classification data for testing
+  const mockPrimaryClassification: ClassificationResult = {
+    classification: 'primary',
+    primary: 'PLEIADES',
+    allies: [
+      { system: 'SIRIUS', percentage: 25 },
+      { system: 'LYRA', percentage: 15 },
+    ],
+    percentages: {
+      PLEIADES: 45,
+      SIRIUS: 25,
+      LYRA: 15,
+      ANDROMEDA: 10,
+      ORION: 5,
+    },
+    contributorsPerSystem: {},
+    contributorsWithWeights: {},
+    meta: {
+      canonVersion: '1.0.0',
+      canonChecksum: 'abc123',
+      lore_version: '2025.10.18',
+      rules_hash: 'test123',
+      input_hash: 'input123',
+    },
+  };
+
+  const mockHybridClassification: ClassificationResult = {
+    classification: 'hybrid',
+    hybrid: ['PLEIADES', 'SIRIUS'],
+    allies: [{ system: 'LYRA', percentage: 15 }],
+    percentages: {
+      PLEIADES: 38,
+      SIRIUS: 35,
+      LYRA: 15,
+      ANDROMEDA: 10,
+      ORION: 2,
+    },
+    contributorsPerSystem: {},
+    contributorsWithWeights: {},
+    meta: {
+      canonVersion: '1.0.0',
+      canonChecksum: 'abc123',
+      lore_version: '2025.10.18',
+      rules_hash: 'test123',
+      input_hash: 'input123',
+    },
+  };
+
   return (
     <div className="min-h-screen bg-[var(--s3-canvas-dark)] text-[var(--s3-lavender-100)] p-8">
       <div className="max-w-4xl mx-auto space-y-12">
@@ -13,6 +62,35 @@ export default function DevLoreScreen() {
             Visual testing for lore components with live data from loreBundle
           </p>
         </header>
+
+        {/* SystemSummary Tests */}
+        <section className="space-y-6">
+          <h2 className="text-2xl font-semibold text-[var(--s3-lavender-200)] border-b border-[var(--s3-lavender-400)]/30 pb-2">
+            SystemSummary Component
+          </h2>
+
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Primary Classification (Clear Winner)
+              </h3>
+              <SystemSummary classification={mockPrimaryClassification} />
+              <p className="text-xs text-[var(--s3-lavender-300)]/50 mt-2">
+                Expected: Top 3 systems (Pleiades 45%, Sirius 25%, Lyra 15%), no hybrid indicator
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Hybrid Classification (Close Race)
+              </h3>
+              <SystemSummary classification={mockHybridClassification} />
+              <p className="text-xs text-[var(--s3-lavender-300)]/50 mt-2">
+                Expected: Hybrid indicator showing "Hybrid: Pleiades + Sirius (Δ 3.0%)", top 3 systems
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* SourceBadge Tests */}
         <section className="space-y-6">
@@ -138,6 +216,262 @@ export default function DevLoreScreen() {
                 <li>Should show: "Barbara Marciniak (1992)"</li>
                 <li>Should show: "⚑ Disputed or controversial lore" in gold</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* ContributionCard Tests */}
+        <section className="space-y-6">
+          <h2 className="text-2xl font-semibold text-[var(--s3-lavender-200)] border-b border-[var(--s3-lavender-400)]/30 pb-2">
+            ContributionCard Component
+          </h2>
+
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                High Weight Contributor (25% of total)
+              </h3>
+              <ContributionCard
+                contributor={{
+                  ruleId: 'type_generator_pleiades',
+                  key: 'type:Generator',
+                  weight: 2.5,
+                  label: 'Generator Type',
+                  rationale: 'Generative life force (Sacral) → creative, communal cultivation; primordial craft lineages.',
+                  sources: ['s-marciniak-1992', 's-royal-1992'],
+                  confidence: 2,
+                }}
+                totalWeight={10}
+                systemId="PLEIADES"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Medium Weight Contributor (14% of total)
+              </h3>
+              <ContributionCard
+                contributor={{
+                  ruleId: 'ch_7_31_sirius_steward',
+                  key: 'channel:7-31',
+                  weight: 1.4,
+                  label: 'Channel 7-31 (Alpha)',
+                  rationale: 'From will of the self to voice of the people; council leadership.',
+                  sources: ['s-ra-1984'],
+                  confidence: 3,
+                }}
+                totalWeight={10}
+                systemId="SIRIUS"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Low Weight Contributor (8% of total)
+              </h3>
+              <ContributionCard
+                contributor={{
+                  ruleId: 'gate_55_spirit_pleiades_sirius',
+                  key: 'gate:55',
+                  weight: 0.8,
+                  label: 'Gate 55 (Spirit)',
+                  rationale: 'Romance with life, mood alchemy, devotional ecstasy.',
+                  sources: ['s-handclow-1995'],
+                  confidence: 2,
+                }}
+                totalWeight={10}
+                systemId="PLEIADES"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Low Confidence Contributor (Confidence 1)
+              </h3>
+              <ContributionCard
+                contributor={{
+                  ruleId: 'auth_ego_draco',
+                  key: 'authority:Ego',
+                  weight: 1.8,
+                  label: 'Ego Authority',
+                  rationale: 'Will/contract energy; hierarchy & oath (useful or coercive).',
+                  sources: ['s-royal-1992'],
+                  confidence: 1,
+                }}
+                totalWeight={10}
+                systemId="DRACO"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                High Confidence Contributor (Confidence 5)
+              </h3>
+              <ContributionCard
+                contributor={{
+                  ruleId: 'test_high_confidence',
+                  key: 'test:high',
+                  weight: 1.5,
+                  label: 'High Confidence Test',
+                  rationale: 'This is a test contributor with maximum confidence level.',
+                  sources: ['s-ra-1984'],
+                  confidence: 5,
+                }}
+                totalWeight={10}
+                systemId="ARCTURUS"
+              />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Multiple Sources (4 sources)
+              </h3>
+              <ContributionCard
+                contributor={{
+                  ruleId: 'test_multi_source',
+                  key: 'test:multi',
+                  weight: 1.2,
+                  label: 'Multi-Source Contributor',
+                  rationale: 'This contributor has multiple source citations to test badge wrapping.',
+                  sources: ['s-ra-1984', 's-marciniak-1992', 's-royal-1992', 's-handclow-1995'],
+                  confidence: 3,
+                }}
+                totalWeight={10}
+                systemId="PLEIADES"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* EvidenceMatrix Tests */}
+        <section className="space-y-6">
+          <h2 className="text-2xl font-semibold text-[var(--s3-lavender-200)] border-b border-[var(--s3-lavender-400)]/30 pb-2">
+            EvidenceMatrix Component
+          </h2>
+
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Small List (10 contributors)
+              </h3>
+              <EvidenceMatrix
+                contributors={[
+                  {
+                    ruleId: 'type_generator_pleiades',
+                    key: 'type_generator',
+                    weight: 2.5,
+                    label: 'Generator Type',
+                    rationale: 'Generative life force → creative cultivation',
+                    sources: ['s-marciniak-1992', 's-royal-1992'],
+                    confidence: 2,
+                  },
+                  {
+                    ruleId: 'ch_7_31_sirius',
+                    key: 'channel_7_31',
+                    weight: 1.4,
+                    label: 'Channel 7-31',
+                    rationale: 'Council leadership voice',
+                    sources: ['s-ra-1984'],
+                    confidence: 3,
+                  },
+                  {
+                    ruleId: 'gate_55_spirit',
+                    key: 'gate_55',
+                    weight: 0.8,
+                    label: 'Gate 55',
+                    rationale: 'Spirit and mood alchemy',
+                    sources: ['s-handclow-1995'],
+                    confidence: 2,
+                  },
+                  {
+                    ruleId: 'center_sacral',
+                    key: 'center_sacral',
+                    weight: 1.2,
+                    label: 'Sacral Center',
+                    rationale: 'Life force energy',
+                    sources: ['s-ra-1984'],
+                    confidence: 4,
+                  },
+                  {
+                    ruleId: 'profile_3_5',
+                    key: 'profile_3_5',
+                    weight: 0.9,
+                    label: 'Profile 3/5',
+                    rationale: 'Martyr-Heretic',
+                    sources: ['s-marciniak-1992'],
+                    confidence: 1,
+                  },
+                  {
+                    ruleId: 'authority_sacral',
+                    key: 'authority_sacral',
+                    weight: 1.8,
+                    label: 'Sacral Authority',
+                    rationale: 'Gut response',
+                    sources: ['s-ra-1984'],
+                    confidence: 5,
+                  },
+                  {
+                    ruleId: 'gate_13',
+                    key: 'gate_13',
+                    weight: 0.6,
+                    label: 'Gate 13',
+                    rationale: 'Listener',
+                    sources: ['s-royal-1992'],
+                    confidence: 2,
+                  },
+                  {
+                    ruleId: 'gate_33',
+                    key: 'gate_33',
+                    weight: 0.7,
+                    label: 'Gate 33',
+                    rationale: 'Privacy',
+                    sources: ['s-marciniak-1992'],
+                    confidence: 3,
+                  },
+                  {
+                    ruleId: 'channel_13_33',
+                    key: 'channel_13_33',
+                    weight: 1.1,
+                    label: 'Channel 13-33',
+                    rationale: 'Prodigal',
+                    sources: ['s-ra-1984'],
+                    confidence: 4,
+                  },
+                  {
+                    ruleId: 'center_throat',
+                    key: 'center_throat',
+                    weight: 1.0,
+                    label: 'Throat Center',
+                    rationale: 'Communication',
+                    sources: ['s-handclow-1995'],
+                    confidence: 3,
+                  },
+                ]}
+                activeSystemId="PLEIADES"
+              />
+              <p className="text-xs text-[var(--s3-lavender-300)]/50 mt-2">
+                Expected: Regular table (not virtualized), sorted by weight descending, filters work
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-medium text-[var(--s3-lavender-300)] mb-3">
+                Large List (80 contributors - virtualized)
+              </h3>
+              <EvidenceMatrix
+                contributors={Array.from({ length: 80 }, (_, i) => ({
+                  ruleId: `rule_${i}`,
+                  key: `gate_${i}`,
+                  weight: Math.random() * 3,
+                  label: `Gate ${i}`,
+                  rationale: `Test rationale for gate ${i}`,
+                  sources: i % 3 === 0 ? ['s-marciniak-1992'] : ['s-ra-1984'],
+                  confidence: ((i % 5) + 1) as 1 | 2 | 3 | 4 | 5,
+                }))}
+              />
+              <p className="text-xs text-[var(--s3-lavender-300)]/50 mt-2">
+                Expected: Virtualized table (&gt;75 contributors), smooth scrolling, filters work
+              </p>
             </div>
           </div>
         </section>

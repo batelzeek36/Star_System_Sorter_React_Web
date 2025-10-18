@@ -118,7 +118,7 @@
 
 ## Phase 3: UI State Management
 
-- [ ] 3. Create UI preferences store
+- [x] 3. Create UI preferences store
 - [x] 3.1 Implement uiStore with Zustand
   - Create src/store/uiStore.ts
   - Define UIState interface with hideDisputed (default: true) and minConfidence (default: 2)
@@ -129,7 +129,7 @@
 
 ## Phase 4: Lore UI Components
 
-- [ ] 4. Build SourceBadge component
+- [x] 4. Build SourceBadge component
 - [x] 4.1 Create SourceBadge component
 
   - Create src/components/lore/SourceBadge.tsx
@@ -141,8 +141,8 @@
   - Ensure tooltip is keyboard-accessible
   - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 15.1_
 
-- [ ] 5. Build ContributionCard component
-- [ ] 5.1 Create ContributionCard component
+- [x] 5. Build ContributionCard component
+- [x] 5.1 Create ContributionCard component
 
   - Create src/components/lore/ContributionCard.tsx
   - Accept contributor, totalWeight, systemId props
@@ -154,8 +154,8 @@
   - Implement collapsible details section with Button toggle
   - _Requirements: 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7_
 
-- [ ] 6. Build SystemSummary component
-- [ ] 6.1 Create SystemSummary component
+- [x] 6. Build SystemSummary component
+- [x] 6.1 Create SystemSummary component
 
   - Create src/components/lore/SystemSummary.tsx
   - Accept classification prop
@@ -165,8 +165,8 @@
   - Display lore version number
   - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5, 6.6_
 
-- [ ] 7. Build EvidenceMatrix component
-- [ ] 7.1 Create EvidenceMatrix component
+- [x] 7. Build EvidenceMatrix component
+- [x] 7.1 Create EvidenceMatrix component
   - Create src/components/lore/EvidenceMatrix.tsx
   - Accept contributors and activeSystemId props
   - Compose from Figma Card and Button components
