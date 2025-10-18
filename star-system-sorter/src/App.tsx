@@ -7,6 +7,7 @@ const OnboardingScreen = lazy(() => import('./screens/OnboardingScreen'));
 const InputScreen = lazy(() => import('./screens/InputScreen'));
 const ResultScreen = lazy(() => import('./screens/ResultScreen'));
 const WhyScreen = lazy(() => import('./screens/WhyScreen'));
+const DevLoreScreen = lazy(() => import('./screens/DevLoreScreen'));
 
 // Loading fallback component
 function LoadingFallback() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/input" element={<InputScreen />} />
           <Route path="/result" element={<ResultScreen />} />
           <Route path="/why" element={<WhyScreen />} />
+          <Route path="/dev-lore" element={<DevLoreScreen />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

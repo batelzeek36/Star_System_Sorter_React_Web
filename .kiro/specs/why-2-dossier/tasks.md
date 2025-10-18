@@ -119,7 +119,7 @@
 ## Phase 3: UI State Management
 
 - [ ] 3. Create UI preferences store
-- [ ] 3.1 Implement uiStore with Zustand
+- [x] 3.1 Implement uiStore with Zustand
   - Create src/store/uiStore.ts
   - Define UIState interface with hideDisputed (default: true) and minConfidence (default: 2)
   - Add version: 1 to store for future schema migrations
@@ -130,7 +130,7 @@
 ## Phase 4: Lore UI Components
 
 - [ ] 4. Build SourceBadge component
-- [ ] 4.1 Create SourceBadge component
+- [x] 4.1 Create SourceBadge component
 
   - Create src/components/lore/SourceBadge.tsx
   - Accept sourceId and showTooltip props
