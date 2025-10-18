@@ -1,0 +1,41 @@
+import { Suspense, lazy } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css';
+
+// Lazy load screens for code splitting
+const OnboardingScreen = lazy(() => import('./screens/OnboardingScreen'));
+const InputScreen = lazy(() => import('./screens/InputScreen'));
+const ResultScreen = lazy(() => import('./screens/ResultScreen'));
+const WhyScreen = lazy(() => import('./screens/WhyScreen'));
+
+// Loading fallback component
+function LoadingFallback() {
+  return (
+    <div style={{ 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center', 
+      minHeight: '100vh',
+      fontSize: '1.2rem'
+    }}>
+      Loading...
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Suspense fallback={<LoadingFallback />}>
+        <Routes>
+          <Route path="/" element={<OnboardingScreen />} />
+          <Route path="/input" element={<InputScreen />} />
+          <Route path="/result" element={<ResultScreen />} />
+          <Route path="/why" element={<WhyScreen />} />
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
+  );
+}
+
+export default App;

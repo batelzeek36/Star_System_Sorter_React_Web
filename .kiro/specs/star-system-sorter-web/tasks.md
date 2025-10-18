@@ -6,15 +6,17 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
 
 ## Task List
 
-- [ ] 1. Project setup and configuration
+- [x] 1. Project setup and configuration
+
   - Initialize Vite + React + TypeScript project with recommended dependencies
   - Configure Tailwind CSS with path to Figma design tokens
   - Set up path aliases (@/, @screens/, @lib/, @api/, @store/, @hooks/)
   - Create .env.example with BODYGRAPH_API_KEY placeholder
-  - Configure Vite proxy for /api/* → http://localhost:3000
+  - Configure Vite proxy for /api/\* → http://localhost:3000
   - _Requirements: 11.1, 11.4, 11.6, 11.9, 11.10_
 
-- [ ] 2. Copy business logic from migration package
+- [x] 2. Copy business logic from migration package
+
   - Copy schemas.ts to src/lib/schemas.ts
   - Copy scorer.ts to src/lib/scorer.ts
   - Copy canon-data.yaml to src/data/canon-data.yaml
@@ -22,14 +24,16 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Verify TypeScript compilation with no errors
   - _Requirements: 5.1, 5.2, 5.3, 5.4_
 
-- [ ] 2.1 Write unit tests for schemas
+- [x] 2.1 Write unit tests for schemas
+
   - Test BirthDataFormSchema with valid inputs (MM/DD/YYYY, HH:MM AM/PM)
   - Test BirthDataFormSchema with invalid inputs (wrong formats, out of range)
   - Test BirthDataAPIRequestSchema validation
   - Test HDExtractSchema validation
   - _Requirements: 12.6_
 
-- [ ] 2.2 Write unit tests for scorer with golden fixtures
+- [x] 2.2 Write unit tests for scorer with golden fixtures
+
   - Create mock canon data fixture
   - Test computeScores() with known HD data → expected percentages
   - Test classify() for primary classification (>6% lead)
@@ -37,7 +41,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Test contributor label generation
   - _Requirements: 12.7_
 
-- [ ] 3. Set up Express backend server
+- [x] 3. Set up Express backend server
+
   - Create server/ directory with package.json
   - Install Express, cors, dotenv, node-cache, express-rate-limit
   - Create server/src/index.ts with Express app setup
@@ -46,7 +51,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Create server/tsconfig.json
   - _Requirements: 4.1, 4.4, 4.11_
 
-- [ ] 4. Implement /api/hd endpoint
+- [x] 4. Implement /api/hd endpoint
+
   - Create server/src/routes/hd.ts
   - Implement POST /api/hd handler with request validation
   - Add node-cache with 30-day TTL
@@ -60,7 +66,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Test rate limiting returns 429 when limit exceeded (curl or test stub)
   - _Requirements: 4.2, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 4.11_
 
-- [ ] 5. Create API client
+- [x] 5. Create API client
+
   - Create src/api/bodygraph-client.ts
   - Implement computeHDExtract() function with fetch to /api/hd
   - Create HDAPIError class with code and details
@@ -70,7 +77,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Implement computeHDExtractWithCache() wrapper
   - _Requirements: 4.1, 8.8, 10.1, 10.2_
 
-- [ ] 6. Create Zustand store
+- [x] 6. Create Zustand store
+
   - Create src/store/birthDataStore.ts
   - Define BirthDataState interface with date, time, location, timeZone, hdData, classification
   - Implement store with Zustand + persist middleware
@@ -78,14 +86,16 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Configure localStorage persistence with key 'birth-data-storage'
   - _Requirements: 11.7_
 
-- [ ] 7. Create custom hooks
+- [x] 7. Create custom hooks
+
   - Create src/hooks/useHDData.ts with data, loading, error, fetchHDData
   - Create src/hooks/useClassification.ts with result, loading, error, classify
   - Integrate with birthDataStore for state management
   - Add loading state management (≥200ms debounce)
   - _Requirements: 3.12, 5.13_
 
-- [ ] 8. Implement OnboardingScreen
+- [x] 8. Implement OnboardingScreen
+
   - Create src/screens/OnboardingScreen.tsx
   - Import Button from Figma components
   - Import Starfield component from Figma App.tsx unchanged (matches Figma exactly, no changes)
@@ -96,7 +106,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Implement navigation to /input on button click
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 2.6_
 
-- [ ] 9. Implement InputScreen
+- [x] 9. Implement InputScreen
+
   - Create src/screens/InputScreen.tsx
   - Import Field component from Figma
   - Set up React Hook Form with zodResolver(BirthDataFormSchema)
@@ -115,7 +126,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Navigate to /result on success
   - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12_
 
-- [ ] 10. Implement ResultScreen
+- [x] 10. Implement ResultScreen
+
   - Create src/screens/ResultScreen.tsx
   - Import StarSystemCrests, Chip, Button, Card from Figma
   - Import Starfield component from Figma unchanged (matches Figma exactly, no changes)
@@ -129,7 +141,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Handle loading state while classification computes
   - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.9, 6.10_
 
-- [ ] 11. Implement WhyScreen
+- [x] 11. Implement WhyScreen
+
   - Create src/screens/WhyScreen.tsx
   - Import Card component from Figma
   - Get classification from birthDataStore
@@ -139,7 +152,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add back button to navigate to /result
   - _Requirements: 7.1, 7.2, 7.3, 7.4_
 
-- [ ] 12. Set up React Router
+- [x] 12. Set up React Router
+
   - Create src/App.tsx with BrowserRouter
   - Define routes: / → OnboardingScreen, /input → InputScreen, /result → ResultScreen, /why → WhyScreen
   - Wrap routes in Suspense with loading fallback
@@ -147,14 +161,16 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Test navigation flow between all screens
   - _Requirements: 11.9_
 
-- [ ] 13. Add global styles and Figma integration
+- [x] 13. Add global styles and Figma integration
+
   - Copy /Figma/globals.css to src/index.css
   - Import Tailwind directives (@tailwind base/components/utilities)
   - Ensure Figma design tokens are available as CSS variables
   - Verify all Figma components render with correct styling
   - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.8, 1.9, 1.11, 1.12_
 
-- [ ] 14. Implement loading and error states
+- [x] 14. Implement loading and error states
+
   - Add loading spinner to Button component (already in Figma)
   - Create loading overlay component for screen-level loading
   - Implement Toast component usage for errors
@@ -163,7 +179,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add ≥200ms debounce to loading states to avoid flicker
   - _Requirements: 9.11, 10.1, 10.2, 10.3, 10.4, 10.5_
 
-- [ ] 15. Add accessibility features
+- [x] 15. Add accessibility features
+
   - Ensure all form fields have proper labels
   - Add visible focus states to all interactive elements
   - Verify 44px minimum touch targets on all buttons
@@ -172,7 +189,8 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Verify color contrast ≥ 4.5:1 for all text
   - _Requirements: 9.7, 9.8, 9.9, 9.10, 9.13_
 
-- [ ] 16. Write Playwright smoke test
+- [x] 16. Write Playwright smoke test
+
   - Create playwright.config.ts with use.baseURL = 'http://localhost:5173'
   - Create tests/e2e/user-flow.spec.ts
   - Test: Navigate to / → use getByRole('button', { name: /begin sorting/i }).click()
@@ -184,16 +202,17 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add data-testid attributes where getByRole/getByLabel are insufficient
   - _Requirements: 12.3, 12.11_
 
-- [ ] 17. Configure production deployment
-  - Create vercel.json with /api rewrite to serverless function AND /* → /index.html fallback for SPA routes
-  - OR create netlify.toml with /api redirect to Netlify function AND /* → /index.html fallback for SPA routes
-  - Set BODYGRAPH_API_KEY in platform dashboard (NO VITE_ prefix)
+- [x] 17. Configure production deployment
+
+  - Create vercel.json with /api rewrite to serverless function AND /\* → /index.html fallback for SPA routes
+  - OR create netlify.toml with /api redirect to Netlify function AND /\* → /index.html fallback for SPA routes
+  - Set BODYGRAPH*API_KEY in platform dashboard (NO VITE* prefix)
   - Test production build with npm run build
   - Verify /api routing works in production
   - Verify client routes (/input, /result, /why) load on direct access/refresh
   - _Requirements: 4.2, 4.3_
 
-- [ ] 18. Final testing and validation
+- [x] 18. Final testing and validation
   - Run all unit tests: npm run test
   - Verify ≥80% coverage for lib directory
   - Run Playwright smoke test: npm run e2e
@@ -202,4 +221,3 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Verify no BODYGRAPH_API_KEY exposure in client bundle
   - Check all 5 MVP Acceptance criteria
   - _Requirements: 12.1, 12.5, MVP Acceptance 1-5_
-
