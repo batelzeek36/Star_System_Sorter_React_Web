@@ -25,6 +25,24 @@ function generateCacheKey(dateISO: string, time: string, timeZone: string): stri
   return `hd_${Math.abs(hash).toString(36)}`;
 }
 
+// Extract HD data from BodyGraph API response
+function extractHDData(bodyGraphResponse: any) {
+  const props = bodyGraphResponse.Properties || {};
+  
+  return {
+    type: props.Type?.option || '',
+    authority: props.InnerAuthority?.option || '',
+    profile: props.Profile?.option || '',
+    centers: props.DefinedCenters?.list?.map((c: any) => c.option) || [],
+    channels: props.Channels?.list?.map((c: any) => {
+      // Channels are in format "13 - 33", extract first number
+      const match = c.option.match(/^(\d+)/);
+      return match ? parseInt(match[1], 10) : parseInt(c.option, 10);
+    }) || [],
+    gates: props.Gates?.list?.map((g: any) => parseInt(g.option, 10)) || [],
+  };
+}
+
 // Fetch HD data from BodyGraph API
 async function fetchHDData(dateISO: string, time: string, timeZone: string) {
   const apiKey = process.env.BODYGRAPH_API_KEY;
@@ -32,42 +50,37 @@ async function fetchHDData(dateISO: string, time: string, timeZone: string) {
     throw new Error('BODYGRAPH_API_KEY not configured');
   }
 
-  const response = await fetch('https://api.bodygraphchart.com/v2/chart', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      date: dateISO,
-      time: time,
-      timezone: timeZone,
-    }),
+  const params = new URLSearchParams({
+    api_key: apiKey,
+    date: `${dateISO} ${time}`,
+    timezone: timeZone,
+  });
+  
+  const bodyGraphUrl = `https://api.bodygraphchart.com/v221006/hd-data?${params.toString()}`;
+  
+  const response = await fetch(bodyGraphUrl, {
+    method: 'GET',
   });
 
   if (!response.ok) {
+    const errorText = await response.text();
+    console.error('[BodyGraph API Error]', response.status, errorText);
     throw new Error(`BodyGraph API error: ${response.status}`);
   }
 
-  const data = await response.json();
+  const bodyGraphData = await response.json();
 
-  // Extract relevant fields
-  return {
-    type: data.type || '',
-    authority: data.authority || '',
-    profile: data.profile || '',
-    centers: data.centers || [],
-    channels: data.channels || [],
-    gates: data.gates || [],
-  };
+  // Check for API error response
+  if (bodyGraphData.error) {
+    console.error('[BodyGraph API Error]', bodyGraphData.error);
+    throw new Error(`BodyGraph API error: ${bodyGraphData.error}`);
+  }
+
+  // Extract HD data
+  return extractHDData(bodyGraphData);
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // Only allow POST requests
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
-
   // Enable CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -76,6 +89,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Handle preflight
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
+  }
+
+  // Only allow POST requests
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' });
   }
 
   try {
@@ -104,7 +122,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     console.error('Error processing request:', error);
 
     if (error instanceof z.ZodError) {
-      return res.status(400).json({ error: 'Invalid request data', details: error.errors });
+      return res.status(400).json({ error: 'Invalid request data', details: error.issues });
     }
 
     return res.status(500).json({ error: 'Internal server error' });
