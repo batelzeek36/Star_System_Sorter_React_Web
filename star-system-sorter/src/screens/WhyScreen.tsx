@@ -109,7 +109,8 @@ export default function WhyScreen() {
         <div className="mb-6">
           <button 
             onClick={() => navigate('/result')}
-            className="mb-4 text-[var(--s3-lavender-400)] hover:text-[var(--s3-lavender-300)] transition-colors"
+            className="mb-4 min-h-[44px] px-3 py-2 text-[var(--s3-lavender-400)] hover:text-[var(--s3-lavender-300)] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)] rounded-lg"
+            aria-label="Go back to results"
           >
             ← Back
           </button>

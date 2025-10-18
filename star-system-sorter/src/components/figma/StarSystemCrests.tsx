@@ -15,7 +15,10 @@ export function OrionCrest({ size = 24, className = '' }: CrestProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      role="img"
+      aria-label="Orion star system crest"
     >
+      <title>Orion Crest</title>
       {/* Three aligned stars forming Orion's belt */}
       <circle cx="24" cy="24" r="3" fill="currentColor" />
       <circle cx="14" cy="20" r="2.5" fill="currentColor" opacity="0.8" />
@@ -35,7 +38,10 @@ export function SiriusCrest({ size = 24, className = '' }: CrestProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      role="img"
+      aria-label="Sirius star system crest"
     >
+      <title>Sirius Crest</title>
       {/* Bright central star with eight-pointed rays */}
       <circle cx="24" cy="24" r="4" fill="currentColor" />
       <path d="M24 10 L24 16 M24 32 L24 38 M10 24 L16 24 M32 24 L38 24" 
@@ -55,7 +61,10 @@ export function PleiadesCrest({ size = 24, className = '' }: CrestProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      role="img"
+      aria-label="Pleiades star system crest"
     >
+      <title>Pleiades Crest</title>
       {/* Seven sisters - cluster of seven stars */}
       <circle cx="24" cy="20" r="2.5" fill="currentColor" />
       <circle cx="18" cy="24" r="2" fill="currentColor" opacity="0.9" />
@@ -79,7 +88,10 @@ export function AndromedaCrest({ size = 24, className = '' }: CrestProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      role="img"
+      aria-label="Andromeda star system crest"
     >
+      <title>Andromeda Crest</title>
       {/* Spiral galaxy representation */}
       <circle cx="24" cy="24" r="3" fill="currentColor" />
       <path d="M24 24 Q 32 20, 36 24 Q 32 28, 24 24" 
@@ -103,7 +115,10 @@ export function LyraCrest({ size = 24, className = '' }: CrestProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      role="img"
+      aria-label="Lyra star system crest"
     >
+      <title>Lyra Crest</title>
       {/* Lyre/Harp shape with bright Vega star */}
       <circle cx="24" cy="16" r="3" fill="currentColor" />
       <path d="M16 14 Q 24 8, 32 14" stroke="currentColor" strokeWidth="1.5" fill="none" />
@@ -124,7 +139,10 @@ export function ArcturusCrest({ size = 24, className = '' }: CrestProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      role="img"
+      aria-label="Arcturus star system crest"
     >
+      <title>Arcturus Crest</title>
       {/* Guardian/Ancient symbol - triangle with center point */}
       <circle cx="24" cy="24" r="3.5" fill="currentColor" />
       <path d="M24 10 L38 34 L10 34 Z" 

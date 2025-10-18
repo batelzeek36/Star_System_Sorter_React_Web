@@ -32,12 +32,12 @@ export function Field({
     focus: `
       bg-[var(--s3-lavender-900)]/30 
       border-[var(--s3-lavender-400)]
-      shadow-[var(--s3-focus-ring)]
+      ring-2 ring-[var(--s3-lavender-400)]/30
     `,
     error: `
       bg-[var(--s3-error-muted)] 
       border-[var(--s3-error)]
-      shadow-[var(--s3-focus-ring-error)]
+      ring-2 ring-[var(--s3-error)]/30
     `
   };
   
