@@ -48,8 +48,8 @@ export function Field({
       </label>
       <div 
         className={`
-          px-4 py-3 
-          min-h-[44px] 
+          px-4 py-2 
+          h-[44px] 
           border 
           rounded-[var(--s3-radius-xl)]
           flex items-center gap-3

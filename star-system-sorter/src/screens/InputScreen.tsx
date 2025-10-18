@@ -235,7 +235,7 @@ export function InputScreen() {
               id="timezone-select"
               {...register('timeZone')}
               className="
-                w-full px-4 py-3 min-h-[44px]
+                w-full px-4 py-2 h-[44px]
                 bg-[var(--s3-lavender-900)]/20
                 border border-[var(--s3-border-muted)]
                 rounded-[var(--s3-radius-xl)]
