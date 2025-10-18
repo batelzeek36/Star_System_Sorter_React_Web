@@ -54,7 +54,7 @@ export default function OnboardingScreen() {
         </div>
 
         {/* 3-Step Explanation */}
-        <div className="space-y-7 px-2">
+        <div className="space-y-7 px-2 mb-32">
           <div className="flex items-start gap-4">
             <div className="w-11 h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-base text-[var(--s3-lavender-300)] flex-shrink-0">
               1
@@ -84,11 +84,8 @@ export default function OnboardingScreen() {
           </div>
         </div>
 
-        {/* Spacer to push button to bottom */}
-        <div className="flex-1 min-h-[80px]"></div>
-
         {/* Begin Sorting Button */}
-        <div className="pb-12">
+        <div>
           <Button 
             variant="primary" 
             className="w-full"
