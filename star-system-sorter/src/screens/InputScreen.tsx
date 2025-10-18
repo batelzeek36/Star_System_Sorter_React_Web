@@ -181,6 +181,7 @@ export function InputScreen() {
           type="error"
           onClose={() => setToastError(null)}
           duration={5000}
+          onRetry={lastSubmittedData ? handleRetry : undefined}
         />
       )}
       
@@ -227,10 +228,11 @@ export function InputScreen() {
           
           {/* Timezone Select */}
           <div>
-            <label className="text-sm text-[var(--s3-lavender-300)] mb-2 block">
+            <label htmlFor="timezone-select" className="text-sm text-[var(--s3-lavender-300)] mb-2 block">
               Time Zone
             </label>
             <select
+              id="timezone-select"
               {...register('timeZone')}
               className="
                 w-full px-4 py-3 min-h-[44px]
@@ -240,7 +242,7 @@ export function InputScreen() {
                 text-sm text-white
                 outline-none
                 focus:border-[var(--s3-lavender-400)]
-                focus:shadow-[var(--s3-focus-ring)]
+                focus:ring-2 focus:ring-[var(--s3-lavender-400)]/30
                 transition-all duration-200
               "
             >
@@ -269,19 +271,6 @@ export function InputScreen() {
               Compute Chart
             </Button>
           </div>
-          
-          {/* Retry Button (shown when there's an error) */}
-          {toastError && lastSubmittedData && (
-            <Button
-              type="button"
-              variant="secondary"
-              className="w-full"
-              onClick={handleRetry}
-              disabled={loading}
-            >
-              Retry
-            </Button>
-          )}
         </form>
         
         {/* Legal Disclaimer */}

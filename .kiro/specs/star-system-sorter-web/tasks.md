@@ -169,7 +169,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Verify all Figma components render with correct styling
   - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.8, 1.9, 1.11, 1.12_
 
-- [ ] 14. Implement loading and error states
+- [x] 14. Implement loading and error states
 
   - Add loading spinner to Button component (already in Figma)
   - Create loading overlay component for screen-level loading
@@ -179,7 +179,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add ≥200ms debounce to loading states to avoid flicker
   - _Requirements: 9.11, 10.1, 10.2, 10.3, 10.4, 10.5_
 
-- [ ] 15. Add accessibility features
+- [x] 15. Add accessibility features
 
   - Ensure all form fields have proper labels
   - Add visible focus states to all interactive elements

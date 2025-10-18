@@ -4,6 +4,7 @@ export { Card } from './Card';
 export { Chip } from './Chip';
 export { Field } from './Field';
 export { Toast, InlineAlert } from './Toast';
+export { LoadingOverlay } from './LoadingOverlay';
 export { AppBar } from './AppBar';
 export { TabBar } from './TabBar';
 

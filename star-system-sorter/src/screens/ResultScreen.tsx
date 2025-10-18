@@ -4,6 +4,7 @@ import { useBirthDataStore } from '@/store/birthDataStore';
 import { useClassification } from '@/hooks/useClassification';
 import { Button } from '@/components/figma/Button';
 import { Chip } from '@/components/figma/Chip';
+import { LoadingOverlay } from '@/components/figma/LoadingOverlay';
 import { StarSystemCrests, type StarSystemName } from '@/components/figma/StarSystemCrests';
 
 // Starfield component from Figma App.tsx (unchanged)
@@ -36,22 +37,15 @@ export default function ResultScreen() {
     }
   }, [hdData, classification, loading, classify]);
 
-  // Handle loading state
-  if (!classification || loading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-12 h-12 border-4 border-[var(--s3-lavender-500)] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-sm text-[var(--s3-text-muted)]">Computing classification...</p>
-        </div>
-      </div>
-    );
-  }
-
   // Redirect to input if no HD data
   if (!hdData) {
     navigate('/input');
     return null;
+  }
+
+  // Handle loading state
+  if (!classification || loading) {
+    return <LoadingOverlay message="Computing classification..." />;
   }
 
   // Determine primary system and percentage
