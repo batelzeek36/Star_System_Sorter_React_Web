@@ -212,7 +212,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Verify client routes (/input, /result, /why) load on direct access/refresh
   - _Requirements: 4.2, 4.3_
 
-- [ ] 18. Final testing and validation
+- [x] 18. Final testing and validation
   - Run all unit tests: npm run test
   - Verify ≥80% coverage for lib directory
   - Run Playwright smoke test: npm run e2e
