@@ -189,7 +189,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Verify color contrast ≥ 4.5:1 for all text
   - _Requirements: 9.7, 9.8, 9.9, 9.10, 9.13_
 
-- [ ] 16. Write Playwright smoke test
+- [x] 16. Write Playwright smoke test
 
   - Create playwright.config.ts with use.baseURL = 'http://localhost:5173'
   - Create tests/e2e/user-flow.spec.ts

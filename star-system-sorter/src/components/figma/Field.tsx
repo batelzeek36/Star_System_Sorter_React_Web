@@ -17,9 +17,13 @@ export function Field({
   helperText,
   variant = 'default',
   className = '',
+  id,
   ...props 
 }: FieldProps) {
   const [isFocused, setIsFocused] = useState(false);
+  
+  // Generate a unique ID if not provided
+  const inputId = id || `field-${label.toLowerCase().replace(/\s+/g, '-')}`;
   
   const hasError = !!error;
   const currentVariant = hasError ? 'error' : isFocused ? 'focus' : variant;
@@ -43,7 +47,7 @@ export function Field({
   
   return (
     <div className={className}>
-      <label className="text-sm text-[var(--s3-lavender-300)] mb-2 block">
+      <label htmlFor={inputId} className="text-sm text-[var(--s3-lavender-300)] mb-2 block">
         {label}
       </label>
       <div 
@@ -63,6 +67,7 @@ export function Field({
           </div>
         )}
         <input 
+          id={inputId}
           className={`
             bg-transparent 
             outline-none 
