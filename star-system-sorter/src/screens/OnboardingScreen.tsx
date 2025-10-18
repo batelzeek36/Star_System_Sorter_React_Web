@@ -35,62 +35,60 @@ export default function OnboardingScreen() {
       
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/10 rounded-full blur-3xl"></div>
       
-      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full px-6 py-12">
-        <div className="h-12"></div>
-        
+      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full px-8 py-16">
         {/* App Icon */}
-        <div className="flex justify-center mb-8">
-          <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[var(--s3-lavender-400)] to-[var(--s3-lavender-600)] flex items-center justify-center" style={{ boxShadow: 'var(--s3-elevation-2)' }}>
-            <Sparkles className="w-12 h-12 text-white" />
+        <div className="flex justify-center mb-10">
+          <div className="w-28 h-28 rounded-full bg-gradient-to-br from-[var(--s3-lavender-400)] to-[var(--s3-lavender-600)] flex items-center justify-center" style={{ boxShadow: 'var(--s3-elevation-2)' }}>
+            <Sparkles className="w-14 h-14 text-white" />
           </div>
         </div>
 
         {/* Title and Description */}
-        <div className="text-center mb-12">
-          <h1 className="text-3xl mb-3 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
+        <div className="text-center mb-16">
+          <h1 className="text-3xl mb-4 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent font-medium">
             Star System Sorter
           </h1>
-          <p className="text-sm text-[var(--s3-text-muted)]">
-            Discover your primary star system origin through Human Design
+          <p className="text-sm text-[var(--s3-text-muted)] leading-relaxed px-4">
+            Discover your primary star system origin<br />through Human Design
           </p>
         </div>
 
         {/* 3-Step Explanation */}
-        <div className="space-y-6">
+        <div className="space-y-7 px-2">
           <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
+            <div className="w-11 h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-base text-[var(--s3-lavender-300)] flex-shrink-0">
               1
             </div>
-            <div>
-              <p className="text-base text-[var(--s3-lavender-200)] mb-1">Input</p>
+            <div className="pt-1">
+              <p className="text-base text-white font-medium mb-1">Input</p>
               <p className="text-sm text-[var(--s3-text-subtle)]">Enter birth data or upload chart</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
+            <div className="w-11 h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-base text-[var(--s3-lavender-300)] flex-shrink-0">
               2
             </div>
-            <div>
-              <p className="text-base text-[var(--s3-lavender-200)] mb-1">Deterministic Sort</p>
+            <div className="pt-1">
+              <p className="text-base text-white font-medium mb-1">Deterministic Sort</p>
               <p className="text-sm text-[var(--s3-text-subtle)]">Rules engine classifies your chart</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
+            <div className="w-11 h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-base text-[var(--s3-lavender-300)] flex-shrink-0">
               3
             </div>
-            <div>
-              <p className="text-base text-[var(--s3-lavender-200)] mb-1">Narrative</p>
+            <div className="pt-1">
+              <p className="text-base text-white font-medium mb-1">Narrative</p>
               <p className="text-sm text-[var(--s3-text-subtle)]">LLM generates your star system story</p>
             </div>
           </div>
         </div>
 
         {/* Spacer to push button to bottom */}
-        <div className="flex-1"></div>
+        <div className="flex-1 min-h-[80px]"></div>
 
         {/* Begin Sorting Button */}
-        <div className="pt-8 pb-8">
+        <div className="pb-12">
           <Button 
             variant="primary" 
             className="w-full"
