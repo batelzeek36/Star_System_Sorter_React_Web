@@ -56,38 +56,41 @@ export default function OnboardingScreen() {
         </div>
 
         {/* 3-Step Explanation */}
-        <div className="space-y-4 mb-auto">
+        <div className="space-y-6">
           <div className="flex items-start gap-4">
-            <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
+            <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
               1
             </div>
             <div>
-              <p className="text-sm text-[var(--s3-lavender-200)] mb-1">Input</p>
-              <p className="text-xs text-[var(--s3-text-subtle)]">Enter birth data or upload chart</p>
+              <p className="text-base text-[var(--s3-lavender-200)] mb-1">Input</p>
+              <p className="text-sm text-[var(--s3-text-subtle)]">Enter birth data or upload chart</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
+            <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
               2
             </div>
             <div>
-              <p className="text-sm text-[var(--s3-lavender-200)] mb-1">Deterministic Sort</p>
-              <p className="text-xs text-[var(--s3-text-subtle)]">Rules engine classifies your chart</p>
+              <p className="text-base text-[var(--s3-lavender-200)] mb-1">Deterministic Sort</p>
+              <p className="text-sm text-[var(--s3-text-subtle)]">Rules engine classifies your chart</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
+            <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm text-[var(--s3-lavender-300)] flex-shrink-0">
               3
             </div>
             <div>
-              <p className="text-sm text-[var(--s3-lavender-200)] mb-1">Narrative</p>
-              <p className="text-xs text-[var(--s3-text-subtle)]">LLM generates your star system story</p>
+              <p className="text-base text-[var(--s3-lavender-200)] mb-1">Narrative</p>
+              <p className="text-sm text-[var(--s3-text-subtle)]">LLM generates your star system story</p>
             </div>
           </div>
         </div>
 
+        {/* Spacer to push button to bottom */}
+        <div className="flex-1"></div>
+
         {/* Begin Sorting Button */}
-        <div className="pt-6">
+        <div className="pt-8 pb-8">
           <Button 
             variant="primary" 
             className="w-full"
@@ -96,15 +99,6 @@ export default function OnboardingScreen() {
             Begin Sorting
           </Button>
         </div>
-
-        {/* Legal Disclaimer */}
-        <div className="pt-6 text-center">
-          <p className="text-xs text-[var(--s3-text-subtle)]">
-            For insight & entertainment. Not medical, financial, or legal advice.
-          </p>
-        </div>
-
-        <div className="h-8"></div>
       </div>
     </div>
   );
