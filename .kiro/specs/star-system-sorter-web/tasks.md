@@ -202,7 +202,7 @@ This implementation plan breaks down the Star System Sorter MVP into discrete, i
   - Add data-testid attributes where getByRole/getByLabel are insufficient
   - _Requirements: 12.3, 12.11_
 
-- [ ] 17. Configure production deployment
+- [x] 17. Configure production deployment
 
   - Create vercel.json with /api rewrite to serverless function AND /\* → /index.html fallback for SPA routes
   - OR create netlify.toml with /api redirect to Netlify function AND /\* → /index.html fallback for SPA routes

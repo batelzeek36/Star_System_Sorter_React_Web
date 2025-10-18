@@ -26,7 +26,7 @@ describe('birthDataStore', () => {
 
   it('should set birth data', () => {
     const { setData } = useBirthDataStore.getState();
-    
+
     setData({
       date: '10/03/1992',
       time: '12:03 AM',
@@ -43,7 +43,7 @@ describe('birthDataStore', () => {
 
   it('should set HD data', () => {
     const { setHDData } = useBirthDataStore.getState();
-    
+
     const mockHDData: HDExtract = {
       type: 'Manifesting Generator',
       authority: 'Sacral',
@@ -61,7 +61,7 @@ describe('birthDataStore', () => {
 
   it('should set classification', () => {
     const { setClassification } = useBirthDataStore.getState();
-    
+
     const mockClassification: ClassificationResult = {
       classification: 'primary',
       primary: 'Pleiades',
@@ -77,6 +77,12 @@ describe('birthDataStore', () => {
       contributorsPerSystem: {
         Pleiades: ['Type: Manifesting Generator', 'Gate: 34'],
       },
+      contributorsWithWeights: {
+        Pleiades: [
+          { key: 'type:manifesting-generator', weight: 10, label: 'Type: Manifesting Generator' },
+          { key: 'gate:34', weight: 5, label: 'Gate: 34' },
+        ],
+      },
       meta: {
         canonVersion: '1.0.0',
         canonChecksum: 'abc123',
@@ -91,7 +97,7 @@ describe('birthDataStore', () => {
 
   it('should clear all data', () => {
     const { setData, setHDData, setClassification, clear } = useBirthDataStore.getState();
-    
+
     // Set some data
     setData({
       date: '10/03/1992',
@@ -116,6 +122,7 @@ describe('birthDataStore', () => {
       allies: [],
       percentages: {},
       contributorsPerSystem: {},
+      contributorsWithWeights: {},
       meta: {
         canonVersion: '1.0.0',
         canonChecksum: 'abc123',
