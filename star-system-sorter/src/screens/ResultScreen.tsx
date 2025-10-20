@@ -64,7 +64,7 @@ export default function ResultScreen() {
   const strokeDasharray = `${circumference * (primaryPercentage / 100)} ${circumference}`;
 
   // Get top 3 allies (excluding primary)
-  const allies = classification.allies.slice(0, 3);
+  const allies = classification.allies?.slice(0, 3) || [];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] flex flex-col relative overflow-hidden">
@@ -159,6 +159,17 @@ export default function ResultScreen() {
             onClick={() => navigate('/why')}
           >
             View Why
+          </Button>
+        </div>
+
+        {/* Open Dossier Button */}
+        <div className="mb-4">
+          <Button 
+            variant="secondary" 
+            className="w-full"
+            onClick={() => navigate('/dossier')}
+          >
+            Open Dossier
           </Button>
         </div>
 

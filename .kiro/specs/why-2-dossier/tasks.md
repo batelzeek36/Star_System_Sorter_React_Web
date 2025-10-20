@@ -234,7 +234,7 @@
 ## Phase 6: Dossier Screen
 
 - [ ] 9. Create Dossier screen with all sections
-- [ ] 9.1 Create DossierScreen component skeleton
+- [x] 9.1 Create DossierScreen component skeleton
 
   - Create src/screens/DossierScreen.tsx
   - Add lazy-loaded route in src/App.tsx: /dossier
@@ -242,7 +242,7 @@
   - Add navigation guard (redirect to /input if no classification)
   - _Requirements: 9.1, 9.2, 9.10_
 
-- [ ] 9.2 Implement Identity Snapshot section
+- [x] 9.2 Implement Identity Snapshot section
 
   - Display type, authority, profile from hdData
   - List defined centers
@@ -250,14 +250,14 @@
   - Display "—" if no channel rules matched
   - _Requirements: 9.3, 9.12_
 
-- [ ] 9.3 Implement One-Line Verdict section
+- [x] 9.3 Implement One-Line Verdict section
 
   - Format verdict based on primary/hybrid classification
   - Include system descriptions from lore bundle
   - Use emphasis Card variant
   - _Requirements: 9.4_
 
-- [ ] 9.4 Implement "Why Not" panel
+- [x] 9.4 Implement "Why Not" panel
 
   - Compute next 1-2 systems by score (skip hybrid pair if applicable)
   - Find top 3 unmatched rules for each system
@@ -265,19 +265,19 @@
   - Display missing factors that would increase each system's score
   - _Requirements: 9.5, 9.11_
 
-- [ ] 9.5 Implement Deployment Matrix section
+- [x] 9.5 Implement Deployment Matrix section
 
   - Rank all systems by percentage
   - Display table with columns: Rank (Primary/Secondary/Tertiary), System, Alignment %, Role (description)
   - _Requirements: 9.6_
 
-- [ ] 9.6 Implement Gate→Faction Grid section
+- [x] 9.6 Implement Gate→Faction Grid section
 
   - Reuse EvidenceMatrix component
   - Pass all contributors and active system ID
   - _Requirements: 9.7_
 
-- [ ] 9.7 Implement Sources Gallery section
+- [x] 9.7 Implement Sources Gallery section
 
   - Deduplicate sources by ID from all contributors
   - Render SourceBadge components with tooltips
@@ -285,7 +285,7 @@
   - Add legend: "⚑ = Disputed or controversial lore"
   - _Requirements: 9.8_
 
-- [ ] 9.8 Verify Dossier makes no network calls
+- [x] 9.8 Verify Dossier makes no network calls
   - Audit component for any fetch/axios calls
   - Ensure all data comes from store and lore bundle
   - Add unit test: stub fetch and fail if called
@@ -294,12 +294,12 @@
 ## Phase 7: Export Functionality
 
 - [ ] 10. Implement export actions for Dossier
-- [ ] 10.1 Add html-to-image dependency
+- [x] 10.1 Add html-to-image dependency
 
   - Install html-to-image@^1.11.11
   - _Requirements: 10.2_
 
-- [ ] 10.2 Implement PNG export
+- [x] 10.2 Implement PNG export
 
   - Add "Export PNG" button with primary variant
   - Use html-to-image toPng function
@@ -309,13 +309,13 @@
   - Trigger download via anchor element
   - _Requirements: 10.1, 10.2, 10.3, 10.8_
 
-- [ ] 10.3 Implement Print/PDF functionality
+- [x] 10.3 Implement Print/PDF functionality
 
   - Add "Print/PDF" button with secondary variant
   - Trigger browser print dialog on click
   - _Requirements: 10.4, 10.5_
 
-- [ ] 10.4 Add print-specific CSS
+- [x] 10.4 Add print-specific CSS
 
   - Create @media print styles
   - Disable animations and transitions
@@ -325,7 +325,7 @@
   - Hide non-printable elements (.no-print class)
   - _Requirements: 10.6, 10.9, 10.10_
 
-- [ ] 10.5 Add "Generate Narrative" button
+- [x] 10.5 Add "Generate Narrative" button
   - Add button with ghost variant
   - Route to placeholder or existing narrative flow
   - _Requirements: 10.7_
@@ -333,7 +333,7 @@
 ## Phase 8: Result Screen Integration
 
 - [ ] 11. Add Dossier link to Result screen
-- [ ] 11.1 Add "Open Dossier" button to ResultScreen
+- [x] 11.1 Add "Open Dossier" button to ResultScreen
   - Add secondary Button below "View Why" button
   - Navigate to /dossier on click
   - Maintain 44px minimum touch target
