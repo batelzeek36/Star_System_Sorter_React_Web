@@ -153,7 +153,7 @@ describe('EvidenceMatrix', () => {
   });
 
   it('shows empty state when no contributors match filters', async () => {
-    const user = userEvent.setup();
+    // const user = userEvent.setup();
     
     // Create contributors that will all be filtered out
     const lowConfidenceContributors: EnhancedContributor[] = [

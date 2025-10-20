@@ -655,7 +655,7 @@ describe('Enhanced Scorer with Lore Bundle', () => {
       // Channel matching requires both gates to be present
       // The scorer should detect this as a channel match
       const channelContributor = orion!.enhancedContributors?.find(c => 
-        c.attributeType === 'channel' || c.key.includes('13-33')
+        c.key.includes('channel') || c.key.includes('13-33')
       );
       
       // If no channel contributor found, at least verify gate contributors exist

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { Card } from '@/components/figma/Card';
-import { Button } from '@/components/figma/Button';
+// import { Button } from '@/components/figma/Button';
 import { SourceBadge } from './SourceBadge';
 import { useUIStore } from '@/store/uiStore';
 import { loreBundle } from '@/lib/lore.bundle';
@@ -82,7 +82,7 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
   };
   
   // Render table row
-  const renderRow = (contributor: EnhancedContributor, index: number) => {
+  const renderRow = (contributor: EnhancedContributor, _index: number) => {
     const isActive = activeSystemId && contributor.key.includes(activeSystemId.toLowerCase());
     const attributeType = getAttributeType(contributor.key);
     

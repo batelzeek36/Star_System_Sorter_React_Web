@@ -36,7 +36,7 @@ describe('SourceBadge', () => {
     const user = userEvent.setup();
     render(<SourceBadge sourceId="s-ra-1984" showTooltip={true} />);
     
-    const badge = screen.getByRole('button');
+    // const badge = screen.getByRole('button');
     await user.tab(); // Focus the badge
     
     // Tooltip should show

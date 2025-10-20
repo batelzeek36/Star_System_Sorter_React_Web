@@ -166,7 +166,7 @@
   - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5, 6.6_
 
 - [x] 7. Build EvidenceMatrix component
-- [x] 7.1 Create EvidenceMatrix component
+- [x] 7.1 Create EvidenceMatrix component (review to see if already done or not)
   - Create src/components/lore/EvidenceMatrix.tsx
   - Accept contributors and activeSystemId props
   - Compose from Figma Card and Button components
@@ -181,52 +181,52 @@
 ## Phase 5: Why 2.0 Screen Refactor
 
 - [ ] 8. Refactor Why screen with enhanced features
-- [ ] 8.1 Add SystemSummary to Why screen
+- [x] 8.1 Add SystemSummary to Why screen
 
   - Import and render SystemSummary component at top of WhyScreen
   - Pass classification from birthDataStore
   - _Requirements: 8.1_
 
-- [ ] 8.2 Implement tabbed navigation for star systems
+- [x] 8.2 Implement tabbed navigation for star systems
 
   - Add tabs for Primary and Ally star systems
   - Set default active tab to primary system
   - Update displayed contributors when tab changes
   - _Requirements: 8.2_
 
-- [ ] 8.3 Integrate filters from UI store
+- [x] 8.3 Integrate filters from UI store
 
   - Connect hideDisputed and minConfidence from uiStore
   - Filter contributors based on disputed sources and confidence level
   - Memoize filtered contributors for performance
   - _Requirements: 8.4, 8.9_
 
-- [ ] 8.4 Render ContributionCard list
+- [x] 8.4 Render ContributionCard list
 
   - Map filtered contributors to ContributionCard components
   - Sort by weight descending
   - Pass totalWeight for percentage calculation
   - _Requirements: 8.3_
 
-- [ ] 8.5 Add empty state for filtered results
+- [x] 8.5 Add empty state for filtered results
 
   - Show "Nothing matches your filters." card when filteredContributors.length === 0
   - Suggest adjusting filter preferences
   - _Requirements: 8.8_
 
-- [ ] 8.6 Add footer with lore version and disclaimer
+- [x] 8.6 Add footer with lore version and disclaimer
 
   - Display "Lore v{lore_version} • Deterministic rules engine. For insight & entertainment."
   - Use hybrid copy format: "Hybrid: Pleiades + Sirius (Δ 3.2%)" for hybrid classifications
   - _Requirements: 8.5_
 
-- [ ] 8.7 Implement list virtualization for large contributor lists
+- [x] 8.7 Implement list virtualization for large contributor lists
 
   - Add @tanstack/react-virtual dependency if needed
   - Implement virtualization when contributors > 75
   - _Requirements: 8.9_
 
-- [ ] 8.8 Verify Why 2.0 performance target
+- [x] 8.8 Verify Why 2.0 performance target
   - Ensure render completes in <50ms after classification data available
   - Profile and optimize if needed
   - _Requirements: 8.6_
