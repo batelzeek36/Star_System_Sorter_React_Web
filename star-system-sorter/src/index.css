@@ -334,3 +334,186 @@ html {
     }
   }
 }
+
+/* Print Styles for Dossier Export */
+@media print {
+  /* Reset page margins and setup */
+  @page {
+    margin: 0.5in;
+    size: letter portrait;
+  }
+
+  /* Remove all animations and transitions for print */
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
+
+  /* Improve text contrast for print */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Ensure backgrounds and borders print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide non-printable elements */
+  .no-print,
+  button:not(.print-keep),
+  nav,
+  header:not(.print-keep),
+  footer:not(.print-keep) {
+    display: none !important;
+  }
+
+  /* Page break controls - prevent breaks inside important sections */
+  .print-no-break,
+  section,
+  article,
+  [class*="Card"],
+  [class*="card"],
+  table,
+  figure,
+  pre,
+  blockquote {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Add page breaks before major sections */
+  .print-page-break,
+  h1:not(:first-of-type),
+  h2:not(:first-of-type) {
+    page-break-before: auto;
+    break-before: auto;
+  }
+
+  /* Ensure tables don't break awkwardly */
+  tr,
+  td,
+  th {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  /* Improve text readability for print */
+  body,
+  p,
+  li,
+  td,
+  th {
+    color: #000 !important;
+  }
+
+  /* Ensure headings are visible */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Make links visible with URLs */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Don't show URLs for internal links or anchors */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* Ensure images fit on page */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Remove shadows and effects for cleaner print */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Ensure sufficient contrast for borders */
+  [class*="border"] {
+    border-color: #ccc !important;
+  }
+
+  /* Make sure text is readable on light backgrounds */
+  [class*="text-"],
+  span,
+  div {
+    color: #000 !important;
+  }
+
+  /* Special handling for code blocks */
+  code,
+  pre {
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Ensure tables have visible borders */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #000 !important;
+  }
+
+  th {
+    background-color: #f0f0f0 !important;
+    font-weight: bold;
+  }
+
+  /* Remove background gradients for cleaner print */
+  [class*="gradient"],
+  [class*="bg-gradient"] {
+    background: white !important;
+  }
+
+  /* Ensure sufficient spacing between sections */
+  section,
+  article,
+  [class*="section"] {
+    margin-bottom: 1rem;
+  }
+
+  /* Hide decorative elements */
+  [class*="starfield"],
+  [class*="glow"],
+  [class*="blur"],
+  [class*="decoration"] {
+    display: none !important;
+  }
+
+  /* Ensure buttons in print are visible if needed */
+  .print-keep {
+    display: block !important;
+  }
+}
