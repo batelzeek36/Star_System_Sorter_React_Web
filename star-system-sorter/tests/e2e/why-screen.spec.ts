@@ -89,8 +89,8 @@ test.describe('Why Screen', () => {
       // Click on the second tab (ally system)
       await tabs[1].click();
       
-      // Verify the tab is now active (should have aria-current="true")
-      await expect(tabs[1]).toHaveAttribute('aria-current', 'true');
+      // Verify the tab is now active (should have aria-selected="true")
+      await expect(tabs[1]).toHaveAttribute('aria-selected', 'true');
       
       // Tab switching works - that's the main thing we're testing
       console.log('Tab switching verified');

@@ -343,12 +343,12 @@
 ## Phase 9: File Organization
 
 - [ ] 12. Organize project files
-- [ ] 12.1 Move prompt2.md to spec directory
+- [x] 12.1 Move prompt2.md to spec directory
 
   - Move prompt2.md to .kiro/specs/why-2-dossier/prompt.md
   - _Requirements: 14.2_
 
-- [ ] 12.2 Verify lore.yaml location
+- [x] 12.2 Verify lore.yaml location
   - Confirm lore.yaml is at data/lore/lore.yaml
   - Update any remaining import paths
   - _Requirements: 14.1, 14.4_
@@ -356,7 +356,7 @@
 ## Phase 10: Testing
 
 - [ ] 13. Write E2E tests for Why 2.0
-- [ ] 13.1 Create why.spec.ts
+- [x] 13.1 Create why.spec.ts
 
   - Create tests/e2e/why.spec.ts
   - Test: Navigate to /why after completing classification
@@ -367,7 +367,7 @@
   - _Requirements: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6_
 
 - [ ] 14. Write E2E tests for Dossier
-- [ ] 14.1 Create dossier.spec.ts
+- [x] 14.1 Create dossier.spec.ts (check how much of this you already finished)
 
   - Create tests/e2e/dossier.spec.ts
   - Test: Navigate to /dossier after completing classification
@@ -381,7 +381,7 @@
   - _Requirements: 13.1, 13.2, 13.3, 13.4, 13.5, 13.6, 13.7, 13.8, 13.9_
 
 - [ ] 15. Verify existing tests pass
-- [ ] 15.1 Run existing E2E test suite
+- [x] 15.1 Run existing E2E test suite
   - Run tests/e2e/user-flow.spec.ts
   - Verify all existing tests pass
   - Fix any regressions
@@ -390,7 +390,7 @@
 ## Phase 11: Accessibility & Polish
 
 - [ ] 16. Implement accessibility features
-- [ ] 16.1 Verify keyboard accessibility
+- [x] 16.1 Verify keyboard accessibility
 
   - Test all tooltips are keyboard-reachable
   - Verify tab order: filters → tabs → cards
@@ -398,20 +398,20 @@
   - Test Arrow keys navigate tabs
   - _Requirements: 15.1_
 
-- [ ] 16.2 Add reduced motion support
+- [x] 16.2 Add reduced motion support
 
   - Implement @media (prefers-reduced-motion: reduce) styles
   - Disable animations for contribution cards and starfield
   - Ensure no animations flash >3 Hz
   - _Requirements: 15.2, 15.3_
 
-- [ ] 16.3 Verify disclaimers on all screens
+- [x] 16.3 Verify disclaimers on all screens
 
   - Confirm insight/entertainment disclaimer on Why screen
   - Confirm disclaimer on Dossier screen
   - _Requirements: 15.4_
 
-- [ ] 16.4 Verify touch target sizes
+- [x] 16.4 Verify touch target sizes
   - Audit all interactive elements for 44px minimum
   - Fix any elements below threshold
   - _Requirements: 15.5_

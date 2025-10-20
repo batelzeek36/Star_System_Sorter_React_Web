@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { Card } from '@/components/figma/Card';
 import { Button } from '@/components/figma/Button';
@@ -17,6 +17,24 @@ export function ContributionCard({
   systemId 
 }: ContributionCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  // Handle Escape key to close expanded details
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isExpanded) {
+        setIsExpanded(false);
+        // Return focus to the details button
+        const button = cardRef.current?.querySelector('button[aria-expanded="true"]') as HTMLButtonElement;
+        button?.focus();
+      }
+    };
+
+    if (isExpanded) {
+      document.addEventListener('keydown', handleKeyDown);
+      return () => document.removeEventListener('keydown', handleKeyDown);
+    }
+  }, [isExpanded]);
   
   // Calculate percentage
   const percentage = totalWeight > 0 ? (contributor.weight / totalWeight) * 100 : 0;
@@ -32,7 +50,7 @@ export function ContributionCard({
   };
   
   return (
-    <Card className="space-y-3">
+    <Card className="space-y-3" ref={cardRef}>
       {/* Header with label and percentage */}
       <div className="flex items-start justify-between gap-4">
         <div className="flex-1 min-w-0">

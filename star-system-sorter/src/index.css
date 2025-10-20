@@ -332,6 +332,18 @@ html {
       transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
+
+    /* Disable specific animations that could be problematic */
+    .animate-spin {
+      animation: none !important;
+    }
+
+    /* Ensure no flashing animations (>3 Hz = >3 times per second) */
+    [class*="animate-"],
+    [class*="transition-"] {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
 

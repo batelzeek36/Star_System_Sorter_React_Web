@@ -155,8 +155,31 @@ export default function WhyScreen() {
         {/* Star System Tabs */}
         {availableSystems.length > 1 && (
           <div className="mb-6">
-            <div className="flex gap-2 overflow-x-auto pb-2">
-              {availableSystems.map((system) => {
+            <div 
+              className="flex gap-2 overflow-x-auto pb-2"
+              role="tablist"
+              aria-label="Star system tabs"
+              onKeyDown={(e) => {
+                if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+                  e.preventDefault();
+                  const currentIndex = availableSystems.indexOf(activeSystem);
+                  let nextIndex;
+                  
+                  if (e.key === 'ArrowRight') {
+                    nextIndex = (currentIndex + 1) % availableSystems.length;
+                  } else {
+                    nextIndex = (currentIndex - 1 + availableSystems.length) % availableSystems.length;
+                  }
+                  
+                  setActiveSystem(availableSystems[nextIndex]);
+                  
+                  // Focus the new tab
+                  const tabs = e.currentTarget.querySelectorAll('button[role="tab"]');
+                  (tabs[nextIndex] as HTMLButtonElement)?.focus();
+                }
+              }}
+            >
+              {availableSystems.map((system, index) => {
                 const isActive = system === activeSystem;
                 const percentage = classification.percentages[system] || 0;
                 const isPrimary = system === primarySystem;
@@ -164,6 +187,10 @@ export default function WhyScreen() {
                 return (
                   <button
                     key={system}
+                    role="tab"
+                    aria-selected={isActive}
+                    aria-controls={`tabpanel-${system}`}
+                    tabIndex={isActive ? 0 : -1}
                     onClick={() => setActiveSystem(system)}
                     className={`
                       flex-shrink-0 px-4 py-2 rounded-lg text-sm font-medium transition-all
@@ -175,7 +202,6 @@ export default function WhyScreen() {
                       }
                     `}
                     aria-label={`View ${system} contributors`}
-                    aria-current={isActive ? 'true' : undefined}
                   >
                     <div className="flex flex-col items-center gap-1">
                       <span className="text-sm">{system}</span>
@@ -283,7 +309,12 @@ export default function WhyScreen() {
 
         {/* Contributing Attributes */}
         {sortedContributors.length > 0 ? (
-          <div className="mb-6">
+          <div 
+            className="mb-6"
+            role="tabpanel"
+            id={`tabpanel-${activeSystem}`}
+            aria-labelledby={`tab-${activeSystem}`}
+          >
             <p className="text-xs text-[var(--s3-text-subtle)] mb-3">
               {activeSystem === primarySystem ? 'Deterministic sort contributors' : `Contributors for ${activeSystem}`}
             </p>
