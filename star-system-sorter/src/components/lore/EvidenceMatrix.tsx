@@ -3,8 +3,9 @@ import { useVirtualizer } from '@tanstack/react-virtual';
 import { Card } from '@/components/figma/Card';
 // import { Button } from '@/components/figma/Button';
 import { SourceBadge } from './SourceBadge';
-import { useUIStore } from '@/store/uiStore';
-import { loreBundle } from '@/lib/lore.bundle';
+// DISABLED: Filter controls have been disabled
+// import { useUIStore } from '@/store/uiStore';
+// import { loreBundle } from '@/lib/lore.bundle';
 import type { EnhancedContributor } from '@/lib/schemas';
 
 interface EvidenceMatrixProps {
@@ -23,7 +24,8 @@ interface EvidenceMatrixProps {
  * - Virtualized for performance when >75 contributors
  */
 export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixProps) {
-  const { hideDisputed, minConfidence, setHideDisputed, setMinConfidence } = useUIStore();
+  // DISABLED: Filter state from UI store (filters are disabled)
+  // const { hideDisputed, minConfidence, setHideDisputed, setMinConfidence } = useUIStore();
   const [parentRef, setParentRef] = useState<HTMLDivElement | null>(null);
   
   // Determine attribute type from contributor key
@@ -37,29 +39,16 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
     return 'Unknown';
   };
   
-  // Filter and sort contributors
+  // DISABLED: Filters are disabled to prevent users from removing sources with minimal confidence
+  // Show all contributors without filtering
   const filteredContributors = useMemo(() => {
     let filtered = [...contributors];
-    
-    // Filter by disputed sources
-    if (hideDisputed) {
-      filtered = filtered.filter(contributor => {
-        const hasDisputedSource = contributor.sources.some(sourceId => {
-          const source = loreBundle.sources.find(s => s.id === sourceId);
-          return source?.disputed === true;
-        });
-        return !hasDisputedSource;
-      });
-    }
-    
-    // Filter by minimum confidence
-    filtered = filtered.filter(contributor => contributor.confidence >= minConfidence);
     
     // Sort by weight descending
     filtered.sort((a, b) => b.weight - a.weight);
     
     return filtered;
-  }, [contributors, hideDisputed, minConfidence]);
+  }, [contributors]);
   
   // Determine if we should use virtualization
   const shouldVirtualize = filteredContributors.length > 75;
@@ -132,53 +121,11 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
         </div>
       </div>
       
-      {/* Filters */}
+      {/* DISABLED: Filters are disabled to prevent users from removing sources with minimal confidence */}
       <div className="flex flex-wrap gap-4 items-center pb-4 border-b border-[var(--s3-border-muted)]">
-        {/* Hide disputed toggle */}
-        <label className="flex items-center gap-2 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={hideDisputed}
-            onChange={(e) => setHideDisputed(e.target.checked)}
-            className="w-4 h-4 rounded border-[var(--s3-border-emphasis)] bg-white/5 text-[var(--s3-lavender-500)] focus:ring-2 focus:ring-[var(--s3-lavender-400)] focus:ring-offset-2 focus:ring-offset-[var(--s3-canvas-dark)]"
-          />
-          <span className="text-sm text-[var(--s3-lavender-200)]">
-            Hide disputed sources
-          </span>
-        </label>
-        
-        {/* Min confidence slider */}
-        <div className="flex items-center gap-3 flex-1 min-w-[200px]">
-          <label 
-            htmlFor="min-confidence-slider"
-            className="text-sm text-[var(--s3-lavender-200)] whitespace-nowrap"
-          >
-            Min confidence:
-          </label>
-          <input
-            id="min-confidence-slider"
-            type="range"
-            min="1"
-            max="5"
-            step="1"
-            value={minConfidence}
-            onChange={(e) => setMinConfidence(parseInt(e.target.value) as 1 | 2 | 3 | 4 | 5)}
-            className="flex-1 h-2 bg-[var(--s3-lavender-900)]/30 rounded-full appearance-none cursor-pointer
-              [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:h-4 
-              [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-[var(--s3-lavender-400)]
-              [&::-webkit-slider-thumb]:cursor-pointer [&::-webkit-slider-thumb]:transition-all
-              [&::-webkit-slider-thumb]:hover:bg-[var(--s3-lavender-300)]
-              [&::-moz-range-thumb]:w-4 [&::-moz-range-thumb]:h-4 [&::-moz-range-thumb]:rounded-full 
-              [&::-moz-range-thumb]:bg-[var(--s3-lavender-400)] [&::-moz-range-thumb]:border-0
-              [&::-moz-range-thumb]:cursor-pointer [&::-moz-range-thumb]:transition-all
-              [&::-moz-range-thumb]:hover:bg-[var(--s3-lavender-300)]
-              focus:outline-none focus:ring-2 focus:ring-[var(--s3-lavender-400)] focus:ring-offset-2 focus:ring-offset-[var(--s3-canvas-dark)]"
-            aria-label="Minimum confidence level filter"
-          />
-          <span className="text-sm text-[var(--s3-lavender-300)] font-mono w-8 text-right">
-            {minConfidence}
-          </span>
-        </div>
+        <p className="text-sm text-[var(--s3-lavender-200)]">
+          Showing all contributors (filters disabled)
+        </p>
       </div>
       
       {/* Table */}

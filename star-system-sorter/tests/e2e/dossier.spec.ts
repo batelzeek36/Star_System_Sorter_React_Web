@@ -134,6 +134,18 @@ test.describe('Dossier Screen', () => {
     await expect(page.getByText(/for insight.*entertainment.*not.*medical/i)).toBeVisible();
   });
 
+  test('filter controls are disabled in Evidence Matrix', async ({ page }) => {
+    // Verify Evidence Matrix section is visible
+    await expect(page.getByText(/Gate.*Faction.*Grid|Evidence Matrix/i)).toBeVisible();
+    
+    // Verify filter controls are NOT present (disabled)
+    await expect(page.getByRole('checkbox', { name: /hide disputed/i })).not.toBeVisible();
+    await expect(page.getByRole('slider', { name: /minimum confidence/i })).not.toBeVisible();
+    
+    // Verify the disabled message is shown
+    await expect(page.getByText(/showing all contributors.*filters disabled/i)).toBeVisible();
+  });
+
   test('completes in under 10 seconds', async ({ page }) => {
     const startTime = Date.now();
     

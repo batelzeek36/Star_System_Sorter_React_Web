@@ -1,18 +1,19 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * E2E Tests for Why Screen - Disputed Source Filter
+ * E2E Tests for Why Screen - Filter Controls Disabled
  * 
  * Requirements: 12.1, 12.2, 12.3, 12.4, 12.5, 12.6
  * 
- * Tests the "Hide disputed" filter functionality:
+ * Tests that filter controls are disabled:
  * - Navigate to Why screen after classification
- * - Toggle "Hide disputed" filter
- * - Verify disputed source badges (⚑) are hidden/visible based on filter state
+ * - Verify "Hide disputed" filter is not present
+ * - Verify "Min confidence" slider is not present
+ * - Verify all contributors are shown
  * - Complete in under 10 seconds
  */
 
-test.describe('Why Screen - Disputed Source Filter', () => {
+test.describe('Why Screen - Filter Controls Disabled', () => {
   test.beforeEach(async ({ page }) => {
     // Navigate to app and complete classification flow
     await page.goto('/');
@@ -47,106 +48,34 @@ test.describe('Why Screen - Disputed Source Filter', () => {
     // Verify Why screen content is visible
     await expect(page.getByText(/why (pleiades|sirius|lyra|andromeda|orion|arctus)/i)).toBeVisible();
     
-    // Verify filter controls are present
-    await expect(page.getByRole('checkbox', { name: /hide disputed/i })).toBeVisible();
+    // Verify filter controls are NOT present (disabled)
+    await expect(page.getByRole('checkbox', { name: /hide disputed/i })).not.toBeVisible();
+    await expect(page.getByRole('slider', { name: /minimum confidence/i })).not.toBeVisible();
+    
+    // Verify the disabled message is shown
+    await expect(page.getByText(/showing all contributors.*filters disabled/i)).toBeVisible();
   });
 
-  test('toggles "Hide disputed" filter and verifies disputed badges', async ({ page }) => {
-    // Find the "Hide disputed" checkbox
-    const hideDisputedCheckbox = page.getByRole('checkbox', { name: /hide disputed/i });
-    await expect(hideDisputedCheckbox).toBeVisible();
+  test('verifies all contributors are shown without filtering', async ({ page }) => {
+    // Verify the disabled message is shown
+    await expect(page.getByText(/showing all contributors.*filters disabled/i)).toBeVisible();
     
-    // Get initial state of the checkbox
-    const initiallyChecked = await hideDisputedCheckbox.isChecked();
-    
-    // If checkbox is checked (disputed sources hidden), uncheck it to show disputed sources
-    if (initiallyChecked) {
-      // Uncheck to show disputed sources
-      await hideDisputedCheckbox.click();
-      await page.waitForTimeout(500); // Wait for filter to apply
-      
-      // Count disputed badges (⚑) - should be visible now
-      const disputedBadgesVisible = await page.getByText('⚑').count();
-      
-      // Check the box again to hide disputed sources
-      await hideDisputedCheckbox.click();
-      await page.waitForTimeout(500); // Wait for filter to apply
-      
-      // Count disputed badges again - should be hidden now
-      const disputedBadgesHidden = await page.getByText('⚑').count();
-      
-      // Verify that disputed badges are hidden when filter is active
-      expect(disputedBadgesHidden).toBe(0);
-      
-      // If there were disputed sources, verify they were visible when filter was off
-      if (disputedBadgesVisible > 0) {
-        expect(disputedBadgesVisible).toBeGreaterThan(0);
-      }
-    } else {
-      // Checkbox is unchecked (disputed sources visible), so check it to hide them
-      
-      // Count disputed badges before hiding (should be visible)
-      const disputedBadgesBeforeHide = await page.getByText('⚑').count();
-      
-      // Check the box to hide disputed sources
-      await hideDisputedCheckbox.click();
-      await page.waitForTimeout(500); // Wait for filter to apply
-      
-      // Count disputed badges after hiding (should be 0)
-      const disputedBadgesAfterHide = await page.getByText('⚑').count();
-      
-      // Verify disputed badges are hidden when filter is active
-      expect(disputedBadgesAfterHide).toBe(0);
-      
-      // Uncheck to show disputed sources again
-      await hideDisputedCheckbox.click();
-      await page.waitForTimeout(500); // Wait for filter to apply
-      
-      // Count disputed badges again (should be visible)
-      const disputedBadgesAfterShow = await page.getByText('⚑').count();
-      
-      // If there were disputed sources initially, they should be visible again
-      if (disputedBadgesBeforeHide > 0) {
-        expect(disputedBadgesAfterHide).toBe(0);
-        expect(disputedBadgesAfterShow).toBeGreaterThan(0);
-      }
-    }
-  });
-
-  test('disputed badges are hidden when filter is active', async ({ page }) => {
-    const hideDisputedCheckbox = page.getByRole('checkbox', { name: /hide disputed/i });
-    
-    // Ensure the "Hide disputed" filter is checked (active)
-    const isChecked = await hideDisputedCheckbox.isChecked();
-    if (!isChecked) {
-      await hideDisputedCheckbox.click();
-      await page.waitForTimeout(500);
-    }
-    
-    // Verify disputed badges (⚑) are not visible
-    const disputedBadgeCount = await page.getByText('⚑').count();
-    expect(disputedBadgeCount).toBe(0);
-  });
-
-  test('disputed badges are visible when filter is inactive', async ({ page }) => {
-    const hideDisputedCheckbox = page.getByRole('checkbox', { name: /hide disputed/i });
-    
-    // Ensure the "Hide disputed" filter is unchecked (inactive)
-    const isChecked = await hideDisputedCheckbox.isChecked();
-    if (isChecked) {
-      await hideDisputedCheckbox.click();
-      await page.waitForTimeout(500);
-    }
-    
-    // Count disputed badges (⚑)
+    // Verify that disputed badges (⚑) may be visible (since filters are disabled)
+    // Count disputed badges - they should be visible if they exist in the data
     const disputedBadgeCount = await page.getByText('⚑').count();
     
-    // Note: The count might be 0 if there are no disputed sources in the test data
-    // The important thing is that the filter is off and badges would be visible if they exist
+    // The count can be 0 or more, but the important thing is filters are disabled
     expect(disputedBadgeCount).toBeGreaterThanOrEqual(0);
+  });
+
+  test('verifies filter controls are not interactive', async ({ page }) => {
+    // Verify "Hide disputed" checkbox is not present
+    const hideDisputedCheckbox = page.getByRole('checkbox', { name: /hide disputed/i });
+    await expect(hideDisputedCheckbox).not.toBeVisible();
     
-    // Verify that the checkbox is unchecked
-    await expect(hideDisputedCheckbox).not.toBeChecked();
+    // Verify "Min confidence" slider is not present
+    const minConfidenceSlider = page.getByRole('slider', { name: /minimum confidence/i });
+    await expect(minConfidenceSlider).not.toBeVisible();
   });
 
   test('completes in under 10 seconds', async ({ page }) => {

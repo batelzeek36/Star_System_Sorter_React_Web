@@ -2,7 +2,8 @@ import { useState, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { useBirthDataStore } from '@/store/birthDataStore';
-import { useUIStore } from '@/store/uiStore';
+// DISABLED: Filter controls have been disabled
+// import { useUIStore } from '@/store/uiStore';
 import { useLoreVersionCheck } from '@/hooks/useLoreVersionCheck';
 import { useClassification } from '@/hooks/useClassification';
 import { Card } from '@/components/figma/Card';
@@ -69,34 +70,15 @@ export default function WhyScreen() {
   const enhancedContributors = classification.enhancedContributorsWithWeights?.[activeSystem] || [];
   const activePercentage = classification.percentages[activeSystem] || 0;
   
-  // Get filter preferences from UI store
-  const hideDisputed = useUIStore((state) => state.hideDisputed);
-  const minConfidence = useUIStore((state) => state.minConfidence);
+  // DISABLED: Filter preferences from UI store
+  // Filters are disabled to prevent users from removing sources with minimal confidence
+  // const hideDisputed = useUIStore((state) => state.hideDisputed);
+  // const minConfidence = useUIStore((state) => state.minConfidence);
   
-  // Filter contributors based on UI preferences
+  // Show all contributors without filtering
   const filteredContributors = useMemo(() => {
-    return enhancedContributors.filter((contributor) => {
-      // Filter by confidence level
-      if (contributor.confidence < minConfidence) {
-        return false;
-      }
-      
-      // Filter by disputed sources
-      if (hideDisputed && contributor.sources) {
-        // Check if any of the contributor's sources are disputed
-        const hasDisputedSource = contributor.sources.some((sourceId) => {
-          const source = loreBundle.sources.find((s) => s.id === sourceId);
-          return source?.disputed === true;
-        });
-        
-        if (hasDisputedSource) {
-          return false;
-        }
-      }
-      
-      return true;
-    });
-  }, [enhancedContributors, hideDisputed, minConfidence]);
+    return enhancedContributors;
+  }, [enhancedContributors]);
   
   // Sort filtered contributors by weight descending
   const sortedContributors = [...filteredContributors].sort((a, b) => b.weight - a.weight);
@@ -375,18 +357,14 @@ export default function WhyScreen() {
                 </div>
                 <div className="flex-1">
                   <p className="text-sm text-[var(--s3-lavender-200)] mb-2">
-                    No contributors match your filters
+                    No contributors found
                   </p>
                   <p className="text-xs text-[var(--s3-text-subtle)] mb-3">
-                    {hideDisputed && minConfidence > 1
-                      ? `Try adjusting your filters (currently hiding disputed sources and showing confidence ${minConfidence}+)`
-                      : hideDisputed
-                      ? 'Try showing disputed sources in your filter settings'
-                      : `Try lowering the minimum confidence level (currently ${minConfidence}+)`}
+                    There are no contributors for this star system.
                   </p>
                   <div className="flex items-center gap-2 text-xs text-[var(--s3-text-subtle)]">
                     <Info className="w-4 h-4" />
-                    <span>Filters help you focus on the most reliable lore</span>
+                    <span>All available lore is shown</span>
                   </div>
                 </div>
               </div>
