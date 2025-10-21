@@ -348,39 +348,10 @@ html {
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Reduce motion for users who prefer it - but only if explicitly set */
-  @media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      scroll-behavior: auto !important;
-    }
-
-    /* Disable specific animations that could be problematic */
-    .animate-spin {
-      animation: none !important;
-    }
-
-    /* Ensure no flashing animations (>3 Hz = >3 times per second) */
-    [class*="animate-"],
-    [class*="transition-"] {
-      animation-duration: 0.01ms !important;
-      transition-duration: 0.01ms !important;
-    }
-  }
-
-  /* Force animations to work on mobile browsers */
-  @media (max-width: 768px) {
-    /* Ensure animations are enabled on mobile unless explicitly disabled */
-    @supports (animation: none) {
-      [class*="animate-"] {
-        animation-play-state: running !important;
-        -webkit-animation-play-state: running !important;
-      }
-    }
+  /* Force animations to always run - removed prefers-reduced-motion check for better mobile support */
+  [class*="animate-"] {
+    animation-play-state: running !important;
+    -webkit-animation-play-state: running !important;
   }
 }
 

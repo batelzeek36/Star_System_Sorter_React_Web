@@ -58,32 +58,32 @@ export const animationStyles = `
   }
   
   .animate-fade-in {
-    -webkit-animation: fadeIn 0.8s ease-out forwards;
-    animation: fadeIn 0.8s ease-out forwards;
+    -webkit-animation: fadeIn 0.8s ease-out forwards !important;
+    animation: fadeIn 0.8s ease-out forwards !important;
   }
   
   .animate-fade-in-down {
-    -webkit-animation: fadeInDown 0.7s ease-out forwards;
-    animation: fadeInDown 0.7s ease-out forwards;
+    -webkit-animation: fadeInDown 0.7s ease-out forwards !important;
+    animation: fadeInDown 0.7s ease-out forwards !important;
   }
   
   .animate-fade-in-up {
-    -webkit-animation: fadeInUp 0.8s ease-out forwards;
-    animation: fadeInUp 0.8s ease-out forwards;
+    -webkit-animation: fadeInUp 0.8s ease-out forwards !important;
+    animation: fadeInUp 0.8s ease-out forwards !important;
   }
   
   .animate-scale-in {
-    -webkit-animation: scaleIn 0.7s ease-out forwards;
-    animation: scaleIn 0.7s ease-out forwards;
+    -webkit-animation: scaleIn 0.7s ease-out forwards !important;
+    animation: scaleIn 0.7s ease-out forwards !important;
   }
   
   .animate-glow-pulse {
-    -webkit-animation: glowPulse 3s ease-in-out infinite;
-    animation: glowPulse 3s ease-in-out infinite;
+    -webkit-animation: glowPulse 3s ease-in-out infinite !important;
+    animation: glowPulse 3s ease-in-out infinite !important;
   }
   
   .animate-float {
-    -webkit-animation: float 6s ease-in-out infinite;
-    animation: float 6s ease-in-out infinite;
+    -webkit-animation: float 6s ease-in-out infinite !important;
+    animation: float 6s ease-in-out infinite !important;
   }
 `;
