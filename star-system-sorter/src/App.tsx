@@ -60,11 +60,11 @@ function App() {
               <WhyScreenV4 />
             </ProtectedRoute>
           } />
-          <Route path="/why-v5" element={
+          {/* <Route path="/why-v5" element={
             <ProtectedRoute>
               <WhyScreenV5 />
             </ProtectedRoute>
-          } />
+          } /> */}
           <Route path="/why-figma" element={
             <ProtectedRoute>
               <WhyScreenRedesignFigma />
