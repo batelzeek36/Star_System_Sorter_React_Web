@@ -348,7 +348,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Reduce motion for users who prefer it */
+  /* Reduce motion for users who prefer it - but only if explicitly set */
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -371,6 +371,18 @@ html {
       transition-duration: 0.01ms !important;
     }
   }
+
+  /* Force animations to work on mobile browsers */
+  @media (max-width: 768px) {
+    /* Ensure animations are enabled on mobile unless explicitly disabled */
+    @supports (animation: none) {
+      [class*="animate-"] {
+        animation-play-state: running !important;
+        -webkit-animation-play-state: running !important;
+      }
+    }
+  }
+}
 }
 
 /* Print Styles for Dossier Export */
