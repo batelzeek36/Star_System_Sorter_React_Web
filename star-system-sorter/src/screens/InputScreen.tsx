@@ -88,10 +88,18 @@ export function InputScreen() {
   const { loading, fetchHDData } = useHDData();
   const setData = useBirthDataStore((state) => state.setData);
   
+  // Get saved data from store
+  const savedDate = useBirthDataStore((state) => state.date);
+  const savedTime = useBirthDataStore((state) => state.time);
+  const savedLocation = useBirthDataStore((state) => state.location);
+  const savedTimeZone = useBirthDataStore((state) => state.timeZone);
+  const hasClassification = useBirthDataStore((state) => state.classification !== null);
+  
   const [toastError, setToastError] = useState<string | null>(null);
   const [lastSubmittedData, setLastSubmittedData] = useState<BirthDataForm | null>(null);
   
   // Initialize form with React Hook Form + Zod
+  // Pre-fill with saved data if available
   const {
     register,
     handleSubmit,
@@ -99,10 +107,10 @@ export function InputScreen() {
   } = useForm<BirthDataForm>({
     resolver: zodResolver(BirthDataFormSchema),
     defaultValues: {
-      date: '',
-      time: '',
-      location: '',
-      timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      date: savedDate || '',
+      time: savedTime || '',
+      location: savedLocation || '',
+      timeZone: savedTimeZone || Intl.DateTimeFormat().resolvedOptions().timeZone,
     },
   });
   
@@ -204,6 +212,20 @@ export function InputScreen() {
             Enter your birth details for accurate classification
           </p>
         </div>
+
+        {/* Saved Results Button */}
+        {hasClassification && (
+          <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.05s', animationFillMode: 'both' }}>
+            <Button
+              variant="secondary"
+              className="w-full"
+              onClick={() => navigate('/result')}
+              type="button"
+            >
+              View Saved Results
+            </Button>
+          </div>
+        )}
         
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
           {/* Date Field */}
