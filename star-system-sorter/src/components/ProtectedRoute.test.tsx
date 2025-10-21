@@ -52,6 +52,10 @@ describe('ProtectedRoute', () => {
     useBirthDataStore.getState().setClassification({
       primary: 'Pleiades',
       classification: 'primary',
+      allies: [
+        { system: 'Sirius', percentage: 25.3 },
+        { system: 'Lyra', percentage: 15.2 },
+      ],
       percentages: {
         Pleiades: 45.5,
         Sirius: 25.3,
@@ -59,6 +63,11 @@ describe('ProtectedRoute', () => {
         Andromeda: 8.0,
         Orion: 4.0,
         Arcturus: 2.0,
+      },
+      contributorsPerSystem: {
+        Pleiades: [],
+        Sirius: [],
+        Lyra: [],
       },
       contributorsWithWeights: {},
       meta: {
