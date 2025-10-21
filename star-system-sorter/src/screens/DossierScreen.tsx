@@ -1,17 +1,51 @@
 import { useState } from 'react';
 import DossierScreenOld from './DossierScreenOld';
 import DossierScreenNew from './DossierScreenNew';
+import DossierScreenHybrid from './DossierScreenHybrid';
 import { Button } from '@/components/figma/Button';
 import { RefreshCw } from 'lucide-react';
 
 /**
- * DossierScreen Wrapper - Toggle between old and new designs
+ * DossierScreen Wrapper - Toggle between three designs
  * 
- * This wrapper allows live comparison between the previous and redesigned versions.
- * Remove this wrapper and rename DossierScreenNew.tsx to DossierScreen.tsx when ready to ship.
+ * This wrapper allows live comparison between:
+ * - Old: Original design
+ * - New: Redesigned version
+ * - Hybrid: Best of both (user's preferences)
  */
 export default function DossierScreen() {
-  const [useNewDesign, setUseNewDesign] = useState(true);
+  const [version, setVersion] = useState<'old' | 'new' | 'hybrid'>('hybrid');
+
+  const cycleVersion = () => {
+    setVersion(prev => {
+      if (prev === 'hybrid') return 'old';
+      if (prev === 'old') return 'new';
+      return 'hybrid';
+    });
+  };
+
+  const versionConfig = {
+    hybrid: {
+      label: '🎯 Hybrid (Best of Both)',
+      gradient: 'linear-gradient(to right, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2))',
+      borderColor: 'rgba(236, 72, 153, 0.3)',
+      color: 'rgb(244, 114, 182)'
+    },
+    old: {
+      label: '📋 Original Design',
+      gradient: 'linear-gradient(to right, rgba(59, 130, 246, 0.2), rgba(96, 165, 250, 0.2))',
+      borderColor: 'rgba(96, 165, 250, 0.3)',
+      color: 'rgb(147, 197, 253)'
+    },
+    new: {
+      label: '✨ New Design',
+      gradient: 'linear-gradient(to right, rgba(139, 92, 246, 0.2), rgba(167, 139, 250, 0.2))',
+      borderColor: 'rgba(167, 139, 250, 0.3)',
+      color: 'rgb(196, 181, 253)'
+    }
+  };
+
+  const currentConfig = versionConfig[version];
 
   return (
     <div className="relative">
@@ -20,11 +54,11 @@ export default function DossierScreen() {
         <Button
           variant="secondary"
           size="sm"
-          onClick={() => setUseNewDesign(!useNewDesign)}
+          onClick={cycleVersion}
           className="shadow-lg backdrop-blur-sm bg-white/10 border-white/20 hover:bg-white/20"
         >
           <RefreshCw className="w-4 h-4 mr-2" />
-          {useNewDesign ? 'Switch to Old Design' : 'Switch to New Design'}
+          Cycle Version
         </Button>
       </div>
 
@@ -32,18 +66,18 @@ export default function DossierScreen() {
       <div className="fixed top-4 left-4 z-50 print:hidden">
         <div className="px-3 py-1.5 rounded-full text-xs font-medium backdrop-blur-sm border shadow-lg"
              style={{
-               background: useNewDesign 
-                 ? 'linear-gradient(to right, rgba(139, 92, 246, 0.2), rgba(167, 139, 250, 0.2))'
-                 : 'linear-gradient(to right, rgba(59, 130, 246, 0.2), rgba(96, 165, 250, 0.2))',
-               borderColor: useNewDesign ? 'rgba(167, 139, 250, 0.3)' : 'rgba(96, 165, 250, 0.3)',
-               color: useNewDesign ? 'rgb(196, 181, 253)' : 'rgb(147, 197, 253)'
+               background: currentConfig.gradient,
+               borderColor: currentConfig.borderColor,
+               color: currentConfig.color
              }}>
-          {useNewDesign ? '✨ New Design' : '📋 Original Design'}
+          {currentConfig.label}
         </div>
       </div>
 
       {/* Render selected version */}
-      {useNewDesign ? <DossierScreenNew /> : <DossierScreenOld />}
+      {version === 'hybrid' && <DossierScreenHybrid />}
+      {version === 'old' && <DossierScreenOld />}
+      {version === 'new' && <DossierScreenNew />}
     </div>
   );
 }

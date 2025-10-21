@@ -61,13 +61,17 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
     enabled: shouldVirtualize,
   });
   
-  // Render confidence dots
+  // Render confidence dots (bigger purple dots like new design)
   const renderConfidenceDots = (confidence: number) => {
-    const filled = '●';
-    const empty = '○';
-    return Array.from({ length: 5 }, (_, i) => 
-      i < confidence ? filled : empty
-    ).join('');
+    return (
+      <span className="inline-flex gap-0.5">
+        {Array.from({ length: 5 }, (_, i) => (
+          <span key={i} className={i < confidence ? 'text-violet-400' : 'text-white/20'}>
+            ●
+          </span>
+        ))}
+      </span>
+    );
   };
   
   // Render table row
