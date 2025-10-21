@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '@/store/birthDataStore';
 import { useClassification } from '@/hooks/useClassification';
@@ -8,22 +8,36 @@ import { LoadingOverlay } from '@/components/figma/LoadingOverlay';
 import { StarSystemCrests, type StarSystemName } from '@/components/figma/StarSystemCrests';
 import { animationStyles } from '@/styles/animations';
 
-// Starfield component from Figma App.tsx (unchanged)
-const Starfield = () => (
-  <div className="absolute inset-0 overflow-hidden pointer-events-none">
-    {[...Array(50)].map((_, i) => (
-      <div
-        key={i}
-        className="absolute w-0.5 h-0.5 bg-white rounded-full opacity-30"
-        style={{
-          left: `${Math.random() * 100}%`,
-          top: `${Math.random() * 100}%`,
-          animation: `twinkle ${2 + Math.random() * 3}s infinite ${Math.random() * 2}s`
-        }}
-      />
-    ))}
-  </div>
-);
+// Starfield component - memoized to prevent re-renders
+const Starfield = () => {
+  // Generate fixed star positions once using useMemo
+  const stars = useMemo(() => 
+    Array.from({ length: 50 }, (_, i) => ({
+      id: i,
+      left: Math.random() * 100,
+      top: Math.random() * 100,
+      duration: 2 + Math.random() * 3,
+      delay: Math.random() * 2
+    })), 
+    [] // Empty dependency array ensures this only runs once
+  );
+
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {stars.map((star) => (
+        <div
+          key={star.id}
+          className="absolute w-0.5 h-0.5 bg-white rounded-full opacity-30"
+          style={{
+            left: `${star.left}%`,
+            top: `${star.top}%`,
+            animation: `twinkle ${star.duration}s infinite ${star.delay}s`
+          }}
+        />
+      ))}
+    </div>
+  );
+};
 
 export default function ResultScreen() {
   const navigate = useNavigate();
@@ -202,41 +216,15 @@ export default function ResultScreen() {
           </div>
         )}
 
-        {/* View Why Buttons */}
-        <div className="mb-4 animate-fade-in-up space-y-2" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+        {/* View Why Button */}
+        <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
           <Button 
             variant="primary" 
             className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
             onClick={() => navigate('/why-figma')}
           >
-            View Why (Figma Redesign)
+            View Why ✨
           </Button>
-          <div className="flex gap-2">
-            <Button 
-              variant="ghost" 
-              size="sm"
-              className="flex-1 text-xs"
-              onClick={() => navigate('/why-v5')}
-            >
-              V5
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="sm"
-              className="flex-1 text-xs"
-              onClick={() => navigate('/why-v4')}
-            >
-              V4
-            </Button>
-            <Button 
-              variant="ghost" 
-              size="sm"
-              className="flex-1 text-xs"
-              onClick={() => navigate('/why')}
-            >
-              Original
-            </Button>
-          </div>
         </div>
 
         {/* Open Dossier Button */}

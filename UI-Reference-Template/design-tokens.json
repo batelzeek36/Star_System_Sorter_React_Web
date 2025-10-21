@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "name": "Star System Sorter (S³) Design Tokens",
+    "version": "1.0.0",
+    "description": "Design system tokens for S³ mobile application - Ethereal Flow direction",
+    "lastUpdated": "2025-10-08"
+  },
+  "colors": {
+    "canvas": {
+      "dark": {
+        "value": "#0a0612",
+        "type": "color",
+        "description": "Primary dark canvas background"
+      },
+      "darker": {
+        "value": "#060408",
+        "type": "color",
+        "description": "Deeper background for contrast"
+      }
+    },
+    "surface": {
+      "subtle": {
+        "value": "#1a0f2e",
+        "type": "color",
+        "description": "Subtle elevated surface"
+      },
+      "muted": {
+        "value": "#0f0820",
+        "type": "color",
+        "description": "Muted surface variant"
+      }
+    },
+    "lavender": {
+      "100": { "value": "#f3f0ff", "type": "color" },
+      "200": { "value": "#e9e3ff", "type": "color" },
+      "300": { "value": "#d4c5ff", "type": "color" },
+      "400": { "value": "#c4b5fd", "type": "color" },
+      "500": { "value": "#a78bfa", "type": "color", "description": "Primary lavender" },
+      "600": { "value": "#8b5cf6", "type": "color" },
+      "700": { "value": "#7c3aed", "type": "color" },
+      "800": { "value": "#6d28d9", "type": "color" },
+      "900": { "value": "#5b21b6", "type": "color" }
+    },
+    "gold": {
+      "100": { "value": "#fef3c7", "type": "color" },
+      "200": { "value": "#fde68a", "type": "color" },
+      "300": { "value": "#fcd34d", "type": "color" },
+      "400": { "value": "#fbbf24", "type": "color", "description": "Primary gold highlight" },
+      "500": { "value": "#f59e0b", "type": "color" },
+      "600": { "value": "#d97706", "type": "color" },
+      "700": { "value": "#b45309", "type": "color" }
+    },
+    "text": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color",
+        "contrast": "21:1 on canvas-dark"
+      },
+      "secondary": {
+        "value": "#e5e7eb",
+        "type": "color",
+        "contrast": "14.8:1 on canvas-dark"
+      },
+      "muted": {
+        "value": "#9ca3af",
+        "type": "color",
+        "contrast": "7.2:1 on canvas-dark"
+      },
+      "subtle": {
+        "value": "#6b7280",
+        "type": "color",
+        "contrast": "4.7:1 on canvas-dark"
+      }
+    },
+    "semantic": {
+      "success": {
+        "value": "#10b981",
+        "type": "color",
+        "description": "Success state color"
+      },
+      "error": {
+        "value": "#ef4444",
+        "type": "color",
+        "description": "Error state color"
+      },
+      "warning": {
+        "value": "#f59e0b",
+        "type": "color",
+        "description": "Warning state color"
+      },
+      "info": {
+        "value": "#3b82f6",
+        "type": "color",
+        "description": "Info state color"
+      }
+    },
+    "borders": {
+      "subtle": {
+        "value": "rgba(167, 139, 250, 0.1)",
+        "type": "color"
+      },
+      "muted": {
+        "value": "rgba(167, 139, 250, 0.2)",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "rgba(167, 139, 250, 0.4)",
+        "type": "color"
+      }
+    }
+  },
+  "spacing": {
+    "1": { "value": "4px", "type": "dimension" },
+    "2": { "value": "8px", "type": "dimension" },
+    "3": { "value": "12px", "type": "dimension" },
+    "4": { "value": "16px", "type": "dimension" },
+    "5": { "value": "20px", "type": "dimension" },
+    "6": { "value": "24px", "type": "dimension" },
+    "8": { "value": "32px", "type": "dimension" },
+    "10": { "value": "40px", "type": "dimension" },
+    "11": { 
+      "value": "44px", 
+      "type": "dimension",
+      "description": "Minimum touch target size"
+    },
+    "12": { "value": "48px", "type": "dimension" },
+    "16": { "value": "64px", "type": "dimension" }
+  },
+  "borderRadius": {
+    "sm": { "value": "8px", "type": "dimension" },
+    "md": { "value": "12px", "type": "dimension" },
+    "lg": { "value": "16px", "type": "dimension" },
+    "xl": { "value": "24px", "type": "dimension" },
+    "full": { "value": "9999px", "type": "dimension", "description": "Pill shape" }
+  },
+  "typography": {
+    "fontSize": {
+      "xs": { "value": "12px", "type": "dimension" },
+      "sm": { "value": "14px", "type": "dimension" },
+      "base": { "value": "16px", "type": "dimension" },
+      "lg": { "value": "18px", "type": "dimension" },
+      "xl": { "value": "20px", "type": "dimension" },
+      "2xl": { "value": "24px", "type": "dimension" },
+      "3xl": { "value": "30px", "type": "dimension" },
+      "4xl": { "value": "36px", "type": "dimension" }
+    },
+    "fontWeight": {
+      "normal": { "value": 400, "type": "number" },
+      "medium": { "value": 500, "type": "number" },
+      "semibold": { "value": 600, "type": "number" },
+      "bold": { "value": 700, "type": "number" }
+    },
+    "lineHeight": {
+      "tight": { "value": 1.25, "type": "number" },
+      "normal": { "value": 1.5, "type": "number" },
+      "relaxed": { "value": 1.75, "type": "number" }
+    }
+  },
+  "elevation": {
+    "0": {
+      "value": "none",
+      "type": "shadow",
+      "description": "No elevation"
+    },
+    "1": {
+      "value": "0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(139, 92, 246, 0.1)",
+      "type": "shadow",
+      "description": "Subtle lift"
+    },
+    "2": {
+      "value": "0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(139, 92, 246, 0.15)",
+      "type": "shadow",
+      "description": "Small elevation"
+    },
+    "3": {
+      "value": "0 10px 15px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(139, 92, 246, 0.2)",
+      "type": "shadow",
+      "description": "Medium elevation"
+    },
+    "4": {
+      "value": "0 20px 25px rgba(0, 0, 0, 0.4), 0 8px 10px rgba(139, 92, 246, 0.25)",
+      "type": "shadow",
+      "description": "High elevation"
+    }
+  },
+  "effects": {
+    "focusRing": {
+      "default": {
+        "value": "0 0 0 3px rgba(167, 139, 250, 0.4)",
+        "type": "shadow",
+        "description": "Default focus ring for interactive elements"
+      },
+      "error": {
+        "value": "0 0 0 3px rgba(239, 68, 68, 0.4)",
+        "type": "shadow",
+        "description": "Error state focus ring"
+      }
+    },
+    "blur": {
+      "sm": { "value": "4px", "type": "dimension" },
+      "md": { "value": "8px", "type": "dimension" },
+      "lg": { "value": "16px", "type": "dimension" },
+      "xl": { "value": "24px", "type": "dimension" }
+    }
+  },
+  "motion": {
+    "duration": {
+      "fast": { "value": "150ms", "type": "duration" },
+      "normal": { "value": "200ms", "type": "duration" },
+      "slow": { "value": "300ms", "type": "duration" },
+      "slower": { "value": "500ms", "type": "duration" }
+    },
+    "easing": {
+      "default": { "value": "cubic-bezier(0.4, 0, 0.2, 1)", "type": "cubicBezier" },
+      "in": { "value": "cubic-bezier(0.4, 0, 1, 1)", "type": "cubicBezier" },
+      "out": { "value": "cubic-bezier(0, 0, 0.2, 1)", "type": "cubicBezier" },
+      "inOut": { "value": "cubic-bezier(0.4, 0, 0.2, 1)", "type": "cubicBezier" }
+    }
+  },
+  "components": {
+    "button": {
+      "sizes": {
+        "sm": {
+          "minHeight": "44px",
+          "paddingX": "16px",
+          "paddingY": "8px",
+          "fontSize": "14px"
+        },
+        "md": {
+          "minHeight": "44px",
+          "paddingX": "24px",
+          "paddingY": "12px",
+          "fontSize": "16px"
+        },
+        "lg": {
+          "minHeight": "48px",
+          "paddingX": "32px",
+          "paddingY": "16px",
+          "fontSize": "18px"
+        }
+      }
+    },
+    "touchTarget": {
+      "minimum": {
+        "value": "44px",
+        "type": "dimension",
+        "description": "WCAG 2.1 AA minimum touch target size"
+      }
+    }
+  },
+  "starSystems": {
+    "names": [
+      "Orion",
+      "Osirian",
+      "Sirius",
+      "Pleiades",
+      "Andromeda",
+      "Lyra",
+      "Arcturus"
+    ],
+    "crestExportSizes": [24, 28, 48],
+    "description": "Six primary star systems for classification (Orion/Osirian are synonymous)"
+  }
+}
