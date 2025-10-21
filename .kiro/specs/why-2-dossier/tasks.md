@@ -467,14 +467,14 @@
 ## Phase 13: Documentation & Manual QA
 
 - [ ] 18. Add documentation and manual QA
-- [ ] 18.1 Update README
+- [x] 18.1 Update README
 
   - Add section: "How to add/modify lore"
   - Add section: "How the compiler validates"
   - Add section: "How to run tests"
   - _Requirements: 17.1_
 
-- [ ] 18.2 Manual QA script
+- [x] 18.2 Manual QA script
 
   - Test full flow: / → /input → /result → /why → /dossier
   - Test back navigation
@@ -484,7 +484,7 @@
   - Test on mobile viewport
   - _Requirements: 17.5_
 
-- [ ] 18.3 Optional: Dev CLI for classification
+- [x] 18.3 Optional: Dev CLI for classification
   - Add npm script: classify -- --date YYYY-MM-DD --time HH:MM --tz TIMEZONE
   - Prints classification JSON to console
   - Useful for debugging lore rules
