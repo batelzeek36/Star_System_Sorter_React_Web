@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { useBirthDataStore } from "@/store/birthDataStore";
+// import { useNavigate } from "react-router-dom";
+// import { useBirthDataStore } from "@/store/birthDataStore";
 import {
   ChevronLeft,
   Sparkles,
@@ -11,7 +11,7 @@ import {
   User,
   Brain,
   ChevronDown,
-  ChevronUp,
+  // ChevronUp,
 } from "lucide-react";
 import {
   Accordion,
@@ -19,9 +19,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/figma/Button";
-import { Card } from "@/components/figma/Card";
-import { Chip } from "@/components/figma/Chip";
+// import { Button } from "@/components/figma/Button";
+// import { Card } from "@/components/figma/Card";
+// import { Chip } from "@/components/figma/Chip";
 
 // Mock data types
 interface Contribution {
@@ -336,7 +336,7 @@ export default function WhyScreenRedesign() {
       >
         <h3 className="text-white/90 mb-4">Star System Distribution</h3>
         <div className="space-y-3">
-          {sortedSystems.map((system, index) => {
+          {sortedSystems.map((system) => {
             const isPrimary = system.name === result.primary;
             return (
               <div key={system.name} className="relative">
