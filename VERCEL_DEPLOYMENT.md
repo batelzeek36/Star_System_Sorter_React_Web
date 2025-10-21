@@ -1,14 +1,14 @@
 # Vercel Deployment - ui-dossier Branch
 
-## ✅ Preview Deployment Successful
+## ✅ Production Deployment Successful!
 
 ### Deployment URLs
 
-**Preview URL**: https://star-system-sorter-1ty0a5w0e-royalust.vercel.app
+**Production URL**: https://star-system-sorter-5v0zdlh7h-royalust.vercel.app
 
-**Inspect Dashboard**: https://vercel.com/royalust/star-system-sorter/EPuCqBuMZxoxxPSNrGM7FeckCDTY
+**Inspect Dashboard**: https://vercel.com/royalust/star-system-sorter/8YywGS5iowhbitfj6cKoDMx8jpee
 
-**Production URL** (not yet deployed): https://star-system-sorter.vercel.app
+**Previous Preview URL**: https://star-system-sorter-1ty0a5w0e-royalust.vercel.app
 
 ## What's Deployed
 
@@ -39,16 +39,13 @@ The **ui-dossier** branch with:
    - Generate Narrative
    - Responsive design (mobile/tablet/desktop)
 
-## Deploy to Production
+## ✅ Deployed to Production
 
-Once you've tested the preview and are happy with it:
+**Status**: LIVE
 
-```bash
-cd star-system-sorter
-vercel --prod
-```
+**Production URL**: https://star-system-sorter-5v0zdlh7h-royalust.vercel.app
 
-This will deploy to: https://star-system-sorter.vercel.app
+The ui-dossier branch with the hybrid Dossier design is now live in production!
 
 ## Environment Variables
 
