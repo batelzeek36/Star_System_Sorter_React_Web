@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '@/store/birthDataStore';
 import { useClassification } from '@/hooks/useClassification';
@@ -30,6 +30,9 @@ export default function ResultScreen() {
   const hdData = useBirthDataStore((state) => state.hdData);
   const classification = useBirthDataStore((state) => state.classification);
   const { loading, classify } = useClassification();
+  
+  // Animated percentage counter
+  const [displayPercentage, setDisplayPercentage] = useState(0);
 
   // Compute classification when HD data is available but classification is not
   useEffect(() => {
@@ -37,6 +40,34 @@ export default function ResultScreen() {
       classify(hdData);
     }
   }, [hdData, classification, loading, classify]);
+  
+  // Animate percentage counter
+  useEffect(() => {
+    if (!classification) return;
+    
+    const primarySystem = classification.classification === 'hybrid' && classification.hybrid
+      ? classification.hybrid[0]
+      : classification.primary || 'Unknown';
+    const targetPercentage = classification.percentages[primarySystem] || 0;
+    
+    const duration = 1500; // 1.5 seconds
+    const steps = 60;
+    const increment = targetPercentage / steps;
+    const stepDuration = duration / steps;
+    
+    let currentStep = 0;
+    const timer = setInterval(() => {
+      currentStep++;
+      if (currentStep >= steps) {
+        setDisplayPercentage(targetPercentage);
+        clearInterval(timer);
+      } else {
+        setDisplayPercentage(increment * currentStep);
+      }
+    }, stepDuration);
+    
+    return () => clearInterval(timer);
+  }, [classification]);
 
   // Redirect to input if no HD data
   if (!hdData) {
@@ -62,7 +93,6 @@ export default function ResultScreen() {
   // Calculate radial chart values
   const radius = 80;
   const circumference = 2 * Math.PI * radius;
-  const strokeDasharray = `${circumference * (primaryPercentage / 100)} ${circumference}`;
 
   // Get top 3 allies (excluding primary)
   const allies = classification.allies?.slice(0, 3) || [];
@@ -73,6 +103,20 @@ export default function ResultScreen() {
         @keyframes twinkle {
           0%, 100% { opacity: 0.1; }
           50% { opacity: 0.5; }
+        }
+        @keyframes drawCircle {
+          from {
+            stroke-dashoffset: ${circumference};
+          }
+          to {
+            stroke-dashoffset: ${circumference - (circumference * primaryPercentage / 100)};
+          }
+        }
+        .progress-circle {
+          stroke-dasharray: ${circumference};
+          stroke-dashoffset: ${circumference};
+          animation: drawCircle 1.5s ease-out forwards;
+          animation-delay: 0.3s;
         }
         ${animationStyles}
       `}</style>
@@ -115,8 +159,8 @@ export default function ResultScreen() {
                 stroke="url(#gradient-result)"
                 strokeWidth="16" 
                 fill="none"
-                strokeDasharray={strokeDasharray}
                 strokeLinecap="round"
+                className="progress-circle"
               />
               <defs>
                 <linearGradient id="gradient-result" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -129,7 +173,7 @@ export default function ResultScreen() {
             <div className="absolute inset-0 flex items-center justify-center flex-col">
               <CrestComponent size={48} className="text-[var(--s3-lavender-400)] mb-2" />
               <p className="text-3xl mb-1 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
-                {primaryPercentage.toFixed(1)}%
+                {displayPercentage.toFixed(1)}%
               </p>
               <p className="text-xs text-[var(--s3-text-subtle)]">Alignment</p>
             </div>
