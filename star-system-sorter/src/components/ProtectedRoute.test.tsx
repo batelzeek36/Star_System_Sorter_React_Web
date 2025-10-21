@@ -62,6 +62,8 @@ describe('ProtectedRoute', () => {
       },
       contributorsWithWeights: {},
       meta: {
+        canonVersion: '1.0.0',
+        canonChecksum: 'test-checksum',
         lore_version: '1.0.0',
         rules_hash: 'test-hash',
         input_hash: 'test-input',
