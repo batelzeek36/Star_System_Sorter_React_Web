@@ -88,21 +88,21 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
           transition-colors
         `}
       >
-        <td className="px-4 py-3 text-xs text-[var(--s3-lavender-300)]">
+        <td className="px-2 sm:px-4 py-3 text-xs text-[var(--s3-lavender-300)]">
           {attributeType}
         </td>
-        <td className="px-4 py-3 text-sm text-[var(--s3-lavender-200)]">
+        <td className="px-2 sm:px-4 py-3 text-sm text-[var(--s3-lavender-200)]">
           {contributor.label}
         </td>
-        <td className="px-4 py-3 text-sm text-[var(--s3-lavender-200)] text-right font-mono">
+        <td className="px-2 sm:px-4 py-3 text-sm text-[var(--s3-lavender-200)] text-right font-mono">
           {contributor.weight.toFixed(2)}
         </td>
-        <td className="px-4 py-3 text-sm text-[var(--s3-lavender-300)] font-mono">
+        <td className="px-2 sm:px-4 py-3 text-sm text-[var(--s3-lavender-300)] font-mono">
           <span aria-label={`Confidence level ${contributor.confidence} out of 5`}>
             {renderConfidenceDots(contributor.confidence)}
           </span>
         </td>
-        <td className="px-4 py-3">
+        <td className="px-2 sm:px-4 py-3">
           <div className="flex flex-wrap gap-1">
             {contributor.sources.map((sourceId) => (
               <SourceBadge key={sourceId} sourceId={sourceId} showTooltip={true} />
@@ -147,16 +147,16 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
           <table className="w-full">
             <thead className="sticky top-0 bg-[var(--s3-canvas-dark)] z-10 border-b border-[var(--s3-border-emphasis)]">
               <tr>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Type
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Attribute
                 </th>
-                <th className="px-4 py-3 text-right text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-right text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Weight
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Confidence
                 </th>
                 <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
@@ -202,19 +202,19 @@ export function EvidenceMatrix({ contributors, activeSystemId }: EvidenceMatrixP
           <table className="w-full">
             <thead className="border-b border-[var(--s3-border-emphasis)]">
               <tr>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Type
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Attribute
                 </th>
-                <th className="px-4 py-3 text-right text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-right text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Weight
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Confidence
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
+                <th className="px-2 sm:px-4 py-3 text-left text-xs font-medium text-[var(--s3-lavender-300)] uppercase tracking-wider">
                   Sources
                 </th>
               </tr>
