@@ -11,7 +11,7 @@ const WhyScreen = lazy(() => import('./screens/WhyScreen'));
 const WhyScreenV2 = lazy(() => import('./screens/WhyScreenV2'));
 const WhyScreenV3 = lazy(() => import('./screens/WhyScreenV3'));
 const WhyScreenV4 = lazy(() => import('./screens/WhyScreenV4'));
-const WhyScreenV5 = lazy(() => import('./screens/WhyScreenV5'));
+// const WhyScreenV5 = lazy(() => import('./screens/WhyScreenV5'));
 const WhyScreenRedesignFigma = lazy(() => import('./screens/WhyScreenRedesign'));
 const DossierScreen = lazy(() => import('./screens/DossierScreen'));
 const NarrativeScreen = lazy(() => import('./screens/NarrativeScreen'));
