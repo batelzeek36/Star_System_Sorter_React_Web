@@ -18,6 +18,8 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:debug": "playwright test --debug",
+    "analyze:bundle": "tsx scripts/analyze-bundle-size.ts",
+    "test:perf": "vitest run --reporter=verbose src/screens/WhyScreen.perf.test.tsx src/screens/DossierScreen.perf.test.tsx",
     "prepare": "husky"
   },
   "dependencies": {

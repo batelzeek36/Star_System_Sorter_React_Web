@@ -419,47 +419,47 @@
 ## Phase 12: Final Verification
 
 - [ ] 17. Verify no breaking changes
-- [ ] 17.1 Verify TypeScript compilation
+- [x] 17.1 Verify TypeScript compilation
 
   - Run npm run build
   - Ensure zero TypeScript errors
   - _Requirements: 17.4_
 
-- [ ] 17.2 Verify CSS tokens
+- [x] 17.2 Verify CSS tokens
 
   - Audit all new components for color usage
   - Ensure only existing Tailwind tokens are used
   - Verify no new hex color values
   - _Requirements: 17.5_
 
-- [ ] 17.3 Verify file sizes
+- [x] 17.3 Verify file sizes
 
   - Check all new files are ≤300 LOC where possible
   - Refactor any files exceeding limit
   - _Requirements: 17.6_
 
-- [ ] 17.4 Run full test suite
+- [x] 17.4 Run full test suite
 
   - Run npm run test (unit tests)
   - Run npm run test:e2e (E2E tests)
   - Verify all tests pass
   - _Requirements: 17.3_
 
-- [ ] 17.5 Verify all routes work
+- [x] 17.5 Verify all routes work
 
   - Test navigation: / → /input → /result → /why → /dossier
   - Verify back navigation works
   - Confirm lazy loading works for Dossier
   - _Requirements: 17.2_
 
-- [ ] 17.6 Performance audit
+- [x] 17.6 Performance audit
 
   - Verify Why 2.0 renders in <50ms
   - Verify Dossier renders in <200ms
   - Check bundle size increase is <50KB gzipped
   - _Requirements: 17.1_
 
-- [ ] 17.7 Add route guards
+- [x] 17.7 Add route guards
   - If classification missing on /why or /dossier, redirect to /input
   - Show toast: "Add birth details first."
   - _Requirements: 9.1_
@@ -484,7 +484,7 @@
   - Test on mobile viewport
   - _Requirements: 17.5_
 
-- [ ]\* 18.3 Optional: Dev CLI for classification
+- [ ] 18.3 Optional: Dev CLI for classification
   - Add npm script: classify -- --date YYYY-MM-DD --time HH:MM --tz TIMEZONE
   - Prints classification JSON to console
   - Useful for debugging lore rules

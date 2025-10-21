@@ -1,12 +1,9 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import WhyScreen from './WhyScreen';
 import { useBirthDataStore } from '@/store/birthDataStore';
 import type { ClassificationResult, HDExtract } from '@/lib/schemas';
-import { vi } from 'zod/locales';
-import { vi } from 'zod/locales';
-import { vi } from 'zod/locales';
 
 // Mock the lore version check hook
 vi.mock('@/hooks/useLoreVersionCheck', () => ({
@@ -31,7 +28,7 @@ describe('WhyScreen Keyboard Accessibility', () => {
     authority: 'Emotional',
     profile: '1/3',
     centers: ['Throat', 'Solar Plexus'],
-    channels: ['13-33'],
+    channels: [13, 33],
     gates: [1, 13, 33],
   };
 
@@ -50,9 +47,12 @@ describe('WhyScreen Keyboard Accessibility', () => {
       Orion: 8.9,
       Arcturus: 8.0,
     },
+    contributorsPerSystem: {},
+    contributorsWithWeights: {},
     meta: {
+      canonVersion: '1.0.0',
+      canonChecksum: 'test-checksum',
       lore_version: '1.0.0',
-      timestamp: new Date().toISOString(),
     },
     enhancedContributorsWithWeights: {
       Pleiades: [

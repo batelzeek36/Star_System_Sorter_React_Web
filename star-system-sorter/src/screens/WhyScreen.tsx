@@ -179,7 +179,7 @@ export default function WhyScreen() {
                 }
               }}
             >
-              {availableSystems.map((system, index) => {
+              {availableSystems.map((system) => {
                 const isActive = system === activeSystem;
                 const percentage = classification.percentages[system] || 0;
                 const isPrimary = system === primarySystem;

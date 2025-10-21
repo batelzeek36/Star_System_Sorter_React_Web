@@ -1,6 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import { ProtectedRoute } from './components/ProtectedRoute';
 
 // Lazy load screens for code splitting
 const OnboardingScreen = lazy(() => import('./screens/OnboardingScreen'));
@@ -34,8 +35,16 @@ function App() {
           <Route path="/" element={<OnboardingScreen />} />
           <Route path="/input" element={<InputScreen />} />
           <Route path="/result" element={<ResultScreen />} />
-          <Route path="/why" element={<WhyScreen />} />
-          <Route path="/dossier" element={<DossierScreen />} />
+          <Route path="/why" element={
+            <ProtectedRoute>
+              <WhyScreen />
+            </ProtectedRoute>
+          } />
+          <Route path="/dossier" element={
+            <ProtectedRoute>
+              <DossierScreen />
+            </ProtectedRoute>
+          } />
           <Route path="/narrative" element={<NarrativeScreen />} />
           <Route path="/dev-lore" element={<DevLoreScreen />} />
         </Routes>
