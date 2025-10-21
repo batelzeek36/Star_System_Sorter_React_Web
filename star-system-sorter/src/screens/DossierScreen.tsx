@@ -293,12 +293,12 @@ export default function DossierScreen() {
       </div>
       
       {/* Cosmic Glow Effect - Hidden in print */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl pointer-events-none no-print"></div>
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl pointer-events-none no-print animate-glow-pulse"></div>
 
       {/* Main Content */}
-      <div className="relative max-w-4xl mx-auto px-6 py-12" ref={dossierRef}>
+      <div className="relative max-w-4xl mx-auto px-6 py-12 animate-fade-in" ref={dossierRef}>
         {/* Header */}
-        <div className="mb-8">
+        <div className="mb-8 animate-fade-in-down">
           <div className="flex items-start justify-between gap-4 mb-4">
             <div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent mb-2 print:text-black print:bg-none">
@@ -310,13 +310,13 @@ export default function DossierScreen() {
             </div>
             
             {/* Export Buttons - Hidden in print */}
-            <div className="flex gap-2 no-print">
+            <div className="flex gap-2 no-print animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
               <Button
                 variant="primary"
                 size="md"
                 onClick={handleExportPNG}
                 disabled={isExporting}
-                className="flex-shrink-0"
+                className="flex-shrink-0 transition-all duration-300 hover:scale-105"
               >
                 {isExporting ? 'Exporting...' : 'Export PNG'}
               </Button>
@@ -324,7 +324,7 @@ export default function DossierScreen() {
                 variant="secondary"
                 size="md"
                 onClick={handlePrint}
-                className="flex-shrink-0"
+                className="flex-shrink-0 transition-all duration-300 hover:scale-105"
               >
                 Print/PDF
               </Button>
@@ -332,7 +332,7 @@ export default function DossierScreen() {
                 variant="ghost"
                 size="md"
                 onClick={() => navigate('/narrative')}
-                className="flex-shrink-0"
+                className="flex-shrink-0 transition-all duration-300 hover:scale-105"
               >
                 Generate Narrative
               </Button>
@@ -343,7 +343,7 @@ export default function DossierScreen() {
         {/* Content Sections */}
         <div className="space-y-6">
           {/* Identity Snapshot Section */}
-          <div className="p-6 bg-[var(--s3-surface-default)]/50 border border-[var(--s3-border-default)] rounded-[var(--s3-radius-xl)] print-no-break">
+          <div className="p-6 bg-[var(--s3-surface-default)]/50 border border-[var(--s3-border-default)] rounded-[var(--s3-radius-xl)] print-no-break animate-fade-in-up transition-all duration-300 hover:border-[var(--s3-border-emphasis)] hover:shadow-lg" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
             <h2 className="text-xl text-[var(--s3-text-default)] mb-4 font-semibold print:text-black">Identity Snapshot</h2>
             
             <div className="space-y-4">

@@ -77,13 +77,13 @@ export default function ResultScreen() {
 
       <Starfield />
       
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl animate-glow-pulse"></div>
       
       <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full px-6 py-12">
         <div className="h-12"></div>
         
         {/* Header */}
-        <div className="mb-6">
+        <div className="mb-6 animate-fade-in-down">
           <p className="text-xs text-[var(--s3-lavender-400)] mb-1">
             {classification.classification === 'hybrid' ? 'Your Hybrid Star System' : 'Your Primary Star System'}
           </p>
@@ -93,8 +93,8 @@ export default function ResultScreen() {
         </div>
 
         {/* Radial Percentage Chart with Crest */}
-        <div className="flex justify-center mb-6">
-          <div className="relative w-48 h-48">
+        <div className="flex justify-center mb-6 animate-scale-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+          <div className="relative w-48 h-48 animate-float">
             <svg className="w-full h-full transform -rotate-90">
               {/* Background circle */}
               <circle 
@@ -136,26 +136,31 @@ export default function ResultScreen() {
 
         {/* Ally Star Systems */}
         {allies.length > 0 && (
-          <div className="mb-6">
+          <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
             <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Ally Star Systems</p>
             <div className="flex flex-wrap gap-2">
               {allies.map((ally, index) => (
-                <Chip 
+                <div 
                   key={ally.system}
-                  starSystem={ally.system} 
-                  percentage={parseFloat(ally.percentage.toFixed(1))} 
-                  variant={index === 0 ? 'gold' : 'lavender'} 
-                />
+                  className="animate-fade-in-up transition-all duration-300 hover:scale-105"
+                  style={{ animationDelay: `${0.4 + index * 0.1}s`, animationFillMode: 'both' }}
+                >
+                  <Chip 
+                    starSystem={ally.system} 
+                    percentage={parseFloat(ally.percentage.toFixed(1))} 
+                    variant={index === 0 ? 'gold' : 'lavender'} 
+                  />
+                </div>
               ))}
             </div>
           </div>
         )}
 
         {/* View Why Button */}
-        <div className="mb-4">
+        <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
           <Button 
             variant="primary" 
-            className="w-full"
+            className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
             onClick={() => navigate('/why')}
           >
             View Why
@@ -163,10 +168,10 @@ export default function ResultScreen() {
         </div>
 
         {/* Open Dossier Button */}
-        <div className="mb-4">
+        <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
           <Button 
             variant="secondary" 
-            className="w-full"
+            className="w-full transition-all duration-300 hover:scale-105"
             onClick={() => navigate('/dossier')}
           >
             Open Dossier
@@ -174,8 +179,8 @@ export default function ResultScreen() {
         </div>
 
         {/* Legal Disclaimer */}
-        <div className="mb-4">
-          <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)]">
+        <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+          <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)] transition-all duration-300 hover:border-[var(--s3-border-emphasis)]">
             <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
               For insight & entertainment. Not medical, financial, or legal advice.
             </p>

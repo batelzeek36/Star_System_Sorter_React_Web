@@ -33,18 +33,18 @@ export default function OnboardingScreen() {
 
       <Starfield />
       
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/10 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/10 rounded-full blur-3xl animate-glow-pulse"></div>
       
       <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full px-6 py-8 sm:px-8 sm:py-16">
         {/* App Icon */}
-        <div className="flex justify-center mb-6 sm:mb-10">
-          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-[var(--s3-lavender-400)] to-[var(--s3-lavender-600)] flex items-center justify-center" style={{ boxShadow: 'var(--s3-elevation-2)' }}>
+        <div className="flex justify-center mb-6 sm:mb-10 animate-scale-in">
+          <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-[var(--s3-lavender-400)] to-[var(--s3-lavender-600)] flex items-center justify-center animate-float" style={{ boxShadow: 'var(--s3-elevation-2)' }}>
             <Sparkles className="w-12 h-12 sm:w-14 sm:h-14 text-white" />
           </div>
         </div>
 
         {/* Title and Description */}
-        <div className="text-center mb-10 sm:mb-16">
+        <div className="text-center mb-10 sm:mb-16 animate-fade-in-down">
           <h1 className="text-2xl sm:text-3xl mb-3 sm:mb-4 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent font-medium">
             Star System Sorter
           </h1>
@@ -55,8 +55,8 @@ export default function OnboardingScreen() {
 
         {/* 3-Step Explanation */}
         <div className="space-y-5 sm:space-y-7 px-1 sm:px-2 mb-auto">
-          <div className="flex items-start gap-3 sm:gap-4">
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0">
+          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0 transition-all duration-300 hover:scale-110 hover:bg-[var(--s3-lavender-500)]/30">
               1
             </div>
             <div className="pt-0.5 sm:pt-1">
@@ -64,8 +64,8 @@ export default function OnboardingScreen() {
               <p className="text-sm text-[var(--s3-text-subtle)]">Enter birth data or upload chart</p>
             </div>
           </div>
-          <div className="flex items-start gap-3 sm:gap-4">
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0">
+          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0 transition-all duration-300 hover:scale-110 hover:bg-[var(--s3-lavender-500)]/30">
               2
             </div>
             <div className="pt-0.5 sm:pt-1">
@@ -73,8 +73,8 @@ export default function OnboardingScreen() {
               <p className="text-sm text-[var(--s3-text-subtle)]">Rules engine classifies your chart</p>
             </div>
           </div>
-          <div className="flex items-start gap-3 sm:gap-4">
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0">
+          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0 transition-all duration-300 hover:scale-110 hover:bg-[var(--s3-lavender-500)]/30">
               3
             </div>
             <div className="pt-0.5 sm:pt-1">
@@ -85,10 +85,10 @@ export default function OnboardingScreen() {
         </div>
 
         {/* Begin Sorting Button */}
-        <div className="pt-8 sm:pt-12">
+        <div className="pt-8 sm:pt-12 animate-fade-in-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
           <Button 
             variant="primary" 
-            className="w-full"
+            className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
             onClick={() => navigate('/input')}
           >
             Begin Sorting

@@ -157,7 +157,7 @@ export function InputScreen() {
   return (
     <div className="min-h-screen bg-[var(--s3-canvas-dark)] text-white relative overflow-hidden">
       {/* Starfield Background */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none animate-fade-in">
         {[...Array(50)].map((_, i) => (
           <div
             key={i}
@@ -172,7 +172,7 @@ export function InputScreen() {
       </div>
       
       {/* Gradient Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/10 rounded-full blur-3xl" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/10 rounded-full blur-3xl animate-glow-pulse" />
       
       {/* Toast Error */}
       {toastError && (
@@ -187,7 +187,7 @@ export function InputScreen() {
       
       {/* Content */}
       <div className="relative max-w-md mx-auto px-6 py-12">
-        <div className="mb-8">
+        <div className="mb-8 animate-fade-in-down">
           <h1 className="text-3xl mb-2 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
             Chart Input
           </h1>
@@ -196,7 +196,7 @@ export function InputScreen() {
           </p>
         </div>
         
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
           {/* Date Field */}
           <Field
             label="Date of Birth"

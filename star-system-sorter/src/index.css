@@ -220,6 +220,32 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  /* Smooth transitions for interactive elements */
+  button,
+  a,
+  input,
+  select,
+  textarea,
+  [role="button"],
+  [role="link"] {
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* Smooth hover effects */
+  button:hover,
+  a:hover,
+  [role="button"]:hover,
+  [role="link"]:hover {
+    transform: translateY(-1px);
+  }
+
+  button:active,
+  a:active,
+  [role="button"]:active,
+  [role="link"]:active {
+    transform: translateY(0);
+  }
 }
 
 /**

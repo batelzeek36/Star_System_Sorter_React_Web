@@ -29,6 +29,9 @@ export function Card({ children, variant = 'default', className = '', ...props }
         border 
         rounded-[var(--s3-radius-xl)]
         backdrop-blur-sm
+        transition-all duration-300
+        hover:border-[var(--s3-border-emphasis)]
+        hover:shadow-lg
         ${variantClasses[variant]}
         ${className}
       `}

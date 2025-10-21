@@ -39,8 +39,9 @@ export function Chip({
     rounded-[var(--s3-radius-full)]
     text-xs
     inline-flex items-center gap-2
+    transition-all duration-300
     ${variantClasses[variant]}
-    ${selectable ? 'min-h-[44px] cursor-pointer hover:opacity-80 active:scale-95 transition-all focus-visible:shadow-[var(--s3-focus-ring)] outline-none' : ''}
+    ${selectable ? 'min-h-[44px] cursor-pointer hover:opacity-80 hover:scale-105 active:scale-95 focus-visible:shadow-[var(--s3-focus-ring)] outline-none' : 'hover:scale-105'}
     ${className}
   `;
   

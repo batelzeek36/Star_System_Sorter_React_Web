@@ -109,14 +109,14 @@ export default function WhyScreen() {
 
       <Starfield />
       
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl animate-glow-pulse"></div>
       
       <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full px-6 py-12">
         {/* Header */}
-        <div className="mb-6">
+        <div className="mb-6 animate-fade-in-down">
           <button 
             onClick={() => navigate('/result')}
-            className="mb-4 min-h-[44px] px-3 py-2 text-[var(--s3-lavender-400)] hover:text-[var(--s3-lavender-300)] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)] rounded-lg"
+            className="mb-4 min-h-[44px] px-3 py-2 text-[var(--s3-lavender-400)] hover:text-[var(--s3-lavender-300)] transition-all duration-300 hover:translate-x-[-4px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)] rounded-lg"
             aria-label="Go back to results"
           >
             ← Back
@@ -130,13 +130,13 @@ export default function WhyScreen() {
         </div>
 
         {/* System Summary */}
-        <div className="mb-6">
+        <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
           <SystemSummary classification={classification} />
         </div>
 
         {/* Star System Tabs */}
         {availableSystems.length > 1 && (
-          <div className="mb-6">
+          <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
             <div 
               className="flex gap-2 overflow-x-auto pb-2"
               role="tablist"
@@ -175,12 +175,12 @@ export default function WhyScreen() {
                     tabIndex={isActive ? 0 : -1}
                     onClick={() => setActiveSystem(system)}
                     className={`
-                      flex-shrink-0 px-4 py-2 rounded-lg text-sm font-medium transition-all
+                      flex-shrink-0 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300
                       min-h-[44px] min-w-[100px]
                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)]
                       ${isActive 
-                        ? 'bg-[var(--s3-lavender-600)] text-white shadow-lg shadow-[var(--s3-lavender-600)]/20' 
-                        : 'bg-[var(--s-surface-subtle)] text-[var(--s3-text-subtle)] hover:bg-[var(--s3-surface-subtle)]/80'
+                        ? 'bg-[var(--s3-lavender-600)] text-white shadow-lg shadow-[var(--s3-lavender-600)]/20 scale-105' 
+                        : 'bg-[var(--s-surface-subtle)] text-[var(--s3-text-subtle)] hover:bg-[var(--s3-surface-subtle)]/80 hover:scale-105'
                       }
                     `}
                     aria-label={`View ${system} contributors`}
