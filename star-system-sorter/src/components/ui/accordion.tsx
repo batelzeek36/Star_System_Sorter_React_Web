@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode, useRef, useEffect } from 'react';
+import { createContext, useContext, useState, useRef, useEffect, type ReactNode } from 'react';
 
 interface AccordionContextType {
   openItems: string[];
