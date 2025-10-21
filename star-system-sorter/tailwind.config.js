@@ -8,11 +8,11 @@ export default {
   theme: {
     extend: {
       animation: {
-        'fade-in': 'fadeIn 0.6s ease-out',
-        'fade-in-up': 'fadeInUp 0.6s ease-out',
-        'fade-in-down': 'fadeInDown 0.5s ease-out',
-        'scale-in': 'scaleIn 0.5s ease-out',
-        'slide-up': 'slideUp 0.5s ease-out',
+        'fade-in': 'fadeIn 0.8s ease-out forwards',
+        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+        'fade-in-down': 'fadeInDown 0.7s ease-out forwards',
+        'scale-in': 'scaleIn 0.7s ease-out forwards',
+        'slide-up': 'slideUp 0.7s ease-out forwards',
         'glow-pulse': 'glowPulse 3s ease-in-out infinite',
         'shimmer': 'shimmer 2.5s ease-in-out infinite',
         'float': 'float 6s ease-in-out infinite',

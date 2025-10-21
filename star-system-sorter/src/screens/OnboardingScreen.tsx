@@ -29,6 +29,45 @@ export default function OnboardingScreen() {
           0%, 100% { opacity: 0.1; }
           50% { opacity: 0.5; }
         }
+        @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+          0% { opacity: 0; transform: translateY(20px); }
+          100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInDown {
+          0% { opacity: 0; transform: translateY(-10px); }
+          100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes scaleIn {
+          0% { opacity: 0; transform: scale(0.9); }
+          100% { opacity: 1; transform: scale(1); }
+        }
+        @keyframes glowPulse {
+          0%, 100% { box-shadow: 0 0 20px rgba(167, 139, 250, 0.2); }
+          50% { box-shadow: 0 0 40px rgba(167, 139, 250, 0.4); }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-scale-in {
+          animation: scaleIn 0.7s ease-out forwards;
+        }
+        .animate-fade-in-down {
+          animation: fadeInDown 0.7s ease-out forwards;
+        }
+        .animate-fade-in-up {
+          animation: fadeInUp 0.8s ease-out forwards;
+        }
+        .animate-glow-pulse {
+          animation: glowPulse 3s ease-in-out infinite;
+        }
+        .animate-float {
+          animation: float 6s ease-in-out infinite;
+        }
       `}</style>
 
       <Starfield />
@@ -55,7 +94,7 @@ export default function OnboardingScreen() {
 
         {/* 3-Step Explanation */}
         <div className="space-y-5 sm:space-y-7 px-1 sm:px-2 mb-auto">
-          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
+          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0 transition-all duration-300 hover:scale-110 hover:bg-[var(--s3-lavender-500)]/30">
               1
             </div>
@@ -64,7 +103,7 @@ export default function OnboardingScreen() {
               <p className="text-sm text-[var(--s3-text-subtle)]">Enter birth data or upload chart</p>
             </div>
           </div>
-          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0 transition-all duration-300 hover:scale-110 hover:bg-[var(--s3-lavender-500)]/30">
               2
             </div>
@@ -73,7 +112,7 @@ export default function OnboardingScreen() {
               <p className="text-sm text-[var(--s3-text-subtle)]">Rules engine classifies your chart</p>
             </div>
           </div>
-          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+          <div className="flex items-start gap-3 sm:gap-4 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/40 flex items-center justify-center text-sm sm:text-base text-[var(--s3-lavender-300)] flex-shrink-0 transition-all duration-300 hover:scale-110 hover:bg-[var(--s3-lavender-500)]/30">
               3
             </div>
@@ -85,7 +124,7 @@ export default function OnboardingScreen() {
         </div>
 
         {/* Begin Sorting Button */}
-        <div className="pt-8 sm:pt-12 animate-fade-in-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+        <div className="pt-8 sm:pt-12 animate-fade-in-up" style={{ animationDelay: '0.8s' }}>
           <Button 
             variant="primary" 
             className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
