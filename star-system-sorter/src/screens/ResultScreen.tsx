@@ -202,15 +202,41 @@ export default function ResultScreen() {
           </div>
         )}
 
-        {/* View Why Button */}
-        <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+        {/* View Why Buttons */}
+        <div className="mb-4 animate-fade-in-up space-y-2" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
           <Button 
             variant="primary" 
             className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
-            onClick={() => navigate('/why')}
+            onClick={() => navigate('/why-figma')}
           >
-            View Why
+            View Why (Figma Redesign)
           </Button>
+          <div className="flex gap-2">
+            <Button 
+              variant="ghost" 
+              size="sm"
+              className="flex-1 text-xs"
+              onClick={() => navigate('/why-v5')}
+            >
+              V5
+            </Button>
+            <Button 
+              variant="ghost" 
+              size="sm"
+              className="flex-1 text-xs"
+              onClick={() => navigate('/why-v4')}
+            >
+              V4
+            </Button>
+            <Button 
+              variant="ghost" 
+              size="sm"
+              className="flex-1 text-xs"
+              onClick={() => navigate('/why')}
+            >
+              Original
+            </Button>
+          </div>
         </div>
 
         {/* Open Dossier Button */}

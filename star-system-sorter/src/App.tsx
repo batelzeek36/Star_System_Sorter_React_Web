@@ -8,6 +8,11 @@ const OnboardingScreen = lazy(() => import('./screens/OnboardingScreen'));
 const InputScreen = lazy(() => import('./screens/InputScreen'));
 const ResultScreen = lazy(() => import('./screens/ResultScreen'));
 const WhyScreen = lazy(() => import('./screens/WhyScreen'));
+const WhyScreenV2 = lazy(() => import('./screens/WhyScreenV2'));
+const WhyScreenV3 = lazy(() => import('./screens/WhyScreenV3'));
+const WhyScreenV4 = lazy(() => import('./screens/WhyScreenV4'));
+const WhyScreenV5 = lazy(() => import('./screens/WhyScreenV5'));
+const WhyScreenRedesignFigma = lazy(() => import('./screens/WhyScreenRedesign'));
 const DossierScreen = lazy(() => import('./screens/DossierScreen'));
 const NarrativeScreen = lazy(() => import('./screens/NarrativeScreen'));
 const DevLoreScreen = lazy(() => import('./screens/DevLoreScreen'));
@@ -38,6 +43,31 @@ function App() {
           <Route path="/why" element={
             <ProtectedRoute>
               <WhyScreen />
+            </ProtectedRoute>
+          } />
+          <Route path="/why-v2" element={
+            <ProtectedRoute>
+              <WhyScreenV2 />
+            </ProtectedRoute>
+          } />
+          <Route path="/why-v3" element={
+            <ProtectedRoute>
+              <WhyScreenV3 />
+            </ProtectedRoute>
+          } />
+          <Route path="/why-v4" element={
+            <ProtectedRoute>
+              <WhyScreenV4 />
+            </ProtectedRoute>
+          } />
+          <Route path="/why-v5" element={
+            <ProtectedRoute>
+              <WhyScreenV5 />
+            </ProtectedRoute>
+          } />
+          <Route path="/why-figma" element={
+            <ProtectedRoute>
+              <WhyScreenRedesignFigma />
             </ProtectedRoute>
           } />
           <Route path="/dossier" element={

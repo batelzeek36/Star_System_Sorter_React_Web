@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "name": "Star System Sorter - Game Layer Tokens",
+    "version": "1.0.0",
+    "description": "Additional tokens for game/HUD components",
+    "lastUpdated": "2025-10-08"
+  },
+  "controls": {
+    "sizes": {
+      "small": {
+        "value": "44px",
+        "type": "dimension",
+        "description": "Small control (minimum touch target)"
+      },
+      "medium": {
+        "value": "56px",
+        "type": "dimension",
+        "description": "Medium control (action buttons)"
+      },
+      "large": {
+        "value": "72px",
+        "type": "dimension",
+        "description": "Large control (joystick)"
+      }
+    }
+  },
+  "hud": {
+    "barHeights": {
+      "thin": {
+        "value": "4px",
+        "type": "dimension",
+        "description": "Thin progress bar (distance)"
+      },
+      "standard": {
+        "value": "8px",
+        "type": "dimension",
+        "description": "Standard progress bar (XP, health)"
+      },
+      "thick": {
+        "value": "12px",
+        "type": "dimension",
+        "description": "Thick progress bar (loading)"
+      }
+    },
+    "opacity": {
+      "default": {
+        "value": "0.9",
+        "type": "number",
+        "description": "Default HUD element opacity"
+      },
+      "background": {
+        "value": "0.4",
+        "type": "number",
+        "description": "HUD background opacity (black)"
+      },
+      "inactive": {
+        "value": "0.5",
+        "type": "number",
+        "description": "Inactive HUD element opacity"
+      }
+    },
+    "spacing": {
+      "edge": {
+        "value": "16px",
+        "type": "dimension",
+        "description": "Distance from screen edge"
+      },
+      "controls": {
+        "value": "24px",
+        "type": "dimension",
+        "description": "Spacing between control groups"
+      }
+    }
+  },
+  "teamColors": {
+    "Orion": {
+      "primary": "#a78bfa",
+      "secondary": "#c4b5fd",
+      "gradient": "from-[#a78bfa] to-[#c4b5fd]",
+      "type": "color"
+    },
+    "Osirian": {
+      "primary": "#a78bfa",
+      "secondary": "#c4b5fd",
+      "gradient": "from-[#a78bfa] to-[#c4b5fd]",
+      "type": "color",
+      "note": "Synonym for Orion"
+    },
+    "Sirius": {
+      "primary": "#fbbf24",
+      "secondary": "#f59e0b",
+      "gradient": "from-[#fbbf24] to-[#f59e0b]",
+      "type": "color"
+    },
+    "Pleiades": {
+      "primary": "#a78bfa",
+      "secondary": "#c4b5fd",
+      "gradient": "from-[#a78bfa] to-[#c4b5fd]",
+      "type": "color"
+    },
+    "Andromeda": {
+      "primary": "#3b82f6",
+      "secondary": "#60a5fa",
+      "gradient": "from-[#3b82f6] to-[#60a5fa]",
+      "type": "color"
+    },
+    "Lyra": {
+      "primary": "#ec4899",
+      "secondary": "#f472b6",
+      "gradient": "from-[#ec4899] to-[#f472b6]",
+      "type": "color"
+    },
+    "Arcturus": {
+      "primary": "#f59e0b",
+      "secondary": "#fbbf24",
+      "gradient": "from-[#f59e0b] to-[#fbbf24]",
+      "type": "color"
+    }
+  },
+  "gameModes": {
+    "survivor": {
+      "name": "Survivor Arena",
+      "color": "#ef4444",
+      "description": "Top-down battle royale",
+      "maxPlayers": "30 players per match"
+    },
+    "runner": {
+      "name": "Side Runner",
+      "color": "#a78bfa",
+      "description": "Endless obstacle course",
+      "maxPlayers": "Solo or async leaderboard"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "color": "#a78bfa",
+      "icon": "star",
+      "type": "currency"
+    },
+    "coins": {
+      "color": "#fbbf24",
+      "icon": "coin",
+      "type": "currency"
+    },
+    "teamPoints": {
+      "color": "#10b981",
+      "icon": "trophy",
+      "type": "currency"
+    }
+  },
+  "svgExports": {
+    "hudIcons": [
+      "joystick-left",
+      "joystick-right",
+      "button-a",
+      "button-b",
+      "button-jump",
+      "button-slide",
+      "heart",
+      "coin",
+      "star",
+      "trophy",
+      "pause"
+    ],
+    "teamCrests": [
+      "orion",
+      "sirius",
+      "pleiades",
+      "andromeda",
+      "lyra",
+      "arcturus"
+    ],
+    "exportSizes": [24, 28, 48],
+    "format": "SVG"
+  }
+}
