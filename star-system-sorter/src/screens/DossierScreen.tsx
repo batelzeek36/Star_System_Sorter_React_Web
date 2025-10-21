@@ -1,37 +1,46 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ChevronLeft, Download, Printer, FileText, AlertCircle } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import { useBirthDataStore } from '@/store/birthDataStore';
 import { loreBundle } from '@/lib/lore.bundle';
-import { EvidenceMatrix } from '@/components/lore/EvidenceMatrix';
-import { SourceBadge } from '@/components/lore/SourceBadge';
 import { Button } from '@/components/figma/Button';
+import { Card } from '@/components/figma/Card';
+import { 
+  Table, 
+  TableBody, 
+  TableCell, 
+  TableHead, 
+  TableHeader, 
+  TableRow 
+} from '@/components/ui/table';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 import type { EnhancedContributor } from '@/lib/schemas';
-import { animationStyles } from '@/styles/animations';
 
-// Starfield component for cosmic background (consistent with other screens)
-const Starfield = () => (
-  <div className="absolute inset-0 overflow-hidden pointer-events-none">
-    {[...Array(100)].map((_, i) => (
-      <div
-        key={i}
-        className="absolute w-0.5 h-0.5 bg-white rounded-full"
-        style={{
-          left: `${Math.random() * 100}%`,
-          top: `${Math.random() * 100}%`,
-          opacity: Math.random() * 0.5 + 0.1,
-          animation: `twinkle ${2 + Math.random() * 3}s infinite ${Math.random() * 2}s`,
-        }}
-      />
-    ))}
-  </div>
-);
+// Render confidence stars
+const ConfidenceStars = ({ confidence }: { confidence: number }) => {
+  const stars = Array.from({ length: 5 }, (_, i) => i < confidence);
+  return (
+    <span className="inline-flex gap-0.5">
+      {stars.map((filled, i) => (
+        <span key={i} className={filled ? 'text-violet-400' : 'text-white/20'}>
+          ●
+        </span>
+      ))}
+    </span>
+  );
+};
 
 export default function DossierScreen() {
   const navigate = useNavigate();
   const classification = useBirthDataStore((state) => state.classification);
   const hdData = useBirthDataStore((state) => state.hdData);
-  const dossierRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
   const [isExporting, setIsExporting] = useState(false);
 
   // Navigation guard: Redirect to /input if no data
@@ -61,13 +70,11 @@ export default function DossierScreen() {
       return '—';
     }
 
-    // Get all contributors from all systems
     const allContributors: EnhancedContributor[] = [];
     Object.values(classification.enhancedContributorsWithWeights).forEach(contributors => {
       allContributors.push(...contributors);
     });
 
-    // Filter for channel-based rules only
     const channelContributors = allContributors.filter(c => 
       c.key.startsWith('channel_') || c.label.startsWith('Channel:')
     );
@@ -76,14 +83,11 @@ export default function DossierScreen() {
       return '—';
     }
 
-    // Sort by weight (descending), then by channel number (ascending), then alphabetically
     const sorted = channelContributors.sort((a, b) => {
-      // First, sort by weight descending
       if (b.weight !== a.weight) {
         return b.weight - a.weight;
       }
 
-      // Extract channel number for tie-breaking
       const getChannelNumber = (key: string): number => {
         const match = key.match(/channel_(\d+)/);
         return match ? parseInt(match[1], 10) : 999;
@@ -92,22 +96,18 @@ export default function DossierScreen() {
       const aNumber = getChannelNumber(a.key);
       const bNumber = getChannelNumber(b.key);
 
-      // If weights are equal, sort by channel number (lower is first)
       if (aNumber !== bNumber) {
         return aNumber - bNumber;
       }
 
-      // If still tied, sort alphabetically
       return a.key.localeCompare(b.key);
     });
 
-    // Extract the channel value from the label (e.g., "Channel: 13-33" -> "13-25")
     const labelMatch = sorted[0].label.match(/Channel:\s*(.+)/);
     if (labelMatch) {
       return labelMatch[1];
     }
 
-    // Fallback: extract from key (e.g., "channel_13_25" -> "13-25" or "channel_13-25" -> "13-25")
     const keyMatch = sorted[0].key.match(/channel_(.+)/);
     if (keyMatch) {
       return keyMatch[1].replace('_', '-');
@@ -116,16 +116,14 @@ export default function DossierScreen() {
     return '—';
   }, [classification]);
 
-  // Compute "Why Not" data - next 1-2 systems with top 3 unmatched rules
+  // Compute "Why Not" data
   const whyNotData = useMemo(() => {
     if (!classification || !classification.percentages || !hdData) {
       return [];
     }
 
-    // Get all systems sorted by percentage (descending)
     const sortedSystems = Object.entries(classification.percentages)
       .map(([systemLabel, percentage]) => {
-        // Find system ID from label
         const system = loreBundle.systems.find(s => s.label === systemLabel);
         return {
           id: system?.id || systemLabel,
@@ -135,10 +133,8 @@ export default function DossierScreen() {
       })
       .sort((a, b) => b.percentage - a.percentage);
 
-    // Determine which systems to skip (primary or hybrid pair)
     const systemsToSkip = new Set<string>();
     if (classification.classification === 'hybrid' && classification.hybrid) {
-      // Skip both systems in the hybrid pair
       classification.hybrid.forEach(id => {
         const system = loreBundle.systems.find(s => s.id === id);
         if (system) {
@@ -146,27 +142,21 @@ export default function DossierScreen() {
         }
       });
     } else if (classification.primary) {
-      // Skip the primary system
       systemsToSkip.add(classification.primary);
     }
 
-    // Get the next 1-2 systems (those not in the skip list)
     const nextSystems = sortedSystems
       .filter(s => !systemsToSkip.has(s.label))
       .slice(0, 2);
 
-    // For each system, find the top 3 unmatched rules
     return nextSystems.map(system => {
-      // Get all rules for this system from loreBundle
       const systemRules = loreBundle.rules
         .filter(rule => rule.systems.some(s => s.id === system.id))
         .map(rule => {
-          // Check if this rule matched (is it in the contributors?)
           const matched = classification.enhancedContributorsWithWeights?.[system.label]?.some(
             c => c.ruleId === rule.id
           ) || false;
 
-          // Get the weight for this system
           const systemWeight = rule.systems.find(s => s.id === system.id);
           const weight = systemWeight?.w || 0;
 
@@ -179,22 +169,18 @@ export default function DossierScreen() {
           };
         });
 
-      // Filter to only unmatched rules, then sort by weight desc, confidence desc, id asc
       const unmatchedRules = systemRules
         .filter(r => !r.matched)
         .sort((a, b) => {
-          // Sort by weight descending
           if (b.weight !== a.weight) {
             return b.weight - a.weight;
           }
-          // Then by confidence descending
           if (b.confidence !== a.confidence) {
             return b.confidence - a.confidence;
           }
-          // Then by ID alphabetically
           return a.id.localeCompare(b.id);
         })
-        .slice(0, 3); // Take top 3
+        .slice(0, 3);
 
       return {
         system: system.label,
@@ -205,13 +191,12 @@ export default function DossierScreen() {
     });
   }, [classification, hdData]);
 
-  // Deduplicate sources from all contributors and sort alphabetically by title
+  // Deduplicate sources
   const sourcesGallery = useMemo(() => {
     if (!classification || !classification.enhancedContributorsWithWeights) {
       return [];
     }
 
-    // Collect all unique source IDs from all contributors
     const sourceIds = new Set<string>();
     Object.values(classification.enhancedContributorsWithWeights).forEach(contributors => {
       contributors.forEach(contributor => {
@@ -221,156 +206,146 @@ export default function DossierScreen() {
       });
     });
 
-    // Map source IDs to source objects from loreBundle
     const sources = Array.from(sourceIds)
       .map(sourceId => loreBundle.sources.find(s => s.id === sourceId))
       .filter((source): source is NonNullable<typeof source> => source !== undefined);
 
-    // Sort alphabetically by title
     return sources.sort((a, b) => a.title.localeCompare(b.title));
   }, [classification]);
 
-  // Don't render anything if no data (will be redirected)
+  // Don't render if no data
   if (!classification || !hdData) {
     return null;
   }
 
-  // Get primary system for display
   const primarySystem = classification.classification === 'hybrid' && classification.hybrid
     ? classification.primary || classification.hybrid[0]
     : classification.primary || 'Unknown';
 
-  // Export PNG function
   const handleExportPNG = async () => {
-    if (!dossierRef.current) return;
+    if (!contentRef.current) return;
 
     setIsExporting(true);
     try {
-      // Get the primary system name for the filename
       const systemName = classification.primary || 'Unknown';
       const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
       const filename = `dossier-${systemName}-${timestamp}.png`;
 
-      // Generate PNG with html-to-image
-      // Target 1080×1920 resolution (or current viewport)
-      // Cap pixelRatio at 2 to guard against memory issues on mobile
-      const dataUrl = await toPng(dossierRef.current, {
+      const dataUrl = await toPng(contentRef.current, {
         cacheBust: true,
         pixelRatio: Math.min(window.devicePixelRatio, 2),
         width: 1080,
-        height: Math.max(dossierRef.current.scrollHeight, 1920),
+        height: Math.max(contentRef.current.scrollHeight, 1920),
       });
 
-      // Trigger download via anchor element
       const link = document.createElement('a');
       link.download = filename;
       link.href = dataUrl;
       link.click();
     } catch (error) {
       console.error('Failed to export PNG:', error);
-      // Optionally show an error toast here
     } finally {
       setIsExporting(false);
     }
   };
 
-  // Print/PDF function
   const handlePrint = () => {
     window.print();
   };
 
+  const handleGenerateNarrative = () => {
+    navigate('/narrative');
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-canvas-dark)] to-[var(--s3-canvas-dark)] relative overflow-hidden print:bg-white">
-      <style>{`
-        @keyframes twinkle {
-          0%, 100% { opacity: 0.1; }
-          50% { opacity: 0.5; }
-        }
-        ${animationStyles}
-      `}</style>
-
-      {/* Starfield Background - Hidden in print */}
-      <div className="no-print">
-        <Starfield />
+    <div className="min-h-screen bg-gradient-to-b from-[#0a0118] via-[#1a0f2e] to-[#0a0118] text-white">
+      {/* Animated starfield background */}
+      <div className="fixed inset-0 opacity-30 pointer-events-none print:hidden" id="starfield">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(2px 2px at 20% 30%, white, transparent),
+                           radial-gradient(2px 2px at 60% 70%, white, transparent),
+                           radial-gradient(1px 1px at 50% 50%, white, transparent),
+                           radial-gradient(1px 1px at 80% 10%, white, transparent),
+                           radial-gradient(2px 2px at 90% 60%, white, transparent),
+                           radial-gradient(1px 1px at 33% 80%, white, transparent)`,
+          backgroundSize: '200px 200px',
+          backgroundRepeat: 'repeat'
+        }} />
       </div>
-      
-      {/* Cosmic Glow Effect - Hidden in print */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl pointer-events-none no-print animate-glow-pulse"></div>
 
-      {/* Main Content */}
-      <div className="relative max-w-4xl mx-auto px-6 py-12 animate-fade-in" ref={dossierRef}>
+      {/* Cosmic glow effect */}
+      <div className="fixed top-0 left-1/4 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl opacity-50 pointer-events-none print:hidden"
+           style={{ animation: 'pulse 4s ease-in-out infinite' }} />
+
+      <div ref={contentRef} className="relative z-10 max-w-[1200px] mx-auto px-4 py-8 animate-fade-in">
         {/* Header */}
-        <div className="mb-8 animate-fade-in-down">
-          <div className="flex items-start justify-between gap-4 mb-4">
+        <header className="mb-8 animate-fade-in-down print:mb-4">
+          <button 
+            className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-6 print:hidden"
+            onClick={() => navigate('/result')}
+          >
+            <ChevronLeft className="w-5 h-5" />
+            <span>Back</span>
+          </button>
+
+          <div className="flex items-start justify-between gap-4 flex-wrap">
             <div>
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent mb-2 print:text-black print:bg-none">
-                Galactic Dossier
-              </h1>
-              <p className="text-sm text-[var(--s3-text-subtle)] print:text-gray-700">
-                {primarySystem} Classification
-              </p>
+              <h1 className="text-white/90 mb-2">Galactic Dossier</h1>
+              <p className="text-violet-300 text-xl">{primarySystem} Classification</p>
             </div>
-            
-            {/* Export Buttons - Hidden in print */}
-            <div className="flex gap-2 no-print animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+
+            <div className="flex gap-2 print:hidden">
               <Button
-                variant="primary"
-                size="md"
+                variant="secondary"
+                size="sm"
                 onClick={handleExportPNG}
                 disabled={isExporting}
-                className="flex-shrink-0 transition-all duration-300 hover:scale-105"
               >
+                <Download className="w-4 h-4 mr-2" />
                 {isExporting ? 'Exporting...' : 'Export PNG'}
               </Button>
               <Button
                 variant="secondary"
-                size="md"
+                size="sm"
                 onClick={handlePrint}
-                className="flex-shrink-0 transition-all duration-300 hover:scale-105"
               >
+                <Printer className="w-4 h-4 mr-2" />
                 Print/PDF
               </Button>
               <Button
-                variant="ghost"
-                size="md"
-                onClick={() => navigate('/narrative')}
-                className="flex-shrink-0 transition-all duration-300 hover:scale-105"
+                variant="primary"
+                size="sm"
+                onClick={handleGenerateNarrative}
               >
+                <FileText className="w-4 h-4 mr-2" />
                 Generate Narrative
               </Button>
             </div>
           </div>
-        </div>
+        </header>
 
-        {/* Content Sections */}
-        <div className="space-y-6">
-          {/* Identity Snapshot Section */}
-          <div className="p-6 bg-[var(--s3-surface-default)]/50 border border-[var(--s3-border-default)] rounded-[var(--s3-radius-xl)] print-no-break animate-fade-in-up transition-all duration-300 hover:border-[var(--s3-border-emphasis)] hover:shadow-lg" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-            <h2 className="text-xl text-[var(--s3-text-default)] mb-4 font-semibold print:text-black">Identity Snapshot</h2>
-            
-            <div className="space-y-4">
-              {/* Type, Authority, Profile */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div>
-                  <div className="text-xs text-[var(--s3-text-subtle)] uppercase tracking-wide mb-1">Type</div>
-                  <div className="text-sm text-[var(--s3-text-default)] font-medium">{hdData.type}</div>
-                </div>
-                <div>
-                  <div className="text-xs text-[var(--s3-text-subtle)] uppercase tracking-wide mb-1">Authority</div>
-                  <div className="text-sm text-[var(--s3-text-default)] font-medium">{hdData.authority}</div>
-                </div>
-                <div>
-                  <div className="text-xs text-[var(--s3-text-subtle)] uppercase tracking-wide mb-1">Profile</div>
-                  <div className="text-sm text-[var(--s3-text-default)] font-medium">{hdData.profile}</div>
-                </div>
-              </div>
-
-              {/* Defined Centers */}
+        {/* Identity Snapshot */}
+        <section className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          <h2 className="text-white/90 mb-4 uppercase tracking-wider text-sm">Identity Snapshot</h2>
+          <Card className="bg-white/5 backdrop-blur-sm border-white/10 p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div>
-                <div className="text-xs text-[var(--s3-text-subtle)] uppercase tracking-wide mb-2">Defined Centers</div>
+                <div className="text-white/60 text-xs uppercase tracking-wider mb-1">Type</div>
+                <div className="text-white">{hdData.type}</div>
+              </div>
+              <div>
+                <div className="text-white/60 text-xs uppercase tracking-wider mb-1">Authority</div>
+                <div className="text-white">{hdData.authority}</div>
+              </div>
+              <div>
+                <div className="text-white/60 text-xs uppercase tracking-wider mb-1">Profile</div>
+                <div className="text-white font-mono">{hdData.profile}</div>
+              </div>
+              <div className="md:col-span-2">
+                <div className="text-white/60 text-xs uppercase tracking-wider mb-2">Defined Centers</div>
                 <div className="flex flex-wrap gap-2">
                   {hdData.centers && hdData.centers.length > 0 ? (
-                    hdData.centers.map((center) => (
+                    hdData.centers.map(center => (
                       <span
                         key={center}
                         className="px-3 py-1 text-xs bg-[var(--s3-lavender-900)]/30 text-[var(--s3-lavender-200)] border border-[var(--s3-lavender-700)] rounded-full"
@@ -379,102 +354,108 @@ export default function DossierScreen() {
                       </span>
                     ))
                   ) : (
-                    <span className="text-sm text-[var(--s3-text-subtle)]">None</span>
+                    <span className="text-white/60">None</span>
                   )}
                 </div>
               </div>
-
-              {/* Signature Channel */}
-              <div>
-                <div className="text-xs text-[var(--s3-text-subtle)] uppercase tracking-wide mb-1">Signature Channel</div>
-                <div className="text-sm text-[var(--s3-text-default)] font-medium">{signatureChannel}</div>
-              </div>
-            </div>
-          </div>
-
-          {/* One-Line Verdict Section */}
-          <div className="p-6 bg-[var(--s3-surface-emphasis)]/50 border border-[var(--s3-border-emphasis)] rounded-[var(--s3-radius-xl)] print-no-break">
-            <h2 className="text-xl text-[var(--s-text-default)] font-semibold mb-4 print:text-black">The Verdict</h2>
-            <div className="text-base text-[var(--s3-text-default)] leading-relaxed">
-              {classification.classification === 'hybrid' && classification.hybrid ? (
-                <>
-                  <span className="font-semibold text-[var(--s3-lavender-300)]">
-                    Hybrid: {classification.hybrid.map(id => {
-                      const system = loreBundle.systems.find(s => s.id === id);
-                      return system?.label || id;
-                    }).join(' + ')}
-                  </span>
-                  {' — '}
-                  {classification.hybrid.map((id, index) => {
-                    const system = loreBundle.systems.find(s => s.id === id);
-                    return (
-                      <span key={id}>
-                        {index > 0 && ' '}
-                        {system?.description || 'Unknown system'}
-                      </span>
-                    );
-                  }).reduce((prev, curr, index) => (
-                    <>
-                      {prev}
-                      {index === 1 && <span className="text-[var(--s3-text-subtle)]"> {' + '} </span>}
-                      {curr}
-                    </>
-                  ))}
-                </>
-              ) : (
-                <>
-                  <span className="font-semibold text-[var(--s3-lavender-300)]">
-                    {classification.primary ? 
-                      loreBundle.systems.find(s => s.id === classification.primary)?.label || classification.primary 
-                      : 'Unknown'}
-                  </span>
-                  {' — '}
-                  {loreBundle.systems.find(s => s.id === classification.primary)?.description || 'Unknown system'}
-                </>
+              {signatureChannel !== '—' && (
+                <div>
+                  <div className="text-white/60 text-xs uppercase tracking-wider mb-1">Signature Channel</div>
+                  <div className="text-white font-mono">{signatureChannel}</div>
+                </div>
               )}
             </div>
-          </div>
+          </Card>
+        </section>
 
-          {/* Gate→Faction Grid Section */}
-          <div className="print-no-break">
-            <h2 className="text-xl text-[var(--s3-text-default)] font-semibold mb-4 print:text-black">Gate→Faction Grid</h2>
-            <EvidenceMatrix 
-              contributors={allContributors} 
-              activeSystemId={primarySystem}
-            />
+        {/* The Verdict */}
+        <section className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <h2 className="text-white/90 mb-4 uppercase tracking-wider text-sm">The Verdict</h2>
+          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-violet-500/20 via-purple-500/10 to-transparent border border-violet-500/30 p-8">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-violet-500/20 rounded-full blur-3xl" />
+            <div className="relative text-center">
+              <div className="text-4xl md:text-5xl text-white mb-2">{primarySystem}</div>
+              <div className="text-violet-300">Primary Classification</div>
+            </div>
           </div>
+        </section>
 
-          {/* Deployment Matrix Section */}
-          <div className="p-6 bg-[var(--s3-surface-default)]/50 border border-[var(--s3-border-default)] rounded-[var(--s3-radius-xl)] print-no-break">
-            <h2 className="text-xl text-[var(--s3-text-default)] font-semibold mb-4 print:text-black">Deployment Matrix</h2>
-            <p className="text-sm text-[var(--s3-text-subtle)] mb-6">
-              All star systems ranked by alignment percentage
-            </p>
-            
+        {/* Evidence Matrix */}
+        <section className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+          <div className="flex items-baseline justify-between mb-4">
+            <h2 className="text-white/90 uppercase tracking-wider text-sm">Evidence Matrix</h2>
+            <div className="text-white/60 text-xs">
+              Showing all {allContributors.length} contributors
+            </div>
+          </div>
+          
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden">
             <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-[var(--s3-border-default)]">
-                    <th className="text-left py-3 px-2 text-xs font-semibold text-[var(--s3-text-subtle)] uppercase tracking-wide">
-                      Rank
-                    </th>
-                    <th className="text-left py-3 px-2 text-xs font-semibold text-[var(--s3-text-subtle)] uppercase tracking-wide">
-                      System
-                    </th>
-                    <th className="text-right py-3 px-2 text-xs font-semibold text-[var(--s3-text-subtle)] uppercase tracking-wide">
-                      Alignment
-                    </th>
-                    <th className="text-left py-3 px-2 text-xs font-semibold text-[var(--s3-text-subtle)] uppercase tracking-wide">
-                      Role
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
+              <Table>
+                <TableHeader>
+                  <TableRow className="border-white/10 hover:bg-transparent">
+                    <TableHead className="text-white/70">Type</TableHead>
+                    <TableHead className="text-white/70">Attribute</TableHead>
+                    <TableHead className="text-white/70 text-right">Weight</TableHead>
+                    <TableHead className="text-white/70">Confidence</TableHead>
+                    <TableHead className="text-white/70">Sources</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {allContributors.map((contrib, idx) => {
+                    // Determine type from key
+                    const type = contrib.key.startsWith('type_') ? 'type' :
+                                contrib.key.startsWith('channel_') ? 'channel' :
+                                contrib.key.startsWith('authority_') ? 'authority' :
+                                contrib.key.startsWith('center_') ? 'center' :
+                                contrib.key.startsWith('gate_') ? 'gate' :
+                                contrib.key.startsWith('profile_') ? 'profile' : 'other';
+                    
+                    return (
+                      <TableRow key={idx} className="border-white/10 hover:bg-white/5">
+                        <TableCell className="text-white/60 capitalize text-sm">{type}</TableCell>
+                        <TableCell className="text-white text-sm">{contrib.label}</TableCell>
+                        <TableCell className="text-violet-400 text-right font-mono text-sm">
+                          {contrib.weight.toFixed(2)}
+                        </TableCell>
+                        <TableCell className="text-sm">
+                          <ConfidenceStars confidence={contrib.confidence} />
+                        </TableCell>
+                        <TableCell className="text-white/60 text-sm">
+                          {contrib.sources.map(sourceId => {
+                            const source = loreBundle.sources.find(s => s.id === sourceId);
+                            return source?.title || sourceId;
+                          }).join(', ')}
+                        </TableCell>
+                      </TableRow>
+                    );
+                  })}
+                </TableBody>
+              </Table>
+            </div>
+          </div>
+        </section>
+
+        {/* Deployment Matrix */}
+        <section className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+          <h2 className="text-white/90 mb-2 uppercase tracking-wider text-sm">Deployment Matrix</h2>
+          <p className="text-white/60 text-sm mb-4">All star systems ranked by alignment percentage</p>
+          
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden">
+            <div className="overflow-x-auto">
+              <Table>
+                <TableHeader>
+                  <TableRow className="border-white/10 hover:bg-transparent">
+                    <TableHead className="text-white/70">Rank</TableHead>
+                    <TableHead className="text-white/70">System</TableHead>
+                    <TableHead className="text-white/70 text-right">Alignment</TableHead>
+                    <TableHead className="text-white/70">Role</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
                   {Object.entries(classification.percentages || {})
                     .sort(([, a], [, b]) => b - a)
                     .map(([systemKey, percentage], index) => {
-                      // systemKey could be either ID (uppercase like "PLEIADES") or label (like "Pleiades")
-                      // Try to find by ID first, then by label
                       const system = loreBundle.systems.find(s => 
                         s.id === systemKey || s.label === systemKey
                       );
@@ -482,138 +463,207 @@ export default function DossierScreen() {
                       const displayName = system?.label || systemKey;
                       
                       return (
-                        <tr 
+                        <TableRow 
                           key={systemKey}
-                          className="border-b border-[var(--s3-border-muted)] last:border-0"
+                          className={`border-white/10 ${index < 3 ? 'bg-violet-500/10' : 'hover:bg-white/5'}`}
                         >
-                          <td className="py-3 px-2">
-                            <span className={`text-xs font-medium ${
-                              index === 0 
-                                ? 'text-[var(--s3-lavender-300)]' 
-                                : index === 1 
-                                ? 'text-[var(--s3-lavender-400)]' 
-                                : 'text-[var(--s3-text-subtle)]'
-                            }`}>
-                              {rank}
-                            </span>
-                          </td>
-                          <td className="py-3 px-2">
-                            <span className={`font-medium ${
-                              index === 0 
-                                ? 'text-[var(--s3-lavender-300)]' 
-                                : 'text-[var(--s3-text-default)]'
-                            }`}>
-                              {displayName}
-                            </span>
-                          </td>
-                          <td className="py-3 px-2 text-right">
-                            <span className="font-mono text-[var(--s3-text-default)]">
-                              {percentage.toFixed(2)}%
-                            </span>
-                          </td>
-                          <td className="py-3 px-2">
-                            <span className="text-[var(--s3-text-subtle)] text-sm">
-                              {system?.description || 'Unknown system'}
-                            </span>
-                          </td>
-                        </tr>
+                          <TableCell className="text-sm">
+                            {index < 3 && (
+                              <span className="px-2 py-1 rounded-md bg-violet-500/30 text-violet-300 text-xs uppercase tracking-wider">
+                                {rank}
+                              </span>
+                            )}
+                          </TableCell>
+                          <TableCell className={`text-sm ${index === 0 ? 'text-white' : 'text-white/70'}`}>
+                            {displayName}
+                          </TableCell>
+                          <TableCell className="text-violet-400 text-right font-mono text-sm">
+                            {percentage.toFixed(2)}%
+                          </TableCell>
+                          <TableCell className="text-white/60 text-sm max-w-md">
+                            {system?.description || 'Unknown system'}
+                          </TableCell>
+                        </TableRow>
                       );
                     })}
-                </tbody>
-              </table>
+                </TableBody>
+              </Table>
             </div>
           </div>
+        </section>
 
-          {/* Why Not Section */}
-          {whyNotData.length > 0 && (
-            <div className="p-6 bg-[var(--s3-surface-default)]/50 border border-[var(--s3-border-default)] rounded-[var(--s3-radius-xl)] print-no-break">
-              <h2 className="text-xl text-[var(--s3-text-default)] font-semibold mb-4 print:text-black">Why Not...?</h2>
-              <p className="text-sm text-[var(--s3-text-subtle)] mb-6">
-                Other systems that were close contenders. Here's what would have increased their scores:
-              </p>
-              
-              <div className="space-y-6">
-                {whyNotData.map((systemData) => (
-                  <div key={systemData.systemId} className="space-y-3">
-                    {/* System Header */}
-                    <div className="flex items-baseline justify-between">
-                      <h3 className="text-lg font-semibold text-[var(--s3-lavender-300)]">
-                        {systemData.system}
-                      </h3>
-                      <span className="text-sm text-[var(--s3-text-subtle)]">
-                        {systemData.percentage.toFixed(2)}%
-                      </span>
-                    </div>
-
-                    {/* Unmatched Rules */}
-                    {systemData.unmatchedRules.length > 0 ? (
-                      <div className="space-y-2">
-                        {systemData.unmatchedRules.map((rule) => (
-                          <div
-                            key={rule.id}
-                            className="p-3 bg-[var(--s3-surface-subtle)]/30 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-lg)]"
-                          >
-                            <div className="flex items-start justify-between gap-3">
-                              <p className="text-sm text-[var(--s3-text-default)] flex-1">
-                                {rule.rationale}
-                              </p>
-                              <div className="flex items-center gap-2 flex-shrink-0">
-                                <span className="text-xs text-[var(--s3-text-subtle)] font-mono">
-                                  +{rule.weight}
-                                </span>
-                                <span className="text-xs text-[var(--s3-lavender-400)]">
-                                  {'★'.repeat(rule.confidence)}
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    ) : (
-                      <p className="text-sm text-[var(--s3-text-subtle)] italic">
-                        No additional factors would significantly increase this system's score.
-                      </p>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Sources Gallery Section */}
-          <div className="p-6 bg-[var(--s3-surface-default)]/50 border border-[var(--s3-border-default)] rounded-[var(--s3-radius-xl)] print-no-break">
-            <h2 className="text-xl text-[var(--s3-text-default)] font-semibold mb-4 print:text-black">Sources & References</h2>
-            <p className="text-sm text-[var(--s3-text-subtle)] mb-6">
-              All sources cited in your classification
+        {/* Why Not? Section */}
+        {whyNotData.length > 0 && (
+          <section className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+            <h2 className="text-white/90 mb-2 uppercase tracking-wider text-sm">Why Not…?</h2>
+            <p className="text-white/60 text-sm mb-4">
+              Other systems that were close contenders. Here's what would have increased their scores:
             </p>
-            
-            {/* Sources Grid */}
-            <div className="flex flex-wrap gap-2 mb-4">
-              {sourcesGallery.map(source => (
-                <SourceBadge 
-                  key={source.id} 
-                  sourceId={source.id} 
-                  showTooltip={true}
-                />
+
+            <div className="space-y-6">
+              {whyNotData.map((nearMiss, idx) => (
+                <div key={idx} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6">
+                  <h3 className="text-white mb-4">
+                    {nearMiss.system} <span className="text-violet-400 font-mono">({nearMiss.percentage.toFixed(2)}%)</span>
+                  </h3>
+                  
+                  {nearMiss.unmatchedRules.length > 0 ? (
+                    <div className="space-y-3">
+                      {nearMiss.unmatchedRules.map((rule, ruleIdx) => (
+                        <div 
+                          key={ruleIdx}
+                          className="bg-white/5 rounded-xl p-4 border border-white/10 flex items-start justify-between gap-4"
+                        >
+                          <div className="text-white/70 text-sm flex-1">{rule.rationale}</div>
+                          <div className="flex items-center gap-3 text-sm whitespace-nowrap">
+                            <span className="text-violet-400 font-mono">+{rule.weight.toFixed(1)}</span>
+                            <ConfidenceStars confidence={rule.confidence} />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-white/50 text-sm italic">
+                      No additional factors would significantly increase this system's score.
+                    </p>
+                  )}
+                </div>
               ))}
             </div>
+          </section>
+        )}
 
-            {/* Legend */}
-            <div className="pt-4 border-t border-[var(--s3-border-muted)]">
-              <p className="text-xs text-[var(--s3-text-subtle)]">
-                ⚑ = Disputed or controversial lore
-              </p>
+        {/* Sources & References */}
+        <section className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+          <h2 className="text-white/90 mb-2 uppercase tracking-wider text-sm">Sources & References</h2>
+          <p className="text-white/60 text-sm mb-4">All sources cited in your classification</p>
+          
+          <TooltipProvider>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {sourcesGallery.map((source, idx) => (
+                <Tooltip key={idx}>
+                  <TooltipTrigger asChild>
+                    <button className="px-3 py-2 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-violet-400/50 transition-all text-sm text-white/80 min-h-[44px] flex items-center gap-2">
+                      {source.disputed && <span className="text-amber-400">⚑</span>}
+                      {source.title}
+                    </button>
+                  </TooltipTrigger>
+                  <TooltipContent className="bg-slate-900 border-white/20 text-white max-w-xs">
+                    <div className="space-y-1">
+                      <div className="font-medium">{source.title}</div>
+                      {source.author && (
+                        <div className="text-xs text-white/70">
+                          {source.author} {source.year && `(${source.year})`}
+                        </div>
+                      )}
+                      {source.disputed && (
+                        <div className="text-xs text-amber-400 flex items-center gap-1 mt-2">
+                          <AlertCircle className="w-3 h-3" />
+                          Disputed or controversial lore
+                        </div>
+                      )}
+                    </div>
+                  </TooltipContent>
+                </Tooltip>
+              ))}
             </div>
-          </div>
+          </TooltipProvider>
 
-          {/* Disclaimer */}
-          <div className="p-4 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)]">
-            <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
-              For insight & entertainment. Not medical, financial, or legal advice.
+          <div className="text-white/50 text-xs flex items-center gap-2">
+            <span className="text-amber-400">⚑</span>
+            = Disputed or controversial lore
+          </div>
+        </section>
+
+        {/* Footer */}
+        <footer className="text-center py-8 animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-4 border border-white/10">
+            <p className="text-xs text-white/50">
+              For insight & entertainment; not medical, financial, or legal advice.
             </p>
           </div>
-        </div>
+        </footer>
       </div>
+
+      <style>{`
+        @keyframes pulse {
+          0%, 100% { opacity: 0.3; transform: scale(1); }
+          50% { opacity: 0.5; transform: scale(1.1); }
+        }
+
+        @keyframes fade-in {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+
+        @keyframes fade-in-down {
+          from { opacity: 0; transform: translateY(-20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fade-in-up {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-fade-in {
+          animation: fade-in 0.6s ease-out;
+        }
+
+        .animate-fade-in-down {
+          animation: fade-in-down 0.6s ease-out;
+        }
+
+        .animate-fade-in-up {
+          animation: fade-in-up 0.6s ease-out;
+          animation-fill-mode: both;
+        }
+
+        @media print {
+          #starfield,
+          .print\\:hidden {
+            display: none !important;
+          }
+          
+          .print\\:mb-4 {
+            margin-bottom: 1rem !important;
+          }
+
+          body {
+            background: white !important;
+          }
+
+          .bg-gradient-to-b,
+          .bg-gradient-to-br {
+            background: white !important;
+          }
+
+          .text-white,
+          .text-white\\/90,
+          .text-white\\/70,
+          .text-white\\/60 {
+            color: black !important;
+          }
+
+          .border-white\\/10,
+          .border-white\\/20 {
+            border-color: #e5e7eb !important;
+          }
+
+          .bg-white\\/5,
+          .bg-white\\/10 {
+            background-color: #f9fafb !important;
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          * {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+          }
+        }
+      `}</style>
     </div>
   );
 }

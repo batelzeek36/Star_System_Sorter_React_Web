@@ -33,24 +33,23 @@ export function Chip({
       : "bg-[var(--s3-lavender-500)]/20 border-[var(--s3-lavender-400)]/30 text-[var(--s3-lavender-300)]"
   };
 
-  const baseClassName = `
+  const baseClasses = `
     px-3 py-1.5 
     border 
     rounded-[var(--s3-radius-full)]
     text-xs
     inline-flex items-center gap-2
-    transition-all duration-300
     ${variantClasses[variant]}
-    ${selectable ? 'min-h-[44px] cursor-pointer hover:opacity-80 hover:scale-105 active:scale-95 focus-visible:shadow-[var(--s3-focus-ring)] outline-none' : 'hover:scale-105'}
+    ${selectable ? 'min-h-[44px] cursor-pointer hover:opacity-80 active:scale-95 transition-all focus-visible:shadow-[var(--s3-focus-ring)] outline-none' : ''}
     ${className}
   `;
   
   if (selectable) {
     return (
       <button
-        className={baseClassName}
+        className={baseClasses}
         onClick={onSelect}
-        type="button"
+        {...(props as any)}
       >
         <span>
           {starSystem} {percentage !== undefined && `${percentage}%`}
@@ -62,7 +61,6 @@ export function Chip({
               onDismiss();
             }}
             className="w-4 h-4 rounded-full hover:bg-white/20 flex items-center justify-center transition-colors"
-            type="button"
           >
             <X className="w-3 h-3" />
           </button>
@@ -73,7 +71,7 @@ export function Chip({
   
   return (
     <div
-      className={baseClassName}
+      className={baseClasses}
       {...props}
     >
       <span>
@@ -86,7 +84,6 @@ export function Chip({
             onDismiss();
           }}
           className="w-4 h-4 rounded-full hover:bg-white/20 flex items-center justify-center transition-colors"
-          type="button"
         >
           <X className="w-3 h-3" />
         </button>

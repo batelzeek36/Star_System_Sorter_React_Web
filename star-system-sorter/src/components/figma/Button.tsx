@@ -30,21 +30,21 @@ export function Button({
       text-white shadow-[var(--s3-elevation-2)]
       hover:shadow-[var(--s3-elevation-3)] hover:from-[var(--s3-lavender-600)] hover:to-[var(--s3-lavender-500)]
       active:shadow-[var(--s3-elevation-1)] active:scale-[0.98]
-      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-300)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)]
+      focus-visible:shadow-[var(--s3-focus-ring)]
       disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:shadow-[var(--s3-elevation-2)]
     `,
     secondary: `
       bg-white/5 border border-[var(--s3-border-emphasis)] text-white
       hover:bg-white/10 hover:border-[var(--s3-lavender-400)]
       active:bg-white/15 active:scale-[0.98]
-      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-300)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)]
+      focus-visible:shadow-[var(--s3-focus-ring)]
       disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-white/5
     `,
     ghost: `
       text-[var(--s3-lavender-300)] bg-transparent
       hover:bg-white/5
       active:bg-white/10 active:scale-[0.98]
-      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-300)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)]
+      focus-visible:shadow-[var(--s3-focus-ring)]
       disabled:opacity-40 disabled:cursor-not-allowed disabled:hover:bg-transparent
     `,
     destructive: `
@@ -52,7 +52,7 @@ export function Button({
       text-white shadow-[var(--s3-elevation-2)]
       hover:shadow-[var(--s3-elevation-3)] hover:from-red-600 hover:to-red-700
       active:shadow-[var(--s3-elevation-1)] active:scale-[0.98]
-      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--s3-canvas-dark)]
+      focus-visible:shadow-[var(--s3-focus-ring-error)]
       disabled:opacity-40 disabled:cursor-not-allowed
     `
   };
