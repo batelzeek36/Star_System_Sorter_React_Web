@@ -500,8 +500,8 @@ export default function WhyScreenRedesign() {
                         <ChevronDown className="w-5 h-5 text-white/40 transition-transform duration-200" />
                       </div>
                     </AccordionTrigger>
-                    <AccordionContent className="px-5 pb-5">
-                      <div className="space-y-3 pt-2">
+                    <AccordionContent className="px-5">
+                      <div className="space-y-3 pt-2 pb-5">
                         {contributions.map((contribution, idx) => (
                           <div
                             key={idx}
@@ -551,7 +551,7 @@ export default function WhyScreenRedesign() {
             )}
           </Accordion>
         ) : (
-          <div className="space-y-3 pb-1">
+          <div className="space-y-3 pb-6">
             {filteredContributions.map((contribution, idx) => (
               <div
                 key={idx}

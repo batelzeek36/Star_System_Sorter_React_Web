@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useBirthDataStore } from '@/store/birthDataStore';
-import { Card } from '@/components/figma/Card';
-import { ChevronDown, ChevronUp, Star, Sparkles } from 'lucide-react';
-import { animationStyles } from '@/styles/animations';
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useBirthDataStore } from "@/store/birthDataStore";
+import { Card } from "@/components/figma/Card";
+import { ChevronDown, ChevronUp, Star, Sparkles } from "lucide-react";
+import { animationStyles } from "@/styles/animations";
 
 // Starfield component
 const Starfield = () => (
@@ -15,7 +15,9 @@ const Starfield = () => (
         style={{
           left: `${Math.random() * 100}%`,
           top: `${Math.random() * 100}%`,
-          animation: `twinkle ${2 + Math.random() * 3}s infinite ${Math.random() * 2}s`
+          animation: `twinkle ${2 + Math.random() * 3}s infinite ${
+            Math.random() * 2
+          }s`,
         }}
       />
     ))}
@@ -29,7 +31,7 @@ const ProgressRing = ({ percentage }: { percentage: number }) => {
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
   const offset = circumference - (percentage / 100) * circumference;
-  
+
   return (
     <div className="relative">
       <svg width={size} height={size} className="transform -rotate-90">
@@ -54,7 +56,13 @@ const ProgressRing = ({ percentage }: { percentage: number }) => {
           className="transition-all duration-1000 ease-out"
         />
         <defs>
-          <linearGradient id="progress-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <linearGradient
+            id="progress-gradient"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="100%"
+          >
             <stop offset="0%" stopColor="var(--s3-lavender-400)" />
             <stop offset="100%" stopColor="var(--s3-lavender-200)" />
           </linearGradient>
@@ -64,7 +72,9 @@ const ProgressRing = ({ percentage }: { percentage: number }) => {
         <span className="text-3xl font-bold text-[var(--s3-lavender-200)]">
           {percentage.toFixed(0)}%
         </span>
-        <span className="text-xs text-[var(--s3-text-subtle)] mt-1">alignment</span>
+        <span className="text-xs text-[var(--s3-text-subtle)] mt-1">
+          alignment
+        </span>
       </div>
     </div>
   );
@@ -74,8 +84,10 @@ export default function WhyScreenV3() {
   const navigate = useNavigate();
   const classification = useBirthDataStore((state) => state.classification);
   const hdData = useBirthDataStore((state) => state.hdData);
-  
-  const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
+
+  const [expandedSections, setExpandedSections] = useState<
+    Record<string, boolean>
+  >({
     gates: false,
     channels: false,
     centers: false,
@@ -83,25 +95,27 @@ export default function WhyScreenV3() {
 
   // Redirect if no data
   if (!classification || !hdData) {
-    navigate('/input');
+    navigate("/input");
     return null;
   }
 
-  const primarySystem = classification.classification === 'hybrid' && classification.hybrid
-    ? classification.hybrid[0]
-    : classification.primary || 'Unknown';
+  const primarySystem =
+    classification.classification === "hybrid" && classification.hybrid
+      ? classification.hybrid[0]
+      : classification.primary || "Unknown";
 
   const primaryPercentage = classification.percentages[primarySystem] || 0;
 
   // Get contributors - use enhanced if available, otherwise use basic
-  const contributors = classification.enhancedContributorsWithWeights?.[primarySystem] 
-    || classification.contributorsWithWeights?.[primarySystem] 
-    || [];
+  const contributors =
+    classification.enhancedContributorsWithWeights?.[primarySystem] ||
+    classification.contributorsWithWeights?.[primarySystem] ||
+    [];
 
   // Group contributors by type
   const contributorsByType = contributors.reduce((acc, contributor) => {
-    const key = contributor.key || '';
-    const type = key.split(':')[0] || 'other';
+    const key = contributor.key || "";
+    const type = key.split(":")[0] || "other";
     if (!acc[type]) acc[type] = [];
     acc[type].push(contributor);
     return acc;
@@ -113,7 +127,7 @@ export default function WhyScreenV3() {
     .slice(0, 5);
 
   const toggleSection = (section: string) => {
-    setExpandedSections(prev => ({ ...prev, [section]: !prev[section] }));
+    setExpandedSections((prev) => ({ ...prev, [section]: !prev[section] }));
   };
 
   return (
@@ -131,38 +145,44 @@ export default function WhyScreenV3() {
       `}</style>
 
       <Starfield />
-      
+
       {/* Hero Section */}
       <div className="relative h-80 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[var(--s3-canvas-dark)]" />
-        
+
         {/* Navigation */}
         <div className="absolute top-0 left-0 right-0 z-20 p-6">
-          <button 
-            onClick={() => navigate('/result')}
+          <button
+            onClick={() => navigate("/result")}
             className="text-[var(--s3-lavender-300)] hover:text-[var(--s3-lavender-200)] transition-all duration-300 hover:translate-x-[-4px] text-sm"
             aria-label="Back to results"
           >
             ← Back to Results
           </button>
         </div>
-        
+
         {/* Hero Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
-          <div className="animate-fade-in-up" style={{ animation: 'float 6s ease-in-out infinite' }}>
+          <div
+            className="animate-fade-in-up"
+            style={{ animation: "float 6s ease-in-out infinite" }}
+          >
             <ProgressRing percentage={primaryPercentage} />
           </div>
-          
+
           <h1 className="text-4xl font-bold mt-6 mb-2 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent animate-fade-in-up">
             {primarySystem}
           </h1>
-          
-          <p className="text-[var(--s3-text-subtle)] text-sm animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+
+          <p
+            className="text-[var(--s3-text-subtle)] text-sm animate-fade-in-up"
+            style={{ animationDelay: "0.2s" }}
+          >
             Your cosmic blueprint decoded
           </p>
         </div>
       </div>
-      
+
       {/* Main Content */}
       <div className="relative flex-1 max-w-2xl mx-auto w-full px-6 py-8">
         {/* Core Attributes */}
@@ -178,38 +198,50 @@ export default function WhyScreenV3() {
                   <Star className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-[var(--s3-lavender-200)]">{hdData.type}</p>
-                  <p className="text-xs text-[var(--s3-text-subtle)]">Energy Type</p>
+                  <p className="text-sm font-medium text-[var(--s3-lavender-200)]">
+                    {hdData.type}
+                  </p>
+                  <p className="text-xs text-[var(--s3-text-subtle)]">
+                    Energy Type
+                  </p>
                 </div>
               </div>
             </div>
-            
+
             <div className="p-4 bg-gradient-to-r from-[var(--s3-lavender-900)]/10 to-[var(--s3-lavender-800)]/10 rounded-xl border border-[var(--s3-lavender-600)]/20 backdrop-blur">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--s3-lavender-500)] to-[var(--s3-lavender-600)] flex items-center justify-center shadow-lg">
                   <Sparkles className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-[var(--s3-lavender-200)]">{hdData.authority}</p>
-                  <p className="text-xs text-[var(--s3-text-subtle)]">Decision Authority</p>
+                  <p className="text-sm font-medium text-[var(--s3-lavender-200)]">
+                    {hdData.authority}
+                  </p>
+                  <p className="text-xs text-[var(--s3-text-subtle)]">
+                    Decision Authority
+                  </p>
                 </div>
               </div>
             </div>
-            
+
             <div className="p-4 bg-gradient-to-r from-[var(--s3-lavender-900)]/10 to-[var(--s3-lavender-800)]/10 rounded-xl border border-[var(--s3-lavender-600)]/20 backdrop-blur">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--s3-lavender-500)] to-[var(--s3-lavender-600)] flex items-center justify-center shadow-lg">
                   <Star className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-[var(--s3-lavender-200)]">{hdData.profile}</p>
-                  <p className="text-xs text-[var(--s3-text-subtle)]">Life Profile</p>
+                  <p className="text-sm font-medium text-[var(--s3-lavender-200)]">
+                    {hdData.profile}
+                  </p>
+                  <p className="text-xs text-[var(--s3-text-subtle)]">
+                    Life Profile
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+
         {/* Top Contributors */}
         <div className="mb-8">
           <h2 className="text-lg font-medium text-[var(--s3-lavender-200)] mb-4 flex items-center gap-2">
@@ -228,7 +260,8 @@ export default function WhyScreenV3() {
                       {contributor.label}
                     </p>
                     <p className="text-xs text-[var(--s3-text-subtle)] truncate">
-                      {(contributor as any).rationale || 'Contributing to your alignment'}
+                      {(contributor as any).rationale ||
+                        "Contributing to your alignment"}
                     </p>
                   </div>
                   <div className="text-right flex-shrink-0">
@@ -248,14 +281,18 @@ export default function WhyScreenV3() {
           {contributorsByType.gate && contributorsByType.gate.length > 0 && (
             <Card variant="default">
               <button
-                onClick={() => toggleSection('gates')}
+                onClick={() => toggleSection("gates")}
                 className="w-full flex items-center justify-between min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] rounded-lg"
               >
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-600)]/20 flex items-center justify-center">
-                    <span className="text-sm text-[var(--s3-lavender-300)]">{contributorsByType.gate.length}</span>
+                    <span className="text-sm text-[var(--s3-lavender-300)]">
+                      {contributorsByType.gate.length}
+                    </span>
                   </div>
-                  <span className="text-sm text-[var(--s3-lavender-200)]">Gates</span>
+                  <span className="text-sm text-[var(--s3-lavender-200)]">
+                    Gates
+                  </span>
                 </div>
                 {expandedSections.gates ? (
                   <ChevronUp className="w-5 h-5 text-[var(--s3-lavender-400)]" />
@@ -263,16 +300,25 @@ export default function WhyScreenV3() {
                   <ChevronDown className="w-5 h-5 text-[var(--s3-lavender-400)]" />
                 )}
               </button>
-              
+
               {expandedSections.gates && (
                 <div className="mt-4 space-y-2 max-h-96 overflow-y-auto">
                   {contributorsByType.gate.map((contributor, index) => (
-                    <div key={index} className="flex items-start justify-between p-2 bg-[var(--s3-canvas-dark)]/30 rounded-lg">
+                    <div
+                      key={index}
+                      className="flex items-start justify-between p-2 bg-[var(--s3-canvas-dark)]/30 rounded-lg"
+                    >
                       <div className="flex-1 min-w-0">
-                        <p className="text-sm text-[var(--s3-lavender-200)]">{contributor.label}</p>
-                        <p className="text-xs text-[var(--s3-text-subtle)] truncate">{(contributor as any).rationale || ''}</p>
+                        <p className="text-sm text-[var(--s3-lavender-200)]">
+                          {contributor.label}
+                        </p>
+                        <p className="text-xs text-[var(--s3-text-subtle)] truncate">
+                          {(contributor as any).rationale || ""}
+                        </p>
                       </div>
-                      <span className="text-sm text-[var(--s3-lavender-300)] ml-2">+{contributor.weight}</span>
+                      <span className="text-sm text-[var(--s3-lavender-300)] ml-2">
+                        +{contributor.weight}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -281,83 +327,112 @@ export default function WhyScreenV3() {
           )}
 
           {/* Channels Section */}
-          {contributorsByType.channel && contributorsByType.channel.length > 0 && (
-            <Card variant="default">
-              <button
-                onClick={() => toggleSection('channels')}
-                className="w-full flex items-center justify-between min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] rounded-lg"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-600)]/20 flex items-center justify-center">
-                    <span className="text-sm text-[var(--s3-lavender-300)]">{contributorsByType.channel.length}</span>
-                  </div>
-                  <span className="text-sm text-[var(--s3-lavender-200)]">Channels</span>
-                </div>
-                {expandedSections.channels ? (
-                  <ChevronUp className="w-5 h-5 text-[var(--s3-lavender-400)]" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-[var(--s3-lavender-400)]" />
-                )}
-              </button>
-              
-              {expandedSections.channels && (
-                <div className="mt-4 space-y-2 max-h-96 overflow-y-auto">
-                  {contributorsByType.channel.map((contributor, index) => (
-                    <div key={index} className="flex items-start justify-between p-2 bg-[var(--s3-canvas-dark)]/30 rounded-lg">
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm text-[var(--s3-lavender-200)]">{contributor.label}</p>
-                        <p className="text-xs text-[var(--s3-text-subtle)] truncate">{(contributor as any).rationale || ''}</p>
-                      </div>
-                      <span className="text-sm text-[var(--s3-lavender-300)] ml-2">+{contributor.weight}</span>
+          {contributorsByType.channel &&
+            contributorsByType.channel.length > 0 && (
+              <Card variant="default">
+                <button
+                  onClick={() => toggleSection("channels")}
+                  className="w-full flex items-center justify-between min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] rounded-lg"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-600)]/20 flex items-center justify-center">
+                      <span className="text-sm text-[var(--s3-lavender-300)]">
+                        {contributorsByType.channel.length}
+                      </span>
                     </div>
-                  ))}
-                </div>
-              )}
-            </Card>
-          )}
+                    <span className="text-sm text-[var(--s3-lavender-200)]">
+                      Channels
+                    </span>
+                  </div>
+                  {expandedSections.channels ? (
+                    <ChevronUp className="w-5 h-5 text-[var(--s3-lavender-400)]" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5 text-[var(--s3-lavender-400)]" />
+                  )}
+                </button>
+
+                {expandedSections.channels && (
+                  <div className="mt-4 space-y-2 max-h-96 overflow-y-auto">
+                    {contributorsByType.channel.map((contributor, index) => (
+                      <div
+                        key={index}
+                        className="flex items-start justify-between p-2 bg-[var(--s3-canvas-dark)]/30 rounded-lg"
+                      >
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm text-[var(--s3-lavender-200)]">
+                            {contributor.label}
+                          </p>
+                          <p className="text-xs text-[var(--s3-text-subtle)] truncate">
+                            {(contributor as any).rationale || ""}
+                          </p>
+                        </div>
+                        <span className="text-sm text-[var(--s3-lavender-300)] ml-2">
+                          +{contributor.weight}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </Card>
+            )}
 
           {/* Centers Section */}
-          {contributorsByType.center && contributorsByType.center.length > 0 && (
-            <Card variant="default">
-              <button
-                onClick={() => toggleSection('centers')}
-                className="w-full flex items-center justify-between min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] rounded-lg"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-600)]/20 flex items-center justify-center">
-                    <span className="text-sm text-[var(--s3-lavender-300)]">{contributorsByType.center.length}</span>
-                  </div>
-                  <span className="text-sm text-[var(--s3-lavender-200)]">Centers</span>
-                </div>
-                {expandedSections.centers ? (
-                  <ChevronUp className="w-5 h-5 text-[var(--s3-lavender-400)]" />
-                ) : (
-                  <ChevronDown className="w-5 h-5 text-[var(--s3-lavender-400)]" />
-                )}
-              </button>
-              
-              {expandedSections.centers && (
-                <div className="mt-4 space-y-2">
-                  {contributorsByType.center.map((contributor, index) => (
-                    <div key={index} className="flex items-start justify-between p-2 bg-[var(--s3-canvas-dark)]/30 rounded-lg">
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm text-[var(--s3-lavender-200)]">{contributor.label}</p>
-                        <p className="text-xs text-[var(--s3-text-subtle)] truncate">{(contributor as any).rationale || ''}</p>
-                      </div>
-                      <span className="text-sm text-[var(--s3-lavender-300)] ml-2">+{contributor.weight}</span>
+          {contributorsByType.center &&
+            contributorsByType.center.length > 0 && (
+              <Card variant="default">
+                <button
+                  onClick={() => toggleSection("centers")}
+                  className="w-full flex items-center justify-between min-h-[44px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--s3-lavender-400)] rounded-lg"
+                >
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-[var(--s3-lavender-600)]/20 flex items-center justify-center">
+                      <span className="text-sm text-[var(--s3-lavender-300)]">
+                        {contributorsByType.center.length}
+                      </span>
                     </div>
-                  ))}
-                </div>
-              )}
-            </Card>
-          )}
+                    <span className="text-sm text-[var(--s3-lavender-200)]">
+                      Centers
+                    </span>
+                  </div>
+                  {expandedSections.centers ? (
+                    <ChevronUp className="w-5 h-5 text-[var(--s3-lavender-400)]" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5 text-[var(--s3-lavender-400)]" />
+                  )}
+                </button>
+
+                {expandedSections.centers && (
+                  <div className="mt-4 space-y-2">
+                    {contributorsByType.center.map((contributor, index) => (
+                      <div
+                        key={index}
+                        className="flex items-start justify-between p-2 bg-[var(--s3-canvas-dark)]/30 rounded-lg"
+                      >
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm text-[var(--s3-lavender-200)]">
+                            {contributor.label}
+                          </p>
+                          <p className="text-xs text-[var(--s3-text-subtle)] truncate">
+                            {(contributor as any).rationale || ""}
+                          </p>
+                        </div>
+                        <span className="text-sm text-[var(--s3-lavender-300)] ml-2">
+                          +{contributor.weight}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </Card>
+            )}
         </div>
 
         {/* Footer */}
         <div className="mt-12 pt-8 border-t border-[var(--s3-border-muted)]">
           <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-lg">
             <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed text-center">
-              For insight & entertainment. Not medical, financial, or legal advice.
+              For insight & entertainment. Not medical, financial, or legal
+              advice.
             </p>
           </div>
         </div>
