@@ -45,7 +45,7 @@ function App() {
               <WhyScreen />
             </ProtectedRoute>
           } />
-          <Route path="/why-v2" element={
+          {/* <Route path="/why-v2" element={
             <ProtectedRoute>
               <WhyScreenV2 />
             </ProtectedRoute>
@@ -59,7 +59,7 @@ function App() {
             <ProtectedRoute>
               <WhyScreenV4 />
             </ProtectedRoute>
-          } />
+          } /> */}
           {/* <Route path="/why-v5" element={
             <ProtectedRoute>
               <WhyScreenV5 />
