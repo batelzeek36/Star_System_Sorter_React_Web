@@ -57,6 +57,8 @@ const initialState = {
 // Store Implementation
 // ============================================================================
 
+const STORE_VERSION = 2; // Increment this when data structure changes
+
 export const useBirthDataStore = create<BirthDataState>()(
   persist(
     (set) => ({
@@ -81,6 +83,15 @@ export const useBirthDataStore = create<BirthDataState>()(
     }),
     {
       name: 'birth-data-storage',
+      version: STORE_VERSION,
+      migrate: (persistedState: any, version: number) => {
+        // Clear old data if version mismatch
+        if (version < STORE_VERSION) {
+          console.log(`Migrating store from v${version} to v${STORE_VERSION} - clearing old data`);
+          return initialState;
+        }
+        return persistedState;
+      },
     }
   )
 );
