@@ -227,8 +227,8 @@ export default function ResultScreen() {
           </Button>
         </div>
 
-        {/* Open Dossier Button */}
-        <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+        {/* Open Dossier Button - Hidden for now, Why screen serves as dossier */}
+        {/* <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
           <Button 
             variant="secondary" 
             className="w-full transition-all duration-300 hover:scale-105"
@@ -236,10 +236,10 @@ export default function ResultScreen() {
           >
             Open Dossier
           </Button>
-        </div>
+        </div> */}
 
         {/* Legal Disclaimer */}
-        <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+        <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
           <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)] transition-all duration-300 hover:border-[var(--s3-border-emphasis)]">
             <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
               For insight & entertainment. Not medical, financial, or legal advice.
