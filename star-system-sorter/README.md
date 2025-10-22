@@ -13,6 +13,24 @@ Star System Sorter retrieves Human Design data via the BodyGraph Chart API, appl
 - 30-day caching for performance
 - Comprehensive provenance tracking with source citations
 
+## User Flow
+
+1. **Login** (`/`) - Entry point with Google OAuth or guest access ✨ **NEW**
+2. **Onboarding** (`/onboarding`) - Welcome screen with 3-step explainer
+3. **Input** (`/input`) - Birth data form
+4. **Result** (`/result`) - Star system classification with crest and percentages
+5. **Why** (`/why-figma`) - Detailed explanation of contributing factors
+6. **Dossier** (`/dossier`) - Comprehensive lore-based evidence matrix
+
+## Authentication
+
+Star System Sorter supports two authentication methods:
+
+- **Google OAuth** - Sign in with your Google account (recommended)
+- **Guest Mode** - Try the app without creating an account
+
+See `GOOGLE_OAUTH_SETUP.md` for Google OAuth configuration instructions.
+
 ## Tech Stack
 
 - **Framework**: React 18+ with TypeScript 5+
@@ -38,7 +56,9 @@ npm install
 
 # Set up environment variables
 cp .env.example .env
-# Edit .env and add your BODYGRAPH_API_KEY
+# Edit .env and add:
+# - VITE_GOOGLE_CLIENT_ID (see GOOGLE_OAUTH_SETUP.md)
+# Note: BODYGRAPH_API_KEY goes in server/.env
 ```
 
 ### Development

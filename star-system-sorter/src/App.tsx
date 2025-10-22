@@ -4,6 +4,7 @@ import './App.css';
 import { ProtectedRoute } from './components/ProtectedRoute';
 
 // Lazy load screens for code splitting
+const LoginScreen = lazy(() => import('./screens/LoginScreen'));
 const OnboardingScreen = lazy(() => import('./screens/OnboardingScreen'));
 const InputScreen = lazy(() => import('./screens/InputScreen'));
 const ResultScreen = lazy(() => import('./screens/ResultScreen'));
@@ -37,7 +38,8 @@ function App() {
     <BrowserRouter>
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
-          <Route path="/" element={<OnboardingScreen />} />
+          <Route path="/" element={<LoginScreen />} />
+          <Route path="/onboarding" element={<OnboardingScreen />} />
           <Route path="/input" element={<InputScreen />} />
           <Route path="/result" element={<ResultScreen />} />
           <Route path="/why" element={
