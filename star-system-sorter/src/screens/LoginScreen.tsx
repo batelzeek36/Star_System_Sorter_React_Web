@@ -154,7 +154,7 @@ export default function LoginScreen() {
             <GoogleLogin
               onSuccess={handleGoogleSuccess}
               onError={handleGoogleError}
-              useOneTap
+              useOneTap={!isAuthenticated}
               theme="filled_blue"
               size="large"
               text="continue_with"

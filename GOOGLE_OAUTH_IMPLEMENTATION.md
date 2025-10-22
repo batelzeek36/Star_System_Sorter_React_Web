@@ -7,10 +7,12 @@ Google OAuth has been successfully integrated into Star System Sorter with full 
 ## What Was Implemented
 
 ### 1. Dependencies Installed
+
 - `@react-oauth/google` - Official Google OAuth library for React
 - `jwt-decode` - JWT token decoder
 
 ### 2. Auth Store Created (`src/store/authStore.ts`)
+
 - Zustand store for authentication state
 - Persistent storage (localStorage)
 - User profile management
@@ -18,17 +20,20 @@ Google OAuth has been successfully integrated into Star System Sorter with full 
 - Guest mode support
 
 **Features:**
+
 - `login(user)` - Store Google user credentials
 - `loginAsGuest()` - Create guest user session
 - `logout()` - Clear authentication state
 - Automatic persistence across sessions
 
 ### 3. Google OAuth Provider Setup (`src/main.tsx`)
+
 - Wrapped app with `GoogleOAuthProvider`
 - Configured with `VITE_GOOGLE_CLIENT_ID`
 - Enables OAuth across entire app
 
 ### 4. LoginScreen Updated (`src/screens/LoginScreen.tsx`)
+
 - Replaced placeholder button with real `GoogleLogin` component
 - JWT token decoding on successful login
 - User data extraction and storage
@@ -36,18 +41,22 @@ Google OAuth has been successfully integrated into Star System Sorter with full 
 - Guest mode still available
 
 **OAuth Features:**
+
 - One Tap sign-in enabled
 - Automatic token handling
 - Profile picture support
 - Email and name extraction
 
 ### 5. Environment Configuration
+
 - Added `VITE_GOOGLE_CLIENT_ID` to `.env.example`
 - Documentation for setup process
 - Production deployment instructions
 
 ### 6. Comprehensive Testing
+
 - **Auth Store Tests** (`authStore.test.ts`) - 6 tests
+
   - ✅ Initialization
   - ✅ Google login
   - ✅ Guest login
@@ -63,6 +72,7 @@ Google OAuth has been successfully integrated into Star System Sorter with full 
   - ✅ Accessibility
 
 ### 7. Documentation
+
 - **GOOGLE_OAUTH_SETUP.md** - Complete setup guide
   - Google Cloud Console configuration
   - OAuth consent screen setup
@@ -119,11 +129,11 @@ User can use app without Google account
 
 ```typescript
 interface User {
-  id: string;              // Google sub or guest-{timestamp}
-  email: string;           // User email or guest@...
-  name: string;            // Display name
-  picture?: string;        // Profile picture URL (Google only)
-  isGuest: boolean;        // true for guest users
+  id: string; // Google sub or guest-{timestamp}
+  email: string; // User email or guest@...
+  name: string; // Display name
+  picture?: string; // Profile picture URL (Google only)
+  isGuest: boolean; // true for guest users
 }
 
 interface AuthState {
@@ -138,12 +148,13 @@ interface AuthState {
 ### JWT Token Decoded
 
 When Google OAuth succeeds, we receive a JWT token containing:
+
 ```typescript
 {
-  sub: string;        // User ID
-  email: string;      // Email address
-  name: string;       // Full name
-  picture: string;    // Profile picture URL
+  sub: string; // User ID
+  email: string; // Email address
+  name: string; // Full name
+  picture: string; // Profile picture URL
   // ... other Google profile fields
 }
 ```
@@ -193,6 +204,7 @@ Authentication state is persisted to `localStorage` under the key `auth-store`:
 ```
 
 ### TypeScript - No Errors ✅
+
 - `main.tsx` - Clean
 - `LoginScreen.tsx` - Clean
 - `authStore.ts` - Clean
@@ -214,16 +226,19 @@ See `GOOGLE_OAUTH_SETUP.md` for detailed instructions.
 ## Environment Variables
 
 ### Development (.env)
+
 ```bash
 VITE_GOOGLE_CLIENT_ID=your_client_id.apps.googleusercontent.com
 ```
 
 ### Production (Netlify/Vercel)
+
 Add the same variable in your hosting platform's environment settings.
 
 ## Security Features
 
 ✅ **Implemented:**
+
 - JWT token validation
 - Secure token storage
 - HTTPS required in production
@@ -232,6 +247,7 @@ Add the same variable in your hosting platform's environment settings.
 - Session persistence
 
 ✅ **Best Practices:**
+
 - Client ID in environment variables
 - No secrets in git
 - Proper OAuth scopes
@@ -241,12 +257,14 @@ Add the same variable in your hosting platform's environment settings.
 ## Files Created/Modified
 
 ### Created
+
 1. `star-system-sorter/src/store/authStore.ts` - Auth state management
 2. `star-system-sorter/src/store/authStore.test.ts` - Auth store tests
 3. `star-system-sorter/GOOGLE_OAUTH_SETUP.md` - Setup guide
 4. `GOOGLE_OAUTH_IMPLEMENTATION.md` - This file
 
 ### Modified
+
 1. `star-system-sorter/src/main.tsx` - Added GoogleOAuthProvider
 2. `star-system-sorter/src/screens/LoginScreen.tsx` - Real OAuth integration
 3. `star-system-sorter/src/screens/LoginScreen.test.tsx` - Updated tests
@@ -256,12 +274,14 @@ Add the same variable in your hosting platform's environment settings.
 ## What's Next
 
 ### Immediate (Required for Production)
+
 - [ ] Set up Google Cloud project
 - [ ] Configure OAuth consent screen
 - [ ] Create OAuth credentials
 - [ ] Add Client ID to production environment
 
 ### Future Enhancements (Optional)
+
 - [ ] Token refresh mechanism
 - [ ] Session expiration handling
 - [ ] Apple Sign In
@@ -275,7 +295,7 @@ Add the same variable in your hosting platform's environment settings.
 ### Check if user is logged in
 
 ```typescript
-import { useAuthStore } from './store/authStore';
+import { useAuthStore } from "./store/authStore";
 
 function MyComponent() {
   const user = useAuthStore((state) => state.user);
@@ -317,7 +337,7 @@ function LogoutButton() {
 
   const handleLogout = () => {
     logout();
-    navigate('/');
+    navigate("/");
   };
 
   return <button onClick={handleLogout}>Logout</button>;
@@ -327,6 +347,7 @@ function LogoutButton() {
 ## Benefits
 
 ### For Users
+
 - ✅ Quick sign-in with Google account
 - ✅ No password to remember
 - ✅ Profile picture automatically loaded
@@ -334,6 +355,7 @@ function LogoutButton() {
 - ✅ Persistent sessions (stay logged in)
 
 ### For Development
+
 - ✅ Secure authentication
 - ✅ No password management needed
 - ✅ User profile data from Google
@@ -341,6 +363,7 @@ function LogoutButton() {
 - ✅ Well-documented library
 
 ### For Business
+
 - ✅ Trusted OAuth provider
 - ✅ Reduced friction in signup
 - ✅ Better user retention
@@ -352,15 +375,18 @@ function LogoutButton() {
 ### Common Issues
 
 **Google button not showing:**
+
 - Check that `VITE_GOOGLE_CLIENT_ID` is set
 - Restart dev server after changing `.env`
 - Check browser console for errors
 
 **"Invalid client ID" error:**
+
 - Verify Client ID is correct
 - Make sure it ends with `.apps.googleusercontent.com`
 
 **"Redirect URI mismatch":**
+
 - Add `http://localhost:5173` to authorized origins
 - Wait a few minutes for changes to propagate
 
@@ -369,6 +395,7 @@ See `GOOGLE_OAUTH_SETUP.md` for more troubleshooting tips.
 ## Conclusion
 
 Google OAuth is **fully implemented and tested**. The app now supports:
+
 - ✅ Real Google authentication
 - ✅ Guest mode (no account needed)
 - ✅ Persistent sessions

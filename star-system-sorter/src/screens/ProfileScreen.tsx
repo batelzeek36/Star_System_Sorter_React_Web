@@ -1,6 +1,7 @@
-import { Settings } from 'lucide-react';
+import { Settings, LogOut } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '../store/birthDataStore';
+import { useAuthStore } from '../store/authStore';
 import { Button } from '../components/figma/Button';
 import { Card } from '../components/figma/Card';
 import { Chip } from '../components/figma/Chip';
@@ -11,6 +12,12 @@ type Tab = 'home' | 'community' | 'profile';
 export default function ProfileScreen() {
   const navigate = useNavigate();
   const { hdData, classification } = useBirthDataStore();
+  const { user, logout } = useAuthStore();
+
+  const handleLogout = () => {
+    logout();
+    navigate('/');
+  };
 
   const handleTabChange = (tab: Tab) => {
     if (tab === 'home') navigate('/result');
@@ -84,11 +91,30 @@ export default function ProfileScreen() {
         
         {/* Profile Avatar & Info */}
         <div className="mb-8 px-4 text-center">
-          <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/20">
-            <p className="text-3xl">✨</p>
-          </div>
-          <h2 className="text-xl text-purple-200 mb-1">Your Profile</h2>
+          {user?.picture ? (
+            <img 
+              src={user.picture} 
+              alt={user.name}
+              className="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg shadow-purple-500/20"
+            />
+          ) : (
+            <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/20">
+              <p className="text-3xl">✨</p>
+            </div>
+          )}
+          <h2 className="text-xl text-purple-200 mb-1">{user?.name || 'Your Profile'}</h2>
           <p className="text-xs text-gray-400">{hdType} • {profile}</p>
+          
+          {/* Signed in as */}
+          {user && (
+            <div className="mt-4 pt-4 border-t border-white/10">
+              <p className="text-xs text-gray-500 mb-1">Signed in as</p>
+              <p className="text-sm text-purple-300">{user.email}</p>
+              {user.isGuest && (
+                <p className="text-xs text-gray-400 mt-1">(Guest Account)</p>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Star System Profile Card */}
@@ -137,6 +163,18 @@ export default function ProfileScreen() {
             <p className="text-xs text-center text-gray-400 mt-3">
               Create a visual representation of your star system alignment
             </p>
+          </div>
+
+          {/* Logout Button */}
+          <div className="pt-4">
+            <Button 
+              variant="secondary" 
+              className="w-full flex items-center justify-center gap-2"
+              onClick={handleLogout}
+            >
+              <LogOut className="w-4 h-4" />
+              Sign Out
+            </Button>
           </div>
         </div>
 

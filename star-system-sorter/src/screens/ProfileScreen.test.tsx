@@ -1,11 +1,25 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import ProfileScreen from './ProfileScreen';
 import { useBirthDataStore } from '../store/birthDataStore';
 
-// Mock the store
+// Mock the stores
 vi.mock('../store/birthDataStore');
+
+const mockLogout = vi.fn();
+vi.mock('../store/authStore', () => ({
+  useAuthStore: () => ({
+    user: {
+      id: 'test-123',
+      email: 'test@example.com',
+      name: 'Test User',
+      picture: 'https://example.com/photo.jpg',
+      isGuest: false,
+    },
+    logout: mockLogout,
+  }),
+}));
 
 // Mock navigation
 const mockNavigate = vi.fn();
@@ -20,6 +34,8 @@ vi.mock('react-router-dom', async () => {
 describe('ProfileScreen', () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    mockNavigate.mockClear();
+    mockLogout.mockClear();
     
     // Default mock store state
     vi.mocked(useBirthDataStore).mockReturnValue({
@@ -63,8 +79,45 @@ describe('ProfileScreen', () => {
       </BrowserRouter>
     );
 
-    expect(screen.getByText('Your Profile')).toBeInTheDocument();
+    expect(screen.getByText('Test User')).toBeInTheDocument();
     expect(screen.getByText('Manifesting Generator • 1/3')).toBeInTheDocument();
+  });
+
+  it('displays signed in as section', () => {
+    render(
+      <BrowserRouter>
+        <ProfileScreen />
+      </BrowserRouter>
+    );
+
+    expect(screen.getByText('Signed in as')).toBeInTheDocument();
+    expect(screen.getByText('test@example.com')).toBeInTheDocument();
+  });
+
+  it('shows user profile picture when available', () => {
+    render(
+      <BrowserRouter>
+        <ProfileScreen />
+      </BrowserRouter>
+    );
+
+    const img = screen.getByAltText('Test User');
+    expect(img).toBeInTheDocument();
+    expect(img).toHaveAttribute('src', 'https://example.com/photo.jpg');
+  });
+
+  it('handles logout button click', () => {
+    render(
+      <BrowserRouter>
+        <ProfileScreen />
+      </BrowserRouter>
+    );
+
+    const logoutButton = screen.getByRole('button', { name: /sign out/i });
+    fireEvent.click(logoutButton);
+
+    expect(mockLogout).toHaveBeenCalled();
+    expect(mockNavigate).toHaveBeenCalledWith('/');
   });
 
   it('displays star system profile card', () => {
@@ -124,7 +177,7 @@ describe('ProfileScreen', () => {
       </BrowserRouter>
     );
 
-    expect(screen.getByText('Your Profile')).toBeInTheDocument();
+    expect(screen.getByText('Test User')).toBeInTheDocument();
     expect(screen.getByText('Unknown • Unknown')).toBeInTheDocument();
   });
 

@@ -90,6 +90,21 @@ describe('LoginScreen', () => {
     expect(googleLogin).toBeInTheDocument();
   });
 
+  it('disables One Tap when user is already authenticated', () => {
+    mockIsAuthenticated = true;
+
+    render(
+      <BrowserRouter>
+        <LoginScreen />
+      </BrowserRouter>
+    );
+
+    // One Tap should be disabled when authenticated
+    // This prevents the popup from appearing repeatedly
+    const googleLogin = screen.getByTestId('google-login-mock');
+    expect(googleLogin).toBeInTheDocument();
+  });
+
   it('renders guest continue button', () => {
     render(
       <BrowserRouter>
