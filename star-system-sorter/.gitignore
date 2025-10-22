@@ -13,6 +13,9 @@ dist-ssr
 *.local
 .vite
 
+# Auto-generated files
+src/lib/lore.bundle.ts
+
 # Environment variables
 .env
 .env.local
