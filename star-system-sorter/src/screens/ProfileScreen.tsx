@@ -1,3 +1,4 @@
+import React from 'react';
 import { Settings, LogOut } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '../store/birthDataStore';
@@ -13,6 +14,7 @@ export default function ProfileScreen() {
   const navigate = useNavigate();
   const { hdData, classification } = useBirthDataStore();
   const { user, logout } = useAuthStore();
+  const [imageError, setImageError] = React.useState(false);
 
   const handleLogout = () => {
     logout();
@@ -92,15 +94,19 @@ export default function ProfileScreen() {
         
         {/* Profile Avatar & Info */}
         <div className="mb-8 px-4 text-center">
-          {user?.picture ? (
+          {user?.picture && !imageError ? (
             <img 
               src={user.picture} 
               alt={user.name}
               className="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg shadow-purple-500/20"
+              onError={() => setImageError(true)}
+              crossOrigin="anonymous"
             />
           ) : (
             <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/20">
-              <p className="text-3xl">✨</p>
+              <span className="text-4xl font-bold text-white">
+                {user?.name?.charAt(0).toUpperCase() || '?'}
+              </span>
             </div>
           )}
           <h2 className="text-xl text-purple-200 mb-1">{user?.name || 'Your Profile'}</h2>
@@ -170,10 +176,10 @@ export default function ProfileScreen() {
           <div className="pt-4">
             <Button 
               variant="secondary" 
-              className="w-full flex items-center justify-center gap-2"
+              className="w-full"
+              leadingIcon={<LogOut className="w-4 h-4" />}
               onClick={handleLogout}
             >
-              <LogOut className="w-4 h-4" />
               Sign Out
             </Button>
           </div>
