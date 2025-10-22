@@ -31,16 +31,19 @@ This guide walks you through setting up Google OAuth for Star System Sorter. The
 ### Fill in the required fields:
 
 **App information:**
+
 - App name: `Star System Sorter`
 - User support email: Your email
 - App logo: (Optional) Upload your logo
 
 **App domain:**
+
 - Application home page: `https://yourdomain.com`
 - Privacy policy: `https://yourdomain.com/privacy`
 - Terms of service: `https://yourdomain.com/terms`
 
 **Developer contact:**
+
 - Email addresses: Your email
 
 4. Click "Save and Continue"
@@ -59,10 +62,12 @@ This guide walks you through setting up Google OAuth for Star System Sorter. The
 **Name:** `Star System Sorter Web Client`
 
 **Authorized JavaScript origins:**
+
 - Development: `http://localhost:5173`
 - Production: `https://yourdomain.com`
 
 **Authorized redirect URIs:**
+
 - Development: `http://localhost:5173`
 - Production: `https://yourdomain.com`
 
@@ -84,10 +89,12 @@ VITE_GOOGLE_CLIENT_ID=your_client_id_here.apps.googleusercontent.com
 Add the environment variable in your hosting platform:
 
 **Netlify:**
+
 1. Go to Site settings → Environment variables
 2. Add: `VITE_GOOGLE_CLIENT_ID` = `your_client_id_here`
 
 **Vercel:**
+
 1. Go to Project Settings → Environment Variables
 2. Add: `VITE_GOOGLE_CLIENT_ID` = `your_client_id_here`
 
@@ -96,6 +103,7 @@ Add the environment variable in your hosting platform:
 ### Local Testing
 
 1. Start the dev server:
+
    ```bash
    npm run dev
    ```
@@ -113,13 +121,15 @@ Add the environment variable in your hosting platform:
 ### Verify Authentication
 
 Check the browser console for:
+
 ```
 Google login successful: [Your Name]
 ```
 
 Check localStorage:
+
 ```javascript
-localStorage.getItem('auth-store')
+localStorage.getItem("auth-store");
 ```
 
 You should see your user data stored.
@@ -128,7 +138,8 @@ You should see your user data stored.
 
 ### Error: "Invalid client ID"
 
-**Solution:** 
+**Solution:**
+
 - Verify your Client ID is correct in `.env`
 - Make sure it ends with `.apps.googleusercontent.com`
 - Restart your dev server after changing `.env`
@@ -136,6 +147,7 @@ You should see your user data stored.
 ### Error: "Redirect URI mismatch"
 
 **Solution:**
+
 - Check that `http://localhost:5173` is in "Authorized JavaScript origins"
 - Make sure there are no trailing slashes
 - Wait a few minutes for Google's changes to propagate
@@ -143,6 +155,7 @@ You should see your user data stored.
 ### Error: "Access blocked: This app's request is invalid"
 
 **Solution:**
+
 - Complete the OAuth consent screen configuration
 - Add your email as a test user
 - Make sure the app is not in "Production" status if you haven't verified it
@@ -150,6 +163,7 @@ You should see your user data stored.
 ### Google button not appearing
 
 **Solution:**
+
 - Check browser console for errors
 - Verify `VITE_GOOGLE_CLIENT_ID` is set
 - Make sure you're using `VITE_` prefix (required for Vite)
@@ -158,6 +172,7 @@ You should see your user data stored.
 ### "This app isn't verified" warning
 
 **Solution:**
+
 - This is normal for apps in testing mode
 - Click "Advanced" → "Go to [App Name] (unsafe)"
 - For production, submit your app for verification (optional)
@@ -165,6 +180,7 @@ You should see your user data stored.
 ## Security Best Practices
 
 ### DO:
+
 - ✅ Keep your Client ID in environment variables
 - ✅ Use HTTPS in production
 - ✅ Regularly rotate credentials if compromised
@@ -172,6 +188,7 @@ You should see your user data stored.
 - ✅ Set up proper CORS policies
 
 ### DON'T:
+
 - ❌ Commit `.env` files to git
 - ❌ Share your Client ID publicly (though it's not a secret)
 - ❌ Use the same credentials for dev and production
@@ -180,6 +197,7 @@ You should see your user data stored.
 ## Features Implemented
 
 ### ✅ Current Features
+
 - Google OAuth login with One Tap
 - Guest mode (no authentication required)
 - User profile storage (name, email, picture)
@@ -188,6 +206,7 @@ You should see your user data stored.
 - Logout functionality
 
 ### 🚀 Future Enhancements
+
 - Token refresh
 - Session expiration
 - Multiple OAuth providers (Apple, Facebook)
@@ -219,7 +238,7 @@ Navigate to Onboarding
 ### Auth Store
 
 ```typescript
-import { useAuthStore } from './store/authStore';
+import { useAuthStore } from "./store/authStore";
 
 // Get current user
 const user = useAuthStore((state) => state.user);
@@ -230,10 +249,10 @@ const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
 // Login with Google
 const login = useAuthStore((state) => state.login);
 login({
-  id: 'google-123',
-  email: 'user@example.com',
-  name: 'User Name',
-  picture: 'https://...',
+  id: "google-123",
+  email: "user@example.com",
+  name: "User Name",
+  picture: "https://...",
   isGuest: false,
 });
 
@@ -250,11 +269,11 @@ logout();
 
 ```typescript
 interface User {
-  id: string;              // Google sub or guest ID
-  email: string;           // User email
-  name: string;            // Display name
-  picture?: string;        // Profile picture URL
-  isGuest: boolean;        // True if guest user
+  id: string; // Google sub or guest ID
+  email: string; // User email
+  name: string; // Display name
+  picture?: string; // Profile picture URL
+  isGuest: boolean; // True if guest user
 }
 ```
 
@@ -294,10 +313,12 @@ Before deploying to production:
 ## Support
 
 For issues with Google OAuth:
+
 - [Google OAuth Documentation](https://developers.google.com/identity/protocols/oauth2)
 - [React OAuth Google Library](https://github.com/MomenSherif/react-oauth)
 
 For app-specific issues:
+
 - Check browser console for errors
 - Review `GOOGLE_OAUTH_SETUP.md` (this file)
 - Contact development team
@@ -305,6 +326,7 @@ For app-specific issues:
 ## Changelog
 
 ### v1.0.0 (Current)
+
 - Initial Google OAuth implementation
 - Guest mode support
 - Persistent sessions
