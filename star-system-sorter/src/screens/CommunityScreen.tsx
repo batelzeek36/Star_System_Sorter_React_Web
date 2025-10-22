@@ -41,7 +41,8 @@ export default function CommunityScreen() {
         }
       `}</style>
 
-      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full">
+      {/* Scrollable content with bottom padding for TabBar */}
+      <div className="relative max-w-md mx-auto w-full pb-20">
         {/* Header */}
         <div className="px-4 pt-12 pb-6">
           <h1 className="text-2xl text-purple-200 mb-2">Community</h1>
@@ -49,7 +50,7 @@ export default function CommunityScreen() {
         </div>
 
         {/* Content */}
-        <div className="flex-1 px-4 pb-4">
+        <div className="px-4 pb-4">
           <Card className="p-8 text-center">
             <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-500/20 flex items-center justify-center">
               <Users className="w-8 h-8 text-purple-300" />
@@ -60,9 +61,11 @@ export default function CommunityScreen() {
             </p>
           </Card>
         </div>
+      </div>
 
-        {/* Tab Bar */}
-        <div className="mt-auto">
+      {/* Fixed Tab Bar */}
+      <div className="fixed bottom-0 left-0 right-0 z-50">
+        <div className="max-w-md mx-auto">
           <TabBar activeTab="community" onTabChange={handleTabChange} />
         </div>
       </div>

@@ -77,7 +77,8 @@ export default function ProfileScreen() {
         }
       `}</style>
 
-      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full">
+      {/* Scrollable content with bottom padding for TabBar */}
+      <div className="relative max-w-md mx-auto w-full pb-20">
         {/* Header with Settings */}
         <div className="h-12 flex justify-end px-4 pt-4">
           <button 
@@ -177,9 +178,11 @@ export default function ProfileScreen() {
             </Button>
           </div>
         </div>
+      </div>
 
-        {/* Tab Bar */}
-        <div className="mt-auto">
+      {/* Fixed Tab Bar */}
+      <div className="fixed bottom-0 left-0 right-0 z-50">
+        <div className="max-w-md mx-auto">
           <TabBar activeTab="profile" onTabChange={handleTabChange} />
         </div>
       </div>

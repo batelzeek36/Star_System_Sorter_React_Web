@@ -122,7 +122,7 @@ export default function ResultScreen() {
   const allies = classification.allies?.slice(0, 3) || [];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] flex flex-col relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] relative overflow-hidden">
       <style>{`
         @keyframes twinkle {
           0%, 100% { opacity: 0.1; }
@@ -149,8 +149,9 @@ export default function ResultScreen() {
       
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl animate-glow-pulse"></div>
       
-      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full">
-        <div className="flex-1 px-6 py-12">
+      {/* Scrollable content with bottom padding for TabBar */}
+      <div className="relative max-w-md mx-auto w-full pb-20">
+        <div className="px-6 py-12">
           <div className="h-12"></div>
           
           {/* Header */}
@@ -260,9 +261,11 @@ export default function ResultScreen() {
 
           <div className="h-8"></div>
         </div>
+      </div>
 
-        {/* Tab Bar */}
-        <div className="mt-auto">
+      {/* Fixed Tab Bar */}
+      <div className="fixed bottom-0 left-0 right-0 z-50">
+        <div className="max-w-md mx-auto">
           <TabBar activeTab="home" onTabChange={handleTabChange} />
         </div>
       </div>
