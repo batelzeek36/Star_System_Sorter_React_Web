@@ -34,6 +34,17 @@ Thumbs.db
 *.swo
 *~
 
+# AI Assistant Rules (keep local only)
+.gpt-4o-rules/
+
+# Build artifacts
+star-system-sorter/dist/
+star-system-sorter/coverage/
+star-system-sorter/.vite/
+star-system-sorter/playwright-report/
+star-system-sorter/test-results/
+server/dist/
+
 # Misc
 .cache/
 .temp/
