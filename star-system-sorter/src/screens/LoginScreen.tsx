@@ -84,9 +84,9 @@ export default function LoginScreen() {
         <div className="flex-1 flex flex-col items-center justify-center text-center max-w-sm animate-fade-in">
           {/* Cosmic Logo */}
           <div className="relative mb-8 animate-scale-in">
-            <div className="absolute inset-0 animate-glow-pulse">
-              <div className="w-24 h-24 bg-violet-500/20 rounded-full blur-xl" />
-            </div>
+            {/* Glow effect - fully transparent, just for glow animation */}
+            <div className="absolute inset-0 -inset-2 animate-glow-pulse opacity-0" />
+            
             <div className="relative w-24 h-24 bg-gradient-to-br from-violet-500/30 to-purple-600/30 rounded-full border-2 border-violet-400/40 flex items-center justify-center backdrop-blur-sm animate-float">
               <Sparkles className="w-12 h-12 text-violet-300" strokeWidth={1.5} />
             </div>
