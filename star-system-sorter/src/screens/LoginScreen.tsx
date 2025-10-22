@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import { GoogleLogin, CredentialResponse } from '@react-oauth/google';
+import { GoogleLogin } from '@react-oauth/google';
+import type { CredentialResponse } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { Sparkles, Star } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
