@@ -4,6 +4,7 @@ import type { CredentialResponse } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { Sparkles, Star } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
+import { animationStyles } from '../styles/animations';
 
 interface GoogleJWT {
   sub: string;
@@ -52,6 +53,14 @@ export default function LoginScreen() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0a0118] via-[#1a0f2e] to-[#0a0118] text-white relative overflow-hidden">
+      <style>{`
+        @keyframes twinkle {
+          0%, 100% { opacity: 0.1; }
+          50% { opacity: 0.5; }
+        }
+        ${animationStyles}
+      `}</style>
+
       {/* Animated starfield background */}
       <div className="fixed inset-0 opacity-30 pointer-events-none">
         <div className="absolute inset-0" style={{
@@ -67,18 +76,18 @@ export default function LoginScreen() {
       </div>
 
       {/* Cosmic glow effects */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-violet-500/20 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-violet-500/20 rounded-full blur-[100px] pointer-events-none animate-glow-pulse" />
       <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-purple-500/10 rounded-full blur-[80px] pointer-events-none" />
       
       <div className="relative z-10 flex flex-col items-center justify-between min-h-screen p-6 py-12">
         {/* Logo and Title Section */}
-        <div className="flex-1 flex flex-col items-center justify-center text-center max-w-sm">
+        <div className="flex-1 flex flex-col items-center justify-center text-center max-w-sm animate-fade-in">
           {/* Cosmic Logo */}
-          <div className="relative mb-8">
-            <div className="absolute inset-0 animate-pulse">
+          <div className="relative mb-8 animate-scale-in">
+            <div className="absolute inset-0 animate-glow-pulse">
               <div className="w-24 h-24 bg-violet-500/20 rounded-full blur-xl" />
             </div>
-            <div className="relative w-24 h-24 bg-gradient-to-br from-violet-500/30 to-purple-600/30 rounded-full border-2 border-violet-400/40 flex items-center justify-center backdrop-blur-sm">
+            <div className="relative w-24 h-24 bg-gradient-to-br from-violet-500/30 to-purple-600/30 rounded-full border-2 border-violet-400/40 flex items-center justify-center backdrop-blur-sm animate-float">
               <Sparkles className="w-12 h-12 text-violet-300" strokeWidth={1.5} />
             </div>
             {/* Orbiting stars */}
@@ -87,20 +96,20 @@ export default function LoginScreen() {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl font-bold text-white mb-3">
+          <h1 className="text-4xl font-bold text-white mb-3 animate-fade-in-down">
             Star System Sorter
           </h1>
-          <div className="text-2xl font-light text-violet-300 mb-6 tracking-widest">
+          <div className="text-2xl font-light text-violet-300 mb-6 tracking-widest animate-fade-in-down" style={{ animationDelay: '0.1s' }}>
             S³
           </div>
 
           {/* Tagline */}
-          <p className="text-lg text-white/70 mb-8 max-w-xs">
+          <p className="text-lg text-white/70 mb-8 max-w-xs animate-fade-in-down" style={{ animationDelay: '0.2s' }}>
             Discover your cosmic origins through the wisdom of Human Design
           </p>
 
           {/* Feature highlights */}
-          <div className="space-y-3 mb-12 w-full">
+          <div className="space-y-3 mb-12 w-full animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
             <div className="flex items-center gap-3 text-sm text-white/60">
               <div className="w-1.5 h-1.5 rounded-full bg-violet-400" />
               <span>Deterministic star system classification</span>
@@ -117,7 +126,7 @@ export default function LoginScreen() {
         </div>
 
         {/* Login Section */}
-        <div className="w-full max-w-sm space-y-4">
+        <div className="w-full max-w-sm space-y-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           {/* Google Login Button */}
           <div className="w-full flex justify-center">
             <GoogleLogin
@@ -145,26 +154,26 @@ export default function LoginScreen() {
           {/* Guest Continue */}
           <button
             onClick={handleGuestContinue}
-            className="w-full bg-white/5 hover:bg-white/10 text-white/70 hover:text-white px-6 py-4 rounded-2xl transition-all duration-200 border border-white/10 hover:border-white/20 min-h-[44px]"
+            className="w-full bg-white/5 hover:bg-white/10 text-white/70 hover:text-white px-6 py-4 rounded-2xl transition-all duration-300 border border-white/10 hover:border-white/20 min-h-[44px] hover:scale-105 active:scale-95"
           >
             Continue as Guest
           </button>
 
           {/* Legal Text */}
-          <p className="text-xs text-white/40 text-center pt-4">
+          <p className="text-xs text-white/40 text-center pt-4 animate-fade-in" style={{ animationDelay: '0.5s' }}>
             By continuing, you agree to our{' '}
-            <button className="text-violet-400 hover:text-violet-300 underline">
+            <button className="text-violet-400 hover:text-violet-300 underline transition-colors duration-200">
               Terms of Service
             </button>
             {' '}and{' '}
-            <button className="text-violet-400 hover:text-violet-300 underline">
+            <button className="text-violet-400 hover:text-violet-300 underline transition-colors duration-200">
               Privacy Policy
             </button>
           </p>
         </div>
 
         {/* Footer tagline */}
-        <div className="text-center text-xs text-white/30 pt-6">
+        <div className="text-center text-xs text-white/30 pt-6 animate-fade-in" style={{ animationDelay: '0.6s' }}>
           For insight & entertainment. Not medical, financial, or legal advice.
         </div>
       </div>
