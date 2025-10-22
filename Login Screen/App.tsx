@@ -1082,248 +1082,93 @@ export default function App() {
               </div>
             </div>
 
-            {/* Screen 10: Game Hub */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">10. Game Hub</p>
-                {currentScreen === 'gameHub' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'gameHub' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('gameHub')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <div className="h-12" />
-                  
-                  <div className="text-center mb-8 px-4">
-                    <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[var(--s3-lavender-400)] to-[var(--s3-lavender-600)] flex items-center justify-center" style={{ boxShadow: 'var(--s3-elevation-2)' }}>
-                      <Gamepad2 className="w-10 h-10 text-white" />
-                    </div>
-                    <h2 className="text-2xl mb-2 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
-                      Game Hub
-                    </h2>
-                    <p className="text-sm text-[var(--s3-text-muted)]">Team-based cosmic adventures</p>
-                  </div>
+          </div>
+        </section>
 
-                  <div className="mb-6 px-4">
-                    <Card>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <TeamBadge team={selectedTeam} size="md" />
-                          <div>
-                            <p className="text-sm text-[var(--s3-lavender-200)]">Team {selectedTeam}</p>
-                            <p className="text-xs text-[var(--s3-text-subtle)]">1,247 points this season</p>
-                          </div>
-                        </div>
-                        <button className="text-xs text-[var(--s3-lavender-400)] hover:text-[var(--s3-lavender-300)]">Change</button>
-                      </div>
-                    </Card>
-                  </div>
+        {/* Implementation Checklist */}
+        <section className="mt-16 mb-8">
+          <h2 className="text-2xl mb-6 text-[var(--s3-lavender-300)]">Implementation Checklist</h2>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <Card variant="emphasis">
+              <h3 className="text-lg mb-4 text-[var(--s3-lavender-200)]">✅ Completed</h3>
+              <ul className="space-y-2 text-sm text-[var(--s3-text-secondary)]">
+                <li>✓ Design tokens converted to CSS variables (colors, spacing, elevation, focus rings)</li>
+                <li>✓ Typography contrast meets WCAG AA (≥4.5:1)</li>
+                <li>✓ Button variants: Primary/Secondary/Ghost/Destructive × sm/md/lg × states + leadingIcon</li>
+                <li>✓ Chip variants: selectable + filter states + dismissible</li>
+                <li>✓ Field variants: default/focus/error states + helper text slot</li>
+                <li>✓ Card variants: Default/Emphasis/Warning</li>
+                <li>✓ Toast & InlineAlert: success/info/warning/error</li>
+                <li>✓ AppBar + TabBar components with Auto Layout</li>
+                <li>✓ All touch targets ≥44px (WCAG 2.1 AA)</li>
+                <li>✓ Hover, press, focus states on interactive elements</li>
+              </ul>
+            </Card>
 
-                  <div className="space-y-3 mb-auto px-4">
-                    <Button 
-                      variant="primary" 
-                      className="w-full"
-                      leadingIcon={<Swords className="w-5 h-5" />}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setCurrentScreen('teamSelect');
-                      }}
-                    >
-                      Enter Arena
-                    </Button>
+            <Card variant="emphasis">
+              <h3 className="text-lg mb-4 text-[var(--s3-lavender-200)]">✅ Core Flows (1-9)</h3>
+              <ul className="space-y-2 text-sm text-[var(--s3-text-secondary)]">
+                <li>✓ 00_Login (Google OAuth + Email/Password)</li>
+                <li>✓ 01_Onboarding (Begin Sorting CTA)</li>
+                <li>✓ 02_Input_BirthData (tabs: Birth Data | Upload PDF)</li>
+                <li>✓ 03_Sort_Result (radial % + disclaimer + TabBar)</li>
+                <li>✓ 04_Why_This_Result (deterministic contributors list)</li>
+                <li>✓ 05_Community_StarSystem (Feed/Quests/Members tabs)</li>
+                <li>✓ 06_Profile & Avatar (Generate Avatar CTA)</li>
+                <li>✓ 07_Subscription_Paywall (Join Community)</li>
+                <li>✓ 08_Settings_Privacy (data policy + privacy notice)</li>
+                <li>✓ 09_EmptyStates & Errors (inline alerts + empty states)</li>
+              </ul>
+            </Card>
 
-                    <div className="grid grid-cols-2 gap-3">
-                      <Button 
-                        variant="secondary" 
-                        className="flex-1"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setCurrentScreen('leaderboard');
-                        }}
-                      >
-                        <Trophy className="w-4 h-4" />
-                      </Button>
-                      <Button 
-                        variant="secondary" 
-                        className="flex-1"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setShowMusicModal(true);
-                        }}
-                      >
-                        <Music className="w-4 h-4" />
-                      </Button>
-                      <Button 
-                        variant="secondary" 
-                        className="flex-1"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setCurrentScreen('questsPass');
-                        }}
-                      >
-                        <ListChecks className="w-4 h-4" />
-                      </Button>
-                      <Button 
-                        variant="secondary" 
-                        className="flex-1"
-                      >
-                        <Users className="w-4 h-4" />
-                      </Button>
-                    </div>
-                  </div>
+            <Card variant="emphasis">
+              <h3 className="text-lg mb-4 text-[var(--s3-lavender-200)]">✅ Prototypes Wired</h3>
+              <ul className="space-y-2 text-sm text-[var(--s3-text-secondary)]">
+                <li>✓ Core: Login → Onboarding → Input → Result → Why</li>
+                <li>✓ Core: Result → Paywall (Generate Narrative)</li>
+                <li>✓ Core: TabBar navigation: Home ↔ Community ↔ Profile</li>
+                <li>✓ Core: Profile → Settings via gear icon</li>
+              </ul>
+            </Card>
 
-                  <div className="px-4 mb-4">
-                    <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)]">
-                      <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
-                        For insight & entertainment. Game activity supports star system community goals.
-                      </p>
-                    </div>
-                  </div>
+            <Card variant="emphasis">
+              <h3 className="text-lg mb-4 text-[var(--s3-lavender-200)]">✅ Exports Ready</h3>
+              <ul className="space-y-2 text-sm text-[var(--s3-text-secondary)]">
+                <li>✓ Star system crests: Orion, Sirius, Pleiades, Andromeda, Lyra, Arcturus (SVG)</li>
+                <li>✓ All icon export sizes: 24px, 28px, 48px</li>
+                <li>✓ design-tokens.json (core system tokens)</li>
+                <li>✓ Components use slash naming</li>
+                <li>✓ Auto Layout applied to all components</li>
+              </ul>
+            </Card>
+          </div>
 
-                  <div className="h-8" />
-                </div>
-              </div>
-            </div>
+          <Card variant="warning" className="mt-6">
+            <h3 className="text-lg mb-3 text-[var(--s3-gold-300)]">⚠️ Notes & Recommendations</h3>
+            <ul className="space-y-2 text-sm text-[var(--s3-text-secondary)]">
+              <li>• All components use CSS variables from /styles/globals.css for easy theming</li>
+              <li>• Focus rings meet accessibility standards (3px at 40% opacity)</li>
+              <li>• LLM usage clearly indicated: ONLY for narrative generation (not sorting logic)</li>
+              <li>• Disclaimers on Result screens</li>
+              <li>• Star system terminology enforced everywhere (never "house")</li>
+            </ul>
+          </Card>
+        </section>
 
-            {/* Screen 11: Team Select */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">11. Team Select</p>
-                {currentScreen === 'teamSelect' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'teamSelect' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('teamSelect')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <AppBar title="Select Star System" showBack onBack={() => setCurrentScreen('gameHub')} />
-                  
-                  <div className="mb-6 px-4">
-                    <p className="text-xs text-[var(--s3-text-subtle)]">Choose your team for this match</p>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-3 mb-auto px-4 overflow-y-auto">
-                    {(['Orion', 'Sirius', 'Pleiades', 'Andromeda', 'Lyra', 'Arcturus'] as const).map((team) => (
-                      <button
-                        key={team}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setSelectedTeam(team);
-                        }}
-                        className={`p-4 rounded-[var(--s3-radius-xl)] border-2 transition-all ${
-                          selectedTeam === team
-                            ? 'border-[var(--s3-lavender-400)] bg-[var(--s3-lavender-500)]/10'
-                            : 'border-white/10 hover:border-white/20'
-                        }`}
-                      >
-                        <TeamBadge team={team} size="lg" className="mx-auto mb-3" />
-                        <p className="text-sm text-[var(--s3-lavender-200)] mb-1">{team}</p>
-                        <p className="text-xs text-[var(--s3-text-subtle)]">Star System</p>
-                      </button>
-                    ))}
-                  </div>
-
-                  <div className="pt-4 px-4">
-                    <Button 
-                      variant="primary" 
-                      className="w-full"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setCurrentScreen('modeSelect');
-                      }}
-                    >
-                      Continue
-                    </Button>
-                  </div>
-
-                  <div className="h-8" />
-                </div>
-              </div>
-            </div>
-
-            {/* Screen 12: Mode Select */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">12. Mode Select</p>
-                {currentScreen === 'modeSelect' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'modeSelect' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('modeSelect')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <AppBar title="Game Mode" showBack onBack={() => setCurrentScreen('teamSelect')} />
-                  
-                  <div className="mb-6 px-4">
-                    <p className="text-xs text-[var(--s3-text-subtle)]">Choose your battle style</p>
-                  </div>
-
-                  <div className="space-y-4 mb-auto px-4">
-                    <GameModeCard
-                      mode="survivor"
-                      title="Survivor Arena"
-                      description="Top-down battle royale. Last team standing wins."
-                      players="30 players per match"
-                      selected={selectedMode === 'survivor'}
-                      onClick={(e) => {
-                        e?.stopPropagation();
-                        setSelectedMode('survivor');
-                      }}
-                    />
-                    <GameModeCard
-                      mode="runner"
-                      title="Side Runner"
-                      description="Endless obstacle course. Compete for distance."
-                      players="Solo or async leaderboard"
-                      selected={selectedMode === 'runner'}
-                      onClick={(e) => {
-                        e?.stopPropagation();
-                        setSelectedMode('runner');
-                      }}
-                    />
-                  </div>
-
-                  <div className="pt-4 px-4">
-                    <Button 
-                      variant="primary" 
-                      className="w-full"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setCurrentScreen('lobby');
-                      }}
-                    >
-                      Next
-                    </Button>
-                  </div>
-
-                  <div className="h-8" />
-                </div>
-              </div>
-            </div>
-
-            {/* Screen 13: Lobby Matchmaking */}
+        {/* Footer */}
+        <div className="text-center py-8 border-t border-[var(--s3-border-subtle)]">
+          <p className="text-sm text-[var(--s3-text-subtle)] mb-2">
+            Star System Sorter (S³) • Design System v1.0
+          </p>
+          <p className="text-xs text-[var(--s3-text-subtle)]">
+            Rapid concept exploration • Not production-ready • For insight & entertainment only
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
             <div className="flex flex-col">
               <div className="flex items-center justify-between mb-3">
                 <p className="text-sm text-[var(--s3-lavender-300)]">13. Lobby Matchmaking</p>
@@ -1391,469 +1236,6 @@ export default function App() {
                 </div>
               </div>
             </div>
-
-            {/* Screen 14: HUD Survivor */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">14. HUD Survivor</p>
-                {currentScreen === 'hudSurvivor' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'hudSurvivor' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('hudSurvivor')}
-              >
-                <Starfield />
-                
-                {/* Game viewport placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center opacity-20">
-                    <Swords className="w-24 h-24 mx-auto mb-4 text-white" />
-                    <p className="text-sm text-white">Game Viewport</p>
-                  </div>
-                </div>
-
-                {/* HUD Overlay */}
-                <div className="relative flex-1 flex flex-col pointer-events-none">
-                  {/* Top HUD */}
-                  <div className="flex items-start justify-between p-4 pointer-events-auto">
-                    <div className="space-y-2">
-                      <HPHearts current={3} max={5} />
-                      <XPBar current={450} max={1000} level={12} className="w-32" />
-                    </div>
-                    <div className="flex flex-col items-end gap-2">
-                      <Timer seconds={185} />
-                      <PauseButton onClick={(e) => {
-                        e?.stopPropagation();
-                        setShowPauseModal(true);
-                      }} />
-                    </div>
-                  </div>
-
-                  {/* Bottom HUD */}
-                  <div className="mt-auto flex items-end justify-between p-4 pointer-events-auto">
-                    <div className="flex flex-col gap-3">
-                      <Joystick handed="left" />
-                      <div className="flex gap-2">
-                        <Counter type="kills" value={12} />
-                        <Counter type="coins" value={347} />
-                      </div>
-                    </div>
-                    <div className="flex gap-3">
-                      <HUDButton type="B" state="default" />
-                      <HUDButton type="A" state="default" />
-                    </div>
-                  </div>
-                </div>
-
-                {showPauseModal && (
-                  <PauseModal
-                    onResume={() => setShowPauseModal(false)}
-                    onExit={() => {
-                      setShowPauseModal(false);
-                      setCurrentScreen('matchResult');
-                    }}
-                  />
-                )}
-              </div>
-            </div>
-
-            {/* Screen 15: HUD Runner */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">15. HUD Runner</p>
-                {currentScreen === 'hudRunner' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'hudRunner' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('hudRunner')}
-              >
-                <Starfield />
-                
-                {/* Game viewport placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center opacity-20">
-                    <Zap className="w-24 h-24 mx-auto mb-4 text-white" />
-                    <p className="text-sm text-white">Game Viewport</p>
-                  </div>
-                </div>
-
-                {/* HUD Overlay */}
-                <div className="relative flex-1 flex flex-col pointer-events-none">
-                  {/* Top HUD */}
-                  <div className="flex items-start justify-between p-4 pointer-events-auto">
-                    <DistanceMeter distance={1247} unit="m" />
-                    <div className="flex flex-col items-end gap-2">
-                      <Timer seconds={95} />
-                      <PauseButton onClick={(e) => {
-                        e?.stopPropagation();
-                        setShowPauseModal(true);
-                      }} />
-                    </div>
-                  </div>
-
-                  {/* Bottom HUD */}
-                  <div className="mt-auto flex items-end justify-between p-4 pointer-events-auto">
-                    <div className="flex flex-col gap-3">
-                      <Counter type="coins" value={523} />
-                      <Counter type="stars" value={7} />
-                    </div>
-                    <div className="flex gap-3">
-                      <HUDButton type="Slide" state="default" />
-                      <HUDButton type="Jump" state="default" />
-                    </div>
-                  </div>
-                </div>
-
-                {showPauseModal && (
-                  <PauseModal
-                    onResume={() => setShowPauseModal(false)}
-                    onExit={() => {
-                      setShowPauseModal(false);
-                      setCurrentScreen('matchResult');
-                    }}
-                  />
-                )}
-              </div>
-            </div>
-
-            {/* Screen 16: Match Result */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">16. Match Result</p>
-                {currentScreen === 'matchResult' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'matchResult' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('matchResult')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <div className="h-12" />
-                  
-                  <div className="text-center mb-8 px-4">
-                    <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[var(--s3-gold-400)] to-[var(--s3-gold-600)] flex items-center justify-center" style={{ boxShadow: 'var(--s3-elevation-3)' }}>
-                      <Trophy className="w-10 h-10 text-white" />
-                    </div>
-                    <h2 className="text-2xl mb-2 bg-gradient-to-r from-[var(--s3-gold-300)] to-[var(--s3-gold-400)] bg-clip-text text-transparent">
-                      Victory!
-                    </h2>
-                    <p className="text-sm text-[var(--s3-text-muted)]">Rank #3 of 30</p>
-                  </div>
-
-                  <div className="space-y-3 mb-6 px-4">
-                    <Card>
-                      <div className="flex items-center justify-between mb-3">
-                        <p className="text-sm text-[var(--s3-text-muted)]">Your Stats</p>
-                      </div>
-                      <div className="grid grid-cols-3 gap-4">
-                        <div className="text-center">
-                          <p className="text-2xl bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent mb-1">12</p>
-                          <p className="text-xs text-[var(--s3-text-subtle)]">Eliminations</p>
-                        </div>
-                        <div className="text-center">
-                          <p className="text-2xl bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent mb-1">347</p>
-                          <p className="text-xs text-[var(--s3-text-subtle)]">Coins</p>
-                        </div>
-                        <div className="text-center">
-                          <p className="text-2xl bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent mb-1">3:05</p>
-                          <p className="text-xs text-[var(--s3-text-subtle)]">Survived</p>
-                        </div>
-                      </div>
-                    </Card>
-
-                    <Card>
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between">
-                          <p className="text-sm text-[var(--s3-text-muted)]">XP Gained</p>
-                          <p className="text-sm text-[var(--s3-lavender-300)]">+250 XP</p>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <p className="text-sm text-[var(--s3-text-muted)]">Team Points</p>
-                          <p className="text-sm text-[var(--s3-success)]">+15</p>
-                        </div>
-                      </div>
-                    </Card>
-                  </div>
-
-                  <div className="space-y-3 mt-auto px-4">
-                    <Button 
-                      variant="primary" 
-                      className="w-full"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setCurrentScreen('lobby');
-                      }}
-                    >
-                      Rematch
-                    </Button>
-                    <Button 
-                      variant="secondary" 
-                      className="w-full"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setCurrentScreen('gameHub');
-                      }}
-                    >
-                      Exit to Hub
-                    </Button>
-                  </div>
-
-                  <div className="px-4 mt-4 mb-4">
-                    <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)]">
-                      <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
-                        For insight & entertainment. Points contribute to star system community goals.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="h-8" />
-                </div>
-              </div>
-            </div>
-
-            {/* Screen 17: Leaderboard Season */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">17. Leaderboard Season</p>
-                {currentScreen === 'leaderboard' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'leaderboard' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('leaderboard')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <AppBar title="Leaderboard" showBack onBack={() => setCurrentScreen('gameHub')} />
-                  
-                  <div className="flex gap-2 mb-6 px-4">
-                    <button className="flex-1 px-4 py-2.5 min-h-[44px] bg-gradient-to-r from-[var(--s3-lavender-500)] to-[var(--s3-lavender-400)] rounded-[var(--s3-radius-full)] text-sm">
-                      Global
-                    </button>
-                    <button className="flex-1 px-4 py-2.5 min-h-[44px] bg-white/5 border border-[var(--s3-lavender-400)]/20 rounded-[var(--s3-radius-full)] text-sm text-[var(--s3-text-muted)]">
-                      My Team
-                    </button>
-                    <button className="flex-1 px-4 py-2.5 min-h-[44px] bg-white/5 border border-[var(--s3-lavender-400)]/20 rounded-[var(--s3-radius-full)] text-sm text-[var(--s3-text-muted)]">
-                      Friends
-                    </button>
-                  </div>
-
-                  <div className="space-y-2 mb-auto px-4 overflow-y-auto">
-                    {[
-                      { rank: 1, name: 'CosmicChampion', team: 'Sirius' as const, points: 12847 },
-                      { rank: 2, name: 'StarNavigator', team: 'Pleiades' as const, points: 11253 },
-                      { rank: 3, name: 'GalacticPilot', team: 'Lyra' as const, points: 9874 },
-                      { rank: 4, name: 'You', team: selectedTeam, points: 8642, isYou: true },
-                      { rank: 5, name: 'NebulaDreamer', team: 'Andromeda' as const, points: 7891 },
-                    ].map((player) => (
-                      <Card key={player.rank} className={`p-3 ${player.isYou ? 'border-[var(--s3-lavender-400)] bg-[var(--s3-lavender-500)]/10' : ''}`}>
-                        <div className="flex items-center gap-3">
-                          <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm ${
-                            player.rank === 1 ? 'bg-gradient-to-br from-[var(--s3-gold-400)] to-[var(--s3-gold-600)] text-white' :
-                            player.rank === 2 ? 'bg-gray-300 text-gray-800' :
-                            player.rank === 3 ? 'bg-amber-700 text-white' :
-                            'bg-white/10 text-white/50'
-                          }`}>
-                            {player.rank}
-                          </div>
-                          <TeamBadge team={player.team} size="sm" />
-                          <div className="flex-1">
-                            <div className="flex items-center gap-2">
-                              <p className="text-sm text-[var(--s3-lavender-200)]">{player.name}</p>
-                              {player.isYou && (
-                                <span className="px-2 py-0.5 bg-[var(--s3-lavender-500)]/20 border border-[var(--s3-lavender-400)]/30 rounded text-[10px] text-[var(--s3-lavender-300)]">
-                                  You
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                          <p className="text-sm text-[var(--s3-text-muted)] tabular-nums">{player.points.toLocaleString()}</p>
-                        </div>
-                      </Card>
-                    ))}
-                  </div>
-
-                  <div className="h-8" />
-                </div>
-              </div>
-            </div>
-
-            {/* Screen 18: Music Theme */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">18. Music Theme</p>
-                {currentScreen === 'musicTheme' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'musicTheme' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('musicTheme')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <AppBar title="Music Theme" showBack onBack={() => setCurrentScreen('gameHub')} />
-                  
-                  <div className="mb-6 px-4">
-                    <div className="p-3 bg-[var(--s3-info-muted)] border border-[var(--s3-info)] rounded-[var(--s3-radius-lg)]">
-                      <p className="text-xs text-blue-300 leading-relaxed">
-                        Auto-selects theme for your star system. You can change it anytime.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="space-y-2 mb-auto px-4 overflow-y-auto">
-                    {[
-                      { name: 'Orion', color: 'from-[var(--s3-lavender-500)] to-[var(--s3-lavender-600)]' },
-                      { name: 'Sirius', color: 'from-[var(--s3-gold-400)] to-[var(--s3-gold-600)]' },
-                      { name: 'Pleiades', color: 'from-[#a78bfa] to-[#c4b5fd]' },
-                      { name: 'Andromeda', color: 'from-[#3b82f6] to-[#60a5fa]' },
-                      { name: 'Lyra', color: 'from-[#ec4899] to-[#f472b6]' },
-                      { name: 'Arcturus', color: 'from-[#f59e0b] to-[#fbbf24]' },
-                    ].map((theme) => (
-                      <button
-                        key={theme.name}
-                        className={`w-full p-3 rounded-xl border-2 transition-all ${
-                          theme.name === selectedTeam
-                            ? 'border-[var(--s3-lavender-400)] bg-[var(--s3-lavender-500)]/10'
-                            : 'border-white/10 hover:border-white/20'
-                        }`}
-                      >
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-3">
-                            <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${theme.color} flex items-center justify-center`}>
-                              <Music className="w-5 h-5 text-white" />
-                            </div>
-                            <div className="text-left">
-                              <p className="text-sm text-[var(--s3-lavender-200)]">{theme.name} Theme</p>
-                              {theme.name === selectedTeam && (
-                                <p className="text-xs text-[var(--s3-lavender-400)]">Your star system</p>
-                              )}
-                            </div>
-                          </div>
-                          <div className="px-3 py-1 rounded-full bg-white/10 hover:bg-white/20 transition-colors">
-                            <p className="text-xs text-white">Preview</p>
-                          </div>
-                        </div>
-                      </button>
-                    ))}
-                  </div>
-
-                  <div className="h-8" />
-                </div>
-
-                {showMusicModal && (
-                  <MusicThemeModal
-                    currentTeam={selectedTeam}
-                    selectedTheme={selectedTeam}
-                    onClose={() => setShowMusicModal(false)}
-                    onSelect={(theme) => console.log('Selected:', theme)}
-                    onPreview={(theme) => console.log('Preview:', theme)}
-                  />
-                )}
-              </div>
-            </div>
-
-            {/* Screen 19: Quests & Pass */}
-            <div className="flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <p className="text-sm text-[var(--s3-lavender-300)]">19. Quests & Pass</p>
-                {currentScreen === 'questsPass' && (
-                  <div className="px-2 py-1 bg-[var(--s3-lavender-600)]/30 border border-[var(--s3-lavender-400)]/40 rounded text-xs text-[var(--s3-lavender-200)]">
-                    Active
-                  </div>
-                )}
-              </div>
-              <div 
-                className={`w-full aspect-[393/852] bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] rounded-[3rem] border-4 ${
-                  currentScreen === 'questsPass' ? 'border-[var(--s3-lavender-500)]' : 'border-gray-800'
-                } p-6 flex flex-col relative overflow-hidden transition-all cursor-pointer hover:border-[var(--s3-lavender-700)]`}
-                onClick={() => setCurrentScreen('questsPass')}
-              >
-                <Starfield />
-                <div className="relative flex-1 flex flex-col">
-                  <AppBar title="Quests & Season Pass" showBack onBack={() => setCurrentScreen('gameHub')} />
-                  
-                  <div className="flex gap-2 mb-6 px-4">
-                    <button className="flex-1 px-4 py-2.5 min-h-[44px] bg-gradient-to-r from-[var(--s3-lavender-500)] to-[var(--s3-lavender-400)] rounded-[var(--s3-radius-full)] text-sm">
-                      Daily
-                    </button>
-                    <button className="flex-1 px-4 py-2.5 min-h-[44px] bg-white/5 border border-[var(--s3-lavender-400)]/20 rounded-[var(--s3-radius-full)] text-sm text-[var(--s3-text-muted)]">
-                      Weekly
-                    </button>
-                    <button className="flex-1 px-4 py-2.5 min-h-[44px] bg-white/5 border border-[var(--s3-lavender-400)]/20 rounded-[var(--s3-radius-full)] text-sm text-[var(--s3-text-muted)]">
-                      Season Pass
-                    </button>
-                  </div>
-
-                  <div className="space-y-3 mb-auto px-4 overflow-y-auto">
-                    <QuestCard
-                      type="daily"
-                      title="Star Collector"
-                      description="Collect 50 stars in any game mode"
-                      progress={32}
-                      max={50}
-                      reward={100}
-                    />
-                    <QuestCard
-                      type="daily"
-                      title="First Victory"
-                      description="Win your first match today"
-                      progress={1}
-                      max={1}
-                      reward={50}
-                      completed
-                    />
-                    <QuestCard
-                      type="daily"
-                      title="Coin Hoarder"
-                      description="Collect 500 coins across all matches"
-                      progress={347}
-                      max={500}
-                      reward={75}
-                    />
-                  </div>
-
-                  <div className="px-4 mb-4">
-                    <Card variant="emphasis">
-                      <div className="flex items-center justify-between">
-                        <div>
-                          <p className="text-sm text-[var(--s3-lavender-200)] mb-1">Season Pass</p>
-                          <p className="text-xs text-[var(--s3-text-subtle)]">Unlock exclusive rewards</p>
-                        </div>
-                        <Button variant="primary" size="sm">
-                          View
-                        </Button>
-                      </div>
-                    </Card>
-                  </div>
 
                   <div className="h-8" />
                 </div>

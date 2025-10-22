@@ -6,7 +6,10 @@ import { Button } from '@/components/figma/Button';
 import { Chip } from '@/components/figma/Chip';
 import { LoadingOverlay } from '@/components/figma/LoadingOverlay';
 import { StarSystemCrests, type StarSystemName } from '@/components/figma/StarSystemCrests';
+import { TabBar } from '@/components/figma/TabBar';
 import { animationStyles } from '@/styles/animations';
+
+type Tab = 'home' | 'community' | 'profile';
 
 // Starfield component - memoized to prevent re-renders
 const Starfield = () => {
@@ -47,6 +50,13 @@ export default function ResultScreen() {
   
   // Animated percentage counter
   const [displayPercentage, setDisplayPercentage] = useState(0);
+
+  // Tab navigation handler
+  const handleTabChange = (tab: Tab) => {
+    if (tab === 'home') navigate('/result');
+    else if (tab === 'community') navigate('/community');
+    else if (tab === 'profile') navigate('/profile');
+  };
 
   // Compute classification when HD data is available but classification is not
   useEffect(() => {
@@ -139,93 +149,94 @@ export default function ResultScreen() {
       
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--s3-lavender-600)]/20 rounded-full blur-3xl animate-glow-pulse"></div>
       
-      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full px-6 py-12">
-        <div className="h-12"></div>
-        
-        {/* Header */}
-        <div className="mb-6 animate-fade-in-down">
-          <p className="text-xs text-[var(--s3-lavender-400)] mb-1">
-            {classification.classification === 'hybrid' ? 'Your Hybrid Star System' : 'Your Primary Star System'}
-          </p>
-          <h2 className="text-2xl bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
-            {primarySystem}
-          </h2>
-        </div>
+      <div className="relative flex-1 flex flex-col max-w-md mx-auto w-full">
+        <div className="flex-1 px-6 py-12">
+          <div className="h-12"></div>
+          
+          {/* Header */}
+          <div className="mb-6 animate-fade-in-down">
+            <p className="text-xs text-[var(--s3-lavender-400)] mb-1">
+              {classification.classification === 'hybrid' ? 'Your Hybrid Star System' : 'Your Primary Star System'}
+            </p>
+            <h2 className="text-2xl bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
+              {primarySystem}
+            </h2>
+          </div>
 
-        {/* Radial Percentage Chart with Crest */}
-        <div className="flex justify-center mb-6 animate-scale-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
-          <div className="relative w-48 h-48 animate-float">
-            <svg className="w-full h-full transform -rotate-90">
-              {/* Background circle */}
-              <circle 
-                cx="96" 
-                cy="96" 
-                r={radius} 
-                stroke="rgba(167, 139, 250, 0.1)" 
-                strokeWidth="16" 
-                fill="none" 
-              />
-              {/* Progress circle */}
-              <circle
-                cx="96" 
-                cy="96" 
-                r={radius}
-                stroke="url(#gradient-result)"
-                strokeWidth="16" 
-                fill="none"
-                strokeLinecap="round"
-                className="progress-circle"
-              />
-              <defs>
-                <linearGradient id="gradient-result" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="var(--s3-lavender-500)" />
-                  <stop offset="100%" stopColor="var(--s3-lavender-400)" />
-                </linearGradient>
-              </defs>
-            </svg>
-            {/* Center content */}
-            <div className="absolute inset-0 flex items-center justify-center flex-col">
-              <CrestComponent size={48} className="text-[var(--s3-lavender-400)] mb-2" />
-              <p className="text-3xl mb-1 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
-                {displayPercentage.toFixed(1)}%
-              </p>
-              <p className="text-xs text-[var(--s3-text-subtle)]">Alignment</p>
+          {/* Radial Percentage Chart with Crest */}
+          <div className="flex justify-center mb-6 animate-scale-in" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>
+            <div className="relative w-48 h-48 animate-float">
+              <svg className="w-full h-full transform -rotate-90">
+                {/* Background circle */}
+                <circle 
+                  cx="96" 
+                  cy="96" 
+                  r={radius} 
+                  stroke="rgba(167, 139, 250, 0.1)" 
+                  strokeWidth="16" 
+                  fill="none" 
+                />
+                {/* Progress circle */}
+                <circle
+                  cx="96" 
+                  cy="96" 
+                  r={radius}
+                  stroke="url(#gradient-result)"
+                  strokeWidth="16" 
+                  fill="none"
+                  strokeLinecap="round"
+                  className="progress-circle"
+                />
+                <defs>
+                  <linearGradient id="gradient-result" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="var(--s3-lavender-500)" />
+                    <stop offset="100%" stopColor="var(--s3-lavender-400)" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              {/* Center content */}
+              <div className="absolute inset-0 flex items-center justify-center flex-col">
+                <CrestComponent size={48} className="text-[var(--s3-lavender-400)] mb-2" />
+                <p className="text-3xl mb-1 bg-gradient-to-r from-[var(--s3-lavender-200)] to-[var(--s3-lavender-400)] bg-clip-text text-transparent">
+                  {displayPercentage.toFixed(1)}%
+                </p>
+                <p className="text-xs text-[var(--s3-text-subtle)]">Alignment</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Ally Star Systems */}
-        {allies.length > 0 && (
-          <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-            <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Ally Star Systems</p>
-            <div className="flex flex-wrap gap-2">
-              {allies.map((ally, index) => (
-                <div 
-                  key={ally.system}
-                  className="animate-fade-in-up transition-all duration-300 hover:scale-105"
-                  style={{ animationDelay: `${0.4 + index * 0.1}s`, animationFillMode: 'both' }}
-                >
-                  <Chip 
-                    starSystem={ally.system} 
-                    percentage={parseFloat(ally.percentage.toFixed(1))} 
-                    variant={index === 0 ? 'gold' : 'lavender'} 
-                  />
-                </div>
-              ))}
+          {/* Ally Star Systems */}
+          {allies.length > 0 && (
+            <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
+              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Ally Star Systems</p>
+              <div className="flex flex-wrap gap-2">
+                {allies.map((ally, index) => (
+                  <div 
+                    key={ally.system}
+                    className="animate-fade-in-up transition-all duration-300 hover:scale-105"
+                    style={{ animationDelay: `${0.4 + index * 0.1}s`, animationFillMode: 'both' }}
+                  >
+                    <Chip 
+                      starSystem={ally.system} 
+                      percentage={parseFloat(ally.percentage.toFixed(1))} 
+                      variant={index === 0 ? 'gold' : 'lavender'} 
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )}
 
-        {/* View Why Button */}
-        <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-          <Button 
-            variant="primary" 
-            className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
-            onClick={() => navigate('/why-figma')}
-          >
-            View Why ✨
-          </Button>
-        </div>
+          {/* View Why Button */}
+          <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
+            <Button 
+              variant="primary" 
+              className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
+              onClick={() => navigate('/why-figma')}
+            >
+              View Why ✨
+            </Button>
+          </div>
 
         {/* Open Dossier Button - Hidden for now, Why screen serves as dossier */}
         {/* <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
@@ -238,16 +249,22 @@ export default function ResultScreen() {
           </Button>
         </div> */}
 
-        {/* Legal Disclaimer */}
-        <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
-          <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)] transition-all duration-300 hover:border-[var(--s3-border-emphasis)]">
-            <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
-              For insight & entertainment. Not medical, financial, or legal advice.
-            </p>
+          {/* Legal Disclaimer */}
+          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+            <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)] transition-all duration-300 hover:border-[var(--s3-border-emphasis)]">
+              <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
+                For insight & entertainment. Not medical, financial, or legal advice.
+              </p>
+            </div>
           </div>
+
+          <div className="h-8"></div>
         </div>
 
-        <div className="h-8"></div>
+        {/* Tab Bar */}
+        <div className="mt-auto">
+          <TabBar activeTab="home" onTabChange={handleTabChange} />
+        </div>
       </div>
     </div>
   );

@@ -1,9 +1,11 @@
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import { GoogleLogin } from '@react-oauth/google';
 import type { CredentialResponse } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { Sparkles, Star } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
+import { useBirthDataStore } from '../store/birthDataStore';
 import { animationStyles } from '../styles/animations';
 
 interface GoogleJWT {
@@ -15,7 +17,15 @@ interface GoogleJWT {
 
 export default function LoginScreen() {
   const navigate = useNavigate();
-  const { login, loginAsGuest } = useAuthStore();
+  const { login, loginAsGuest, isAuthenticated } = useAuthStore();
+  const classification = useBirthDataStore((state) => state.classification);
+
+  // Redirect if already authenticated and has results
+  useEffect(() => {
+    if (isAuthenticated && classification) {
+      navigate('/result');
+    }
+  }, [isAuthenticated, classification, navigate]);
 
   const handleGoogleSuccess = (credentialResponse: CredentialResponse) => {
     try {
@@ -35,7 +45,13 @@ export default function LoginScreen() {
       });
 
       console.log('Google login successful:', decoded.name);
-      navigate('/onboarding');
+      
+      // Navigate to results if they already have classification, otherwise onboarding
+      if (classification) {
+        navigate('/result');
+      } else {
+        navigate('/onboarding');
+      }
     } catch (error) {
       console.error('Error decoding Google credential:', error);
     }
@@ -48,7 +64,13 @@ export default function LoginScreen() {
   const handleGuestContinue = () => {
     loginAsGuest();
     console.log('Continue as guest');
-    navigate('/onboarding');
+    
+    // Navigate to results if they already have classification, otherwise onboarding
+    if (classification) {
+      navigate('/result');
+    } else {
+      navigate('/onboarding');
+    }
   };
 
   return (
@@ -126,7 +148,7 @@ export default function LoginScreen() {
         </div>
 
         {/* Login Section */}
-        <div className="w-full max-w-sm space-y-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+        <div className="w-full max-w-sm space-y-4 animate-fade-in-up px-4" style={{ animationDelay: '0.4s' }}>
           {/* Google Login Button */}
           <div className="w-full flex justify-center">
             <GoogleLogin
@@ -137,7 +159,7 @@ export default function LoginScreen() {
               size="large"
               text="continue_with"
               shape="rectangular"
-              width="384"
+              width="100%"
             />
           </div>
 

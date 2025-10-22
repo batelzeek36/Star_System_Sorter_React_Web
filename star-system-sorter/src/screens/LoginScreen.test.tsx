@@ -38,11 +38,24 @@ vi.mock('jwt-decode', () => ({
 // Mock auth store
 const mockLogin = vi.fn();
 const mockLoginAsGuest = vi.fn();
+let mockIsAuthenticated = false;
 vi.mock('../store/authStore', () => ({
   useAuthStore: () => ({
     login: mockLogin,
     loginAsGuest: mockLoginAsGuest,
+    isAuthenticated: mockIsAuthenticated,
   }),
+}));
+
+// Mock birth data store
+let mockClassification: any = null;
+vi.mock('../store/birthDataStore', () => ({
+  useBirthDataStore: (selector: any) => {
+    const state = {
+      classification: mockClassification,
+    };
+    return selector ? selector(state) : state;
+  },
 }));
 
 describe('LoginScreen', () => {
@@ -50,6 +63,8 @@ describe('LoginScreen', () => {
     mockNavigate.mockClear();
     mockLogin.mockClear();
     mockLoginAsGuest.mockClear();
+    mockIsAuthenticated = false;
+    mockClassification = null;
   });
 
   it('renders login screen with title and tagline', () => {
@@ -153,5 +168,75 @@ describe('LoginScreen', () => {
 
     // Guest button should have min-h-[44px] class for accessibility
     expect(guestButton.className).toContain('min-h-[44px]');
+  });
+
+  it('redirects to results if already authenticated with classification', () => {
+    mockIsAuthenticated = true;
+    mockClassification = {
+      classification: 'primary',
+      primary: 'Pleiades',
+      allies: [],
+      percentages: { Pleiades: 25.8 },
+      contributorsPerSystem: {},
+      contributorsWithWeights: {},
+      meta: { canonVersion: '1.0.0', canonChecksum: 'abc123' },
+    };
+
+    render(
+      <BrowserRouter>
+        <LoginScreen />
+      </BrowserRouter>
+    );
+
+    // Should redirect to results page
+    expect(mockNavigate).toHaveBeenCalledWith('/result');
+  });
+
+  it('navigates to results after Google login if classification exists', () => {
+    mockClassification = {
+      classification: 'primary',
+      primary: 'Pleiades',
+      allies: [],
+      percentages: { Pleiades: 25.8 },
+      contributorsPerSystem: {},
+      contributorsWithWeights: {},
+      meta: { canonVersion: '1.0.0', canonChecksum: 'abc123' },
+    };
+
+    render(
+      <BrowserRouter>
+        <LoginScreen />
+      </BrowserRouter>
+    );
+
+    const mockGoogleButton = screen.getByRole('button', { name: /Mock Google Login/i });
+    fireEvent.click(mockGoogleButton);
+
+    expect(mockLogin).toHaveBeenCalled();
+    expect(mockNavigate).toHaveBeenCalledWith('/result');
+  });
+
+  it('navigates to results after guest login if classification exists', () => {
+    mockClassification = {
+      classification: 'primary',
+      primary: 'Pleiades',
+      allies: [],
+      percentages: { Pleiades: 25.8 },
+      contributorsPerSystem: {},
+      contributorsWithWeights: {},
+      meta: { canonVersion: '1.0.0', canonChecksum: 'abc123' },
+    };
+
+    render(
+      <BrowserRouter>
+        <LoginScreen />
+      </BrowserRouter>
+    );
+
+    const guestButton = screen.getByRole('button', { name: /Continue as Guest/i });
+    fireEvent.click(guestButton);
+
+    expect(mockLoginAsGuest).toHaveBeenCalled();
+    expect(mockNavigate).toHaveBeenCalledWith('/result');
   });
 });
