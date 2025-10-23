@@ -17,6 +17,21 @@ sources:
     author: "L/L Research"
     year: 1984
     disputed: false
+  - id: s-rauru-2001
+    title: "The Complete Rave I'Ching"
+    author: "Ra Uru Hu"
+    year: 2001
+    disputed: false
+  - id: s-rudd-2013
+    title: "The Gene Keys: Embracing Your Higher Purpose"
+    author: "Richard Rudd"
+    year: 2013
+    disputed: false
+  - id: s-wilhelm-1950
+    title: "I Ching (Book of Changes)"
+    author: "Richard Wilhelm (translator)"
+    year: 1950
+    disputed: false
   - id: s-royal-1992
     title: "Prism of Lyra"
     author: "Lyssa Royal & Keith Priest"
@@ -213,12 +228,12 @@ rules:
     confidence: 2
 
   # ---------- NOTABLE GATES ----------
-  - id: gate_1_creative_andromeda
+  - id: gate_1_creative_expression
     systems: [{ id: ANDROMEDA, w: 1.2 }]
     if: { gatesAny: [1] }
-    rationale: "Pure creative thrust; originality."
-    sources: ["s-collier-1994"]
-    confidence: 2
+    rationale: "Gate 1 embodies 'creation as a primal force; the energy potential to manifest inspiration without limitation through unique creativity and individual self-expression' (Ra Uru Hu). The Gene Keys describe this as moving from Entropy (shadow) through Freshness (gift) to Beauty (siddhi). I Ching Hexagram 1 (Qian/The Creative) represents 'pure yang creative force' and 'the initiating principle of creation.' This maps to creative thrust and originality."
+    sources: ["s-rauru-2001", "s-rudd-2013", "s-wilhelm-1950"]
+    confidence: 3
 
   - id: gate_2_direction_pleiades
     systems: [{ id: PLEIADES, w: 1.0 }]
