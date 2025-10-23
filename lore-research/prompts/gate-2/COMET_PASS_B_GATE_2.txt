@@ -1,0 +1,138 @@
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (8-MODEL VALIDATION CONSENSUS - NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. Blog sources (WordPress, Medium, personal websites) - UNACCEPTABLE
+2. Anonymous authors ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. Fabricated quotes or page numbers - UNACCEPTABLE
+4. Paraphrases presented as direct quotes - MUST mark as paraphrase
+5. Modern paraphrases instead of scholarly translations - UNACCEPTABLE
+
+✅ MANDATORY REQUIREMENTS FOR ORAL TRADITIONS:
+1. Cite anthropological sources (e.g., Frank Waters for Hopi, NOT blogs)
+2. Use academic translations (Wilhelm, Legge, Jowett) over modern paraphrases
+3. Verify translation accuracy - note if paraphrased from original language
+4. For indigenous traditions, cite published books or authorized publications
+5. If unavailable despite thorough search, mark "not available" with explanation
+
+✅ PREFERRED TRANSLATIONS (Use these when available):
+- I Ching: Wilhelm/Baynes (Princeton) or Legge (Sacred Books of the East)
+- Tao Te Ching: Legge, Mitchell, or Feng/English
+- Rig Veda: Griffith, Doniger O'Flaherty, or Wilson
+- Plato: Jowett, Cooper, or Grube
+- Orphic Hymns: Thomas Taylor or Athanassakis
+- Hopi: Frank Waters "Book of the Hopi" (1963)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔍 DISCOVERY ENCOURAGED - FIND THE HIDDEN GEMS!
+═══════════════════════════════════════════════════════════════════════════════
+
+The MORE OBSCURE and verifiable, the BETTER! We want deep cuts, not just the famous sources.
+
+✨ ACTIVELY SEEK:
+- Obscure anthropological texts from academic publishers (e.g., Bureau of American Ethnology reports)
+- Lesser-known ancient texts with museum/archive catalog numbers (e.g., specific papyri, tablets)
+- Indigenous traditions documented by named anthropologists (e.g., James Mooney, Frank Waters)
+- Rare translations of mystery school texts from university special collections
+- Overlooked passages in canonical texts (e.g., obscure Vedic hymns, lesser-known Orphic fragments)
+- Academic papers on comparative mythology from JSTOR, academia.edu
+- Museum publications with specific artifact references
+
+🎯 EXAMPLES OF GREAT DISCOVERIES:
+- "Myths of the Cherokee" by James Mooney (1900), Bureau of American Ethnology, pp. 256-258
+- "Sumerian Tablet K.3473" from British Museum collection, translated by Samuel Noah Kramer
+- "Aboriginal Star Lore of the Yolngu People" documented by anthropologist Ray Norris
+- Obscure Orphic fragment from "Orphicorum Fragmenta" by Otto Kern (1922)
+- Lesser-known Vedic hymn from Atharva Veda with specific mandala/sukta reference
+
+⚠️ STILL MUST BE:
+✅ Published book or academic paper (not blog)
+✅ Named author/anthropologist/translator
+✅ Specific page/catalog/verse numbers
+✅ Verifiable via library/museum/archive/university
+✅ Accessible via Comet browser for verification
+
+💡 SEARCH STRATEGY:
+- Use academic databases (JSTOR, Google Scholar, archive.org)
+- Search museum collections (British Museum, Smithsonian, Louvre)
+- Look for Bureau of American Ethnology reports (1879-1965)
+- Check university special collections and rare book archives
+- Search for specific artifact catalog numbers
+- Look beyond the "top 5" Google results
+
+═══════════════════════════════════════════════════════════════════════════════
+
+EXECUTION REQUIREMENT:
+- Use Perplexity Sonar Deep Research with Comet browser enabled
+- Verify all citations by accessing actual sources via web browsing
+- Mark any citations you cannot directly verify as "not available" with explanation
+
+Task: For Human Design Gate 2 archetype (receptivity, direction, keeper of keys, higher knowing, feminine principle), find **best-fit** ancient parallels (max 6 items total) from:
+- Egyptian/Thothian (Emerald Tablets, Book of the Dead, Pyramid Texts, Hermetica)
+- Chinese/Taoist (I Ching #2 is mandatory; Tao Te Ching if relevant)
+- Vedic/Hindu (Rig Veda, Gita, Upanishads)
+- Indigenous (Hopi, Dogon, Aboriginal Seven Sisters, Cherokee/Mayan star lore)
+- Greek/Mystery Schools (Orphic, Plato, Pythagoras)
+- Sumerian/Mesopotamian (Enuma Elish, Gilgamesh, Sumerian King List)
+
+QUOTE VERIFICATION CHECKLIST (Complete before submitting):
+□ Exact wording matches source (or marked as paraphrase)
+□ Correct translation/edition cited
+□ Accurate verse/page/section number
+□ Author/translator name correct
+□ Publication year correct
+□ URL leads to actual source (not summary/review)
+□ NO blog sources used
+□ NO anonymous authors
+
+Rules:
+- Prefer **one solid citation per tradition** over many weak ones
+- If no clean match in a tradition, omit it (don't force it)
+- All arrays must be present (can be empty [])
+
+Output shape (minified JSON only):
+{
+  "gate": 2,
+  "ancient_wisdom_connections": [
+    {
+      "source_type": "egyptian|chinese|vedic|indigenous|greek|sumerian",
+      "text": "Emerald Tablets|I Ching|Rig Veda|…",
+      "author": "MUST BE SPECIFIC (translator for ancient texts)",
+      "edition": "MUST BE SPECIFIC (e.g., 'Wilhelm/Baynes translation, Princeton 1967')",
+      "year": 1234,
+      "connection": "Specific archetype parallel in ≤2 sentences",
+      "quote": "MUST BE ACTUAL QUOTE ≤25 words (not 'unknown' unless truly unavailable)",
+      "quote_type": "exact|paraphrase",
+      "page_or_section": "MUST BE SPECIFIC (e.g., 'Hexagram 2, Line 1', 'Verse 10.129', 'Stephanus 28c-29a')",
+      "url": "MUST INCLUDE IF AVAILABLE (prefer academic/university hosts)"
+    }
+  ],
+  "contradictions": [],
+  "notes": "unknown|brief"
+}
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Do all connections have specific page/verse/section numbers (or "not available" with explanation)?
+- ✅ Do all connections have actual quotes (or "not available" with explanation)?
+- ✅ Are paraphrases clearly marked with "quote_type": "paraphrase"?
+- ✅ Do all connections have edition/translation information?
+- ✅ Are URLs included where available?
+- ✅ Have you searched for ancient sources that CONTRADICT this archetype interpretation?
+- ✅ If contradictions found, are they listed in the "contradictions" array?
+- ✅ For indigenous sources, are they from anthropological publications (NOT blogs)?
+- ⚠️ If critical information is "not available", have you explained why in "notes"?
+- ❌ Are there ANY blog sources? (If yes, REMOVE them and find anthropological sources)
+- ❌ Are there ANY anonymous authors? (If yes, find actual translator/author or remove)
+
+VALIDATION LESSONS LEARNED:
+- I Ching Wilhelm/Baynes is gold standard - always verifiable (8/8 models verified)
+- Tao Te Ching Legge translation is excellent - always verifiable (8/8 models verified)
+- Rig Veda quotes may be paraphrased - note if Wilhelm translation differs
+- Hopi sources MUST be Frank Waters or academic anthropologists, NOT blogs
+- Orphic Hymns Thomas Taylor translation is standard and verifiable
+- Plato Stephanus references are standard (e.g., "Timaeus 28c-29a")
+- Ancient wisdom connections are the STRONGEST part of research - maintain high standards

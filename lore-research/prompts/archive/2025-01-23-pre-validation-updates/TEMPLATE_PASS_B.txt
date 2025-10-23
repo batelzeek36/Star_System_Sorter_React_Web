@@ -1,0 +1,61 @@
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+EXECUTION REQUIREMENT:
+- Use Perplexity Sonar Deep Research with Comet browser enabled
+- Verify all citations by accessing actual sources via web browsing
+- Mark any citations you cannot directly verify as "not available" with explanation
+
+Task: For Human Design Gate {{GATE_NUMBER}} archetype ({{GATE_ARCHETYPE}}), find **best-fit** ancient parallels (max 6 items total) from:
+- Egyptian/Thothian (Emerald Tablets, Book of the Dead, Pyramid Texts, Hermetica)
+- Chinese/Taoist (I Ching #{{GATE_NUMBER}} is mandatory; Tao Te Ching if relevant)
+- Vedic/Hindu (Rig Veda, Gita, Upanishads)
+- Indigenous (Hopi, Dogon, Aboriginal Seven Sisters, Cherokee/Mayan star lore)
+- Greek/Mystery Schools (Orphic, Plato, Pythagoras)
+- Sumerian/Mesopotamian (Enuma Elish, Gilgamesh, Sumerian King List)
+
+CRITICAL CITATION REQUIREMENTS (NON-NEGOTIABLE):
+- You MUST find exact page numbers, verse numbers, or specific sections (e.g., "Verse 1.1-1.5", "Tablet III, lines 20-25")
+- You MUST extract actual quotes ≤25 words from the source material
+- You MUST include edition/translation information (e.g., "Wilhelm/Baynes translation", "Penguin Classics 1987")
+- You MUST include working URLs when available
+- If a citation element is unavailable despite thorough search with Comet:
+  * Mark the field as "not available"
+  * Add explanation in "notes" (e.g., "Translation lacks verse numbers", "Oral tradition source")
+  * Continue with available information rather than fabricating
+- DO NOT dump URLs outside the JSON structure - parse them into the citations array with full metadata
+- DO NOT fabricate citations - honest "not available" is better than fake precision
+
+Rules:
+- Prefer **one solid citation per tradition** over many weak ones
+- If no clean match in a tradition, omit it (don't force it)
+- All arrays must be present (can be empty [])
+
+Output shape (minified JSON only):
+{
+  "gate": {{GATE_NUMBER}},
+  "ancient_wisdom_connections": [
+    {
+      "source_type": "egyptian|chinese|vedic|indigenous|greek|sumerian",
+      "text": "Emerald Tablets|I Ching|Rig Veda|…",
+      "author": "MUST BE SPECIFIC",
+      "edition": "MUST BE SPECIFIC (e.g., 'Wilhelm/Baynes translation, 3rd Edition')",
+      "year": 1234,
+      "connection": "Specific archetype parallel in ≤2 sentences",
+      "quote": "MUST BE ACTUAL QUOTE ≤25 words (not 'unknown' unless truly unavailable)",
+      "page_or_section": "MUST BE SPECIFIC (e.g., 'Hexagram {{GATE_NUMBER}}, Line 1', 'Verse 10.129')",
+      "url": "MUST INCLUDE IF AVAILABLE"
+    }
+  ],
+  "contradictions": [],
+  "notes": "unknown|brief"
+}
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Do all connections have specific page/verse/section numbers (or "not available" with explanation)?
+- ✅ Do all connections have actual quotes (or "not available" with explanation)?
+- ✅ Do all connections have edition/translation information?
+- ✅ Are URLs included where available?
+- ✅ Have you searched for ancient sources that CONTRADICT this archetype interpretation?
+- ✅ If contradictions found, are they listed in the "contradictions" array?
+- ✅ For indigenous sources, have you verified they are from public domain or authorized publications?
+- ⚠️ If critical information is "not available", have you explained why in "notes"?

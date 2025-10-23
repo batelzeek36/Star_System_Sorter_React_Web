@@ -1,0 +1,213 @@
+Research Human Design Gate 1 with comprehensive ancient wisdom and star system connections.
+
+CRITICAL CITATION REQUIREMENTS (NON-NEGOTIABLE):
+- You MUST find exact page numbers or specific sections (e.g., "Gate 1, Lines 1-6", "Chapter 3, pp. 45-47", "Verse 1.1-1.5")
+- You MUST extract actual quotes ≤25 words from the source material
+- You MUST include edition/translation information (e.g., "2nd Edition", "Wilhelm/Baynes translation")
+- You MUST include working URLs when available
+- Only write "unknown" if the source is genuinely inaccessible or doesn't exist
+- DO NOT dump URLs outside the JSON structure - parse them into the sources arrays with full metadata
+- If you find sources but can't extract metadata, that response is REJECTED - dig deeper
+- Each star system alignment needs at least 3 sources with FULL metadata (not just URLs)
+
+CONTEXT:
+I'm building a classification system that maps Human Design gates to 8 star systems based on ancient wisdom and esoteric lore:
+
+STAR SYSTEMS:
+- Sirius (teachers, guardians, Sirian-Christos lineage, Dogon knowledge)
+- Pleiades (nurturers, artists, empaths, Seven Sisters across all cultures)
+- Orion Light/Osirian (strategists, historians, Egyptian mystery schools, Thoth/Hermes lineage)
+- Arcturus (engineers, healers, geometric consciousness, energy work)
+- Andromeda (explorers, iconoclasts, freedom, sovereignty)
+- Lyra (primordial builders, feline beings, instinct, root race)
+- Draco (power, will, hierarchy, kundalini - disputed/shadow)
+- Zeta Reticuli (analysts, experimenters, detachment, Greys/Bashar)
+
+RESEARCH REQUIREMENTS:
+
+1. HUMAN DESIGN FOUNDATION
+   - Find Gate 1's traditional meaning from Ra Uru Hu
+   - Find Gene Keys interpretation (Richard Rudd)
+   - Note the I Ching hexagram parallel (Hexagram 1)
+   - Identify core archetype, shadow, gift, siddhi
+
+2. ANCIENT WISDOM PARALLELS
+   Search for archetypal connections in:
+   
+   EGYPTIAN/THOTHIAN:
+   - Emerald Tablets of Thoth (Billy Carson)
+   - Egyptian Book of the Dead
+   - Pyramid Texts
+   - Hermetic Corpus (Hermes Trismegistus)
+   
+   CHINESE/TAOIST:
+   - I Ching Hexagram 1 (CRITICAL - direct parallel!)
+   - Tao Te Ching themes
+   - Yellow Emperor's Classic (if health/energy related)
+   
+   VEDIC/HINDU:
+   - Rig Veda concepts
+   - Bhagavad Gita archetypes
+   - Upanishads (consciousness themes)
+   
+   INDIGENOUS:
+   - Hopi prophecies and star lore
+   - Dogon Sirius knowledge
+   - Aboriginal Dreamtime (Seven Sisters)
+   - Cherokee/Mayan star teachings
+   
+   GREEK/MYSTERY SCHOOLS:
+   - Orphic Hymns
+   - Platonic dialogues
+   - Pythagorean teachings (if geometry/number related)
+   
+   SUMERIAN/MESOPOTAMIAN:
+   - Enuma Elish
+   - Epic of Gilgamesh
+   - Sumerian King List
+
+3. STAR SYSTEM ALIGNMENTS
+   For each potential star system, find:
+   
+   EXPLICIT CONNECTIONS (search for):
+   - "Gate 1 [star system name]"
+   - "[Gate archetype] [star system] frequency"
+   - Direct mentions in channeled material
+   
+   THEMATIC CONNECTIONS (look for):
+   - Does the gate's archetype match star system signature?
+   - Do ancient texts describing this archetype mention stars?
+   - Are there cross-cultural patterns pointing to same system?
+   
+   ANCIENT TEXT CONNECTIONS (search for):
+   - Egyptian texts mentioning Sirius/Orion + this archetype
+   - I Ching hexagram themes + star lore
+   - Indigenous star origin stories + this pattern
+   - Vedic stellar deities + this quality
+
+4. MODERN ESOTERIC SOURCES
+   - Law of One (Ra Material) - search all sessions
+   - Pleiadian channeling (Marciniak, Hand Clow)
+   - Arcturian material
+   - Lyran/Andromedan (Lyssa Royal, Alex Collier)
+   - Bashar (Darryl Anka) for Zeta perspective
+   - Robert Temple (Sirius Mystery)
+   - Graham Hancock, Robert Bauval (ancient astronomy)
+
+5. CROSS-CULTURAL SYNTHESIS
+   Look for patterns like:
+   - Same archetype appears in multiple ancient cultures
+   - Multiple cultures associate this pattern with same stars
+   - Ancient astronomical alignments related to this theme
+   - Universal symbols or myths connected to this energy
+
+OUTPUT FORMAT (JSON only, no prose):
+{
+  "gate": 1,
+  "gate_name": "Traditional HD name",
+  "hd_meaning": "1-2 sentence summary from Ra Uru Hu",
+  "gene_keys": {
+    "shadow": "Shadow state",
+    "gift": "Gift state",
+    "siddhi": "Highest expression"
+  },
+  "i_ching_parallel": {
+    "hexagram": 1,
+    "name": "I Ching hexagram name",
+    "meaning": "Brief I Ching interpretation",
+    "relevance": "How this connects to HD gate"
+  },
+  "ancient_wisdom_connections": [
+    {
+      "source_type": "egyptian|chinese|vedic|indigenous|greek|sumerian",
+      "text": "Emerald Tablets|I Ching|Rig Veda|etc.",
+      "author": "MUST BE SPECIFIC (e.g., 'Richard Wilhelm (translator)')",
+      "edition": "MUST BE SPECIFIC (e.g., 'Wilhelm/Baynes translation, 3rd Edition')",
+      "year": 1234,
+      "connection": "Specific parallel or archetype match",
+      "quote": "MUST BE ACTUAL QUOTE ≤25 words (not 'No direct quote' or 'unknown')",
+      "page_or_section": "MUST BE SPECIFIC (e.g., 'Hexagram 1, Line 1', 'Verse 10.129')",
+      "url": "MUST INCLUDE IF AVAILABLE"
+    }
+  ],
+  "star_system_alignments": [
+    {
+      "system": "Sirius|Pleiades|Orion Light|Arcturus|Andromeda|Lyra|Draco|Zeta",
+      "confidence": "high|medium|low|speculative",
+      "evidence_type": "explicit|thematic|cross_cultural|inferred",
+      "primary_rationale": "Main reason for this alignment (2-3 sentences)",
+      "ancient_support": [
+        "Egyptian: Thoth as scribe archetype",
+        "I Ching: Hexagram theme matches",
+        "Dogon: Sirius knowledge keeper parallel"
+      ],
+      "modern_support": [
+        "Law of One: Session X mentions...",
+        "Gene Keys: Aligns with [system] frequency"
+      ],
+      "cross_cultural_pattern": "What pattern appears across multiple cultures?",
+      "sources": [
+        {
+          "title": "MUST BE SPECIFIC (full book/article title)",
+          "author": "MUST BE SPECIFIC (full author name)",
+          "edition": "MUST BE SPECIFIC (e.g., '50th Anniversary Edition', '2nd Edition')",
+          "year": 1981,
+          "source_type": "ancient|channeled|research|indigenous",
+          "quote": "MUST BE ACTUAL QUOTE ≤25 words (not 'unknown')",
+          "page": "MUST BE SPECIFIC (e.g., 'Chapter 5, pp. 78-80', 'Session 23')",
+          "url": "MUST INCLUDE IF AVAILABLE",
+          "disputed": false
+        }
+      ]
+    }
+  ],
+  "mind_blowing_connections": [
+    "Fascinating cross-cultural or historical connections that reveal universal patterns"
+  ],
+  "contradictions": [
+    "Any conflicting information between sources"
+  ],
+  "notes": "Additional context, caveats, or research limitations"
+}
+
+CRITICAL RULES:
+1. Return JSON only (no markdown, no commentary before/after)
+2. Search BOTH ancient texts AND modern esoteric sources
+3. I Ching Hexagram 1 is MANDATORY - always include with FULL citation
+4. Mark confidence honestly:
+   - high = Multiple primary sources + ancient text support
+   - medium = 2+ sources OR strong thematic + ancient parallel
+   - low = Single source OR weak thematic
+   - speculative = Pure inference, mark disputed: true
+5. Distinguish evidence types:
+   - explicit = Direct mention in source
+   - thematic = Archetype matches system signature
+   - cross_cultural = Same pattern in 3+ cultures
+   - inferred = Logical deduction
+6. Include at least 3 sources per alignment (mix ancient + modern) with FULL metadata
+7. Keep quotes ≤25 words for fair use
+8. Only write "unknown" if source is genuinely inaccessible (NOT if you just can't find it quickly)
+9. Highlight "mind-blowing" connections (Dogon Sirius, pyramid alignments, etc.)
+10. For Orion, specify "Orion Light" or "Osirian" (not just "Orion")
+11. ALL sources must have: title, author, edition, year, page/section, quote, URL (if available)
+12. DO NOT dump URLs outside JSON - parse them into sources array with full metadata
+13. If you find sources but can't extract page numbers/quotes, that response is REJECTED
+
+SEARCH STRATEGY:
+Step 1: Find HD/Gene Keys meaning with FULL citations (page numbers, editions, quotes)
+Step 2: Find I Ching Hexagram 1 parallel with FULL citation (translation, verse, quote)
+Step 3: Search ancient texts for archetype with FULL citations (page/verse numbers, quotes)
+Step 4: Search modern esoteric for star connections with FULL citations (chapters, pages, quotes)
+Step 5: Look for cross-cultural patterns with documented sources
+Step 6: Synthesize into star system alignments with 3+ sources each (FULL metadata)
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Do all citations have specific page numbers or sections?
+- ✅ Do all citations have actual quotes (not "unknown")?
+- ✅ Do all citations have edition/translation information?
+- ✅ Are URLs included where available?
+- ✅ Does each star system alignment have at least 3 sources with FULL metadata?
+- ✅ Are all sources parsed into the JSON structure (no URLs dumped outside)?
+- ❌ If any answer is NO, the response is REJECTED - research deeper
+
+Now research Gate 1.

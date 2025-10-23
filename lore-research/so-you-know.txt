@@ -1,0 +1,15 @@
+The only thing NOT in these prompts (but you already have):
+
+✅ Lore compiler - Already built (scripts/compile-lore.ts)
+✅ Scorer algorithm - Already built (src/lib/scorer.ts)
+✅ UI components - Already built (WhyScreen, DossierScreen, etc.)
+✅ Source registry - You'll build this as you go (data/lore/sources.yaml)
+
+
+The Complete Workflow
+Comet → Returns 3 JSONs (A, B, C)
+You → Send JSONs to me
+Me (Claude) → Merge JSONs → Generate YAML rules
+Compiler → Validates rules (npm run compile:lore)
+You → Test with your HD chart (npm run classify)
+Commit → Add to lore database
