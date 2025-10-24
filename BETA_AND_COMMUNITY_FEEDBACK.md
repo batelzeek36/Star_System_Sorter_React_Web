@@ -24,6 +24,7 @@ This project will evolve into a **collective work** through community feedback.
 ### Planned Feedback System
 
 **Users will be able to:**
+
 - Flag disputed information
 - Suggest alternative interpretations
 - Provide additional sources
@@ -31,6 +32,7 @@ This project will evolve into a **collective work** through community feedback.
 - Propose new connections
 
 **Developer (me) will:**
+
 - Review all submissions
 - Verify sources
 - Update lore database
@@ -42,7 +44,9 @@ This project will evolve into a **collective work** through community feedback.
 ## Why Community Feedback Matters
 
 ### 1. Distributed Expertise
+
 No single researcher can know all ancient traditions. Users may have:
+
 - Academic specializations we lack
 - Cultural knowledge from lived experience
 - Access to rare sources
@@ -50,7 +54,9 @@ No single researcher can know all ancient traditions. Users may have:
 - Indigenous oral tradition connections
 
 ### 2. Error Correction
+
 Despite our rigor, mistakes happen:
+
 - Misattributed quotes
 - Incorrect page numbers
 - Outdated translations
@@ -58,7 +64,9 @@ Despite our rigor, mistakes happen:
 - Missing context
 
 ### 3. Evolving Scholarship
+
 New discoveries emerge:
+
 - Archaeological findings
 - Newly translated texts
 - Academic papers
@@ -66,7 +74,9 @@ New discoveries emerge:
 - Anthropological studies
 
 ### 4. Transparency & Trust
+
 Community feedback reinforces our commitment to:
+
 - Honesty about limitations
 - Willingness to correct errors
 - Openness to new evidence
@@ -77,11 +87,13 @@ Community feedback reinforces our commitment to:
 ## Implementation Plan
 
 ### Phase 1: Beta Launch (Current)
+
 - Release with current research (Gate 1 complete, others in progress)
 - Display "Beta" badge on all lore screens
 - Include disclaimer: "This research is ongoing. Feedback welcome."
 
 ### Phase 2: Feedback Feature (Q2 2025)
+
 - Add "Report Issue" button on lore cards
 - **Rigorous feedback form** requiring substantive case:
   - Issue type (citation error, disputed claim, missing source, etc.)
@@ -96,14 +108,16 @@ Community feedback reinforces our commitment to:
     - URL (if available)
   - **Why this matters (REQUIRED, 100 char minimum)**
   - User email (optional, for credit)
-  
+
 **Form validation:**
+
 - ❌ Blocks submission if required fields empty
 - ❌ Rejects vague descriptions ("this is wrong")
 - ❌ Requires specific citations (no "I read somewhere")
 - ✅ Encourages thoughtful, evidence-based submissions
 
 ### Phase 3: Review System (Q3 2025)
+
 - Developer dashboard for reviewing submissions
 - **Automatic quality scoring:**
   - High quality: Named sources + specific citations + detailed explanation
@@ -119,6 +133,7 @@ Community feedback reinforces our commitment to:
   - Rejected: "Insufficient evidence" (with explanation)
 
 ### Phase 4: Public Changelog (Q4 2025)
+
 - Display lore version history
 - Show what changed and why
 - Credit contributors
@@ -129,16 +144,19 @@ Community feedback reinforces our commitment to:
 ## Feedback Categories
 
 ### High Priority (Immediate Review)
+
 - **Citation Errors:** Wrong page numbers, misattributed quotes
 - **Disputed Claims:** Flagged by multiple users or academic sources
 - **Dangerous Misinformation:** Health/safety concerns
 
 ### Medium Priority (Quarterly Review)
+
 - **Alternative Interpretations:** Different scholarly perspectives
 - **Additional Sources:** New supporting evidence
 - **Missing Context:** Important nuances not captured
 
 ### Low Priority (Annual Review)
+
 - **Stylistic Suggestions:** Wording improvements
 - **UI/UX Feedback:** Presentation preferences
 - **Feature Requests:** New lore display options
@@ -150,6 +168,7 @@ Community feedback reinforces our commitment to:
 All submissions must meet the same standards as our research:
 
 ### Required (Form Enforced):
+
 - ✅ Named sources (no "various researchers")
 - ✅ Specific citations (page numbers, editions)
 - ✅ Verifiable claims (we can check them)
@@ -158,18 +177,21 @@ All submissions must meet the same standards as our research:
 - ✅ Clear reasoning (100+ characters on why it matters)
 
 ### Preferred:
+
 - Ancient textual support
 - Cross-cultural verification
 - Academic publications
 - Published books with ISBN
 
 ### Flagged for Review:
+
 - Channeled-only sources (evaluated case-by-case)
 - Blog sources (requires verification)
 - Anonymous claims (needs attribution)
 - Disputed theories (noted as such)
 
 ### Auto-Rejected (Saves Developer Time):
+
 - ❌ No sources provided
 - ❌ Vague descriptions ("this seems wrong")
 - ❌ Personal opinions without evidence
@@ -182,11 +204,13 @@ All submissions must meet the same standards as our research:
 ## Contributor Recognition
 
 ### Credit System:
+
 - **Major Contributions:** Name in app credits + changelog
 - **Minor Corrections:** Acknowledgment in changelog
 - **Anonymous:** "Community contributor" credit
 
 ### Hall of Contributors (Future):
+
 - Public list of contributors
 - Number of accepted submissions
 - Areas of expertise
@@ -197,9 +221,11 @@ All submissions must meet the same standards as our research:
 ## Preventing Low-Quality Submissions
 
 ### Form Design Philosophy:
+
 **Make it easy to submit good feedback, hard to submit BS.**
 
 ### Friction Points (Intentional):
+
 1. **Required fields** - Can't skip sources or explanations
 2. **Character minimums** - Forces thoughtful responses
 3. **Citation structure** - Must provide title, author, page number
@@ -207,6 +233,7 @@ All submissions must meet the same standards as our research:
 5. **Example submissions** - Shows what good feedback looks like
 
 ### UI/UX Strategies:
+
 - **Good example shown first:** "Here's what a helpful submission looks like"
 - **Bad example shown second:** "This would be rejected (no sources)"
 - **Real-time validation:** "Your explanation is too vague. Be specific."
@@ -214,11 +241,13 @@ All submissions must meet the same standards as our research:
 - **Estimated review time:** "High-quality submissions reviewed within 1 week"
 
 ### Gamification (Optional):
+
 - **Submission score preview:** "Your submission quality: 7/10"
 - **Tips to improve:** "Add page numbers to increase score to 9/10"
 - **Contributor level:** "Submit 3 accepted corrections to unlock 'Verified Contributor' badge"
 
 ### Rate Limiting:
+
 - **Anonymous users:** 1 submission per day
 - **Email-verified users:** 5 submissions per day
 - **Verified contributors:** Unlimited (earned through accepted submissions)
@@ -228,6 +257,7 @@ All submissions must meet the same standards as our research:
 ## Maintaining Scholarly Integrity
 
 ### Developer Responsibilities:
+
 1. **Verify all submissions** before accepting
 2. **Maintain evidence-based standards** (no hype)
 3. **Flag disputes honestly** (van Beek approach)
@@ -235,6 +265,7 @@ All submissions must meet the same standards as our research:
 5. **Update regularly** (quarterly minimum)
 
 ### What We Won't Accept:
+
 - ❌ Unverifiable claims
 - ❌ Anonymous sources
 - ❌ Blog-only evidence
@@ -242,6 +273,7 @@ All submissions must meet the same standards as our research:
 - ❌ Dangerous misinformation
 
 ### Common BS Patterns (Auto-Flagged):
+
 1. **"I read somewhere..."** → Rejected: Provide specific source
 2. **"Everyone knows..."** → Rejected: Provide evidence
 3. **"My intuition says..."** → Rejected: Not evidence-based
@@ -252,16 +284,21 @@ All submissions must meet the same standards as our research:
 8. **Personal blog as sole source** → Rejected: Requires scholarly verification
 
 ### Response Templates for Rejections:
+
 **Insufficient Evidence:**
+
 > "Thank you for your submission. To maintain scholarly standards, we require specific citations (author, title, page number, edition). Please resubmit with verifiable sources."
 
 **Vague Description:**
+
 > "Your submission lacks specific details. Please explain exactly what is incorrect and provide the correct information with supporting sources."
 
 **Opinion Without Evidence:**
+
 > "We appreciate your perspective, but require evidence-based submissions. Please provide scholarly sources that support your claim."
 
 **Blog-Only Source:**
+
 > "Blog sources require verification from published academic works. Please provide the original scholarly source the blog references."
 
 ---
@@ -269,12 +306,14 @@ All submissions must meet the same standards as our research:
 ## Long-Term Vision
 
 **Star System Sorter becomes:**
+
 - A living document of ancient wisdom
 - A collaborative research project
 - A model for community-driven scholarship
 - A trusted resource that improves over time
 
 **Success metrics:**
+
 - Number of verified corrections
 - Diversity of contributor expertise
 - Improved citation quality
@@ -286,17 +325,20 @@ All submissions must meet the same standards as our research:
 ## Current Status
 
 **Completed:**
+
 - ✅ Gate 1 research (Pass A, B, C)
 - ✅ Scholarly standards established
 - ✅ Citation quality framework
 - ✅ Dispute flagging system
 
 **In Progress:**
+
 - ⏳ Gates 2-64 research
 - ⏳ Beta app development
 - ⏳ Feedback system design
 
 **Planned:**
+
 - 📋 Feedback feature implementation
 - 📋 Contributor dashboard
 - 📋 Public changelog
@@ -307,6 +349,7 @@ All submissions must meet the same standards as our research:
 ## Contact
 
 For early feedback before the system launches:
+
 - GitHub Issues: [Repository URL]
 - Email: [Developer email]
 - Discord: [Community server] (future)
@@ -316,6 +359,7 @@ For early feedback before the system launches:
 ## Acknowledgment
 
 This approach is inspired by:
+
 - Wikipedia's collaborative model
 - Academic peer review
 - Open source contribution systems

@@ -1,0 +1,77 @@
+### SOURCE QUALITY VERIFICATION RULES (MANDATORY)
+
+**Every source MUST pass these checks before inclusion:**
+
+✅ **ACCEPTABLE:**
+- Published book with verifiable ISBN
+- Academic journal with DOI or JSTOR link
+- Ancient text with named translator/editor
+- University/museum website with citations
+- Established channeled work (published book, not blog)
+
+❌ **UNACCEPTABLE (will cause REJECTION):**
+- Blog posts or personal websites
+- "Unknown" or missing page numbers
+- Placeholder quotes like "[EXAMPLE QUOTE]" or "Discusses X"
+- Paraphrases presented as direct quotes
+- Anonymous authors or "Various researchers"
+- Social media posts
+- YouTube videos without published transcripts
+- Wiki-style sites without citations
+
+**Verification Process:**
+1. Can you find this book on Amazon, publisher site, or library catalog? → YES = proceed
+2. Does the page number/location exist in the actual source? → YES = proceed
+3. Is the quote verbatim from the source (≤25 words)? → YES = proceed
+4. Is the author's full name provided? → YES = proceed
+5. Is the edition specified? → YES = proceed
+
+**If ANY answer is NO → DO NOT include this source. Find a better one.**
+
+## SOURCE QUALITY ENFORCEMENT
+
+**Before submitting, verify EVERY source passes these checks:**
+
+| Check | Requirement | Failure = Rejection |
+|-------|-------------|---------------------|
+| **Title** | Full, exact title (not abbreviated) | ❌ Abbreviated → ✅ Full title |
+| **Author** | Full name (not initials) | ❌ Initials → ✅ Full name |
+| **Edition** | Specific edition info | ❌ "unknown" → ✅ "First Edition" or year |
+| **Page** | Exact location | ❌ "unknown" → ✅ Specific page/section |
+| **Quote** | Verbatim text ≤25 words | ❌ "[EXAMPLE]" → ✅ Actual quote |
+| **URL** | Working link if available | ❌ Missing when online → ✅ Include URL |
+| **Translator** | Required for ancient texts | ❌ Missing → ✅ "Name (translator)" |
+| **Verified** | Must be `true` | ❌ Missing field → ✅ `"verified": true` |
+
+**Red Flags (indicate lazy research):**
+- ❌ More than 20% of sources missing URLs when available online
+- ❌ Any placeholder quotes or "unknown" fields
+- ❌ Vague page references like "throughout" or "various pages"
+- ❌ Missing translator/editor for ancient texts
+- ❌ Abbreviated titles or author names
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Any source missing `"verified": true` field
+❌ Any placeholder quotes like "[EXAMPLE QUOTE]" or "Discusses X"
+❌ Any "unknown" or missing page numbers
+❌ Any missing translator/editor for ancient texts (if applicable)
+❌ Any abbreviated titles or author initials
+❌ Any missing edition information
+❌ Any blog sources or personal websites
+❌ Any social media posts or YouTube videos
+❌ More than 20% of sources missing URLs when available online
+❌ Vague page references like "throughout" or "various pages"
+
+**PASS CRITERIA:**
+✅ Every source has complete citation with all required fields
+✅ Every source has `"verified": true`
+✅ All quotes are verbatim from source (≤25 words)
+✅ All page numbers are specific and verifiable
+✅ All titles and author names are complete (not abbreviated)
+
+**If you cannot verify a source meets these standards, DO NOT include it. Find a better source instead.**

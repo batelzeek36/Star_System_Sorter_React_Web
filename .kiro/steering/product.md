@@ -10,6 +10,32 @@ Star System Sorter (S³) is a React web app that provides deterministic star sys
 - **Privacy-First**: No logging of PII, secure API key handling, hashed cache keys
 - **Cosmic Experience**: Dark theme with lavender gradients, starfield backgrounds, and star system crests
 - **Fast & Efficient**: 30-day caching reduces API calls and improves performance
+- **Academic-Grade Research**: Built on rigorous comparative mythology with proper citations, not typical astrology blog content
+
+## Academic Foundation (Competitive Moat)
+
+**Human Design's Credible Foundations:**
+- **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
+- **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968) - verifiable mathematical correspondence
+- **Kabbalah (Tree of Life)** - Extensive academic study (Scholem, Idel)
+- **Chakra system** - Religious Studies, Yoga Studies (Feuerstein)
+- **Western Astrology** - Cultural/historical phenomenon (Tarnas)
+
+**Mathematical Correspondences:**
+- 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
+- Binary yin/yang logic = Binary genetic code (A/T, C/G)
+
+**Our Research Standards:**
+- Ancient texts with named translators (Faulkner, Mercer, Wilhelm)
+- Published books with ISBNs and page numbers
+- Academic papers from JSTOR, university repositories
+- Evidence typing (direct/inferred/symbolic)
+- Consensus levels documented
+- Disputed claims include counter-evidence
+
+**This is NOT pseudoscience** - it's a synthesis system built on academically documented foundations, combined with comparative mythology research. Frame it as: **"Contemporary mythology with academic-grade sourcing"** not "scientifically proven predictions."
+
+**Competitive Advantage:** No other astrology/mythology app can claim this level of research rigor or academic foundation.
 
 ## User Flow (MVP)
 
@@ -20,7 +46,16 @@ Star System Sorter (S³) is a React web app that provides deterministic star sys
 
 ## Star Systems
 
-Six possible classifications: **Pleiades**, **Sirius**, **Lyra**, **Andromeda**, **Orion**, **Arcturus**
+Nine possible classifications: **Pleiades**, **Sirius**, **Lyra**, **Andromeda**, **Orion Light**, **Orion Dark**, **Arcturus**, **Draco**, **Zeta Reticuli**
+
+### Orion Faction Distinction
+The Orion star system has two distinct factions that are classified separately:
+- **Orion Light (Osirian)**: Mystery schools, Thoth/Hermes lineage, sacred geometry, wisdom keepers, record keepers
+- **Orion Dark**: Control, hierarchy, shadow work, often allied with Draco but distinct from it
+
+### Other Key Distinctions
+- **Draco**: Separate star system from Orion, power/hierarchy archetype, often allied with Orion Dark faction
+- **Zeta Reticuli**: Analytical, detached, genetic experimenters
 
 Classifications can be:
 - **Primary**: Clear winner (>6% lead)
@@ -32,6 +67,9 @@ Classifications can be:
 - Always use "star system" (never "house")
 - Legal disclaimer on all screens: "For insight & entertainment. Not medical, financial, or legal advice."
 - Human Design attributes: type, authority, profile, centers, channels, gates
+- Frame as: "Comparative mythology research" or "Contemporary mythology with academic-grade sourcing"
+- Avoid: "Scientifically proven", "medical diagnosis", "predict the future"
+- Emphasize: "Pattern recognition", "archetypal mapping", "self-discovery tool"
 
 ## Figma Components
 
@@ -72,6 +110,32 @@ Pre-built components exist in `/Figma/components/s3/`:
 3. No client exposure of API key
 4. Tests pass (≥80% lib coverage + Playwright smoke)
 5. Basic accessibility compliance
+
+## Communicating Academic Credibility
+
+**On "Why" Screen (Task 11):**
+- Explain the I Ching → Human Design → Star System mapping
+- Mention the 64 hexagrams = 64 codons correspondence
+- Link to methodology documentation (Phase 2)
+- Emphasize research quality without overpromising
+
+**Tone:**
+- Confident but not arrogant
+- "We've done the research so you don't have to"
+- "Built on 3,000 years of I Ching scholarship, not blog posts"
+- "Comparative mythology meets pattern recognition"
+
+**What NOT to say:**
+- ❌ "Scientifically proven"
+- ❌ "Predict your future"
+- ❌ "Medical/psychological diagnosis"
+- ❌ "100% accurate"
+
+**What TO say:**
+- ✅ "Based on Human Design's I Ching foundation"
+- ✅ "Researched using ancient texts and published sources"
+- ✅ "Pattern recognition tool for self-discovery"
+- ✅ "For insight and entertainment"
 
 ## Privacy & Compliance
 

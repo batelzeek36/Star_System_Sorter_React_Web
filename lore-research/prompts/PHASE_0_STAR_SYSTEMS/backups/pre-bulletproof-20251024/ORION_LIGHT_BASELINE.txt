@@ -1,0 +1,145 @@
+# ORION LIGHT (OSIRIAN) BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research ORION LIGHT/OSIRIAN characteristics (mystery schools, Thoth/Hermes lineage). EXCLUDE Orion Dark/Draco material.
+
+## HYPOTHESIS TO VALIDATE
+- Record keepers / historians
+- Spiritual strategists / system architects
+- Carriers of sacred geometry
+- Affiliated with Thoth / Hermes / Osiris
+- Oppose Orion "Dark" / Draco factions
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md`
+
+This library contains 300+ verified sources. Use these as examples of source quality.
+
+## PRIMARY SOURCES
+
+### Ancient Egyptian
+- Pyramid Texts (Orion = Sah = Osiris)
+- Book of the Dead
+- Coffin Texts
+- Temple inscriptions (Dendera, Edfu)
+
+### Hermetic Tradition
+- Emerald Tablets (attributed to Thoth)
+- Hermetic Corpus
+- Rosicrucian writings
+
+### Modern Research
+- "The Orion Mystery" by Robert Bauval (1994)
+- "The Sirius Mystery" by Robert Temple (Orion references)
+- "The Law of One" (Ra Material - Orion mentions)
+
+### Scholarly Works
+- "The Ancient Egyptian Pyramid Texts" by James P. Allen (2005)
+- "The Orion Zone" by Gary A. David (2006)
+
+## SPECIAL HANDLING: Light vs Dark Orion
+
+Document any sources that distinguish:
+- Osirian/Light Orion (mystery schools, wisdom)
+- Draco-influenced/Dark Orion (control, hierarchy)
+
+Mark as `faction: "light"` or `faction: "dark"` in sources.
+
+## DISPUTED CLAIMS
+
+**Orion Correlation Theory** (Bauval): Giza pyramids align with Orion's Belt
+- Supporting: Bauval, Hancock
+- Counter: Mainstream Egyptology (culturally interesting, not universally accepted)
+- Mark as `disputed: true` with `consensus: "medium"`
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Orion Light",
+  "characteristics": [
+    {
+      "trait": "Record keepers and historians",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "high|medium|low|unknown",
+      "evidence_type": "direct|inferred|symbolic",
+      "disputed": false,
+      "faction": "light",
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "FULL NAME (translator/editor) - REQUIRED FOR ANCIENT TEXTS",
+          "edition": "EDITION",
+          "year": 2005,
+          "original_year": 2005,
+          "page": "SPECIFIC LOCATION (utterance/spell for ancient texts)",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "ancient|research|channeled"
+        }
+      ]
+    }
+  ],
+  "light_vs_dark_distinctions": "Summary of how sources distinguish Light from Dark Orion",
+  "research_notes": "Orion-Osiris connection, Thoth associations, disputed theories"
+}
+```
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include full metadata, translator/editor for ancient texts, specific location, actual quotes (NOT PLACEHOLDERS), URLs, and source type.
+
+⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Light vs Dark Orion distinguished
+✅ Egyptian Orion-Osiris link documented (HIGH ancient support)
+✅ Ancient sources include translator/editor attribution
+✅ Thoth/Hermes connections noted (evidence_type: inferred)
+✅ Bauval theory marked as disputed
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information and URLs included
+
+**If unverifiable claims exist**, note in `research_notes`.
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), Light/Dark distinction clear.**

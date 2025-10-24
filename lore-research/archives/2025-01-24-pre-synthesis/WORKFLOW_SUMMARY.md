@@ -1,5 +1,15 @@
 # Lore Research Workflow Summary
 
+## 🚨 CRITICAL: Phase 0 Must Come First
+
+**Before researching any gates, you MUST complete Phase 0 (Star System Baselines).**
+
+See: `PHASE_0_EXECUTION_GUIDE.md` for complete instructions.
+
+---
+
+# Lore Research Workflow Summary
+
 ## What Changed
 
 **Before:** Manual copy-paste of nearly identical prompts for each gate  
@@ -57,6 +67,7 @@ This creates 3 files in `prompts/gate-3/` with all variables replaced.
 ```
 
 Shows:
+
 - ✅ Complete gates (all 3 passes done)
 - ⚠️ Partial gates (1-2 passes done)
 - Overall percentage
@@ -64,6 +75,7 @@ Shows:
 ### 4. Follow the Checklist
 
 Open `TASKS.md` and work through the gates in priority order:
+
 1. **Phase 1**: G Center gates (identity)
 2. **Phase 2**: Emotional & intuitive gates
 3. **Phase 3**: Mental & logic gates
@@ -72,14 +84,14 @@ Open `TASKS.md` and work through the gates in priority order:
 
 ## Key Files
 
-| File | Purpose |
-|------|---------|
-| `TASKS.md` | Main workflow, checklist, progress tracking |
-| `GATE_ARCHETYPES.md` | Keywords for all 64 gates |
-| `CITATION_QUALITY_STANDARDS.md` | Validation criteria |
-| `COMET_WORKFLOW_GUIDE.md` | Detailed instructions |
-| `scripts/generate-gate-prompts.sh` | Automation tool |
-| `scripts/check-progress.sh` | Progress tracker |
+| File                               | Purpose                                     |
+| ---------------------------------- | ------------------------------------------- |
+| `TASKS.md`                         | Main workflow, checklist, progress tracking |
+| `GATE_ARCHETYPES.md`               | Keywords for all 64 gates                   |
+| `CITATION_QUALITY_STANDARDS.md`    | Validation criteria                         |
+| `COMET_WORKFLOW_GUIDE.md`          | Detailed instructions                       |
+| `scripts/generate-gate-prompts.sh` | Automation tool                             |
+| `scripts/check-progress.sh`        | Progress tracker                            |
 
 ## Benefits
 

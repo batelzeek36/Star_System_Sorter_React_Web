@@ -1,0 +1,442 @@
+# PLEIADES BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+❌ Commercial websites (jewelry, art sales, psychic services, etc.)
+❌ Astrology/spiritual blogs without academic credentials
+❌ Personal artist or practitioner websites
+
+⚠️ **WIKIPEDIA & ONLINE ENCYCLOPEDIAS:**
+Wikipedia, online encyclopedias, and similar aggregator sites are **NOT ACCEPTABLE** as primary sources. These are lazy shortcuts. Instead:
+- Find the PRIMARY SOURCE that Wikipedia cites (the actual book, journal, or ancient text)
+- Cite that source directly with full bibliographic information
+- Example: Don't cite "Wikipedia article on Sopdet" → Cite the actual Pyramid Texts translation by Faulkner
+- If Wikipedia mentions a scholar's work, find and cite that scholar's published book or paper
+
+This is a **lore-grade research project**, not a homework assignment. Use authoritative primary sources only.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔥 NO EXCUSES - YOU CAN DO THIS
+═══════════════════════════════════════════════════════════════════════════════
+
+**DO NOT give up and return empty results.** The Sirius baseline research successfully found:
+- ISBNs for published books
+- Specific page numbers and chapters
+- Verbatim quotes from sources
+- URLs to archive.org, publisher sites, and academic databases
+
+**YOU MUST DO THE SAME FOR PLEIADES.**
+
+**Where to find sources:**
+✅ Archive.org - Full book scans with page numbers
+✅ Google Books - Preview pages with quotes
+✅ Publisher websites - Book excerpts and ISBNs
+✅ Academic databases - JSTOR, academia.edu, university repositories
+✅ Sacred-texts.com - Ancient text translations
+
+**Known sources you MUST find and cite properly:**
+
+**Modern Channeled Material:**
+1. Barbara Marciniak - "Bringers of the Dawn" (1992, ISBN 0-939680-98-5)
+2. Barbara Hand Clow - "The Pleiadian Agenda" (1995, ISBN 1-879181-30-4)
+3. Amorah Quan Yin - "The Pleiadian Workbook" (1996, ISBN 1-879181-31-2)
+
+**Academic/Scholarly:**
+4. Munya Andrews - "The Seven Sisters of the Pleiades" (2004, ISBN 1-876756-45-5) - USE SPECIFIC PAGES
+5. Alain Daniélou - "The Myths and Gods of India" (1991, ISBN 0-89281-354-7) - For Hindu Krittika
+6. Wendy Doniger - "Hindu Myths" (Penguin Classics, ISBN 0-14-044306-1)
+7. Rangi Matamua - "Matariki: The Star of the Year" (2017, ISBN 978-0-947506-82-4) - Maori traditions
+
+**Ancient Texts (with translator):**
+8. Ovid - "Metamorphoses" (A.S. Kline translation, 2000)
+9. Hesiod - "Works and Days" (M.L. West translation)
+10. Apollodorus - "Library" (J.G. Frazer translation)
+
+**🚨 CRITICAL: KRITTIKA/VEDIC SOURCES - DO NOT USE WIKIPEDIA**
+
+For Hindu/Vedic Krittika references, you MUST cite PRIMARY SOURCES:
+
+**ACCEPTABLE Mahabharata/Ramayana Sources:**
+- Kisari Mohan Ganguli translation (1883-1896) - Available on sacred-texts.com
+- K.M. Ganguli translation via Wisdom Library (wisdomlib.org) - Cites specific Mahabharata sections
+- Bibek Debroy translation (Penguin, 2015) - Modern scholarly translation with ISBN
+- J.A.B. van Buitenen translation (University of Chicago Press) - Academic standard
+
+**ACCEPTABLE Vedic Astronomy Sources:**
+- "The Myths and Gods of India" by Alain Daniélou (1991, ISBN 0-89281-354-7)
+- "Hindu Myths" by Wendy Doniger (Penguin Classics, ISBN 0-14-044306-1)
+- "Vedic Cosmography and Astronomy" by Richard L. Thompson (1989, ISBN 0-89213-250-9)
+- Academic papers on Nakshatra system from JSTOR or university repositories
+
+**WHERE TO FIND THESE:**
+✅ Sacred-texts.com - Full Mahabharata/Ramayana translations
+✅ Wisdom Library (wisdomlib.org) - Searchable Sanskrit texts with citations
+✅ Archive.org - Scanned books with page numbers
+✅ Google Books - Preview pages for Daniélou, Doniger, Thompson
+
+**EXAMPLE PROPER CITATION (Krittika as nurturers):**
+```json
+{
+  "title": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+  "author": "Vyasa",
+  "translator_or_editor": "Kisari Mohan Ganguli (translator)",
+  "edition": "1883-1896 Translation",
+  "year": 1896,
+  "original_year": -400,
+  "page": "Vana Parva, Section 225",
+  "quote": "the six Krittikas who became the nurses of Kartikeya",
+  "url": "https://www.sacred-texts.com/hin/m03/m03225.htm",
+  "source_type": "ancient",
+  "verified": true
+}
+```
+
+**❌ UNACCEPTABLE:**
+- Wikipedia article on "Krittika" (even if it mentions Mahabharata)
+- Wisdom Library without citing specific Mahabharata section
+- Any source listing "Wikipedia Contributors" as author
+
+**✅ ACCEPTABLE:**
+- Mahabharata translation by named translator with specific section/verse
+- Academic book about Vedic astronomy with ISBN and page number
+- Wisdom Library IF you cite the underlying Mahabharata section it references
+
+**FORBIDDEN SOURCES (DO NOT USE):**
+❌ Art gallery websites (Art Ark, Anneke Art, etc.)
+❌ Jewelry/gemstone sales sites (Rudraksha Ratna, etc.)
+❌ Astrology blogs (Cosmic Shiksha, etc.)
+❌ Psychic service websites
+❌ Personal spiritual practitioner blogs
+❌ Wikipedia (find the primary source it cites instead)
+❌ **CRITICAL:** Wikipedia article on "Krittika" - Use Mahabharata translation instead
+❌ Any source with "Wikipedia Contributors" as author
+
+**If you return empty characteristics or say "I cannot access books", your response will be REJECTED.**
+
+You have web search. Use it. Find the sources. Extract the information. Return complete JSON.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research and document characteristics attributed to the PLEIADES star cluster across ancient mythology, indigenous traditions, modern esoteric literature, and channeled material. Return findings as minified JSON with complete citations.
+
+## ACADEMIC CONTEXT
+
+This research supports Star System Sorter, which maps Human Design's I Ching-based gate system to star mythology.
+
+**Human Design's Academic Foundations:**
+- **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
+- **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968)
+- **Kabbalah (Tree of Life)** - Extensive academic study (Scholem, Idel)
+- **Chakra system** - Religious Studies, Yoga Studies (Feuerstein)
+- **Western Astrology** - Cultural/historical phenomenon (Tarnas)
+
+**Mathematical Correspondences:**
+- 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
+- Binary yin/yang logic = Binary genetic code (A/T, C/G)
+
+**Your Task:** Document star system characteristics using rigorous sourcing standards (ancient texts, published books, proper citations). This is **comparative mythology research**, not pseudoscience.
+
+## HYPOTHESIS TO VALIDATE
+- Emotional empaths and healers
+- Artistic, sensual, aesthetic beings
+- Feminine-coded (Yin, Venusian energy)
+- Starseed origin point for many souls
+- Spiritual midwives of awakening
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md`
+
+This library contains 300+ verified sources. Use these as examples of source quality. Find sources AS GOOD AS or BETTER THAN these.
+
+## PRIMARY SOURCES
+
+### Ancient Mythology (Cross-Cultural Seven Sisters Pattern)
+- Greek: Seven Sisters (daughters of Atlas, companions of Artemis)
+- Aboriginal Australian: Songlines and Dreamtime stories
+- Cherokee: Seven boys who became stars
+- Maya: Tzab (rattlesnake's tail)
+- Hindu: Krittika (nurturing mothers of Kartikeya)
+- Japanese: Subaru (unity, harmony)
+- Maori: Matariki (New Year celebration)
+
+### Modern Esoteric Literature
+- "Bringers of the Dawn" by Barbara Marciniak (1992)
+- "The Pleiadian Agenda" by Barbara Hand Clow (1995)
+- "The Pleiadian Workbook" by Amorah Quan Yin (1996)
+- "Family of Light" by Barbara Marciniak (1998)
+
+### Scholarly Works
+- "The Seven Sisters of the Pleiades" by Munya Andrews (2004)
+- "Star Myths of the Greeks and Romans" by Theony Condos (1997)
+- Academic papers on cross-cultural Seven Sisters myths
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include:
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names, not initials)
+3. **Translator/Editor** (for ancient texts - e.g., "Theony Condos (translator)")
+4. **Edition information** (e.g., "Revised Edition", "2nd Edition")
+5. **Publication year** (original and edition if different)
+6. **Specific location** (page numbers, chapter, section, verse/line for ancient texts)
+7. **Direct quote** (≤25 words, actual text from source - NOT PLACEHOLDER)
+8. **URL** (if available online - archive.org, publisher, academic database)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+10. **Source quality verification** (MANDATORY - see enforcement section below)
+
+### SOURCE QUALITY VERIFICATION RULES (MANDATORY)
+
+**Every source MUST pass these checks before inclusion:**
+
+✅ **ACCEPTABLE:**
+- Published book with verifiable ISBN
+- Academic journal with DOI or JSTOR link
+- Ancient text with named translator/editor
+- University/museum website with citations
+- Established channeled work (published book, not blog)
+
+❌ **UNACCEPTABLE (will cause REJECTION):**
+- Blog posts or personal websites
+- "Unknown" or missing page numbers
+- Placeholder quotes like "[EXAMPLE QUOTE]" or "Discusses X"
+- Paraphrases presented as direct quotes
+- Anonymous authors or "Various researchers"
+- Social media posts
+- YouTube videos without published transcripts
+- Wiki-style sites without citations
+
+**Verification Process:**
+1. Can you find this book on Amazon, publisher site, or library catalog? → YES = proceed
+2. Does the page number/location exist in the actual source? → YES = proceed
+3. Is the quote verbatim from the source (≤25 words)? → YES = proceed
+4. Is the author's full name provided? → YES = proceed
+5. Is the edition specified? → YES = proceed
+
+**If ANY answer is NO → DO NOT include this source. Find a better one.**
+
+## SPECIAL FOCUS: Cross-Cultural Validation
+
+The Seven Sisters pattern appears in 6+ cultures globally. Document:
+- Which cultures have Seven Sisters myths?
+- What characteristics are attributed to them?
+- Are there consensus patterns (nurturing, feminine, artistic)?
+- How do ancient myths compare to modern channeled material?
+
+## CONSENSUS LEVELS
+- **HIGH**: 3+ independent sources, cross-cultural validation
+- **MEDIUM**: 2-3 sources, or strong in one category
+- **LOW**: Single source, disputed, or channeled-only
+
+## ANCIENT SUPPORT LEVELS
+- **HIGH**: Explicit in ancient texts/myths (Seven Sisters ubiquity)
+- **MEDIUM**: Inferred from deity associations
+- **LOW**: Symbolic resonance only
+- **UNKNOWN**: No ancient references
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be valid JSON only. No narrative text, no explanations, no markdown.
+Start with { and end with }. Nothing else.
+
+If you write anything other than pure JSON, your response will be REJECTED.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OUTPUT FORMAT (Minified JSON only)
+
+```json
+{
+  "star_system": "Pleiades",
+  "version": "1.0",
+  "last_updated": "2025-01-24",
+  
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Cross-cultural star mythology (Greek, Aboriginal, Indigenous)",
+      "Jungian archetypal psychology",
+      "Comparative religious studies"
+    ],
+    "source_standards": "Ancient texts with named translators, published books with ISBNs, evidence typing (direct/inferred/symbolic), consensus levels documented",
+    "research_date": "2025-01-24"
+  },
+  
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+      "64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+      "Kabbalah - Extensive academic study (Scholem, Idel)",
+      "Chakra system - Religious Studies, Yoga Studies",
+      "Western Astrology - Cultural/historical phenomenon (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+    ]
+  },
+  
+  "characteristics": [
+    {
+      "trait": "Nurturers and artistic beings",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "high|medium|low|unknown",
+      "evidence_type": "direct|inferred|symbolic",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "FULL NAME (translator/editor) - REQUIRED FOR ANCIENT TEXTS",
+          "edition": "EDITION",
+          "year": 1992,
+          "original_year": 1992,
+          "page": "SPECIFIC LOCATION (verse/line for ancient texts)",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL IF AVAILABLE",
+          "source_type": "ancient|research|channeled|indigenous",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "cross_cultural_patterns": [
+    {
+      "pattern": "Seven Sisters motif",
+      "cultures": ["Greek", "Aboriginal", "Cherokee", "Maya", "Hindu", "Japanese", "Maori"],
+      "consensus": "Universal recognition of Pleiades as seven female entities"
+    }
+  ],
+  "research_notes": "Summary of consensus patterns and notable findings",
+  
+  "bibliography": {
+    "ancient_texts": [
+      "List key ancient texts cited (e.g., 'Ovid - Metamorphoses (Kline translation, 2000)')"
+    ],
+    "modern_research": [
+      "List key modern research books (e.g., 'Andrews, M. (2004). The Seven Sisters of the Pleiades')"
+    ],
+    "academic_foundations": [
+      "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press",
+      "Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize)",
+      "Scholem, G. (1941). Major Trends in Jewish Mysticism"
+    ]
+  }
+}
+```
+
+## SOURCE QUALITY ENFORCEMENT
+
+**Before submitting, verify EVERY source passes these checks:**
+
+| Check | Requirement | Failure = Rejection |
+|-------|-------------|---------------------|
+| **Title** | Full, exact title (not abbreviated) | ❌ "Bringers" → ✅ "Bringers of the Dawn" |
+| **Author** | Full name (not initials) | ❌ "B. Marciniak" → ✅ "Barbara Marciniak" |
+| **Edition** | Specific edition info | ❌ "unknown" → ✅ "First Edition" or "1992" |
+| **Page** | Exact location | ❌ "unknown" → ✅ "Chapter 3, pp. 45-47" |
+| **Quote** | Verbatim text ≤25 words | ❌ "[EXAMPLE]" → ✅ "actual quote from source" |
+| **URL** | Working link if available | ❌ Missing when source is online → ✅ Include URL |
+| **Translator** | Required for ancient texts | ❌ Missing → ✅ "Theony Condos (translator)" |
+| **Verified** | Must be `true` | ❌ Missing field → ✅ `"verified": true` |
+
+**Red Flags (indicate lazy research):**
+- ❌ More than 20% of sources missing URLs when available online
+- ❌ Any placeholder quotes or "unknown" fields
+- ❌ Vague page references like "throughout" or "various pages"
+- ❌ Missing translator/editor for ancient texts
+- ❌ Abbreviated titles or author names
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ **Every source has `"verified": true` field**
+✅ **Zero placeholder quotes or "unknown" fields**
+✅ **All ancient sources have translator/editor attribution**
+✅ Cross-cultural validation documented
+✅ Ancient myths separated from modern overlay
+✅ Specific page numbers and quotes (no placeholders)
+✅ Edition information included
+✅ URLs where available
+✅ Source types labeled
+
+## EXPECTED FINDINGS
+- Seven Sisters pattern: HIGH ancient support
+- Nurturing/feminine themes: MEDIUM-HIGH consensus
+- Artistic/aesthetic overlay: MEDIUM consensus (mostly modern)
+- Starseed origin claims: LOW consensus (channeled-only)
+
+⚠️ **CITATION EXAMPLES ARE EXAMPLES ONLY - DO NOT COPY INTO OUTPUT**
+⚠️ **YOU MUST FIND AND VERIFY ACTUAL SOURCES WITH REAL QUOTES**
+
+**If a commonly believed claim cannot be verified** (e.g., "Pleiadian dolphin connection"), include it in `research_notes` with:
+> "Note: No credible evidence found for [claim], despite prevalence in New Age discourse."
+
+**Minimum acceptable: 3-5 characteristics, each with 5+ fully cited sources (minimum 3 if truly limited), cross-cultural validation noted.**
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Any source missing `"verified": true` field
+❌ Any placeholder quotes like "[EXAMPLE QUOTE]" or "Discusses X"
+❌ Any "unknown" or missing page numbers
+❌ Any missing translator/editor for ancient texts
+❌ Any abbreviated titles or author initials
+❌ Any missing edition information
+❌ Any blog sources or personal websites
+❌ Any social media posts or YouTube videos
+❌ More than 20% of sources missing URLs when available online
+❌ Vague page references like "throughout" or "various pages"
+❌ **CRITICAL:** Any source with "Wikipedia Contributors" as author
+❌ **CRITICAL:** Wikipedia article on "Krittika" (use Mahabharata translation instead)
+
+**PASS CRITERIA:**
+✅ Every source has complete citation with all 10 required fields
+✅ Every source has `"verified": true`
+✅ All quotes are verbatim from source (≤25 words)
+✅ All ancient sources have translator/editor attribution
+✅ All page numbers are specific and verifiable
+✅ All titles and author names are complete (not abbreviated)
+✅ Cross-cultural patterns documented with specific sources
+✅ Mix of ancient, modern, and channeled sources (where applicable)
+
+**If you cannot verify a source meets these standards, DO NOT include it. Find a better source instead.**

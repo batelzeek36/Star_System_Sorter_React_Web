@@ -1,0 +1,521 @@
+# SIRIUS BASELINE RESEARCH
+
+## CONTEXT
+You are conducting Phase 0 baseline research for the Star System Sorter project. This research establishes the foundational characteristics of Sirius that will later be used to map Human Design gates to star systems. Academic rigor and proper citations are CRITICAL.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+⚠️ **WIKIPEDIA & ONLINE ENCYCLOPEDIAS:**
+Wikipedia, online encyclopedias, and similar aggregator sites are **NOT ACCEPTABLE** as primary sources. These are lazy shortcuts. Instead:
+- Find the PRIMARY SOURCE that Wikipedia cites (the actual book, journal, or ancient text)
+- Cite that source directly with full bibliographic information
+- Example: Don't cite "Wikipedia article on Sopdet" → Cite the actual Pyramid Texts translation by Faulkner
+- If Wikipedia mentions a scholar's work, find and cite that scholar's published book or paper
+
+This is a **lore-grade research project**, not a homework assignment. Use authoritative primary sources only.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research and document the characteristics attributed to the star system SIRIUS across ancient texts, indigenous traditions, modern esoteric literature, and channeled material. Return findings as minified JSON with complete citations.
+
+## ACADEMIC CONTEXT
+
+This research supports Star System Sorter, which maps Human Design's I Ching-based gate system to star mythology.
+
+**Human Design's Academic Foundations:**
+- **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
+- **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968)
+- **Kabbalah (Tree of Life)** - Extensive academic study (Scholem, Idel)
+- **Chakra system** - Religious Studies, Yoga Studies (Feuerstein)
+- **Western Astrology** - Cultural/historical phenomenon (Tarnas)
+
+**Mathematical Correspondences:**
+- 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
+- Binary yin/yang logic = Binary genetic code (A/T, C/G)
+
+**Your Task:** Document star system characteristics using rigorous sourcing standards (ancient texts, published books, proper citations). This is **comparative mythology research**, not pseudoscience.
+
+## HYPOTHESIS TO VALIDATE
+Based on preliminary research, Sirius is associated with:
+- Divine teachers / wisdom keepers
+- Genetic engineers (Nommo tradition)
+- Lawgivers, spiritual initiators
+- Guardians of sacred knowledge
+- Christos-type vibration
+
+Your task is to find evidence that confirms, refutes, or nuances these characteristics.
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md`
+
+This library contains 300+ verified sources across ancient texts, scholarly works, channeled material, and comparative mythology. Use these as examples of the TYPE and QUALITY of sources to find. You should find sources AS GOOD AS or BETTER THAN these.
+
+## PRIMARY SOURCES TO RESEARCH
+
+### Ancient Texts
+- Egyptian Pyramid Texts (Sopdet/Sothis references) - prefer Faulkner or Mercer translations
+- Egyptian Coffin Texts - Faulkner translation
+- Egyptian Book of the Dead - prefer Faulkner over outdated Budge
+- Babylonian star catalogs (MUL.APIN)
+- Greek astronomical texts (Ptolemy)
+- Avestan/Zoroastrian texts (Tishtrya/Tir - often associated with Sirius)
+
+### Indigenous Traditions
+- Dogon oral tradition (Mali, West Africa) - Nommo beings
+- Aboriginal Australian songlines
+- Cherokee star lore
+
+### Modern Esoteric Literature
+- "The Sirius Mystery" by Robert Temple (1976, 50th Anniversary Edition 2019)
+- "The Law of One" (Ra Material, 1981-1984)
+- Patricia Cori "Sirian Revelations" trilogy
+- "The Sirius Connection" by Murry Hope
+
+### Scholarly Works
+- "The Sumerians" by Samuel Noah Kramer
+- "Babylonian Star-Lore" by Gavin White
+- "Ancient Mesopotamian Religion and Mythology" by W.G. Lambert
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include:
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names, not initials)
+3. **Translator/Editor** (for ancient texts - e.g., "R.O. Faulkner (translator)")
+4. **Edition information** (e.g., "50th Anniversary Edition", "Revised Edition")
+5. **Publication year** (original and edition if different)
+6. **Specific location** (page numbers, chapter, section, session number, utterance/spell/tablet reference)
+7. **Direct quote** (≤25 words, actual text from source)
+8. **URL** (if available online - archive.org, publisher, academic database)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+10. **Astronomical component** (A|B|C|unspecified - critical for Sirius research)
+
+### ASTRONOMICAL COMPONENT INFERENCE RULES (MANDATORY)
+
+**You MUST assign A, B, C, or unspecified based on these rules:**
+
+**Component A (Sirius A - the visible star):**
+- Ancient texts referring to "Sirius" or "Sopdet/Sothis" (pre-1862, before Sirius B discovery)
+- Calendar/agricultural associations (heliacal rising, Nile floods)
+- Naked-eye observations (brightness, color, position)
+- Mythological deity associations (Isis, Tishtrya, etc.)
+- **Rule**: If source predates 1862 OR discusses visible star phenomena → Component A
+
+**Component B (Sirius B - white dwarf companion):**
+- Discovered 1862 by Alvan Graham Clark
+- Dogon "po tolo" claims (Temple's thesis)
+- Modern astronomical discussions of the binary system
+- Claims about "invisible companion" or "dark star"
+- **Rule**: If source explicitly mentions Sirius B, binary companion, white dwarf, or "po tolo" → Component B
+
+**Component C (hypothetical Sirius C):**
+- Disputed third companion (not confirmed by mainstream astronomy)
+- Some Dogon traditions mention "emme ya tolo"
+- Temple's speculative third star
+- **Rule**: If source explicitly mentions Sirius C or third companion → Component C
+
+**Unspecified (when component cannot be determined):**
+- Channeled material referring to "Sirius system" without specifying which star
+- Modern sources discussing "Sirians" as beings without stellar specificity
+- Vague references to "Sirius civilization" without astronomical detail
+- **Rule**: ONLY use "unspecified" when source genuinely does not indicate which component
+- **DO NOT use "unspecified" as a lazy default** - if you can infer from context, you MUST
+
+**Inference Examples:**
+
+✅ CORRECT:
+- "The Law of One mentions 'entity from Sirius' without specifying A/B/C" → unspecified
+- "Egyptian Pyramid Texts describe Sopdet rising" (pre-1862) → A
+- "Temple discusses Dogon knowledge of po tolo" → B
+- "Patricia Cori channels 'Sirian High Council from the Sirius star system'" → unspecified (no stellar component specified)
+
+❌ INCORRECT:
+- "Patricia Cori channels Sirians" → unspecified ❌ (should infer: if discussing beings/civilization without astronomical specificity → unspecified is CORRECT)
+- "Ancient Egyptian Sopdet" → unspecified ❌ (should be A - ancient visible star)
+- "Dogon Nommo from Sirius" → unspecified ❌ (should be B if Temple's thesis, A if general Dogon tradition)
+
+**When in doubt:**
+1. Check publication date - pre-1862 = Component A
+2. Check for astronomical terms - "binary", "companion", "white dwarf" = Component B
+3. Check for specificity - "Sirius system" without detail = unspecified
+4. **Never use "unspecified" when you can reasonably infer from context**
+
+### Examples of ACCEPTABLE citations:
+
+⚠️ **THESE ARE EXAMPLES ONLY - DO NOT COPY THESE INTO YOUR OUTPUT**
+⚠️ **YOU MUST FIND AND VERIFY ACTUAL SOURCES WITH REAL QUOTES**
+
+```json
+{
+  "title": "The Sirius Mystery: New Scientific Evidence of Alien Contact 5,000 Years Ago",
+  "author": "Robert K. G. Temple",
+  "edition": "50th Anniversary Edition",
+  "year": 2019,
+  "original_year": 1976,
+  "page": "Chapter 3, pp. 67-69",
+  "quote": "[EXAMPLE QUOTE - FIND ACTUAL QUOTE FROM SOURCE]",
+  "url": "https://www.sirius-mystery.com",
+  "source_type": "research",
+  "astronomical_component": "B",
+  "component_reasoning": "Discusses Dogon knowledge of Sirius B white dwarf companion",
+  "verified": true
+}
+```
+
+```json
+{
+  "title": "The Law of One, Book I",
+  "author": "Ra (channeled by Carla Rueckert)",
+  "edition": "First Edition",
+  "year": 1984,
+  "page": "Session 6, Question 14",
+  "quote": "[EXAMPLE QUOTE - FIND ACTUAL QUOTE FROM SOURCE]",
+  "url": "https://www.lawofone.info/s/6#14",
+  "source_type": "channeled",
+  "astronomical_component": "unspecified",
+  "component_reasoning": "Source discusses 'Sirius entity' without specifying A/B/C",
+  "verified": true
+}
+```
+
+```json
+{
+  "title": "The Ancient Egyptian Pyramid Texts",
+  "author": "Samuel A. B. Mercer",
+  "translator_or_editor": "Samuel A. B. Mercer (translator)",
+  "edition": "Longmans, Green and Co.",
+  "year": 1952,
+  "page": "Utterance 632, §1786-1787",
+  "quote": "[EXAMPLE QUOTE - FIND ACTUAL QUOTE FROM SOURCE]",
+  "url": "https://archive.org/details/pyramidtexts00merc",
+  "source_type": "ancient",
+  "astronomical_component": "A",
+  "component_reasoning": "Ancient Egyptian visible star reference (pre-1862)",
+  "verified": true
+}
+```
+
+### Examples of UNACCEPTABLE citations:
+
+❌ `"page": "unknown"` - You must find the actual page
+❌ `"quote": "Discusses Sirius teachings"` - Not a direct quote
+❌ `"author": "Temple"` - Need full name
+❌ `"edition": "unknown"` - Research the edition
+❌ Missing URL when source is available online
+❌ `"source_type"` not specified
+
+## DISPUTED CLAIMS - SPECIAL HANDLING
+
+**The Dogon-Sirius connection is academically disputed.** You MUST include both sides:
+
+### Supporting Evidence
+- Robert Temple's "The Sirius Mystery" (1976)
+- Marcel Griaule & Germaine Dieterlen fieldwork (1946-1950)
+
+### Counter-Evidence
+- Walter van Beek "Dogon Restudied" (1991) - found no evidence in fieldwork
+- Carl Sagan's skepticism in "Broca's Brain" (1979)
+
+**Required handling:**
+```json
+{
+  "trait": "Genetic engineers (Nommo tradition)",
+  "consensus_level": "low",
+  "disputed": true,
+  "sources": [
+    {
+      "title": "The Sirius Mystery",
+      "author": "Robert K. G. Temple",
+      "position": "supporting",
+      ...
+    },
+    {
+      "title": "Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule",
+      "author": "Walter E. A. van Beek",
+      "position": "counter-evidence",
+      "year": 1991,
+      "page": "Current Anthropology, Vol. 32, No. 2, pp. 139-167",
+      "quote": "I found no trace of Sirius B knowledge in Dogon oral tradition.",
+      "url": "https://www.jstor.org/stable/2743777",
+      "source_type": "research"
+    }
+  ]
+}
+```
+
+## CONSENSUS LEVELS
+
+Assign based on evidence quality:
+
+- **HIGH**: 3+ independent sources, mixing ancient + modern, minimal disputes
+- **MEDIUM**: 2-3 sources, or strong in one category only
+- **LOW**: Single source, heavily disputed, or channeled-only
+
+## ANCIENT SUPPORT LEVELS
+
+Separate from consensus - indicates historical depth:
+
+- **HIGH**: Explicit references in ancient texts (e.g., Egyptian Sopdet)
+- **MEDIUM**: Inferred connections to ancient deities/myths
+- **LOW**: Symbolic resonance only
+- **UNKNOWN**: No ancient references found
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be valid JSON only. No narrative text, no explanations, no markdown.
+Start with { and end with }. Nothing else.
+
+If you write anything other than pure JSON, your response will be REJECTED.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OUTPUT FORMAT
+
+Return ONLY minified JSON (no markdown, no explanatory text):
+
+```json
+{
+  "star_system": "Sirius",
+  "version": "1.0",
+  "last_updated": "2025-01-24",
+  
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Cross-cultural star mythology (Egyptian, Greek, Indigenous)",
+      "Jungian archetypal psychology",
+      "Comparative religious studies"
+    ],
+    "source_standards": "Ancient texts with named translators, published books with ISBNs, evidence typing (direct/inferred/symbolic), consensus levels documented",
+    "research_date": "2025-01-24"
+  },
+  
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+      "64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+      "Kabbalah - Extensive academic study (Scholem, Idel)",
+      "Chakra system - Religious Studies, Yoga Studies",
+      "Western Astrology - Cultural/historical phenomenon (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+    ]
+  },
+  
+  "characteristics": [
+    {
+      "trait": "Teachers and wisdom keepers",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "high|medium|low|unknown",
+      "evidence_type": "direct|inferred|symbolic",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "FULL NAME (translator/editor) - REQUIRED FOR ANCIENT TEXTS",
+          "edition": "SPECIFIC EDITION",
+          "year": 1984,
+          "original_year": 1976,
+          "page": "SPECIFIC LOCATION (utterance/spell/tablet for ancient texts)",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "WORKING URL IF AVAILABLE",
+          "source_type": "ancient|research|channeled|indigenous|controversial",
+          "astronomical_component": "A|B|C|unspecified",
+          "component_reasoning": "REQUIRED: Brief explanation of why this component was assigned (e.g., 'Pre-1862 visible star reference', 'Discusses binary companion', 'Channeled material without stellar specificity')",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "SPECIFIC DISPUTED CLAIM",
+      "counter_evidence": "BRIEF SUMMARY",
+      "sources": [
+        {
+          "title": "COUNTER-EVIDENCE SOURCE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "year": 1991,
+          "page": "SPECIFIC LOCATION",
+          "quote": "ACTUAL QUOTE (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "research",
+          "astronomical_component": "A|B|C|unspecified",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  
+  "research_notes": "Brief summary of consensus patterns, gaps, or notable findings",
+  
+  "bibliography": {
+    "ancient_texts": [
+      "List key ancient texts cited (e.g., 'Pyramid Texts (Mercer translation, 1952)')"
+    ],
+    "modern_research": [
+      "List key modern research books (e.g., 'Temple, R. (1976). The Sirius Mystery')"
+    ],
+    "academic_foundations": [
+      "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press",
+      "Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize)",
+      "Scholem, G. (1941). Major Trends in Jewish Mysticism"
+    ]
+  }
+}
+```
+
+## QUALITY CHECKLIST
+
+Before submitting, verify:
+
+✅ Each characteristic has 5+ sources (minimum 3 if truly limited)
+✅ All sources have specific page numbers or locations (utterance/spell/tablet for ancient texts)
+✅ All sources have actual quotes ≤25 words (no placeholder or example quotes)
+✅ All sources have edition information
+✅ Ancient sources include translator/editor attribution
+✅ **All sources specify astronomical component (A|B|C|unspecified) with reasoning**
+✅ **NO "unspecified" unless genuinely impossible to infer from context**
+✅ **Ancient sources (pre-1862) = Component A unless discussing invisible companion**
+✅ **Channeled "Sirius system" without stellar detail = unspecified (acceptable)**
+✅ **Dogon/Temple material = Component B if discussing po tolo/binary**
+✅ URLs included where available
+✅ Source types are labeled
+✅ Consensus levels are justified
+✅ Ancient support levels are noted
+✅ Disputed claims include counter-evidence
+✅ Mix of ancient, modern, and channeled sources
+✅ No "unknown" fields unless genuinely unavailable
+
+## ASTRONOMICAL COMPONENT ENFORCEMENT
+
+**This is a HARD REQUIREMENT for Sirius research:**
+
+Every single source MUST have:
+1. `"astronomical_component": "A|B|C|unspecified"`
+2. `"component_reasoning": "Brief explanation"`
+
+**Automatic inference rules you MUST apply:**
+
+| Source Context | Component | Reasoning Template |
+|----------------|-----------|-------------------|
+| Ancient text (pre-1862) | A | "Pre-1862 visible star reference" |
+| Egyptian Sopdet/Sothis | A | "Ancient Egyptian visible star tradition" |
+| Zoroastrian Tishtrya | A | "Ancient Persian visible star tradition" |
+| Dogon po tolo / Temple's binary claims | B | "Discusses Sirius B white dwarf companion" |
+| Modern astronomy discussing binary | B | "Discusses binary system / white dwarf" |
+| Temple's Sirius C speculation | C | "Discusses hypothetical third companion" |
+| Channeled "Sirius system" (no stellar detail) | unspecified | "Channeled material without stellar component specificity" |
+| Modern "Sirians" as beings (no astronomy) | unspecified | "Discusses civilization without astronomical detail" |
+
+**Red flags that indicate you're being lazy:**
+- ❌ More than 30% of sources marked "unspecified"
+- ❌ Ancient sources marked "unspecified" (should almost always be A)
+- ❌ Missing `component_reasoning` field
+- ❌ Vague reasoning like "unclear" or "not specified" without explanation
+
+**If you cannot determine the component:**
+1. Check publication date (pre-1862 = A)
+2. Check for astronomical keywords (binary, companion, white dwarf = B)
+3. Check source type (ancient = A, channeled without detail = unspecified)
+4. Only then use "unspecified" with reasoning: "Source discusses [X] without indicating which stellar component"
+
+## RESEARCH STRATEGY
+
+1. **Start with ancient sources** - Egyptian Sopdet/Sothis is solid ground (ALL Component A)
+2. **Add indigenous traditions** - Dogon (with disputes noted)
+3. **Include modern esoteric** - Temple, Law of One, Cori
+4. **Cross-reference** - Look for consensus patterns
+5. **Document disputes** - Especially Dogon controversy
+6. **Note gaps** - What's missing or unclear?
+
+## EXPECTED CHARACTERISTICS
+
+Based on preliminary research, expect to find evidence for:
+- Teacher/guardian archetype (likely HIGH consensus)
+- Connection to Egyptian Isis/Osiris (likely HIGH ancient support)
+- Wisdom keeper role (likely MEDIUM-HIGH consensus)
+- Genetic engineering claims (likely LOW consensus, DISPUTED)
+- Spiritual initiation themes (likely MEDIUM consensus)
+
+If you find characteristics NOT in this list, include them with full citations.
+
+## FINAL REMINDER
+
+This is foundational research. Every citation will be validated. Weak citations undermine the entire project. When in doubt, dig deeper - do not write "unknown" unless you've exhausted all options.
+
+**If a commonly believed claim cannot be verified** (e.g., "Sirian dolphin DNA", "Sirius C civilization"), include it in `research_notes` with:
+> "Note: No credible evidence found for [claim], despite prevalence in New Age discourse."
+
+**Critical for Sirius:** Always specify which stellar component (A, B, C, or unspecified) each source discusses. The Dogon controversy specifically concerns Sirius B knowledge, not Sirius A.
+
+**Minimum acceptable response: 3-5 characteristics, each with 5+ fully cited sources (minimum 3 if truly limited), mixing ancient and modern, with disputes noted, and astronomical components specified.**
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Any source missing `astronomical_component` field
+❌ Any source missing `component_reasoning` field  
+❌ More than 30% of sources marked "unspecified" without clear justification
+❌ Ancient sources (pre-1862) marked "unspecified" (should be Component A)
+❌ Vague reasoning like "unclear" or "not specified" without explanation
+❌ Egyptian Sopdet/Sothis sources not marked Component A
+❌ Dogon po tolo / Temple binary claims not marked Component B
+❌ Any placeholder quotes like "[EXAMPLE QUOTE]"
+❌ Any "unknown" or missing page numbers
+❌ Any missing translator/editor for ancient texts
+
+**PASS CRITERIA:**
+✅ Every source has both `astronomical_component` AND `component_reasoning`
+✅ Ancient sources (pre-1862) = Component A with reasoning
+✅ Dogon/Temple binary material = Component B with reasoning  
+✅ Channeled "Sirius system" without stellar detail = unspecified with reasoning
+✅ Less than 30% "unspecified" overall
+✅ All reasoning is specific and justified
+
+**If you're unsure about a component assignment, use the inference table above. DO NOT default to "unspecified" out of laziness.**
