@@ -14,6 +14,17 @@ Star System Sorter (S³) is a React web app that provides deterministic star sys
 
 ## Academic Foundation (Competitive Moat)
 
+**This is a Digital Humanities Research Project**
+
+Star System Sorter is built on 862-1,656 hours of rigorous academic research (5-10 months full-time). This is NOT a hobby project or typical astrology app - it's a **digital humanities research project with proper provenance**, treating each data point as an irreducible scholarly unit requiring:
+
+- ≥2 primary source comparisons per claim
+- Full citation metadata (translator, ISBN, page numbers, quotes)
+- Explicit separation of data layer vs. interpretation layer
+- Transparent confidence levels and provenance tracking
+- Quality gates and validation at every phase
+- Zenodo dataset with DOI for academic citation
+
 **Human Design's Credible Foundations:**
 - **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
 - **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968) - verifiable mathematical correspondence
@@ -32,10 +43,19 @@ Star System Sorter (S³) is a React web app that provides deterministic star sys
 - Evidence typing (direct/inferred/symbolic)
 - Consensus levels documented
 - Disputed claims include counter-evidence
+- No Wikipedia, encyclopedias, or blog sources
+- All 384 Gate.Line combinations researched individually (not algorithmically generated)
 
-**This is NOT pseudoscience** - it's a synthesis system built on academically documented foundations, combined with comparative mythology research. Frame it as: **"Contemporary mythology with academic-grade sourcing"** not "scientifically proven predictions."
+**Research Scope:**
+- 9 star system baselines (30-45 hours)
+- 64 gates × 3 research passes (136-272 hours)
+- 6 line archetypes (15 hours)
+- 384 Gate.Line combinations - exhaustive I Ching line text research (600-1,199 hours)
+- Methods documentation, citation guides, and Zenodo dataset (16-23 hours)
 
-**Competitive Advantage:** No other astrology/mythology app can claim this level of research rigor or academic foundation.
+**This is NOT pseudoscience** - it's a synthesis system built on academically documented foundations, combined with comparative mythology research. Frame it as: **"Digital humanities research with academic-grade sourcing"** or **"Contemporary mythology meets rigorous scholarship"** - not "scientifically proven predictions."
+
+**Competitive Advantage:** No other astrology/mythology app can claim this level of research rigor, academic foundation, or scholarly provenance. We're building a citable, reproducible research dataset while delivering an engaging user experience.
 
 ## User Flow (MVP)
 
