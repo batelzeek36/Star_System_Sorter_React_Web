@@ -1,0 +1,308 @@
+
+- [ ] 2.3 Research Line 2 (Hermit/Natural)
+
+  - Use TEMPLATE_PASS_LINE.txt
+  - Save as `lore-research/research-outputs/lines/line-2-archetype.json`
+  - _Time: 2 hours_
+  - _Depends on: 2.1_
+
+- [ ] 2.4 Research Line 3 (Martyr/Experimenter)
+
+  - Use TEMPLATE_PASS_LINE.txt
+  - Save as `lore-research/research-outputs/lines/line-3-archetype.json`
+  - _Time: 2 hours_
+  - _Depends on: 2.1_
+
+- [ ] 2.5 Research Line 4 (Opportunist/Network)
+
+  - Use TEMPLATE_PASS_LINE.txt
+  - Save as `lore-research/research-outputs/lines/line-4-archetype.json`
+  - _Time: 2 hours_
+  - _Depends on: 2.1_
+
+- [ ] 2.6 Research Line 5 (Heretic/Universalizer)
+
+  - Use TEMPLATE_PASS_LINE.txt
+  - Save as `lore-research/research-outputs/lines/line-5-archetype.json`
+  - _Time: 2 hours_
+  - _Depends on: 2.1_
+
+- [ ] 2.7 Research Line 6 (Role Model/Observer)
+
+  - Use TEMPLATE_PASS_LINE.txt
+  - Save as `lore-research/research-outputs/lines/line-6-archetype.json`
+  - _Time: 2 hours_
+  - _Depends on: 2.1_
+
+- [ ] 2.8 Validate line archetype research
+  - Run JSON schema validation on all 6 files
+  - Verify non-definitional flags present
+  - Verify cautions documented
+  - Create validation report
+  - _Time: 1 hour_
+  - _Depends on: 2.7_
+
+**Phase 2 Total Time: 15 hours**
+
+---
+
+## Phase 3: Gate.Line Emergent Synthesis (384 Combinations - EXHAUSTIVE)
+
+**Purpose:** Research all 384 Gate.Line combinations as irreducible units, rooted in I Ching line text.
+
+### 3.1 Setup and Infrastructure
+
+- [ ] 3.1.1 Create Gate.Line research prompt and schema
+
+  - Create `lore-research/prompts/TEMPLATE_PASS_GATE_LINE.txt`
+  - Create `lore-research/schemas/gate-line.schema.json`
+  - **Prompt must require:**
+    - Compare ≥2 I Ching translations for this specific line
+    - Extract root essence (≤20 words)
+    - Save one ≤25-word quote with full attribution
+    - HD context: center, circuit, channel partner, behavioral signature
+    - Planetary modifiers (non-definitional)
+    - Phenomenology: shadow/gift (labeled interpretive)
+    - Star-system hypotheses with scoring (see 3.1.3)
+    - Provenance and confidence level
+  - **Schema must validate all fields above**
+  - _Time: 3-4 hours_
+  - _Depends on: Phase 2 complete_
+
+- [ ] 3.1.2 Create star-system scoring rubric
+
+  - Create `lore-research/rubrics/star-system-scoring.yaml`
+  - **Define weights:**
+    - I Ching feature match: 0.35
+    - HD structural match: 0.35
+    - Phenomenology fit: 0.20
+    - Star-lore coherence: 0.10
+  - **Document scoring criteria for each weight**
+  - This becomes single source of truth for all Gate.Line research
+  - _Time: 2-3 hours_
+  - _Depends on: 3.1.1_
+
+- [ ] 3.1.3 Create tiering selection tool
+  - Create `tools/select-tiered-gate-lines.ts`
+  - **Inputs:** Weighting config (statistical prevalence, archetypal significance, user impact)
+  - **Outputs:**
+    - `lore-research/tiering/tier1.json` (20-30 combos)
+    - `lore-research/tiering/tier2.json` (50-80 combos)
+    - `lore-research/tiering/tier3.json` (~270 combos)
+  - **Rationale saved per pick (≤140 chars)**
+  - Reproducible selection process
+  - _Time: 4-6 hours_
+  - _Depends on: 3.1.2_
+
+**3.1 Total Time: 9-13 hours**
+
+### 3.2 Tier 1: High-Priority Gate.Line Research (20-30 combos)
+
+**Selection Criteria:**
+
+- Personality Sun/Earth gates (most visible)
+- Node placements (life path)
+- Lines 3, 5, 6 (strongest archetypal leverage)
+- Completes key channels
+- Community requests
+
+- [ ] 3.2.1 Execute Tier 1 research (Manual, full synthesis)
+
+  - For each of 20-30 selected Gate.Line combinations:
+    - Use TEMPLATE_PASS_GATE_LINE.txt
+    - Copy prompt into Perplexity Comet
+    - **Validate response:**
+      - ✅ ≥2 I Ching translations compared
+      - ✅ One ≤25-word quote saved with translator attribution
+      - ✅ Root essence ≤20 words
+      - ✅ All HD context fields filled
+      - ✅ Planetary modifiers present (non-definitional)
+      - ✅ Phenomenology labeled interpretive
+      - ✅ Star-system scores with rationale + weights visible
+      - ✅ Provenance and confidence set
+      - ✅ All citations have full metadata
+    - Save as `lore-research/research-outputs/gate-lines/gate-{N}-line-{L}.json`
+  - _Time: 60-90 hours (2-3 hours per combo)_
+  - _Depends on: 3.1.3_
+
+- [ ] 3.2.2 Validate Tier 1 research
+  - Run JSON schema validation on all Tier 1 files
+  - Verify quality gates met (see Quality Gates section below)
+  - Create validation report
+  - _Time: 2-4 hours_
+  - _Depends on: 3.2.1_
+
+**3.2 Total Time: 62-94 hours**
+
+### 3.3 Tier 2: Medium-Priority Gate.Line Research (50-80 combos)
+
+**Selection Criteria:**
+
+- Moderately common in charts
+- Clear archetypal patterns
+- Requested by users (feedback-driven)
+
+- [ ] 3.3.1 Execute Tier 2 research (Manual, full synthesis)
+
+  - For each of 50-80 selected Gate.Line combinations:
+    - Use TEMPLATE_PASS_GATE_LINE.txt
+    - Same validation criteria as Tier 1
+    - Save as `lore-research/research-outputs/gate-lines/gate-{N}-line-{L}.json`
+  - _Time: 100-240 hours (2-3 hours per combo)_
+  - _Depends on: 3.2.2_
+
+- [ ] 3.3.2 Validate Tier 2 research
+  - Run JSON schema validation on all Tier 2 files
+  - Verify quality gates met
+  - Create validation report
+  - _Time: 4-8 hours_
+  - _Depends on: 3.3.1_
+
+**3.3 Total Time: 104-248 hours**
+
+### 3.4 Tier 3: Long-Tail Gate.Line Research (~270 combos)
+
+**Selection Criteria:**
+
+- Rare in charts
+- Less archetypal significance
+- Lower user impact initially
+
+- [ ] 3.4.1 Execute Tier 3 research (Manual, full synthesis)
+
+  - For each of remaining ~270 Gate.Line combinations:
+    - Use TEMPLATE_PASS_GATE_LINE.txt
+    - Same validation criteria as Tier 1 & 2
+    - Save as `lore-research/research-outputs/gate-lines/gate-{N}-line-{L}.json`
+  - **Note:** This is exhaustive research, not algorithmic
+  - Can be batched and parallelized
+  - _Time: 405-810 hours (1.5-3 hours per combo)_
+  - _Depends on: 3.3.2_
+
+- [ ] 3.4.2 Validate Tier 3 research
+  - Run JSON schema validation on all Tier 3 files
+  - Verify quality gates met
+  - Create validation report
+  - _Time: 8-16 hours_
+  - _Depends on: 3.4.1_
+
+**3.4 Total Time: 413-826 hours**
+
+### 3.5 Quality Gates & Validation (All Tiers)
+
+- [ ] 3.5.1 Implement JSON schema validation
+
+  - Use AJV for validation
+  - Create script: `pnpm validate:gate-lines`
+  - Integrate into CI pipeline
+  - _Time: 4-6 hours_
+  - _Depends on: 3.1.1_
+
+- [ ] 3.5.2 Quality gate checklist (per Gate.Line entry)
+
+  - ✅ Q1: ≥2 I Ching translations compared, one ≤25-word quote saved
+  - ✅ Q2: HD context filled (center, circuit, channel partner, behavioral signature)
+  - ✅ Q3: Phenomenology drafted (shadow/gift), labeled interpretive
+  - ✅ Q4: Star-system hypotheses scored with rationale + weights visible
+  - ✅ Q5: Provenance & confidence set; all fields YAML-valid
+  - ✅ Q6: Accurate HD framing (I Ching + Astrology + Kabbalah + Chakras, NOT quantum physics)
+  - ✅ Q7: User-facing narrative (short + long) drafted
+  - ✅ Q8: All citations have full metadata (translator, ISBN, page numbers)
+  - _Time: Ongoing validation during research_
+
+- [ ] 3.5.3 Final validation report for all 384 Gate.Lines
+  - Verify all 384 files exist and are valid JSON
+  - Verify all quality gates passed
+  - Create comprehensive validation report
+  - Document any exceptions or edge cases
+  - _Time: 8-12 hours_
+  - _Depends on: 3.4.2_
+
+**3.5 Total Time: 12-18 hours**
+
+**Phase 3 Total Time: 600-1,199 hours (15-30 weeks full-time)**
+
+---
+
+## Phase 4: App Integration
+
+- [ ] 4.1 Create lore data bundle loader
+
+  - Create `star-system-sorter/src/lib/lore.bundle.ts`
+  - Lazy load by route
+  - Memoized selectors
+  - _Time: 4-6 hours_
+  - _Depends on: Phase 3 complete_
+
+- [ ] 4.2 Create Gate.Line resolver
+
+  - Create `star-system-sorter/src/lib/getGateLineLore.ts`
+  - Function: `getGateLineLore(gate, line, opts)`
+  - Applies planetary modifiers
+  - Returns data + interpretation layers distinctly
+  - _Time: 4-6 hours_
+  - _Depends on: 4.1_
+
+- [ ] 4.3 Update scorer for 9 systems
+
+  - Add Orion Dark, Draco, Zeta Reticuli to `star-system-sorter/src/lib/scorer.ts`
+  - Update classification logic to handle 9 systems
+  - Ensure deterministic results maintained
+  - Update tests
+  - _Time: 4-8 hours_
+  - _Depends on: 4.2_
+
+- [ ] 4.4 Update schemas for 9 systems
+
+  - Add new systems to `star-system-sorter/src/lib/schemas.ts`
+  - Update TypeScript types
+  - Update Zod validation schemas
+  - _Time: 1-2 hours_
+  - _Depends on: 4.3_
+
+- [ ] 4.5 Create missing crests
+
+  - Design crest for Orion Dark
+  - Design crest for Draco
+  - Design crest for Zeta Reticuli
+  - Export as SVG files
+  - Add to `star-system-sorter/src/assets/crests/`
+  - _Time: External design work_
+  - _Depends on: 4.3_
+
+- [ ] 4.6 Create Gate.Line UI components
+
+  - Create essence card component
+  - Create HD context strip component
+  - Create star-lore panel (with "interpretive" badge)
+  - Create citations drawer component
+  - _Time: 8-12 hours_
+  - _Depends on: 4.2_
+
+- [ ] 4.7 Create Gate.Line page
+
+  - Create route: `/gate/{N}/line/{L}`
+  - Display essence, HD context, phenomenology, star-lore
+  - Show planetary modifiers as tooltips
+  - Citations drawer accessible
+  - _Time: 6-10 hours_
+  - _Depends on: 4.6_
+
+- [ ] 4.8 Update ResultScreen for 9 systems
+
+  - Update `star-system-sorter/src/screens/ResultScreen.tsx`
+  - Add new crest imports
+  - Update system display logic
+  - Ensure Orion Light/Dark distinction is clear
+  - Link to relevant Gate.Line pages
+  - _Time: 4-6 hours_
+  - _Depends on: 4.7_
+
+- [ ] 4.9 Update WhyScreen with new lore
+
+  - Update `star-system-sorter/src/screens/WhyScreen.tsx`
+  - Integrate new lore data
+  - Ensure all 9 systems display correctly
+  - Link to methodology documentation
+  - _Time: 4-6 hours_
+  - _Depends on: 4.8_
