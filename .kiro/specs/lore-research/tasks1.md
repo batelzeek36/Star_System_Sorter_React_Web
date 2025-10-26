@@ -306,3 +306,105 @@
   - Save as `lore-research/research-outputs/lines/line-1-archetype.json`
   - _Time: 2 hours_
   - _Depends on: 2.1_
+
+
+---
+
+## PDF-Based Quote Extraction Workflow
+
+**Context:** LLMs with web search (like Comet) cannot access full book contents, only previews and abstracts. This makes it impossible to extract exact quotes with page numbers. Solution: Upload PDFs to Kiro project for manual extraction.
+
+### Setup
+
+- [ ] 0.18 Create PDF source library structure
+  - Create folder: `lore-research/source-pdfs/`
+  - Create folder: `lore-research/extraction-requests/`
+  - Create `.gitignore` entry for `source-pdfs/` (keep PDFs private)
+  - _Time: 5 minutes_
+
+### Priority Books to Acquire
+
+**For Pleiades (Wikipedia Violations):**
+- [ ] Mahabharata (Kisari Mohan Ganguli translation, 1883-1896)
+- [ ] Alain Daniélou - "The Myths and Gods of India" (1991, ISBN 0-89281-354-7)
+- [ ] Wendy Doniger - "Hindu Myths: A Sourcebook" (Penguin Classics, ISBN 0-14-044306-1)
+
+**For Sirius (Wikipedia Violations):**
+- [ ] R.O. Faulkner - "The Ancient Egyptian Pyramid Texts" (1969, ISBN 0-19-815437-2)
+- [ ] Robert Temple - "The Sirius Mystery" (2019 50th Anniversary Edition, ISBN 978-1-64411-101-7)
+- [ ] Patricia Cori - "The New Sirian Revelations" (2023, ISBN 978-1-59143-474-0)
+
+**General Research:**
+- [ ] Munya Andrews - "The Seven Sisters of the Pleiades" (2004, ISBN 1-876756-45-5)
+- [ ] Barbara Marciniak - "Bringers of the Dawn" (1992, ISBN 0-939680-98-5)
+- [ ] Alice Bailey - "Esoteric Astrology" (1951, ISBN 0-85330-148-2)
+
+### Extraction Workflow
+
+**What Kiro Can Do With PDFs:**
+1. Search for keywords (e.g., "Sopdet", "Sirius", "Krittika", "Pleiades")
+2. Extract exact quotes with page numbers
+3. Verify quote context is accurate
+4. Build proper citations (ISBN, edition, translator, year)
+5. Create properly formatted JSON source objects
+6. Mark as `"verified": true` since we actually read the source
+
+**Process:**
+1. Upload PDF to `lore-research/source-pdfs/`
+2. Create extraction request in `lore-research/extraction-requests/`
+3. Kiro searches PDF for relevant passages
+4. Kiro extracts verbatim quotes (≤25 words)
+5. Kiro formats as JSON source object
+6. You review and approve
+7. Update baseline JSON files
+
+**Example Extraction Request:**
+```markdown
+# Pleiades - Krittika Nurturing References
+
+**Source:** mahabharata-ganguli-1896.pdf
+**Target:** Replace Wikipedia "Krittika" source in pleiades-baseline.json
+
+**Search Terms:**
+- Krittika
+- Krittikas
+- nurses of Kartikeya
+- foster mothers
+
+**Requirements:**
+- Find 2-3 quotes about Krittika as nurturers/nurses
+- Include specific section/verse numbers (e.g., "Vana Parva, Section 225")
+- Extract verbatim quotes ≤25 words
+- Note page numbers if available
+```
+
+**Legal Note:** Keep PDFs private for research purposes only. Do not redistribute. Add to `.gitignore`.
+
+### Integration with Phase 0
+
+- [ ] 0.19 Extract Pleiades Wikipedia replacements
+  - Upload Mahabharata, Daniélou, Doniger PDFs
+  - Create extraction requests for Krittika references
+  - Extract quotes and build JSON sources
+  - Update `lore-research/research-outputs/star-systems/v2/pleiades-baseline.json`
+  - Remove Wikipedia violations
+  - _Time: 2-3 hours_
+  - _Depends on: 0.18, acquiring PDFs_
+
+- [ ] 0.20 Extract Sirius Wikipedia replacements
+  - Upload Faulkner, Temple, Cori PDFs
+  - Create extraction requests for Sopdet/Sirius references
+  - Extract quotes and build JSON sources
+  - Update `lore-research/research-outputs/star-systems/v2/sirius-baseline.json`
+  - Remove Wikipedia violations
+  - _Time: 2-3 hours_
+  - _Depends on: 0.18, acquiring PDFs_
+
+- [ ] 0.21 Validate all V2 outputs are Wikipedia-free
+  - Run validation script to check for "Wikipedia Contributors"
+  - Run validation script to check for encyclopedia sources
+  - Run validation script to check for "Various scholars"
+  - Confirm all sources have ISBNs or DOIs
+  - Confirm all quotes are verbatim (not paraphrases)
+  - _Time: 1 hour_
+  - _Depends on: 0.19, 0.20_

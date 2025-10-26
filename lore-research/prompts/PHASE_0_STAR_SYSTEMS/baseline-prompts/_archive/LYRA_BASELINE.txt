@@ -376,6 +376,9 @@ Every source MUST include:
 ❌ Any missing edition information
 ❌ Any blog sources or personal websites
 ❌ Any social media posts or YouTube videos
+❌ **CRITICAL:** Any source with "Wikipedia Contributors" as author
+❌ **CRITICAL:** Any Wikipedia or online encyclopedia sources (Wikipedia, Britannica, Encyclopedia.com, etc.)
+❌ **CRITICAL:** Any "Various scholars" or "Various researchers" as author (anonymous sources)
 ❌ More than 20% of sources missing URLs when available online
 ❌ Vague page references like "throughout" or "various pages"
 
@@ -383,6 +386,8 @@ Every source MUST include:
 ✅ Every source has complete citation with all 10 required fields
 ✅ Every source has `"verified": true`
 ✅ All quotes are verbatim from source (≤25 words)
+✅ Zero Wikipedia or encyclopedia sources
+✅ Zero anonymous authors or "Various scholars"
 ✅ All page numbers are specific and verifiable
 ✅ All titles and author names are complete (not abbreviated)
 ✅ Feline vs avian inconsistencies documented

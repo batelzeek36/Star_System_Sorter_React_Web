@@ -509,6 +509,15 @@ This is foundational research. Every citation will be validated. Weak citations 
 ❌ Any placeholder quotes like "[EXAMPLE QUOTE]"
 ❌ Any "unknown" or missing page numbers
 ❌ Any missing translator/editor for ancient texts
+❌ **CRITICAL:** Any source with "Wikipedia Contributors" as author
+❌ **CRITICAL:** Any Wikipedia or online encyclopedia sources (Wikipedia, Britannica, Encyclopedia.com, etc.)
+❌ **CRITICAL:** Any "Various scholars" or "Various researchers" as author (anonymous sources)
+❌ **CRITICAL:** Any blog sources or personal websites
+❌ Any abbreviated titles or author initials
+❌ Any missing edition information
+❌ Any social media posts or YouTube videos
+❌ More than 20% of sources missing URLs when available online
+❌ Vague page references like "throughout" or "various pages"
 
 **PASS CRITERIA:**
 ✅ Every source has both `astronomical_component` AND `component_reasoning`
@@ -517,5 +526,14 @@ This is foundational research. Every citation will be validated. Weak citations 
 ✅ Channeled "Sirius system" without stellar detail = unspecified with reasoning
 ✅ Less than 30% "unspecified" overall
 ✅ All reasoning is specific and justified
+✅ Every source has complete citation with all required fields
+✅ Every source has `"verified": true`
+✅ All quotes are verbatim from source (≤25 words)
+✅ All ancient sources have translator/editor attribution
+✅ All page numbers are specific and verifiable
+✅ All titles and author names are complete (not abbreviated)
+✅ Zero Wikipedia or encyclopedia sources
+✅ Zero anonymous authors or "Various scholars"
+✅ All sources are published books with ISBNs or academic papers with DOIs
 
 **If you're unsure about a component assignment, use the inference table above. DO NOT default to "unspecified" out of laziness.**

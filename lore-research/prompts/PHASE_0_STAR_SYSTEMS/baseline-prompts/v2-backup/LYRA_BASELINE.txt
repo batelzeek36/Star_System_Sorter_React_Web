@@ -1,4 +1,4 @@
-# ANDROMEDA BASELINE RESEARCH
+# LYRA BASELINE RESEARCH
 
 ═══════════════════════════════════════════════════════════════════════════════
 🔒 HARD RULES (NON-NEGOTIABLE)
@@ -42,7 +42,7 @@
 Wikipedia, Encyclopedia.com, Britannica.com, and ALL online encyclopedia/aggregator sites are **COMPLETELY FORBIDDEN** - not as primary sources, not as secondary sources, not at all. These are lazy shortcuts. Instead:
 - Find the PRIMARY SOURCE that the encyclopedia cites (the actual book, journal, or ancient text)
 - Cite that source directly with full bibliographic information
-- Example: Don't cite "Wikipedia article on Andromeda" → Cite the actual ancient text or published book
+- Example: Don't cite "Wikipedia article on Lyra" → Cite the actual ancient text or published book
 - If an encyclopedia mentions a scholar's work, find and cite that scholar's published book or paper
 
 **FORBIDDEN ENCYCLOPEDIA SITES (NEVER USE):**
@@ -75,7 +75,7 @@ This is a **lore-grade research project**, not a homework assignment. Use author
 
 **DO NOT give up and return empty results.** The Sirius and Pleiades baseline research successfully found complete citations.
 
-**YOU MUST DO THE SAME FOR ANDROMEDA.**
+**YOU MUST DO THE SAME FOR LYRA.**
 
 **Where to find sources:**
 ✅ Archive.org - Full book scans with page numbers
@@ -85,23 +85,19 @@ This is a **lore-grade research project**, not a homework assignment. Use author
 
 **Known sources you MUST find and cite properly:**
 
-**Ancient Greek Mythology:**
-1. Ovid - "Metamorphoses" (Andromeda chained to rock, rescued by Perseus)
-2. Apollodorus - "Library" (Andromeda myth)
-3. Euripides - "Andromeda" (fragmentary play)
+**Channeled/Esoteric Material (Primary for Lyra):**
+1. Lyssa Royal & Keith Priest - "The Prism of Lyra" (1993, ISBN 1-891824-87-6) - PRIMARY SOURCE
+2. Royal & Priest - "Visitors from Within" (1992)
+3. Sheldan Nidle - "Your First Contact" (1996) - Lyran references
 
-**Channeled/Contactee Material:**
-4. Alex Collier - "Defending Sacred Ground" (1996) - Andromedan contactee claims
-5. Alex Collier - "Letters from Andromeda" (contactee material)
+**Ancient Mythology (Constellation only, not "Lyran race"):**
+4. Greek mythology - Orpheus' lyre (constellation origin)
+5. Ovid - "Metamorphoses" (Orpheus story)
 
-**Academic/Scholarly:**
-6. Greek mythology sourcebooks with Andromeda myth
-7. Astronomy texts on Andromeda galaxy
-
-**Note:** Andromeda as GALAXY (not star) - ancient myth is symbolic only. Modern "Andromedan" claims are contactee/channeled material.
+**Note:** "Lyran race" is MODERN CHANNELED MATERIAL ONLY. No ancient support. Document this clearly.
 
 **FORBIDDEN SOURCES (DO NOT USE):**
-❌ Contactee blogs without published books
+❌ Starseed blogs without published books
 ❌ Anonymous channelers
 ❌ Wikipedia (find the primary source it cites instead)
 
@@ -110,7 +106,14 @@ This is a **lore-grade research project**, not a homework assignment. Use author
 ═══════════════════════════════════════════════════════════════════════════════
 
 ## OBJECTIVE
-Research ANDROMEDAN characteristics in mythology and channeling. Note: Ancient support expected to be LOW (symbolic only).
+Research LYRA as primordial root race in esoteric and channeled texts. Note: Ancient support expected to be LOW/UNKNOWN.
+
+## HYPOTHESIS TO VALIDATE
+- Primordial humanoid root race
+- Feline (or avian) ancestry
+- Builders of early civilizations
+- Refugees after war with Draco
+- Carry "first template" consciousness
 
 ## ACADEMIC CONTEXT
 
@@ -129,51 +132,46 @@ This research supports Star System Sorter, which maps Human Design's I Ching-bas
 
 **Your Task:** Document star system characteristics using rigorous sourcing standards (ancient texts, published books, proper citations). This is **comparative mythology research**, not pseudoscience.
 
-## HYPOTHESIS TO VALIDATE
-- Sovereignty / anti-control ethos
-- Galactic explorers, nomadic
-- Non-hierarchical culture
-- Technically advanced yet tribal
-- Often anti-interventionist
-
 ## REFERENCE LIBRARY
 
 **Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
 
 ## PRIMARY SOURCES
 
-### Ancient Mythology
-- Greek: Princess Andromeda (chained, freed by Perseus)
-- Astronomical: Andromeda Galaxy (M31)
-- Note: Greek myth is SYMBOLIC resonance only, not ET claim
+### Modern Channeled Material
+- "The Prism of Lyra" by Lyssa Royal Holt (1989)
+- "The Three Waves of Volunteers" by Dolores Cannon (2011)
+- Bashar (Darryl Anka) mentions
+- Starseed literature (various authors)
 
-### Modern Contactee/Channeled Material
-- "Defending Sacred Ground" by Alex Collier (1996)
-- Lyssa Royal Holt works
-- Andromedan Council channeled material
-- Bashar (Darryl Anka) contrasts/mentions
+### Theosophical/Root Race Theory
+- Helena Blavatsky "The Secret Doctrine" (1888)
+- Root race theories (Lemurian connections)
 
-## SPECIAL NOTE: Symbolic vs Direct Evidence
+### Ancient Sources
+- Limited to none expected
+- Greek: Lyra constellation (Orpheus's lyre)
+- Note: Mythological lyre ≠ ET claims
 
-Greek mythology provides SYMBOLIC resonance (freedom from chains = sovereignty theme) but is NOT direct evidence of ET contact. Mark as:
-- `evidence_type: "symbolic"`
-- `ancient_support: "low"`
+## SPECIAL FOCUS: Feline vs Avian Confusion
 
-Modern contactee material is direct but unverified:
-- `source_type: "channeled"` or `"contactee"`
-- `consensus_level: "medium"` (consistent across sources but modern-only)
+Sources disagree on Lyran form:
+- Some say feline beings
+- Others say avian or humanoid
+- Document both, note inconsistency
 
 ═══════════════════════════════════════════════════════════════════════════════
 WHERE TO FIND VERIFIED SOURCES (USE THESE LOCATIONS)
 ═══════════════════════════════════════════════════════════════════════════════
 
 **Archive.org - Search for these books:**
-- Ancient texts with scholarly translations
+- Ancient Greek texts on Orpheus and the lyre
 - Published channeled works with ISBNs
-- Academic research on Andromeda mythology
+- Academic research on Lyra mythology
 
 **Sacred-texts.com - Use for:**
 - Ancient Greek/Roman texts (Ovid, Apollodorus, etc.)
+- Orphic hymns and mythology
 - Comparative mythology collections
 
 **Other Acceptable Sources:**
@@ -204,7 +202,7 @@ If you write anything other than pure JSON, your response will be REJECTED.
 
 ```json
 {
-  "star_system": "Andromeda",
+  "star_system": "Lyra",
   "version": "1.0",
   "last_updated": "2025-01-24",
   
@@ -212,7 +210,7 @@ If you write anything other than pure JSON, your response will be REJECTED.
     "framework": "Comparative mythology + I Ching-based Human Design system",
     "academic_foundations": [
       "I Ching (64 hexagrams → 64 Human Design gates)",
-      "Cross-cultural star mythology (Greek, contactee material)",
+      "Cross-cultural star mythology (Greek, channeled material)",
       "Jungian archetypal psychology",
       "Comparative religious studies"
     ],
@@ -236,10 +234,10 @@ If you write anything other than pure JSON, your response will be REJECTED.
   
   "characteristics": [
     {
-      "trait": "Freedom-seeking and sovereignty-focused",
+      "trait": "Primordial root race and builders",
       "consensus_level": "high|medium|low",
       "ancient_support": "low|unknown",
-      "evidence_type": "direct|symbolic",
+      "evidence_type": "direct",
       "disputed": false,
       "sources": [
         {
@@ -247,26 +245,27 @@ If you write anything other than pure JSON, your response will be REJECTED.
           "author": "FULL NAME",
           "translator_or_editor": "IF APPLICABLE",
           "edition": "EDITION",
-          "year": 1996,
-          "original_year": 1996,
+          "year": 1989,
+          "original_year": 1989,
           "page": "SPECIFIC LOCATION",
           "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
           "url": "URL",
-          "source_type": "channeled|contactee|ancient",
+          "source_type": "channeled",
           "verified": true
         }
       ]
     }
   ],
-  "symbolic_resonance": "Greek myth of Andromeda freed from chains parallels sovereignty themes",
-  "research_notes": "Predominantly modern contactee material; Greek myth is symbolic only",
+  "form_inconsistencies": "Feline vs avian vs humanoid - document disagreements",
+  "lyran_draco_war": "Summary of war narrative if found in multiple sources",
+  "research_notes": "Predominantly modern spiritual narrative; no ancient support",
   
   "bibliography": {
     "ancient_texts": [
-      "List key ancient texts cited (e.g., 'Ovid - Metamorphoses', 'Apollodorus - Library')"
+      "List key ancient texts cited (e.g., 'Ovid - Metamorphoses (Orpheus story)')"
     ],
     "modern_research": [
-      "List key modern research books (e.g., 'Collier, A. (1996). Defending Sacred Ground')"
+      "List key modern research books (e.g., 'Royal, L. (1989). The Prism of Lyra')"
     ],
     "academic_foundations": [
       "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press",
@@ -277,15 +276,53 @@ If you write anything other than pure JSON, your response will be REJECTED.
 }
 ```
 
+## SOURCE QUALITY ENFORCEMENT
+
+**Before submitting, verify EVERY source passes these checks:**
+
+| Check | Requirement | Failure = Rejection |
+|-------|-------------|---------------------|
+| **Title** | Full, exact title (not abbreviated) | ❌ "Prism" → ✅ "The Prism of Lyra" |
+| **Author** | Full name (not initials) | ❌ "L. Royal" → ✅ "Lyssa Royal Holt" |
+| **Edition** | Specific edition info | ❌ "unknown" → ✅ "First Edition" or "1989" |
+| **Page** | Exact location | ❌ "unknown" → ✅ "Chapter 2, pp. 34-36" |
+| **Quote** | Verbatim text ≤25 words | ❌ "[EXAMPLE]" → ✅ "actual quote from source" |
+| **URL** | Working link if available | ❌ Missing when source is online → ✅ Include URL |
+| **Translator** | Required for ancient texts | ❌ Missing → ✅ "Name (translator)" |
+| **Verified** | Must be `true` | ❌ Missing field → ✅ `"verified": true` |
+
+**Red Flags (indicate lazy research):**
+- ❌ More than 20% of sources missing URLs when available online
+- ❌ Any placeholder quotes or "unknown" fields
+- ❌ Vague page references like "throughout" or "various pages"
+- ❌ Missing translator/editor for ancient texts
+- ❌ Abbreviated titles or author names
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ **Every source has `"verified": true` field**
+✅ **Zero placeholder quotes or "unknown" fields**
+✅ Feline vs avian inconsistency documented
+✅ Ancient support explicitly noted as LOW/UNKNOWN
+✅ Root race theory connections noted
+✅ Lyran-Draco war references compiled
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information included
+✅ URLs where available
+
 ## CITATION REQUIREMENTS (NON-NEGOTIABLE)
 
 Every source MUST include:
-1. **Full title**, **Author name(s)**, **Translator/Editor** (if applicable)
-2. **Edition information**, **Publication year**
-3. **Specific location** (page numbers, chapter, section)
-4. **Direct quote** (≤25 words, actual text - NOT PLACEHOLDER)
-5. **URL** (if available), **Source type**
-6. **Source quality verification** (MANDATORY - see enforcement section below)
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names, not initials)
+3. **Translator/Editor** (for ancient texts if applicable)
+4. **Edition information** (e.g., "Revised Edition", "2nd Edition")
+5. **Publication year** (original and edition if different)
+6. **Specific location** (page numbers, chapter, section)
+7. **Direct quote** (≤25 words, actual text from source - NOT PLACEHOLDER)
+8. **URL** (if available online)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+10. **Source quality verification** (MANDATORY - see enforcement section below)
 
 ### SOURCE QUALITY VERIFICATION RULES (MANDATORY)
 
@@ -317,44 +354,13 @@ Every source MUST include:
 
 **If ANY answer is NO → DO NOT include this source. Find a better one.**
 
-⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+⚠️ **CITATION EXAMPLES ARE EXAMPLES ONLY - DO NOT COPY INTO OUTPUT**
+⚠️ **YOU MUST FIND AND VERIFY ACTUAL SOURCES WITH REAL QUOTES**
 
-## SOURCE QUALITY ENFORCEMENT
+**If a commonly believed claim cannot be verified** (e.g., "Lyran feline DNA"), include it in `research_notes` with:
+> "Note: No credible evidence found for [claim], despite prevalence in New Age discourse."
 
-**Before submitting, verify EVERY source passes these checks:**
-
-| Check | Requirement | Failure = Rejection |
-|-------|-------------|---------------------|
-| **Title** | Full, exact title (not abbreviated) | ❌ "Sacred Ground" → ✅ "Defending Sacred Ground" |
-| **Author** | Full name (not initials) | ❌ "A. Collier" → ✅ "Alex Collier" |
-| **Edition** | Specific edition info | ❌ "unknown" → ✅ "First Edition" or "1996" |
-| **Page** | Exact location | ❌ "unknown" → ✅ "Chapter 4, pp. 78-80" |
-| **Quote** | Verbatim text ≤25 words | ❌ "[EXAMPLE]" → ✅ "actual quote from source" |
-| **URL** | Working link if available | ❌ Missing when source is online → ✅ Include URL |
-| **Translator** | Required for ancient texts | ❌ Missing → ✅ "Name (translator)" |
-| **Verified** | Must be `true` | ❌ Missing field → ✅ `"verified": true` |
-
-**Red Flags (indicate lazy research):**
-- ❌ More than 20% of sources missing URLs when available online
-- ❌ Any placeholder quotes or "unknown" fields
-- ❌ Vague page references like "throughout" or "various pages"
-- ❌ Missing translator/editor for ancient texts
-- ❌ Abbreviated titles or author names
-
-## QUALITY CHECKLIST
-✅ 5+ sources per characteristic (minimum 3 if truly limited)
-✅ **Every source has `"verified": true` field**
-✅ **Zero placeholder quotes or "unknown" fields**
-✅ Greek mythology marked as symbolic (not direct evidence)
-✅ Ancient support noted as LOW
-✅ Contactee sources labeled appropriately
-✅ Full citations with page numbers (no placeholders)
-✅ Edition information and URLs included
-
-**If unverifiable claims exist**, note in `research_notes`:
-> "Note: No credible evidence found for [claim], despite prevalence in discourse."
-
-**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), symbolic vs direct evidence distinguished.**
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), form inconsistencies noted.**
 
 ═══════════════════════════════════════════════════════════════════════════════
 🔒 FINAL VALIDATION BEFORE SUBMISSION
@@ -370,17 +376,22 @@ Every source MUST include:
 ❌ Any missing edition information
 ❌ Any blog sources or personal websites
 ❌ Any social media posts or YouTube videos
+❌ **CRITICAL:** Any source with "Wikipedia Contributors" as author
+❌ **CRITICAL:** Any Wikipedia or online encyclopedia sources (Wikipedia, Britannica, Encyclopedia.com, etc.)
+❌ **CRITICAL:** Any "Various scholars" or "Various researchers" as author (anonymous sources)
 ❌ More than 20% of sources missing URLs when available online
 ❌ Vague page references like "throughout" or "various pages"
 
 **PASS CRITERIA:**
-✅ Every source has complete citation with all required fields
+✅ Every source has complete citation with all 10 required fields
 ✅ Every source has `"verified": true`
 ✅ All quotes are verbatim from source (≤25 words)
+✅ Zero Wikipedia or encyclopedia sources
+✅ Zero anonymous authors or "Various scholars"
 ✅ All page numbers are specific and verifiable
 ✅ All titles and author names are complete (not abbreviated)
-✅ Greek mythology marked as symbolic (evidence_type: "symbolic")
-✅ Ancient support explicitly noted as LOW
-✅ Mix of contactee and channeled sources
+✅ Feline vs avian inconsistencies documented
+✅ Ancient support explicitly noted as LOW/UNKNOWN
+✅ Mix of channeled and esoteric sources
 
 **If you cannot verify a source meets these standards, DO NOT include it. Find a better source instead.**

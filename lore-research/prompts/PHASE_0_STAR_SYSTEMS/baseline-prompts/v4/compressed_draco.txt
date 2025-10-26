@@ -1,0 +1,186 @@
+You are producing Phase 0 baseline research for the star system "Draco" for the Star System Sorter project.
+
+Treat the attached file "DRACO_RESEARCH_SPEC_V4.txt" as binding policy. If anything in your output conflicts with that file, you are wrong. Follow every rule below AND in the attached file.
+
+OUTPUT:
+- Return VALID JSON ONLY. Object starting with { and ending with }. No prose, no markdown.
+- Minimum: 5-7 "characteristics". Each characteristic = 2+ sources.
+- Must also return "disputed_points", "east_west_duality", "research_notes", and "bibliography".
+
+STRUCTURE (top level JSON keys required):
+- "star_system"
+- "version"
+- "last_updated"
+- "methodology"
+- "academic_context"
+- "characteristics" (array)
+- "disputed_points" (array)
+- "east_west_duality" (string)
+- "research_notes" (string)
+- "bibliography" (object with "ancient_texts", "modern_research", "academic_foundations")
+
+CHARACTERISTICS REQUIREMENTS:
+Each object in "characteristics" MUST include:
+- "trait"
+- "consensus_level" ("high" | "medium" | "low")
+- "ancient_support" ("high" | "medium" | "low" | "unknown")
+- "evidence_type" ("direct" | "inferred" | "symbolic")
+- "disputed" (true/false)
+- "polarity" ("light" | "shadow" | "neutral")
+- "sources" (array of source objects, see SOURCES section)
+
+MANDATORY CHARACTERISTICS (must all appear, each as its own characteristic):
+1. "Ancient dragon mythology across cultures"
+   - Include Babylonian (Tiamat / Enuma Elish), Chinese imperial/yang rain dragons, European/Norse dragons (treasure/chaos), Greek serpent/guardian dragons (Ladon/Python).
+   - consensus_level should be "high"
+   - ancient_support should be "high"
+   - polarity likely "neutral" (cosmic power / guardianship) or split if you want variants.
+2. "Eastern vs Western dragon duality"
+   - Eastern dragons (Chinese/Japanese): benevolent, wisdom, rain, imperial mandate, yang.
+   - Western dragons (European/Norse): chaos, greed, destructive, hoarders that heroes must kill.
+   - consensus_level "high"
+   - ancient_support "high"
+   - polarity must include BOTH "light" (Eastern benevolent aspect) and "shadow" (Western destructive aspect) across its sources OR explain via "neutral" if you treat this trait as descriptive.
+3. "Modern reptilian/Draco controversy"
+   - MUST have "disputed": true
+   - MUST reference modern Draco/reptilian bloodline control, shapeshifters, genetic manipulation, elite control narratives.
+   - MUST include counter-evidence.
+   - consensus_level "low"
+   - ancient_support "unknown"
+   - polarity "shadow"
+
+OPTIONAL BUT EXPECTED CHARACTERISTICS (use if well-sourced):
+- Hierarchy / sovereignty / rulership / cosmic order / pole-star axis
+- Guardian of treasure / knowledge / threshold
+- Transformation / shapeshift
+Only include these if they meet sourcing rules (see SOURCE QUALITY). Mark polarity:
+- "light" = benevolent order, wisdom dragons, rightful sovereignty
+- "shadow" = domination, predatory control, bloodline narratives
+- "neutral" = structural/archetypal (guardian of treasure, cosmic axis, etc.)
+If a trait can ONLY be sourced from blogs, drop it completely.
+
+CONSENSUS / ANCIENT SUPPORT QUICK DEFINITIONS:
+- consensus_level:
+  - "high": attested in multiple cultures or multiple academic sources
+  - "medium": multiple sources in one tradition OR 2 strong sources
+  - "low": controversial, channeled, fringe, or 1-2 sources
+- ancient_support:
+  - "high": explicit in ancient texts (Babylonian, Chinese, Greek, Norse, etc.)
+  - "medium": inferred from ancient material
+  - "low": symbolic echo
+  - "unknown": purely modern
+
+POLARITY FIELD (MANDATORY IN EVERY CHARACTERISTIC):
+- "light": benevolent power, rain-bringer, wise imperial mandate, lawful sovereignty
+- "shadow": predatory control, fear manipulation, bloodline domination, reptilian overlord story
+- "neutral": descriptive/archetypal (guardian of hoard, cosmic axis, chaos-serpent as raw force)
+
+SOURCES REQUIREMENTS:
+Every source in each "sources" array MUST include ALL of:
+- "title"
+- "author"
+  - For ancient texts use culture or "Anonymous" (e.g. "Babylonian (Enuma Elish)", "Anonymous")
+  - DO NOT list the translator as the author
+  - NEVER use "Various sources", "Multiple authors", "Contemporary sources", "Various Astronomical Sources"
+- "translator_or_editor"
+  - REQUIRED for any ancient / myth / non-English source
+  - Format: "Full Name (translator)"
+  - Leave this field OUT entirely for modern English books unless they truly have an editor/translator
+- "edition" (e.g. "First Edition", "Paperback Edition", "Sacred Texts Edition")
+- "year" (publication year of that edition)
+- "original_year" (ancient composition year or first known record; use an integer like -1200 for BCE; null if same as "year")
+- "publisher"
+- "url"
+  - Allowed: archive.org, sacred-texts.com, publisher sites, lawofone.info
+  - NOT allowed: Wikipedia, Britannica, Encyclopedia.com, Ancient.eu / WorldHistory.org, Mythopedia.com, Goodreads, blogs, Medium, WordPress, YouTube, social media, starseed / channeler blogs, crystalinks, etc.
+  - If only forbidden URLs exist, set "url": null instead of using a bad link.
+- "isbn"
+  - ISBN string if it exists
+  - null if no ISBN (older than ~1967 or ancient text translation without ISBN)
+- "source_type"
+  - "ancient" for primary myth text (Enuma Elish, Beowulf, etc.)
+  - "research" for academic / scholarly / anthropology / mythology studies (Shuker, de Visser, Fontenrose, Jones, astronomy notes)
+  - "channeled" for Law of One, etc.
+  - "controversial" for David Icke, Boulay, Swerdlow reptilian narratives
+- "citation_status"
+  - "locked" OR "provisional"
+- "astronomical_component"
+  - "unspecified": general dragon archetype / mythic serpent / guardianship / chaos / imperial mandate
+  - "P": Thuban / Alpha Draconis / pole-star / axis-of-heaven / sovereignty alignment themes
+  - "B": reptilian bloodline / Draco overlord / shapeshifter control narratives
+- "component_reasoning"
+  - 1-sentence explanation of why you chose that astronomical_component
+
+BINARY CITATION MODE (DO NOT MIX):
+If "citation_status" = "locked":
+  - You MUST include ONLY:
+    - "page" (can be page OR canonical locator like "Tablet IV, lines 93-104", or "Session 38.7")
+    - "quote" (verbatim ≤25 words)
+  - You MUST NOT include "summary" or "location_hint" here.
+
+If "citation_status" = "provisional":
+  - You MUST include ONLY:
+    - "location_hint" (chapter / section / tablet / session ref)
+    - "summary" (≤25 words, paraphrase)
+  - You MUST NOT include "page" or "quote" here.
+
+If you cannot produce a locked quote from a source, you MUST still include that source provisionally (do not drop it) as long as it’s a legit book or ancient text. If the only available mention is from a banned source (Wikipedia, blogs, etc.), DROP that source entirely.
+
+LAW OF ONE / RA MATERIAL (IF USED):
+- "author": "Ra via Carla Rueckert"
+- "publisher": "L/L Research"
+- Include "isbn" from the L/L Research edition (e.g. "ISBN 0-945007-00-9")
+- You MAY include "url": "https://www.lawofone.info/..." for access
+- For "locked" quotes:
+  - "page": "Session XX.Y" (this counts as a canonical locator)
+  - "quote": the exact answer text (≤25 words)
+- These sources are usually "source_type": "channeled"
+- Use "astronomical_component": "B" only if it explicitly references reptilian / Orion / domination / bloodline-control style Draco. Otherwise "unspecified".
+
+THUBAN / POLE STAR MATERIAL:
+- You MUST NOT cite Wikipedia or any encyclopedia site.
+- Use a provisional source block with "title": "Historical Notes on Thuban (Alpha Draconis) as Pole Star".
+- "author": "Standard astronomical chronologies"
+- "publisher": an academic-sounding body (e.g. archaeoastronomy of Old Kingdom Egypt)
+- "astronomical_component": "P"
+- "component_reasoning": "Thuban (Alpha Draconis) used as pole star / sovereignty axis"
+- "citation_status": "provisional"
+- No Wikipedia URL. Use "url": null.
+
+DISPUTED POINTS:
+- Top-level JSON MUST include "disputed_points".
+- At least one entry MUST summarize Draco/reptilian bloodline control, shapeshifters, genetic manipulation of humanity, etc.
+- That entry MUST:
+  - include "supporting_sources" (David Icke, Boulay, Swerdlow, etc.)
+  - include "counter_evidence" (anthropology / comparative myth / evolutionary psychology like David E. Jones)
+  - include "consensus": state this is fringe / low consensus
+- All supporting sources here MUST have:
+  - "source_type": "controversial"
+  - "astronomical_component": "B"
+  - "polarity": "shadow" (in the characteristic using them)
+- Counter-evidence can use "source_type": "research", "astronomical_component": "unspecified".
+
+BANNED CONTENT (HARD FAIL IF USED ANYWHERE):
+- Wikipedia, Britannica, Encyclopedia.com, WorldHistory.org/Ancient.eu, Mythopedia.com, Goodreads
+- Any site with "encyclopedia", "wiki", or "pedia" in the domain
+- Blogs (WordPress, Medium, Blogspot, crystalinks, etc.)
+- Social media, YouTube, Reddit, "channeled YouTube messages", "telegrams", etc.
+- "Various sources", "Multiple authors", "Contemporary sources", "Various Astronomical Sources"
+- Kundalini associations with Draco (DO NOT mention kundalini)
+
+FINAL VALIDATION YOU MUST PASS:
+1. JSON-only output (no prose)
+2. All characteristics include "polarity"
+3. "Ancient dragon mythology across cultures", "Eastern vs Western dragon duality", and "Modern reptilian/Draco controversy" are all present as separate characteristic objects
+4. Every source block has ALL required bibliographic fields, plus EITHER locked-mode fields OR provisional-mode fields (never both)
+5. Every source block has "astronomical_component" + "component_reasoning"
+6. Law of One, if used, follows the Ra via Carla Rueckert rules with L/L Research as publisher and ISBN
+7. "disputed_points" exists and includes:
+   - reptilian Draco control claim
+   - counter_evidence source
+   - "consensus": must say low / fringe
+8. "east_west_duality" and "research_notes" both exist at top level
+9. No banned URLs
+10. No Wikipedia (or any 'pedia'), no blogs, no kundalini
+
+Now generate the final JSON.

@@ -1,0 +1,210 @@
+You are generating a PATCH to the Sirius baseline JSON.
+Do NOT regenerate the full Sirius JSON.
+Instead, return ONLY the two missing characteristics below as valid JSON.
+Your response MUST be valid minified JSON, starting with { and ending with }, with no commentary.
+
+You MUST return this structure:
+
+{
+"characteristics": [
+{
+"trait": "INITIATORY ROYAL RESURRECTION VIA ISIS / SOTHIS / OSIRIS",
+"consensus_level": "",
+"ancient_support": "",
+"evidence_type": "",
+"disputed": false,
+"sources": []
+},
+{
+"trait": "PATH TO SIRIUS AS COSMIC FREEDOM / LIBERATION CURRENT",
+"consensus_level": "",
+"ancient_support": "",
+"evidence_type": "",
+"disputed": false,
+"sources": []
+}
+]
+}
+
+Filling rules for each characteristic:
+
+consensus_level: "high" | "medium" | "low"
+
+ancient_support: "high" | "medium" | "low" | "unknown"
+
+evidence_type: "direct" | "inferred" | "symbolic"
+
+disputed: usually false here
+
+Each characteristic MUST include 2-5 sources.
+
+Each source MUST follow the same source object policy from the Sirius V3 baseline:
+
+ALWAYS REQUIRED FIELDS FOR EVERY SOURCE:
+
+"title": full title of the work (not abbreviated)
+
+"author": full human name(s). For ancient texts, use the translator here if the ancient author is unknown.
+
+"translator_or_editor": full human name(s). Use full name, not initials. If not applicable, use null.
+
+"edition": specific edition wording, e.g. "Oxford University Press edition", "Lucis Publishing edition", "University of Texas Press Revised Edition"
+
+"year": publication year of the cited edition (4-digit number)
+
+"original_year": original publication year if different, otherwise omit this field
+
+"publisher": publisher or imprint (e.g. "Oxford University Press", "Lucis Publishing Company", "L/L Research")
+
+For pre-ISBN material or sacred-texts-era scans, you MUST still include "publisher"
+
+One of the following citation modes:
+
+LOCKED MODE (if you can access verbatim text):
+
+"page": exact locator. This MAY be a canonical locator like "Utterance 632 §1786-1787", "Spell 148", "Session 38.7". Canonical units are valid page locators.
+
+"quote": verbatim text ≤25 words from that source
+
+"citation_status": "locked"
+
+PROVISIONAL MODE (if you cannot see the full text):
+
+"location_hint": section / chapter / spell / utterance / session reference
+
+"summary": ≤25 word paraphrase of what that source says about this trait
+
+"citation_status": "provisional"
+
+Other REQUIRED fields:
+
+"url": working URL if available (archive.org, sacred-texts.com, lawofone.info, publisher page). If truly unavailable, use null.
+
+"isbn": ISBN string if known. If no ISBN/DOI exists (older than ~1967, 19th c. translation, journal article), use "isbn": null
+
+"source_type": one of "ancient" | "research" | "channeled" | "indigenous" | "controversial"
+
+"astronomical_component": one of "A" | "B" | "C" | "unspecified"
+
+"component_reasoning": short explanation of why you chose that component
+
+CRITICAL CONTENT FOR EACH CHARACTERISTIC:
+
+INITIATORY ROYAL RESURRECTION VIA ISIS / SOTHIS / OSIRIS
+
+Definition of this trait:
+
+Sirius = Sopdet / Sothis in Egyptian religion
+
+Sothis is identified with Isis
+
+Isis reassembles / revives Osiris and empowers the king
+
+The deceased (pharaoh) is reborn, ascends, legitimizes kingship
+
+The heliacal rising of Sirius marks New Year and cosmic renewal
+
+This is an initiation and resurrection technology, not just agriculture
+
+You MUST use:
+
+"The Ancient Egyptian Pyramid Texts" (Raymond Oliver Faulkner translation; Oxford University Press). Use Sopdet / Sothis passages that link Isis-Sothis to reviving/union with king/Osiris. Use canonical utterance numbers as page locators if possible. This source should have "astronomical_component": "A" because it's visible Sirius in antiquity.
+
+"The Ancient Egyptian Book of the Dead" translated by Raymond Oliver Faulkner, University of Texas Press Revised Edition (1990). Use Spell-level citations for Isis=Sothis and afterlife guidance. Component A.
+
+"Goddess Sopdet in Ancient Egyptian Religion" by Amr Abd Elaziz Saleh (2021), academic article describing Sopdet/Sothis as bringer of the New Year, fertility, and kingship legitimation. Component A.
+Optional if needed:
+
+"The Ancient Egyptian Coffin Texts" translated by Raymond Oliver Faulkner (Aris & Phillips Ltd.). Use Spell references that show Sothis guiding or enthroning the deceased in afterlife. Component A.
+
+For each of these sources:
+
+If you can access a direct line (for example “Your sister Isis comes to you rejoicing for love of you, she being ready as Sothis”), you MUST present that source in LOCKED MODE with "page" = utterance/spell reference and "quote" = exact text (≤25 words).
+
+If you cannot access a direct line for a given source, you MUST present it in PROVISIONAL MODE with "location_hint" and "summary".
+
+Set:
+
+consensus_level for this trait to "high"
+
+ancient_support for this trait to "high"
+
+evidence_type for this trait to "direct"
+
+disputed for this trait to false
+
+All sources for this trait MUST use "astronomical_component": "A" and MUST include "component_reasoning" like "Ancient Egyptian visible star Sopdet/Sothis predating Sirius B discovery."
+
+PATH TO SIRIUS AS COSMIC FREEDOM / LIBERATION CURRENT
+
+Definition of this trait:
+
+Sirius is framed as a higher-initiation point or graduation point in esoteric / Theosophical / post-Theosophical literature
+
+Sirius is described as the seat of higher spiritual governance or ‘Hierarchy’
+
+Sirius is linked to “cosmic Freedom,” liberation, and high initiatory path
+
+The “Path to Sirius” is portrayed as an advanced initiation track for adepts / Masters
+
+You MUST use:
+
+"A Treatise on Cosmic Fire" by Alice A. Bailey, Lucis Publishing Company (1925). Sirius as source of Logoic mind, path of higher initiation. This source should have "astronomical_component": "unspecified" because Bailey says “Sirius” without naming A/B/C.
+
+"Esoteric Astrology" by Alice A. Bailey, Lucis Publishing Company (1951). Sirius is called the principle of cosmic Freedom, Leo Full Moon alignment. "astronomical_component": "unspecified".
+Optional if needed:
+
+"The Secret Doctrine" by Helena Petrovna Blavatsky (1888). Sirius as esoteric initiator, “Great Instructor.” Use Theosophical Publishing Society/London. This one should be "astronomical_component": "A" with reasoning: 19th-century occult assignment to visible Sirius as Teacher Star predating modern Sirius B narratives.
+
+For each source:
+
+If you have known language like “Our Hierarchy is under the supervision… of Sirius” or “The Path to Sirius leads to cosmic rapture…,” provide LOCKED MODE with "page" and "quote" (≤25 words).
+
+If you cannot access exact phrasing from the full text, provide PROVISIONAL MODE with "location_hint" (chapter/section reference like “Section on Path IV” or “p. 723 Path IV description” or “p. 300 Leo Full Moon section”) plus "summary" (≤25 words).
+
+Set:
+
+consensus_level for this trait to "medium"
+
+ancient_support for this trait to "low"
+
+evidence_type for this trait to "symbolic"
+
+disputed for this trait to false
+
+For Bailey / Blavatsky sources in this trait:
+
+Use "astronomical_component": "unspecified" if the source just says “Sirius” as a spiritual HQ without addressing physical components.
+
+OR use "astronomical_component": "A" only if the author explicitly ties it to the visible blue-white Dog Star in the sky and not to “a higher-density Sirian council” etc.
+In all cases you MUST include "component_reasoning" explaining why you chose that value.
+
+GLOBAL RULES (apply to ALL returned sources here):
+
+DO NOT use Wikipedia.
+
+DO NOT use blogs, starseed forums, YouTube, Medium, Reddit, etc.
+
+DO NOT invent page numbers or quotes.
+
+If you cannot produce a LOCKED quote for a source, you MUST still include it as PROVISIONAL with location_hint + summary.
+
+Every source MUST include: title, author, translator_or_editor (or null), edition, year, publisher, url (or null), isbn (or null if truly not applicable), source_type, astronomical_component, component_reasoning, and citation_status.
+
+translator_or_editor MUST be full human name(s). Do NOT leave just initials. For example, use "Raymond Oliver Faulkner (translator)" not "R. O. Faulkner".
+
+You MUST include "publisher" for every source.
+
+You MUST include "isbn": null if there is no ISBN.
+
+FINAL INSTRUCTION:
+Return ONLY the JSON in the exact format described at the top:
+
+{
+"characteristics": [
+{ ...first trait with sources... },
+{ ...second trait with sources... }
+]
+}
+
+No extra text, no commentary, no markdown.

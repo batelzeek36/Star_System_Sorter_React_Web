@@ -1,0 +1,336 @@
+this applies to lore-research/prompts/PHASE_0_STAR_SYSTEMS/baseline-prompts/v4/SIRIUS_BASELINE_V4.txt
+
+
+Love this question because this is exactly how you get a reusable machine and not a one-off ritual 🐍✨
+
+Here’s the answer super directly:
+
+Below are the fixes/improvements in your V4 prompt that you SHOULD keep as your universal baseline template for every other star system. I’m ignoring all Sirius-only content (like Isis-Sothis-Osiris, Dogon/Sirius B, Path to Sirius, etc.).
+
+After that, I’ll call out the 1 thing you should delete/adjust before cloning it.
+
+---
+
+## 1. PROVISIONAL vs LOCKED citation framework (keep)
+
+This is now rock solid and portable.
+
+* `citation_status: "provisional"` ⇒ must include `location_hint` + `summary`, no quote.
+* `citation_status: "locked"` ⇒ must include `page` + `quote`, no summary.
+* Canonical locators (Utterance 632 / Spell 467 / Session 38.7 etc.) count as the `page` field for LOCKED.
+* Absolutely no making up page numbers or quotes.
+* You forbid mixing `quote` and `summary`. Good. Keep that.
+
+Why this matters: this lets you run early baselines on ANY star even if you can’t see every book.
+
+✅ Keep this whole system for all stars.
+
+---
+
+## 2. “Full text online = LOCKED” rule (keep)
+
+You added:
+
+> If a source is fully available on archive.org, sacred-texts.com, lawofone.info, or similar, you MUST use `citation_status: "locked"` and include a verbatim `quote`.
+
+That is huge. Models are lazy and like to paraphrase even when the source is literally right there. This forces them to harvest real text from public-domain sources.
+
+✅ Keep this for all stars.
+
+---
+
+## 3. ISBN / DOI / publisher requirements (keep)
+
+You now say:
+
+* Every source MUST include `publisher`.
+* Every source MUST include `isbn` or `doi`.
+* If no ISBN/DOI exists because it’s old or pre-ISBN, set `"isbn": null` and STILL RETURN IT. Do not drop the source.
+
+That fixes the “model refuses to cite because no ISBN” failure mode.
+
+✅ Keep those rules. Especially “`isbn`: null is allowed, do not omit.”
+
+---
+
+## 4. Translator/Editor clarity (keep)
+
+You now require:
+
+* `translator_or_editor` for ancient/translated material.
+* Explicit `(translator)` label.
+* Full names preferred, but initials are allowed if that’s how scholarship typically cites that person (e.g. “R. O. Faulkner (translator)” is fine).
+* Avoid Budge unless literally no better translation exists.
+
+This forces academic sourcing and stops “anonymous scribe” nonsense.
+
+✅ Keep this translator block everywhere.
+
+(You can just swap in the appropriate translators for, say, Mesopotamian or Greek or Vedic material.)
+
+---
+
+## 5. Consensus levels are now sane (keep)
+
+Old version basically implied “3-5 sources per trait or it doesn’t count,” which crushes weird-but-important lore.
+
+Now you say:
+
+* **HIGH** consensus traits: 3–5 sources.
+* **MEDIUM**: 2–3 sources.
+* **LOW** (disputed / channeled-only / single-lineage lore): 2 sources minimum is acceptable.
+
+And you explicitly say that is allowed.
+
+That’s excellent. Your other systems (Pleiades, Arcturus, Orion, etc.) will absolutely have low-consensus traits that only live in channelings or one mystery school. You don’t want those filtered out.
+
+✅ Keep this relaxation for all stars.
+
+---
+
+## 6. Force “disputed” handling with both sides (keep)
+
+You tell it:
+
+* If there’s a controversial claim, you MUST include a `disputed_points` entry.
+* `disputed_points` must include both supporting and counter-evidence sources.
+* Counter-evidence has to be cited with a LOCKED quote if possible.
+
+This is gold. You absolutely want that for Orion war narratives, Pleiadian genetic uplift narratives, etc. It future-proofs you against “we’re just repeating lore” and pulls in skepticism as data.
+
+✅ Keep this pattern for all stars.
+
+---
+
+## 7. Quality Checklist / Final Validation logic (keep)
+
+Your “REJECTED IF” and “PASS CRITERIA” blocks are doing some heavy lifting, and they generalize beautifully:
+
+* Every source must have:
+
+  * `astronomical_component`
+  * `component_reasoning`
+  * `citation_status`
+  * `publisher`
+  * ISBN/DOI or `"isbn": null`
+* Provisional = summary only
+* Locked = quote only
+* No blogs, no Wikipedia, no social media, no anonymous authors, no YouTube/podcasts without a published text
+* Do not give up and return empty results
+
+This is basically your audit harness. Keep it for all stars.
+
+Tiny adjustment you should apply globally (see “Fix this one thing” below), but otherwise ✅ keep.
+
+---
+
+## 8. The JSON output contract (keep)
+
+You’re enforcing that the model must output a single valid JSON object with:
+
+* `star_system`
+* `version`
+* `last_updated`
+* `methodology`
+* `academic_context`
+* `characteristics` (array of traits, each with sources)
+* `disputed_points`
+* `research_notes`
+* `bibliography`
+
+This schema is exactly what you want cross-system so you can diff Pleiades vs Arcturus vs Sirius programmatically.
+
+✅ Keep that whole structure for all stars. Just change `"star_system": "Sirius"` → `"Pleiades"` / etc.
+
+---
+
+## 9. The provisional/locked source object shapes (keep)
+
+Inside each `characteristics[n].sources[]`, you’ve made it crystal:
+
+For provisional:
+
+```json
+{
+  "title": "...",
+  "author": "...",
+  "translator_or_editor": "...",
+  "edition": "...",
+  "year": 1984,
+  "original_year": 1976,
+  "publisher": "...",
+  "location_hint": "...",
+  "summary": "...",
+  "url": "...",
+  "isbn": "... or null",
+  "source_type": "ancient|research|channeled|indigenous|controversial",
+  "astronomical_component": "A|B|C|unspecified",
+  "component_reasoning": "...",
+  "citation_status": "provisional"
+}
+```
+
+For locked:
+
+```json
+{
+  "title": "...",
+  "author": "...",
+  "translator_or_editor": "...",
+  "edition": "...",
+  "year": 1969,
+  "publisher": "...",
+  "page": "Utterance 632, §1786-1787 (canonical OK)",
+  "quote": "Verbatim text ≤25 words",
+  "url": "...",
+  "isbn": "... or null",
+  "source_type": "ancient",
+  "astronomical_component": "A|B|C|unspecified",
+  "component_reasoning": "...",
+  "citation_status": "locked"
+}
+```
+
+That shape is portable to every system. Keep it.
+
+---
+
+## 10. The “don’t omit source if you can’t lock it” rule (keep)
+
+You tell it:
+
+> If you can’t produce LOCKED, fall back to PROVISIONAL instead of skipping.
+
+This is huge for rare/obscure star systems where you’ll never get full preview. You still at least capture the existence of the source and how it’s described.
+
+✅ Keep that.
+
+---
+
+## 11. “Use canonical locators as page” rule (keep)
+
+You explicitly authorize non-page-number locators:
+
+* Utterance X
+* Spell Y
+* Session Z
+* §numbers / line numbers
+* Chapter:section
+
+That unlocks Vedic hymns, Dead Sea Scroll fragments, Nag Hammadi codices, Hellenistic fragments, etc., where pagination is edition-dependent.
+
+✅ DEFINITELY keep this rule everywhere.
+
+---
+
+## 12. Handling of source types (keep)
+
+You added `source_type` buckets:
+
+* `"ancient"`
+* `"research"`
+* `"channeled"`
+* `"indigenous"`
+* `"controversial"`
+
+That categorization will let you later build filters like “show me only indigenous attestations of Arcturus” or “show me only channeled claims about Pleiades.”
+
+✅ Keep that field and those options for every star system.
+
+---
+
+## 13. “No anonymous authors” and “don’t cite random blogs” (keep)
+
+These guardrails keep garbage out of your baseline.
+
+✅ Keep that for all stars.
+
+---
+
+## 14. Keep `publisher` in every source (keep)
+
+You forced `publisher`. That’s new vs earlier drafts, and it’s super useful because it lets you later audit credibility. “Random House” vs “self-published Lulu PDF” is not the same weight.
+
+✅ Keep.
+
+---
+
+## 15. Output must be minified JSON, no markdown, no English paragraphs (keep)
+
+You’re telling it: only return the data object, no commentary.
+
+That’s perfect for automation.
+
+✅ Keep.
+
+---
+
+### Now: what to NOT carry forward globally
+
+These are Sirius-only or locally wired:
+
+1. **The “astronomical_component” inference rules using `A | B | C | unspecified` described in terms of Sirius A/B/C.**
+
+   * You *should* keep the *field* `astronomical_component` (it’s insanely useful metadata).
+   * BUT you cannot reuse the Sirius-specific logic (“A = visible Sirius A, B = Sirius B white dwarf, C = hypothetical Sirius C”) for other systems.
+   * For other star systems, you’ll rewrite that section to describe *their* internal components, or whatever makes sense (“Component A = visible main star Alcyone,” etc.).
+   * So: don’t carry the Sirius A/B/C definitions as-is. Rewrite per new target star.
+
+2. **Dogon, Temple, van Beek, Sagan dispute block.**
+
+   * That’s Sirius-only. For another system you’ll still keep the *pattern* called `disputed_points`, but with that system’s big controversy.
+
+   So: keep the *structure*, not the actual Dogon narrative.
+
+3. **The EXPECTED CHARACTERISTICS list.**
+
+   * That’s seeded with Sirius beats (Isis/Sothis, Nommo, Path to Sirius, etc.).
+   * For other stars, you replace this with that star’s common lore clusters so the model knows what to look for.
+
+4. **The “Start with ancient sources: Egyptian Sopdet/Sothis is solid ground” language.**
+
+   * That’s Sirius/Egypt specific.
+   * You should keep the method section (“Start with ancient sources first, then add channeled, then add disputes”), but rewrite which ancient corpus is priority for that star.
+
+---
+
+### Fix this one thing before cloning
+
+Right now, at the very bottom in the REJECTED IF list, you still have:
+
+> ❌ Any abbreviated titles or author initials
+
+That clashes with your *allowed* rule that says “initials like ‘R. O. Faulkner’ are acceptable if that’s how scholarship cites them.”
+
+So globally you should **DELETE** that “❌ Any abbreviated titles or author initials” bullet in every future baseline prompt.
+
+Do not carry that bullet forward. Everything else in REJECTED / PASS CRITERIA can stay.
+
+---
+
+### TL;DR for your reusable blueprint
+
+Keep (for every star system):
+
+* Provisional vs Locked citation system with strict field requirements
+* Mandatory `publisher`, `isbn`/`doi` (or `"isbn": null`)
+* “Full text online = LOCKED with quote”
+* Translator/Editor rule with `(translator)` and preference for academically respected translations
+* Canonical locators count as `page`
+* No skipping sources just because you can’t lock them
+* Consensus levels (HIGH / MEDIUM / LOW) with relaxed source minimum for LOW
+* Forced `disputed_points` with both sides
+* Mandatory `astronomical_component` + `component_reasoning` in every source (but redefine the meaning of components per star system)
+* No blogs/Wikipedia/anonymous anything
+* Output MUST be a single valid JSON object in the schema you defined
+* Final validation / pass criteria block (minus the “no initials” line)
+
+Change per star:
+
+* The specific “astronomical_component” mapping rules (rewrite for that system)
+* The EXPECTED CHARACTERISTICS list
+* The DISPUTED CLAIMS example
+* Any culturally specific source lists in “RESEARCH STRATEGY”
+* Obviously the word “Sirius” → new target star
+
+Do that and you’ve basically got your universal baseline prompt template. 🔱

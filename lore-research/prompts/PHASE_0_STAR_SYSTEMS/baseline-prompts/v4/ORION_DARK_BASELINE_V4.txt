@@ -1,0 +1,610 @@
+# ORION DARK BASELINE RESEARCH (V4)
+
+## CONTEXT
+You are conducting Phase 0 baseline research for the Star System Sorter project. This research establishes the foundational characteristics of Orion Dark faction that will later be used to map Human Design gates to star systems. Academic rigor and proper citations are CRITICAL.
+
+**V4 PHILOSOPHY:** This version uses honest field naming to distinguish provisional research (location hints + summaries) from locked citations (exact pages + verbatim quotes). You provide the research scaffold, the human locks it down later.
+
+**V4 IMPROVEMENTS:**
+1. Relaxed trait coverage rule for low-consensus characteristics
+2. Optimized handling of fully accessible online sources (sacred-texts.com, archive.org, lawofone.info)
+3. Clarified translator full name expectations
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Wrong book attribution** - VERIFY book title matches content
+5. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+6. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+7. **Wiki-style sites without citations** - UNACCEPTABLE
+8. **Wikipedia or online encyclopedias** - UNACCEPTABLE (find the primary source instead)
+9. **Commercial websites** (jewelry, art sales, psychic services) - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+❌ Wikipedia (find the primary source it cites instead)
+
+═══════════════════════════════════════════════════════════════════════════════
+🔥 V4 CITATION POLICY: PROVISIONAL vs LOCKED
+═══════════════════════════════════════════════════════════════════════════════
+
+## Citation Status Types
+
+### PROVISIONAL (when you can't access full text)
+Use when you've identified a legitimate source but can't access the complete text:
+
+**Required fields:**
+- `location_hint` - Chapter, section, session reference
+- `summary` - ≤25 word paraphrase of what source says about the trait
+- `citation_status: "provisional"`
+
+**Example:**
+```json
+{
+  "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+  "author": "Lyssa Royal",
+  "edition": "First Edition",
+  "year": 1993,
+  "publisher": "Royal Priest Research",
+  "location_hint": "Chapter 5, pp. 78-82",
+  "summary": "Describes Orion Empire as hierarchical control structure with genetic manipulation programs",
+  "url": "https://www.goodreads.com/book/show/1234567.The_Prism_of_Lyra",
+  "isbn": "ISBN 0-9631320-0-8",
+  "source_type": "channeled",
+  "citation_status": "provisional"
+}
+```
+
+### LOCKED (when you have verbatim access)
+Use when you can copy exact text from a source you can fully access:
+
+**Required fields:**
+- `page` - Exact locator in the cited edition. This MAY be a physical page number OR an internal canonical unit (e.g., "Session 16, Question 8", "Book II, Chapter 3"). Canonical units like session numbers are acceptable as LOCKED citations.
+- `quote` - Verbatim text ≤25 words from source
+- `citation_status: "locked"`
+
+**Example (channeled text with session reference):**
+```json
+{
+  "title": "The Law of One, Book I: The Ra Material",
+  "author": "Ra (channeled by Carla Rueckert, Don Elkins, Jim McCarty)",
+  "edition": "First Edition",
+  "year": 1984,
+  "original_year": 1981,
+  "publisher": "L/L Research",
+  "page": "Session 16.8",
+  "quote": "Those of Orion are of service-to-self orientation, seeking conquest and control",
+  "url": "https://www.lawofone.info/s/16#8",
+  "isbn": "ISBN 0-945007-00-9",
+  "source_type": "channeled",
+  "citation_status": "locked"
+}
+```
+
+**Example (modern book with ISBN):**
+```json
+{
+  "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+  "author": "Barbara Marciniak",
+  "edition": "First Edition",
+  "year": 1992,
+  "publisher": "Bear & Company",
+  "page": "Chapter 8, p. 156",
+  "quote": "The Orion beings sought control through manipulation of genetic codes and consciousness",
+  "url": "https://archive.org/details/bringersofdawn00marc",
+  "isbn": "ISBN 0-939680-98-5",
+  "source_type": "channeled",
+  "citation_status": "locked"
+}
+```
+
+## What You MAY Do
+
+✅ **PROVISIONAL citations when:**
+- Full text is behind paywall
+- Only preview pages available on Google Books
+- Source exists but you can't access complete text
+- You can identify chapter/section but not exact page
+
+✅ **LOCKED citations when:**
+- Source is fully accessible on Archive.org (full text, not just table of contents)
+- Source is on lawofone.info with full text (ALL Law of One sessions are fully accessible)
+- Google Books has full preview available
+- You can copy verbatim text
+
+**CRITICAL:** If a source is fully available at lawofone.info or archive.org with complete searchable text, you MUST treat it as `citation_status: "locked"` and include a `quote` + canonical locator. Do NOT use provisional mode for fully accessible sources.
+
+**ESPECIALLY IMPORTANT FOR ORION DARK:** The Law of One material at lawofone.info is COMPLETELY ACCESSIBLE with full searchable text. All Orion references in the Ra Material should be LOCKED citations with exact session numbers (e.g., "Session 16.8") and verbatim quotes. There is NO excuse for provisional citations from Law of One sources.
+
+## What You MAY NOT Do
+
+❌ **NEVER:**
+- Fabricate page numbers or quotes
+- Label a paraphrase as a direct quote
+- Use `citation_status: locked` unless quote is truly verbatim
+- Use placeholder quotes like "[EXAMPLE QUOTE]"
+- Guess at page numbers
+- Use Wikipedia or blogs as sources
+- Give up and return empty results
+
+## Field Usage Rules
+
+**Use `location_hint` + `summary` when:**
+- You know the source exists (verified ISBN, author, edition)
+- You can identify approximate location (chapter, section)
+- You can't access full text for verbatim quote
+- Set `citation_status: "provisional"`
+
+**Use `page` + `quote` when:**
+- You have full text access
+- You can copy exact words from source
+- You can verify exact page/session/chapter number
+- Set `citation_status: "locked"`
+
+**DO NOT include `verified: true` field** - that will be added during manual verification phase
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research and document the characteristics attributed to ORION DARK faction across channeled material, esoteric literature, and shadow work teachings. Return findings as minified JSON with complete citations.
+
+**CRITICAL DISTINCTION:** This research focuses on the DARK/NEGATIVE faction of Orion. EXCLUDE Orion Light/Osirian material. Focus on:
+- Control and hierarchical structures
+- Shadow work and integration themes
+- Service-to-self polarity (Law of One terminology)
+- Genetic manipulation programs
+- Alliance with Draco (but distinct from Draco)
+- Power and domination archetypes
+
+**CRITICAL SOURCE FILTER:** If a source is describing Orion in benevolent/teacher/mystery-school terms (Osiris, Thoth, Hermes, resurrection, wisdom traditions, sacred geometry), that belongs to Orion Light and MUST NOT be cited as evidence for Orion Dark. Do not mix Light and Dark material.
+
+**IMPORTANT:** Orion Dark is NOT "evil" - it represents shadow work, power archetypes, and service-to-self polarity. Present nuanced view.
+
+## ACADEMIC CONTEXT
+
+This research supports Star System Sorter, which maps Human Design's I Ching-based gate system to star mythology.
+
+**Human Design's Academic Foundations:**
+- **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
+- **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968)
+- **Kabbalah (Tree of Life)** - Extensive academic study (Scholem, Idel)
+- **Chakra system** - Religious Studies, Yoga Studies (Feuerstein)
+- **Western Astrology** - Cultural/historical phenomenon (Tarnas)
+
+**Mathematical Correspondences:**
+- 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
+- Binary yin/yang logic = Binary genetic code (A/T, C/G)
+
+**Your Task:** Document Orion Dark characteristics using rigorous sourcing standards (channeled books with ISBNs, published esoteric literature, proper citations). This is **comparative mythology research**, not pseudoscience.
+
+**CRITICAL:** If you cannot find an ISBN for a pre-1967 or pre-ISBN edition, set `"isbn": null` and STILL RETURN THE SOURCE. Do not omit the source.
+
+## HYPOTHESIS TO VALIDATE
+Based on preliminary research, Orion Dark is associated with:
+- Control and hierarchical power structures
+- Service-to-self polarity (Law of One)
+- Genetic manipulation and experimentation
+- Shadow work and integration themes
+- Alliance with Draco (but distinct star system)
+- Domination and conquest archetypes
+- NOT inherently "evil" but shadow-coded
+
+Your task is to find evidence that confirms, refutes, or nuances these characteristics.
+
+## PRIMARY SOURCES TO RESEARCH
+
+### Channeled Material (HIGH PRIORITY - Often fully accessible)
+- **The Law of One** (Ra Material) - lawofone.info - Orion "negative polarity" entities (LOCKED citations REQUIRED - full text available)
+- **Lyssa Royal Holt**: "The Prism of Lyra" (1993, ISBN 0-9631320-0-8) - Orion Empire references (check archive.org for LOCKED, otherwise PROVISIONAL)
+- **Barbara Marciniak**: "Bringers of the Dawn" (1992, ISBN 0-939680-98-5) - Orion control themes (check archive.org for LOCKED, otherwise PROVISIONAL)
+- **Bashar** (Darryl Anka): Published transcripts - Orion Dark vs Light distinction (likely PROVISIONAL unless transcript has ISBN)
+
+### Esoteric Literature
+- **Stewart Swerdlow**: "Blue Blood, True Blood" - Orion hierarchy claims
+- **Alex Collier**: Published works on Orion Empire
+- Shadow work literature that references Orion archetypes
+
+### Ancient Sources (Limited)
+- **Note**: Ancient Egyptian texts present Orion as Osiris (Light faction)
+- **Note**: Greek mythology presents Orion the Hunter (no faction distinction)
+- **Note**: Light vs Dark distinction is MODERN ESOTERIC FRAMEWORK
+
+### Jungian Shadow Work
+- Academic sources on shadow integration
+- Archetypal psychology references to power/control archetypes
+
+## CITATION REQUIREMENTS
+
+Every source MUST include:
+
+**ALWAYS REQUIRED (both provisional and locked):**
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names preferred; initials acceptable if that's how the author is commonly cited)
+3. **Translator/Editor** (for ancient texts - MUST include translator name with "(translator)" designation)
+4. **Edition information** (e.g., "First Edition", "Revised Edition")
+5. **Publication year** (original and edition if different)
+6. **Publisher/imprint** (e.g., "L/L Research", "Bear & Company", "Royal Priest Research")
+7. **URL** (if available online - archive.org, lawofone.info, publisher)
+8. **ISBN or DOI** (required for verification. If neither exists for pre-1967 publications, use `"isbn": null` and ensure publisher is specified)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+10. **Citation status** (provisional|locked)
+
+**FOR PROVISIONAL citations:**
+11. **location_hint** - Chapter, section, session reference
+12. **summary** - ≤25 word paraphrase of what source says
+
+**FOR LOCKED citations:**
+11. **page** - Exact locator in the cited edition. This MAY be a physical page number OR an internal canonical unit (e.g., "Session 16.8", "Session 25.5", "Chapter 5, p. 78"). Canonical units like session numbers are acceptable as LOCKED citations.
+12. **quote** - Verbatim text ≤25 words from source
+
+**CANONICAL UNIT EXAMPLES FOR ORION DARK:**
+- Law of One: "Session 16.8" (session.question format)
+- Channeled books: "Chapter 5, p. 78" or "Part II, pp. 156-157"
+- These count as LOCKED citations when you have verbatim access
+
+## SPECIAL FOCUS: Faction Distinctions and Shadow Work
+
+### Orion Dark vs Orion Light
+The "Light vs Dark" distinction is a **modern esoteric framework**, not ancient cosmology.
+
+**Required Analysis:**
+- Ancient sources: Orion as Osiris (benevolent) or Orion the Hunter (neutral)
+- Modern channeled sources: Explicit Light vs Dark faction split
+- Document the synthesis in `orion_light_distinctions` field
+
+**Characteristics to distinguish:**
+- **Orion Light**: Wisdom, mystery schools, Thoth/Hermes, sacred geometry, record keeping
+- **Orion Dark**: Control, hierarchy, domination, genetic manipulation, service-to-self
+
+### Orion Dark vs Draco
+**CRITICAL:** Orion Dark and Draco are SEPARATE star systems, though often allied.
+
+**Required Analysis:**
+- Orion Dark: From Orion constellation, control-oriented faction
+- Draco: From Draco constellation, reptilian archetype, power/hierarchy
+- Alliance: Many sources mention Orion Dark-Draco alliance
+- Document the distinction in `draco_alliance` field
+
+### Shadow Work vs "Evil"
+**IMPORTANT:** Orion Dark is NOT "evil" - it represents:
+- Shadow work and integration (Jungian psychology)
+- Power and control archetypes
+- Service-to-self polarity (Law of One terminology)
+- Necessary counterbalance to Light
+
+**Per-Source Nuance Flags:**
+Each source should include these boolean flags to track perspective:
+- `polarized: true` - Source presents Orion Dark as purely negative/evil
+- `polarized: false` - Source presents balanced or neutral view
+- `nuanced: true` - Source discusses shadow work, integration, or complexity
+- `nuanced: false` - Source presents simplistic good/evil binary
+- `integration_themes: true` - Source discusses redemption, evolution, or integration
+- `integration_themes: false` - No integration themes present
+
+Include `"faction": "dark"` at the characteristic level (top-level of each trait object). You do not need to repeat `"faction"` inside each individual source.
+
+## CONSENSUS LEVELS
+
+Assign based on evidence quality:
+
+- **HIGH**: 3+ independent sources, cross-source validation, minimal disputes
+- **MEDIUM**: 2-3 sources, or strong in one category only
+- **LOW**: 1-2 sources, heavily disputed, or channeled-only
+
+**V4 NOTE:** For low-consensus or single-source-type characteristics (e.g., channeled-only), 2 sources minimum is acceptable. The 3-5 sources target applies primarily to high and medium consensus traits.
+
+## ANCIENT SUPPORT LEVELS
+
+Separate from consensus - indicates historical depth:
+
+- **HIGH**: Explicit references in ancient texts (unlikely for Orion Dark)
+- **MEDIUM**: Inferred connections to ancient deities/myths
+- **LOW**: Symbolic resonance only
+- **UNKNOWN**: No ancient references found (expected for Orion Dark)
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be:
+1. Valid JSON only (no narrative text, no explanations, no markdown code blocks)
+2. MINIFIED (single line, no whitespace, no line breaks, no indentation)
+3. Start with { and end with }
+4. Nothing else before or after the JSON
+
+**WRONG:** ```json\n{\n  "star_system": "Orion Dark",\n  ...
+**RIGHT:** {"star_system":"Orion Dark","version":"4.0",...}
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**Structure reference (minified to save tokens):**
+
+```json
+{"star_system":"Orion Dark","version":"4.0","last_updated":"2025-10-25","methodology":{"framework":"Comparative mythology + I Ching-based Human Design system","academic_foundations":["I Ching (64 hexagrams → 64 Human Design gates)","Modern channeled material (Law of One, Lyssa Royal, Marciniak)","Jungian archetypal psychology (shadow work)","Service-to-self polarity framework"],"source_standards":"Published books with ISBNs, channeled material with proper attribution, evidence typing (direct/inferred/symbolic), consensus levels documented. V4: Uses provisional (location_hint + summary) vs locked (page + quote) citation status. Optimized for fully accessible online sources. Relaxed trait coverage for low-consensus characteristics.","research_date":"2025-10-25"},"academic_context":{"human_design_foundations":["I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)","64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)","Kabbalah - Extensive academic study (Scholem, Idel)","Chakra system - Religious Studies, Yoga Studies","Western Astrology - Cultural/historical phenomenon (Tarnas)"],"mathematical_correspondences":["64 I Ching hexagrams = 64 DNA codons","Binary yin/yang logic = Binary genetic code (A/T, C/G)"]},"characteristics":[{"trait":"Service-to-self polarity and hierarchical control structures","consensus_level":"high|medium|low","ancient_support":"high|medium|low|unknown","evidence_type":"direct|inferred|symbolic","disputed":false,"faction":"dark","sources":[{"title":"The Law of One, Book I: The Ra Material","author":"Ra (channeled by Carla Rueckert, Don Elkins, Jim McCarty)","edition":"First Edition","year":1984,"original_year":1981,"publisher":"L/L Research","page":"Session 16.8","quote":"Those of Orion are of service-to-self orientation, seeking conquest and control","url":"https://www.lawofone.info/s/16#8","isbn":"ISBN 0-945007-00-9","source_type":"channeled","citation_status":"locked","polarized":false,"nuanced":true,"integration_themes":false},{"title":"The Prism of Lyra: An Exploration of Human Galactic Heritage","author":"Lyssa Royal","edition":"First Edition","year":1993,"publisher":"Royal Priest Research","location_hint":"Chapter 5, pp. 78-82","summary":"Describes Orion Empire as hierarchical control structure with genetic manipulation programs","url":"https://www.goodreads.com/book/show/1234567.The_Prism_of_Lyra","isbn":"ISBN 0-9631320-0-8","source_type":"channeled","citation_status":"provisional","polarized":true,"nuanced":false,"integration_themes":false}]}],"orion_light_distinctions":"Summary of how sources distinguish Dark from Light Orion. Ancient sources present Orion as Osiris (Light/benevolent). Modern channeled sources explicitly distinguish Light (wisdom keepers) from Dark (control structures). Document the modern esoteric framework.","draco_alliance":"Summary of how sources describe Orion Dark-Draco relationship. Many sources mention alliance but emphasize they are SEPARATE star systems. Orion Dark = Orion constellation, control-oriented. Draco = Draco constellation, reptilian archetype. Often allied in hierarchical structures.","shadow_integration":"Summary of sources that discuss shadow work/integration themes. Orion Dark represents shadow archetypes, power dynamics, service-to-self polarity. NOT inherently evil but necessary counterbalance. Jungian integration themes.","research_notes":"Brief summary of consensus patterns, gaps, or notable findings. Note how many sources are provisional vs locked. Highlight that Orion Dark is predominantly modern channeled material with LOW/UNKNOWN ancient support. Emphasize nuanced vs polarized views.","bibliography":{"ancient_texts":["List key ancient texts cited (likely none for Orion Dark specifically)"],"modern_research":["List key modern research books (e.g., 'Royal, L. (1993). The Prism of Lyra')"],"channeled_sources":["List channeled sources (e.g., 'Ra Material (1984). The Law of One, Book I')"],"shadow_work_sources":["List Jungian or shadow work sources that reference Orion archetypes"],"academic_foundations":["Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press","Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize)","Scholem, G. (1941). Major Trends in Jewish Mysticism"]}}
+```
+
+## QUALITY CHECKLIST
+
+Before submitting, verify:
+
+✅ Each characteristic has 3-5 sources (target); 2 sources minimum acceptable for low-consensus traits
+✅ All sources have ISBN or DOI (or null with publisher specified)
+✅ All sources have either (location_hint + summary) OR (page + quote)
+✅ All sources have `citation_status: "provisional"` or `citation_status: "locked"`
+✅ All sources have `polarized`, `nuanced`, and `integration_themes` boolean flags
+✅ Each characteristic has `faction: "dark"` at trait level
+✅ URLs included where available
+✅ Source types are labeled
+✅ Consensus levels are justified
+✅ Ancient support levels are noted (likely LOW/UNKNOWN)
+✅ `orion_light_distinctions` field present and populated
+✅ `draco_alliance` field present and populated
+✅ `shadow_integration` field present and populated
+✅ Mix of channeled, esoteric, and shadow work sources
+✅ **NO `verified: true` field** (added during manual verification)
+
+## RESEARCH STRATEGY
+
+**Follow this sequence for optimal results:**
+
+1. **Start with Law of One (HIGHEST PRIORITY - LOCKED citations expected)**
+   - Go to lawofone.info and search for "Orion" and "negative polarity"
+   - Full text is completely accessible - use Session.Question format (e.g., "Session 16.8")
+   - Copy verbatim quotes for LOCKED citations
+   - Expected: 3-5 LOCKED citations from Law of One for service-to-self polarity
+
+2. **Add major channeled sources (MIXED - check Archive.org first)**
+   - Lyssa Royal "The Prism of Lyra" (1993) - Check archive.org for full text
+   - Barbara Marciniak "Bringers of the Dawn" (1992) - Check archive.org for full text
+   - If on Archive.org with full text: LOCKED citations
+   - If not accessible: PROVISIONAL citations with chapter/page hints
+   - Expected: 2-3 sources (mix of LOCKED and PROVISIONAL)
+
+3. **Include esoteric literature (PROVISIONAL expected)**
+   - Stewart Swerdlow "Blue Blood, True Blood" - likely PROVISIONAL
+   - Alex Collier published works - likely PROVISIONAL
+   - Identify chapter/section references even if you can't access full text
+   - Expected: 1-2 PROVISIONAL citations
+
+4. **Add shadow work context (PROVISIONAL expected)**
+   - Jungian sources on power/control archetypes - likely PROVISIONAL
+   - Shadow integration literature - likely PROVISIONAL
+   - Expected: 1-2 PROVISIONAL citations for nuanced perspective
+
+5. **Document all three required distinctions:**
+   - `orion_light_distinctions` - How Dark differs from Light/Osirian faction
+   - `draco_alliance` - How Orion Dark relates to but differs from Draco
+   - `shadow_integration` - Nuanced view vs "evil" framing
+
+6. **Emphasize nuance throughout:**
+   - Mark sources with `polarized: true/false` and `nuanced: true/false` flags
+   - Include at least one characteristic presenting shadow work perspective
+   - Balance "negative polarity" with "evolutionary catalyst" framing
+
+## EXPECTED CHARACTERISTICS
+
+Based on preliminary research, expect to find evidence for:
+
+**HIGH PRIORITY (Strong evidence expected):**
+- **Service-to-self polarity and control structures**
+  - Consensus: MEDIUM-HIGH (multiple channeled sources)
+  - Ancient support: LOW/UNKNOWN (modern framework)
+  - Citation status: LOCKED from Law of One + PROVISIONAL from other sources
+  - Expected sources: 3-5 (Law of One, Royal, Marciniak, Swerdlow)
+
+- **Hierarchical power and domination archetypes**
+  - Consensus: MEDIUM-HIGH (cross-source validation)
+  - Ancient support: LOW (symbolic only - Orion the Hunter)
+  - Citation status: Mix of LOCKED and PROVISIONAL
+  - Expected sources: 3-4 (Law of One, Royal, channeled literature)
+
+**MEDIUM PRIORITY (Moderate evidence expected):**
+- **Genetic manipulation and experimentation programs**
+  - Consensus: MEDIUM (channeled sources primarily)
+  - Ancient support: UNKNOWN (modern concept)
+  - Citation status: Mix of LOCKED and PROVISIONAL
+  - Expected sources: 2-4 (Royal, Marciniak, Swerdlow)
+
+- **Draco alliance and reptilian connections**
+  - Consensus: MEDIUM (recurring theme but disputed)
+  - Ancient support: LOW/UNKNOWN
+  - Citation status: Mostly PROVISIONAL
+  - Expected sources: 2-3 (Royal, Swerdlow, esoteric literature)
+
+**NUANCED PERSPECTIVE (Critical for balance):**
+- **Shadow work and integration themes**
+  - Consensus: LOW-MEDIUM (fewer sources but important)
+  - Ancient support: MEDIUM (Jungian archetypal psychology)
+  - Citation status: Mix of LOCKED (Law of One polarity) and PROVISIONAL (Jungian)
+  - Expected sources: 2-3 (Law of One, Jungian sources, nuanced channeled material)
+
+- **Evolutionary catalyst and polarity balance**
+  - Consensus: LOW-MEDIUM (Law of One primarily)
+  - Ancient support: MEDIUM (yin/yang, light/dark balance)
+  - Citation status: LOCKED from Law of One
+  - Expected sources: 2-3 (Law of One, esoteric philosophy)
+
+**If you find characteristics NOT in this list, include them with full citations.**
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 MANDATORY ORION DARK-SPECIFIC CHARACTERISTICS (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+**You MUST include these characteristics as separate traits. Do NOT fold them into other characteristics.**
+
+**These mandatory traits MUST follow the same characteristic object shape shown in the OUTPUT FORMAT section above, including `consensus_level`, `ancient_support`, `evidence_type`, `disputed`, `faction: "dark"`, and `sources[]` array with complete citation fields.**
+
+### MANDATORY #1: Service-to-Self Polarity and Control Structures
+
+**You MUST include a characteristic documenting the service-to-self polarity and control/hierarchy themes.**
+
+This is the primary Orion Dark archetype in channeled literature:
+- Law of One: "Negative polarity" Orion entities
+- Hierarchical power structures
+- Control and domination themes
+- Service-to-self vs service-to-others distinction
+
+**Required sources:**
+- The Law of One (Ra Material) - Orion negative polarity references
+- Lyssa Royal "The Prism of Lyra" - Orion Empire hierarchy
+- Barbara Marciniak "Bringers of the Dawn" - Orion control themes
+- At least one additional channeled or esoteric source
+
+**Trait name examples:**
+- "Service-to-self polarity and hierarchical control structures"
+- "Negative polarity Orion entities and domination archetypes"
+- "Control-oriented consciousness and power hierarchies"
+
+**This MUST be its own trait with Law of One validation documented.**
+
+### MANDATORY #2: Genetic Manipulation and Experimentation Programs
+
+**You MUST include a characteristic for the genetic manipulation theme.**
+
+This is a recurring theme in Orion Dark literature:
+- Genetic experimentation and modification
+- DNA manipulation programs
+- Hybridization projects
+- Control through genetic engineering
+
+**Required sources:**
+- Lyssa Royal "The Prism of Lyra" or similar - genetic programs
+- Barbara Marciniak "Bringers of the Dawn" - genetic manipulation
+- Stewart Swerdlow or Alex Collier - Orion genetic claims
+- At least one additional channeled source
+
+**Trait name examples:**
+- "Genetic manipulation and DNA experimentation programs"
+- "Control through genetic engineering and hybridization"
+- "Genetic modification as tool of domination"
+
+**This MUST be its own trait, not merged into 'control' characteristics.**
+
+### MANDATORY #3: Shadow Work and Integration Themes (Nuanced View)
+
+**You MUST include a characteristic presenting Orion Dark as shadow work archetype, NOT pure evil.**
+
+This provides nuanced understanding:
+- Jungian shadow integration
+- Power and control as archetypal lessons
+- Service-to-self as necessary polarity
+- Redemption and integration themes
+- NOT inherently "evil" but shadow-coded
+
+**Required sources:**
+- Law of One - polarity as necessary for evolution
+- Jungian or shadow work source on power archetypes
+- Channeled source with nuanced view (not purely negative)
+- At least one source discussing integration/redemption
+
+**Trait name examples:**
+- "Shadow work archetype and power integration lessons"
+- "Service-to-self polarity as evolutionary catalyst"
+- "Control archetypes as shadow integration teachers"
+
+**This MUST be its own trait documenting the nuanced/integration perspective.**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## FINAL REMINDER
+
+**DO NOT give up and return empty results.** Law of One material for Orion is fully accessible online.
+
+**If you cannot fully satisfy a field under LOCKED mode, fall back to PROVISIONAL mode instead of omitting the source.** If you cannot produce `page` + `quote` for a relevant source, you MUST still include that source as `citation_status: "provisional"` with `location_hint` + `summary`. Do NOT omit the source.
+
+**Prioritize LOCKED citations from:**
+- Lawofone.info (Law of One sessions - full text available)
+- Archive.org (Marciniak, Royal if available)
+
+**Use PROVISIONAL citations for:**
+- Modern channeled books (Royal, Swerdlow, Collier) unless on Archive.org
+- Esoteric literature (likely behind paywall)
+- Shadow work sources (academic books)
+
+**Remember:** Canonical units like session numbers count as LOCKED citations. You don't need physical page numbers if you have the session reference (e.g., "Session 16.8" from lawofone.info is a LOCKED citation).
+
+**Prioritize LOCKED citations from:**
+- Lawofone.info (Law of One sessions - FULL TEXT AVAILABLE, no excuse for provisional)
+- Archive.org (Marciniak "Bringers of the Dawn", Royal "Prism of Lyra" if available)
+
+**Use PROVISIONAL citations for:**
+- Modern channeled books (Royal, Swerdlow, Collier) if NOT on Archive.org
+- Esoteric literature (likely behind paywall or limited access)
+- Shadow work sources (academic books, likely limited access)
+
+**Expected citation breakdown for Orion Dark:**
+- Law of One: 3-5 LOCKED citations (full text accessible)
+- Major channeled sources: 2-4 citations (mix of LOCKED if on Archive.org, PROVISIONAL otherwise)
+- Esoteric literature: 1-3 PROVISIONAL citations
+- Shadow work sources: 1-2 PROVISIONAL citations
+
+**Minimum acceptable response: 5-7 characteristics (including 3 mandatory), each with 2-5 fully cited sources (mix of provisional and locked), with Light vs Dark and Orion vs Draco distinctions documented, shadow work nuance included, and citation status marked.**
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Missing "Service-to-self polarity and control structures" characteristic
+❌ Missing "Genetic manipulation and experimentation" characteristic
+❌ Missing "Shadow work and integration themes" characteristic
+❌ Any characteristic missing `faction: "dark"` field
+❌ Any source missing `citation_status` field
+❌ Any source missing `polarized`, `nuanced`, or `integration_themes` boolean flags
+❌ Any source with `citation_status: locked` but no verbatim `quote`
+❌ Any source with `citation_status: provisional` but no `summary`
+❌ Any source with both `quote` and `summary` fields (pick one based on status)
+❌ Any source with "Wikipedia Contributors" as author
+❌ Any Wikipedia or online encyclopedia sources
+❌ Any "Various scholars" or anonymous authors
+❌ Any blog sources or personal websites
+❌ Any missing edition information
+❌ Any social media posts or YouTube videos
+❌ Any source with `verified: true` field (DO NOT include this)
+❌ Missing `orion_light_distinctions` field
+❌ Missing `draco_alliance` field
+❌ Missing `shadow_integration` field
+
+**PASS CRITERIA:**
+✅ All 3 mandatory characteristics included as separate traits
+✅ Every characteristic has `faction: "dark"` at trait level
+✅ Every source has `citation_status: "provisional"` OR `citation_status: "locked"`
+✅ Every source has `publisher` field
+✅ Every source has `polarized`, `nuanced`, and `integration_themes` boolean flags
+✅ Provisional sources have `location_hint` + `summary`
+✅ Locked sources have `page` + `quote`
+✅ All sources have ISBN/DOI OR `"isbn": null` with publisher specified
+✅ Canonical units (Session numbers, Chapter references) are acceptable as LOCKED citations
+✅ All sources have complete bibliographic information
+✅ `orion_light_distinctions` field present and populated
+✅ `draco_alliance` field present and populated
+✅ `shadow_integration` field present and populated
+✅ Zero Wikipedia or encyclopedia sources
+✅ Zero anonymous authors
+✅ NO `verified: true` field anywhere
+
+**V4 allows provisional citations, but you must still find legitimate sources and mark them honestly.**
