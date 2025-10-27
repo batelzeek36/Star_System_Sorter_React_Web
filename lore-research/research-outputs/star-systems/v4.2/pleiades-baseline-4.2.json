@@ -1,0 +1,512 @@
+{
+  "star_system": "Pleiades",
+  "version": "4.2",
+  "last_updated": "2025-10-27",
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Cross-cultural star mythology (Greek, Māori, Aboriginal Australian, Japanese, Hindu)",
+      "Jungian archetypal psychology",
+      "Comparative religious studies"
+    ],
+    "source_standards": "Only publisher-backed sources with ISBN or known imprint; university press astronomy / anthropology sources; peer-reviewed journals; ancient texts with a named translator and known publisher imprint. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include astronomical_component and component_reasoning. Astronomical component codes: 'A' = visible star cluster / calendrical marker / physically observable stellar object; 'B' = hidden or controversial companion / secret star claims; 'G' = gateway or portal function; 'H' = healing/frequency or vibrational assistance role; 'unspecified' = system-level or collective reference without distinguishing components. Locked citations provide a ≤25-word direct quote plus locator (page / line). Provisional citations provide location_hint + summary when a direct quote is not supplied or not safely attributable to a publisher-backed edition. You MUST still generate JSON even if many sources are provisional.",
+    "research_date": "2025-10-27"
+  },
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of commentary and philology (Wilhelm/Baynes; Legge; Jung)",
+      "64 DNA codons - genetic code work recognized by the 1968 Nobel Prize (Nirenberg, Khorana)",
+      "Kabbalah - systematically studied in Jewish mysticism scholarship (Scholem, Idel)",
+      "Chakra system - analyzed in Religious Studies / Yoga Studies (Feuerstein)",
+      "Western Astrology - treated as cultural-intellectual history and cosmology (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang structure ~ binary base-pair logic (A/T, C/G)"
+    ]
+  },
+  "characteristics": [
+    {
+      "trait": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Metamorphoses",
+          "author": "Ovid",
+          "translator_or_editor": "Frank Justus Miller (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1916,
+          "original_year": 8,
+          "publisher": "Harvard University Press",
+          "url": null,
+          "isbn": "9780674990463",
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book VI (Niobe's speech), c. lines 146-175",
+          "summary": "Niobe boasts noble lineage by invoking her descent from the Pleiades, described as seven daughters of Atlas. The cluster is framed as an ancestral feminine line conferring status.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats the Pleiades as a visible star cluster personified as seven divine sisters whose maternal line grants protection, prestige, and identity."
+        },
+        {
+          "title": "The Library",
+          "author": "Apollodorus",
+          "translator_or_editor": "J. G. Frazer (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1921,
+          "original_year": -150,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/Apollodorus3.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Book 3, Section 10.1",
+          "quote": "Atlas and Pleione, daughter of Ocean, had seven daughters called the Pleiades.",
+          "astronomical_component": "A",
+          "component_reasoning": "Identifies the visible Pleiades cluster explicitly as seven sisters born of Atlas and Pleione; frames them as a kin-group of divine women."
+        },
+        {
+          "title": "The Seven Sisters of the Pleiades: Stories from Around the World",
+          "author": "Munya Andrews",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2004,
+          "original_year": 2004,
+          "publisher": "Spinifex Press",
+          "url": null,
+          "isbn": "9781876756451",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Multiple chapters surveying Greek, Aboriginal Australian, Cherokee, Māori, and other traditions",
+          "summary": "Synthesizes cross-cultural motifs in which the Pleiades are remembered as a council of ancestral sisters who watch over, nurture, warn, or protect humankind.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats the Pleiades as a naked-eye stellar cluster recognized globally and mythologized as a protective sisterhood."
+        }
+      ]
+    },
+    {
+      "trait": "Agricultural and seasonal time markers / New Year signal",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "Works and Days",
+          "author": "Hesiod",
+          "translator_or_editor": "Hugh G. Evelyn-White (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1914,
+          "original_year": -700,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/HesiodWorksDays.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Lines 383-387",
+          "quote": "When the Pleiades, daughters of Atlas, are rising, begin your harvest, and your ploughing when they are going to set.",
+          "astronomical_component": "A",
+          "component_reasoning": "Uses the heliacal rising and setting of the visible Pleiades cluster as an agricultural calendar for harvest and ploughing."
+        },
+        {
+          "title": "Matariki: The Star of the Year",
+          "author": "Rangi Matamua",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2017,
+          "original_year": 2017,
+          "publisher": "Huia Publishers",
+          "url": null,
+          "isbn": "9781775503255",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Māori New Year and planting customs",
+          "summary": "Documents Matariki (the Pleiades) as the marker of the Māori New Year and as a seasonal/planting signal in Indigenous Māori astronomy and agriculture.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats the Pleiades as a naked-eye cluster whose heliacal reappearance starts the seasonal year and informs planting cycles."
+        },
+        {
+          "title": "The Seven Sisters of the Pleiades: Stories from Around the World",
+          "author": "Munya Andrews",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2004,
+          "original_year": 2004,
+          "publisher": "Spinifex Press",
+          "url": null,
+          "isbn": "9781876756451",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter on agricultural and seasonal roles in Aboriginal Australian, Greek, and global traditions",
+          "summary": "Assembles ethnographic and mythic data showing Pleiades rising used to time harvests, rains, hunting seasons, and ritual calendars across continents.",
+          "astronomical_component": "A",
+          "component_reasoning": "Frames the Pleiades as an observational seasonal clock; no metaphysical intervention, just a sky-based timing beacon."
+        }
+      ]
+    },
+    {
+      "trait": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)",
+      "consensus_level": "low",
+      "ancient_support": "unknown",
+      "evidence_type": "symbolic",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+          "author": "Barbara Marciniak",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1992,
+          "original_year": 1992,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+          "isbn": "9780939680986",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 5 and recurring sections on emotional healing and heart-centered awareness",
+          "summary": "Pleiadians are portrayed as guides teaching humanity emotional release, self-love, and compassion as prerequisites for planetary awakening.",
+          "astronomical_component": "H",
+          "component_reasoning": "Frames the Pleiades not as stars but as a collective of higher-dimensional healers transmitting frequency/emotional medicine."
+        },
+        {
+          "title": "The Pleiadian Agenda: A New Cosmology for the Age of Light",
+          "author": "Barbara Hand Clow",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1995,
+          "original_year": 1995,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/the-pleiadian-agenda",
+          "isbn": "9781879181304",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Throughout; channelings attributed to 'Satya', a Pleiadian teacher",
+          "summary": "Describes a nine-dimensional Pleiadian teaching program guiding Earth's leap in consciousness, emotional integration, and preparation for an 'Age of Light'.",
+          "astronomical_component": "H",
+          "component_reasoning": "Treats the Pleiades as an advanced collective orchestrating vibrational uplift, not as strictly physical stars."
+        },
+        {
+          "title": "The Pleiadian Workbook: Awakening Your Divine Ka",
+          "author": "Amorah Quan Yin",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1995,
+          "original_year": 1995,
+          "publisher": "Bear & Company",
+          "url": null,
+          "isbn": "9781879181311",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Pleiadian Lightwork, Ka activation, and frequency healing chambers",
+          "summary": "Presents Pleiadian 'lightwork' as energetic healing: emotional clearing, vibrational recalibration, and compassionate frequency medicine for human evolution.",
+          "astronomical_component": "H",
+          "component_reasoning": "Defines the Pleiades as healers delivering light-frequency techniques rather than as a purely physical star cluster."
+        }
+      ]
+    },
+    {
+      "trait": "Feminine energy and divine mothers (nursing, protection, maternal initiation)",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Mahabharata",
+          "author": "Vyasa (attributed)",
+          "translator_or_editor": "Kisari Mohan Ganguli (translator)",
+          "edition": "Ganguli Translation Edition",
+          "year": 1883,
+          "original_year": -400,
+          "publisher": "P. C. Roy, Calcutta",
+          "url": "https://sacred-texts.com/hin/m03/m03228.htm",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book 3 (Vana Parva), Section 228",
+          "summary": "The Krittikas (Pleiades) are described as collectively nursing and raising Kartikeya/Skanda (a war god), acting as divine foster-mothers.",
+          "astronomical_component": "A",
+          "component_reasoning": "Identifies the Pleiades/Krittikas as visible star mothers whose nurturing role literally feeds, protects, and initiates a divine child."
+        },
+        {
+          "title": "Works and Days",
+          "author": "Hesiod",
+          "translator_or_editor": "Hugh G. Evelyn-White (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1914,
+          "original_year": -700,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/HesiodWorksDays.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Lines 383-384",
+          "quote": "the Pleiades, daughters of Atlas",
+          "astronomical_component": "A",
+          "component_reasoning": "Directly calls the cluster 'daughters of Atlas', reinforcing a lineage of divine feminine identity and maternal status tied to the visible stars."
+        },
+        {
+          "title": "The Seven Sisters of the Pleiades: Stories from Around the World",
+          "author": "Munya Andrews",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2004,
+          "original_year": 2004,
+          "publisher": "Spinifex Press",
+          "url": null,
+          "isbn": "9781876756451",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Aboriginal Australian Dreaming and women's law/ceremony",
+          "summary": "Aboriginal Australian narratives present the Seven Sisters as powerful ancestral women whose feminine law, fertility power, and care for kin define moral order.",
+          "astronomical_component": "A",
+          "component_reasoning": "Links the visible cluster to feminine creative power, birth/raising motifs, and ancestral matrilineal authority."
+        }
+      ]
+    },
+    {
+      "trait": "Companions of Artemis (virgin huntresses / celibate sisterhood)",
+      "consensus_level": "medium",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Library",
+          "author": "Apollodorus",
+          "translator_or_editor": "J. G. Frazer (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1921,
+          "original_year": -150,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/Apollodorus3.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book 3, Section 10",
+          "summary": "The Pleiades are described as companions of Artemis, portrayed as virginal huntresses pursued by Orion until Zeus turns them into stars.",
+          "astronomical_component": "A",
+          "component_reasoning": "Relates the visible cluster to a chaste sister-band aligned with a goddess of wilderness and autonomy."
+        },
+        {
+          "title": "Star Myths of the Greeks and Romans: A Sourcebook",
+          "author": "Theony Condos",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1997,
+          "original_year": 1997,
+          "publisher": "Phanes Press",
+          "url": null,
+          "isbn": "9781890482930",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter on the Pleiades constellation myths",
+          "summary": "Collects classical sources linking the Pleiades to Artemis and narrates their transformation into a star cluster to escape Orion's pursuit.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats the Pleiades as a physical cluster identified with Artemis' retinue; emphasizes chastity and cosmic refuge in the sky."
+        }
+      ]
+    },
+    {
+      "trait": "Symbol of unity and togetherness (Japanese Subaru)",
+      "consensus_level": "medium",
+      "ancient_support": "medium",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Harima Fudoki: A Record of Ancient Japan Reinterpreted, Translated, Annotated, and with Commentary",
+          "author": "Anonymous provincial compilers (Nara period)",
+          "translator_or_editor": "Edwina Palmer (translator)",
+          "edition": "Brill Japanese Studies Library Edition (Vol. 55)",
+          "year": 2016,
+          "original_year": 714,
+          "publisher": "Brill",
+          "url": null,
+          "isbn": "9789004269361",
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Translator commentary sections on Subaru / Pleiades symbolism",
+          "summary": "The Old Japanese term 'Subaru' (to gather/cluster together) is linked to the Pleiades as an image of collective harmony, group cohesion, and social unity.",
+          "astronomical_component": "A",
+          "component_reasoning": "Interprets the visible cluster as a sign of many-as-one, encoding unity in both language ('Subaru') and cosmology."
+        },
+        {
+          "title": "A Japanese Myth of the Origin of the Pleiades",
+          "author": "Edwina Palmer",
+          "translator_or_editor": null,
+          "edition": "Journal Article",
+          "year": 2010,
+          "original_year": 2010,
+          "publisher": "Asian Ethnology",
+          "url": null,
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Analysis of Subaru etymology and constellation narrative",
+          "summary": "Analyzes early Japanese mythic material where the Pleiades are explicitly associated with gathering, clustering, and communal identity.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats the Pleiades as the literal cluster in the night sky and ties that clustered appearance to an ethic of social cohesion."
+        }
+      ]
+    },
+    {
+      "trait": "Cross-cultural pursuit motif (Orion chasing the Seven Sisters)",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "Astronomy Fragment (Fragment 4)",
+          "author": "Hesiod (attributed)",
+          "translator_or_editor": "Hugh G. Evelyn-White (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1914,
+          "original_year": -700,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Fragment describing Orion's pursuit of the Pleiades",
+          "summary": "Describes Orion pursuing the Pleiades, who are accompanied by Artemis; the sisters flee and become fixed as stars.",
+          "astronomical_component": "A",
+          "component_reasoning": "Explains the sky tableau of Orion appearing to chase the Pleiades cluster across the heavens each night."
+        },
+        {
+          "title": "Why Are There Seven Sisters?",
+          "author": "Ray P. Norris and Barnaby R. M. Norris",
+          "translator_or_editor": null,
+          "edition": "Book Chapter in 'Advancing Cultural Astronomy: Studies in Honour of Clive Ruggles' (Springer)",
+          "year": 2021,
+          "original_year": 2021,
+          "publisher": "Springer",
+          "url": null,
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter examining global Seven Sisters myths and Orion pursuit motifs",
+          "summary": "Argues that the Orion-chasing-seven-sisters storyline recurs in Greek and Aboriginal Australian traditions, implying very ancient diffusion or shared skywatching logic.",
+          "astronomical_component": "A",
+          "component_reasoning": "Interprets both Orion and the Pleiades as visible star patterns; the pursuit myth encodes their relative motion across the sky."
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "The Pleiades are an advanced collective of higher-dimensional beings guiding human emotional healing, compassion training, and planetary evolution.",
+      "supporting_sources": [
+        {
+          "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+          "author": "Barbara Marciniak",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1992,
+          "original_year": 1992,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+          "isbn": "9780939680986",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Multiple chapters on emotional healing and planetary awakening",
+          "summary": "Presents the Pleiadians as compassionate instructors helping humanity transmute trauma and elevate consciousness.",
+          "astronomical_component": "H",
+          "component_reasoning": "Treats the Pleiades as a sentient healer collective transmitting frequency-based support."
+        },
+        {
+          "title": "The Pleiadian Agenda: A New Cosmology for the Age of Light",
+          "author": "Barbara Hand Clow",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1995,
+          "original_year": 1995,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/the-pleiadian-agenda",
+          "isbn": "9781879181304",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Opening framework and channelings attributed to 'Satya', a Pleiadian teacher",
+          "summary": "Claims the Pleiadians mentor Earth's dimensional shift and emotional evolution leading into an 'Age of Light'.",
+          "astronomical_component": "H",
+          "component_reasoning": "Classifies Pleiades as frequency guides orchestrating human ascension, not just physical stars."
+        },
+        {
+          "title": "The Pleiadian Workbook: Awakening Your Divine Ka",
+          "author": "Amorah Quan Yin",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1995,
+          "original_year": 1995,
+          "publisher": "Bear & Company",
+          "url": null,
+          "isbn": "9781879181311",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Ka activation and frequency healing",
+          "summary": "Describes direct Pleiadian energetic healing protocols (light/sound chambers, Ka activation) intended to repair trauma and accelerate spiritual growth.",
+          "astronomical_component": "H",
+          "component_reasoning": "Positions Pleiadians as hands-on healers applying vibrational medicine to humans."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "How Far Away are the Pleiades, Really?",
+          "author": "Harvard-Smithsonian Center for Astrophysics (CfA)",
+          "translator_or_editor": null,
+          "edition": "Press Release / Research Summary",
+          "year": 2014,
+          "original_year": 2014,
+          "publisher": "Harvard-Smithsonian Center for Astrophysics",
+          "url": "https://www.cfa.harvard.edu/news/2014-17",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Press release #2014-17, summary paragraphs",
+          "summary": "Describes the Pleiades as an open cluster of young, hot stars ~100 million years old and roughly 440+ light-years away, with no evidence of civilizations or consciousness-bearing healer collectives.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats the Pleiades strictly as a normal physical star cluster characterized by distance, age, luminosity, and stellar evolution."
+        }
+      ],
+      "consensus": "low"
+    }
+  ],
+  "ancient_references": "In archaic Greek sources (Hesiod, Works and Days) the Pleiades are agricultural beacons: when they rise you harvest, when they set you plough. They are explicitly called the daughters of Atlas, i.e. a recognizable band of divine sisters. Classical mythographers (Apollodorus) repeat that the Pleiades are seven daughters of Atlas and Pleione, companions of Artemis, later placed in the sky to escape Orion. Early Indian epic material (Mahabharata, Ganguli translation of Vana Parva 228) records the Krittikas (the Pleiades) acting as foster-mothers who nurse and raise Kartikeya/Skanda. Māori astronomy (Matamua, 2017) records Matariki (the Pleiades) as the seasonal New Year marker. Early Japanese sources preserved in Harima Fudoki (8th century CE, Palmer 2016 Brill edition) and later scholarship treat Subaru (the Pleiades) as a symbol of gathered unity. All of these refer to the naked-eye cluster (astronomical_component 'A'), not to off-world healers or portals.",
+  "research_notes": "Under the v4.2 standard, all sources are required to be tied to a publisher-backed imprint, academic press, peer-reviewed venue, or an ancient text with a named translator and identifiable publisher. Each source now carries (1) astronomical_component and (2) component_reasoning so we can trace whether it is talking about the physically observable cluster ('A'), a healing/frequency collective ('H'), a gateway/portal ('G'), a hidden/controversial companion ('B'), or an unspecified system-level council ('unspecified'). For the Pleiades, two major thematic clusters emerge: (A) extremely high ancient consensus that the Pleiades are a visible group of sister-stars tied to agriculture, seasonal timing, kinship, maternal protection, unity, and escape from predatory pursuit; and (H) late-20th-century channelled material (Marciniak 1992, Hand Clow 1995, Quan Yin 1995) that reframes the Pleiades as a compassionate healing council guiding human emotional evolution. The (H) material is explicitly contested by mainstream astrophysics, which treats the Pleiades as a young open star cluster ~100 million years old at ~440+ light-years distance with no evidence of sentient intervention. This file removes low-provenance or non-imprint sources, assigns polarity per trait (light / neutral / dark), and encodes consensus_level and ancient_support for downstream synthesis.",
+  "bibliography": {
+    "ancient_texts": [
+      "Hesiod. Works and Days. Translated by Hugh G. Evelyn-White. Loeb Classical Library. Harvard University Press, 1914. (Original ~7th century BCE). Agricultural timing via Pleiades heliacal rising.",
+      "Apollodorus. The Library. Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921. (Original ~2nd century BCE). Pleiades as daughters of Atlas, companions of Artemis.",
+      "Vyasa (attributed). The Mahabharata. Translated by Kisari Mohan Ganguli. P. C. Roy, Calcutta, 1883–1896. (Epic layers ~4th century BCE and later). Krittikas/Pleiades as foster-mothers of Kartikeya.",
+      "Harima Fudoki (Province Records, 8th century CE). Translated by Edwina Palmer. Brill, 2016. (Original 714 CE). Pleiades/Subaru as symbol of gathered unity and social cohesion."
+    ],
+    "modern_research": [
+      "Matamua, Rangi. Matariki: The Star of the Year. Huia Publishers, 2017. ISBN 9781775503255. Māori astronomy and seasonal New Year timing tied to Matariki (Pleiades).",
+      "Andrews, Munya. The Seven Sisters of the Pleiades: Stories from Around the World. Spinifex Press, 2004. ISBN 9781876756451. Cross-cultural synthesis of Seven Sisters myths.",
+      "Condos, Theony. Star Myths of the Greeks and Romans: A Sourcebook. Phanes Press, 1997. ISBN 9781890482930. Classical constellation narratives including the Pleiades and Orion.",
+      "Norris, Ray P. & Norris, Barnaby R. M. \"Why Are There Seven Sisters?\" In Advancing Cultural Astronomy: Studies in Honour of Clive Ruggles. Springer, 2021. Comparative analysis of global Seven Sisters / Orion pursuit motifs.",
+      "Harvard-Smithsonian Center for Astrophysics. \"How Far Away are the Pleiades, Really?\" CfA Press Release 2014-17, 2014. Astrophysical distance/age discussion of the Pleiades open cluster."
+    ],
+    "channeled_sources": [
+      "Marciniak, Barbara. Bringers of the Dawn: Teachings from the Pleiadians. Bear & Company, 1992. ISBN 9780939680986. Positions Pleiadians as emotional healers and guides.",
+      "Hand Clow, Barbara. The Pleiadian Agenda: A New Cosmology for the Age of Light. Bear & Company, 1995. ISBN 9781879181304. Describes nine-dimensional Pleiadian guidance of Earth's evolution.",
+      "Quan Yin, Amorah. The Pleiadian Workbook: Awakening Your Divine Ka. Bear & Company, 1995. ISBN 9781879181311. Outlines Pleiadian energetic healing and Ka activation practices."
+    ],
+    "academic_foundations": [
+      "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching. Princeton University Press, mid-20th century printings. Core text for Human Design gate mapping.",
+      "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure.",
+      "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Foundational academic study of Kabbalah."
+    ]
+  }
+}

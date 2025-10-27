@@ -1,0 +1,478 @@
+
+
+# ARCTURUS BASELINE RESEARCH (V4.2 PATCH)
+
+## GOAL
+
+Produce Phase 0 baseline research for the Star System Sorter project.
+
+You MUST output **valid minified JSON only**:
+
+* Start with `{`
+* End with `}`
+* No extra commentary, no Markdown, no apologies.
+
+Your JSON MUST follow the structure in OUTPUT FORMAT.
+
+You are REQUIRED to generate the JSON even if some sources are only `"provisional"`. You are NOT allowed to refuse or return an explanation instead of JSON.
+
+If you cannot produce a `"locked"` quote for a given source, you MUST still include that source as `"provisional"` with the required metadata and summary. That is acceptable.
+
+---
+
+## CONCEPTUAL CONTEXT
+
+We are mapping Arcturus / Arcturians into mythic, channeled, cosmological, and astronomical characteristics that can be compared to Human Design gates.
+
+The research model assumes:
+
+* Human Design fuses I Ching’s 64 hexagrams, DNA codons, Kabbalah, chakras, astrology.
+* Arcturus lore is mostly modern channeled material (20th century onward), not classical mythology.
+* Ancient references to "Arcturus" are generally astronomical (navigation, Boötes/“Bear Guard”), not “Arcturian civilization.”
+
+You must reflect that pattern.
+
+---
+
+## CITATION MODES (BINARY)
+
+There are ONLY TWO legal modes for any source:
+
+### 1. `"citation_status":"provisional"`
+
+Use this when you do NOT provide a verbatim quote.
+
+REQUIRED FIELDS in provisional:
+
+* `"location_hint"` (chapter/section/reading number/verse/line/etc.)
+* `"summary"` (≤25-word paraphrase)
+* NO `"page"`
+* NO `"quote"`
+
+### 2. `"citation_status":"locked"`
+
+Use this only if you can provide an exact verbatim quote ≤25 words.
+
+REQUIRED FIELDS in locked:
+
+* `"page"` (may be page number OR canonical locator like `"Reading 5749-14"` OR `"Book V, line 272"`)
+* `"quote"` (≤25 exact words)
+* NO `"location_hint"`
+* NO `"summary"`
+
+IMPORTANT RULE:
+
+* A source is `"locked"` ONLY if you can actually write a short exact quote plus a locator.
+* If you cannot produce a verbatim quote, you MUST label that source `"provisional"` even if it appears on archive.org. Do NOT block yourself just because you can’t confirm full-scan access. Use `"provisional"` instead of refusing.
+
+---
+
+## SOURCE QUALITY RULES
+
+ALLOWED:
+
+1. Published books with ISBN (channeled or research).
+2. Ancient texts with a named translator and a publisher.
+3. Edgar Cayce readings and A.R.E. / Edgar Cayce Foundation publications.
+4. Academic astronomy / university press material with ISBN.
+5. Older pre-ISBN star-lore / constellation reference books from known publishers. Use `"isbn": null` if pre-1967 and include publisher.
+
+ALLOWED AS SECONDARY:
+6. A.R.E. / Edgar Cayce Foundation summaries (must name an author or institutional author like "Edgar Cayce Foundation" and have publisher info).
+
+FORBIDDEN (DO NOT USE AS SOURCES):
+
+* Personal blogs, self-hosted `.com` pages with no publisher imprint (example: `karenchristino.com`, `ianridpath.com`).
+* “Spiritual academy/university” marketing pages with no ISBN.
+* Google Books / AbeBooks marketing blurbs counted as if they were independent sources.
+* Wikipedia, Encyclopedia.com, Britannica, WorldHistory.org / Ancient.eu, Mythopedia, fandom wikis.
+* Social media, YouTube, podcasts without published ISBN transcripts.
+* Anonymous/committee Bible translations like “King James Version,” “Various translators.”
+
+If a trait can only be backed by forbidden sources, you must drop that trait.
+
+---
+
+## ASTRONOMICAL COMPONENT (REQUIRED IN EVERY SOURCE)
+
+Every source MUST include:
+
+* `"astronomical_component"`:
+
+  * `"G"` = gateway / soul transit / ascension portal
+  * `"H"` = healing / frequency / consciousness / light/sound tech
+  * `"A"` = astronomical / navigation star / stellar physics
+  * `"unspecified"` = only if none of the above applies
+* `"component_reasoning"`: 1-sentence justification of that mapping
+
+Examples:
+
+* Edgar Cayce describing Arcturus as a passage for souls ⇒ `"G"`
+* Norma J. Milanovich describing Arcturian frequency healing and vibrational medicine ⇒ `"H"`
+* An astronomy book describing Arcturus as a K-type red giant ~37 light-years away ⇒ `"A"`
+
+---
+
+## POLARITY FIELD (REQUIRED IN EVERY CHARACTERISTIC)
+
+Each characteristic MUST include `"polarity"`:
+
+* `"light"` = benevolent, healing, protective
+* `"shadow"` = predatory, manipulative
+* `"neutral"` = descriptive / functional / non-moral
+
+---
+
+## REQUIRED CHARACTERISTICS
+
+You MUST include the following 3 characteristics as separate objects in `"characteristics"`:
+
+### (1) "Edgar Cayce's Arcturus as cosmic gateway and soul transit point"
+
+What this trait covers:
+
+* Arcturus as “center of this universe.”
+* Arcturus as a transit/gateway / door of souls between incarnations.
+* Souls pausing at Arcturus to choose next incarnation or move on.
+* Association with spiritual evolution / higher dimensions.
+
+Requirements:
+
+* `"consensus_level":"medium"`
+* `"ancient_support":"unknown"`
+* `"polarity":"neutral"` unless the source explicitly frames it as benevolent guardianship, then `"light"` is allowed.
+* MUST include ≥3 sources in `"sources"`:
+
+  1. **A locked Cayce reading** with `"page":"Reading ####-##"` and `"quote"` ≤25 words about Arcturus as a passage/center/gateway.
+
+     * `"author":"Edgar Cayce"`, `"publisher":"Association for Research and Enlightenment"` or `"A.R.E. Press"`, `"source_type":"channeled"`, `"isbn":null` is acceptable.
+  2. An A.R.E. Press / Edgar Cayce Foundation or similar Cayce-derived publication (book or institutional compilation) summarizing Cayce’s Arcturus material as a gateway. This MAY be `"provisional"`.
+  3. An independent published channeled source (Milanovich OR Kenyon) that supports Arcturus as associated with ascension, dimensional transition, higher-dimensional choice architecture, or gateway-type evolutionary staging. This MAY be `"provisional"` if you cannot quote directly.
+
+All 3 must include `astronomical_component:"G"`.
+
+NOTE:
+
+* You are allowed to summarize Milanovich or Kenyon provisionally to say something like “Arcturians assist humanity in entering higher-dimensional states / transitioning consciousness.” This counts as gateway support, not just “healing tech.”
+* You are allowed to treat “assist planetary ascension / moving into fifth-dimensional reality” as part of the gateway function.
+
+---
+
+### (2) "Energy healing and frequency work"
+
+What this trait covers:
+
+* Arcturians as fifth-dimensional healers.
+* Use of light/sound/frequency/vibration and consciousness tech for regeneration.
+* Healing chambers, frequency modulation, consciousness recalibration, etc.
+
+Requirements:
+
+* `"consensus_level":"medium"`
+* `"ancient_support":"unknown"`
+* `"polarity":"light"`
+* MUST include ≥2 sources that are actually independent published works:
+
+  * Norma J. Milanovich, “We, the Arcturians,” Athena Publishing, 1990. ISBN 0-9627417-0-8 / 9780962741708. `"source_type":"channeled"`.
+  * Tom Kenyon & Judi Sion, “The Arcturian Anthology,” Orb / Orb Communications / ORB Publishing (Orb Communications), c.1996–2014. ISBN 1-931032-46-7 / 9781931032469. `"source_type":"channeled"`.
+
+You MAY mark these `"provisional"` with `location_hint` + `summary` if you cannot produce verbatim quotes. This is allowed.
+
+Do NOT count the same exact ISBN twice to fake consensus. Milanovich is one source, Kenyon is the second source.
+
+Both should use `astronomical_component:"H"`.
+
+---
+
+### (3) "Limited ancient references (astronomical only)"
+
+What this trait covers:
+
+* Arcturus shows up in antiquity mainly as a navigation/timing/seasonal star associated with Boötes (“Bear Guard”), not as “Arcturian beings.”
+* Ancient usage = astronomy, orientation, agriculture, seafaring.
+* Modern “Arcturian civilization” lore is a recent (20th-century+) phenomenon.
+
+Requirements:
+
+* `"consensus_level":"high"`
+* `"ancient_support":"low"`
+* `"polarity":"neutral"`
+* Include AT LEAST THREE compliant sources in `"sources"`:
+
+Source A: Homer, “The Odyssey”
+
+* `"author":"Homer"`
+* `"translator_or_editor":"Robert Fagles (translator)"` OR `"Richmond Lattimore (translator)"`
+* `"edition"`: e.g. "Penguin Classics Edition" (Fagles) OR "Harper & Row Edition" (Lattimore)
+* `"year"`: use the cited translator’s publication year (example: Fagles 1996, Penguin Classics 1996; Lattimore 1965 Harper & Row)
+* `"original_year":-700`
+* `"publisher"`: Penguin Books / Harper & Row (etc.)
+* `"isbn"`:
+
+  * For Fagles / Penguin Classics (post-ISBN): e.g. 9780140268867 or 9780143039952 is acceptable.
+  * For Lattimore 1965 (pre-ISBN standard): `"isbn": null` is allowed.
+* `"citation_status":"provisional"`
+* `"location_hint":"Book V navigation passage"`
+* `"summary"`: e.g. “Describes seafaring navigation using Boötes / the Bear; treats Arcturus/Boötes region as a guide star, not a civilization.”
+* `"astronomical_component":"A"`
+* `"component_reasoning"`: e.g. “Frames Arcturus as an astronomical navigation marker in Boötes, not as an incarnate culture.”
+
+NOTE: It is acceptable if the modern translator names “Boötes” or “the Bear” instead of literally saying “Arcturus.” You may still summarize that Arcturus is the key star of Boötes, used for navigation. You do NOT need to produce a direct quote containing the literal word "Arcturus" to include Homer provisionally.
+
+Source B: The Book of Job
+
+* `"title":"The Book of Job"`
+* `"author":"Anonymous"`
+* `"translator_or_editor":"Robert Alter (translator)"` OR `"Stephen Mitchell (translator)"` (must name an actual human translator; NOT “King James Version”)
+* `"edition"`: e.g. "W. W. Norton Edition" (Alter) OR "Harper Edition" (Mitchell)
+* `"year"`: translator’s publication year (Alter ~2019 Norton; Mitchell 1987/1992 Harper)
+* `"original_year": null`
+* `"publisher"`: W. W. Norton / Harper
+* `"isbn"`: use the modern ISBN for that translator’s edition if known. If uncertain, `"isbn": null` is acceptable because you are still providing publisher and named translator.
+* `"citation_status":"provisional"`
+* `"location_hint":"Job 38:32"`
+* `"summary"`: “Mentions a constellation ‘Ayish,’ understood as the Bear / Ursa Major. Later English tradition (e.g. KJV) labeled this ‘Arcturus.’ Modern translators treat it as a star/constellation reference, not an alien civilization.”
+* `"astronomical_component":"A"`
+* `"component_reasoning"`: “Frames Arcturus/Ayish as an astronomical/seasonal marker only.”
+
+It is allowed that the modern translator does NOT literally say “Arcturus.” What matters is: you clearly document that the verse is traditionally associated with Arcturus as an astronomical reference, not a civilization. This satisfies the requirement.
+
+Source C: Modern astronomy / stellar physics
+
+* Example: James B. Kaler, “Stars and Their Spectra: An Introduction to the Spectral Sequence,” Cambridge University Press.
+* `"author":"James B. Kaler"`
+* `"edition":"Cambridge University Press Edition"`
+* `"year":2011` (or 1989 depending on edition you pick)
+* `"original_year":1989`
+* `"publisher":"Cambridge University Press"`
+* `"isbn":"978-0-521-89954-3"` (or other valid ISBN)
+* `"citation_status":"provisional"`
+* `"location_hint":"Chapter describing K-type red giants / Arcturus"`
+* `"summary"`: “Describes Arcturus as a bright K-type red giant star ~37 light-years from Earth. Pure astrophysical properties; no metaphysical claims.”
+* `"source_type":"research"`
+* `"astronomical_component":"A"`
+* `"component_reasoning"`: “Treats Arcturus strictly as a physical star; confirms no portal/civilization claims.”
+
+This trait MUST include Homer, MUST include Book of Job with a named translator, and MUST include an astronomy/physics source like Kaler. You may NOT use personal websites (no ianridpath.com etc.).
+
+---
+
+## OPTIONAL ADDITIONAL CHARACTERISTICS
+
+After the 3 mandatory characteristics above, you MAY include additional traits such as:
+
+* "Fifth-dimensional consciousness and ascension"
+* "Guardians and protectors of Earth"
+* "Advanced technology and sacred geometry"
+* "Dreamtime / sleep-state engineering"
+
+Rules for optional traits:
+
+* Each optional trait MUST:
+
+  * Have `"polarity"` set.
+  * Have at least 2 independent compliant sources (e.g. Milanovich + Kenyon). You cannot count the same ISBN twice.
+  * Follow the same source formatting rules (provisional or locked).
+
+If you cannot meet those rules for an optional trait, simply DO NOT include that trait.
+
+---
+
+## DISPUTED POINTS (REQUIRED)
+
+You MUST include `"disputed_points"` at the top level.
+
+Each disputed point MUST include:
+
+* `"claim"`: e.g. "Arcturus is an interdimensional gateway for souls between incarnations"
+* `"supporting_sources"`: Array of compliant channeled sources (Cayce, Milanovich, Kenyon).
+
+  * Each source object here MUST follow the same metadata rules (including `"citation_status"`, `"astronomical_component"`, etc.).
+  * Use `"astronomical_component":"G"` if describing gateways/ascension, `"H"` if describing healing/frequency.
+  * `"source_type":"channeled"` for these.
+* `"counter_evidence"`: Array of compliant astronomy sources (e.g. Kaler, Cambridge University Press) describing Arcturus as a normal red giant star, distance ~37 light-years, spectral type K.
+
+  * `"source_type":"research"`, `"astronomical_component":"A"`.
+* `"consensus"`: Usually `"low"`.
+
+You MUST produce at least one disputed point contrasting metaphysical “gateway / soul transit” vs mainstream astrophysics “just a red giant.”
+
+---
+
+## METADATA FIELDS REQUIRED IN EVERY SOURCE
+
+Every source object (whether provisional or locked) MUST include ALL of:
+
+1. `"title"`
+2. `"author"`
+
+   * `"Anonymous"` ONLY for genuinely ancient/unknown authors like the Book of Job.
+3. `"translator_or_editor"` if relevant
+
+   * REQUIRED for ancient / pre-modern texts (Homer, Book of Job).
+   * Use `"Name (translator)"`.
+   * DO NOT use “King James Version” or “Various translators.”
+   * Omit this field for modern English-language authors like Milanovich, Kenyon, Cayce, Kaler.
+4. `"edition"` (e.g. "First Edition", "Penguin Classics Edition", "Cambridge University Press Edition", "A.R.E. Press Edition")
+5. `"year"` (year of that cited edition)
+6. `"original_year"` (original publication year; may be `null` if unknown or same as `"year"`)
+7. `"publisher"` (must be a real imprint like "Athena Publishing", "Orb Communications", "A.R.E. Press", "Cambridge University Press", "Penguin Books", "Harper & Row", "W. W. Norton")
+8. `"url"`
+
+   * MUST be archive.org, edgarcayce.org, or an official publisher/university press page.
+   * If you cannot produce a clean allowed URL, you may still include `"url": null`. Use `null` instead of a banned domain (no blogs, no personal pages).
+9. `"isbn"`
+
+   * Use real ISBN if available.
+   * For pre-1967 editions (pre-ISBN) or for ancient texts where ISBN is unclear, `"isbn": null` is allowed.
+10. `"source_type"` = `"channeled"|"ancient"|"research"|"indigenous"|"controversial"`
+11. `"citation_status"` = `"provisional"` or `"locked"` following the binary rules above
+12. `"astronomical_component"` = `"G"|"H"|"A"|"unspecified"`
+13. `"component_reasoning"` = 1-sentence justification for the mapping
+14. EITHER:
+
+    * `"page"` + `"quote"` (for `"locked"`)
+    * OR `"location_hint"` + `"summary"` (for `"provisional"`)
+
+This is mandatory for EVERY source in `"characteristics"` and `"disputed_points"`.
+
+---
+
+## METHOD SECTION REQUIREMENTS
+
+Your JSON MUST include a `"methodology"` object and `"academic_context"` object exactly like in OUTPUT FORMAT below.
+
+`"methodology.source_standards"` MUST clearly mention:
+
+* No blogs / personal sites / spiritual school marketing pages / wikis.
+* Named translators for ancient sources.
+* `"provisional"` vs `"locked"` rules.
+* All sources must include `"astronomical_component"`.
+
+---
+
+## OUTPUT FORMAT (YOU MUST MATCH THIS SHAPE)
+
+Your FINAL response MUST be valid minified JSON with exactly these top-level keys and nested structures:
+
+{
+"star_system":"Arcturus",
+"version":"4.2",
+"last_updated":"2025-10-25",
+"methodology":{
+"framework":"Comparative mythology + I Ching-based Human Design system",
+"academic_foundations":[
+"I Ching (64 hexagrams → 64 Human Design gates)",
+"Modern channeled material (Edgar Cayce, Milanovich, Kenyon)",
+"Limited ancient astronomical references",
+"Jungian archetypal psychology"
+],
+"source_standards":"Only publisher-backed sources with ISBN or known imprint; A.R.E./Edgar Cayce Foundation materials; university press astronomy texts; ancient texts with a named translator and publisher. Blogs, spiritual school marketing pages, personal domains, Wikipedia, and anonymous committee translations are forbidden. All sources MUST include astronomical_component. Use provisional when you cannot quote, and locked only when you can provide a short direct quote with a locator such as 'Reading 5749-14'. You MUST still output JSON even if all non-Cayce sources are provisional.",
+"research_date":"2025-10-25"
+},
+"academic_context":{
+"human_design_foundations":[
+"I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+"64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+"Kabbalah - Extensive academic study (Scholem, Idel)",
+"Chakra system - Religious Studies, Yoga Studies (Feuerstein)",
+"Western Astrology - Cultural/historical phenomenon (Tarnas)"
+],
+"mathematical_correspondences":[
+"64 I Ching hexagrams = 64 DNA codons",
+"Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+]
+},
+"characteristics":[
+{
+"trait":"Edgar Cayce's Arcturus as cosmic gateway and soul transit point",
+"consensus_level":"medium",
+"ancient_support":"unknown",
+"evidence_type":"direct",
+"disputed":false,
+"polarity":"neutral",
+"sources":[
+{ ...LOCKED Cayce reading with 'page': 'Reading 5749-14', 'quote': '≤25 words about Arcturus as center/gateway', publisher A.R.E. Press, isbn null, source_type 'channeled', astronomical_component 'G', etc. },
+{ ...A.R.E. Press / Edgar Cayce Foundation summary of Cayce's Arcturus gateway role, marked provisional, astronomical_component 'G' ... },
+{ ...Milanovich OR Kenyon as provisional, asserting Arcturians assist planetary ascension / dimensional transition / evolutionary gateway for Earth; astronomical_component 'G' ... }
+]
+},
+{
+"trait":"Energy healing and frequency work",
+"consensus_level":"medium",
+"ancient_support":"unknown",
+"evidence_type":"direct",
+"disputed":false,
+"polarity":"light",
+"sources":[
+{ ...Norma J. Milanovich, 'We, the Arcturians', Athena Publishing 1990, ISBN 9780962741708 or 0-9627417-0-8, provisional, summary about fifth-dimensional healers using light/frequency tech to uplift humanity, astronomical_component 'H' ... },
+{ ...Tom Kenyon & Judi Sion, 'The Arcturian Anthology', Orb/Orb Communications, ISBN 1931032467 or 9781931032469, provisional, summary about Arcturian healing officers, sound/frequency chambers for consciousness regeneration, astronomical_component 'H' ... }
+]
+},
+{
+"trait":"Limited ancient references (astronomical only)",
+"consensus_level":"high",
+"ancient_support":"low",
+"evidence_type":"direct",
+"disputed":false,
+"polarity":"neutral",
+"sources":[
+{ ...Homer 'The Odyssey', translator_or_editor 'Robert Fagles (translator)' OR 'Richmond Lattimore (translator)', Penguin Classics or Harper & Row, year (e.g. 1996 Fagles or 1965 Lattimore), original_year -700, isbn (Penguin ISBN or null for 1965), provisional, summary about navigation by Boötes / Bear as guiding star, astronomical_component 'A' ... },
+{ ...'The Book of Job', author 'Anonymous', translator_or_editor 'Robert Alter (translator)' OR 'Stephen Mitchell (translator)', W. W. Norton or Harper, year (e.g. 2019 Alter or 1987/1992 Mitchell), original_year null, isbn (known or null), provisional, location_hint 'Job 38:32', summary 'References constellation Ayish/Bear later linked to Arcturus; purely astronomical, not a civilization', astronomical_component 'A' ... },
+{ ...James B. Kaler 'Stars and Their Spectra: An Introduction to the Spectral Sequence', Cambridge University Press, 2011 or 1989, ISBN 9780521899543 or 978-0-521-89954-3, provisional, summary 'Arcturus is a bright K-type red giant ~37 ly away with no portal properties', astronomical_component 'A' ... }
+]
+}
+// OPTIONAL: you MAY append more characteristics (like "Guardians and protectors of Earth", "Fifth-dimensional consciousness and ascension", etc.) ONLY if each extra trait has ≥2 independent compliant sources with proper metadata. If you cannot do that cleanly, do not include the extra trait.
+],
+"disputed_points":[
+{
+"claim":"Arcturus is an interdimensional gateway for souls between incarnations",
+"supporting_sources":[
+{ ...Cayce Reading 5749-14 or similar, locked if quoted, source_type 'channeled', astronomical_component 'G', component_reasoning 'Frames Arcturus as universal center/gateway for souls' ... },
+{ ...Milanovich OR Kenyon, provisional, source_type 'channeled', astronomical_component 'G', component_reasoning 'Describes Arcturians guiding planetary ascension / dimensional transition' ... }
+],
+"counter_evidence":[
+{ ...James B. Kaler, Cambridge University Press astronomy text, provisional, source_type 'research', astronomical_component 'A', component_reasoning 'Describes Arcturus as normal red giant ~37 ly away, no portals or civilizations' ... }
+],
+"consensus":"low"
+}
+],
+"ancient_references":"Ancient sources (Homer's Odyssey, Book of Job 38:32, classical Greek star lore of Boötes/'Bear Guard') treat Arcturus as an astronomical/navigation star and seasonal marker near Ursa Major. These do NOT describe an 'Arcturian civilization'. The idea of Arcturus as a sentient gateway, healer collective, or guardian group appears mainly in 20th-century and later channeled material (Edgar Cayce 5749-14 onward, Milanovich 1990, Kenyon 1996+).",
+"research_notes":"Quality control notes: (1) You MUST output JSON, not an explanation. (2) If you cannot provide a direct quote, mark the source as provisional with location_hint + summary. That is acceptable. (3) You MAY summarize Homer and Job provisionally even if the translator text does not literally say the word 'Arcturus'; it is sufficient to identify Boötes / the Bear / Ayish as the constellation later linked to Arcturus. (4) You MAY summarize Milanovich and Kenyon as supporting gateway/ascension themes provisionally even if you cannot quote them directly; this satisfies the 'independent corroboration' requirement for the Cayce gateway trait. (5) Do NOT include blogs, personal sites, or spiritual-school marketing pages as sources.",
+"bibliography":{
+"ancient_texts":[
+"Homer - The Odyssey (translator: Robert Fagles or Richmond Lattimore; Penguin Classics / Harper & Row). Navigation by Boötes / the Bear constellation associated with Arcturus.",
+"The Book of Job 38:32 (translator: Robert Alter or Stephen Mitchell; W. W. Norton / Harper). 'Ayish' understood as the Bear/Ursa Major; later English tradition linked this to Arcturus.",
+"Classical Greek star lore: Arcturus as the bright star of Boötes, 'Bear Guard'."
+],
+"modern_research":[
+"Cayce, E. (A.R.E. Press / Edgar Cayce Foundation). Reading 5749-14 describes Arcturus as a universal center/gateway for souls.",
+"Milanovich, N.J. (1990). We, the Arcturians. Athena Publishing. ISBN 9780962741708.",
+"Kenyon, T. & Sion, J. (1996+/2013). The Arcturian Anthology. Orb / Orb Communications. ISBN 1931032467 / 9781931032469.",
+"Kaler, J.B. (2011). Stars and Their Spectra: An Introduction to the Spectral Sequence. Cambridge University Press. ISBN 9780521899543."
+],
+"academic_foundations":[
+"Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.",
+"Nirenberg, M.W. & Khorana, H.G. (1968). Genetic code research (Nobel Prize).",
+"Scholem, G. (1941). Major Trends in Jewish Mysticism.",
+"Feuerstein, G. (1998). The Yoga Tradition.",
+"Tarnas, R. (2006). Cosmos and Psyche."
+]
+}
+}
+
+---
+
+FINAL NON-NEGOTIABLES:
+
+* You MUST return valid minified JSON in exactly that shape.
+* You MUST include all 3 mandatory characteristics and `"disputed_points"`.
+* Each characteristic MUST have a `"polarity"` field.
+* Each source MUST have `citation_status`, `astronomical_component`, and `component_reasoning`, plus either (`page`+`quote`) OR (`location_hint`+`summary`).
+* You MUST include Homer AND Book of Job AND an astronomy/physics source (like Kaler) inside `"Limited ancient references (astronomical only)"`.
+* For Book of Job, you MUST name a translator (e.g. Robert Alter (translator) or Stephen Mitchell (translator)).
+* For Cayce, you MUST include at least one `"locked"` source with `"page":"Reading ####-##"` and a ≤25 word `"quote"` describing Arcturus as gateway/center/transition point for souls.
+* You MAY set `"url": null` when the only available URLs are forbidden (blogs, personal pages, marketing blurbs).
+* You MAY set `"isbn": null` for pre-1967 editions or for editions where an ISBN is not known, as long as publisher is present.
+
+You are not allowed to say you cannot comply. You MUST build and return the JSON.
