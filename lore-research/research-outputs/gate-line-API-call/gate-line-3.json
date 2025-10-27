@@ -1,0 +1,441 @@
+{
+  "17.1": {
+    "keywords": [
+      "logic foundation",
+      "structured opinion",
+      "needs mental proof"
+    ],
+    "behavioral_axis": "Builds opinions on a clear internal framework before speaking.",
+    "shadow_axis": "Rigid correctness obsession; dismisses others instantly."
+  },
+  "17.2": {
+    "keywords": [
+      "natural analyst",
+      "clean mental patterning",
+      "quiet evaluator"
+    ],
+    "behavioral_axis": "Sees what's logically off and can articulate it simply.",
+    "shadow_axis": "Irritated when asked to justify views they 'just see.'"
+  },
+  "17.3": {
+    "keywords": [
+      "trial-and-error logic",
+      "testing theories live",
+      "iterating viewpoint"
+    ],
+    "behavioral_axis": "Refines opinions by throwing them into the arena and watching them break.",
+    "shadow_axis": "Comes off as unreliable or flip-floppy."
+  },
+  "17.4": {
+    "keywords": [
+      "network critic",
+      "group sense-maker",
+      "public opinion framer"
+    ],
+    "behavioral_axis": "Gives the tribe an organized way to think about the problem.",
+    "shadow_axis": "Politicizes logic to steer loyalty."
+  },
+  "17.5": {
+    "keywords": [
+      "projected problem-solver",
+      "fix our system thinking",
+      "logic spokesperson"
+    ],
+    "behavioral_axis": "Others expect you to diagnose what's broken and propose ‘the fix.’",
+    "shadow_axis": "Blamed as controlling, cold, or condescending."
+  },
+  "17.6": {
+    "keywords": [
+      "long-arc reasoning model",
+      "visionary analyst",
+      "future-proof opinions"
+    ],
+    "behavioral_axis": "Holds 'this is the most stable way to understand this long-term.'",
+    "shadow_axis": "Detached superiority, judging everyone else's logic as childish."
+  },
+
+  "18.1": {
+    "keywords": [
+      "ethical baseline check",
+      "seeing what's off",
+      "correction instinct"
+    ],
+    "behavioral_axis": "Feels what needs fixing and wants structural integrity restored.",
+    "shadow_axis": "Hypercritical, obsessive fault-finding to feel in control."
+  },
+  "18.2": {
+    "keywords": [
+      "natural calibrator",
+      "quiet quality control",
+      "refinement sense"
+    ],
+    "behavioral_axis": "Improves things subtly without needing to make it a spectacle.",
+    "shadow_axis": "Annoyed when told they're 'too picky,' withdraws help."
+  },
+  "18.3": {
+    "keywords": [
+      "trial-and-error correction",
+      "fixing through breaking",
+      "learning by troubleshooting"
+    ],
+    "behavioral_axis": "Tests what's wrong in real conditions, adjusts repeatedly.",
+    "shadow_axis": "Constant crisis mode, identity built on 'everything is broken.'"
+  },
+  "18.4": {
+    "keywords": [
+      "tribal reformer",
+      "calls out dysfunction",
+      "protects standards"
+    ],
+    "behavioral_axis": "Names the flaw out loud so the group can't ignore it.",
+    "shadow_axis": "Shaming, moral leverage, using 'standards' to dominate."
+  },
+  "18.5": {
+    "keywords": [
+      "projected fixer of rot",
+      "expected to repair the system",
+      "accountability avatar"
+    ],
+    "behavioral_axis": "People hand you broken structures and expect salvation.",
+    "shadow_axis": "Scapegoated as 'the problem' if they don't like the repair cost."
+  },
+  "18.6": {
+    "keywords": [
+      "legacy of correction",
+      "embodied standard bearer",
+      "long-term integrity guardian"
+    ],
+    "behavioral_axis": "Stands for 'this is healthy' over an entire timeline.",
+    "shadow_axis": "Self-righteous purifier, emotionally distant from messy humans."
+  },
+
+  "19.1": {
+    "keywords": [
+      "sensitivity foundation",
+      "basic needs awareness",
+      "emotional alert system"
+    ],
+    "behavioral_axis": "Reads who needs support and what will keep the bond intact.",
+    "shadow_axis": "Hypervigilance, panic if needs aren't met instantly."
+  },
+  "19.2": {
+    "keywords": [
+      "natural empathic attunement",
+      "intimate bonding pull",
+      "support without forcing"
+    ],
+    "behavioral_axis": "Nurtures closeness in a way that feels safe and effortless.",
+    "shadow_axis": "Withdraws hard if the connection feels entitled or invasive."
+  },
+  "19.3": {
+    "keywords": [
+      "trial-and-error intimacy",
+      "learning boundaries the hard way",
+      "resource friction"
+    ],
+    "behavioral_axis": "Finds healthy interdependence by surviving messy dependency cycles.",
+    "shadow_axis": "Drama bonding, guilt leverage, emotional ransom."
+  },
+  "19.4": {
+    "keywords": [
+      "tribal need translator",
+      "resource negotiator",
+      "community caretaker"
+    ],
+    "behavioral_axis": "Names 'this is what we require to feel safe together.'",
+    "shadow_axis": "Gatekeeps access to belonging."
+  },
+  "19.5": {
+    "keywords": [
+      "projected provider of safety",
+      "healer of need",
+      "attachment stabilizer"
+    ],
+    "behavioral_axis": "Others expect you to soothe hunger, soothe fear, soothe loneliness.",
+    "shadow_axis": "Blamed as manipulative or codependent if you set limits."
+  },
+  "19.6": {
+    "keywords": [
+      "long-view tribe nurturer",
+      "bond architect",
+      "empathic elder"
+    ],
+    "behavioral_axis": "Embodies 'we take care of each other or we don't survive.'",
+    "shadow_axis": "Emotional superiority, judging others as heartless."
+  },
+
+  "20.1": {
+    "keywords": [
+      "presence foundation",
+      "in-the-moment awareness",
+      "self-confirmation"
+    ],
+    "behavioral_axis": "Needs to feel 'I am here now, correct in this moment.'",
+    "shadow_axis": "Anxious self-monitoring, fear of acting wrong in real time."
+  },
+  "20.2": {
+    "keywords": [
+      "natural presence broadcast",
+      "effortless charisma",
+      "immediate self-expression"
+    ],
+    "behavioral_axis": "Speaks and acts in the now with clean authenticity.",
+    "shadow_axis": "Irritated when asked to be 'on' or perform presence."
+  },
+  "20.3": {
+    "keywords": [
+      "trial-by-spotlight",
+      "learning in real time",
+      "improv under pressure"
+    ],
+    "behavioral_axis": "Figures out truth by doing it live while everyone is watching.",
+    "shadow_axis": "Chaotic impulsivity, saying things that detonate trust."
+  },
+  "20.4": {
+    "keywords": [
+      "present-tense spokesperson",
+      "voice for the moment",
+      "real-time translator"
+    ],
+    "behavioral_axis": "Gives the group an instant read on 'what is happening right now.'",
+    "shadow_axis": "Spins the moment to control the room."
+  },
+  "20.5": {
+    "keywords": [
+      "projected live authority",
+      "expected to act now",
+      "immediate leadership pull"
+    ],
+    "behavioral_axis": "Others assume you'll take charge in the moment without hesitation.",
+    "shadow_axis": "Blamed as reckless tyrant if they don't like the call."
+  },
+  "20.6": {
+    "keywords": [
+      "embodied now-awareness",
+      "future-model presence",
+      "living demonstration"
+    ],
+    "behavioral_axis": "Shows what aligned presence looks like as a lifestyle, not a stunt.",
+    "shadow_axis": "Detached superiority, 'I'm awake, you're all asleep.'"
+  },
+
+  "21.1": {
+    "keywords": [
+      "control foundation",
+      "resource management baseline",
+      "territory instinct"
+    ],
+    "behavioral_axis": "Wants clear rules of who holds which resources and why.",
+    "shadow_axis": "Possessive, fear-based gripping of power."
+  },
+  "21.2": {
+    "keywords": [
+      "natural steward",
+      "quiet authority over assets",
+      "I can handle it"
+    ],
+    "behavioral_axis": "Assumes responsibility for material flow without needing supervision.",
+    "shadow_axis": "Resentful when anyone questions their way."
+  },
+  "21.3": {
+    "keywords": [
+      "trial-and-error control",
+      "pushing limits",
+      "learning power boundaries"
+    ],
+    "behavioral_axis": "Tests how far authority can go before it breaks trust.",
+    "shadow_axis": "Gets labeled controlling, domineering, unpredictable."
+  },
+  "21.4": {
+    "keywords": [
+      "tribal manager",
+      "resource commander",
+      "protector of supply lines"
+    ],
+    "behavioral_axis": "Directs assets for the survival/security of the group.",
+    "shadow_axis": "Uses access to enforce loyalty."
+  },
+  "21.5": {
+    "keywords": [
+      "projected fixer of control",
+      "‘take over and sort this’",
+      "emergency authority"
+    ],
+    "behavioral_axis": "People expect you to seize command and stabilize chaos fast.",
+    "shadow_axis": "Accused of power hunger or dictatorship."
+  },
+  "21.6": {
+    "keywords": [
+      "long-arc stewardship",
+      "ethical command model",
+      "responsible dominance"
+    ],
+    "behavioral_axis": "Embodies ‘power should secure and protect, not exploit.’",
+    "shadow_axis": "Elite distance, ‘I know how to run this, you don't.’"
+  },
+
+  "22.1": {
+    "keywords": [
+      "emotional availability baseline",
+      "testing trust",
+      "grace threshold"
+    ],
+    "behavioral_axis": "Feels out whether the space is safe for genuine openness.",
+    "shadow_axis": "Withdraws warmth, becomes icy to stay safe."
+  },
+  "22.2": {
+    "keywords": [
+      "natural charm",
+      "magnetic warmth",
+      "inviting aura"
+    ],
+    "behavioral_axis": "Draws people in emotionally without trying, creates atmosphere.",
+    "shadow_axis": "Moody shutdown if pressured to be 'on.'"
+  },
+  "22.3": {
+    "keywords": [
+      "trial-and-error vulnerability",
+      "awkward openness",
+      "chemistry swings"
+    ],
+    "behavioral_axis": "Learns relational grace by oversharing, misreading vibes, recovering.",
+    "shadow_axis": "Emotional volatility, perceived drama queen/king."
+  },
+  "22.4": {
+    "keywords": [
+      "social emotional host",
+      "tone-setter for the group",
+      "atmosphere curator"
+    ],
+    "behavioral_axis": "Shapes the vibe so everyone can relax or connect.",
+    "shadow_axis": "Manipulates mood to keep influence."
+  },
+  "22.5": {
+    "keywords": [
+      "projected heart-opener",
+      "expected to soothe everyone",
+      "emotional diplomat"
+    ],
+    "behavioral_axis": "Others assume you can disarm tension and make everyone feel seen.",
+    "shadow_axis": "Blamed as fake or seductive if outcomes get messy."
+  },
+  "22.6": {
+    "keywords": [
+      "mature grace field",
+      "timed openness",
+      "sovereign emotional elegance"
+    ],
+    "behavioral_axis": "Embodies ‘I open when it’s correct, and that's sacred.’",
+    "shadow_axis": "Aloof divinity posture, 'I'm above your chaos.'"
+  },
+
+  "23.1": {
+    "keywords": [
+      "foundation of clarity",
+      "need to understand before speaking",
+      "mental correctness"
+    ],
+    "behavioral_axis": "Waits until the insight is crisp enough to explain simply.",
+    "shadow_axis": "Locks up, thinks they’re broken if they can't articulate yet."
+  },
+  "23.2": {
+    "keywords": [
+      "natural simplifier",
+      "translates complexity",
+      "clean explanation"
+    ],
+    "behavioral_axis": "Can drop a clear sentence that unlocks a whole concept for others.",
+    "shadow_axis": "Irritated when forced to explain on demand."
+  },
+  "23.3": {
+    "keywords": [
+      "trial-and-error articulation",
+      "awkward blurting",
+      "breakthrough via mistakes"
+    ],
+    "behavioral_axis": "Finds the right wording by saying the wrong thing out loud first.",
+    "shadow_axis": "Social fallout from being 'too blunt' or 'weird.'"
+  },
+  "23.4": {
+    "keywords": [
+      "network translator of insight",
+      "brings mutation to the tribe",
+      "collective explainer"
+    ],
+    "behavioral_axis": "Introduces new, disruptive knowing in a way people can swallow.",
+    "shadow_axis": "Packages truth to keep status instead of telling it straight."
+  },
+  "23.5": {
+    "keywords": [
+      "projected genius/freak line",
+      "save us with insight",
+      "pressure to have answers"
+    ],
+    "behavioral_axis": "Others expect you to deliver ‘the breakthrough’ on command.",
+    "shadow_axis": "Called insane, arrogant, or manipulative if they can't use it."
+  },
+  "23.6": {
+    "keywords": [
+      "future voice of synthesis",
+      "living proof of new knowing",
+      "embodied explanation"
+    ],
+    "behavioral_axis": "Becomes the person whose clarity defines ‘the new normal.’",
+    "shadow_axis": "Detached superiority, 'I understand reality, you don't.'"
+  },
+
+  "24.1": {
+    "keywords": [
+      "mental return loop",
+      "trying to resolve the question",
+      "needing inner certainty"
+    ],
+    "behavioral_axis": "Goes inward repeatedly until the insight feels stable.",
+    "shadow_axis": "Obsessive rumination, self-doubt spiral."
+  },
+  "24.2": {
+    "keywords": [
+      "natural internalizer",
+      "quiet processing",
+      "private synthesis"
+    ],
+    "behavioral_axis": "Can integrate odd or disruptive knowing without outside help.",
+    "shadow_axis": "Irritated when pulled to 'share now' before it's baked."
+  },
+  "24.3": {
+    "keywords": [
+      "trial-and-error understanding",
+      "awkward mental integration",
+      "cycling between clarity and noise"
+    ],
+    "behavioral_axis": "Learns by repeatedly hitting the same puzzle until it cracks.",
+    "shadow_axis": "Looks inconsistent, gets tagged as unstable or obsessive."
+  },
+  "24.4": {
+    "keywords": [
+      "community synthesizer",
+      "gives the tribe a workable model",
+      "applies insight to real life"
+    ],
+    "behavioral_axis": "Turns personal epiphany into something the group can use.",
+    "shadow_axis": "Filters truth to maintain group approval."
+  },
+  "24.5": {
+    "keywords": [
+      "projected mind-fixer",
+      "asked to resolve confusion",
+      "expected to normalize the weird"
+    ],
+    "behavioral_axis": "Others assume you can ‘explain the unexplainable’ so they feel safe.",
+    "shadow_axis": "Blamed as manipulative or cryptic if they still feel unsettled."
+  },
+  "24.6": {
+    "keywords": [
+      "long-arc integrator",
+      "philosophical stabilizer",
+      "embodied synthesis over time"
+    ],
+    "behavioral_axis": "Holds mature understanding of disruptive ideas without panic.",
+    "shadow_axis": "Intellectual distance, 'you wouldn't get it anyway.'"
+  }
+}

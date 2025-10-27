@@ -1,0 +1,441 @@
+{
+  "25.1": {
+    "keywords": [
+      "core innocence",
+      "heart purity baseline",
+      "non-judgment starting point"
+    ],
+    "behavioral_axis": "Holds a quiet, principled heart that isn't trying to prove goodness.",
+    "shadow_axis": "Collapses when exposed to cruelty; feels the world is corrupt and unsafe."
+  },
+  "25.2": {
+    "keywords": [
+      "natural openness",
+      "unguarded compassion",
+      "clean-hearted presence"
+    ],
+    "behavioral_axis": "Radiates unconditional acceptance without effort, makes others feel spiritually safe.",
+    "shadow_axis": "Resents being expected to stay pure and forgiving all the time."
+  },
+  "25.3": {
+    "keywords": [
+      "innocence under trial",
+      "faith stress-tested",
+      "impact trauma -> wisdom"
+    ],
+    "behavioral_axis": "Finds authentic compassion by surviving shock, violation, and chaos.",
+    "shadow_axis": "Gets cynical, armors the heart, weaponizes 'you can't hurt me anymore.'"
+  },
+  "25.4": {
+    "keywords": [
+      "tribal healer energy",
+      "forgiveness field",
+      "unifier after damage"
+    ],
+    "behavioral_axis": "Stitches the group back together after harm, through radical non-judgment.",
+    "shadow_axis": "Spiritual bypassing to keep the peace and keep access."
+  },
+  "25.5": {
+    "keywords": [
+      "projected saint role",
+      "emergency soul medic",
+      "expected moral rescuer"
+    ],
+    "behavioral_axis": "Others expect you to cleanse corruption and restore 'heart alignment' for everyone.",
+    "shadow_axis": "Blamed as fake, manipulative, or holier-than-thou if healing isn't instant."
+  },
+  "25.6": {
+    "keywords": [
+      "embodied universal love",
+      "detached compassion",
+      "cosmic neutrality"
+    ],
+    "behavioral_axis": "Holds a transcendent, unconditional love that isn't personal or transactional.",
+    "shadow_axis": "Cold cosmic distance: 'your pain is just part of the lesson, accept it.'"
+  },
+
+  "26.1": {
+    "keywords": [
+      "willpower baseline",
+      "honest dealmaking",
+      "integrity of the pitch"
+    ],
+    "behavioral_axis": "Wants to trade value fairly and protect the tribe's interests.",
+    "shadow_axis": "Fear of being seen as a liar, over-defends their honesty."
+  },
+  "26.2": {
+    "keywords": [
+      "natural persuader",
+      "charisma in negotiation",
+      "effortless influence"
+    ],
+    "behavioral_axis": "Can sell, convince, and rearrange agreements without visible force.",
+    "shadow_axis": "Pulls away or gets snarky if accused of manipulation."
+  },
+  "26.3": {
+    "keywords": [
+      "trial-and-error hustler",
+      "learning ethics in the deal",
+      "reputation volatility"
+    ],
+    "behavioral_axis": "Finds the line between clever and shady by actually crossing it and recovering.",
+    "shadow_axis": "Short-term grifting, burning bridges for quick wins."
+  },
+  "26.4": {
+    "keywords": [
+      "tribal negotiator",
+      "message curator",
+      "resource gatekeeper"
+    ],
+    "behavioral_axis": "Shapes the story so the group keeps leverage and survives materially.",
+    "shadow_axis": "Spins reality to secure loyalty and maintain control."
+  },
+  "26.5": {
+    "keywords": [
+      "projected closer",
+      "called in to secure the deal",
+      "damage-control spokesperson"
+    ],
+    "behavioral_axis": "Others expect you to fix optics, patch reputations, and salvage agreements.",
+    "shadow_axis": "Blamed as manipulative propagandist if trust is already gone."
+  },
+  "26.6": {
+    "keywords": [
+      "legacy-scale influence",
+      "master persuader archetype",
+      "tribal brand custodian"
+    ],
+    "behavioral_axis": "Embodies 'we survive by telling our story on our terms.'",
+    "shadow_axis": "Elite spin-doctor energy, weaponized narrative control."
+  },
+
+  "27.1": {
+    "keywords": [
+      "care foundation",
+      "duty to protect",
+      "nurture as survival"
+    ],
+    "behavioral_axis": "Feels responsible for feeding, supporting, and sustaining the people close in.",
+    "shadow_axis": "Self-erasure, resentment from constant overgiving."
+  },
+  "27.2": {
+    "keywords": [
+      "natural caretaker",
+      "instinctive nourishment",
+      "quiet provision"
+    ],
+    "behavioral_axis": "Provides what's needed without drama and without needing praise.",
+    "shadow_axis": "Withdraws warmth and becomes coldly transactional if taken for granted."
+  },
+  "27.3": {
+    "keywords": [
+      "trial-and-error caregiving",
+      "burnout and recovery cycles",
+      "learning healthy support"
+    ],
+    "behavioral_axis": "Learns boundaries by overextending and then rebuilding strength.",
+    "shadow_axis": "Martyr script: 'after all I've done for you.'"
+  },
+  "27.4": {
+    "keywords": [
+      "tribal provider",
+      "resource distributor",
+      "ethical guardian of care"
+    ],
+    "behavioral_axis": "Makes sure everyone in the unit gets fed, seen, and carried.",
+    "shadow_axis": "Controls access to support to enforce loyalty."
+  },
+  "27.5": {
+    "keywords": [
+      "projected protector",
+      "expected to save everyone",
+      "moral backbone"
+    ],
+    "behavioral_axis": "Others assume you'll keep the whole tribe alive and emotionally fed.",
+    "shadow_axis": "Blamed as manipulative or smothering when you ask for reciprocity."
+  },
+  "27.6": {
+    "keywords": [
+      "embodied guardian archetype",
+      "sacred nourishment",
+      "long-term caretaker wisdom"
+    ],
+    "behavioral_axis": "Holds 'care is sacred structure, not optional.'",
+    "shadow_axis": "Judges others as unworthy or weak if they can't care like you."
+  },
+
+  "28.1": {
+    "keywords": [
+      "struggle foundation",
+      "search for meaning",
+      "fear of wasted life"
+    ],
+    "behavioral_axis": "Needs to know the fight actually matters before committing.",
+    "shadow_axis": "Existential despair, 'what's the point of any of this.'"
+  },
+  "28.2": {
+    "keywords": [
+      "natural survivor",
+      "quiet warrior energy",
+      "persistence without applause"
+    ],
+    "behavioral_axis": "Endures hardship with minimal drama when the cause feels worthy.",
+    "shadow_axis": "Refuses help, isolates in silent suffering."
+  },
+  "28.3": {
+    "keywords": [
+      "trial-by-struggle",
+      "learning purpose through failure",
+      "edge-walking"
+    ],
+    "behavioral_axis": "Finds true purpose by facing near-collapse and choosing to continue.",
+    "shadow_axis": "Reckless risk addiction, flirting with self-destruction."
+  },
+  "28.4": {
+    "keywords": [
+      "tribal defender of purpose",
+      "pulls others into cause",
+      "bonded through hardship"
+    ],
+    "behavioral_axis": "Rallies allies around 'this is worth the fight, stand with me.'",
+    "shadow_axis": "Guilts or pressures people into battles they didn't choose."
+  },
+  "28.5": {
+    "keywords": [
+      "projected champion",
+      "expected to be fearless",
+      "icon of resistance"
+    ],
+    "behavioral_axis": "Others cast you as the one who can 'stand against the monster.'",
+    "shadow_axis": "Crucified if you show weakness or choose self-preservation."
+  },
+  "28.6": {
+    "keywords": [
+      "existential elder",
+      "purpose-as-lifepath",
+      "wise endurance"
+    ],
+    "behavioral_axis": "Embodies 'the fight is meaningful because I decided it is.'",
+    "shadow_axis": "Detached fatalism, romanticizing suffering as identity."
+  },
+
+  "29.1": {
+    "keywords": [
+      "commitment baseline",
+      "testing what deserves a yes",
+      "saying yes with caution"
+    ],
+    "behavioral_axis": "Wants to anchor in a commitment that feels structurally sound.",
+    "shadow_axis": "Fear of overcommitting, stalls instead of answering."
+  },
+  "29.2": {
+    "keywords": [
+      "natural perseverance",
+      "quiet devotion",
+      "staying power"
+    ],
+    "behavioral_axis": "Can stick with something and move it forward just by showing up.",
+    "shadow_axis": "Resents being expected to carry everything forever."
+  },
+  "29.3": {
+    "keywords": [
+      "trial-and-error devotion",
+      "yes too fast",
+      "learning boundaries by burning out"
+    ],
+    "behavioral_axis": "Finds honest commitment by surviving bad commitments.",
+    "shadow_axis": "Cycle of 'all in' then collapse, seen as unreliable."
+  },
+  "29.4": {
+    "keywords": [
+      "network loyalty bond",
+      "group contract energy",
+      "we're in this together"
+    ],
+    "behavioral_axis": "Creates shared commitment and morale inside the tribe.",
+    "shadow_axis": "Pressures others to stay in situations they've outgrown."
+  },
+  "29.5": {
+    "keywords": [
+      "projected fixer of follow-through",
+      "the dependable one",
+      "savior of consistency"
+    ],
+    "behavioral_axis": "Others expect you to hold the line when everyone else quits.",
+    "shadow_axis": "Blamed as controlling or obsessive if you call out quitters."
+  },
+  "29.6": {
+    "keywords": [
+      "lifetime oathkeeper",
+      "sacred yes energy",
+      "endurance archetype"
+    ],
+    "behavioral_axis": "Embodies that a true yes is a spiritual contract, not casual.",
+    "shadow_axis": "Judges others as weak or flaky for changing course."
+  },
+
+  "30.1": {
+    "keywords": [
+      "emotional desire baseline",
+      "intensity foundation",
+      "hunger for experience"
+    ],
+    "behavioral_axis": "Acknowledges 'I want this' without shame.",
+    "shadow_axis": "Fear of wanting too much, emotional self-suppression."
+  },
+  "30.2": {
+    "keywords": [
+      "natural emotional fire",
+      "magnetic longing",
+      "pulls experiences in"
+    ],
+    "behavioral_axis": "Attracts deep emotional experiences just by craving them.",
+    "shadow_axis": "Withdraws bitterly when accused of being dramatic or needy."
+  },
+  "30.3": {
+    "keywords": [
+      "trial-by-desire",
+      "burn-surge cycles",
+      "learning through heartbreak"
+    ],
+    "behavioral_axis": "Finds clarity by surviving emotional intensity spikes and crashes.",
+    "shadow_axis": "Chaos chasing, addicted to the high of longing itself."
+  },
+  "30.4": {
+    "keywords": [
+      "tribal heat transmitter",
+      "shared passion ignition",
+      "bond through intensity"
+    ],
+    "behavioral_axis": "Lights the group up around 'let's FEEL this fully together.'",
+    "shadow_axis": "Stirs drama to keep people hooked and loyal."
+  },
+  "30.5": {
+    "keywords": [
+      "projected emotional catalyst",
+      "expected to bring passion",
+      "desire spokesperson"
+    ],
+    "behavioral_axis": "Others look to you to voice the deep craving nobody else will admit.",
+    "shadow_axis": "Blamed as toxic or manipulative if the desire disrupts comfort."
+  },
+  "30.6": {
+    "keywords": [
+      "long-arc emotional wisdom",
+      "relationship with longing",
+      "sacred intensity"
+    ],
+    "behavioral_axis": "Embodies that desire is holy fuel, not a flaw.",
+    "shadow_axis": "Detached superiority: 'your desires are shallow compared to mine.'"
+  },
+
+  "31.1": {
+    "keywords": [
+      "voice-of-leadership baseline",
+      "needs role clarity",
+      "testing legitimacy"
+    ],
+    "behavioral_axis": "Wants to speak for others only if the position is structurally valid.",
+    "shadow_axis": "Insecure about authority, won't speak unless guaranteed status."
+  },
+  "31.2": {
+    "keywords": [
+      "natural spokesperson",
+      "public influence aura",
+      "guides without forcing"
+    ],
+    "behavioral_axis": "People listen when you say 'this is the direction.'",
+    "shadow_axis": "Quietly resentful if ignored; disengages instead of adjusting."
+  },
+  "31.3": {
+    "keywords": [
+      "trial-and-error leadership",
+      "public mistakes",
+      "learning to speak for the group"
+    ],
+    "behavioral_axis": "Finds the right leadership voice by messing up in public and adapting.",
+    "shadow_axis": "Seen as unreliable mouthpiece, 'can't trust them to represent us.'"
+  },
+  "31.4": {
+    "keywords": [
+      "community voice",
+      "network elected leader",
+      "rep of the tribe"
+    ],
+    "behavioral_axis": "Speaks as 'we,' not 'I,' and aligns direction through consensus energy.",
+    "shadow_axis": "Plays politics to secure loyalty rather than telling hard truth."
+  },
+  "31.5": {
+    "keywords": [
+      "projected fixer leader",
+      "save the group",
+      "emergency authority figure"
+    ],
+    "behavioral_axis": "Others expect you to step up, speak for everyone, and stabilize the situation.",
+    "shadow_axis": "Blamed as tyrant or manipulator if people don't like the call."
+  },
+  "31.6": {
+    "keywords": [
+      "archetypal leader presence",
+      "symbol of direction",
+      "long-term governance wisdom"
+    ],
+    "behavioral_axis": "Embodies 'this is the correct direction for us as a people.'",
+    "shadow_axis": "Detached rulership, superiority over the 'uninformed masses.'"
+  },
+
+  "32.1": {
+    "keywords": [
+      "survival continuity baseline",
+      "instinct for what lasts",
+      "fear of collapse"
+    ],
+    "behavioral_axis": "Wants proof that a thing can actually endure long-term.",
+    "shadow_axis": "Anxiety about failure, clings to what's dying out of loyalty."
+  },
+  "32.2": {
+    "keywords": [
+      "natural value assessor",
+      "quiet loyalty sense",
+      "sees lasting potential"
+    ],
+    "behavioral_axis": "Can spot which people/ideas are worth investing in over time.",
+    "shadow_axis": "Grows bitter if others don't respect that read."
+  },
+  "32.3": {
+    "keywords": [
+      "trial-and-error loyalty",
+      "risking reputation",
+      "testing durability in the field"
+    ],
+    "behavioral_axis": "Learns what will survive by backing things that might fail and watching what breaks.",
+    "shadow_axis": "Branded unreliable or 'bad judge of character' after visible losses."
+  },
+  "32.4": {
+    "keywords": [
+      "tribal continuity keeper",
+      "protects bloodline / legacy",
+      "resource steward"
+    ],
+    "behavioral_axis": "Guards long-term stability for the group: 'will this still feed us later?'",
+    "shadow_axis": "Uses fears of failure to pressure obedience."
+  },
+  "32.5": {
+    "keywords": [
+      "projected guardian of legacy",
+      "expected to stabilize the clan",
+      "survival strategist"
+    ],
+    "behavioral_axis": "Others assume you know how to prevent collapse and preserve value.",
+    "shadow_axis": "Blamed as controlling, territorial, old-guard gatekeeper."
+  },
+  "32.6": {
+    "keywords": [
+      "ancestral steward archetype",
+      "long-arc loyalty wisdom",
+      "lineage-preserver"
+    ],
+    "behavioral_axis": "Embodies 'I carry what must not be lost.'",
+    "shadow_axis": "Judges evolution as betrayal; refuses necessary change."
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "33.1": {
+    "keywords": [
+      "need for privacy",
+      "withdrawing to integrate",
+      "story containment"
+    ],
+    "behavioral_axis": "Pulls back to process experience before sharing it.",
+    "shadow_axis": "Paranoid secrecy, assumes exposure = danger."
+  },
+  "33.2": {
+    "keywords": [
+      "natural retreat",
+      "quiet reset",
+      "emotional decompression"
+    ],
+    "behavioral_axis": "Knows when to step away and recover without making drama.",
+    "shadow_axis": "Refuses to engage at all, called avoidant or cold."
+  },
+  "33.3": {
+    "keywords": [
+      "trial-and-error boundaries",
+      "oversharing then regret",
+      "learning discretion hard way"
+    ],
+    "behavioral_axis": "Finds healthy privacy by leaking too much, getting burned, adapting.",
+    "shadow_axis": "Constant PR damage control, unstable trust signal."
+  },
+  "33.4": {
+    "keywords": [
+      "keeper of group history",
+      "sacred storyteller",
+      "ritual closure"
+    ],
+    "behavioral_axis": "Helps the tribe ‘close the chapter’ and honor what happened.",
+    "shadow_axis": "Curates the record to control how others are remembered."
+  },
+  "33.5": {
+    "keywords": [
+      "projected spokesperson of the past",
+      "called to explain what went down",
+      "collective archivist"
+    ],
+    "behavioral_axis": "Others expect you to speak for everyone about sensitive history.",
+    "shadow_axis": "Blamed as biased, manipulative, rewriting truth."
+  },
+  "33.6": {
+    "keywords": [
+      "elder of withdrawal",
+      "example of dignified retreat",
+      "privacy as wisdom"
+    ],
+    "behavioral_axis": "Embodies that stepping back at the right moment protects the soul and the group.",
+    "shadow_axis": "Detached distance, ‘I owe none of you access.’"
+  },
+
+  "34.1": {
+    "keywords": [
+      "raw personal power",
+      "self-led force",
+      "survival drive"
+    ],
+    "behavioral_axis": "Wants to understand its own strength and channel it correctly.",
+    "shadow_axis": "Fear of misusing power, holding back until it feels ‘safe.’"
+  },
+  "34.2": {
+    "keywords": [
+      "natural force field",
+      "magnetic impact",
+      "doesn't like being managed"
+    ],
+    "behavioral_axis": "Radiates ‘I can move this by myself’ energy without negotiation.",
+    "shadow_axis": "Withdraws cooperation when controlled or directed."
+  },
+  "34.3": {
+    "keywords": [
+      "trial-and-error power use",
+      "pushing too hard",
+      "learning limits in live combat"
+    ],
+    "behavioral_axis": "Learns responsible force by breaking stuff and owning it.",
+    "shadow_axis": "Reputation as overpowering, dangerous, selfish muscle."
+  },
+  "34.4": {
+    "keywords": [
+      "power in service of tribe",
+      "protector role",
+      "muscle backing the group"
+    ],
+    "behavioral_axis": "Uses raw energy to defend allies and stabilize the unit.",
+    "shadow_axis": "Enforces loyalty through intimidation."
+  },
+  "34.5": {
+    "keywords": [
+      "projected enforcer",
+      "called in for decisive action",
+      "emergency heavy-hitter"
+    ],
+    "behavioral_axis": "Others expect you to ‘handle it right now’ with sheer force.",
+    "shadow_axis": "Blamed as a bully or tyrant if the action offends someone."
+  },
+  "34.6": {
+    "keywords": [
+      "embodied sovereign power",
+      "lone-force archetype",
+      "pure life force presence"
+    ],
+    "behavioral_axis": "Lives as proof of unapologetic power aligned with purpose.",
+    "shadow_axis": "Detached superiority: ‘I don't need any of you.’"
+  },
+
+  "35.1": {
+    "keywords": [
+      "baseline curiosity",
+      "hunger for new experiences",
+      "restlessness"
+    ],
+    "behavioral_axis": "Wants to confirm ‘is there more to life than this routine.’",
+    "shadow_axis": "Feels trapped and emotionally starving if nothing changes."
+  },
+  "35.2": {
+    "keywords": [
+      "natural adventurer",
+      "easy storyteller",
+      "charismatic novelty-seeker"
+    ],
+    "behavioral_axis": "Attracts experiences and then narrates them in a way others feel.",
+    "shadow_axis": "Withdraws if pressured to entertain on command."
+  },
+  "35.3": {
+    "keywords": [
+      "trial-by-experience",
+      "impulsive leaps",
+      "learning by crashing"
+    ],
+    "behavioral_axis": "Finds wisdom by throwing themselves into intense situations and regrouping.",
+    "shadow_axis": "Burnout loops, reckless thrill-chasing to feel alive."
+  },
+  "35.4": {
+    "keywords": [
+      "social experience curator",
+      "bond through adventure",
+      "group memory maker"
+    ],
+    "behavioral_axis": "Pulls the tribe into shared moments and rites of passage.",
+    "shadow_axis": "Creates drama just to keep everyone emotionally hooked."
+  },
+  "35.5": {
+    "keywords": [
+      "projected fixer of boredom",
+      "‘save us from stagnation’",
+      "emotional catalyst"
+    ],
+    "behavioral_axis": "Others expect you to break the rut and bring something exciting.",
+    "shadow_axis": "Blamed as chaotic or destabilizing if comfort is lost."
+  },
+  "35.6": {
+    "keywords": [
+      "elder of experience",
+      "lived story archive",
+      "emotional journey witness"
+    ],
+    "behavioral_axis": "Embodies 'I've tasted life; here's what it actually costs and gives.'",
+    "shadow_axis": "Detached jadedness, nothing impresses, ‘I've seen it all.’"
+  },
+
+  "36.1": {
+    "keywords": [
+      "baseline anxiety around crisis",
+      "emotional turbulence alert",
+      "fear of humiliation"
+    ],
+    "behavioral_axis": "Feels incoming chaos and braces for impact.",
+    "shadow_axis": "Paralyzes, assumes worst possible outcome is inevitable."
+  },
+  "36.2": {
+    "keywords": [
+      "natural crisis responder",
+      "intuitive in chaos",
+      "magnetic in emergencies"
+    ],
+    "behavioral_axis": "Can move inside emotional turbulence without totally losing center.",
+    "shadow_axis": "Resents being used only for drama, goes cold afterward."
+  },
+  "36.3": {
+    "keywords": [
+      "trial-by-crisis",
+      "messy first contact with the unknown",
+      "emotional flame-testing"
+    ],
+    "behavioral_axis": "Learns maturity by surviving high-stress breakdowns.",
+    "shadow_axis": "Creates or escalates crisis just to feel engaged."
+  },
+  "36.4": {
+    "keywords": [
+      "tribal crisis translator",
+      "soothing panic in the group",
+      "holding fear for others"
+    ],
+    "behavioral_axis": "Stabilizes people through the worst part of emotional chaos.",
+    "shadow_axis": "Uses crisis to secure loyalty, ‘you need me.’"
+  },
+  "36.5": {
+    "keywords": [
+      "projected crisis fixer",
+      "called in to handle disaster",
+      "emergency emotional manager"
+    ],
+    "behavioral_axis": "Others expect you to take charge when everything melts down.",
+    "shadow_axis": "Blamed if relief isn't instant, accused of emotional manipulation."
+  },
+  "36.6": {
+    "keywords": [
+      "veteran of turbulence",
+      "compassion for panic",
+      "teaches crisis wisdom"
+    ],
+    "behavioral_axis": "Embodies ‘I've lived through storms; you're going to survive this too.’",
+    "shadow_axis": "Detached superiority: ‘this meltdown is nothing, toughen up.’"
+  },
+
+  "37.1": {
+    "keywords": [
+      "bonding contract baseline",
+      "family loyalty code",
+      "need for clear agreements"
+    ],
+    "behavioral_axis": "Wants to know who's responsible for what inside the bond.",
+    "shadow_axis": "Clings to tradition even if it's unfair."
+  },
+  "37.2": {
+    "keywords": [
+      "natural warmth",
+      "tribal belonging aura",
+      "peacemaker presence"
+    ],
+    "behavioral_axis": "Makes people feel welcomed into a 'family' space.",
+    "shadow_axis": "Withdraws affection if under-appreciated, labeled moody."
+  },
+  "37.3": {
+    "keywords": [
+      "trial-and-error loyalty",
+      "fights in close bonds",
+      "messy negotiations"
+    ],
+    "behavioral_axis": "Learns what fair partnership is by butting heads and renegotiating.",
+    "shadow_axis": "Keeps score, weaponizes guilt and obligation."
+  },
+  "37.4": {
+    "keywords": [
+      "tribal peacekeeper",
+      "mediator of fairness",
+      "domestic diplomat"
+    ],
+    "behavioral_axis": "Holds the group together around shared kindness and duty.",
+    "shadow_axis": "Plays 'good cop' to maintain influence."
+  },
+  "37.5": {
+    "keywords": [
+      "projected emotional provider",
+      "the hearth",
+      "expected to hold the household together"
+    ],
+    "behavioral_axis": "Others assume you will stabilize the emotional home base.",
+    "shadow_axis": "Blamed as manipulative or smothering if you ask for reciprocity."
+  },
+  "37.6": {
+    "keywords": [
+      "archetype of community care",
+      "long-term family glue",
+      "sacred keeper of kinship"
+    ],
+    "behavioral_axis": "Embodies 'we protect each other, that's the law here.'",
+    "shadow_axis": "Judgmental gatekeeper of who 'counts as family.'"
+  },
+
+  "38.1": {
+    "keywords": [
+      "baseline resistance",
+      "fighting for meaning",
+      "pushing against pressure"
+    ],
+    "behavioral_axis": "Needs a cause worth struggling for, not just conflict for its own sake.",
+    "shadow_axis": "Feels aimless and hopeless if the fight seems pointless."
+  },
+  "38.2": {
+    "keywords": [
+      "natural fighter",
+      "quiet defiance",
+      "stubborn backbone"
+    ],
+    "behavioral_axis": "Stands ground against what feels wrong without applause-seeking.",
+    "shadow_axis": "Withdraws bitterly if told to 'just go along.'"
+  },
+  "38.3": {
+    "keywords": [
+      "trial-by-conflict",
+      "learning through confrontation",
+      "risking backlash"
+    ],
+    "behavioral_axis": "Figures out what's worth defending by getting into real clashes.",
+    "shadow_axis": "Picks fights compulsively, chaos for identity."
+  },
+  "38.4": {
+    "keywords": [
+      "tribal protector",
+      "defends the weak",
+      "alliances through shared enemies"
+    ],
+    "behavioral_axis": "Rallies others around 'we don't let this happen to our people.'",
+    "shadow_axis": "Creates enemies to keep the group bonded."
+  },
+  "38.5": {
+    "keywords": [
+      "projected champion role",
+      "expected to confront injustice",
+      "symbol of resistance"
+    ],
+    "behavioral_axis": "Others assume you’ll step up publicly and take the hit.",
+    "shadow_axis": "Blamed as aggressive, toxic, 'problem starter.'"
+  },
+  "38.6": {
+    "keywords": [
+      "existential warrior archetype",
+      "meaning-through-struggle elder",
+      "refusal to submit"
+    ],
+    "behavioral_axis": "Embodies 'I exist to stand against what's wrong.'",
+    "shadow_axis": "Detached martyr identity; suffering becomes the brand."
+  },
+
+  "39.1": {
+    "keywords": [
+      "baseline tension trigger",
+      "testing emotional honesty",
+      "provoking contact"
+    ],
+    "behavioral_axis": "Probes for where the real emotional blockage is.",
+    "shadow_axis": "Fears rejection if others shut down instead of responding."
+  },
+  "39.2": {
+    "keywords": [
+      "natural spark",
+      "magnetic agitator",
+      "teasing intimacy"
+    ],
+    "behavioral_axis": "Can poke someone emotionally in a way that opens closeness.",
+    "shadow_axis": "Pulls away or gets sulky if accused of being 'too much.'"
+  },
+  "39.3": {
+    "keywords": [
+      "trial-and-error provocation",
+      "pushes buttons bluntly",
+      "learning limits by crossing them"
+    ],
+    "behavioral_axis": "Finds what wakes people up by accidentally triggering them hard.",
+    "shadow_axis": "Seen as manipulative, drama-stirring, disrespectful."
+  },
+  "39.4": {
+    "keywords": [
+      "tribal emotional catalyst",
+      "stirs the pot for bonding",
+      "breaks numbness"
+    ],
+    "behavioral_axis": "Shakes the group out of emotional dead zones so connection can come back.",
+    "shadow_axis": "Uses tension to control who feels safe around whom."
+  },
+  "39.5": {
+    "keywords": [
+      "projected breaker of stagnation",
+      "everyone expects you to wake us up",
+      "emotional disruptor"
+    ],
+    "behavioral_axis": "Others assume you can spark passion where it's gone flat.",
+    "shadow_axis": "Blamed as toxic if the awakening hurts feelings."
+  },
+  "39.6": {
+    "keywords": [
+      "mature catalyst archetype",
+      "holy agitator",
+      "intimacy through friction"
+    ],
+    "behavioral_axis": "Embodies 'pressure is how we access real feeling and truth.'",
+    "shadow_axis": "Detached superiority: ‘you're numb, I have depth.’"
+  },
+
+  "40.1": {
+    "keywords": [
+      "baseline of duty",
+      "I'm here for you",
+      "solo provider energy"
+    ],
+    "behavioral_axis": "Feels responsible to deliver support, do the job, feed the bond.",
+    "shadow_axis": "Resentful martyr, exhausted but can't admit it."
+  },
+  "40.2": {
+    "keywords": [
+      "natural provider",
+      "quietly reliable",
+      "protective loyalty"
+    ],
+    "behavioral_axis": "Gives resources / labor / presence to prove 'you're not alone.'",
+    "shadow_axis": "Pulls away hard if taken for granted or controlled."
+  },
+  "40.3": {
+    "keywords": [
+      "trial-and-error support",
+      "overgiving then isolation",
+      "boundary whiplash"
+    ],
+    "behavioral_axis": "Learns healthy service by burning out, disappearing, then renegotiating terms.",
+    "shadow_axis": "Hot/cold availability, seen as unreliable partner."
+  },
+  "40.4": {
+    "keywords": [
+      "tribal contract enforcer",
+      "fair exchange advocate",
+      "I'll do my part if you do yours"
+    ],
+    "behavioral_axis": "Insists on clear agreements: support must be mutual and respected.",
+    "shadow_axis": "Emotional debt-keeping, 'you owe me.'"
+  },
+  "40.5": {
+    "keywords": [
+      "projected rescuer",
+      "expected to save the day",
+      "emergency provider"
+    ],
+    "behavioral_axis": "Others assume you'll show up when everyone else bails.",
+    "shadow_axis": "Blamed as controlling if you attach conditions."
+  },
+  "40.6": {
+    "keywords": [
+      "embodied lone-wolf provider",
+      "sacred distance",
+      "healthy interdependence model"
+    ],
+    "behavioral_axis": "Shows that deep loyalty is compatible with needing alone time to recharge.",
+    "shadow_axis": "Detached superiority: 'I'm the only real adult here.'"
+  }
+}
