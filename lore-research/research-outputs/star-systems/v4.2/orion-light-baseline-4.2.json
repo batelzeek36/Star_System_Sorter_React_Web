@@ -1,20 +1,18 @@
 {
-  "star_system": "Orion Light",
+  "star_system": "Orion-Light",
   "version": "4.2",
   "last_updated": "2025-10-27",
-
   "methodology": {
     "framework": "Comparative mythology + Human Design (I Ching-derived) + Egyptian/Hermetic mystery traditions + modern esoteric polarity framing",
     "academic_foundations": [
-      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "I Ching (64 hexagrams \u2192 64 Human Design gates)",
       "Ancient Egyptian cosmology (Osiris-Orion-Sah as royal afterlife current)",
       "Hermetic/Thoth lineage (scribal transmission of divine knowledge)",
       "Mystery school initiation traditions (Egyptian, Greek, Rosicrucian, Hermetic)"
     ],
-    "source_standards": "Only publisher-backed sources with ISBN or known scholarly imprint; peer-reviewed journals; Loeb Classical Library / university press / academic Egyptology sources; ancient texts with a named human translator and known publisher. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include `astronomical_component` and `component_reasoning`. Astronomical component codes: `A` = visible, physical constellation/star pattern (e.g. Orion/Sah as observed in the sky, pyramid alignments); `B` = hidden/controversial or secret companion bodies; `G` = gateway/portal or transit node; `H` = healing/frequency or vibrational uplift; `unspecified` = system-level metaphysical tradition or lineage without explicit stellar component. Locked citations provide a ≤25-word direct quote plus a locator (page, section, utterance, etc.). Provisional citations provide `location_hint` + `summary` when we cannot safely reproduce a short quote from a verifiable edition. Post-1967 sources should include ISBN where known; older or Loeb/public-domain sources may have `isbn: null`. You MUST still output JSON even if many sources are provisional.",
+    "source_standards": "Only publisher-backed sources with ISBN or known scholarly imprint; peer-reviewed journals; Loeb Classical Library / university press / academic Egyptology sources; ancient texts with a named human translator and known publisher. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include `astronomical_component` and `component_reasoning`. Astronomical component codes: `A` = visible, physical constellation/star pattern (e.g. Orion/Sah as observed in the sky, pyramid alignments); `B` = hidden/controversial or secret companion bodies; `G` = gateway/portal or transit node; `H` = healing/frequency or vibrational uplift; `unspecified` = system-level metaphysical tradition or lineage without explicit stellar component. Locked citations provide a \u226425-word direct quote plus a locator (page, section, utterance, etc.). Provisional citations provide `location_hint` + `summary` when we cannot safely reproduce a short quote from a verifiable edition. Post-1967 sources should include ISBN where known; older or Loeb/public-domain sources may have `isbn: null`. You MUST still output JSON even if many sources are provisional.",
     "research_date": "2025-10-27"
   },
-
   "academic_context": {
     "human_design_foundations": [
       "I Ching - 3,000+ years of commentary and interpretation (Wilhelm/Baynes; Legge; Jung)",
@@ -28,7 +26,6 @@
       "Binary yin/yang logic mirrors binary genetic pairing (A/T, C/G)"
     ]
   },
-
   "characteristics": [
     {
       "trait": "Orion-Osiris as spiritual rebirth and resurrection archetype",
@@ -50,7 +47,7 @@
           "isbn": null,
           "source_type": "ancient",
           "citation_status": "locked",
-          "page": "Utterance 442, §820-822",
+          "page": "Utterance 442, \u00a7820-822",
           "quote": "Behold, he has come as Orion, behold Osiris has come as Orion",
           "astronomical_component": "A",
           "component_reasoning": "Identifies the deceased king/Osiris with Orion as a visible constellation (Egyptian Sah), anchoring royal resurrection and ascent in the physical Orion star pattern."
@@ -67,7 +64,7 @@
           "isbn": null,
           "source_type": "ancient",
           "citation_status": "locked",
-          "page": "Utterance 466, §882",
+          "page": "Utterance 466, \u00a7882",
           "quote": "O King, you are this great star, the companion of Orion, who traverses the sky with Orion",
           "astronomical_component": "A",
           "component_reasoning": "Equates the dead king with a star that travels alongside Orion, implying post-mortem stellar ascension and cosmic kingship."
@@ -108,7 +105,6 @@
         }
       ]
     },
-
     {
       "trait": "Mystery school initiation and preservation of sacred teachings",
       "consensus_level": "high",
@@ -187,7 +183,6 @@
         }
       ]
     },
-
     {
       "trait": "Sacred geometry and architectural stellar encoding",
       "consensus_level": "medium",
@@ -209,9 +204,9 @@
           "source_type": "research",
           "citation_status": "provisional",
           "location_hint": "Chapters arguing Giza pyramid layout mirrors Orion's Belt",
-          "summary": "Proposes that the three main pyramids at Giza replicate the three stars of Orion’s Belt, encoding a star map and resurrection doctrine in architecture.",
+          "summary": "Proposes that the three main pyramids at Giza replicate the three stars of Orion\u2019s Belt, encoding a star map and resurrection doctrine in architecture.",
           "astronomical_component": "A",
-          "component_reasoning": "Treats Orion’s Belt (visible asterism) as deliberately mapped onto pyramid placement; implies sacred geometry linking Earth structures to Orion."
+          "component_reasoning": "Treats Orion\u2019s Belt (visible asterism) as deliberately mapped onto pyramid placement; implies sacred geometry linking Earth structures to Orion."
         },
         {
           "title": "Echoes of the Ancient Skies: The Astronomy of Lost Civilizations",
@@ -249,7 +244,6 @@
         }
       ]
     },
-
     {
       "trait": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law",
       "consensus_level": "high",
@@ -290,7 +284,7 @@
           "location_hint": "Chapter 'The Life and Teachings of Thoth Hermes Trismegistus'",
           "summary": "Presents Thoth-Hermes as founder of wisdom schools, scribe of the gods, and keeper of cosmic law entrusted to initiates.",
           "astronomical_component": "unspecified",
-          "component_reasoning": "Frames Thoth-Hermes as a primordial wisdom bearer and law-giver, not explicitly tied to Orion’s physical stars."
+          "component_reasoning": "Frames Thoth-Hermes as a primordial wisdom bearer and law-giver, not explicitly tied to Orion\u2019s physical stars."
         },
         {
           "title": "Corpus Hermeticum",
@@ -311,7 +305,6 @@
         }
       ]
     },
-
     {
       "trait": "Positive polarity and service-to-others vs. Orion negative service-to-self (modern esoteric polarity model)",
       "consensus_level": "low",
@@ -356,7 +349,6 @@
         }
       ]
     },
-
     {
       "trait": "Stellar navigation and royal afterlife wayfinding",
       "consensus_level": "medium",
@@ -377,7 +369,7 @@
           "isbn": null,
           "source_type": "ancient",
           "citation_status": "locked",
-          "page": "Utterance 442, §821",
+          "page": "Utterance 442, \u00a7821",
           "quote": "You will regularly ascend with Orion from the eastern region of the sky",
           "astronomical_component": "A",
           "component_reasoning": "Presents Orion as a literal ascent path for the dead king, implying stellar navigation into immortality via a visible constellation."
@@ -395,7 +387,7 @@
           "source_type": "research",
           "citation_status": "provisional",
           "location_hint": "Chapters on Egyptian stellar religion and Orion as celestial herald",
-          "summary": "Explains how Orion’s motions forecast Nile-related cycles and frame royal ascent myths, embedding astronomical observation into religious kingship.",
+          "summary": "Explains how Orion\u2019s motions forecast Nile-related cycles and frame royal ascent myths, embedding astronomical observation into religious kingship.",
           "astronomical_component": "A",
           "component_reasoning": "Describes Orion as a visible seasonal/timekeeping constellation tied to pharaonic afterlife navigation."
         },
@@ -418,7 +410,6 @@
         }
       ]
     },
-
     {
       "trait": "Record keepers and preservers of primordial knowledge",
       "consensus_level": "low",
@@ -464,12 +455,10 @@
       ]
     }
   ],
-
   "light_vs_dark_distinctions": "Ancient Egyptian sources present Osiris (identified with Orion/Sah) as a benevolent force of resurrection, fertility, and just kingship, and contrast this with Set as the disruptive, violent force. This frames a moral polarity inside Egyptian myth: Osiris/Orion as restorative, Set as dismembering/chaotic. Later Hermetic and mystery school traditions treat Thoth-Hermes as a revealer of sacred law to worthy initiates, preserving positive, ordered wisdom. Modern channelled material (Law of One, early 1980s) reframes this polarity using 'service-to-others' versus 'service-to-self' and explicitly calls an 'Orion group' negative. In that modern system, 'Orion Light' is the benevolent stream aligned with service-to-others. This polarity language (service vs conquest) does not appear in Pyramid Texts or Plutarch; it is a 20th-century esoteric overlay that merges ancient Osirian benevolence with a cosmic ethical war model.",
-
   "disputed_points": [
     {
-      "claim": "The three main Giza pyramids were deliberately laid out to mirror the three stars of Orion’s Belt, encoding a star map and lost technical wisdom from a much earlier epoch.",
+      "claim": "The three main Giza pyramids were deliberately laid out to mirror the three stars of Orion\u2019s Belt, encoding a star map and lost technical wisdom from a much earlier epoch.",
       "supporting_sources": [
         {
           "title": "The Orion Mystery: Unlocking the Secrets of the Pyramids",
@@ -484,7 +473,7 @@
           "source_type": "research",
           "citation_status": "provisional",
           "location_hint": "Chapter 7 and related chapters presenting the Orion Correlation Theory",
-          "summary": "Asserts that Khufu, Khafre, and Menkaure pyramids replicate Alnitak, Alnilam, and Mintaka in Orion’s Belt, implying intentional sacred geometry and a preservation of ancient star knowledge (~10,500 BCE alignment claims).",
+          "summary": "Asserts that Khufu, Khafre, and Menkaure pyramids replicate Alnitak, Alnilam, and Mintaka in Orion\u2019s Belt, implying intentional sacred geometry and a preservation of ancient star knowledge (~10,500 BCE alignment claims).",
           "astronomical_component": "A",
           "component_reasoning": "Directly ties visible Orion Belt stars to ground plan at Giza, treating Orion as a physical sky pattern replicated on Earth."
         }
@@ -504,7 +493,7 @@
           "source_type": "research",
           "citation_status": "provisional",
           "location_hint": "Statistical/positional analysis sections on correlation probability",
-          "summary": "Argues that the proposed one-to-one match between pyramid placement and Orion’s Belt is statistically weak and may be coincidental, warning that Orion Correlation Theory overstates precision and ignores other architectural, geological, and ritual constraints.",
+          "summary": "Argues that the proposed one-to-one match between pyramid placement and Orion\u2019s Belt is statistically weak and may be coincidental, warning that Orion Correlation Theory overstates precision and ignores other architectural, geological, and ritual constraints.",
           "astronomical_component": "A",
           "component_reasoning": "Treats Orion as a real visible pattern but disputes that Egyptian builders encoded it with millennia-level astro-engineering intent."
         }
@@ -512,11 +501,8 @@
       "consensus": "medium"
     }
   ],
-
-  "ancient_references": "Old Kingdom Pyramid Texts (~2400 BCE, Faulkner/Allen translations) repeatedly equate the deceased king with Osiris and Orion (Egyptian Sah). The king is said to rise, travel, and 'regularly ascend with Orion' into the eastern sky, implying that Orion is not just a constellation but the royal afterlife pathway and immortal status. Plutarch’s 1st-2nd century CE account in 'Isis and Osiris' preserves an Osirian theology of death, dismemberment, restoration, and rulership of the underworld, reinforcing Osiris as a rebirth force. Egyptian and Hermetic mystery traditions later cast Thoth-Hermes as the scribe who preserves divine law and initiatory wisdom. None of these ancient sources explicitly present the modern service-to-others vs service-to-self polarity, nor do they frame Orion as an interstellar empire; that framing emerges in 20th-century esoteric and channelled material. All clearly ancient references to Orion/Osiris are classified under astronomical_component 'A' because they treat Orion/Sah as an actual, visible constellation that the king joins to live eternally in the stars.",
-
-  "research_notes": "Under the v4.2 standard, each source is tied to a publisher-backed imprint (Loeb Classical Library / Harvard University Press; Oxford University Press; SBL Press; Tarcher/Penguin; L/L Research; Yogi Publication Society; Harrassowitz Verlag). Every source entry now includes `astronomical_component` and `component_reasoning`, which explicitly track whether the material is referring to a physical, visible constellation (`A`), a healing/frequency current (`H`), a portal/gateway (`G`), a controversial hidden body (`B`), or a system-level teaching lineage without naming an actual star (`unspecified`). Orion Light shows two primary threads: (1) High-consensus, high-ancient-support Osiris/Orion resurrection mythology, where the dead king rises into the physical Orion constellation and assumes eternal kingship (component 'A'); and (2) Initiatory wisdom lineages (Isis, Thoth-Hermes, Hermetic tradition) that frame Egyptian mystery schools as keepers of sacred law (component 'unspecified'). A later esoteric layer adds polarity language ('service-to-others' vs 'service-to-self') and attributes both benevolent and malevolent factions to 'Orion'; this is marked as `disputed: true` and categorized as 'unspecified' because it is not anchored to a specific mapped star within Orion. The Orion Correlation Theory (pyramids mirror Orion’s Belt) is included with counter-evidence and flagged under `disputed_points` with `consensus: medium`. All translator names for ancient sources are explicitly provided, and non-academic or anonymous web-era sources have been excluded in accordance with 4.2 quality rules.",
-
+  "ancient_references": "Old Kingdom Pyramid Texts (~2400 BCE, Faulkner/Allen translations) repeatedly equate the deceased king with Osiris and Orion (Egyptian Sah). The king is said to rise, travel, and 'regularly ascend with Orion' into the eastern sky, implying that Orion is not just a constellation but the royal afterlife pathway and immortal status. Plutarch\u2019s 1st-2nd century CE account in 'Isis and Osiris' preserves an Osirian theology of death, dismemberment, restoration, and rulership of the underworld, reinforcing Osiris as a rebirth force. Egyptian and Hermetic mystery traditions later cast Thoth-Hermes as the scribe who preserves divine law and initiatory wisdom. None of these ancient sources explicitly present the modern service-to-others vs service-to-self polarity, nor do they frame Orion as an interstellar empire; that framing emerges in 20th-century esoteric and channelled material. All clearly ancient references to Orion/Osiris are classified under astronomical_component 'A' because they treat Orion/Sah as an actual, visible constellation that the king joins to live eternally in the stars.",
+  "research_notes": "Under the v4.2 standard, each source is tied to a publisher-backed imprint (Loeb Classical Library / Harvard University Press; Oxford University Press; SBL Press; Tarcher/Penguin; L/L Research; Yogi Publication Society; Harrassowitz Verlag). Every source entry now includes `astronomical_component` and `component_reasoning`, which explicitly track whether the material is referring to a physical, visible constellation (`A`), a healing/frequency current (`H`), a portal/gateway (`G`), a controversial hidden body (`B`), or a system-level teaching lineage without naming an actual star (`unspecified`). Orion Light shows two primary threads: (1) High-consensus, high-ancient-support Osiris/Orion resurrection mythology, where the dead king rises into the physical Orion constellation and assumes eternal kingship (component 'A'); and (2) Initiatory wisdom lineages (Isis, Thoth-Hermes, Hermetic tradition) that frame Egyptian mystery schools as keepers of sacred law (component 'unspecified'). A later esoteric layer adds polarity language ('service-to-others' vs 'service-to-self') and attributes both benevolent and malevolent factions to 'Orion'; this is marked as `disputed: true` and categorized as 'unspecified' because it is not anchored to a specific mapped star within Orion. The Orion Correlation Theory (pyramids mirror Orion\u2019s Belt) is included with counter-evidence and flagged under `disputed_points` with `consensus: medium`. All translator names for ancient sources are explicitly provided, and non-academic or anonymous web-era sources have been excluded in accordance with 4.2 quality rules.",
   "bibliography": {
     "ancient_texts": [
       "The Ancient Egyptian Pyramid Texts. Faulkner, R. O. (translator). Oxford University Press, 1969. (Original Old Kingdom funerary corpus, ~2400 BCE).",
@@ -544,5 +530,32 @@
       "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine.",
       "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken Books (orig. lectures 1941)."
     ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Honorable trial and spiritual warrior initiation",
+      "Ascending through ordeal in service to a higher code",
+      "Mystery school preservation and sacred knowledge transmission",
+      "Ritual death-and-rebirth initiation that grants rightful leadership duty and moral authority",
+      "Embedding cosmic law and the initiation path into physical systems, oaths, or institutions so future generations stay aligned",
+      "Thoth-Hermes lineage as divine scribe and cosmic law transmitter",
+      "Record keeping and preservation of primordial knowledge"
+    ],
+    "shadow_themes": [
+      "Initiatory elitism and gatekeeping of sacred knowledge",
+      "Ordeal fetishization and unnecessary suffering",
+      "Spiritual pride in having 'passed the test'"
+    ],
+    "quick_rules": [
+      "If the behavior is honorable trial, spiritual/warrior initiation, ascending through ordeal in service to a higher code, mystery school transmission, sacred knowledge preservation, or earning rank through courage and integrity, that's Orion-Light.",
+      "If the behavior is empire management, coercive control structures, obedience enforcement, or psychological pressure at scale, that's Orion-Dark, not Orion-Light.",
+      "If the behavior is predator scanning and loyalty enforcement at the tribal level, that's Draco, not Orion-Light.",
+      "If the behavior is emotional co-regulation or caretaking, that's Pleiades, not Orion-Light.",
+      "If the behavior is frequency healing or vibrational uplift, that's Arcturus, not Orion-Light.",
+      "If the behavior is liberation teaching or spiritual instruction for freedom, that's Sirius, not Orion-Light (Sirius is about liberation, Orion-Light is about ordeal and mystery schools).",
+      "If the behavior is rescuing the captive, breaking chains of exploitation, or intervening against unjust domination, that's Andromeda, not Orion-Light (Andromeda breaks chains, Orion-Light tests worthiness through ordeal).",
+      "Orion-Light is about initiation through ordeal and sacred teaching, not about empire control, emotional bonding, or liberation struggles."
+    ],
+    "notes_for_alignment": "Score Orion-Light high (0.7\u20131.0) when the gate.line is about honorable trial, spiritual warrior initiation, ascending through ordeal in service to a higher code, mystery school preservation, sacred knowledge transmission, or earning rank through courage and integrity. Score Orion-Light shadow (0.4\u20130.6) when it's initiatory elitism, gatekeeping of sacred knowledge, ordeal fetishization, or spiritual pride in having 'passed the test'. Give Orion-Light ~0 when the behavior is empire management or coercive control (that's Orion-Dark), tribal predator scanning (that's Draco), emotional caretaking (that's Pleiades), frequency healing (that's Arcturus), or liberation teaching (that's Sirius\u2014Sirius liberates, Orion-Light initiates through ordeal), or direct intervention to free someone from captivity/exploitation (that's Andromeda\u2014Andromeda breaks chains, Orion-Light tests worthiness through ordeal)."
   }
 }

@@ -2,7 +2,8 @@
 
 > This pipeline generates `gateLine_star_map.json`, which links every Human Design gate.line to star system archetypes with weights and behavioral rationale. The output is used by the S³ app to score a user's chart into % alignment per star system.
 
-- [ ] 1. Create pipeline documentation
+- [x] 1. Create pipeline documentation
+
   - Create `tasks.md` at repository root with complete pipeline specification
   - Document data sources:
     - Gate line batches in `lore-research/research-outputs/gate-line-API-call/`
@@ -18,8 +19,8 @@
   - State that the pipeline produces a machine layer (`gateLine_star_map.json`) and preserves provenance in star-system baselines
   - _Requirements: 1.1, 1.2, 1.3, 1.4_
 
+- [x] 2. Generate `mapping_digest` for all star systems
 
-- [ ] 2. Generate `mapping_digest` for all star systems
   - Load and parse all 8 star system baseline JSONs
   - Files:
     - andromeda-baseline-4.2.json
@@ -56,6 +57,7 @@
   - _Requirements: 2.1, 2.3, 7.1, 7.3, 7.4_
 
 - [ ] 3. Generate per-batch mapping files
+
   - Create `star-mapping-drafts` directory
   - Ensure `lore-research/research-outputs/star-mapping-drafts/` exists
   - _Requirements: 3.1_
@@ -104,6 +106,7 @@
   - _Requirements: 3.2, 3.7_
 
 - [ ] 4. Merge per-batch files into canonical lookup
+
   - Load all 56 per-batch mapping files
   - Extract `<system-name>` from filename
   - Parse JSON into memory
@@ -128,11 +131,26 @@
         "source_star_system_version": "4.2"
       },
       "19.1": [
-        { "star_system": "Pleiades", "weight": 0.95, "alignment_type": "core", "why": "..." },
-        { "star_system": "Arcturus", "weight": 0.30, "alignment_type": "core", "why": "..." }
+        {
+          "star_system": "Pleiades",
+          "weight": 0.95,
+          "alignment_type": "core",
+          "why": "..."
+        },
+        {
+          "star_system": "Arcturus",
+          "weight": 0.3,
+          "alignment_type": "core",
+          "why": "..."
+        }
       ],
       "44.4": [
-        { "star_system": "Draco", "weight": 0.85, "alignment_type": "core", "why": "..." }
+        {
+          "star_system": "Draco",
+          "weight": 0.85,
+          "alignment_type": "core",
+          "why": "..."
+        }
       ]
     }
     ```
@@ -151,6 +169,7 @@
   - _Requirements: 4.1, 4.5, plus `_meta` constraint_
 
 - [ ] 5. Run QC validation
+
   - Coverage check
   - Count expected gate.lines: 64 gates × 6 lines = 384 total
   - Verify every gate.line from gate-line-1.json … gate-line-7.json appears in `gateLine_star_map.json`
@@ -200,7 +219,7 @@
 
 - mapping_digest injected into all star systems: ✘
 - per-batch mapping drafts (8×7 = 56 files) generated: ✘
-- gateLine_star_map.json created with _meta: ✘
+- gateLine_star_map.json created with \_meta: ✘
 - QC coverage / consistency / sanity complete: ✘
 - Ready for runtime use in S³ app: ✘
 - Timestamp (UTC): [to be filled]

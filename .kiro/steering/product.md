@@ -47,7 +47,7 @@ Star System Sorter is built on 862-1,656 hours of rigorous academic research (5-
 - All 384 Gate.Line combinations researched individually (not algorithmically generated)
 
 **Research Scope:**
-- 9 star system baselines (30-45 hours)
+- 8 star system baselines (30-45 hours)
 - 64 gates × 3 research passes (136-272 hours)
 - 6 line archetypes (15 hours)
 - 384 Gate.Line combinations - exhaustive I Ching line text research (600-1,199 hours)
@@ -66,7 +66,7 @@ Star System Sorter is built on 862-1,656 hours of rigorous academic research (5-
 
 ## Star Systems
 
-Nine possible classifications: **Pleiades**, **Sirius**, **Lyra**, **Andromeda**, **Orion Light**, **Orion Dark**, **Arcturus**, **Draco**, **Zeta Reticuli**
+Eight possible classifications: **Pleiades**, **Sirius**, **Lyra**, **Andromeda**, **Orion Light**, **Orion Dark**, **Arcturus**, **Draco**
 
 ### Orion Faction Distinction
 The Orion star system has two distinct factions that are classified separately:
@@ -75,7 +75,6 @@ The Orion star system has two distinct factions that are classified separately:
 
 ### Other Key Distinctions
 - **Draco**: Separate star system from Orion, power/hierarchy archetype, often allied with Orion Dark faction
-- **Zeta Reticuli**: Analytical, detached, genetic experimenters
 
 Classifications can be:
 - **Primary**: Clear winner (>6% lead)

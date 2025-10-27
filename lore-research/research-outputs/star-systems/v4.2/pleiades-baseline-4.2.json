@@ -5,12 +5,12 @@
   "methodology": {
     "framework": "Comparative mythology + I Ching-based Human Design system",
     "academic_foundations": [
-      "I Ching (64 hexagrams → 64 Human Design gates)",
-      "Cross-cultural star mythology (Greek, Māori, Aboriginal Australian, Japanese, Hindu)",
+      "I Ching (64 hexagrams \u2192 64 Human Design gates)",
+      "Cross-cultural star mythology (Greek, M\u0101ori, Aboriginal Australian, Japanese, Hindu)",
       "Jungian archetypal psychology",
       "Comparative religious studies"
     ],
-    "source_standards": "Only publisher-backed sources with ISBN or known imprint; university press astronomy / anthropology sources; peer-reviewed journals; ancient texts with a named translator and known publisher imprint. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include astronomical_component and component_reasoning. Astronomical component codes: 'A' = visible star cluster / calendrical marker / physically observable stellar object; 'B' = hidden or controversial companion / secret star claims; 'G' = gateway or portal function; 'H' = healing/frequency or vibrational assistance role; 'unspecified' = system-level or collective reference without distinguishing components. Locked citations provide a ≤25-word direct quote plus locator (page / line). Provisional citations provide location_hint + summary when a direct quote is not supplied or not safely attributable to a publisher-backed edition. You MUST still generate JSON even if many sources are provisional.",
+    "source_standards": "Only publisher-backed sources with ISBN or known imprint; university press astronomy / anthropology sources; peer-reviewed journals; ancient texts with a named translator and known publisher imprint. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include astronomical_component and component_reasoning. Astronomical component codes: 'A' = visible star cluster / calendrical marker / physically observable stellar object; 'B' = hidden or controversial companion / secret star claims; 'G' = gateway or portal function; 'H' = healing/frequency or vibrational assistance role; 'unspecified' = system-level or collective reference without distinguishing components. Locked citations provide a \u226425-word direct quote plus locator (page / line). Provisional citations provide location_hint + summary when a direct quote is not supplied or not safely attributable to a publisher-backed edition. You MUST still generate JSON even if many sources are provisional.",
     "research_date": "2025-10-27"
   },
   "academic_context": {
@@ -81,7 +81,7 @@
           "isbn": "9781876756451",
           "source_type": "research",
           "citation_status": "provisional",
-          "location_hint": "Multiple chapters surveying Greek, Aboriginal Australian, Cherokee, Māori, and other traditions",
+          "location_hint": "Multiple chapters surveying Greek, Aboriginal Australian, Cherokee, M\u0101ori, and other traditions",
           "summary": "Synthesizes cross-cultural motifs in which the Pleiades are remembered as a council of ancestral sisters who watch over, nurture, warn, or protect humankind.",
           "astronomical_component": "A",
           "component_reasoning": "Treats the Pleiades as a naked-eye stellar cluster recognized globally and mythologized as a protective sisterhood."
@@ -125,8 +125,8 @@
           "isbn": "9781775503255",
           "source_type": "research",
           "citation_status": "provisional",
-          "location_hint": "Chapters on Māori New Year and planting customs",
-          "summary": "Documents Matariki (the Pleiades) as the marker of the Māori New Year and as a seasonal/planting signal in Indigenous Māori astronomy and agriculture.",
+          "location_hint": "Chapters on M\u0101ori New Year and planting customs",
+          "summary": "Documents Matariki (the Pleiades) as the marker of the M\u0101ori New Year and as a seasonal/planting signal in Indigenous M\u0101ori astronomy and agriculture.",
           "astronomical_component": "A",
           "component_reasoning": "Treats the Pleiades as a naked-eye cluster whose heliacal reappearance starts the seasonal year and informs planting cycles."
         },
@@ -482,17 +482,17 @@
       "consensus": "low"
     }
   ],
-  "ancient_references": "In archaic Greek sources (Hesiod, Works and Days) the Pleiades are agricultural beacons: when they rise you harvest, when they set you plough. They are explicitly called the daughters of Atlas, i.e. a recognizable band of divine sisters. Classical mythographers (Apollodorus) repeat that the Pleiades are seven daughters of Atlas and Pleione, companions of Artemis, later placed in the sky to escape Orion. Early Indian epic material (Mahabharata, Ganguli translation of Vana Parva 228) records the Krittikas (the Pleiades) acting as foster-mothers who nurse and raise Kartikeya/Skanda. Māori astronomy (Matamua, 2017) records Matariki (the Pleiades) as the seasonal New Year marker. Early Japanese sources preserved in Harima Fudoki (8th century CE, Palmer 2016 Brill edition) and later scholarship treat Subaru (the Pleiades) as a symbol of gathered unity. All of these refer to the naked-eye cluster (astronomical_component 'A'), not to off-world healers or portals.",
+  "ancient_references": "In archaic Greek sources (Hesiod, Works and Days) the Pleiades are agricultural beacons: when they rise you harvest, when they set you plough. They are explicitly called the daughters of Atlas, i.e. a recognizable band of divine sisters. Classical mythographers (Apollodorus) repeat that the Pleiades are seven daughters of Atlas and Pleione, companions of Artemis, later placed in the sky to escape Orion. Early Indian epic material (Mahabharata, Ganguli translation of Vana Parva 228) records the Krittikas (the Pleiades) acting as foster-mothers who nurse and raise Kartikeya/Skanda. M\u0101ori astronomy (Matamua, 2017) records Matariki (the Pleiades) as the seasonal New Year marker. Early Japanese sources preserved in Harima Fudoki (8th century CE, Palmer 2016 Brill edition) and later scholarship treat Subaru (the Pleiades) as a symbol of gathered unity. All of these refer to the naked-eye cluster (astronomical_component 'A'), not to off-world healers or portals.",
   "research_notes": "Under the v4.2 standard, all sources are required to be tied to a publisher-backed imprint, academic press, peer-reviewed venue, or an ancient text with a named translator and identifiable publisher. Each source now carries (1) astronomical_component and (2) component_reasoning so we can trace whether it is talking about the physically observable cluster ('A'), a healing/frequency collective ('H'), a gateway/portal ('G'), a hidden/controversial companion ('B'), or an unspecified system-level council ('unspecified'). For the Pleiades, two major thematic clusters emerge: (A) extremely high ancient consensus that the Pleiades are a visible group of sister-stars tied to agriculture, seasonal timing, kinship, maternal protection, unity, and escape from predatory pursuit; and (H) late-20th-century channelled material (Marciniak 1992, Hand Clow 1995, Quan Yin 1995) that reframes the Pleiades as a compassionate healing council guiding human emotional evolution. The (H) material is explicitly contested by mainstream astrophysics, which treats the Pleiades as a young open star cluster ~100 million years old at ~440+ light-years distance with no evidence of sentient intervention. This file removes low-provenance or non-imprint sources, assigns polarity per trait (light / neutral / dark), and encodes consensus_level and ancient_support for downstream synthesis.",
   "bibliography": {
     "ancient_texts": [
       "Hesiod. Works and Days. Translated by Hugh G. Evelyn-White. Loeb Classical Library. Harvard University Press, 1914. (Original ~7th century BCE). Agricultural timing via Pleiades heliacal rising.",
       "Apollodorus. The Library. Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921. (Original ~2nd century BCE). Pleiades as daughters of Atlas, companions of Artemis.",
-      "Vyasa (attributed). The Mahabharata. Translated by Kisari Mohan Ganguli. P. C. Roy, Calcutta, 1883–1896. (Epic layers ~4th century BCE and later). Krittikas/Pleiades as foster-mothers of Kartikeya.",
+      "Vyasa (attributed). The Mahabharata. Translated by Kisari Mohan Ganguli. P. C. Roy, Calcutta, 1883\u20131896. (Epic layers ~4th century BCE and later). Krittikas/Pleiades as foster-mothers of Kartikeya.",
       "Harima Fudoki (Province Records, 8th century CE). Translated by Edwina Palmer. Brill, 2016. (Original 714 CE). Pleiades/Subaru as symbol of gathered unity and social cohesion."
     ],
     "modern_research": [
-      "Matamua, Rangi. Matariki: The Star of the Year. Huia Publishers, 2017. ISBN 9781775503255. Māori astronomy and seasonal New Year timing tied to Matariki (Pleiades).",
+      "Matamua, Rangi. Matariki: The Star of the Year. Huia Publishers, 2017. ISBN 9781775503255. M\u0101ori astronomy and seasonal New Year timing tied to Matariki (Pleiades).",
       "Andrews, Munya. The Seven Sisters of the Pleiades: Stories from Around the World. Spinifex Press, 2004. ISBN 9781876756451. Cross-cultural synthesis of Seven Sisters myths.",
       "Condos, Theony. Star Myths of the Greeks and Romans: A Sourcebook. Phanes Press, 1997. ISBN 9781890482930. Classical constellation narratives including the Pleiades and Orion.",
       "Norris, Ray P. & Norris, Barnaby R. M. \"Why Are There Seven Sisters?\" In Advancing Cultural Astronomy: Studies in Honour of Clive Ruggles. Springer, 2021. Comparative analysis of global Seven Sisters / Orion pursuit motifs.",
@@ -508,5 +508,32 @@
       "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure.",
       "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Foundational academic study of Kabbalah."
     ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Emotional co-regulation and nervous system soothing",
+      "Caretaking and feeding/nurturing behavior",
+      "Bonding panic and need-sensitivity",
+      "Maternal protection and keeping everyone alive",
+      "Compassion training and emotional healing",
+      "Collective nurturing and sisterhood unity",
+      "Stewarding seasonal cycles of care and making sure the group has what it needs to survive and recover together"
+    ],
+    "shadow_themes": [
+      "Caretaking panic and anxious attachment",
+      "Emotional enmeshment and boundary dissolution",
+      "Martyrdom through over-giving",
+      "Crisis-for-attachment and emotional escalation as bonding strategy"
+    ],
+    "quick_rules": [
+      "If the behavior is emotional co-regulation, nervous system soothing, caretaking panic, feeding/nurturing, or keeping everyone alive through bonding, that's Pleiades.",
+      "If the behavior is predator scanning, hierarchical enforcement, loyalty control, or survival through dominance, that's Draco, not Pleiades.",
+      "If the behavior is spiritual initiation through ordeal or sacred instruction, that's Sirius or Orion-Light, not Pleiades.",
+      "If the behavior is frequency healing or vibrational recalibration, that's Arcturus, not Pleiades.",
+      "If the behavior is empire management or coercive control, that's Orion-Dark, not Pleiades.",
+      "If the behavior is liberation from captivity or anti-domination intervention, that's Andromeda, not Pleiades.",
+      "Pleiades is about emotional safety and nurturing, not about power hierarchies, spiritual ordeals, frequency work, or liberation struggles."
+    ],
+    "notes_for_alignment": "Score Pleiades high (0.7\u20131.0) when the gate.line is about keeping others emotionally safe, feeding/protecting the group, tending to need, calming nervous systems, or maternal bonding to ensure survival. Score Pleiades shadow (0.4\u20130.6) when it's anxious caretaking, guilt-binding love, emotional enmeshment, or escalating emotional crisis to hold closeness. Give Pleiades ~0 when the behavior is enforcement, loyalty testing, rank control, or domination through fear (that's Draco/Orion-Dark), hierarchical initiation or sacred trial (that's Sirius/Orion-Light), frequency calibration (that's Arcturus), or liberation from captivity (that's Andromeda)."
   }
 }

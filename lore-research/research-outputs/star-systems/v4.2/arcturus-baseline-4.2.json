@@ -2,7 +2,6 @@
   "star_system": "Arcturus",
   "version": "4.2",
   "last_updated": "2025-10-25",
-
   "methodology": {
     "framework": "Comparative mythology + Human Design (I Ching-derived) + channeled cosmology cross-referenced with historical/astronomical material",
     "academic_foundations": [
@@ -15,7 +14,6 @@
     "source_standards": "Only publisher-backed sources with ISBN or stable imprint (e.g., A.R.E. Press / Edgar Cayce Foundation, Cambridge University Press, Penguin Classics, W. W. Norton), peer-reviewed/academic astronomy texts, and ancient texts with a named human translator and known publisher. Blogs, personal domains, spiritual-school marketing pages, Goodreads listings, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include `astronomical_component` and `component_reasoning`. Every source MUST include: publisher/imprint, year, original_year, source_type, citation_status, and either (page + short quote) for locked OR (location_hint + summary) for provisional. `isbn` may be null for journals/archival cases. You MUST still output JSON even if many sources are provisional.",
     "research_date": "2025-10-25"
   },
-
   "academic_context": {
     "human_design_foundations": [
       "I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
@@ -29,12 +27,11 @@
       "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
     ]
   },
-
   "characteristics": [
     {
       "trait": "Arcturus as a soul-gate / transit node for consciousness between incarnations",
       "consensus_level": "medium",
-      "ancient_support": "unknown",
+      "ancient_support": "none",
       "evidence_type": "direct",
       "disputed": true,
       "polarity": "neutral",
@@ -92,11 +89,10 @@
         }
       ]
     },
-
     {
       "trait": "Arcturian civilization as a healer collective using light, frequency, and consciousness recalibration",
       "consensus_level": "medium",
-      "ancient_support": "unknown",
+      "ancient_support": "none",
       "evidence_type": "direct",
       "disputed": false,
       "polarity": "light",
@@ -137,11 +133,10 @@
         }
       ]
     },
-
     {
       "trait": "Arcturus in ancient and classical material as a visible navigation/seasonal star, not a guardian civilization",
       "consensus_level": "high",
-      "ancient_support": "low",
+      "ancient_support": "high",
       "evidence_type": "direct",
       "disputed": false,
       "polarity": "neutral",
@@ -200,7 +195,6 @@
       ]
     }
   ],
-
   "disputed_points": [
     {
       "claim": "Arcturus functions as an interdimensional gateway that human souls pass through between incarnations, where councils assist in choosing the next evolutionary path.",
@@ -262,11 +256,8 @@
       "consensus": "low"
     }
   ],
-
   "ancient_references": "Classical and biblical-era materials (Homer's Odyssey navigation instructions via Boötes/'Bear Guard', and Job 38:32 references to the Bear / Ayish) treat Arcturus as a bright seasonal/navigation star in the Boötes/Ursa Major region. These sources do NOT describe Arcturus as a healing civilization, council, or incarnational checkpoint. The framing of Arcturus as a sentient healer collective or interdimensional transit node emerges primarily in 20th-century and later channeled material with publisher imprint (e.g., Edgar Cayce 1941 readings republished by A.R.E. Press; Milanovich 1990; Kenyon & Sion 2014).",
-
   "research_notes": "v4.2 enforcement notes: (1) Each source includes publisher/imprint, year, original_year, `source_type`, `citation_status`, and `astronomical_component` with `component_reasoning`. (2) 'locked' = ≤25-word direct quote + locator like 'Reading 5749-14'. 'provisional' = location_hint + summary when we cannot reproduce the exact text. (3) Translator names and publishers are provided for ancient/classical sources (Fagles for Homer, Alter for Job). (4) Arcturus-as-gateway and Arcturian healer collectives are retained as cultural/spiritual claims from channeled sources and marked with `G` (gateway/transit) or `H` (healing/frequency). (5) Physical astronomy sources (Kaler, Cambridge University Press) are included to represent counter-evidence and are tagged `astronomical_component: 'A'`, clarifying that mainstream astrophysics describes Arcturus as a normal K-type red giant, not a portal. (6) No blogs, personal domains, Goodreads pages, Wikipedia, or spiritual-school marketing pages are included as sources.",
-
   "bibliography": {
     "ancient_texts": [
       "Homer. The Odyssey. Translator: Robert Fagles (1996 original ed. Viking; 2006 Penguin Classics reprint, ISBN 9780143039952). Uses Boötes / 'Bear Guard' (Arcturus region) for navigation.",
@@ -289,5 +280,32 @@
       "Feuerstein, Georg (1998). The Yoga Tradition.",
       "Tarnas, Richard (2006). Cosmos and Psyche."
     ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Frequency calibration and vibrational healing",
+      "Energetic recalibration and consciousness uplift",
+      "Soul transit gateway and incarnational checkpoint",
+      "Light and sound healing modalities",
+      "Dimensional ascension assistance and frequency medicine",
+      "Emotional and spiritual field clearing"
+    ],
+    "shadow_themes": [
+      "Spiritual bypassing through frequency work without integration",
+      "Detachment from embodied experience in favor of 'higher vibrations'",
+      "Elitism around vibrational purity"
+    ],
+    "quick_rules": [
+      "If the behavior is about frequency tuning, vibrational recalibration, energetic healing chambers, dimensional ascension support, clearing distortion, or clinical/technical repair of the field, that's Arcturus.",
+      "If the behavior is emotional co-regulation, nervous system soothing, feeding/nurturing, or 'I will hold you so you feel safe,' that's Pleiades, not Arcturus. Pleiades heals through comfort and bonding; Arcturus heals through frequency engineering.",
+      "If the behavior is predator scanning, loyalty enforcement, territorial defense, resource/energy hoarding, or survival through dominance hierarchy, that's Draco, not Arcturus. Draco protects by controlling access; Arcturus heals by recalibrating.",
+      "If the behavior is honorable trial, warrior initiation, rank earned through ordeal, or passing tests under a sacred code, that's Orion-Light, not Arcturus.",
+      "If the behavior is liberation teaching — freeing captives, dissolving domination structures, invoking sacred law that says 'you are not property' — that's Sirius, not Arcturus.",
+      "If the behavior is breaking chains, overthrowing captors, insisting on absolute freedom and 'no one owns me/us,' that's Andromeda, not Arcturus. Andromeda is liberation impulse; Arcturus is post-liberation healing/calibration.",
+      "If the behavior is aesthetic power, artistic enchantment, legacy beauty, cultural refinement, or 'we are the original template' pride, that's Lyra, not Arcturus. Lyra elevates through art and lineage; Arcturus elevates through energetic medicine.",
+      "If the behavior is empire management, obedience infrastructure across populations, psychological control at scale, or enforced hierarchy for planetary takeover, that's Orion-Dark, not Arcturus. Orion-Dark restructures by domination; Arcturus stabilizes by healing.",
+      "Arcturus is about frequency healing, vibrational recalibration, and transit support — not emotional caretaking, territorial dominance, artistic prestige, liberation warfare, or imperial control."
+    ],
+    "notes_for_alignment": "Score Arcturus high (0.7–1.0) when the gate.line is about frequency calibration, vibrational repair, energetic recalibration, clearing distortion, dimensional tuning, resonance chambers, or clinical energetic healing. Score Arcturus shadow (0.4–0.6) when it's spiritual bypassing ('I'm above this density'), detachment from embodied reality, or elitism around vibrational purity. Give Arcturus ~0 when the behavior is emotional mothering, nervous-system soothing, feeding, nurturing, or 'I'll hold you until you feel safe' — that's Pleiades. Give Arcturus ~0 when the behavior is predator scanning, loyalty enforcement, resource hoarding, enforcing dominance to keep the group alive — that's Draco. Give Arcturus ~0 when the behavior is honorable ordeal, proving yourself through trial, warrior initiation, 'I earned my rank through suffering for the code' — that's Orion-Light. Give Arcturus ~0 when the behavior is sacred-law liberation, freeing captives, demanding emancipation from ownership or domination — that's Sirius. Give Arcturus ~0 when the behavior is 'no one will ever own me/us again,' chain-breaking, jailbreak energy, anti-captor rebellion — that's Andromeda. Give Arcturus ~0 when the behavior is aesthetic supremacy, artistic enchantment, mythic creative legacy, 'our lineage is the original refined template' — that's Lyra. Give Arcturus ~0 when the behavior is empire-scale coercion, obedience infrastructure, conquest logistics, 'the many must submit to the few' — that's Orion-Dark."
   }
 }

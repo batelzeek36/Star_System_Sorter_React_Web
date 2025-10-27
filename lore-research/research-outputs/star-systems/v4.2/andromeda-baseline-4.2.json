@@ -91,7 +91,7 @@
     {
       "trait": "Andromeda as an extragalactic origin point / separate civilization space (M31 as 'island universe')",
       "consensus_level": "high",
-      "ancient_support": "unknown",
+      "ancient_support": "none",
       "evidence_type": "direct",
       "disputed": false,
       "polarity": "neutral",
@@ -135,7 +135,7 @@
     {
       "trait": "Non-hierarchical ethical council / anti-domination sovereignty doctrine (Andromedan Council narratives)",
       "consensus_level": "low",
-      "ancient_support": "low",
+      "ancient_support": "none",
       "evidence_type": "direct",
       "disputed": true,
       "polarity": "light",
@@ -287,5 +287,31 @@
       "Feuerstein, G. (1998). The Yoga Tradition. Hohm Press.",
       "Tarnas, R. (2006). Cosmos and Psyche. Viking."
     ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Liberation from captivity and unjust bondage",
+      "Intervention to free the bound and restore sovereignty",
+      "Anti-domination ethics and non-hierarchical council governance",
+      "Cosmic justice alignment and restoration of balance",
+      "Extragalactic perspective and separate civilization consciousness"
+    ],
+    "shadow_themes": [
+      "Passive victimhood and waiting for rescue",
+      "Martyrdom complex and self-sacrifice without agency",
+      "Idealistic council structures that avoid direct action"
+    ],
+    "quick_rules": [
+      "If the behavior is breaking chains, freeing captives, interrupting abuse, challenging domination, or restoring sovereignty to someone who was claimed/owned, that's Andromeda.",
+      "If the behavior is predator scanning, loyalty enforcement, territorial control, or survival-through-dominance inside a threatened group, that's Draco, not Andromeda. Draco protects by controlling access; Andromeda liberates by removing the captor.",
+      "If the behavior is empire management, obedience infrastructure, psychological pressure at scale, or 'the many must submit to the few,' that's Orion-Dark, not Andromeda. Orion-Dark builds domination systems; Andromeda dismantles them.",
+      "If the behavior is emotional co-regulation, nervous system soothing, feeding, tending, holding someone until they feel safe, that's Pleiades, not Andromeda. Pleiades heals through nurture; Andromeda rescues through intervention.",
+      "If the behavior is clinical/vibrational healing, frequency calibration, energetic repair, clearing trauma residue after harm, or running people through light/sound chambers, that's Arcturus, not Andromeda. Arcturus is post-liberation stabilization.",
+      "If the behavior is honorable ordeal, spiritual trial, warrior initiation, rank earned through suffering for a sacred code, that's Orion-Light, not Andromeda.",
+      "If the behavior is sacred-law liberation from ownership ('you are not property under cosmic law') and proclamation of inherent freedom as a teaching, that's Sirius, not Andromeda. Sirius is liberation doctrine; Andromeda is physical/structural rescue.",
+      "If the behavior is aesthetic legacy, mythic artistry, immortalizing beauty, cultural refinement, or 'our lineage is the original creative template,' that's Lyra, not Andromeda. Lyra elevates through art and mythic prestige; Andromeda intervenes against captivity.",
+      "Andromeda is about anti-domination action and sovereignty restoration, not territorial dominance, emotional caretaking, vibrational medicine, aesthetic immortality, ordeal-initiation, or empire control."
+    ],
+    "notes_for_alignment": "Score Andromeda high (0.7–1.0) when the gate.line is about liberating the captive, disrupting an abuser/controller, restoring sovereignty to someone treated as property, or openly defying unjust hierarchy/power capture. Score Andromeda shadow (0.4–0.6) when it slips into martyr fantasy ('I'm the sacrifice'), helpless damsel expectation ('someone will save me because I'm pure'), or purely performative council rhetoric ('we condemn domination' with no action). Give Andromeda ~0 when the behavior is predator scanning, loyalty enforcement, resource hoarding, 'obey or get exiled' (Draco), empire-scale obedience engineering or planetary takeover (Orion-Dark), emotional mothering / nervous-system soothing / feeding (Pleiades), frequency medicine, vibrational recalibration, trauma field repair after the rescue (Arcturus), warrior ordeal / rank earned through trials (Orion-Light), proclamation of cosmic law that nullifies ownership, 'you are not property in the eyes of Source' (Sirius), or immortalizing beauty, mythic art, aesthetic superiority or 'we are the original lineage' (Lyra)."
   }
 }
