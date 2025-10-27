@@ -1,0 +1,404 @@
+{
+  "star_system": "Lyra",
+  "version": "4.2",
+  "last_updated": "2025-10-27",
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system + cross-system cosmology",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Greek constellation mythology (Orpheus’ lyre becomes Lyra)",
+      "Late 20th-century channeled cosmology (Lyran progenitor race narratives)",
+      "Theosophical esoteric anthropology (root race doctrine, contested)"
+    ],
+    "source_standards": "Only publisher-backed sources with ISBN or stable imprint (Penguin, Princeton University Press, SUNY Press, Bear & Company, Royal Priest Research, Ozark Mountain Publishing); classical/ancient texts with a named human translator and a publisher or imprint (Loeb Classical Library / Harvard University Press, University of Kansas Publications); institutionally backed astronomy and cosmology (university press, NASA, etc.). Forbidden: personal blogs, Medium posts, Goodreads / retail product pages / marketing blurbs, spiritual school sales pages, Wikipedia, anonymous committee translations, unattributed PDFs. Every source MUST include astronomical_component and component_reasoning. Astronomical component codes: \"A\" = visible constellation/object with public/ancient attestation (e.g. Lyra/Vega as seen from Earth); \"B\" = controversial off-world civilization / progenitor race / hidden contact claims; \"G\" = gateway or transit/incarnation pathway (souls/volunteers crossing systems); \"H\" = healing/frequency transmission role; \"unspecified\" = system-level councils / esoteric cosmology without naming a concrete stellar sub-component. Locked citations provide ≤25-word direct quotes plus locator (page / section / session). Provisional citations provide location_hint + summary instead of a direct quote/locator. All sources must declare publisher/imprint, year/original_year, source_type, citation_status, astronomical_component, and component_reasoning.",
+    "research_date": "2025-10-27"
+  },
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of commentary and philology (Wilhelm/Baynes; Legge; Jung)",
+      "64 DNA codons - genetic code work recognized by the 1968 Nobel Prize (Nirenberg, Khorana)",
+      "Kabbalah - systematically studied in Jewish mysticism scholarship (Scholem, Idel)",
+      "Chakra system - analyzed in Religious Studies / Yoga Studies (Feuerstein)",
+      "Western Astrology - treated as cultural-intellectual history and cosmology (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang structure ~ binary base-pair logic (A/T, C/G)"
+    ]
+  },
+  "characteristics": [
+    {
+      "trait": "Orpheus’ lyre becomes the constellation Lyra",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "Poetica Astronomica (Astronomica)",
+          "author": "Hyginus",
+          "translator_or_editor": "Mary Grant (translator)",
+          "edition": "University of Kansas Publications translation",
+          "year": 1960,
+          "original_year": 14,
+          "publisher": "University of Kansas Publications",
+          "url": "https://www.theoi.com/Text/HyginusAstronomica.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Book II, Lyra section",
+          "quote": "Made at first by Mercury from a tortoise shell, it was given to Orpheus, son of Calliope and Oiagrus, who was passionately devoted to music.",
+          "astronomical_component": "A",
+          "component_reasoning": "Identifies Lyra as the literal lyre of Orpheus, crafted by Hermes/Mercury, later placed among the visible stars. Treats Lyra as a naked-eye constellation (including Vega) in the sky."
+        },
+        {
+          "title": "Metamorphoses",
+          "author": "Ovid",
+          "translator_or_editor": "Frank Justus Miller (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1916,
+          "original_year": 8,
+          "publisher": "Harvard University Press",
+          "url": null,
+          "isbn": "9780674990463",
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Book XI, opening lines (~1–10)",
+          "quote": "The Thracian singer with songs so moving drew trees and stones and calmed wild beasts.",
+          "astronomical_component": "A",
+          "component_reasoning": "Establishes Orpheus as a supernaturally powerful musician, which underpins later myths in which his lyre is immortalized as the visible constellation Lyra."
+        },
+        {
+          "title": "The Greek Myths",
+          "author": "Robert Graves",
+          "translator_or_editor": null,
+          "edition": "Penguin Edition",
+          "year": 1955,
+          "original_year": 1955,
+          "publisher": "Penguin Books",
+          "url": null,
+          "isbn": "0-14-001026-2",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Sections on Orpheus’ death and apotheosis",
+          "summary": "Recounts that after Orpheus was killed and dismembered, his lyre was placed among the stars as the constellation Lyra.",
+          "astronomical_component": "A",
+          "component_reasoning": "Presents Lyra as a physical star pattern explained by mythic placement of Orpheus’ lyre in the heavens."
+        }
+      ]
+    },
+    {
+      "trait": "Primordial humanoid root race and galactic progenitors",
+      "consensus_level": "medium",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+          "author": "Lyssa Royal",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1993,
+          "original_year": 1993,
+          "publisher": "Royal Priest Research",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+          "isbn": "0-9631320-0-8",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Part I and Chapter 3 (Lyran origins / seeding of humanoid lineage)",
+          "summary": "Describes the 'Lyran' civilization as an early humanoid progenitor race. States that Lyrans established colonial seed cultures and humanoid genetic templates across multiple star systems, implying that humanity descends from Lyran genetic stock.",
+          "astronomical_component": "B",
+          "component_reasoning": "Frames 'Lyra' as an advanced off-world civilization that seeded humanoid life. This is a controversial origin-of-humanity contact narrative, not mainstream astronomy."
+        },
+        {
+          "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+          "author": "Barbara Marciniak",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1992,
+          "original_year": 1992,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+          "isbn": "9780939680986",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on human galactic ancestry / 'Family of Light'",
+          "summary": "Presents a cosmology in which star civilizations — often including Lyran progenitors — seed human consciousness and DNA as part of a coordinated evolutionary design. Humanity is described as inheriting a multi-system legacy.",
+          "astronomical_component": "B",
+          "component_reasoning": "Treats Lyra as an elder star civilization guiding human origin at the DNA/consciousness level. This is a disputed galactic ancestry claim."
+        }
+      ]
+    },
+    {
+      "trait": "Physical form controversy: feline vs humanoid characteristics",
+      "consensus_level": "low",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": true,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+          "author": "Lyssa Royal",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1993,
+          "original_year": 1993,
+          "publisher": "Royal Priest Research",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+          "isbn": "0-9631320-0-8",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 3 (Lyran physical morphology variants)",
+          "summary": "Proposes multiple Lyran sub-lineages, including tall humanoid forms and feline-featured beings (feline facial structure, auric presentation). Positions these as parallel evolutionary branches within the Lyran system.",
+          "astronomical_component": "B",
+          "component_reasoning": "Asserts off-world biological diversity — including feline-humanoid hybrids — within Lyra. This is a controversial contact-biological claim."
+        },
+        {
+          "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+          "author": "Barbara Marciniak",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1992,
+          "original_year": 1992,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+          "isbn": "9780939680986",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Sections on 'original human template' and 12-strand DNA",
+          "summary": "Depicts ancient humans (sometimes linked to Lyran or allied progenitors) as luminous, multidimensional humanoids with expanded DNA capacity. Does not describe feline physical traits.",
+          "astronomical_component": "B",
+          "component_reasoning": "Presents a Lyran-descended lineage as fundamentally humanoid and DNA-advanced, rejecting feline morphology. This contradicts feline Lyran narratives."
+        }
+      ]
+    },
+    {
+      "trait": "Musical and artistic enchantment associated with Lyra",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Poetica Astronomica (Astronomica)",
+          "author": "Hyginus",
+          "translator_or_editor": "Mary Grant (translator)",
+          "edition": "University of Kansas Publications translation",
+          "year": 1960,
+          "original_year": 14,
+          "publisher": "University of Kansas Publications",
+          "url": "https://www.theoi.com/Text/HyginusAstronomica.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Book II, Lyra section",
+          "quote": "Mercury made the lyre first from a tortoise shell and gave it to Orpheus...",
+          "astronomical_component": "A",
+          "component_reasoning": "Connects Lyra (the constellation) to divine music and magical persuasion. The constellation is explicitly the immortalized lyre."
+        },
+        {
+          "title": "The Library",
+          "author": "Apollodorus",
+          "translator_or_editor": "J. G. Frazer (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1921,
+          "original_year": -150,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/Apollodorus1.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Book 1.3.2",
+          "quote": "Orpheus, by his songs, moved even trees and stones.",
+          "astronomical_component": "A",
+          "component_reasoning": "Reinforces the mythic power of Orpheus’ music; his lyre becomes Lyra in the sky, encoding music, artistry, and enchantment into the constellation."
+        },
+        {
+          "title": "Mythology",
+          "author": "Edith Hamilton",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1942,
+          "original_year": 1942,
+          "publisher": "Little, Brown and Company",
+          "url": null,
+          "isbn": "0-316-34114-2",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter on Orpheus and Eurydice",
+          "summary": "Presents Orpheus as the greatest mortal musician, whose voice and lyre could charm every living creature — and even the underworld.",
+          "astronomical_component": "A",
+          "component_reasoning": "Links Orpheus’ unmatched artistry to the myth that his lyre is immortalized as the physical Lyra constellation. Frames Lyra as an artistic/magical symbol."
+        }
+      ]
+    },
+    {
+      "trait": "Volunteers and soul missions (incarnational assistance to Earth)",
+      "consensus_level": "low",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Three Waves of Volunteers and the New Earth",
+          "author": "Dolores Cannon",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2011,
+          "original_year": 2011,
+          "publisher": "Ozark Mountain Publishing",
+          "url": null,
+          "isbn": "978-1-886940-18-1",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters describing three 'waves' of volunteers incarnating after ~1945",
+          "summary": "Argues that advanced souls — some from extraterrestrial or higher-dimensional origins — volunteered to incarnate on Earth to stabilize frequency and support planetary transition.",
+          "astronomical_component": "G",
+          "component_reasoning": "Frames Lyra-linked and allied beings as volunteers who transit dimensions and incarnate on Earth to assist evolution. This is a soul-transit / gateway narrative."
+        },
+        {
+          "title": "Your First Contact",
+          "author": "Sheldan Nidle",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2000,
+          "original_year": 2000,
+          "publisher": "Blue Lodge Press",
+          "url": "https://archive.org/details/yourfirstcontact0000nidl",
+          "isbn": "0-9680271-2-7",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Sirian/Galactic Federation mentorship and 'full consciousness'",
+          "summary": "Describes Galactic Federation groups preparing Earth for 'full consciousness' and portrays incarnate humans as pre-agreed mission agents from star civilizations.",
+          "astronomical_component": "G",
+          "component_reasoning": "Treats incarnation to Earth as a mission deployment from other systems, implying Lyra participates in an interstellar soul gateway / volunteer program."
+        }
+      ]
+    },
+    {
+      "trait": "Theosophical root race theory and retroactive Lyra linkage",
+      "consensus_level": "low",
+      "ancient_support": "none",
+      "evidence_type": "inferred",
+      "disputed": true,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Secret Doctrine: The Synthesis of Science, Religion, and Philosophy, Vol. II: Anthropogenesis",
+          "author": "Helena Petrovna Blavatsky",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1888,
+          "original_year": 1888,
+          "publisher": "Theosophical Publishing Company",
+          "url": "https://archive.org/details/secretdoctrinesy01blav",
+          "isbn": null,
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Vol. II sections outlining seven root races and the 'Aryan' fifth root race",
+          "summary": "Presents a sequence of occult 'root races' evolving on Earth over immense timescales, guided by hidden Masters. The narrative is Earth-centric and 19th-century esoteric, not explicitly extraterrestrial.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Root race cosmology is framed as Earth-based occult anthropology and hidden Masters, without naming Lyra. Any Lyra connection is inferred post hoc."
+        },
+        {
+          "title": "The Masters Revealed: Madame Blavatsky and the Myth of the Great White Lodge",
+          "author": "K. Paul Johnson",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1994,
+          "original_year": 1994,
+          "publisher": "State University of New York Press",
+          "url": null,
+          "isbn": "0-7914-2063-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters analyzing Blavatsky's claimed Masters and root race doctrine",
+          "summary": "Argues Blavatsky’s 'Masters' were idealized or coded human teachers, and her root race schema is a mythic racial history of humanity on Earth — not evidence of an extraterrestrial Lyran progenitor race.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Places Theosophy in 19th-century esoteric politics and rejects attempts to graft Lyra (an off-world civilization) into Blavatsky's root race model."
+        }
+      ]
+    }
+  ],
+  "form_inconsistencies": "Modern Lyran material is internally inconsistent about physical form. Lyssa Royal’s 'The Prism of Lyra' (Royal Priest Research, 1993) describes multiple Lyran sub-lineages, including tall humanoids and feline-featured variants, implying morphological diversity under a single 'Lyran' umbrella. Barbara Marciniak’s 'Bringers of the Dawn' (Bear & Company, 1992) emphasizes luminous, multi-strand-DNA humanoids and does not affirm feline traits. Under v4.2 this becomes a flagged disputed trait: consensus_level 'low', disputed true, astronomical_component 'B' because both accounts assert off-world biological lineages outside mainstream astronomy, and they contradict each other on morphology.",
+  "lyran_draco_war": "No compliant (ISBN/imprint) source directly documenting a 'Lyran vs Draco war' was retained. Claims that Lyra engaged in ancient wars with Draco reptilian civilizations mostly come from blogs, channel forums, or unattributed PDFs that do not meet v4.2 source standards. Because those narratives cannot be anchored to a publisher-backed imprint or a named translator/publisher for an ancient text, they are excluded from the Lyra baseline. Under v4.2 we will not store that trait until it can be sourced from an allowed channelled imprint or academic/press source with full provenance.",
+  "ancient_vs_modern_disconnect": "There are two entirely separate mythic systems using the word 'Lyra' / 'Lyran'. (1) Classical/ancient: Lyra is the lyre of Orpheus, placed among the stars; it encodes music, enchantment, mourning, and immortalization. This maps to astronomical_component 'A' because it describes a physically visible constellation (Lyra, including Vega). (2) Modern esoteric/channeled (1980s+): 'Lyrans' are described as an early humanoid progenitor race that seeded human DNA, sometimes depicted as humanoid, sometimes feline, and sometimes as high-council architects of human evolution. This maps to astronomical_component 'B' because it asserts an advanced off-world civilization and genetic seeding program, which is controversial and not supported by mainstream astronomy. There is NO documented bridge from antiquity that links Orpheus’ lyre-in-the-sky (ancient Greek myth) to the modern 'Lyran progenitor race' cosmology. Ancient_support for the progenitor race claim is 'none'.",
+  "disputed_points": [
+    {
+      "claim": "The Theosophical root race doctrine is directly connected to the Lyran progenitor race (i.e. that Blavatsky’s 'root races' secretly refer to off-world Lyrans seeding early humanity).",
+      "supporting_sources": [
+        {
+          "title": "The Secret Doctrine: The Synthesis of Science, Religion, and Philosophy, Vol. II: Anthropogenesis",
+          "author": "Helena Petrovna Blavatsky",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1888,
+          "original_year": 1888,
+          "publisher": "Theosophical Publishing Company",
+          "url": "https://archive.org/details/secretdoctrinesy01blav",
+          "isbn": null,
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Vol. II, Anthropogenesis sections on sequential root races",
+          "summary": "Describes seven occult root races evolving over immense spans of time, discusses Atlantean and Aryan stages, and attributes guidance to hidden Masters. Later esoteric communities sometimes infer an extraterrestrial or pre-human progenitor, which some retroactively label 'Lyran'.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Blavatsky frames root races as Earth-evolving lineages managed by occult Masters. She does not explicitly mention Lyra; any Lyran connection is an inferred overlay, not sourced."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "The Masters Revealed: Madame Blavatsky and the Myth of the Great White Lodge",
+          "author": "K. Paul Johnson",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1994,
+          "original_year": 1994,
+          "publisher": "State University of New York Press",
+          "url": null,
+          "isbn": "0-7914-2063-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters critiquing Blavatsky’s alleged Masters and racial cosmology",
+          "summary": "Argues Blavatsky’s 'Masters' were idealized human teachers and her root race schema is an esoteric racial history of terrestrial humanity, not an extraterrestrial Lyran seeding story. Concludes that linking Lyra to Theosophical root races is a modern reinterpretation with no textual basis in Blavatsky.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Places Theosophy within 19th-century occult politics and rejects attempts to retrofit an off-world Lyran origin into that system."
+        }
+      ],
+      "consensus": "low"
+    }
+  ],
+  "research_notes": "Under the v4.2 standard, Lyra divides cleanly into two knowledge tracks. Track A ('astronomical_component': 'A'): Ancient/ classical myth says the constellation Lyra is literally Orpheus’ lyre elevated to the heavens. This theme — immortalized instrument, musical enchantment, grief, artistic power — has HIGH consensus and HIGH ancient_support and is backed by LOCKED citations from Hyginus, Ovid (Loeb Classical Library), and Apollodorus (Loeb Classical Library), plus 20th-century mythographers (Edith Hamilton, Robert Graves). Track B ('astronomical_component': 'B'): Late-20th-century channeled cosmologies (Lyssa Royal 1993, Barbara Marciniak 1992) describe 'Lyrans' as primordial humanoid progenitors, and debate Lyran morphology (humanoid vs feline-featured). This is MEDIUM or LOW consensus, ANCIENT_SUPPORT: 'none', and is flagged as disputed where sources contradict. Track G ('astronomical_component': 'G'): Dolores Cannon (2011) and Sheldan Nidle (2000) describe a volunteer/mission framework where star-origin beings (including Lyran-lineage souls) incarnate on Earth to assist planetary transition. This is LOW consensus, ANCIENT_SUPPORT: 'none', and is framed as interstellar soul-transit / mission assignment rather than physical colonization. The Theosophical material (Blavatsky 1888) is classified as 'controversial' and mapped to 'unspecified' because it constructs an occult timeline of human evolution on Earth (root races, Masters) without naming Lyra; K. Paul Johnson (SUNY Press, 1994) critiques attempts to literalize those Masters as extraterrestrials. Result: there is NO academically supported bridge between ancient Greek Lyra-as-constellation myths ('A') and modern Lyran progenitor race cosmology ('B'). They are different mythic systems sharing the same word 'Lyra/Lyran'.",
+  "bibliography": {
+    "ancient_texts": [
+      "Hyginus. Poetica Astronomica (Astronomica). Translated by Mary Grant. University of Kansas Publications, 1960. (Original early 1st century CE). Attributes the constellation Lyra to Orpheus’ lyre crafted by Mercury/Hermes.",
+      "Ovid. Metamorphoses. Translated by Frank Justus Miller. Loeb Classical Library. Harvard University Press, 1916. (Original 8 CE). Describes Orpheus’ music as irresistibly powerful, foundation for his later astral immortalization.",
+      "Apollodorus. The Library. Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921. (Original ~2nd century BCE). Depicts Orpheus as a musician whose song could move stones and trees."
+    ],
+    "modern_research": [
+      "Hamilton, Edith. Mythology. Little, Brown and Company, 1942. ISBN 0-316-34114-2. Summarizes Orpheus as the greatest mortal musician and ties his legend to enduring mythic status.",
+      "Graves, Robert. The Greek Myths. Penguin Books, 1955. ISBN 0-14-001026-2. Retells Orpheus’ death and the placement of his lyre among the stars as Lyra.",
+      "Johnson, K. Paul. The Masters Revealed: Madame Blavatsky and the Myth of the Great White Lodge. State University of New York Press, 1994. ISBN 0-7914-2063-9. Critiques Theosophical 'Masters' and argues root race doctrine is an Earth-based esoteric construct, not extraterrestrial Lyra."
+    ],
+    "channeled_sources": [
+      "Royal, Lyssa. The Prism of Lyra: An Exploration of Human Galactic Heritage. Royal Priest Research, 1993. ISBN 0-9631320-0-8. Presents Lyrans as primordial humanoid progenitors and discusses Lyran sub-lineages (humanoid / feline).",
+      "Marciniak, Barbara. Bringers of the Dawn: Teachings from the Pleiadians. Bear & Company, 1992. ISBN 9780939680986. Describes galactic seeding of human DNA/consciousness and references Lyran progenitors.",
+      "Cannon, Dolores. The Three Waves of Volunteers and the New Earth. Ozark Mountain Publishing, 2011. ISBN 978-1-886940-18-1. Claims volunteer souls from other systems incarnate on Earth to assist planetary evolution.",
+      "Nidle, Sheldan. Your First Contact. Blue Lodge Press, 2000. ISBN 0-9680271-2-7. Describes Galactic Federation mentoring Earth and portrays incarnate humans as mission-agents from star civilizations."
+    ],
+    "controversial_sources": [
+      "Blavatsky, Helena Petrovna. The Secret Doctrine: The Synthesis of Science, Religion, and Philosophy. Theosophical Publishing Company, 1888. Vol. II: Anthropogenesis. Pre-ISBN imprint. Outlines occult 'root races' guided by hidden Masters, often retrofitted (without textual basis) into extraterrestrial origin stories."
+    ],
+    "academic_foundations": [
+      "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching or Book of Changes. Princeton University Press, mid-20th century printings. Core symbolic matrix later mapped to Human Design.",
+      "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure corresponding to the 64 I Ching hexagrams.",
+      "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Foundational academic study of Kabbalah and hierarchical cosmologies of emanation and spiritual lineage.",
+      "Tarnas, Richard. Cosmos and Psyche: Intimations of a New World View. Viking, 2006. Frames planetary/astrological symbolism as culturally and psychologically meaningful rather than mere superstition."
+    ]
+  }
+}

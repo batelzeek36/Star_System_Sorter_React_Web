@@ -1,0 +1,548 @@
+{
+  "star_system": "Orion Light",
+  "version": "4.2",
+  "last_updated": "2025-10-27",
+
+  "methodology": {
+    "framework": "Comparative mythology + Human Design (I Ching-derived) + Egyptian/Hermetic mystery traditions + modern esoteric polarity framing",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Ancient Egyptian cosmology (Osiris-Orion-Sah as royal afterlife current)",
+      "Hermetic/Thoth lineage (scribal transmission of divine knowledge)",
+      "Mystery school initiation traditions (Egyptian, Greek, Rosicrucian, Hermetic)"
+    ],
+    "source_standards": "Only publisher-backed sources with ISBN or known scholarly imprint; peer-reviewed journals; Loeb Classical Library / university press / academic Egyptology sources; ancient texts with a named human translator and known publisher. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include `astronomical_component` and `component_reasoning`. Astronomical component codes: `A` = visible, physical constellation/star pattern (e.g. Orion/Sah as observed in the sky, pyramid alignments); `B` = hidden/controversial or secret companion bodies; `G` = gateway/portal or transit node; `H` = healing/frequency or vibrational uplift; `unspecified` = system-level metaphysical tradition or lineage without explicit stellar component. Locked citations provide a ≤25-word direct quote plus a locator (page, section, utterance, etc.). Provisional citations provide `location_hint` + `summary` when we cannot safely reproduce a short quote from a verifiable edition. Post-1967 sources should include ISBN where known; older or Loeb/public-domain sources may have `isbn: null`. You MUST still output JSON even if many sources are provisional.",
+    "research_date": "2025-10-27"
+  },
+
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of commentary and interpretation (Wilhelm/Baynes; Legge; Jung)",
+      "64 DNA codons - genetic code work recognized by the 1968 Nobel Prize (Nirenberg, Khorana)",
+      "Kabbalah - historically studied as a structured mystical system in Jewish thought (Scholem, Idel)",
+      "Chakra system - analyzed in Religious Studies / Yoga Studies (Feuerstein)",
+      "Western Astrology - treated as cultural-intellectual cosmology (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic mirrors binary genetic pairing (A/T, C/G)"
+    ]
+  },
+
+  "characteristics": [
+    {
+      "trait": "Orion-Osiris as spiritual rebirth and resurrection archetype",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Ancient Egyptian Pyramid Texts",
+          "author": "Ancient Egyptian",
+          "translator_or_editor": "R. O. Faulkner (translator)",
+          "edition": "Oxford University Press Edition",
+          "year": 1969,
+          "original_year": -2400,
+          "publisher": "Oxford University Press",
+          "url": "https://pyramidtextsonline.com/translation.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Utterance 442, §820-822",
+          "quote": "Behold, he has come as Orion, behold Osiris has come as Orion",
+          "astronomical_component": "A",
+          "component_reasoning": "Identifies the deceased king/Osiris with Orion as a visible constellation (Egyptian Sah), anchoring royal resurrection and ascent in the physical Orion star pattern."
+        },
+        {
+          "title": "The Ancient Egyptian Pyramid Texts",
+          "author": "Ancient Egyptian",
+          "translator_or_editor": "R. O. Faulkner (translator)",
+          "edition": "Oxford University Press Edition",
+          "year": 1969,
+          "original_year": -2400,
+          "publisher": "Oxford University Press",
+          "url": "https://pyramidtextsonline.com/translation.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Utterance 466, §882",
+          "quote": "O King, you are this great star, the companion of Orion, who traverses the sky with Orion",
+          "astronomical_component": "A",
+          "component_reasoning": "Equates the dead king with a star that travels alongside Orion, implying post-mortem stellar ascension and cosmic kingship."
+        },
+        {
+          "title": "Moralia, Volume V: Isis and Osiris",
+          "author": "Plutarch",
+          "translator_or_editor": "Frank Cole Babbitt (translator)",
+          "edition": "Loeb Classical Library L306",
+          "year": 1936,
+          "original_year": 100,
+          "publisher": "Harvard University Press / Loeb Classical Library",
+          "url": "https://archive.org/details/plutarch-isis-osiris-loeb",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Section 21",
+          "quote": "Osiris came to be regarded among them as being also in the earth and under the earth",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Describes Osiris as a death-rebirth god present in the underworld and in nature; reinforces Osiris as resurrecting life-force, which Egyptians equate with Orion-Sah in royal afterlife texts."
+        },
+        {
+          "title": "The Orion Mystery: Unlocking the Secrets of the Pyramids",
+          "author": "Robert Bauval",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1994,
+          "original_year": 1994,
+          "publisher": "Crown Publishers",
+          "url": null,
+          "isbn": "0517884542",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 7, discussion of Pyramid Texts and Orion-Osiris",
+          "summary": "Argues that Osiris is mythically mapped onto Orion, and that the pharaoh's resurrection path follows Orion's stars, making Orion-Osiris the core Egyptian rebirth current.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Orion's Belt and surrounding stars as a literal stellar template for Osirian rebirth and royal ascension."
+        }
+      ]
+    },
+
+    {
+      "trait": "Mystery school initiation and preservation of sacred teachings",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Secret Teachings of All Ages: An Encyclopedic Outline of Masonic, Hermetic, Qabbalistic and Rosicrucian Symbolical Philosophy",
+          "author": "Manly P. Hall",
+          "translator_or_editor": null,
+          "edition": "Reader's Edition",
+          "year": 2003,
+          "original_year": 1928,
+          "publisher": "Tarcher/Penguin",
+          "url": "https://www.prs.org/store/p2/The_Secret_Teachings_of_All_Ages",
+          "isbn": "1585422503",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter on Egyptian Mysteries; discussion of Osiris and Thoth",
+          "summary": "Presents Osiris and Thoth as central figures in Egyptian initiation systems, guardians of sacred rites, and transmitters of hidden knowledge to initiates.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Frames Osiris/Thoth as initiatory teachers and wisdom keepers, not as specific stars or constellations."
+        },
+        {
+          "title": "On the Mysteries of the Egyptians, Chaldeans, and Assyrians",
+          "author": "Iamblichus",
+          "translator_or_editor": "Thomas Taylor (translator)",
+          "edition": "Wizards Bookshelf Edition",
+          "year": 1997,
+          "original_year": 300,
+          "publisher": "Wizards Bookshelf",
+          "url": null,
+          "isbn": "091351070X",
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Sections describing Egyptian theurgy and priestly initiation",
+          "summary": "Claims Egyptian temple initiations use theurgy to unite the initiate with divine intelligences through ritual, implying priestly orders who keep cosmic knowledge.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Depicts Egyptian initiatory lineages as custodians of divine contact but does not name Orion or other stellar loci explicitly."
+        },
+        {
+          "title": "Metamorphoses (The Golden Ass)",
+          "author": "Apuleius",
+          "translator_or_editor": "J. Arthur Hanson (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1989,
+          "original_year": 170,
+          "publisher": "Harvard University Press / Loeb Classical Library",
+          "url": "https://www.poetryintranslation.com/PITBR/Latin/TheGoldenAssXI.php",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book XI, Isis initiation sequence",
+          "summary": "Describes the narrator's initiation into the mysteries of Isis, emphasizing secret rites, vows of silence, and transmission of salvific knowledge.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Associates Egyptian-Isis initiation with divine wisdom and salvation; does not tie that wisdom to a particular star geometry."
+        },
+        {
+          "title": "The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece",
+          "author": "Three Initiates",
+          "translator_or_editor": null,
+          "edition": "Yogi Publication Society Edition",
+          "year": 1908,
+          "original_year": 1908,
+          "publisher": "Yogi Publication Society",
+          "url": "https://sacred-texts.com/eso/kyb/kyb04.htm",
+          "isbn": null,
+          "source_type": "esoteric",
+          "citation_status": "locked",
+          "page": "Chapter II: The Seven Hermetic Principles",
+          "quote": "The Principles of Truth are Seven; he who knows these, understandingly, possesses the Magic Key.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Frames Hermetic knowledge as guarded initiatory truth; links Egyptian mystery lineage to cosmic law but does not name a specific stellar origin."
+        }
+      ]
+    },
+
+    {
+      "trait": "Sacred geometry and architectural stellar encoding",
+      "consensus_level": "medium",
+      "ancient_support": "medium",
+      "evidence_type": "inferred",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Orion Mystery: Unlocking the Secrets of the Pyramids",
+          "author": "Robert Bauval",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1994,
+          "original_year": 1994,
+          "publisher": "Crown Publishers",
+          "url": null,
+          "isbn": "0517884542",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters arguing Giza pyramid layout mirrors Orion's Belt",
+          "summary": "Proposes that the three main pyramids at Giza replicate the three stars of Orion’s Belt, encoding a star map and resurrection doctrine in architecture.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Orion’s Belt (visible asterism) as deliberately mapped onto pyramid placement; implies sacred geometry linking Earth structures to Orion."
+        },
+        {
+          "title": "Echoes of the Ancient Skies: The Astronomy of Lost Civilizations",
+          "author": "E. C. Krupp",
+          "translator_or_editor": null,
+          "edition": "Oxford University Press Edition",
+          "year": 1983,
+          "original_year": 1983,
+          "publisher": "Oxford University Press",
+          "url": null,
+          "isbn": "0195088018",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Egyptian astronomical alignments and sacred architecture",
+          "summary": "Explores how Egyptian temples and pyramids embed stellar alignments, including Orion-related orientations, as part of ritual and royal ideology.",
+          "astronomical_component": "A",
+          "component_reasoning": "Describes Orion and other constellations as physical sky markers intentionally echoed in monumental design."
+        },
+        {
+          "title": "The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece",
+          "author": "Three Initiates",
+          "translator_or_editor": null,
+          "edition": "Yogi Publication Society Edition",
+          "year": 1908,
+          "original_year": 1908,
+          "publisher": "Yogi Publication Society",
+          "url": "https://sacred-texts.com/eso/kyb/kyb03.htm",
+          "isbn": null,
+          "source_type": "esoteric",
+          "citation_status": "locked",
+          "page": "Chapter I: The Hermetic Philosophy",
+          "quote": "As above, so below; as below, so above.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "States a core Hermetic axiom that earthly forms mirror cosmic order; later writers apply this to pyramid/Orion correspondences, but the line itself does not name Orion."
+        }
+      ]
+    },
+
+    {
+      "trait": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Ancient Egyptian Book of Thoth: A Demotic Discourse on Knowledge",
+          "author": "Richard Jasnow and Karl-Theodor Zauzich (editors/translators)",
+          "translator_or_editor": "Richard Jasnow & Karl-Theodor Zauzich (translators)",
+          "edition": "First Edition",
+          "year": 2005,
+          "original_year": null,
+          "publisher": "Harrassowitz Verlag",
+          "url": null,
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Demotic discourse sections on Thoth instructing a disciple",
+          "summary": "Thoth is portrayed as the divine teacher and revealer of knowledge, instructing the disciple in sacred speech, cosmology, and ritual power.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Positions Thoth/Hermes as a transmitter of wisdom rather than linking him to a specific stellar origin."
+        },
+        {
+          "title": "The Secret Teachings of All Ages",
+          "author": "Manly P. Hall",
+          "translator_or_editor": null,
+          "edition": "Reader's Edition",
+          "year": 2003,
+          "original_year": 1928,
+          "publisher": "Tarcher/Penguin",
+          "url": "https://www.prs.org/store/p2/The_Secret_Teachings_of_All_Ages",
+          "isbn": "1585422503",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 'The Life and Teachings of Thoth Hermes Trismegistus'",
+          "summary": "Presents Thoth-Hermes as founder of wisdom schools, scribe of the gods, and keeper of cosmic law entrusted to initiates.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Frames Thoth-Hermes as a primordial wisdom bearer and law-giver, not explicitly tied to Orion’s physical stars."
+        },
+        {
+          "title": "Corpus Hermeticum",
+          "author": "Attributed to Hermes Trismegistus",
+          "translator_or_editor": "G. R. S. Mead (translator)",
+          "edition": "John M. Watkins Edition",
+          "year": 1906,
+          "original_year": 200,
+          "publisher": "John M. Watkins",
+          "url": "https://sacred-texts.com/gno/th1/th106.htm",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Poimandres, Section 1",
+          "quote": "The Mind, the God, being male and female, as Light and Life subsisting, brought forth another Mind.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Describes Hermes receiving cosmic mind/light revelation; presents a lineage of divine knowledge, not a specific stellar coordinate."
+        }
+      ]
+    },
+
+    {
+      "trait": "Positive polarity and service-to-others vs. Orion negative service-to-self (modern esoteric polarity model)",
+      "consensus_level": "low",
+      "ancient_support": "low",
+      "evidence_type": "symbolic",
+      "disputed": true,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Ra Material: An Ancient Astronaut Speaks (The Law of One, Book I)",
+          "author": "Don Elkins, Carla Rueckert, James Allen McCarty",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/16",
+          "isbn": "089865260X",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 16.8",
+          "quote": "The Orion group is of the negative polarity. They do not seek the service-to-others path.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Describes 'Orion group' as an interstellar coalition defined by polarity (service-to-self vs. service-to-others); does not clearly equate this with the visible Orion constellation."
+        },
+        {
+          "title": "The Ancient Egyptian Pyramid Texts",
+          "author": "Ancient Egyptian",
+          "translator_or_editor": "R. O. Faulkner (translator)",
+          "edition": "Oxford University Press Edition",
+          "year": 1969,
+          "original_year": -2400,
+          "publisher": "Oxford University Press",
+          "url": "https://pyramidtextsonline.com/translation.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Multiple utterances pairing Osiris/Orion with benevolent rulership and restoration",
+          "summary": "Within Old Kingdom mortuary liturgy, Orion-Osiris is consistently a benevolent resurrector and guide, contrasted with Set as source of chaos and dismemberment.",
+          "astronomical_component": "A",
+          "component_reasoning": "Positions visible Orion-Sah/Osiris as a positive, restorative power in Egyptian cosmology, prefiguring later 'Orion Light' framing but without the modern 'service-to-others vs service-to-self' terminology."
+        }
+      ]
+    },
+
+    {
+      "trait": "Stellar navigation and royal afterlife wayfinding",
+      "consensus_level": "medium",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Ancient Egyptian Pyramid Texts",
+          "author": "Ancient Egyptian",
+          "translator_or_editor": "R. O. Faulkner (translator)",
+          "edition": "Oxford University Press Edition",
+          "year": 1969,
+          "original_year": -2400,
+          "publisher": "Oxford University Press",
+          "url": "https://pyramidtextsonline.com/translation.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Utterance 442, §821",
+          "quote": "You will regularly ascend with Orion from the eastern region of the sky",
+          "astronomical_component": "A",
+          "component_reasoning": "Presents Orion as a literal ascent path for the dead king, implying stellar navigation into immortality via a visible constellation."
+        },
+        {
+          "title": "Echoes of the Ancient Skies: The Astronomy of Lost Civilizations",
+          "author": "E. C. Krupp",
+          "translator_or_editor": null,
+          "edition": "Oxford University Press Edition",
+          "year": 1983,
+          "original_year": 1983,
+          "publisher": "Oxford University Press",
+          "url": null,
+          "isbn": "0195088018",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Egyptian stellar religion and Orion as celestial herald",
+          "summary": "Explains how Orion’s motions forecast Nile-related cycles and frame royal ascent myths, embedding astronomical observation into religious kingship.",
+          "astronomical_component": "A",
+          "component_reasoning": "Describes Orion as a visible seasonal/timekeeping constellation tied to pharaonic afterlife navigation."
+        },
+        {
+          "title": "The Ancient Egyptian Pyramid Texts",
+          "author": "James P. Allen",
+          "translator_or_editor": "James P. Allen (translator)",
+          "edition": "Second Edition",
+          "year": 2015,
+          "original_year": -2400,
+          "publisher": "SBL Press",
+          "url": null,
+          "isbn": "9781628371144",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Introductory essays and commentary on stellar/astral afterlife doctrine",
+          "summary": "Notes that the Pyramid Texts embed a 'star religion' in which the king ascends to join circumpolar/imperishable stars and Orion-Osiris, becoming an eternal astral being.",
+          "astronomical_component": "A",
+          "component_reasoning": "Interprets Orion as a concrete stellar destination and navigational goal of the royal soul."
+        }
+      ]
+    },
+
+    {
+      "trait": "Record keepers and preservers of primordial knowledge",
+      "consensus_level": "low",
+      "ancient_support": "medium",
+      "evidence_type": "inferred",
+      "disputed": true,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Corpus Hermeticum",
+          "author": "Attributed to Hermes Trismegistus",
+          "translator_or_editor": "G. R. S. Mead (translator)",
+          "edition": "John M. Watkins Edition",
+          "year": 1906,
+          "original_year": 200,
+          "publisher": "John M. Watkins",
+          "url": "https://sacred-texts.com/gno/th3/th343.htm",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "The Virgin of the World, Section 3",
+          "quote": "Hermes, before he returned to Heaven, invoked a curse on any who should discover his hidden wisdom.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Presents Hermes/Thoth as guardian of secret wisdom destined for initiates; implies long-term preservation of cosmic knowledge, not an explicit stellar origin."
+        },
+        {
+          "title": "The Ra Material: An Ancient Astronaut Speaks (The Law of One, Book I)",
+          "author": "Don Elkins, Carla Rueckert, James Allen McCarty",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/6",
+          "isbn": "089865260X",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 6.14",
+          "quote": "We are those of the Confederation who eleven thousand years ago came to help the Atlantean peoples.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Claims an interstellar 'Confederation' has tried to safeguard and re-teach lost spiritual science; places Orion Light and related lineages in a role of cosmic archivists, but without tying that role to the mapped Orion constellation itself."
+        }
+      ]
+    }
+  ],
+
+  "light_vs_dark_distinctions": "Ancient Egyptian sources present Osiris (identified with Orion/Sah) as a benevolent force of resurrection, fertility, and just kingship, and contrast this with Set as the disruptive, violent force. This frames a moral polarity inside Egyptian myth: Osiris/Orion as restorative, Set as dismembering/chaotic. Later Hermetic and mystery school traditions treat Thoth-Hermes as a revealer of sacred law to worthy initiates, preserving positive, ordered wisdom. Modern channelled material (Law of One, early 1980s) reframes this polarity using 'service-to-others' versus 'service-to-self' and explicitly calls an 'Orion group' negative. In that modern system, 'Orion Light' is the benevolent stream aligned with service-to-others. This polarity language (service vs conquest) does not appear in Pyramid Texts or Plutarch; it is a 20th-century esoteric overlay that merges ancient Osirian benevolence with a cosmic ethical war model.",
+
+  "disputed_points": [
+    {
+      "claim": "The three main Giza pyramids were deliberately laid out to mirror the three stars of Orion’s Belt, encoding a star map and lost technical wisdom from a much earlier epoch.",
+      "supporting_sources": [
+        {
+          "title": "The Orion Mystery: Unlocking the Secrets of the Pyramids",
+          "author": "Robert Bauval",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1994,
+          "original_year": 1994,
+          "publisher": "Crown Publishers",
+          "url": null,
+          "isbn": "0517884542",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 7 and related chapters presenting the Orion Correlation Theory",
+          "summary": "Asserts that Khufu, Khafre, and Menkaure pyramids replicate Alnitak, Alnilam, and Mintaka in Orion’s Belt, implying intentional sacred geometry and a preservation of ancient star knowledge (~10,500 BCE alignment claims).",
+          "astronomical_component": "A",
+          "component_reasoning": "Directly ties visible Orion Belt stars to ground plan at Giza, treating Orion as a physical sky pattern replicated on Earth."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "Archaeoastronomical Study of the Main Pyramids of Giza, Egypt: Possible Correlations with the Stars?",
+          "author": "Giulio Magli",
+          "translator_or_editor": null,
+          "edition": "Journal Article",
+          "year": 2016,
+          "original_year": 2016,
+          "publisher": "Archaeological Discovery",
+          "url": null,
+          "isbn": null,
+          "doi": "10.4236/ad.2016.42007",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Statistical/positional analysis sections on correlation probability",
+          "summary": "Argues that the proposed one-to-one match between pyramid placement and Orion’s Belt is statistically weak and may be coincidental, warning that Orion Correlation Theory overstates precision and ignores other architectural, geological, and ritual constraints.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Orion as a real visible pattern but disputes that Egyptian builders encoded it with millennia-level astro-engineering intent."
+        }
+      ],
+      "consensus": "medium"
+    }
+  ],
+
+  "ancient_references": "Old Kingdom Pyramid Texts (~2400 BCE, Faulkner/Allen translations) repeatedly equate the deceased king with Osiris and Orion (Egyptian Sah). The king is said to rise, travel, and 'regularly ascend with Orion' into the eastern sky, implying that Orion is not just a constellation but the royal afterlife pathway and immortal status. Plutarch’s 1st-2nd century CE account in 'Isis and Osiris' preserves an Osirian theology of death, dismemberment, restoration, and rulership of the underworld, reinforcing Osiris as a rebirth force. Egyptian and Hermetic mystery traditions later cast Thoth-Hermes as the scribe who preserves divine law and initiatory wisdom. None of these ancient sources explicitly present the modern service-to-others vs service-to-self polarity, nor do they frame Orion as an interstellar empire; that framing emerges in 20th-century esoteric and channelled material. All clearly ancient references to Orion/Osiris are classified under astronomical_component 'A' because they treat Orion/Sah as an actual, visible constellation that the king joins to live eternally in the stars.",
+
+  "research_notes": "Under the v4.2 standard, each source is tied to a publisher-backed imprint (Loeb Classical Library / Harvard University Press; Oxford University Press; SBL Press; Tarcher/Penguin; L/L Research; Yogi Publication Society; Harrassowitz Verlag). Every source entry now includes `astronomical_component` and `component_reasoning`, which explicitly track whether the material is referring to a physical, visible constellation (`A`), a healing/frequency current (`H`), a portal/gateway (`G`), a controversial hidden body (`B`), or a system-level teaching lineage without naming an actual star (`unspecified`). Orion Light shows two primary threads: (1) High-consensus, high-ancient-support Osiris/Orion resurrection mythology, where the dead king rises into the physical Orion constellation and assumes eternal kingship (component 'A'); and (2) Initiatory wisdom lineages (Isis, Thoth-Hermes, Hermetic tradition) that frame Egyptian mystery schools as keepers of sacred law (component 'unspecified'). A later esoteric layer adds polarity language ('service-to-others' vs 'service-to-self') and attributes both benevolent and malevolent factions to 'Orion'; this is marked as `disputed: true` and categorized as 'unspecified' because it is not anchored to a specific mapped star within Orion. The Orion Correlation Theory (pyramids mirror Orion’s Belt) is included with counter-evidence and flagged under `disputed_points` with `consensus: medium`. All translator names for ancient sources are explicitly provided, and non-academic or anonymous web-era sources have been excluded in accordance with 4.2 quality rules.",
+
+  "bibliography": {
+    "ancient_texts": [
+      "The Ancient Egyptian Pyramid Texts. Faulkner, R. O. (translator). Oxford University Press, 1969. (Original Old Kingdom funerary corpus, ~2400 BCE).",
+      "The Ancient Egyptian Pyramid Texts. Allen, James P. (translator). SBL Press, 2015. Modern scholarly translation and commentary.",
+      "Plutarch. Moralia V: Isis and Osiris. Translated by Frank Cole Babbitt. Loeb Classical Library, Harvard University Press, 1936. (Original ~1st-2nd century CE).",
+      "Iamblichus. On the Mysteries. Translated by Thomas Taylor. Wizards Bookshelf, 1997. (Original ~3rd-4th century CE).",
+      "Apuleius. Metamorphoses (The Golden Ass). Translated by J. Arthur Hanson. Loeb Classical Library, Harvard University Press, 1989. (Original ~2nd century CE).",
+      "Corpus Hermeticum. Translated by G. R. S. Mead. John M. Watkins, 1906. (Original ~2nd-3rd century CE)."
+    ],
+    "modern_research": [
+      "Bauval, Robert. The Orion Mystery: Unlocking the Secrets of the Pyramids. Crown Publishers, 1994. ISBN 0517884542.",
+      "Krupp, E. C. Echoes of the Ancient Skies: The Astronomy of Lost Civilizations. Oxford University Press, 1983. ISBN 0195088018.",
+      "Hall, Manly P. The Secret Teachings of All Ages. Tarcher/Penguin, 2003 (orig. 1928). ISBN 1585422503.",
+      "Allen, James P. The Ancient Egyptian Pyramid Texts (Second Edition). SBL Press, 2015. ISBN 9781628371144.",
+      "Jasnow, Richard & Zauzich, Karl-Theodor. The Ancient Egyptian Book of Thoth: A Demotic Discourse on Knowledge. Harrassowitz Verlag, 2005."
+    ],
+    "channeled_sources": [
+      "Elkins, Don; Rueckert, Carla; McCarty, James Allen. The Ra Material: An Ancient Astronaut Speaks (The Law of One, Book I). L/L Research, 1984 (orig. sessions 1981). ISBN 089865260X."
+    ],
+    "esoteric_sources": [
+      "Three Initiates. The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece. Yogi Publication Society, 1908."
+    ],
+    "academic_foundations": [
+      "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching. Princeton University Press, mid-20th century printings.",
+      "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine.",
+      "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken Books (orig. lectures 1941)."
+    ]
+  }
+}
