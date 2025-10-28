@@ -1,0 +1,149 @@
+{
+  "id": "hx04",
+  "number": 4,
+  "unicode_hexagram": "䷃",
+  "name": "Youthful Folly / Inexperience (蒙, Méng)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Méng indicates that there will be progress and success. I do not go and seek the youthful and inexperienced; the youth comes and seeks me. When he first approaches with sincerity, I instruct him. If he applies a second and third time, that is troublesome, and I do not instruct the troublesome. There is advantage in being firm and correct.",
+    "normalized_summary": "Ignorance is natural at the start. Guidance is available if you come sincerely and are willing to learn, but not if you’re careless or entitled. Real teaching is firm, not indulgent."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, has respect to the dispelling of ignorance. It will be advantageous to use punishment for that purpose, and to remove the shackles from the mind; but to persist in punishment will give occasion for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：發蒙，利用刑人，用說桎梏；以往吝。"
+        }
+      ],
+      "normalized_meaning": "Ignorance needs clear correction at the start. Apply firm boundaries to wake people up — but don’t slip into cruelty or endless punishment.",
+      "keywords": [
+        "discipline",
+        "awakening",
+        "firm boundaries",
+        "correction not cruelty",
+        "early course-setting"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject exercising forbearance with the ignorant, in which there will be good fortune; and admitting even the goodness of women, which also will be fortunate. He may be described also as a son able to sustain the burden of his family.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：包蒙，吉。納婦，吉；子克家。"
+        }
+      ],
+      "normalized_meaning": "Patient, inclusive guidance is auspicious. Lead by caring, not shaming. You create a stable house by being steady and receptive, not domineering.",
+      "keywords": [
+        "patience",
+        "mentorship",
+        "nurturing leadership",
+        "domestic stability",
+        "inclusion"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, seems to say that one should not marry a woman such as is here indicated; for when she sees a man of wealth, she will not keep her person from him, and in no wise will advantage come from her.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：勿用取女；見金夫，不有躬；無攸利。"
+        }
+      ],
+      "normalized_meaning": "Do not entangle with someone who can’t self-govern desire or loyalty. If motives are shallow, the bond won’t serve you.",
+      "keywords": [
+        "misaligned partnership",
+        "lack of integrity",
+        "impulse-driven attraction",
+        "poor boundaries",
+        "no benefit"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject as if bound in chains of ignorance. There will be occasion for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：困蒙，吝。"
+        }
+      ],
+      "normalized_meaning": "Stubborn unteachability creates stuckness and shame. Refusing guidance keeps you trapped.",
+      "keywords": [
+        "stagnation",
+        "willful ignorance",
+        "isolation",
+        "blocked learning",
+        "regret"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows its subject as a simple lad without experience. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：童蒙，吉。"
+        }
+      ],
+      "normalized_meaning": "Pure, sincere beginner’s mind is blessed. Being openly teachable is actually strength.",
+      "keywords": [
+        "humility",
+        "teachability",
+        "innocence",
+        "receptivity",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the topmost NINE, undivided, we see one smiting the ignorant youth. But no advantage will come from doing him an injury. Advantage would come from warding off injury from him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：擊蒙，不利為寇，利御寇。"
+        }
+      ],
+      "normalized_meaning": "Brutal correction of ignorance backfires. The right use of strength is protective — set boundaries and defend, don’t abuse.",
+      "keywords": [
+        "misuse of authority",
+        "overcorrection",
+        "protection not harm",
+        "ethical power",
+        "defensive guidance"
+      ]
+    }
+  ]
+}

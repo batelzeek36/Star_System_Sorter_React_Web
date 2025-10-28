@@ -1,0 +1,14 @@
+{
+  "id": "circuit.integration",
+  "family": "Integration",
+  "name": "Integration",
+  "purpose": "Self-centric survival awareness; immediate correctness in the now.",
+  "channels": [
+    "ch.10-20",
+    "ch.10-57",
+    "ch.20-34",
+    "ch.20-57",
+    "ch.34-10",
+    "ch.34-57"
+  ]
+}

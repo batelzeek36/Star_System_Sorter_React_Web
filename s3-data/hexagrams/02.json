@@ -1,0 +1,149 @@
+{
+  "id": "hx02",
+  "number": 2,
+  "unicode_hexagram": "䷁",
+  "name": "The Receptive / Earth (坤, Kūn)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Receptive, yielding, and devoted like the Earth. Success comes through constancy, correctness, and following right guidance rather than forcing leadership. Proper alignment brings support and good fortune.",
+    "normalized_summary": "Receptive power that nourishes and sustains. True strength here is steady, responsive, loyal to what is natural, not ego-driven initiative."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "He treads on hoarfrost; the strong ice will come by and by.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "履霜，堅冰至 (Lǚ shuāng, jiān bīng zhì)"
+        }
+      ],
+      "normalized_meaning": "Small early signs indicate what’s coming. Subtle instability now will harden into something serious if ignored.",
+      "keywords": [
+        "early warning",
+        "foresight",
+        "pattern recognition",
+        "anticipation",
+        "consequences"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "Straight, square, and great. Without deliberate effort or practice, yet nothing is not favorable.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "直方大，不習无不利 (Zhí fāng dà, bù xí wú bù lì)"
+        }
+      ],
+      "normalized_meaning": "Pure receptivity has integrity, honesty, and breadth. It doesn’t posture. Because it’s aligned, everything benefits.",
+      "keywords": [
+        "natural virtue",
+        "integrity",
+        "order without force",
+        "stability",
+        "structural goodness"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "Her (its) excellence is contained and not displayed; this may be maintained with correctness. If engaged in the service of the ruler, seek no recognition for achievements, but bring matters to completion.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "含章可貞。或從王事，无成有終 (Hán zhāng kě zhēn. Huò cóng wáng shì, wú chéng yǒu zhōng)"
+        }
+      ],
+      "normalized_meaning": "Keep your brilliance quiet and steady. Serve well, finish what needs finishing, don’t chase credit.",
+      "keywords": [
+        "hidden talent",
+        "humility",
+        "service",
+        "completion over glory",
+        "contained power"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "A tied-up sack. No blame, no praise.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "括囊，无咎无譽 (Guā náng, wú jiù wú yù)"
+        }
+      ],
+      "normalized_meaning": "Hold your position. Stay sealed, neutral, and quiet. Strategic non-disclosure is correct here.",
+      "keywords": [
+        "restraint",
+        "containment",
+        "strategic silence",
+        "neutral stance",
+        "energy conservation"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "A yellow lower garment. Supreme good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "黃裳元吉 (Huáng cháng yuán jí)"
+        }
+      ],
+      "normalized_meaning": "Modesty and grounded dignity bring real blessing. Power expressed with humility is auspicious.",
+      "keywords": [
+        "modesty",
+        "dignity",
+        "auspicious alignment",
+        "virtue in form",
+        "right presentation"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "Dragons fight in the open country. Their blood is black and yellow.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "龍戰于野，其血玄黃 (Lóng zhàn yú yě, qí xuè xuán huáng)"
+        }
+      ],
+      "normalized_meaning": "When receptive force tries to dominate like initiating force, roles invert and chaos erupts. Massive conflict, avoid this state.",
+      "keywords": [
+        "role inversion",
+        "misalignment",
+        "ego war",
+        "chaos",
+        "collapse of harmony"
+      ]
+    }
+  ]
+}

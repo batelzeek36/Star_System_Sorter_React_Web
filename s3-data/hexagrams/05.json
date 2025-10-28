@@ -1,0 +1,149 @@
+{
+  "id": "hx05",
+  "number": 5,
+  "unicode_hexagram": "䷄",
+  "name": "Waiting / Nourishment (需, Xū)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Hsü intimates that, with the sincerity which is declared in it, there will be brilliant success. With firmness there will be good fortune; and it will be advantageous to cross the great stream.",
+    "normalized_summary": "You’re in a situation that requires patience under pressure. Don’t force movement before the conditions are truly ready. Wait with faith, stay prepared, gather strength, and accept support when it arrives."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject waiting in the distant border. It will be well for him constantly to maintain (the purpose thus shown), in which case there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：需于郊。利用恒，无咎。"
+        }
+      ],
+      "normalized_meaning": "You’re at the outskirts, holding position. Stay steady and consistent; patience here prevents mistakes.",
+      "keywords": [
+        "patient positioning",
+        "holding ground",
+        "long game",
+        "consistency",
+        "no rush"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject waiting on the sand (of the mountain stream). He will (suffer) the small (injury of) being spoken (against), but in the end there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：需于沙。小有言，终吉。"
+        }
+      ],
+      "normalized_meaning": "People may doubt you or talk about you while you wait, but holding position is still correct. Outcome: favorable.",
+      "keywords": [
+        "patience under scrutiny",
+        "criticism",
+        "trusting timing",
+        "reputation pressure",
+        "eventual success"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject in the mud (close by the stream). He thereby invites the approach of injury.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：需于泥，致寇至。"
+        }
+      ],
+      "normalized_meaning": "Now you’re bogged down and exposed. Staying here attracts harm. Change position before trouble arrives.",
+      "keywords": [
+        "compromised ground",
+        "vulnerability",
+        "inviting attack",
+        "don’t stall here",
+        "risk escalation"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject waiting in (the place of) blood. But he will get out of the cavern.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：需于血，出自穴。"
+        }
+      ],
+      "normalized_meaning": "Crisis phase. You’re in danger, like standing in a battlefield. Survival comes from strategic withdrawal, not bravado.",
+      "keywords": [
+        "critical danger",
+        "retreat",
+        "survival-first",
+        "escape path",
+        "damage control"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject waiting amidst the appliances of a feast. Through his firmness and correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：需于酒食，贞吉。"
+        }
+      ],
+      "normalized_meaning": "This is resourced waiting. You have supplies, safety, and support. Hold clear intention and stay principled — good fortune follows.",
+      "keywords": [
+        "resourced patience",
+        "strategic rest",
+        "provisioning",
+        "inner composure",
+        "confidence"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject entered into the cavern. (But) there are three guests coming, without being urged, (to his help). If he receive them respectfully, there will be good fortune in the end.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：入于穴，有不速之客三人来，敬之终吉。"
+        }
+      ],
+      "normalized_meaning": "You’ve gone deep into hiding or lockdown. Unexpected allies arrive. Salvation depends on humility and willingness to receive help.",
+      "keywords": [
+        "unexpected aid",
+        "humility",
+        "receiving support",
+        "endgame rescue",
+        "trust in assistance"
+      ]
+    }
+  ]
+}

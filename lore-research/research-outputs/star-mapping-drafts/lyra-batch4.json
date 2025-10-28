@@ -1,0 +1,242 @@
+{
+  "25.1": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "Holds a quiet, principled heart that isn't trying to prove goodness. (weak thematic resonance with lyra)"
+  },
+  "25.2": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "Radiates unconditional acceptance without effort, makes others feel spiritually safe. (weak thematic resonance with lyra)"
+  },
+  "25.3": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Aesthetic elitism and beauty-as-superiority - Lyran shadow"
+  },
+  "25.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "25.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "25.6": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Cold cosmic distance: 'your pain is just part of the lesson, accept it.' (weak thematic resonance with lyra)"
+  },
+  "26.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "26.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "26.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "26.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "26.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "26.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "27.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "27.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "27.3": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Martyr script: 'after all I've done for you.' (weak thematic resonance with lyra)"
+  },
+  "27.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "27.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "27.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "28.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "28.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "28.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "28.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "28.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "28.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "29.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "29.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "29.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "29.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "29.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "29.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "30.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "30.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "30.3": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "Finds clarity by surviving emotional intensity spikes and crashes. (weak thematic resonance with lyra)"
+  },
+  "30.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "30.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "30.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "31.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "31.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "31.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "31.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "31.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "31.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "32.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "32.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "32.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "32.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "32.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  },
+  "32.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+  }
+}

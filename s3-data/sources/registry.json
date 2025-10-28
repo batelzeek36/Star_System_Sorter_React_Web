@@ -1,0 +1,33 @@
+{
+  "component": "SOURCES",
+  "registry_version": "1.0",
+  "last_updated": "2025-10-28",
+  "entries": [
+    {
+      "id": "wilhelm_baynes_1967",
+      "title": "The I Ching or Book of Changes",
+      "translator": "Richard Wilhelm; Cary F. Baynes",
+      "publisher": "Princeton University Press",
+      "year": 1967,
+      "isbn": "",
+      "notes": "Primary classical reference for hexagram + line text."
+    },
+    {
+      "id": "legge_1899",
+      "title": "The I Ching",
+      "translator": "James Legge",
+      "publisher": "Dover / Sacred Books of the East",
+      "year": 1899,
+      "isbn": "",
+      "notes": "Alternate classical translation for cross-checking."
+    },
+    {
+      "id": "jovian_archive_core",
+      "title": "Jovian Archive Core Lectures / Rave I'Ching",
+      "author": "Ra Uru Hu",
+      "publisher": "Jovian Archive",
+      "year": "",
+      "notes": "For centers, circuitry, and Human Design-specific keynotes."
+    }
+  ]
+}

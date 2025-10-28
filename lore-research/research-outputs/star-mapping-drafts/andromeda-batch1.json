@@ -1,0 +1,249 @@
+{
+  "1.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.1 is pure creative self-expression and inner truth, not liberation from control or rescuing the oppressed (Andromeda core)."
+  },
+  "1.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.2 deals with insecurity around being seen as authentic; it's self-image work, not sovereignty reclamation or anti-domination action (Andromeda)."
+  },
+  "1.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.3 is trial-and-error resilience in creative identity, not breaking chains or intervening to free others (Andromeda)."
+  },
+  "1.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.4 becomes a consistent creative signal for others; it's influence-through-expression, not resistance to captivity or abuse (Andromeda)."
+  },
+  "1.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.5 seeks recognition for creative integrity and gets modeled to a wider field; it's not a liberation or anti-oppression pattern (Andromeda)."
+  },
+  "1.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.6 mentors authenticity by embodying creative truth; it's standard-setting, not direct sovereignty defense (Andromeda)."
+  },
+
+  "2.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.1 quietly orients from inner direction; it's personal alignment, not active challenge to domination or rescue of the exploited (Andromeda)."
+  },
+  "2.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.2 resists being pushed to lead or guide; that's protecting personal energy from being used, but it's not collective liberation work (Andromeda core)."
+  },
+  "2.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.3 struggles with being judged as aimless or unreliable; that's self-worth around purpose, not anti-capture intervention (Andromeda)."
+  },
+  "2.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.4 refines a true path through lived experience; it's deepening orientation, not freeing others from unjust control (Andromeda)."
+  },
+  "2.5": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "2.5 can wait for someone else to define the path or save the situation instead of claiming self-direction; that's Andromeda shadow (passive victimhood / surrendered sovereignty)."
+  },
+  "2.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.6 carries a stable, refined inner sense of direction that others can follow; it's orientation leadership, not intervention against exploitation (Andromeda)."
+  },
+
+  "3.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "3.1 is shock/chaos at the start of mutation; it's raw adaptation to turbulence, not freeing captives or confronting domination (Andromeda)."
+  },
+  "3.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "3.2 improvises through instability while trying to keep bonds intact; it's survival via flexibility, not sovereignty restoration (Andromeda)."
+  },
+  "3.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "3.3 mutates through repeated failure and rebuild; it's gritty resilience, not anti-abuse liberation work (Andromeda)."
+  },
+  "3.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "3.4 stabilizes what actually works and becomes an anchor in chaos; that's containment of disorder, not breaking chains (Andromeda core)."
+  },
+  "3.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "3.5 is seen as the fixer or problem-solver in crisis; that's triage, not anti-domination sovereignty defense (Andromeda)."
+  },
+  "3.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "3.6 gains long-term perspective on what is sustainable; that's evolution vision, not rescue from oppression (Andromeda)."
+  },
+
+  "4.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "4.1 wants a stable mental framework to feel secure; it's 'I need an answer,' not 'we stop being used as ransom' (Andromeda liberation theme)."
+  },
+  "4.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "4.2 shares answers selectively in trusted bonds; that's relational discretion in offering insight, not anti-domination activism (Andromeda)."
+  },
+  "4.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "4.3 tests mental solutions through messy lived reality; that's iterative logic, not sovereignty reclamation (Andromeda)."
+  },
+  "4.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "4.4 openly broadcasts answers and becomes known for mental clarity; that's influence via ideas, not liberating the bound (Andromeda)."
+  },
+  "4.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "4.5 gets positioned as 'the one with the answer'; that's social authority around solutions, not direct intervention against abuse (Andromeda)."
+  },
+  "4.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "4.6 forms a practical philosophy to stabilize others conceptually; it's guidance, not anti-capture rescue (Andromeda)."
+  },
+
+  "5.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "5.1 builds personal rhythm to feel safe; that's self-regulation through timing, not confronting domination or freeing someone being sacrificed (Andromeda)."
+  },
+  "5.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "5.2 resists being forced into others’ timing; that's boundary against pressure, not explicit sovereignty restoration for others (Andromeda)."
+  },
+  "5.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "5.3 experiments with timing and visibly 'fails' while calibrating; that's learning personal pace, not liberation work (Andromeda)."
+  },
+  "5.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "5.4 can stabilize correct pacing for the group; that's pattern-setting, not anti-oppression rescue (Andromeda)."
+  },
+  "5.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "5.5 becomes known as reliable timing and gets projected on; that's duty / expectation management, not chains-breaking (Andromeda)."
+  },
+  "5.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "5.6 embodies correct timing as a model for others; that's environmental regulation, not sovereignty reclamation (Andromeda)."
+  },
+
+  "6.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.1 wants a safe container before allowing full emotional contact; that's boundary-setting in intimacy, not liberation from external domination (Andromeda)."
+  },
+  "6.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.2 feels instant attraction/repulsion and trusts the response; that's energetic screening, not stepping in to free someone being exploited (Andromeda)."
+  },
+  "6.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.3 learns what intimacy really is by getting burned and healing; that's trial-by-conflict in bonding, not anti-capture intervention (Andromeda)."
+  },
+  "6.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.4 mediates tension and negotiates emotional terms for the network; that's relational diplomacy, not overthrowing oppressive terms (Andromeda)."
+  },
+  "6.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.5 gets cast as the crisis-resolver for everyone else's emotional problems; that's conscription as 'the fixer,' not chain-breaking (Andromeda)."
+  },
+  "6.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.6 sets the bar for what healthy intimacy should be; that's modeling emotional standard, not sovereignty rescue (Andromeda)."
+  },
+
+  "7.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.1 quietly holds a vision of correct guidance for the group; that's role-of-leader energy, not anti-domination revolt or rescue (Andromeda)."
+  },
+  "7.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.2 needs recognition to lead and may withdraw if unrecognized; that's leadership friction, not liberation of the captive (Andromeda)."
+  },
+  "7.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.3 experiments with how power is carried and risks being seen as unreliable; that's trial leadership, not freeing the oppressed (Andromeda)."
+  },
+  "7.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.4 steps into visible authority for the group; that's governance and role, not anti-domination intervention (Andromeda)."
+  },
+  "7.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.5 gets projected on as tyrant or savior; that's politics of authority, not specifically dismantling captivity or abuse terms (Andromeda)."
+  },
+  "7.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.6 carries a mature long-term vision for where the collective should go; that's strategic leadership, not direct sovereignty reclamation (Andromeda)."
+  },
+
+  "8.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.1 wants to contribute something authentic to the tribe; that's offering your unique voice, not breaking oppression structures (Andromeda)."
+  },
+  "8.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.2 resists forced performance and can go quiet or passive-aggressive if pushed; that's 'don't exploit me,' which is boundary, but it's not stepping in to free others (Andromeda core)."
+  },
+  "8.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.3 experiments with visibility and can look chaotic before it lands; that's creative positioning, not sovereignty restoration for someone being sacrificed (Andromeda)."
+  },
+  "8.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.4 naturally attracts attention and becomes a spokesperson; that's collective influence, not anti-domination rescue (Andromeda)."
+  },
+  "8.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.5 gets recognized as 'the example' and pulled on for influence; that's social leverage, not freeing the bound (Andromeda)."
+  },
+  "8.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.6 embodies a legacy-level contribution and becomes iconic; that's imprinting on the culture, not liberation from captivity (Andromeda)."
+  }
+}

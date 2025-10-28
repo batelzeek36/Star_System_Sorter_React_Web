@@ -1,0 +1,179 @@
+{
+  "id": "gate.1",
+  "hexagram": "hx01",
+  "center": "G",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.2",
+  "polarity": {
+    "opposite_on_wheel": "gate.2"
+  },
+  "themes": [
+    "creative self-expression",
+    "individual mutation signal",
+    "identity as art"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "1.1",
+      "line_number": 1,
+      "keywords": [
+        "deep creative pressure",
+        "need to prove originality",
+        "private self-expression"
+      ],
+      "behavioral_axis": "Builds creative identity from a strong inner base before showing it.",
+      "shadow_axis": "Fear of not being special; copying others to feel valid.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "wants_audience_not_editor": true,
+          "needs_safe_private_lab": true,
+          "cannot_be_forced": true
+        },
+        "group_role": "internal artisan / prototype generator"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.2",
+      "line_number": 2,
+      "keywords": [
+        "natural flair",
+        "unforced style",
+        "doesn't want interference"
+      ],
+      "behavioral_axis": "Radiates unique creative energy without trying; inspires by just existing.",
+      "shadow_axis": "Withdraws or sulks if pushed to perform on demand.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_to_be_seen_as_inherently_special": true,
+          "rejects_management": true,
+          "prefers_supportive_observation_over_advice": true
+        },
+        "group_role": "muse / aesthetic field holder"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.3",
+      "line_number": 3,
+      "keywords": [
+        "trial-and-error artistry",
+        "raw experimentation",
+        "learning through breaking things"
+      ],
+      "behavioral_axis": "Builds authentic voice by testing, failing, iterating in public.",
+      "shadow_axis": "Self-sabotage loops, burning identity down after every mistake.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "requires_patience_from_others": true,
+          "benefits_from_people_who_dont_panic_at_mess": true,
+          "pushes_partners_into_adapt_mode": true
+        },
+        "group_role": "frontline tester / edge scout"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.4",
+      "line_number": 4,
+      "keywords": [
+        "broadcasted identity",
+        "creative influence",
+        "signal others align to"
+      ],
+      "behavioral_axis": "Turns personal self-expression into a stable frequency that others can gather around. Becomes an attractor field.",
+      "shadow_axis": "Performs a curated persona to maintain approval and influence; sells out originality to stay liked.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_respect_for_brand_boundary": true,
+          "wants_loyal_circle_not_crowd": true,
+          "needs_space_to_refuel_offstage": true
+        },
+        "group_role": "field anchor / style standard"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.5",
+      "line_number": 5,
+      "keywords": [
+        "projected icon",
+        "savior artist",
+        "creative leadership for the collective"
+      ],
+      "behavioral_axis": "Gets cast as the one who can redefine the vibe for everyone. Carries a mythic/heroic projection of creative leadership.",
+      "shadow_axis": "Becomes a lightning rod for blame and accusation ('you lied to us' / 'you manipulated us') when others’ expectations aren’t met.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_clear_expectations_not_projection": true,
+          "wants_partners_who_can_handle_public_agenda": true,
+          "requires_loyal_defense_against_public_attack": true
+        },
+        "group_role": "banner carrier / mythic figurehead"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.6",
+      "line_number": 6,
+      "keywords": [
+        "aloof embodiment",
+        "lives the frequency",
+        "high-altitude perspective"
+      ],
+      "behavioral_axis": "Becomes a walking example of pure individuality. Expression stops being a performance and just radiates as their baseline state.",
+      "shadow_axis": "Detaches and goes out-of-reach. Can appear superior, cold, or done with humanity when disappointed.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_space_for_observation": true,
+          "requires_emotional_maturity_in_inner_circle": true,
+          "rejects_drama_cycles": true
+        },
+        "group_role": "pattern calibrator / horizon spotter"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-28",
+    "status": "provisional"
+  }
+}

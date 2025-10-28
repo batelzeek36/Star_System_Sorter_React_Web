@@ -1,0 +1,149 @@
+{
+  "id": "hx08",
+  "number": 8,
+  "unicode_hexagram": "䷇",
+  "name": "Holding Together / Union (比, Bǐ)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Pî indicates that (under the conditions which it supposes) there is good fortune. But let the principal party re-examine himself, as if by divination, whether his virtue is great, constant, and firm. If so, there will be no error. Those who are restless will then come to him; but for those who come too late it will be ill.",
+    "normalized_summary": "Union, loyalty, gathering around the right center. Real alignment happens through sincerity and integrity, not desperation. The right people converge around true steadiness — if you wait too long to join, you’re out."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject seeking by his sincerity to win the attachment of his object. There will be no error. Let the breast be full of sincerity as an earthenware vessel is of its contents, and it will in the end bring other advantages.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：有孚比之，无咎。有孚盈缶，终来有它，吉。"
+        }
+      ],
+      "normalized_meaning": "Honest, wholehearted sincerity attracts allies. Lead with real trust and people will gather around you — and unexpected support will keep arriving.",
+      "keywords": [
+        "sincerity",
+        "trust magnet",
+        "loyal bonding",
+        "devotion",
+        "unexpected allies"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the second SIX, divided, we see the movement towards union and attachment proceeding from the inward mind. With firm correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：比之自内，贞吉。"
+        }
+      ],
+      "normalized_meaning": "Right union starts inside. When loyalty comes from genuine inner alignment — not performance — it’s stable and auspicious.",
+      "keywords": [
+        "inner alignment",
+        "authentic loyalty",
+        "integrity",
+        "stable bond",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the third SIX, divided, we see its subject seeking for union with such as ought not to be associated with.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：比之匪人。"
+        }
+      ],
+      "normalized_meaning": "Do not align yourself with people who are not worthy of you. Bonding with the wrong circle contaminates you.",
+      "keywords": [
+        "wrong allies",
+        "toxic attachment",
+        "corrupted loyalty",
+        "misaligned tribe",
+        "danger"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the fourth SIX, divided, we see its subject seeking for union with the one beyond himself. With firm correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：外比之，贞吉。"
+        }
+      ],
+      "normalized_meaning": "Reach beyond your immediate circle and connect with the true center — the one who actually embodies authority/virtue. Attaching upward to integrity is correct.",
+      "keywords": [
+        "align with higher integrity",
+        "seek rightful leader",
+        "healthy dependence",
+        "loyal service",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, affords the most illustrious instance of seeking union and attachment. (We seem to see in it) the king urging his pursuit of the game only in three directions, and allowing the escape of all the animals before him, while the people of his towns do not warn one another to prevent it. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：显比，王用三驱，失前禽。邑人不诫，吉。"
+        }
+      ],
+      "normalized_meaning": "This is ideal leadership: benevolent, trusted, not coercive. People unite willingly around someone whose power is generous and fair.",
+      "keywords": [
+        "benevolent leadership",
+        "mutual trust",
+        "voluntary unity",
+        "shared purpose",
+        "good governance"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the topmost SIX, divided, we see one seeking union and attachment without having taken the first step to such an end. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：比之无首，凶。"
+        }
+      ],
+      "normalized_meaning": "Trying to join at the last second, with no rooted loyalty, fails. If you weren’t there at the start, no one believes you now.",
+      "keywords": [
+        "late arrival",
+        "no foundation",
+        "false loyalty",
+        "excluded from the circle",
+        "misfortune"
+      ]
+    }
+  ]
+}

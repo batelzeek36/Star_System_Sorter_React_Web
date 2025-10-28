@@ -1,0 +1,37 @@
+{
+  "component": "LINE_ARCHETYPES",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "roles": {
+    "1": {
+      "name": "Investigator / Foundation",
+      "gift": "Builds a solid base before exposure",
+      "shadow": "Insecurity; fear of not being ready"
+    },
+    "2": {
+      "name": "Natural / Hermit",
+      "gift": "Unforced talent; correct environment draws it out",
+      "shadow": "Resists interference, can withdraw"
+    },
+    "3": {
+      "name": "Martyr / Trial",
+      "gift": "Mutation via experimentation; resilience",
+      "shadow": "Chaos loops; instability"
+    },
+    "4": {
+      "name": "Opportunist / Network",
+      "gift": "Influence via bonds; externalization",
+      "shadow": "Reputation risk; dependency on network"
+    },
+    "5": {
+      "name": "Heretic / Projection",
+      "gift": "Practical leadership; universalization",
+      "shadow": "Projection burn; scapegoating"
+    },
+    "6": {
+      "name": "Role Model",
+      "gift": "Objectivity; long view; exemplar",
+      "shadow": "Aloofness; disengagement"
+    }
+  }
+}

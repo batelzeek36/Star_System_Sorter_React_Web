@@ -1,0 +1,149 @@
+{
+  "id": "hx06",
+  "number": 6,
+  "unicode_hexagram": "䷅",
+  "name": "Conflict / Contention (訟, Sòng)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Sòng (Conflict) shows a situation of dispute. One is sincere but meets obstruction. Cautious stopping in the middle brings good fortune; pushing it to the end brings misfortune. It is advantageous to see the great man; it is not advantageous to cross the great stream.",
+    "normalized_summary": "This is litigation / argument energy. You may be right, but if you try to ‘win’ at all costs, you lose in a bigger way. Seek wise arbitration instead of escalation."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject not perpetually maintaining the matter. There will be some small words of reproach, but in the end good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：不永所事，小有言，终吉。"
+        }
+      ],
+      "normalized_meaning": "Drop the fight early. You might take a little criticism for backing off, but long-term it’s the right move.",
+      "keywords": [
+        "de-escalation",
+        "walk away",
+        "minor reputational sting",
+        "long-term benefit",
+        "conflict avoidance"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows one who cannot sustain his contention. He returns home and withdraws. His town of three hundred families is free from calamity.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：不克訟，歸而逋；其邑人三百户，无眚。"
+        }
+      ],
+      "normalized_meaning": "You won’t win this by force. Retreat protects your people / your ecosystem. Losing the battle prevents harm to everyone depending on you.",
+      "keywords": [
+        "strategic retreat",
+        "protect the group",
+        "minimize fallout",
+        "leadership responsibility",
+        "preserve stability"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one who nourishes himself on former virtue. Firm correctness is perilous, yet in the end good fortune. If he engage in the king’s service, he will accomplish nothing.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：食旧德，贞厉，终吉。或从王事，无成。"
+        }
+      ],
+      "normalized_meaning": "Rely on your earned integrity, not on dramatic moves. Hold your standard quietly. Don’t expect glory serving power right now — just stay clean.",
+      "keywords": [
+        "integrity under pressure",
+        "danger but eventual good",
+        "reputation capital",
+        "low-ego service",
+        "no guaranteed credit"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows one who cannot carry on the contention. He returns to the (received) decree, changes his mind, finds rest in correctness: good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：不克訟，復即命；渝安贞，吉。"
+        }
+      ],
+      "normalized_meaning": "Stop trying to ‘win.’ Accept a higher ruling, stabilize, and let yourself calm down. That shift to peace is the right path.",
+      "keywords": [
+        "accept judgment",
+        "return to order",
+        "inner de-escalation",
+        "peace over ego",
+        "good fortune through surrender"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the contention: great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：訟，元吉。"
+        }
+      ],
+      "normalized_meaning": "When you’re in rightful authority and centered, you can resolve conflict justly. This is clean arbitration, not ego combat.",
+      "keywords": [
+        "just judgment",
+        "legitimate authority",
+        "fair ruling",
+        "clarity",
+        "decisive resolution"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows one to whom a leathern belt is given, but in the course of a morning it is thrice taken from him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：或錫之鞶帶，終朝三褫之。"
+        }
+      ],
+      "normalized_meaning": "‘Victory’ gained at the very top is unstable and humiliating. Power won through conflict won’t hold — honor gets stripped.",
+      "keywords": [
+        "hollow victory",
+        "unstable status",
+        "public humiliation",
+        "ego collapse",
+        "unsustainable power"
+      ]
+    }
+  ]
+}

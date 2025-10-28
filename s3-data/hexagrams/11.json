@@ -1,0 +1,149 @@
+{
+  "id": "hx11",
+  "number": 11,
+  "unicode_hexagram": "䷊",
+  "name": "Peace / Harmony / Flow (泰, Tài)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Tài (Peace) indicates free passage and success. The small withdraws, the great approaches. There is good fortune. Heaven and Earth are in communion; what is above gives, what is below responds.",
+    "normalized_summary": "True harmony: resources flow, support circulates, things work. Power becomes benevolent and accessible. This is prosperity through alignment between ‘above’ and ‘below’. It’s stable now — but it won’t stay this way forever unless it’s tended."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "Pulling up the grass by the roots, and the roots of the other blades come up with it. Advance together is auspicious.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：拔茅茹，以其彙，征吉。"
+        }
+      ],
+      "normalized_meaning": "When you move, you don’t move alone. Early progress happens by acting in mutual support. Choose companions who rise with you.",
+      "keywords": [
+        "shared ascent",
+        "collective movement",
+        "entangled destiny",
+        "early mobilization",
+        "mutual lift"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "He embraces what is rough and remote, is able to ford the river, does not neglect what is far, does not cling to his immediate circle. Thus he gains honor in walking the central way.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：包荒，用馮河，不遐遺，朋亡，得尚于中行。"
+        }
+      ],
+      "normalized_meaning": "Real harmony isn’t small or tribal. It includes the neglected, crosses danger, and doesn’t play favorites. Inclusive, principled leadership earns respect.",
+      "keywords": [
+        "inclusive leadership",
+        "bridging distance",
+        "courageous service",
+        "not cliquish",
+        "honor through fairness"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "There is no level ground without a slope, no going without a return. Holding firm in difficulty brings no blame. Do not be anxious about trust; there will be blessing in what is shared/eaten.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：無平不陂，無往不復。艱貞無咎。勿恤其孚，于食有福。"
+        }
+      ],
+      "normalized_meaning": "Even in good times, cycles turn. Stay steady when the ease starts tilting. Don’t panic about who believes in you — nourishment and support are still there.",
+      "keywords": [
+        "cycle awareness",
+        "perseverance in strain",
+        "hold center",
+        "don’t spiral",
+        "sustained support"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "Light and unassuming. He is not wealthy, yet he joins with his neighbor. Without formal warning or defensiveness, there is sincerity.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：翩翩，不富以其鄰；不戒以孚。"
+        }
+      ],
+      "normalized_meaning": "Genuine closeness doesn’t require status or ceremony. Humble, open-hearted connection is safe here.",
+      "keywords": [
+        "humility",
+        "easy alliance",
+        "trust without armor",
+        "community over status",
+        "natural rapport"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sovereign Yi gives his daughter in marriage. This brings blessing and supreme good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：帝乙歸妹，以祉元吉。"
+        }
+      ],
+      "normalized_meaning": "High-order union. Legitimate alliance is sealed at the highest level, creating stability and favor for everyone under it.",
+      "keywords": [
+        "sacred alliance",
+        "sanctioned union",
+        "legitimacy",
+        "dynastic blessing",
+        "supreme good fortune"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The city wall falls back into the moat. Do not use the army. Declare your commands within your own city. Persevering in force would bring humiliation.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：城復于隍，勿用師。自邑告命，貞吝。"
+        }
+      ],
+      "normalized_meaning": "Peace destabilizes. Defense structures fail. This is the end of the golden moment. Do not try to ‘hold power’ by force — contract, pull back, manage internally, and accept that the cycle is turning.",
+      "keywords": [
+        "end of stability",
+        "collapse of order",
+        "don’t escalate",
+        "contain internally",
+        "humbling correction"
+      ]
+    }
+  ]
+}

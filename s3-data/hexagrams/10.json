@@ -1,0 +1,149 @@
+{
+  "id": "hx10",
+  "number": 10,
+  "unicode_hexagram": "䷉",
+  "name": "Treading / Conduct (履, Lǚ)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "(Lî suggests the idea of) one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
+    "normalized_summary": "Walking in danger. You’re moving through power structures where one wrong move could get you killed, socially or literally. Success depends on correct conduct, alert humility, and constant self-checking."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject treading his accustomed path. If he go forward, there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：素履，往无咎。"
+        }
+      ],
+      "normalized_meaning": "Stay simple and true to your natural way of moving. Proceed straightforwardly and you’re fine.",
+      "keywords": [
+        "simplicity",
+        "authentic conduct",
+        "no blame",
+        "safe forward motion",
+        "uncomplicated action"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject treading the path that is level and easy;--a quiet and solitary man, to whom, if he be firm and correct, there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：履道坦坦，幽人贞吉。"
+        }
+      ],
+      "normalized_meaning": "Walk calmly, modestly, without needing attention. Quiet correctness brings good fortune.",
+      "keywords": [
+        "inner steadiness",
+        "low-profile integrity",
+        "calm discipline",
+        "unshowy virtue",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows a one-eyed man (who thinks he) can see; a lame man (who thinks he) can walk well; one who treads on the tail of a tiger and is bitten. (All this indicates) ill fortune. We have a (mere) bravo acting the part of a great ruler.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：眇能视，跛能履，履虎尾，咥人，凶。武人为于大君。"
+        }
+      ],
+      "normalized_meaning": "Overconfidence with partial ability is dangerous. Pretending to have authority you don’t actually have gets you bitten.",
+      "keywords": [
+        "false confidence",
+        "overreach",
+        "ego performance",
+        "impersonating authority",
+        "misfortune"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject treading on the tail of a tiger. He becomes full of apprehensive caution, and in the end there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：履虎尾，愬愬，终吉。"
+        }
+      ],
+      "normalized_meaning": "You’re in direct danger. Hyper-awareness, humility, and respectful conduct get you through intact.",
+      "keywords": [
+        "high alert",
+        "respect for danger",
+        "nervous caution",
+        "careful navigation",
+        "eventual good fortune"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the resolute tread of its subject. Though he be firm and correct, there will be peril.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：夬履，贞厉。"
+        }
+      ],
+      "normalized_meaning": "This is decisive, exposed leadership. You might be right, but it’s still risky — authority at this level is watched and tested.",
+      "keywords": [
+        "decisive action",
+        "leadership under scrutiny",
+        "high stakes",
+        "peril despite correctness",
+        "pressure at the top"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, tells us to look at (the whole course) that is trodden, and examine the presage which that gives. If it be complete and without failure, there will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：视履考祥，其旋元吉。"
+        }
+      ],
+      "normalized_meaning": "Do an honest audit of your path. If every step has actually been in integrity, the culmination is profoundly auspicious.",
+      "keywords": [
+        "self-audit",
+        "legacy of conduct",
+        "completion cycle",
+        "earned blessing",
+        "supreme good fortune"
+      ]
+    }
+  ]
+}

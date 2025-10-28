@@ -1,0 +1,482 @@
+{
+  "49.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "49.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "49.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "49.4": {
+    "weight": 0.15,
+    "alignment_type": "core",
+    "why": "Pushes 'this treatment is no longer acceptable here' for the group. (weak thematic resonance with orion-dark)"
+  },
+  "49.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "49.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "50.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "50.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "50.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "50.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "50.5": {
+    "weight": 0.15,
+    "alignment_type": "core",
+    "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+  },
+  "50.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "51.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "51.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "51.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "51.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "51.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "51.6": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Detached superiority: 'only the forged are worthy.' (weak thematic resonance with orion-dark)"
+  },
+  "52.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "52.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "52.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "52.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "52.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "52.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "53.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "53.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "53.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "53.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "53.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "53.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "54.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "54.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "54.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "54.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "54.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "54.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "55.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "55.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "55.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "55.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "55.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "55.6": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Spiritualized mood elitism: 'my depth > your numbness.' (weak thematic resonance with orion-dark)"
+  },
+  "56.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "56.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "56.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "56.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "56.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "56.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "57.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "57.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "57.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "57.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "57.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "57.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "58.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "58.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "58.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "58.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "58.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "58.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "59.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "59.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "59.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "59.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "59.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "59.6": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Spiritualizes boundary collapse; superiority about 'true intimacy.' (weak thematic resonance with orion-dark)"
+  },
+  "60.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "60.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "60.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "60.4": {
+    "weight": 0.15,
+    "alignment_type": "core",
+    "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+  },
+  "60.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "60.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "61.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "61.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "61.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "61.4": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "Uses 'mystery' to sound above everyone. (weak thematic resonance with orion-dark)"
+  },
+  "61.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "61.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "62.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "62.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "62.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "62.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "62.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "62.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "63.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "63.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "63.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "63.4": {
+    "weight": 0.15,
+    "alignment_type": "core",
+    "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+  },
+  "63.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "63.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "64.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "64.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "64.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "64.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "64.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  },
+  "64.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+  }
+}

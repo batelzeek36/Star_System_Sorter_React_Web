@@ -1,0 +1,180 @@
+{
+  "id": "gate.2",
+  "hexagram": "hx02",
+  "center": "G",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.1",
+  "polarity": {
+    "opposite_on_wheel": "gate.1"
+  },
+  "themes": [
+    "direction of self",
+    "correct placement",
+    "intuitive navigation",
+    "guiding resources and people"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "2.1",
+      "line_number": 1,
+      "keywords": [
+        "inner compass building",
+        "quiet orientation work",
+        "mapping correct path"
+      ],
+      "behavioral_axis": "Needs solid internal clarity about direction before moving.",
+      "shadow_axis": "Paralyzed waiting for the perfect map from outside.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_time_to_lock_internal_direction": true,
+          "does_not_want_external_orders": true,
+          "seeks_safe_planning_space": true
+        },
+        "group_role": "internal navigator / path calibrator"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "2.2",
+      "line_number": 2,
+      "keywords": [
+        "natural navigator",
+        "intuitive guidance flow",
+        "born sense of direction"
+      ],
+      "behavioral_axis": "Just ‘knows’ where resources and people belong.",
+      "shadow_axis": "Resents being asked to lead, hides gifts out of annoyance.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "rejects_forced_leadership": true,
+          "needs_respect_for_instinctive_guidance": true,
+          "wants_to_point_not_manage": true
+        },
+        "group_role": "intuitive guide / wayfinder"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "2.3",
+      "line_number": 3,
+      "keywords": [
+        "direction through chaos",
+        "improv routing",
+        "messy course-correction"
+      ],
+      "behavioral_axis": "Learns right path by repeatedly taking wrong turns and adapting.",
+      "shadow_axis": "Feels unreliable, judged as aimless or reckless.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_space_to_iterate_in_motion": true,
+          "partners_must_handle_detours": true,
+          "requires_low_judgment_environment": true
+        },
+        "group_role": "scout / adaptive router"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "2.4",
+      "line_number": 4,
+      "keywords": [
+        "guides the network",
+        "resource connector",
+        "placement strategist"
+      ],
+      "behavioral_axis": "Provides direction for others by linking the right people and places.",
+      "shadow_axis": "Political positioning, steering people for personal leverage.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_trust_in_social_mapping": true,
+          "hates_being_accused_of_manipulation": true,
+          "prefers_collaborative_strategy": true
+        },
+        "group_role": "connector / placement strategist"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "2.5",
+      "line_number": 5,
+      "keywords": [
+        "projected guide",
+        "‘show us the way’ energy",
+        "strategic rescuer"
+      ],
+      "behavioral_axis": "Others expect you to fix direction for the group fast.",
+      "shadow_axis": "Blamed when the route doesn’t save everyone instantly.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_clear_scope_of_responsibility": true,
+          "requires_support_not_blame": true,
+          "partners_must_handle_public_projection": true
+        },
+        "group_role": "public pathfinder / crisis navigator"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "2.6",
+      "line_number": 6,
+      "keywords": [
+        "future pathkeeper",
+        "big-picture orientation",
+        "legacy navigation"
+      ],
+      "behavioral_axis": "Embodies long-term direction for a collective, not just short-term moves.",
+      "shadow_axis": "Becomes aloof, unreachable, ‘above’ normal concerns.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_respect_for_long_term_path": true,
+          "rejects_short_term_drama": true,
+          "requires_autonomy_from_group_pull": true
+        },
+        "group_role": "long-range steward / horizon navigator"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-28",
+    "status": "provisional"
+  }
+}

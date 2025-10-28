@@ -1,0 +1,15 @@
+{
+  "id": "circuit.tribal",
+  "family": "Tribal",
+  "name": "Ego/Defense",
+  "purpose": "Support, resources, and bargains for community survival.",
+  "channels": [
+    "ch.6-59",
+    "ch.19-49",
+    "ch.21-45",
+    "ch.26-44",
+    "ch.27-50",
+    "ch.32-54",
+    "ch.37-40"
+  ]
+}

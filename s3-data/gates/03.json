@@ -1,0 +1,181 @@
+{
+  "id": "gate.3",
+  "hexagram": "hx03",
+  "center": "Sacral",
+  "circuit": "Individual / Knowing",
+  "programming_partner": null,
+  "polarity": {
+    "opposite_on_wheel": null
+  },
+  "themes": [
+    "mutation",
+    "ordering chaos",
+    "stabilizing the new",
+    "bringing form to turbulence",
+    "early-phase struggle"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "3.1",
+      "line_number": 1,
+      "keywords": [
+        "stabilizing chaos",
+        "building structure from mess",
+        "foundation for mutation"
+      ],
+      "behavioral_axis": "Wants a workable base before allowing change to spread.",
+      "shadow_axis": "Anxiety around disorder; over-controls the new before it can breathe.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_predictable_base": true,
+          "needs_respect_for_setup_phase": true,
+          "rejects_rushed_change": true
+        },
+        "group_role": "stabilizer / ground layer"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "3.2",
+      "line_number": 2,
+      "keywords": [
+        "natural innovator",
+        "doesn't like interference",
+        "private problem-solver"
+      ],
+      "behavioral_axis": "Can produce elegant fixes for early-stage chaos without help.",
+      "shadow_axis": "Refuses collaboration and rejects input even when drowning.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_space_to_prototype_alone": true,
+          "rejects_micromanagement": true,
+          "wants_respect_for_personal_method": true
+        },
+        "group_role": "early-stage fixer / private engineer"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "3.3",
+      "line_number": 3,
+      "keywords": [
+        "trial-and-error change",
+        "break-rebuild cycles",
+        "mutation through stress"
+      ],
+      "behavioral_axis": "Mutates systems by stress-testing them in real conditions.",
+      "shadow_axis": "Permanent instability, drama loops, constant crisis mode.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "partners_must_tolerate_volatility": true,
+          "needs_allies_who_dont_panic_at_breakage": true,
+          "needs_room_to_rebuild_after_failure": true
+        },
+        "group_role": "stress-tester / breaker"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "3.4",
+      "line_number": 4,
+      "keywords": [
+        "social adapter",
+        "teaches others the new pattern",
+        "bridge between chaos and group"
+      ],
+      "behavioral_axis": "Translates unstable beginnings into something others can actually use.",
+      "shadow_axis": "Spins instability to gain influence or sympathy.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_social_trust": true,
+          "needs_permission_to_translate_the_chaos": true,
+          "dislikes_being_called_manipulative": true
+        },
+        "group_role": "translator / bridge / integrator"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "3.5",
+      "line_number": 5,
+      "keywords": [
+        "systems fixer",
+        "hero of the rollout",
+        "patch-and-deploy"
+      ],
+      "behavioral_axis": "Gets projected on as ‘the one who can make this broken system work for everyone.’",
+      "shadow_axis": "Scapegoated when the mess is actually unfixable.",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_clear_mandate_not_fantasy": true,
+          "requires_backup_when_impossible": true,
+          "partners_must_handle_public_projection": true
+        },
+        "group_role": "rollout commander / crisis stabilizer"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "3.6",
+      "line_number": 6,
+      "keywords": [
+        "long-view reformer",
+        "lifecycle awareness",
+        "evolution architect"
+      ],
+      "behavioral_axis": "Understands how chaotic beginnings mature into stable forms over time.",
+      "shadow_axis": "Detached cynicism: ‘everything starts broken so why care.’",
+      "matchmaking_vector": {
+        "relationship_needs": {
+          "needs_space_to_design_long_arc": true,
+          "rejects_constant_firefighting": true,
+          "requires_low_drama_environment": true
+        },
+        "group_role": "evolution architect / policy shaper"
+      },
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-28",
+    "status": "provisional"
+  }
+}
