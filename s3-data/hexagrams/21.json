@@ -1,46 +1,149 @@
 {
   "id": "hx21",
   "number": 21,
-  "name": "TBD",
+  "unicode_hexagram": "䷔",
+  "name": "Biting Through (噬嗑, Shì Hé)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Shih Ho indicates successful progress (in the condition of things which it supposes). It will be advantageous to use legal constraints.",
+    "normalized_summary": "Biting Through = decisive justice. When something is stuck between people — obstruction, deceit, crime — it must be bitten through, even harshly, so that order can be restored. The hexagram says: apply firm, appropriate correction. When justice is clear and proportional, the system can unite and move forward."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows one with his feet in the stocks and deprived of his toes. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：屨校滅趾，無咎。"
+        }
+      ],
+      "normalized_meaning": "Early-stage offense gets a light restraint. Movement is stopped before worse harm is done. Accept the warning — it's corrective, not a condemnation.",
+      "keywords": [
+        "early discipline",
+        "minor punishment",
+        "prevent escalation",
+        "restraint",
+        "no blame"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows one biting through the soft flesh, and (going on to) bite off the nose. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：噬膚，滅鼻，無咎。"
+        }
+      ],
+      "normalized_meaning": "Swift, forceful action. It's a bit brutal, but it subdues defiance. Sometimes justice has to go far enough that resistance stops.",
+      "keywords": [
+        "decisive enforcement",
+        "firm justice",
+        "controlled severity",
+        "no blame",
+        "stopping defiance"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one gnawing dried flesh, and meeting with what is disagreeable. There will be occasion for some small regret, but no (great) error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：噬臘肉，遇毒；小吝，無咎。"
+        }
+      ],
+      "normalized_meaning": "You’re dealing with a nasty, sticky situation. It's gross, politically or morally. You may feel some regret, but handling it is still basically right.",
+      "keywords": [
+        "unpleasant duty",
+        "toxic situation",
+        "small regret",
+        "necessary correction",
+        "no major error"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows one gnawing the flesh dried on the bone, and getting the pledges of money and arrows. It will be advantageous to him to realise the difficulty of his task and be firm,--in which case there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：噬乾胏，得金矢，利艱貞，吉。"
+        }
+      ],
+      "normalized_meaning": "Serious judicial work. You secure evidence and authority (money, arrows), but it's hard work. Know it's difficult, stay steady, and you'll succeed.",
+      "keywords": [
+        "judicial responsibility",
+        "evidence and mandate",
+        "firm perseverance",
+        "difficult task",
+        "good fortune"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows one gnawing at dried flesh, and finding the yellow gold. Let him be firm and correct, realising the peril (of his position). There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：噬乾肉，得黃金，貞厲，無咎。"
+        }
+      ],
+      "normalized_meaning": "At the center of power: applying law reveals truth (‘yellow gold’). Stay upright and aware of danger. That vigilance keeps you free of blame.",
+      "keywords": [
+        "just governance",
+        "truth revealed",
+        "integrity under pressure",
+        "aware of danger",
+        "no error"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows one wearing the cangue, and deprived of his ears. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：何校滅耳，凶。"
+        }
+      ],
+      "normalized_meaning": "This is the extreme end: total disgrace, punishment, and refusal to listen. If things get this far, it's already gone bad.",
+      "keywords": [
+        "severe penalty",
+        "public shame",
+        "deaf to counsel",
+        "final consequence",
+        "misfortune"
+      ]
     }
   ]
 }

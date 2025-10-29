@@ -1,46 +1,149 @@
 {
   "id": "hx23",
   "number": 23,
-  "name": "TBD",
+  "unicode_hexagram": "䷖",
+  "name": "Splitting Apart / Stripping Away (剝, Bō)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Po indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.",
+    "normalized_summary": "Systems are rotting from the bottom up. Surfaces may still look intact, but the structure is failing. This is not a time to advance. Pull back, reduce exposure, and let decay complete so that what is false can fall away."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows one overturning the couch by injuring its legs. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：剝床以足，蔑貞凶。"
+        }
+      ],
+      "normalized_meaning": "Decay begins at the base. Attacking the foundation leads to total loss of integrity. If you keep participating in this erosion, it turns to misfortune.",
+      "keywords": [
+        "foundation damage",
+        "erosion at the base",
+        "imminent misfortune",
+        "structural collapse warning",
+        "stop now"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows one overthrowing the couch by injuring its frame. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：剝床以辨，蔑貞凶。"
+        }
+      ],
+      "normalized_meaning": "The rot spreads into the frame. Staying loyal to what’s collapsing will only drag you down with it. Persistence here is not virtue — it’s self-ruin.",
+      "keywords": [
+        "frame collapse",
+        "sticking with decay",
+        "loyalty cost",
+        "no stability",
+        "misfortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject among the overthrowers; but there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：剝之，無咎。"
+        }
+      ],
+      "normalized_meaning": "You take part in stripping away what’s corrupt. At this point, removing the failing structure is not a crime — it’s necessary and you’re not blamed.",
+      "keywords": [
+        "necessary break",
+        "no blame",
+        "dismantling corruption",
+        "survival choice",
+        "alignment shift"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject having overthrown the couch, and (going to injure) the skin (of him who lies on it). There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：剝床以膚，凶。"
+        }
+      ],
+      "normalized_meaning": "The collapse is now cutting into living flesh. You’re in direct danger. At this range the decay is harmful, not theoretical — staying means injury.",
+      "keywords": [
+        "personal harm",
+        "too close to disaster",
+        "critical danger",
+        "injury",
+        "misfortune"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows (its subject leading on the others like) a string of fishes, and (obtaining for them) the favour that lights on the inmates of the palace. There will be advantage in every way.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：貫魚，以宮人寵，無不利。"
+        }
+      ],
+      "normalized_meaning": "Move in quiet formation, stay coordinated, and accept protection from someone within the center of power. Humble, orderly alignment under shelter is fortunate.",
+      "keywords": [
+        "protected alliance",
+        "quiet support",
+        "court favor",
+        "group cohesion",
+        "benefit"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject (as) a great fruit which has not been eaten. The superior man finds (the people again) as a chariot carrying him. The small men (by their course) overthrow their own dwellings.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：碩果不食，君子得輿，小人剝廬。"
+        }
+      ],
+      "normalized_meaning": "After the stripping-away, something valuable remains untouched. The worthy regain support and are carried forward. The corrupt destroy their own shelter.",
+      "keywords": [
+        "survival of virtue",
+        "support returns",
+        "transition of power",
+        "corruption self-destructs",
+        "new vehicle"
+      ]
     }
   ]
 }

@@ -1,46 +1,149 @@
 {
   "id": "hx25",
   "number": 25,
-  "name": "TBD",
+  "unicode_hexagram": "䷘",
+  "name": "Innocence / No Falsehood (無妄, Wú Wàng)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Wû Wang indicates great progress and success, while there will be advantage in being firm and correct. If (its subject and his action) be not correct, he will fall into errors, and it will not be advantageous for him to move in any direction.",
+    "normalized_summary": "Act from clean intent and correct conduct. Don’t scheme or force outcomes. When you are aligned, momentum returns; when you’re not, any push misfires."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject free from all insincerity. His advance will be accompanied with good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：无妄，往吉。"
+        }
+      ],
+      "normalized_meaning": "Move forward only from a clear, uncontrived place. Innocent advance meets favorable conditions.",
+      "keywords": [
+        "pure intent",
+        "clean advance",
+        "good fortune",
+        "no ulterior motive",
+        "green light"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows one who reaps without having ploughed (that he might reap), and gathers the produce of his third year's fields without having cultivated them the first year for that end. To such a one there will be advantage in whatever direction he may move.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：不耕穫，不菑畬，則利有攸往。"
+        }
+      ],
+      "normalized_meaning": "Results arrive without manipulation. Accept the simple gains and proceed—benefit in any direction when you’re not forcing it.",
+      "keywords": [
+        "effortless yield",
+        "non-forcing",
+        "unexpected gain",
+        "go any direction",
+        "natural timing"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows calamity happening to one who is free from insincerity;—as in the case of an ox that has been tied up. A passer by finds it (and carries it off), while the people in the neighbourhood have the calamity (of being accused and apprehended).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：无妄之災，或繫之牛。行人之得，邑人之災。"
+        }
+      ],
+      "normalized_meaning": "Undeserved trouble can still occur. Stay innocent; don’t internalize blame for events outside your control.",
+      "keywords": [
+        "undeserved misfortune",
+        "external factors",
+        "innocence tested",
+        "avoid self-blame",
+        "contain fallout"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows (a case) in which, if its subject can remain firm and correct, there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：可貞，无咎。"
+        }
+      ],
+      "normalized_meaning": "Hold steady in rectitude. Staying true prevents mistakes as things shift around you.",
+      "keywords": [
+        "firm correctness",
+        "self-command",
+        "no blame",
+        "stay the course",
+        "stability"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows one who is free from insincerity, and yet has fallen ill. Let him not use medicine, and he will have occasion for joy (in his recovery).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：无妄之疾，勿藥有喜。"
+        }
+      ],
+      "normalized_meaning": "Temporary setback despite innocence. Don’t over-treat or meddle; allow the natural correction and recovery.",
+      "keywords": [
+        "non-interference",
+        "natural recovery",
+        "patience",
+        "benign setback",
+        "trust the process"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject free from insincerity, yet sure to fall into error, if he take action. (His action) will not be advantageous in any way.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：无妄，行有眚，无攸利。"
+        }
+      ],
+      "normalized_meaning": "Even with clean intent, acting now misfires. Stand down; forcing movement brings only loss.",
+      "keywords": [
+        "do not act",
+        "misstep risk",
+        "stand still",
+        "no advantage",
+        "restraint"
+      ]
     }
   ]
 }

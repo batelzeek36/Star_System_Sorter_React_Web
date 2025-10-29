@@ -1,46 +1,149 @@
 {
   "id": "hx14",
   "number": 14,
-  "name": "TBD",
+  "unicode_hexagram": "䷍",
+  "name": "Possession in Great Measure (大有, Dà Yǒu)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Tâ Yû indicates that, (under the circumstances which it implies), there will be great progress and success.",
+    "normalized_summary": "Great possession — wealth, power, influence. It's favorable, but only if it's governed by humility, discipline, and service. The blessing stays clean when ego stays restrained and resources are used for the greater order instead of self-glorification."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the first NINE, undivided, there is no approach to what is injurious, and there is no error. Let there be a realisation of the difficulty (and danger of the position), and there will be no error (to the end).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：無交害，匪咎，艱則無咎。"
+        }
+      ],
+      "normalized_meaning": "Stay out of corrupt entanglements. You're clear of harm and not at fault. Keep remembering how risky this position is and stay disciplined to remain blameless.",
+      "keywords": [
+        "avoid corruption",
+        "caution in success",
+        "no blame",
+        "self-discipline",
+        "risk awareness"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the second NINE, undivided, we have a large waggon with its load. In whatever direction advance is made, there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：大車以載，有攸往，無咎。"
+        }
+      ],
+      "normalized_meaning": "You have the capacity and support to move something big. Your position can carry weight responsibly, so forward motion is not a mistake.",
+      "keywords": [
+        "capacity to carry",
+        "resourcefulness",
+        "forward movement",
+        "reliable support",
+        "no blame"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows us a feudal prince presenting his offerings to the Son of Heaven. A small man would be unequal (to such a duty).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：公用亨于天子，小人弗克。"
+        }
+      ],
+      "normalized_meaning": "High service in front of true power. Only someone noble can stand there without disgracing the role. Petty ambition collapses under that responsibility.",
+      "keywords": [
+        "service to higher order",
+        "worthiness",
+        "loyalty to rightful ruler",
+        "nobility vs pettiness",
+        "access to power"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject keeping his great resources under restraint. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：匪其彭，無咎。"
+        }
+      ],
+      "normalized_meaning": "Hold back. Do not flaunt power. Quiet control and non-excess keep you clear of blame.",
+      "keywords": [
+        "restraint",
+        "humble power",
+        "resource control",
+        "non-excess",
+        "no blame"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows the sincerity of its subject reciprocated by that of all the others (represented in the hexagram). Let him display a proper majesty, and there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：厥孚交如，威如，吉。"
+        }
+      ],
+      "normalized_meaning": "Central leadership is trusted and answered with loyalty. Stay sincere, but also carry rightful authority. Benevolence plus presence = good fortune.",
+      "keywords": [
+        "mutual trust",
+        "loyal followers",
+        "benevolent authority",
+        "proper majesty",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject with help accorded to him from Heaven. There will be good fortune, advantage in every respect.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：自天祐之，吉，無不利。"
+        }
+      ],
+      "normalized_meaning": "Heaven backs you. Favor is active; everything aligns. This is peak blessing — use it cleanly.",
+      "keywords": [
+        "heavenly backing",
+        "blessing",
+        "completion",
+        "total advantage",
+        "destined success"
+      ]
     }
   ]
 }

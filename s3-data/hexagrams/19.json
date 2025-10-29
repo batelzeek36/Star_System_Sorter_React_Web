@@ -1,46 +1,149 @@
 {
   "id": "hx19",
   "number": 19,
-  "name": "TBD",
+  "unicode_hexagram": "䷒",
+  "name": "Approach / Nearing (臨, Lín)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Lin (indicates that under the conditions supposed in it) there will be great progress and success, while it will be advantageous to be firmly correct. In the eighth month there will be evil.",
+    "normalized_summary": "Approach. Power draws near, leadership comes down to the people, and things move forward with momentum. This moment of closeness between authority and those below is hugely favorable — if guided by integrity. But it won’t last forever; if self-satisfaction creeps in later, decline sets in (‘in the eighth month, there will be misfortune’)."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject advancing in company (with the subject of the second line). Through his firm correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：咸臨，貞吉。"
+        }
+      ],
+      "normalized_meaning": "Advance together with the right ally. Move forward in integrity and you get good fortune.",
+      "keywords": [
+        "joint advance",
+        "aligned partnership",
+        "firm correctness",
+        "good fortune",
+        "early momentum"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject advancing in company (with the subject of the first line). There will be good fortune; (advancing) will be in every way advantageous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：咸臨，吉，無不利。"
+        }
+      ],
+      "normalized_meaning": "Mutual approach. The two strong forces coordinate and move as one. This is broadly favorable in all directions.",
+      "keywords": [
+        "mutual support",
+        "cooperation",
+        "all-around advantage",
+        "shared direction",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one well pleased (indeed) to advance, (but whose action) will be in no way advantageous. If he become anxious about it (however), there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：甘臨，無攸利；既憂之，無咎。"
+        }
+      ],
+      "normalized_meaning": "It feels good to push ahead — but it’s not actually helpful. If you catch yourself, worry about the consequences, and correct, you avoid blame.",
+      "keywords": [
+        "complacent advance",
+        "over-eagerness",
+        "self-check",
+        "preventing error",
+        "no lasting blame"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows one advancing in the highest mode. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：至臨，無咎。"
+        }
+      ],
+      "normalized_meaning": "Approach carried out in the most elevated, appropriate way. This kind of presence — respectful, correct, not arrogant — brings no fault.",
+      "keywords": [
+        "noble approach",
+        "proper conduct",
+        "high standard",
+        "no error",
+        "dignified presence"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows the advance of wisdom, such as befits the great ruler. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：知臨，大君之宜，吉。"
+        }
+      ],
+      "normalized_meaning": "Wise, thoughtful leadership comes forward. The ruler approaches with insight, not force. That brings good fortune.",
+      "keywords": [
+        "wise leadership",
+        "ruler’s insight",
+        "appropriate authority",
+        "good fortune",
+        "right use of power"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth SIX, divided, shows the advance of honesty and generosity. There will be good fortune, and no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：敦臨，吉，無咎。"
+        }
+      ],
+      "normalized_meaning": "The culmination of approach is sincere, open-hearted presence. Come forward with integrity and generosity and you're clear of blame.",
+      "keywords": [
+        "honesty",
+        "generosity",
+        "benevolent presence",
+        "good fortune",
+        "no error"
+      ]
     }
   ]
 }

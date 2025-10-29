@@ -1,13 +1,169 @@
 {
   "id": "gate.5",
   "hexagram": "hx05",
-  "center": "TODO",
-  "circuit": "TODO",
+  "center": "Sacral",
+  "circuit": "Collective / Sensing (Abstract)",
   "programming_partner": null,
   "polarity": {
     "opposite_on_wheel": null
   },
-  "themes": [],
+  "themes": [
+    "fixed rhythm",
+    "natural timing",
+    "daily routine and pacing",
+    "stability through repetition",
+    "bio-temporal intelligence (when is correct)"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "5.1",
+      "line_number": 1,
+      "keywords": [
+        "rhythm foundation",
+        "needs reliable routine",
+        "stability of timing"
+      ],
+      "behavioral_axis": "Protects their natural timing and expects life to respect it.",
+      "shadow_axis": "Feels unsafe when rhythm breaks, locks down control.",
+      "relationship_needs": {
+        "needs_consistent_routine": true,
+        "needs_environment_that_respects_timing": true,
+        "rejects_forced_schedule_changes": true
+      },
+      "group_role": "pace anchor / timing protector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "5.2",
+      "line_number": 2,
+      "keywords": [
+        "natural timing",
+        "intuitive pacing",
+        "doesn't want to be rushed"
+      ],
+      "behavioral_axis": "Moves in a personally correct rhythm that often syncs to something natural and non-forced.",
+      "shadow_axis": "Withdraws or shuts down if pressured to speed up.",
+      "relationship_needs": {
+        "cannot_be_rushed": true,
+        "needs_space_to_move_in_own_pace": true,
+        "needs_low_pressure_environment": true
+      },
+      "group_role": "organic metronome / seasonal pacer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "5.3",
+      "line_number": 3,
+      "keywords": [
+        "trial-and-error routine",
+        "stress-test cycles",
+        "adapting habits on the fly"
+      ],
+      "behavioral_axis": "Finds sustainable rhythm by repeatedly breaking and rebuilding habits.",
+      "shadow_axis": "Chaos lifestyle, claims 'this is just how I am.'",
+      "relationship_needs": {
+        "partners_must_tolerate_rhythm_instability": true,
+        "needs_room_to_reset_patterns": true,
+        "rejects_shame_for_inconsistency": true
+      },
+      "group_role": "pattern experimenter / adaptive pacer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "5.4",
+      "line_number": 4,
+      "keywords": [
+        "sets pace for others",
+        "tribe synchronizer",
+        "group timing anchor"
+      ],
+      "behavioral_axis": "Stabilizes the group's daily flow by modeling cadence.",
+      "shadow_axis": "Resentment when others lean on them as the metronome.",
+      "relationship_needs": {
+        "needs_recognition_not_dependency": true,
+        "needs_recovery_time_alone": true,
+        "dislikes_being_forced_into_leader_rhythm_role": true
+      },
+      "group_role": "group cadence setter / synchronizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "5.5",
+      "line_number": 5,
+      "keywords": [
+        "responsibility projection",
+        "fix our timing",
+        "schedule savior"
+      ],
+      "behavioral_axis": "Others expect them to 'solve' timing/consistency problems.",
+      "shadow_axis": "Blamed when the whole team can’t self-regulate.",
+      "relationship_needs": {
+        "needs_clear_boundaries_on_support": true,
+        "requires_shared_responsibility": true,
+        "partners_must_handle_public_projection": true
+      },
+      "group_role": "timing firefighter / routine fixer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "5.6",
+      "line_number": 6,
+      "keywords": [
+        "lifetime pattern wisdom",
+        "teaches sustainable pacing",
+        "embodied seasonal rhythm"
+      ],
+      "behavioral_axis": "Holds an elder-level sense of what healthy pace looks like for a life.",
+      "shadow_axis": "Detached judgment of people who can’t maintain discipline.",
+      "relationship_needs": {
+        "needs_respect_for_long_term_rhythm": true,
+        "rejects_short_term_urgency_culture": true,
+        "wants_mature_self_regulated_people": true
+      },
+      "group_role": "seasonal elder / pace keeper",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-28",
+    "status": "provisional"
+  }
 }

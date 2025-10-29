@@ -1,46 +1,149 @@
 {
   "id": "hx18",
   "number": 18,
-  "name": "TBD",
+  "unicode_hexagram": "䷑",
+  "name": "Work on What Has Been Spoiled / Decay (蠱, Gǔ)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Kû indicates great progress and success (to him who deals properly with the condition represented by it). There will be advantage in (efforts like that of) crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it.",
+    "normalized_summary": "Rot has set in. Something inherited is corrupted and must be repaired. This hexagram says: do the cleanup, even if it’s heavy, and study both what led to the decay (three days before) and what must follow after (three days after). The work is sacred duty, not vanity — you fix the mess, restore order, and sometimes step outside the existing power structure if that structure is the source of decay."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows (a son) dealing with the troubles caused by his father. If he be an (able) son, the father will escape the blame of having erred. The position is perilous, but there will be good fortune in the end.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：干父之蛊，有子，考无咎，厉终吉。"
+        }
+      ],
+      "normalized_meaning": "You inherit a mess from the previous generation and take responsibility for fixing it. It's risky and stressful, but doing the repair work protects their name and ends well.",
+      "keywords": [
+        "repairing the father's damage",
+        "filial duty",
+        "inherited corruption",
+        "danger but ends well",
+        "restoring reputation"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows (a son) dealing with the troubles caused by his mother. He should not (carry) his firm correctness (to the utmost).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：干母之蛊，不可贞。"
+        }
+      ],
+      "normalized_meaning": "Clean up the damage, but don't be harsh or self-righteous. Correction here has to be gentle and humane, not rigid.",
+      "keywords": [
+        "repairing the mother's damage",
+        "measured response",
+        "avoid rigidity",
+        "gentle correction",
+        "maintain relationship"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows (a son) dealing with the troubles caused by his father. There may be some small occasion for repentance, but there will not be any great error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：干父之蛊，小有悔，无大咎。"
+        }
+      ],
+      "normalized_meaning": "You take action and maybe overstep a little. You’ll wish you’d handled part of it better, but it’s not a catastrophe.",
+      "keywords": [
+        "course correction",
+        "minor remorse",
+        "no major blame",
+        "active cleanup",
+        "learning through action"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows (a son) viewing indulgently the troubles caused by his father. If he go forward, he will find cause to regret it.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：裕父之蛊，往见吝。"
+        }
+      ],
+      "normalized_meaning": "This is enabling. Being lenient with corruption out of loyalty or comfort leads to shame later if you keep going that way.",
+      "keywords": [
+        "enabling decay",
+        "excess tolerance",
+        "avoiding confrontation",
+        "future regret",
+        "bad compliance"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows (a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：干父之蛊，用誉。"
+        }
+      ],
+      "normalized_meaning": "You handle the cleanup well and choose the right tools / allies for the fix. People recognize and praise the quality of how you restore order.",
+      "keywords": [
+        "competent stewardship",
+        "right tool for the job",
+        "public praise",
+        "restoring order",
+        "reputation for integrity"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：不事王侯，高尚其事。"
+        }
+      ],
+      "normalized_meaning": "Highest expression: you refuse corrupt power structures entirely. You serve principle itself, not a ruler. Sovereign duty over obedience.",
+      "keywords": [
+        "sovereign integrity",
+        "refusal to serve corruption",
+        "lofty independence",
+        "personal mission",
+        "pure principle"
+      ]
     }
   ]
 }

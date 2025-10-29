@@ -1,46 +1,149 @@
 {
   "id": "hx20",
   "number": 20,
-  "name": "TBD",
+  "unicode_hexagram": "䷓",
+  "name": "Contemplation / Viewing (觀, Guān)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Kwân shows (how he whom it represents should be like) the worshipper who has washed his hands, but not (yet) presented his offerings;--with sincerity and an appearance of dignity (commanding reverent regard).",
+    "normalized_summary": "Ritual readiness, not performance. You are being seen. True authority is built by visible sincerity and inner dignity. The hexagram teaches contemplative self-examination, because others will follow what you are, not what you claim. Leadership begins with looking at yourself clearly."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows the looking of a lad;--not blamable in men of inferior rank, but matter for regret in superior men.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：童觀，小人無咎，君子吝。"
+        }
+      ],
+      "normalized_meaning": "Naive, shallow looking. For ordinary people, limited vision is fine. For someone in a higher role, it's embarrassing to see only like a child.",
+      "keywords": [
+        "childlike view",
+        "limited perspective",
+        "inexperience",
+        "no blame for the lowly",
+        "humiliation for the noble"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows one peeping out from a door. It would be advantageous if it were (merely) the firm correctness of a female.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：闚觀，利女貞。"
+        }
+      ],
+      "normalized_meaning": "Cautious, partial view from behind the door. That kind of reserved watching is acceptable in a protected/yin position — but it's not enough for open public responsibility.",
+      "keywords": [
+        "cautious observation",
+        "peeking from safety",
+        "proper reserve",
+        "limited scope",
+        "feminine/yin correctness"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one looking at (the course of) his own life, to advance or recede (accordingly).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：觀我生，進退。"
+        }
+      ],
+      "normalized_meaning": "Turn the gaze inward. Study your own path and choose whether to go forward or pull back. Observation guides timing.",
+      "keywords": [
+        "self-examination",
+        "deciding advance / retreat",
+        "situational awareness",
+        "adaptive timing",
+        "introspection"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows one contemplating the glory of the kingdom. It will be advantageous for him, being such as he is, (to seek) to be a guest of the king.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：觀國之光，利用賓于王。"
+        }
+      ],
+      "normalized_meaning": "You witness the radiance of rightful rule — the larger order. It's favorable now to approach and serve that center with respect.",
+      "keywords": [
+        "seeing the realm",
+        "aspiration to serve",
+        "audience with the ruler",
+        "aligning with higher order",
+        "advantageous approach"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject contemplating his own life(-course). A superior man, he will (thus) fall into no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：觀我生，君子無咎。"
+        }
+      ],
+      "normalized_meaning": "The one in power reflects on their own conduct. This self-audit keeps the leader from going off track.",
+      "keywords": [
+        "leader self-reflection",
+        "accountability",
+        "noble introspection",
+        "no error",
+        "integrity in power"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows its subject contemplating his character to see if it be indeed that of a superior man. He will not fall into error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：觀其生，君子無咎。"
+        }
+      ],
+      "normalized_meaning": "At the very top: examine not just actions, but your character itself. Stay humble and keep testing yourself, and you avoid blame.",
+      "keywords": [
+        "character audit",
+        "ongoing humility",
+        "ethical vigilance",
+        "no blame",
+        "final self-inspection"
+      ]
     }
   ]
 }

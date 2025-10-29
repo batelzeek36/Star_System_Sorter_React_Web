@@ -1,46 +1,149 @@
 {
   "id": "hx12",
   "number": 12,
-  "name": "TBD",
+  "unicode_hexagram": "䷋",
+  "name": "Standstill / Stagnation / Blocked (否, Pǐ)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In Phî there is the want of good understanding between the (different classes of) men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.",
+    "normalized_summary": "The channel between ‘above’ and ‘below’ is cut. Noble order withdraws and petty influence fills the space. Communication, support, justice — all clogged. This is not a time for the principled person to push outward; it’s a time to endure, choose allies carefully, and wait for the turn."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first line, divided, suggests the idea of grass pulled up, and bringing with it other stalks with whose roots it is connected. With firm correctness (on the part of its subject), there will be good fortune and progress.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：拔茅茹，以其彙。貞吉，亨。"
+        }
+      ],
+      "normalized_meaning": "Even in blockage, aligned movement at the bottom ripples outward. Gather with your true kind and hold steady; integrity attracts others and creates the first opening.",
+      "keywords": [
+        "collective emergence",
+        "finding your allies",
+        "ripple effect",
+        "upright persistence",
+        "early movement in stagnation"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second line, divided, shows its subject patient and obedient. To the small man (comporting himself so) there will be good fortune. If the great man (comport himself) as the distress and obstruction require, he will have success.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：包承，小人吉；大人否亨。"
+        }
+      ],
+      "normalized_meaning": "Compliance and pleasing authority works for opportunists right now. For the noble person, forcing action is blocked — but disciplined patience still carries you through.",
+      "keywords": [
+        "endure without ego",
+        "strategic patience",
+        "playing low profile",
+        "corrupt advantage for the small",
+        "limited movement for the worthy"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third line, divided, shows its subject ashamed of the purpose folded (in his breast).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：包羞。"
+        }
+      ],
+      "normalized_meaning": "You know you're compromising yourself just to survive this environment, and you don't like what that says about you. The shame is the signal.",
+      "keywords": [
+        "self-compromise",
+        "inner shame",
+        "ethical tension",
+        "moral pressure",
+        "misalignment"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth line, undivided, shows its subject acting in accordance with the ordination (of Heaven), and committing no error. His companions will come and share in his happiness.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：有命无咎，疇離祉。"
+        }
+      ],
+      "normalized_meaning": "Follow rightful mandate, not personal impulse. If you act only when it’s legitimately time, you’re blameless — and the right allies return to stand with you.",
+      "keywords": [
+        "wait for clear mandate",
+        "act with legitimacy",
+        "no blame",
+        "reunification with allies",
+        "shared blessing"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the fifth line, undivided, we see him who brings the distress and obstruction to a close,—the great man and fortunate. (But let him say), 'We may perish! We may perish!' (so shall the state of things become firm, as if) bound to a clump of bushy mulberry trees.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：休否，大人吉。其亡其亡，繫于苞桑。"
+        }
+      ],
+      "normalized_meaning": "The blockage can actually be relieved here by a real leader — but it's fragile. Stay vigilant. Assume collapse is still possible and secure the foundation.",
+      "keywords": [
+        "beginning of recovery",
+        "responsible leadership",
+        "caution at the top",
+        "stabilizing the system",
+        "urgency / vigilance"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth line, undivided, shows the overthrow (and removal of) the condition of distress and obstruction. Before this there was that condition. Hereafter there will be joy.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：傾否，先否後喜。"
+        }
+      ],
+      "normalized_meaning": "The stagnation collapses. This is the turn: first the blockage, then relief. The jam breaks and joy follows.",
+      "keywords": [
+        "blockage ends",
+        "turning point",
+        "breakthrough",
+        "release after pressure",
+        "emergent joy"
+      ]
     }
   ]
 }
