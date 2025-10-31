@@ -1,13 +1,206 @@
 {
   "id": "gate.62",
   "hexagram": "hx62",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.61",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.61"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "preponderance of the small (naming the Maia)",
+    "need to translate patterns into precise language",
+    "detail as the proof of logic",
+    "discipline, restraint, and research before expression",
+    "collective projection: “you have the facts, right?”"
+  ],
+  "fear": "fear of mistakes in the detail / fear of being unable to prove the logic",
+  "lines": [
+    {
+      "id": "62.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Routine",
+        "hd_quote": "The ability to transcend the boredom of routine through a rich and daring fantasy life."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational organization",
+          "daily research habit",
+          "fantasy-based test runs"
+        ],
+        "behavioral_axis": "Builds reliable detail through steady ritual plus inner simulations.",
+        "shadow_axis": "Endless theorizing; never publishing the pattern."
+      },
+      "relationship_needs": {
+        "needs_silence_for_thinking": true,
+        "prefers_predictable_routines": true,
+        "rejects_chaotic_partners": true
+      },
+      "group_role": "detail engine / pattern pre-tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "62.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Restraint",
+        "hd_quote": "The innate restrictiveness and discipline to comply with and exalt restraint."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected focus",
+          "paper-tiger risk",
+          "disciplined detail"
+        ],
+        "behavioral_axis": "Looks like it’s doing detail and often is.",
+        "shadow_axis": "Appears precise but hasn’t actually checked the data."
+      },
+      "relationship_needs": {
+        "needs_clearly_defined_tasks": true,
+        "prefers_low_distraction_spaces": true,
+        "rejects_constant_checkups": true
+      },
+      "group_role": "detail maintainer / logic gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "62.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Discovery",
+        "hd_quote": "The ability to discover valuable information in detail work and find innovative applications."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error logic",
+          "innovation through mistakes",
+          "detail → breakthrough"
+        ],
+        "behavioral_axis": "Finds new facts by getting it ‘wrong’ first.",
+        "shadow_axis": "Quits because detail is boring, missing the discovery."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_revisions": true,
+        "rejects_shaming_for_errors": true
+      },
+      "group_role": "experimental fact-finder / pattern debugger",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "62.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Asceticism",
+        "hd_quote": "The perfected ascetic withdrawal in the pursuit of harmony and simplicity."
+      },
+      "interpretation": {
+        "keywords": [
+          "isolation to finish the logic",
+          "protective withdrawal",
+          "wait-for-opportunity"
+        ],
+        "behavioral_axis": "Leaves the noise to complete the detail correctly.",
+        "shadow_axis": "Endless research; never presenting the pattern."
+      },
+      "relationship_needs": {
+        "needs_respected_solo_time": true,
+        "prefers_consistent_context": true,
+        "rejects_forced_performance": true
+      },
+      "group_role": "research anchor / logic finisher",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "62.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Metamorphosis",
+        "hd_quote": "When excellence is achieved, action is necessary."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected expert",
+          "universalizing detail",
+          "logic ready to ship"
+        ],
+        "behavioral_axis": "Waits until the detail is complete, then delivers.",
+        "shadow_axis": "Seduced by projection → speaks before details are ready."
+      },
+      "relationship_needs": {
+        "needs_ready_audience": true,
+        "prefers_high-signal_collaborators": true,
+        "rejects_impatient_demands": true
+      },
+      "group_role": "detail presenter / collective updater",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "62.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Self-discipline",
+        "hd_quote": "Detail as the path to material success."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level selectivity",
+          "detail-for-what-matters",
+          "logical stewardship"
+        ],
+        "behavioral_axis": "Gives detail only when it will actually guide the collective.",
+        "shadow_axis": "Has the skills but not the discipline to use them."
+      },
+      "relationship_needs": {
+        "needs_long-horizon_projects": true,
+        "prefers_low_drama": true,
+        "rejects_low-value_requests": true
+      },
+      "group_role": "pattern arbiter / mature explainer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) pulls from Ra Uru Hu’s “Rave I’Ching / Line Companion” section “Hexagram 62 – Preponderance of the Small” (Archive.org / PDFCoffee mirrors, lines ~4768–4846). Interpretations are original behavioral mappings aligned to the user’s HD → S³ schema."
+  }
 }

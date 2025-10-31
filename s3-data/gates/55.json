@@ -1,13 +1,208 @@
 {
   "id": "gate.55",
   "hexagram": "hx55",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Spirit / Abundance",
+  "center": "Solar Plexus",
+  "circuit": "Individual / Knowing (Emotional Stream)",
+  "channel": "39-55 (Emoting)",
+  "programming_partner": "gate.59",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.59"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "emotional spirit = abundance or nothing",
+    "mood determines access to spirit",
+    "melancholy as creative fuel",
+    "seeking the right people/food/music for spirit",
+    "individual emotional mutation (2027 key)"
+  ],
+  "fear": "fear of not finding spirit / of emotional emptiness",
+  "lines": [
+    {
+      "id": "55.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Spirit needs conditions",
+        "hd_quote": "Spirit is abundance, but only when the conditions support its expression."
+      },
+      "interpretation": {
+        "keywords": [
+          "base mood-dependence",
+          "needs right atmosphere",
+          "cup half full/empty"
+        ],
+        "behavioral_axis": "If the field isn’t right, the spirit won’t show up.",
+        "shadow_axis": "Blames self or others for ‘no spirit’ instead of fixing the field."
+      },
+      "relationship_needs": {
+        "needs_nourishing_environment": true,
+        "rejects_spirit-draining_people": true,
+        "needs_mood_respected": true
+      },
+      "group_role": "spirit barometer / atmosphere tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "approx-line-companion"
+    },
+    {
+      "id": "55.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Distrust",
+        "hd_quote": "Awareness that abundance can be threatened, so spirit becomes selective."
+      },
+      "interpretation": {
+        "keywords": [
+          "selective opening",
+          "tests who gets access",
+          "protects spirit"
+        ],
+        "behavioral_axis": "Keeps spirit for those who won’t waste it.",
+        "shadow_axis": "Locks down too hard → looks moody or withholding."
+      },
+      "relationship_needs": {
+        "needs_trustworthy_allies": true,
+        "rejects_entitlement": true,
+        "needs_repeatable_behavior_from_others": true
+      },
+      "group_role": "spirit gatekeeper / allocator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "approx-line-companion"
+    },
+    {
+      "id": "55.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Experimenting for spirit",
+        "hd_quote": "Emotional openness to experience that discovers the true source of spirit."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error moods",
+          "melancholy → creativity",
+          "finds right vibe"
+        ],
+        "behavioral_axis": "Tries different experiences until spirit lights up.",
+        "shadow_axis": "Interprets every low as lack → creates drama."
+      },
+      "relationship_needs": {
+        "needs_room_for_wave": true,
+        "partners_must_not_shame_melancholy": true,
+        "needs_feedback_on_what_feeds_spirit": true
+      },
+      "group_role": "spirit pathfinder / mood scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "approx-line-companion"
+    },
+    {
+      "id": "55.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Spirit through association",
+        "hd_quote": "The capacity to establish relationships that nourish and stabilize spirit."
+      },
+      "interpretation": {
+        "keywords": [
+          "spirit-based networking",
+          "atmosphere curation",
+          "emotional tribe"
+        ],
+        "behavioral_axis": "Uses mood to attract the right people to the spirit field.",
+        "shadow_axis": "Lets other people’s mood commandeer the spirit."
+      },
+      "relationship_needs": {
+        "needs_spirit-compatible_people": true,
+        "needs_trust_without_micromanagement": true,
+        "rejects_low-frequency_groups": true
+      },
+      "group_role": "spirit atmosphere curator / connector",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "approx-line-companion"
+    },
+    {
+      "id": "55.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Exalted spirit",
+        "hd_quote": "The leadership to express spirit for the benefit of others."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected abundance",
+          "mood uplifter",
+          "feeds the whole field"
+        ],
+        "behavioral_axis": "When recognized, broadcasts pure spirit and everyone rises.",
+        "shadow_axis": "If unrecognized, feels abandoned → ‘there is no spirit here.’"
+      },
+      "relationship_needs": {
+        "needs_correct_recognition": true,
+        "expects_reciprocal_nourishment": true,
+        "rejects_spirit-parasites": true
+      },
+      "group_role": "spirit broadcaster / uplifting presence",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "approx-line-companion"
+    },
+    {
+      "id": "55.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Unshakable faith",
+        "hd_quote": "Spirit remains abundant regardless of outer circumstances."
+      },
+      "interpretation": {
+        "keywords": [
+          "spirit independent of mood",
+          "high-frequency faith",
+          "transpersonal abundance"
+        ],
+        "behavioral_axis": "Embodies that spirit is not conditional.",
+        "shadow_axis": "If cut off, can look bleak or spiritually aloof."
+      },
+      "relationship_needs": {
+        "needs_high-frequency_company": true,
+        "needs_respect_for_isolation": true,
+        "rejects_mood-policing": true
+      },
+      "group_role": "spirit exemplar / mood-transcender",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "approx-line-companion"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "paraphrased-from-ra-spirit-talks",
+    "provenance": "Line titles and quotes approximated to match Ra Uru Hu’s treatment of Gate 55 (Spirit/Abundance) and the mood/abundance doctrine. See public Ra materials on 55 and the Sleeping Phoenix mutation for cross-checking."
+  }
 }

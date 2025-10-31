@@ -1,13 +1,205 @@
 {
   "id": "gate.8",
   "hexagram": "hx08",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.14",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.14"
   },
-  "themes": [],
+  "themes": [
+    "contribution / holding together",
+    "promotion by example (not control)",
+    "style as transmission",
+    "guiding the collective through individual expression"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "8.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Honesty",
+        "hd_quote": "The truthful acceptance of limitation and the recognition that it can only be transcended through sharing."
+      },
+      "interpretation": {
+        "keywords": [
+          "humble truth",
+          "own your limits",
+          "share to move"
+        ],
+        "behavioral_axis": "Opens doors by naming limits and inviting support.",
+        "shadow_axis": "Postures as self-sufficient; blocks contribution."
+      },
+      "relationship_needs": {
+        "values_truth_over_image": true,
+        "invites_shared_ownership": true,
+        "rejects_ego-driven_posturing": true
+      },
+      "group_role": "grounding contributor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "8.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Service",
+        "hd_quote": "It is the great line of service."
+      },
+      "interpretation": {
+        "keywords": [
+          "offer help",
+          "be useful",
+          "quiet leadership"
+        ],
+        "behavioral_axis": "Contributes naturally when invited or recognized.",
+        "shadow_axis": "Resentful helper; feels used or unseen."
+      },
+      "relationship_needs": {
+        "needs_clear_invites": true,
+        "respects_capacity_limits": true,
+        "dislikes_obligation_language": true
+      },
+      "group_role": "reliable contributor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "8.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Phony",
+        "hd_quote": "The acceptance of the style and not the substance of communal actions."
+      },
+      "interpretation": {
+        "keywords": [
+          "style trap",
+          "signal vs substance",
+          "performative allyship"
+        ],
+        "behavioral_axis": "Learns to align presentation with real contribution.",
+        "shadow_axis": "Chases optics; neglects results."
+      },
+      "relationship_needs": {
+        "wants_substance_over_image": true,
+        "needs_room_to_course_correct": true,
+        "dislikes_tokenism": true
+      },
+      "group_role": "style–substance integrator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "8.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Respect",
+        "hd_quote": "The gift of naturally recognizing the contributions of others and particularly, the acknowledgement of those who lead by example."
+      },
+      "interpretation": {
+        "keywords": [
+          "spot the real ones",
+          "amplify others",
+          "community glue"
+        ],
+        "behavioral_axis": "Builds networks by honoring genuine contributors.",
+        "shadow_axis": "Plays politics; rewards appearances."
+      },
+      "relationship_needs": {
+        "needs_trust_and_access": true,
+        "keeps_strategy_discreet": true,
+        "resists_forced_disclosure": true
+      },
+      "group_role": "talent scout / amplifier",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "8.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Dharma",
+        "hd_quote": "Holding together does not exclude eventual separation."
+      },
+      "interpretation": {
+        "keywords": [
+          "guide then release",
+          "teach and let go",
+          "right timing"
+        ],
+        "behavioral_axis": "Leads to the waypoint, then releases attachment.",
+        "shadow_axis": "Clings to students or roles; over-identifies."
+      },
+      "relationship_needs": {
+        "needs_boundaryed_expectations": true,
+        "prefers_clear_exits": true,
+        "rejects_lifelong_dependency": true
+      },
+      "group_role": "wayfinder / teacher",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "8.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Communion",
+        "hd_quote": "The awareness of patterns that ensures correct timing."
+      },
+      "interpretation": {
+        "keywords": [
+          "timing sense",
+          "pattern awareness",
+          "collective attunement"
+        ],
+        "behavioral_axis": "Contributes when the field is ready; watches for openings.",
+        "shadow_axis": "Acts too soon or too late; becomes aloof."
+      },
+      "relationship_needs": {
+        "needs_long_horizon": true,
+        "requires_respect_for_detachment": true,
+        "rejects_short_term_pressure": true
+      },
+      "group_role": "timing-based exemplar",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu materials (Line Companion and/or Jovian Archive Rave I’Ching). Interpretations are original behavioral mappings."
+  }
 }

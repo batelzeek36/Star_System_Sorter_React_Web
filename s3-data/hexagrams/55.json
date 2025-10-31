@@ -1,46 +1,149 @@
 {
   "id": "hx55",
   "number": 55,
-  "name": "TBD",
+  "unicode_hexagram": "䷶",
+  "name": "Abundance / Fullness (豐, Fēng)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Făng intimates progress and development. When a king has reached the point (which the name denotes) there is no occasion to be anxious (through fear of a change). Let him be as the sun at noon.",
+    "normalized_summary": "Abundance at its height. Illuminate, organize, and distribute while the light is strongest. Screens, distractions, and overreach can dim the noon sun—lead clearly and steady the order so prosperity serves the whole."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject meeting with his mate. Though they are both of the same character, there will be no error. Advance will call forth approval.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：遇其配主，雖旬無咎，往有尚。"
+        }
+      ],
+      "normalized_meaning": "Right partners meet at the outset. Same nature, no blame. Move forward and you’ll be endorsed.",
+      "keywords": [
+        "alliance",
+        "matched forces",
+        "no blame",
+        "advance approved",
+        "good pairing"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject surrounded by screens so large and thick that at midday he can see from them the constellation of the Bushel. If he go (and try to enlighten his ruler who is thus emblemed), he will make himself to be viewed with suspicion and dislike. Let him cherish his feeling of sincere devotion that he may thereby move (his ruler's mind), and there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：豐其蔀，日中見斗。往得疑疾，有孚發若，吉。"
+        }
+      ],
+      "normalized_meaning": "Obstructions darken noon. Don’t force your counsel; keep sincere devotion and influence gently—then good fortune.",
+      "keywords": [
+        "obscuration",
+        "court suspicion",
+        "devotion",
+        "indirect influence",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject with an (additional) screen of a large and thick banner, through which at midday he can see (the small) Mei star. (In the darkness) he breaks his right arm; but there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：豐其沛，日中見沬。折其右肱，無咎。"
+        }
+      ],
+      "normalized_meaning": "Even more veiling; tiny lights at noon. You take a hit but avoid fault. Endure and keep integrity.",
+      "keywords": [
+        "obstacles increase",
+        "injury without blame",
+        "endurance",
+        "dimmed clarity",
+        "restraint"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject in a tent so large and thick that at midday he can see from it the constellation of the Bushel. But he meets with the subject of the (first) line, undivided like himself. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：豐其蔀，日中見斗，遇其夷主，吉。"
+        }
+      ],
+      "normalized_meaning": "Still under screens, but the right ally appears. Connection pierces the gloom—auspicious.",
+      "keywords": [
+        "meeting an equal",
+        "ally appears",
+        "breakthrough",
+        "good fortune",
+        "cooperation"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows its subject bringing around him the men of brilliant ability. There will be occasion for congratulation and praise. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：來章，有慶譽，吉。"
+        }
+      ],
+      "normalized_meaning": "Gather the able and radiant. Recognition and praise follow—good fortune.",
+      "keywords": [
+        "talent assembly",
+        "merit recognized",
+        "praise",
+        "leadership",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject with his house made large, but only serving as a screen to his household. When he looks at his door, it is still, and there is nobody about it. For three years no one is to be seen. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：豐其屋，蔀其家，闚其戶，闃其無人，三歲不覿，凶。"
+        }
+      ],
+      "normalized_meaning": "Grandeur becomes isolation. A big house that hides emptiness—prolonged absence and misfortune.",
+      "keywords": [
+        "hollow abundance",
+        "isolation",
+        "blocked access",
+        "prolonged decline",
+        "misfortune"
+      ]
     }
   ]
 }

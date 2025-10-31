@@ -1,13 +1,205 @@
 {
   "id": "gate.10",
   "hexagram": "hx10",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "G",
+  "circuit": "Individual / Centering",
+  "programming_partner": "gate.15",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.15"
   },
-  "themes": [],
+  "themes": [
+    "behavior of the self",
+    "self-love in action",
+    "integrity of form",
+    "role-modelling by example"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "10.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Modesty",
+        "hd_quote": "An innate sense to know and accept one's place."
+      },
+      "interpretation": {
+        "keywords": [
+          "humility",
+          "right placement",
+          "purpose through acceptance"
+        ],
+        "behavioral_axis": "Accepts one’s station and acts correctly within it.",
+        "shadow_axis": "Status anxiety; over-sensitivity to perceived slights."
+      },
+      "relationship_needs": {
+        "needs_self_acceptance": true,
+        "rejects_status_performance": true,
+        "requires_respect_for_place": true
+      },
+      "group_role": "steady exemplar of correct conduct",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "10.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Hermit",
+        "hd_quote": "The successful side-stepping of behavioral requirements... through isolation."
+      },
+      "interpretation": {
+        "keywords": [
+          "withdrawal to preserve correctness",
+          "non-interference",
+          "self-protection"
+        ],
+        "behavioral_axis": "Withdraws to avoid conditioning and keep behavior pure.",
+        "shadow_axis": "Social avoidance that limits healthy contact."
+      },
+      "relationship_needs": {
+        "needs_withdrawal_when_conditioned": true,
+        "hates_forced_socializing": true,
+        "requires_invitational_contact": true
+      },
+      "group_role": "boundary-setter / example by absence",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "10.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Martyr",
+        "hd_quote": "The futile rejection of standards based on a just awareness."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error ethics",
+          "nonconformity pressure",
+          "behavior tested by life"
+        ],
+        "behavioral_axis": "Learns correct conduct through mistakes and pushback.",
+        "shadow_axis": "Courting controversy or attention as identity."
+      },
+      "relationship_needs": {
+        "needs_room_for_experimentation": true,
+        "partners_must_tolerate_missteps": true,
+        "rejects_shaming": true
+      },
+      "group_role": "provocateur of new norms",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "10.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Opportunist",
+        "hd_quote": "The acceptance of norms until a successful transformation can be engendered."
+      },
+      "interpretation": {
+        "keywords": [
+          "timed change",
+          "holding pattern",
+          "patient externalization"
+        ],
+        "behavioral_axis": "Maintains current role until the right door opens.",
+        "shadow_axis": "Cynical politicking; gamesmanship without action."
+      },
+      "relationship_needs": {
+        "needs_right_timing": true,
+        "keeps_current_role_until_next_secured": true,
+        "resists_pressure_to_jump": true
+      },
+      "group_role": "timing-sensitive influencer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "10.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Heretic",
+        "hd_quote": "Direct and overt challenge to norms."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected leadership",
+          "challenging the status quo",
+          "behavioral reform"
+        ],
+        "behavioral_axis": "Embodies corrective behavior that others project onto.",
+        "shadow_axis": "Becomes a target when projections collapse."
+      },
+      "relationship_needs": {
+        "needs_clear_projection_management": true,
+        "requires_support_not_worship": true,
+        "rejects_blame_for_risk": true
+      },
+      "group_role": "reformer / standard-bearer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "10.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Role Model",
+        "hd_quote": "The constant example that refocuses the complacent on the basic integrity of set behavior."
+      },
+      "interpretation": {
+        "keywords": [
+          "example over words",
+          "long-horizon integrity",
+          "self-conscious exemplar"
+        ],
+        "behavioral_axis": "Lives the standard; teaches through consistent action.",
+        "shadow_axis": "Hyper-self-consciousness; fear of hypocrisy."
+      },
+      "relationship_needs": {
+        "needs_alignment_over_words": true,
+        "requires_space_from_public": true,
+        "rejects_hypocrisy": true
+      },
+      "group_role": "embodied ethic / exemplar",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote come directly from Ra Uru Hu, Line Companion (Archive.org, <25 words). Interpretation is original behavioral mapping for relational purposes."
+  }
 }

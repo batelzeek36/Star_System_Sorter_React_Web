@@ -1,46 +1,149 @@
 {
   "id": "hx40",
   "number": 40,
-  "name": "TBD",
+  "unicode_hexagram": "䷧",
+  "name": "Release / Deliverance (解, Jiě)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In (the state indicated by) K ieh advantage will be found in the south-west. If no (further) operations be called for, there will be good fortune in coming back (to the old conditions). If some operations be called for, there will be good fortune in the early conducting of them.",
+    "normalized_summary": "Pressure breaks and the knot comes loose. The blockage of Hexagram 39 (Obstruction) is dissolving. Now you either: (1) return to normal and let things settle, if the crisis is truly over — or (2) finish whatever hard action still needs doing, fast, clean, and without delay. Real release means dropping unhealthy attachments, removing opportunists, and restoring fair order without showing off."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows that its subject will commit no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：無咎。"
+        }
+      ],
+      "normalized_meaning": "The tension eases. You’re not blamed, and you don’t have to scramble. This is simple, harmless release.",
+      "keywords": [
+        "initial relief",
+        "no blame",
+        "safe easing",
+        "guiltless exit",
+        "pressure drops"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject catch, in hunting, three foxes, and obtain the yellow (= golden) arrows. With firm correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：田獲三狐，得黃矢，貞吉。"
+        }
+      ],
+      "normalized_meaning": "You actively remove troublemakers (“three foxes”) and gain rightful authority/tools (“yellow arrows”). Handling the cleanup with integrity brings good fortune.",
+      "keywords": [
+        "clearing saboteurs",
+        "decisive cleanup",
+        "legitimate authority",
+        "firm correctness",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows a porter with his burden, (yet) riding in a carriage. He will (only) tempt robbers to attack him. However firm and correct he may (try to) be, there will be cause for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：負且乘，致寇至，貞吝。"
+        }
+      ],
+      "normalized_meaning": "Showing off what you carry before you’re actually secure invites attack. Overdisplay, overprivilege, or claiming status you can’t defend just attracts predators.",
+      "keywords": [
+        "showing off",
+        "inviting trouble",
+        "overexposed wealth",
+        "false security",
+        "regret"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "(To the subject of) the fourth NINE, undivided, (it is said), \"Remove your toes. Friends will (then) come, between you and whom there will be mutual confidence.\"",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：解而拇，朋至斯孚。"
+        }
+      ],
+      "normalized_meaning": "Cut loose the entanglement at the lowest point — the clingy attachment, the compromised tie. Once you free yourself from that, real allies who can actually trust you will show up.",
+      "keywords": [
+        "drop unhealthy ties",
+        "clean boundary",
+        "trustworthy allies arrive",
+        "mutual confidence",
+        "strategic detachment"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows (its subject), the superior man (= the ruler), executing his function of removing (whatever is injurious to the idea of the hexagram), in which case there will be good fortune, and confidence in him will be shown even by the small men.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：君子維有解，吉；有孚於小人。"
+        }
+      ],
+      "normalized_meaning": "The leader personally restores order and lifts the pressure for everyone, not just the elite. Justice handled fairly earns even former opponents’ trust.",
+      "keywords": [
+        "just leadership",
+        "restoring order",
+        "mercy plus firmness",
+        "wins loyalty",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "In the sixth SIX, divided, we see a feudal prince (with his bow) shooting at a falcon on the top of a high wall, and hitting it. (The effect of his action) will be in every way advantageous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：公用射隼，於高墉之上，獲之，無不利。"
+        }
+      ],
+      "normalized_meaning": "The last threat is taken out cleanly and decisively. Precision strike, no chaos. This final act completes the release and secures full advantage.",
+      "keywords": [
+        "decisive resolution",
+        "eliminate remaining threat",
+        "precision action",
+        "full advantage",
+        "completion of release"
+      ]
     }
   ]
 }

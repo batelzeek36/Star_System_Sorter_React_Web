@@ -1,46 +1,149 @@
 {
   "id": "hx28",
   "number": 28,
-  "name": "TBD",
+  "unicode_hexagram": "䷛",
+  "name": "Great Exceeding / Preponderance of the Great (大過, Dà Guò)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Tâ Kwo suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.",
+    "normalized_summary": "Overload. The main beam is bending. This is an extreme moment that can’t last as-is. You may have to carry more than is reasonable, act beyond normal limits, or relocate your weight so the structure doesn’t snap. Bold, responsive movement — with integrity, not panic — can still succeed, but pretending it's ‘business as usual’ is dangerous."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows one placing mats of the white mâo grass under things set on the ground. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：藉用白茅，無咎。"
+        }
+      ],
+      "normalized_meaning": "Reinforce the weak base with humble care. Cushion what you’re supporting so it doesn’t crack under strain. Quiet, meticulous precaution keeps you out of trouble.",
+      "keywords": [
+        "protect the foundation",
+        "ritual care",
+        "humility",
+        "prevent damage",
+        "no blame"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows a decayed willow producing shoots, or an old husband in possession of his young wife. There will be advantage in every way.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：枯楊生稊，老夫得其女妻，無不利。"
+        }
+      ],
+      "normalized_meaning": "Unexpected renewal. Fresh life grows out of what looked spent. Pairing seasoned strength with new softness/energy is highly favorable.",
+      "keywords": [
+        "revival",
+        "fresh support",
+        "unlikely match works",
+        "vitality returns",
+        "all beneficial"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows a beam that is weak. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：棟橈，凶。"
+        }
+      ],
+      "normalized_meaning": "Critical stress point. The load is too much for the support in its current state. Collapse is likely if you try to hold this alone.",
+      "keywords": [
+        "structural failure risk",
+        "overburdened",
+        "breaking point",
+        "misfortune",
+        "cannot carry alone"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows a beam curving upwards. There will be good fortune. If (the subject of it) looks for other (help but that of line one), there will be cause for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：棟隆，吉。有它吝。"
+        }
+      ],
+      "normalized_meaning": "You manage to brace and lift the sagging structure — good. But don’t go chasing extra/outsider help that actually weakens the fix. Overcomplication leads to regret.",
+      "keywords": [
+        "shoring up",
+        "stabilization",
+        "qualified good fortune",
+        "don’t outsource core duty",
+        "avoid regret"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows a decayed willow producing flowers, or an old wife in possession of her young husband. There will be occasion neither for blame nor for praise.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：枯楊生華，老婦得其士夫，無咎無譽。"
+        }
+      ],
+      "normalized_meaning": "Late bloom. It looks impressive, but it’s not lasting renewal. It’s acceptable, not glorious. Don’t mistake brief sparkle for true recovery.",
+      "keywords": [
+        "flash of vitality",
+        "not sustainable",
+        "no blame no fame",
+        "dignified but limited",
+        "temporary display"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject with extraordinary (boldness) wading through a stream, till the water hides the crown of his head. There will be evil, but no ground for blame.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：過涉滅頂，凶，無咎。"
+        }
+      ],
+      "normalized_meaning": "Total overextension. You push past safe limits for the sake of the crisis and get in over your head. The outcome is harsh, but the motive is honorable.",
+      "keywords": [
+        "self-sacrifice",
+        "overreach",
+        "drowning risk",
+        "misfortune without blame",
+        "too far"
+      ]
     }
   ]
 }

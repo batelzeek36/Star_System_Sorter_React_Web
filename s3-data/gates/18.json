@@ -1,13 +1,207 @@
 {
   "id": "gate.18",
   "hexagram": "hx18",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Work on What Has Been Spoilt / Correction",
+  "center": "Spleen",
+  "circuit": "Collective / Understanding",
+  "channel": "58-18 (Judgment)",
+  "programming_partner": "gate.17",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.17"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "correction and critique",
+    "improving patterns and standards",
+    "challenging authority",
+    "taste and discernment"
+  ],
+  "fear": "fear of authority",
+  "lines": [
+    {
+      "id": "18.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Conservatism",
+        "hd_quote": "The adherence to traditional patterns despite changing circumstances."
+      },
+      "interpretation": {
+        "keywords": [
+          "respect for proven patterns",
+          "careful amendments",
+          "foundational standards"
+        ],
+        "behavioral_axis": "Builds on established patterns, preferring incremental corrections.",
+        "shadow_axis": "Refuses needed updates; defers to authority even when wrong."
+      },
+      "relationship_needs": {
+        "needs_context_before_changes": true,
+        "prefers_gradual_shifts": true,
+        "reacts_poorly_to_pressure": true
+      },
+      "group_role": "standards keeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": false
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "18.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Terminal disease",
+        "hd_quote": "The recognition that what has been spoilt is irreversible. There is no way to correct it."
+      },
+      "interpretation": {
+        "keywords": [
+          "triage",
+          "strategic acceptance",
+          "resource reallocation"
+        ],
+        "behavioral_axis": "Stops throwing energy at the unfixable; redirects to solvable issues.",
+        "shadow_axis": "Rages against reality; projects blame instead of accepting limits."
+      },
+      "relationship_needs": {
+        "needs_truth_not_blame": true,
+        "requires_clear_boundaries": true,
+        "avoids_sink_cost_traps": true
+      },
+      "group_role": "triage analyst",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "18.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Zealot",
+        "hd_quote": "The energetic obsession to clean house."
+      },
+      "interpretation": {
+        "keywords": [
+          "relentless fixer",
+          "mission-driven critique",
+          "over-correction risk"
+        ],
+        "behavioral_axis": "Throws energy at correction; learns by breaking and refining.",
+        "shadow_axis": "Becomes rigidly judgmental; creates as many problems as it solves."
+      },
+      "relationship_needs": {
+        "needs_space_to_iterate": true,
+        "partners_must_tolerate_course_changes": true,
+        "benefits_from_feedback_loops": true
+      },
+      "group_role": "cleanup operator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "18.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Incompetent",
+        "hd_quote": "Difficulties as a result of inadequacies that cannot be resolved because of inadequacies."
+      },
+      "interpretation": {
+        "keywords": [
+          "knows limits",
+          "seeks depth partners",
+          "fixed focus"
+        ],
+        "behavioral_axis": "Identifies the one sticking point and seeks capable allies (Gate 48).",
+        "shadow_axis": "Anxiety and indecision around the unfixable piece."
+      },
+      "relationship_needs": {
+        "needs_trusted_experts": true,
+        "keeps_scope_focused": true,
+        "resists_public_exposure_of_gaps": true
+      },
+      "group_role": "escalation sentinel",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "18.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Therapy",
+        "hd_quote": "The strength to recognize a problem and to accept that it is beyond one's power to solve it alone."
+      },
+      "interpretation": {
+        "keywords": [
+          "seeks/provides guidance",
+          "collective correction",
+          "therapeutic alliances"
+        ],
+        "behavioral_axis": "Mobilizes relationships to solve systemic problems.",
+        "shadow_axis": "Endless planning; avoids experiments from fear of failure."
+      },
+      "relationship_needs": {
+        "needs_clear_roles": true,
+        "expects_reciprocal_support": true,
+        "rejects_scapegoating": true
+      },
+      "group_role": "therapeutic strategist",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "18.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Buddhahood",
+        "hd_quote": "The perfected form."
+      },
+      "interpretation": {
+        "keywords": [
+          "exemplary standards",
+          "values transmission",
+          "modeling correction"
+        ],
+        "behavioral_axis": "Embodies ‘it’s already correct’ and shares methodology.",
+        "shadow_axis": "Complacency; expects others to orbit their perfected stance."
+      },
+      "relationship_needs": {
+        "needs_respect_for_detachment": true,
+        "teaches_by_example": true,
+        "rejects_petty_drama": true
+      },
+      "group_role": "standards role model",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are exact (<25 words) from Ra Uru Hu's Line Companion; center/circuit/channel from Jovian Archive's Complete Rave I’Ching."
+  }
 }

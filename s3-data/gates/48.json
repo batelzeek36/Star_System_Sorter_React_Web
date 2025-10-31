@@ -1,13 +1,206 @@
 {
   "id": "gate.48",
   "hexagram": "hx48",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Spleen",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.21",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.21"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "the Well / depth as a stored resource",
+    "fear of inadequacy (will my depth be valued?)",
+    "logic needs energy → frustration when 16 won’t experiment",
+    "long-term filling of the Well (3rd–4th line)",
+    "solutions for the common good"
+  ],
+  "fear": "inadequacy",
+  "lines": [
+    {
+      "id": "48.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Insignificance",
+        "hd_quote": "An instinctive recognition of what is practical and deserves attention."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundation of real depth",
+          "practical filter",
+          "patience while the Well fills"
+        ],
+        "behavioral_axis": "Goes inward, sorts what’s actually useful, builds depth quietly.",
+        "shadow_axis": "Feels unseen → judges its own depth as “insignificant.”"
+      },
+      "relationship_needs": {
+        "needs_time_to_deepen": true,
+        "prefers_practical_exchanges": true,
+        "rejects_pressure_to_perform": true
+      },
+      "group_role": "quiet depth-haver / pattern archivist",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "48.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Degeneracy",
+        "hd_quote": "The awareness that to successfully establish a new form one cannot neglect the most positive attributes."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected depth",
+          "protect the pattern",
+          "don’t accommodate bad inputs"
+        ],
+        "behavioral_axis": "Knows the solution is good only if the high-quality parts stay intact.",
+        "shadow_axis": "Fear of inadequacy → lets others degrade the pattern into decadence."
+      },
+      "relationship_needs": {
+        "needs_respect_for_expertise": true,
+        "needs_clear_boundaries_on_edits": true,
+        "rejects_inferior_influences": true
+      },
+      "group_role": "pattern integrity officer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "48.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Incommunicado",
+        "hd_quote": "Symbolized by the 'no-moon' phase where the potential of light is unrecognized, unavailable and unknowable."
+      },
+      "interpretation": {
+        "keywords": [
+          "depth not ready yet",
+          "long-term individual process",
+          "visibility gap"
+        ],
+        "behavioral_axis": "Stays with its process even when no one sees or understands it.",
+        "shadow_axis": "Anxiety that its brilliance will stay buried → premature sharing."
+      },
+      "relationship_needs": {
+        "needs_room_for_long_cycles": true,
+        "partners_handle_invisibility": true,
+        "rejects_forced_expression": true
+      },
+      "group_role": "depth incubator / black-box solver",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "48.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Restructuring",
+        "hd_quote": "The good sense to take advantage of the restriction on short-term activity to assess the situation and restructure for long-term goals."
+      },
+      "interpretation": {
+        "keywords": [
+          "externalizing depth",
+          "one-track long-term plan",
+          "use the pause"
+        ],
+        "behavioral_axis": "Uses slow periods to retool systems so the depth can finally be seen.",
+        "shadow_axis": "Resists restructuring → later must do it under pressure anyway."
+      },
+      "relationship_needs": {
+        "needs_consistent_context": true,
+        "prefers_strategic_allies": true,
+        "rejects_last-minute_changes": true
+      },
+      "group_role": "process engineer / depth externalizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "48.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Action",
+        "hd_quote": "A natural urge to apply energy to action."
+      },
+      "interpretation": {
+        "keywords": [
+          "seductive solutioning",
+          "let’s implement",
+          "collective application"
+        ],
+        "behavioral_axis": "Brings the well’s depth to the public and says, “Let’s do it.”",
+        "shadow_axis": "Pushes action before the depth is mature → others lose trust."
+      },
+      "relationship_needs": {
+        "needs_responsive_audience": true,
+        "prefers_clear_implementation_paths": true,
+        "rejects_endless_theory": true
+      },
+      "group_role": "solution activator / depth broadcaster",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "48.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Self-fulfillment",
+        "hd_quote": "An undiminishable resource."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level wellspring",
+          "gives and is refilled",
+          "non-inadequate depth"
+        ],
+        "behavioral_axis": "Shares depth and is refueled by the sharing → endless well.",
+        "shadow_axis": "Holds back out of ‘why bother,’ weakening the value loop."
+      },
+      "relationship_needs": {
+        "needs_high-signal_requests": true,
+        "prefers_long-horizon_bonds": true,
+        "rejects_draining_demands": true
+      },
+      "group_role": "depth elder / renewing source",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "Gate text and line texts taken verbatim (<25 words) from Ra Uru Hu, Line Companion (Archive.org) at the section on HEXAGRAM 48 THE WELL / DEPTH, lines 48.1–48.6: 48.1 Insignificance (L12552); 48.2 Degeneracy (L12595); 48.3 Incommunicado (L12640–L12642); 48.4 Restructuring (L12665–L12667); 48.5 Action (L12709–L12711); 48.6 Self-fulfillment (L12733–L12735). Interpretations are original behavioral mappings for the user’s S³ schema."
+  }
 }

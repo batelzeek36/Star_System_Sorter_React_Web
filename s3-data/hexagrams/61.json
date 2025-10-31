@@ -1,46 +1,149 @@
 {
   "id": "hx61",
   "number": 61,
-  "name": "TBD",
+  "unicode_hexagram": "䷼",
+  "name": "Inner Truth / Inmost Sincerity (中孚, Zhōng Fú)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "K ung Fû (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.",
+    "normalized_summary": "Inner sincerity that resonates outward. True trust binds allies, softens the hard to reach (even “pigs and fishes”), and enables great crossings—provided conduct stays firm and correct."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject resting (in himself). There will be good fortune. If he sought to any other, he would not find rest.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：虞吉，有他不燕。"
+        }
+      ],
+      "normalized_meaning": "Settle into your own center. Seeking outside affirmation disturbs the rest that sincerity brings.",
+      "keywords": [
+        "self-centering",
+        "inner rest",
+        "avoid dependence",
+        "good fortune",
+        "composure"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject (like) the crane crying out in her hidden retirement, and her young ones responding to her. (It is as if it were said), 'I have a cup of good spirits,' (and the response were), 'I will partake of it with you.'",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：鳴鶴在陰，其子和之，我有好爵，吾與爾靡之。"
+        }
+      ],
+      "normalized_meaning": "Sincere call evokes sincere echo. Quiet generosity draws natural companionship and harmony.",
+      "keywords": [
+        "resonance",
+        "harmonizing",
+        "kindred response",
+        "shared blessings",
+        "quiet influence"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject having met with his mate. Now he beats his drum, and now he leaves off. Now he weeps, and now he sings.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：得敵，或鼓或罷，或泣或歌。"
+        }
+      ],
+      "normalized_meaning": "Bond found, mood wavers. Inconstancy signals sincerity not yet settled—compose the heart.",
+      "keywords": [
+        "inconstancy",
+        "emotional swing",
+        "unstable bond",
+        "compose oneself",
+        "temperance"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject (like) the moon nearly full, and (like) a horse (in a chariot) whose fellow disappears. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：月幾望，馬匹亡，無咎。"
+        }
+      ],
+      "normalized_meaning": "Near fullness; one partner departs. Keep to right measure and you avoid blame.",
+      "keywords": [
+        "near completion",
+        "separation",
+        "right measure",
+        "no blame",
+        "poised timing"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject perfectly sincere, and linking (others) to him in closest union. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：有孚攣如，無咎。"
+        }
+      ],
+      "normalized_meaning": "Integrity at the center binds the field. Sincere union eliminates fault.",
+      "keywords": [
+        "central integrity",
+        "binding trust",
+        "cohesion",
+        "leadership by virtue",
+        "no blame"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject in chanticleer (trying to) mount to heaven. Even with firm correctness there will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：翰音登于天，貞凶。"
+        }
+      ],
+      "normalized_meaning": "Showy proclamation without substance misfires. Even principled insistence turns ill if overreaching.",
+      "keywords": [
+        "vain display",
+        "overreach",
+        "hollow signaling",
+        "principle misapplied",
+        "misfortune"
+      ]
     }
   ]
 }

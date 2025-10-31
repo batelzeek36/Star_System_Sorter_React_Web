@@ -1,46 +1,149 @@
 {
   "id": "hx31",
   "number": 31,
-  "name": "TBD",
+  "unicode_hexagram": "䷞",
+  "name": "Influence / Wooing (咸, Xián)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Hsien indicates that, (on the fulfilment of the conditions implied in it), there will be free course and success. Its advantageousness will depend on the being firm and correct, (as) in marrying a young lady. There will be good fortune.",
+    "normalized_summary": "Mutual attraction, emotional influence, responsive resonance. Real connection is auspicious — but only when it’s upright, restrained, and sincere, like a proper marriage bond. Restless chasing, clinging pursuit, or sweet-talking seduction weakens the influence and brings regret. Calm integrity draws what’s meant to come to you."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first six, divided, shows one moving his great toes.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：咸其拇。"
+        }
+      ],
+      "normalized_meaning": "Attraction first stirs. A subtle impulse to move, not yet a step. Curiosity awakens without commitment.",
+      "keywords": [
+        "first stirrings",
+        "incipient desire",
+        "readiness to move",
+        "harmless attraction",
+        "early signal"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows one moving the calves of his leg. There will be evil. If he abide (quiet in his place), there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：咸其腓，凶，居吉。"
+        }
+      ],
+      "normalized_meaning": "Desire is getting restless and wants to chase. If you lunge, trouble. If you stay centered and still, it turns out well.",
+      "keywords": [
+        "agitation",
+        "urge to pursue",
+        "impulse control",
+        "stay put",
+        "good fortune through restraint"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows one moving his thighs, and keeping close hold of those whom he follows. Going forward (in this way) will cause regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：咸其股，執其隨，往吝。"
+        }
+      ],
+      "normalized_meaning": "Clinging pursuit. Grabbing on and following desire wherever it goes leads to embarrassment and regret.",
+      "keywords": [
+        "clinginess",
+        "attachment",
+        "following lust",
+        "loss of dignity",
+        "regret"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows that firm correctness which will lead to good fortune, and prevent all occasion for repentance. If its subject be unsettled in his movements, (only) his friends will follow his purpose.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：貞吉悔亡，憧憧往來，朋從爾思。"
+        }
+      ],
+      "normalized_meaning": "If you hold steady in integrity, influence is clean and leaves no regret. If you’re restless and chasing, only your immediate circle follows; true reach is lost.",
+      "keywords": [
+        "upright influence",
+        "inner steadiness",
+        "no regret",
+        "scattered desire",
+        "limited following"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows one moving the flesh along the spine above the heart. There will be no occasion for repentance.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：咸其脢，无悔。"
+        }
+      ],
+      "normalized_meaning": "Deep, bodily resonance — felt near the heart, not just in impulse or appetite. Sincere, responsive connection without ulterior motive; nothing to regret.",
+      "keywords": [
+        "heartfelt response",
+        "embodied connection",
+        "sincerity",
+        "no ulterior motive",
+        "no regret"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth six, divided, shows one moving his jaws and tongue.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：咸其輔，頰，舌。"
+        }
+      ],
+      "normalized_meaning": "All mouth. Flattery, talk, seduction by words with no real depth. This kind of influence is shallow and unreliable.",
+      "keywords": [
+        "sweet talk",
+        "verbal seduction",
+        "empty charm",
+        "surface-level influence",
+        "unreliable"
+      ]
     }
   ]
 }

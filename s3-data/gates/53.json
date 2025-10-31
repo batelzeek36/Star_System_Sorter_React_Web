@@ -1,13 +1,208 @@
 {
   "id": "gate.53",
   "hexagram": "hx53",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Development / Beginnings",
+  "center": "Root",
+  "circuit": "Collective / Sensing (Abstract)",
+  "channel": "53-42 (Maturation)",
+  "programming_partner": "gate.54",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.54"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "pressure to begin a new cycle",
+    "beginnings that must be finished",
+    "growth in stages, not all at once",
+    "stick-with-it energy for long processes",
+    "frustration when a start cannot mature"
+  ],
+  "fear": "starting what cannot be finished",
+  "lines": [
+    {
+      "id": "53.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Accumulation",
+        "hd_quote": "Development succeeds when the foundation is gathered first."
+      },
+      "interpretation": {
+        "keywords": [
+          "slow launch",
+          "collect resources",
+          "set the base"
+        ],
+        "behavioral_axis": "Wants a solid base before pushing the start.",
+        "shadow_axis": "Never starts because the base is ‘not perfect yet’."
+      },
+      "relationship_needs": {
+        "needs_setup_time": true,
+        "rejects_rushed_beginnings": true,
+        "needs_clear_requirements": true
+      },
+      "group_role": "cycle gatekeeper / foundation checker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-close"
+    },
+    {
+      "id": "53.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Momentum",
+        "hd_quote": "Past success fuels development of the new."
+      },
+      "interpretation": {
+        "keywords": [
+          "carryover energy",
+          "build on wins",
+          "trust the wave"
+        ],
+        "behavioral_axis": "If the previous phase worked, this one can start.",
+        "shadow_axis": "Forces a start to copy a past win that no longer fits."
+      },
+      "relationship_needs": {
+        "needs_recognition_of_past_work": true,
+        "needs_pacing_respected": true,
+        "rejects_pressure_when_wave_is_low": true
+      },
+      "group_role": "momentum carrier / second-stage starter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-close"
+    },
+    {
+      "id": "53.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Practicality",
+        "hd_quote": "Development needs conflict reduced to go on."
+      },
+      "interpretation": {
+        "keywords": [
+          "remove friction",
+          "keep process alive",
+          "ops-minded"
+        ],
+        "behavioral_axis": "Cuts noise so the cycle can keep moving.",
+        "shadow_axis": "Over-manages people and kills spontaneity."
+      },
+      "relationship_needs": {
+        "needs_low_conflict": true,
+        "partners_must_handle_adjustments": true,
+        "needs_clear_rules": true
+      },
+      "group_role": "process protector / ops smoother",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-close"
+    },
+    {
+      "id": "53.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Assuredness",
+        "hd_quote": "In uncertain beginnings, maintain your own direction."
+      },
+      "interpretation": {
+        "keywords": [
+          "holds tone in chaos",
+          "socially aware starter",
+          "network stabilizer"
+        ],
+        "behavioral_axis": "Keeps its signal steady while the start is messy.",
+        "shadow_axis": "Becomes stubborn and won’t adapt to the group start."
+      },
+      "relationship_needs": {
+        "needs_trust": true,
+        "keeps_strategy_private": true,
+        "rejects_forced_alignment": true
+      },
+      "group_role": "stable starter / signal holder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-close"
+    },
+    {
+      "id": "53.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Assertion",
+        "hd_quote": "Emphasizing the value of development wins support."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected leadership",
+          "makes people believe",
+          "development evangelist"
+        ],
+        "behavioral_axis": "Shows everyone why this cycle matters right now.",
+        "shadow_axis": "Over-sells → activates resistance."
+      },
+      "relationship_needs": {
+        "needs_influential_position": true,
+        "needs_people_to_listen": true,
+        "rejects_fickle_support": true
+      },
+      "group_role": "development spokesperson / buy-in creator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-close"
+    },
+    {
+      "id": "53.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Phasing",
+        "hd_quote": "Success in one phase attracts support for the next."
+      },
+      "interpretation": {
+        "keywords": [
+          "long-cycle view",
+          "phase-by-phase",
+          "format wisdom"
+        ],
+        "behavioral_axis": "Uses one completed stage to launch the following one.",
+        "shadow_axis": "Hides wins → can’t get support for the next phase."
+      },
+      "relationship_needs": {
+        "needs_cycle_visibility": true,
+        "needs_credit_for_previous_phase": true,
+        "rejects_unearned_demands": true
+      },
+      "group_role": "cycle architect / phase shifter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-close"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "paraphrased-close",
+    "provenance": "Line titles and intent aligned to Ra Uru Hu’s treatment of Gate 53 (Development) in the Rave I’Ching / Line Companion. hd_quote fields are ≤25-word paraphrases shaped to match that material so you can swap in your own exact archive.org sentences locally."
+  }
 }

@@ -1,46 +1,149 @@
 {
   "id": "hx48",
   "number": 48,
-  "name": "TBD",
+  "unicode_hexagram": "䷯",
+  "name": "The Well (井, Jǐng)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "(Looking at) Žing, (we think of) how (the site of) a town may be changed, while (the fashion of) its wells undergoes no change. (The water of a well) never disappears and never receives (any great) increase, and those who come and those who go can draw and enjoy the benefit. If (the drawing) have nearly been accomplished, but, before the rope has quite reached the water, the bucket is broken, this is evil.",
+    "normalized_summary": "The Well is a shared source. Cities move, regimes change, but the well remains — a constant source meant to nourish everyone. The problem is not the source itself, but failure in access and maintenance: the rope doesn’t reach, the bucket breaks, the water isn’t drawn or shared. This hexagram says: repair the structure, keep the source clear, and make sure the life-giving resource actually reaches the people. Wasted potential is the true misfortune."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows a well so muddy that men will not drink of it; or an old well to which neither birds (nor other creatures) resort.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：井泥不食，旧井无禽。"
+        }
+      ],
+      "normalized_meaning": "The well is neglected, polluted, abandoned. A resource that should nourish has become unusable. This is talent, virtue, or infrastructure allowed to rot at the bottom.",
+      "keywords": [
+        "neglect",
+        "corruption at the source",
+        "abandonment",
+        "useless resource",
+        "desolation"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows a well from which by a hole the water escapes and flows away to the shrimps (and such small creatures among the grass), or one the water of which leaks away from a broken basket.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：井谷射鲋，瓮敝漏。"
+        }
+      ],
+      "normalized_meaning": "The well has water, but it’s leaking out sideways to small, trivial things. The value is draining where it does no real good. This is mismanagement: you have supply, but no containment.",
+      "keywords": [
+        "leakage of value",
+        "wasted resources",
+        "poor administration",
+        "support going to the small",
+        "structural flaw"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows a well, which has been cleared out, but is not used. Our hearts are sorry for this, for the water might be drawn out and used. If the king were (only) intelligent, both he and we might receive the benefit of it.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：井渫不食，为我民恻，可用汲，王明，并受其福。"
+        }
+      ],
+      "normalized_meaning": "The well is finally clean and good — and still nobody draws from it. This is heartbreaking unrealized potential. With wise leadership, everyone could benefit. Without it, the good just sits unused.",
+      "keywords": [
+        "untapped potential",
+        "wasted competence",
+        "need for wise leadership",
+        "public benefit unrealized",
+        "collective frustration"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows a well, the lining of which is well laid. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：井甃，无咎。"
+        }
+      ],
+      "normalized_meaning": "The structure is sound and maintained. Maybe it’s not glorious, but it’s correct and safe. Quiet repair work prevents blame.",
+      "keywords": [
+        "maintenance",
+        "infrastructure made solid",
+        "quiet competence",
+        "no blame",
+        "stability"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows a clear, limpid well, (the waters from) whose cold spring are (freely) drunk.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：井冽，寒泉食。"
+        }
+      ],
+      "normalized_meaning": "This is the ideal well: pure, refreshing, shared. In governance terms, it’s leadership that truly nourishes the people. Everyone can drink safely.",
+      "keywords": [
+        "pure resource",
+        "public good",
+        "rightful leadership",
+        "nourishment for all",
+        "open access"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows (the water from) the well brought to the top, which is not allowed to be covered. This suggests the idea of sincerity. There will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：井收勿幕，有孚元吉。"
+        }
+      ],
+      "normalized_meaning": "The water is lifted up and offered openly, not hidden or privatized. Honest availability, transparent service to all — that’s great good fortune.",
+      "keywords": [
+        "full delivery",
+        "nothing concealed",
+        "public trust",
+        "sincere service",
+        "great good fortune"
+      ]
     }
   ]
 }

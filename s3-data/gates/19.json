@@ -1,13 +1,211 @@
 {
   "id": "gate.19",
   "hexagram": "hx19",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Root",
+  "circuit": "Tribal / Ego (Community)",
+  "programming_partner": "gate.33",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.33"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "wanting, access, and resources",
+    "approach & bonding (bargains)",
+    "service ↔ sacrifice dynamics (19–49)",
+    "sensitivity; fear of rejection"
+  ],
+  "fear": "rejection",
+  "lines": [
+    {
+      "id": "19.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Interdependence",
+        "hd_quote": "The pressure of wanting without losing one's identity when being accepted by others."
+      },
+      "interpretation": {
+        "keywords": [
+          "interdependence not dependency",
+          "self-respect in bonding",
+          "identity-safe access"
+        ],
+        "behavioral_axis": "Seeks resources/acceptance while maintaining individuality.",
+        "shadow_axis": "People-pleasing; identity loss to secure access."
+      },
+      "relationship_needs": {
+        "needs_fair_bargain": true,
+        "requires_stable_resources": true,
+        "sensitive_to_rejection": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "principled bargainer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "19.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Service",
+        "hd_quote": "The dedication of personal resources as a result of external contact."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected service",
+          "quid pro quo",
+          "being chosen"
+        ],
+        "behavioral_axis": "Offers service for access to resources.",
+        "shadow_axis": "Indentured dynamics; being used without true reciprocity."
+      },
+      "relationship_needs": {
+        "needs_fair_bargain": true,
+        "requires_stable_resources": true,
+        "sensitive_to_rejection": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "reliable servant / facilitator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "19.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Dedication",
+        "hd_quote": "Receptivity to approach can only be maintained through vigilance, being on guard."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error bonds",
+          "guard the resources",
+          "hypervigilance"
+        ],
+        "behavioral_axis": "Tests bargains; protects access with vigilance.",
+        "shadow_axis": "Moody over-sensitivity when support wavers."
+      },
+      "relationship_needs": {
+        "needs_fair_bargain": true,
+        "requires_stable_resources": true,
+        "sensitive_to_rejection": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "gatekeeper / sentry",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "19.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Team Player",
+        "hd_quote": "Individual approach which attracts and accepts cooperation."
+      },
+      "interpretation": {
+        "keywords": [
+          "fixed externalization",
+          "rallies cooperation",
+          "keeps pace"
+        ],
+        "behavioral_axis": "Drives group effort when others can keep up.",
+        "shadow_axis": "Frustration at others’ dependency or lagging."
+      },
+      "relationship_needs": {
+        "needs_fair_bargain": true,
+        "requires_stable_resources": true,
+        "sensitive_to_rejection": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "mobilizer / coalition builder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "19.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Sacrifice",
+        "hd_quote": "The need to limit personal potential in order to achieve a larger goal."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected martyr",
+          "service-for-the-tribe",
+          "principled restraint"
+        ],
+        "behavioral_axis": "May sacrifice self-interest for communal principle.",
+        "shadow_axis": "Condescending savior; chronic over-sacrifice."
+      },
+      "relationship_needs": {
+        "needs_fair_bargain": true,
+        "requires_stable_resources": true,
+        "sensitive_to_rejection": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "standard-bearer / exemplar",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "19.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Recluse",
+        "hd_quote": "The avoidance of contact in general but not exclusively."
+      },
+      "interpretation": {
+        "keywords": [
+          "withholds access",
+          "tests legitimacy",
+          "waits to be sought"
+        ],
+        "behavioral_axis": "Avoids engagement unless need is legitimate.",
+        "shadow_axis": "Oversensitivity; self-exile until properly approached."
+      },
+      "relationship_needs": {
+        "needs_fair_bargain": true,
+        "requires_stable_resources": true,
+        "sensitive_to_rejection": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "resource sage / selective ally",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
 }

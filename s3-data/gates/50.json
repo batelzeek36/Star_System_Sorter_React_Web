@@ -1,13 +1,206 @@
 {
   "id": "gate.50",
   "hexagram": "hx50",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Spleen",
+  "circuit": "Tribal / Defense (Preservation)",
+  "programming_partner": "gate.3",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.3"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "tribal values and laws (the Cauldron)",
+    "moral conditioning / rules of caring",
+    "preservation of the tribe (27–50)",
+    "filtering out corruption in the value field",
+    "historical continuity whose values serve the future"
+  ],
+  "fear": "fear of taking on responsibility for others",
+  "lines": [
+    {
+      "id": "50.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The Immigrant",
+        "hd_quote": "Humbleness of origin that benefits rather than restricts destiny."
+      },
+      "interpretation": {
+        "keywords": [
+          "adopt new values",
+          "refine inherited standards",
+          "service-first origin"
+        ],
+        "behavioral_axis": "Starts from humble position and refines values that actually work for the tribe.",
+        "shadow_axis": "Embarrassment about origins; over-refinement to prove worth."
+      },
+      "relationship_needs": {
+        "needs_respect_for_background": true,
+        "welcomes_value_refinement": true,
+        "rejects_class_shaming": true
+      },
+      "group_role": "value founder / the one who remembers the original rules",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "50.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Determination",
+        "hd_quote": "The strength of purpose that can enjoy overcoming adversity to achieve its goals."
+      },
+      "interpretation": {
+        "keywords": [
+          "values under pressure",
+          "enjoys challenge",
+          "holds lawline"
+        ],
+        "behavioral_axis": "Keeps the tribe’s values intact even when opposed or conditioned.",
+        "shadow_axis": "Withdraws when opposed; values get bent to avoid conflict."
+      },
+      "relationship_needs": {
+        "needs_space_to_hold_line": true,
+        "responds_well_to_loyalty": true,
+        "rejects_value_corruption": true
+      },
+      "group_role": "values enforcer / steady second",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "50.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Adaptability",
+        "hd_quote": "The Moon exalted, that when unable to make it alone will naturally align itself with nurturing and protective forces."
+      },
+      "interpretation": {
+        "keywords": [
+          "needs allies",
+          "cooperative values",
+          "tribal interdependence"
+        ],
+        "behavioral_axis": "Knows values are upheld better with support and bonding.",
+        "shadow_axis": "Resents having to curry favor for survival."
+      },
+      "relationship_needs": {
+        "needs_supportive_allies": true,
+        "partners_must_share_values": true,
+        "rejects_exploitative_hierarchies": true
+      },
+      "group_role": "connector / cooperative custodian",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "50.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Corruption",
+        "hd_quote": "The lack of enriching values."
+      },
+      "interpretation": {
+        "keywords": [
+          "tests integrity",
+          "material success vs values",
+          "exposure of rot"
+        ],
+        "behavioral_axis": "Can hold strength even when surrounded by inferior values.",
+        "shadow_axis": "Turns inferior values into success; may spread corruption."
+      },
+      "relationship_needs": {
+        "needs_ethically_sound_group": true,
+        "prefers_clear_value_hierarchy": true,
+        "rejects_value_hypocrisy": true
+      },
+      "group_role": "value auditor / corruption detector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "50.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Consistency",
+        "hd_quote": "When continuity has brought success, it should not be tampered with."
+      },
+      "interpretation": {
+        "keywords": [
+          "conservative stewardship",
+          "don’t fix what works",
+          "tribal reliability"
+        ],
+        "behavioral_axis": "Guards proven rules of caring; keeps the cauldron stable.",
+        "shadow_axis": "Rebels against the very methods that made things work."
+      },
+      "relationship_needs": {
+        "needs_predictable_values": true,
+        "expects_loyalty_to_rules": true,
+        "rejects_unnecessary_change": true
+      },
+      "group_role": "senior custodian / continuity keeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "50.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Leadership",
+        "hd_quote": "The gift in a position of power to maintain harmony even in severity."
+      },
+      "interpretation": {
+        "keywords": [
+          "tribal judge",
+          "firm but fair",
+          "harmonic authority"
+        ],
+        "behavioral_axis": "Uses power to keep values alive without losing relationship field.",
+        "shadow_axis": "Maintains values but alienates people through moodiness."
+      },
+      "relationship_needs": {
+        "needs_respected_authority": true,
+        "prefers_low_drama": true,
+        "rejects_value_compromise_for_popularity": true
+      },
+      "group_role": "tribal law steward / high judge",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion as circulated by IHDS ‘The Daily View’ posts preserved on Archive.org / ConstantContact mirrors for Gate 50. Interpretations are original behavioral mappings."
+  }
 }

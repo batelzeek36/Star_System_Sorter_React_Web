@@ -1,13 +1,208 @@
 {
   "id": "gate.37",
   "hexagram": "hx37",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "The Family / The Gate of Friendship",
+  "center": "Solar Plexus",
+  "circuit": "Tribal / Ego",
+  "channel": "37-40 (Community)",
+  "programming_partner": "gate.40",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.40"
   },
-  "themes": [],
+  "themes": [
+    "friendship as a bargain",
+    "tribal bonding through touch and sensitivity",
+    "harmonious agreements",
+    "maintaining family values",
+    "loyalty ↔ disloyalty emotional wave"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "37.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The mother/father",
+        "hd_quote": "Harmony is the key to the successful maintenance of relationships."
+      },
+      "interpretation": {
+        "keywords": [
+          "sets tone",
+          "creates safe field",
+          "values-based bonding"
+        ],
+        "behavioral_axis": "Establishes emotional harmony so tribal rules can exist.",
+        "shadow_axis": "Becomes over-accommodating ‘parent,’ enabling dysfunction."
+      },
+      "relationship_needs": {
+        "needs_respectful_tone": true,
+        "needs_values_alignment": true,
+        "rejects_constant_conflict": true
+      },
+      "group_role": "emotional head-of-household / tone setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "37.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Responsibility",
+        "hd_quote": "The understanding of the principle of individual responsibility as the foundation for successful cooperation."
+      },
+      "interpretation": {
+        "keywords": [
+          "agreements",
+          "fair workload",
+          "mutual duties"
+        ],
+        "behavioral_axis": "Keeps the bargain clear: everyone contributes to the tribe.",
+        "shadow_axis": "Points out others’ duty but forgets their own."
+      },
+      "relationship_needs": {
+        "needs_clear_bargains": true,
+        "needs_reciprocity": true,
+        "rejects_one_sided_support": true
+      },
+      "group_role": "agreement enforcer / duty clarifier",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "37.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Evenhandedness",
+        "hd_quote": "The ability to judge what behaviour is appropriate and to react in a balanced manner to transgressions."
+      },
+      "interpretation": {
+        "keywords": [
+          "fair justice",
+          "balanced discipline",
+          "keeps peace"
+        ],
+        "behavioral_axis": "Applies the rules evenly to preserve family harmony.",
+        "shadow_axis": "Tests boundaries or reacts too harshly to tests."
+      },
+      "relationship_needs": {
+        "needs_consistent_rules": true,
+        "needs_balanced_feedback": true,
+        "rejects_favoritism": true
+      },
+      "group_role": "tribal peacekeeper / fairness judge",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "37.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Leadership by example",
+        "hd_quote": "The manifestation of the highest principles in everyday and practical affairs."
+      },
+      "interpretation": {
+        "keywords": [
+          "walks the talk",
+          "visible integrity",
+          "model of care"
+        ],
+        "behavioral_axis": "Leads the family by living the tribal values.",
+        "shadow_axis": "Becomes moralistic; rejects non-traditional leaders."
+      },
+      "relationship_needs": {
+        "needs_trust_position": true,
+        "prefers_respected_roles": true,
+        "rejects_disrespectful_followers": true
+      },
+      "group_role": "exemplar / front-facing family rep",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "37.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Love",
+        "hd_quote": "Natural harmony and sharing possible through friendship."
+      },
+      "interpretation": {
+        "keywords": [
+          "warm tribe",
+          "nourishing field",
+          "easy generosity"
+        ],
+        "behavioral_axis": "Radiates friendliness that invites outsiders into the bargain.",
+        "shadow_axis": "Emotional dependency flips love → hate."
+      },
+      "relationship_needs": {
+        "needs_affection": true,
+        "needs_loyalty": true,
+        "rejects_cold_transactions": true
+      },
+      "group_role": "heart of the tribe / hospitality node",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "37.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Purpose",
+        "hd_quote": "A need for diversity that may ignore the achievements of the family in favour of withdrawal."
+      },
+      "interpretation": {
+        "keywords": [
+          "higher mission",
+          "periodic withdrawal",
+          "redefinition of family"
+        ],
+        "behavioral_axis": "Seeks broader purpose and may step out to refresh tribal values.",
+        "shadow_axis": "Detaches so far it seems disloyal."
+      },
+      "relationship_needs": {
+        "needs_space_to_withdraw": true,
+        "prefers_high_signal_relationships": true,
+        "rejects_clinginess": true
+      },
+      "group_role": "visionary relative / values renovator",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "Line titles and sentences are taken directly from Ra Uru Hu, “The Complete Rave I’Ching,” Gate 37, p. 77–78, and trimmed to ≤25 words. Source PDF: Complete Rave I’Ching (Jovian)."
+  }
 }

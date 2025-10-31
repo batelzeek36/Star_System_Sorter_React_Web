@@ -1,46 +1,149 @@
 {
   "id": "hx41",
   "number": 41,
-  "name": "TBD",
+  "unicode_hexagram": "䷨",
+  "name": "Decrease / Reduction (損, Sǔn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In (what is denoted by) Sun, if there be sincerity (in him who employs it), there will be great good fortune:--freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this (sincerity in the exercise of Sun) be employed? (Even) in sacrifice two baskets of grain, (though there be nothing else), may be presented.",
+    "normalized_summary": "Decrease, properly done, is sacred. You lessen yourself or your surplus to support what’s right — not out of shame, but out of sincerity. Even a very small, honest offering is powerful. The danger is showy sacrifice or reckless self-drain; the virtue is measured, willing contribution that restores balance and strengthens the whole."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject suspending his own affairs, and hurrying away (to help the subject of the fourth line). He will commit no error, but let him consider how far he should contribute of what is his (for the other).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：已事遄往，無咎，酌損之。"
+        }
+      ],
+      "normalized_meaning": "You drop what you’re doing and rush to help. That’s not wrong — just make sure you only give what’s actually appropriate, not everything you have.",
+      "keywords": [
+        "urgent assistance",
+        "self-sacrifice with limits",
+        "no blame",
+        "measured giving",
+        "right timing"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows that it will be advantageous for its subject to maintain a firm correctness, and that action on his part will be evil. He can give increase (to his correlate) without taking from himself.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：利貞，征凶，弗損益之."
+        }
+      ],
+      "normalized_meaning": "Hold your position. Don’t go charging out. You can still benefit the other side without hurting yourself or abandoning what’s right.",
+      "keywords": [
+        "stay centered",
+        "don’t overextend",
+        "quiet support",
+        "correct stance",
+        "avoid harmful action"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows how of three men walking together, the number is diminished by one; and how one, walking, finds his friend.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：三人行，則損一人；一人行，則得其友。"
+        }
+      ],
+      "normalized_meaning": "Too many agendas create friction. When the group is trimmed, harmony appears. Sometimes decrease means letting one dynamic go so true companionship can emerge.",
+      "keywords": [
+        "crowd vs clarity",
+        "shedding excess",
+        "aligned partnership",
+        "finding true ally",
+        "social pruning"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject diminishing the ailment under which he labours by making (the subject of the first line) hasten (to his help), and make him glad. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：損其疾，使遄有喜，無咎。"
+        }
+      ],
+      "normalized_meaning": "Ask for help and let someone strong relieve your burden. There’s no shame in accepting support if it lightens real suffering and restores joy.",
+      "keywords": [
+        "seeking aid",
+        "relief of hardship",
+        "shared effort",
+        "healing through support",
+        "no blame"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows parties adding to (the stores of) its subject ten pairs of tortoise shells, and accepting no refusal. There will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：或益之，十朋之龜弗克違，元吉。"
+        }
+      ],
+      "normalized_meaning": "Others pour resources into you freely, insisting you receive them. This is real support, not a trap. Accepting blessing here is greatly fortunate.",
+      "keywords": [
+        "unexpected aid",
+        "abundance offered",
+        "generosity received",
+        "prestige and trust",
+        "great good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject giving increase to others without taking from himself. There will be no error. With firm correctness there will be good fortune. There will be advantage in every movement that shall be made. He will find ministers more than can be counted by their clans.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：弗損益之，無咎，貞吉，利有攸往，得臣無家。"
+        }
+      ],
+      "normalized_meaning": "Highest form of Decrease: you can strengthen others without impoverishing yourself. This draws loyal helpers in numbers beyond counting, and your actions prosper everywhere.",
+      "keywords": [
+        "abundant leadership",
+        "supporting others effortlessly",
+        "loyal followers gather",
+        "universal advantage",
+        "firm correctness"
+      ]
     }
   ]
 }

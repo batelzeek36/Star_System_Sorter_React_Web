@@ -1,46 +1,149 @@
 {
   "id": "hx57",
   "number": 57,
-  "name": "TBD",
+  "unicode_hexagram": "䷸",
+  "name": "The Gentle / Penetrating (巽, Xùn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Sun intimates that (under the conditions which it denotes) there will be some little attainment and progress. There will be advantage in movement onward in whatever direction. It will be advantageous (also) to see the great man.",
+    "normalized_summary": "Gentle penetration: influence through steady, subtle advance. Go where needed, align with worthy counsel, and avoid force. Patient correctness dissolves obstacles and regret."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject (now) advancing, (now) receding. It would be advantageous for him to have the firm correctness of a brave soldier.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：進退，利武人之貞。"
+        }
+      ],
+      "normalized_meaning": "Wavering weakens penetration. Adopt disciplined firmness — like a soldier — before proceeding.",
+      "keywords": [
+        "hesitation",
+        "firm discipline",
+        "commitment",
+        "right timing",
+        "stability first"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows the representative of Sun beneath a couch, and employing diviners and exorcists in a way bordering on confusion. There will be good fortune and no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：巽在床下，用史巫紛若，吉，無咎。"
+        }
+      ],
+      "normalized_meaning": "Search deeply and clear hidden factors. Thorough, even messy inquiry leads to harmless, favorable results.",
+      "keywords": [
+        "due diligence",
+        "root-cause search",
+        "hidden influences",
+        "thoroughness",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject penetrating (only) by violent and repeated efforts. There will be occasion for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：頻巽，吝。"
+        }
+      ],
+      "normalized_meaning": "Forcing it defeats the spirit of Xùn. Repeated pushes bring embarrassment and regret.",
+      "keywords": [
+        "overforce",
+        "pressure backfires",
+        "impatience",
+        "humiliation risk",
+        "pull back"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows all occasion for repentance (in its subject) passed away. He takes game for its threefold use in his hunting.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：悔亡，田獲三品。"
+        }
+      ],
+      "normalized_meaning": "Correction made. Efforts now yield balanced results that serve sacrifice, guests, and household.",
+      "keywords": [
+        "repentance ended",
+        "balanced yield",
+        "proper distribution",
+        "restored order",
+        "auspice returns"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows that with firm correctness there will be good fortune (to its subject). All occasion for repentance will disappear, and all his movements will be advantageous. There may have been no (good) beginning, but there will be a (good) end. Three days before making any changes, (let him give notice of them); and three days after, (let him reconsider them). There will (thus) be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：貞吉，悔亡，無不利。無初有終。先庚三日，後庚三日，吉。"
+        }
+      ],
+      "normalized_meaning": "Center the mandate with firm correctness. Announce changes, then review them: deliberation turns shaky starts into good endings.",
+      "keywords": [
+        "central authority",
+        "firm correctness",
+        "procedural timing",
+        "announce & review",
+        "good ending"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows the representative of penetration beneath a couch, and having lost the axe with which he executed his decisions. However firm and correct he may (try to) be, there will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：巽在床下，喪其資斧，貞凶。"
+        }
+      ],
+      "normalized_meaning": "Subtlety taken too far becomes weakness. Lose your tool and authority, and persistence turns to misfortune.",
+      "keywords": [
+        "excessive subtlety",
+        "loss of agency",
+        "authority weakened",
+        "misfortune",
+        "over-yielding"
+      ]
     }
   ]
 }

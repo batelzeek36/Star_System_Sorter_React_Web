@@ -1,13 +1,205 @@
 {
   "id": "gate.15",
   "hexagram": "hx15",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "G",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.10",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.10"
   },
-  "themes": [],
+  "themes": [
+    "love of humanity",
+    "extremes and rhythm",
+    "aura-level acceptance of diversity",
+    "being in the flow (15–5 Rhythm)"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "15.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Duty",
+        "hd_quote": "The ability to confront any challenge without expectations."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational steadiness",
+          "humble service",
+          "accept broad ranges"
+        ],
+        "behavioral_axis": "Holds steady through extremes without demanding outcomes.",
+        "shadow_axis": "Self-denial; resentful duty."
+      },
+      "relationship_needs": {
+        "needs_respect_for_rhythm": true,
+        "prefers_clear_roles": true,
+        "rejects_control": true
+      },
+      "group_role": "grounding presence / steady hand",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "15.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Influence",
+        "hd_quote": "Modesty and right action result in enduring standards."
+      },
+      "interpretation": {
+        "keywords": [
+          "natural influence",
+          "environmental fit",
+          "visible example"
+        ],
+        "behavioral_axis": "Influences by simply living one’s correct extremes.",
+        "shadow_axis": "Unseen projection; others assume consistency."
+      },
+      "relationship_needs": {
+        "hates_being_managed": true,
+        "needs_room_to_flow": true,
+        "needs_invited_expectations": true
+      },
+      "group_role": "quiet standard-setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "15.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Ego inflation",
+        "hd_quote": "The risk that modesty, once recognized, will self-destruct."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error extremes",
+          "strategy vs nature",
+          "ego pitfalls"
+        ],
+        "behavioral_axis": "Learns not to game extremism as a tactic.",
+        "shadow_axis": "Performative extremes to control outcomes."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_pivots": true,
+        "rejects_moralizing": true
+      },
+      "group_role": "pattern tester / recalibrator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "15.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Wallflower",
+        "hd_quote": "Modesty as a shield against exposure of inadequacy."
+      },
+      "interpretation": {
+        "keywords": [
+          "fixed extreme",
+          "social inadequacy theme",
+          "find the right milieu"
+        ],
+        "behavioral_axis": "Feels out of place until environment matches their rhythm.",
+        "shadow_axis": "Self-isolation; hiding gifts."
+      },
+      "relationship_needs": {
+        "needs_accepting_community": true,
+        "prefers_consistent_context": true,
+        "rejects_forced_exposure": true
+      },
+      "group_role": "context-matcher / milieu finder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "15.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Sensitivity",
+        "hd_quote": "The ability to sense when otherwise balanced behavior must be adjusted to meet the requirements of a changing environment."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected sensitivity",
+          "environmental tuning",
+          "magnetic aura"
+        ],
+        "behavioral_axis": "Adjusts visible extremes to conditions and timing.",
+        "shadow_axis": "Overcompensates; swings between poles."
+      },
+      "relationship_needs": {
+        "needs_right_timing": true,
+        "expects_clear_requests": true,
+        "rejects_constant_access": true
+      },
+      "group_role": "environmental tuner / rhythm setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "15.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Self-defense",
+        "hd_quote": "Modesty that is never confused with weakness."
+      },
+      "interpretation": {
+        "keywords": [
+          "reserve from the roof",
+          "think before speaking",
+          "protect the flow"
+        ],
+        "behavioral_axis": "Engages rarely; acts when wisdom serves the pattern.",
+        "shadow_axis": "Apathy; disengagement from humanity."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_short_term_demands": true
+      },
+      "group_role": "pattern guardian / exemplar",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
 }

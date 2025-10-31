@@ -1,46 +1,149 @@
 {
   "id": "hx43",
   "number": 43,
-  "name": "TBD",
+  "unicode_hexagram": "䷪",
+  "name": "Breakthrough / Decisive Declaration (夬, Guài)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Kwâi requires (in him who would fulfil its meaning) the exhibition (of the culprit's guilt) in the royal court, and a sincere and earnest appeal (for sympathy and support), with a consciousness of the peril (involved in cutting off the criminal). He should (also) make announcement in his own city, and show that it will not be well to have recourse at once to arms. (In this way) there will be advantage in whatever he shall go forward to.",
+    "normalized_summary": "This is a decisive break. Corruption or harmful influence has to be called out publicly and removed — but with awareness of danger, not reckless force. You announce the truth openly, gather support, and act with firm justice. The aim is principled resolution, not personal rage or premature violence."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first line, undivided, shows its subject in (the pride of) strength advancing with his toes. He goes forward, but will not succeed. There will be ground for blame.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：壯于前趾，往不勝為咎。"
+        }
+      ],
+      "normalized_meaning": "Rushing ahead on raw force and ego — leading with your toes — fails. If you charge too fast just because you feel strong, you get blamed.",
+      "keywords": [
+        "impulsive advance",
+        "overconfidence",
+        "premature action",
+        "failure risk",
+        "blame"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second line, undivided, shows its subject full of apprehension and appealing (for sympathy and help). Late at night hostile measures may be (taken against him), but he need not be anxious about them.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：惕號，莫夜有戎，勿恤。"
+        }
+      ],
+      "normalized_meaning": "You raise the alarm and call for support. Enemies may move under cover of night, but if you stay alert and sincere, you don’t actually need to panic.",
+      "keywords": [
+        "alertness",
+        "calling for aid",
+        "looming threat",
+        "courage under pressure",
+        "do not fear"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third line, undivided, shows its subject (about to advance) with strong (and determined) looks. There will be evil. (But) the superior man, bent on cutting off (the criminal), will walk alone and encounter the rain, (till he be hated by his proper associates) as if he were contaminated (by the others). (In the end) there will be no blame against him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：壯于頄，有凶。君子夬夬，獨行，遇雨，若濡，有慍，無咎。"
+        }
+      ],
+      "normalized_meaning": "You act with fierce resolve and may have to stand alone, getting ‘soaked’ and resented for it. People might distrust you for challenging corruption — but in the end you’re not blamed.",
+      "keywords": [
+        "lonely resolve",
+        "moral courage",
+        "public backlash",
+        "enduring resentment",
+        "no final blame"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth line, undivided, shows one from whose buttocks the skin has been stripped, and who walks slowly and with difficulty. (If he could act) like a sheep led (after its companions), occasion for repentance would disappear. But though he hear these words, he will not believe them.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：臀無膚，其行次且。牽羊悔亡，聞言不信。"
+        }
+      ],
+      "normalized_meaning": "You’re exhausted, exposed, and hurting. If you would just let yourself be guided calmly (like a led sheep), regret could fade — but pride makes you resist that advice.",
+      "keywords": [
+        "wounded state",
+        "exposed vulnerability",
+        "stubborn pride",
+        "accept guidance",
+        "regret can end"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth line, undivided, shows (the small men like) a bed of purslain, which ought to be uprooted with the utmost determination. (The subject of the line having such determination), his action, in harmony with his central position, will lead to no error or blame.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：莧陸夬夬，中行無咎。"
+        }
+      ],
+      "normalized_meaning": "Corruption has spread like weeds. You must root it out completely, but do it from a centered, rightful position — focused justice, not rage — and you stay blameless.",
+      "keywords": [
+        "purging corruption",
+        "decisive action",
+        "just authority",
+        "weeding out",
+        "no blame"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth line, divided, shows its subject without any (helpers) on whom to call. His end will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：無號，終有凶。"
+        }
+      ],
+      "normalized_meaning": "If you fail to rally others, stop calling out the danger, and end up isolated at the top, you fall. Silence plus isolation = misfortune.",
+      "keywords": [
+        "isolation",
+        "loss of support",
+        "silenced warning",
+        "vulnerable ending",
+        "misfortune"
+      ]
     }
   ]
 }

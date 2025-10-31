@@ -1,13 +1,206 @@
 {
   "id": "gate.40",
   "hexagram": "hx40",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Ego/Heart",
+  "circuit": "Tribal / Ego (Community)",
+  "programming_partner": "gate.37",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.37"
   },
-  "themes": [],
+  "themes": [
+    "deliverance through will",
+    "aloneness after work",
+    "the part seeking the whole (37–40)",
+    "only serve what you have a deal for",
+    "willpower that must rest"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "40.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Recuperation",
+        "hd_quote": "The ability to relax and enjoy the fruits of one's labours."
+      },
+      "interpretation": {
+        "keywords": [
+          "earned rest",
+          "solo recovery",
+          "willpower off-switch"
+        ],
+        "behavioral_axis": "After commitment, withdraws to restore the ego/will so it can serve again.",
+        "shadow_axis": "Won’t rest; stays busy to avoid aloneness → burnout."
+      },
+      "relationship_needs": {
+        "needs_contract_respected": true,
+        "needs_recovery_time": true,
+        "rejects_unpaid_demands": true
+      },
+      "group_role": "post-mission decompressor / tribal provider at rest",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "40.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Resoluteness",
+        "hd_quote": "The power and authority in deliverance to shed forever the qualities which hampered liberation."
+      },
+      "interpretation": {
+        "keywords": [
+          "clean break",
+          "will to say no",
+          "protect the deal"
+        ],
+        "behavioral_axis": "Uses will to cut away what weakened the tribe or the bargain.",
+        "shadow_axis": "Loneliness sympathizes with what should have been cut."
+      },
+      "relationship_needs": {
+        "needs_clear_terms": true,
+        "prefers_loyalty_over_sentiment": true,
+        "rejects_backsliding": true
+      },
+      "group_role": "contract purifier / tribal boundary-keeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "40.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Humility",
+        "hd_quote": "The capacity of the ego to avoid negative forces even if it means being alone."
+      },
+      "interpretation": {
+        "keywords": [
+          "low-profile deliverance",
+          "avoid wrong people",
+          "humble strength"
+        ],
+        "behavioral_axis": "Chooses solitude over bad alliances; stays unseen to preserve will.",
+        "shadow_axis": "Demands attention just to prove worth → drains ego."
+      },
+      "relationship_needs": {
+        "needs_respect_for_withdrawal": true,
+        "prefers_small_trusted_circle": true,
+        "rejects_forced_socializing": true
+      },
+      "group_role": "threat-avoider / discrete problem-solver",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "40.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Organization",
+        "hd_quote": "The power to transform and to organize in order to maintain deliverance."
+      },
+      "interpretation": {
+        "keywords": [
+          "structuring the win",
+          "organize loyalty",
+          "keep the gate clear"
+        ],
+        "behavioral_axis": "Builds the system so deliverance (freedom, rest, will) stays protected.",
+        "shadow_axis": "Over-organizes; gathers bodies not quality → destabilizes."
+      },
+      "relationship_needs": {
+        "needs_role_clarity": true,
+        "prefers_structured_support": true,
+        "rejects_chaotic_groups": true
+      },
+      "group_role": "tribal ops / resource organizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "40.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Rigidity",
+        "hd_quote": "The recognition that to achieve liberation all negative forces must be rejected."
+      },
+      "interpretation": {
+        "keywords": [
+          "no to parasites",
+          "absolute victory",
+          "gatekeeping"
+        ],
+        "behavioral_axis": "Protects tribal will by cutting every misaligned relationship.",
+        "shadow_axis": "So rigid it won’t let in support when alone."
+      },
+      "relationship_needs": {
+        "needs_loyalty_tests": true,
+        "prefers_high-standards_tribe": true,
+        "rejects_compromise_with_negative_forces": true
+      },
+      "group_role": "final gatekeeper / purifier",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "40.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Decapitation",
+        "hd_quote": "The necessary destruction of inferior forces before liberation can take place."
+      },
+      "interpretation": {
+        "keywords": [
+          "top-level correction",
+          "surgical removal",
+          "will with mercy"
+        ],
+        "behavioral_axis": "Uses authority to remove only what truly endangers the group.",
+        "shadow_axis": "Extends punishment to whole classes → terror state."
+      },
+      "relationship_needs": {
+        "needs_trust_in_judgment": true,
+        "prefers_high-level_decisions": true,
+        "rejects_power_abuse": true
+      },
+      "group_role": "tribal judge / last-resort enforcer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) selections from Ra Uru Hu’s The Complete Rave I’Ching / Line Companion text for HEXAGRAM 40 DELIVERANCE (Archive.org mirror). Interpretations are original behavioral mappings for S³."
+  }
 }

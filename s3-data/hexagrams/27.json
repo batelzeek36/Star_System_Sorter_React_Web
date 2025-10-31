@@ -1,46 +1,149 @@
 {
   "id": "hx27",
   "number": 27,
-  "name": "TBD",
+  "unicode_hexagram": "䷚",
+  "name": "Nourishment / Corners of the Mouth (頤, Yí)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Î indicates that with firm correctness there will be good fortune (in what is denoted by it). We must look at what we are seeking to nourish, and by the exercise of our thoughts seek for the proper aliment.",
+    "normalized_summary": "Right nourishment is not just food — it's how you feed body, mind, character, and those who depend on you. When nourishment is upright and consciously sourced, it brings good fortune. Begging, flattering, grasping, or feeding corruption poisons the whole system."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, (seems to be thus addressed), 'You leave your efficacious tortoise, and look at me till your lower jaw hangs down.' There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：舍爾靈龜，觀我朵頤，凶."
+        }
+      ],
+      "normalized_meaning": "You drop your own inner source of sustenance and start craving what someone else appears to have. That hungry envy is dangerous.",
+      "keywords": [
+        "envy of others' resources",
+        "abandoning inner wisdom",
+        "improper desire",
+        "dependence",
+        "misfortune"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows one looking downwards for nourishment, which is contrary to what is proper; or seeking it from the height (above), advance towards which will lead to evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：顛頤，拂經，于丘頤，征凶。"
+        }
+      ],
+      "normalized_meaning": "Scrambling for support in the wrong place — flattering up, begging down — warps integrity. Chasing nourishment like that leads to trouble.",
+      "keywords": [
+        "misaligned seeking",
+        "improper dependence",
+        "social grasping",
+        "loss of integrity",
+        "approaching danger"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one acting contrary to the method of nourishing. However firm he may be, there will be evil. For ten years let him not take any action, (for) it will not be in any way advantageous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：拂頤，貞凶。十年勿用，無攸利。"
+        }
+      ],
+      "normalized_meaning": "You keep feeding yourself in a way that’s fundamentally wrong and double down out of stubborn pride. That path stays bad for a long time; suspend action.",
+      "keywords": [
+        "stubborn misnourishment",
+        "bad habits",
+        "long-term stagnation",
+        "pause activity",
+        "danger even if 'principled'"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows one looking downwards for (the power to) nourish. There will be good fortune. Looking with a tiger's downward unwavering glare, and with his desire that impels him to spring after spring, he will fall into no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：顛頤，吉；虎視眈眈，其欲逐逐，無咎。"
+        }
+      ],
+      "normalized_meaning": "You take responsibility for feeding others below you. Steady, watchful focus — like a tiger locked in — brings good fortune and no blame.",
+      "keywords": [
+        "responsible stewardship",
+        "focused vigilance",
+        "proper care of dependents",
+        "no blame",
+        "good fortune"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows one acting contrary to what is regular and proper; but if he abide in firmness, there will be good fortune. He should not, (however, try to) cross the great stream.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：拂經，居貞吉，不可涉大川。"
+        }
+      ],
+      "normalized_meaning": "Your way of providing isn't standard, maybe even awkward — but if you hold to inner correctness, it’s still auspicious. Just don’t overextend into high-risk moves.",
+      "keywords": [
+        "imperfect method",
+        "inner firmness",
+        "qualified good fortune",
+        "know your limits",
+        "do not overreach"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows him from whom comes the nourishing. His position is perilous, but there will be good fortune. It will be advantageous to cross the great stream.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：由頤，厲吉，利涉大川。"
+        }
+      ],
+      "normalized_meaning": "You become the source of nourishment itself. The role is demanding and risky, but if you accept that weight cleanly, you can lead great undertakings.",
+      "keywords": [
+        "true provider",
+        "leadership burden",
+        "high stakes",
+        "good fortune through service",
+        "major undertaking"
+      ]
     }
   ]
 }

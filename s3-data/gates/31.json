@@ -1,13 +1,205 @@
 {
   "id": "gate.31",
   "hexagram": "hx31",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.41",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.41"
   },
-  "themes": [],
+  "themes": [
+    "democratic / elected leadership (7–31 Alpha)",
+    "influence through correct transference of a pattern",
+    "leadership depends on followers’ energy",
+    "public perception makes or breaks the leader"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "31.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Manifestation",
+        "hd_quote": "Influence cannot exist in a vacuum."
+      },
+      "interpretation": {
+        "keywords": [
+          "needs voters",
+          "foundation of leadership",
+          "voice of 'I lead'"
+        ],
+        "behavioral_axis": "Knows leadership only functions when there are willing followers to receive the pattern.",
+        "shadow_axis": "Trying to lead without a base; isolated proclamations."
+      },
+      "relationship_needs": {
+        "needs_elected_position": true,
+        "prefers_clear_constituency": true,
+        "rejects_unelected_authority": true
+      },
+      "group_role": "foundational elected voice",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "31.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Arrogance",
+        "hd_quote": "Independent action without guidance."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected leader",
+          "jumps the gun",
+          "needs mentoring"
+        ],
+        "behavioral_axis": "Projects leadership before it is recognized; wants to lead now.",
+        "shadow_axis": "Premature action that misfires and erodes credibility."
+      },
+      "relationship_needs": {
+        "needs_guidance": true,
+        "prefers_stepwise_growth": true,
+        "rejects_public_shaming": true
+      },
+      "group_role": "emerging spokesperson",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "31.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Selectivity",
+        "hd_quote": "The ability to carefully assess and choose the proper influence."
+      },
+      "interpretation": {
+        "keywords": [
+          "chooses followers",
+          "quality over quantity",
+          "political nose"
+        ],
+        "behavioral_axis": "Targets influence to people who can actually implement the pattern.",
+        "shadow_axis": "Backs the wrong allies; diluted influence."
+      },
+      "relationship_needs": {
+        "needs_quality_supporters": true,
+        "prefers_mutual_influence": true,
+        "rejects_forced_members": true
+      },
+      "group_role": "faction/coalition selector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "31.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Intent",
+        "hd_quote": "The success of influence based on how it is perceived."
+      },
+      "interpretation": {
+        "keywords": [
+          "PR-dependent",
+          "perception swing",
+          "not everyone will like it"
+        ],
+        "behavioral_axis": "Understands leadership is judged by public perception, not just content.",
+        "shadow_axis": "Over-manages image; split audience love/hate."
+      },
+      "relationship_needs": {
+        "needs_supportive_audience": true,
+        "prefers_clear_comms": true,
+        "rejects_smear_campaigns": true
+      },
+      "group_role": "public-facing influencer / messenger",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "31.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Self-righteousness",
+        "hd_quote": "Lack of external influence guaranteed by attitude."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected leader",
+          "seen as self-serving",
+          "attitude blocks reach"
+        ],
+        "behavioral_axis": "Holds a strong vision but attitude prevents broad acceptance.",
+        "shadow_axis": "Becomes the ‘out of touch’ leader; universalizes personal stance."
+      },
+      "relationship_needs": {
+        "needs_respect_for_role": true,
+        "prefers_values-aligned_followers": true,
+        "rejects_controlling_audiences": true
+      },
+      "group_role": "visionary with limited uptake",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "31.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Application",
+        "hd_quote": "Actions which match the words and thus guarantee success."
+      },
+      "interpretation": {
+        "keywords": [
+          "walk the talk",
+          "timing-sensitive leadership",
+          "trust or not"
+        ],
+        "behavioral_axis": "Knows leadership only lands when words and actions align at the right time.",
+        "shadow_axis": "Sounding like a leader but unable to manifest; perceived hypocrisy."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_empty_promises": true
+      },
+      "group_role": "integrity-based demonstrator",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
 }

@@ -1,13 +1,206 @@
 {
   "id": "gate.43",
   "hexagram": "hx43",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Breakthrough / Insight",
+  "center": "Ajna",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.23",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.23"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "individual mental insight",
+    "inner ear / acoustic knowing",
+    "breakthrough that demands a new order",
+    "fear of rejection of the insight"
+  ],
+  "fear": "rejection of the insight",
+  "lines": [
+    {
+      "id": "43.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Patience",
+        "hd_quote": "The recognition that new forms cannot be established until resistance has been eliminated."
+      },
+      "interpretation": {
+        "keywords": [
+          "wait for correct audience",
+          "don’t rush the insight",
+          "hold the frequency"
+        ],
+        "behavioral_axis": "Knows the insight is real but waits until the field is ready.",
+        "shadow_axis": "Impatience to show the insight → sour taste, rejection."
+      },
+      "relationship_needs": {
+        "needs_time_for_download": true,
+        "rejects_forced_expression": true,
+        "needs_respect_for_timing": true
+      },
+      "group_role": "insight incubator / timing keeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "43.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Dedication",
+        "hd_quote": "The maintenance of specialized attitudes which promote breakthrough."
+      },
+      "interpretation": {
+        "keywords": [
+          "mental habits for insight",
+          "protecting the download",
+          "specialized mindset"
+        ],
+        "behavioral_axis": "Keeps a precise mental environment so insight can land.",
+        "shadow_axis": "Can get rigid or preachy about ‘right’ thinking."
+      },
+      "relationship_needs": {
+        "needs_respect_for_process": true,
+        "does_not_like_noise": true,
+        "needs_mental_space": true
+      },
+      "group_role": "insight maintainer / specialist",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "43.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Expediency",
+        "hd_quote": "The powerful drive for regeneration that will, when breakthrough is threatened, use any means."
+      },
+      "interpretation": {
+        "keywords": [
+          "will defend the insight",
+          "practical under pressure",
+          "survival of the new order"
+        ],
+        "behavioral_axis": "Fights for the insight when it’s about to be shut down.",
+        "shadow_axis": "Overreacts to criticism → abandons insight to stay accepted."
+      },
+      "relationship_needs": {
+        "needs_loyal_allies": true,
+        "reacts_to_condemnation": true,
+        "needs_clear_channel_for_expression": true
+      },
+      "group_role": "defender of breakthrough",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "43.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The one-track mind",
+        "hd_quote": "A stubborn reliance on one's unique insights that demands focused mental ability to be properly conceptualized."
+      },
+      "interpretation": {
+        "keywords": [
+          "laser mental focus",
+          "not easily distracted",
+          "refines the download"
+        ],
+        "behavioral_axis": "Stays with the odd idea until it can be explained.",
+        "shadow_axis": "Can ignore relationships while obsessed with the insight."
+      },
+      "relationship_needs": {
+        "needs_understanding_of_focus": true,
+        "resists_reprioritization": true,
+        "needs_space_to_think": true
+      },
+      "group_role": "concept refiner / explainer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "43.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Progression",
+        "hd_quote": "The step by step adaptation to relationships which hinder breakthrough."
+      },
+      "interpretation": {
+        "keywords": [
+          "strategic disclosure",
+          "knows when to speak",
+          "social adaptation of insight"
+        ],
+        "behavioral_axis": "Times the insight for maximum group receptivity.",
+        "shadow_axis": "Over-harmonizes → insight gets diluted or never shared."
+      },
+      "relationship_needs": {
+        "needs_invitational_context": true,
+        "needs_respect_for_timing": true,
+        "does_not_like_forced_presentation": true
+      },
+      "group_role": "diplomatic revealer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "43.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Breakthrough",
+        "hd_quote": "Unique knowing that is both personally and collectively of value."
+      },
+      "interpretation": {
+        "keywords": [
+          "mature insight",
+          "insight that reorders life",
+          "collective value"
+        ],
+        "behavioral_axis": "Carries the fully formed insight into the new order.",
+        "shadow_axis": "Smuggles personal ego patterns into the new order."
+      },
+      "relationship_needs": {
+        "needs_high_level_listeners": true,
+        "rejects_smallmindedness": true,
+        "needs_collective_application": true
+      },
+      "group_role": "insight actualizer / order setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "provisional",
+    "provenance": "Line titles and clauses taken from Ra Uru Hu’s The Complete Rave I’Ching (archive.org) for Gate 43 (Breakthrough), each clipped to ≤25 words."
+  }
 }

@@ -1,13 +1,214 @@
 {
   "id": "gate.49",
   "hexagram": "hx49",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Revolution / The Gate of Principles",
+  "center": "Solar Plexus",
+  "circuit": "Ego / Tribal (Defense)",
+  "channel": "49-19 (Synthesis)",
+  "programming_partner": "gate.4",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.4"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "principles as the basis for inclusion/exclusion",
+    "revolution driven by emotional clarity",
+    "sensitivity to what/who serves the tribe",
+    "rejection of what violates the law of necessity",
+    "capacity to transform forms, not just seize power"
+  ],
+  "fear": "rejection / losing support for the principle",
+  "lines": [
+    {
+      "id": "49.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The law of necessity",
+        "hd_quote": "The understanding and application of this law to maximize expansion of support."
+      },
+      "interpretation": {
+        "keywords": [
+          "knows when revolution is actually needed",
+          "tests for social viability first",
+          "principle must be perceived as necessary"
+        ],
+        "behavioral_axis": "Won’t burn the village unless the village agrees it must burn.",
+        "shadow_axis": "Forces ‘necessity’ → looks like chaos or fanaticism."
+      },
+      "relationship_needs": {
+        "needs_collective_buy_in": true,
+        "rejects_unnecessary_drama": true,
+        "needs_principles_to_be_shared": true
+      },
+      "group_role": "viability checker / necessity validator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "source_excerpt": "Revolution has no support unless it is perceived as necessary. :contentReference[oaicite:0]{index=0}",
+      "status": "exact-quote-≤25w"
+    },
+    {
+      "id": "49.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The last resort",
+        "hd_quote": "The determination to exhaust every possible peaceful avenue for change."
+      },
+      "interpretation": {
+        "keywords": [
+          "exhausts options before revolt",
+          "strategic patient reform",
+          "rejection only after review"
+        ],
+        "behavioral_axis": "Will try negotiation/arrangement before pulling the trigger.",
+        "shadow_axis": "If impatient → ‘coup d’etat that has little general support.’"
+      },
+      "relationship_needs": {
+        "needs_time_to_try_options": true,
+        "needs_respect_for_peaceful_process": true,
+        "rejects_rushed_revolution": true
+      },
+      "group_role": "peaceful-path mapper / escalation gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "source_excerpt": "The determination to exhaust every possible peaceful avenue for change. :contentReference[oaicite:1]{index=1}",
+      "status": "exact-quote-≤25w"
+    },
+    {
+      "id": "49.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Popular discontent",
+        "hd_quote": "The ability to destroy antiquated forms once the restrictions have been removed."
+      },
+      "interpretation": {
+        "keywords": [
+          "armed with permission",
+          "axes old loyalties",
+          "sensitive rejection"
+        ],
+        "behavioral_axis": "When the door opens, it removes what no longer serves.",
+        "shadow_axis": "Can be ‘savage in eliminating the old order’ and scar the new."
+      },
+      "relationship_needs": {
+        "needs_clear_signal_of_support": true,
+        "needs_safe_channel_for_rejection": true,
+        "rejects_forced_tolerance_of_dead_forms": true
+      },
+      "group_role": "obsolete-structure breaker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "source_excerpt": "A savageness in eliminating the old order that may permanently scar the new. :contentReference[oaicite:2]{index=2}",
+      "status": "exact-quote-≤25w"
+    },
+    {
+      "id": "49.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Platform",
+        "hd_quote": "A concentration on the organization of power to clearly define authority."
+      },
+      "interpretation": {
+        "keywords": [
+          "builds the revolutionary platform",
+          "organizes people/resources",
+          "can sacrifice higher principles"
+        ],
+        "behavioral_axis": "Gets the tribal power structure in order so change can land.",
+        "shadow_axis": "Organizes for power and forgets what the revolution was for."
+      },
+      "relationship_needs": {
+        "needs_structured_roles": true,
+        "needs_principles_kept_in_view": true,
+        "rejects_power_for_power": true
+      },
+      "group_role": "platform builder / authority-organizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "source_excerpt": "A concentration on the organization of power to clearly define authority. :contentReference[oaicite:3]{index=3}",
+      "status": "exact-quote-≤25w"
+    },
+    {
+      "id": "49.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Organization",
+        "hd_quote": "Practical provisions for the needs of others in revolutionary times."
+      },
+      "interpretation": {
+        "keywords": [
+          "logistics for revolution",
+          "sensitivity to practical needs",
+          "human-rights agenda"
+        ],
+        "behavioral_axis": "Makes sure the people are actually fed/supported while principles are enforced.",
+        "shadow_axis": "Gets so busy guaranteeing support that the principle itself dilutes."
+      },
+      "relationship_needs": {
+        "needs_support_infrastructure": true,
+        "needs_people_cared_for": true,
+        "rejects_principles_without_practicality": true
+      },
+      "group_role": "tribal logistics / guarantee officer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "source_excerpt": "Practical provisions for the needs of others in revolutionary times which ensures support. :contentReference[oaicite:4]{index=4}",
+      "status": "exact-quote-≤25w"
+    },
+    {
+      "id": "49.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Attraction",
+        "hd_quote": "An innate impressionality that transforms the fence-sitter into the committed."
+      },
+      "interpretation": {
+        "keywords": [
+          "magnetic revolutionary aura",
+          "wins the undecided",
+          "spiritualized sensitivity"
+        ],
+        "behavioral_axis": "Their field itself converts people to the new principle.",
+        "shadow_axis": "If over-sensitive, flips to ‘stubborn, and often fatal, rejectionism.’"
+      },
+      "relationship_needs": {
+        "needs_high-quality_principles": true,
+        "rejects_fickle_allies": true,
+        "needs_space_for_wave": true
+      },
+      "group_role": "closer / converter for the revolution",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "source_excerpt": "Stubborn, and often fatal, rejectionism. :contentReference[oaicite:5]{index=5}",
+      "status": "exact-quote-≤25w"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "quotes-from-Ra-Line-Companion/Complete-Rave",
+    "provenance": "Primary text from Ra Uru Hu, The Complete Rave I’Ching / Line Companion page for Gate 49 ‘Revolution’, lines 1–6, on archive.org. All hd_quotes are verbatim excerpts ≤25 words from the corresponding exaltation/description sentences. :contentReference[oaicite:6]{index=6}"
+  }
 }

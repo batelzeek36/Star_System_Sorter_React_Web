@@ -1,46 +1,149 @@
 {
   "id": "hx47",
   "number": 47,
-  "name": "TBD",
+  "unicode_hexagram": "䷮",
+  "name": "Oppression / Exhaustion (困, Kùn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In (the condition denoted by) Khwăn there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
+    "normalized_summary": "Extreme pressure. You feel hemmed in, depleted, blocked, maybe even humiliated. Still — real progress is possible if you keep inner correctness and act with quiet sincerity instead of talking big. Support from true greatness (nobility of character, not status) brings good fortune. Words alone won’t get you out; disciplined endurance will."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject with bare buttocks straitened under the stump of a tree. He enters a dark valley, and for three years has no prospect (of deliverance).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：臀困于株木，入于幽谷，三岁不见。"
+        }
+      ],
+      "normalized_meaning": "This is rock-bottom constraint. You’re exposed, stuck, and isolated in a dark place for a long stretch with no visible rescue. The teaching is not ‘fix it fast,’ it’s ‘accept the depth of the hardship and endure without panicking.’",
+      "keywords": [
+        "humiliation",
+        "deep isolation",
+        "long ordeal",
+        "no quick escape",
+        "endurance under hardship"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject straitened amidst his wine and viands. There come to him anon the red knee-covers (of the ruler). It will be well for him (to maintain his sincerity as) in sacrificing. Active operations (on his part) will lead to evil, but he will be free from blame.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：困于酒食，朱绂方来，利用亨祀，征凶，无咎。"
+        }
+      ],
+      "normalized_meaning": "Even surrounded by comforts, you’re still under pressure. Help from authority is on its way, so keep ritual-level sincerity. Don’t lunge into dramatic action — forcing matters now turns harmful. Quiet integrity keeps you blameless.",
+      "keywords": [
+        "aid approaching",
+        "sincerity like ritual",
+        "pressure despite comfort",
+        "do not force action",
+        "no blame"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject straitened before a (frowning) rock. He lays hold of thorns. He enters his palace, and does not see his wife. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：困于石，据于蒺藜，入于其宫，不见其妻，凶。"
+        }
+      ],
+      "normalized_meaning": "You push forward and just hit harsher resistance — stone, thorns, loneliness. Even home doesn’t comfort you; connection is cut off. This pattern leads to misfortune. Stop grinding yourself bloody against the wall.",
+      "keywords": [
+        "painful obstruction",
+        "alienation",
+        "relationship strain",
+        "emotional exhaustion",
+        "misfortune"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided shows its subject proceeding very slowly (to help the subject of the first line), who is straitened by the carriage adorned with metal in front of him. There will be occasion for regret, but the end will be good.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：来徐徐，困于金车，吝，有终。"
+        }
+      ],
+      "normalized_meaning": "Help moves toward the distressed person, but it’s painfully slow and awkward, like being stuck behind a heavy, ornate carriage. Frustration and regret at first, yes — but if you keep going, it resolves in the end.",
+      "keywords": [
+        "slow rescue",
+        "delayed support",
+        "logistical burden",
+        "initial regret",
+        "eventual resolution"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject with his nose and feet cut off. He is straitened by (his ministers in their) scarlet aprons. He is leisurely in his movements, however, and is satisfied. It will be well for him to be (as sincere) as in sacrificing (to spiritual beings).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：劓刖，困于赤绂，乃徐有说，利用祭祀。"
+        }
+      ],
+      "normalized_meaning": "Here is the ruler under brutal pressure and humiliation — symbolically mutilated, constrained by his own officials. Yet he stays composed and sincere, moving carefully, acting like someone performing sacred offerings. That disciplined inner stance is how he survives and finds relief.",
+      "keywords": [
+        "humiliation in power",
+        "political constraint",
+        "calm composure",
+        "ritual sincerity",
+        "relief through devotion"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth SIX, divided, shows its subject straitened, as if bound with creepers; or in a high and dangerous position, and saying (to himself), 'If I move, I shall repent it.' If he do repent of former errors, there will be good fortune in his going forward.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：困于葛藟，于臲卼，曰动悔。有悔，征吉。"
+        }
+      ],
+      "normalized_meaning": "This is peak constraint: tied up, precarious, afraid to act. The mind says, ‘Any move is a mistake.’ The text says: examine yourself, correct what led here, and then move. Honest repentance unlocks forward fortune.",
+      "keywords": [
+        "extreme constraint",
+        "dangerous position",
+        "fear of movement",
+        "self-correction",
+        "good fortune after repentance"
+      ]
     }
   ]
 }

@@ -1,46 +1,149 @@
 {
   "id": "hx45",
   "number": 45,
-  "name": "TBD",
+  "unicode_hexagram": "䷬",
+  "name": "Gathering Together / Assembly (萃, Cuì)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In (the state denoted by) Zhui, the king will repair to his ancestral temple. It will be advantageous (also) to meet with the great man; and then there will be progress and success, though the advantage must come through firm correctness. The use of great victims will conduce to good fortune; and in whatever direction movement is made, it will be advantageous.",
+    "normalized_summary": "Gathering and unification. People assemble around a legitimate center — ritual, shared purpose, trusted leadership. That unity is powerful and can move outward in any direction. But it only holds if it’s sincere, ethically guided, and not faked for advantage. True assembly requires devotion, offering, and steadiness; without that, the group scatters into confusion or resentment."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject with a sincere desire (for union), but unable to carry it out, so that disorder is brought into the sphere of his union. If he cry out (for help to his proper correlate), all at once (his tears) will give place to smiles. He need not mind (the temporary difficulty); as he goes forward, there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：有孚不終，乃亂乃萃，若號一握為笑，勿恤，往無咎。"
+        }
+      ],
+      "normalized_meaning": "Your wish to unite is real, but blocked, which creates chaos and mixed signals. Ask for support from the right ally; tension can flip quickly to joy. Don’t over-worry — moving ahead is still okay.",
+      "keywords": [
+        "frustrated union",
+        "calling for help",
+        "emotional swing (tears → smiles)",
+        "temporary disorder",
+        "no blame if you continue"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject led forward (by his correlate). There will be good fortune, and freedom from error. There is entire sincerity, and in that case (even the small offerings of) the vernal sacrifice are acceptable.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：引吉，無咎，孚乃利用禴。"
+        }
+      ],
+      "normalized_meaning": "You are guided into alignment by someone you trust. Because the sincerity is complete, even a modest offering is welcomed. Shared devotion matters more than display.",
+      "keywords": [
+        "being led in",
+        "trust and sincerity",
+        "modest offering accepted",
+        "good fortune",
+        "no blame"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject striving after union and seeming to sigh, yet nowhere finding any advantage. If he go forward, he will not err, though there may be some small cause for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：萃如，嗟如，無攸利，往無咎，小吝。"
+        }
+      ],
+      "normalized_meaning": "You ache for connection and feel shut out. It’s discouraging. Keep moving toward honest union anyway — you won’t be wrong, even if it’s imperfect and a bit humiliating.",
+      "keywords": [
+        "longing to belong",
+        "discouragement",
+        "minor regret",
+        "keep going",
+        "still no real blame"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject in such a state that, if he be greatly fortunate, he will receive no blame.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：大吉，無咎。"
+        }
+      ],
+      "normalized_meaning": "You’re in a strong, exposed position near power. If things go very well, you’re praised; if they slip, you take the heat. High stakes, high reward.",
+      "keywords": [
+        "proximity to power",
+        "high stakes",
+        "visible responsibility",
+        "great good fortune possible",
+        "no blame if it succeeds"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the union (of all) under its subject in the place of dignity. There will be no error. If any do not have confidence in him, let him see to it that (his virtue) be great, long-continued, and firmly correct, and all occasion for repentance will disappear.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：萃有位，無咎。匪孚，元永貞，悔亡。"
+        }
+      ],
+      "normalized_meaning": "Leadership gathers everyone. If some still doubt you, answer with steady, enduring integrity — not force. Over time that cancels regret and cements trust.",
+      "keywords": [
+        "center of the assembly",
+        "earned legitimacy",
+        "long-term integrity",
+        "removing doubt",
+        "no error"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject sighing and weeping; but there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：齎咨涕洟，無咎。"
+        }
+      ],
+      "normalized_meaning": "At the outer edge of the gathering, someone grieves — feeling left out, late, or no longer needed. The sorrow is real but blameless.",
+      "keywords": [
+        "sorrow at the margin",
+        "emotional release",
+        "post-gathering letdown",
+        "no blame",
+        "closure"
+      ]
     }
   ]
 }

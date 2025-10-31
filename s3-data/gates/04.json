@@ -2,168 +2,204 @@
   "id": "gate.4",
   "hexagram": "hx04",
   "center": "Ajna",
-  "circuit": "Collective / Understanding (Logic)",
-  "programming_partner": null,
+  "circuit": "Collective / Understanding",
+  "programming_partner": "gate.49",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.49"
   },
   "themes": [
-    "answers to doubt",
-    "logic and explanation",
-    "mental modeling",
-    "making uncertainty feel safe",
-    "formulating a solution that others can trust"
+    "formulizing answers to doubt",
+    "logic and timing",
+    "solutions that need testing",
+    "seducing energy to prove hypotheses"
   ],
-  "fear": "anxiety of not having a reliable answer / fear of being incorrect",
+  "fear": null,
   "lines": [
     {
       "id": "4.1",
       "line_number": 1,
-      "keywords": [
-        "needs logical footing",
-        "asks for proof",
-        "mental stability first"
-      ],
-      "behavioral_axis": "Builds answers only after creating a solid internal reasoning base.",
-      "shadow_axis": "Over-defensive, rejects ideas that feel uncertain.",
+      "classical": {
+        "hd_title": "Pleasure",
+        "hd_quote": "Ultimate pleasure cannot be achieved without perfect timing."
+      },
+      "interpretation": {
+        "keywords": [
+          "answer timing",
+          "introspective logic",
+          "foundation of solutions"
+        ],
+        "behavioral_axis": "Knows answers land when timing is correct; waits for readiness.",
+        "shadow_axis": "Forces answers prematurely; creates backlash or misunderstanding."
+      },
+      "relationship_needs": {
+        "needs_space_to_time_answers": true,
+        "prefers_readiness_over_pressure": true,
+        "responds_to_invitations_not_interruptions": true
+      },
+      "group_role": "timing-based problem solver",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_time_to_think": true,
-        "needs_clean_data_not_pressure": true,
-        "rejects_emotional_rush_decisions": true
-      },
-      "group_role": "internal analyst / proof-checker"
+      "status": "provisional"
     },
     {
       "id": "4.2",
       "line_number": 2,
-      "keywords": [
-        "natural explainer",
-        "clarifies concepts",
-        "answers come easily"
-      ],
-      "behavioral_axis": "Translates doubt into a clean logical answer without forcing it.",
-      "shadow_axis": "Irritated when asked to justify what should be obvious.",
+      "classical": {
+        "hd_title": "Acceptance",
+        "hd_quote": "The recognition of limitation in oneself and others leads to tolerance and the suspension of judgment."
+      },
+      "interpretation": {
+        "keywords": [
+          "projection line",
+          "humility",
+          "tolerance"
+        ],
+        "behavioral_axis": "Accepts limits; reduces judgment; lets answers meet people where they are.",
+        "shadow_axis": "Projects certainty; dismisses others’ capacity; mistimes delivery."
+      },
+      "relationship_needs": {
+        "needs_mutual_tolerance": true,
+        "dislikes_forced_certainty": true,
+        "benefits_from_clear_context": true
+      },
+      "group_role": "temperate explainer",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_respect_for_their_mind": true,
-        "dislikes_constant_interrogation": true,
-        "wants_to_share_not_debate": true
-      },
-      "group_role": "clarifier / teacher"
+      "status": "provisional"
     },
     {
       "id": "4.3",
       "line_number": 3,
-      "keywords": [
-        "logic via trial",
-        "tests assumptions",
-        "learns by breaking theories"
-      ],
-      "behavioral_axis": "Finds truth by poking holes in bad logic and adapting.",
-      "shadow_axis": "Cynical nitpicker, invalidates everything to feel smart.",
+      "classical": {
+        "hd_title": "Irresponsibility",
+        "hd_quote": "The potential to enjoy the formulas with no regard to their practical application."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error thinking",
+          "collecting answers",
+          "application gap"
+        ],
+        "behavioral_axis": "Generates/collects answers; tests later through real life.",
+        "shadow_axis": "Hoarding theories; avoiding implementation; rationalizing delays."
+      },
+      "relationship_needs": {
+        "needs_room_to_iterate": true,
+        "partners_must_tolerate_wobbles": true,
+        "prefers_learning_by_doing": true
+      },
+      "group_role": "answer generator / prototyper",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": false,
         "is_disruptive_on_purpose": true,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "partners_must_handle_debate": true,
-        "needs_room_to_question_assumptions": true,
-        "rejects_people_who_take_challenge_personally": true
-      },
-      "group_role": "critic / weakness-exposer / stress-tester"
+      "status": "provisional"
     },
     {
       "id": "4.4",
       "line_number": 4,
-      "keywords": [
-        "network thinker",
-        "idea distributor",
-        "collective problem-solver"
-      ],
-      "behavioral_axis": "Spreads a workable mental model through the community.",
-      "shadow_axis": "Sells certainty they don’t actually have just to maintain influence.",
+      "classical": {
+        "hd_title": "The Liar",
+        "hd_quote": "Role playing as an art form."
+      },
+      "interpretation": {
+        "keywords": [
+          "persona management",
+          "network-facing expertise",
+          "fake-it-then-learn"
+        ],
+        "behavioral_axis": "Says yes publicly, then learns fast to fulfill the role.",
+        "shadow_axis": "Confuses fantasy with fact; gets exposed by time."
+      },
+      "relationship_needs": {
+        "needs_social_wiggle_room": true,
+        "keeps_learning_private": true,
+        "benefits_from_accountability": true
+      },
+      "group_role": "public-facing explainer",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_trust_from_network": true,
-        "wants_audience_open_to_framework": true,
-        "dislikes_reputation_sniping": true
-      },
-      "group_role": "broadcaster / model distributor"
+      "status": "provisional"
     },
     {
       "id": "4.5",
       "line_number": 5,
-      "keywords": [
-        "projected answer key",
-        "called to fix confusion",
-        "public problem-solver"
-      ],
-      "behavioral_axis": "Becomes the go-to mind people rely on to resolve doubt fast.",
-      "shadow_axis": "Blamed as manipulative if the fix is uncomfortable.",
+      "classical": {
+        "hd_title": "Seduction",
+        "hd_quote": "This fifth line is called Seduction."
+      },
+      "interpretation": {
+        "keywords": [
+          "universalizer",
+          "resource magnet",
+          "funding logic"
+        ],
+        "behavioral_axis": "Attracts energy/resources to test and prove answers.",
+        "shadow_axis": "Oversells unproven solutions; others take the credit or backlash."
+      },
+      "relationship_needs": {
+        "needs_clear_expectations": true,
+        "needs_resource_support": true,
+        "rejects_blame_for_experiments": true
+      },
+      "group_role": "sponsor-attractor / evangelist",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": true,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_clear_scope_of_question": true,
-        "requires_defense_against_accusations": true,
-        "partners_must_handle_projection": true
-      },
-      "group_role": "crisis explainer / strategist"
+      "status": "provisional"
     },
     {
       "id": "4.6",
       "line_number": 6,
-      "keywords": [
-        "long-range clarity",
-        "pattern of correct answers",
-        "future-proof logic"
-      ],
-      "behavioral_axis": "Embodies 'here’s why this will still make sense later.'",
-      "shadow_axis": "Intellectual distancing, judging others as irrational children.",
+      "classical": {
+        "hd_title": "Excess",
+        "hd_quote": "They are not interested in answers."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof view",
+          "seeking understanding",
+          "cross-circuit pull"
+        ],
+        "behavioral_axis": "Transcends answers; searches for life/idea beyond formulas.",
+        "shadow_axis": "Impatient with process; detaches from practical understanding."
+      },
+      "relationship_needs": {
+        "needs_long_view": true,
+        "needs_patience_from_others": true,
+        "rejects_shallow_explanations": true
+      },
+      "group_role": "big-picture synthesizer",
       "flags": {
         "is_sensitive_to_criticism": false,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_respect_for_long_view": true,
-        "rejects_short_term_drama": true,
-        "wants_mature_discussion": true
-      },
-      "group_role": "strategic advisor / long-range analyst"
+      "status": "provisional"
     }
   ],
   "meta": {
-    "version": "1.0",
-    "last_updated": "2025-10-28",
-    "status": "provisional"
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are direct <25-word excerpts from Ra Uru Hu's Line Companion (Archive.org). interpretations are original behavioral mappings."
   }
 }

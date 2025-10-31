@@ -1,13 +1,207 @@
 {
   "id": "gate.51",
   "hexagram": "hx51",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "The Arousing / Shock",
+  "center": "Ego / Heart",
+  "circuit": "Individual / Centering",
+  "programming_partner": "gate.57",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.57"
   },
-  "themes": [],
+  "themes": [
+    "initiation through shock",
+    "courage and competitive will",
+    "being first / breaking complacency",
+    "ego motor that must be called out",
+    "51↔25: spiritual shock → innocence"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "51.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Reference",
+        "hd_quote": "The advantage of previous crisis experience."
+      },
+      "interpretation": {
+        "keywords": [
+          "shock-tempered will",
+          "learns by surviving",
+          "needs recovery windows"
+        ],
+        "behavioral_axis": "Strength comes from having already been through it; experience = armor.",
+        "shadow_axis": "If rest is denied, ego stays weak and overreacts to the next shock."
+      },
+      "relationship_needs": {
+        "requires_time_to_recover": true,
+        "needs_experiences_respected": true,
+        "rejects_forced_reinitiation": true
+      },
+      "group_role": "veteran of crisis / reference point for shock",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "51.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Withdrawal",
+        "hd_quote": "The recognition of the mechanics of shock that indicates when withdrawal is the only logical action."
+      },
+      "interpretation": {
+        "keywords": [
+          "knows when to pull back",
+          "unlikely hero",
+          "ego self-protection"
+        ],
+        "behavioral_axis": "Reads the field and conserves will until the jump is survivable.",
+        "shadow_axis": "Shamed as ‘cowardly’ and pressured into shocks they can’t win."
+      },
+      "relationship_needs": {
+        "needs_respect_for_withdrawal": true,
+        "hates_being_shamed_into_action": true,
+        "needs_safe_reentry": true
+      },
+      "group_role": "shock tactician / risk assessor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "51.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Adaptation",
+        "hd_quote": "The life-sustaining awareness that thinks on its feet and thus creates opportunities."
+      },
+      "interpretation": {
+        "keywords": [
+          "improv in chaos",
+          "competitive responder",
+          "learns-by-mistakes"
+        ],
+        "behavioral_axis": "When shocked, dances with it, turns it into advantage.",
+        "shadow_axis": "In massive disorder, defaults to withdrawal and looks unreliable."
+      },
+      "relationship_needs": {
+        "needs_flex_to_change_course": true,
+        "partners_must_handle_surprises": true,
+        "benefits_from_praise_for_resilience": true
+      },
+      "group_role": "crisis mover / opportunistic initiator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "51.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Limitation",
+        "hd_quote": "A pure inventiveness and sometimes genius to find some opportunity even in the midst of the most devastating shocks."
+      },
+      "interpretation": {
+        "keywords": [
+          "fixed competitive strategy",
+          "finds openings in crisis",
+          "shock-aware networker"
+        ],
+        "behavioral_axis": "Knows the terrain of challenge and can route through it.",
+        "shadow_axis": "If shock breaks the pattern, their fixed strategy collapses."
+      },
+      "relationship_needs": {
+        "needs_trust_in_their_strategy": true,
+        "resists_rule-breaking_competitors": true,
+        "needs_time_to_rebuild_after_failure": true
+      },
+      "group_role": "battlefield strategist / situational genius",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "51.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Symmetry",
+        "hd_quote": "Perfected illumination that in grasping the nature of the shock can transform its normal patterns into a symmetrical adaptation."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected warrior",
+          "rides any shock",
+          "teaches courage"
+        ],
+        "behavioral_axis": "Others project ‘you can handle everything’; often they can.",
+        "shadow_axis": "If they indulge in victory, they lose vigilance and get hit by the next shock."
+      },
+      "relationship_needs": {
+        "needs_clear_expectation_limits": true,
+        "requires_acknowledgment_of_burden": true,
+        "rejects_blame_when_others_projected": true
+      },
+      "group_role": "model initiator / shock alchemist",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "51.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Separation",
+        "hd_quote": "In times of crisis when all those around are confused and in disorder, the ability not to succumb to panic."
+      },
+      "interpretation": {
+        "keywords": [
+          "aloof in crisis",
+          "initiatory survivor",
+          "above the drama"
+        ],
+        "behavioral_axis": "Holds will steady while everyone else scatters; survives alone if needed.",
+        "shadow_axis": "Looks unfeeling or non-competitive because they won’t join the panic."
+      },
+      "relationship_needs": {
+        "needs_respect_for_detachment": true,
+        "needs_longer_cadence_for_initiation": true,
+        "rejects_emotional_flooding": true
+      },
+      "group_role": "lone survivor / shock stabilizer from above",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "verified",
+    "provenance": "Line titles and quotes taken verbatim from Ra Uru Hu, “Line Companion,” archive.org, section ‘HEXAGRAM 51 THE AROUSING’, lines 13261–13459 (51.1–51.6). All hd_quotes are <= 25 words and contiguous excerpts from that section. Interpretations / relationship_needs / group_role are original mappings for your app."
+  }
 }

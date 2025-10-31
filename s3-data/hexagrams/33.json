@@ -1,46 +1,149 @@
 {
   "id": "hx33",
   "number": 33,
-  "name": "TBD",
+  "unicode_hexagram": "䷠",
+  "name": "Retreat / Strategic Withdrawal (遯, Dùn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Tun indicates successful progress (in its circumstances). To a small extent it will be advantageous to be firm and correct.",
+    "normalized_summary": "Strategic withdrawal. You pull back to preserve strength, authority, and position rather than wasting force in a losing situation. Retreat done with discipline is not cowardice — it’s wisdom. Chasing, clinging, or retreating in panic invites danger. Calm, dignified withdrawal creates long-term advantage."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject retiring tail-wise. There will be peril; he should not (try to) go anywhere.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：遯尾，厲，勿用有攸往。"
+        }
+      ],
+      "normalized_meaning": "You’re late to withdraw and exposed in the open. It’s dangerous. Don’t force movement now — any attempt to act just increases risk.",
+      "keywords": [
+        "late retreat",
+        "exposed position",
+        "high risk",
+        "do not advance",
+        "stall and survive"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject holding (the situation) fast, as with a thong of yellow ox-hide, so that no one can loose it.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：執之用黃牛之革，莫之勝說。"
+        }
+      ],
+      "normalized_meaning": "You bind yourself to restraint. You refuse to be provoked or chased back into the fight. Your resolve holds, and cannot be pulled apart.",
+      "keywords": [
+        "disciplined restraint",
+        "unyielding resolve",
+        "refusing provocation",
+        "controlled withdrawal",
+        "unbreakable hold"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows one retiring but bound (to the situation). There is illness and peril; but if he keep (and employ) his servants and concubines, there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：係遯，有疾厲，畜臣妾吉。"
+        }
+      ],
+      "normalized_meaning": "You’re trying to withdraw but still entangled. Stress and danger are real. The move here is: keep loyal support, manage what’s close, don’t posture grandly. That’s what keeps it favorable.",
+      "keywords": [
+        "entangled retreat",
+        "stress load",
+        "manage inner circle",
+        "protect dependents",
+        "contained good fortune"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject retiring in a good way. There will be good fortune for the superior man; but for the small man there will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：好遯，君子吉，小人否。"
+        }
+      ],
+      "normalized_meaning": "Voluntary retreat. The principled person steps back cleanly and thrives. The petty person can’t let go and therefore suffers.",
+      "keywords": [
+        "honorable withdrawal",
+        "choosing to step back",
+        "virtue vs ego",
+        "superior man prospers",
+        "small man fails"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the excellent retiring. With firm correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：嘉遯，貞吉。"
+        }
+      ],
+      "normalized_meaning": "Refined retreat. You withdraw with dignity and moral clarity, not bitterness. Holding that stance brings good fortune.",
+      "keywords": [
+        "dignified exit",
+        "moral clarity",
+        "clean disengagement",
+        "integrity preserved",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject retiring grandly. There will be nothing in which there will not be advantage.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：肥遯，無不利。"
+        }
+      ],
+      "normalized_meaning": "Master-level withdrawal. You exit with full strength intact, on your own terms. This kind of retreat actually upgrades your long-term position.",
+      "keywords": [
+        "strategic exit",
+        "power preserved",
+        "complete disengagement",
+        "advantage in all respects",
+        "long-game positioning"
+      ]
     }
   ]
 }

@@ -1,46 +1,149 @@
 {
   "id": "hx63",
   "number": 63,
-  "name": "TBD",
+  "unicode_hexagram": "䷾",
+  "name": "After Completion / Already Fording (既濟, Jì Jì)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Kî Žî intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.",
+    "normalized_summary": "Completion achieved—now guard it. Success in small matters; keep firm and correct. Beginnings are auspicious, but without vigilance endings can unravel."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, (shows its subject as a driver) who drags back his wheel, (or as a fox) which has wet his tail. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：曳其輪，濡其尾，無咎。"
+        }
+      ],
+      "normalized_meaning": "Slow down at the threshold. Restrain momentum after success; caution prevents mistakes.",
+      "keywords": [
+        "restraint",
+        "post-success caution",
+        "no blame",
+        "consolidation",
+        "threshold"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, (shows its subject as) a wife who has lost her (carriage-)screen. There is no occasion to go in pursuit of it. In seven days she will find it.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：婦喪其茀，勿逐，七日得。"
+        }
+      ],
+      "normalized_meaning": "Hold your place; let time restore what’s missing. Patience and propriety bring it back.",
+      "keywords": [
+        "patience",
+        "right timing",
+        "propriety",
+        "recovery",
+        "non-chasing"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, (suggests the case of) Kâo Žung, who attacked the Demon region, but was three years in subduing it. Small men should not be employed (in such enterprises).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：高宗伐鬼方，三年克之，小人勿用。"
+        }
+      ],
+      "normalized_meaning": "A major campaign requires endurance and capable allies. Do not rely on petty help.",
+      "keywords": [
+        "long effort",
+        "endurance",
+        "leadership",
+        "avoid petty aides",
+        "strategy"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject with rags provided against any leak (in his boat), and on his guard all day long.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：繻有衣袽，終日戒。"
+        }
+      ],
+      "normalized_meaning": "Keep the seals patched and stay alert. Preventive measures maintain completion.",
+      "keywords": [
+        "prevention",
+        "maintenance",
+        "vigilance",
+        "risk management",
+        "prudence"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject (as) the neighbour in the east who slaughters an ox (for his sacrifice); but this is not equal to the (small) spring sacrifice of the neighbour in the west, whose sincerity receives the blessing.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：東鄰殺牛，不如西鄰之禴祭，實受其福。"
+        }
+      ],
+      "normalized_meaning": "Sincerity outweighs show. Modest, timely offerings with true heart draw real blessing.",
+      "keywords": [
+        "sincerity",
+        "modesty",
+        "authenticity",
+        "blessing",
+        "quality over quantity"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject with (even) his head immersed. The position is perilous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：濡其首，厲。"
+        }
+      ],
+      "normalized_meaning": "Overextension at the end brings danger. Don’t push past the safe limit.",
+      "keywords": [
+        "final-stage risk",
+        "overreach",
+        "immersion",
+        "peril",
+        "pull back"
+      ]
     }
   ]
 }

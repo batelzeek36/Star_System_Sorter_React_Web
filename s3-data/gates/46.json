@@ -1,13 +1,206 @@
 {
   "id": "gate.46",
   "hexagram": "hx46",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "G",
+  "circuit": "Collective / Sensing (Abstract)",
+  "programming_partner": "gate.25",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.25"
   },
-  "themes": [],
+  "themes": [
+    "love of the body / holy flesh",
+    "serendipity: right place, right time, because of dedication",
+    "embodied experience as the path",
+    "29–46 Channel of Discovery (falling into experience)",
+    "good fortune through staying in the body"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "46.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Being discovered",
+        "hd_quote": "Dedication in obscurity that is unexpectedly discovered."
+      },
+      "interpretation": {
+        "keywords": [
+          "hidden devotion",
+          "serendipitous success",
+          "body-as-temple practice"
+        ],
+        "behavioral_axis": "Stay in the experience even when unseen; recognition comes later.",
+        "shadow_axis": "Quits early because no one is watching."
+      },
+      "relationship_needs": {
+        "needs_solo_dedication": true,
+        "prefers_recognition_over_time": true,
+        "rejects_premature_evaluation": true
+      },
+      "group_role": "hidden devotee / body mystic",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "46.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Prima Donna",
+        "hd_quote": "A difficult and demanding nature that succeeds despite its behavior because of the depth of its talents."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected talent",
+          "right-place aura",
+          "success despite attitude"
+        ],
+        "behavioral_axis": "Talent + embodiment convinces others even if the style is demanding.",
+        "shadow_axis": "Entitled presence that expects reward before it’s earned."
+      },
+      "relationship_needs": {
+        "needs_space_for_talent": true,
+        "hates_envy": true,
+        "rejects_forced_humility": true
+      },
+      "group_role": "visible talent / difficult muse",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "46.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Projection",
+        "hd_quote": "A practical approach to good fortune that maintains the same patterns."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error experience",
+          "defend the pattern",
+          "don’t get pulled out"
+        ],
+        "behavioral_axis": "Keeps to what works; stays in the experience until complete.",
+        "shadow_axis": "Lets others’ projections interrupt the flow → stalled success."
+      },
+      "relationship_needs": {
+        "needs_undisturbed_patterns": true,
+        "partners_respect_focus": true,
+        "rejects_future_projection": true
+      },
+      "group_role": "pattern holder / experience defender",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "46.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Impact",
+        "hd_quote": "The ability, once recognized, to move rapidly from obscurity to influence."
+      },
+      "interpretation": {
+        "keywords": [
+          "sudden visibility",
+          "social externalization",
+          "recognized embodiment"
+        ],
+        "behavioral_axis": "Once seen, they externalize their experience and climb fast.",
+        "shadow_axis": "Forgets allies after success; appears ungrateful."
+      },
+      "relationship_needs": {
+        "needs_recognition_channel": true,
+        "prefers_social_allies": true,
+        "rejects_stagnant_contexts": true
+      },
+      "group_role": "influential exemplar / experience externalizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "46.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Pacing",
+        "hd_quote": "The maintenance of proper rhythm that avoids radical divergence from successful patterns."
+      },
+      "interpretation": {
+        "keywords": [
+          "projection management",
+          "stay with what works",
+          "don’t get stuck"
+        ],
+        "behavioral_axis": "Honors the cycle that’s bringing luck but knows when to stop.",
+        "shadow_axis": "Lets others’ projections trap them in a dying pattern."
+      },
+      "relationship_needs": {
+        "needs_projection_management": true,
+        "prefers_clear_cycles": true,
+        "rejects_forced_consistency": true
+      },
+      "group_role": "pace-setter / projection manager",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "46.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Integrity",
+        "hd_quote": "The wisdom to secure one's identity through careful consideration of commitments."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level discernment",
+          "embodied wisdom",
+          "commitment filters"
+        ],
+        "behavioral_axis": "Only enters experiences that will feed back value to the collective.",
+        "shadow_axis": "Overextends and later must break promises."
+      },
+      "relationship_needs": {
+        "needs_commitment_filters": true,
+        "prefers_high_integrity_partners": true,
+        "rejects_restrictive_commitments": true
+      },
+      "group_role": "embodied sage / commitment gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org, section “HEXAGRAM 46 PUSHING UPWARD,” lines 46.1–46.6 (approx. L12023–L12243). Interpretations are original behavioral mappings aligned to the user's HD–S³ schema."
+  }
 }

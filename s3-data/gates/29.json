@@ -1,13 +1,205 @@
 {
   "id": "gate.29",
   "hexagram": "hx29",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Sacral",
+  "circuit": "Sensing",
+  "programming_partner": "gate.30",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.30"
   },
-  "themes": [],
+  "themes": [
+    "commitment",
+    "perseverance",
+    "saying yes wisely",
+    "endurance through difficulties"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "29.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The draftee",
+        "hd_quote": "The ability to adapt to struggle when necessary but not as a permanent state."
+      },
+      "interpretation": {
+        "keywords": [
+          "initiate commitments carefully",
+          "build resilience",
+          "situational engagement"
+        ],
+        "behavioral_axis": "Says yes to experiences that develop stamina, not lifelong entanglements.",
+        "shadow_axis": "Past setbacks create hesitation and missed opportunities."
+      },
+      "relationship_needs": {
+        "needs_clear_terms": true,
+        "benefits_from_encouragement": true,
+        "avoid_lifetime_binds": true
+      },
+      "group_role": "trial recruit / short-term committer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "29.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Assessment",
+        "hd_quote": "Persistence tempered by caution."
+      },
+      "interpretation": {
+        "keywords": [
+          "measured commitment",
+          "prudence",
+          "calibrated yes"
+        ],
+        "behavioral_axis": "Projects readiness to persevere while quietly gauging resources.",
+        "shadow_axis": "Over-cautious if harmony feels threatened."
+      },
+      "relationship_needs": {
+        "needs_respect_for_pacing": true,
+        "needs_social_harmony": true,
+        "avoid_pressure_decisions": true
+      },
+      "group_role": "steady hand / pragmatic assessor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "29.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Evaluation",
+        "hd_quote": "In this context, properly assessed inaction."
+      },
+      "interpretation": {
+        "keywords": [
+          "strategic pause",
+          "risk review",
+          "learned restraint"
+        ],
+        "behavioral_axis": "Knows when not to commit; waits for better terrain.",
+        "shadow_axis": "Perpetual delay becomes avoidance of necessary action."
+      },
+      "relationship_needs": {
+        "needs_room_to_wait": true,
+        "partners_handle_pauses": true,
+        "avoid_false_urgency": true
+      },
+      "group_role": "risk controller / brakes operator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "29.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Directness",
+        "hd_quote": "The shortest distance between two points is a straight line."
+      },
+      "interpretation": {
+        "keywords": [
+          "simple plans",
+          "clean execution",
+          "cut through noise"
+        ],
+        "behavioral_axis": "Commits to the simplest viable route and sticks to it.",
+        "shadow_axis": " blunt directness alienates allies."
+      },
+      "relationship_needs": {
+        "needs_clear_paths": true,
+        "prefers_low_drama": true,
+        "avoid_overcomplication": true
+      },
+      "group_role": "streamliner / path-of-least-resistance lead",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "29.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Overreach",
+        "hd_quote": "The tendency to bite off more than one can chew."
+      },
+      "interpretation": {
+        "keywords": [
+          "scope control",
+          "resource realism",
+          "energetic budgeting"
+        ],
+        "behavioral_axis": "Checks capacity before saying yes; trims ambition to sustain.",
+        "shadow_axis": "Overcommits, then cannot persevere to completion."
+      },
+      "relationship_needs": {
+        "needs_expectation_limits": true,
+        "requires_resource_support": true,
+        "avoid_hero_projects": true
+      },
+      "group_role": "scope guard / commitment auditor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "29.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Confusion",
+        "hd_quote": "The state that exists when momentum outstrips awareness."
+      },
+      "interpretation": {
+        "keywords": [
+          "speed vs. clarity",
+          "course correction",
+          "threshold awareness"
+        ],
+        "behavioral_axis": "Slows the yes when awareness lags; re-orients before proceeding.",
+        "shadow_axis": "Withdraws in confusion or says yes blindly."
+      },
+      "relationship_needs": {
+        "needs_time_to_clarify": true,
+        "respects_full_stop": true,
+        "avoid_high_velocity_demands": true
+      },
+      "group_role": "tempo governor / clarity sentinel",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-29",
+    "status": "verified",
+    "provenance": "Line titles and quotes are verbatim from Jovian Archive’s The Complete Rave I’Ching (2001), Gate 29 pages."
+  }
 }

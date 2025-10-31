@@ -1,13 +1,205 @@
 {
   "id": "gate.16",
   "hexagram": "hx16",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.9",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.9"
   },
-  "themes": [],
+  "themes": [
+    "skills & talent (48–16 Wavelength)",
+    "enthusiasm as fuel for mastery",
+    "pattern repetition and timing",
+    "verbal expression of patterns"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "16.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Delusion",
+        "hd_quote": "The expression of talent through daydreaming."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational fantasizing",
+          "prototype in mind",
+          "waiting for energy"
+        ],
+        "behavioral_axis": "Imagines skills vividly; builds internal patterns before the motor arrives.",
+        "shadow_axis": "Claims as fact what’s only envisioned; overpromises."
+      },
+      "relationship_needs": {
+        "needs_energy_available": true,
+        "prefers_realistic_timelines": true,
+        "rejects_forced_performance": true
+      },
+      "group_role": "concept sketcher / pattern dreamer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "16.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Cynic",
+        "hd_quote": "Self-reliance and the skill to judge objectively any claim regardless of rhetoric."
+      },
+      "interpretation": {
+        "keywords": [
+          "objective appraisal",
+          "bubble-burster",
+          "projected sharpness"
+        ],
+        "behavioral_axis": "Filters ideas for feasibility; guards the pattern from hype.",
+        "shadow_axis": "Default ‘no’; demotivates allies with harsh critiques."
+      },
+      "relationship_needs": {
+        "hates_being_managed": true,
+        "needs_evidence": true,
+        "needs_invited_opinions": true
+      },
+      "group_role": "feasibility checker / quality gate",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "16.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Independence",
+        "hd_quote": "Self-generating and sustaining enthusiasm."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error timing",
+          "self-starting spark",
+          "patience with motors"
+        ],
+        "behavioral_axis": "Holds skills steady; learns correct timing by experimentation.",
+        "shadow_axis": "Overconfidence; relies on others to re-hype after deflation."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_pivots": true,
+        "rejects_constant_validation": true
+      },
+      "group_role": "timing learner / rhythm calibrator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "16.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Leader",
+        "hd_quote": "Genuine and sincere support and recognition of others."
+      },
+      "interpretation": {
+        "keywords": [
+          "externalization",
+          "talent-spotting",
+          "collective uplift"
+        ],
+        "behavioral_axis": "Identifies energy bearers; organizes talent toward shared goals.",
+        "shadow_axis": "Demagoguery; marshals enthusiasm without depth."
+      },
+      "relationship_needs": {
+        "needs_accepting_community": true,
+        "prefers_clear_roles": true,
+        "rejects_hidden_agendas": true
+      },
+      "group_role": "talent scout / energizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "16.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Grinch",
+        "hd_quote": "The refusal to share in enthusiasm."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected talent",
+          "withholds until ready",
+          "conversion arc"
+        ],
+        "behavioral_axis": "Holds back expression until encouragement and timing align.",
+        "shadow_axis": "Chronic withholding; erodes team morale."
+      },
+      "relationship_needs": {
+        "needs_right_timing": true,
+        "expects_clear_requests": true,
+        "rejects_pressure_to_perform": true
+      },
+      "group_role": "reluctant virtuoso / standard-setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "16.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Gullibility",
+        "hd_quote": "The ability to experience, examine and then reject misleading enthusiasm."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-view critic",
+          "anti-hype detector",
+          "search for lasting form"
+        ],
+        "behavioral_axis": "Tests many styles; commits only to patterns that endure.",
+        "shadow_axis": "Perpetual critic; withholds talent from worthy projects."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_short_term_demands": true
+      },
+      "group_role": "technique arbiter / pattern guardian",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
 }

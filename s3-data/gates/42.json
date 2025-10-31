@@ -1,13 +1,206 @@
 {
   "id": "gate.42",
   "hexagram": "hx42",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Sacral",
+  "circuit": "Collective / Sensing (Abstract)",
+  "programming_partner": "gate.32",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.32"
   },
-  "themes": [],
+  "themes": [
+    "growth through completing cycles",
+    "expansion of resources to maximize potential",
+    "maturation via experience (53–42)",
+    "abstract, non-personal sharing of experience",
+    "danger of decadence if energy is overcommitted"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "42.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Diversification",
+        "hd_quote": "The ability when surplus resources are available to extend one's activities beyond their normal scope."
+      },
+      "interpretation": {
+        "keywords": [
+          "many experiences",
+          "use surplus well",
+          "cycle starter"
+        ],
+        "behavioral_axis": "Knows growth begins by not repeating the same experience; branches to new cycles when there is energy.",
+        "shadow_axis": "Scatters sacral energy into too many half-finished experiences → 'decadence'."
+      },
+      "relationship_needs": {
+        "needs_space_for_multiple_threads": true,
+        "needs_honored_sacral_responses": true,
+        "rejects_forced_repetition": true
+      },
+      "group_role": "initiator of new experiential branches",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "42.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Identification",
+        "hd_quote": "Recognition and acute capitalization of trends."
+      },
+      "interpretation": {
+        "keywords": [
+          "spots new experiences",
+          "projects resourcefulness",
+          "trend surfer"
+        ],
+        "behavioral_axis": "Projects, 'I can grow with this,' and rides collective trends into increase.",
+        "shadow_axis": "Overidentifies with trends it cannot actually resource; stops growth when change hits."
+      },
+      "relationship_needs": {
+        "needs_clear_invites": true,
+        "needs_room_to_follow_trends": true,
+        "rejects_shaming_for_pivoting": true
+      },
+      "group_role": "trend spotter / experiential prospector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "42.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Trial and error",
+        "hd_quote": "Mistakes are a natural part of the process."
+      },
+      "interpretation": {
+        "keywords": [
+          "bonds made/broken",
+          "experiential realism",
+          "learn by doing"
+        ],
+        "behavioral_axis": "Accepts that growth = messy cycles; keeps moving through experience despite errors.",
+        "shadow_axis": "Broods over mistakes; becomes overly cautious and blocks maturation."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_fluctuations": true,
+        "rejects_moralizing_after_errors": true
+      },
+      "group_role": "experience tester / cycle debugger",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "42.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Middle Man",
+        "hd_quote": "The quintessential manifestation of the mediator."
+      },
+      "interpretation": {
+        "keywords": [
+          "midwife energy",
+          "resource conduit",
+          "transpersonal growth"
+        ],
+        "behavioral_axis": "Mediates resources so others can complete their cycles; knows experience needs company.",
+        "shadow_axis": "Overconcern with harmony distorts mediation and slows growth."
+      },
+      "relationship_needs": {
+        "needs_healthy_networks": true,
+        "prefers_collaborative_context": true,
+        "rejects_triangles_without_purpose": true
+      },
+      "group_role": "experiential mediator / cycle midwife",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "42.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Self-actualization",
+        "hd_quote": "The fulfillment and actualization of purpose as a natural path."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected maturity",
+          "inner growth track",
+          "visible completion"
+        ],
+        "behavioral_axis": "Appears mature → is entrusted with resources → fulfills purpose through growth.",
+        "shadow_axis": "Turns growth inward and reclusive; withholds energy from collective increase."
+      },
+      "relationship_needs": {
+        "needs_respect_for_inner_process": true,
+        "prefers_clear_expectations": true,
+        "rejects_demands_to_overgive": true
+      },
+      "group_role": "model of completed cycles / maturity beacon",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "42.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Nurturing",
+        "hd_quote": "The power to share the process of growth with others."
+      },
+      "interpretation": {
+        "keywords": [
+          "selective sharing",
+          "experienced historian",
+          "growth teacher"
+        ],
+        "behavioral_axis": "From the roof, chooses when growth is worth transmitting; shares mature experience.",
+        "shadow_axis": "Refuses to share gains; materialistic protection of energy → aggression from others."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_high-signal_students": true,
+        "rejects_entitled_consumers": true
+      },
+      "group_role": "growth archivist / cycle elder",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org for HEXAGRAM 42 INCREASE, lines 42.1–42.6. Interpretations are original behavioral mappings for S³."
+  }
 }

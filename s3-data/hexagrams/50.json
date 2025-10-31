@@ -1,46 +1,149 @@
 {
   "id": "hx50",
   "number": 50,
-  "name": "TBD",
+  "unicode_hexagram": "䷱",
+  "name": "The Cauldron / The Ting (鼎, Dǐng)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Ting gives the intimation of great progress and success.",
+    "normalized_summary": "The Cauldron is civilization’s sacred vessel. It symbolizes nourishing the worthy, refining what is crude into something elevated, and establishing legitimate order. The message: you’re not just fixing survival anymore (that was the Well); you’re cooking culture. Clean out corruption, stabilize the vessel, and let true talent be offered to rightful purpose. When the 'cauldron' is upright, filled well, and handled with grace, it becomes a source of prestige, mandate, and blessing."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows the caldron overthrown and its feet turned up. (But) there will be advantage in its getting rid of what was bad in it. (Or it shows us) the concubine (whose position is improved) by means of her son. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：鼎顛趾，利出否，得妾以其子，無咎。"
+        }
+      ],
+      "normalized_meaning": "Flip the cauldron, dump out the filth. This is cleanup and reordering. A lower-ranked person rises because of real value (the son) — usefulness overrides status. Clearing corruption and elevating hidden talent is not a mistake.",
+      "keywords": [
+        "purge corruption",
+        "upend the old order",
+        "merit over status",
+        "renewal through disruption",
+        "no blame"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows the caldron with the things (to be cooked) in it. (If its subject can say), 'My enemy dislikes me, but he cannot approach me,' there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：鼎有實，我仇有疾，不我能即，吉。"
+        }
+      ],
+      "normalized_meaning": "You’re well provisioned, solid, and protected. Envy exists, but rivals can’t actually touch you. Keeping your position steady like this is good fortune.",
+      "keywords": [
+        "resources secured",
+        "protected position",
+        "envy without access",
+        "quiet strength",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows the caldron with (the places of) its ears changed. The progress (of its subject) is (thus) stopped. The fat flesh of the pheasant (which is in the caldron) will not be eaten. But the (genial) rain will come, and the grounds for repentance will disappear. There will be good fortune in the end.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：鼎耳革，其行塞，雉膏不食，方雨虧悔，終吉。"
+        }
+      ],
+      "normalized_meaning": "Right now the handles are in the wrong place — you can’t lift the vessel, so the good stuff inside can’t be served. It’s frustrating. But after a delay (the rain that finally comes), regret fades and the outcome ends well.",
+      "keywords": [
+        "temporary blockage",
+        "misaligned structure",
+        "talent not yet served",
+        "patience through frustration",
+        "ends in good fortune"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows the caldron with its feet broken; and its contents, designed for the ruler's use, overturned and spilt. Its Subject will be made to blush for shame. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：鼎折足，覆公餗，其形渥，凶。"
+        }
+      ],
+      "normalized_meaning": "Catastrophic failure in service. The vessel collapses under responsibility, the offering for the ruler is spilled, and the one in charge is disgraced. This is a warning about incompetence in a high position.",
+      "keywords": [
+        "structural collapse",
+        "public embarrassment",
+        "failure in duty",
+        "lost offering",
+        "misfortune"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth six, divided, shows the caldron with yellow ears and rings of metal in them. There will be advantage through being firm and correct.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：鼎黃耳金鉉，利貞。"
+        }
+      ],
+      "normalized_meaning": "Now the cauldron is well fitted — elegant, balanced, worthy of noble use. Holding to upright conduct here makes your position both dignified and stable.",
+      "keywords": [
+        "noble refinement",
+        "proper fittings",
+        "earned authority",
+        "dignity through integrity",
+        "advantage in correctness"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows the caldron with rings of jade. There will be great good fortune, and all action taken will be in every way advantageous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：鼎玉鉉，大吉，無不利。"
+        }
+      ],
+      "normalized_meaning": "This is the highest form: strength with grace. The ‘jade handle’ means pure, resonant authority. What you carry and offer now benefits everyone, and it’s universally auspicious.",
+      "keywords": [
+        "exalted service",
+        "prestige and virtue",
+        "flawless presentation",
+        "universal benefit",
+        "great good fortune"
+      ]
     }
   ]
 }

@@ -1,46 +1,149 @@
 {
   "id": "hx26",
   "number": 26,
-  "name": "TBD",
+  "unicode_hexagram": "䷙",
+  "name": "Great Accumulating / Taming Power of the Great (大畜, Dà Xù)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Under the conditions of Tâ Khû it will be advantageous to be firm and correct. (If its subject do not seek to) enjoy his revenues in his own family (without taking service at court), there will be good fortune. It will be advantageous for him to cross the great stream.",
+    "normalized_summary": "Store power and virtue. Halt impulsive motion, train, and gather resources. Decline comfort and accept duty; then you can take on great crossings."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject in a position of peril. It will be advantageous for him to stop his advance.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：有厲，利已。"
+        }
+      ],
+      "normalized_meaning": "Stop before danger. Standing down preserves strength and prevents escalation.",
+      "keywords": [
+        "halt",
+        "risk awareness",
+        "self-restraint",
+        "preserve strength",
+        "caution"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows a carriage with the strap under it removed.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：輿說輹。"
+        }
+      ],
+      "normalized_meaning": "Apply a deliberate brake. A self-imposed stop prevents premature movement.",
+      "keywords": [
+        "pause mechanism",
+        "self-control",
+        "delay is wise",
+        "prevention",
+        "restraint"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject urging his way with good horses. It will be advantageous for him to realise the difficulty (of his course), and to be firm and correct, exercising himself daily in his charioteering and methods of defence; then there will be advantage in whatever direction he may advance.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：良馬逐，利艱貞。曰閑輿衛，利有攸往。"
+        }
+      ],
+      "normalized_meaning": "Power wants to run. Accept hardship, train daily, and discipline the drive—then movement prospers.",
+      "keywords": [
+        "training",
+        "disciplined power",
+        "endurance",
+        "prepared action",
+        "advantage ahead"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth six, divided, shows the young bull, (and yet) having the piece of wood over his horns. There will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：童牛之牿，元吉。"
+        }
+      ],
+      "normalized_meaning": "Muzzle raw force early. Preventive restraint brings great good fortune.",
+      "keywords": [
+        "early restraint",
+        "safety guard",
+        "prevent harm",
+        "great good fortune",
+        "prudence"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth six, divided, shows the teeth of a castrated hog. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：豶豕之牙，吉。"
+        }
+      ],
+      "normalized_meaning": "Strong tendencies are rendered harmless. Right restraint yields good fortune.",
+      "keywords": [
+        "neutralized threat",
+        "control",
+        "benign strength",
+        "good fortune",
+        "prudence"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows its subject (as) in command of the firmament of heaven. There will be progress.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：何天之衢，亨。"
+        }
+      ],
+      "normalized_meaning": "The way opens wide. With power well-stored and guided, you move freely and succeed.",
+      "keywords": [
+        "open thoroughfare",
+        "release of power",
+        "progress",
+        "great passage",
+        "success"
+      ]
     }
   ]
 }

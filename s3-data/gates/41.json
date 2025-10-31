@@ -1,13 +1,237 @@
 {
   "id": "gate.41",
   "hexagram": "hx41",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Decrease / Contraction",
+  "center": "Root",
+  "circuit": "Collective / Sensing (Abstract)",
+  "programming_partner": "gate.31",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.31"
   },
-  "themes": [],
+  "themes": [
+    "limitation of resources",
+    "fuel that starts the human experiential way",
+    "emotional/experiential anticipation (fantasy)",
+    "contraction before expansion",
+    "one focused feeling"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "41.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Reasonableness",
+        "hd_quote": "The appropriate delegation of responsibility."
+      },
+      "interpretation": {
+        "keywords": [
+          "makes the most of little",
+          "selective emotional release",
+          "practical steward of resources"
+        ],
+        "behavioral_axis": "Knows who should hold what feeling/resource so nothing is wasted.",
+        "shadow_axis": "Dumps feelings too fast or onto the wrong person when pressured."
+      },
+      "relationship_needs": {
+        "needs_clear_roles": true,
+        "needs_resource_respect": true,
+        "rejects_emotional_waste": true
+      },
+      "group_role": "resource router / feeling allocator",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "sources": {
+        "primary": "Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85",
+        "exaltation_quote": "The imagination to make the very best out of very little. Coolness, where the energy to release feelings is selective.",
+        "detriment_quote": "A tendency in understanding, to assume capability, leading to strain. The hothead, the urge to release feelings."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "41.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Caution",
+        "hd_quote": "Humanism tempered by pragmatism."
+      },
+      "interpretation": {
+        "keywords": [
+          "helps without losing stability",
+          "emotional triage",
+          "protects core resources"
+        ],
+        "behavioral_axis": "Shares feelings/resources only when personal base is secure.",
+        "shadow_axis": "People-pleasing that burns through limited fuel."
+      },
+      "relationship_needs": {
+        "protects_own_energy_first": true,
+        "needs_pragmatic_partners": true,
+        "rejects_dramatic_demands": true
+      },
+      "group_role": "pragmatic supporter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "sources": {
+        "primary": "Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85",
+        "exaltation_quote": "A conservative nature that does not risk its own security in aiding others. Energy for one's own feelings but not for others.",
+        "detriment_quote": "A desire for recognition that throws caution to the wind, depleting valuable resources for only temporary gain."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "41.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Efficiency",
+        "hd_quote": "In times of decrease selfishness is justified."
+      },
+      "interpretation": {
+        "keywords": [
+          "tight focus",
+          "solo drive",
+          "no energy leaks"
+        ],
+        "behavioral_axis": "Pulls energy back to ensure the cycle can actually start.",
+        "shadow_axis": "Looks selfish or ungenerous when resources are low."
+      },
+      "relationship_needs": {
+        "needs_respect_for_withdrawal": true,
+        "partners_must_not_overuse_resources": true,
+        "needs_clear_energy_budget": true
+      },
+      "group_role": "cycle-protector / fuel-economy officer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "sources": {
+        "primary": "Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85",
+        "exaltation_quote": "Material ambition and the discipline to go at it alone. The energy that fuels the feeling for personal ambition.",
+        "detriment_quote": "Instinctive assistance, admirable but in this position misguided, where two will use up resources twice as fast as one."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "41.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Correction",
+        "hd_quote": "Successful adaptation to limitation."
+      },
+      "interpretation": {
+        "keywords": [
+          "adapts to scarcity",
+          "cuts emotional cords",
+          "survival-oriented"
+        ],
+        "behavioral_axis": "Reorganizes relationships and feelings around what the field actually has.",
+        "shadow_axis": "Holds on to weak ties and bleeds energy."
+      },
+      "relationship_needs": {
+        "needs_mutual_adaptability": true,
+        "rejects_high_maintenance_bonds": true,
+        "needs_respect_for_survival_cuts": true
+      },
+      "group_role": "adaptive limiter / survival editor",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "sources": {
+        "primary": "Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85",
+        "exaltation_quote": "Survival of the fittest and its eventual flourishing. The energy for adaption and a deep feeling for survival.",
+        "detriment_quote": "The expenditure of energy on maintaining relationships rather than on correction."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "41.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Authorization",
+        "hd_quote": "The external recognition of one's potential despite limitations."
+      },
+      "interpretation": {
+        "keywords": [
+          "recognized fuel",
+          "endorsed feeling",
+          "licensed to spend energy"
+        ],
+        "behavioral_axis": "When seen, can direct the cycle and feelings for the group.",
+        "shadow_axis": "If not seen, turns dissatisfaction into emotional negativity."
+      },
+      "relationship_needs": {
+        "needs_external_acknowledgment": true,
+        "needs_channelled_outlet": true,
+        "rejects_misaligned_support": true
+      },
+      "group_role": "authorized initiator of experience",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "sources": {
+        "primary": "Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85",
+        "exaltation_quote": "The value of energy when properly channelled. The fuel for properly channelled feelings despite limitations.",
+        "detriment_quote": "A persistent dissatisfaction with limitation which hampers development even when supported."
+      },
+      "status": "verified"
+    },
+    {
+      "id": "41.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Contagion",
+        "hd_quote": "The law that the maximization of potential not only ends decrease but inevitably such transcendence benefits others."
+      },
+      "interpretation": {
+        "keywords": [
+          "overflowing fuel",
+          "success that spreads",
+          "emotional transcendence"
+        ],
+        "behavioral_axis": "When the feeling is right and maximized, everyone nearby benefits.",
+        "shadow_axis": "Withholds success out of fear it will be taken."
+      },
+      "relationship_needs": {
+        "needs_room_to_expand": true,
+        "needs_appreciative_audience": true,
+        "rejects_secretive_environments": true
+      },
+      "group_role": "field-uplifter / wave-amplifier",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "sources": {
+        "primary": "Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85",
+        "exaltation_quote": "The maximization of the potential of form. The father whose success will benefit his children. The fuel for recognition through feelings.",
+        "detriment_quote": "The tendency in transcendence to keep it a secret in fear of being deprived of its special advantages. The fuel for secret or repressed feelings."
+      },
+      "status": "verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "verified",
+    "provenance": "All line titles and sentences lifted from Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive), p. 85 (same material lineage as the Line Companion on Archive.org). All “hd_quote” strings are single sentences from that page and under 25 words."
+  }
 }

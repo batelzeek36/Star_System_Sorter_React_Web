@@ -1,46 +1,149 @@
 {
   "id": "hx51",
   "number": 51,
-  "name": "TBD",
+  "unicode_hexagram": "䷲",
+  "name": "Shock / The Arousing (震, Zhèn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "K ăn gives the intimation of ease and development. When (the time of) movement (which it indicates) comes, (the subject of the hexagram) will be found looking out with apprehension, and yet smiling and talking cheerfully. When the movement (like a crash of thunder) terrifies all within a hundred lî, he will be (like the sincere worshipper) who is not (startled into) letting go his ladle and (cup of) sacrificial spirits.",
+    "normalized_summary": "Sudden shock, like thunder. A jolt hits: fear, adrenaline, chaos. The teaching is not ‘don’t be afraid’ — it’s ‘stay composed in the fear.’ Even when events shake the world, you keep your role, your ritual, your duty. Panic scatters you; disciplined steadiness carries you through danger without losing what matters."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject, when the movement approaches, looking out and around with apprehension, and afterwards smiling and talking cheerfully. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：震來虩虩，後笑言啞啞，吉。"
+        }
+      ],
+      "normalized_meaning": "The first hit of shock startles you — totally natural. But you regain composure and even laugh. Courage isn’t absence of fear; it’s recovery after fear. That’s auspicious.",
+      "keywords": [
+        "initial fright",
+        "regaining calm",
+        "emotional recovery",
+        "good fortune",
+        "resilience"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject, when the movement approaches, in a position of peril. He judges it better to let go the articles (in his possession), and to ascend a very lofty height. There is no occasion for him to pursue after (the things he has let go); in seven days he will find them.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：震來厲，億喪貝，躋于九陵，勿逐，七日得。"
+        }
+      ],
+      "normalized_meaning": "Crisis hits and you drop valuables to get to safety fast. Don’t cling to possessions or status in the moment of shock. If you get clear and survive, what’s truly yours returns in time.",
+      "keywords": [
+        "danger response",
+        "drop the baggage",
+        "seek higher ground",
+        "safety first",
+        "recovery later"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third six, divided, shows its subject distraught amid the startling movements going on. If those movements excite him to (right) action, there will be no mistake.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：震蘇蘇，震行無眚。"
+        }
+      ],
+      "normalized_meaning": "You’re shaken, anxious, maybe trembling — but if you channel that state into appropriate, constructive action instead of panic, you avoid blame and harm.",
+      "keywords": [
+        "anxiety",
+        "agitation",
+        "act correctly under stress",
+        "no mistake",
+        "using fear as fuel"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject, amid the startling movements, supinely sinking (deeper) in the mud.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：震遂泥。"
+        }
+      ],
+      "normalized_meaning": "Instead of responding, you go limp and bog down. Shock turns into paralysis. This is the danger of letting fear turn you passive — you get dragged into the mud.",
+      "keywords": [
+        "paralysis",
+        "stuck in crisis",
+        "loss of initiative",
+        "sinking lower",
+        "danger of collapse"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows its subject going and coming amidst the startling movements (of the time), and always in peril; but perhaps he will not incur loss, and find business (which he can accomplish).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：震往來厲，億無喪，有事。"
+        }
+      ],
+      "normalized_meaning": "You’re moving through danger constantly — back and forth in the storm — but you’re still functional. You may keep what matters and even find meaningful work to do in the midst of chaos.",
+      "keywords": [
+        "operating in crisis",
+        "constant danger",
+        "retaining what matters",
+        "duty in turmoil",
+        "possible no-loss"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject, amidst the startling movements (of the time), in breathless dismay and looking round him with trembling apprehension. If he take action, there will be evil. If, while the startling movements have not reached his own person and his neighbourhood, (he were to take precautions), there would be no error, though his relatives might (still) speak against him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：震索索，視矍矍，征凶。震不於其躬，于其鄰，無咎。婚媾有言。"
+        }
+      ],
+      "normalized_meaning": "Full panic: heart racing, eyes darting. If you act blindly from that state, you create misfortune. Better to secure yourself and your immediate circle early, even if others criticize you for being cautious.",
+      "keywords": [
+        "panic",
+        "breathless fear",
+        "do not rush out",
+        "protect your ground",
+        "criticism from others"
+      ]
     }
   ]
 }

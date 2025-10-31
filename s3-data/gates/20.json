@@ -1,13 +1,205 @@
 {
   "id": "gate.20",
   "hexagram": "hx20",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Individual / Integration",
+  "programming_partner": "gate.34",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.34"
   },
-  "themes": [],
+  "themes": [
+    "existential presence (\"I know I am\" voice)",
+    "integration with 10/34/57 (survival in the now)",
+    "spontaneous action and expression",
+    "charisma (34-20) and self-love (10-20) potentials"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "20.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Superficiality",
+        "hd_quote": "A reliance on shallowness."
+      },
+      "interpretation": {
+        "keywords": [
+          "present-tense scanning",
+          "peripheral awareness",
+          "keep it light"
+        ],
+        "behavioral_axis": "Tracks the now at the surface while staying alert beneath it.",
+        "shadow_axis": "Dismissed as shallow; misses depth by skimming."
+      },
+      "relationship_needs": {
+        "needs_presence_over_plans": true,
+        "prefers_spontaneity": true,
+        "rejects_pressure_to_deepen_on_command": true
+      },
+      "group_role": "now-scanner / situational spotter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "20.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Dogmatist",
+        "hd_quote": "Restrictive and intentionally limited understanding."
+      },
+      "interpretation": {
+        "keywords": [
+          "narrow focus",
+          "projected certainty",
+          "strong opinions"
+        ],
+        "behavioral_axis": "Projects a crisp, limited slice of the now as truth.",
+        "shadow_axis": "Rigid perspective; misses broader context."
+      },
+      "relationship_needs": {
+        "needs_invited_opinions": true,
+        "prefers_evidence_not_hype": true,
+        "rejects_forced_agreement": true
+      },
+      "group_role": "filter / boundary-setter for claims",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "20.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Self-awareness",
+        "hd_quote": "Self-consciousness in the extreme that hampers development."
+      },
+      "interpretation": {
+        "keywords": [
+          "watching oneself",
+          "trial-and-error timing",
+          "hyper-self-conscious"
+        ],
+        "behavioral_axis": "Learns by observing personal actions and effects in real time.",
+        "shadow_axis": "Paralyzing self-consciousness; performance anxiety."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_pivots": true,
+        "rejects_constant_scrutiny": true
+      },
+      "group_role": "timing calibrator / meta-observer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "20.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Application",
+        "hd_quote": "Recognition and awareness that can only be transformed into action in cooperation with those who have the ability to act upon understanding."
+      },
+      "interpretation": {
+        "keywords": [
+          "externalization",
+          "right allies",
+          "opportunity"
+        ],
+        "behavioral_axis": "Shares recognition with those able to act on it now.",
+        "shadow_axis": "Talk without legs; misaligned allies."
+      },
+      "relationship_needs": {
+        "needs_capable_allies": true,
+        "prefers_clear_roles": true,
+        "rejects_empty_theory": true
+      },
+      "group_role": "connector of knowing to doers",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "20.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Realism",
+        "hd_quote": "Contemplation, in and of itself, is no guarantee of success."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected knower",
+          "pragmatic",
+          "teacher energy"
+        ],
+        "behavioral_axis": "Universalizes recognition through practical application.",
+        "shadow_axis": "Theory-only stance; withholds empowerment."
+      },
+      "relationship_needs": {
+        "needs_right_timing": true,
+        "expects_clear_requests": true,
+        "rejects_pressure_to_perform": true
+      },
+      "group_role": "pragmatist / translator of insight",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "20.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Wisdom",
+        "hd_quote": "The expression of awareness in the now through dissatisfaction with the reality one sees."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof view",
+          "refined presence",
+          "discerning expression"
+        ],
+        "behavioral_axis": "Speaks to what is, pushing expression toward precision and value.",
+        "shadow_axis": "Chronic dissatisfaction; withholding voice."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_short_term_demands": true
+      },
+      "group_role": "pattern critic / existential editor",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu's Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
 }

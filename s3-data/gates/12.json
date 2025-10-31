@@ -1,13 +1,206 @@
 {
   "id": "gate.12",
   "hexagram": "hx12",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.11",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.11"
   },
-  "themes": [],
+  "themes": [
+    "caution / standstill",
+    "articulation of mutation",
+    "mood-based expression",
+    "restraint before action",
+    "social openness when ready"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "12.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The Monk",
+        "hd_quote": "Withdrawal that can only be maintained with communal support."
+      },
+      "interpretation": {
+        "keywords": [
+          "protective isolation",
+          "wait for the mood",
+          "inner preparation"
+        ],
+        "behavioral_axis": "Holds back expression until inner timing is correct.",
+        "shadow_axis": "Forced socializing; speaking before clarity."
+      },
+      "relationship_needs": {
+        "needs_time_to_withdraw": true,
+        "honors_internal_timing": true,
+        "rejects_pressure_to_perform": true
+      },
+      "group_role": "guardian of timing / restraint",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "12.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Purification",
+        "hd_quote": "Purify yourself from all negative forces."
+      },
+      "interpretation": {
+        "keywords": [
+          "clean aura before contact",
+          "hermit rigor",
+          "boundary hygiene"
+        ],
+        "behavioral_axis": "Withdraws to cleanse influences before opening.",
+        "shadow_axis": "Angry exile; rejecting all contact."
+      },
+      "relationship_needs": {
+        "needs_clear_boundaries": true,
+        "prefers_selective_company": true,
+        "rejects_toxic_environments": true
+      },
+      "group_role": "field purifier / gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "12.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Confession",
+        "hd_quote": "The expression of inadequacies in social interaction that leads to self-analysis and caution."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error socializing",
+          "awkward honesty",
+          "learning boundaries"
+        ],
+        "behavioral_axis": "Learns through missteps; builds careful expression.",
+        "shadow_axis": "Self-recrimination; exaggerated self-critique."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_course_corrections": true,
+        "rejects_shaming": true
+      },
+      "group_role": "caution calibrator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "12.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Prophet",
+        "hd_quote": "The 12.4 is The Prophet, the arousing of the stagnant."
+      },
+      "interpretation": {
+        "keywords": [
+          "externalized message",
+          "move the room",
+          "speak to the field"
+        ],
+        "behavioral_axis": "Senses when a group can receive mutation.",
+        "shadow_axis": "Messianic overreach; provoking unrest prematurely."
+      },
+      "relationship_needs": {
+        "needs_receptive_audience": true,
+        "prefers_invited_speaking": true,
+        "rejects_forced_evangelizing": true
+      },
+      "group_role": "mutational messenger",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "12.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Pragmatist",
+        "hd_quote": "The success of restraint lies in not abandoning the lessons learnt when the phase ends."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected caution",
+          "steady social access",
+          "repeatable lessons"
+        ],
+        "behavioral_axis": "Carries forward learned restraint between waves.",
+        "shadow_axis": "Appears endlessly available; over-asked by others."
+      },
+      "relationship_needs": {
+        "needs_expectation_boundaries": true,
+        "prefers_consistent_pacing": true,
+        "rejects_constant_access": true
+      },
+      "group_role": "timing strategist",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "12.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Metamorphosis",
+        "hd_quote": "The capacity to mutate and express new social forms."
+      },
+      "interpretation": {
+        "keywords": [
+          "future-facing expression",
+          "example over words",
+          "collective mutation"
+        ],
+        "behavioral_axis": "Models the new social pattern through expression.",
+        "shadow_axis": "Resigns to standstill; disengages from the field."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_short_term_agendas": true
+      },
+      "group_role": "metamorphic exemplar",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
 }

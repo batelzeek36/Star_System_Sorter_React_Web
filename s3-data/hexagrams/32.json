@@ -1,46 +1,149 @@
 {
   "id": "hx32",
   "number": 32,
-  "name": "TBD",
+  "unicode_hexagram": "䷟",
+  "name": "Duration / Constancy (恆, Héng)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Hăng indicates successful progress and no error. But the advantage will come from being firm and correct; and movement in any direction whatever will be advantageous.",
+    "normalized_summary": "Endurance. Right constancy — holding to correct principle over time — creates stable success. This is not blind stubbornness or clinging. It's living in a way that can last. If you force permanence too fast, or you try to lock in something that isn't true, it turns toxic. If you cultivate steady character and appropriate loyalty, you become structurally reliable, and that reliability can move through the world."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject seeking to establish firm continuance too hastily. Firm correctness (in such a way) will be evil; there will be no advantage in any way.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：浚恆，貞凶，無攸利。"
+        }
+      ],
+      "normalized_meaning": "Trying to force permanence immediately — locking it down before it's earned — backfires. You can't rush 'forever.' Pushing for guarantees now brings misfortune.",
+      "keywords": [
+        "impatience",
+        "forcing commitment",
+        "premature attachment",
+        "no advantage",
+        "misfortune"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows all occasion for repentance disappearing.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：悔亡。"
+        }
+      ],
+      "normalized_meaning": "You settle into a steady course that actually works. Because you're consistent in a clean way, regret falls away.",
+      "keywords": [
+        "stability",
+        "reliability",
+        "no regret",
+        "alignment",
+        "calm continuity"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one who does not constantly maintain his virtue. Some one will impute this to him as a disgrace; if he be firm and correct, there will be occasion for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：不恆其德，或承之羞，貞吝。"
+        }
+      ],
+      "normalized_meaning": "Inconsistency in character gets exposed. People notice when you can't hold your own standard. Even doubling down defensively brings shame.",
+      "keywords": [
+        "inconstancy",
+        "character leak",
+        "loss of credibility",
+        "public embarrassment",
+        "shame"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows a field where there is no game.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：田無禽。"
+        }
+      ],
+      "normalized_meaning": "Effort without result. You keep showing up, but there's nothing to harvest here. Constancy in the wrong place gives you an empty field.",
+      "keywords": [
+        "barren pursuit",
+        "wrong target",
+        "wasted effort",
+        "reassess strategy",
+        "no reward"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows the constancy of its subject in her virtue, being firm and correct. This will be fortunate for a woman; but in a man it would be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：恆其德貞。婦人吉，夫子凶。"
+        }
+      ],
+      "normalized_meaning": "Loyal, steady devotion in a receptive/support role is blessed. But if a leader clings in the same rigid way, it becomes weakness. Constancy must fit the role.",
+      "keywords": [
+        "role-appropriate loyalty",
+        "devotional steadiness",
+        "healthy support",
+        "misapplied rigidity",
+        "context matters"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows one exciting himself to long continuance. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：振恆，凶。"
+        }
+      ],
+      "normalized_meaning": "This is obsession. Forcing endurance past its natural life becomes destructive. Constancy turns into fixation, and fixation collapses.",
+      "keywords": [
+        "obsessive persistence",
+        "burnout",
+        "clinging past viability",
+        "inflexibility",
+        "misfortune"
+      ]
     }
   ]
 }

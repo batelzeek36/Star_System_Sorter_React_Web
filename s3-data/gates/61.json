@@ -1,13 +1,206 @@
 {
   "id": "gate.61",
   "hexagram": "hx61",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Head",
+  "circuit": "Individual / Knowing (Inspiration)",
+  "programming_partner": "gate.62",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.62"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "pressure to know the unknowable",
+    "inner truth / mystery / 'my-story'",
+    "acoustic inspiration (needs silence)",
+    "individual mutation that must be rationalized (61 → 24)",
+    "distinguishing knowable, unnecessary, and unknowable"
+  ],
+  "fear": "fear of never knowing / of mental pressure without resolution",
+  "lines": [
+    {
+      "id": "61.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Occult Knowledge",
+        "hd_quote": "The pressure to know the mysteries through esoterics."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundation of inner truth",
+          "esoteric intake",
+          "mystery as fuel"
+        ],
+        "behavioral_axis": "Goes inward to source truth; needs quiet to hear the mystery.",
+        "shadow_axis": "Gets lost in secrecy that cannot mutate for the collective."
+      },
+      "relationship_needs": {
+        "needs_silence": true,
+        "prefers_deep_sharing": true,
+        "rejects_surface_convos": true
+      },
+      "group_role": "mystery-holder / inner-truth scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "61.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Natural Brilliance",
+        "hd_quote": "A gift for inspiration that is both attractive and beneficial to others."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected brilliance",
+          "inspiring presence",
+          "attractive knowing"
+        ],
+        "behavioral_axis": "Projects ‘I know’ and people come ask; inspiration spreads.",
+        "shadow_axis": "Paper-tiger brilliance that cannot actually explain itself."
+      },
+      "relationship_needs": {
+        "needs_invitation_for_insight": true,
+        "prefers_appreciative_audience": true,
+        "rejects_dismissive_environments": true
+      },
+      "group_role": "inspiration broadcaster / aura-teacher",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "61.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Interdependence",
+        "hd_quote": "It is exceedingly difficult for truth to stand alone."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error knowing",
+          "needs recognition",
+          "truth wants audience"
+        ],
+        "behavioral_axis": "Learns the truth must be shared/rationalized to mutate.",
+        "shadow_axis": "Hoards insight → no mutation → pressure increases."
+      },
+      "relationship_needs": {
+        "needs_feedback_loops": true,
+        "partners_handle_inconsistency": true,
+        "rejects_truth_policing": true
+      },
+      "group_role": "truth-connector / test-releaser",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "61.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Research",
+        "hd_quote": "The capacity of concentration to explore the depth of inner truth."
+      },
+      "interpretation": {
+        "keywords": [
+          "one-track mind",
+          "deep study",
+          "acoustic focus"
+        ],
+        "behavioral_axis": "Fixates on a mystery until the signal comes through.",
+        "shadow_axis": "Gets lost in obscure research that never becomes useful."
+      },
+      "relationship_needs": {
+        "needs_respected_focus_time": true,
+        "prefers_small_circles": true,
+        "rejects_constant_interruptions": true
+      },
+      "group_role": "deep researcher / signal clarifier",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "61.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Influence",
+        "hd_quote": "The enlightened father-figure whose recognized wisdom and powerful assertion can mold a generation by its influence."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected authority",
+          "collective teacher",
+          "inspired leadership"
+        ],
+        "behavioral_axis": "Others project ‘you know’ → potential to shape timelines.",
+        "shadow_axis": "Demands acceptance; resents challenges to its knowing."
+      },
+      "relationship_needs": {
+        "needs_respect_for_authority": true,
+        "prefers_high-caliber_listeners": true,
+        "rejects_argumentative_fields": true
+      },
+      "group_role": "wisdom transmitter / mutative influencer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "61.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Appeal",
+        "hd_quote": "The profound attunement to the collectivity that can lure the public to a truth."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level inspiration",
+          "collective mutation aim",
+          "only-if-it-reaches-them"
+        ],
+        "behavioral_axis": "Holds inspiration until it can actually mutate the collective.",
+        "shadow_axis": "Withholds forever → falls back on shopworn slogans."
+      },
+      "relationship_needs": {
+        "needs_collective_readiness": true,
+        "prefers_long-horizon_projects": true,
+        "rejects_low-signal_audiences": true
+      },
+      "group_role": "collective lure / mutation closer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) extracts from Ra Uru Hu’s “Line Companion” on Archive.org, section beginning “The 61st gate, Inner Truth …” and lines 61.1–61.6 at approx. L16054–L16275 of the djvu/txt stream. Interpretations are original behavioral mappings aligned to the user’s HD → S³ schema."
+  }
 }

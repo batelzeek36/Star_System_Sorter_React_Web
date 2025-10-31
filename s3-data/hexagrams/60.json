@@ -1,46 +1,149 @@
 {
   "id": "hx60",
   "number": 60,
-  "name": "TBD",
+  "unicode_hexagram": "䷻",
+  "name": "Limitation / Moderation (節, Jié)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Kieh intimates that (under its conditions) there will be progress and attainment. (But) if the regulations (which it prescribes) be severe and difficult, they cannot be permanent.",
+    "normalized_summary": "Set clear bounds. Right limits channel power and protect the whole; extremes and harsh rules collapse. Act within measured, humane constraints and timing."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject not quitting the courtyard outside his door. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：不出戶庭，無咎。"
+        }
+      ],
+      "normalized_meaning": "Hold position just outside. Early restraint avoids mistakes; wait and observe before acting.",
+      "keywords": [
+        "holding still",
+        "outer threshold",
+        "no blame",
+        "timing",
+        "prudence"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject not quitting the courtyard inside his gate. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：不出門庭，凶。"
+        }
+      ],
+      "normalized_meaning": "Withdrawing too much becomes harmful. When action is due, hiding inside brings misfortune.",
+      "keywords": [
+        "over-restriction",
+        "missed timing",
+        "inaction risk",
+        "closed in",
+        "misfortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject with no appearance of observing the (proper) regulations, in which case we shall see him lamenting. But there will be no one to blame (but himself).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：不節若，則嗟若，無咎。"
+        }
+      ],
+      "normalized_meaning": "Ignoring limits leads to regret. The lesson is self-caused; accept responsibility and recalibrate.",
+      "keywords": [
+        "ignoring rules",
+        "lament",
+        "self-blame",
+        "course correction",
+        "accountability"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject quietly and naturally (attentive to all) regulations. There will be progress and success.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：安節，亨。"
+        }
+      ],
+      "normalized_meaning": "Ease into proper limits. Natural, calm adherence brings smooth progress.",
+      "keywords": [
+        "calm order",
+        "right measure",
+        "easeful compliance",
+        "progress",
+        "success"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject sweetly and acceptably enacting his regulations. There will be good fortune. The onward progress with them will afford ground for admiration.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：甘節，吉；往有尚。"
+        }
+      ],
+      "normalized_meaning": "Set fair, humane limits. Gentle governance wins praise and yields good fortune as you advance.",
+      "keywords": [
+        "benevolent limits",
+        "fair rules",
+        "recognized merit",
+        "good fortune",
+        "admiration"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject enacting regulations severe and difficult. Even with firmness and correctness there will be evil. But though there will be cause for repentance, it will (by and by) disappear.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：苦節，貞凶，悔亡。"
+        }
+      ],
+      "normalized_meaning": "Harsh restriction backfires. Even upright intent turns ill; later repentance can clear, but don’t persist in rigidity.",
+      "keywords": [
+        "overly strict",
+        "rigidity",
+        "ill outcome",
+        "repentance",
+        "course correction"
+      ]
     }
   ]
 }

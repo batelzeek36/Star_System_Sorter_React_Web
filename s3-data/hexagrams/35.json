@@ -1,46 +1,149 @@
 {
   "id": "hx35",
   "number": 35,
-  "name": "TBD",
+  "unicode_hexagram": "䷢",
+  "name": "Progress / Advancement (晉, Jìn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In Žin we see a prince who secures the tranquillity (of the people) presented on that account with numerous horses (by the king), and three times in a day received at interviews.",
+    "normalized_summary": "Open rise and recognition. True progress here is public, supported by higher authority, and tied to service — not raw self-promotion. You advance because your presence brings stability and benefit, so the center calls you in and equips you. The warning: ego-driven or sneaky advancement is dangerous, and forceful, militant assertion at the top invites regret."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows one wishing to advance, and (at the same time) kept back. Let him be firm and correct, and there will be good fortune. If trust be not reposed in him, let him maintain a large and generous mind, and there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：晉如，摧如，貞吉。罔孚，裕無咎。"
+        }
+      ],
+      "normalized_meaning": "You’re ready to move forward but you’re blocked or overlooked. Don’t get bitter. Keep integrity, keep a generous heart even if others don’t trust you yet. That protects you and leads to good fortune.",
+      "keywords": [
+        "blocked progress",
+        "patience under delay",
+        "integrity under doubt",
+        "magnanimity",
+        "good fortune"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject with the appearance of advancing, and yet of being sorrowful. If he be firm and correct, there will be good fortune. He will receive this great blessing from his grandmother.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：晉如，愁如，貞吉。受茲介福，於其王母。"
+        }
+      ],
+      "normalized_meaning": "You’re moving ahead, but still anxious and not fully recognized. Stay correct. Endorsement and support from above (the one with authority to bless you) is coming.",
+      "keywords": [
+        "quiet advancement",
+        "anxiety in success",
+        "patience rewarded",
+        "support from higher authority",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject trusted by all (around him). All occasion for repentance will disappear.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：眾允，悔亡。"
+        }
+      ],
+      "normalized_meaning": "Collective confidence forms around you. Your alignment with others erases second-guessing and regret.",
+      "keywords": [
+        "earned trust",
+        "group alignment",
+        "social credibility",
+        "no regret",
+        "shared purpose"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject with the appearance of advancing, but like a marmot. However firm and correct he may be, the position is one of peril.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：晉如碩鼠，貞厲."
+        }
+      ],
+      "normalized_meaning": "Advancing in a furtive, rodent-like way — sneaky, self-protective, half-exposed. Even if you think you’re in the right, this style is dangerous and invites suspicion.",
+      "keywords": [
+        "stealthy ambition",
+        "bad optics",
+        "peril",
+        "mismatch to noble role",
+        "integrity under threat"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows how all occasion for repentance disappears (from its subject). (But) let him not concern himself about whether he shall fail or succeed. To advance will be fortunate, and in every way advantageous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：悔亡，失得勿恤，往吉無不利。"
+        }
+      ],
+      "normalized_meaning": "You’re aligned with the mandate. Don’t obsess over winning or losing. Move forward in service; everything favors you.",
+      "keywords": [
+        "mandated advance",
+        "detachment from outcome",
+        "service to the whole",
+        "good fortune",
+        "all benefits"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows one advancing his horns. But he only uses them to punish the (rebellious people of his own) city. The position is perilous, but there will be good fortune. (Yet) however firm and correct he may be, there will be occasion for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：晉其角，維用伐邑，厲吉無咎，貞吝。"
+        }
+      ],
+      "normalized_meaning": "Power peaks and shows itself as force. You assert authority and strike down disorder close to home. It works — but it’s risky, and even if you’re justified, there’s a cost and a lingering aftertaste.",
+      "keywords": [
+        "forceful assertion",
+        "crackdown",
+        "local authority",
+        "dangerous success",
+        "lingering regret"
+      ]
     }
   ]
 }

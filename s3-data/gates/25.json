@@ -1,13 +1,206 @@
 {
   "id": "gate.25",
   "hexagram": "hx25",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "G",
+  "circuit": "Individual / Centering",
+  "programming_partner": "gate.46",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.46"
   },
-  "themes": [],
+  "themes": [
+    "innocence (universal love)",
+    "spirit of the self",
+    "motiveless action",
+    "resilience to shock",
+    "right action vs. projection"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "25.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Selflessness",
+        "hd_quote": "The potential for centering through attunement to challenges."
+      },
+      "interpretation": {
+        "keywords": [
+          "motiveless action",
+          "silent service",
+          "attuned under pressure"
+        ],
+        "behavioral_axis": "Acts without personal agenda; meets challenge with centered presence.",
+        "shadow_axis": "Performs ‘selflessness’ for recognition; virtue-signaling under stress."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "quiet moral center / attunement under challenge",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "25.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Existentialist",
+        "hd_quote": "The innocence of the Self and its protection can only be maintained in the now."
+      },
+      "interpretation": {
+        "keywords": [
+          "presence anchor",
+          "devotion to now",
+          "non-interference"
+        ],
+        "behavioral_axis": "Embodies pure presence; protects innocence by staying in the moment.",
+        "shadow_axis": "Loses innocence when others project motives or rewards onto them."
+      },
+      "relationship_needs": {
+        "hates_being_managed": true,
+        "needs_respect_for_natural_direction": true,
+        "needs_invitational_leadership_not_orders": true
+      },
+      "group_role": "presence anchor / guardian of the now",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "25.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Sensibility",
+        "hd_quote": "The power of the spirit to withstand failure and shock."
+      },
+      "interpretation": {
+        "keywords": [
+          "shock resilience",
+          "trial-and-error",
+          "stays true under impact"
+        ],
+        "behavioral_axis": "Maintains innocence through failures; learns through shocks without bitterness.",
+        "shadow_axis": "Cynicism after shocks; conflates innocence with guaranteed success."
+      },
+      "relationship_needs": {
+        "needs_room_to_make_mistakes": true,
+        "partners_must_handle_course_changes": true,
+        "stability_from_companions_not_from_plan": true
+      },
+      "group_role": "resilience maker / shock absorber",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "25.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Survival",
+        "hd_quote": "The spiritual warrior, the innocence maintained regardless of circumstances."
+      },
+      "interpretation": {
+        "keywords": [
+          "exemplar under fire",
+          "unmoved by decadence",
+          "uncompromised heart"
+        ],
+        "behavioral_axis": "Holds steady, modeling motiveless purity regardless of surrounding chaos.",
+        "shadow_axis": "Rigid moral posturing; uses ‘innocence’ to shame others."
+      },
+      "relationship_needs": {
+        "needs_trust_without_micromanagement": true,
+        "keeps_strategy_private": true,
+        "resists_forced_disclosure": true
+      },
+      "group_role": "exemplar of innocence / spiritual warrior",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "25.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Recuperation",
+        "hd_quote": "The power of the spirit to heal and be healed."
+      },
+      "interpretation": {
+        "keywords": [
+          "withdraw to recover",
+          "healing presence",
+          "restores vitality"
+        ],
+        "behavioral_axis": "Withdraws from conditioning to recover innocence; midwife for others’ restoration.",
+        "shadow_axis": "Hypochondria; seeks healing from others instead of deconditioning."
+      },
+      "relationship_needs": {
+        "needs_clear_boundaries_on_expectations": true,
+        "expects_resource_support": true,
+        "rejects_blame_for_outcomes": true
+      },
+      "group_role": "healer / recovery guide",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "25.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Ignorance",
+        "hd_quote": "The loss of innocence through inappropriate action, or Constant inappropriate action in times of challenge that can break the spirit."
+      },
+      "interpretation": {
+        "keywords": [
+          "right action",
+          "choicelessness",
+          "ethics of purity"
+        ],
+        "behavioral_axis": "Discriminates action: purity of deed must match purity of heart.",
+        "shadow_axis": "Detached idealism; inaction from fear of ‘wrong’ action."
+      },
+      "relationship_needs": {
+        "needs_long_term_stability": true,
+        "needs_respect_for_detachment": true,
+        "rejects_short_term_drama": true
+      },
+      "group_role": "guardian of right action / long-view ethicist",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "locked",
+    "provenance": "hd_quote lines are exact (<25 words) from Ra Uru Hu (Line Companion) / Complete Rave I’Ching via Archive.org."
+  }
 }

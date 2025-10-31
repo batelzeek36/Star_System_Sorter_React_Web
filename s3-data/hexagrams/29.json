@@ -1,46 +1,149 @@
 {
   "id": "hx29",
   "number": 29,
-  "name": "TBD",
+  "unicode_hexagram": "䷜",
+  "name": "The Abyss / Repeating Pit (坎, Kǎn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Khan, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value.",
+    "normalized_summary": "This is danger you can’t ignore: a gorge, deep water, repeated entrapment. The only way through is inner honesty and disciplined conduct. Don’t thrash in panic or charge deeper into risk. Move only when aligned and clear, and you can still accomplish something meaningful inside the crisis."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：習坎，入于坎窞，凶。"
+        }
+      ],
+      "normalized_meaning": "Already in danger, and you go in deeper anyway. Voluntarily entering the pit creates obvious misfortune.",
+      "keywords": [
+        "reckless advance",
+        "deepening trouble",
+        "ignoring warnings",
+        "high risk",
+        "misfortune"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：坎有險，求小得。"
+        }
+      ],
+      "normalized_meaning": "You’re still in the canyon of danger, but steady enough to gain a small relief. You don’t escape yet, but you make some space.",
+      "keywords": [
+        "contained risk",
+        "staying centered",
+        "partial relief",
+        "small success",
+        "cautious progress"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject, whether he comes or goes ( =descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：來之坎坎，險且枕，入于坎窞，勿用。"
+        }
+      ],
+      "normalized_meaning": "Every direction is hazardous. Movement itself multiplies the danger. Best move is not to move.",
+      "keywords": [
+        "entrapment",
+        "nowhere safe",
+        "agitation",
+        "do not act",
+        "escalation risk"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a subsidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his important lessons (as his ruler's) intelligence admits. There will in the end be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：樽酒簋貳，用缶，納約自牖，終無咎。"
+        }
+      ],
+      "normalized_meaning": "In danger, keep it humble and sincere. Offer simple support and speak with care to those above you. Gentle, honest counsel avoids blame.",
+      "keywords": [
+        "humble offering",
+        "measured speech",
+        "serving wisely",
+        "sincerity",
+        "no blame"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：坎不盈，祗既平，無咎。"
+        }
+      ],
+      "normalized_meaning": "The flood hasn’t overflowed. Structure is returning. The danger is being managed toward resolution, and you’re not at fault.",
+      "keywords": [
+        "turning point",
+        "stabilization",
+        "order emerging",
+        "no mistake",
+        "near release"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：繫用徽纆，置于叢棘，三歲不得，凶。"
+        }
+      ],
+      "normalized_meaning": "Total captivity. Stuck, restrained, not learning from hardship. Staying like this too long becomes ruinous.",
+      "keywords": [
+        "captivity",
+        "long-term danger",
+        "refusal to change",
+        "stagnation",
+        "misfortune"
+      ]
     }
   ]
 }

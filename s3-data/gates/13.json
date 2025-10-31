@@ -1,13 +1,206 @@
 {
   "id": "gate.13",
   "hexagram": "hx13",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "G",
+  "circuit": "Collective / Sensing (Abstract)",
+  "programming_partner": "gate.7",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.7"
   },
-  "themes": [],
+  "themes": [
+    "listening and holding stories",
+    "collective memory & witness",
+    "secrets and confidences",
+    "history inspiring humanity",
+    "sharing lessons from experience"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "13.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Empathy",
+        "hd_quote": "The ability to relate and commune with everyone with equanimity."
+      },
+      "interpretation": {
+        "keywords": [
+          "baseline empathy",
+          "open auric field",
+          "nonjudgmental witness"
+        ],
+        "behavioral_axis": "Receives stories without bias; establishes trust that invites disclosure.",
+        "shadow_axis": "Takes on others’ baggage; loses boundaries trying to be universally open."
+      },
+      "relationship_needs": {
+        "needs_private_decompression": true,
+        "prefers_one-on-one_sharing": true,
+        "requires_emotional_hygiene": true
+      },
+      "group_role": "confidant / keeper of stories",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "13.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Bigotry",
+        "hd_quote": "Tolerance as the least offensive manifestation of bigotry."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected listener",
+          "selective openness",
+          "discernment edge"
+        ],
+        "behavioral_axis": "Other people download into you; you develop filters for what’s worth hearing.",
+        "shadow_axis": "Cynical gatekeeping; writing people off before listening fully."
+      },
+      "relationship_needs": {
+        "hates_uninvited_oversharing": true,
+        "needs_time_alone": true,
+        "needs_respect_for_filters": true
+      },
+      "group_role": "screening listener / filter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "13.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Pessimism",
+        "hd_quote": "A lack of trust that can only be transformed through concrete evidence."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error listening",
+          "skeptical ear",
+          "evidence-seeking"
+        ],
+        "behavioral_axis": "Learns whom to trust by painful experience; demands proof.",
+        "shadow_axis": "Jaded narrative; satire or biting commentary that alienates allies."
+      },
+      "relationship_needs": {
+        "needs_evidence_over_promises": true,
+        "partners_must_accept_course_correction": true,
+        "needs_space_for_processing": true
+      },
+      "group_role": "investigative archivist / fact-checker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "13.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Fatigue",
+        "hd_quote": "Openness which leads to exhaustion and the need for silence."
+      },
+      "interpretation": {
+        "keywords": [
+          "overexposed listener",
+          "burnout risk",
+          "needs-retreat"
+        ],
+        "behavioral_axis": "Broadcast-networker who forgets to pause and reflect.",
+        "shadow_axis": "Compassion fatigue; collapsing boundaries until total shutdown."
+      },
+      "relationship_needs": {
+        "needs_clear_off_hours": true,
+        "keeps_strategy_private": true,
+        "requires_retreat_after_listening": true
+      },
+      "group_role": "community conduit / curator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "13.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Savior",
+        "hd_quote": "The ability to overcome all obstacles for the betterment of humanity."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected guide",
+          "finds roles for others",
+          "public confidant"
+        ],
+        "behavioral_axis": "People project ‘save us’ onto your listening; you place resources and roles wisely.",
+        "shadow_axis": "Crushed by projections; blamed when stories don’t resolve cleanly."
+      },
+      "relationship_needs": {
+        "needs_expectation_boundaries": true,
+        "expects_resource_support": true,
+        "rejects_scapegoating": true
+      },
+      "group_role": "public archivist / role-placer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "13.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Optimist",
+        "hd_quote": "The ability to accept any limited interaction as a necessary step towards greater union."
+      },
+      "interpretation": {
+        "keywords": [
+          "hopeful witness",
+          "universalizing view",
+          "long-horizon perspective"
+        ],
+        "behavioral_axis": "Sees the value in imperfect exchanges; distills what uplifts the whole.",
+        "shadow_axis": "Naivete projected onto you; withdraws from listening in maturity."
+      },
+      "relationship_needs": {
+        "needs_long_term_stability": true,
+        "needs_respect_for_detachment": true,
+        "rejects_short_term_drama": true
+      },
+      "group_role": "collective historian / meaning-maker",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-29",
+    "status": "locked",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org; interpretations are original."
+  }
 }

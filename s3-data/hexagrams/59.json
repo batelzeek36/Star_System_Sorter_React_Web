@@ -1,46 +1,149 @@
 {
   "id": "hx59",
   "number": 59,
-  "name": "TBD",
+  "unicode_hexagram": "䷺",
+  "name": "Dispersion / Dissolution (渙, Huàn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Hwân intimates that (under its conditions) there will be progress and success. The king goes to his ancestral temple; and it will be advantageous to cross the great stream. It will be advantageous to be firm and correct.",
+    "normalized_summary": "Dissolve division. Clear fear and faction through sincere rites, public proclamation, and just distribution. Cross big thresholds with disciplined correctness; dispersal paves the way for renewed unity."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject engaged in rescuing (from the impending evil) and having (the assistance of) a strong horse. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：用拯馬壯，吉。"
+        }
+      ],
+      "normalized_meaning": "Act to save; strong support appears. Timely intervention in dispersal brings good fortune.",
+      "keywords": [
+        "timely rescue",
+        "aid arrives",
+        "decisive action",
+        "good fortune",
+        "mobilization"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject, amid the dispersion, hurrying to his contrivance (for security). All occasion for repentance will disappear.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：渙奔其機，悔亡。"
+        }
+      ],
+      "normalized_meaning": "In the midst of scattering, get to your safe setup/strategy fast. Proper refuge removes regret.",
+      "keywords": [
+        "seek refuge",
+        "regret dissolves",
+        "rapid response",
+        "preparedness",
+        "stabilization"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject discarding any regard to his own person. There will be no occasion for repentance.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：渙其躬，無悔。"
+        }
+      ],
+      "normalized_meaning": "Let go of ego and self-protection for the greater good; no regret.",
+      "keywords": [
+        "selflessness",
+        "ego release",
+        "public duty",
+        "no regret",
+        "service"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject scattering the (different) parties (in the state); which leads to great good fortune. From the dispersion (he collects again good men standing out, a crowd) like a mound, which is what ordinary men would not have thought of.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：渙其群，元吉。渙有丘，匪夷所思。"
+        }
+      ],
+      "normalized_meaning": "Break up factions, then regather the worthy into a visible body. Uncommon statecraft; great good fortune.",
+      "keywords": [
+        "defuse factions",
+        "reconsolidate",
+        "visionary leadership",
+        "great good fortune",
+        "uncommon strategy"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject amidst the dispersion issuing his great announcements as the perspiration (flows from his body). He scatters abroad (also) the accumulations in the royal granaries. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：渙汗其大號，渙王居，無咎。"
+        }
+      ],
+      "normalized_meaning": "Proclaim clearly and distribute stores for the people. Open-handed governance in crisis—no blame.",
+      "keywords": [
+        "public proclamation",
+        "relief measures",
+        "open granaries",
+        "benevolent rule",
+        "no blame"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject disposing of (what may be called) its bloody wounds, and going and separating himself from its anxious fears. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：渙其血，去逖出，無咎。"
+        }
+      ],
+      "normalized_meaning": "Clean away harm and depart far from danger. Remove yourself from the threat—no blame.",
+      "keywords": [
+        "remove danger",
+        "cleanse harm",
+        "strategic withdrawal",
+        "safety",
+        "no blame"
+      ]
     }
   ]
 }

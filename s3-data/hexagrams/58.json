@@ -1,46 +1,149 @@
 {
   "id": "hx58",
   "number": 58,
-  "name": "TBD",
+  "unicode_hexagram": "䷹",
+  "name": "The Joyous / Lake (兌, Duì)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Tui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.",
+    "normalized_summary": "Joy through openness and resonance. Success comes with sincere, principled cheer—sharing delight without pandering. Guard against flattery and pleasure-chasing that erodes integrity."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows the pleasure of (inward) harmony. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：和兌，吉。"
+        }
+      ],
+      "normalized_meaning": "Authentic inner harmony attracts good fortune. Joy begins within, not by seeking approval.",
+      "keywords": [
+        "inner harmony",
+        "authentic joy",
+        "self-possession",
+        "good fortune",
+        "alignment"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows the pleasure arising from (inward) sincerity. There will be good fortune. Occasion for repentance will disappear.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：孚兌，吉，悔亡。"
+        }
+      ],
+      "normalized_meaning": "Sincere joy clears regrets. Integrity strengthens bonds and outcomes.",
+      "keywords": [
+        "sincerity",
+        "trust",
+        "regret dissolves",
+        "good fortune",
+        "integrity"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject bringing round himself whatever can give pleasure. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：來兌，凶。"
+        }
+      ],
+      "normalized_meaning": "Chasing gratification or coaxing others for it corrupts the field. Misfortune.",
+      "keywords": [
+        "pleasure-seeking",
+        "manipulation",
+        "indulgence",
+        "corruption",
+        "misfortune"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject deliberating about what to seek his pleasure in, and not at rest. He borders on what would be injurious, but there will be cause for joy.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：商兌，未寧，介疾有喜。"
+        }
+      ],
+      "normalized_meaning": "You weigh sources of joy, near the edge of harm. Careful discernment brings relief and a genuine lift.",
+      "keywords": [
+        "discernment",
+        "unease",
+        "edge of risk",
+        "cautious choice",
+        "joy returns"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject trusting in one who would injure him. The situation is perilous.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：孚于剝，有厲。"
+        }
+      ],
+      "normalized_meaning": "Beware charming allies and covert appeal. Trust placed in the wrong person endangers you.",
+      "keywords": [
+        "false ally",
+        "flattery risk",
+        "peril",
+        "boundary-setting",
+        "due diligence"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows the pleasure of its subject in leading and attracting others.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：引兌。"
+        }
+      ],
+      "normalized_meaning": "Magnetic delight draws followers. Keep motives clean—joy as guidance, not manipulation.",
+      "keywords": [
+        "charisma",
+        "attraction",
+        "leadership tone",
+        "influence ethics",
+        "joy as signal"
+      ]
     }
   ]
 }

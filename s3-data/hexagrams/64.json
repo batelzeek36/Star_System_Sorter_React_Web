@@ -1,46 +1,149 @@
 {
   "id": "hx64",
   "number": 64,
-  "name": "TBD",
+  "unicode_hexagram": "䷿",
+  "name": "Before Completion / Not Yet Fording (未濟, Wèi Jì)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Wei Žî intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.",
+    "normalized_summary": "Not yet complete. Small success with firm correctness; don’t rush the last stretch. Premature advance “wets the tail/head” and spoils the outcome."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject (like a fox) whose tail gets immersed. There will be occasion for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：濡其尾，吝。"
+        }
+      ],
+      "normalized_meaning": "Starting out incautiously gets you splashed. Pause and compose yourself; avoid the first misstep.",
+      "keywords": [
+        "false start",
+        "caution",
+        "humiliation risk",
+        "compose first",
+        "regret warning"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject dragging back his (carriage-) wheel. With firmness and correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：曳其輪，貞吉。"
+        }
+      ],
+      "normalized_meaning": "Brake momentum to stay aligned. Measured restraint brings good fortune.",
+      "keywords": [
+        "restraint",
+        "correctness",
+        "good fortune",
+        "check momentum",
+        "prudence"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows its subject, with (the state of things) not yet remedied, advancing on; which will lead to evil. But there will be advantage in (trying to) cross the great stream.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：未濟，征凶，利涉大川。"
+        }
+      ],
+      "normalized_meaning": "Charging ahead is harmful; yet a decisive, well-judged crossing now can help. Move only if truly prepared.",
+      "keywords": [
+        "premature action",
+        "harm",
+        "big transition",
+        "prepare then cross",
+        "discernment"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject by firm correctness obtaining good fortune, so that all occasion for repentance disappears. Let him stir himself up, as if he were invading the Demon region, where for three years rewards will come to him (and his troops) from the great kingdom.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：貞吉，悔亡，震用伐鬼方，三年有賞于大國。"
+        }
+      ],
+      "normalized_meaning": "Stand firm and mobilize thoroughly; sustained effort earns lasting rewards and clears regret.",
+      "keywords": [
+        "firm correctness",
+        "mobilization",
+        "sustained effort",
+        "rewards",
+        "regret dissolves"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows its subject by firm correctness obtaining good fortune, and having no occasion for repentance. (We see in him) the brightness of a superior man, and the possession of sincerity. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：貞吉，無悔，君子之光，有孚，吉。"
+        }
+      ],
+      "normalized_meaning": "Center the work in sincerity and clear virtue. Upright conduct radiates and succeeds.",
+      "keywords": [
+        "sincerity",
+        "virtue",
+        "leadership light",
+        "upright conduct",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows its subject full of confidence and therefore feasting (quietly). There will be no error. (If he) cherish this confidence, till he (is like the fox who) gets his head immersed, it will fail of what is right.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：有孚于飲酒，無咎；濡其首，有孚，失是。"
+        }
+      ],
+      "normalized_meaning": "Confidence and simple celebration are fine; overindulgence or overreach at the end ruins things.",
+      "keywords": [
+        "measured confidence",
+        "simple celebration",
+        "avoid excess",
+        "endgame caution",
+        "risk of ruin"
+      ]
     }
   ]
 }

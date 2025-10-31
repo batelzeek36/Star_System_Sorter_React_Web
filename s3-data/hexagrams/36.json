@@ -1,46 +1,149 @@
 {
   "id": "hx36",
   "number": 36,
-  "name": "TBD",
+  "unicode_hexagram": "䷣",
+  "name": "Darkening of the Light / Injury to Brightness (明夷, Míng Yí)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Ming I indicates that (in the circumstances which it denotes) it will be advantageous to realize the difficulty (of the position), and maintain firm correctness.",
+    "normalized_summary": "The light is injured. A wise person sees the danger, hides their brilliance, and endures hardship without betraying their core. This is not the time to shine openly — it’s the time to survive with integrity under oppressive power so that the light can return later."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject, (in the condition indicated by) Ming I, flying, but with drooping wings. When the superior man (is revolving) his going away, he may be for three days without eating. Wherever he goes, the people there may speak (derisively of him).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：明夷于飛，垂其翼。君子于行，三日不食，有攸往，主人有言。"
+        }
+      ],
+      "normalized_meaning": "You’re under threat and have to escape quietly. You lower your profile, go hungry, get slandered. The work is to endure humiliation without blowing your cover.",
+      "keywords": [
+        "exile under suspicion",
+        "concealed brilliance",
+        "austerity and hunger",
+        "public slander",
+        "survival mode"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second six, divided, shows its subject, (in the condition indicated by) Ming I, wounded in the left thigh. He saves himself by the strength of a (swift) horse; and is fortunate.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：明夷，夷于左股，用拯馬壯，吉。"
+        }
+      ],
+      "normalized_meaning": "You’ve been hurt in hostile conditions, but you still have the means to get out fast. Quick, decisive withdrawal saves you.",
+      "keywords": [
+        "injury",
+        "swift escape",
+        "self-rescue",
+        "using available strength",
+        "good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject, (in the condition indicated by) Ming I, hunting in the south, and taking the great chief (of the darkness). He should not be eager to make (all) correct (at once).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：明夷于南狩，得其大首，不可疾貞。"
+        }
+      ],
+      "normalized_meaning": "You confront the main source of corruption and strike effectively. But don’t try to fix everything overnight — don’t expose yourself by pushing total reform too fast.",
+      "keywords": [
+        "targeted strike",
+        "confronting corruption",
+        "decisive capture",
+        "don’t rush reform",
+        "measured justice"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth six, divided, shows its subject (just) entered into the left side of the belly (of the dark land). (But) he is able to carry out the mind appropriate (in the condition indicated by) Ming I, quitting the gate and courtyard (of the lord of darkness).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：入于左腹，獲明夷之心，于出門庭。"
+        }
+      ],
+      "normalized_meaning": "You are deep inside enemy territory, surrounded by oppression. You keep inner clarity and quietly extract yourself. Survival here means moving from the inside out without betraying yourself.",
+      "keywords": [
+        "operating under oppression",
+        "covert integrity",
+        "escape from within",
+        "quiet resolve",
+        "no open defiance"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth six, divided, shows how the count of Ki fulfilled the condition indicated by Ming I. It will be advantageous to be firm and correct.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：箕子之明夷，利貞。"
+        }
+      ],
+      "normalized_meaning": "The noble minister under a corrupt ruler hides his brilliance but does not betray his virtue. This is the model: endure, remain correct, and live to carry wisdom forward.",
+      "keywords": [
+        "righteous endurance",
+        "loyalty without compliance",
+        "moral firmness",
+        "hidden wisdom",
+        "advantage in integrity"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth six, divided, shows the case where there is no light, but (only) obscurity. (Its subject) had at first ascended to (the top of) the sky; his future shall be to go into the earth.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：不明晦，初登于天，後入于地。"
+        }
+      ],
+      "normalized_meaning": "Total blackout. Once visible and high, now you’re forced completely underground. This is the end stage of suppression: the light withdraws into secrecy to survive.",
+      "keywords": [
+        "complete obscurity",
+        "fall from visibility",
+        "going underground",
+        "end of a cycle",
+        "preserving the light in darkness"
+      ]
     }
   ]
 }

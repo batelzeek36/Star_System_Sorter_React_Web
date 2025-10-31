@@ -1,13 +1,206 @@
 {
   "id": "gate.56",
   "hexagram": "hx56",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Throat",
+  "circuit": "Collective / Sensing (Abstract)",
+  "programming_partner": "gate.60",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.60"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "stimulation through storytelling",
+    "manifesting ideas as language (11–56 Curiosity)",
+    "“I believe / I don’t believe” voice",
+    "traveling / wandering consciousness",
+    "stability through movement (ideas are transitory)"
+  ],
+  "fear": "fear of running out of stories or not being believed",
+  "lines": [
+    {
+      "id": "56.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Quality",
+        "hd_quote": "Expression of practical ideas that have value."
+      },
+      "interpretation": {
+        "keywords": [
+          "practical stimulation",
+          "value-first storytelling",
+          "finish the idea"
+        ],
+        "behavioral_axis": "Wants to stimulate only with ideas that are useful to the listener.",
+        "shadow_axis": "Trivial stimulation for feedback; talks before finishing idea."
+      },
+      "relationship_needs": {
+        "needs_listeners_who_value_content": true,
+        "prefers_practical_contexts": true,
+        "rejects_trivial_audiences": true
+      },
+      "group_role": "value storyteller / opener of ideas",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "56.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Linkage",
+        "hd_quote": "Isolated genius that will eventually find continuity through recognition and support."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected storyteller",
+          "genius waiting for audience",
+          "recognition-dependent"
+        ],
+        "behavioral_axis": "Projects ‘I can stimulate’ and eventually attracts the right field to do it.",
+        "shadow_axis": "Feels unseen → overprojects stimulation without depth."
+      },
+      "relationship_needs": {
+        "needs_recognition_field": true,
+        "prefers_invited_speaking": true,
+        "rejects_forced_performance": true
+      },
+      "group_role": "featured storyteller / special guest",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "56.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Alienation",
+        "hd_quote": "A will and egoism that often proves overbearing and guarantees continued isolation."
+      },
+      "interpretation": {
+        "keywords": [
+          "controls room",
+          "teacher energy",
+          "risk of pushiness"
+        ],
+        "behavioral_axis": "Wants to control how, when, and to whom the story is told.",
+        "shadow_axis": "Overbearing delivery → audience leaves → isolation."
+      },
+      "relationship_needs": {
+        "needs_audience_respect": true,
+        "partners_handle_intensity": true,
+        "rejects_interruption": true
+      },
+      "group_role": "controlled broadcaster / field commander of stories",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "56.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Expediency",
+        "hd_quote": "The perfection of the superficial personality that can mask, when essential, its true feelings to secure protection."
+      },
+      "interpretation": {
+        "keywords": [
+          "role-based storytelling",
+          "parable delivery",
+          "social opportunism"
+        ],
+        "behavioral_axis": "Tells the story the audience can receive, not necessarily the one it believes.",
+        "shadow_axis": "Becomes ‘just a performer’ and hides actual spirit."
+      },
+      "relationship_needs": {
+        "needs_right_timing": true,
+        "prefers_socially_safe_spaces": true,
+        "rejects_forced_authenticity_onstage": true
+      },
+      "group_role": "public storyteller / parable transmitter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "56.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Attracting attention",
+        "hd_quote": "Unusualness, innovation and sometimes genius as guarantees of eventually attracting attention and support."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected genius",
+          "attention magnet",
+          "innovative stimulation"
+        ],
+        "behavioral_axis": "Audience projects ‘you’re the storyteller’ → gets the mic → stimulates widely.",
+        "shadow_axis": "Attracts attention that backfires; audience doubts the story."
+      },
+      "relationship_needs": {
+        "needs_high-signal_audience": true,
+        "prefers_roles_with_visibility": true,
+        "rejects_dismissive_listeners": true
+      },
+      "group_role": "headliner / attention anchor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "56.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Caution",
+        "hd_quote": "The prudence, when linkage has been achieved, to honor its new commitments in order to secure its footing."
+      },
+      "interpretation": {
+        "keywords": [
+          "selective storyteller",
+          "anti-stimulation phase",
+          "live by your word"
+        ],
+        "behavioral_axis": "Will only stimulate when the idea is worth living and finishing.",
+        "shadow_axis": "Cynical detachment; refuses to tell any story."
+      },
+      "relationship_needs": {
+        "needs_long-horizon_ideas": true,
+        "prefers_low-drama_environments": true,
+        "rejects_inconsistent_projects": true
+      },
+      "group_role": "idea auditor / high-level stimulator",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org, section “HEXAGRAM 56 THE WANDERER,” lines 56.1–56.6 (approx. L14691–L14904). Interpretations are original behavioral mappings for the user’s S³ schema."
+  }
 }

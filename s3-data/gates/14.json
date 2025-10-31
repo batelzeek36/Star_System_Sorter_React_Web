@@ -1,13 +1,206 @@
 {
   "id": "gate.14",
   "hexagram": "hx14",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Sacral",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.8",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.8"
   },
-  "themes": [],
+  "themes": [
+    "material power as fuel for direction",
+    "empowers correct guidance through Gate 2 (the Driver)",
+    "skilled interaction with resources",
+    "converting energy to sustainable currency",
+    "prosperity aligned with higher principles"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "14.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Money isn't everything",
+        "hd_quote": "The recognition that wealth has its own problems."
+      },
+      "interpretation": {
+        "keywords": [
+          "values-first resource use",
+          "principled funding",
+          "currency ≠ purpose"
+        ],
+        "behavioral_axis": "Anchors prosperity to higher principles before committing fuel.",
+        "shadow_axis": "Throws energy/money at problems without discernment."
+      },
+      "relationship_needs": {
+        "needs_values_alignment": true,
+        "rejects_purely_material_goals": true,
+        "requires_principled_mission": true
+      },
+      "group_role": "values-based allocator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "14.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Management",
+        "hd_quote": "The wisdom that investing in expertise brings rewards."
+      },
+      "interpretation": {
+        "keywords": [
+          "delegate to experts",
+          "resource stewardship",
+          "projection management"
+        ],
+        "behavioral_axis": "Shares power; invests in competent drivers.",
+        "shadow_axis": "Insists on doing everything alone; resists delegation."
+      },
+      "relationship_needs": {
+        "hates_being_micromanaged": true,
+        "needs_respect_for_expertise": true,
+        "needs_invitational_leadership_not_orders": true
+      },
+      "group_role": "delegating steward / manager of expertise",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "14.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Service",
+        "hd_quote": "The utilization of talent and wealth for the highest good."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error service",
+          "channel fuel outward",
+          "experiment with drivers"
+        ],
+        "behavioral_axis": "Learns where to place energy by serving and iterating.",
+        "shadow_axis": "Hoarding fuel; misplacing resources through naive zeal."
+      },
+      "relationship_needs": {
+        "needs_room_to_experiment": true,
+        "partners_must_handle_course_changes": true,
+        "service_over_status": true
+      },
+      "group_role": "service-oriented funder / energy router",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "14.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Security",
+        "hd_quote": "The concentration on establishing a strong foundation."
+      },
+      "interpretation": {
+        "keywords": [
+          "fix the flow",
+          "focus resources",
+          "foundation building"
+        ],
+        "behavioral_axis": "Fixes power on one path to build durable security.",
+        "shadow_axis": "Overconfident rigidity; easy to exploit blind spots."
+      },
+      "relationship_needs": {
+        "needs_trust_without_micromanagement": true,
+        "keeps_strategy_private": true,
+        "prefers_consistent_roles": true
+      },
+      "group_role": "foundational stabilizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "14.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Arrogance",
+        "hd_quote": "The ever present risk inherent in positions of power."
+      },
+      "interpretation": {
+        "keywords": [
+          "public projection",
+          "visible authority",
+          "reputation risk"
+        ],
+        "behavioral_axis": "Holds dignity under projection; minds optics and ethics.",
+        "shadow_axis": "Superior stance; devalues others’ contributions."
+      },
+      "relationship_needs": {
+        "needs_clear_expectations": true,
+        "expects_support_for_visible_role": true,
+        "rejects_blame_for_projection": true
+      },
+      "group_role": "public steward / figurehead",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "14.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Humility",
+        "hd_quote": "Wealth and power at its most exalted."
+      },
+      "interpretation": {
+        "keywords": [
+          "humble patronage",
+          "big-picture stewardship",
+          "fortune with responsibility"
+        ],
+        "behavioral_axis": "Acknowledges power as given; waits for the right driver.",
+        "shadow_axis": "Non-commitment; aloof detachment from practical needs."
+      },
+      "relationship_needs": {
+        "needs_long_term_stability": true,
+        "needs_respect_for_detachment": true,
+        "rejects_short_term_drama": true
+      },
+      "group_role": "humble benefactor / long-horizon patron",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu materials (Line Companion / Complete Rave I’Ching). Interpretations are original behavioral mapping."
+  }
 }

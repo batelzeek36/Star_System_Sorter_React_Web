@@ -1,46 +1,149 @@
 {
   "id": "hx62",
   "number": 62,
-  "name": "TBD",
+  "unicode_hexagram": "䷽",
+  "name": "Preponderance of the Small (小過, Xiǎo Guò)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Hsiâo Kwo indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing;--to descend is better than to ascend. There will (in this way) be great good fortune.",
+    "normalized_summary": "Favor small, careful moves over grand gestures. Keep low, humble, and precise; firmness within right measure brings fortune while overreaching invites harm."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, suggests (the idea of) a bird flying, (and ascending) till the issue is evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：飛鳥以凶。"
+        }
+      ],
+      "normalized_meaning": "Don’t rise too high too soon. Over-ascension brings misfortune.",
+      "keywords": [
+        "overreach",
+        "premature ascent",
+        "misfortune",
+        "humility",
+        "keep low"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject passing by his grandfather, and meeting with his grandmother; not attempting anything against his ruler, but meeting him as his minister. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：過其祖，遇其妣；不及其君，遇其臣，無咎。"
+        }
+      ],
+      "normalized_meaning": "Observe proper rank and proximity. Defer to authority; keep within bounds — no blame.",
+      "keywords": [
+        "propriety",
+        "deference",
+        "right distance",
+        "no blame",
+        "protocol"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject taking no extraordinary precautions against danger; and some in consequence finding opportunity to assail and injure him. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：弗過防之，從或戕之，凶。"
+        }
+      ],
+      "normalized_meaning": "Neglecting small safeguards invites harm. Be meticulous; danger exploits gaps.",
+      "keywords": [
+        "carelessness",
+        "lack of precautions",
+        "attack risk",
+        "meticulousness",
+        "misfortune"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject falling into no error, but meeting (the exigency of his situation), without exceeding (in his natural course). If he go forward, there will be peril, and he must be cautious. There is no occasion to be using firmness perpetually.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：無咎，弗過遇之。往厲必戒，勿用永貞。"
+        }
+      ],
+      "normalized_meaning": "Meet the need without overdoing it. Advancing is risky; proceed with caution and avoid hardheaded persistence.",
+      "keywords": [
+        "measured response",
+        "caution",
+        "avoid excess",
+        "don’t press",
+        "risk awareness"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, (suggests the idea) of dense clouds, but no rain, coming from our borders in the west. It also (shows) the prince shooting his arrow, and taking the bird in a cave.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：密雲不雨，自我西郊。公弋取彼在穴。"
+        }
+      ],
+      "normalized_meaning": "Promise without downpour; yet a precise, restrained action succeeds. Aim carefully and within limits.",
+      "keywords": [
+        "unrealized potential",
+        "precision",
+        "restraint",
+        "targeted action",
+        "success"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth SIX, divided, shows. its subject not meeting (the exigency of his situation), and exceeding (his proper course). (It suggests the idea of) a bird flying far aloft. There will be evil. The case is what is called one of calamity and self-produced injury.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：弗遇過之，飛鳥離之，凶。是謂災眚。"
+        }
+      ],
+      "normalized_meaning": "Overdoing it at the end brings calamity of one’s own making. Pull back.",
+      "keywords": [
+        "excess",
+        "self-caused harm",
+        "calamity",
+        "withdraw",
+        "overextension"
+      ]
     }
   ]
 }

@@ -1,13 +1,206 @@
 {
   "id": "gate.60",
   "hexagram": "hx60",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Root",
+  "circuit": "Individual / Knowing (Mutation)",
+  "programming_partner": "gate.56",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.56"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "acceptance of limitation as the first step in transcendence",
+    "pressure to mutate (60–3 format)",
+    "melancholy when limitation is not accepted",
+    "structure for individuality",
+    "old → pulse → new"
+  ],
+  "fear": "that the limitation will never lift / the mutation will not come",
+  "lines": [
+    {
+      "id": "60.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Acceptance",
+        "hd_quote": "The ability to maintain inner harmony when confronted by external limitations."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational acceptance",
+          "calm under constraint",
+          "mutate only in pulse"
+        ],
+        "behavioral_axis": "Holds steady in limitation, trusting the mutative pulse.",
+        "shadow_axis": "Restless melancholy when limitation is not accepted."
+      },
+      "relationship_needs": {
+        "needs_limit_respected": true,
+        "prefers_clear_boundaries": true,
+        "rejects_forced_growth": true
+      },
+      "group_role": "limitation stabilizer / pulse-watcher",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "60.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Decisiveness",
+        "hd_quote": "The understanding of the nature of limitation."
+      },
+      "interpretation": {
+        "keywords": [
+          "projects ‘I can handle limits’",
+          "timed opportunity-taking",
+          "pressure management"
+        ],
+        "behavioral_axis": "Shows others how to accept restraints to seize openings.",
+        "shadow_axis": "Ignores limits for ego gratification → predictable suffering."
+      },
+      "relationship_needs": {
+        "needs_recognition_for_endurance": true,
+        "prefers_timed_requests": true,
+        "rejects_chronic_pressure": true
+      },
+      "group_role": "limit-interpreter / timing guide",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "60.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Conservatism",
+        "hd_quote": "Enlightened self-interest that naturally handles restrictions and limitations, ensuring identity and security."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error with limits",
+          "habitual structures",
+          "self-protective mutation"
+        ],
+        "behavioral_axis": "Tests/breaks bonds to discover a workable limitation.",
+        "shadow_axis": "Gets addicted to specific limits; no mutation."
+      },
+      "relationship_needs": {
+        "needs_room_for_errors": true,
+        "partners_handle_stops": true,
+        "rejects_moralizing_about_limits": true
+      },
+      "group_role": "limit stress-tester / pattern refiner",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "60.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Resourcefulness",
+        "hd_quote": "It lies in being able to release oneself from the pressure to mutate."
+      },
+      "interpretation": {
+        "keywords": [
+          "transpersonal acceptance",
+          "wait-for-3 awareness",
+          "ease in limitation"
+        ],
+        "behavioral_axis": "Knows mutation will come → relaxes the field.",
+        "shadow_axis": "Over-relaxation → complacency, no movement."
+      },
+      "relationship_needs": {
+        "needs_collective_patience": true,
+        "prefers_supportive_networks": true,
+        "rejects_panic_responses": true
+      },
+      "group_role": "pressure-relief valve / acceptance model",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "60.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Leadership",
+        "hd_quote": "The awareness that the destruction of the old limitations simply creates new ones."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected leader",
+          "guides others through limits",
+          "realistic mutator"
+        ],
+        "behavioral_axis": "Teaches that mutation replaces, not removes, limitation.",
+        "shadow_axis": "Leads people to ‘break’ limits that only regenerate."
+      },
+      "relationship_needs": {
+        "needs_trust_in_guidance": true,
+        "prefers_long-horizon_allies": true,
+        "rejects_naive_optimism": true
+      },
+      "group_role": "realist guide / limit strategist",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "60.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Rigidity",
+        "hd_quote": "The intuitive intellect to recognize when absolute rigidity is essential."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level restraint",
+          "necessary severity",
+          "mutation only when real"
+        ],
+        "behavioral_axis": "Holds the line so mutation is authentic, not premature.",
+        "shadow_axis": "Unbearable, chronic restraint → depression."
+      },
+      "relationship_needs": {
+        "needs_respected_non-negotiables": true,
+        "prefers_low-drama_context": true,
+        "rejects_forced_commitments": true
+      },
+      "group_role": "guardian of the pattern / limit enforcer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org (“The 60th gate, the gate of limitation…”, lines 60.1–60.6). Interpretations are original behavioral mappings."
+  }
 }

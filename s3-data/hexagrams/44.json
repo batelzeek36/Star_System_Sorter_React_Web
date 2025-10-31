@@ -1,46 +1,149 @@
 {
   "id": "hx44",
   "number": 44,
-  "name": "TBD",
+  "unicode_hexagram": "䷫",
+  "name": "Coming to Meet / Sudden Encounter (姤, Gòu)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Kâu (or 'Coming to Meet') intimates that (in the circumstances which it denotes) there will be great progress and success. It will be advantageous to be firm and correct; but the woman who is strong should not be taken in marriage.",
+    "normalized_summary": "A powerful, disruptive influence suddenly appears — often framed as a strong, desirous, rising yin force meeting established yang. You cannot just ‘marry’ it, fuse with it, or let it into the center. The teaching is: recognize it early, restrain it appropriately, and do not give it authority. Indulgence leads to trouble; disciplined containment keeps you safe while you stay on mission."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject fastened to a metal brake. If he abide firm and correct, there will be good fortune. If he have some place to which he would go, he will meet with evil. (We see here) the weak hog just beginning to stumble about.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：繫于金柅，貞吉；有攸往，見凶。羸豕踟躅。"
+        }
+      ],
+      "normalized_meaning": "You catch the force at the very start and lock it down. Hold position and stay correct — that’s good. If you ‘go with it,’ chase it, or follow impulse, you walk straight into misfortune. Even a scrawny pig can thrash and cause chaos if you don’t restrain it early.",
+      "keywords": [
+        "early containment",
+        "discipline at first contact",
+        "do not pursue impulse",
+        "potential chaos",
+        "good fortune through restraint"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject with fish wrapped up and in his keeping. There will be no error. It will not be well to receive (this influence) as a guest.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：包有魚，無咎。不利賓。"
+        }
+      ],
+      "normalized_meaning": "You contain the situation and keep it close, controlled, private. That’s fine — no blame. But do not make a show of it, do not invite outsiders to share it, do not entertain it socially. Don’t turn a controlled appetite into a public bond.",
+      "keywords": [
+        "containment",
+        "keep it private",
+        "no blame",
+        "do not entertain",
+        "limit access"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows one from whose buttocks the skin has been stripped, and who walks slowly and with difficulty. There is danger, but there will be no great error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：臀無膚，其行次且。厲，無大咎。"
+        }
+      ],
+      "normalized_meaning": "Contact with this force is already hurting you — you’re exposed and moving awkwardly. It’s embarrassing and risky. Still, if you proceed with care and humility instead of bravado, you avoid serious blame.",
+      "keywords": [
+        "painful involvement",
+        "vulnerability",
+        "slow cautious movement",
+        "danger acknowledged",
+        "no great blame"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows its subject with his wrapper, but no fish in it. This will give rise to evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：包無魚，起凶。"
+        }
+      ],
+      "normalized_meaning": "Now there’s form without substance. The container is still there, but what was being contained is gone or slipping loose. That break in control is the start of open trouble.",
+      "keywords": [
+        "loss of control",
+        "empty form",
+        "exposure",
+        "trouble begins",
+        "rising misfortune"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows (something like) a melon wrapped in willow(-like) leaves. The (bright) excellence is contained therein. There will (in due time) be what comes down from heaven.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：以杞包瓜，含章，有隕自天。"
+        }
+      ],
+      "normalized_meaning": "Power and beauty are deliberately concealed and protected — not flaunted. By hiding brilliance instead of letting it strut, you align with a higher timing. What’s meant for you will descend of its own accord.",
+      "keywords": [
+        "hidden virtue",
+        "contained brilliance",
+        "timing from above",
+        "humility in power",
+        "heaven-sent outcome"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows one meeting with (the other) at the horns. There will be humiliation, but there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：姤其角，吝，無咎。"
+        }
+      ],
+      "normalized_meaning": "You confront the force head-on, like locking horns. It’s awkward, maybe shameful, definitely uncomfortable — but you prevent deeper harm. You might not look graceful, but you’re not wrong.",
+      "keywords": [
+        "direct confrontation",
+        "locking horns",
+        "awkward but necessary",
+        "no lasting blame",
+        "containment through force"
+      ]
     }
   ]
 }

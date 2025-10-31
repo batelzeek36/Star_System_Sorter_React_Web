@@ -1,13 +1,206 @@
 {
   "id": "gate.38",
   "hexagram": "hx38",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Root",
+  "circuit": "Individual / Knowing (Empowerment)",
+  "programming_partner": "gate.39",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.39"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "the fighter / opposition",
+    "preserving individual integrity against detrimental forces",
+    "struggling only for what has real value",
+    "38–28 Channel of Struggle (pressure → intuitive purpose)",
+    "deafness to influence; empowerment over compromise"
+  ],
+  "fear": "fear that life has no worthy struggle (meaninglessness)",
+  "lines": [
+    {
+      "id": "38.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Qualification",
+        "hd_quote": "Tempering opposition based on circumstances."
+      },
+      "interpretation": {
+        "keywords": [
+          "discerns real battles",
+          "psychic 'when to fight'",
+          "pressure management"
+        ],
+        "behavioral_axis": "Fights only for what is truly of value; everything else gets ignored.",
+        "shadow_axis": "Fights everything by default; drains root energy."
+      },
+      "relationship_needs": {
+        "needs_respect_for_selective_struggle": true,
+        "prefers_low_interference": true,
+        "rejects_demands_to_fight_pointless_battles": true
+      },
+      "group_role": "value-based fighter / triage of conflicts",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "38.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Politeness",
+        "hd_quote": "Opposition that does not transgress normal codes of behavior."
+      },
+      "interpretation": {
+        "keywords": [
+          "polite warrior",
+          "discreet struggle",
+          "non-escalating pressure"
+        ],
+        "behavioral_axis": "Signals opposition without blowing up the field.",
+        "shadow_axis": "Over-politeness that becomes servile and defeats the struggle."
+      },
+      "relationship_needs": {
+        "needs_to_be_heard_politely": true,
+        "prefers_nonviolent_comms": true,
+        "rejects_aggressive_domination": true
+      },
+      "group_role": "conflict de-escalator / discreet resistor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "38.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Alliance",
+        "hd_quote": "The ability to sustain through integration with similar forces, thus ensuring the vitality to persevere."
+      },
+      "interpretation": {
+        "keywords": [
+          "bonds made/broken",
+          "ally while aims align",
+          "selfish coalitioning"
+        ],
+        "behavioral_axis": "Teams up when others fight the same enemy.",
+        "shadow_axis": "Lets others do the fighting, then takes the win."
+      },
+      "relationship_needs": {
+        "needs_shared_enemy_or_cause": true,
+        "partners_handle_trial_and_error": true,
+        "rejects_control_by_allies": true
+      },
+      "group_role": "situational ally / struggle amplifier",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "38.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Investigation",
+        "hd_quote": "Analysis which strengthens opposition."
+      },
+      "interpretation": {
+        "keywords": [
+          "intel-based fighter",
+          "who can empower",
+          "trust-filter"
+        ],
+        "behavioral_axis": "Investigates which people actually empower the individual struggle.",
+        "shadow_axis": "Aggressive to anyone who tries to influence."
+      },
+      "relationship_needs": {
+        "needs_trust_and_empowerment": true,
+        "prefers_clear_roles": true,
+        "rejects_subtle_influence": true
+      },
+      "group_role": "struggle analyst / intel scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "38.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Alienation",
+        "hd_quote": "A stage in opposition where one is totally isolated."
+      },
+      "interpretation": {
+        "keywords": [
+          "public sees you alone",
+          "stubborn endurance",
+          "right-to-fight aura"
+        ],
+        "behavioral_axis": "Holds the fight alone so the cause can be discovered by others.",
+        "shadow_axis": "Feels imprisoned by endless solo struggle."
+      },
+      "relationship_needs": {
+        "needs_respect_for_aloneness": true,
+        "prefers_loyal_supporters": true,
+        "rejects_pity_or_pathologizing": true
+      },
+      "group_role": "lone fighter / pathbreaker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "38.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Misunderstanding",
+        "hd_quote": "Opposition without basis."
+      },
+      "interpretation": {
+        "keywords": [
+          "mutative but opaque",
+          "fights for unseen value",
+          "eventual crystallization"
+        ],
+        "behavioral_axis": "Holds a struggle no one understands yet; clarity comes later.",
+        "shadow_axis": "Perpetual opposition that looks pointless and attracts resistance."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_demands_for_immediate_explanation": true
+      },
+      "group_role": "mutative fighter / future clarifier",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org, section “HEXAGRAM 38 OPPOSITION,” lines 38.1–38.6 (L9758–L9934). Interpretations are original behavioral mappings aligned to S³."
+  }
 }

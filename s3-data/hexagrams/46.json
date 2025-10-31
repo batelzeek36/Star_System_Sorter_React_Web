@@ -1,46 +1,149 @@
 {
   "id": "hx46",
   "number": 46,
-  "name": "TBD",
+  "unicode_hexagram": "䷭",
+  "name": "Ascending / Pushing Upward (升, Shēng)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Shăng indicates that (under its conditions) there will be great progress and success. Seeking by (the qualities implied in it) to meet with the great man, its subject need have no anxiety. Advance to the south will be fortunate.",
+    "normalized_summary": "Steady rise. Humble, sincere effort gets recognized by those in power and is actively supported. You don’t have to force your way up; you ascend step by step, with legitimacy. Seek honorable allies, act with devotion, serve something larger than ego, and keep climbing in the light. Overreaching blindly at the top, though, is risky — you still need integrity."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject advancing upwards with the welcome (of those above him). There will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：允升，大吉。"
+        }
+      ],
+      "normalized_meaning": "Your rise is welcomed. You’re being allowed upward because you’re modest and willing to serve, not because you shoved your way in. This support brings great good fortune.",
+      "keywords": [
+        "welcomed advancement",
+        "humility rewarded",
+        "sponsor/mentor support",
+        "great good fortune",
+        "green light to rise"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject with that sincerity which will make even the (small) offerings of the vernal sacrifice acceptable. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：孚乃利用禴，無咎。"
+        }
+      ],
+      "normalized_meaning": "Pure sincerity is enough. You don’t need a grand performance. A small, honest offering is accepted, and there’s no blame. Devoted heart > flashy display.",
+      "keywords": [
+        "sincere offering",
+        "devotion",
+        "quiet merit",
+        "no blame",
+        "earnest service"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject ascending upwards (as into) an empty city.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：升虛邑。"
+        }
+      ],
+      "normalized_meaning": "You advance boldly into open space. No resistance, no defenders — the territory is just there. This is fearless, maybe a little presumptuous, but also a real opportunity.",
+      "keywords": [
+        "bold advance",
+        "no opposition",
+        "claiming open ground",
+        "fearless movement",
+        "slight overreach risk"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject employed by the king to present his offerings on mount Kh î. There will be good fortune; there will be no mistake.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：王用亨於岐山，吉無咎。"
+        }
+      ],
+      "normalized_meaning": "You’re entrusted with sacred duty by the ruler — literally representing the center in holy service. This is public recognition and elevation, and it’s auspicious, not blameworthy.",
+      "keywords": [
+        "royal trust",
+        "sacred service",
+        "public legitimacy",
+        "good fortune",
+        "no blame"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth six, divided, shows its subject firmly correct, and therefore enjoying good fortune. He ascends the stairs (with all due ceremony).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：貞吉，升階。"
+        }
+      ],
+      "normalized_meaning": "Now you’re literally on the steps of high rank. Keep your bearing clean, ceremonial, principled. Proper conduct at this stage brings good fortune.",
+      "keywords": [
+        "ritual ascent",
+        "holding dignity",
+        "firm correctness",
+        "recognized status",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth six, divided, shows its subject advancing upwards blindly. Advantage will be found in a ceaseless maintenance of firm correctness.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：冥升，利於不息之貞。"
+        }
+      ],
+      "normalized_meaning": "At the very top, you keep pushing upward even though you can’t see clearly anymore. This is dangerous ambition. Only relentless, unbroken integrity keeps it from going bad.",
+      "keywords": [
+        "blind ambition",
+        "danger at the peak",
+        "continuous vigilance",
+        "unyielding integrity",
+        "sustain correctness"
+      ]
     }
   ]
 }

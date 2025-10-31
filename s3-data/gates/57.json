@@ -1,13 +1,211 @@
 {
   "id": "gate.57",
   "hexagram": "hx57",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "The Gentle / The Gate of Intuitive Clarity",
+  "center": "Spleen",
+  "circuit": "Individual / Centering (Awareness)",
+  "channels": [
+    "57-20 (Awareness)",
+    "34-57 (Power)"
+  ],
+  "programming_partner": "gate.51",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.51"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "acoustic, penetrating intuition",
+    "clarity only in the now",
+    "repeated gentle pressure to see truth",
+    "splenic fear of the future / what’s coming",
+    "protection of the form through awareness"
+  ],
+  "fear": "fear of the future (what cannot yet be seen)",
+  "lines": [
+    {
+      "id": "57.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Subtle sensitivity",
+        "hd_quote": "Sensitivity to even the smallest disturbance in the present moment."
+      },
+      "interpretation": {
+        "keywords": [
+          "first-warning radar",
+          "micro-signal detection",
+          "tunes to tiny shifts"
+        ],
+        "behavioral_axis": "Lives very close to the moment so danger can be felt before it arrives.",
+        "shadow_axis": "Signal gets drowned by noise → doubts intuition → loses confidence."
+      },
+      "relationship_needs": {
+        "needs_quiet_signal_field": true,
+        "rejects_constant_distraction": true,
+        "needs_trust_in_initial_hunch": true
+      },
+      "group_role": "early-warning sensor / disturbance detector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-from-line-companion"
+    },
+    {
+      "id": "57.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Practical intuition",
+        "hd_quote": "Intuition applied to correct and support what is here now."
+      },
+      "interpretation": {
+        "keywords": [
+          "hands-on clarity",
+          "real-time adjustment",
+          "supportive correction"
+        ],
+        "behavioral_axis": "Uses the hunch to make an immediate, useful fix.",
+        "shadow_axis": "Sees what’s off but stays silent → situation decays."
+      },
+      "relationship_needs": {
+        "needs_people_who_listen": true,
+        "needs_low-drama_environments": true,
+        "rejects_being_rushed": true
+      },
+      "group_role": "real-time tuner / practical intuitive",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-from-line-companion"
+    },
+    {
+      "id": "57.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Testing clarity",
+        "hd_quote": "Awareness that probes unclear situations until the pattern is recognized."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error spleen",
+          "probes for truth",
+          "learning by bumps"
+        ],
+        "behavioral_axis": "Keeps nudging the field to find the correct, safe way forward.",
+        "shadow_axis": "Mistakes = “I’m not intuitive” → overcautious or reckless swings."
+      },
+      "relationship_needs": {
+        "needs_room_to_probe": true,
+        "partners_must_not_shame_errors": true,
+        "needs_feedback_loops": true
+      },
+      "group_role": "edge-tester / safety explorer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-from-line-companion"
+    },
+    {
+      "id": "57.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Discreet influence",
+        "hd_quote": "Intuitive insight used to place people and relationships correctly."
+      },
+      "interpretation": {
+        "keywords": [
+          "social tuner",
+          "network-sensitive",
+          "placement clarity"
+        ],
+        "behavioral_axis": "Uses soft knowing to organize people where they thrive.",
+        "shadow_axis": "If ignored, quietly withdraws its clarity from the group."
+      },
+      "relationship_needs": {
+        "needs_trust_without_micromanagement": true,
+          "needs_access_to_people": true,
+          "rejects_coarse_interactions": true
+      },
+      "group_role": "placement seer / social clarifier",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-from-line-companion"
+    },
+    {
+      "id": "57.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Trusted clarity",
+        "hd_quote": "Refined intuition others naturally rely on for guidance."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected intuition",
+          "recognized knowing",
+          "guiding presence"
+        ],
+        "behavioral_axis": "When invited, delivers crystal-clear, timely knowing.",
+        "shadow_axis": "If uninvited or disrespected, withholds and seems distant."
+      },
+      "relationship_needs": {
+        "needs_correct_invitation": true,
+        "needs_respect_for_soft_delivery": true,
+        "rejects_forced_or_hostile_audiences": true
+      },
+      "group_role": "intuitive guide / consultant in-the-now",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-from-line-companion"
+    },
+    {
+      "id": "57.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Foresight",
+        "hd_quote": "Penetrating awareness that senses what is coming and prepares."
+      },
+      "interpretation": {
+        "keywords": [
+          "future-scenting",
+          "long-horizon spleen",
+          "protective vision"
+        ],
+        "behavioral_axis": "Holds a very high-resolution picture of what’s approaching.",
+        "shadow_axis": "If future looks dark, can become anxious or overly controlling."
+      },
+      "relationship_needs": {
+        "needs_high-signal_company": true,
+        "needs_space_for_listening": true,
+        "rejects_low-frequency_fields": true
+      },
+      "group_role": "field protector / anticipatory seer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "paraphrased-from-line-companion"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "paraphrased",
+    "provenance": "Titles/themes aligned to Ra Uru Hu’s Line Companion (Gate 57, The Gentle / Intuitive Clarity) on archive.org. hd_quote fields are copyright-safe paraphrases ≤25 words, shaped to match the original intent for your deterministic JSON pipeline."
+  }
 }

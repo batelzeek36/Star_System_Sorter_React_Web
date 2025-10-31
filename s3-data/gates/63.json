@@ -1,13 +1,206 @@
 {
   "id": "gate.63",
   "hexagram": "hx63",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Head",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.64",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.64"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "doubt as logical fuel",
+    "questioning completed patterns (“after completion”)",
+    "pressure to make sense of inconsistencies",
+    "requiring proof before acceptance (63 → 4)",
+    "mental anxiety when answers don’t arrive"
+  ],
+  "fear": "mental pressure from unresolved doubt",
+  "lines": [
+    {
+      "id": "63.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Composure",
+        "hd_quote": "The realization that doubt must be tempered by patience."
+      },
+      "interpretation": {
+        "keywords": [
+          "patient questioning",
+          "baseline vigilance",
+          "don’t rush the logic"
+        ],
+        "behavioral_axis": "Holds the question steady so the pattern can be checked correctly.",
+        "shadow_axis": "Impatient doubt → suspicion sprayed everywhere."
+      },
+      "relationship_needs": {
+        "needs_space_to_think": true,
+        "prefers_low-reactivity_fields": true,
+        "rejects_rushed_answers": true
+      },
+      "group_role": "calm logical evaluator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "63.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Structuring",
+        "hd_quote": "Doubt is resolved through ordered, logical structuring."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected problem-solver",
+          "systematize doubt",
+          "make the checklist"
+        ],
+        "behavioral_axis": "Turns vague suspicion into steps, models, and repeatable checks.",
+        "shadow_axis": "Looks organized but didn’t actually test anything."
+      },
+      "relationship_needs": {
+        "needs_clear_process": true,
+        "prefers_roles_with_definition": true,
+        "rejects_chaotic_inquiry": true
+      },
+      "group_role": "logic organizer / method-maker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "63.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Continuance",
+        "hd_quote": "Sustained inquiry that continues despite uncertainty."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error doubt",
+          "keep checking",
+          "pressure to verify"
+        ],
+        "behavioral_axis": "Keeps questioning until a flaw or proof appears.",
+        "shadow_axis": "Endless suspicion → undermines trust in everything."
+      },
+      "relationship_needs": {
+        "needs_room_for_rechecks": true,
+        "partners_handle_inconsistent_answers": true,
+        "rejects_shaming_for_doubt": true
+      },
+      "group_role": "pattern stress-tester / relentless checker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "63.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Memory",
+        "hd_quote": "Referencing past experience to test current doubts."
+      },
+      "interpretation": {
+        "keywords": [
+          "transpersonal recall",
+          "historical testing",
+          "compare to precedent"
+        ],
+        "behavioral_axis": "Uses what was proven before to evaluate today’s claim.",
+        "shadow_axis": "Over-relies on past → blocks new logic."
+      },
+      "relationship_needs": {
+        "needs_consistent_data": true,
+        "prefers_context-rich_dialogue": true,
+        "rejects_amnesia_decisions": true
+      },
+      "group_role": "archive checker / precedent caller",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "63.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Affirmation",
+        "hd_quote": "The power to confirm what the collective can trust."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected authority of doubt",
+          "collective reassurance",
+          "logic endorsement"
+        ],
+        "behavioral_axis": "Turns doubt into ‘yes, this passed the test.’",
+        "shadow_axis": "Affirms too soon → collective loses faith in logic."
+      },
+      "relationship_needs": {
+        "needs_respected_expertise": true,
+        "prefers_high-signal_questions": true,
+        "rejects_being_used_for_gossip": true
+      },
+      "group_role": "logic validator / green-light voice",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "63.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Nostalgia",
+        "hd_quote": "Remembering past understanding as the basis for future doubt."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level doubt",
+          "long-cycle logic",
+          "old answers spawn new questions"
+        ],
+        "behavioral_axis": "Sees the whole arc: every solved pattern births a new inquiry.",
+        "shadow_axis": "Gets stuck in old certainties; questions the present from the past."
+      },
+      "relationship_needs": {
+        "needs_long-horizon_view": true,
+        "prefers_mature_collectives": true,
+        "rejects_superficial_certainty": true
+      },
+      "group_role": "cycle-aware doubter / pattern historian",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote aligned to Ra Uru Hu’s Line Companion (Archive.org) entry for “HEXAGRAM 63 – AFTER COMPLETION / DOUBT,” which lists the six lines as Composure, Structuring, Continuance, Memory, Affirmation, and Nostalgia (cf. public Constant Contact mirrors of IHDS ‘Daily View’ for Gate 63) :contentReference[oaicite:0]{index=0}. Interpretations are original behavioral mappings for the user’s HD → S³ schema."
+  }
 }

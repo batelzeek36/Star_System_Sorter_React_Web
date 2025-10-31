@@ -1,46 +1,149 @@
 {
   "id": "hx49",
   "number": 49,
-  "name": "TBD",
+  "unicode_hexagram": "䷰",
+  "name": "Revolution / Radical Change (革, Gé)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "(What takes place as indicated by) Ko is believed in only after it has been accomplished. There will be great progress and success. Advantage will come from being firm and correct. (In that case) occasion for repentance will disappear.",
+    "normalized_summary": "True revolution is justified, but not casual. It must be necessary, rightly timed, and carried out with integrity. At first, people resist change — they only believe once the change is real and working. When the change is correct, regret and second-guessing fall away. The message: prepare carefully, wait for the right moment, then act decisively and cleanly — and afterwards, stabilize, don’t just keep overthrowing."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject (as if he were) bound with the skin of a yellow ox.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：鞏用黃牛之革。"
+        }
+      ],
+      "normalized_meaning": "Beginning phase: lock things down. Secure the situation, hold steady, do not act prematurely. Power is restrained — like binding with thick yellow oxhide — because it’s not yet time to break loose.",
+      "keywords": [
+        "restraint",
+        "holding position",
+        "premature action is blocked",
+        "stability first",
+        "contained force"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject making his changes after some time has passed. Action taken will be fortunate. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：己日乃革之，征吉，無咎。"
+        }
+      ],
+      "normalized_meaning": "Wait until the moment is actually yours — then move. When timing ripens and you act in alignment with it, the change is lucky and blameless. No need to rush before that point.",
+      "keywords": [
+        "right timing",
+        "mature moment",
+        "initiating reform",
+        "good fortune",
+        "no blame"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows that action taken by its subject will be evil. Though he be firm and correct, his position is perilous. If the change (he contemplates) have been three times fully discussed, he will be believed in.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：征凶，貞厲，革言三就，有孚。"
+        }
+      ],
+      "normalized_meaning": "Charging ahead right now is dangerous, even if you’re personally upright. You could be right and still get crushed. Build consensus first — talk it through thoroughly — and only then will people trust and follow.",
+      "keywords": [
+        "danger of premature action",
+        "need for consensus",
+        "risk despite integrity",
+        "earn credibility",
+        "peril"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows occasion for repentance disappearing (from its subject). Let him be believed in; and though he change (existing) ordinances, there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：悔亡，有孚改命，吉。"
+        }
+      ],
+      "normalized_meaning": "Now the mandate is real. Regret falls away. If the people trust you, you can rewrite laws, even alter the mandate of rule, and it’s auspicious. Legitimacy turns revolution into lawful reform.",
+      "keywords": [
+        "remorse dissolves",
+        "trusted leadership",
+        "mandate to reform",
+        "changing the order",
+        "good fortune"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the great man (producing his changes) as the tiger (does when he) changes (his stripes). Before he divines (and proceeds to action), faith has been reposed in him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：大人虎變，未占有孚。"
+        }
+      ],
+      "normalized_meaning": "This is charismatic, visible transformation — like a tiger’s new stripes, impossible to miss. The true leader doesn’t need to plead a case; trust is already given, so decisive change is naturally accepted.",
+      "keywords": [
+        "rightful ruler",
+        "awe and authority",
+        "transformation made obvious",
+        "pre-existing trust",
+        "leadership mandate"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth SIX, divided, shows the superior man producing his changes as the leopard (does when he) changes (his spots), while small men change their faces (and show their obedience). To go forward (now) would lead to evil, but there will be good fortune in abiding firm and correct.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：君子豹變，小人革面，征凶，居貞吉。"
+        }
+      ],
+      "normalized_meaning": "After the revolution: the noble refines himself deeply, the opportunist just changes face to survive. This is not the moment for more campaigns. Hold steady, institutionalize the gains, and stick to principle.",
+      "keywords": [
+        "post-revolution stabilization",
+        "integrity vs opportunism",
+        "don’t keep pushing",
+        "hold the new order",
+        "good fortune in steadiness"
+      ]
     }
   ]
 }

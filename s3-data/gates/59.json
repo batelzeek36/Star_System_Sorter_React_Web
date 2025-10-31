@@ -1,13 +1,206 @@
 {
   "id": "gate.59",
   "hexagram": "hx59",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Sacral",
+  "circuit": "Tribal / Defense (Mating)",
+  "programming_partner": "gate.55",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.55"
   },
-  "themes": [],
+  "themes": [
+    "dissolving barriers to intimacy",
+    "sexuality as genetic strategy",
+    "aura-penetration / breaking distance",
+    "mating → reproduction → tribal support (59–6)",
+    "choosing who gets full access"
+  ],
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "59.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The Preemptive Strike",
+        "hd_quote": "Go make love to somebody, you fool, and find out how incredible it is."
+      },
+      "interpretation": {
+        "keywords": [
+          "initiate intimacy first",
+          "break distance",
+          "body-confidence through sex"
+        ],
+        "behavioral_axis": "Closes the gap before it hardens; uses intimacy to confirm value.",
+        "shadow_axis": "Premature intimacy with the wrong people; disperses aura too widely."
+      },
+      "relationship_needs": {
+        "needs_somatic_connection": true,
+        "prefers_fast_rapport": true,
+        "rejects_overly_formal_courting": true
+      },
+      "group_role": "barrier breaker / ice-melter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "59.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Shyness",
+        "hd_quote": "A calculated shyness, rooted in deep psychological barriers, that even in dynamic individuals will always resist interaction."
+      },
+      "interpretation": {
+        "keywords": [
+          "needs bold partner",
+          "genetic reserve",
+          "protected sexuality"
+        ],
+        "behavioral_axis": "Wants intimacy but waits for the correct, insistent other to break the field.",
+        "shadow_axis": "No one breaks through → infertility of bond; unnecessary distance."
+      },
+      "relationship_needs": {
+        "needs_bold_initiator": true,
+        "prefers_trust-first": true,
+        "rejects_push_without_bond": true
+      },
+      "group_role": "protected intimist / selective opener",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "59.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Openness",
+        "hd_quote": "This is bonds being made and broken."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error mating",
+          "promiscuity theme",
+          "genetic experimentation"
+        ],
+        "behavioral_axis": "Tests multiple bonds to find the right genetic/tribal match.",
+        "shadow_axis": "Unstable intimacy → tribe can’t rely on the connection."
+      },
+      "relationship_needs": {
+        "needs_room_for_experiments": true,
+        "partners_handle_nonlinearity": true,
+        "rejects_moral_shaming": true
+      },
+      "group_role": "connection tester / genetic scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "59.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Brotherhood/Sisterhood",
+        "hd_quote": "First you make friends with that person and then finally become their lover."
+      },
+      "interpretation": {
+        "keywords": [
+          "friendship-first mating",
+          "social gateway",
+          "tribal belonging"
+        ],
+        "behavioral_axis": "Opens intimacy through trust, companionship, shared circle.",
+        "shadow_axis": "Can’t do casual; feels ‘wrong’ outside friendship channel."
+      },
+      "relationship_needs": {
+        "needs_social_alignment": true,
+        "prefers_known_circles": true,
+        "rejects_one-off_encounters": true
+      },
+      "group_role": "circle weaver / social-intimacy bridge",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "59.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Femme Fatale or Casanova",
+        "hd_quote": "They attract all of the love that gets projected on them."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected sexual dissolver",
+          "universalized union",
+          "others think ‘you’re the one’"
+        ],
+        "behavioral_axis": "Field says ‘you can break any barrier,’ so people pour love into them.",
+        "shadow_axis": "Takes people for a ride; receives love but doesn’t return it."
+      },
+      "relationship_needs": {
+        "needs_projection_management": true,
+        "prefers_high-quality_suitors": true,
+        "rejects_possessive_demands": true
+      },
+      "group_role": "magnetic seducer / barrier-dissolving icon",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "59.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The One Night Stand",
+        "hd_quote": "The drive for sexual and intimate diversity."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level sampling",
+          "transition to 40/37 duties",
+          "soulmate-or-nothing"
+        ],
+        "behavioral_axis": "Keeps options open until a truly correct bond shows up.",
+        "shadow_axis": "Perpetual sampling → never commits → misses genetic/historic mate."
+      },
+      "relationship_needs": {
+        "needs_long-horizon_discernment": true,
+        "prefers_non-binding_intimacy": true,
+        "rejects_forced_marriage_path": true
+      },
+      "group_role": "liminal intimist / pattern sampler",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) extracts from Ra Uru Hu’s Line Companion on Archive.org, section “HEXAGRAM 59 DISPERSION,” esp. lines 59.1–59.6 around L22585–L22906 of the djvu/txt capture. Interpretations are original behavioral mappings to user’s HD–S³ schema."
+  }
 }

@@ -3,167 +3,203 @@
   "hexagram": "hx03",
   "center": "Sacral",
   "circuit": "Individual / Knowing",
-  "programming_partner": null,
+  "programming_partner": "gate.50",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.50"
   },
   "themes": [
-    "mutation",
-    "ordering chaos",
-    "stabilizing the new",
-    "bringing form to turbulence",
-    "early-phase struggle"
+    "mutation out of chaos",
+    "ordering confusion into form",
+    "trial-and-error evolution",
+    "accepting not knowing"
   ],
   "fear": null,
   "lines": [
     {
       "id": "3.1",
       "line_number": 1,
-      "keywords": [
-        "stabilizing chaos",
-        "building structure from mess",
-        "foundation for mutation"
-      ],
-      "behavioral_axis": "Wants a workable base before allowing change to spread.",
-      "shadow_axis": "Anxiety around disorder; over-controls the new before it can breathe.",
+      "classical": {
+        "hd_title": "Synthesis",
+        "hd_quote": "If you have the 3.1 and you are really introspective, the first thing that you know is that you are confused."
+      },
+      "interpretation": {
+        "keywords": [
+          "confusion-aware",
+          "patient witness",
+          "primordial ordering"
+        ],
+        "behavioral_axis": "Trusts that order will emerge over time; allows confusion without forcing.",
+        "shadow_axis": "Panics and tries to force clarity too early, then everything breaks down."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "confusion holder / seed-order observer",
       "flags": {
         "is_sensitive_to_criticism": true,
-        "stabilizes_group_field": true,
+        "stabilizes_group_field": false,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_predictable_base": true,
-        "needs_respect_for_setup_phase": true,
-        "rejects_rushed_change": true
-      },
-      "group_role": "stabilizer / ground layer"
+      "status": "provisional"
     },
     {
       "id": "3.2",
       "line_number": 2,
-      "keywords": [
-        "natural innovator",
-        "doesn't like interference",
-        "private problem-solver"
-      ],
-      "behavioral_axis": "Can produce elegant fixes for early-stage chaos without help.",
-      "shadow_axis": "Refuses collaboration and rejects input even when drowning.",
+      "classical": {
+        "hd_title": "Immaturity",
+        "hd_quote": "Everybody looks at the 3.2 and they say, \"Aren't they confused? They do not know where they are going.\""
+      },
+      "interpretation": {
+        "keywords": [
+          "projected confusion",
+          "unsolicited guidance",
+          "outer-directed wobble"
+        ],
+        "behavioral_axis": "Projects \"I don't know\" and pulls in fixers, teachers, rescuers.",
+        "shadow_axis": "Lets others steer their mutation, creating dependence and instability."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "confused apprentice / pulls teachers",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": false,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_space_to_prototype_alone": true,
-        "rejects_micromanagement": true,
-        "wants_respect_for_personal_method": true
-      },
-      "group_role": "early-stage fixer / private engineer"
+      "status": "provisional"
     },
     {
       "id": "3.3",
       "line_number": 3,
-      "keywords": [
-        "trial-and-error change",
-        "break-rebuild cycles",
-        "mutation through stress"
-      ],
-      "behavioral_axis": "Mutates systems by stress-testing them in real conditions.",
-      "shadow_axis": "Permanent instability, drama loops, constant crisis mode.",
+      "classical": {
+        "hd_title": "Survival",
+        "hd_quote": "An innate knowing of what is sterile and fertile, where the mutation is specifically biological and dependant on collaboration with others."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial and error",
+          "mutational mating",
+          "survival hacking"
+        ],
+        "behavioral_axis": "Mutates through messy experimentation, choosing what’s actually fertile and viable.",
+        "shadow_axis": "Chaotic trial-and-error in sex/resources that leaves wreckage behind."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "mutational experimenter / survival hacker",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": false,
         "is_disruptive_on_purpose": true,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "partners_must_tolerate_volatility": true,
-        "needs_allies_who_dont_panic_at_breakage": true,
-        "needs_room_to_rebuild_after_failure": true
-      },
-      "group_role": "stress-tester / breaker"
+      "status": "provisional"
     },
     {
       "id": "3.4",
       "line_number": 4,
-      "keywords": [
-        "social adapter",
-        "teaches others the new pattern",
-        "bridge between chaos and group"
-      ],
-      "behavioral_axis": "Translates unstable beginnings into something others can actually use.",
-      "shadow_axis": "Spins instability to gain influence or sympathy.",
+      "classical": {
+        "hd_title": "Charisma",
+        "hd_quote": "Innate quality which attracts valued guidance."
+      },
+      "interpretation": {
+        "keywords": [
+          "guidance magnet",
+          "visible confusion signal",
+          "networked orientation"
+        ],
+        "behavioral_axis": "Draws in allies and advisors just by broadcasting \"I’m confused.\"",
+        "shadow_axis": "Ignores guidance out of ego; externalizes confusion to manipulate attention."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "charismatic signal / guidance magnet",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_social_trust": true,
-        "needs_permission_to_translate_the_chaos": true,
-        "dislikes_being_called_manipulative": true
-      },
-      "group_role": "translator / bridge / integrator"
+      "status": "provisional"
     },
     {
       "id": "3.5",
       "line_number": 5,
-      "keywords": [
-        "systems fixer",
-        "hero of the rollout",
-        "patch-and-deploy"
-      ],
-      "behavioral_axis": "Gets projected on as ‘the one who can make this broken system work for everyone.’",
-      "shadow_axis": "Scapegoated when the mess is actually unfixable.",
+      "classical": {
+        "hd_title": "Victimization",
+        "hd_quote": "When actions designed to overcome confusion alienate others."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected savior/culprit",
+          "boundary test",
+          "public lesson"
+        ],
+        "behavioral_axis": "Holds convictions under projection: \"I'm not confused, let me show you.\"",
+        "shadow_axis": "Becomes the scapegoat, appeasing others and suffering to keep the peace."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "projected scapegoat / boundary enforcer",
       "flags": {
         "is_sensitive_to_criticism": true,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": true,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_clear_mandate_not_fantasy": true,
-        "requires_backup_when_impossible": true,
-        "partners_must_handle_public_projection": true
-      },
-      "group_role": "rollout commander / crisis stabilizer"
+      "status": "provisional"
     },
     {
       "id": "3.6",
       "line_number": 6,
-      "keywords": [
-        "long-view reformer",
-        "lifecycle awareness",
-        "evolution architect"
-      ],
-      "behavioral_axis": "Understands how chaotic beginnings mature into stable forms over time.",
-      "shadow_axis": "Detached cynicism: ‘everything starts broken so why care.’",
+      "classical": {
+        "hd_title": "Surrender",
+        "hd_quote": "It is not up to us to dictate the nature of the solution. Ordering comes of itself."
+      },
+      "interpretation": {
+        "keywords": [
+          "existential acceptance",
+          "non-striving clarity",
+          "order emerges"
+        ],
+        "behavioral_axis": "Embodies \"it’ll sort itself\" patience; recognizes when struggle is futile.",
+        "shadow_axis": "Detached fatalism that drifts into depression and gives up on life."
+      },
+      "relationship_needs": {
+        "needs_space_to_orient": true,
+        "rejects_external_direction": true,
+        "requires_patience_not_pressure": true
+      },
+      "group_role": "embodied surrender / order witness",
       "flags": {
         "is_sensitive_to_criticism": false,
         "stabilizes_group_field": true,
         "is_disruptive_on_purpose": false,
         "requires_respect_for_autonomy": true
       },
-      "status": "provisional",
-      "relationship_needs": {
-        "needs_space_to_design_long_arc": true,
-        "rejects_constant_firefighting": true,
-        "requires_low_drama_environment": true
-      },
-      "group_role": "evolution architect / policy shaper"
+      "status": "provisional"
     }
   ],
   "meta": {
-    "version": "1.0",
-    "last_updated": "2025-10-28",
-    "status": "provisional"
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote sourced from Ra Uru Hu's Line Companion (Jovian Archive teachings, ≤25 words). interpretation is original behavioral mapping for relational purposes."
   }
 }

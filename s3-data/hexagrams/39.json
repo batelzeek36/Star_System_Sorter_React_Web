@@ -1,46 +1,149 @@
 {
   "id": "hx39",
   "number": 39,
-  "name": "TBD",
+  "unicode_hexagram": "䷦",
+  "name": "Obstruction / Limping (蹇, Jiǎn)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "In (the state indicated by) K ien advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet with the great man. (In these circumstances), with firmness and correctness, there will be good fortune.",
+    "normalized_summary": "Serious difficulty. The path forward is blocked and forcing ahead just makes it worse. Pull back toward safer ground and allies (the 'south-west'), seek guidance from real authority or wisdom ('the great man'), and hold to correct conduct. Patient retreat and regrouping invite help and ultimately lead to good fortune; stubborn push-through does not."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "From the first SIX, divided, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：往蹇，來譽。"
+        }
+      ],
+      "normalized_meaning": "If you try to push ahead right now, you just run into trouble. If you pause and come back instead of forcing it, people will actually respect you for being wise enough to wait.",
+      "keywords": [
+        "do not force progress",
+        "retreat earns respect",
+        "wait for timing",
+        "praise through restraint",
+        "early caution"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows the minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：王臣蹇蹇，匪躬之故。"
+        }
+      ],
+      "normalized_meaning": "You’re working through layered hardship for the sake of something larger — loyalty, duty, the one you serve — not ego. The struggle isn’t selfish; it’s service.",
+      "keywords": [
+        "duty under hardship",
+        "service not ego",
+        "loyal endurance",
+        "shared difficulty",
+        "not your fault"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and returns (to his former associates).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：往蹇，來反。"
+        }
+      ],
+      "normalized_meaning": "Trying to press forward only drags you deeper into obstruction. Turn back and reconnect with your people. Regroup instead of stubbornly charging alone.",
+      "keywords": [
+        "turn back",
+        "rejoin allies",
+        "abort the push",
+        "self-preservation",
+        "course correction"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：往蹇，來連。"
+        }
+      ],
+      "normalized_meaning": "Going forward alone just multiplies the problem. If you stop forcing movement and instead link up with reliable support, you create connection and safety.",
+      "keywords": [
+        "seek alliance",
+        "stop solo pushing",
+        "stability through union",
+        "cautious regrouping",
+        "supported position"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject struggling with the greatest difficulties, while friends are coming to help him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：大蹇，朋來。"
+        }
+      ],
+      "normalized_meaning": "This is peak obstruction. But you’re not abandoned — allies arrive. You attract real assistance by standing in the hard place with integrity.",
+      "keywords": [
+        "critical difficulty",
+        "help arrives",
+        "supportive friends",
+        "leadership under pressure",
+        "aid through integrity"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows its subject going forward, (only to increase) the difficulties, while his remaining stationary will be (productive of) great (merit). There will be good fortune, and it will be advantageous to meet with the great man.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：往蹇，來碩，吉。利見大人。"
+        }
+      ],
+      "normalized_meaning": "If you insist on advancing alone, you just make the obstruction worse. If you halt, hold position, and seek counsel from someone truly capable, you gain real merit and things turn auspicious.",
+      "keywords": [
+        "stop advancing",
+        "merit in restraint",
+        "seek the great person",
+        "good fortune through guidance",
+        "wisdom over force"
+      ]
     }
   ]
 }

@@ -1,13 +1,209 @@
 {
   "id": "gate.35",
   "hexagram": "hx35",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "name": "Progress / The Gate of Change",
+  "center": "Throat",
+  "circuit": "Collective / Sensing",
+  "channel": "35-36 (Transitoriness)",
+  "programming_partner": "gate.5",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.5"
   },
-  "themes": [],
+  "themes": [
+    "progress through experience",
+    "change requires interaction",
+    "boredom → desire for new experience",
+    "learning from cycles (beginning–middle–end)",
+    "handling rejection in the experiential process"
+  ],
+  "gate_quote": "Progress cannot exist in a vacuum and is dependent on interaction.",
   "fear": null,
-  "last_updated": "2025-10-28"
+  "lines": [
+    {
+      "id": "35.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Humility",
+        "hd_quote": "The ability to accept rejection."
+      },
+      "interpretation": {
+        "keywords": [
+          "rejection-tolerant",
+          "resilient learner",
+          "non-personalized no"
+        ],
+        "behavioral_axis": "Can take a ‘no’ and keep moving through the experience cycle.",
+        "shadow_axis": "Takes rejection as humiliation; stops seeking new experiences."
+      },
+      "relationship_needs": {
+        "needs_non_shaming_feedback": true,
+        "prefers_clear_yes_no": true,
+        "rejects_mixed_signals": true
+      },
+      "group_role": "experience stabilizer / rejection buffer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "35.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Creative block",
+        "hd_quote": "Lack of inspiration which stops progress."
+      },
+      "interpretation": {
+        "keywords": [
+          "boredom as signal",
+          "need for fresh input",
+          "cycle restart"
+        ],
+        "behavioral_axis": "Senses when the experiential strand has run dry and needs renewal.",
+        "shadow_axis": "Forces progress without inspiration → empty motion."
+      },
+      "relationship_needs": {
+        "needs_room_for_inspiration": true,
+        "prefers_variety": true,
+        "rejects_forced_output": true
+      },
+      "group_role": "cycle restarter / boredom detector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "35.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Collaboration",
+        "hd_quote": "The whole is greater than the sum of its parts."
+      },
+      "interpretation": {
+        "keywords": [
+          "progress via others",
+          "cooperative change",
+          "shared experience"
+        ],
+        "behavioral_axis": "Knows progress accelerates through interaction and shared stories.",
+        "shadow_axis": "Insists on being the center and blocks collaborative progress."
+      },
+      "relationship_needs": {
+        "needs_reciprocity": true,
+        "prefers_team_progress": true,
+        "rejects_egoic_hijack": true
+      },
+      "group_role": "progress amplifier / connector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "35.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Hunger",
+        "hd_quote": "The insatiable appetite for progress."
+      },
+      "interpretation": {
+        "keywords": [
+          "experience-seeking",
+          "restless change",
+          "emotional appetite"
+        ],
+        "behavioral_axis": "Feels ‘it’s time for a change’ and moves the cycle forward.",
+        "shadow_axis": "Change for change’s sake; burns out self and group."
+      },
+      "relationship_needs": {
+        "needs_outlets_for_experience": true,
+        "prefers_dynamic_connections": true,
+        "rejects_stagnation": true
+      },
+      "group_role": "change initiator / momentum starter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "35.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Altruism",
+        "hd_quote": "The sacrifice of personal for communal progress."
+      },
+      "interpretation": {
+        "keywords": [
+          "collective good",
+          "progressive communication",
+          "service orientation"
+        ],
+        "behavioral_axis": "Uses experience and communication to bring beneficial change to the whole.",
+        "shadow_axis": "Resentment when personal expansion feels sacrificed."
+      },
+      "relationship_needs": {
+        "needs_acknowledgment_of_service": true,
+        "prefers_clear_collective_goals": true,
+        "rejects_exploitation": true
+      },
+      "group_role": "progress communicator / communal advocate",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "35.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Rectification",
+        "hd_quote": "The energy to correct."
+      },
+      "interpretation": {
+        "keywords": [
+          "corrective change",
+          "mature progress",
+          "timely intervention"
+        ],
+        "behavioral_axis": "Applies experience to correct course and crystallize what actually works.",
+        "shadow_axis": "Over-severe correction that meets resistance."
+      },
+      "relationship_needs": {
+        "needs_authority_respected": true,
+        "prefers_timed_interventions": true,
+        "rejects_chaotic_change": true
+      },
+      "group_role": "progress corrector / cycle closer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "Line titles and primary sentences taken directly from Ra Uru Hu, The Complete Rave I’Ching, Gate 35 “Progress,” p. 74 (archive PDF). All kept ≤25 words. Sources: :contentReference[oaicite:0]{index=0}"
+  }
 }

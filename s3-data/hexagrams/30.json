@@ -1,46 +1,149 @@
 {
   "id": "hx30",
   "number": 30,
-  "name": "TBD",
+  "unicode_hexagram": "䷝",
+  "name": "The Clinging / Radiance (離, Lí)",
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Lî indicates that, (in regard to what it denotes), it will be advantageous to be firm and correct, and that thus there will be free course and success. Let (its subject) also nourish (a docility like that of) the cow, and there will be good fortune.",
+    "normalized_summary": "Light that adheres. You need both clarity and correct conduct, not just intensity. Hold to what’s right, move with discipline, and let your fire stay guided and humble — like tending a gentle, obedient cow — so it becomes sustaining light, not a flash that burns everything down."
+  },
+
   "lines": [
     {
       "line": 1,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows one ready to move with confused steps. But he treads at the same time reverently, and there will be no mistake.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：履錯然，敬之，無咎。"
+        }
+      ],
+      "normalized_meaning": "Early movement feels awkward and unsteady. If you stay respectful and mindful instead of arrogant, you avoid blame.",
+      "keywords": [
+        "careful first steps",
+        "humility",
+        "self-restraint",
+        "no blame",
+        "not rushing"
+      ]
     },
     {
       "line": 2,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject in his place in yellow. There will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：黃離，元吉。"
+        }
+      ],
+      "normalized_meaning": "Centered, balanced brightness — like warm yellow. Modest, appropriate radiance brings prime good fortune.",
+      "keywords": [
+        "balanced clarity",
+        "centered position",
+        "right tone",
+        "favorable alignment",
+        "great good fortune"
+      ]
     },
     {
       "line": 3,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject in a position like that of the declining sun. Instead of playing on his instrument of earthenware, and singing to it, he utters the groans of an old man of eighty. There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：日昃之離，不鼓缶而歌，則大耋之嗟，凶。"
+        }
+      ],
+      "normalized_meaning": "Your light is fading and you respond with bitterness instead of graceful acceptance. Clinging to lost glory turns to misfortune.",
+      "keywords": [
+        "decline",
+        "resentment",
+        "refusing transition",
+        "mourning instead of adapting",
+        "misfortune"
+      ]
     },
     {
       "line": 4,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth NINE, undivided, shows the manner of its subject's coming. How abrupt it is, as with fire, with death, to be rejected (by all)!",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：突如其來如，焚如，死如，棄如。"
+        }
+      ],
+      "normalized_meaning": "A sudden blaze of force that scorches everything and then is cast off. Dramatic, overwhelming arrival gets rejected.",
+      "keywords": [
+        "explosive intensity",
+        "burnout",
+        "social rejection",
+        "too much too fast",
+        "instability"
+      ]
     },
     {
       "line": 5,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows its subject as one with tears flowing in torrents, and groaning in sorrow. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：出涕沱若，戚嗟若，吉。"
+        }
+      ],
+      "normalized_meaning": "Open grief, honest sorrow. Letting the heart feel fully is actually correct here — and leads to good fortune.",
+      "keywords": [
+        "emotional honesty",
+        "vulnerability",
+        "grief as purification",
+        "authentic feeling",
+        "good fortune"
+      ]
     },
     {
       "line": 6,
-      "translations": [],
-      "normalized_meaning": "",
-      "keywords": []
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows the king employing its subject in his punitive expeditions. Achieving admirable (merit), he breaks (only) the chiefs (of the rebels). Where his prisoners were not their associates, he does not punish. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：王用出征，有嘉折首，獲匪其醜，無咎。"
+        }
+      ],
+      "normalized_meaning": "Right use of force. You act decisively, but with precision and restraint — striking the true source of disorder, not lashing out blindly. No blame.",
+      "keywords": [
+        "righteous action",
+        "measured force",
+        "surgical leadership",
+        "duty to restore order",
+        "no blame"
+      ]
     }
   ]
 }
