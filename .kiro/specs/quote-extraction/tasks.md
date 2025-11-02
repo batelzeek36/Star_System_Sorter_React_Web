@@ -1,5 +1,15 @@
 # Implementation Plan
 
+## ⚠️ IMPLEMENTATION NOTE: Large-Text Rule
+
+For any source in `s3-data/` bigger than 50 MB (Line Companion DJVU export, Legge DJVU export):
+- **DO NOT** load entire file into memory
+- Process as streaming iterator
+- Write intermediate chunk files
+- Only build final JSON from already-split per-hex/per-gate files
+
+---
+
 - [x] 1. Set up project structure and core utilities
   - Create directory structure for pipeline scripts in `lore-research/scripts/`
   - Create output directory structure in `lore-research/research-outputs/`
@@ -27,6 +37,34 @@
     - Log OCR issues to `line-companion/OCR_ISSUES.md` in addition to inline detection
     - _Requirements: FR-LC-1, FR-LC-2_
 
+  - [ ] 2.3 Normalize Legge I Ching (`236066-The I Ching_djvu.txt`)
+    - Read from `s3-data/236066-The I Ching_djvu.txt`
+    - **Process as a streaming source** (DO NOT load whole file into memory)
+      - read line-by-line or in fixed-size chunks (4–16 KB)
+      - detect hexagram headers while streaming
+    - Apply SAME normalization rules as Line Companion:
+      - normalize line endings (CRLF → LF)
+      - collapse excessive blank lines
+      - join mid-sentence newlines
+      - apply shared OCR fix dict (re-use LC dict; extend if Legge-specific issues found)
+    - Write normalized output to: `s3-data/hexagrams/legge-normalized.txt`
+    - ALSO emit chunked outputs to: `s3-data/hexagrams/chunks/legge-partNN.txt` (use same chunk size as LC, e.g. 500 lines)
+    - Log OCR and structure issues to: `s3-data/hexagrams/OCR_ISSUES.md`
+    - _Requirements: FR-HX-1, FR-CU-4, Non-functional (large-file streaming)_
+
+  - [ ] 2.4 Build Legge hexagram index
+    - Parse `s3-data/hexagrams/legge-normalized.txt`
+    - Split into 64 hexagrams using patterns:
+      - `^HEXAGRAM\s+(\d+)\b`
+      - OR fallback: `^(\d+)\.\s+The\s+.+`
+    - For each hexagram:
+      - capture title
+      - capture body
+      - split lines 1–6 if present (look for `^Line\s+(\d+)`, or map to standard line order if missing)
+    - Write consolidated JSON to: `s3-data/hexagrams/legge-hx.json`
+    - Preserve raw text for provenance (`raw_text`)
+    - _Requirements: FR-HX-1, FR-HX-2, FR-DI-5_
+
 - [ ] 3. Implement gate splitting stage
   - [x] 3.1 Create gate block detector (`02-split-gates.py`)
     - Read monolithic `lore-research/research-outputs/line-companion/normalized.txt` (fail with clear message if missing: "run 01-normalize first")
@@ -46,19 +84,26 @@
     - Keep the monolithic `gates.json` as the canonical LC dump for provenance
     - _Requirements: FR-LC-3, FR-DI-5_
 
-  - [ ] 3.3 Handle missing gates
+  - [x] 3.3 Handle missing gates
     - For any gate 1..64 not present or present-but-empty in `gates.json`, log to `BAD_LINES.md` with format: `gate: <N> | source: line-companion-normalized.txt | problem: not found in normalized text | suggestion: check I Ching fallback`
     - ALSO add missing gates to the **top-level** `_meta.missing_gates` array in `lore-research/research-outputs/line-companion/gates.json` (update the original file)
     - If `BAD_LINES.md` doesn't exist, create it with a short header
     - Suggest checking I Ching source as fallback (this is just a text note, not an automated fetch)
     - _Requirements: FR-LC-6, FR-VQ-6_
 
-  - [ ] 3.4 Add per-gate line detector
+  - [x] 3.4 Add per-gate line detector
     - For each `gate-XX.json`, scan `raw_text` for headings of the form `^<gate>\.(\d)\s+(.+)$` (MULTILINE)
     - Populate `"lines": { "1": {"heading": "...", "raw": "..."}, ..., "6": {...} }`
     - If <6 lines → log to `BAD_LINES.md` with gate number and reason
     - Keep original `raw_text` intact for provenance
     - _Requirements: FR-LC-4, FR-VQ-2_
+
+  - [ ] 3.5 Line-shaping / exaltation–detriment splitter
+    - For each `gate-XX.json`, read `lines` object
+    - Parse each line's `raw` into segments: intro, exaltation, detriment
+    - Add `segments`: `[{"type": "intro", ...}, {"type": "exaltation", ...}, {"type": "detriment", ...}]`
+    - If no exaltation/detriment found → log to `BAD_LINES.md`
+    - _Requirements: FR-LC-5, FR-VQ-2_
 
 - [ ] 4. Implement line extraction stage
   - [ ] 4.1 Verify line extraction completeness
@@ -75,11 +120,14 @@
 
 - [ ] 5. Implement hexagram cross-check stage
   - [ ] 5.1 Create hexagram verifier (`03b-xcheck-with-hexagrams.py`)
-    - Load all 64 hexagram files from `s3-data/hexagrams/`
-    - Map HD gate N → hexagram N
-    - Compare LC line text with hexagram line translations
-    - Detect semantic conflicts vs. aligned matches
-    - _Requirements: FR-HX-1, FR-HX-2_
+    - Load primary hexagrams from `s3-data/hexagrams/legge-hx.json` (generated in 2.4)
+    - If per-hex override files exist (e.g. `s3-data/hexagrams/01.json`, `s3-data/hexagrams/02.json`) → overlay those on top of Legge
+    - Map HD gate N → hexagram N (1→1, 2→2, … 64→64)
+    - For each gate line from LC (`lore-research/research-outputs/line-companion/gates/gate-XX.json`):
+      - compare LC line text to Legge line text
+      - detect semantic alignment (same core meaning) vs. conflict (different direction, missing line, bad OCR)
+      - add fields: `hexagram_match: true|false`, `hexagram_conflict: true|false`, `hexagram_source: "legge-1899"`
+    - _Requirements: FR-HX-1, FR-HX-2, FR-HX-5_
 
   - [ ] 5.2 Flag conflicts and matches
     - Mark `hexagram_conflict: true` for semantic mismatches
@@ -89,6 +137,12 @@
     - Write output to `line-companion/gate-lines-xchecked.json`
     - _Requirements: FR-HX-2, FR-HX-5_
 
+  - [ ] 5.3 Hexagram-only reprocess mode
+    - CLI: `--stage hex-only` or `--stage 5 --source legge`
+    - Re-runs 2.3 → 2.4 → 5.1 without touching LC gate files
+    - Useful when `s3-data/236066-The I Ching_djvu.txt` is updated or re-OCR'd
+    - _Requirements: FR-HX-5, Non-functional (resume)_
+
 - [ ] 6. Implement quote selection stage
   - [ ] 6.1 Create quote extractor (`04-extract-quotes.py`)
     - Read cross-checked line data
@@ -97,6 +151,14 @@
     - If extracted text spans >1 paragraph, truncate to first ≤25-word segment
     - Truncate to 25 words with `...` if needed
     - _Requirements: FR-LC-5, FR-CU-1, FR-CU-3_
+
+  - [ ] 6.1b Legge fallback for damaged LC lines
+    - If LC line is missing, truncated, or logged in `BAD_LINES.md`
+    - AND corresponding Legge hexagram N, line L exists in `s3-data/hexagrams/legge-hx.json`
+    - THEN use Legge as the quote source for this line
+    - Set `source: "legge-djvu-236066"` in the citation
+    - Record fallback reason in `notes` (e.g. `notes: "lc_line_missing → used_legge"`)
+    - _Requirements: FR-LC-6, FR-HX-2, FR-CU-1, FR-VQ-6_
 
   - [ ] 6.2 Extract exaltation and detriment
     - Detect exaltation/detriment patterns in LC text
@@ -155,6 +217,11 @@
     - Include notes with specific issues
     - Write validation report to `lore-research/research-outputs/VALIDATION_REPORT.v1.json` (or .md) for versioning
     - Update `BAD_LINES.md` with final queue
+    - Verify multi-source presence:
+      - assert Line Companion gates exist: `lore-research/research-outputs/line-companion/gates/gate-01.json` … `gate-64.json`
+      - assert Legge index exists: `s3-data/hexagrams/legge-hx.json`
+      - if Legge missing → add to `BAD_LINES.md`:
+        - `source: legge-1899 | problem: missing indexed hexagrams | suggestion: rerun 2.3/2.4`
     - _Requirements: FR-VQ-4, FR-VQ-5, FR-VQ-6, FR-CL-2_
 
   - [ ] 8.3 Verify hexagram linkage
@@ -184,6 +251,14 @@
     - Create/update `s3-data/sources/registry.json`
     - Register Ra Uru Hu - Line Companion
     - Register James Legge - The I Ching (1899)
+    - Register source:
+      - id: `legge-1899`
+      - kind: `i-ching`
+      - path_raw: `s3-data/236066-The I Ching_djvu.txt`
+      - path_normalized: `s3-data/hexagrams/legge-normalized.txt`
+      - path_indexed: `s3-data/hexagrams/legge-hx.json`
+      - provenance: `public-domain (James Legge, 1899, archive.org mirror 236066)`
+      - notes: "Used as fallback and cross-check against Ra Uru Hu Line Companion; do not overwrite without re-running 2.3/2.4"
     - Include metadata for all sources used
     - _Requirements: FR-CU-4_
 
