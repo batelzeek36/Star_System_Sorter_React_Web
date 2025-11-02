@@ -16,7 +16,7 @@ When deriving behavior for any gate.line, use sources in THIS order:
 
 1. `s3-data/Line Companion_djvu.txt` **or** `s3-data/Line Companion.epub`
    - Prefer the version that has already been normalized into:
-     - `lore-research/research-outputs/line-companion-normalized.txt`
+     - `lore-research/research-outputs/line-companion/normalized.txt`
 
 2. If line is missing/garbled in Line Companion → fall back to **I Ching hexagram** text from:
    - `s3-data/236066-The I Ching_djvu.txt`
@@ -289,7 +289,7 @@ Follow this, line by line, for the rest of the star system batch files.
   - source tried
   - short reason
 * Old auto-generated files:
-  - `lore-research/research-outputs/line-companion-gate-lines.json`
-  - `lore-research/research-outputs/line-companion-gates.json`
-  - `lore-research/research-outputs/line-companion-quotes.json`
+  - `lore-research/research-outputs/line-companion/gate-lines.json`
+  - `lore-research/research-outputs/line-companion/gates.json`
+  - `lore-research/research-outputs/line-companion/quotes.json`
   are considered **non-authoritative** and MAY be deleted or ignored.

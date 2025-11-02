@@ -33,7 +33,7 @@ This document defines the requirements for turning **Ra Uru Hu's _Line Companion
 **In scope**
 
 - Ingest from any of these sources (prefer normalized):
-  - `lore-research/research-outputs/line-companion-normalized.txt`
+  - `lore-research/research-outputs/line-companion/normalized.txt`
   - `s3-data/Line Companion_djvu.txt`
   - `s3-data/Line Companion.epub`
   - `s3-data/Line Companion_abbyy.gz`
@@ -134,7 +134,7 @@ This document defines the requirements for turning **Ra Uru Hu's _Line Companion
 **FR-LC-1**
 Ingest Line Companion from the first available source in this order:
 
-1. `lore-research/research-outputs/line-companion-normalized.txt`
+1. `lore-research/research-outputs/line-companion/normalized.txt`
 2. `s3-data/Line Companion_djvu.txt`
 3. `s3-data/Line Companion.epub`
 4. `s3-data/Line Companion_abbyy.gz` (fallback/patch)
@@ -414,9 +414,9 @@ Maintain `s3-data/sources/registry.json` for:
 **FR-CL-1**
 Treat these as scratch:
 
-* `lore-research/research-outputs/line-companion-gate-lines.json`
-* `lore-research/research-outputs/line-companion-gates.json`
-* `lore-research/research-outputs/line-companion-quotes.json`
+* `lore-research/research-outputs/line-companion/gate-lines.json`
+* `lore-research/research-outputs/line-companion/gates.json`
+* `lore-research/research-outputs/line-companion/quotes.json`
 
 **FR-CL-2**
 Production runs SHALL emit versioned files, e.g.:

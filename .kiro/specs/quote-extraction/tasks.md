@@ -8,42 +8,63 @@
   - _Requirements: FR-LC-1, FR-CL-1, FR-CL-2_
 
 - [ ] 2. Implement text normalization stage
-  - [ ] 2.1 Create source file selector with priority logic
+  - [x] 2.1 Create source file selector with priority logic
     - Implement file existence checks for all Line Companion sources
     - Apply priority order: normalized.txt → djvu.txt → epub → djvu.xml → scandata.xml → abbyy.gz
     - Log which source was selected and why
     - Log `source_file` and `source_offset` (if available) for traceability
     - _Requirements: FR-LC-1, FR-LC-2_
 
-  - [ ] 2.2 Implement OCR text normalizer (`01-normalize-line-companion.py`)
+  - [x] 2.2 Implement OCR text normalizer (`01-normalize-line-companion.py`)
     - Normalize line endings (CRLF → LF)
     - Collapse excessive blank lines (3+ → 1)
     - Join mid-sentence newlines intelligently
     - Apply configurable OCR fix dictionary
     - Detect and log lines >1500 chars as potential OCR errors
-    - Write output to `line-companion-normalized.txt`
+    - Write output to `line-companion/normalized.txt`
+    - Emit companion index file `line-companion/normalized.index.json` with total_lines and optional sample offsets for LLM-assisted review
+    - ALSO emit chunked outputs (`line-companion/normalized-partNN.txt`) when `CHUNK_NORMALIZED=1` env var is set (e.g., 500 lines per chunk) to support interactive review
+    - Log OCR issues to `line-companion/OCR_ISSUES.md` in addition to inline detection
     - _Requirements: FR-LC-1, FR-LC-2_
 
 - [ ] 3. Implement gate splitting stage
-  - [ ] 3.1 Create gate block detector (`02-split-gates.py`)
-    - Implement tolerant regex for gate headings: `^(?:Gate|HEXAGRAM)\s+(\d{1,2})`
+  - [x] 3.1 Create gate block detector (`02-split-gates.py`)
+    - Read monolithic `lore-research/research-outputs/line-companion/normalized.txt` (fail with clear message if missing: "run 01-normalize first")
+    - Loop over all gate heading patterns from `config.GATE_HEADING_PATTERNS` (first match wins per line)
     - Extract text blocks between gate headings
-    - Validate that 64 gates are detected (fail if <60)
-    - Write output to `line-companion-gates.json`
+    - Validate gate count: <60 → exit 1, 60-63 → write JSON + warning + BAD_LINES, 64 → ✅
+    - Write output to `lore-research/research-outputs/line-companion/gates.json`
+    - Include `_meta` block with `detected_gates` count and `missing_gates` array
     - _Requirements: FR-LC-3_
 
-  - [ ] 3.2 Handle missing gates
-    - Log any missing gates to `BAD_LINES.md`
-    - Include gate number and reason (not found in LC)
-    - Suggest checking I Ching source as fallback
+  - [ ] 3.2 Create gate fanout script (`03-fanout-gates.py`)
+    - Read monolithic `lore-research/research-outputs/line-companion/gates.json`
+    - Create output directory `lore-research/research-outputs/line-companion/gates/` if it doesn't exist
+    - Iterate gates 1..64 and write each to its own file: `gate-{gate:02d}.json` (e.g., `gate-01.json`, `gate-27.json`)
+    - File structure: `{"gate": <int>, "title": <str or null>, "raw_text": <full text from gates.json>, "lines": {}, "_meta": {"source": "line-companion-normalized.txt", "extracted_from": "gates.json", "created_at": "<auto-iso8601>"}}`
+    - If a gate key exists in `gates.json` but has empty/missing text → log to `BAD_LINES.md`
+    - Keep the monolithic `gates.json` as the canonical LC dump for provenance
+    - _Requirements: FR-LC-3, FR-DI-5_
+
+  - [ ] 3.3 Handle missing gates
+    - For any gate 1..64 not present or present-but-empty in `gates.json`, log to `BAD_LINES.md` with format: `gate: <N> | source: line-companion-normalized.txt | problem: not found in normalized text | suggestion: check I Ching fallback`
+    - ALSO add missing gates to the **top-level** `_meta.missing_gates` array in `lore-research/research-outputs/line-companion/gates.json` (update the original file)
+    - If `BAD_LINES.md` doesn't exist, create it with a short header
+    - Suggest checking I Ching source as fallback (this is just a text note, not an automated fetch)
     - _Requirements: FR-LC-6, FR-VQ-6_
 
+  - [ ] 3.4 Add per-gate line detector
+    - For each `gate-XX.json`, scan `raw_text` for headings of the form `^<gate>\.(\d)\s+(.+)$` (MULTILINE)
+    - Populate `"lines": { "1": {"heading": "...", "raw": "..."}, ..., "6": {...} }`
+    - If <6 lines → log to `BAD_LINES.md` with gate number and reason
+    - Keep original `raw_text` intact for provenance
+    - _Requirements: FR-LC-4, FR-VQ-2_
+
 - [ ] 4. Implement line extraction stage
-  - [ ] 4.1 Create line detector (`03-split-lines-per-gate.py`)
-    - Implement tolerant regex for line patterns: `Line 1`, `1st line`, `Line 1 –`, etc.
-    - Extract text for each of 6 lines per gate
-    - Handle OCR variations and edge cases
-    - Write output to `line-companion-gate-lines.json`
+  - [ ] 4.1 Verify line extraction completeness
+    - After running 3.4, verify all gate files have line data populated
+    - Check that each gate has exactly 6 lines (or is logged in BAD_LINES.md)
+    - Validate line heading format and content
     - _Requirements: FR-LC-4, FR-LC-5_
 
   - [ ] 4.2 Detect and flag incomplete gates
@@ -65,7 +86,7 @@
     - Mark `hexagram_match: true` for aligned content
     - Store hexagram source reference
     - Store `lc_source_file` and `lc_source_offset` for manual review traceability
-    - Write output to `line-companion-gate-lines-xchecked.json`
+    - Write output to `line-companion/gate-lines-xchecked.json`
     - _Requirements: FR-HX-2, FR-HX-5_
 
 - [ ] 6. Implement quote selection stage
@@ -89,7 +110,7 @@
     - Record extraction method (ocr/normalized/djvu-xml)
     - Calculate word count
     - Add fair-use note
-    - Write output to `line-companion-quotes.json`
+    - Write output to `line-companion/quotes.json`
     - _Requirements: FR-DI-2, FR-CU-2_
 
   - [ ] 6.4 Handle extraction failures
@@ -101,7 +122,7 @@
 - [ ] 7. Implement gate file merger
   - [ ] 7.1 Create quote merger (`06-merge-quotes-into-gates.py`)
     - Read existing gate files from `s3-data/gates/`
-    - Load quote data from `line-companion-quotes.json`
+    - Load quote data from `line-companion/quotes.json`
     - Preserve all existing non-classical fields
     - _Requirements: FR-DI-1, FR-DI-3_
 

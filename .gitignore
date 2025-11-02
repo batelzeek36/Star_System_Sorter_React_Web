@@ -56,3 +56,8 @@ s3-data/Line Companion_abbyy.gz
 s3-data/Line Companion_djvu.xml
 s3-data/Line Companion.pdf
 s3-data/Line Companion.epub
+
+# Large generated files from pipeline (keep local only)
+lore-research/research-outputs/line-companion/normalized.txt
+lore-research/research-outputs/line-companion/gates.json
+lore-research/research-outputs/line-companion/normalized-part*.txt
