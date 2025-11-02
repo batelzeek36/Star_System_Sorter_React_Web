@@ -4,12 +4,24 @@
     7,
     31
   ],
-  "centers": [],
+  "centers": [
+    "center.g",
+    "center.throat"
+  ],
   "circuit": "circuit.logic",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.understanding",
+  "voice": "I can lead us.",
+  "display_name": "Channel of the Alpha (7–31) — Democratic Leadership",
+  "keynotes": [
+    "collective, logical leadership",
+    "direction (7) made audible (31)",
+    "must be chosen by the group",
+    "leadership for the people, not ego",
+    "style of leading is democratic/representative",
+    "needs recognition → then speaks",
+    "sets direction for the future",
+    "embodies ‘I lead because you asked’"
+  ],
+  "notes": "Overview: Channel 7–31 links Gate 7 (The Role of the Self in Interaction) in the G Center to Gate 31 (Influence / Leadership) in the Throat. This is the classic **Channel of the Alpha** — leadership that belongs to the Collective, specifically the Logic/Understanding side. Its core principle: **you don’t get to lead unless the people pick you.**\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 7 is the role of the self in leadership.\" — Ra Uru Hu, Line Companion (Gate 7)\n2) \"Gate 31 is the gate of influence.\" — Ra Uru Hu, Line Companion (Gate 31)\n3) \"You can only lead those who choose you.\" — Ra Uru Hu, 7–31\n4) \"Leadership for the collective future.\" — Ra Uru Hu, Logic circuit\n5) \"This is democratic leadership.\" — Ra Uru Hu, 7–31\n\nInterpretation of the quotes:\n- 7 carries the **direction** — how the self wants to move together with others.\n- 31 carries the **voice** — the ability to speak that direction in a way people can follow.\n- But neither is valid without the **selection of the group**. That’s why this channel is so often described as “democratic.”\n\nMechanics:\n- **G → Throat**: identity becomes leadership speech.\n- Because it’s Collective Logic, the speech is meant to be **reasonable, testable, future-oriented** — not emotional or personal.\n- The 7 actually contains several leadership roles (army, democracy, etc.), and the 31 chooses which one to express based on what the people need.\n\nHigh expression:\n- Waits to be recognized/elected/asked before leading.\n- Speaks for the group, not over it.\n- Gives clear, directional language: “We will…”, “Let’s move toward…”.\n- Remains logical — offers plans, structures, systems.\n\nLow expression / distortion:\n- Self-appointing leadership: “I lead because I want to,” instead of “I lead because you asked.”\n- Using the voice to dominate rather than represent.\n- Speaking without data or testing → the Collective won’t follow for long.\n\nImportant nuance:\n- This is **not** tribal leadership (that protects resources and bloodline) and **not** individual leadership (that mutates through example). It is **collective leadership** — meant to move many people in a unified direction.\n- Because it sits in the Logic stream, it works best when paired with actual evidence, patterns, and track record.\n\nUse in your HD JSON corpus:\n- Tag for: democratic leadership, representative voice, G→Throat direction, future-oriented guidance, collective selection.\n- Good to cross-reference with charts where people keep getting put in spokesperson/captain/director roles — this is the underlying mechanic.\n",
   "last_updated": "2025-10-28"
 }

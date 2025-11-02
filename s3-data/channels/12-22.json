@@ -4,12 +4,24 @@
     12,
     22
   ],
-  "centers": [],
+  "centers": [
+    "center.throat",
+    "center.solar_plexus"
+  ],
   "circuit": "circuit.individual",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.feeling",
+  "voice": "I feel like expressing.",
+  "display_name": "Channel of Openness (12–22) — Social Grace and Emotional Expression",
+  "keynotes": [
+    "individual emotional expression through voice and presence",
+    "solar plexus sensitivity (22) meets throat articulation (12)",
+    "mood-based eloquence — expression only when feeling is correct",
+    "creative melancholy transforms into art, speech, or song",
+    "projected channel — needs emotional clarity and invitation",
+    "depth of feeling → inspiration for others",
+    "distortion: forcing connection or speaking without feeling",
+    "beauty, music, art as forms of communication"
+  ],
+  "notes": "Overview: Channel 12–22 links Gate 22 (Openness / Grace) in the Solar Plexus to Gate 12 (Caution / Channel of Social Interaction) in the Throat. This is the **Individual Emotional** channel of the Knowing stream — deeply mutative and moody, expressing emotional truth through the voice when timing is correct. Its classic name is the **Channel of Openness**, and Ra Uru Hu called it “the design of social grace.”\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 22 is the gate of openness and grace.\" — Ra Uru Hu, Line Companion (Gate 22)\n2) \"Mood determines availability.\" — Ra Uru Hu, Line Companion (Gate 22)\n3) \"Gate 12 is the gate of caution.\" — Ra Uru Hu, Line Companion (Gate 12)\n4) \"The channel of openness.\" — Ra Uru Hu, 12–22\n5) \"Express only when the mood is right.\" — Ra Uru Hu, Solar Plexus teaching\n\nMechanics:\n- **Solar Plexus (22)**: emotional awareness through receptivity; carries sensitivity to tone, beauty, music, and others’ emotional fields.\n- **Throat (12)**: the cautious voice — knows when to speak and when to remain silent.\n- Together they create emotional eloquence: **feeling → voice → art.** The expression mutates others by touching them emotionally, not logically.\n\nHigh expression:\n- Speaks or performs only when moved; voice carries beauty and truth.\n- Can enchant and inspire through tone, music, or poetry.\n- Comfortable in silence when the mood isn’t right.\n\nLow expression / distortion:\n- Forcing expression → awkward or misunderstood.\n- Misreading mood and over-sharing emotionally.\n- Seeking attention instead of resonance.\n\nTiming & aura dynamics:\n- This is a **projected** and **emotional** channel — meaning expression must be **invited** and **waited for** until the emotional wave is clear.\n- It operates in pulses: sometimes closed and introspective, sometimes wide open and graceful.\n- Its melancholy is not a flaw — it’s the compost that births art.\n\nSymbolism:\n- 22 → listening and receptivity to emotional beauty.\n- 12 → cautious articulation of that beauty when timing feels correct.\n- The result is *mutative social art* — the human capacity to move others emotionally through one’s voice, gaze, or presence.\n\nUse in your HD JSON corpus:\n- Tag for: emotional eloquence, social grace, mood-based communication, artistic expression, projected channel, mutative voice.\n- Works alongside 55–39 (emotional passion) and 36–35 (narrative emotional experience) when mapping the full Solar Plexus stream of feeling.\n",
   "last_updated": "2025-10-28"
 }

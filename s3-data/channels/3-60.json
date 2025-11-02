@@ -4,12 +4,24 @@
     3,
     60
   ],
-  "centers": [],
+  "centers": [
+    "center.root",
+    "center.sacral"
+  ],
   "circuit": "circuit.individual",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.knowing",
+  "voice": "Mutation happens through limitation.",
+  "display_name": "Channel of Mutation (3–60) — Pulse of Transformation",
+  "keynotes": [
+    "root pressure to mutate",
+    "sacral capacity to order the chaos",
+    "mutation only in pulses (not constant)",
+    "limitation is the gateway for change",
+    "individual melancholy between pulses",
+    "mechanical readiness: must wait for timing",
+    "creative solutions to constraints",
+    "archetype of evolution under pressure"
+  ],
+  "notes": "Overview: Channel 3–60 is the classic Individual mutative channel in Human Design. It connects Gate 60 (Limitation) in the Root — the pressure to accept what is — to Gate 3 (Ordering) in the Sacral — the energy to bring order out of chaos. This is the mechanical pathway through which genuine mutation (new form, new pattern, new order) can enter the Maia.\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Without limitation, there is no evolution.\" — Ra Uru Hu, Line Companion (Gate 60)\n2) \"The energy to order chaos.\" — Ra Uru Hu, Line Companion (Gate 3)\n3) \"Mutation operates in pulses.\" — Ra Uru Hu, Channel 3–60\n4) \"Accept the limitation, then transcend it.\" — Ra Uru Hu, Gate 60\n5) \"The beginning is always difficult.\" — Ra Uru Hu, Gate 3\n\nInterpretation of the quotes:\n- Gate 60 says: reality has rules, form has limits — **start there**.\n- Gate 3 says: given those limits, here is a **new pattern**.\n- Together: real mutation is not random; it is **new order emerging from accepted constraint**.\n\nMechanics:\n- **Root → Sacral**: pressure (60) must find a workable format (3).\n- This channel does **not** run all the time. It is pulsed/episodic. This is why people with 3–60 can feel stop–go, inspired–flat, on–off.\n- Between pulses, there can be **melancholy** or a sense of being blocked. That’s Individual circuitry chemistry.\n\nHigh expression:\n- Patient with the process of change.\n- Uses limitation as a focusing tool.\n- Brings truly new forms, systems, or ways of doing things into the world.\n\nLow expression / not-self:\n- Fighting the limitation instead of accepting it → chronic frustration.\n- Trying to mutate **all the time** → burnout (sacral overuse without a pulse).\n- Seeing limitation as punishment instead of as the **frame** that makes innovation possible.\n\nWhy limitation?:\n- In Design, the 60th gate is the **cap** that protects form. If we could change everything instantly, nothing would stabilize.\n- The 3rd gate is able to negotiate with that cap — to say: “Here is the next workable sequence.”\n\nCorrect strategy / timing:\n- Because this is Sacral, wait-to-respond (for Generators/MGs) is key. When life presents a **real** limitation or problem, 3–60 can pull a mutation through.\n- If there is no response opportunity, the mutation will just stay as pressure.\n\nThemes you can safely tag for your HD JSON work:\n- Mutation through limitation\n- Chaos → order sequencing\n- Pulse-based creative energy\n- Melancholy as part of individuation\n- Acceptance of form before transformation\n",
   "last_updated": "2025-10-28"
 }

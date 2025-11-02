@@ -4,12 +4,24 @@
     9,
     52
   ],
-  "centers": [],
+  "centers": [
+    "center.root",
+    "center.sacral"
+  ],
   "circuit": "circuit.logic",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.understanding",
+  "voice": "I can focus under pressure.",
+  "display_name": "Channel of Concentration (9–52) — Focused Stillness",
+  "keynotes": [
+    "root pressure to be still",
+    "sacral ability to focus on the task",
+    "logic needs sustained attention",
+    "concentration is selective, not global",
+    "great for study, analysis, coding, design",
+    "can look inactive but is deeply engaged",
+    "distortion: restlessness or scattered energy",
+    "best when invited to focus on one thing"
+  ],
+  "notes": "Overview: Channel 9–52 connects Gate 52 (Keeping Still / The Mountain) in the Root with Gate 9 (The Taming Power of the Small / Focus) in the Sacral. In the Collective Logic (Understanding) circuit, this is the mechanical answer to a big question: **how do we hold attention long enough to prove something?** Logic can only verify patterns when energy is held still and aimed at one small, repeatable detail.\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 52 is the gate of stillness.\" — Ra Uru Hu, Line Companion (Gate 52)\n2) \"It is the pressure to concentrate.\" — Ra Uru Hu, Line Companion (Gate 52)\n3) \"Gate 9 is the power to focus.\" — Ra Uru Hu, Line Companion (Gate 9)\n4) \"Concentration on the small detail.\" — Ra Uru Hu, Line Companion (Gate 9)\n5) \"This is the channel of concentration.\" — Ra Uru Hu, 9–52\n\nInterpretation of the quotes:\n- 52 **holds** the body still — the root says: “Don’t move. Stay here.”\n- 9 **aims** the energy — the sacral says: “OK, here’s what we’ll work on.”\n- Together: stillness + aim = real concentration.\n\nMechanics:\n- Root → Sacral means this is **pressure-based**. Sometimes the pressure arrives before the object to focus on.\n- Because it’s Collective, it wants to focus on things that can help **everyone** — methods, processes, study material, data, experiments.\n- It does **not** focus on everything. It focuses on **one** thing at a time. That is correct.\n\nHigh expression:\n- Can sit, study, code, practice, or refine for long stretches.\n- Excellent at breaking big problems into small, manageable steps.\n- Provides the environment of quiet, logical attention that others can join.\n\nLow expression / distortion:\n- Restless, fidgety, no clear object → frustration.\n- Being forced to multitask → the channel can’t dig deep.\n- Using the 52 to stay still for the wrong reasons (procrastination, avoidance) instead of for focus.\n\nWhy it matters in Logic:\n- Logic is about **proving** patterns over time.\n- Proof needs **repeated attention** on a small variable.\n- 9–52 is the body’s way of saying: “I will hold this long enough to see if it works.”\n\nPractical notes for your HD JSON corpus:\n- Tag themes: stillness, concentration, study, detail-work, pressure-to-focus, environment-of-quiet.\n- Good to pair with 16/48 material where skill and depth need long practice.\n",
   "last_updated": "2025-10-28"
 }

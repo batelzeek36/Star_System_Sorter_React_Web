@@ -4,12 +4,24 @@
     13,
     33
   ],
-  "centers": [],
+  "centers": [
+    "center.g",
+    "center.throat"
+  ],
   "circuit": "circuit.abstract",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.sensing",
+  "voice": "I remember and I will share.",
+  "display_name": "Channel of the Prodigal (13–33) — Design of a Witness",
+  "keynotes": [
+    "collective memory keeper: listening (13) → remembering (33)",
+    "stories of the past shared for meaning, not proof",
+    "needs privacy/retreat to process experiences",
+    "confidant energy: people tell you their stories",
+    "projected voice — share when invited",
+    "themes of secrets, testimony, and discretion",
+    "melancholy between cycles of retreat and sharing",
+    "informs the collective with lessons from the past"
+  ],
+  "notes": "Overview: Channel 13–33 links Gate 13 (The Listener) in the G Center with Gate 33 (Privacy/Retreat/Remembering) in the Throat. In the Collective Abstract/Sensing stream, its role is to **witness life, remember it, and share when asked** so the collective can draw meaning from the past. Classic name: **The Prodigal — a design of a witness.**\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 13 is the listener; it holds the stories.\" — Ra Uru Hu, Line Companion (Gate 13)\n2) \"Secrets are safe here when correct.\" — Ra Uru Hu, Line Companion (Gate 13)\n3) \"Gate 33 is privacy and retreat.\" — Ra Uru Hu, Line Companion (Gate 33)\n4) \"Remembering the past to share later.\" — Ra Uru Hu, Line Companion (Gate 33)\n5) \"The Prodigal — a design of a witness.\" — Ra Uru Hu, 13–33\n\nMechanics:\n- **G (13)** attracts and archives people’s stories; it is the auric confession booth.\n- **Throat (33)** requires withdrawal/retreat to distill experience into a shareable narrative.\n- As Collective Abstract, it offers **meaning from memory**, not logical proof or immediate solutions.\n\nHigh expression:\n- Trusted keeper of stories; shares with grace and discretion when invited.\n- Uses personal and collective history to guide culture.\n- Understands timing: first **retreat/remember**, then **speak**.\n\nLow expression / distortion:\n- Oversharing private material; breaking confidences.\n- Speaking before the story has been digested.\n- Holding on to the past as identity rather than as teaching.\n\nStrategy & timing:\n- This is **projected** — best received when **asked** to tell the story.\n- Honor the need for **privacy**; retreat restores memory clarity.\n\nTags for your HD JSON corpus:\n- witness, memory-keeper, retreat-then-share, confidant, past-to-meaning, projected voice, collective storytelling.\n",
   "last_updated": "2025-10-28"
 }

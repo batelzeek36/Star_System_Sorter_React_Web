@@ -4,12 +4,24 @@
     20,
     57
   ],
-  "centers": [],
+  "centers": [
+    "center.spleen",
+    "center.throat"
+  ],
   "circuit": "circuit.integration",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "stream": "integration.intuitive-expression.now",
+  "voice": "I know (now).",
+  "display_name": "Channel of the Brainwave (20↔57)",
+  "keynotes": [
+    "Pure splenic intuition (57) spoken in the present (20).",
+    "Awareness in the now → expression in the now.",
+    "Extremely individual, self-referencing, survival-oriented.",
+    "Can blurt truth without explanation or proof.",
+    "Not a mental process — it’s body-knowing made audible.",
+    "Needs correct timing; otherwise it sounds sharp or random.",
+    "Part of Integration → I survive by voicing what I sense.",
+    "Shadow: anxious, jumpy, talking every intuition that passes."
+  ],
+  "notes": "20–57 is the Integration channel often called **the Channel of the Brainwave** or **Intuitive Clarity in the Now**. Gate 57 in the Spleen is the highest form of splenic, body-based awareness — it hears/feels what’s correct or dangerous *right now*. Gate 20 in the Throat is the voice of **this moment**. Linked, they produce a person who can **speak instant survival truth** the second it arrives.\n\nThis is not logic, not emotional, not tribal; it is *your* body’s knowing. Because it’s Integration, it’s primarily about **self-survival and correctness**, not about convincing others. In distortion it sounds abrupt or fearful (talking every hunch). In correctness it is surgical, precise, and lifesaving: the right thing said at the right moment.\n\nBest practice: let Strategy & Authority decide **when** to voice the intuition — not every inner ping must be spoken.",
+  "last_updated": "2025-11-01"
 }

@@ -48,3 +48,11 @@ server/dist/
 # Misc
 .cache/
 .temp/
+
+# Large source files (keep local only)
+s3-data/236066-The I Ching_text.pdf
+s3-data/236066-The I Ching_abbyy.gz
+s3-data/Line Companion_abbyy.gz
+s3-data/Line Companion_djvu.xml
+s3-data/Line Companion.pdf
+s3-data/Line Companion.epub

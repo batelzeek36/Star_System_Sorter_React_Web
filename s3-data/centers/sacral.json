@@ -1,10 +1,170 @@
 {
   "id": "center.sacral",
   "name": "Sacral",
-  "awareness": "life force/work/response",
-  "biological_themes": [],
-  "fears": [],
-  "gates": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "awareness": "life force / work / response (sustainable motor, not an awareness center)",
+  "biological_themes": [
+    "Reproductive system (ovaries / testes) → creative, generative energy",
+    "Lower abdomen / pelvic bowl vitality",
+    "Endocrine–gonadal axis (hormonal cycles tied to work/sex/life-force)",
+    "Muscular endurance and metabolic output for ongoing labor"
+  ],
+  "fears": [
+    {
+      "id": "sacral.fear.of.burnout",
+      "label": "Fear of burnout / overwork",
+      "description": "Anxiety about being locked into work that never ends.",
+      "primary_gates": ["gate.5", "gate.27", "gate.42"]
+    },
+    {
+      "id": "sacral.fear.of.wrong.commitment",
+      "label": "Fear of committing to the wrong work/person",
+      "description": "Response-based energy worries about getting trapped in non-satisfying cycles.",
+      "primary_gates": ["gate.29", "gate.59"]
+    },
+    {
+      "id": "sacral.fear.of.stagnation",
+      "label": "Fear of no growth / no completion",
+      "description": "Concern that cycles won’t progress or finish, so energy never fully discharges.",
+      "primary_gates": ["gate.3", "gate.42"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.3",
+      "name": "3 — Difficulty at the Beginning (Ordering)",
+      "circuitry": "Individual (Knowing) – Sacral → Root (60–3)",
+      "life_force_theme": "Energy to bring mutation into ordered form.",
+      "quotes": [
+        "“The energy to establish order out of chaos.”",
+        "“Mutation needs form.”"
+      ],
+      "notes": "3 is the sacral’s ‘mutation organizer.’ It meets limitation (60) and tries to structure the new. Can be frustrated at the start.",
+      "sources": [
+        "Rave I’Ching – Hexagram 3",
+        "Jovian Archive – Individual circuit"
+      ]
+    },
+    {
+      "id": "gate.5",
+      "name": "5 — Fixed Rhythms (Waiting)",
+      "circuitry": "Collective (Logic) – Sacral → G (5–15)",
+      "life_force_theme": "Consistent sacral patterns, timing, routines.",
+      "quotes": [
+        "“The gate of fixed rhythms.”",
+        "“Waiting for the right timing.”"
+      ],
+      "notes": "5 holds the life-force in reliable patterns. Distortion → feeling enslaved by routine or forcing timing.",
+      "sources": [
+        "Rave I’Ching – Hexagram 5",
+        "HD teachings on the 5–15 channel"
+      ]
+    },
+    {
+      "id": "gate.9",
+      "name": "9 — The Taming Power of the Small (Focus)",
+      "circuitry": "Collective (Logic) – Ajna ← Root (52–9) ends in Sacral",
+      "life_force_theme": "Energy to focus on the detail.",
+      "quotes": [
+        "“The gate of focus.”",
+        "“Energy for concentrated work.”"
+      ],
+      "notes": "9 turns sacral fuel into concentration. Pairs with 52’s stillness. Distortion → obsessing on small things.",
+      "sources": [
+        "Rave I’Ching – Hexagram 9",
+        "Jovian Archive – Logic circuit"
+      ]
+    },
+    {
+      "id": "gate.14",
+      "name": "14 — Possession in Great Measure (Power Skills)",
+      "circuitry": "Individual (Knowing) – Sacral → G (14–2)",
+      "life_force_theme": "Resources and power available to direction.",
+      "quotes": [
+        "“The gate of power skills.”",
+        "“Resources follow direction.”"
+      ],
+      "notes": "14 is big sacral fuel for those with a direction (2). Distortion → hoarding energy/resources without purpose.",
+      "sources": [
+        "Rave I’Ching – Hexagram 14",
+        "HD individual circuit material"
+      ]
+    },
+    {
+      "id": "gate.27",
+      "name": "27 — Nourishment",
+      "circuitry": "Tribal (Defense) – Sacral → Spleen (27–50)",
+      "life_force_theme": "Energy to care, feed, and maintain the tribe.",
+      "quotes": [
+        "“The gate of caring.”",
+        "“The power to nourish and be nourished.”"
+      ],
+      "notes": "27 distributes sacral energy to what is correct to sustain. Distortion → overgiving → sacral depletion.",
+      "sources": [
+        "Rave I’Ching – Hexagram 27",
+        "Jovian Archive – Defense circuit"
+      ]
+    },
+    {
+      "id": "gate.29",
+      "name": "29 — The Abysmal (Saying Yes)",
+      "circuitry": "Collective (Abstract) – Sacral → G (29–46)",
+      "life_force_theme": "Persevering sacral commitment.",
+      "quotes": [
+        "“The gate of saying yes.”",
+        "“Perseverance brings success.”"
+      ],
+      "notes": "29 is the big ‘yes’ gate; with 46 it becomes the Channel of Discovery. Not-self 29 says yes to everything → burnout.",
+      "sources": [
+        "Rave I’Ching – Hexagram 29",
+        "Jovian Archive – 29–46"
+      ]
+    },
+    {
+      "id": "gate.34",
+      "name": "34 — The Power of the Great",
+      "circuitry": "Individual (Centering) – Sacral → multiple",
+      "life_force_theme": "Raw, independent sacral power.",
+      "quotes": [
+        "“The gate of power.”",
+        "“Sacral energy that must act correctly.”"
+      ],
+      "notes": "Most powerful sacral gate. With 10 → pure empowerment; with 57/20 → classic MG power. Distortion → busy for no reason.",
+      "sources": [
+        "Rave I’Ching – Hexagram 34",
+        "Jovian Archive – MG and pure Generator power"
+      ]
+    },
+    {
+      "id": "gate.42",
+      "name": "42 — Increase (Completion)",
+      "circuitry": "Collective (Abstract) – Sacral ← Root (53–42)",
+      "life_force_theme": "Energy to finish what was started.",
+      "quotes": [
+        "“The gate of growth and completion.”",
+        "“Energy to bring a cycle to its end.”"
+      ],
+      "notes": "42 completes what 53 begins. Distortion → staying too long in old cycles.",
+      "sources": [
+        "Rave I’Ching – Hexagram 42",
+        "Jovian Archive – Abstract process"
+      ]
+    },
+    {
+      "id": "gate.59",
+      "name": "59 — Dispersion (Sexual / Fertility)",
+      "circuitry": "Tribal (Defense) – Sacral → Solar Plexus (59–6)",
+      "life_force_theme": "Sexual, fertile, aura-penetrating energy.",
+      "quotes": [
+        "“The gate of sexuality.”",
+        "“Energy to break down barriers.”"
+      ],
+      "notes": "59 makes intimacy and reproduction possible. With 6 it becomes the mating channel. Distortion → leaking sacral energy everywhere.",
+      "sources": [
+        "Rave I’Ching – Hexagram 59",
+        "Jovian Archive – Reproductive circuitry"
+      ]
+    }
+  ],
+  "notes": "The Sacral Center is the **only** source of sustainable, regenerative life-force in the BodyGraph. Defined Sacral → Generator / MG aura → here to **respond**, not initiate. Undefined Sacral → not here to work in a fixed way.\n\nKey Jovian-style lines (< 25 words):\n- “The Sacral is the source of sustainable life force.”\n- “Work, sex, and creation arise from response.”\n- “Only say yes when the Sacral responds.”\n- “Without response, the Sacral burns out.”\n\nNot-self pattern: doing, working, or making love without response — just to keep others happy or to appear productive. Correct pattern: let sounds (uh-huh / uh-uh), body pull, or outer stimulus *evoke* the Sacral, then commit.",
+  "last_updated": "2025-11-01"
 }

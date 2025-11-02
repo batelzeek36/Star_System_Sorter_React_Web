@@ -1,10 +1,171 @@
 {
   "id": "center.spleen",
   "name": "Spleen",
-  "awareness": "instinct (survival timing)",
-  "biological_themes": [],
-  "fears": [],
-  "gates": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "awareness": "instinct / immune / survival timing (awareness in the now)",
+  "biological_themes": [
+    "Spleen / lymph / immune surveillance (what is safe vs not safe)",
+    "Detox / filtration themes (what to keep, what to discharge)",
+    "Autonomic ‘startle’ and reflex timing (move now / stop now)",
+    "Ancient survival neurology tied to body smell, pattern, and proximity"
+  ],
+  "fears": [
+    {
+      "id": "spleen.fear.of.inadequacy",
+      "label": "Fear of inadequacy",
+      "description": "Worry you don’t have enough depth, skill, or resources to survive or help.",
+      "primary_gates": ["gate.48"]
+    },
+    {
+      "id": "spleen.fear.of.future",
+      "label": "Fear of the future / what’s coming",
+      "description": "Hyper-alertness to subtle signals, afraid of danger that can’t be seen yet.",
+      "primary_gates": ["gate.57"]
+    },
+    {
+      "id": "spleen.fear.of.past",
+      "label": "Fear of the past repeating",
+      "description": "Instinctive alertness to old threats returning (old enemies, old patterns).",
+      "primary_gates": ["gate.44"]
+    },
+    {
+      "id": "spleen.fear.of.failure",
+      "label": "Fear of failure / continuity loss",
+      "description": "Anxiety that what we built won’t last or be recognized by the tribe.",
+      "primary_gates": ["gate.32"]
+    },
+    {
+      "id": "spleen.fear.of.death",
+      "label": "Fear of death / meaninglessness",
+      "description": "The raw survival pulse that fights against oblivion.",
+      "primary_gates": ["gate.28"]
+    },
+    {
+      "id": "spleen.fear.of.responsibility",
+      "label": "Fear of responsibility",
+      "description": "Concern about carrying and protecting others correctly.",
+      "primary_gates": ["gate.50"]
+    },
+    {
+      "id": "spleen.fear.of.authority",
+      "label": "Fear of authority / imperfection",
+      "description": "Anxiety about challenging or correcting what’s unhealthy.",
+      "primary_gates": ["gate.18"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.48",
+      "name": "48 — The Well (Depth)",
+      "circuitry": "Collective (Logic) – Spleen → Root (58–18–48 axis of correction/depth)",
+      "instinct_theme": "Instinctive depth to solve problems for the collective.",
+      "fear": "fear of inadequacy",
+      "quotes": [
+        "“The gate of depth.”",
+        "“Fear of inadequacy.”"
+      ],
+      "notes": "48 knows there is always more to learn. Correct use: offer depth when invited. Distortion: hoarding knowledge, never ‘ready’.",
+      "sources": [
+        "Rave I’Ching – Hexagram 48",
+        "Jovian Archive – Spleen center mechanics"
+      ]
+    },
+    {
+      "id": "gate.57",
+      "name": "57 — The Gentle (Intuitive Clarity)",
+      "circuitry": "Individual (Knowing) – Spleen → Throat (57–20) / Spleen → Sacral (34–57)",
+      "instinct_theme": "Highest splenic intuition in the now.",
+      "fear": "fear of the future",
+      "quotes": [
+        "“The gate of intuitive clarity.”",
+        "“Awareness in the now.”"
+      ],
+      "notes": "57 hears/feels danger before it arrives. With 20 → pure intuitive expression. Distortion → chronic anxiety / jumpiness.",
+      "sources": [
+        "Rave I’Ching – Hexagram 57",
+        "HD individual circuit material"
+      ]
+    },
+    {
+      "id": "gate.44",
+      "name": "44 — Coming to Meet (Alertness)",
+      "circuitry": "Tribal (Ego) – Spleen → Ego (44–26)",
+      "instinct_theme": "Instinct for patterns, smells, and people from the past.",
+      "fear": "fear of the past",
+      "quotes": [
+        "“The gate of alertness.”",
+        "“Memory of patterns.”"
+      ],
+      "notes": "44 remembers who can be trusted. With 26 it can sell or transmit what matters. Distortion → suspicion of everyone.",
+      "sources": [
+        "Rave I’Ching – Hexagram 44",
+        "Jovian Archive – 44–26 Surrender channel"
+      ]
+    },
+    {
+      "id": "gate.50",
+      "name": "50 — The Cauldron (Values)",
+      "circuitry": "Tribal (Defense) – Spleen → Sacral (27–50)",
+      "instinct_theme": "Protecting the tribe through correct values and care.",
+      "fear": "fear of responsibility",
+      "quotes": [
+        "“The gate of values.”",
+        "“Guardian of the tribe.”"
+      ],
+      "notes": "50 says what is ‘right’ to uphold. With 27 it nourishes. Distortion → taking on everyone’s problems.",
+      "sources": [
+        "Rave I’Ching – Hexagram 50",
+        "Jovian Archive – Defense circuit"
+      ]
+    },
+    {
+      "id": "gate.32",
+      "name": "32 — Duration (Continuity)",
+      "circuitry": "Tribal (Ego) – Spleen → Root (54–32)",
+      "instinct_theme": "Instinct to sense what can endure or transform.",
+      "fear": "fear of failure",
+      "quotes": [
+        "“The gate of continuity.”",
+        "“Fear of failure.”"
+      ],
+      "notes": "32 tests ambition from 54: is this worth backing? Distortion → staying loyal to dead things.",
+      "sources": [
+        "Rave I’Ching – Hexagram 32",
+        "Jovian Archive – Tribal transformation"
+      ]
+    },
+    {
+      "id": "gate.28",
+      "name": "28 — Preponderance of the Great (Struggle for Purpose)",
+      "circuitry": "Individual (Knowing) – Spleen → Root (38–28)",
+      "instinct_theme": "Survival through finding something worth the struggle.",
+      "fear": "fear of death / meaninglessness",
+      "quotes": [
+        "“The gate of the game player.”",
+        "“Fear of death.”"
+      ],
+      "notes": "28 makes life a meaningful contest. With 38 it fights for purpose. Distortion → courting danger just to feel alive.",
+      "sources": [
+        "Rave I’Ching – Hexagram 28",
+        "Jovian Archive – Struggle stream"
+      ]
+    },
+    {
+      "id": "gate.18",
+      "name": "18 — Work on What Has Been Spoiled (Correction)",
+      "circuitry": "Collective (Logic) – Spleen → Root (58–18)",
+      "instinct_theme": "Instinct to correct what is unhealthy or corrupted.",
+      "fear": "fear of authority / judgment",
+      "quotes": [
+        "“The gate of correction.”",
+        "“Fear of authority.”"
+      ],
+      "notes": "18 sees what’s off. With 58 it has joy to do the work. Distortion → chronic criticism of self/others.",
+      "sources": [
+        "Rave I’Ching – Hexagram 18",
+        "Jovian Archive – Logic / Understanding circuit"
+      ]
+    }
+  ],
+  "notes": "The Spleen is the **oldest** awareness — body-based, in-the-now, and totally ephemeral. If you miss the splenic whisper, it’s gone. It is about **survival, health, immune integrity, and timing**.\n\nKey Jovian-style lines (< 25 words):\n- “Splenic awareness is only in the now.”\n- “Its fears keep you alive.”\n- “It knows what is healthy.”\n- “It will not repeat itself.”\n\nDefined Spleen → consistent access to instinct and a built-in sense of what is healthy. Undefined / open Spleen → amplifies others’ fears and gets attached to what isn’t healthy (people, jobs, environments) because it’s afraid to let go.",
+  "last_updated": "2025-11-01"
 }

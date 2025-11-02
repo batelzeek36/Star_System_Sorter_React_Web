@@ -4,12 +4,24 @@
     26,
     44
   ],
-  "centers": [],
-  "circuit": "circuit.tribal",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "centers": [
+    "center.spleen",
+    "center.ego"
+  ],
+  "circuit": "circuit.tribal.ego.surrender",
+  "stream": "tribal.memory.transmission",
+  "voice": "I can sell that.",
+  "display_name": "Channel of Surrender (44↔26)",
+  "keynotes": [
+    "Spleenic alertness to past patterns (44) → Ego’s power to transmit/sell (26).",
+    "Tribal: remembers what worked, repackages it, and offers it back.",
+    "Deals in trust, reputation, and correct promises.",
+    "Must only promise what the Heart (26) can actually deliver.",
+    "Shadow: manipulation, overpromising, using memory to control.",
+    "Healthy: efficient, practical, persuasive tribal marketing.",
+    "Bridge between instinctive past (44) and present need (tribe).",
+    "Key part of the Ego/Will education field in Human Design."
+  ],
+  "notes": "The 44–26 is the classic **Channel of Surrender** in the Tribal Ego/Spleen circuitry. **Gate 44** in the Spleen is *Coming to Meet* — it recognizes patterns, smells, and people from the past, and it knows what the tribe has already seen. **Gate 26** in the Ego/Heart is *The Egoist* — the will to package, promote, and remember only what truly serves. Together they form the ‘sales’ or ‘transmission’ channel of the tribe: *I know what works (44) and I can get it across (26).* \n\nAt its highest, this channel is impeccably honest: it only sells what is correct for the tribe, it only promises what the Heart can keep, and it preserves the tribal record. At its lowest, it becomes slick: exaggeration, selective memory, or using pattern-recognition to push people.\n\nBecause it’s tribal, it’s relational — credibility matters. When 26 has rested (remember: Ego is a small motor), this channel can teach, sell, and persuade brilliantly; when the Ego is tired, promises will break.",
+  "last_updated": "2025-11-01"
 }

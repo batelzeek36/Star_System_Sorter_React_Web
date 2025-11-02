@@ -4,12 +4,24 @@
     11,
     56
   ],
-  "centers": [],
+  "centers": [
+    "center.ajna",
+    "center.throat"
+  ],
   "circuit": "circuit.abstract",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.sensing",
+  "voice": "I can tell you a story.",
+  "display_name": "Channel of Curiosity (11–56) — The Storyteller",
+  "keynotes": [
+    "collective abstract: past → story → meaning",
+    "Ajna ideas (11) expressed as stimulation (56)",
+    "stories inspire; they don’t prove or solve",
+    "projected channel — share when invited",
+    "hungry for variety, travel, culture",
+    "can turn memories into teachings",
+    "restlessness if there’s nothing new to explore",
+    "watch for opinions posing as facts"
+  ],
+  "notes": "Overview: Channel 11–56 links Gate 11 (Ideas/Beliefs) in the Ajna to Gate 56 (Stimulation/Storyteller) in the Throat. It belongs to the Collective Abstract/Sensing stream, which digests experience into **stories** that carry meaning. Its gift: to spark the collective imagination with narratives drawn from life.\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 11 is the gate of ideas and beliefs.\" — Ra Uru Hu, Line Companion (Gate 11)\n2) \"Ideas are not answers.\" — Ra Uru Hu, Line Companion (Gate 11)\n3) \"Gate 56 is the storyteller.\" — Ra Uru Hu, Line Companion (Gate 56)\n4) \"This is the channel of curiosity.\" — Ra Uru Hu, 11–56\n5) \"Stories stimulate; they do not prove.\" — Ra Uru Hu, Collective teaching\n\nMechanics:\n- **Ajna (11)** generates a stream of potential meanings and images.\n- **Throat (56)** packages those ideas into anecdotes, parables, and journeys that **stimulate** listeners.\n- As Collective Abstract, its orientation is **experiential** and reflective, not prescriptive; it says, “Here’s a story,” not “Here is the solution.”\n\nHigh expression:\n- Invited storyteller who entertains and educates.\n- Offers wide, humanizing perspectives through travel, culture, art.\n- Turns memories into nourishing collective myth.\n\nLow expression / distortion:\n- Opinionated monologues presented as facts.\n- Restless novelty-chasing with no digestion of experience.\n- Talking without an audience’s invitation → people tune out.\n\nStrategy & timing:\n- Projected to the Throat; best received when **asked** to share.\n- Pair with real experiences; the story lands when it’s lived, not imagined.\n\nPractical tags for your HD JSON work:\n- curiosity, storytelling, ideas-to-voice, stimulation, travel/culture, collective meaning-making, invitation-dependent sharing.\n",
   "last_updated": "2025-10-28"
 }

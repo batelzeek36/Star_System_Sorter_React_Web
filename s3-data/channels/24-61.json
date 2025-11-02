@@ -4,12 +4,24 @@
     24,
     61
   ],
-  "centers": [],
+  "centers": [
+    "center.head",
+    "center.ajna"
+  ],
   "circuit": "circuit.individual",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "stream": "individual.inspiration.rationalization",
+  "voice": "I know (and I must explain).",
+  "display_name": "Channel of Awareness (61↔24)",
+  "keynotes": [
+    "Pressure from the Head (61) to know the unknowable.",
+    "Ajna (24) repeatedly returns to the inspiration to rationalize it.",
+    "Classic ‘thinker’ channel → insight → contemplation → explanation.",
+    "Operates in pulses; not always ‘on.’",
+    "Can feel mental melancholy when the insight won’t resolve.",
+    "Individual → truth is unique, not always provable to others.",
+    "Shadow: obsessing over a mystery that is not for you.",
+    "Correct: wait for the right inspiration, then let the mind work it through."
+  ],
+  "notes": "This is the individual inspiration channel from **Gate 61 (Inner Truth / Mystery)** in the Head to **Gate 24 (Rationalization / The Return)** in the Ajna. Head 61 delivers a pressure to know — not just facts, but *ultimate* or spiritual truth. Ajna 24 keeps ‘returning’ to that spark until it can be made reasonable. This loop is why it’s called the **Channel of Awareness** or sometimes the **Thinker**: inspiration → return → refine → maybe explain.\n\nBecause it’s individual, the timing is mutative and acoustic — it doesn’t always make sense to others, and it can’t be forced. Forcing it creates the not-self pattern of mental obsession, or trying to answer everyone else’s questions. Correct operation: notice the inner truth that arrives, give it time to return, and speak it only when the concept is actually there.",
+  "last_updated": "2025-11-01"
 }

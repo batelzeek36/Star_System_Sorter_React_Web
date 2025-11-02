@@ -4,12 +4,24 @@
     10,
     20
   ],
-  "centers": [],
+  "centers": [
+    "center.g",
+    "center.throat"
+  ],
   "circuit": "circuit.integration",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "stream": "integration.self-expression.in-the-now",
+  "voice": "I am (now).",
+  "display_name": "Channel of Awakening (10↔20)",
+  "keynotes": [
+    "Love of the self expressed in the now.",
+    "Behavior (10) becomes audible/visible through the Throat (20).",
+    "Radically individual, not here to please the collective.",
+    "Correct timing matters: only speak/act when recognized by authority.",
+    "Awakening = living one’s unique behavior publicly.",
+    "Potential to empower others by modeling self-love.",
+    "When distorted: performance of ‘authenticity’ to get attention.",
+    "Part of the Integration circuitry → survival through uniqueness."
+  ],
+  "notes": "Channel 10–20 links the G/Identity center’s **Behavior of the Self** (Gate 10) with the Throat’s **expression in the present** (Gate 20). In classic Human Design this is called the **Channel of Awakening**. It is deeply individual and does **not** promise to be consistent for others — it simply expresses correct behavior when the moment is right.\n\n• Gate 10 (G): ‘This is how I behave when I love myself.’\n• Gate 20 (Throat): ‘This is what is here **now**.’\nJoined, they create a person who can *demonstrate awake, self-loving behavior in real time.*\n\nHealthy expression: silent until the moment is correct → then a perfectly authentic action/statement. Distortion: talking about being authentic instead of **being** authentic; performing ‘woke’ identity to get attention from an open Throat audience.\n\nBecause it’s Integration, the core logic is **“I survive by being me, right now.”** It’s not tribal (it doesn’t bargain) and not collective (it doesn’t universalize).",
+  "last_updated": "2025-11-01"
 }

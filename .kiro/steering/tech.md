@@ -34,11 +34,35 @@ DO NOT create unecessary documentation please! You have a habit of over-doing it
 - **Component Tests**: React Testing Library (via Vitest)
 - **E2E Tests**: Playwright (1 smoke test for MVP)
 
+### Data Validation (Extraction Layer)
+
+- **Language**: Python 3.12+
+- **Purpose**: run ETL over OCR'd Line Companion + I Ching dumps
+- **Output**: normalized JSON ready for S³
+- **Linting**: ruff/black (optional)
+- **Tests**: minimal pytest to assert "64 hexagrams present" and "≤6 lines per hexagram"
+
+**Guardrail:** AI agents are not allowed to "repair" missing lines with invented text. If extraction fails, they must emit a report file:
+- `lore-research/research-outputs/BAD_LINES.md`
+- entry format: `gate.line | source tried | problem | agent suggestion (optional)`
+
 ### Development Tools
 
 - **Linting**: ESLint 9+ + typescript-eslint
 - **Dev Server**: tsx (watch mode for Express)
 - **Package Manager**: npm
+
+### Data Validation (Extraction Layer)
+
+- **Language**: Python 3.12+
+- **Purpose**: run ETL over OCR'd Line Companion + I Ching dumps
+- **Output**: normalized JSON ready for S³
+- **Linting**: ruff/black (optional)
+- **Tests**: minimal pytest to assert "64 hexagrams present" and "≤6 lines per hexagram"
+
+**Guardrail:** AI agents are not allowed to "repair" missing lines with invented text. If extraction fails, they must emit a report file:
+- `lore-research/research-outputs/BAD_LINES.md`
+- entry format: `gate.line | source tried | problem | agent suggestion (optional)`
 
 ## API Integration
 
@@ -275,6 +299,13 @@ app.post("/api/hd", async (req, res) => {
 ### Running Locally
 
 ```bash
+# Terminal 0: run data ETL (only when sources change)
+cd lore-research/scripts
+python 01-normalize-line-companion.py
+python 02-split-gates.py
+python 03-split-lines-per-gate.py
+python 04-extract-quotes.py
+
 # Terminal 1: Vite dev server
 cd star-system-sorter
 npm run dev  # http://localhost:5173

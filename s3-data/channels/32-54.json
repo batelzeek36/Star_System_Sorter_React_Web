@@ -4,12 +4,24 @@
     32,
     54
   ],
-  "centers": [],
-  "circuit": "circuit.tribal",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "centers": [
+    "center.root",
+    "center.spleen"
+  ],
+  "circuit": "circuit.tribal.ego.transformation",
+  "stream": "tribal.ambition.to.transformation",
+  "voice": "I will rise (if it’s viable).",
+  "display_name": "Channel of Transformation (54↔32)",
+  "keynotes": [
+    "Root ambition/drive (54) seeks material/spiritual elevation.",
+    "Spleenic instinct (32) tests: can this endure, is it worth backing?",
+    "Tribal → about improving position for the group, not just self.",
+    "Progress must pass the continuity/survival test.",
+    "Shadow: social climbing / chasing status with no tribal value.",
+    "Healthy: backing only what has real potential to last.",
+    "Linked to business/marriage/alliances (the ‘marrying maiden’).",
+    "Small ego motor → don’t promise transformation faster than the body allows."
+  ],
+  "notes": "54–32 is the **Channel of Transformation** in the Tribal/Ego/Spleen line. **Gate 54** in the Root is the *Marrying Maiden* — ambition, aspiration, the urge to rise in the material or spiritual hierarchy, to be noticed by powerful allies. **Gate 32** in the Spleen is *Duration / Continuity* — it senses what will actually survive, what’s worth investing tribal resources in. Together they create the circuitry for **turning raw ambition into lasting tribal value**.\n\nIn its healthy form, 54–32 says: “Yes, let’s rise — but only if this is viable, correct, and will feed/protect the people.” In its distorted form, it becomes social climbing, chasing titles, or staying loyal to a failing alliance because it once promised elevation.\n\nBecause it’s tribal, this channel is inherently relational and hierarchical: mentorships, arranged partnerships, business alliances, marriage-for-position — all of these can express through 54–32, **if** the splenic test (32) says it will endure.\n",
+  "last_updated": "2025-11-01"
 }

@@ -10,6 +10,29 @@ You can paste this once and reuse.
 
 You are cleaning the `*-batchN.json` draft files for each star system so they correctly map Human Design gate.lines (e.g. `"18.4"`) to that star system.
 
+### Source Priority (DO NOT DEVIATE)
+
+When deriving behavior for any gate.line, use sources in THIS order:
+
+1. `s3-data/Line Companion_djvu.txt` **or** `s3-data/Line Companion.epub`
+   - Prefer the version that has already been normalized into:
+     - `lore-research/research-outputs/line-companion-normalized.txt`
+
+2. If line is missing/garbled in Line Companion → fall back to **I Ching hexagram** text from:
+   - `s3-data/236066-The I Ching_djvu.txt`
+   - `s3-data/236066-The I Ching_page_numbers.json` (for locator only)
+
+3. If still missing → mark this line as:
+```json
+{
+  "citation_status": "provisional",
+  "missing_source": "line_companion + i_ching",
+  "note": "human review required"
+}
+```
+
+**You MUST NOT invent, paraphrase, or "Ra-ify" a line that is missing from the sources above.**
+
 For each gate.line in the batch, you will:
 
 1. Read that gate.line’s behavioral meaning from the corresponding `gate-line-API-call/gate-line-<X>.json` file.
@@ -86,6 +109,19 @@ For each `<gate>.<line>`:
 
    * Pull out the `behavioral_axis` and `shadow_axis`.
    * This tells you what that line *does socially / psychologically / somatically.*
+
+#### Hexagram Cross-Check (to prevent semantic drift)
+
+Before deciding the star system match, confirm that the HD gate you're evaluating is consistent with its **I Ching hexagram** sibling in `/s3-data/hexagrams/*.json`.
+
+- If the wording between Line Companion and the hexagram file is materially different (different actor, different posture, different lesson), prefer the wording in `/s3-data/hexagrams/*.json`.
+- If both are close → keep Line Companion wording, but set:
+
+```json
+"source_alignment": "line_companion+hexagram"
+```
+
+This is required so later correlations (HD → hexagram → star system) do not drift.
 
 2. Compare that behavior to THIS STAR SYSTEM’S archetype:
 
@@ -241,3 +277,19 @@ Now imagine we’re STILL working on Draco, but the line is actually pure Pleiad
 That’s the standard.
 
 Follow this, line by line, for the rest of the star system batch files.
+
+
+---
+
+## Source Verification Requirements
+
+* Any gate.line whose source could not be confirmed MUST be listed in `lore-research/research-outputs/BAD_LINES.md` with:
+  - gate
+  - line
+  - source tried
+  - short reason
+* Old auto-generated files:
+  - `lore-research/research-outputs/line-companion-gate-lines.json`
+  - `lore-research/research-outputs/line-companion-gates.json`
+  - `lore-research/research-outputs/line-companion-quotes.json`
+  are considered **non-authoritative** and MAY be deleted or ignored.

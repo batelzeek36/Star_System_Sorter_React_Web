@@ -9,6 +9,13 @@
 │   ├── design-tokens.json    # Design system tokens
 │   ├── game-tokens.json      # Phase 2: Game-specific tokens (not used in MVP)
 │   └── globals.css           # Global CSS variables
+├── lore-research/            # Research data and ETL scripts
+│   ├── scripts/              # Source → canon ETL scripts (Python/TypeScript)
+│   │   ├── 01-normalize-line-companion.py
+│   │   ├── 02-split-gates.py
+│   │   ├── 03-split-lines-per-gate.py
+│   │   └── 04-extract-quotes.py
+│   └── research-outputs/     # Validated canon data
 ├── star-system-sorter/       # React web app (Vite)
 │   ├── src/
 │   │   ├── screens/          # 4 MVP screens (Onboarding, Input, Result, Why)
@@ -23,6 +30,11 @@
 │   └── src/
 │       ├── routes/hd.ts      # POST /api/hd endpoint
 │       └── index.ts          # Server entry point
+├── data/                     # Source → canon ETL scripts (Python)
+│   ├── 01_normalize_line_companion.py
+│   ├── 02_split_gates.py
+│   ├── 03_split_lines.py
+│   └── 04_make_snippets.py
 └── migration-package/        # Reference docs from React Native version
 ```
 
@@ -49,6 +61,10 @@ Lib (schemas, scorer, canon)
 - No circular dependencies
 - Export module interfaces through `index.ts` files
 - Prohibit deep imports (use path aliases)
+
+**Data ETL rule:** `/lore-research/scripts/*` may read and write under `s3-data/` and `lore-research/`, but the React app (`star-system-sorter/`) must only ever read the final, validated canon (e.g. `s3-data/hexagrams/*.json`, `s3-data/gates/*.json`, `lore-research/research-outputs/star-systems/v4.2/*.json`). Do NOT point UI components at raw OCR or provisional files.
+
+**Data ETL rule:** `/data/*` may read and write under `s3-data/` and `lore-research/`, but the React app (`star-system-sorter/`) must only ever read the final, validated canon (e.g. `s3-data/hexagrams/*.json`, `s3-data/gates/*.json`, `lore-research/research-outputs/star-systems/v4.2/*.json`). Do NOT point UI components at raw OCR or provisional files.
 
 ## Path Aliases
 

@@ -36,6 +36,8 @@ Star System Sorter is built on 862-1,656 hours of rigorous academic research (5-
 - 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
 - Binary yin/yang logic = Binary genetic code (A/T, C/G)
 
+**Canonical Data Rule:** All Human Design gate/line content in S³ must ultimately resolve back to **I Ching hexagrams** (public-domain translators, starting with Legge 1899) as the oldest textual anchor. Human Design gates are treated as *mapped views* of the hexagrams, not independent oracles. This is how we keep the star-system classification from drifting when we run 384 correlations.
+
 **Our Research Standards:**
 - Ancient texts with named translators (Faulkner, Mercer, Wilhelm)
 - Published books with ISBNs and page numbers
@@ -51,6 +53,7 @@ Star System Sorter is built on 862-1,656 hours of rigorous academic research (5-
 - 64 gates × 3 research passes (136-272 hours)
 - 6 line archetypes (15 hours)
 - 384 Gate.Line combinations - exhaustive I Ching line text research (600-1,199 hours)
+- Hexagram verification pass (64/64) against `s3-data/hexagrams/*.json` and original I Ching dump (`236066-The I Ching_djvu.txt`)
 - Methods documentation, citation guides, and Zenodo dataset (16-23 hours)
 
 **This is NOT pseudoscience** - it's a synthesis system built on academically documented foundations, combined with comparative mythology research. Frame it as: **"Digital humanities research with academic-grade sourcing"** or **"Contemporary mythology meets rigorous scholarship"** - not "scientifically proven predictions."

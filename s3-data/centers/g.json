@@ -1,10 +1,169 @@
 {
   "id": "center.g",
   "name": "G (Identity)",
-  "awareness": "identity/direction/love",
-  "biological_themes": [],
-  "fears": [],
-  "gates": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "awareness": "identity / direction / love (magnetic monopole seat, not an awareness center)",
+  "biological_themes": [
+    "Liver / blood regulation (core identity as ‘life direction’ in the body)",
+    "Sternum / chest axis as locus of self and love",
+    "Magnetic monopole correspondence (holds you together in time/space)",
+    "Orientation / navigation circuitry (inner GPS → outer behavior)"
+  ],
+  "fears": [
+    {
+      "id": "g.fear.of.no.direction",
+      "label": "Fear of having no direction",
+      "description": "Anxiety that life is drifting without a correct, love-based trajectory.",
+      "primary_gates": ["gate.2", "gate.7", "gate.46"]
+    },
+    {
+      "id": "g.fear.of.not.belonging",
+      "label": "Fear of not belonging",
+      "description": "Concern that your identity won’t be received or invited into the collective story.",
+      "primary_gates": ["gate.13", "gate.15"]
+    },
+    {
+      "id": "g.fear.of.not.self.love",
+      "label": "Fear of losing self-love",
+      "description": "Worry that the self will be forced to act outside of its correct behavior.",
+      "primary_gates": ["gate.10", "gate.25"]
+    },
+    {
+      "id": "g.fear.of.misalignment",
+      "label": "Fear of misalignment",
+      "description": "Tension about being on the wrong path, in the wrong place, with the wrong people.",
+      "primary_gates": ["gate.1", "gate.2", "gate.46"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.1",
+      "name": "1 — The Creative",
+      "circuitry": "Individual (Knowing) – Love of self-expression",
+      "core_theme": "Pure, individual creative self-expression from identity.",
+      "love_theme": "Love of self as creator.",
+      "quotes": [
+        "“The creative self must express.”",
+        "“The most yang of all hexagrams.”"
+      ],
+      "notes": "When the G is defined with Gate 1, identity wants to create simply because it is. Not-self tries to prove creativity instead of letting it flow.",
+      "sources": [
+        "Rave I’Ching – Hexagram 1",
+        "Jovian Archive – G Center"
+      ]
+    },
+    {
+      "id": "gate.2",
+      "name": "2 — The Receptive (Direction of the Self)",
+      "circuitry": "Individual (Knowing) – Driver of the form",
+      "core_theme": "Receiving the correct direction for the self.",
+      "love_theme": "Love of being guided / love of correct direction.",
+      "quotes": [
+        "“The Gate of the Driver.”",
+        "“Receptivity to higher direction.”"
+      ],
+      "notes": "This is where the magnetic monopole ‘steers’ the vehicle. Healthy 2 waits; unhealthy 2 tries to choose with the mind.",
+      "sources": [
+        "Rave I’Ching – Hexagram 2",
+        "HD lectures on the Magnetic Monopole"
+      ]
+    },
+    {
+      "id": "gate.7",
+      "name": "7 — The Role of the Self in Interaction",
+      "circuitry": "Collective (Logic) – Leadership / Direction",
+      "core_theme": "The identity that can lead for the collective.",
+      "love_theme": "Love of leading and being aligned with the group.",
+      "quotes": [
+        "“The gate of the leader.”",
+        "“Direction for the many.”"
+      ],
+      "notes": "Natural leadership from identity, not ego. Wants the 31 in the Throat to voice it. Not-self 7 pushes leadership without invitation.",
+      "sources": [
+        "Rave I’Ching – Hexagram 7",
+        "Jovian material on the 7–31 channel"
+      ]
+    },
+    {
+      "id": "gate.10",
+      "name": "10 — Behavior of the Self",
+      "circuitry": "Individual (Centering) – Love of self / survival of behavior",
+      "core_theme": "Correct, empowered self-behavior that preserves life.",
+      "love_theme": "Love of self through correct behavior.",
+      "quotes": [
+        "“The love of oneself.”",
+        "“Behavior that is true to the self.”"
+      ],
+      "notes": "This is the backbone of self-love. Distortions show up as people-pleasing or self-sabotage. Pairs with 34 for pure empowerment.",
+      "sources": [
+        "Rave I’Ching – Hexagram 10",
+        "Self-Love and the G Center – HD classes"
+      ]
+    },
+    {
+      "id": "gate.13",
+      "name": "13 — The Listener (The Fellowship of Man)",
+      "circuitry": "Collective (Abstract) – Record keeper",
+      "core_theme": "Holding stories of the past for the collective.",
+      "love_theme": "Love of hearing / holding the story.",
+      "quotes": [
+        "“The gate of the listener.”",
+        "“Custodian of the collective past.”"
+      ],
+      "notes": "Opens identity to others’ stories. With 33 it becomes the entire narrative cycle. Not-self 13 overshares or overidentifies with stories.",
+      "sources": [
+        "Rave I’Ching – Hexagram 13",
+        "Jovian Archive – Collective circuitry"
+      ]
+    },
+    {
+      "id": "gate.15",
+      "name": "15 — Extremes",
+      "circuitry": "Collective (Abstract) – Love of Humanity / Rhythm",
+      "core_theme": "Embodying and accepting extremes of human rhythm.",
+      "love_theme": "Love of humanity.",
+      "quotes": [
+        "“The gate of extremes.”",
+        "“Love of humanity in all its diversity.”"
+      ],
+      "notes": "Adjusts to wide environmental swings. With 5 it becomes a consistent flow. Not-self 15 performs extremes for attention.",
+      "sources": [
+        "Rave I’Ching – Hexagram 15",
+        "HD teachings on 5–15 channel"
+      ]
+    },
+    {
+      "id": "gate.25",
+      "name": "25 — The Innocent (Spirit of the Self)",
+      "circuitry": "Individual (Centering) – Spiritual love",
+      "core_theme": "Universal, innocent love independent of circumstance.",
+      "love_theme": "Love of spirit.",
+      "quotes": [
+        "“The love of spirit.”",
+        "“Innocence untouched by experience.”"
+      ],
+      "notes": "This is unconditional identity. With 51 it initiates through the heart. Distortion: moralism or ‘spiritual superiority.’",
+      "sources": [
+        "Rave I’Ching – Hexagram 25",
+        "Jovian Archive – Ego → G connection (51–25)"
+      ]
+    },
+    {
+      "id": "gate.46",
+      "name": "46 — Determination of the Self",
+      "circuitry": "Collective (Abstract) – Love of the body / serendipity",
+      "core_theme": "Being in the right place at the right time through embodiment.",
+      "love_theme": "Love of the body and life in form.",
+      "quotes": [
+        "“Love of the body.”",
+        "“Being at the right place at the right time.”"
+      ],
+      "notes": "This is the ‘lucky’ gate when aligned. With 29 it forms the Channel of Discovery – perseverance through experience.",
+      "sources": [
+        "Rave I’Ching – Hexagram 46",
+        "Jovian Archive – 29–46 Channel of Discovery"
+      ]
+    }
+  ],
+  "notes": "The G (Identity) Center is the seat of love, direction, and fixed identity. In Human Design it is where the Magnetic Monopole ‘holds’ the form together and steers it toward its correct geometry. A **defined G** has a consistent sense of who they are, whom they love, and the general direction life is taking. An **undefined / open G** samples identities, places, and loves, and is most correct when it lets *place and people* show it who it is.\n\nKey Jovian-style lines (all < 25 words):\n- “This is the center of love, direction, and identity.”\n- “The Magnetic Monopole lives here.”\n- “Place is destiny for the open G.”\n- “Love is a frequency carried by the G Center.”\n\nDistortion / not-self: trying to ‘find’ love or direction mentally instead of letting Strategy & Authority bring the right people and places to the G.",
+  "last_updated": "2025-11-01"
 }

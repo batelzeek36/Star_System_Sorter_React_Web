@@ -4,12 +4,24 @@
     20,
     34
   ],
-  "centers": [],
+  "centers": [
+    "center.throat",
+    "center.sacral"
+  ],
   "circuit": "circuit.integration",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.integration",
+  "voice": "I am powerful in the now.",
+  "display_name": "Channel of Charisma (20–34) — Design Where Power Meets the Now",
+  "keynotes": [
+    "integration: pure self-empowered action",
+    "sacral power (34) expressed through throat presence (20)",
+    "living demonstration of life force in the moment",
+    "responds instantly to what’s correct — not mental decisions",
+    "aura impacts others through embodied energy, not words",
+    "non-verbal charisma: doing, not explaining",
+    "can be intimidating or magnetic",
+    "distortion: reactive, busy, or self-absorbed energy"
+  ],
+  "notes": "Overview: Channel 20–34 connects Gate 34 (Power / Great Strength) in the Sacral to Gate 20 (The Now / Presence) in the Throat. This is one of the four **Integration Channels** and represents the archetype of **pure power in the present moment** — the body’s life force expressed through immediate action. Ra Uru Hu called it the **Channel of Charisma**, because it radiates self-generated energy that draws others in without trying.\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 34 is the gate of power.\" — Ra Uru Hu, Line Companion (Gate 34)\n2) \"Gate 20 is the gate of the now.\" — Ra Uru Hu, Line Companion (Gate 20)\n3) \"This is the design where power meets the now.\" — Ra Uru Hu, 20–34\n4) \"Doing replaces speaking.\" — Ra Uru Hu, Integration teaching\n5) \"Charisma is mechanical, not personal.\" — Ra Uru Hu, Channel 20–34 commentary\n\nMechanics:\n- **Sacral (34)** provides raw generative life force — constant access to powerful, sustainable energy.\n- **Throat (20)** brings presence and manifestation — the ability to act or express instantly.\n- When joined, they create **spontaneous embodiment** — doing what’s correct *now*, without thought or delay.\n- This is a **motor-to-throat** channel, meaning it’s designed to **act**, not explain or strategize.\n\nHigh expression:\n- Acts correctly in the moment, demonstrating power and capability through presence.\n- Magnetic to others because of authentic embodiment.\n- Fully absorbed in activity, radiating vitality and confidence.\n\nLow expression / distortion:\n- Acting impulsively or reactively, without inner response.\n- Overuse of energy for others’ agendas → exhaustion or frustration.\n- Ego identification with power → intimidation instead of inspiration.\n\nEnergetic nature:\n- Integration channels are **individual and existential**, not collective or tribal. They are about *being* rather than *doing for others*.\n- The 20–34 doesn’t plan or justify — it **moves**. This can appear selfish or self-absorbed, but in truth it’s the body’s integrity expressing itself.\n- True charisma is silent: it’s the field effect of power aligned with presence.\n\nStrategy & authority:\n- Because this is **Sacral-powered**, correct use comes through **response**, not initiation.\n- Waiting to respond ensures the immense power acts in correct timing.\n\nPractical tags for your HD JSON corpus:\n- charisma, presence, power-in-the-now, integration-circuit, motor-to-throat, self-empowered-action, projected-aura, existential expression.\n- Common in Manifesting Generators (instant response and manifestation).\n- Completes the Integration subcircuit alongside 57–10 and 57–34 (survival awareness and self-alignment).\n",
   "last_updated": "2025-10-28"
 }

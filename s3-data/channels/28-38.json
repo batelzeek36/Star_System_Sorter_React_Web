@@ -4,12 +4,24 @@
     28,
     38
   ],
-  "centers": [],
-  "circuit": "circuit.individual",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "centers": [
+    "center.spleen",
+    "center.root"
+  ],
+  "circuit": "circuit.individual.knowing",
+  "stream": "individual.struggle.for.purpose",
+  "voice": "I will fight for what matters.",
+  "display_name": "Channel of Struggle (28↔38)",
+  "keynotes": [
+    "Root (38) pressures you to find a worthy fight.",
+    "Spleen (28) tests: is this struggle worth my life?",
+    "Core individual theme: purpose or death.",
+    "Strength comes from choosing the right opponent/challenge.",
+    "Shadow: fighting everything because nothing feels meaningful.",
+    "Healthy: selective struggle → empowerment and mutation.",
+    "Highly independent; not here to conform to tribal needs.",
+    "Brings courage to face existential fear."
+  ],
+  "notes": "28–38 is the **Channel of Struggle** in the Individual / Knowing circuit. **Gate 38** in the Root is the *Fighter* — it feels a restless pressure to oppose, to resist, to find something worth pushing against. **Gate 28** in the Spleen is the *Game Player / Fear of Death* — it asks, at a survival level, “Is this actually worth it?” Linked, they produce a person who is at their best when engaged in **meaningful struggle**.\n\nBecause it’s individual, the purpose is self-referenced: the collective may not understand why this is worth fighting for. This channel gives great tenacity when the cause is correct — it can endure, persist, and even face the fear of death. In distortion, the person just fights: authority, systems, loved ones, random problems — because the deeper purpose hasn’t been located yet.\n\nIntegration tip for your dataset: map this channel to existential/heroic archetypes and to ‘purpose-seeking’ UX flows, and tag both gates with their classic fears: 38 → fear of a life without purpose; 28 → fear of death / meaninglessness.",
+  "last_updated": "2025-11-01"
 }

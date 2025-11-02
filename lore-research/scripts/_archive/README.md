@@ -1,6 +1,56 @@
 # Lore Research Scripts
 
-Helper scripts for generating and managing gate research prompts.
+Helper scripts for generating and managing gate research prompts, and for extracting quotes from the Line Companion.
+
+## Quote Extraction Pipeline
+
+The quote extraction pipeline processes Ra Uru Hu's Line Companion to extract ≤25-word quotes for all 384 gate.lines and integrate them into the S³ dataset.
+
+### Core Utilities
+
+**pipeline_config.py** - Central configuration for all pipeline stages:
+- Source file paths and priorities
+- Output directories and file paths
+- Processing thresholds (max quote words, line length limits, etc.)
+- Citation metadata templates
+- OCR normalization settings
+
+**pipeline_utils.py** - Shared utility functions:
+- Logging setup with consistent formatting
+- File I/O (read/write text and JSON files)
+- Source file selection (picks best available Line Companion source)
+- Validation functions (quote length, gate/line numbers, etc.)
+- Text processing (normalize line endings, collapse blank lines)
+- Citation metadata generation
+- BAD_LINES.md queue management
+
+### Testing Setup
+
+Run the setup verification test:
+```bash
+python3 lore-research/scripts/test_setup.py
+```
+
+This verifies:
+- Configuration loads correctly
+- Source files can be located
+- Utility functions work as expected
+- Directory structure is in place
+
+### Pipeline Stages
+
+The pipeline consists of multiple stages (see tasks.md for details):
+1. Text normalization (`01-normalize-line-companion.py`)
+2. Gate splitting (`02-split-gates.py`)
+3. Line extraction (`03-split-lines-per-gate.py`)
+4. Hexagram cross-check (`03b-xcheck-with-hexagrams.py`)
+5. Quote selection (`04-extract-quotes.py`)
+6. Quote merger (`06-merge-quotes-into-gates.py`)
+7. Validation (`07-validate-gates.py`)
+
+---
+
+## Gate Research Prompt Generation
 
 ## generate-prompts-for-gate.sh ⭐ RECOMMENDED
 

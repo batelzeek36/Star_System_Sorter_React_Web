@@ -4,12 +4,24 @@
     6,
     59
   ],
-  "centers": [],
+  "centers": [
+    "center.solar_plexus",
+    "center.sacral"
+  ],
   "circuit": "circuit.tribal",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.defense",
+  "voice": "I want intimacy (or not).",
+  "display_name": "Channel of Mating (59–6) — Design of Reproduction and Intimacy",
+  "keynotes": [
+    "tribal bonding through sexual/intimate union",
+    "auric penetration → emotional availability",
+    "fertility / reproduction / continuance of the tribe",
+    "openness vs. rejection is the core tension",
+    "emotional wave sets the timing for closeness",
+    "sex is a mechanical, not moral, function here",
+    "can break down barriers for true intimacy",
+    "requires clear boundaries to avoid misuse"
+  ],
+  "notes": "Overview: Channel 59–6 links Gate 59 (Sexuality / Dispersion / Aura-breaking) in the Sacral to Gate 6 (Friction / Conflict Resolution) in the Solar Plexus. This is the **Defense Circuit** — the purely tribal circuitry that protects, feeds, and reproduces the tribe. 59–6 is literally the mechanical basis for human reproduction in Human Design. It is the field that allows two auras to **actually get close enough** to create new life or deep intimacy.\n\nLine Companion / Jovian-style pulls (≤25 words):\n1) \"Gate 59 is the gate of sexual energy.\" — Ra Uru Hu, Line Companion (Gate 59)\n2) \"It breaks down barriers to intimacy.\" — Ra Uru Hu, Line Companion (Gate 59)\n3) \"Gate 6 is the gate of friction.\" — Ra Uru Hu, Line Companion (Gate 6)\n4) \"Emotional clarity is needed before intimacy.\" — Ra Uru Hu, Solar Plexus teaching\n5) \"This is the channel of mating.\" — Ra Uru Hu, 59–6\n\nInterpretation of the quotes:\n- 59 wants to **open the aura**: “Let me in.”\n- 6 decides **if and when** the opening is allowed, based on the emotional wave.\n- Together: intimacy is mechanical **and** emotional — you need both.\n\nMechanics:\n- **Sacral 59**: generative, fertile, magnetizing, dissolving distance; can also be promiscuous if not guided.\n- **Solar Plexus 6**: gatekeeper; sets terms, timing, and emotional clarity; provides protection.\n- Because 6 is emotional, this is **not** a spontaneous channel — proper intimacy waits for emotional truth.\n\nHigh expression:\n- Creates safe, warm, sensual spaces for bonding.\n- Uses sex to **deepen** the tribal bond, not to escape it.\n- Understands that sometimes the answer is “not now.”\n\nLow expression / distortion:\n- Sexual access without emotional clarity → drama, jealousy, tribal rupture.\n- Using 59’s penetrative aura to manipulate or control.\n- 6 stuck in chronic conflict because the emotional wave is ignored.\n\nWhy tribal?:\n- The defense circuit exists to **keep the tribe alive** — feeding, caring, reproducing.\n- 59–6 is the **reproduction** part of that loop.\n- This is why partners with this channel can feel “we’re supposed to have a child” — it’s mechanical.\n\nSpecial notes for your HD JSON stack:\n- Tag themes: intimacy, sex, aura-penetration, emotional gatekeeping, tribal bonding, reproduction.\n- Important to flag that this channel can be **very attractive** to others — aura feels open, inviting, fertile.\n- Also important to flag that emotional authority (via Gate 6) must still be honored: no clarity → no entry.\n",
   "last_updated": "2025-10-28"
 }

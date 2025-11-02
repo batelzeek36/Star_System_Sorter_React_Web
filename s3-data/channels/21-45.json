@@ -4,12 +4,24 @@
     21,
     45
   ],
-  "centers": [],
+  "centers": [
+    "center.ego",
+    "center.throat"
+  ],
   "circuit": "circuit.tribal",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
+  "stream": "stream.ego",
+  "voice": "I have and I control.",
+  "display_name": "Channel of Money (21–45) — A Design of a Materialist",
+  "keynotes": [
+    "tribal material management: control (21) → distribution/ownership (45)",
+    "motor-to-throat: willpower speaks resources",
+    "hunters (21) serve the monarch/gatherer (45)",
+    "bargains, taxes, tithes; tribal economy",
+    "leadership through possession and stewardship",
+    "must be in control to function well",
+    "distortion: control-freak scarcity or misuse of power",
+    "healthy theme: manage for the good of the tribe"
+  ],
+  "notes": "Overview: Channel 21–45 links Gate 21 (Control / Hunter-Huntress) in the Ego/Heart to Gate 45 (Gatherer / Monarch) in the Throat. In the Tribal **Ego** stream, this is the classic **Channel of Money — a design of a materialist**. It governs acquisition, management, and distribution of the tribe’s resources (food, land, property, money).\n\nJovian / Line Companion–style pulls (≤25 words each):\n1) \"Gate 21 is control — the hunter who manages resources.\" — Ra Uru Hu, Line Companion (21)\n2) \"Gate 45 is the monarch’s voice — 'I have.'\" — Ra Uru Hu, Line Companion (45)\n3) \"This is the channel of money.\" — Ra Uru Hu (21–45)\n4) \"Bargains bind the tribe.\" — Ra Uru Hu, Tribal teaching\n5) \"Control must serve the community.\" — Ra Uru Hu, 21/45 commentary\n\nMechanics:\n- **Ego (21)** provides willpower to **control** and manage assets, logistics, and access.\n- **Throat (45)** provides the **spokesperson/owner** role — the voice that claims, allocates, and sets terms for the tribe.\n- As a **motor-to-throat** connection, it can speak and act materially with authority when correct.\n\nHigh expression:\n- Clear stewardship: acquires, protects, and allocates resources for tribal well-being.\n- Sets fair bargains and keeps promises; strengthens loyalty and stability.\n- Knows when to say “no” to protect the storehouse.\n\nLow expression / distortion:\n- Micromanagement, coercion, or hoarding; using access to control people.\n- Making promises the will center can’t sustain; broken bargains erode trust.\n- Identifying self-worth with possessions; fear-driven scarcity.\n\nTribal bargain logic:\n- The Tribal circuit is built on **contracts**: \"I give this; you give that.\" 21–45 enforces and voices these exchanges.\n- Correct leadership is **representative** — the 45 speaks **for** the people; the 21 manages **on behalf of** the people.\n\nStrategy & health of the Ego:\n- The Ego (Heart) is a small motor; promises must match capacity.\n- Rest and proper pacing protect willpower; overcommitting breaks bargains and bodies.\n\nUse in your HD JSON corpus:\n- Tag for: money/resources, control & stewardship, tribal bargains, ownership voice, logistics, monarch/hunter archetype, motor-to-throat manifestation.\n- Cross-reference with 26–44 (sales/transfer) for full tribal commerce dynamics.\n",
   "last_updated": "2025-10-28"
 }

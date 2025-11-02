@@ -4,12 +4,24 @@
     34,
     57
   ],
-  "centers": [],
+  "centers": [
+    "center.spleen",
+    "center.sacral"
+  ],
   "circuit": "circuit.integration",
-  "stream": "",
-  "voice": "",
-  "display_name": "TBD",
-  "keynotes": [],
-  "notes": "",
-  "last_updated": "2025-10-28"
+  "stream": "integration.powered.intuition",
+  "voice": "I act because I know (now).",
+  "display_name": "Channel of Power (34↔57)",
+  "keynotes": [
+    "Raw sacral power (34) fueled by splenic intuition (57).",
+    "Action in the now based on instant body awareness.",
+    "Integration → self-referenced, survival-oriented, not people-pleasing.",
+    "Extremely responsive: senses → acts.",
+    "Shadow: acting on every hunch → burnout / panic action.",
+    "Healthy: only empower the intuitions that are correct for you.",
+    "When 57 is clear, 34 can move with frightening precision.",
+    "Forms part of the classic MG ‘ninja’ configuration (34 with 20/10/57)."
+  ],
+  "notes": "34–57 is an Integration channel that fuses **Gate 57** (Spleen – the most acute, in-the-now intuition) with **Gate 34** (Sacral – the strongest, purest motor in the BodyGraph). The result is **instinct-driven power**: the body senses something immediately → the body has the energy to move on it immediately. \n\nBecause it’s Integration, this is not about tribe or collective — it’s about *this form surviving and moving correctly right now.* In high expression it looks graceful, animal-like, even tactical: the person seems to ‘just know’ and ‘just do.’ In low expression it looks jumpy or overactive, because 34 will amplify even fuzzy intuitions.\n\nBest practice: let Strategy & Authority filter which 57 pings get 34’s juice. Not every intuition deserves maximum power.",
+  "last_updated": "2025-11-01"
 }
