@@ -37,7 +37,7 @@
     - Include `_meta` block with `detected_gates` count and `missing_gates` array
     - _Requirements: FR-LC-3_
 
-  - [ ] 3.2 Create gate fanout script (`03-fanout-gates.py`)
+  - [x] 3.2 Create gate fanout script (`03-fanout-gates.py`)
     - Read monolithic `lore-research/research-outputs/line-companion/gates.json`
     - Create output directory `lore-research/research-outputs/line-companion/gates/` if it doesn't exist
     - Iterate gates 1..64 and write each to its own file: `gate-{gate:02d}.json` (e.g., `gate-01.json`, `gate-27.json`)
