@@ -1,0 +1,278 @@
+{
+  "41.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Initial hunger/limitation is self-calibration, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets the constraint and pace—choose one seed, contain the start."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Pressure can flip into gatekeeping around ‘real’ beginnings."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Names the story-seed so the experience can form."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing rules to force a start rather than align it."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to hold to one path under urge and lack."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Self-soothing keeps the start humane and sustainable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No transmission yet—this is inner setup.",
+      "confidence": 5,
+      "sources": ["gate-line-41.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["limitation", "seed", "pace"]
+    }
+  },
+  "41.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Chooses freely which desire to pursue; declines the rest."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places the beginning in right timing and scope."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Sentinel against distractions and predatory hype."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Frames the fantasy into a clear initiating narrative."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to trend scripts as ‘progress.’"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to commit to a modest, clean first step."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned support calms nerves at the threshold."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled choosing, not yet protocol teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-41.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["choice", "scope", "threshold"]
+    }
+  },
+  "41.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Novelty-seeking outsources agency to ‘the next thing.’"
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced starts—tempo and container wobble."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Status tests and access-gating around ‘real experiences.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performative beginnings over honest readiness."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Doctrine of ‘always start’ used as compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reduce scope and refine timing."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement/enmeshment fuels misaligned launches."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error starts.",
+      "confidence": 5,
+      "sources": ["gate-line-41.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["overreach", "trend-chasing"]
+    }
+  },
+  "41.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frees energy by limiting to one storyline."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Designs the start protocol—sequence, budget, review."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Gates scope; protects from opportunists and scope creep."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Curates the initiating image that guides action."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into ritualized beginnings."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models integrity under launch pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Supportive hosting steadies the group at kickoff."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches seeding protocol by example—how to begin cleanly.",
+      "confidence": 4,
+      "sources": ["gate-line-41.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "seeding/experience-protocol",
+      "keywords": ["sequence", "budget", "review"]
+    }
+  },
+  "41.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ends FOMO coercion; initiates only what preserves freedom."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for beginnings—criteria, pace, and safeguards."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces fair thresholds; no intimidation starts."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Turns the start into a coherent cultural story."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—‘proper launch’ as dogma."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity under pressure—initiate or delay by truth."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth makes the new cycle receivable."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in beginnings—liberation-through-teaching standards.",
+      "confidence": 4,
+      "sources": ["gate-line-41.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "start-standards/teacher",
+      "keywords": ["criteria", "safeguards", "cadence"]
+    }
+  },
+  "41.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom to begin or refrain—choice beyond hunger."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for initiating cycles."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as rank gate to ‘real beginnings.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal story-seed—few words ignite a culture."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Canon of ‘how to start’ risks law-over-life control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to time the start by integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: the canon of beginnings transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-41.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/beginnings-canon",
+      "keywords": ["canon", "initiation", "presence"]
+    }
+  }
+}

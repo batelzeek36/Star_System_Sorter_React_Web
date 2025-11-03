@@ -1,0 +1,278 @@
+{
+  "40.1": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Refuses coerced service; rest and consent precede any bargain."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets recovery and workload limits—willpower regulation and pacing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Guilt-pressure to keep producing to prove loyalty/value."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is will/rest hygiene, not an aesthetic axis."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Duty-as-control: ‘you owe the tribe’ scripts override consent."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to stand down and recover before honorable service."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attunes to care economy—rest sustains trustworthy provision."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching stewardship; no formal covenant transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-40.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "40.2": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Insists on freely chosen work; sovereign yes/no to service."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Defines fair terms, scope, and exchange—clean bargain protocol."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Loyalty tests around overwork and unlimited availability."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Courteous, clear tone makes agreements receivable."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Exploitative contracts masked as community ‘duty.’"
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Honorable commitment: do what you promised, no more/no less."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Mutual care—resources flow where bonds are respected."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical contracting; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-40.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "40.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims choice after over-giving or coerced obligation."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—swings between martyring and withdrawal while calibrating."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Dominance via guilt and ‘prove your worth’ labor."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Provider image management substitutes for real terms."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Canonized duty myths used to extract unpaid service."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit misreads, reset the bargain cleanly."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement to keep bonds warm at self-cost."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging of will and terms; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-40.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "40.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Defends consent in community deals; no coerced generosity."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Codifies clean tribal exchange—roles, limits, rest/reward cycles."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards the commons from freeloaders and predatory extraction."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Dignified, plain style makes norms easy to adopt."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—rules over life if over-fixed."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—deliver what you promise, rest when done."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Structures reciprocity so bonds feel safe and nourished."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Covenant protocol—teaches fair-exchange law by example.",
+      "confidence": 4,
+      "sources": ["gate-line-40.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "covenant-protocol/fair-exchange",
+      "keywords": ["consent", "reciprocity", "limits", "rest"]
+    }
+  },
+  "40.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that the ‘good one’ must provide endlessly."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal provider → burnout/scapegoat when refusing bad deals."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Status games over who sacrifices most for the tribe."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic steadiness—quiet, trustworthy presence without theater."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine of duty used to compel unpaid, unending labor."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—honor the bargain, not the crowd."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Placating others by over-giving to keep harmony."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethical provision under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-40.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/provider-ethics",
+      "keywords": ["bargain", "ethics", "boundaries", "provision"]
+    }
+  },
+  "40.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Liberates communities from guilt-bonds; restores voluntary exchange."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder stewardship: work/rest doctrine, contract reviews, sunset clauses."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guards boundaries so strength is not harvested by force."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Plain, dignified standard becomes cultural signal for fair dealing."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing duty into hierarchy rather than service to life."
+    },
+    "orion-light": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Warrior oath kept cleanly—serve the covenant, not spectacle."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of exchange, not soothing at this altitude."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Covenant sage—teaches the law of fair exchange and rightful rest by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-40.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "covenant-sage/fair-exchange-law",
+      "keywords": ["covenant", "exchange", "rest", "elder", "law"]
+    }
+  }
+}

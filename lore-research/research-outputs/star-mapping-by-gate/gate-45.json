@@ -1,0 +1,278 @@
+{
+  "45.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Claims stewardship without capture—sovereign resource holding."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets basic treasury container: ledgers, cadence, and scope."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards thresholds to the storehouse; checks freeload/predation."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Simple ritual of gathering makes ownership legible."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early possessiveness risks control optics over commons."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to steward rather than hoard the resources."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Welcoming distribution bonds the tribe around sufficiency."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Foundational setup, not yet an explicit teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-45.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "45.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Affirms consent-based tithe/exchange—no surrender of agency."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places roles, pacing, and clear terms for collection/redistribution."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Sentinel for fair access and loyalty to the pact."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain ceremony (‘market day’) clarifies the exchange."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Tradition can be used to compel tribute over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps integrity in taking and giving back."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned redistribution nourishes safety and belonging."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Competent stewardship without formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-45.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "45.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Dependency loops or patronage outsource agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced budgets and timing—container of wealth wobbles."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Favoritism/clique gates around ‘who gets’ resources."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Optics of wealth/display eclipse true provision."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Coercive taxation/ownership doctrine enforced by rank."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: audit, reset scope, and repair trust."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement gifts create enmeshment, not care."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error in resource handling.",
+      "confidence": 5,
+      "sources": ["gate-line-45.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["patronage", "favoritism"]
+    }
+  },
+  "45.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Ends exploitative tolls; asserts fair access to the commons."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds treasury policy—allotments, cycles, transparency."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Anti-fraud thresholding; loyalty to shared rules."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ceremony and story dignify giving/receiving."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policy can ossify into resource dogma."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models clean allocation under scrutiny."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Hospitality in distribution calms scarcity nerves."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches resource protocol—ledger, audit, and release cadence.",
+      "confidence": 4,
+      "sources": ["gate-line-45.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "resource/governance-protocol",
+      "keywords": ["ledger", "allotment", "audit"]
+    }
+  },
+  "45.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses influence to free the tribe from predatory taxation/control."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for ownership, tithe, and redistribution."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to the commons and fair access."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Cultural rites of distribution unify identity."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Projection risk: monarchic orthodoxy over living needs."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Holds integrity against lobby/faction pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth ensures the vulnerable are covered."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Instruction in stewardship law—treasury as royal curriculum.",
+      "confidence": 4,
+      "sources": ["gate-line-45.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "stewardship-standards/treasury-teacher",
+      "keywords": ["charter", "tithe", "distribution"]
+    }
+  },
+  "45.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied sovereign ensures the commons serves freedom."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for resource governance."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can feel like a gate to ‘real’ resources."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Archetypal sovereign tone—plain rites, high dignity."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Property/tribute canon risks law-over-life coercion."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Courage to allocate, abdicate, or withhold by truth."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: resource canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-45.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/resource-canon",
+      "keywords": ["canon", "commons", "presence"]
+    }
+  }
+}

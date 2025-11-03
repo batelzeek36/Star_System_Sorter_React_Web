@@ -6,19 +6,17 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Kâu (or 'Coming to Meet') intimates that (in the circumstances which it denotes) there will be great progress and success. It will be advantageous to be firm and correct; but the woman who is strong should not be taken in marriage.",
+    "legge_1899_public_domain": "K&u shows a female who is bold and strong. It will not be good to marry (such) a female. the enterprise is too early, and the preparation too small to make victory certain. Its subject had better not take the field. Line 2 is strong, and central, and its subject is possessed with the determination to do his part in the work of removal. But his eagerness is tempered by his occupancy of an even place; and he is cautious, and no attempts, however artful, to harm him will take effect. Line 3 is strong, and its subject displays his purpose too eagerly, Being beyond the central position, moreover, gives an indication of evil. Lines 3 and 6 are also proper correlates; and, as elsewhere in the Yi, the meeting of yin and yang lines is associated with falling rain, The subject of 3, therefore, communicates with 6, in a way that annoys his associates; but nevertheless he commits no error, and, in the end, incurs no blame. Line 4 is not in the centre, nor in an odd place, appropriate to it as undivided. Its subject therefore will not be at rest, nor able to do anything to accomplish the idea of the hexagram. He is sym bolised by a culprit, who, according to the ancient and modern custom of Chinese courts, has been bastinadoed till he presents the appearance in the Text. Alone he can do nothing; if he could follow others, like a sheep led along, he might accomplish some thing, but he will not listen to advice. Purslain grows in shady places, and hence we find it here in close contiguity to the topmost line, which is yin. As 5 is the ruler’s seat, evil may come to him from such contiguity, and strenuous efforts must be made to prevent such an evil. The subject of the line, the ruler in the central place, will commit no error. It must be allowed that the symbolism in this line is not easily managed. The subject of the 6th line, standing alone, may be easily dis posed of. 1. The first line, divided, shows how its subject should be kept (like a carriage) tied and fastened to a metal drag, in which case with firm correctness there will be good fortune. (But) if he move in any direction, evil will appear. He will be (like) a lean pig, which is sure to keep jumping about. 2. The second line, undivided, shows its subject with a wallet of fish. There will be no error. But it will not be well to let (the subject of the first line) go forward to the guests. 3. The third line, undivided, shows one from whose buttocks the skin has been stripped so that he walks with difficulty. The position is perilous, but there will be no great error. 4. The fourth line, undivided, shows its subject with his wallet, but no fish in it. This will give rise to evil. 5. The fifth line, undivided, (shows its subject as) a medlar tree overspreading the gourd (beneath it). If he keep his brilliant qualities concealed, (a good issue) will descend (as) from Heaven. 6. The sixth line, undivided, shows its subject receiving others on his horns. There will be occa sion for regret, but there will be no error. XLIV. The single, divided, line at the top of Kw&i, the hexa gram of the third month, has been displaced, and Khkn has ruled over the fourth month of the year. But the innings of the divided line commence again; and here we have m Kau the hexagram of the fifth month, when light and heat are supposed both to begin to be less. , In that divided line Wan saw the symbol of the small or un worthy man, beginning to insinuate himself into the government THE YI KING, THE 3 HUI HEXAGRAM. 15 7",
     "normalized_summary": "A powerful, disruptive influence suddenly appears — often framed as a strong, desirous, rising yin force meeting established yang. You cannot just ‘marry’ it, fuse with it, or let it into the center. The teaching is: recognize it early, restrain it appropriately, and do not give it authority. Indulgence leads to trouble; disciplined containment keeps you safe while you stay on mission."
   },
-
   "lines": [
     {
       "line": 1,
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The first SIX, divided, shows its subject fastened to a metal brake. If he abide firm and correct, there will be good fortune. If he have some place to which he would go, he will meet with evil. (We see here) the weak hog just beginning to stumble about.",
+          "text": "1. The first line, divided, shows how its subject should be kept (like a carriage) tied and fastened to a metal drag, in which case with firm correctness there will be good fortune. (But) if he move in any direction, evil will appear. He will be (like) a lean pig, which is sure to keep jumping about.",
           "citation_status": "public_domain"
         },
         {
@@ -40,7 +38,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The second NINE, undivided, shows its subject with fish wrapped up and in his keeping. There will be no error. It will not be well to receive (this influence) as a guest.",
+          "text": "2. The second line, undivided, shows its subject with a wallet of fish. There will be no error. But it will not be well to let (the subject of the first line) go forward to the guests.",
           "citation_status": "public_domain"
         },
         {
@@ -62,7 +60,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The third NINE, undivided, shows one from whose buttocks the skin has been stripped, and who walks slowly and with difficulty. There is danger, but there will be no great error.",
+          "text": "3. The third line, undivided, shows one from whose buttocks the skin has been stripped so that he walks with difficulty. The position is perilous, but there will be no great error.",
           "citation_status": "public_domain"
         },
         {
@@ -84,7 +82,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fourth NINE, undivided, shows its subject with his wrapper, but no fish in it. This will give rise to evil.",
+          "text": "4. The fourth line, undivided, shows its subject with his wallet, but no fish in it. This will give rise to evil.",
           "citation_status": "public_domain"
         },
         {
@@ -106,7 +104,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fifth NINE, undivided, shows (something like) a melon wrapped in willow(-like) leaves. The (bright) excellence is contained therein. There will (in due time) be what comes down from heaven.",
+          "text": "5. The fifth line, undivided, (shows its subject as) a medlar tree overspreading the gourd (beneath it). If he keep his brilliant qualities concealed, (a good issue) will descend (as) from Heaven.",
           "citation_status": "public_domain"
         },
         {
@@ -128,7 +126,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The topmost NINE, undivided, shows one meeting with (the other) at the horns. There will be humiliation, but there will be no error.",
+          "text": "6. The sixth line, undivided, shows its subject receiving others on his horns. There will be occa sion for regret, but there will be no error. XLIV. The single, divided, line at the top of Kw&i, the hexa gram of the third month, has been displaced, and Khkn has ruled over the fourth month of the year. But the innings of the divided line commence again; and here we have m Kau the hexagram of the fifth month, when light and heat are supposed both to begin to be less. , In that divided line Wan saw the symbol of the small or un worthy man, beginning to insinuate himself into the government THE YI KING, THE 3 HUI HEXAGRAM. 15 7",
           "citation_status": "public_domain"
         },
         {
@@ -145,5 +143,28 @@
         "containment through force"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.557458Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 183,
+      "leaf_end": 186,
+      "page_candidates": [
+        "337",
+        "5",
+        "338",
+        "339",
+        "6",
+        "3",
+        "340",
+        "341",
+        "59",
+        "342",
+        "343"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

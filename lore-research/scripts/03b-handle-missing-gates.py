@@ -55,10 +55,10 @@ def check_missing_gates(gates_data):
             print(f"⚠️  Gate {gate_num}: invalid structure (not a dict)")
             continue
         
-        text = gate_obj.get('text', '').strip()
-        if not text:
+        raw_text = gate_obj.get('raw_text', '').strip()
+        if not raw_text:
             missing_gates.append(gate_num)
-            print(f"⚠️  Gate {gate_num}: empty or missing text")
+            print(f"⚠️  Gate {gate_num}: empty or missing raw_text")
     
     return missing_gates
 

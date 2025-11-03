@@ -1,0 +1,84 @@
+{
+  "gate": 53,
+  "gate_name": "Development / Beginnings",
+  "lines": {
+    "53.1": {
+      "line": 1,
+      "hd_title": "Accumulation",
+      "hd_quote": "Development succeeds when the foundation is gathered first.",
+      "keywords": [
+        "slow launch",
+        "collect resources",
+        "set the base"
+      ],
+      "behavioral_axis": "Wants a solid base before pushing the start.",
+      "shadow_axis": "Never starts because the base is ‘not perfect yet’.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "53.2": {
+      "line": 2,
+      "hd_title": "Momentum",
+      "hd_quote": "Past success fuels development of the new.",
+      "keywords": [
+        "carryover energy",
+        "build on wins",
+        "trust the wave"
+      ],
+      "behavioral_axis": "If the previous phase worked, this one can start.",
+      "shadow_axis": "Forces a start to copy a past win that no longer fits.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "53.3": {
+      "line": 3,
+      "hd_title": "Practicality",
+      "hd_quote": "Development needs conflict reduced to go on.",
+      "keywords": [
+        "remove friction",
+        "keep process alive",
+        "ops-minded"
+      ],
+      "behavioral_axis": "Cuts noise so the cycle can keep moving.",
+      "shadow_axis": "Over-manages people and kills spontaneity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "53.4": {
+      "line": 4,
+      "hd_title": "Assuredness",
+      "hd_quote": "In uncertain beginnings, maintain your own direction.",
+      "keywords": [
+        "holds tone in chaos",
+        "socially aware starter",
+        "network stabilizer"
+      ],
+      "behavioral_axis": "Keeps its signal steady while the start is messy.",
+      "shadow_axis": "Becomes stubborn and won’t adapt to the group start.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "53.5": {
+      "line": 5,
+      "hd_title": "Assertion",
+      "hd_quote": "Emphasizing the value of development wins support.",
+      "keywords": [
+        "projected leadership",
+        "makes people believe",
+        "development evangelist"
+      ],
+      "behavioral_axis": "Shows everyone why this cycle matters right now.",
+      "shadow_axis": "Over-sells → activates resistance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "53.6": {
+      "line": 6,
+      "hd_title": "Phasing",
+      "hd_quote": "Success in one phase attracts support for the next.",
+      "keywords": [
+        "long-cycle view",
+        "phase-by-phase",
+        "format wisdom"
+      ],
+      "behavioral_axis": "Uses one completed stage to launch the following one.",
+      "shadow_axis": "Hides wins → can’t get support for the next phase.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

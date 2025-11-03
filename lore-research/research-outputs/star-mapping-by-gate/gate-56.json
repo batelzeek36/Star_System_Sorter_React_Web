@@ -1,0 +1,278 @@
+{
+  "56.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses narrative coercion; sovereignty to speak only when the story is true."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Frames and paces the message—container before stimulation."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Hot-take dominance—using ‘spice’ to win status."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Story, image, and enchantment—classic Lyran authorship."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Clickbait/propaganda—story as obedience lever."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Discipline to speak plainly rather than perform."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Soothing, connective storytelling that tends the bond."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching narrative hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-56.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "56.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines manipulative asks; consent-first messaging."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places ideas and audience—context, timing, and structure."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping stories to maintain rank."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Crafted narrative form and aesthetic cadence."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rhetoric to steer obedience rather than meaning."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Honorable curation—share only what truly fits."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attunes to listeners’ needs so the message lands safely."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement of message; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-56.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "56.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims narrative after smear/rumor—sovereign voice reset."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misframing and over/under-correction while calibrating message."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Gossip as dominance tactic."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performance and flair over substance."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Spin/propaganda—story as control system."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—own errors, return to clean telling."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing edits that distort truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-56.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "56.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberatory myth—stories that unbind from coercive narratives."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Story protocol—frameworks for digesting experience into meaning."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Perimeter narrative security—screens hype/manipulation."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Culture-shaping storytelling and symbolic artistry."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Dogma risk—canonizing the story over truth."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor by conduct—tell the hard truth with grace."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Hospitable storytelling that keeps the group connected."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Meaning-protocol teaching—law of story and sign by example.",
+      "confidence": 4,
+      "sources": ["gate-line-56.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "meaning-protocol/story-law",
+      "keywords": ["parable", "meaning", "protocol", "culture"]
+    }
+  },
+  "56.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda/PR capture; refuses to sell obedience."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as voice for everyone → burnout/scapegoat when declining spin."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Status contests to control the narrative."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Credible, untheatrical tone steadies public reception."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Information warfare—story as regime tool."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—speak truth despite risk."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Placating ‘soft stories’ to keep harmony at the cost of truth."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: narrative ethics under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-56.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/narrative-ethics",
+      "keywords": ["truth", "projection", "myth", "ethics"]
+    }
+  },
+  "56.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Frees communities from capture narratives—returns to living meaning."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Custodian of story standards—archives, review cadence, proportion."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards against predatory rewrites of history and intent."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Quiet majesty—refined art as culture’s memory."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonized doctrine hardens into hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—timely truth spoken with courage and proportion."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is meaning-law and standards, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Myth sage—teaches the law of meaning and culture memory by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-56.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "myth-sage/meaning-law",
+      "keywords": ["myth", "culture memory", "law", "elder", "meaning"]
+    }
+  }
+}

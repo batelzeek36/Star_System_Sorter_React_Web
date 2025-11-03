@@ -1,0 +1,84 @@
+{
+  "gate": 61,
+  "gate_name": "",
+  "lines": {
+    "61.1": {
+      "line": 1,
+      "hd_title": "Occult Knowledge",
+      "hd_quote": "The pressure to know the mysteries through esoterics.",
+      "keywords": [
+        "foundation of inner truth",
+        "esoteric intake",
+        "mystery as fuel"
+      ],
+      "behavioral_axis": "Goes inward to source truth; needs quiet to hear the mystery.",
+      "shadow_axis": "Gets lost in secrecy that cannot mutate for the collective.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "61.2": {
+      "line": 2,
+      "hd_title": "Natural Brilliance",
+      "hd_quote": "A gift for inspiration that is both attractive and beneficial to others.",
+      "keywords": [
+        "projected brilliance",
+        "inspiring presence",
+        "attractive knowing"
+      ],
+      "behavioral_axis": "Projects ‘I know’ and people come ask; inspiration spreads.",
+      "shadow_axis": "Paper-tiger brilliance that cannot actually explain itself.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "61.3": {
+      "line": 3,
+      "hd_title": "Interdependence",
+      "hd_quote": "It is exceedingly difficult for truth to stand alone.",
+      "keywords": [
+        "trial-and-error knowing",
+        "needs recognition",
+        "truth wants audience"
+      ],
+      "behavioral_axis": "Learns the truth must be shared/rationalized to mutate.",
+      "shadow_axis": "Hoards insight → no mutation → pressure increases.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "61.4": {
+      "line": 4,
+      "hd_title": "Research",
+      "hd_quote": "The capacity of concentration to explore the depth of inner truth.",
+      "keywords": [
+        "one-track mind",
+        "deep study",
+        "acoustic focus"
+      ],
+      "behavioral_axis": "Fixates on a mystery until the signal comes through.",
+      "shadow_axis": "Gets lost in obscure research that never becomes useful.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "61.5": {
+      "line": 5,
+      "hd_title": "Influence",
+      "hd_quote": "The enlightened father-figure whose recognized wisdom and powerful assertion can mold a generation by its influence.",
+      "keywords": [
+        "projected authority",
+        "collective teacher",
+        "inspired leadership"
+      ],
+      "behavioral_axis": "Others project ‘you know’ → potential to shape timelines.",
+      "shadow_axis": "Demands acceptance; resents challenges to its knowing.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "61.6": {
+      "line": 6,
+      "hd_title": "Appeal",
+      "hd_quote": "The profound attunement to the collectivity that can lure the public to a truth.",
+      "keywords": [
+        "roof-level inspiration",
+        "collective mutation aim",
+        "only-if-it-reaches-them"
+      ],
+      "behavioral_axis": "Holds inspiration until it can actually mutate the collective.",
+      "shadow_axis": "Withholds forever → falls back on shopworn slogans.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "16.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Early enthusiasm without foundation is personal training work, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Builds the practice container first—drills, basics, repeatability before display."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status-posturing: ‘look skilled’ before the skill is real."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not yet an artistic-display axis; foundation precedes style."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Clinging to formulas/doctrine as a shortcut to competence."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to practice quietly and resist premature performance."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Self-soothing/attunement helps tolerate the slow build of skill."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching skill formation; no sacred instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-16.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "16.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Curating what to practice ≠ anti-domination intervention."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Methodical repetition and clean technique stabilize the learning container."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "‘Right technique’ can become correctness policing."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Talent begins to show as stylish execution grounded in practice."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Rigid schooling for compliance over true mastery."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Disciplined training under the small, daily ordeal of drills."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Supportive pacing and care keep motivation nourished."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skill formation without explicit teaching/codification yet.",
+      "confidence": 5,
+      "sources": ["gate-line-16.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "16.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Trial-and-error with performance is self-mastery, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Irregular practice/regulation under public pressure."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Competitive status-jockeying and clique defense around ‘talent.’"
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Experimental showings—creative risk even when not fully ready."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Defaulting to crowd-pleasing formulas to escape uncertainty."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ordeal of perseverance: keep practicing after visible mistakes."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing erodes the integrity of practice choices."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging stage; no transmission of law/method yet.",
+      "confidence": 5,
+      "sources": ["gate-line-16.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "16.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Scaling skill into patterns is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Converts talent into teachable method—drills, checklists, demonstrable steps."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping on who ‘qualifies’ to learn or join the troupe."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Charismatic performance inspires adoption—cultural beacon of craft."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning style into orthodoxy; doctrine over living craft."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentor-by-demo: others face the ordeal of aligning to real technique."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Attuned coaching and timing improve uptake of method."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-performance: the method itself teaches through demonstration.",
+      "confidence": 4,
+      "sources": ["gate-line-16.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "skill-protocol-teaching",
+      "keywords": ["patterning", "drills", "demonstration"]
+    }
+  },
+  "16.5": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced performance; guards artistic sovereignty under projection."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix the whole show’ → burnout/scapegoat when one-size-fits-all fails."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status policing and access games in the scene/venue."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Iconic talent—visible cultural signal of craft and style."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Industry/orthodoxy capture—enforcing style compliance to preserve control."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Integrity under projection—keep practicing what’s true, not what flatters."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing setlists and over-accommodation dilute mastery."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: models clean craft choices despite crowd pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-16.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["performance", "audience", "example"]
+    }
+  },
+  "16.6": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Protects artistic sovereignty; refuses capture by industry or fashion."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Elder craftmaster—maintains standards and sustainable training systems."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy rank rigidity and correctness policing can creep in."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Role-model artistry—beauty and style as a cultural beacon."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning schools of style into dogma/hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: disciplined devotion to mastery over image."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is mastery and standards, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Craft sage—teaches the law of mastery through lineage-quality demonstration.",
+      "confidence": 4,
+      "sources": ["gate-line-16.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "craft-sage/teaches-by-demonstration",
+      "keywords": ["mastery", "lineage", "apprenticeship"]
+    }
+  }
+}

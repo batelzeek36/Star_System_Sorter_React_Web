@@ -309,3 +309,25 @@ def ensure_directory(path: Path) -> None:
         path: Directory path
     """
     path.mkdir(parents=True, exist_ok=True)
+
+
+def get_page_by_leaf_num(scandata: Dict[str, Any], leaf_num: int) -> Optional[Dict[str, Any]]:
+    """
+    Helper function to retrieve page metadata by leaf number from scandata.
+    
+    Args:
+        scandata: Parsed scandata dictionary (from scandata.json)
+        leaf_num: Leaf number to look up
+    
+    Returns:
+        Page metadata dictionary with keys: leafNum, pageType, origWidth, 
+        origHeight, cropBox (dict with x, y, w, h), and optionally bookStart.
+        Returns None if leaf number not found.
+    
+    Example:
+        >>> scandata = read_json_file(Path("scandata.json"))
+        >>> page = get_page_by_leaf_num(scandata, 42)
+        >>> if page:
+        ...     print(f"Page {page['leafNum']}: {page['origWidth']}x{page['origHeight']}")
+    """
+    return scandata.get("pages", {}).get(str(leaf_num))

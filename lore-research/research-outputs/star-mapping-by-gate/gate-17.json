@@ -1,0 +1,278 @@
+{
+  "17.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Forming initial opinions is personal cognition, not rescue or anti-domination work."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Begins structuring thought—facts, definitions, and a clean logic container."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early correctness anxiety can slide into status/gatekeeping about who is ‘right.’"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is logic, not aesthetic display."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Grabbing rigid formulas to feel safe—doctrine over discovery."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ordeal of discipline: test opinions against evidence before speaking."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Attuned listening helps opinions land without friction."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching cognition; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-17.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "17.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Guarding how/when to share opinions ≠ liberation mission."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places critique in the right context and pacing so it’s usable."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "‘Proper’ channels for opinions can become rank/permission games."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clear, elegant phrasing supports reception."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Hiding behind procedure over truth when pressured."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable restraint: speak when the case is ready, not to perform."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Relational attunement—opinions offered with care are received."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Process stewardship without explicit teaching/codification yet.",
+      "confidence": 5,
+      "sources": ["gate-line-17.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "17.3": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses mental coercion; learns to own a view without capture."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Irregular evidence/logic; oscillates between methods under stress."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Defensive posturing and correctness policing when challenged."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is about validity, not style."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Gravitates to dogma to escape uncertainty—compliance over inquiry."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Initiatory grind: revise the opinion publicly when facts change."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing agreement erodes truth-testing."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging phase; no pedagogy yet.",
+      "confidence": 5,
+      "sources": ["gate-line-17.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "17.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Standardizing critique is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Turns opinions into testable models—definitions, steps, review loops."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can invite gatekeeping of who may ‘speak logically.’"
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Concise, well-shaped rhetoric aids adoption."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol ossification—method treated as dogma."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentor-by-method: others face the ordeal of aligning to evidence."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Considerate tone keeps minds open during critique."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-framework: teaches logic through clear protocols.",
+      "confidence": 4,
+      "sources": ["gate-line-17.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "logic-protocol-teaching",
+      "keywords": ["model", "definitions", "review-loop"]
+    }
+  },
+  "17.5": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses propaganda capture; keeps opinion sovereign under projection."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix everyone’s thinking’ → burnout/scapegoat when nuance resists."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura invites rank tests and access policing in debates."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clear, resonant delivery sets a cultural tone for rational discourse."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing orthodoxy to preserve image/control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—stand by evidence, not applause."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement bends conclusions toward approval."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: models ethical critique despite crowd pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-17.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["critique", "ethics", "example"]
+    }
+  },
+  "17.6": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Loosens mental control; frees discourse from dogma and domination."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder logic: maintains standards of evidence, review, and revision over time."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy status can drift into gatekeeping of ‘who gets to be rational.’"
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Elegant, sparing rhetoric that illuminates without theatrics."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning method into law—orthodoxy over living inquiry."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: hold intellectual courage and humility simultaneously."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of thought, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Reasoning sage—teaches the law of sound judgment by lived example.",
+      "confidence": 4,
+      "sources": ["gate-line-17.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "reasoning-sage",
+      "keywords": ["evidence", "standards", "review"]
+    }
+  }
+}

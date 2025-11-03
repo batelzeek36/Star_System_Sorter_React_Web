@@ -1,0 +1,278 @@
+{
+  "11.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sovereign ideation: hold your lens rather than borrow dogma."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Sort and shelf raw ideas—clean mental container and pacing."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early cred anxiety can spark 'who knows more' policing."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Imagery and narratives begin to form—authorship ignition."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Reaching for the 'right doctrine' to feel safe."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Discipline to sit with ambiguity until clarity emerges."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle sharing keeps the field calm and receptive."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No formal transmission yet—pre-teaching ideation.",
+      "confidence": 5,
+      "sources": ["gate-line-11.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "11.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Offer ideas without surrendering authorship."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Place ideas in the right context and tempo for reception."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Comparison/status creep around sources and citations."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Refines the image so the idea lands as culture."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Deference to approved curricula dulls truth."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Say only what you’ve tested—integrity under mild pressure."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned storytelling and tone reduce cognitive friction."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational sharing, not codified instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-11.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "11.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Borrowed opinions for belonging outsource sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Inconsistent frames and over-editing—dysregulated curation."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Clique gatekeeping of 'correct takes' under stress."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performance/image over substance—vanity signal."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Rule-bound thinking to escape uncertainty (dogma grab)."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Trial-by-feedback refines honest voice."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Appeasement tone blurs clarity and boundaries."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—chaotic learning cycle.",
+      "confidence": 5,
+      "sources": ["gate-line-11.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "11.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Models independent thought within the network."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Builds a format for exchange—clean forum and cadence."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Role prestige can silence dissent."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Storycraft turns the signal into shareable culture."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Template risks ossifying into doctrine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Hosts principled debate without collapse."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Hospitable forum lowers anxiety and invites voices."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches idea hygiene/protocol by example and format.",
+      "confidence": 4,
+      "sources": ["gate-line-11.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "storycraft-protocol",
+      "keywords": ["curation", "framing", "forum"]
+    }
+  },
+  "11.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Uses platform to free minds from imposed narratives."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Codifies frameworks and editorial standards—container mastery."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guards loyalty to the mission of truthful inquiry."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Sets cultural tone and aesthetic of the canon."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Projection risk: orthodoxy policing and 'right think.'"
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Holds integrity under pressure—defends ideas honorably."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring tone eases adoption without force."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Curriculum/standard teaching—liberation-through-instruction.",
+      "confidence": 4,
+      "sources": ["gate-line-11.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "curriculum/standard-teacher",
+      "keywords": ["frameworks", "canon", "editorial"]
+    }
+  },
+  "11.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty of thought invites others to think freely."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring standards of inquiry and placement of ideas."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Aura can read as intellectual gate or rank barrier."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Archetypal storyteller—ideas become culture and myth."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Law-over-life risk if the canon hardens."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to update views in light of truth."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is canon and standards, not soothing or bonding."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: liberation-through-teaching of the idea canon.",
+      "confidence": 4,
+      "sources": ["gate-line-11.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/idea-canon",
+      "keywords": ["canon", "inquiry-standards", "presence"]
+    }
+  }
+}

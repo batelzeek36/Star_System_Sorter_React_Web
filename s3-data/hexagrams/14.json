@@ -6,19 +6,17 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Tâ Yû indicates that, (under the circumstances which it implies), there will be great progress and success.",
+    "legge_1899_public_domain": "Ta Yd indicates that, (under the circumstances which it implies), there will be great progress and success. 1. In the first line, undivided, there is no ap proach to what is injurious, and there is no error. Let there be a realisation of the difficulty (and danger of the position), and there will be no error (to the end). 2. In the second line, undivided, we have a large waggon with its load. In whatever direction advance is made, there will be no error. 3. The third line, undivided, shows us a feudal prince presenting his offerings to the Son of Heaven. A small man would be unequal (to such a duty). 4. The fourth line, undivided, shows its subject keeping his great resources under restraint. There will be no error. 5 ' The fifth line, divided, shows the sincerity of f 8 sub J« reciprocated by that of all the others (represented m the hexagram). Let him display a proper majesty, and there will be good fortune 6. The topmost line, undivided, shows its subject help accorded to him from Heaven. There will be good fortune, advantage in every respect. SECT, I.",
     "normalized_summary": "Great possession — wealth, power, influence. It's favorable, but only if it's governed by humility, discipline, and service. The blessing stays clean when ego stays restrained and resources are used for the greater order instead of self-glorification."
   },
-
   "lines": [
     {
       "line": 1,
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "In the first NINE, undivided, there is no approach to what is injurious, and there is no error. Let there be a realisation of the difficulty (and danger of the position), and there will be no error (to the end).",
+          "text": "1. In the first line, undivided, there is no ap proach to what is injurious, and there is no error. Let there be a realisation of the difficulty (and danger of the position), and there will be no error (to the end).",
           "citation_status": "public_domain"
         },
         {
@@ -40,7 +38,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "In the second NINE, undivided, we have a large waggon with its load. In whatever direction advance is made, there will be no error.",
+          "text": "2. In the second line, undivided, we have a large waggon with its load. In whatever direction advance is made, there will be no error.",
           "citation_status": "public_domain"
         },
         {
@@ -62,7 +60,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The third NINE, undivided, shows us a feudal prince presenting his offerings to the Son of Heaven. A small man would be unequal (to such a duty).",
+          "text": "3. The third line, undivided, shows us a feudal prince presenting his offerings to the Son of Heaven. A small man would be unequal (to such a duty).",
           "citation_status": "public_domain"
         },
         {
@@ -84,7 +82,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fourth NINE, undivided, shows its subject keeping his great resources under restraint. There will be no error.",
+          "text": "4. The fourth line, undivided, shows its subject keeping his great resources under restraint. There will be no error. 5 ' The fifth line, divided, shows the sincerity of f 8 sub J« reciprocated by that of all the others (represented m the hexagram). Let him display a proper majesty, and there will be good fortune",
           "citation_status": "public_domain"
         },
         {
@@ -128,7 +126,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The topmost NINE, undivided, shows its subject with help accorded to him from Heaven. There will be good fortune, advantage in every respect.",
+          "text": "6. The topmost line, undivided, shows its subject help accorded to him from Heaven. There will be good fortune, advantage in every respect. SECT, I.",
           "citation_status": "public_domain"
         },
         {
@@ -145,5 +143,29 @@
         "destined success"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.546106Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 90,
+      "leaf_end": 93,
+      "page_candidates": [
+        "150",
+        "151",
+        "4",
+        "152",
+        "153",
+        "1",
+        "i",
+        "155",
+        "156",
+        "7",
+        "3",
+        "2"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

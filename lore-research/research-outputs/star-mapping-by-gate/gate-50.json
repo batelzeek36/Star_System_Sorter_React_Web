@@ -1,0 +1,278 @@
+{
+  "50.1": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Refuses corrupted rules; sovereignty to uphold clean values before service."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Early standards check—safety, fitness, and ethics before engaging."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guardian instinct—sniffs out corrupt influence at the gate."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain, dignified comportment makes values receivable."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "‘Because I said so’—law used to compel conformity."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to hold the line quietly when pressure rises."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Protective care—values that nourish the household first."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching values hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-50.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "50.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines forced moralizing; values must be freely held."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Applies standards to roles/supplies—clean provisioning protocols."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Screens for freeloaders or exploiters to protect the store."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Simple, elegant norms improve adoption."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Etiquette masks control—‘proper’ is weaponized."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honor the bargain: fair share in, fair share out."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Care economy—resource placement that truly feeds the tribe."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical standards phase; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-50.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "50.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after moral manipulation or imposed guilt."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—over/under-enforcement while calibrating values."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Policing as rank display; punishment culture."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Virtue optics—appearing ‘good’ replaces being good."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Doctrine over life—rigid codes suppress context."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit hypocrisy, restore proportion."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Appeasement ‘care’ that enables corruption."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging of ethical sense; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-50.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "50.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Advocates values that protect sovereignty, not control."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Translates values into protocols—thresholds, procedures, reviews."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Perimeter ethics—intercept corrupt actors before harm."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Dignified tone helps the tribe absorb the code."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—code ossifies, nuance dies."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—enforce proportionately, protect the weak."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Humane enforcement keeps bonds safe and nourished."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Values protocol teaching—law of proportionate care and justice.",
+      "confidence": 4,
+      "sources": ["gate-line-50.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "values-protocol/tribal-law",
+      "keywords": ["thresholds", "reviews", "proportion", "care", "justice"]
+    }
+  },
+  "50.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that sanctifies corrupt authority as ‘tradition.’"
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as moral custodian → burnout/scapegoat when refusing bad codes."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Disciplinary theatrics for status and control."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic steadiness—quiet credibility under scrutiny."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Law-as-image—PR and punishment to consolidate hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—apply the code only where it truly fits."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Over-gentle ‘care’ that avoids necessary correction."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethical enforcement despite politics.",
+      "confidence": 4,
+      "sources": ["gate-line-50.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/values-ethics",
+      "keywords": ["ethics", "proportion", "politics", "credibility"]
+    }
+  },
+  "50.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from capture-codes—returns to living law."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder stewardship—audits, renewals, and sunset clauses for the code."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guardian of the store—measured strength against predators."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet majesty—culture tunes to sober, decent conduct."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing the code into untouchable hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—courageous, proportionate judgment under pressure."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude is living law and stewardship, not soothing/bonding."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Law sage—teaches tribal values as living law: proportion, protection, renewal.",
+      "confidence": 4,
+      "sources": ["gate-line-50.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "law-sage/values-stewardship",
+      "keywords": ["renewal", "audit", "proportion", "guardian", "elder", "law"]
+    }
+  }
+}

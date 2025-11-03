@@ -1,0 +1,84 @@
+{
+  "gate": 33,
+  "gate_name": "",
+  "lines": {
+    "33.1": {
+      "line": 1,
+      "hd_title": "Avoidance",
+      "hd_quote": "The wisdom in a weak position to recognize that survival demands complete withdrawal.",
+      "keywords": [
+        "foundation of privacy",
+        "finish before sharing",
+        "auric boundary"
+      ],
+      "behavioral_axis": "Knows to step back right after an experience to process it alone.",
+      "shadow_axis": "Ghosting everyone so no lessons get transmitted.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "33.2": {
+      "line": 2,
+      "hd_title": "Surrender",
+      "hd_quote": "The recognition that surrender to superior forces can be an opportunity to expand one's own strength and eventually triumph.",
+      "keywords": [
+        "projected privacy",
+        "strategic yielding",
+        "strength through retreat"
+      ],
+      "behavioral_axis": "Lets the bigger force pass so it can resume reflection later, stronger.",
+      "shadow_axis": "Publicly ‘private’ but not actually doing the reflection.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "33.3": {
+      "line": 3,
+      "hd_title": "Spirit",
+      "hd_quote": "Privacy as a path to success; or A drive for privacy that will cut off its relationships, often abruptly.",
+      "keywords": [
+        "bonds made/broken around privacy",
+        "essential witness energy",
+        "abrupt exits"
+      ],
+      "behavioral_axis": "Uses privacy to protect the value of the story before sharing.",
+      "shadow_axis": "Cuts people off so hard the story never reaches the collective.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "33.4": {
+      "line": 4,
+      "hd_title": "Dignity",
+      "hd_quote": "A lack of turmoil in retreat.",
+      "keywords": [
+        "calm withdrawal",
+        "religious/mystical tone",
+        "steady witness"
+      ],
+      "behavioral_axis": "Shows others how to retreat gracefully and regenerate.",
+      "shadow_axis": "Retreat becomes moral superiority or spiritual bypassing.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "33.5": {
+      "line": 5,
+      "hd_title": "Timing",
+      "hd_quote": "As important as the timing itself is the ability to keep secret one's intentions until the appropriate moment.",
+      "keywords": [
+        "release protocol",
+        "seducer/seduced wave",
+        "secret until ready"
+      ],
+      "behavioral_axis": "Holds the story until the field is ready to receive it.",
+      "shadow_axis": "Leaks too early, causes confusion or gets locked away.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "33.6": {
+      "line": 6,
+      "hd_title": "Disassociation",
+      "hd_quote": "The ability to let go in retreat, to enjoy privacy.",
+      "keywords": [
+        "roof-level privateness",
+        "permanent retreat",
+        "impersonal witness"
+      ],
+      "behavioral_axis": "Can stay private even when public; observes for humanity.",
+      "shadow_axis": "So withdrawn the collective never benefits.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

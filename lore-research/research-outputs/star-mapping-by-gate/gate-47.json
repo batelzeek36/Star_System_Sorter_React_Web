@@ -1,0 +1,278 @@
+{
+  "47.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses oppressive narratives; keeps sovereignty amid confusion."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Contain and pace inquiry—sort fragments before concluding."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early correctness policing and ranky ‘who gets it’ signals."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Name the question/story-seed so meaning can form."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing doctrine to kill uncertainty instead of thinking."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to hold not-knowing until clarity stabilizes."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Self-soothing and attunement lower mental pressure during sorting."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private consolidation of insight; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-47.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["confusion", "containment"]
+    }
+  },
+  "47.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Holds one’s lens against external pressure—no outsourcing of meaning."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Place the inquiry in right scope, timing, and test path."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Sentinel against predatory critique and sloppy claims."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain phrasing trims drama and aids reception."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to ‘approved’ interpretations over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to stay with the process without overreach."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned support steadies nerves while patterning emerges."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement, not yet codified teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-47.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["scope", "testing"]
+    }
+  },
+  "47.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim/savior narratives outsource authorship of meaning."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Overfitting patterns—misplaced timing and weak method."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Clique gatekeeping and intimidation around being ‘right.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Rhetoric and optics eclipse the actual realization."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Dogma used to quell ambiguity; compliance over truth."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reduce scope, slow down, re-test assumptions."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasing the audience with easy meanings distorts clarity."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error realization attempts.",
+      "confidence": 5,
+      "sources": ["gate-line-47.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["overfit", "dogma"]
+    }
+  },
+  "47.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reframes oppressive stories—frees the mind to see anew."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds a meaning-making frame—evidence, sequence, review."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guards thresholds; filters bad-faith challenge."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Crafts a clean narrative so the realization lands."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into fixed orthodoxy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity to present difficult truths without force."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Soothing delivery reduces shame and defensiveness."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches realization protocol by example—how to move from confusion to clarity.",
+      "confidence": 4,
+      "sources": ["gate-line-47.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "realization/protocol-teaching",
+      "keywords": ["sequence", "review", "reframe"]
+    }
+  },
+  "47.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses insight to liberate others from oppressive interpretations."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for synthesis—claims, tests, and channels."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to truth over status optics."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Distills the model/phrase that culture can carry."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk: canonizing ‘the correct reading.’"
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when factions demand convenient meanings."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports integration of the realization."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in realization standards—liberation through disciplined meaning-making.",
+      "confidence": 4,
+      "sources": ["gate-line-47.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "realization-standards/teacher",
+      "keywords": ["synthesis", "channels", "claims"]
+    }
+  },
+  "47.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom from oppressive narratives—chooses truth over optics."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for stewardship of realization."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as a gate to ‘real understanding.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words carry the structure of meaning."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Realization canon risks law-over-life control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to accept or withhold conclusions by integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: the canon of realization transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-47.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/realization-canon",
+      "keywords": ["canon", "stewardship", "presence"]
+    }
+  }
+}

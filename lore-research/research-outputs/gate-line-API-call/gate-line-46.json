@@ -1,0 +1,84 @@
+{
+  "gate": 46,
+  "gate_name": "",
+  "lines": {
+    "46.1": {
+      "line": 1,
+      "hd_title": "Being discovered",
+      "hd_quote": "Dedication in obscurity that is unexpectedly discovered.",
+      "keywords": [
+        "hidden devotion",
+        "serendipitous success",
+        "body-as-temple practice"
+      ],
+      "behavioral_axis": "Stay in the experience even when unseen; recognition comes later.",
+      "shadow_axis": "Quits early because no one is watching.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "46.2": {
+      "line": 2,
+      "hd_title": "The Prima Donna",
+      "hd_quote": "A difficult and demanding nature that succeeds despite its behavior because of the depth of its talents.",
+      "keywords": [
+        "projected talent",
+        "right-place aura",
+        "success despite attitude"
+      ],
+      "behavioral_axis": "Talent + embodiment convinces others even if the style is demanding.",
+      "shadow_axis": "Entitled presence that expects reward before it’s earned.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "46.3": {
+      "line": 3,
+      "hd_title": "Projection",
+      "hd_quote": "A practical approach to good fortune that maintains the same patterns.",
+      "keywords": [
+        "trial-and-error experience",
+        "defend the pattern",
+        "don’t get pulled out"
+      ],
+      "behavioral_axis": "Keeps to what works; stays in the experience until complete.",
+      "shadow_axis": "Lets others’ projections interrupt the flow → stalled success.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "46.4": {
+      "line": 4,
+      "hd_title": "Impact",
+      "hd_quote": "The ability, once recognized, to move rapidly from obscurity to influence.",
+      "keywords": [
+        "sudden visibility",
+        "social externalization",
+        "recognized embodiment"
+      ],
+      "behavioral_axis": "Once seen, they externalize their experience and climb fast.",
+      "shadow_axis": "Forgets allies after success; appears ungrateful.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "46.5": {
+      "line": 5,
+      "hd_title": "Pacing",
+      "hd_quote": "The maintenance of proper rhythm that avoids radical divergence from successful patterns.",
+      "keywords": [
+        "projection management",
+        "stay with what works",
+        "don’t get stuck"
+      ],
+      "behavioral_axis": "Honors the cycle that’s bringing luck but knows when to stop.",
+      "shadow_axis": "Lets others’ projections trap them in a dying pattern.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "46.6": {
+      "line": 6,
+      "hd_title": "Integrity",
+      "hd_quote": "The wisdom to secure one's identity through careful consideration of commitments.",
+      "keywords": [
+        "roof-level discernment",
+        "embodied wisdom",
+        "commitment filters"
+      ],
+      "behavioral_axis": "Only enters experiences that will feed back value to the collective.",
+      "shadow_axis": "Overextends and later must break promises.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

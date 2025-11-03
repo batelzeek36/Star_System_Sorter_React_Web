@@ -1,0 +1,84 @@
+{
+  "gate": 38,
+  "gate_name": "",
+  "lines": {
+    "38.1": {
+      "line": 1,
+      "hd_title": "Qualification",
+      "hd_quote": "Tempering opposition based on circumstances.",
+      "keywords": [
+        "discerns real battles",
+        "psychic 'when to fight'",
+        "pressure management"
+      ],
+      "behavioral_axis": "Fights only for what is truly of value; everything else gets ignored.",
+      "shadow_axis": "Fights everything by default; drains root energy.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "38.2": {
+      "line": 2,
+      "hd_title": "Politeness",
+      "hd_quote": "Opposition that does not transgress normal codes of behavior.",
+      "keywords": [
+        "polite warrior",
+        "discreet struggle",
+        "non-escalating pressure"
+      ],
+      "behavioral_axis": "Signals opposition without blowing up the field.",
+      "shadow_axis": "Over-politeness that becomes servile and defeats the struggle.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "38.3": {
+      "line": 3,
+      "hd_title": "Alliance",
+      "hd_quote": "The ability to sustain through integration with similar forces, thus ensuring the vitality to persevere.",
+      "keywords": [
+        "bonds made/broken",
+        "ally while aims align",
+        "selfish coalitioning"
+      ],
+      "behavioral_axis": "Teams up when others fight the same enemy.",
+      "shadow_axis": "Lets others do the fighting, then takes the win.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "38.4": {
+      "line": 4,
+      "hd_title": "Investigation",
+      "hd_quote": "Analysis which strengthens opposition.",
+      "keywords": [
+        "intel-based fighter",
+        "who can empower",
+        "trust-filter"
+      ],
+      "behavioral_axis": "Investigates which people actually empower the individual struggle.",
+      "shadow_axis": "Aggressive to anyone who tries to influence.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "38.5": {
+      "line": 5,
+      "hd_title": "Alienation",
+      "hd_quote": "A stage in opposition where one is totally isolated.",
+      "keywords": [
+        "public sees you alone",
+        "stubborn endurance",
+        "right-to-fight aura"
+      ],
+      "behavioral_axis": "Holds the fight alone so the cause can be discovered by others.",
+      "shadow_axis": "Feels imprisoned by endless solo struggle.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "38.6": {
+      "line": 6,
+      "hd_title": "Misunderstanding",
+      "hd_quote": "Opposition without basis.",
+      "keywords": [
+        "mutative but opaque",
+        "fights for unseen value",
+        "eventual crystallization"
+      ],
+      "behavioral_axis": "Holds a struggle no one understands yet; clarity comes later.",
+      "shadow_axis": "Perpetual opposition that looks pointless and attracts resistance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

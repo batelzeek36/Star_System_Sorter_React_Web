@@ -1,0 +1,84 @@
+{
+  "gate": 57,
+  "gate_name": "The Gentle / The Gate of Intuitive Clarity",
+  "lines": {
+    "57.1": {
+      "line": 1,
+      "hd_title": "Subtle sensitivity",
+      "hd_quote": "Sensitivity to even the smallest disturbance in the present moment.",
+      "keywords": [
+        "first-warning radar",
+        "micro-signal detection",
+        "tunes to tiny shifts"
+      ],
+      "behavioral_axis": "Lives very close to the moment so danger can be felt before it arrives.",
+      "shadow_axis": "Signal gets drowned by noise → doubts intuition → loses confidence.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "57.2": {
+      "line": 2,
+      "hd_title": "Practical intuition",
+      "hd_quote": "Intuition applied to correct and support what is here now.",
+      "keywords": [
+        "hands-on clarity",
+        "real-time adjustment",
+        "supportive correction"
+      ],
+      "behavioral_axis": "Uses the hunch to make an immediate, useful fix.",
+      "shadow_axis": "Sees what’s off but stays silent → situation decays.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "57.3": {
+      "line": 3,
+      "hd_title": "Testing clarity",
+      "hd_quote": "Awareness that probes unclear situations until the pattern is recognized.",
+      "keywords": [
+        "trial-and-error spleen",
+        "probes for truth",
+        "learning by bumps"
+      ],
+      "behavioral_axis": "Keeps nudging the field to find the correct, safe way forward.",
+      "shadow_axis": "Mistakes = “I’m not intuitive” → overcautious or reckless swings.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "57.4": {
+      "line": 4,
+      "hd_title": "Discreet influence",
+      "hd_quote": "Intuitive insight used to place people and relationships correctly.",
+      "keywords": [
+        "social tuner",
+        "network-sensitive",
+        "placement clarity"
+      ],
+      "behavioral_axis": "Uses soft knowing to organize people where they thrive.",
+      "shadow_axis": "If ignored, quietly withdraws its clarity from the group.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "57.5": {
+      "line": 5,
+      "hd_title": "Trusted clarity",
+      "hd_quote": "Refined intuition others naturally rely on for guidance.",
+      "keywords": [
+        "projected intuition",
+        "recognized knowing",
+        "guiding presence"
+      ],
+      "behavioral_axis": "When invited, delivers crystal-clear, timely knowing.",
+      "shadow_axis": "If uninvited or disrespected, withholds and seems distant.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "57.6": {
+      "line": 6,
+      "hd_title": "Foresight",
+      "hd_quote": "Penetrating awareness that senses what is coming and prepares.",
+      "keywords": [
+        "future-scenting",
+        "long-horizon spleen",
+        "protective vision"
+      ],
+      "behavioral_axis": "Holds a very high-resolution picture of what’s approaching.",
+      "shadow_axis": "If future looks dark, can become anxious or overly controlling.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

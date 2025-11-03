@@ -1,0 +1,84 @@
+{
+  "gate": 11,
+  "gate_name": "",
+  "lines": {
+    "11.1": {
+      "line": 1,
+      "hd_title": "Attunement",
+      "hd_quote": "The serendipity of being in the right place at the right time.",
+      "keywords": [
+        "right timing",
+        "inner listening",
+        "environment fit"
+      ],
+      "behavioral_axis": "Tunes ideas to place and timing before sharing.",
+      "shadow_axis": "Pushes ideas at the wrong moment; misses the window.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "11.2": {
+      "line": 2,
+      "hd_title": "Rigor",
+      "hd_quote": "You are projecting ideas out without the value of introspection.",
+      "keywords": [
+        "projection",
+        "boredom with ideas",
+        "inner rigor"
+      ],
+      "behavioral_axis": "Applies vigilance so ideas mature before exposure.",
+      "shadow_axis": "Projects half-baked concepts; chases attention.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "11.3": {
+      "line": 3,
+      "hd_title": "The Realist",
+      "hd_quote": "Ideas are transitory.",
+      "keywords": [
+        "trial-and-error ideation",
+        "bonding then breaking",
+        "imagination reset"
+      ],
+      "behavioral_axis": "Learns which ideas endure by cycling through many.",
+      "shadow_axis": "Treats every idea as truth; stirs drama.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "11.4": {
+      "line": 4,
+      "hd_title": "The Teacher",
+      "hd_quote": "The ability to express the essential nature of peace.",
+      "keywords": [
+        "teaches the core concept",
+        "fixes on one idea",
+        "influences network"
+      ],
+      "behavioral_axis": "Externalizes a single clear idea that others can grasp.",
+      "shadow_axis": "Dogmatic; limits wisdom to a chosen few.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "11.5": {
+      "line": 5,
+      "hd_title": "The Philanthropist",
+      "hd_quote": "The motiveless nurturing of the disenfranchised to ensure harmony.",
+      "keywords": [
+        "universalizing ideas",
+        "give ideas away",
+        "protective outreach"
+      ],
+      "behavioral_axis": "Shares ideas for collective benefit without needing credit.",
+      "shadow_axis": "Withholds direct contact; gives ideas as defense.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "11.6": {
+      "line": 6,
+      "hd_title": "Adaptability",
+      "hd_quote": "The inner balance to accept transition.",
+      "keywords": [
+        "idea cycles",
+        "form changes",
+        "big-picture timing"
+      ],
+      "behavioral_axis": "Tracks when ideas end and new ones must emerge.",
+      "shadow_axis": "Speculates for personal gain; aloof from people.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

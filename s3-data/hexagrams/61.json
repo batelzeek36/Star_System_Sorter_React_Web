@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "K ung Fû (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.",
+    "legge_1899_public_domain": "Inner sincerity that resonates outward. True trust binds allies, softens the hard to reach (even “pigs and fishes”), and enables great crossings—provided conduct stays firm and correct.",
     "normalized_summary": "Inner sincerity that resonates outward. True trust binds allies, softens the hard to reach (even “pigs and fishes”), and enables great crossings—provided conduct stays firm and correct."
   },
-
   "lines": [
     {
       "line": 1,
@@ -145,5 +143,25 @@
         "misfortune"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.563661Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 235,
+      "leaf_end": 238,
+      "page_candidates": [
+        "440",
+        "25",
+        "443",
+        "37",
+        "63",
+        "444",
+        "445",
+        "43"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

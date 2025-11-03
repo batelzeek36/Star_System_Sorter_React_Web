@@ -1,0 +1,84 @@
+{
+  "gate": 32,
+  "gate_name": "The Gate of Continuity (Duration)",
+  "lines": {
+    "32.1": {
+      "line": 1,
+      "hd_title": "Conservation",
+      "hd_quote": "A life sustaining respect and attention to all aspects of a process.",
+      "keywords": [
+        "keeps systems alive",
+        "process guardian",
+        "detail-aware continuity"
+      ],
+      "behavioral_axis": "Honors tested methods and slows change so the tribe survives the transition.",
+      "shadow_axis": "Overprotects legacy systems and resists necessary upgrades.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "32.2": {
+      "line": 2,
+      "hd_title": "Restraint",
+      "hd_quote": "The control of power for the benefit and enhancement of harmony.",
+      "keywords": [
+        "measured use of influence",
+        "tribal protection",
+        "non-reactive change"
+      ],
+      "behavioral_axis": "Uses instinct to decide when to apply or withhold transformative pressure.",
+      "shadow_axis": "Bottles change so long the field stagnates.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "32.3": {
+      "line": 3,
+      "hd_title": "Lack of continuity",
+      "hd_quote": "Indecision in times of transformation.",
+      "keywords": [
+        "hesitant change",
+        "reassessment loop",
+        "testing viability"
+      ],
+      "behavioral_axis": "Keeps re-evaluating whether the change will actually endure.",
+      "shadow_axis": "Gets stuck in indecision and loses tribal trust.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "32.4": {
+      "line": 4,
+      "hd_title": "Right is might",
+      "hd_quote": "The instinct to maintain one's principles in times of change.",
+      "keywords": [
+        "principled adaptation",
+        "value-based continuity",
+        "tribal standards"
+      ],
+      "behavioral_axis": "Holds the line on core values while everything shifts.",
+      "shadow_axis": "Becomes dogmatic and rejects healthy innovation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "32.5": {
+      "line": 5,
+      "hd_title": "Flexibility",
+      "hd_quote": "Easy adaption to circumstances.",
+      "keywords": [
+        "adaptive conservatism",
+        "smart pivot",
+        "contextual transformation"
+      ],
+      "behavioral_axis": "Knows what to keep and what to bend so continuity survives.",
+      "shadow_axis": "Over-bends and dilutes the original successful pattern.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "32.6": {
+      "line": 6,
+      "hd_title": "Tranquillity",
+      "hd_quote": "The need to calmly face impermanence.",
+      "keywords": [
+        "calm transformation",
+        "legacy thinking",
+        "high-level continuity"
+      ],
+      "behavioral_axis": "Accepts that change is constant and continuity is an art.",
+      "shadow_axis": "Detached calm looks like indifference to tribal survival risks.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

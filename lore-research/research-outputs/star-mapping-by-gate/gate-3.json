@@ -1,0 +1,278 @@
+{
+  "3.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Shock/chaos at the start is raw adaptation, not liberation/rescue action."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Stabilize turbulence, build a workable base, contain the spike—classic Arcturan crisis-structure setup."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early chaos can trigger dominance grabs or status policing when safety feels scarce."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/creative-display motif."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Reflex to impose rigid rules to stop the chaos—control-first response."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Micro-ordeal: hold courage and discipline while order is forged from disorder."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle attunement/soothing stabilizes bonds during the messy beginning."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No sacred-instruction vector yet—this is pre-teaching stabilization.",
+      "confidence": 5,
+      "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "3.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Improvising through instability ≠ anti-domination rescue."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Private specialist engineering: elegant quick fixes and interference control are Arcturan field-tech."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Stress can provoke pecking-order behavior or hard-edged gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistic expression axis."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Temptation to force compliance for the sake of speed/stability."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Improvisation under pressure as trial—finding the honorable, workable move."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeping bonds intact and soothing fray while solutions take hold."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Receiving guidance ≠ transmitting sacred law/teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "3.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gritty resilience through failures isn’t liberation work."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Diagnostic stress-testing to evolve toward functional order—Arcturan calibration."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Frustration can tilt into competitive posturing or rank-defensiveness."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Forcing premature conformity to ‘the plan’ to avoid more mess."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Initiatory grind: repeated trials forge right order from chaos."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sensitivity to feedback/belonging shapes adaptive iteration."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging phase, not transmission of cosmic law.",
+      "confidence": 5,
+      "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "3.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Containment of disorder ≠ chain-breaking mission."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Translate unstable beginnings into stable protocol and anchors—Arcturan hallmark."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract clique enforcement or status gating."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic-display vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of ossifying ‘what works’ into rigid doctrine/hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentoring by steadiness—others pass a quiet ordeal aligning to order."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational attunement helps translate chaos into usable norms."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-procedure: codifying the lesson as protocol transmits higher order.",
+      "confidence": 4,
+      "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "protocol-teaching",
+      "keywords": ["stabilization", "codification", "example"]
+    }
+  },
+  "3.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Being cast as fixer/scapegoat is projection dynamics, not liberation action."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "‘Make this broken system work for everyone’ → burnout-healer/scapegoat load (Arcturan shadow)."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Crisis can invite dominance tactics and blame hierarchies."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not creative-display oriented."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection funnels into compliance with authority or doctrinal fixes."
+    },
+    "orion-light": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Integrity under projection is a subtle ordeal of staying true to what actually works."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing/containment soothing can overextend and enable scapegoating."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Boundary-testing moment, not a teaching-transmission event.",
+      "confidence": 5,
+      "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "3.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Long-view evolution stance isn’t a direct anti-oppression mission."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Understands how chaotic starts mature into durable forms—evolution architect/system stabilizer."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Authority aura can drift into status preservation or hard gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Doctrine-lock: over-fixing structure into rigid hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elder trial: holding patience/discipline as forms ripen—initiatory steadiness."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not primarily about bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Transmits matured wisdom: how to move from chaos to lasting order—royal instruction by example.",
+      "confidence": 4,
+      "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "systems-sage",
+      "keywords": ["evolution", "maturation", "protocol"]
+    }
+  }
+}

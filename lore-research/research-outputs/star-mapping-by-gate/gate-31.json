@@ -1,0 +1,278 @@
+{
+  "31.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses to seize power; waits for rightful call—sovereign influence."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Organizes the voice—right role, scope, and tempo for influence."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status optics can creep in—rank signaling around the mic."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Clean phrasing and tone help the message land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of forcing authority via rules instead of consent."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to speak for the group without overreach."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attuned tone keeps the field receptive to leadership."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Early self-regulation of voice; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-31.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "31.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Holds mandate without surrendering to flattery or pressure."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places authority within scope, timing, and proper channel."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards thresholds—who speaks for whom and when."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refines wording so representation is clear."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Conforming to 'how leaders talk' over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to represent the group rather than self."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Relational attunement to constituents regulates delivery."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational leadership practice; no codified protocol yet.",
+      "confidence": 5,
+      "sources": ["gate-line-31.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "31.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Outsourcing agency to image or sponsors undermines sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplacement of authority—mixed signals and shaky process."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Clique gatekeeping and status-posturing around the podium."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performance eclipses substance—optics over governance."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Rules and slogans used to force compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Trial refines honest influence and scope."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "People-pleasing dilutes clear leadership signals."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error leadership optics.",
+      "confidence": 5,
+      "sources": ["gate-line-31.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "31.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberates process from personality—leadership by mandate."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds fair procedures, cadence, and channels for voice."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Upholds loyalty to process and access rules."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Plain, elegant framing reduces confusion."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into policy-over-life."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled leadership under scrutiny."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attuned facilitation keeps the field cooperative."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches civic leadership protocol by example.",
+      "confidence": 4,
+      "sources": ["gate-line-31.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "civic-leadership-protocol",
+      "keywords": ["mandate", "procedure", "cadence"]
+    }
+  },
+  "31.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses influence to free the group from authoritarian drift."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets governance standards, roles, and accountability."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to agreed process and territory of voice."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Language and tone unify the field around the charter."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk: orthodoxy policing in the name of order."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when pressured by factions."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring stance keeps adoption humane."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in governance/mandate—liberation through teaching standards.",
+      "confidence": 4,
+      "sources": ["gate-line-31.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "governance/mandate-teacher",
+      "keywords": ["charter", "standards", "accountability"]
+    }
+  },
+  "31.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied mandate—leads only to preserve collective freedom."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for civic timing and voice."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to legitimacy."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—clear, unadorned instruction."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Law-over-life risk—leadership canon hardens into dogma."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to accept or decline office by truth."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: civic canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-31.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/civic-canon",
+      "keywords": ["canon", "mandate", "presence"]
+    }
+  }
+}

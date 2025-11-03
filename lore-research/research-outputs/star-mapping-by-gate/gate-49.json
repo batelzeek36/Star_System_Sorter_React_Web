@@ -1,0 +1,278 @@
+{
+  "49.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sets sovereign terms for belonging; declines coercive bonds."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Defines basic principles and pacing—clear container before change."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Threshold guardian—loyalty to values checked at the door."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain ritual/phrasing makes acceptance or refusal legible."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early safety-seeking can harden into intolerance-as-control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to hold a principled ‘no’ without aggression."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Need-awareness and care inform the principle, not hostility."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private value hygiene; no explicit transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-49.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "49.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Rejects exploitation; revolution only when needs require."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places criteria and thresholds—due process before rejection."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to the pact; fair gatekeeping."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Clear, unadorned wording keeps terms receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "‘Our values or else’ can drift into coercive orthodoxy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity to act when the line is crossed."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Protects the vulnerable; nurture-led decision-making."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled application of values, not formal teaching yet.",
+      "confidence": 5,
+      "sources": ["gate-line-49.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "49.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Crowd-pleasing revolt outsources agency to group mood."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Reactive purges and misplacement—process breaks down."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Status witch-hunts and scapegoating in the name of purity."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Virtue theatre eclipses true principle."
+    },
+    "orion-dark": {
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Dogmatic purity tests force compliance over truth."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: stabilize criteria, target, and timing."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement to keep harmony erodes the value set."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error around intolerance.",
+      "confidence": 5,
+      "sources": ["gate-line-49.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["scapegoat", "purity-tests"]
+    }
+  },
+  "49.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates by setting fair, consent-based charter."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Designs principle protocol—criteria, grievance path, review cadence."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guards thresholds; prevents predatory capture of the pact."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Frames a clear cultural statement of values."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policy can ossify into intolerance doctrine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled correction under pressure."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned rollout keeps the community regulated."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches membership/values protocol by example.",
+      "confidence": 4,
+      "sources": ["gate-line-49.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "values/charter-protocol",
+      "keywords": ["criteria", "grievance", "review"]
+    }
+  },
+  "49.5": {
+    "andromeda": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Uses authority to free the group from coercive structures."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards—consent, due process, and fair redistribution of influence."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to the charter; no favoritism."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Cultural rites articulate the revolution without spectacle."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Projection risk: orthodoxy policing in the name of values."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Holds integrity when reform faces factional pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth keeps transitions humane."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in principle law—liberation through clear standards.",
+      "confidence": 4,
+      "sources": ["gate-line-49.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "principle-standards/teacher",
+      "keywords": ["due-process", "charter", "consent"]
+    }
+  },
+  "49.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty: accepts or dissolves bonds by truth."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for principled membership and reform."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to ‘true believers.’"
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Archetypal, spare language sets the culture of values."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Principle canon can drift into law-over-life coercion."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to trigger reform—or abstain—by integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: the canon of principles transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-49.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/principles-canon",
+      "keywords": ["canon", "membership", "presence"]
+    }
+  }
+}

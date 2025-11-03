@@ -1,0 +1,278 @@
+{
+  "42.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses coerced starts; sovereignty chooses which cycle to enter."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Scope, resources, and timing check before commitment—cycle fitness."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Loyalty pressure to ‘begin now’ regardless of viability."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Function and pacing, not an aesthetic/authorship axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Command-and-control starts; sunk-cost coercion from day one."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Discipline to initiate only what can be honorably finished."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Considers human cost so entering a cycle nurtures, not drains."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching cycle hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-42.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "42.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Declines forced pacing; protects consent within growth demands."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Allocates energy, budget, and tempo—growth container engineering."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rank tests around output—‘prove devotion’ to the plan."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Operational cadence over style."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Etiquette/protocol used to override real capacity signals."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Fortitude to work the plan at right tempo, not faster."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Care economy—resourcing people so cycles can complete well."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical resourcing phase; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-42.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "42.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after overcommitments or manipulated starts."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—misreads of timing/resources then overcorrecting."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Clinging to failing cycles to protect status/face."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Optics/branding used to mask cycle failure."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Dogma of continuity—‘finish at all costs’ as control script."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal: admit misreads, trim scope, and reset to finish cleanly."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Appeasement—staying in bad cycles to keep harmony."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no cycle-law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-42.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "42.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Advocates consentful endings; no one is owned by a cycle."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Translates growth into protocol—milestones, exits, harvest rules."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guards gates so scavengers don’t strip the harvest."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain, dignified cadence makes completion receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—‘one right way’ to finish stifles reality."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-practice—finish what you start, at right proportion."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Reciprocity and celebration keep bonds nourished at harvest."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Cycle protocol teaching—law of harvest and rightful endings.",
+      "confidence": 4,
+      "sources": ["gate-line-42.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "cycle-protocol/harvest-law",
+      "keywords": ["milestones", "exits", "harvest", "reciprocity"]
+    }
+  },
+  "42.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that you must finish everyone else’s cycles."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal finisher → burnout/scapegoat when refusing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Status contests over who ‘sees it through’ for rank."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Iconic steadiness without theater; inspires sober completion."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine of duty used to compel endless continuation."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—finish true commitments, decline the rest."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Placating by over-finishing to ‘keep peace’."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethical finisher standards despite pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-42.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/finisher-ethics",
+      "keywords": ["boundaries", "obligation", "harvest", "ethics"]
+    }
+  },
+  "42.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Frees communities from sunk-cost capture—ends what should end."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards—review cycles, sunset clauses, renewal criteria."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Protects stores/harvest so continuity serves life, not predators."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Simple, dignified legacy tone around endings and harvest."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing continuity into hierarchy/identity."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—courage to complete, release, and renew at right time."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is standards/renewal, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Cycle sage—teaches harvest/renewal law by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-42.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "cycle-sage/harvest-renewal-law",
+      "keywords": ["sunset", "renewal", "review", "elder", "law"]
+    }
+  }
+}

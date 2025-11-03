@@ -1,0 +1,278 @@
+{
+  "61.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Keeps sovereignty over one’s inquiry—no outsourcing of inner truth."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Contains the pressure to know with quiet structure and pacing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Vigilant scan for predatory ‘answers’ that exploit mystery."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain naming of the question keeps signal clean."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing doctrine to escape uncertainty."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Courage to sit with not-knowing without proving."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Self-soothing and attunement regulate mental pressure."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private contemplation hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-61.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["mystery", "silence", "containment"]
+    }
+  },
+  "61.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Chooses one’s path of inquiry—no surrender to external authority."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Places conditions for inspiration: timing, scope, environment."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Threshold guard against false certainty and status ‘gurus.’"
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Simple phrasing focuses the question without flair."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to orthodoxy over authentic inquiry."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Disciplined patience to let truth ripen."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned calm and supportive quiet help clarity appear."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement of contemplation, not yet teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-61.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["conditions", "scope", "patience"]
+    }
+  },
+  "61.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim/savior narratives around ‘truth bringers’ outsource agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced methods/timing—container for insight breaks."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Status gatekeeping and intimidation over who ‘knows.’"
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Performative mystique eclipses real realization."
+    },
+    "orion-dark": {
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Dogma used to kill ambiguity and compel compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reduce scope, slow down, validate the insight."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement to keep harmony biases truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error with mystery.",
+      "confidence": 5,
+      "sources": ["gate-line-61.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["dogma", "performance", "overreach"]
+    }
+  },
+  "61.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates inquiry from control; truth pursued without capture."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds contemplation protocol—silence, testing, review cadence."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Filters bad-faith challenges and predatory certainty."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Spare, clear language lets realization land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Method can ossify into rigid canon if over-fixed."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models integrity under pressure to ‘have the answer.’"
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned hosting of silence keeps minds/nerves receptive."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches mystery-hygiene by example—how to move from pressure to clarity.",
+      "confidence": 4,
+      "sources": ["gate-line-61.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "mystery-hygiene/protocol",
+      "keywords": ["silence", "testing", "review"]
+    }
+  },
+  "61.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses realization to free others from oppressive narratives."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for gnosis—claims, evidence, channels of release."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to truth over optics or rank."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Distills a simple frame/story the culture can carry."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk: canonizing ‘correct truth’ as dogma."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity to speak or withhold under pressure to perform."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth helps others meet the mystery without collapse."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in contemplation standards—liberation through disciplined knowing.",
+      "confidence": 4,
+      "sources": ["gate-line-61.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "contemplation-standards/teacher",
+      "keywords": ["claims", "evidence", "channels"]
+    }
+  },
+  "61.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom: lives truth without needing compliance."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for stewardship of realization."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as gate to ‘real truth.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words convey the structure of truth."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Truth canon risks law-over-life control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to accept ambiguity or speak with precision."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: gnosis/mystery canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-61.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/gnosis-canon",
+      "keywords": ["canon", "presence", "stewardship"]
+    }
+  }
+}

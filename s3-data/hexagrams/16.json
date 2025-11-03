@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Yü indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.",
+    "legge_1899_public_domain": "YU indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage. 1, The first line, divided, shows its subject pro claiming his pleasure and satisfaction. There will be evil. 2, The second line, divided, shows one who is firm as a rock. (He sees a thing) without waiting till it has come to pass; with his firm correctness there will be good fortune. 3, The third line, divided, shows one looking up (for favours), while he indulges the feeling of plea sure and satisfaction. If he would understand!— If he be late in doing so, there will indeed be occa sion for repentance. 4, The fourth line, undivided, shows him from whom the harmony and satisfaction come. Great he successful and prosperous, but being so near the fifth line, he should still use the greatest precaution, All men love and honour humility, in itself and without the ad juncts which usually command obedience and respect. Hence his neighbours follow the ruler in the fifth line, though he may not be very rich or powerful, His humility need not keep him from asserting the right, even by force of arms. The subject of the sixth line, which is weak, is outside the game, so to speak, that has been played out. He will use force, but only within his own sphere and to assert what is right. He will not be aggressive. is the success which he obtains. Let him not allow suspicions to enter his mind, and thus friends will gather around him. 5. The fifth line, divided, shows one with a chronic complaint, but who lives on without dying. 6. The topmost line, divided, shows its subject with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no error. XVI, The Yu hexagram denoted to King Wan a condition of harmony and happy contentment throughout the kingdom, when the people rejoiced in and readily obeyed their sovereign. At such a time his appointments and any military undertakings would be hailed and supported, The fourth line, undivided, is the lord of the figure, and being close to the fifth or place of dignity, is to be looked on as the minister or chief officer of the ruler, The ruler gives to him his confidence; and all represented by the other lines yield their obedience, Line 1 is weak, and has for its correlate the strong 4. Its subject may well enjoy the happiness of the time. But he cannot contain h.mself, and proclaims, or boasts of, his satisfaction;—which is evil. Line 2, though weak, is in its correct position, the centre, more- ° \\ 6 ?' er tr '^ am ' Q uietl y and firmly its subject is'able to a 1 e in us p ace, and exercise a far-seeing discrimination. All is indicative of good fortune. , Li \" e 3i ; s ' veak ’ and in an odd place. Immediately below line 4 f * ubje * k eeps looking up to the lord of the figure, and depends on him, thinking of doing nothing, but how to enjoy himself The c °sr wil1 v >s fecriw ’ S The coIlT S J “ f 4 iS tlK V\"' 10 £ happ, lain ll ™t7° S '' \\ “ ° nly “'“r “•“» Mm to £. T.ino f *1__, , , SSSSatsSSS",
     "normalized_summary": "Collective morale is high and aligned. The people are willing to follow, appoint leaders, and mobilize. This is powerful — but it must be guided well. If enthusiasm turns into bragging, indulgence, or paranoia, the blessing degrades."
   },
-
   "lines": [
     {
       "line": 1,
@@ -106,7 +104,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fifth six, divided, shows one with a chronic complaint, but who lives on without dying.",
+          "text": "5. The fifth line, divided, shows one with a chronic complaint, but who lives on without dying.",
           "citation_status": "public_domain"
         },
         {
@@ -128,7 +126,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The topmost six, divided, shows its subject with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no error.",
+          "text": "6. The topmost line, divided, shows its subject with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no error. XVI, The Yu hexagram denoted to King Wan a condition of harmony and happy contentment throughout the kingdom, when the people rejoiced in and readily obeyed their sovereign. At such a time his appointments and any military undertakings would be hailed and supported, The fourth line, undivided, is the lord of the figure, and being close to the fifth or place of dignity, is to be looked on as the minister or chief officer of the ruler, The ruler gives to him his confidence; and all represented by the other lines yield their obedience, Line 1 is weak, and has for its correlate the strong 4. Its subject may well enjoy the happiness of the time. But he cannot contain h.mself, and proclaims, or boasts of, his satisfaction;—which is evil. Line 2, though weak, is in its correct position, the centre, more- ° \\ 6 ?' er tr '^ am ' Q uietl y and firmly its subject is'able to a 1 e in us p ace, and exercise a far-seeing discrimination. All is indicative of good fortune. , Li \" e 3i ; s ' veak ’ and in an odd place. Immediately below line 4 f * ubje * k eeps looking up to the lord of the figure, and depends on him, thinking of doing nothing, but how to enjoy himself The c °sr wil1 v >s fecriw ’ S The coIlT S J “ f 4 iS tlK V\"' 10 £ happ, lain ll ™t7° S '' \\ “ ° nly “'“r “•“» Mm to £. T.ino f *1__, , , SSSSatsSSS",
           "citation_status": "public_domain"
         },
         {
@@ -145,5 +143,26 @@
         "no blame if you pivot"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.546828Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 96,
+      "leaf_end": 99,
+      "page_candidates": [
+        "63",
+        "1",
+        "164",
+        "65",
+        "I",
+        "168",
+        "169",
+        "11",
+        "4"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

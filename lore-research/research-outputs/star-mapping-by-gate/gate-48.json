@@ -1,0 +1,278 @@
+{
+  "48.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses coerced ‘perform depth’; sovereignty to build foundations before service."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Baseline audit—skills, tools, safety, and scope checked before entry."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status bluffing—masking inadequacy to keep rank and control."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Craft humility—quiet practice that favors quality over display."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Credential dogma—‘obey the experts’ as hierarchy enforcement."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to train first; enter only when ready."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Supportive mentoring to reduce fear of inadequacy."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching depth hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-48.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "48.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Depth to free from shoddy control—quality restores sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Quality controls—checklists, standards, repeatable process."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gate guard—keeps weak patterns from entering the system."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Beauty of craft—elegant solutions that feel ‘right’ in the hand."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Perfectionism as control—weaponizing standards to dominate."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Apprenticeship ethic—earn skill, then act."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Patient tutoring makes quality accessible to the tribe."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Quality phase, not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-48.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "48.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice from manipulation that exploits ‘not ready’ fear."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—misjudging readiness, oscillating between over/under-delivery."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Predatory gatekeeping—using ‘depth’ to shame and control."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Performative mastery—optics over substance."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Technocratic hierarchy—expertise as obedience machine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—acknowledge limits, train, return cleanly."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Coddling soothes the fear but withholds real skill-building."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-48.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "48.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Uses depth to unwind capture—restructures for freedom and fitness."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Translates depth into protocol—roles, tools, library, drill cadence."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Perimeter ethics—depth screens deter predation."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Clean design communicates the solution with minimal friction."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—‘only my method’ becomes control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-practice—applied mastery under pressure."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Knowledge-sharing culture—peer support to integrate depth."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Craft protocol teaching—law of standards, drills, and readiness.",
+      "confidence": 4,
+      "sources": ["gate-line-48.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "craft-protocol/standards-law",
+      "keywords": ["checklists", "drills", "library", "protocol"]
+    }
+  },
+  "48.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Refuses propaganda of endless preparation; depth must serve freedom now."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal fixer → burnout/scapegoat when declining poor briefs."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Rank games—hoarding knowledge to keep leverage."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elegant, usable solution—applied beauty, not ornament."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Technocracy—‘trust the experts’ to seize policy control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—deliver only what is truly ready and right."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement—over-helping rather than empowering skill."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: applied depth ethics despite pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-48.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/applied-depth",
+      "keywords": ["application", "readiness", "ethics", "delivery"]
+    }
+  },
+  "48.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from dependence—teaches depth so power returns to many."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards—curriculum, review cycles, stewardship of the knowledge base."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guardrails—keeps the well clean from predatory misuse."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet mastery sets the cultural tone for good workmanship."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing expertise into hierarchy rather than service."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—embodied mastery, precise timing, and clean instruction."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is standards and transmission, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Depth sage—teaches the law of the well: standards, stewardship, and right use.",
+      "confidence": 4,
+      "sources": ["gate-line-48.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "well-sage/law-of-depth",
+      "keywords": ["curriculum", "stewardship", "standards", "elder", "law"]
+    }
+  }
+}

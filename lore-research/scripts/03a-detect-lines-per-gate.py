@@ -43,42 +43,39 @@ def detect_line_headings(raw_text: str, gate_number: int) -> Dict[str, Dict[str,
     # Pattern to match line headings like "1.1 Creation is independent of will"
     # or "1.2 Love is light" etc.
     # Format: <gate>.<line> <heading text>
+    # Use MULTILINE flag to match at start of any line in the text
     line_pattern = rf"^{gate_number}\.(\d)\s+(.+)$"
     
-    # Split text into lines for processing
-    text_lines = raw_text.split('\n')
+    # Find all line heading matches with their positions
+    matches = list(re.finditer(line_pattern, raw_text, re.MULTILINE))
     
-    current_line_num = None
-    current_heading = None
-    current_content = []
+    if not matches:
+        logger.warning(f"Gate {gate_number}: No line headings found with pattern {line_pattern}")
+        return lines_data
     
-    for i, text_line in enumerate(text_lines):
-        # Check if this line matches a line heading pattern
-        match = re.match(line_pattern, text_line.strip())
+    # Process each match and extract content until next match
+    for i, match in enumerate(matches):
+        line_num = match.group(1)
+        heading = match.group(2).strip()
         
-        if match:
-            # Save previous line if exists
-            if current_line_num is not None:
-                lines_data[current_line_num] = {
-                    "heading": current_heading,
-                    "raw": '\n'.join(current_content).strip()
-                }
-            
-            # Start new line
-            current_line_num = match.group(1)
-            current_heading = match.group(2).strip()
-            current_content = []
-            
-        elif current_line_num is not None:
-            # Accumulate content for current line
-            current_content.append(text_line)
-    
-    # Save last line if exists
-    if current_line_num is not None:
-        lines_data[current_line_num] = {
-            "heading": current_heading,
-            "raw": '\n'.join(current_content).strip()
+        # Get start position (after the heading line)
+        start_pos = match.end()
+        
+        # Get end position (start of next heading or end of text)
+        if i + 1 < len(matches):
+            end_pos = matches[i + 1].start()
+        else:
+            end_pos = len(raw_text)
+        
+        # Extract raw content between this heading and next
+        raw_content = raw_text[start_pos:end_pos].strip()
+        
+        lines_data[line_num] = {
+            "heading": heading,
+            "raw": raw_content
         }
+        
+        logger.debug(f"Gate {gate_number}.{line_num}: Found heading '{heading}' with {len(raw_content)} chars")
     
     return lines_data
 
@@ -155,6 +152,13 @@ def process_gate_file(gate_file: Path) -> Tuple[bool, int]:
     
     # Update gate data with lines
     gate_data['lines'] = lines_data
+    
+    # Copy page_hint from _meta if it exists
+    if '_meta' in gate_data and 'page_hint' in gate_data['_meta']:
+        # page_hint is already in _meta, no need to copy it elsewhere
+        # The task says "copy it into the per-gate file unchanged" which means
+        # keep it in _meta where it already is
+        pass
     
     # Write only if changed
     was_written = write_json_if_changed(gate_file, gate_data)

@@ -1,0 +1,84 @@
+{
+  "gate": 10,
+  "gate_name": "",
+  "lines": {
+    "10.1": {
+      "line": 1,
+      "hd_title": "Modesty",
+      "hd_quote": "An innate sense to know and accept one's place.",
+      "keywords": [
+        "humility",
+        "right placement",
+        "purpose through acceptance"
+      ],
+      "behavioral_axis": "Accepts one’s station and acts correctly within it.",
+      "shadow_axis": "Status anxiety; over-sensitivity to perceived slights.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "10.2": {
+      "line": 2,
+      "hd_title": "The Hermit",
+      "hd_quote": "The successful side-stepping of behavioral requirements... through isolation.",
+      "keywords": [
+        "withdrawal to preserve correctness",
+        "non-interference",
+        "self-protection"
+      ],
+      "behavioral_axis": "Withdraws to avoid conditioning and keep behavior pure.",
+      "shadow_axis": "Social avoidance that limits healthy contact.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "10.3": {
+      "line": 3,
+      "hd_title": "The Martyr",
+      "hd_quote": "The futile rejection of standards based on a just awareness.",
+      "keywords": [
+        "trial-and-error ethics",
+        "nonconformity pressure",
+        "behavior tested by life"
+      ],
+      "behavioral_axis": "Learns correct conduct through mistakes and pushback.",
+      "shadow_axis": "Courting controversy or attention as identity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "10.4": {
+      "line": 4,
+      "hd_title": "The Opportunist",
+      "hd_quote": "The acceptance of norms until a successful transformation can be engendered.",
+      "keywords": [
+        "timed change",
+        "holding pattern",
+        "patient externalization"
+      ],
+      "behavioral_axis": "Maintains current role until the right door opens.",
+      "shadow_axis": "Cynical politicking; gamesmanship without action.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "10.5": {
+      "line": 5,
+      "hd_title": "The Heretic",
+      "hd_quote": "Direct and overt challenge to norms.",
+      "keywords": [
+        "projected leadership",
+        "challenging the status quo",
+        "behavioral reform"
+      ],
+      "behavioral_axis": "Embodies corrective behavior that others project onto.",
+      "shadow_axis": "Becomes a target when projections collapse.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "10.6": {
+      "line": 6,
+      "hd_title": "The Role Model",
+      "hd_quote": "The constant example that refocuses the complacent on the basic integrity of set behavior.",
+      "keywords": [
+        "example over words",
+        "long-horizon integrity",
+        "self-conscious exemplar"
+      ],
+      "behavioral_axis": "Lives the standard; teaches through consistent action.",
+      "shadow_axis": "Hyper-self-consciousness; fear of hypocrisy.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

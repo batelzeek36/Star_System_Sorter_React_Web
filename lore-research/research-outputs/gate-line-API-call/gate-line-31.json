@@ -1,0 +1,84 @@
+{
+  "gate": 31,
+  "gate_name": "",
+  "lines": {
+    "31.1": {
+      "line": 1,
+      "hd_title": "Manifestation",
+      "hd_quote": "Influence cannot exist in a vacuum.",
+      "keywords": [
+        "needs voters",
+        "foundation of leadership",
+        "voice of 'I lead'"
+      ],
+      "behavioral_axis": "Knows leadership only functions when there are willing followers to receive the pattern.",
+      "shadow_axis": "Trying to lead without a base; isolated proclamations.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "31.2": {
+      "line": 2,
+      "hd_title": "Arrogance",
+      "hd_quote": "Independent action without guidance.",
+      "keywords": [
+        "projected leader",
+        "jumps the gun",
+        "needs mentoring"
+      ],
+      "behavioral_axis": "Projects leadership before it is recognized; wants to lead now.",
+      "shadow_axis": "Premature action that misfires and erodes credibility.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "31.3": {
+      "line": 3,
+      "hd_title": "Selectivity",
+      "hd_quote": "The ability to carefully assess and choose the proper influence.",
+      "keywords": [
+        "chooses followers",
+        "quality over quantity",
+        "political nose"
+      ],
+      "behavioral_axis": "Targets influence to people who can actually implement the pattern.",
+      "shadow_axis": "Backs the wrong allies; diluted influence.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "31.4": {
+      "line": 4,
+      "hd_title": "Intent",
+      "hd_quote": "The success of influence based on how it is perceived.",
+      "keywords": [
+        "PR-dependent",
+        "perception swing",
+        "not everyone will like it"
+      ],
+      "behavioral_axis": "Understands leadership is judged by public perception, not just content.",
+      "shadow_axis": "Over-manages image; split audience love/hate.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "31.5": {
+      "line": 5,
+      "hd_title": "Self-righteousness",
+      "hd_quote": "Lack of external influence guaranteed by attitude.",
+      "keywords": [
+        "projected leader",
+        "seen as self-serving",
+        "attitude blocks reach"
+      ],
+      "behavioral_axis": "Holds a strong vision but attitude prevents broad acceptance.",
+      "shadow_axis": "Becomes the ‘out of touch’ leader; universalizes personal stance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "31.6": {
+      "line": 6,
+      "hd_title": "Application",
+      "hd_quote": "Actions which match the words and thus guarantee success.",
+      "keywords": [
+        "walk the talk",
+        "timing-sensitive leadership",
+        "trust or not"
+      ],
+      "behavioral_axis": "Knows leadership only lands when words and actions align at the right time.",
+      "shadow_axis": "Sounding like a leader but unable to manifest; perceived hypocrisy.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

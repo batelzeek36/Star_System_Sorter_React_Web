@@ -105,258 +105,314 @@
     - No trailing commas, valid JSON required
   - _Requirements: 3.2, 3.7_
 
-- [x] 4. Validate andromeda-batch1 ↔ gate-line-1 (GOLD STANDARD)
+- [x] 4. Validate andromeda-batch1 ↔ gates 1-8 (GOLD STANDARD)
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
   - Status: Corrected by GPT-5, serves as reference standard
 
-- [x] 5. Validate andromeda-batch2 ↔ gate-line-2 (GOLD STANDARD)
+- [x] 5. Validate andromeda-batch2 ↔ gates 9-16 (GOLD STANDARD)
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
   - Status: Corrected by GPT-5, serves as reference standard
 
-- [x] 6. Validate andromeda-batch3 ↔ gate-line-3 (GOLD STANDARD)
+- [x] 6. Validate andromeda-batch3 ↔ gates 17-24 (GOLD STANDARD)
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
   - Status: Corrected by GPT-5, serves as reference standard
 
-- [x] 7. Validate andromeda-batch4 ↔ gate-line-4
+- [x] 7. Validate andromeda-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
-  - Verify all gate.line keys exist in gate-line-4.json
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
+  - Verify all gate.line keys exist in corresponding gate-line-N.json files
   - Check no cross-contamination from other batches
   - Validate behavioral rationale aligns with source data
 
-- [ ] 8. Validate andromeda-batch5 ↔ gate-line-5
+- [ ] 8. Validate andromeda-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
-  - Verify all gate.line keys exist in gate-line-5.json
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
+  - Verify all gate.line keys exist in corresponding gate-line-N.json files
   - Check no cross-contamination from other batches
   - Validate behavioral rationale aligns with source data
 
-- [ ] 9. Validate andromeda-batch6 ↔ gate-line-6
+- [ ] 9. Validate andromeda-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
-  - Verify all gate.line keys exist in gate-line-6.json
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
+  - Verify all gate.line keys exist in corresponding gate-line-N.json files
   - Check no cross-contamination from other batches
   - Validate behavioral rationale aligns with source data
 
-- [ ] 10. Validate andromeda-batch7 ↔ gate-line-7
+- [ ] 10. Validate andromeda-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/andromeda-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
-  - Verify all gate.line keys exist in gate-line-7.json
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
+  - Verify all gate.line keys exist in corresponding gate-line-N.json files
   - Check no cross-contamination from other batches
   - Validate behavioral rationale aligns with source data
 
-- [ ] 11. Validate arcturus-batch1 ↔ gate-line-1
+- [ ] 11. Validate arcturus-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 12. Validate arcturus-batch2 ↔ gate-line-2
+- [ ] 12. Validate arcturus-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 13. Validate arcturus-batch3 ↔ gate-line-3
+- [ ] 13. Validate arcturus-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 14. Validate arcturus-batch4 ↔ gate-line-4
+- [ ] 14. Validate arcturus-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 15. Validate arcturus-batch5 ↔ gate-line-5
+- [ ] 15. Validate arcturus-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 16. Validate arcturus-batch6 ↔ gate-line-6
+- [ ] 16. Validate arcturus-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 17. Validate arcturus-batch7 ↔ gate-line-7
+- [ ] 17. Validate arcturus-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/arcturus-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 18. Validate draco-batch1 ↔ gate-line-1
+- [ ] 18. Validate draco-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 19. Validate draco-batch2 ↔ gate-line-2
+- [ ] 19. Validate draco-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 20. Validate draco-batch3 ↔ gate-line-3
+- [ ] 20. Validate draco-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 21. Validate draco-batch4 ↔ gate-line-4
+- [ ] 21. Validate draco-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 22. Validate draco-batch5 ↔ gate-line-5
+- [ ] 22. Validate draco-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 23. Validate draco-batch6 ↔ gate-line-6
+- [ ] 23. Validate draco-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 24. Validate draco-batch7 ↔ gate-line-7
+- [ ] 24. Validate draco-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/draco-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
   - Verify gate.line keys match source, no cross-contamination, behavioral alignment
 
-- [ ] 25. Validate lyra-batch1 ↔ gate-line-1
+- [ ] 25. Validate lyra-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
 
-- [ ] 26. Validate lyra-batch2 ↔ gate-line-2
+- [ ] 26. Validate lyra-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
 
-- [ ] 27. Validate lyra-batch3 ↔ gate-line-3
+- [ ] 27. Validate lyra-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
 
-- [ ] 28. Validate lyra-batch4 ↔ gate-line-4
+- [ ] 28. Validate lyra-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
 
-- [ ] 29. Validate lyra-batch5 ↔ gate-line-5
+- [ ] 29. Validate lyra-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
 
-- [ ] 30. Validate lyra-batch6 ↔ gate-line-6
+- [ ] 30. Validate lyra-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
 
-- [ ] 31. Validate lyra-batch7 ↔ gate-line-7
+- [ ] 31. Validate lyra-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/lyra-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
 
-- [ ] 32. Validate orion-dark-batch1 ↔ gate-line-1
+- [ ] 32. Validate orion-dark-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
 
-- [ ] 33. Validate orion-dark-batch2 ↔ gate-line-2
+- [ ] 33. Validate orion-dark-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
 
-- [ ] 34. Validate orion-dark-batch3 ↔ `gate-line-3
+- [ ] 34. Validate orion-dark-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
 
-- [ ] 35. Validate orion-dark-batch4 ↔ gate-line-4
+- [ ] 35. Validate orion-dark-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
 
-- [ ] 36. Validate orion-dark-batch5 ↔ gate-line-5
+- [ ] 36. Validate orion-dark-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
 
-- [ ] 37. Validate orion-dark-batch6 ↔ gate-line-6
+- [ ] 37. Validate orion-dark-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
 
-- [ ] 38. Validate orion-dark-batch7 ↔ gate-line-7
+- [ ] 38. Validate orion-dark-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-dark-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
 
-- [ ] 39. Validate orion-light-batch1 ↔ gate-line-1
+- [ ] 39. Validate orion-light-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
 
-- [ ] 40. Validate orion-light-batch2 ↔ gate-line-2
+- [ ] 40. Validate orion-light-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
 
-- [ ] 41. Validate orion-light-batch3 ↔ gate-line-3
+- [ ] 41. Validate orion-light-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
 
-- [ ] 42. Validate orion-light-batch4 ↔ gate-line-4
+- [ ] 42. Validate orion-light-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
 
-- [ ] 43. Validate orion-light-batch5 ↔ gate-line-5
+- [ ] 43. Validate orion-light-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
 
-- [ ] 44. Validate orion-light-batch6 ↔ gate-line-6
+- [ ] 44. Validate orion-light-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
 
-- [ ] 45. Validate orion-light-batch7 ↔ gate-line-7
+- [ ] 45. Validate orion-light-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/orion-light-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
 
-- [ ] 46. Validate pleiades-batch1 ↔ gate-line-1
+- [ ] 46. Validate pleiades-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
 
-- [ ] 47. Validate pleiades-batch2 ↔ gate-line-2
+- [ ] 47. Validate pleiades-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
 
-- [ ] 48. Validate pleiades-batch3 ↔ gate-line-3
+- [ ] 48. Validate pleiades-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
 
-- [ ] 49. Validate pleiades-batch4 ↔ gate-line-4
+- [ ] 49. Validate pleiades-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
 
-- [ ] 50. Validate pleiades-batch5 ↔ gate-line-5
+- [ ] 50. Validate pleiades-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
 
-- [ ] 51. Validate pleiades-batch6 ↔ gate-line-6
+- [ ] 51. Validate pleiades-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
 
-- [ ] 52. Validate pleiades-batch7 ↔ gate-line-7
+- [ ] 52. Validate pleiades-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/pleiades-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
 
-- [ ] 53. Validate sirius-batch1 ↔ gate-line-1
+- [ ] 53. Validate sirius-batch1 ↔ gates 1-8
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch1.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-1.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{1-8}.json`
+  - Contains: Gates 1-8 (8 gates, 48 gate.lines total)
 
-- [ ] 54. Validate sirius-batch2 ↔ gate-line-2
+- [ ] 54. Validate sirius-batch2 ↔ gates 9-16
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch2.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-2.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{9-16}.json`
+  - Contains: Gates 9-16 (8 gates, 48 gate.lines total)
 
-- [ ] 55. Validate sirius-batch3 ↔ gate-line-3
+- [ ] 55. Validate sirius-batch3 ↔ gates 17-24
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch3.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-3.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{17-24}.json`
+  - Contains: Gates 17-24 (8 gates, 48 gate.lines total)
 
-- [ ] 56. Validate sirius-batch4 ↔ gate-line-4
+- [ ] 56. Validate sirius-batch4 ↔ gates 25-32
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch4.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-4.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{25-32}.json`
+  - Contains: Gates 25-32 (8 gates, 48 gate.lines total)
 
-- [ ] 57. Validate sirius-batch5 ↔ gate-line-5
+- [ ] 57. Validate sirius-batch5 ↔ gates 33-40
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch5.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-5.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{33-40}.json`
+  - Contains: Gates 33-40 (8 gates, 48 gate.lines total)
 
-- [ ] 58. Validate sirius-batch6 ↔ gate-line-6
+- [ ] 58. Validate sirius-batch6 ↔ gates 41-48
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch6.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-6.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{41-48}.json`
+  - Contains: Gates 41-48 (8 gates, 48 gate.lines total)
 
-- [ ] 59. Validate sirius-batch7 ↔ gate-line-7
+- [ ] 59. Validate sirius-batch7 ↔ gates 49-64
   - Mapping: `lore-research/research-outputs/star-mapping-drafts/sirius-batch7.json`
-  - Source: `lore-research/research-outputs/gate-line-API-call/gate-line-7.json`
+  - Sources: `lore-research/research-outputs/gate-line-API-call/gate-line-{49-64}.json`
+  - Contains: Gates 49-64 (16 gates, 96 gate.lines total)
 
 - [ ] 60. Merge per-batch files into canonical lookup
 

@@ -1,0 +1,84 @@
+{
+  "gate": 29,
+  "gate_name": "",
+  "lines": {
+    "29.1": {
+      "line": 1,
+      "hd_title": "The draftee",
+      "hd_quote": "The ability to adapt to struggle when necessary but not as a permanent state.",
+      "keywords": [
+        "initiate commitments carefully",
+        "build resilience",
+        "situational engagement"
+      ],
+      "behavioral_axis": "Says yes to experiences that develop stamina, not lifelong entanglements.",
+      "shadow_axis": "Past setbacks create hesitation and missed opportunities.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "29.2": {
+      "line": 2,
+      "hd_title": "Assessment",
+      "hd_quote": "Persistence tempered by caution.",
+      "keywords": [
+        "measured commitment",
+        "prudence",
+        "calibrated yes"
+      ],
+      "behavioral_axis": "Projects readiness to persevere while quietly gauging resources.",
+      "shadow_axis": "Over-cautious if harmony feels threatened.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "29.3": {
+      "line": 3,
+      "hd_title": "Evaluation",
+      "hd_quote": "In this context, properly assessed inaction.",
+      "keywords": [
+        "strategic pause",
+        "risk review",
+        "learned restraint"
+      ],
+      "behavioral_axis": "Knows when not to commit; waits for better terrain.",
+      "shadow_axis": "Perpetual delay becomes avoidance of necessary action.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "29.4": {
+      "line": 4,
+      "hd_title": "Directness",
+      "hd_quote": "The shortest distance between two points is a straight line.",
+      "keywords": [
+        "simple plans",
+        "clean execution",
+        "cut through noise"
+      ],
+      "behavioral_axis": "Commits to the simplest viable route and sticks to it.",
+      "shadow_axis": " blunt directness alienates allies.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "29.5": {
+      "line": 5,
+      "hd_title": "Overreach",
+      "hd_quote": "The tendency to bite off more than one can chew.",
+      "keywords": [
+        "scope control",
+        "resource realism",
+        "energetic budgeting"
+      ],
+      "behavioral_axis": "Checks capacity before saying yes; trims ambition to sustain.",
+      "shadow_axis": "Overcommits, then cannot persevere to completion.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "29.6": {
+      "line": 6,
+      "hd_title": "Confusion",
+      "hd_quote": "The state that exists when momentum outstrips awareness.",
+      "keywords": [
+        "speed vs. clarity",
+        "course correction",
+        "threshold awareness"
+      ],
+      "behavioral_axis": "Slows the yes when awareness lags; re-orients before proceeding.",
+      "shadow_axis": "Withdraws in confusion or says yes blindly.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

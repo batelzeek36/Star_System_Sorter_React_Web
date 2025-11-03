@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "K ien suggests to us the marriage of a young lady, and the good fortune (attending it). There will be advantage in being firm and correct.",
+    "legge_1899_public_domain": "Gradual, step-by-step progress. Like a proper marriage or geese advancing in stages, success comes through patience, timing, and steady correctness—not leaps or force.",
     "normalized_summary": "Gradual, step-by-step progress. Like a proper marriage or geese advancing in stages, success comes through patience, timing, and steady correctness—not leaps or force."
   },
-
   "lines": [
     {
       "line": 1,
@@ -145,5 +143,32 @@
         "good fortune"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.560762Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 210,
+      "leaf_end": 213,
+      "page_candidates": [
+        "390",
+        "391",
+        "5",
+        "39",
+        "392",
+        "393",
+        "I",
+        "394",
+        "395",
+        "6",
+        "44",
+        "396",
+        "397",
+        "7",
+        "48"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

@@ -1,0 +1,278 @@
+{
+  "64.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced certainty; sovereignty to sit with not-yet-knowing."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Begins to sort the fragments—contain, label, and pace the confusion."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Status posturing via ‘I already know’ under pressure."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Image-stream and symbols surge—raw cinematic material before meaning."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Premature doctrine to force closure and obedience."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to wait; hold images loosely until they resolve."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle reassurance so the mind can breathe through the pressure."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Personal image-hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-64.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "64.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines manipulative certainty; keeps choice open while sorting."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Places details and frames—taxonomy, checklists, cadence under ambiguity."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Pedantry used as dominance rather than clarity."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Composes the montage—edits imagery toward a coherent thread."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Jargon/metrics to pretend clarity and compel agreement."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Honorable restraint—name only what is responsibly supported."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps rapport warm so difficult sorting can continue."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement of fragments; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-64.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "64.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims voice after misreads; refuses captured narratives."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Oscillation between over-naming and vagueness while calibrating."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Weaponized ‘corrections’ to shame and control."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Style and flourish eclipse substance in the confusion."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Propaganda spin—false closure to reinstall hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit error, restate with proportion."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Placating edits to ‘keep harmony’ that distort truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging within ambiguity; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-64.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "64.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Names truth to free it from coercive storylines."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Pattern-to-protocol—review cadence, evidence gates, synthesis ritual."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Perimeter checking—keeps hype and predation out of meaning-making."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Artful assembly—images resolve into a story that can be carried."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of canonizing the draft over living truth."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—stay modest and precise as meaning forms."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Hospitable presentation makes complex synthesis receivable."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Revelation-protocol teaching—law of image-to-meaning by example.",
+      "confidence": 4,
+      "sources": ["gate-line-64.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "revelation-protocol/image-to-meaning-law",
+      "keywords": ["revelation", "synthesis", "cadence", "protocol"]
+    }
+  },
+  "64.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Refuses propaganda—no premature closure to please power."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected to ‘speak for all’ → burnout/scapegoat when declining spin."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Fact-policing and public ‘gotchas’ to assert rank."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Credible, unshowy phrasing—beauty in sober clarity."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Narrative control—false certainty to maintain hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—hold the line until meaning is real."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasing simplifications that sand off essential edges."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: revelation ethics under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-64.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/revelation-ethics",
+      "keywords": ["ethics", "revelation", "projection", "clarity"]
+    }
+  },
+  "64.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from false certainty—returns to living clarity."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder synthesis—doctrine of timing, evidence, and review cycles."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards against predatory rewrites of ‘what we know’ without tyranny."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Quiet majesty—refined narrative becomes culture’s memory of truth."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Dogma ossifies; doctrine replaces ongoing revelation."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—right moment, right wording; clarity with courage."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is law, timing, and standards, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Revelation sage—teaches the law of clarity and timing by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-64.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "revelation-sage/law-of-clarity-and-timing",
+      "keywords": ["timing", "clarity", "revelation", "elder", "law"]
+    }
+  }
+}

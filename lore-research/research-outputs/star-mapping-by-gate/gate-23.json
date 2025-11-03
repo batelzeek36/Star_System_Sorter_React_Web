@@ -1,0 +1,278 @@
+{
+  "23.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sovereign voice—express insight without borrowing doctrine."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Condenses insight into clear, simple placement."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early correctness/credential policing can appear."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Elegant phrasing helps the idea land."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Jargon/doctrine as a shield against uncertainty."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to speak plainly despite pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Gentle tone makes the mutation receivable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching articulation; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-23.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "23.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protects sovereign knowing; speaks without surrendering it."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Right timing and framing for the audience."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards against predatory questioning and gotchas."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refines wording toward crispness."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Conforming to 'approved language' over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to hold silence until it’s right to speak."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attuned delivery so the nervous system can hear it."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Careful expression, not codified instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-23.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "23.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Validation-seeking outsources the voice’s sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplacement/oversharing—structure of the message wobbles."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Status gatekeeping: 'genius vs. freak' projections."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performance eclipses clarity."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Grabbing orthodoxy to avoid ridicule or risk."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal of being misunderstood strengthens integrity."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "People-pleasing sands off the truth until it’s vague."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error expression.",
+      "confidence": 5,
+      "sources": ["gate-line-23.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "23.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frees minds with plain speech without capitulating to rank."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds a bridge—formats the insight for the room."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status filters can creep into who is allowed to explain."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elegant phrasing clarifies the image of the idea."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Template risks hardening into doctrine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity under scrutiny—explain without distortion."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Soothing tone lowers resistance to the mutation."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches clarity protocol by example—how to translate insight.",
+      "confidence": 4,
+      "sources": ["gate-line-23.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "clarity-protocol/explainer",
+      "keywords": ["plain-speech", "bridge", "format"]
+    }
+  },
+  "23.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Liberates by dispelling confusion with truthful names."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Codifies definitions and placement—language as structure."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Loyalty to the clarified truth over status spin."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Turns clarity into a cultural phrase or meme."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—definitions as dogma."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity through debate and pressure."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring tone helps adoption without force."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in language law—definitions that liberate understanding.",
+      "confidence": 4,
+      "sources": ["gate-line-23.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "definition/teaching-by-clarity",
+      "keywords": ["definitions", "nomenclature", "standard"]
+    }
+  },
+  "23.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Sovereign speech chooses when to speak; breaks dogma by presence."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for clarity and timing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as gatekeeper of truth."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—beauty in minimal, exact phrasing."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Law-over-life risk if clarity becomes rigid canon."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model integrity to speak or stay silent by truth."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is clarity/standard, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: canon of plain speech and right-timed expression.",
+      "confidence": 4,
+      "sources": ["gate-line-23.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/plain-speech-canon",
+      "keywords": ["silence", "clarity", "standard-setting"]
+    }
+  }
+}

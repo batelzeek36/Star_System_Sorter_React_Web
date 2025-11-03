@@ -8,6 +8,7 @@
 
 import { loreBundle } from './lore.bundle';
 import type { LoreRule } from './schemas';
+import type { GateLineMap, GateLineMapping } from './gateline-map';
 
 /**
  * Compute SHA-256 hash of a string
@@ -431,6 +432,88 @@ function normalizeScores(
   }
 
   return percentages;
+}
+
+/**
+ * Compute scores using gate-line mappings (384 gate.lines)
+ * This uses the comprehensive research data from gate-line-API-call + star-mapping-drafts
+ */
+export function computeScoresWithGateLines(
+  extract: HDExtract,
+  gateLineMap: GateLineMap
+): SystemScore[] {
+  // Initialize scores for all systems
+  const systemScores: Record<string, {
+    rawScore: number;
+    contributors: Contributor[];
+  }> = {};
+  
+  // Initialize all systems from the map metadata
+  const systems = gateLineMap._meta?.systems || [];
+  const systemLabels: Record<string, string> = {
+    'andromeda': 'Andromeda',
+    'arcturus': 'Arcturus',
+    'draco': 'Draco',
+    'lyra': 'Lyra',
+    'orion-dark': 'Orion Dark',
+    'orion-light': 'Orion Light',
+    'pleiades': 'Pleiades',
+    'sirius': 'Sirius',
+  };
+  
+  systems.forEach(sys => {
+    const label = systemLabels[sys] || sys;
+    systemScores[label] = { rawScore: 0, contributors: [] };
+  });
+  
+  // Score each activated gate (all 6 lines)
+  if (extract.gates && extract.gates.length > 0) {
+    for (const gate of extract.gates) {
+      // Check all 6 lines for this gate
+      for (let line = 1; line <= 6; line++) {
+        const gateLineKey = `${gate}.${line}`;
+        const mappings = gateLineMap[gateLineKey];
+        
+        if (mappings && Array.isArray(mappings)) {
+          for (const mapping of mappings) {
+            const system = mapping.star_system;
+            const weight = mapping.weight;
+            
+            if (weight > 0 && systemScores[system]) {
+              systemScores[system].rawScore += weight;
+              systemScores[system].contributors.push({
+                key: gateLineKey,
+                weight: weight,
+                label: `Gate ${gate}.${line} (${mapping.alignment_type})`,
+              });
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  // Convert to array and normalize
+  const rawScores = Object.entries(systemScores).map(([system, data]) => ({
+    system,
+    rawScore: data.rawScore,
+    contributors: data.contributors,
+  }));
+  
+  const percentages = normalizeScores(rawScores.map(s => ({
+    system: s.system,
+    rawScore: s.rawScore,
+  })));
+  
+  const scores: SystemScore[] = rawScores.map(s => ({
+    system: s.system,
+    rawScore: s.rawScore,
+    percentage: percentages[s.system],
+    contributors: s.contributors.sort((a, b) => b.weight - a.weight),
+  }));
+  
+  scores.sort((a, b) => b.percentage - a.percentage);
+  return scores;
 }
 
 /**

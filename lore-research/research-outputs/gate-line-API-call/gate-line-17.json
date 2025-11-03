@@ -1,0 +1,84 @@
+{
+  "gate": 17,
+  "gate_name": "Following",
+  "lines": {
+    "17.1": {
+      "line": 1,
+      "hd_title": "Openness",
+      "hd_quote": "The energy to sustain a broad spectrum of stimuli.",
+      "keywords": [
+        "many opinions",
+        "baseline openness",
+        "wide sampling"
+      ],
+      "behavioral_axis": "Collects diverse inputs; forms many preliminary opinions.",
+      "shadow_axis": "Aesthetic bias; only entertains pleasing subjects and ignores the rest.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "17.2": {
+      "line": 2,
+      "hd_title": "Discrimination",
+      "hd_quote": "The benefit of associations based on highest values.",
+      "keywords": [
+        "value-based filtering",
+        "projection hotspot",
+        "who-to-follow sense"
+      ],
+      "behavioral_axis": "Aligns with high-value people and ideas; filters noise.",
+      "shadow_axis": "Projects superiority; tries to impose opinions rather than serve.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "17.3": {
+      "line": 3,
+      "hd_title": "Understanding",
+      "hd_quote": "The awareness that the best road is not necessarily the most interesting.",
+      "keywords": [
+        "toward detail",
+        "proof-seeking",
+        "experiment-ready"
+      ],
+      "behavioral_axis": "Moves opinions toward substantiating detail for testing.",
+      "shadow_axis": "Shortcutting details; weakens the case and blocks experimentation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "17.4": {
+      "line": 4,
+      "hd_title": "The Personnel manager",
+      "hd_quote": "The ability to probe and discover the underlying motivation and resources of those who wish to follow.",
+      "keywords": [
+        "organizer",
+        "placement logic",
+        "resource mapping"
+      ],
+      "behavioral_axis": "Understands people’s motives and places them within the pattern.",
+      "shadow_axis": "Over-accepts followers; susceptibility to manipulation or misuse.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "17.5": {
+      "line": 5,
+      "hd_title": "No man is an island",
+      "hd_quote": "The recognition, however understood, that there is no end to hierarchies.",
+      "keywords": [
+        "interdependence",
+        "hierarchical awareness",
+        "systems thinking"
+      ],
+      "behavioral_axis": "Sees nested hierarchies; leverages networks to propagate sound opinions.",
+      "shadow_axis": "Becomes politicized or dependent on status; groupthink.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "17.6": {
+      "line": 6,
+      "hd_title": "The Bodhisattva",
+      "hd_quote": "Perfected following, one with and the same as perfected leading.",
+      "keywords": [
+        "counsel when asked",
+        "vision of organization",
+        "servant-leader"
+      ],
+      "behavioral_axis": "Embodies service so fully that following and leading merge.",
+      "shadow_axis": "Withholds opinions unless implementation is assured; can appear aloof or arrogant.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

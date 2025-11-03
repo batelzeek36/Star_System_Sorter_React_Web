@@ -6,19 +6,17 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Sui indicates that (under its conditions) there will be great progress and success. But it will be advantageous to be firm and correct. There will (then) be no error.",
+    "legge_1899_public_domain": "Sui indicates that (under its conditions) there will be great progress and success. But it will be advan tageous to be firm and correct. There will (then) be no error. 1. The first line, undivided, shows us one chang ing the object of his pursuit; but if he be firm and correct, there will be good fortune. Going beyond (his own) gate to find associates, he will achieve merit. 2. The second line, divided, shows us one who cleaves to the little boy, and lets go the man of age and experience. 3. The third line, divided, shows us one who cleaves to the man of age and experience, and lets go the little boy. Such following will get what it seeks; but it will be advantageous to adhere to what is firm and correct. 4. The fourth line, undivided, shows us one followed and obtaining (adherents). Though he be firm and correct, there will be evil. If he be sincere (however) in his course, and make that evident, into what error will he fall ? Hence he is represented as suffering from a chronic complaint, but nevertheless he does not die. See Appendix II on the line. Line 6, at the very top or end of the hexagram, is weak, and its subject is all but lost. Still even for him there is a chance of safety, if he will but change. 5. The fifth line, undivided, shows us (the ruler) sincere in (fostering all) that is excellent. There will be good fortune. 6. The topmost line, divided, shows us (that sin cerity) firmly held and clung to, yea, and bound fast. (We see) the king with it presenting his offerings on the western mountain. XVII. Sui symbolises the idea of following, It g said to follow Yfl, the symbol of harmony and satisfaction. Where there are these conditions men are sure to follow; nor will they follow those in whom they have no complacency. The hexagram include*, the cases where one follows others, and where others follow him; and the auspice of great progress and success is due to this flexi bility wid applicability of it. But in both cases the following mm! be guided by a reference to what is proper and correct, Sec the notes on the Thwan and the Great Symbolism. Line 1 is strong, and lord of the lower trigram. The weak lines ought to follow it; but here it is below them, in the lowest place of the figure. This gives rise to the representation of one changing his pursuit, Still through the native vigour indicated by the line being strong, and in its correct place, its subject will be fortunate. Going beyond his gate to find associates indicates his public spirit, and superiority to selfish considerations. Line 2 is weak. Its proper correlate is the strong 5; but it prefers to cleave to the line below, instead of waiting to follow r t . Hence the symbolism of the text, the had omen of which needs not to be mentioned. Line 3 is also weak, but it follows the strong line almve it ami leaves line i, reversing the course of * ;-~with a different issue, ft is weak, however, and 4 is not its proper correlate; hence the con- elusion of the paragraph is equivalent to a caution. Line 4 is strong, and in the place of a great minister next the ruler m 5, But his having adherents may he injurious to the supreme and sole authority of that ruler, and only a sincere loyalty will save mm f rom error and misfortune. Line 5 is strong, and in its correct place, with 2 as its prom correlate; thus producing the auspicious symbolism. ' ' th e ^lf,Tf°n lhe - kXa f im iS SeCn in linc6j presents ideal of following, directed by the most sincere adherence to",
     "normalized_summary": "Following done well is not blind obedience. You align yourself with what is right, and others then align with you. Progress comes from choosing worthy guidance and holding to correct conduct."
   },
-
   "lines": [
     {
       "line": 1,
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The first NINE, undivided, shows us one changing the object of his pursuit; but if he be firm and correct, there will be good fortune. Going beyond (his own) gate to find associates, he will achieve merit.",
+          "text": "1. The first line, undivided, shows us one chang ing the object of his pursuit; but if he be firm and correct, there will be good fortune. Going beyond (his own) gate to find associates, he will achieve merit.",
           "citation_status": "public_domain"
         },
         {
@@ -40,7 +38,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The second SIX, divided, shows us one who cleaves to the little boy, and lets go the man of age and experience.",
+          "text": "2. The second line, divided, shows us one who cleaves to the little boy, and lets go the man of age and experience.",
           "citation_status": "public_domain"
         },
         {
@@ -62,7 +60,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The third SIX, divided, shows us one who cleaves to the man of age and experience, and lets go the little boy. Such following will get what it seeks; but it will be advantageous to adhere to what is firm and correct.",
+          "text": "3. The third line, divided, shows us one who cleaves to the man of age and experience, and lets go the little boy. Such following will get what it seeks; but it will be advantageous to adhere to what is firm and correct.",
           "citation_status": "public_domain"
         },
         {
@@ -84,7 +82,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fourth NINE, undivided, shows us one followed and obtaining (adherents). Though he be firm and correct, there will be evil. If he be sincere (however) in his course, and make that evident, into what error will he fall?",
+          "text": "4. The fourth line, undivided, shows us one followed and obtaining (adherents). Though he be firm and correct, there will be evil. If he be sincere (however) in his course, and make that evident, into what error will he fall ? Hence he is represented as suffering from a chronic complaint, but nevertheless he does not die. See Appendix II on the line. Line 6, at the very top or end of the hexagram, is weak, and its subject is all but lost. Still even for him there is a chance of safety, if he will but change.",
           "citation_status": "public_domain"
         },
         {
@@ -106,7 +104,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fifth NINE, undivided, shows us (the ruler) sincere in (fostering all) that is excellent. There will be good fortune.",
+          "text": "5. The fifth line, undivided, shows us (the ruler) sincere in (fostering all) that is excellent. There will be good fortune.",
           "citation_status": "public_domain"
         },
         {
@@ -128,7 +126,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The topmost SIX, divided, shows us (that sincerity) firmly held and clung to, yea, and bound fast. (We see) the king with it presenting his offerings on the western mountain.",
+          "text": "6. The topmost line, divided, shows us (that sin cerity) firmly held and clung to, yea, and bound fast. (We see) the king with it presenting his offerings on the western mountain. XVII. Sui symbolises the idea of following, It g said to follow Yfl, the symbol of harmony and satisfaction. Where there are these conditions men are sure to follow; nor will they follow those in whom they have no complacency. The hexagram include*, the cases where one follows others, and where others follow him; and the auspice of great progress and success is due to this flexi bility wid applicability of it. But in both cases the following mm! be guided by a reference to what is proper and correct, Sec the notes on the Thwan and the Great Symbolism. Line 1 is strong, and lord of the lower trigram. The weak lines ought to follow it; but here it is below them, in the lowest place of the figure. This gives rise to the representation of one changing his pursuit, Still through the native vigour indicated by the line being strong, and in its correct place, its subject will be fortunate. Going beyond his gate to find associates indicates his public spirit, and superiority to selfish considerations. Line 2 is weak. Its proper correlate is the strong 5; but it prefers to cleave to the line below, instead of waiting to follow r t . Hence the symbolism of the text, the had omen of which needs not to be mentioned. Line 3 is also weak, but it follows the strong line almve it ami leaves line i, reversing the course of * ;-~with a different issue, ft is weak, however, and 4 is not its proper correlate; hence the con- elusion of the paragraph is equivalent to a caution. Line 4 is strong, and in the place of a great minister next the ruler m 5, But his having adherents may he injurious to the supreme and sole authority of that ruler, and only a sincere loyalty will save mm f rom error and misfortune. Line 5 is strong, and in its correct place, with 2 as its prom correlate; thus producing the auspicious symbolism. ' ' th e ^lf,Tf°n lhe - kXa f im iS SeCn in linc6j presents ideal of following, directed by the most sincere adherence to",
           "citation_status": "public_domain"
         },
         {
@@ -145,5 +143,26 @@
         "culmination of following"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.547194Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 99,
+      "leaf_end": 102,
+      "page_candidates": [
+        "168",
+        "169",
+        "11",
+        "4",
+        "1",
+        "VI",
+        "173",
+        "174",
+        "175"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

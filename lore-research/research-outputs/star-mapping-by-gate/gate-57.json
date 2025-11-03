@@ -1,0 +1,278 @@
+{
+  "57.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Claims inner signal; doesn’t outsource clarity to handlers."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Contain and pace the first intuitive flicker; keep the frame simple."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Immediate threat-scan and survival vigilance in the now."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clean tone/phrasing helps the signal be heard."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing rules to silence ambiguity instead of listening."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to hold stillness and act only when the hit is true."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Self-soothing reduces future-fear and keeps perception open."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private intuition hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-57.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["now-sense", "threat-scan", "tone", "stillness"]
+    }
+  },
+  "57.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Keeps sovereignty—chooses when and what to sense."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places conditions for clarity: timing, environment, and scope."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Sentinel against noise, hype, and subtle predation."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Simple, precise wording preserves the signal."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to ‘intuition rules’ over real sensing."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Disciplined restraint—wait for a clean read."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned calm keeps the nervous system receptive."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement, not yet protocol teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-57.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["conditions", "noise-filter", "scope"]
+    }
+  },
+  "57.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Outsourcing to a savior-signal breeds victimhood to ‘signs.’"
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced timing and chaotic method degrade clarity."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Paranoid threat-reading and status intimidation."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performative mystique over truthful sensing."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Dogma of ‘the rules of intuition’ replaces direct perception."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reduce scope, slow down, validate the read."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement to calm fear distorts the signal."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—false positives and overreach.",
+      "confidence": 5,
+      "sources": ["gate-line-57.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["false-positive", "paranoia", "overreach"]
+    }
+  },
+  "57.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberates from fear by re-centering agency in the now."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds intuition hygiene—quieting, breath, test/retrospect loops."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Fair gating: distinguish real threat from static."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Clear tone carries the message without flourish."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process may ossify into ‘only this way’ rules."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models calm integrity under subtle pressure."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Supportive presence regulates the wave of anxiety."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches intuition protocol by example—how to sense without harm.",
+      "confidence": 4,
+      "sources": ["gate-line-57.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "intuition-hygiene/protocol",
+      "keywords": ["quieting", "breath", "retro-check"]
+    }
+  },
+  "57.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses clarity to free others from fear-driven scripts."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for sensing—conditions, validation, and channels."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to truth of signal over optics."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Distills the read into a simple, receivable phrase."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk—canonizing ‘correct intuition’ doctrine."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under pressure—speak or withhold by truth."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth helps others trust their own sensing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in clarity standards—liberation through disciplined sensing.",
+      "confidence": 4,
+      "sources": ["gate-line-57.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "clarity-standards/teacher",
+      "keywords": ["conditions", "validation", "channels"]
+    }
+  },
+  "57.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom: acts or abstains by living clarity, not fear."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for the stewardship of intuition."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to ‘real’ insight."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words carry the signal."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Intuition canon risks law-over-life control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to hold or move with subtle truth."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: intuition canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-57.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/intuition-canon",
+      "keywords": ["canon", "stewardship", "presence"]
+    }
+  }
+}

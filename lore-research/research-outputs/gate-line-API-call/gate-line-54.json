@@ -1,0 +1,84 @@
+{
+  "gate": 54,
+  "gate_name": "",
+  "lines": {
+    "54.1": {
+      "line": 1,
+      "hd_title": "Influence",
+      "hd_quote": "The ability to achieve influence through secret relationships, anywhere from the private adviser to the Satanist.",
+      "keywords": [
+        "back-channel ambition",
+        "rise-by-serving-others",
+        "behind-the-throne"
+      ],
+      "behavioral_axis": "Ambition aimed at helping someone else rise, so you rise with them.",
+      "shadow_axis": "Demands public credit → influence collapses.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "54.2": {
+      "line": 2,
+      "hd_title": "Discretion",
+      "hd_quote": "Don't let them see how ambitious you really are.",
+      "keywords": [
+        "projected modesty",
+        "closed-door deals",
+        "ambition under wraps"
+      ],
+      "behavioral_axis": "Signals reliability by keeping ambitions and alliances out of public view.",
+      "shadow_axis": "Leaks intentions → allies stop trusting the channel.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "54.3": {
+      "line": 3,
+      "hd_title": "Covert interaction",
+      "hd_quote": "The ability, when stymied in formal relationships, to use secret or purely informal channels when it is the only resort.",
+      "keywords": [
+        "trial-and-error alliances",
+        "workaround diplomacy",
+        "ambition under blockage"
+      ],
+      "behavioral_axis": "If the ladder is blocked, it finds side doors and informal patrons.",
+      "shadow_axis": "Shady networks → reputation risk, relationships broken.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "54.4": {
+      "line": 4,
+      "hd_title": "Enlightenment/Endarkenment",
+      "hd_quote": "Do for the totality what you hope the totality will do for you.",
+      "keywords": [
+        "mystical tribe service",
+        "spiritualized ambition",
+        "serve-to-rise"
+      ],
+      "behavioral_axis": "Uses ambition in service of the whole → personal elevation arrives indirectly.",
+      "shadow_axis": "Self-focused ‘enlightenment’ quest that bypasses the tribe.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "54.5": {
+      "line": 5,
+      "hd_title": "Magnanimity",
+      "hd_quote": "The natural authority and actualizing spirit, that in a position of power can have genuine and fruitful relationships with the less advantaged.",
+      "keywords": [
+        "power behind the throne",
+        "projected benefactor",
+        "ambition-through-generosity"
+      ],
+      "behavioral_axis": "Appears generous; actually moving up through empowering others.",
+      "shadow_axis": "If unrecognized → withholds support; ambition stalls.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "54.6": {
+      "line": 6,
+      "hd_title": "Selectivity",
+      "hd_quote": "The energy to restrict relationships that hinder ambition.",
+      "keywords": [
+        "roof-level choosing",
+        "mutual-benefit filter",
+        "ambition-only alliances"
+      ],
+      "behavioral_axis": "Only fuels relationships that can reach the 45/queen level.",
+      "shadow_axis": "Writes people off too quickly → isolation at the top.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -8,9 +8,11 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { useBirthDataStore } from '../store/birthDataStore';
-import { computeScoresWithLore, classify } from '../lib/scorer';
+import { computeScoresWithLore, computeScoresWithGateLines, classify } from '../lib/scorer';
 import { getCanon } from '../lib/canon';
+import { loadGateLineMap } from '../lib/gateline-map';
 import type { HDExtract, ClassificationResult } from '../lib/schemas';
+import type { GateLineMap } from '../lib/gateline-map';
 
 // ============================================================================
 // Types
@@ -70,8 +72,18 @@ export function useClassification(): UseClassificationReturn {
         // Load canon data (for backward compatibility)
         const canon = getCanon();
         
-        // Compute scores using lore bundle (includes enhanced contributors with provenance)
-        const scores = computeScoresWithLore(hdData);
+        // Try to load gate-line map for comprehensive scoring
+        let gateLineMap: GateLineMap | null = null;
+        try {
+          gateLineMap = await loadGateLineMap();
+        } catch (err) {
+          console.warn('Gate-line map not available, falling back to lore bundle:', err);
+        }
+        
+        // Compute scores using gate-line data if available, otherwise use lore bundle
+        const scores = gateLineMap 
+          ? computeScoresWithGateLines(hdData, gateLineMap)
+          : computeScoresWithLore(hdData);
         
         // Classify based on scores (pass hdData for input hash computation)
         const result = classify(scores, canon, hdData);

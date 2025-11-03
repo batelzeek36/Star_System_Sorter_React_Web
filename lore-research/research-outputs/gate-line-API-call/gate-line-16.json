@@ -1,0 +1,84 @@
+{
+  "gate": 16,
+  "gate_name": "",
+  "lines": {
+    "16.1": {
+      "line": 1,
+      "hd_title": "Delusion",
+      "hd_quote": "The expression of talent through daydreaming.",
+      "keywords": [
+        "foundational fantasizing",
+        "prototype in mind",
+        "waiting for energy"
+      ],
+      "behavioral_axis": "Imagines skills vividly; builds internal patterns before the motor arrives.",
+      "shadow_axis": "Claims as fact what’s only envisioned; overpromises.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "16.2": {
+      "line": 2,
+      "hd_title": "The Cynic",
+      "hd_quote": "Self-reliance and the skill to judge objectively any claim regardless of rhetoric.",
+      "keywords": [
+        "objective appraisal",
+        "bubble-burster",
+        "projected sharpness"
+      ],
+      "behavioral_axis": "Filters ideas for feasibility; guards the pattern from hype.",
+      "shadow_axis": "Default ‘no’; demotivates allies with harsh critiques.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "16.3": {
+      "line": 3,
+      "hd_title": "Independence",
+      "hd_quote": "Self-generating and sustaining enthusiasm.",
+      "keywords": [
+        "trial-and-error timing",
+        "self-starting spark",
+        "patience with motors"
+      ],
+      "behavioral_axis": "Holds skills steady; learns correct timing by experimentation.",
+      "shadow_axis": "Overconfidence; relies on others to re-hype after deflation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "16.4": {
+      "line": 4,
+      "hd_title": "The Leader",
+      "hd_quote": "Genuine and sincere support and recognition of others.",
+      "keywords": [
+        "externalization",
+        "talent-spotting",
+        "collective uplift"
+      ],
+      "behavioral_axis": "Identifies energy bearers; organizes talent toward shared goals.",
+      "shadow_axis": "Demagoguery; marshals enthusiasm without depth.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "16.5": {
+      "line": 5,
+      "hd_title": "The Grinch",
+      "hd_quote": "The refusal to share in enthusiasm.",
+      "keywords": [
+        "projected talent",
+        "withholds until ready",
+        "conversion arc"
+      ],
+      "behavioral_axis": "Holds back expression until encouragement and timing align.",
+      "shadow_axis": "Chronic withholding; erodes team morale.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "16.6": {
+      "line": 6,
+      "hd_title": "Gullibility",
+      "hd_quote": "The ability to experience, examine and then reject misleading enthusiasm.",
+      "keywords": [
+        "roof-view critic",
+        "anti-hype detector",
+        "search for lasting form"
+      ],
+      "behavioral_axis": "Tests many styles; commits only to patterns that endure.",
+      "shadow_axis": "Perpetual critic; withholds talent from worthy projects.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "gate": 47,
+  "gate_name": "",
+  "lines": {
+    "47.1": {
+      "line": 1,
+      "hd_title": "Taking Stock",
+      "hd_quote": "The ability in times of hardship to concentrate on eradicating the negative factors that have led to oppression.",
+      "keywords": [
+        "foundational introspection",
+        "clearing old narratives",
+        "mental housekeeping"
+      ],
+      "behavioral_axis": "Looks back to identify what went wrong so realization can emerge.",
+      "shadow_axis": "Projects blame outward and can’t stop reviewing the past.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "47.2": {
+      "line": 2,
+      "hd_title": "Ambition",
+      "hd_quote": "The ambition and drive to overcome personal oppression in order to achieve security.",
+      "keywords": [
+        "busy to stay sane",
+        "projection line",
+        "escape through activity"
+      ],
+      "behavioral_axis": "Stays active so the mind doesn’t sink into oppression.",
+      "shadow_axis": "Gets busy with the wrong things and oppression returns.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "47.3": {
+      "line": 3,
+      "hd_title": "Self-Oppression",
+      "hd_quote": "The conscious and well integrated being whose natural right action will eventually come to see the unfoundedness of its oppression.",
+      "keywords": [
+        "turning point through experience",
+        "emotional wave awareness",
+        "counsellor of ordeal"
+      ],
+      "behavioral_axis": "Learns that the mind’s oppression isn’t the present-moment reality.",
+      "shadow_axis": "Loops in self-oppression and can’t accept ‘I’m actually okay today.’",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "47.4": {
+      "line": 4,
+      "hd_title": "Repression",
+      "hd_quote": "The constraints of external oppression.",
+      "keywords": [
+        "fixed external issue",
+        "identity under pressure",
+        "can still nourish others"
+      ],
+      "behavioral_axis": "Holds identity steady even when outer forces won’t resolve.",
+      "shadow_axis": "Personalizes all external pressure and burns out.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "47.5": {
+      "line": 5,
+      "hd_title": "The Saint",
+      "hd_quote": "The gift in times of oppression to maintain, without hypocrisy, a harmonic relationship with one's oppressors, while providing aid and succor to the oppressed.",
+      "keywords": [
+        "universalizer of the ordeal",
+        "grace in pressure",
+        "service while oppressed"
+      ],
+      "behavioral_axis": "Shows everyone oppression can be lived with grace and usefulness.",
+      "shadow_axis": "Becomes over-available because ‘there is nothing else to do.’",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "47.6": {
+      "line": 6,
+      "hd_title": "Futility",
+      "hd_quote": "Life as an ordeal stripped of realization.",
+      "keywords": [
+        "ajna anxiety apex",
+        "sees limits of mind",
+        "seeks truth beyond pattern"
+      ],
+      "behavioral_axis": "Knows mental realization can’t fully end oppression; conserves resources.",
+      "shadow_axis": "Depression, ‘why bother,’ rejects all attempts at meaning.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

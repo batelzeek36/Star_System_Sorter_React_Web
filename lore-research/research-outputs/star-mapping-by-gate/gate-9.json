@@ -1,0 +1,278 @@
+{
+  "9.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focusing on small tasks is inner regulation, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets a clean attention container and workable cadence—detail-first stabilization."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early anxiety can flip into correctness policing of details."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/creative-display axis."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Grabbing rigid rules to ‘control’ concentration—micromanagement tilt."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Micro-ordeal of discipline: hold focus despite noise and uncertainty."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Gentle self-soothing supports staying with the small."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching focus; no method transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-9.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "9.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Protecting attention from interference ≠ anti-domination mission."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Functional pacing and boundaries keep the focus container coherent."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping around the ‘right’ way to focus can surface."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Procedural rigidity to force productivity when threatened."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable restraint: wait and act only when timing and focus align."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Attunement to conditions/safety sustains concentration."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Process stewardship without explicit teaching/codification yet.",
+      "confidence": 5,
+      "sources": ["gate-line-9.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "9.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Struggle with scattered focus is personal regulation, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Choppy regulation: pattern breaks and anxious timing tweaks."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Defensiveness can turn into rank/‘my method’ posturing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Forcing routines to control anxiety; compliance over clarity."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Trial-by-frustration: cultivate patience and discipline until focus holds."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing and interruptions erode concentration."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging stage; no teaching transmission.",
+      "confidence": 5,
+      "sources": ["gate-line-9.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "9.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Stabilizing focus into a system ≠ chain-breaking action."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Converts concentration into repeatable method—checklists/protocols."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract status gating over who edits the method."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Doctrine-lock risk: mistaking process for law."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentor-by-steadiness: others face the ordeal of aligning to method."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational pacing helps the team adopt the method."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-method: teaching focus through the protocol itself.",
+      "confidence": 4,
+      "sources": ["gate-line-9.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "method-teaching",
+      "keywords": ["checklist", "protocol", "focus"]
+    }
+  },
+  "9.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Being recognized for reliability is stewardship, not liberation work."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Dependable cadence others can organize around—container excellence."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Authority aura can slip into ‘right way’ policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not about artistic authorship."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection into authority can harden into compliance enforcement."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Leadership-by-discipline in the open—focus under visibility."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Timing care so receivers aren’t overwhelmed."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Focus mentor: demonstrates the law of attention as living instruction.",
+      "confidence": 4,
+      "sources": ["gate-line-9.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "focus-mentor",
+      "keywords": ["concentration", "example", "cadence"]
+    }
+  },
+  "9.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Long-view concentration isn’t a direct rescue vector."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder mastery of pacing and detail stabilizes systems across cycles."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Status-preserving rigidity can creep in around legacy methods."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning focus into dogma/hierarchy rather than living practice."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elder ordeal: humility and discipline to serve the work, not the ego."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is system integrity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Concentration sage—teaches attention as a law through embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-9.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "concentration-sage",
+      "keywords": ["cycles", "discipline", "example"]
+    }
+  }
+}

@@ -6,19 +6,17 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Po indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.",
+    "legge_1899_public_domain": "P 0 indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever. Line 2 is weak and in its proper place, but with no proper cor relate above. The strong line 3 is similarly situated. These two lines therefore keep together, and are as the beard and the chin. Line 1 follows 2. What is substantial commands and rules what is merely ornamental. Line 3 is strong, and between two weak lines, which adorn it, and bestow their favours on it. But this happy condition is from the accident of place. The subject of the line must be always correct and firm to ensure its continuance. Line 4 has its proper correlate in 1, from whose strength it should receive ornament, but 2 and the strong 3 intervene and keep them apart, so that the ornament is only white, and of no bright colour. Line 4, however, is faithful to 1, and earnest for their union. And finally line 3 appears in a good character, and not with the purpose to injure, so that the union of 1 and 4 takes place. All this is intended to indicate how ornament recognises the superiority of solidity. Compare the symbolism of the second line of ATin (3), and that of the topmost line of Khwei (38). Line 5 is in the place of honour, and has no proper correlate in 2. It therefore associates with the strong 6, which is symbolised by the heights and gardens round a city, and serving both to protect and to beautify it. Thus the subject of the line receives adorning from without, and does not of itself try to manifest it. Moreover, in his weakness, his offerings of ceremony are poor and mean. But, as Confucius said, 1 In ceremonies it is better to be sparing than extravagant.’ Hence that stinginess does not prevent a good auspice. Line 6 is at the top of the hexagram. Ornament has had its course, and here there is a return to pure, ‘white,’ simplicity, Substantiality is better than ornament. io6 THE YI KING, TEXT, 1. The first line, divided, shows one overturning the couch by injuring its legs. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil. 2. The second line, divided, shows one over throwing the couch by injuring its frame. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil. 3. The third line, divided, shows its subject among the overthrowers; but there will be no error. 4. The fourth line, divided, shows its subject having overthrown the couch, and (going to injure) the skin (of him who lies on it). There will be evil. 5. The fifth line, divided, shows (its subject lead ing on the others like) a string of fishes, and (ob taining for them) the favour that lights on the inmates of the palace. There will be advantage in every way. 6. The topmost line, undivided, shows its subject (as) a great fruit which has not been eaten. The superior man finds (the people again) as a chariot carrying him. The small men (by their course) overthrow their own dwellings. XXIII. Po is. the symbol of falling or of causing to fall, and may be applied, both in the natural and political world, to the process of decay, or that of overthrow. The figure consists of five divided lines, and one undivided, which last thus becomes the prominent and principal line in the figure. Decay or overthrow ias begun at the bottom of it, and crept up to the top. The hexagram is that of the ninth month, when the beauty and dory of summer have disappeared, and the year is ready to fall into the amis of sterile winter. In the political world, small men have gradually displaced good men and great, till but one remains; and the lesson for him is to wait. The power operating against him is sect, r, TO/",
     "normalized_summary": "Systems are rotting from the bottom up. Surfaces may still look intact, but the structure is failing. This is not a time to advance. Pull back, reduce exposure, and let decay complete so that what is false can fall away."
   },
-
   "lines": [
     {
       "line": 1,
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The first SIX, divided, shows one overturning the couch by injuring its legs. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.",
+          "text": "1. The first line, divided, shows one overturning the couch by injuring its legs. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.",
           "citation_status": "public_domain"
         },
         {
@@ -40,7 +38,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The second SIX, divided, shows one overthrowing the couch by injuring its frame. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.",
+          "text": "2. The second line, divided, shows one over throwing the couch by injuring its frame. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.",
           "citation_status": "public_domain"
         },
         {
@@ -62,7 +60,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The third SIX, divided, shows its subject among the overthrowers; but there will be no error.",
+          "text": "3. The third line, divided, shows its subject among the overthrowers; but there will be no error.",
           "citation_status": "public_domain"
         },
         {
@@ -84,7 +82,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fourth SIX, divided, shows its subject having overthrown the couch, and (going to injure) the skin (of him who lies on it). There will be evil.",
+          "text": "4. The fourth line, divided, shows its subject having overthrown the couch, and (going to injure) the skin (of him who lies on it). There will be evil.",
           "citation_status": "public_domain"
         },
         {
@@ -106,7 +104,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fifth SIX, divided, shows (its subject leading on the others like) a string of fishes, and (obtaining for them) the favour that lights on the inmates of the palace. There will be advantage in every way.",
+          "text": "5. The fifth line, divided, shows (its subject lead ing on the others like) a string of fishes, and (ob taining for them) the favour that lights on the inmates of the palace. There will be advantage in every way.",
           "citation_status": "public_domain"
         },
         {
@@ -128,7 +126,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The topmost NINE, undivided, shows its subject (as) a great fruit which has not been eaten. The superior man finds (the people again) as a chariot carrying him. The small men (by their course) overthrow their own dwellings.",
+          "text": "6. The topmost line, undivided, shows its subject (as) a great fruit which has not been eaten. The superior man finds (the people again) as a chariot carrying him. The small men (by their course) overthrow their own dwellings. XXIII. Po is. the symbol of falling or of causing to fall, and may be applied, both in the natural and political world, to the process of decay, or that of overthrow. The figure consists of five divided lines, and one undivided, which last thus becomes the prominent and principal line in the figure. Decay or overthrow ias begun at the bottom of it, and crept up to the top. The hexagram is that of the ninth month, when the beauty and dory of summer have disappeared, and the year is ready to fall into the amis of sterile winter. In the political world, small men have gradually displaced good men and great, till but one remains; and the lesson for him is to wait. The power operating against him is sect, r, TO/",
           "citation_status": "public_domain"
         },
         {
@@ -145,5 +143,25 @@
         "new vehicle"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.549538Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 118,
+      "leaf_end": 121,
+      "page_candidates": [
+        "206",
+        "207",
+        "5",
+        "208",
+        "209",
+        "11",
+        "3",
+        "1"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

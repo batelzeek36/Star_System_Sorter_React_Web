@@ -1,0 +1,278 @@
+{
+  "32.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses rushed commitments; preserves sovereignty before pledging continuity."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Early viability check—scope, risk and durability before backing a venture."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Loyalty pressure to ‘prove’ commitment regardless of viability."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is survival calculus, not aesthetic narration."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Forcing continuity to maintain control rather than fitness."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to wait and test—honorable trial of patience."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Considers human cost so continuity serves the tribe."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching stewardship of commitment; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-32.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "32.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Declines coercion to ‘lock in’ before it’s correct."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places people/resources where durability increases—continuity engineering."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rank tests—prove loyalty to the plan over facts."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Function over show."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Protocol used to override honest viability signals."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet ordeal of restraint: commit only to what can endure."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Attunes to relational impact so continuity is humane."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical navigation phase; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-32.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "32.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after bad bets or coercive loyalty binds."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—misreading what will last, then overcorrecting."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Clinging for status/tribal face rather than true fitness."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Branding/optics used to mask failing viability."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Control scripts to preserve a faltering legacy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal: admit misreads, refine criteria, recommit cleanly."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement loyalty—staying to avoid disappointing others."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging continuity sense; no pedagogy yet.",
+      "confidence": 5,
+      "sources": ["gate-line-32.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "32.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Protects sovereignty from exploitative ‘stay for tradition’ demands."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Translates sniff-test into protocol—criteria, checkpoints, pivot rules."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guards the tribe by selecting viable alliances and culling risks."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Narrates a sober legacy story that others can rally around."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Codifying ‘the one way’ to endure—orthodoxy risk."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentor-by-selection: model how to back what truly lasts."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ensures continuity does not sacrifice human wellbeing."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Continuity protocol—teaches viability standards others can apply.",
+      "confidence": 4,
+      "sources": ["gate-line-32.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "continuity-protocol/viability-sense",
+      "keywords": ["criteria", "checkpoints", "pivot"]
+    }
+  },
+  "32.5": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Resists propaganda to uphold dying legacies; keeps consent sovereign."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal fixer—burnout/scapegoat when refusing bad continuity."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Loyalty tests—‘stand with the legacy’ over evidence."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Iconic stewardship presence that still points to substance."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Coercive heritage—obedience demanded in the name of tradition."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—support only what merits endurance."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Appeasing stakeholders to keep peace, not truth."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: models ethical continuity under pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-32.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["legacy", "ethics", "selection"]
+    }
+  },
+  "32.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frees communities from legacy capture—chooses meaning over inertia."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards for durability—review cycles, sunset rules, stewardship."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guardian of what is worth preserving; filters threats to continuity."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Dignified legacy signal—simple, sober, compelling."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning legacy into hierarchy/dogma."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Elder ordeal: courage to end what cannot endure and back what can."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of continuity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Continuity sage—teaches the law of what endures by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-32.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "continuity-sage/legacy-law",
+      "keywords": ["continuity", "viability", "legacy", "standards"]
+    }
+  }
+}

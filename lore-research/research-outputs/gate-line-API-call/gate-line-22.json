@@ -1,0 +1,84 @@
+{
+  "gate": 22,
+  "gate_name": "",
+  "lines": {
+    "22.1": {
+      "line": 1,
+      "hd_title": "Second class ticket",
+      "hd_quote": "The ability to accept and enjoy a subordinate position.",
+      "keywords": [
+        "humility",
+        "attentive presence",
+        "wait your turn"
+      ],
+      "behavioral_axis": "Opens social space by yielding first; empowers others to speak.",
+      "shadow_axis": "Humiliation or resentment when forcing first place.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "22.2": {
+      "line": 2,
+      "hd_title": "Charm school",
+      "hd_quote": "The belief that style can mask nature.",
+      "keywords": [
+        "style projects",
+        "social magnetism",
+        "limited depth"
+      ],
+      "behavioral_axis": "Generates attention through style; may lack substance to deliver mutation.",
+      "shadow_axis": "Form over substance; projection confusion.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "22.3": {
+      "line": 3,
+      "hd_title": "The Enchanter",
+      "hd_quote": "Form as a definition and actualization of substance.",
+      "keywords": [
+        "perfected grace",
+        "come-and-go openness",
+        "romantic projection"
+      ],
+      "behavioral_axis": "Displays irresistible grace briefly; bonds made/broken by mood.",
+      "shadow_axis": "Mixed signals; others mistake openness for intimacy.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "22.4": {
+      "line": 4,
+      "hd_title": "Sensitivity",
+      "hd_quote": "The modification of behavior to enrich interactions.",
+      "keywords": [
+        "context-aware",
+        "behavioral tuning",
+        "informality preference"
+      ],
+      "behavioral_axis": "Adjusts behavior to create real contact and opportunity.",
+      "shadow_axis": "Over-managed style blocks authentic mutation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "22.5": {
+      "line": 5,
+      "hd_title": "Directness",
+      "hd_quote": "The disregard of form when required.",
+      "keywords": [
+        "mood honors truth",
+        "projected leadership",
+        "universalized grace"
+      ],
+      "behavioral_axis": "Acts or speaks only when in the mood; then it lands universally.",
+      "shadow_axis": "Forcing performance; crude reputation when mismatched.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "22.6": {
+      "line": 6,
+      "hd_title": "Maturity",
+      "hd_quote": "The alignment with experience of form with substance.",
+      "keywords": [
+        "authoritative grace",
+        "social mutation leader",
+        "measured presence"
+      ],
+      "behavioral_axis": "Embodies seasoned grace that points to a new social horizon.",
+      "shadow_axis": "Detached superiority; mood-weary withdrawal.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

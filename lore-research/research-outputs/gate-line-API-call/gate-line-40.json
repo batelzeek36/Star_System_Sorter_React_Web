@@ -1,0 +1,84 @@
+{
+  "gate": 40,
+  "gate_name": "",
+  "lines": {
+    "40.1": {
+      "line": 1,
+      "hd_title": "Recuperation",
+      "hd_quote": "The ability to relax and enjoy the fruits of one's labours.",
+      "keywords": [
+        "earned rest",
+        "solo recovery",
+        "willpower off-switch"
+      ],
+      "behavioral_axis": "After commitment, withdraws to restore the ego/will so it can serve again.",
+      "shadow_axis": "Won’t rest; stays busy to avoid aloneness → burnout.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "40.2": {
+      "line": 2,
+      "hd_title": "Resoluteness",
+      "hd_quote": "The power and authority in deliverance to shed forever the qualities which hampered liberation.",
+      "keywords": [
+        "clean break",
+        "will to say no",
+        "protect the deal"
+      ],
+      "behavioral_axis": "Uses will to cut away what weakened the tribe or the bargain.",
+      "shadow_axis": "Loneliness sympathizes with what should have been cut.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "40.3": {
+      "line": 3,
+      "hd_title": "Humility",
+      "hd_quote": "The capacity of the ego to avoid negative forces even if it means being alone.",
+      "keywords": [
+        "low-profile deliverance",
+        "avoid wrong people",
+        "humble strength"
+      ],
+      "behavioral_axis": "Chooses solitude over bad alliances; stays unseen to preserve will.",
+      "shadow_axis": "Demands attention just to prove worth → drains ego.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "40.4": {
+      "line": 4,
+      "hd_title": "Organization",
+      "hd_quote": "The power to transform and to organize in order to maintain deliverance.",
+      "keywords": [
+        "structuring the win",
+        "organize loyalty",
+        "keep the gate clear"
+      ],
+      "behavioral_axis": "Builds the system so deliverance (freedom, rest, will) stays protected.",
+      "shadow_axis": "Over-organizes; gathers bodies not quality → destabilizes.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "40.5": {
+      "line": 5,
+      "hd_title": "Rigidity",
+      "hd_quote": "The recognition that to achieve liberation all negative forces must be rejected.",
+      "keywords": [
+        "no to parasites",
+        "absolute victory",
+        "gatekeeping"
+      ],
+      "behavioral_axis": "Protects tribal will by cutting every misaligned relationship.",
+      "shadow_axis": "So rigid it won’t let in support when alone.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "40.6": {
+      "line": 6,
+      "hd_title": "Decapitation",
+      "hd_quote": "The necessary destruction of inferior forces before liberation can take place.",
+      "keywords": [
+        "top-level correction",
+        "surgical removal",
+        "will with mercy"
+      ],
+      "behavioral_axis": "Uses authority to remove only what truly endangers the group.",
+      "shadow_axis": "Extends punishment to whole classes → terror state.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "43.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Holds sovereign knowing—doesn’t outsource insight to consensus."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Contain, pace, and test-fit the insight before release."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early ‘genius vs freak’ optics can spark status policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/display phase."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing orthodoxy to silence the odd insight."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to hold the line until clarity is stable."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Self-soothing and attunement regulate the pressure to speak."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private insight consolidation; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-43.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "43.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Keeps sovereignty—chooses if/when to share the knowing."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Right audience, timing, and format for the insight."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Threshold guard—filters predatory or trivial challenges."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Cleans phrasing so the point lands simply."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to ‘approved’ language over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to stand by the knowing without overpush."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned tone keeps receivers regulated and open."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement, not yet formal instruction.",
+      "confidence": 5,
+      "sources": ["gate-line-43.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "43.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Validation-seeking outsources the sovereignty of the knowing."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced timing/venue—container for insight breaks."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Clique gatekeeping and intimidation label it ‘freakish.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performance eclipses clarity of the idea."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy weaponized to suppress the new knowing."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: refine dose, target, and readiness."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement tone distorts or buries the message."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error expression.",
+      "confidence": 5,
+      "sources": ["gate-line-43.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "43.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberates minds by presenting the insight without capitulation."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds an insight-hygiene container—tests, proofs, and pacing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Screens for fair challenge vs. status attack."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elegant minimal phrasing keeps signal clean."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Method risks ossifying into dogma if over-fixed."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity under scrutiny—show, don’t bludgeon."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attuned delivery keeps the room receptive."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches insight hygiene by example—how to hold and release knowing.",
+      "confidence": 4,
+      "sources": ["gate-line-43.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "insight-hygiene/protocol",
+      "keywords": ["testing", "pacing", "clarity"]
+    }
+  },
+  "43.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses knowing to free the group from stale assumptions."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for validation, timing, and channels of release."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to truth over status optics."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Turns the insight into a clear cultural phrase or model."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk—canonizing ‘the right way to know.’"
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when pressure demands conformity."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring tone aids adoption without coercion."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in knowing-standards—liberation through clear protocols.",
+      "confidence": 4,
+      "sources": ["gate-line-43.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "knowing-standards/teacher",
+      "keywords": ["validation", "channels", "release"]
+    }
+  },
+  "43.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty—speaks or withholds by truth, not demand."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for the stewardship of insight."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as gate to ‘real knowing.’"
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words carry the structure."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Canon of knowing risks law-over-life control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to carry unusual truth without forcing."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion stays present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: insight canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-43.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/insight-canon",
+      "keywords": ["canon", "stewardship", "presence"]
+    }
+  }
+}

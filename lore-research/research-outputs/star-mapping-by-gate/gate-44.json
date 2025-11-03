@@ -1,0 +1,278 @@
+{
+  "44.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses charisma-coercion; sovereignty first when the past pattern ‘smells’ off."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Early viability scan—pattern memory, risk flags, due-diligence before entry."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Predator detection—sniffing for exploitative repeats to guard the tribe."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain, credible framing makes pattern warnings receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Honeyed offers and status optics used to slip control back in."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Discipline to pause power until the pattern is clean—honorable restraint."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Considers relational impact so the ‘meeting’ does not harm bonds."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching pattern hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-44.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "44.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines forced partnering; chooses meetings that protect sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Places people/resources by pattern fit—triage of alliances for stability."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guard duty—screens for predatory actors at the gate."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clear narrative of ‘why this alliance’ reduces confusion and spin."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Protocol used to smuggle hierarchy under the guise of fit."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Choose honorable partners; ignore bait that flatters rank."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Attunes to the felt safety of the group during new meetings."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical alliance placement; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-44.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "44.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after seduction/manipulation patterns resurface."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—false positives/negatives while calibrating the ‘smell’ test."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Paranoid gatekeeping or dominance tests framed as ‘protection.’"
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Brand/optics weaponized to distract from red flags."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Narrative control—marketing spell to reinstall the old hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction: admit misreads, reset stance, refine criteria."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement—agreeing to meetings to ‘keep peace’ despite cues."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging recognition; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-44.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "44.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Advocates sovereign terms—meetings serve freedom, not capture."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Translates pattern memory into protocol—checklists, thresholds, no-go rules."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Perimeter ethics—intercept predation before it enters the camp."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain, dignified messaging helps the tribe adopt the screens."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—protocol becomes dogma over living signals."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct: meet firmly, decline cleanly, protect the oath."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Humane screening preserves trust and nervous-system ease."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Alliance protocol teaching—law of ‘right meeting’ via example and frame.",
+      "confidence": 4,
+      "sources": ["gate-line-44.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "alliance-protocol/right-meeting-law",
+      "keywords": ["checklist", "thresholds", "no-go", "due-diligence"]
+    }
+  },
+  "44.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that sanctifies shady deals as ‘for the tribe.’"
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal negotiator → burnout/scapegoat when refusing bad alliances."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Status contests and loyalty tests around who controls the gate."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Credible, untheatrical presence steadies the field in high-stakes meetings."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Marketing/PR as mind-capture to reinstall hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—only endorse alliances that pass the law of fit."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Enmeshment—saying yes to keep harmony despite pattern alarms."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethical gatekeeping under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-44.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/gatekeeping-ethics",
+      "keywords": ["endorsement", "fit", "ethics", "projection"]
+    }
+  },
+  "44.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from repeating capture cycles—chooses clean meetings."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards for alliance memory—reviews, renewals, sunset clauses."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guardian of the gate—filters threats with measured, lawful strength."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sober, dignified signal becomes the culture’s ‘pattern sense.’"
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing gate power into hierarchy rather than service."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—meets or refuses with impeccable timing and courage."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude is standards/guardianship, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Pattern-law sage—teaches the law of right meeting by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-44.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "pattern-law/right-meeting-sage",
+      "keywords": ["review", "renewal", "sunset", "gate", "law"]
+    }
+  }
+}

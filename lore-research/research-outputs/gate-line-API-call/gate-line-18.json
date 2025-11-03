@@ -1,0 +1,84 @@
+{
+  "gate": 18,
+  "gate_name": "Work on What Has Been Spoilt / Correction",
+  "lines": {
+    "18.1": {
+      "line": 1,
+      "hd_title": "Conservatism",
+      "hd_quote": "The adherence to traditional patterns despite changing circumstances.",
+      "keywords": [
+        "respect for proven patterns",
+        "careful amendments",
+        "foundational standards"
+      ],
+      "behavioral_axis": "Builds on established patterns, preferring incremental corrections.",
+      "shadow_axis": "Refuses needed updates; defers to authority even when wrong.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "18.2": {
+      "line": 2,
+      "hd_title": "Terminal disease",
+      "hd_quote": "The recognition that what has been spoilt is irreversible. There is no way to correct it.",
+      "keywords": [
+        "triage",
+        "strategic acceptance",
+        "resource reallocation"
+      ],
+      "behavioral_axis": "Stops throwing energy at the unfixable; redirects to solvable issues.",
+      "shadow_axis": "Rages against reality; projects blame instead of accepting limits.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "18.3": {
+      "line": 3,
+      "hd_title": "The Zealot",
+      "hd_quote": "The energetic obsession to clean house.",
+      "keywords": [
+        "relentless fixer",
+        "mission-driven critique",
+        "over-correction risk"
+      ],
+      "behavioral_axis": "Throws energy at correction; learns by breaking and refining.",
+      "shadow_axis": "Becomes rigidly judgmental; creates as many problems as it solves.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "18.4": {
+      "line": 4,
+      "hd_title": "The Incompetent",
+      "hd_quote": "Difficulties as a result of inadequacies that cannot be resolved because of inadequacies.",
+      "keywords": [
+        "knows limits",
+        "seeks depth partners",
+        "fixed focus"
+      ],
+      "behavioral_axis": "Identifies the one sticking point and seeks capable allies (Gate 48).",
+      "shadow_axis": "Anxiety and indecision around the unfixable piece.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "18.5": {
+      "line": 5,
+      "hd_title": "Therapy",
+      "hd_quote": "The strength to recognize a problem and to accept that it is beyond one's power to solve it alone.",
+      "keywords": [
+        "seeks/provides guidance",
+        "collective correction",
+        "therapeutic alliances"
+      ],
+      "behavioral_axis": "Mobilizes relationships to solve systemic problems.",
+      "shadow_axis": "Endless planning; avoids experiments from fear of failure.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "18.6": {
+      "line": 6,
+      "hd_title": "Buddhahood",
+      "hd_quote": "The perfected form.",
+      "keywords": [
+        "exemplary standards",
+        "values transmission",
+        "modeling correction"
+      ],
+      "behavioral_axis": "Embodies ‘it’s already correct’ and shares methodology.",
+      "shadow_axis": "Complacency; expects others to orbit their perfected stance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

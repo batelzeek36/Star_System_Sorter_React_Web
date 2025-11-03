@@ -1,441 +1,84 @@
 {
-  "9.1": {
-    "keywords": [
-      "building focus slowly",
-      "need workable structure",
-      "narrowing attention"
-    ],
-    "behavioral_axis": "Creates a solid base so sustained focus is even possible.",
-    "shadow_axis": "Scattered, anxious, can't lock in on anything without perfect conditions."
-  },
-  "9.2": {
-    "keywords": [
-      "natural concentrator",
-      "quiet precision",
-      "self-directed attention"
-    ],
-    "behavioral_axis": "Tunes into one task with effortless depth when left alone.",
-    "shadow_axis": "Irritated by interruption, shuts people out instead of collaborating."
-  },
-  "9.3": {
-    "keywords": [
-      "focus through trial",
-      "learning limits by overdoing it",
-      "push-crash cycles"
-    ],
-    "behavioral_axis": "Finds what deserves attention by burning out on what doesn't.",
-    "shadow_axis": "Inconsistent output, reputation for not finishing."
-  },
-  "9.4": {
-    "keywords": [
-      "focus for the group",
-      "organizes attention",
-      "task clarifier"
-    ],
-    "behavioral_axis": "Shows everyone what actually matters and filters the noise.",
-    "shadow_axis": "Becomes controlling about priorities to stay important."
-  },
-  "9.5": {
-    "keywords": [
-      "projected efficiency fixer",
-      "called in to clean chaos",
-      "attention architect"
-    ],
-    "behavioral_axis": "Others expect you to streamline the whole workflow instantly.",
-    "shadow_axis": "Blamed for micromanaging or being ‘too intense.’"
-  },
-  "9.6": {
-    "keywords": [
-      "embodied discipline",
-      "long-haul concentration model",
-      "sustainable attention patterns"
-    ],
-    "behavioral_axis": "Lives as proof that consistent focus compounds into mastery.",
-    "shadow_axis": "Dismisses people who can't match that standard."
-  },
-
-  "10.1": {
-    "keywords": [
-      "core behavior integrity",
-      "self-respect foundation",
-      "knowing how to act"
-    ],
-    "behavioral_axis": "Builds identity around ‘this is how I move with honor.’",
-    "shadow_axis": "Self-doubt, copying others' behavior to feel worthy."
-  },
-  "10.2": {
-    "keywords": [
-      "natural self-alignment",
-      "authentic without effort",
-      "unforced personal code"
-    ],
-    "behavioral_axis": "Just exists as themselves; doesn't need outside approval.",
-    "shadow_axis": "Withdraws or isolates when asked to perform 'authenticity' on command."
-  },
-  "10.3": {
-    "keywords": [
-      "identity through trial",
-      "behavioral experimentation",
-      "learning who I am by messing up"
-    ],
-    "behavioral_axis": "Discovers real self through lived mistakes and rebuilds.",
-    "shadow_axis": "Chaotic persona flips, seen as unreliable or fake."
-  },
-  "10.4": {
-    "keywords": [
-      "identity that shapes community",
-      "role-modeling behavior",
-      "tribal code signal"
-    ],
-    "behavioral_axis": "Your way of being becomes a template for the group.",
-    "shadow_axis": "Moral policing, shaming others for not matching your standard."
-  },
-  "10.5": {
-    "keywords": [
-      "projected savior of authenticity",
-      "expected to 'show us truth'",
-      "behavioral fixer"
-    ],
-    "behavioral_axis": "Others assume you can restore integrity in the space.",
-    "shadow_axis": "Accused of hypocrisy if you slip once."
-  },
-  "10.6": {
-    "keywords": [
-      "embodied self-love over time",
-      "lived sovereignty",
-      "walks as example"
-    ],
-    "behavioral_axis": "Holds a long-term standard of self-honoring behavior.",
-    "shadow_axis": "Detached superiority, 'I'm beyond your drama.'"
-  },
-
-  "11.1": {
-    "keywords": [
-      "idea foundation",
-      "needs mental safety",
-      "gathering concepts"
-    ],
-    "behavioral_axis": "Collects and organizes ideas until they feel stable enough to share.",
-    "shadow_axis": "Holds back everything out of fear of sounding dumb."
-  },
-  "11.2": {
-    "keywords": [
-      "natural storyteller",
-      "ideas flow easily",
-      "conceptual clarity"
-    ],
-    "behavioral_axis": "Can explain possibilities in a way people immediately get.",
-    "shadow_axis": "Doesn't want to be bothered to present on command."
-  },
-  "11.3": {
-    "keywords": [
-      "trial-and-error concepts",
-      "testing narratives",
-      "learning by pitching bad ideas"
-    ],
-    "behavioral_axis": "Finds the real message by throwing half-baked drafts at reality.",
-    "shadow_axis": "Looks inconsistent, accused of talking nonsense."
-  },
-  "11.4": {
-    "keywords": [
-      "network messenger",
-      "frames meaning for the group",
-      "cultural storyteller"
-    ],
-    "behavioral_axis": "Becomes the mouth that gives the tribe a shared story.",
-    "shadow_axis": "Spins narratives to steer loyalty."
-  },
-  "11.5": {
-    "keywords": [
-      "projected visionary",
-      "answer our confusion",
-      "big-picture explainer"
-    ],
-    "behavioral_axis": "Others expect you to deliver 'the plan' in a digestible way.",
-    "shadow_axis": "Blamed as manipulative prophet if people don't like the message."
-  },
-  "11.6": {
-    "keywords": [
-      "future myth holder",
-      "collective meaning architect",
-      "long-arc narrative vision"
-    ],
-    "behavioral_axis": "Lives in ‘here’s where our story is going next.’",
-    "shadow_axis": "Talks like an oracle, emotionally checked out from the present."
-  },
-
-  "12.1": {
-    "keywords": [
-      "cautious voice",
-      "testing emotional safety",
-      "holding the line before speaking"
-    ],
-    "behavioral_axis": "Doesn't express unless it feels correct and clean.",
-    "shadow_axis": "Self-silencing out of fear of rejection."
-  },
-  "12.2": {
-    "keywords": [
-      "natural emotional presence",
-      "magnetic voice",
-      "unguarded intimacy vibe"
-    ],
-    "behavioral_axis": "When open, the expression hits straight into people’s feeling body.",
-    "shadow_axis": "Retreats, gets moody if asked to share on demand."
-  },
-  "12.3": {
-    "keywords": [
-      "vulnerable trial expression",
-      "truth comes out messy",
-      "awkward honesty"
-    ],
-    "behavioral_axis": "Learns how to speak authentically by blurting and recovering.",
-    "shadow_axis": "Emotional volatility, performing pain for attention."
-  },
-  "12.4": {
-    "keywords": [
-      "voice for the circle",
-      "emotional diplomat",
-      "translates intensity"
-    ],
-    "behavioral_axis": "Speaks in a way that can unify or soothe the social field.",
-    "shadow_axis": "Curates tone to keep influence, not truth."
-  },
-  "12.5": {
-    "keywords": [
-      "called to speak for everyone",
-      "spotlight truth-teller",
-      "high-stakes articulation"
-    ],
-    "behavioral_axis": "People expect you to say the thing nobody else can say.",
-    "shadow_axis": "Accused of manipulation or theatrics if they don't like it."
-  },
-  "12.6": {
-    "keywords": [
-      "mature emotional voice",
-      "timed revelation",
-      "sacred restraint"
-    ],
-    "behavioral_axis": "Embodies ‘right words at the right moment,’ not constant output.",
-    "shadow_axis": "Becomes untouchable, above accountability, 'my truth is beyond you.'"
-  },
-
-  "13.1": {
-    "keywords": [
-      "confidant foundation",
-      "safe archive of stories",
-      "listens quietly"
-    ],
-    "behavioral_axis": "Holds other people's secrets with structural integrity.",
-    "shadow_axis": "Carries weight alone, feels burdened by what they know."
-  },
-  "13.2": {
-    "keywords": [
-      "natural receiver",
-      "people just unload",
-      "magnet for confession"
-    ],
-    "behavioral_axis": "Becomes the person others feel safe telling everything to.",
-    "shadow_axis": "Resents being used as an emotional dump."
-  },
-  "13.3": {
-    "keywords": [
-      "trial-and-error witness",
-      "learning through drama exposure",
-      "raw field intel"
-    ],
-    "behavioral_axis": "Understands humanity by surviving messy storylines firsthand.",
-    "shadow_axis": "Burnout, trauma-loop identity, 'everything is heavy.'"
-  },
-  "13.4": {
-    "keywords": [
-      "voice of the tribe's past",
-      "collective memory holder",
-      "pattern archivist"
-    ],
-    "behavioral_axis": "Speaks for what the group has already lived and learned.",
-    "shadow_axis": "Weaponizes secrets to steer loyalty."
-  },
-  "13.5": {
-    "keywords": [
-      "projected historian",
-      "everyone expects wisdom",
-      "interprets the past to fix now"
-    ],
-    "behavioral_axis": "Others rely on you to summarize 'what went wrong' and how to not repeat it.",
-    "shadow_axis": "Scapegoated if the solution hurts someone’s ego."
-  },
-  "13.6": {
-    "keywords": [
-      "collective witness elder",
-      "timeline integrator",
-      "long-view storyteller"
-    ],
-    "behavioral_axis": "Holds 'here is our true story' at a civilization scale.",
-    "shadow_axis": "Detached moral superiority, judging everyone as naive children of history."
-  },
-
-  "14.1": {
-    "keywords": [
-      "resource foundation",
-      "knowing how to use power",
-      "material stewardship"
-    ],
-    "behavioral_axis": "Builds a stable base for how energy/money should flow.",
-    "shadow_axis": "Fear of scarcity, hoarding control of resources."
-  },
-  "14.2": {
-    "keywords": [
-      "natural holder of power",
-      "magnet for opportunities",
-      "doesn't like being managed"
-    ],
-    "behavioral_axis": "Attracts resources just by being aligned with their lane.",
-    "shadow_axis": "Pulls back or gets resentful if others try to direct their output."
-  },
-  "14.3": {
-    "keywords": [
-      "trial-and-error with wealth",
-      "risk-taking with energy",
-      "learning value by losing"
-    ],
-    "behavioral_axis": "Figures out correct use of power by burning some of it first.",
-    "shadow_axis": "Reckless resource swings, reputation for instability."
-  },
-  "14.4": {
-    "keywords": [
-      "resource for the network",
-      "allocator for the tribe",
-      "strategic resourcing"
-    ],
-    "behavioral_axis": "Channels power/money toward people and missions that matter.",
-    "shadow_axis": "Gatekeeps access to stay important."
-  },
-  "14.5": {
-    "keywords": [
-      "projected provider",
-      "people expect funding/juice",
-      "material fixer"
-    ],
-    "behavioral_axis": "Others assume you can 'fuel' the mission for everyone.",
-    "shadow_axis": "Accused of control or manipulation if you set terms."
-  },
-  "14.6": {
-    "keywords": [
-      "legacy steward of power",
-      "values-driven wealth",
-      "aligned material authority"
-    ],
-    "behavioral_axis": "Embodies 'power should serve purpose, not ego.'",
-    "shadow_axis": "Moral superiority around money, judges everyone else's motives."
-  },
-
-  "15.1": {
-    "keywords": [
-      "foundation in extremes",
-      "tolerance for variance",
-      "wide emotional bandwidth"
-    ],
-    "behavioral_axis": "Builds safety in 'people are different and that's fine.'",
-    "shadow_axis": "Unstable center, no baseline, can't anchor anyone."
-  },
-  "15.2": {
-    "keywords": [
-      "natural aura of acceptance",
-      "warm field",
-      "inclusive presence"
-    ],
-    "behavioral_axis": "Radiates 'you can be how you are' without forcing conformity.",
-    "shadow_axis": "Pulls away if asked to constantly hold space."
-  },
-  "15.3": {
-    "keywords": [
-      "trial-and-error with extremes",
-      "lurching between polarities",
-      "chaotic rhythms"
-    ],
-    "behavioral_axis": "Learns the range of human behavior by living both ends.",
-    "shadow_axis": "Instability, unreliability, self-identifying as 'walking chaos.'"
-  },
-  "15.4": {
-    "keywords": [
-      "humanity advocate",
-      "community tolerance voice",
-      "anchors diversity in the group"
-    ],
-    "behavioral_axis": "Normalizes 'we are weird and that's our strength' for the network.",
-    "shadow_axis": "Performs acceptance publicly while privately judging."
-  },
-  "15.5": {
-    "keywords": [
-      "projected humanitarian",
-      "expected to fix intolerance",
-      "social healer role"
-    ],
-    "behavioral_axis": "Others assume you can harmonize wildly different people.",
-    "shadow_axis": "Blamed as fake peacemaker or moral tyrant."
-  },
-  "15.6": {
-    "keywords": [
-      "embodied compassion archetype",
-      "living permission slip",
-      "extreme-range stabilizer"
-    ],
-    "behavioral_axis": "Represents long-term radical acceptance as a way of life.",
-    "shadow_axis": "Detached saint mode, judging normies as small-minded."
-  },
-
-  "16.1": {
-    "keywords": [
-      "skill foundation",
-      "builds technique carefully",
-      "needs proof-of-competence"
-    ],
-    "behavioral_axis": "Wants a reliable base of skill before showing off.",
-    "shadow_axis": "Insecure, won't act until mastery feels guaranteed."
-  },
-  "16.2": {
-    "keywords": [
-      "natural talent display",
-      "easy enthusiasm",
-      "showcase energy"
-    ],
-    "behavioral_axis": "Shows skill with an effortless flair that draws attention.",
-    "shadow_axis": "Gets moody or withdrawn if asked to perform on command."
-  },
-  "16.3": {
-    "keywords": [
-      "trial-and-error mastery",
-      "learning by bombing",
-      "iterative performance"
-    ],
-    "behavioral_axis": "Turns mistakes into refinement fast by staying in the arena.",
-    "shadow_axis": "Reputation as inconsistent, 'hit or miss.'"
-  },
-  "16.4": {
-    "keywords": [
-      "network demonstrator",
-      "teaches technique to others",
-      "spreads enthusiasm"
-    ],
-    "behavioral_axis": "Infects the group with 'look what's possible if we practice.'",
-    "shadow_axis": "Sells hype beyond actual depth to win status."
-  },
-  "16.5": {
-    "keywords": [
-      "projected fixer of competence",
-      "called in to ‘make this professional’",
-      "public technician"
-    ],
-    "behavioral_axis": "Others expect you to raise the standard for everyone fast.",
-    "shadow_axis": "Accused of arrogance or control if people feel judged."
-  },
-  "16.6": {
-    "keywords": [
-      "lifetime mastery model",
-      "living proof of craft",
-      "mentor energy"
-    ],
-    "behavioral_axis": "Embodies 'this is what mastery looks like over decades.'",
-    "shadow_axis": "Detached elitism, dismissing beginners as noise."
+  "gate": 2,
+  "gate_name": "",
+  "lines": {
+    "2.1": {
+      "line": 1,
+      "hd_title": "Intuition",
+      "hd_quote": "The first line gives you the basis. It is called Intuition here: sensitivity to disharmony and atrophy.",
+      "keywords": [
+        "inner compass building",
+        "quiet orientation work",
+        "mapping correct path"
+      ],
+      "behavioral_axis": "Needs solid internal clarity about direction before moving.",
+      "shadow_axis": "Paralyzed waiting for the perfect map from outside.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.2": {
+      "line": 2,
+      "hd_title": "Genius",
+      "hd_quote": "The second line is Genius. Everybody looks at the 2.2 and says, 'They know where they are going.'",
+      "keywords": [
+        "natural navigator",
+        "intuitive guidance flow",
+        "born sense of direction"
+      ],
+      "behavioral_axis": "Just 'knows' where resources and people belong.",
+      "shadow_axis": "Resents being asked to lead; hides gifts out of annoyance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.3": {
+      "line": 3,
+      "hd_title": "Patience",
+      "hd_quote": "Here we have Patience: the teacher that never stops being a student.",
+      "keywords": [
+        "direction through chaos",
+        "improv routing",
+        "messy course-correction"
+      ],
+      "behavioral_axis": "Learns the right path by repeatedly taking wrong turns and adapting.",
+      "shadow_axis": "Feels unreliable, judged as aimless or reckless.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.4": {
+      "line": 4,
+      "hd_title": "Secretiveness",
+      "hd_quote": "Secretiveness: more than modesty, the ability to preserve harmony through discretion.",
+      "keywords": [
+        "guides the network",
+        "resource connector",
+        "placement strategist"
+      ],
+      "behavioral_axis": "Provides direction for others by linking the right people and places.",
+      "shadow_axis": "Political positioning, steering people for personal leverage.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.5": {
+      "line": 5,
+      "hd_title": "Intelligent application",
+      "hd_quote": "Intelligent application. The strategist. Developing a strategy for how to deal with that projection.",
+      "keywords": [
+        "projected guide",
+        "'show us the way' energy",
+        "strategic rescuer"
+      ],
+      "behavioral_axis": "Others expect you to fix direction for the group fast.",
+      "shadow_axis": "Blamed when the route doesn’t save everyone instantly.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.6": {
+      "line": 6,
+      "hd_title": "Fixation",
+      "hd_quote": "Fixation: unable or unwilling to see the whole picture.",
+      "keywords": [
+        "future pathkeeper",
+        "big-picture orientation",
+        "legacy navigation"
+      ],
+      "behavioral_axis": "Embodies long-term direction for a collective, not just short-term moves.",
+      "shadow_axis": "Becomes aloof, unreachable, 'above' normal concerns.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
   }
 }

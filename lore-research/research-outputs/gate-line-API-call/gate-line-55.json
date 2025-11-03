@@ -1,0 +1,84 @@
+{
+  "gate": 55,
+  "gate_name": "Spirit / Abundance",
+  "lines": {
+    "55.1": {
+      "line": 1,
+      "hd_title": "Spirit needs conditions",
+      "hd_quote": "Spirit is abundance, but only when the conditions support its expression.",
+      "keywords": [
+        "base mood-dependence",
+        "needs right atmosphere",
+        "cup half full/empty"
+      ],
+      "behavioral_axis": "If the field isn’t right, the spirit won’t show up.",
+      "shadow_axis": "Blames self or others for ‘no spirit’ instead of fixing the field.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "55.2": {
+      "line": 2,
+      "hd_title": "Distrust",
+      "hd_quote": "Awareness that abundance can be threatened, so spirit becomes selective.",
+      "keywords": [
+        "selective opening",
+        "tests who gets access",
+        "protects spirit"
+      ],
+      "behavioral_axis": "Keeps spirit for those who won’t waste it.",
+      "shadow_axis": "Locks down too hard → looks moody or withholding.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "55.3": {
+      "line": 3,
+      "hd_title": "Experimenting for spirit",
+      "hd_quote": "Emotional openness to experience that discovers the true source of spirit.",
+      "keywords": [
+        "trial-and-error moods",
+        "melancholy → creativity",
+        "finds right vibe"
+      ],
+      "behavioral_axis": "Tries different experiences until spirit lights up.",
+      "shadow_axis": "Interprets every low as lack → creates drama.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "55.4": {
+      "line": 4,
+      "hd_title": "Spirit through association",
+      "hd_quote": "The capacity to establish relationships that nourish and stabilize spirit.",
+      "keywords": [
+        "spirit-based networking",
+        "atmosphere curation",
+        "emotional tribe"
+      ],
+      "behavioral_axis": "Uses mood to attract the right people to the spirit field.",
+      "shadow_axis": "Lets other people’s mood commandeer the spirit.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "55.5": {
+      "line": 5,
+      "hd_title": "Exalted spirit",
+      "hd_quote": "The leadership to express spirit for the benefit of others.",
+      "keywords": [
+        "projected abundance",
+        "mood uplifter",
+        "feeds the whole field"
+      ],
+      "behavioral_axis": "When recognized, broadcasts pure spirit and everyone rises.",
+      "shadow_axis": "If unrecognized, feels abandoned → ‘there is no spirit here.’",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "55.6": {
+      "line": 6,
+      "hd_title": "Unshakable faith",
+      "hd_quote": "Spirit remains abundant regardless of outer circumstances.",
+      "keywords": [
+        "spirit independent of mood",
+        "high-frequency faith",
+        "transpersonal abundance"
+      ],
+      "behavioral_axis": "Embodies that spirit is not conditional.",
+      "shadow_axis": "If cut off, can look bleak or spiritually aloof.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

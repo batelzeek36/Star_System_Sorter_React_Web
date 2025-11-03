@@ -1,0 +1,278 @@
+{
+  "63.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Keeps sovereignty over doubt—questions without ceding agency."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Frames the hypothesis and paces the first tests—clean method."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early correctness-policing or ranky ‘who knows’ posturing."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain naming of the question keeps meaning receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing doctrine to kill uncertainty rather than test it."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to hold inquiry without proving."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Self-soothing regulates the pressure to know."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private inquiry hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-63.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["hypothesis", "method", "pace"]
+    }
+  },
+  "63.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Chooses what to test; does not outsource the line of inquiry."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places doubt in the right scope, dataset, and timing."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Sentinel against predatory ‘answers’ and hype."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Crisp phrasing trims ambiguity and aids reception."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to orthodoxy over authentic testing."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Disciplined patience to let evidence ripen."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned support keeps the mind calm while evaluating."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement, not yet protocol teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-63.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["scope", "dataset", "timing"]
+    }
+  },
+  "63.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim/savior dynamics around ‘truth bringers’ outsource agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced timing/method—testing container wobbles."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Status gatekeeping and intimidation over who is ‘correct.’"
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Rhetorical theatre eclipses real verification."
+    },
+    "orion-dark": {
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Dogma used to suppress ambiguity and compel agreement."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reduce scope, slow down, validate stepwise."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Appeasement to keep harmony biases the results."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error doubt play.",
+      "confidence": 5,
+      "sources": ["gate-line-63.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["dogma", "status", "overreach"]
+    }
+  },
+  "63.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frees inquiry from coercion; consent-based peer review."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds test protocol—criteria, sequence, and review cadence."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Fair thresholds filter bad-faith challenge and error."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Clear, spare framing lets conclusions land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into rigid orthodoxy if over-fixed."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models integrity under pressure to produce answers."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned facilitation keeps minds/nerves regulated during review."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches testing protocol by example—how to move from doubt to proof.",
+      "confidence": 4,
+      "sources": ["gate-line-63.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "testing-protocol/field-guide",
+      "keywords": ["criteria", "sequence", "peer-review"]
+    }
+  },
+  "63.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses doubt to liberate from false claims and oppressive narratives."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for verification—claims, evidence, channels."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to truth over optics or clique."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Distills the model/phrase that culture can carry cleanly."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Projection risk: canonizing ‘correct reading’ as dogma."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity to hold or release conclusions under pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports adoption without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in logic standards—liberation through disciplined verification.",
+      "confidence": 4,
+      "sources": ["gate-line-63.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "logic-standards/teacher",
+      "keywords": ["claims", "evidence", "channels", "review"]
+    }
+  },
+  "63.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom: lives with doubt or certainty without coercion."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for collective verification."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as a gate to ‘real correctness.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words carry the logical frame."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Logic canon risks law-over-life rigidity."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to accept ambiguity or state truth precisely."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion is present without enmeshment in consensus."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: verification canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-63.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/logic-canon",
+      "keywords": ["canon", "verification", "presence"]
+    }
+  }
+}

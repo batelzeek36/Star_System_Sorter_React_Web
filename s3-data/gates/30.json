@@ -1,13 +1,208 @@
 {
   "id": "gate.30",
   "hexagram": "hx30",
-  "center": "TODO",
-  "circuit": "TODO",
-  "programming_partner": null,
+  "center": "Solar Plexus",
+  "circuit": "Sensing",
+  "programming_partner": "gate.29",
   "polarity": {
-    "opposite_on_wheel": null
+    "opposite_on_wheel": "gate.29"
   },
-  "themes": [],
-  "fear": null,
-  "last_updated": "2025-10-28"
+  "themes": [
+    "desire",
+    "emotional intensity",
+    "hunger for experience",
+    "drama vs. presence",
+    "fatefulness",
+    "letting go of outcomes",
+    "sensitivity to disappointment"
+  ],
+  "fear": "anxiety of disappointment",
+  "lines": [
+    {
+      "id": "30.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Focusing the spark",
+        "hd_quote": "Recognize desire without acting prematurely."
+      },
+      "interpretation": {
+        "keywords": [
+          "impulse control",
+          "emotional awareness",
+          "slow ignition"
+        ],
+        "behavioral_axis": "Notices the rise of desire and lets clarity form before committing.",
+        "shadow_axis": "Acts too fast on a mood; burns fuel on the wrong targets."
+      },
+      "relationship_needs": {
+        "needs_time_to_clarify": true,
+        "avoid_pressure_decisions": true,
+        "needs_emotional_honesty": true
+      },
+      "group_role": "emotional preflight checker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "beta"
+    },
+    {
+      "id": "30.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Measured appetite",
+        "hd_quote": "Restraint that prevents waste."
+      },
+      "interpretation": {
+        "keywords": [
+          "temperance",
+          "resource pacing",
+          "clean boundaries"
+        ],
+        "behavioral_axis": "Channels feelings into sustainable steps and right-sized goals.",
+        "shadow_axis": "Suppresses feelings; loses the motivating heat of true desire."
+      },
+      "relationship_needs": {
+        "needs_clear_terms": true,
+        "prefers_low_drama": true,
+        "avoid_energy_overreach": true
+      },
+      "group_role": "desire quartermaster",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "beta"
+    },
+    {
+      "id": "30.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Entanglement",
+        "hd_quote": "When desire traps, step back and reassess."
+      },
+      "interpretation": {
+        "keywords": [
+          "attachment risk",
+          "overheating",
+          "course correction"
+        ],
+        "behavioral_axis": "Notices when intensity becomes a loop; takes space to reset.",
+        "shadow_axis": "Chases what hurts; confuses intensity with destiny."
+      },
+      "relationship_needs": {
+        "partners_handle_pauses": true,
+        "needs_room_to_reset": true,
+        "avoid_all_or_nothing": true
+      },
+      "group_role": "risk breaker / loop interrupter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "beta"
+    },
+    {
+      "id": "30.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Detachment",
+        "hd_quote": "Hold the feeling; release the outcome."
+      },
+      "interpretation": {
+        "keywords": [
+          "non-attachment",
+          "clear seeing",
+          "equanimity"
+        ],
+        "behavioral_axis": "Feels deeply while staying flexible about how it unfolds.",
+        "shadow_axis": "Over-detaches; loses warmth and the heart of the mission."
+      },
+      "relationship_needs": {
+        "needs_emotional_space": true,
+        "prefers_flexible_plans": true,
+        "avoid_control_struggles": true
+      },
+      "group_role": "cool-headed firekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "beta"
+    },
+    {
+      "id": "30.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Maturity",
+        "hd_quote": "Carry intensity with responsibility."
+      },
+      "interpretation": {
+        "keywords": [
+          "emotional stewardship",
+          "devotion",
+          "purposeful heat"
+        ],
+        "behavioral_axis": "Turns passion into consistent practice aligned with values.",
+        "shadow_axis": "Grand passion with poor follow-through; burns allies and bridges."
+      },
+      "relationship_needs": {
+        "requires_resource_support": true,
+        "needs_shared_values": true,
+        "avoid_hero_projects": true
+      },
+      "group_role": "furnace tender / morale igniter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "beta"
+    },
+    {
+      "id": "30.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Fates",
+        "hd_quote": "Some fires are destined; ride the wave wisely."
+      },
+      "interpretation": {
+        "keywords": [
+          "surrender",
+          "karma/fate",
+          "right timing"
+        ],
+        "behavioral_axis": "Accepts larger forces; chooses skillful participation over control.",
+        "shadow_axis": "Fatalism or melodrama; abdicates responsibility to 'destiny.'"
+      },
+      "relationship_needs": {
+        "needs_time_to_clarify": true,
+        "respects_full_stop": true,
+        "avoid_high_velocity_demands": true
+      },
+      "group_role": "wave rider / destiny navigator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "beta"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-29",
+    "status": "beta",
+    "provenance": "Line titles and quotes are paraphrased from Human Design teachings about Gate 30 ('Clinging Fire/Desire'). Replace with verified Jovian Archive text to mark as 'verified'."
+  }
 }

@@ -22,29 +22,47 @@ The pipeline processes OCR text through multiple stages to produce clean, cited,
    - Applies OCR fix dictionary
    - Detects potential OCR errors (lines >1500 chars)
    - Idempotent: skips if normalized file exists
-2. **02-split-gates.py**: ✅ Split into 64 gate blocks (Task 3.1)
-3. **03-fanout-gates.py**: ✅ Fan out gates to individual files (Task 3.2)
-4. **03b-handle-missing-gates.py**: ✅ Handle missing gates (Task 3.3)
+1b. **01b-clean-normalized-lc.py**: ✅ Second-pass cleaner (Task 2.2c)
+   - Removes page headers/footers (e.g., "Page 1", "Page 2C")
+   - Applies extended OCR fixes (lMe→We, Vie→We, V*stern→Western, i.e. spacing)
+   - Stronger mid-sentence joining (joins lines ending with lowercase/comma/semicolon)
+   - Outputs: normalized.clean.txt and normalized.clean-partNN.txt
+   - Preserves original normalized files for provenance
+2. **02a-ingest-lc-scandata.py**: ✅ Ingest Line Companion scan metadata (Task 2.2b)
+   - Parses `s3-data/Line Companion_scandata.xml`
+   - Extracts bookData (DPI, leafCount, bookId)
+   - Extracts page metadata (leafNum, dimensions, cropBox)
+   - Writes normalized JSON to `line-companion/scandata.json`
+   - Provides helper function `get_page_by_leaf_num()` in utils.py
+3. **02-split-gates.py**: ✅ Split into 64 gate blocks (Task 3.1)
+   - Prefers normalized.clean.txt if available, falls back to normalized.txt
+   - Detects gate headings using configurable patterns
+   - Estimates page ranges from scandata.json if available
+   - Logs missing gates to BAD_LINES.md
+4. **03-fanout-gates.py**: ✅ Fan out gates to individual files (Task 3.2)
+5. **03b-handle-missing-gates.py**: ✅ Handle missing gates (Task 3.3)
    - Checks for missing or empty gates (1-64)
    - Logs missing gates to BAD_LINES.md
    - Updates gates.json with _meta.missing_gates array
    - Suggests checking I Ching fallback source
-5. **03a-detect-lines-per-gate.py**: ✅ Detect lines per gate (Task 3.4)
+6. **03a-detect-lines-per-gate.py**: ✅ Detect lines per gate (Task 3.4)
    - Scans raw_text for line headings (format: `<gate>.<line> <heading>`)
    - Populates "lines" object with heading and raw content for each line
    - Logs gates with <6 lines to BAD_LINES.md
    - Preserves original raw_text for provenance
-6. **03-split-lines-per-gate.py**: Extract 6 lines per gate (deprecated - use 03a)
-6. **03b-xcheck-with-hexagrams.py**: Cross-check against I Ching hexagrams
-7. **04-extract-quotes.py**: Extract ≤25-word quotes
-8. **06-merge-quotes-into-gates.py**: Merge quotes into gate JSON files
-9. **07-validate-gates.py**: Validate final output
+7. **03-split-lines-per-gate.py**: Extract 6 lines per gate (deprecated - use 03a)
+8. **03b-xcheck-with-hexagrams.py**: Cross-check against I Ching hexagrams
+9. **04-extract-quotes.py**: Extract ≤25-word quotes
+10. **06-merge-quotes-into-gates.py**: Merge quotes into gate JSON files
+11. **07-validate-gates.py**: Validate final output
 
 ## Usage
 
 Run scripts in order:
 ```bash
 python3 lore-research/scripts/01-normalize-line-companion.py
+python3 lore-research/scripts/01b-clean-normalized-lc.py
+python3 lore-research/scripts/02a-ingest-lc-scandata.py
 python3 lore-research/scripts/02-split-gates.py
 python3 lore-research/scripts/03-fanout-gates.py
 python3 lore-research/scripts/03b-handle-missing-gates.py
@@ -63,6 +81,9 @@ python3 lore-research/scripts/test_source_selector.py
 
 # Test utilities
 python3 lore-research/scripts/test_utils.py
+
+# Test scandata helper
+python3 lore-research/scripts/test_scandata_helper.py
 ```
 
 ## Source Priority (FR-LC-1)

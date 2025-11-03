@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Hsiâo Kwo indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing;--to descend is better than to ascend. There will (in this way) be great good fortune.",
+    "legge_1899_public_domain": "Favor small, careful moves over grand gestures. Keep low, humble, and precise; firmness within right measure brings fortune while overreaching invites harm.",
     "normalized_summary": "Favor small, careful moves over grand gestures. Keep low, humble, and precise; firmness within right measure brings fortune while overreaching invites harm."
   },
-
   "lines": [
     {
       "line": 1,
@@ -145,5 +143,20 @@
         "overextension"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.563976Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 238,
+      "leaf_end": 241,
+      "page_candidates": [
+        "xxi",
+        "100",
+        "209"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

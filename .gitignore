@@ -61,3 +61,32 @@ s3-data/Line Companion.epub
 lore-research/research-outputs/line-companion/normalized.txt
 lore-research/research-outputs/line-companion/gates.json
 lore-research/research-outputs/line-companion/normalized-part*.txt
+lore-research/research-outputs/line-companion/normalized.clean*.txt
+lore-research/research-outputs/line-companion/scandata.json
+
+# Hexagram processing temp files
+s3-data/hexagrams/legge-normalized.txt
+s3-data/hexagrams/__backup/
+s3-data/hexagrams/_archive*/
+s3-data/hexagrams/_candidate/
+s3-data/hexagrams/chunks/
+s3-data/hexagrams/overrides/
+s3-data/hexagrams/*.backup.*.json
+
+# Backup directories and files created by pipeline scripts
+lore-research/scripts/_backup*/
+lore-research/research-outputs/_backup*/
+lore-research/**/old/
+lore-research/**/backups/
+lore-research/**/*-backup/
+*.bak
+*.backup
+*~
+
+# Duplicate files (keep originals only)
+**/gates copy.json
+**/*copy.md
+*copy.*
+
+# Split task files (redundant - keep main tasks.md)
+.kiro/specs/quote-extraction/tasks-part*.md

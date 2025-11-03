@@ -62,6 +62,12 @@ BAD_LINES_FILE = RESEARCH_OUTPUTS_DIR / "BAD_LINES.md"
 VALIDATION_REPORT = RESEARCH_OUTPUTS_DIR / "VALIDATION_REPORT.v1.json"
 HEXAGRAM_VERIFICATION = RESEARCH_OUTPUTS_DIR / "HEXAGRAM_VERIFICATION.json"
 
+# LLM-assisted star mapping outputs
+EVIDENCE_DIR = RESEARCH_OUTPUTS_DIR / "evidence"
+STAR_MAPS_LLM_DIR = RESEARCH_OUTPUTS_DIR / "star-maps-llm"
+STAR_MAPS_CALIBRATED_DIR = RESEARCH_OUTPUTS_DIR / "star-maps-calibrated"
+STAR_MAPS_REPORTS_DIR = RESEARCH_OUTPUTS_DIR / "star-maps-reports"
+
 # Pipeline thresholds
 MIN_GATES_REQUIRED = 60  # Fail if fewer than 60 gates detected
 EXPECTED_GATES = 64
@@ -110,3 +116,50 @@ JSON_ENSURE_ASCII = False
 # Logging
 LOG_LEVEL = "INFO"  # DEBUG, INFO, WARNING, ERROR
 LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# ============================================================================
+# LEGGE MODE CONFIGURATION (Paraphrase vs Verified)
+# ============================================================================
+# Controls how Legge I Ching text is handled throughout the pipeline.
+# 
+# LEGGE_MODE options:
+#   "paraphrase" - Use paraphrased Legge from s3-data/hexagrams/*.json (BETA)
+#                  Relaxed validation, no strict match/conflict checks
+#   "verified"   - Use OCR'd/verified Legge from legge-hx.json
+#                  Strict validation, enforce page/leaf locators
+#   "repaired"   - Use LLM-repaired Legge from legge-hx.repaired.json
+#                  Strict validation with repair metadata
+#
+# Current mode: "paraphrase" (ship quickly, verify later)
+# ============================================================================
+
+LEGGE_MODE = "paraphrase"  # "verified" | "paraphrase" | "repaired"
+
+# Directory containing paraphrased Legge hexagram files (01.json ... 64.json)
+LEGGE_PARAPHRASE_DIR = S3_DATA_ROOT / "hexagrams"
+
+# Whether to extract BOTH LC and Legge as parallel sources
+# True = extract both sources for every line (recommended for paraphrase mode)
+# False = extract only LC (not recommended - loses comparative value)
+EXTRACT_BOTH_SOURCES = True
+
+# Whether to require page/leaf locators for Legge citations
+# In "paraphrase" mode, this should be False (locators often unavailable)
+# In "verified" or "repaired" mode, this should be True
+REQUIRE_PAGE_LOCATOR_FOR_LEGGE = False
+
+# Legge source file paths (for verified/repaired modes)
+LEGGE_NORMALIZED = S3_DATA_ROOT / "hexagrams" / "legge-normalized.txt"
+LEGGE_HX_INDEX = S3_DATA_ROOT / "hexagrams" / "legge-hx.json"
+LEGGE_HX_REPAIRED = S3_DATA_ROOT / "hexagrams" / "legge-hx.repaired.json"
+LEGGE_PAGE_MAP = S3_DATA_ROOT / "236066-The I Ching_page_numbers.json"
+
+# Get the active Legge index based on mode
+def get_legge_index_path():
+    """Return the appropriate Legge index file based on LEGGE_MODE."""
+    if LEGGE_MODE == "repaired":
+        return LEGGE_HX_REPAIRED
+    elif LEGGE_MODE == "verified":
+        return LEGGE_HX_INDEX
+    else:  # paraphrase
+        return LEGGE_PARAPHRASE_DIR  # Directory, not single file

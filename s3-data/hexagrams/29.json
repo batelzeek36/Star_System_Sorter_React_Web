@@ -6,19 +6,17 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Khan, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value.",
+    "legge_1899_public_domain": "jvhan, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value. 1. The first line, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil. 2. The second line, undivided, shows its subject old husband with a young wife will yet have children; the action of the subject of 2 will be successful. Line 3 is strong, and in an odd place. Its subject is confident in his own strength, but his correlate in 6 is weak. Alone, he is unequal to the extraordinary strain on him, and has for his symbol the weak beam. Line 4 is near 5, the ruler’s place. On its subject devolves the duty of meeting the extraordinary exigency of the time; but he is strong; and, the line being in an even place, his strength is tem pered. He will be equal to his task, Should he look out for the help of the subject of 1, that would affect him with another element of weakness; and his action would give cause for regret. Line 5 is strong and central. Its subject should be equal to achieve extraordinary merit. But he has no proper correlate below, and as 2 inclined to x, so does this to 6. But here the willow only produces flowers, not shoots;—its decay will soon reappear. An old wife will have no children. If the subject of the line is not to be condemned as that of 3, his action does not deserve praise. The subject of 6 pursues his daring course, with a view to satisfy the extraordinary exigency of the time, and benefit all under the sky. He is unequal to the task, and sinks beneath it; but his motive modifies the judgment on his conduct. SECT. I. THE KHAN HEXAGRAM. 119 in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks. 3. The third line, divided, shows its subject, whether he comes or goes (= descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case). 4. The fourth line, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a sub sidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his im portant lessons (as his rulers) intelligence admits. There will in the end be no error. 5. The fifth line, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error. 6. The topmost line, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil. XXIX. The trigram Khan, which is doubled to form this hexa gram, is the lineal symbol of water. Its meaning, as a character, is 1 a pit/ 1 a perilous cavity, or defile; and here and elsewhere in the Y 1 it leads the reader to think of a dangerous defile, with water flowing through it. It becomes symbolic of dangei, and what the authors of the Text had in mind was to show how danger should be encountered, its effect on the mind, and how to get out of it. The trigram exhibits a strong central line, between two divided lines. The central represented to king Wan the sincere honesty and goodness of the subject of the hexagram, whose mind was sharpened and made penetrating by contact with danger, and who 120 the YI KING. text.",
     "normalized_summary": "This is danger you can’t ignore: a gorge, deep water, repeated entrapment. The only way through is inner honesty and disciplined conduct. Don’t thrash in panic or charge deeper into risk. Move only when aligned and clear, and you can still accomplish something meaningful inside the crisis."
   },
-
   "lines": [
     {
       "line": 1,
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The first SIX, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil.",
+          "text": "1. The first line, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil.",
           "citation_status": "public_domain"
         },
         {
@@ -40,7 +38,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The second NINE, undivided, shows its subject in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks.",
+          "text": "2. The second line, undivided, shows its subject old husband with a young wife will yet have children; the action of the subject of 2 will be successful. Line 3 is strong, and in an odd place. Its subject is confident in his own strength, but his correlate in 6 is weak. Alone, he is unequal to the extraordinary strain on him, and has for his symbol the weak beam. Line 4 is near 5, the ruler’s place. On its subject devolves the duty of meeting the extraordinary exigency of the time; but he is strong; and, the line being in an even place, his strength is tem pered. He will be equal to his task, Should he look out for the help of the subject of 1, that would affect him with another element of weakness; and his action would give cause for regret. Line 5 is strong and central. Its subject should be equal to achieve extraordinary merit. But he has no proper correlate below, and as 2 inclined to x, so does this to 6. But here the willow only produces flowers, not shoots;—its decay will soon reappear. An old wife will have no children. If the subject of the line is not to be condemned as that of 3, his action does not deserve praise. The subject of 6 pursues his daring course, with a view to satisfy the extraordinary exigency of the time, and benefit all under the sky. He is unequal to the task, and sinks beneath it; but his motive modifies the judgment on his conduct. SECT. I. THE KHAN HEXAGRAM. 119 in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks.",
           "citation_status": "public_domain"
         },
         {
@@ -62,7 +60,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The third SIX, divided, shows its subject, whether he comes or goes ( =descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case).",
+          "text": "3. The third line, divided, shows its subject, whether he comes or goes (= descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case).",
           "citation_status": "public_domain"
         },
         {
@@ -84,7 +82,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fourth SIX, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a subsidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his important lessons (as his ruler's) intelligence admits. There will in the end be no error.",
+          "text": "4. The fourth line, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a sub sidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his im portant lessons (as his rulers) intelligence admits. There will in the end be no error.",
           "citation_status": "public_domain"
         },
         {
@@ -106,7 +104,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The fifth NINE, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error.",
+          "text": "5. The fifth line, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error.",
           "citation_status": "public_domain"
         },
         {
@@ -128,7 +126,7 @@
       "translations": [
         {
           "translator_id": "legge_1899_public_domain",
-          "text": "The topmost SIX, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil.",
+          "text": "6. The topmost line, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil. XXIX. The trigram Khan, which is doubled to form this hexa gram, is the lineal symbol of water. Its meaning, as a character, is 1 a pit/ 1 a perilous cavity, or defile; and here and elsewhere in the Y 1 it leads the reader to think of a dangerous defile, with water flowing through it. It becomes symbolic of dangei, and what the authors of the Text had in mind was to show how danger should be encountered, its effect on the mind, and how to get out of it. The trigram exhibits a strong central line, between two divided lines. The central represented to king Wan the sincere honesty and goodness of the subject of the hexagram, whose mind was sharpened and made penetrating by contact with danger, and who 120 the YI KING. text.",
           "citation_status": "public_domain"
         },
         {
@@ -145,5 +143,31 @@
         "misfortune"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.551412Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 136,
+      "leaf_end": 139,
+      "page_candidates": [
+        "242",
+        "243",
+        "38",
+        "1",
+        "I",
+        "245",
+        "40",
+        "2",
+        "246",
+        "247",
+        "42",
+        "248",
+        "249",
+        "43"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

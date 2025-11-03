@@ -1,0 +1,84 @@
+{
+  "gate": 28,
+  "gate_name": "",
+  "lines": {
+    "28.1": {
+      "line": 1,
+      "hd_title": "Preparation",
+      "hd_quote": "The desire to be effective manifested in the application of energy to detail.",
+      "keywords": [
+        "foundational detail",
+        "risk vetting",
+        "due diligence"
+      ],
+      "behavioral_axis": "Builds a base of details before committing to any struggle.",
+      "shadow_axis": "Analysis without action; over-prepping to avoid real stakes.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "28.2": {
+      "line": 2,
+      "hd_title": "Shaking hands with the Devil",
+      "hd_quote": "Distasteful alliance.",
+      "keywords": [
+        "win-focus",
+        "ends-justify-means",
+        "moral compromise risk"
+      ],
+      "behavioral_axis": "May ally with questionable forces to win the struggle.",
+      "shadow_axis": "Selling out core values; depression after hollow victories.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "28.3": {
+      "line": 3,
+      "hd_title": "Adventurism",
+      "hd_quote": "Unfounded risk taking.",
+      "keywords": [
+        "trial and error",
+        "street learning",
+        "prudence vs bravado"
+      ],
+      "behavioral_axis": "Pushes edges to learn what is worth the fight.",
+      "shadow_axis": "Rationalizing gambles; failure cycles without wisdom.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "28.4": {
+      "line": 4,
+      "hd_title": "Holding on",
+      "hd_quote": "The ability through whatever means to keep one's grip.",
+      "keywords": [
+        "tenacity",
+        "fixation",
+        "unexpected traction"
+      ],
+      "behavioral_axis": "Locks onto a cause and refuses to let go.",
+      "shadow_axis": "Self-interested clinging; missing better opportunities.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "28.5": {
+      "line": 5,
+      "hd_title": "Treachery",
+      "hd_quote": "The abuse of trust.",
+      "keywords": [
+        "provocation",
+        "faction play",
+        "universalizing struggle"
+      ],
+      "behavioral_axis": "Stirs others into the game to test life’s worth.",
+      "shadow_axis": "Manipulates alliances; destabilizes groups.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "28.6": {
+      "line": 6,
+      "hd_title": "Blaze of Glory",
+      "hd_quote": "Sacrifice rather than capitulation to the law of deterioration.",
+      "keywords": [
+        "all-in push",
+        "regeneration vs burnout",
+        "roof perspective"
+      ],
+      "behavioral_axis": "Goes all the way to prove life is worthwhile.",
+      "shadow_axis": "Self-destruction when meaning remains unfound.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

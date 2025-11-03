@@ -1,0 +1,84 @@
+{
+  "gate": 25,
+  "gate_name": "",
+  "lines": {
+    "25.1": {
+      "line": 1,
+      "hd_title": "Selflessness",
+      "hd_quote": "The potential for centering through attunement to challenges.",
+      "keywords": [
+        "motiveless action",
+        "silent service",
+        "attuned under pressure"
+      ],
+      "behavioral_axis": "Acts without personal agenda; meets challenge with centered presence.",
+      "shadow_axis": "Performs ‘selflessness’ for recognition; virtue-signaling under stress.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "25.2": {
+      "line": 2,
+      "hd_title": "The Existentialist",
+      "hd_quote": "The innocence of the Self and its protection can only be maintained in the now.",
+      "keywords": [
+        "presence anchor",
+        "devotion to now",
+        "non-interference"
+      ],
+      "behavioral_axis": "Embodies pure presence; protects innocence by staying in the moment.",
+      "shadow_axis": "Loses innocence when others project motives or rewards onto them.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "25.3": {
+      "line": 3,
+      "hd_title": "Sensibility",
+      "hd_quote": "The power of the spirit to withstand failure and shock.",
+      "keywords": [
+        "shock resilience",
+        "trial-and-error",
+        "stays true under impact"
+      ],
+      "behavioral_axis": "Maintains innocence through failures; learns through shocks without bitterness.",
+      "shadow_axis": "Cynicism after shocks; conflates innocence with guaranteed success.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "25.4": {
+      "line": 4,
+      "hd_title": "Survival",
+      "hd_quote": "The spiritual warrior, the innocence maintained regardless of circumstances.",
+      "keywords": [
+        "exemplar under fire",
+        "unmoved by decadence",
+        "uncompromised heart"
+      ],
+      "behavioral_axis": "Holds steady, modeling motiveless purity regardless of surrounding chaos.",
+      "shadow_axis": "Rigid moral posturing; uses ‘innocence’ to shame others.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "25.5": {
+      "line": 5,
+      "hd_title": "Recuperation",
+      "hd_quote": "The power of the spirit to heal and be healed.",
+      "keywords": [
+        "withdraw to recover",
+        "healing presence",
+        "restores vitality"
+      ],
+      "behavioral_axis": "Withdraws from conditioning to recover innocence; midwife for others’ restoration.",
+      "shadow_axis": "Hypochondria; seeks healing from others instead of deconditioning.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "25.6": {
+      "line": 6,
+      "hd_title": "Ignorance",
+      "hd_quote": "The loss of innocence through inappropriate action, or Constant inappropriate action in times of challenge that can break the spirit.",
+      "keywords": [
+        "right action",
+        "choicelessness",
+        "ethics of purity"
+      ],
+      "behavioral_axis": "Discriminates action: purity of deed must match purity of heart.",
+      "shadow_axis": "Detached idealism; inaction from fear of ‘wrong’ action.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

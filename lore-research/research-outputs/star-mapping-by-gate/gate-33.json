@@ -1,0 +1,278 @@
+{
+  "33.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Withdraws from pressure to preserve narrative sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets a privacy container—right place and pace for retreat."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Secrecy can read as gatekeeping or ranky access."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This phase is silence/reflection, not display."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Retreat may harden into rules of silence as control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to step back rather than perform on demand."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Calming boundaries soothe nervous systems after exposure."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private consolidation, no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-33.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "33.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protects the right to withhold until it is safe to speak."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Frames confidentiality and timing—clean placement of voice."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Loyal guard of private material and access thresholds."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Simple, graceful phrasing when sharing resumes."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "House-language risk replacing truth with protocol optics."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to wait for the right audience and moment."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned handling keeps disclosure receivable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Boundary practice, not yet instruction.",
+      "confidence": 5,
+      "sources": ["gate-line-33.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "33.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Outsourcing agency via gossip/leaks or coerced confession."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced timing/venue—container of disclosure breaks."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Secret-keeping as clique power or intimidation."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performance of story eclipses its integrity."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Silence/doctrine weaponized to control narrative."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal teaches honest retreat and right sharing."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Appeasement disclosures to keep peace distort truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable teaching—trial-and-error around privacy.",
+      "confidence": 5,
+      "sources": ["gate-line-33.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "33.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberates by choosing what to retire and what to tell."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Designs the debrief container—who, when, and how much."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps oaths; manages ranked access to sensitive history."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Crafted narrative helps the lesson land without spectacle."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Debrief format can ossify into dogma."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity in translating experience into lesson."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Soothing tone reduces reactivity around disclosure."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches disclosure protocol by example—timed, scoped release.",
+      "confidence": 4,
+      "sources": ["gate-line-33.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "debrief/protocol-teaching",
+      "keywords": ["timing", "scope", "privacy"]
+    }
+  },
+  "33.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses authority to free the record from oppressive spin."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for archives, embargoes, and release cadence."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to confidentiality and fair access."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Culture-level storytelling shapes collective memory."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—history as control vector."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity under pressure to reveal or conceal."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring tone helps communities integrate the past."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in memory law—what is kept, who sees, and when.",
+      "confidence": 4,
+      "sources": ["gate-line-33.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "archive/standards-teacher",
+      "keywords": ["archives", "embargo", "release"]
+    }
+  },
+  "33.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied retreat preserves freedom from public capture."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for withdrawal and selective voice."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can feel like a gate to the ‘real story.’"
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Archetypal storyteller—few words carry cultural weight."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Canonized secrecy risks law-over-life and censorship."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to speak or stay silent by truth."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: canon of privacy/disclosure transmitted by presence.",
+      "confidence": 4,
+      "sources": ["gate-line-33.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-historian/withdrawal-protocol",
+      "keywords": ["privacy-canon", "disclosure", "presence"]
+    }
+  }
+}

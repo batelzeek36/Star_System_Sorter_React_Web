@@ -1,0 +1,278 @@
+{
+  "54.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses flattery-driven hustle; ambition must not cost sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Apprenticeship setup—conditions, mentors, and scope before the climb."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Proving rank by grinding through unsafe ladders."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain, credible presentation—no theatrics at the start."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Status bait—seductive hierarchy promising quick placement."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to begin humbly and accept trials."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Support network cushions early steps so ambition stays humane."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching stage—no formal covenant or oath transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-54.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "54.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines coercive alliances; consent-first ambition."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Places people/resources where ambition can function—fit checks, staging."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Gatekeeping to deter exploiters from accessing the ladder."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Sober optics—clear story of why this alliance serves the work."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol used to smuggle hierarchy over merit."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honor the role, earn each rung."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Relational care keeps ambition bonded, not parasitic."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical alliance placement; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-54.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "54.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims choice after entangling climbs or compromised deals."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Wobble in calibration—over/under-correcting terms and timing."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Dominance tests disguised as ‘paying dues.’"
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Performative glam hides poor foundations."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Ambition captured by hierarchy propaganda and favoritism."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal: admit misreads, reset oath, rebuild on merit."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Appeasement—staying for ‘connection’ despite red flags."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no canon of ambition yet.",
+      "confidence": 5,
+      "sources": ["gate-line-54.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "54.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Advocates ambition that serves sovereignty, not capture."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Converts drive into protocol—terms, reviews, advancement criteria."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Protects the ladder—keeps predatory shortcuts out."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Dignified presence makes merit-based rises visible and clean."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—turning protocol into caste."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—earn rank, don’t posture it."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Care economy—fair sponsorship, healthy reciprocity."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ambition protocol teaching—oath, sponsorship, and review law by example.",
+      "confidence": 4,
+      "sources": ["gate-line-54.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "ambition-protocol/oath-and-sponsorship-law",
+      "keywords": ["oath", "sponsorship", "review", "merit", "protocol"]
+    }
+  },
+  "54.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that justifies corrupt advancement ‘for the tribe.’"
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal fixer/connector → burnout/scapegoat when refusing."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Power contests at the gate to control who rises."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Credible, unshowy gravitas steadies high-visibility moves."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Narrative control—PR alliances to reinstall hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—accept only clean terms of ascent."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Enmeshment—helping beyond proportion to ‘be nice.’"
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethics of advancement amid politics and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-54.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/advancement-ethics",
+      "keywords": ["advancement", "ethics", "politics", "sponsorship"]
+    }
+  },
+  "54.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from capture-ladders—returns to living merit."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards—clear rites, periodic reviews, sunset clauses on rank."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Measured strength—guards the ladder from predation without tyranny."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet majesty—culture tunes to sober, dignified advancement."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing rank into untouchable hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—rite-based ascent, proportionate honor, clean refusals."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude is standards/rites, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Ambition sage—teaches covenant law of rank, oath, and rightful ascent.",
+      "confidence": 4,
+      "sources": ["gate-line-54.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "ambition-sage/covenant-of-rank",
+      "keywords": ["rites", "oath", "review", "merit", "elder", "law"]
+    }
+  }
+}

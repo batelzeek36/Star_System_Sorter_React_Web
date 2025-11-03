@@ -1,0 +1,278 @@
+{
+  "1.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Inner incubation of authentic style is personal, not collective sovereignty/reclamation (Andromeda core)."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No field triage, pacing, or coherence-restoration—this is self-sourced creativity, not regulation (Arcturus)."
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No dominance, rank-enforcement, or predator vigilance in this line’s theme."
+    },
+    "lyra": {
+      "weight": 0.85,
+      "alignment_type": "core",
+      "why": "Pure, original creative emanation—beauty/aesthetic enchantment as signal (Lyra core)."
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No obedience machinery, brand coercion, or empire-building present."
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not a trial/ordeal motif; it’s innate creation, not initiatory testing."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Subtle sensitivity to being unseen can accompany nascent self-expression (minor Pleiadian tone)."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No sacred-instruction or liberation-through-teaching vector—this is pre-teaching, inward artistry.",
+      "confidence": 5,
+      "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "1.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Authenticity under pressure ≠ anti-domination rescue or chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Theme is image/recognition tension, not nervous-system care or field decongestion."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "When insecure, can slip into peacocking/status posturing (Draco distortion)."
+    },
+    "lyra": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Refining authentic style despite pressure is still Lyran creative essence."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Externalized performance to meet hierarchy’s gaze; compliance-seeking fame pressure."
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No honorable ordeal theme; it’s about recognition insecurity, not trial."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Heightened sensitivity to being seen/accepted and fear of abandonment colors this line."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No explicit transmission/teaching current; the work is intra-personal.",
+      "confidence": 5,
+      "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "1.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Trial-and-error for authentic voice, not intervention to free others."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Iterative identity, not structured repair/calibration of a dysregulated field."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Frustration may morph into comparative one-upmanship (Draco distortion)."
+    },
+    "lyra": {
+      "weight": 0.7,
+      "alignment_type": "core",
+      "why": "Creative voice forged publicly through experimentation—classic Lyran craft arc."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to trends for approval can hijack the experimentation."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Micro-ordeal vibe: repeated tests refine integrity and courage to be original."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Emotional sensitivity to feedback shapes how one persists."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No explicit sacred-law transmission; this is self-forging before teaching others.",
+      "confidence": 5,
+      "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "1.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Influence-through-style ≠ sovereignty defense or anti-captivity action."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No frequency triage or container-building; it’s culture-setting via signal."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Attention can invite status games or gatekeeping (Draco distortion)."
+    },
+    "lyra": {
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Stable aesthetic beacon others align around—Lyran cultural imprint."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Signal may ossify into hierarchy/brand compliance if over-identified."
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not a trial rite; more about consistency of personal muse."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational attunement to audience subtly shapes the broadcast."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Teaching-by-being: others receive instruction implicitly from the consistent example (Sirius transmission-lite).",
+      "confidence": 4,
+      "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "role-modeling",
+      "keywords": ["signal", "example", "implicit-teaching"]
+    }
+  },
+  "1.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Projection/fame dynamics ≠ liberation or anti-oppression action."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not a care/repair pattern; public expectation is the axis here."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Spotlight can tempt dominance-posturing and clique enforcement."
+    },
+    "lyra": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Taste-setter artistry defining the vibe—classic Lyran cultural leadership."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projected icon risks being captured by hierarchy/brand obedience."
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not a courage-trial per se; it’s reputation management vs integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "People-pleasing and approval-seeking can dilute authenticity."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Exposure enables transmission—audience learns through your lived standard (Sirius pedagogy-by-presence).",
+      "confidence": 4,
+      "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "public-teaching",
+      "keywords": ["projection", "taste-setter", "example"]
+    }
+  },
+  "1.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Mentoring authenticity isn’t a rescue/anti-domination mission."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Legacy authenticity ≠ crisis de-escalation or field cleaning."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Authority can calcify into elitism or status protectionism if unchecked."
+    },
+    "lyra": {
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Embodied, unforced creative truth becomes the cultural standard (Lyran apex)."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Followers may demand conformity; risk of codifying a hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Subtle initiatory quality: holding the line invites others to rise."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is exemplar integrity, not bonding/soothing dynamics."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-being; transmission of higher law through lived example—royal teacher current (Sirius).",
+      "confidence": 4,
+      "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "mentor/standard-setter",
+      "keywords": ["embodied-teaching", "royal", "example"]
+    }
+  }
+}

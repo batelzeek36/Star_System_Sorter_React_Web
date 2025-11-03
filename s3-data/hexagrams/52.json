@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "When one's resting is like that of the back, and he loses all consciousness of self; when he walks in his courtyard, and does not see any (of the persons) in it,--there will be no error.",
+    "legge_1899_public_domain": "Right stillness. Be motionless at the right time and move at the right time. This is composure so complete that ego-chatter drops away. Keep the body, speech, and mind orderly; do not chase externals. In that steadiness there is no blame.",
     "normalized_summary": "Right stillness. Be motionless at the right time and move at the right time. This is composure so complete that ego-chatter drops away. Keep the body, speech, and mind orderly; do not chase externals. In that steadiness there is no blame."
   },
-
   "lines": [
     {
       "line": 1,
@@ -145,5 +143,30 @@
         "completion"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.560266Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 207,
+      "leaf_end": 210,
+      "page_candidates": [
+        "384",
+        "2",
+        "386",
+        "387",
+        "3",
+        "18",
+        "388",
+        "389",
+        "5",
+        "i",
+        "390",
+        "391",
+        "39"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

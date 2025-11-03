@@ -1,0 +1,278 @@
+{
+  "10.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Modest, self-governed conduct is personal integrity work, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Establishes a baseline container of correct behavior—steadying rules of self-conduct."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early ‘right behavior’ anxiety can become status/correctness policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic-display axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing rigid moral formulas as safety—obedience over authenticity."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Micro-ordeal of restraint: humility and courage to behave rightly without fanfare."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is inner conduct, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching conduct; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-10.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "10.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Natural, self-contained behavior ≠ anti-domination rescue."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Quiet, consistent self-rules create a stable container for identity."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Pushback can provoke ‘prove your behavior’ rank tests."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not about creative display."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Retreating into rigid codes to avoid engagement."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "The ordeal is fidelity to one’s nature under scrutiny."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Subtle attunement to when/with whom to share one’s way."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging phase; no teaching transmission.",
+      "confidence": 5,
+      "sources": ["gate-line-10.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "10.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Trial-and-error with behavior is self-mastery work, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Iteratively stabilizes rules of conduct under real pressure."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Judgment can trigger defensive posturing and clique protection."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Conforming to external ‘virtue’ to escape blame—obedience capture."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Initiatory grind: integrity is refined through mistakes and correction."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sensitivity to reception guides which behaviors are sustainable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No codified teaching yet—this is personal forging.",
+      "confidence": 5,
+      "sources": ["gate-line-10.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "10.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Socializing correct conduct is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Translates personal ethics into usable norms and roles—cultural container."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract behavior gatekeeping and status filters."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Embodied style of conduct can inspire as a cultural beacon."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of moralizing into doctrinal compliance."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring-by-example: others meet the ordeal of aligning to integrity."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Relational timing/hospitality help norms be received rather than resisted."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-conduct: teaches right behavior through lived example.",
+      "confidence": 4,
+      "sources": ["gate-line-10.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "behavior-as-teaching",
+      "keywords": ["norms", "example", "integrity"]
+    }
+  },
+  "10.5": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coercive norms; stands for self-sovereign conduct when projected on."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projection into ‘fix everyone’s behavior’ → burnout/scapegoat pattern."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura can invite loyalty tests and clique enforcement."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Iconic conduct becomes a visible cultural signal."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing moral obedience to preserve image."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—honorable refusal to perform false virtue."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement/people-pleasing can warp authentic behavior."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Royal instruction-by-presence: model clean conduct despite projections.",
+      "confidence": 4,
+      "sources": ["gate-line-10.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["projection", "example", "sovereignty"]
+    }
+  },
+  "10.6": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Guards self-sovereign behavior against coercion; refuses capture."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standard of conduct—stable, fair, and durable rules by example."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy authority can drift into status preservation or moral policing."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Role-model style of being becomes a cultural beacon."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Doctrine-lock: elevating code over living integrity."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: walk the talk consistently under visibility."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is conduct integrity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Conduct sage—teaches the law of right behavior through embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-10.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "role-model/behavior-sage",
+      "keywords": ["role-modeling", "law-of-conduct", "example"]
+    }
+  }
+}

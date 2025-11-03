@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Pî indicates that there should be free course (in what it denotes). There will be little advantage (however) if it be allowed to advance (and take the lead).",
+    "legge_1899_public_domain": "Grace, beauty, presentation. Adornment is useful when it supports the path — it smooths contact, attracts allies, and expresses respect. But style is not meant to dominate substance. Keep things sincere, simple, proportionate.",
     "normalized_summary": "Grace, beauty, presentation. Adornment is useful when it supports the path — it smooths contact, attracts allies, and expresses respect. But style is not meant to dominate substance. Keep things sincere, simple, proportionate."
   },
-
   "lines": [
     {
       "line": 1,
@@ -145,5 +143,29 @@
         "completion"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.549210Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 114,
+      "leaf_end": 118,
+      "page_candidates": [
+        "198",
+        "200",
+        "4",
+        "202",
+        "203",
+        "204",
+        "205",
+        "3",
+        "6",
+        "206",
+        "207",
+        "5"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

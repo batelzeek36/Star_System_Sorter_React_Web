@@ -1,0 +1,84 @@
+{
+  "gate": 19,
+  "gate_name": "",
+  "lines": {
+    "19.1": {
+      "line": 1,
+      "hd_title": "Interdependence",
+      "hd_quote": "The pressure of wanting without losing one's identity when being accepted by others.",
+      "keywords": [
+        "interdependence not dependency",
+        "self-respect in bonding",
+        "identity-safe access"
+      ],
+      "behavioral_axis": "Seeks resources/acceptance while maintaining individuality.",
+      "shadow_axis": "People-pleasing; identity loss to secure access.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "19.2": {
+      "line": 2,
+      "hd_title": "Service",
+      "hd_quote": "The dedication of personal resources as a result of external contact.",
+      "keywords": [
+        "projected service",
+        "quid pro quo",
+        "being chosen"
+      ],
+      "behavioral_axis": "Offers service for access to resources.",
+      "shadow_axis": "Indentured dynamics; being used without true reciprocity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "19.3": {
+      "line": 3,
+      "hd_title": "Dedication",
+      "hd_quote": "Receptivity to approach can only be maintained through vigilance, being on guard.",
+      "keywords": [
+        "trial-and-error bonds",
+        "guard the resources",
+        "hypervigilance"
+      ],
+      "behavioral_axis": "Tests bargains; protects access with vigilance.",
+      "shadow_axis": "Moody over-sensitivity when support wavers.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "19.4": {
+      "line": 4,
+      "hd_title": "The Team Player",
+      "hd_quote": "Individual approach which attracts and accepts cooperation.",
+      "keywords": [
+        "fixed externalization",
+        "rallies cooperation",
+        "keeps pace"
+      ],
+      "behavioral_axis": "Drives group effort when others can keep up.",
+      "shadow_axis": "Frustration at others’ dependency or lagging.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "19.5": {
+      "line": 5,
+      "hd_title": "Sacrifice",
+      "hd_quote": "The need to limit personal potential in order to achieve a larger goal.",
+      "keywords": [
+        "projected martyr",
+        "service-for-the-tribe",
+        "principled restraint"
+      ],
+      "behavioral_axis": "May sacrifice self-interest for communal principle.",
+      "shadow_axis": "Condescending savior; chronic over-sacrifice.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "19.6": {
+      "line": 6,
+      "hd_title": "The Recluse",
+      "hd_quote": "The avoidance of contact in general but not exclusively.",
+      "keywords": [
+        "withholds access",
+        "tests legitimacy",
+        "waits to be sought"
+      ],
+      "behavioral_axis": "Avoids engagement unless need is legitimate.",
+      "shadow_axis": "Oversensitivity; self-exile until properly approached.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

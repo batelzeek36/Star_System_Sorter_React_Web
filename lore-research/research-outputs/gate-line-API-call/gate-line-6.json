@@ -1,441 +1,84 @@
 {
-  "41.1": {
-    "keywords": [
-      "seed of experience",
-      "careful initiation",
-      "starting cycle correctly"
-    ],
-    "behavioral_axis": "Begins new experiences only when the container and timing feel right.",
-    "shadow_axis": "Scarcity anxiety stalls beginnings; fears wasting the one chance."
-  },
-  "41.2": {
-    "keywords": [
-      "natural initiator",
-      "effortless spark",
-      "invites adventure"
-    ],
-    "behavioral_axis": "Casually kicks off fresh experiences without forcing others.",
-    "shadow_axis": "Resents pressure to start on command; withdraws the spark."
-  },
-  "41.3": {
-    "keywords": [
-      "trial starts",
-      "false beginnings",
-      "reset and try again"
-    ],
-    "behavioral_axis": "Learns correct initiation by surviving a few awkward launches.",
-    "shadow_axis": "Jumps into everything; burns fuel on misaligned starts."
-  },
-  "41.4": {
-    "keywords": [
-      "group initiator",
-      "shared adventure planner",
-      "opens the season"
-    ],
-    "behavioral_axis": "Organizes first steps so the network can begin together.",
-    "shadow_axis": "Stokes FOMO to control who gets included."
-  },
-  "41.5": {
-    "keywords": [
-      "projected kick-off",
-      "called to begin",
-      "start-line leader"
-    ],
-    "behavioral_axis": "Others expect you to launch the next cycle for everyone.",
-    "shadow_axis": "Blamed for outcomes if the journey disappoints."
-  },
-  "41.6": {
-    "keywords": [
-      "elder of beginnings",
-      "right-time initiator",
-      "cycle wise"
-    ],
-    "behavioral_axis": "Models initiating only when conditions truly support the path.",
-    "shadow_axis": "Controls timing from above; judges others’ eagerness."
-  },
-
-  "42.1": {
-    "keywords": [
-      "foundation to finish",
-      "close loops",
-      "complete what began"
-    ],
-    "behavioral_axis": "Builds structure so projects can reach real completion.",
-    "shadow_axis": "Avoids endings; keeps things open from fear of loss."
-  },
-  "42.2": {
-    "keywords": [
-      "natural closer",
-      "graceful endings",
-      "harvest energy"
-    ],
-    "behavioral_axis": "Wraps cycles cleanly and extracts the lesson.",
-    "shadow_axis": "Shuts down if rushed to hurry the ending."
-  },
-  "42.3": {
-    "keywords": [
-      "trial completions",
-      "stop–start cycles",
-      "learns by failing to finish"
-    ],
-    "behavioral_axis": "Discovers sustainable closure through messy attempts.",
-    "shadow_axis": "Drops commitments; reputation for not following through."
-  },
-  "42.4": {
-    "keywords": [
-      "group finisher",
-      "closure facilitator",
-      "ritual harvest"
-    ],
-    "behavioral_axis": "Leads the tribe through endings and integration.",
-    "shadow_axis": "Guilt-leverages people to stay until you’re done."
-  },
-  "42.5": {
-    "keywords": [
-      "projected completer",
-      "‘get us to done’",
-      "deadline anchor"
-    ],
-    "behavioral_axis": "Others expect you to land the plane every time.",
-    "shadow_axis": "Blamed for any unfinished business."
-  },
-  "42.6": {
-    "keywords": [
-      "elder of closure",
-      "long-arc harvest",
-      "completion archetype"
-    ],
-    "behavioral_axis": "Embodies dignified endings that feed the next cycle.",
-    "shadow_axis": "Judges those who pivot early as quitters."
-  },
-
-  "43.1": {
-    "keywords": [
-      "inner clarity base",
-      "private insight",
-      "needs quiet"
-    ],
-    "behavioral_axis": "Builds opinions from solitary breakthroughs before sharing.",
-    "shadow_axis": "Fears being wrong; hoards insights."
-  },
-  "43.2": {
-    "keywords": [
-      "natural insight",
-      "odd but accurate",
-      "clean signal"
-    ],
-    "behavioral_axis": "Drops crystalline ideas without much effort.",
-    "shadow_axis": "Irritated when forced to explain the how."
-  },
-  "43.3": {
-    "keywords": [
-      "trial articulation",
-      "genius-or-freak moments",
-      "blurt then refine"
-    ],
-    "behavioral_axis": "Finds the right framing by surviving awkward first drafts.",
-    "shadow_axis": "Social fallout from premature or abrasive delivery."
-  },
-  "43.4": {
-    "keywords": [
-      "network introducer",
-      "insight evangelist",
-      "bridge to the group"
-    ],
-    "behavioral_axis": "Translates lone insight so the community can adopt it.",
-    "shadow_axis": "Packages truth to fit politics."
-  },
-  "43.5": {
-    "keywords": [
-      "projected problem-solver",
-      "answer our puzzle",
-      "public clarifier"
-    ],
-    "behavioral_axis": "Others expect breakthrough explanations on demand.",
-    "shadow_axis": "Accused of arrogance or manipulation if it lands poorly."
-  },
-  "43.6": {
-    "keywords": [
-      "embodied knowing",
-      "future model of sense",
-      "visionary stance"
-    ],
-    "behavioral_axis": "Lives as proof that solitary insight can guide a culture.",
-    "shadow_axis": "Detached superiority over ‘non-understanders.’"
-  },
-
-  "44.1": {
-    "keywords": [
-      "pattern memory base",
-      "trust scan",
-      "instinct for history"
-    ],
-    "behavioral_axis": "Checks present motives against remembered patterns.",
-    "shadow_axis": "Suspicion becomes default; reads threat everywhere."
-  },
-  "44.2": {
-    "keywords": [
-      "natural recognizer",
-      "quiet alliance sense",
-      "subtle corrections"
-    ],
-    "behavioral_axis": "Course-corrects group dynamics before problems grow.",
-    "shadow_axis": "Annoyed at being accused of paranoia; withdraws."
-  },
-  "44.3": {
-    "keywords": [
-      "trial recognition",
-      "misreads and repairs",
-      "reputation lessons"
-    ],
-    "behavioral_axis": "Learns accurate patterning by surviving false alarms.",
-    "shadow_axis": "Seen as manipulative or fear-mongering."
-  },
-  "44.4": {
-    "keywords": [
-      "loyalty auditor",
-      "group strategist",
-      "predator radar"
-    ],
-    "behavioral_axis": "Manages alliances to keep the tribe safe and effective.",
-    "shadow_axis": "Controls access to consolidate power."
-  },
-  "44.5": {
-    "keywords": [
-      "projected alliance fixer",
-      "‘save our reputation’",
-      "security spokesperson"
-    ],
-    "behavioral_axis": "Others expect you to detect threats and stabilize optics.",
-    "shadow_axis": "Blamed for political outcomes either way."
-  },
-  "44.6": {
-    "keywords": [
-      "elder pattern keeper",
-      "ancestral memory",
-      "strategic hindsight"
-    ],
-    "behavioral_axis": "Holds long memory so mistakes aren’t repeated.",
-    "shadow_axis": "Superiority over the ‘naive’; gatekeeps trust."
-  },
-
-  "45.1": {
-    "keywords": [
-      "resource rulership base",
-      "territorial clarity",
-      "who owns what"
-    ],
-    "behavioral_axis": "Defines structures for how resources are gathered and shared.",
-    "shadow_axis": "Status insecurity; clings to titles."
-  },
-  "45.2": {
-    "keywords": [
-      "natural gatherer",
-      "host energy",
-      "steward of plenty"
-    ],
-    "behavioral_axis": "Attracts assets and convenes people around a table.",
-    "shadow_axis": "Withdraws generosity if micromanaged."
-  },
-  "45.3": {
-    "keywords": [
-      "trial rulership",
-      "tax and fairness lessons",
-      "public mistakes"
-    ],
-    "behavioral_axis": "Learns ethical leadership by correcting misuses of power.",
-    "shadow_axis": "Grabs control; seen as petty monarch."
-  },
-  "45.4": {
-    "keywords": [
-      "community spokesperson",
-      "voice of provision",
-      "tribal leader"
-    ],
-    "behavioral_axis": "Speaks for the people about resources and direction.",
-    "shadow_axis": "Politics over principle to keep the chair."
-  },
-  "45.5": {
-    "keywords": [
-      "projected chief",
-      "‘lead us and provide’",
-      "symbolic ruler"
-    ],
-    "behavioral_axis": "Others expect decisive leadership and fair distribution.",
-    "shadow_axis": "Blamed as tyrant if decisions hurt someone's benefit."
-  },
-  "45.6": {
-    "keywords": [
-      "sovereign stewardship",
-      "legacy governance",
-      "resource ethics"
-    ],
-    "behavioral_axis": "Embodies that leadership serves people before hierarchy.",
-    "shadow_axis": "Elitist distance; gatekeeps the commons."
-  },
-
-  "46.1": {
-    "keywords": [
-      "embodiment base",
-      "right place, right time",
-      "body awareness"
-    ],
-    "behavioral_axis": "Builds safety by honoring the body’s signals before action.",
-    "shadow_axis": "Clumsy from anxiety; ignores somatic cues."
-  },
-  "46.2": {
-    "keywords": [
-      "natural grace",
-      "flow state",
-      "effortless presence"
-    ],
-    "behavioral_axis": "Falls into the right place without forcing.",
-    "shadow_axis": "Resents being watched or coached while moving."
-  },
-  "46.3": {
-    "keywords": [
-      "trial embodiment",
-      "accidents as teachers",
-      "learn by tumbling"
-    ],
-    "behavioral_axis": "Finds trust in the body through messy experience.",
-    "shadow_axis": "Reckless with risk; ignores limits."
-  },
-  "46.4": {
-    "keywords": [
-      "community embodiment",
-      "safe-space maker",
-      "somatic host"
-    ],
-    "behavioral_axis": "Creates environments where others can land in their bodies.",
-    "shadow_axis": "Performative wellness to gain status."
-  },
-  "46.5": {
-    "keywords": [
-      "projected pathfinder",
-      "‘put us in place’",
-      "placement guide"
-    ],
-    "behavioral_axis": "Others expect you to align people with correct roles/timing.",
-    "shadow_axis": "Blamed for misplacements or delays."
-  },
-  "46.6": {
-    "keywords": [
-      "embodied luck archetype",
-      "serendipity steward",
-      "love of the body"
-    ],
-    "behavioral_axis": "Lives as proof that devotion to embodiment attracts right timing.",
-    "shadow_axis": "Spiritual superiority about ‘right place’ purity."
-  },
-
-  "47.1": {
-    "keywords": [
-      "context base",
-      "pressure to realize",
-      "meaning assembly"
-    ],
-    "behavioral_axis": "Needs enough pieces to form a coherent picture.",
-    "shadow_axis": "Shames self for confusion; mental compression."
-  },
-  "47.2": {
-    "keywords": [
-      "natural meaning-maker",
-      "clean synthesis",
-      "gentle clarity"
-    ],
-    "behavioral_axis": "Realizes the story behind experiences without forcing it.",
-    "shadow_axis": "Irritated when pushed to explain half-baked insights."
-  },
-  "47.3": {
-    "keywords": [
-      "trial realization",
-      "wrong conclusions first",
-      "reframe and learn"
-    ],
-    "behavioral_axis": "Finds true meaning by revising failed interpretations.",
-    "shadow_axis": "Catastrophizes; fixates on worst-case narratives."
-  },
-  "47.4": {
-    "keywords": [
-      "group meaning translator",
-      "shared understanding",
-      "patterned hindsight"
-    ],
-    "behavioral_axis": "Gives the network digestible lessons from past events.",
-    "shadow_axis": "Curates the story to manage optics."
-  },
-  "47.5": {
-    "keywords": [
-      "projected explainer",
-      "resolve our confusion",
-      "abstract sense-maker"
-    ],
-    "behavioral_axis": "Others expect you to crystallize the lesson for everyone.",
-    "shadow_axis": "Blamed as manipulative if truth is uncomfortable."
-  },
-  "47.6": {
-    "keywords": [
-      "elder of realization",
-      "accept not-knowing",
-      "timed clarity"
-    ],
-    "behavioral_axis": "Embodies patience until meaning truly lands.",
-    "shadow_axis": "Detached ‘sage’ act; dismisses immediate concerns."
-  },
-
-  "48.1": {
-    "keywords": [
-      "depth foundation",
-      "adequacy fear baseline",
-      "build the well"
-    ],
-    "behavioral_axis": "Creates solid skill depth before stepping forward.",
-    "shadow_axis": "Freezes from ‘not ready’ anxiety."
-  },
-  "48.2": {
-    "keywords": [
-      "natural depth",
-      "quiet mastery",
-      "useful precision"
-    ],
-    "behavioral_axis": "Produces competent solutions without fanfare.",
-    "shadow_axis": "Annoyed by demands to perform depth on cue."
-  },
-  "48.3": {
-    "keywords": [
-      "trial depth",
-      "overcorrecting",
-      "learning by imperfect fixes"
-    ],
-    "behavioral_axis": "Builds competence through visible mistakes and repairs.",
-    "shadow_axis": "Inconsistent quality; reputation whiplash."
-  },
-  "48.4": {
-    "keywords": [
-      "well for the tribe",
-      "teaches technique",
-      "shares tools"
-    ],
-    "behavioral_axis": "Distributes depth so the community functions better.",
-    "shadow_axis": "Gatekeeps knowledge to keep importance."
-  },
-  "48.5": {
-    "keywords": [
-      "projected problem-fixer",
-      "‘you have the answer’",
-      "standard bearer"
-    ],
-    "behavioral_axis": "Others expect you to deliver the solution and raise the bar.",
-    "shadow_axis": "Impostor panic or accused of elitism."
-  },
-  "48.6": {
-    "keywords": [
-      "elder of depth",
-      "timeless competence",
-      "just-in-time wisdom"
-    ],
-    "behavioral_axis": "Shows that real depth arrives exactly when needed.",
-    "shadow_axis": "Superior detachment toward the ‘unskilled.’"
+  "gate": 6,
+  "gate_name": "",
+  "lines": {
+    "6.1": {
+      "line": 1,
+      "hd_title": "Retreat",
+      "hd_quote": "The very first lesson of this hexagram is to wait. It is about retreat. Wait and see.",
+      "keywords": [
+        "pause for clarity",
+        "resource protection",
+        "baseline boundaries"
+      ],
+      "behavioral_axis": "Begins intimacy by waiting, assessing odds, and conserving energy.",
+      "shadow_axis": "Reads patience as weakness; over-withdraws or ignores true risk.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.2": {
+      "line": 2,
+      "hd_title": "The Guerilla",
+      "hd_quote": "The sensitivity to find the weakest point in a conflict and to exploit it emotionally.",
+      "keywords": [
+        "advance/withdrawal wave",
+        "pressure-tested timing",
+        "tactical contact"
+      ],
+      "behavioral_axis": "Push–pull tactician; moves in or out at the critical moment.",
+      "shadow_axis": "Blunders into conflict; on/off pattern confuses allies.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.3": {
+      "line": 3,
+      "hd_title": "Allegiance",
+      "hd_quote": "The ability to secure support and create strength out of a weak position.",
+      "keywords": [
+        "bonds made & broken",
+        "adaptive fertility",
+        "re-aligning loyalties"
+      ],
+      "behavioral_axis": "Brokers bonds under stress; learns through making/breaking commitments.",
+      "shadow_axis": "Leaves scars when breaking ties; judged as unreliable.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.4": {
+      "line": 4,
+      "hd_title": "Triumph",
+      "hd_quote": "A position of natural and unchallengeable power.",
+      "keywords": [
+        "dominant emotional field",
+        "broadcast influence",
+        "lead-through-presence"
+      ],
+      "behavioral_axis": "Stabilizes others by broadcasting steady emotional leadership.",
+      "shadow_axis": "Steamrolls dissent; confuses dominance with resolution.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.5": {
+      "line": 5,
+      "hd_title": "Arbitration",
+      "hd_quote": "The faith derived from analytical diligence and emotional control that permits a higher authority to judge a conflict.",
+      "keywords": [
+        "mediator",
+        "time-based clarity",
+        "projection management"
+      ],
+      "behavioral_axis": "Holds space until time reveals fair resolution; manages projections.",
+      "shadow_axis": "Plays savior; takes on conflicts that time alone should decide.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.6": {
+      "line": 6,
+      "hd_title": "The Peacemaker",
+      "hd_quote": "I know that I have to have children, but in what kind of world will they live?",
+      "keywords": [
+        "world-level concern",
+        "legacy orientation",
+        "collective peacemaking"
+      ],
+      "behavioral_axis": "Seeks conditions for lasting peace; thinks beyond personal intimacy.",
+      "shadow_axis": "Becomes aloof; disengages from present bonds in favor of ideals.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
   }
 }

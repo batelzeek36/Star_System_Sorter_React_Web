@@ -1,0 +1,278 @@
+{
+  "6.1": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Healthy withdrawal preserves sovereignty; refuse domination at the door."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Set a clear threshold/door policy—container-first regulation."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Threshold vigilance: who gets access and under what terms."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/authorship axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "If fear-led, the boundary hardens into rules and compliance tests."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to hold the line without aggression."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Calm presence de-escalates and settles nervous systems."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private boundary practice, not formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "6.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Assert needs without surrendering agency."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Find workable terms and pacing—adjust the container for contact."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status defensiveness can spark tit-for-tat."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not a display/beauty theme."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Compromise may slide into appeasing doctrine or authority."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under pressure—speak truth gently but firmly."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Diplomatic soothing and attunement reduce charge."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational tuning, not codified protocol yet.",
+      "confidence": 5,
+      "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "6.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Swinging between appeasement and pushback outsources agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Inconsistent boundaries create choppy regulation and containment."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping/posturing erupts under stress."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an authorship/aesthetic line."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Rules get weaponized to force compliance."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Hard lessons in conflict forge principled courage."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing blurs the boundary and fuels volatility."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable teaching signal—this is trial-and-error learning.",
+      "confidence": 5,
+      "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "6.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Protects both parties’ sovereignty via fair terms."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets mediation structure and pacing—clean container for dialogue."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Triangulation or status blocks can creep into the process."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not a display/brand vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Leans on policy to control rather than resolve."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled negotiation under pressure."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Hosts a safe, attuned space so contact can happen."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Teaches de-escalation by protocol and example.",
+      "confidence": 4,
+      "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "mediator/protocol",
+      "keywords": ["mediation", "de-escalation", "boundary"]
+    }
+  },
+  "6.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Arbitrates to prevent domination and restore consent."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Clarifies terms, roles, and cadence—container excellence."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to agreed boundaries and accords."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Settlement can calcify into doctrine or coercion."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Holds integrity under pressure to reach honorable peace."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps the field soothed and bonded through resolution."
+    },
+    "sirius": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Royal arbitration signal—teaches boundary law and process.",
+      "confidence": 4,
+      "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "arbiter/peace-protocols",
+      "keywords": ["arbitration", "terms", "protocol"]
+    }
+  },
+  "6.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty chooses only right conflict."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Sets standing boundary norms for the whole field."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Presence can read as status barrier or intimidation."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry/display line."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Principle risks law-over-life or excommunication patterns."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage—chooses peace or battle by principle."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is boundary law, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Teaching-by-presence: a living protocol for boundaries and peace.",
+      "confidence": 4,
+      "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "boundary-law/role-model",
+      "keywords": ["standard-setting", "presence", "protocol"]
+    }
+  }
+}

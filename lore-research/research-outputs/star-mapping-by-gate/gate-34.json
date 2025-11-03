@@ -1,0 +1,278 @@
+{
+  "34.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced exertion; power is sovereign, not demanded."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Begins containment—frames when/where raw power is safe to use."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Bulldozing to dominate; loyalty-pressure via force."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/authorship axis."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Power as obedience theater; coercive hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Discipline of restraint—hold strength until the right call."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Checks impact so others aren’t overrun by intensity."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching power hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-34.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "34.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Declines forced output; guards self-direction."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Calibrates dosage, timing, and scope—safe channel for power."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rank tests around ‘proving’ strength."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Function, not display."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Procedural control masquerading as prudence."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Honorable restraint—act only when response is true."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Attunes to relational safety while engaging force."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Process stewardship, not codified instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-34.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "34.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after overpowering/misfires."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—surges, crashes, and course-correcting."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Predatory leveraging of strength for control."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Flash over form—showing power instead of shaping it."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Dogmatic use of force to secure obedience."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit excess, refine, re-engage cleanly."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement: yielding to pressure to ‘perform’ power."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial-and-error; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-34.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "34.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Advocates sovereignty—power in service to freedom, not display."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Translates raw strength into protocol—limits, roles, safeguards."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Deters predators—strength guards the commons when bounded."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Composed bearing makes power receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning ‘best practices’ into orthodoxy/hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—demonstrates right use of force under pressure."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Humane pacing keeps power from overwhelming bonds."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Teaches power protocol—lawful application of strength.",
+      "confidence": 4,
+      "sources": ["gate-line-34.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "power-protocol-teaching",
+      "keywords": ["limits", "roles", "safeguards"]
+    }
+  },
+  "34.5": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Resists propaganda to ‘be the muscle’ for control agendas."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal fixer/engine—burnout then scapegoat."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Status games—who gets to wield the power center."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Iconic presence without theatrics; steadies the field."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture—using strength to enforce orthodoxy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity under projection—serve the true response, not applause."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasing demands to stay ‘available’ for everyone’s needs."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence—models ethical strength under heat.",
+      "confidence": 4,
+      "sources": ["gate-line-34.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["ethics", "strength", "projection"]
+    }
+  },
+  "34.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frees communities from force-as-default; power serves life."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Elder standards for lawful force—review, proportionality, restraint."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy rank can ossify into gatekeeping of power."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet majesty—presence carries strength without display."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing strength into hierarchy rather than service."
+    },
+    "orion-light": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Warrior elder—courage to act or not act; power yoked to honor."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of power, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Power sage—teaches the law of right use of force by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-34.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "power-sage/law-of-right-use",
+      "keywords": ["proportionality", "restraint", "law", "elder"]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "gate": 9,
+  "gate_name": "",
+  "lines": {
+    "9.1": {
+      "line": 1,
+      "hd_title": "Sensibility",
+      "hd_quote": "A balanced and responsible approach to problem solving.",
+      "keywords": [
+        "build the focus baseline",
+        "patient attention",
+        "responsible approach"
+      ],
+      "behavioral_axis": "Anchors focus through steady, practical steps before scaling effort.",
+      "shadow_axis": "Scattered attention or forcing outcomes too soon.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "9.2": {
+      "line": 2,
+      "hd_title": "Misery loves company",
+      "hd_quote": "Collaboration with others to temper frustration.",
+      "keywords": [
+        "projected competence",
+        "study group energy",
+        "social logic"
+      ],
+      "behavioral_axis": "Focus attracts collaborators; learns best with others.",
+      "shadow_axis": "Assumes focus alone equals solutions; busywork without learning.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "9.3": {
+      "line": 3,
+      "hd_title": "The Straw that breaks the camels back",
+      "hd_quote": "The overlooked minor element that always predetermines failure.",
+      "keywords": [
+        "trial-and-error focus",
+        "notice the small thing",
+        "course corrections"
+      ],
+      "behavioral_axis": "Learns from missed details; iterates toward reliable focus.",
+      "shadow_axis": "Over-focus or obsession; misses key minor element.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "9.4": {
+      "line": 4,
+      "hd_title": "Dedication",
+      "hd_quote": "Regardless of the pressures or stress, the disciplined attention to detail.",
+      "keywords": [
+        "fixed concentration",
+        "disciplined attention",
+        "keeps team on task"
+      ],
+      "behavioral_axis": "Externalizes steady focus and keeps others concentrating.",
+      "shadow_axis": "Skips essential steps; pushes action before pattern is set.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "9.5": {
+      "line": 5,
+      "hd_title": "Faith",
+      "hd_quote": "Faith has nothing to do with the logic process.",
+      "keywords": [
+        "projected belief",
+        "trust-in-focus",
+        "expectations management"
+      ],
+      "behavioral_axis": "Carries others’ projections of faith in the process.",
+      "shadow_axis": "Blind trust in concentration; avoids verifying results.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "9.6": {
+      "line": 6,
+      "hd_title": "Gratitude",
+      "hd_quote": "The joy which comes with accepting small rewards for small victories.",
+      "keywords": [
+        "incremental wins",
+        "joy in process",
+        "long-horizon patience"
+      ],
+      "behavioral_axis": "Models satisfaction with steady, small advances.",
+      "shadow_axis": "Impatience for big results; disengages from the grind.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -2,241 +2,433 @@
   "1.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Builds creative identity from inner incubation, which is personal mutation work, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "1.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Radiates unique creative energy without trying, which is individual expression, not Sirius sacred knowledge transmission or initiation work.",
+    "confidence": 5,
+    "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "1.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Builds authentic voice through trial-and-error experimentation, which is personal creative process, not Sirius teaching or liberation current.",
+    "confidence": 5,
+    "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "1.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Broadcasts personal creative frequency for others to align to, which is individual influence, not Sirius sacred instruction or spiritual initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "1.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Gets projected as creative icon who redefines the vibe, which is about creative representation, not Sirius liberation teaching or cosmic law transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "1.6": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Embodies pure individuality with aloof perspective, which is personal frequency work, not Sirius sacred knowledge transmission or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-1.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "2.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Needs internal clarity about direction before moving, which is personal navigation, not Sirius teaching or liberation work.",
+    "confidence": 5,
+    "sources": ["gate-line-2.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "2.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Natural navigator who intuitively knows where resources belong, which is practical guidance, not Sirius sacred instruction or spiritual initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-2.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "2.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Learns correct path through wrong turns and adaptation, which is trial-and-error navigation, not Sirius liberation teaching or cosmic law transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-2.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "2.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Provides direction by linking right people and places, which is network strategy, not Sirius sacred knowledge transmission or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-2.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "2.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Projected to fix direction for the group fast, which is strategic rescue, not Sirius liberation teaching or spiritual initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-2.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "2.6": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Embodies long-term direction for collective, which is legacy navigation, not Sirius sacred instruction or liberation current.",
+    "confidence": 5,
+    "sources": ["gate-line-2.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "3.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Trusts that order will emerge over time without forcing, which is patient witnessing, not Sirius teaching or initiation work.",
+    "confidence": 5,
+    "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "3.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Projects confusion and pulls in fixers and teachers, which is about receiving guidance, not Sirius sacred knowledge transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "3.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Mutates through messy experimentation in sex and resources, which is survival hacking, not Sirius liberation teaching or cosmic law.",
+    "confidence": 5,
+    "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "3.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Draws in allies and advisors by broadcasting confusion, which is about attracting guidance, not Sirius teaching or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "3.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Holds convictions under projection or becomes scapegoat, which is boundary testing, not Sirius sacred instruction or liberation.",
+    "confidence": 5,
+    "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "3.6": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Embodies non-striving patience where order emerges naturally, which is existential acceptance, not Sirius teaching or initiation work.",
+    "confidence": 5,
+    "sources": ["gate-line-3.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "4.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Knows answers land when timing is correct, which is about logical timing, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "4.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Accepts limits and reduces judgment in answer delivery, which is humble logic, not Sirius cosmic law transmission or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "4.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Generates and collects answers through trial-and-error, which is logical experimentation, not Sirius sacred knowledge transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "4.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Says yes publicly then learns fast to fulfill the role, which is persona management, not Sirius teaching or liberation work.",
+    "confidence": 5,
+    "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "4.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Attracts resources to test and prove answers, which is about funding logic, not Sirius spiritual initiation or cosmic law.",
+    "confidence": 5,
+    "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "4.6": {
-    "weight": 0,
-    "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "weight": 0.3,
+    "alignment_type": "core",
+    "why": "Transcends formulas and searches for understanding beyond answers, which touches Sirius seeking higher wisdom beyond practical knowledge.",
+    "confidence": 3,
+    "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "seeking understanding beyond formulas",
+    "keywords": ["transcendence", "higher-wisdom", "beyond-logic"]
   },
   "5.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Protects personal rituals and holds schedule under pressure, which is pattern discipline, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "5.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Models serene rhythm and not forcing action, which is calm timing, not Sirius spiritual initiation or cosmic law transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "5.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Experiments to find correct tempo through start-stop impulses, which is rhythm trial-and-error, not Sirius teaching or liberation.",
+    "confidence": 5,
+    "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "5.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Externalizes rhythm to protect and provision the network, which is strategic patience, not Sirius sacred instruction or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "5.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Others project mastery onto visible serene rhythm, which is about timing projection, not Sirius liberation teaching or cosmic law.",
+    "confidence": 5,
+    "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "5.6": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Holds rhythm amid pressure and moves with unforeseen currents, which is yielding patience, not Sirius teaching or initiation work.",
+    "confidence": 5,
+    "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "6.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Begins intimacy by waiting and conserving energy, which is resource protection, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "6.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Push-pull tactician who moves in or out at critical moments, which is tactical intimacy, not Sirius spiritual initiation or cosmic law.",
+    "confidence": 5,
+    "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "6.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Brokers bonds under stress through making and breaking commitments, which is adaptive fertility, not Sirius teaching or liberation.",
+    "confidence": 5,
+    "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "6.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Stabilizes others by broadcasting steady emotional leadership, which is dominant presence, not Sirius sacred instruction or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "6.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Holds space until time reveals fair resolution, which is mediation work, not Sirius liberation teaching or cosmic law transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "6.6": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Seeks conditions for lasting peace beyond personal bonds, which is collective peacemaking, not Sirius teaching or spiritual initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-6.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "7.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Establishes firm direction and expects compliance, which is authoritarian leadership, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "7.2": {
-    "weight": 0,
-    "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "weight": 0.4,
+    "alignment_type": "core",
+    "why": "Leads naturally once elected or invited, which touches Sirius recognized authority and sacred leadership through proper selection.",
+    "confidence": 3,
+    "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "recognized sacred leadership",
+    "keywords": ["elected-authority", "sacred-leadership", "chosen-guide"]
   },
   "7.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Tests structures and refuses imposed roles, which is anarchist energy, not Sirius cosmic law transmission or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "7.4": {
-    "weight": 0,
-    "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "weight": 0.5,
+    "alignment_type": "core",
+    "why": "Steps down when mandate ends and respects rule of law, which aligns with Sirius cosmic law adherence and sacred timing of leadership transitions.",
+    "confidence": 4,
+    "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "cosmic law adherence, sacred timing",
+    "keywords": ["cosmic-law", "sacred-timing", "lawful-transition"]
   },
   "7.5": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Carries mass projections to lead in crisis, which is emergency leadership, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "7.6": {
-    "weight": 0,
-    "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "weight": 0.3,
+    "alignment_type": "core",
+    "why": "Shares power wisely and articulates roles and responsibilities, which touches Sirius sacred instruction about proper order and cosmic law.",
+    "confidence": 3,
+    "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "sacred instruction about proper order",
+    "keywords": ["cosmic-order", "sacred-structure", "wise-distribution"]
   },
   "8.1": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Opens doors by naming limits and inviting support, which is humble contribution, not Sirius liberation teaching or sacred instruction.",
+    "confidence": 5,
+    "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "8.2": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Contributes naturally when invited or recognized, which is quiet service, not Sirius spiritual initiation or cosmic law transmission.",
+    "confidence": 5,
+    "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "8.3": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Learns to align presentation with real contribution, which is about authenticity, not Sirius teaching or liberation work.",
+    "confidence": 5,
+    "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "8.4": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Builds networks by honoring genuine contributors, which is community building, not Sirius sacred instruction or initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   },
   "8.5": {
-    "weight": 0,
-    "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "weight": 0.6,
+    "alignment_type": "core",
+    "why": "Leads to the waypoint then releases attachment, which strongly aligns with Sirius teaching and liberation—guiding to freedom then letting go.",
+    "confidence": 4,
+    "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "sacred teaching, liberation through release",
+    "keywords": ["teach-release", "liberation", "sacred-guidance", "freedom"]
   },
   "8.6": {
     "weight": 0,
     "alignment_type": "none",
-    "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    "why": "Contributes when the field is ready by watching for openings, which is timing awareness, not Sirius teaching or spiritual initiation.",
+    "confidence": 5,
+    "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+    "behavioral_match": "none",
+    "keywords": []
   }
 }

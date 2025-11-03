@@ -1,0 +1,84 @@
+{
+  "gate": 37,
+  "gate_name": "The Family / The Gate of Friendship",
+  "lines": {
+    "37.1": {
+      "line": 1,
+      "hd_title": "The mother/father",
+      "hd_quote": "Harmony is the key to the successful maintenance of relationships.",
+      "keywords": [
+        "sets tone",
+        "creates safe field",
+        "values-based bonding"
+      ],
+      "behavioral_axis": "Establishes emotional harmony so tribal rules can exist.",
+      "shadow_axis": "Becomes over-accommodating ‘parent,’ enabling dysfunction.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "37.2": {
+      "line": 2,
+      "hd_title": "Responsibility",
+      "hd_quote": "The understanding of the principle of individual responsibility as the foundation for successful cooperation.",
+      "keywords": [
+        "agreements",
+        "fair workload",
+        "mutual duties"
+      ],
+      "behavioral_axis": "Keeps the bargain clear: everyone contributes to the tribe.",
+      "shadow_axis": "Points out others’ duty but forgets their own.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "37.3": {
+      "line": 3,
+      "hd_title": "Evenhandedness",
+      "hd_quote": "The ability to judge what behaviour is appropriate and to react in a balanced manner to transgressions.",
+      "keywords": [
+        "fair justice",
+        "balanced discipline",
+        "keeps peace"
+      ],
+      "behavioral_axis": "Applies the rules evenly to preserve family harmony.",
+      "shadow_axis": "Tests boundaries or reacts too harshly to tests.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "37.4": {
+      "line": 4,
+      "hd_title": "Leadership by example",
+      "hd_quote": "The manifestation of the highest principles in everyday and practical affairs.",
+      "keywords": [
+        "walks the talk",
+        "visible integrity",
+        "model of care"
+      ],
+      "behavioral_axis": "Leads the family by living the tribal values.",
+      "shadow_axis": "Becomes moralistic; rejects non-traditional leaders.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "37.5": {
+      "line": 5,
+      "hd_title": "Love",
+      "hd_quote": "Natural harmony and sharing possible through friendship.",
+      "keywords": [
+        "warm tribe",
+        "nourishing field",
+        "easy generosity"
+      ],
+      "behavioral_axis": "Radiates friendliness that invites outsiders into the bargain.",
+      "shadow_axis": "Emotional dependency flips love → hate.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "37.6": {
+      "line": 6,
+      "hd_title": "Purpose",
+      "hd_quote": "A need for diversity that may ignore the achievements of the family in favour of withdrawal.",
+      "keywords": [
+        "higher mission",
+        "periodic withdrawal",
+        "redefinition of family"
+      ],
+      "behavioral_axis": "Seeks broader purpose and may step out to refresh tribal values.",
+      "shadow_axis": "Detaches so far it seems disloyal.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

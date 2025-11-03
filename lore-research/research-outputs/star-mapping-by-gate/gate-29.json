@@ -1,0 +1,278 @@
+{
+  "29.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Choose your 'yes' rather than being conscripted—seed of sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Basics of commitment hygiene: scope, pace, and simple containers."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early zeal can slip into policing others’ follow-through."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/display vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rigidity—saying yes as doctrine rather than discernment."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Micro-ordeal: keep showing up to the chosen path."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Self-soothing and support make early commitments sustainable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private commitment practice; no explicit transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-29.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "29.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Say yes without surrendering agency; retain the right to re-evaluate."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Place commitment in the right tempo and container for flow."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Status-sensitivity over who is ‘reliably committed.’"
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Graceful bearing helps commitments be received."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to ‘how it’s done’ over truth."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to hold a clean yes and a clean no."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned support and warmth reinforce steady follow-through."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational steadiness, not formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-29.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "29.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Savior/victim loops from overcommitting outsource agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Messy yes/no placement—structure breaks under trial."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping and correctness posturing around ‘real commitment.’"
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Performative loyalty replaces honest evaluation."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Dogmatic compliance to commitments despite misfit."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal teaches wise yes: refine scope, renegotiate, or release."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Appeasement/enmeshment sustains the wrong commitments."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error commitment learning.",
+      "confidence": 5,
+      "sources": ["gate-line-29.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "29.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Negotiates fair terms; frees teams from coercive yeses."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Designs clear agreements—roles, cadence, check-ins."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Loyalty enforcement to shared commitments and thresholds."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain, elegant framing helps the pact land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can harden into ‘commitment optics’ policing."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled follow-through under scrutiny."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attuned stewardship keeps morale calm and bonded."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches agreement protocol by example—how to commit well.",
+      "confidence": 4,
+      "sources": ["gate-line-29.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "agreement/commitment-protocol",
+      "keywords": ["agreements", "cadence", "roles"]
+    }
+  },
+  "29.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses authority to end coercive commitments; restores choice."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for vows, scope, and review—container mastery."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Upholds loyalty to the pact and mission integrity."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Clear, resonant language and tone unify the field."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk: authoritarian 'stick-to-it' optics."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when pressure tests the promise."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports recommitment without shame."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in commitment law—vow hygiene and review cadence.",
+      "confidence": 4,
+      "sources": ["gate-line-29.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "vow/contract-teacher",
+      "keywords": ["vows", "review", "standards"]
+    }
+  },
+  "29.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty: choose only aligned commitments."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for commitment entry/exit and pacing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as rank barrier guarding the pact."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain, archetypal phrasing sets the cultural tone of promise."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Law-over-life risk—'always commit' canon ossifies."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to recommit or release by truth."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains, without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: canon of commitment transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-29.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/commitment-canon",
+      "keywords": ["canon", "entry-exit", "pacing"]
+    }
+  }
+}

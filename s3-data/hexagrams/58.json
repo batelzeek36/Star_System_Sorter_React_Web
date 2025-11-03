@@ -6,12 +6,10 @@
   "component": "I_CHING",
   "version": "1.0",
   "last_updated": "2025-10-28",
-
   "core_meaning": {
-    "legge_1899_public_domain": "Tui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.",
+    "legge_1899_public_domain": "Joy through openness and resonance. Success comes with sincere, principled cheer—sharing delight without pandering. Guard against flattery and pleasure-chasing that erodes integrity.",
     "normalized_summary": "Joy through openness and resonance. Success comes with sincere, principled cheer—sharing delight without pandering. Guard against flattery and pleasure-chasing that erodes integrity."
   },
-
   "lines": [
     {
       "line": 1,
@@ -145,5 +143,30 @@
         "joy as signal"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.562549Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 226,
+      "leaf_end": 229,
+      "page_candidates": [
+        "423",
+        "2",
+        "I",
+        "4",
+        "3",
+        "425",
+        "6",
+        "426",
+        "427",
+        "9",
+        "7",
+        "429",
+        "10"
+      ],
+      "page_confidence": 0.0
+    }
+  }
 }

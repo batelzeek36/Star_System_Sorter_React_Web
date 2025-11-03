@@ -1,0 +1,278 @@
+{
+  "25.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Hold innocence without surrendering agency."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Simple, clean boundaries regulate open-hearted contact."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early ‘pure/right’ optics can spark status correctness."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/display axis."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Grabbing moral rules to feel safe."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to stay open-hearted under pressure."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Gentle, attuned presence soothes the field."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private heart practice; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-25.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "25.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protect innocence from domination while engaging."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Right placement and pacing for compassionate action."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Loyal guard at the threshold of the heart-space."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Graceful comportment helps acceptance."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Moral correctness can drift into doctrine."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Disciplined compassion under mild pressure."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned care and hospitality stabilize contact."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational tuning; not yet protocol teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-25.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "25.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Savior/victim loops outsource the heart’s agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Boundary collapse and choppy regulation of innocence."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Purity policing and clique protection of ‘virtue.’"
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performative innocence eclipses truth."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Purity doctrine used as control/compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal teaches clean boundaries around the heart."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement distorts compassion."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error innocence.",
+      "confidence": 5,
+      "sources": ["gate-line-25.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "25.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Compassion frees others from shame-based control."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Builds care/triage container—steady after the shock."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards access to the heart-field; keeps predators out."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Dignified bearing helps the medicine land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into moral policy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Initiation through shock becomes compassion-in-action."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Soothing presence restores nervous-system safety."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches care protocol by example—how to hold innocent heart.",
+      "confidence": 4,
+      "sources": ["gate-line-25.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "care/triage-protocol",
+      "keywords": ["triage", "compassion", "shock"]
+    }
+  },
+  "25.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses influence to liberate from shame and moral bondage."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets humane standards and cadence for ethical care."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyal adherence to humane norms."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Establishes the cultural tone of dignified compassion."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Purity canon can slide into orthodoxy policing."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds open-hearted integrity under pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth helps adoption without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in heart-law—universal love as living standard.",
+      "confidence": 4,
+      "sources": ["gate-line-25.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "universal-love/ethic-teacher",
+      "keywords": ["standards", "heart-law", "compassion"]
+    }
+  },
+  "25.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodied innocence liberates others by presence alone."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for mercy with just boundaries."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Aura can read as purity gate or rank barrier."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet, archetypal simplicity—beauty of unforced heart."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Law-over-life risk—purity canon hardens into dogma."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to remain undefended yet clear."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: heart-law canon transmitted by presence.",
+      "confidence": 4,
+      "sources": ["gate-line-25.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/heart-law-canon",
+      "keywords": ["presence", "innocence", "canon"]
+    }
+  }
+}

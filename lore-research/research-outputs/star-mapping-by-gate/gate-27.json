@@ -1,0 +1,278 @@
+{
+  "27.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Claim self-care before service—sovereign giving, not appeasement."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Set capacity and boundaries first; clean container for care."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early 'who deserves care' policing can creep in."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/display axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rule-bound charity used to force compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Discipline to say no until resourced."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Nourishing impulse present—attune gently to real need."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private caretaking calibration; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-27.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "27.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Hold agency while accepting duty."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Define who cares for what and when; right-sized scope."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guardian stance at thresholds protecting dependents."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Gracious delivery improves uptake of help."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Duty can drift into coercive compliance."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps promises under pressure—clean responsibility."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Steady, attuned provision supports bonding."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational service, not codified instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-27.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "27.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim–savior loops outsource agency in caretaking."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Over/under-giving exposes weak limits and messy placement."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping/favoritism distort who gets support."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performative charity eclipses real nourishment."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Moralizing care becomes obedience testing and leverage."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Hard lessons teach right-sized, principled giving."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement masquerades as nurture."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error care cycle.",
+      "confidence": 5,
+      "sources": ["gate-line-27.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "27.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Ends enabling; frees recipients to stand on their own."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Builds fair intake/triage and pacing for support."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protects vulnerable access; checks predatory claims."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Welcoming tone makes care receivable without vanity."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policies can ossify into control if over-fixed."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled generosity under scrutiny."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Attuned nourishment restores nervous-system safety."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches care protocol by example—intake, rationing, boundaries.",
+      "confidence": 4,
+      "sources": ["gate-line-27.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "care/triage-protocol",
+      "keywords": ["intake", "rationing", "boundaries"]
+    }
+  },
+  "27.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses authority to end coercive care loops and dependency."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards, roles, and cadence for nourishment systems."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to care ethics and fair access."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Designs dignified, welcoming environments for receiving."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Standard-setting can slip into moral control or optics."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when scarcity or pressure bite."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports adoption without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in ethics-of-care and provisioning law.",
+      "confidence": 4,
+      "sources": ["gate-line-27.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "care-standards/allocations-teacher",
+      "keywords": ["care-law", "allocations", "ethics"]
+    }
+  },
+  "27.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied benevolence grants sovereignty to recipients."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for humane feeding/care."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can feel like a gate to support."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Archetypal hospitality presence—quiet dignity."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Canonizing care risks paternalism and dogma."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to balance mercy with firm limits."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction of the care canon—presence teaches law-by-hospitality.",
+      "confidence": 4,
+      "sources": ["gate-line-27.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-hospitality/care-canon",
+      "keywords": ["canon", "stewardship", "hospitality"]
+    }
+  }
+}

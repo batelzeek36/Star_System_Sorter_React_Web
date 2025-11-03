@@ -1,0 +1,278 @@
+{
+  "14.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Choosing work that fits your nature is personal alignment, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets a sustainable resource container—right work, clear boundaries, steady throughput."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early status/earning anxiety can trigger rank comparisons and correctness policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/creative-display axis."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Chasing money as control rather than alignment—compliance-to-wealth."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to pursue the work you love over short-term control/greed."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Self-nourishment and pacing so the fuel for work stays healthy."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching stewardship; no formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-14.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "14.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Guarding one’s resources ≠ anti-domination intervention."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Natural placement and pacing—keeps resources flowing in a clean container."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Pressure can provoke loyalty checks or gatekeeping around access to resources."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of being used/controlled through money or ‘obligations.’"
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable restraint: wait for correct invitations before committing resources."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Attuned hospitality—supporting the right people at the right time."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Resource guardianship without explicit teaching/codification yet.",
+      "confidence": 5,
+      "sources": ["gate-line-14.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "14.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Struggle with overspend/scarcity cycles is self-mastery, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Choppy regulation—budget/method swings while learning sustainable throughput."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Stress can flip into rank posturing or access gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Control impulse: forcing compliance and using money to dominate when anxious."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Trial by temptation: cultivate discipline so resources serve true direction."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement/people-pleasing can drain resources and blur boundaries."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging stewardship; no royal-instruction vector yet.",
+      "confidence": 5,
+      "sources": ["gate-line-14.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "14.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Stabilizing resource flows for the group is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Converts raw energy into reliable systems—allocation, cadence, and safeguards."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract clique filters on who gets funded."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Patronage angle is secondary here."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of ossifying ‘what works’ into doctrinal budget dogma."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentor-by-steadiness: others meet the ordeal of aligning to fair stewardship."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Relational attunement ensures resourcing actually nourishes the field."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-stewardship: protocols for right use of power transmit higher order.",
+      "confidence": 4,
+      "sources": ["gate-line-14.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "resource-protocol-teaching",
+      "keywords": ["allocation", "stewardship", "systems"]
+    }
+  },
+  "14.5": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced funding narratives; protects resource sovereignty under projection."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix everyone’s finances’ → burnout/scapegoat when reality resists one-size fits-all."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura invites loyalty tests and access gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not primarily an artistry axis."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing financial compliance to preserve image/control."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Integrity under projection—resource decisions based on principle, not flattery."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement can distort allocation and drain reserves."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Royal instruction-by-presence: models ethical wealth use despite projections.",
+      "confidence": 4,
+      "sources": ["gate-line-14.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["ethics", "allocation", "example"]
+    }
+  },
+  "14.6": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Guards resource sovereignty; refuses capture by wealth or patronage."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder stewardship—durable standards for generating and distributing power well."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy authority can slip into status preservation or access policing."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Patronage used to uplift true culture/beauty, not image."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning stewardship into dogma/hierarchy (empire-building through wealth)."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: disciplined courage to let wealth serve direction, not ego."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is stewardship integrity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Treasury sage—teaches the law of right use of power/wealth by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-14.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "treasury-sage",
+      "keywords": ["wealth", "empowerment", "example"]
+    }
+  }
+}
