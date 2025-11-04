@@ -2,11 +2,14 @@ import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '@/store/birthDataStore';
 import { useClassification } from '@/hooks/useClassification';
+import { useStarSystemSources } from '@/hooks/useStarSystemSources';
 import { Button } from '@/components/figma/Button';
 import { Chip } from '@/components/figma/Chip';
 import { LoadingOverlay } from '@/components/figma/LoadingOverlay';
 import { StarSystemCrests, type StarSystemName } from '@/components/figma/StarSystemCrests';
 import { TabBar } from '@/components/figma/TabBar';
+import { ResearchSources } from '@/components/ResearchSources';
+import { NarrativeSummary } from '@/components/NarrativeSummary';
 import { animationStyles } from '@/styles/animations';
 
 type Tab = 'home' | 'community' | 'profile';
@@ -46,7 +49,9 @@ export default function ResultScreen() {
   const navigate = useNavigate();
   const hdData = useBirthDataStore((state) => state.hdData);
   const classification = useBirthDataStore((state) => state.classification);
+  const clear = useBirthDataStore((state) => state.clear);
   const { loading, classify } = useClassification();
+  const { getSystemSources } = useStarSystemSources();
   
   // Animated percentage counter
   const [displayPercentage, setDisplayPercentage] = useState(0);
@@ -118,8 +123,14 @@ export default function ResultScreen() {
   const radius = 80;
   const circumference = 2 * Math.PI * radius;
 
-  // Get top 3 allies (excluding primary)
+  // Get top 3 allies (core alignments only)
   const allies = classification.allies?.slice(0, 3) || [];
+  
+  // Get top 3 shadow work areas
+  const shadowWork = classification.shadowWork?.slice(0, 3).filter((s: { percentage: number }) => s.percentage > 0) || [];
+
+  // Get research sources for the primary system
+  const systemSources = getSystemSources(primarySystem);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[var(--s3-canvas-dark)] via-[var(--s3-surface-subtle)] to-[var(--s3-canvas-dark)] relative overflow-hidden">
@@ -206,21 +217,50 @@ export default function ResultScreen() {
             </div>
           </div>
 
-          {/* Ally Star Systems */}
-          {allies.length > 0 && (
+          {/* AI-Generated Narrative Summary */}
+          {hdData && classification && (
             <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
-              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Ally Star Systems</p>
+              <NarrativeSummary classification={classification} hdData={hdData} />
+            </div>
+          )}
+
+          {/* Ally Star Systems (Core Alignments) */}
+          {allies.length > 0 && (
+            <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
+              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Ally Star Systems (Core)</p>
               <div className="flex flex-wrap gap-2">
                 {allies.map((ally, index) => (
                   <div 
                     key={ally.system}
                     className="animate-fade-in-up transition-all duration-300 hover:scale-105"
-                    style={{ animationDelay: `${0.4 + index * 0.1}s`, animationFillMode: 'both' }}
+                    style={{ animationDelay: `${0.5 + index * 0.1}s`, animationFillMode: 'both' }}
                   >
                     <Chip 
                       starSystem={ally.system} 
                       percentage={parseFloat(ally.percentage.toFixed(1))} 
                       variant={index === 0 ? 'gold' : 'lavender'} 
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Shadow Work Areas */}
+          {shadowWork.length > 0 && (
+            <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.45s', animationFillMode: 'both' }}>
+              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Shadow Work Areas</p>
+              <div className="flex flex-wrap gap-2">
+                {shadowWork.map((shadow: { system: string; percentage: number }, index: number) => (
+                  <div 
+                    key={shadow.system}
+                    className="animate-fade-in-up transition-all duration-300 hover:scale-105"
+                    style={{ animationDelay: `${0.55 + index * 0.1}s`, animationFillMode: 'both' }}
+                  >
+                    <Chip 
+                      starSystem={shadow.system} 
+                      percentage={parseFloat(shadow.percentage.toFixed(1))} 
+                      variant="warning" 
                     />
                   </div>
                 ))}
@@ -239,6 +279,21 @@ export default function ResultScreen() {
             </Button>
           </div>
 
+          {/* Generate New Chart Button */}
+          <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.55s', animationFillMode: 'both' }}>
+            <Button 
+              variant="secondary" 
+              className="w-full transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                // Clear all data
+                clear();
+                // Navigate to input screen
+                navigate('/input');
+              }}
+            >
+              ✨ Generate New Chart
+            </Button>
+          </div>
         {/* Open Dossier Button - Hidden for now, Why screen serves as dossier */}
         {/* <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
           <Button 
@@ -250,8 +305,19 @@ export default function ResultScreen() {
           </Button>
         </div> */}
 
+          {/* Research Sources */}
+          {systemSources && (
+            <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.7s', animationFillMode: 'both' }}>
+              <ResearchSources
+                systemName={primarySystem}
+                sources={systemSources.sources}
+                coreThemes={systemSources.core_themes}
+              />
+            </div>
+          )}
+
           {/* Legal Disclaimer */}
-          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.8s', animationFillMode: 'both' }}>
             <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)] transition-all duration-300 hover:border-[var(--s3-border-emphasis)]">
               <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
                 For insight & entertainment. Not medical, financial, or legal advice.

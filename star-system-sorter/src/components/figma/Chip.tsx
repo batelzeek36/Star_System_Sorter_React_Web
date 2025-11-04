@@ -4,7 +4,7 @@ import { X } from 'lucide-react';
 interface ChipProps extends HTMLAttributes<HTMLDivElement> {
   starSystem: string;
   percentage?: number;
-  variant?: 'gold' | 'lavender';
+  variant?: 'gold' | 'lavender' | 'warning';
   selectable?: boolean;
   selected?: boolean;
   onSelect?: () => void;
@@ -30,7 +30,10 @@ export function Chip({
       : "bg-gradient-to-r from-[var(--s3-gold-500)]/20 to-[var(--s3-gold-400)]/20 border-[var(--s3-gold-400)]/40 text-[var(--s3-gold-300)]",
     lavender: selected
       ? "bg-gradient-to-r from-[var(--s3-lavender-500)] to-[var(--s3-lavender-400)] border-[var(--s3-lavender-400)] text-white"
-      : "bg-[var(--s3-lavender-500)]/20 border-[var(--s3-lavender-400)]/30 text-[var(--s3-lavender-300)]"
+      : "bg-[var(--s3-lavender-500)]/20 border-[var(--s3-lavender-400)]/30 text-[var(--s3-lavender-300)]",
+    warning: selected
+      ? "bg-gradient-to-r from-amber-500 to-amber-400 border-amber-400 text-white"
+      : "bg-amber-500/20 border-amber-400/30 text-amber-300"
   };
 
   const baseClasses = `

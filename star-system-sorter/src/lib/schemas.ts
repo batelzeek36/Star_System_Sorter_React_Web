@@ -72,6 +72,15 @@ export const BirthDataAPIRequestSchema = z.object({
 
 export type BirthDataAPIRequest = z.infer<typeof BirthDataAPIRequestSchema>;
 
+export const PlacementSchema = z.object({
+  planet: z.string(),
+  gate: z.number(),
+  line: z.number(),
+  type: z.enum(['personality', 'design']),
+});
+
+export type Placement = z.infer<typeof PlacementSchema>;
+
 export const HDExtractSchema = z.object({
   type: z.string(),
   authority: z.string(),
@@ -79,6 +88,7 @@ export const HDExtractSchema = z.object({
   centers: z.array(z.string()),
   channels: z.array(z.number()),
   gates: z.array(z.number()),
+  placements: z.array(PlacementSchema),
 });
 
 export type HDExtract = z.infer<typeof HDExtractSchema>;
@@ -128,7 +138,10 @@ export const ClassificationResultSchema = z.object({
   primary: z.string().optional(),
   hybrid: z.tuple([z.string(), z.string()]).optional(),
   allies: z.array(AllySchema),
+  shadowWork: z.array(AllySchema).optional(),
   percentages: z.record(z.string(), z.number()),
+  corePercentages: z.record(z.string(), z.number()).optional(),
+  shadowPercentages: z.record(z.string(), z.number()).optional(),
   contributorsPerSystem: z.record(z.string(), z.array(z.string())),
   contributorsWithWeights: z.record(z.string(), z.array(ContributorSchema)),
   enhancedContributorsWithWeights: z.record(z.string(), z.array(EnhancedContributorSchema)).optional(),

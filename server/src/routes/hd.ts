@@ -20,6 +20,13 @@ const BirthDataAPIRequestSchema = z.object({
   lon: z.number().min(-180).max(180).optional(),
 });
 
+const PlacementSchema = z.object({
+  planet: z.string(),
+  gate: z.number(),
+  line: z.number(),
+  type: z.enum(['personality', 'design']),
+});
+
 const HDExtractSchema = z.object({
   type: z.string(),
   authority: z.string(),
@@ -27,10 +34,12 @@ const HDExtractSchema = z.object({
   centers: z.array(z.string()),
   channels: z.array(z.number()),
   gates: z.array(z.number()),
+  placements: z.array(PlacementSchema),
 });
 
 type BirthDataAPIRequest = z.infer<typeof BirthDataAPIRequestSchema>;
 type HDExtract = z.infer<typeof HDExtractSchema>;
+type Placement = z.infer<typeof PlacementSchema>;
 
 /**
  * Generate a hashed cache key from birth data
@@ -42,10 +51,83 @@ function generateCacheKey(data: BirthDataAPIRequest): string {
 }
 
 /**
+ * Extract planet placements from Personality and Design objects (v4.3 - November 2024)
+ * 
+ * The BodyGraph API returns planet data in two sections:
+ * - Personality: Conscious design (what you identify with)
+ * - Design: Unconscious design (what others see in you)
+ * 
+ * Each planet has Gate, Line, Color, Tone, Base, and FixingState.
+ * We extract Gate and Line for scoring purposes.
+ * 
+ * Example API response:
+ * {
+ *   "Personality": {
+ *     "Sun": { "Gate": 21, "Line": 4, ... },
+ *     "Earth": { "Gate": 48, "Line": 1, ... }
+ *   },
+ *   "Design": {
+ *     "Sun": { "Gate": 13, "Line": 2, ... },
+ *     ...
+ *   }
+ * }
+ * 
+ * @param bodyGraphResponse - Raw API response from BodyGraph
+ * @returns Array of placements with planet, gate, line, and type
+ */
+function extractPlacements(bodyGraphResponse: any): Placement[] {
+  const placements: Placement[] = [];
+  
+  // Extract Personality placements
+  const personality = bodyGraphResponse.Personality || {};
+  const personalityPlanets = ['Sun', 'Earth', 'Moon', 'North Node', 'South Node', 
+                               'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 
+                               'Uranus', 'Neptune', 'Pluto'];
+  
+  for (const planet of personalityPlanets) {
+    const data = personality[planet];
+    if (data && data.Gate && data.Line) {
+      placements.push({
+        planet,
+        gate: parseInt(data.Gate, 10),
+        line: parseInt(data.Line, 10),
+        type: 'personality',
+      });
+    }
+  }
+  
+  // Extract Design placements
+  const design = bodyGraphResponse.Design || {};
+  const designPlanets = ['Sun', 'Earth', 'Moon', 'North Node', 'South Node', 
+                         'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 
+                         'Uranus', 'Neptune', 'Pluto'];
+  
+  for (const planet of designPlanets) {
+    const data = design[planet];
+    if (data && data.Gate && data.Line) {
+      placements.push({
+        planet,
+        gate: parseInt(data.Gate, 10),
+        line: parseInt(data.Line, 10),
+        type: 'design',
+      });
+    }
+  }
+  
+  return placements;
+}
+
+/**
  * Extract HD data from BodyGraph API response
  */
 function extractHDData(bodyGraphResponse: any): HDExtract {
   const props = bodyGraphResponse.Properties || {};
+  
+  // Extract placements from Personality and Design
+  const placements = extractPlacements(bodyGraphResponse);
+  
+  // Derive unique gates from placements
+  const gates = Array.from(new Set(placements.map(p => p.gate))).sort((a, b) => a - b);
   
   return {
     type: props.Type?.option || '',
@@ -57,7 +139,8 @@ function extractHDData(bodyGraphResponse: any): HDExtract {
       const match = c.option.match(/^(\d+)/);
       return match ? parseInt(match[1], 10) : parseInt(c.option, 10);
     }) || [],
-    gates: props.Gates?.list?.map((g: any) => parseInt(g.option, 10)) || [],
+    gates,
+    placements,
   };
 }
 

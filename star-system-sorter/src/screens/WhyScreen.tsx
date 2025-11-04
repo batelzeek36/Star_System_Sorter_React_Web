@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { useBirthDataStore } from "@/store/birthDataStore";
@@ -47,17 +47,17 @@ export default function WhyScreen() {
     return null;
   }
 
+  // Determine primary system name (recalculate on every render to catch updates)
+  const primarySystem =
+    classification.classification === "hybrid" && classification.hybrid
+      ? classification.hybrid[0]
+      : classification.primary || "Unknown";
+
   // Handle recompute with new lore
   const handleRecompute = async () => {
     if (!hdData) return;
     await recompute(hdData);
   };
-
-  // Determine primary system name
-  const primarySystem =
-    classification.classification === "hybrid" && classification.hybrid
-      ? classification.hybrid[0]
-      : classification.primary || "Unknown";
 
   // Get all available systems (primary + allies)
   const availableSystems = [
@@ -66,7 +66,13 @@ export default function WhyScreen() {
   ];
 
   // State for active tab (default to primary system)
+  // Reset to primary system when classification changes
   const [activeSystem, setActiveSystem] = useState(primarySystem);
+  
+  // Update active system when primary system changes (e.g., after recompute or new chart)
+  useEffect(() => {
+    setActiveSystem(primarySystem);
+  }, [primarySystem]);
 
   // Get contributors with weights for the active system
   const enhancedContributors =

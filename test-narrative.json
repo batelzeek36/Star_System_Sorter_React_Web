@@ -1,0 +1,21 @@
+{
+  "classification": "hybrid",
+  "hybrid": ["Arcturus", "Orion Light"],
+  "percentages": {
+    "Arcturus": 32.5,
+    "Orion Light": 28.3,
+    "Sirius": 15.2,
+    "Andromeda": 10.1,
+    "Pleiades": 8.4,
+    "Lyra": 3.2,
+    "Draco": 1.8,
+    "Orion Dark": 0.5
+  },
+  "hdData": {
+    "type": "Manifestor",
+    "authority": "Emotional",
+    "profile": "5/1",
+    "centers": ["Head", "Ajna", "Throat", "Solar Plexus"],
+    "gates": [1, 8, 13, 14, 25, 33, 43, 51, 56, 62]
+  }
+}

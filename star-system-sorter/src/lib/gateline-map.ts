@@ -41,8 +41,9 @@ export async function loadGateLineMap(): Promise<GateLineMap> {
     if (!response.ok) {
       throw new Error(`Failed to load gate-line map: ${response.statusText}`);
     }
-    gateLineMapData = await response.json();
-    return gateLineMapData;
+    const data = await response.json();
+    gateLineMapData = data;
+    return data;
   } catch (error) {
     console.error('Failed to load gate-line map:', error);
     // Return empty map as fallback

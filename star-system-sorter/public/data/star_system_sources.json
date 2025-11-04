@@ -1,0 +1,2095 @@
+{
+  "version": "1.0",
+  "generated": "2025-11-03",
+  "description": "Consolidated research sources for all star systems from v4.2 baselines",
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "research_hours": "862-1,656 hours (5-10 months full-time)",
+    "source_standards": "Publisher-backed sources with ISBN or known imprint; university press; peer-reviewed journals; ancient texts with named translators",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+      "Kabbalah - Academic study (Scholem, Idel)",
+      "Chakra system - Religious Studies (Feuerstein)",
+      "Western Astrology - Cultural history (Tarnas)"
+    ]
+  },
+  "star_systems": {
+    "andromeda": {
+      "name": "Andromeda",
+      "version": "4.2",
+      "last_updated": "2025-10-27",
+      "core_themes": [
+        "Liberation from captivity and unjust bondage",
+        "Intervention to free the bound and restore sovereignty",
+        "Anti-domination ethics and non-hierarchical council governance",
+        "Cosmic justice alignment and restoration of balance",
+        "Extragalactic perspective and separate civilization consciousness"
+      ],
+      "shadow_themes": [
+        "Passive victimhood and waiting for rescue",
+        "Martyrdom complex and self-sacrifice without agency",
+        "Idealistic council structures that avoid direct action"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "Star Names: Their Lore and Meaning",
+            "author": "Richard Hinckley Allen",
+            "year": 1899,
+            "publisher": "G.E. Stechert & Co.",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://archive.org",
+            "summary": "Identifies the constellation Andromeda as 'The Chained Woman', fixed in the sky to commemorate her rescue by Perseus.",
+            "astronomical_component": "A",
+            "used_for": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)"
+          },
+          {
+            "title": "Metamorphoses",
+            "author": "Ovid (Publius Ovidius Naso)",
+            "year": 1916,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://archive.org",
+            "summary": "Perseus encounters Andromeda chained as a sacrificial victim to a sea monster, kills the monster, and wins her freedom and marriage.",
+            "astronomical_component": "A",
+            "used_for": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)"
+          },
+          {
+            "title": "The Library (Bibliotheca)",
+            "author": "Apollodorus (attributed) / Pseudo-Apollodorus",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus2.html",
+            "summary": "Andromeda is exposed on the rocks because of Cassiopeia’s boast; Perseus kills the sea monster using Medusa’s head and frees her.",
+            "astronomical_component": "A",
+            "used_for": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)"
+          },
+          {
+            "title": "Defending Sacred Ground: The Andromedan Compendium",
+            "author": "Alex Collier",
+            "year": 1998,
+            "publisher": "Brotherton Press / Leading Edge International Research",
+            "source_type": "channeled",
+            "isbn": "ISBN 1-883487-16-4",
+            "url": "https://archive.org",
+            "summary": "Claims an Andromedan Council demands planetary sovereignty, rejects hierarchical control systems, and warns against deception by ruling elites.",
+            "astronomical_component": "unspecified",
+            "used_for": "Non-hierarchical ethical council / anti-domination sovereignty doctrine (Andromedan Council narratives)"
+          },
+          {
+            "title": "A Culture of Conspiracy: Apocalyptic Visions in Contemporary America",
+            "author": "Michael Barkun",
+            "year": 2003,
+            "publisher": "University of California Press",
+            "source_type": "research",
+            "isbn": "ISBN 978-0-520-27582-8",
+            "url": "https://www.ucpress.edu",
+            "summary": "Analyzes benevolent extraterrestrial councils and galactic federations as utopian political mythology rather than verified off-world governance.",
+            "astronomical_component": "unspecified",
+            "used_for": "Non-hierarchical ethical council / anti-domination sovereignty doctrine (Andromedan Council narratives)"
+          }
+        ],
+        "shadow_sources": [],
+        "all_sources": [
+          {
+            "title": "Star Names: Their Lore and Meaning",
+            "author": "Richard Hinckley Allen",
+            "year": 1899,
+            "publisher": "G.E. Stechert & Co.",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://archive.org",
+            "summary": "Identifies the constellation Andromeda as 'The Chained Woman', fixed in the sky to commemorate her rescue by Perseus.",
+            "astronomical_component": "A",
+            "used_for": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)"
+          },
+          {
+            "title": "Metamorphoses",
+            "author": "Ovid (Publius Ovidius Naso)",
+            "year": 1916,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://archive.org",
+            "summary": "Perseus encounters Andromeda chained as a sacrificial victim to a sea monster, kills the monster, and wins her freedom and marriage.",
+            "astronomical_component": "A",
+            "used_for": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)"
+          },
+          {
+            "title": "The Library (Bibliotheca)",
+            "author": "Apollodorus (attributed) / Pseudo-Apollodorus",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus2.html",
+            "summary": "Andromeda is exposed on the rocks because of Cassiopeia’s boast; Perseus kills the sea monster using Medusa’s head and frees her.",
+            "astronomical_component": "A",
+            "used_for": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)"
+          },
+          {
+            "title": "Cepheids in the Andromeda Nebula",
+            "author": "Edwin Powell Hubble",
+            "year": 1925,
+            "publisher": "American Astronomical Society",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://science.nasa.gov",
+            "summary": "Distance calculations from Cepheid variables in Andromeda show it lies far beyond the Milky Way, implying an external galaxy with its own suns.",
+            "astronomical_component": "A",
+            "used_for": "Andromeda as an extragalactic origin point / separate civilization space (M31 as 'island universe')"
+          },
+          {
+            "title": "The Realm of the Nebulae",
+            "author": "Edwin Powell Hubble",
+            "year": 1936,
+            "publisher": "Yale University Press",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://archive.org",
+            "summary": "Describes spiral nebulae such as the Andromeda Galaxy as independent 'island universes', each containing innumerable suns beyond the Milky Way.",
+            "astronomical_component": "A",
+            "used_for": "Andromeda as an extragalactic origin point / separate civilization space (M31 as 'island universe')"
+          },
+          {
+            "title": "Defending Sacred Ground: The Andromedan Compendium",
+            "author": "Alex Collier",
+            "year": 1998,
+            "publisher": "Brotherton Press / Leading Edge International Research",
+            "source_type": "channeled",
+            "isbn": "ISBN 1-883487-16-4",
+            "url": "https://archive.org",
+            "summary": "Claims an Andromedan Council demands planetary sovereignty, rejects hierarchical control systems, and warns against deception by ruling elites.",
+            "astronomical_component": "unspecified",
+            "used_for": "Non-hierarchical ethical council / anti-domination sovereignty doctrine (Andromedan Council narratives)"
+          },
+          {
+            "title": "A Culture of Conspiracy: Apocalyptic Visions in Contemporary America",
+            "author": "Michael Barkun",
+            "year": 2003,
+            "publisher": "University of California Press",
+            "source_type": "research",
+            "isbn": "ISBN 978-0-520-27582-8",
+            "url": "https://www.ucpress.edu",
+            "summary": "Analyzes benevolent extraterrestrial councils and galactic federations as utopian political mythology rather than verified off-world governance.",
+            "astronomical_component": "unspecified",
+            "used_for": "Non-hierarchical ethical council / anti-domination sovereignty doctrine (Andromedan Council narratives)"
+          }
+        ],
+        "source_count": 7
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "Ovid (8 CE / 1916 Loeb ed.). Metamorphoses. Harvard University Press.",
+          "Apollodorus (c. 150 BCE / 1921 Loeb ed.). The Library (Bibliotheca). Harvard University Press."
+        ],
+        "modern_research": [
+          "Allen, R.H. (1899). Star Names: Their Lore and Meaning. G.E. Stechert & Co.",
+          "Hubble, E.P. (1925). Cepheids in the Andromeda Nebula. Publications of the American Astronomical Society.",
+          "Hubble, E.P. (1936). The Realm of the Nebulae. Yale University Press.",
+          "Barkun, M. (2003). A Culture of Conspiracy: Apocalyptic Visions in Contemporary America. University of California Press."
+        ],
+        "channeled_sources": [
+          "Collier, A. (1998). Defending Sacred Ground: The Andromedan Compendium. Brotherton Press / Leading Edge International Research."
+        ],
+        "academic_foundations": [
+          "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.",
+          "Nirenberg, M.W. & Khorana, H.G. (1960s). Genetic code research (Nobel-recognized).",
+          "Scholem, G. (1941). Major Trends in Jewish Mysticism. Schocken.",
+          "Feuerstein, G. (1998). The Yoga Tradition. Hohm Press.",
+          "Tarnas, R. (2006). Cosmos and Psyche. Viking."
+        ]
+      }
+    },
+    "arcturus": {
+      "name": "Arcturus",
+      "version": "4.2",
+      "last_updated": "2025-10-25",
+      "core_themes": [
+        "Frequency calibration and vibrational healing",
+        "Energetic recalibration and consciousness uplift",
+        "Soul transit gateway and incarnational checkpoint",
+        "Light and sound healing modalities",
+        "Dimensional ascension assistance and frequency medicine",
+        "Emotional and spiritual field clearing"
+      ],
+      "shadow_themes": [
+        "Spiritual bypassing through frequency work without integration",
+        "Detachment from embodied experience in favor of 'higher vibrations'",
+        "Elitism around vibrational purity"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "The Arcturian Anthology",
+            "author": "Tom Kenyon and Judi Sion",
+            "year": 2014,
+            "publisher": "Orb Communications",
+            "source_type": "channeled",
+            "isbn": "9781931032469",
+            "url": "https://archive.org/details/arcturianantholo0000tomk",
+            "summary": "Describes Arcturian healers who use sound, resonance chambers, and conscious frequency entrainment to accelerate human energetic repair and spiritual evolution.",
+            "astronomical_component": "H",
+            "used_for": "Arcturian civilization as a healer collective using light, frequency, and consciousness recalibration"
+          }
+        ],
+        "shadow_sources": [],
+        "all_sources": [
+          {
+            "title": "Reading 5749-14",
+            "author": "Edgar Cayce",
+            "year": 2006,
+            "publisher": "A.R.E. Press / Association for Research and Enlightenment",
+            "source_type": "channeled",
+            "isbn": "9780876045244",
+            "url": null,
+            "summary": "",
+            "astronomical_component": "G",
+            "used_for": "Arcturus as a soul-gate / transit node for consciousness between incarnations"
+          },
+          {
+            "title": "Planetary Influences and Sojourns",
+            "author": "Edgar Cayce",
+            "year": 2010,
+            "publisher": "A.R.E. Press / Association for Research and Enlightenment",
+            "source_type": "channeled",
+            "isbn": "9780876046029",
+            "url": null,
+            "summary": "Summarizes Cayce's planetary sojourn material: souls travel through Arcturus between Earth lifetimes and other dimensional systems, treating Arcturus as the 'in and out' gate of the solar system.",
+            "astronomical_component": "G",
+            "used_for": "Arcturus as a soul-gate / transit node for consciousness between incarnations"
+          },
+          {
+            "title": "We, the Arcturians",
+            "author": "Norma J. Milanovich",
+            "year": 1990,
+            "publisher": "Athena Publishing",
+            "source_type": "channeled",
+            "isbn": "9780962741708",
+            "url": "https://archive.org/details/wearcturians00mila",
+            "summary": "Positions the Arcturians as higher-dimensional intelligences guiding Earth's vibrational transition and assisting humans in choosing higher states of being as Earth shifts dimensions.",
+            "astronomical_component": "G",
+            "used_for": "Arcturus as a soul-gate / transit node for consciousness between incarnations"
+          },
+          {
+            "title": "The Arcturian Anthology",
+            "author": "Tom Kenyon and Judi Sion",
+            "year": 2014,
+            "publisher": "Orb Communications",
+            "source_type": "channeled",
+            "isbn": "9781931032469",
+            "url": "https://archive.org/details/arcturianantholo0000tomk",
+            "summary": "Describes Arcturian healers who use sound, resonance chambers, and conscious frequency entrainment to accelerate human energetic repair and spiritual evolution.",
+            "astronomical_component": "H",
+            "used_for": "Arcturian civilization as a healer collective using light, frequency, and consciousness recalibration"
+          },
+          {
+            "title": "The Odyssey",
+            "author": "Homer",
+            "year": 2006,
+            "publisher": "Penguin Classics",
+            "source_type": "ancient",
+            "isbn": "9780143039952",
+            "url": null,
+            "summary": "Odysseus is told to steer by keeping Boötes (the Bear-Guard, containing Arcturus) and the Bear in sight. The star is treated as a directional/seasonal marker for navigation.",
+            "astronomical_component": "A",
+            "used_for": "Arcturus in ancient and classical material as a visible navigation/seasonal star, not a guardian civilization"
+          },
+          {
+            "title": "The Book of Job",
+            "author": "Anonymous / Hebrew Bible",
+            "year": 2010,
+            "publisher": "W. W. Norton & Company",
+            "source_type": "ancient",
+            "isbn": "9780393068122",
+            "url": null,
+            "summary": "Mentions stellar groupings associated with the Bear / Ayish. Later English traditions sometimes map 'Ayish' to Arcturus, treating it as a known bright seasonal star rather than a metaphysical authority.",
+            "astronomical_component": "A",
+            "used_for": "Arcturus in ancient and classical material as a visible navigation/seasonal star, not a guardian civilization"
+          },
+          {
+            "title": "Stars and Their Spectra: An Introduction to the Spectral Sequence",
+            "author": "James B. Kaler",
+            "year": 2011,
+            "publisher": "Cambridge University Press",
+            "source_type": "research",
+            "isbn": "9780521899543",
+            "url": null,
+            "summary": "Describes Arcturus as a K1.5III red giant ~36.7 light-years from Earth, ~25 times the Sun's radius and ~170× the Sun's luminosity. Treated as a normal evolved star within stellar astrophysics.",
+            "astronomical_component": "A",
+            "used_for": "Arcturus in ancient and classical material as a visible navigation/seasonal star, not a guardian civilization"
+          }
+        ],
+        "source_count": 7
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "Homer. The Odyssey. Translator: Robert Fagles (1996 original ed. Viking; 2006 Penguin Classics reprint, ISBN 9780143039952). Uses Boötes / 'Bear Guard' (Arcturus region) for navigation.",
+          "The Book of Job 38:32. Translator: Robert Alter (2010, W. W. Norton & Company, ISBN 9780393068122). References Ayish / the Bear, later mapped in English tradition to Arcturus as a seasonal marker.",
+          "Classical Greek star lore: Arcturus identified as the bright star of Boötes, 'the Bear Guard', used as an orientation and agricultural timing star."
+        ],
+        "modern_research": [
+          "Kaler, James B. (2011). Stars and Their Spectra: An Introduction to the Spectral Sequence (2nd ed.). Cambridge University Press. ISBN 9780521899543. Describes Arcturus as a K1.5III red giant ~36.7 ly from Earth, ~25× solar radius, ~170× solar luminosity; no metaphysical claims."
+        ],
+        "channeled_sources": [
+          "Cayce, Edgar. Reading 5749-14 (1941). Republished by A.R.E. Press / Association for Research and Enlightenment (2006). Positions Arcturus as a universal transit point for souls.",
+          "Cayce, Edgar. Planetary Influences and Sojourns. A.R.E. Press (2010). Summarizes Cayce's planetary sojourn model and treats Arcturus as an in/out gate of Earth's incarnation loop. ISBN 9780876046029.",
+          "Milanovich, Norma J. (1990). We, the Arcturians. Athena Publishing. ISBN 9780962741708. Describes Arcturians as higher-dimensional guides and healers assisting Earth’s vibrational transition.",
+          "Kenyon, Tom & Sion, Judi (2014). The Arcturian Anthology. Orb Communications. ISBN 9781931032469. Describes Arcturian healer cadres using sound/frequency/regeneration technologies."
+        ],
+        "academic_foundations": [
+          "Wilhelm, Richard & Baynes, Cary F. (1950/1967). The I Ching. Princeton University Press.",
+          "Nirenberg, Marshall W. & Khorana, Har Gobind (1968). Genetic code research connecting codons to amino acids.",
+          "Scholem, Gershom (1941). Major Trends in Jewish Mysticism.",
+          "Feuerstein, Georg (1998). The Yoga Tradition.",
+          "Tarnas, Richard (2006). Cosmos and Psyche."
+        ]
+      }
+    },
+    "draco": {
+      "name": "Draco",
+      "version": "4.2",
+      "last_updated": "2025-10-27",
+      "core_themes": [
+        "Survival through dominance hierarchy and power consolidation",
+        "Predator scanning and threat assessment",
+        "Loyalty enforcement and access control",
+        "Strategic resource hoarding and territorial defense",
+        "Survival continuity and fear of collapse",
+        "Hierarchical order and pecking-order maintenance"
+      ],
+      "shadow_themes": [
+        "Paranoid control and power hoarding",
+        "Ruthless elimination of perceived threats",
+        "Greed and apocalyptic entropy (Western dragon archetype)",
+        "Coercive obedience enforcement"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "The Classic of Mountains and Seas (Shanhaijing)",
+            "author": "Anonymous Chinese compilers",
+            "year": 1999,
+            "publisher": "Penguin Books",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://archive.org/details/shanhaijing0001unse",
+            "summary": "Describes dragon spirits and dragon kings linked to waters, weather, rivers, and wisdom. Dragons are guardians and regulators of regions and natural forces.",
+            "astronomical_component": "unspecified",
+            "used_for": "Chinese dragons as imperial mandate, yang force, and wisdom-bringing rain"
+          }
+        ],
+        "shadow_sources": [
+          {
+            "title": "The Poetic Edda: Reginsmál and Fáfnismál",
+            "author": "Anonymous Norse poets",
+            "year": 1923,
+            "publisher": "The American-Scandinavian Foundation",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": null,
+            "summary": "Fáfnir, consumed by greed for a cursed hoard, turns into a dragon and is slain by Sigurd. The dragon form is greed incarnate.",
+            "astronomical_component": "unspecified",
+            "used_for": "Norse/Teutonic dragons: greed, entropy, and apocalyptic corrosion of the world"
+          },
+          {
+            "title": "The Poetic Edda: Völuspá and Grímnismál",
+            "author": "Anonymous Norse poets",
+            "year": 1923,
+            "publisher": "The American-Scandinavian Foundation",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": null,
+            "summary": "Níðhöggr is a dragon/serpent that gnaws at the roots of Yggdrasil, the world tree, embodying decay, doom, and the corrosive approach of Ragnarök.",
+            "astronomical_component": "unspecified",
+            "used_for": "Norse/Teutonic dragons: greed, entropy, and apocalyptic corrosion of the world"
+          },
+          {
+            "title": "The Biggest Secret",
+            "author": "David Icke",
+            "year": 1999,
+            "publisher": "Bridge of Love Publications",
+            "source_type": "controversial",
+            "isbn": "0-9526147-6-6",
+            "url": "https://archive.org/details/biggestsecret00icke",
+            "summary": "Claims shape-shifting reptilian beings from the Draco constellation infiltrated human royal and political bloodlines, secretly controlling global power structures.",
+            "astronomical_component": "B",
+            "used_for": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)"
+          },
+          {
+            "title": "Flying Serpents and Dragons: The Story of Mankind's Reptilian Past",
+            "author": "R. A. Boulay",
+            "year": 1990,
+            "publisher": "Book Tree",
+            "source_type": "controversial",
+            "isbn": "1-885395-38-8",
+            "url": null,
+            "summary": "Argues that an ancient reptilian species from space interbred with humans, founding early civilizations and establishing ruling castes.",
+            "astronomical_component": "B",
+            "used_for": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)"
+          },
+          {
+            "title": "Blue Blood, True Blood: Conflict and Creation",
+            "author": "Stewart A. Swerdlow",
+            "year": 2002,
+            "publisher": "Expansions Publishing Company",
+            "source_type": "controversial",
+            "isbn": "0-9626446-6-8",
+            "url": null,
+            "summary": "Claims reptilian beings from Draco established hierarchical control structures, infiltrated human governments, and engineered bloodlines for domination on Earth.",
+            "astronomical_component": "B",
+            "used_for": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)"
+          }
+        ],
+        "all_sources": [
+          {
+            "title": "The Seven Tablets of Creation (Enuma Elish)",
+            "author": "Anonymous Babylonian",
+            "year": 1902,
+            "publisher": "Luzac and Company",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://sacred-texts.com/ane/stc/index.htm",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Ancient dragon mythology as primordial chaos, cosmic power, and creation combat"
+          },
+          {
+            "title": "Dragons: A Natural History",
+            "author": "Karl Shuker",
+            "year": 1995,
+            "publisher": "Simon & Schuster",
+            "source_type": "research",
+            "isbn": "0-684-81443-9",
+            "url": "https://archive.org/details/dragonsnaturalhi00shuk",
+            "summary": "Surveys global dragon lore: dragons stand for primal, uncontrollable forces (floods, storms, royal power, creative/chaotic potency), often predating organized religion.",
+            "astronomical_component": "unspecified",
+            "used_for": "Ancient dragon mythology as primordial chaos, cosmic power, and creation combat"
+          },
+          {
+            "title": "The Dragon in China and Japan",
+            "author": "Marinus Willem de Visser",
+            "year": 1913,
+            "publisher": "J. Müller",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://archive.org/details/cu31924021444728",
+            "summary": "Documents dragons as divine water beings and rain controllers in Chinese cosmology, linking them to agricultural survival, imperial mandate, and cosmic order.",
+            "astronomical_component": "unspecified",
+            "used_for": "Ancient dragon mythology as primordial chaos, cosmic power, and creation combat"
+          },
+          {
+            "title": "Beowulf",
+            "author": "Anonymous (Old English epic)",
+            "year": 1923,
+            "publisher": "J. M. Dent & Sons; E. P. Dutton & Co.",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://sacred-texts.com/ang/beo/index.htm",
+            "summary": "In the final act, Beowulf confronts a treasure-hoarding dragon that lays waste to his people after a cup is stolen from its hoard — the dragon is explicitly vengeful, destructive, and avaricious.",
+            "astronomical_component": "unspecified",
+            "used_for": "Eastern wisdom/rain dragons vs Western chaos/greed dragons"
+          },
+          {
+            "title": "An Instinct for Dragons",
+            "author": "David E. Jones",
+            "year": 2000,
+            "publisher": "Routledge",
+            "source_type": "research",
+            "isbn": "0-415-93721-8",
+            "url": null,
+            "summary": "Argues humans developed a 'dragon instinct' by synthesizing fear cues from snakes, big cats, and raptors. Notes strong cultural split: Chinese dragons = auspicious imperial order; European dragons = evil chaos.",
+            "astronomical_component": "unspecified",
+            "used_for": "Eastern wisdom/rain dragons vs Western chaos/greed dragons"
+          },
+          {
+            "title": "The Library (Bibliotheca)",
+            "author": "Apollodorus of Athens",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus1.html",
+            "summary": "The serpent/dragon Ladon guards Hera’s golden apples in the garden of the Hesperides until Heracles slays it. Later traditions visually associate Ladon with the circumpolar Draco constellation as a guarding serpent.",
+            "astronomical_component": "unspecified",
+            "used_for": "Dragon/serpent as guardian of treasure and sacred cosmic objects"
+          },
+          {
+            "title": "Python: A Study of Delphic Myth and Its Origins",
+            "author": "Joseph Fontenrose",
+            "year": 1959,
+            "publisher": "University of California Press",
+            "source_type": "research",
+            "isbn": "0-520-30823-9",
+            "url": null,
+            "summary": "Compares dragon/serpent guardian myths from Mesopotamia to Greece to Delphi: heroes slay serpent protectors to seize sacred objects, holy spaces, or divine authority.",
+            "astronomical_component": "unspecified",
+            "used_for": "Dragon/serpent as guardian of treasure and sacred cosmic objects"
+          },
+          {
+            "title": "An Introduction to Modern Astrophysics",
+            "author": "Bradley W. Carroll & Dale A. Ostlie",
+            "year": 2006,
+            "publisher": "Pearson Addison-Wesley",
+            "source_type": "research",
+            "isbn": "0-8053-0402-9",
+            "url": null,
+            "summary": "Explains that Earth's rotational axis precesses over millennia, causing different stars to become 'North Star' at different eras. Around the 3rd millennium BCE, Alpha Draconis (Thuban) lay close to the north celestial pole.",
+            "astronomical_component": "A",
+            "used_for": "Thuban (Alpha Draconis) as pole star and axis of royal alignment"
+          },
+          {
+            "title": "Ancient Egyptian Chronology and the Astronomical Orientation of the Pyramids",
+            "author": "Kate Spence",
+            "year": 2000,
+            "publisher": "Nature Publishing Group",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Argues Old Kingdom pyramid builders aligned monuments using near-pole circumpolar stars. Discusses how stars in Draco (including Thuban/Alpha Draconis in earlier epochs) inform Egyptian royal axis and cosmic legitimacy.",
+            "astronomical_component": "A",
+            "used_for": "Thuban (Alpha Draconis) as pole star and axis of royal alignment"
+          },
+          {
+            "title": "The Classic of Mountains and Seas (Shanhaijing)",
+            "author": "Anonymous Chinese compilers",
+            "year": 1999,
+            "publisher": "Penguin Books",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://archive.org/details/shanhaijing0001unse",
+            "summary": "Describes dragon spirits and dragon kings linked to waters, weather, rivers, and wisdom. Dragons are guardians and regulators of regions and natural forces.",
+            "astronomical_component": "unspecified",
+            "used_for": "Chinese dragons as imperial mandate, yang force, and wisdom-bringing rain"
+          },
+          {
+            "title": "The Poetic Edda: Reginsmál and Fáfnismál",
+            "author": "Anonymous Norse poets",
+            "year": 1923,
+            "publisher": "The American-Scandinavian Foundation",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": null,
+            "summary": "Fáfnir, consumed by greed for a cursed hoard, turns into a dragon and is slain by Sigurd. The dragon form is greed incarnate.",
+            "astronomical_component": "unspecified",
+            "used_for": "Norse/Teutonic dragons: greed, entropy, and apocalyptic corrosion of the world"
+          },
+          {
+            "title": "The Poetic Edda: Völuspá and Grímnismál",
+            "author": "Anonymous Norse poets",
+            "year": 1923,
+            "publisher": "The American-Scandinavian Foundation",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": null,
+            "summary": "Níðhöggr is a dragon/serpent that gnaws at the roots of Yggdrasil, the world tree, embodying decay, doom, and the corrosive approach of Ragnarök.",
+            "astronomical_component": "unspecified",
+            "used_for": "Norse/Teutonic dragons: greed, entropy, and apocalyptic corrosion of the world"
+          },
+          {
+            "title": "The Biggest Secret",
+            "author": "David Icke",
+            "year": 1999,
+            "publisher": "Bridge of Love Publications",
+            "source_type": "controversial",
+            "isbn": "0-9526147-6-6",
+            "url": "https://archive.org/details/biggestsecret00icke",
+            "summary": "Claims shape-shifting reptilian beings from the Draco constellation infiltrated human royal and political bloodlines, secretly controlling global power structures.",
+            "astronomical_component": "B",
+            "used_for": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)"
+          },
+          {
+            "title": "Flying Serpents and Dragons: The Story of Mankind's Reptilian Past",
+            "author": "R. A. Boulay",
+            "year": 1990,
+            "publisher": "Book Tree",
+            "source_type": "controversial",
+            "isbn": "1-885395-38-8",
+            "url": null,
+            "summary": "Argues that an ancient reptilian species from space interbred with humans, founding early civilizations and establishing ruling castes.",
+            "astronomical_component": "B",
+            "used_for": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)"
+          },
+          {
+            "title": "Blue Blood, True Blood: Conflict and Creation",
+            "author": "Stewart A. Swerdlow",
+            "year": 2002,
+            "publisher": "Expansions Publishing Company",
+            "source_type": "controversial",
+            "isbn": "0-9626446-6-8",
+            "url": null,
+            "summary": "Claims reptilian beings from Draco established hierarchical control structures, infiltrated human governments, and engineered bloodlines for domination on Earth.",
+            "astronomical_component": "B",
+            "used_for": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)"
+          }
+        ],
+        "source_count": 15
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "Anonymous Babylonian. The Seven Tablets of Creation (Enuma Elish). Translated by Leonard William King. Luzac and Company, 1902 (original ~1200 BCE). Describes Tiamat, a primordial chaos dragon slain by Marduk.",
+          "Apollodorus of Athens. The Library (Bibliotheca). Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921 (original ~2nd century BCE). Includes Ladon the serpent/dragon guarding Hera’s golden apples.",
+          "Anonymous (Old English epic). Beowulf. Translated by R. K. Gordon. J. M. Dent & Sons / E. P. Dutton & Co., 1923 (original ~8th century CE). Depicts the treasure-hoarding dragon slain by Beowulf.",
+          "Anonymous Norse Poets. The Poetic Edda (Reginsmál, Fáfnismál, Völuspá, Grímnismál). Translated by Henry Adams Bellows. The American-Scandinavian Foundation, 1923 (oral material ~8th–13th century CE). Fáfnir as greed-born dragon; Níðhöggr gnawing Yggdrasil.",
+          "Anonymous Chinese Compilers. The Classic of Mountains and Seas (Shanhaijing). Translated by Anne Birrell. Penguin Classics, 1999 (original compilation ~3rd century BCE). Describes dragon kings governing waters and regions, tied to rain and wisdom."
+        ],
+        "modern_research": [
+          "de Visser, Marinus Willem. The Dragon in China and Japan. J. Müller, 1913. Documents imperial, rain-bringing, and cosmological aspects of Chinese dragons.",
+          "Fontenrose, Joseph. Python: A Study of Delphic Myth and Its Origins. University of California Press, 1959. ISBN 0-520-30823-9. Comparative study of serpent/dragon guardian myths and heroic dragon-slayer narratives.",
+          "Shuker, Karl. Dragons: A Natural History. Simon & Schuster, 1995. ISBN 0-684-81443-9. Surveys global dragon archetypes, cataloging recurring biological and mythic motifs.",
+          "Jones, David E. An Instinct for Dragons. Routledge, 2000. ISBN 0-415-93721-8. Argues dragon imagery emerges from evolved predator-recognition circuitry and cultural elaboration.",
+          "Carroll, Bradley W., & Ostlie, Dale A. An Introduction to Modern Astrophysics. Second Edition. Pearson Addison-Wesley, 2006 (orig. 1996). ISBN 0-8053-0402-9. Explains axial precession and identifies Alpha Draconis (Thuban) as a former pole star.",
+          "Spence, Kate. \"Ancient Egyptian Chronology and the Astronomical Orientation of the Pyramids.\" Nature, 2000. Nature Publishing Group, 2000. Analyzes Old Kingdom pyramid alignments using circumpolar/pole stars, including Draco-region stars, to ground royal cosmic authority."
+        ],
+        "channeled_sources": [],
+        "controversial_sources": [
+          "Icke, David. The Biggest Secret. Bridge of Love Publications, 1999. ISBN 0-9526147-6-6. Claims Draco-origin reptilian shapeshifters infiltrate human royal bloodlines and governments.",
+          "Boulay, R. A. Flying Serpents and Dragons: The Story of Mankind's Reptilian Past. Book Tree, 1990. ISBN 1-885395-38-8. Argues humanity descends from an ancient reptilian extraterrestrial race.",
+          "Swerdlow, Stewart A. Blue Blood, True Blood: Conflict and Creation. Expansions Publishing Company, 2002. ISBN 0-9626446-6-8. Describes Draco reptilian and Orion factions as hierarchical controllers of Earth."
+        ],
+        "academic_foundations": [
+          "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching or Book of Changes. Princeton University Press, mid-20th century printings. Provides a yin/yang binary system later mapped to Human Design’s gate logic.",
+          "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure, paralleling the 64 I Ching hexagrams.",
+          "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Explores hierarchical cosmology, angelic authority, and esoteric rulership myths.",
+          "Tarnas, Richard. Cosmos and Psyche: Intimations of a New World View. Viking, 2006. Treats planetary/astrological symbolism as culturally and psychologically meaningful, supporting comparative myth analysis of cosmic sovereignty and apocalypse motifs."
+        ]
+      }
+    },
+    "lyra": {
+      "name": "Lyra",
+      "version": "4.2",
+      "last_updated": "2025-10-27",
+      "core_themes": [
+        "Musical and artistic enchantment",
+        "Creative expression and aesthetic power",
+        "Progenitor consciousness and genetic seeding (modern)",
+        "Unity through artistic collaboration and harmonic co-creation",
+        "Immortalization through beauty and art",
+        "Volunteer soul missions and incarnational assistance"
+      ],
+      "shadow_themes": [
+        "Artistic elitism and aesthetic superiority",
+        "Grief and mourning that becomes identity",
+        "Progenitor pride and genetic supremacy narratives"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+            "author": "Lyssa Royal",
+            "year": 1993,
+            "publisher": "Royal Priest Research",
+            "source_type": "channeled",
+            "isbn": "0-9631320-0-8",
+            "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+            "summary": "Describes the 'Lyran' civilization as an early humanoid progenitor race. States that Lyrans established colonial seed cultures and humanoid genetic templates across multiple star systems, implying that humanity descends from Lyran genetic stock.",
+            "astronomical_component": "B",
+            "used_for": "Primordial humanoid root race and galactic progenitors"
+          },
+          {
+            "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+            "author": "Barbara Marciniak",
+            "year": 1992,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9780939680986",
+            "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+            "summary": "Presents a cosmology in which star civilizations — often including Lyran progenitors — seed human consciousness and DNA as part of a coordinated evolutionary design. Humanity is described as inheriting a multi-system legacy.",
+            "astronomical_component": "B",
+            "used_for": "Primordial humanoid root race and galactic progenitors"
+          },
+          {
+            "title": "The Library",
+            "author": "Apollodorus",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus1.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Musical and artistic enchantment associated with Lyra"
+          },
+          {
+            "title": "Mythology",
+            "author": "Edith Hamilton",
+            "year": 1942,
+            "publisher": "Little, Brown and Company",
+            "source_type": "research",
+            "isbn": "0-316-34114-2",
+            "url": null,
+            "summary": "Presents Orpheus as the greatest mortal musician, whose voice and lyre could charm every living creature — and even the underworld.",
+            "astronomical_component": "A",
+            "used_for": "Musical and artistic enchantment associated with Lyra"
+          },
+          {
+            "title": "The Three Waves of Volunteers and the New Earth",
+            "author": "Dolores Cannon",
+            "year": 2011,
+            "publisher": "Ozark Mountain Publishing",
+            "source_type": "channeled",
+            "isbn": "978-1-886940-18-1",
+            "url": null,
+            "summary": "Argues that advanced souls — some from extraterrestrial or higher-dimensional origins — volunteered to incarnate on Earth to stabilize frequency and support planetary transition.",
+            "astronomical_component": "G",
+            "used_for": "Volunteers and soul missions (incarnational assistance to Earth)"
+          },
+          {
+            "title": "Your First Contact",
+            "author": "Sheldan Nidle",
+            "year": 2000,
+            "publisher": "Blue Lodge Press",
+            "source_type": "channeled",
+            "isbn": "0-9680271-2-7",
+            "url": "https://archive.org/details/yourfirstcontact0000nidl",
+            "summary": "Describes Galactic Federation groups preparing Earth for 'full consciousness' and portrays incarnate humans as pre-agreed mission agents from star civilizations.",
+            "astronomical_component": "G",
+            "used_for": "Volunteers and soul missions (incarnational assistance to Earth)"
+          }
+        ],
+        "shadow_sources": [],
+        "all_sources": [
+          {
+            "title": "Poetica Astronomica (Astronomica)",
+            "author": "Hyginus",
+            "year": 1960,
+            "publisher": "University of Kansas Publications",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/HyginusAstronomica.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Orpheus’ lyre becomes the constellation Lyra"
+          },
+          {
+            "title": "Metamorphoses",
+            "author": "Ovid",
+            "year": 1916,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": "9780674990463",
+            "url": null,
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Orpheus’ lyre becomes the constellation Lyra"
+          },
+          {
+            "title": "The Greek Myths",
+            "author": "Robert Graves",
+            "year": 1955,
+            "publisher": "Penguin Books",
+            "source_type": "research",
+            "isbn": "0-14-001026-2",
+            "url": null,
+            "summary": "Recounts that after Orpheus was killed and dismembered, his lyre was placed among the stars as the constellation Lyra.",
+            "astronomical_component": "A",
+            "used_for": "Orpheus’ lyre becomes the constellation Lyra"
+          },
+          {
+            "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+            "author": "Lyssa Royal",
+            "year": 1993,
+            "publisher": "Royal Priest Research",
+            "source_type": "channeled",
+            "isbn": "0-9631320-0-8",
+            "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+            "summary": "Describes the 'Lyran' civilization as an early humanoid progenitor race. States that Lyrans established colonial seed cultures and humanoid genetic templates across multiple star systems, implying that humanity descends from Lyran genetic stock.",
+            "astronomical_component": "B",
+            "used_for": "Primordial humanoid root race and galactic progenitors"
+          },
+          {
+            "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+            "author": "Barbara Marciniak",
+            "year": 1992,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9780939680986",
+            "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+            "summary": "Presents a cosmology in which star civilizations — often including Lyran progenitors — seed human consciousness and DNA as part of a coordinated evolutionary design. Humanity is described as inheriting a multi-system legacy.",
+            "astronomical_component": "B",
+            "used_for": "Primordial humanoid root race and galactic progenitors"
+          },
+          {
+            "title": "The Library",
+            "author": "Apollodorus",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus1.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Musical and artistic enchantment associated with Lyra"
+          },
+          {
+            "title": "Mythology",
+            "author": "Edith Hamilton",
+            "year": 1942,
+            "publisher": "Little, Brown and Company",
+            "source_type": "research",
+            "isbn": "0-316-34114-2",
+            "url": null,
+            "summary": "Presents Orpheus as the greatest mortal musician, whose voice and lyre could charm every living creature — and even the underworld.",
+            "astronomical_component": "A",
+            "used_for": "Musical and artistic enchantment associated with Lyra"
+          },
+          {
+            "title": "The Three Waves of Volunteers and the New Earth",
+            "author": "Dolores Cannon",
+            "year": 2011,
+            "publisher": "Ozark Mountain Publishing",
+            "source_type": "channeled",
+            "isbn": "978-1-886940-18-1",
+            "url": null,
+            "summary": "Argues that advanced souls — some from extraterrestrial or higher-dimensional origins — volunteered to incarnate on Earth to stabilize frequency and support planetary transition.",
+            "astronomical_component": "G",
+            "used_for": "Volunteers and soul missions (incarnational assistance to Earth)"
+          },
+          {
+            "title": "Your First Contact",
+            "author": "Sheldan Nidle",
+            "year": 2000,
+            "publisher": "Blue Lodge Press",
+            "source_type": "channeled",
+            "isbn": "0-9680271-2-7",
+            "url": "https://archive.org/details/yourfirstcontact0000nidl",
+            "summary": "Describes Galactic Federation groups preparing Earth for 'full consciousness' and portrays incarnate humans as pre-agreed mission agents from star civilizations.",
+            "astronomical_component": "G",
+            "used_for": "Volunteers and soul missions (incarnational assistance to Earth)"
+          },
+          {
+            "title": "The Secret Doctrine: The Synthesis of Science, Religion, and Philosophy, Vol. II: Anthropogenesis",
+            "author": "Helena Petrovna Blavatsky",
+            "year": 1888,
+            "publisher": "Theosophical Publishing Company",
+            "source_type": "controversial",
+            "isbn": null,
+            "url": "https://archive.org/details/secretdoctrinesy01blav",
+            "summary": "Presents a sequence of occult 'root races' evolving on Earth over immense timescales, guided by hidden Masters. The narrative is Earth-centric and 19th-century esoteric, not explicitly extraterrestrial.",
+            "astronomical_component": "unspecified",
+            "used_for": "Theosophical root race theory and retroactive Lyra linkage"
+          },
+          {
+            "title": "The Masters Revealed: Madame Blavatsky and the Myth of the Great White Lodge",
+            "author": "K. Paul Johnson",
+            "year": 1994,
+            "publisher": "State University of New York Press",
+            "source_type": "research",
+            "isbn": "0-7914-2063-9",
+            "url": null,
+            "summary": "Argues Blavatsky’s 'Masters' were idealized or coded human teachers, and her root race schema is a mythic racial history of humanity on Earth — not evidence of an extraterrestrial Lyran progenitor race.",
+            "astronomical_component": "unspecified",
+            "used_for": "Theosophical root race theory and retroactive Lyra linkage"
+          }
+        ],
+        "source_count": 11
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "Hyginus. Poetica Astronomica (Astronomica). Translated by Mary Grant. University of Kansas Publications, 1960. (Original early 1st century CE). Attributes the constellation Lyra to Orpheus’ lyre crafted by Mercury/Hermes.",
+          "Ovid. Metamorphoses. Translated by Frank Justus Miller. Loeb Classical Library. Harvard University Press, 1916. (Original 8 CE). Describes Orpheus’ music as irresistibly powerful, foundation for his later astral immortalization.",
+          "Apollodorus. The Library. Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921. (Original ~2nd century BCE). Depicts Orpheus as a musician whose song could move stones and trees."
+        ],
+        "modern_research": [
+          "Hamilton, Edith. Mythology. Little, Brown and Company, 1942. ISBN 0-316-34114-2. Summarizes Orpheus as the greatest mortal musician and ties his legend to enduring mythic status.",
+          "Graves, Robert. The Greek Myths. Penguin Books, 1955. ISBN 0-14-001026-2. Retells Orpheus’ death and the placement of his lyre among the stars as Lyra.",
+          "Johnson, K. Paul. The Masters Revealed: Madame Blavatsky and the Myth of the Great White Lodge. State University of New York Press, 1994. ISBN 0-7914-2063-9. Critiques Theosophical 'Masters' and argues root race doctrine is an Earth-based esoteric construct, not extraterrestrial Lyra."
+        ],
+        "channeled_sources": [
+          "Royal, Lyssa. The Prism of Lyra: An Exploration of Human Galactic Heritage. Royal Priest Research, 1993. ISBN 0-9631320-0-8. Presents Lyrans as primordial humanoid progenitors and discusses Lyran sub-lineages (humanoid / feline).",
+          "Marciniak, Barbara. Bringers of the Dawn: Teachings from the Pleiadians. Bear & Company, 1992. ISBN 9780939680986. Describes galactic seeding of human DNA/consciousness and references Lyran progenitors.",
+          "Cannon, Dolores. The Three Waves of Volunteers and the New Earth. Ozark Mountain Publishing, 2011. ISBN 978-1-886940-18-1. Claims volunteer souls from other systems incarnate on Earth to assist planetary evolution.",
+          "Nidle, Sheldan. Your First Contact. Blue Lodge Press, 2000. ISBN 0-9680271-2-7. Describes Galactic Federation mentoring Earth and portrays incarnate humans as mission-agents from star civilizations."
+        ],
+        "controversial_sources": [
+          "Blavatsky, Helena Petrovna. The Secret Doctrine: The Synthesis of Science, Religion, and Philosophy. Theosophical Publishing Company, 1888. Vol. II: Anthropogenesis. Pre-ISBN imprint. Outlines occult 'root races' guided by hidden Masters, often retrofitted (without textual basis) into extraterrestrial origin stories."
+        ],
+        "academic_foundations": [
+          "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching or Book of Changes. Princeton University Press, mid-20th century printings. Core symbolic matrix later mapped to Human Design.",
+          "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure corresponding to the 64 I Ching hexagrams.",
+          "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Foundational academic study of Kabbalah and hierarchical cosmologies of emanation and spiritual lineage.",
+          "Tarnas, Richard. Cosmos and Psyche: Intimations of a New World View. Viking, 2006. Frames planetary/astrological symbolism as culturally and psychologically meaningful rather than mere superstition."
+        ]
+      }
+    },
+    "orion-dark": {
+      "name": "Orion-Dark",
+      "version": "4.2",
+      "last_updated": "2025-10-27",
+      "core_themes": [
+        "Empire management and coercive control structures",
+        "Hierarchical power consolidation through obedience enforcement",
+        "Bureaucratic psychological pressure and population-scale manipulation infrastructure",
+        "Genetic engineering and DNA control programs",
+        "Telepathic influence and thought-form seeding",
+        "Service-to-self polarity and power-through-enslavement",
+        "Advancing in a rigid chain of command by proving you can control and extract obedience from others"
+      ],
+      "shadow_themes": [
+        "Spiritual entropy and alliance instability",
+        "Loss of coherence through negative polarity",
+        "Manipulation through fear and hostile thought-forms",
+        "Enslavement of the less powerful as power source"
+      ],
+      "sources": {
+        "core_sources": [],
+        "shadow_sources": [
+          {
+            "title": "The Law of One, Book I: The Ra Material",
+            "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "0-945007-00-9",
+            "url": "https://www.lawofone.info/s/16#17",
+            "summary": "",
+            "astronomical_component": "B",
+            "used_for": "Service-to-self polarity and hierarchical control structures"
+          },
+          {
+            "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+            "author": "Lyssa Royal",
+            "year": 1993,
+            "publisher": "Royal Priest Research",
+            "source_type": "channeled",
+            "isbn": "0-9631320-0-8",
+            "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+            "summary": "Describes an Orion Empire whose negative faction is a strict hierarchy devoted to domination, self-interest, and control across star systems.",
+            "astronomical_component": "B",
+            "used_for": "Service-to-self polarity and hierarchical control structures"
+          },
+          {
+            "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+            "author": "Barbara Marciniak",
+            "year": 1992,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9780939680986",
+            "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+            "summary": "Portrays Orion-aligned groups as attempting planetary control through DNA tampering and consciousness programming to limit human sovereignty.",
+            "astronomical_component": "B",
+            "used_for": "Genetic manipulation and DNA experimentation programs"
+          },
+          {
+            "title": "Blue Blood, True Blood: Conflict & Creation",
+            "author": "Stewart A. Swerdlow",
+            "year": 2002,
+            "publisher": "Expansions Publishing Company",
+            "source_type": "controversial",
+            "isbn": "0-9626446-6-8",
+            "url": "https://www.scribd.com/doc/265600472/Blue-Blood-True-Blood-by-Stewart-Swerdlow",
+            "summary": "Claims Orion factions were overtaken by reptilian Draco forces, leading to interstellar power struggles and genetic control agendas opposed by Sirians.",
+            "astronomical_component": "B",
+            "used_for": "Genetic manipulation and DNA experimentation programs"
+          },
+          {
+            "title": "The Law of One, Book III: The Ra Material",
+            "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "0-945007-02-5",
+            "url": "https://www.lawofone.info/c/Negative+Path",
+            "summary": "",
+            "astronomical_component": "B",
+            "used_for": "Fourth-density negative social memory complex structure"
+          },
+          {
+            "title": "The Law of One, Book II: The Ra Material",
+            "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "0-945007-01-7",
+            "url": "https://www.lawofone.info/s/55#3",
+            "summary": "",
+            "astronomical_component": "B",
+            "used_for": "Fourth-density negative social memory complex structure"
+          }
+        ],
+        "all_sources": [
+          {
+            "title": "The Law of One, Book I: The Ra Material",
+            "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "0-945007-00-9",
+            "url": "https://www.lawofone.info/s/16#17",
+            "summary": "",
+            "astronomical_component": "B",
+            "used_for": "Service-to-self polarity and hierarchical control structures"
+          },
+          {
+            "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+            "author": "Lyssa Royal",
+            "year": 1993,
+            "publisher": "Royal Priest Research",
+            "source_type": "channeled",
+            "isbn": "0-9631320-0-8",
+            "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+            "summary": "Describes an Orion Empire whose negative faction is a strict hierarchy devoted to domination, self-interest, and control across star systems.",
+            "astronomical_component": "B",
+            "used_for": "Service-to-self polarity and hierarchical control structures"
+          },
+          {
+            "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+            "author": "Barbara Marciniak",
+            "year": 1992,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9780939680986",
+            "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+            "summary": "Portrays Orion-aligned groups as attempting planetary control through DNA tampering and consciousness programming to limit human sovereignty.",
+            "astronomical_component": "B",
+            "used_for": "Genetic manipulation and DNA experimentation programs"
+          },
+          {
+            "title": "Blue Blood, True Blood: Conflict & Creation",
+            "author": "Stewart A. Swerdlow",
+            "year": 2002,
+            "publisher": "Expansions Publishing Company",
+            "source_type": "controversial",
+            "isbn": "0-9626446-6-8",
+            "url": "https://www.scribd.com/doc/265600472/Blue-Blood-True-Blood-by-Stewart-Swerdlow",
+            "summary": "Claims Orion factions were overtaken by reptilian Draco forces, leading to interstellar power struggles and genetic control agendas opposed by Sirians.",
+            "astronomical_component": "B",
+            "used_for": "Genetic manipulation and DNA experimentation programs"
+          },
+          {
+            "title": "Aion: Researches into the Phenomenology of the Self",
+            "author": "C. G. Jung",
+            "year": 1968,
+            "publisher": "Princeton University Press",
+            "source_type": "research",
+            "isbn": "9780691018331",
+            "url": null,
+            "summary": "Defines the Shadow as repressed instinct, denied power, and unacceptable drives. Integration of the Shadow is necessary for psychic wholeness.",
+            "astronomical_component": "unspecified",
+            "used_for": "Shadow work archetype and power-integration lessons"
+          },
+          {
+            "title": "The Law of One, Book III: The Ra Material",
+            "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "0-945007-02-5",
+            "url": "https://www.lawofone.info/c/Negative+Path",
+            "summary": "",
+            "astronomical_component": "B",
+            "used_for": "Fourth-density negative social memory complex structure"
+          },
+          {
+            "title": "The Law of One, Book II: The Ra Material",
+            "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "0-945007-01-7",
+            "url": "https://www.lawofone.info/s/55#3",
+            "summary": "",
+            "astronomical_component": "B",
+            "used_for": "Fourth-density negative social memory complex structure"
+          },
+          {
+            "title": "Hubble Studies the Orion Nebula",
+            "author": "NASA Goddard Space Flight Center",
+            "year": 2018,
+            "publisher": "NASA",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://www.nasa.gov/feature/goddard/hubble-orion-nebula",
+            "summary": "Describes the Orion Nebula (M42) as a stellar nursery ~1,300 light-years away composed of ionized gas and young stars. Reports no evidence of planetary-scale empires, DNA tampering programs, or telepathic enslavement initiatives.",
+            "astronomical_component": "A",
+            "used_for": "Disputed: An organized Orion Dark civilization (or 'Orion group') actively invades and enslaves planets, manip"
+          },
+          {
+            "title": "An Introduction to Modern Astrophysics",
+            "author": "Bradley W. Carroll & Dale A. Ostlie",
+            "year": 2006,
+            "publisher": "Pearson Addison-Wesley",
+            "source_type": "research",
+            "isbn": "0-8053-0402-9",
+            "url": null,
+            "summary": "Explains constellations like Orion as line-of-sight patterns of unrelated stars at different distances, characterized by spectroscopy, parallax, and stellar evolution models. Does not identify organized political entities or interstellar empires within Orion.",
+            "astronomical_component": "A",
+            "used_for": "Disputed: An organized Orion Dark civilization (or 'Orion group') actively invades and enslaves planets, manip"
+          }
+        ],
+        "source_count": 9
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "Ancient Egyptian funerary and stellar theology identifies Orion (Sah) with Osiris, a resurrected king associated with renewal and afterlife guidance. This material does not describe a conquering Orion empire or 'Orion Dark'.",
+          "Classical Greek myth portrays Orion as a giant hunter and companion/pursuer of the Pleiades. These myths do not describe hierarchical off-world enslavement agendas or Draco alliances."
+        ],
+        "modern_research": [
+          "Jung, C. G. Aion: Researches into the Phenomenology of the Self. Translated by R. F. C. Hull. Princeton University Press, 1968 (orig. 1951). Explores the Shadow and integration of repressed power.",
+          "NASA Goddard Space Flight Center. 'Hubble Studies the Orion Nebula.' NASA, 2018. Describes the Orion Nebula (M42) as a stellar nursery ~1,300 light-years away consisting of gas and young stars.",
+          "Carroll, Bradley W., & Ostlie, Dale A. An Introduction to Modern Astrophysics. Pearson Addison-Wesley, 2006. ISBN 0-8053-0402-9. Explains Orion as a constellation / nebula with no evidence of organized extraterrestrial empires."
+        ],
+        "channeled_sources": [
+          "Rueckert, Carla L.; Elkins, Don; McCarty, Jim. The Law of One (The Ra Material), Books I–III. L/L Research, 1984 (sessions recorded 1981). ISBNs 0-945007-00-9 / 0-945007-01-7 / 0-945007-02-5. Defines an 'Orion group' pursuing service-to-self conquest, mind control, enslavement, and telepathic manipulation.",
+          "Royal, Lyssa. The Prism of Lyra: An Exploration of Human Galactic Heritage. Royal Priest Research, 1993. ISBN 0-9631320-0-8. Introduces an Orion Empire with hierarchical domination, genetic manipulation, and eventual polarity-integration lessons.",
+          "Marciniak, Barbara. Bringers of the Dawn: Teachings from the Pleiadians. Bear & Company, 1992. ISBN 9780939680986. Describes Orion-aligned factions attempting planetary control through DNA manipulation and consciousness programming."
+        ],
+        "controversial_sources": [
+          "Swerdlow, Stewart A. Blue Blood, True Blood: Conflict & Creation. Expansions Publishing Company, 2002. ISBN 0-9626446-6-8. Claims Orion Dark and Draco reptilian factions allied to dominate other systems, provoking Sirian resistance."
+        ],
+        "academic_foundations": [
+          "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching or Book of Changes. Princeton University Press, mid-20th century printings. Core symbolic system later mapped into Human Design gates.",
+          "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure that Human Design maps to 64 I Ching hexagrams.",
+          "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Establishes academic study of Kabbalah, supporting the 'cosmic governance / hierarchy of intelligences' framing.",
+          "Tarnas, Richard. Cosmos and Psyche: Intimations of a New World View. Viking, 2006. Treats planetary/astrological patterns as meaningful cultural and psychological structures rather than mere superstition."
+        ]
+      }
+    },
+    "orion-light": {
+      "name": "Orion-Light",
+      "version": "4.2",
+      "last_updated": "2025-10-27",
+      "core_themes": [
+        "Honorable trial and spiritual warrior initiation",
+        "Ascending through ordeal in service to a higher code",
+        "Mystery school preservation and sacred knowledge transmission",
+        "Ritual death-and-rebirth initiation that grants rightful leadership duty and moral authority",
+        "Embedding cosmic law and the initiation path into physical systems, oaths, or institutions so future generations stay aligned",
+        "Thoth-Hermes lineage as divine scribe and cosmic law transmitter",
+        "Record keeping and preservation of primordial knowledge"
+      ],
+      "shadow_themes": [
+        "Initiatory elitism and gatekeeping of sacred knowledge",
+        "Ordeal fetishization and unnecessary suffering",
+        "Spiritual pride in having 'passed the test'"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "The Ancient Egyptian Pyramid Texts",
+            "author": "Ancient Egyptian",
+            "year": 1969,
+            "publisher": "Oxford University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://pyramidtextsonline.com/translation.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Orion-Osiris as spiritual rebirth and resurrection archetype"
+          },
+          {
+            "title": "Moralia, Volume V: Isis and Osiris",
+            "author": "Plutarch",
+            "year": 1936,
+            "publisher": "Harvard University Press / Loeb Classical Library",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://archive.org/details/plutarch-isis-osiris-loeb",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Orion-Osiris as spiritual rebirth and resurrection archetype"
+          },
+          {
+            "title": "The Orion Mystery: Unlocking the Secrets of the Pyramids",
+            "author": "Robert Bauval",
+            "year": 1994,
+            "publisher": "Crown Publishers",
+            "source_type": "research",
+            "isbn": "0517884542",
+            "url": null,
+            "summary": "Argues that Osiris is mythically mapped onto Orion, and that the pharaoh's resurrection path follows Orion's stars, making Orion-Osiris the core Egyptian rebirth current.",
+            "astronomical_component": "A",
+            "used_for": "Orion-Osiris as spiritual rebirth and resurrection archetype"
+          },
+          {
+            "title": "The Secret Teachings of All Ages: An Encyclopedic Outline of Masonic, Hermetic, Qabbalistic and Rosicrucian Symbolical Philosophy",
+            "author": "Manly P. Hall",
+            "year": 2003,
+            "publisher": "Tarcher/Penguin",
+            "source_type": "research",
+            "isbn": "1585422503",
+            "url": "https://www.prs.org/store/p2/The_Secret_Teachings_of_All_Ages",
+            "summary": "Presents Osiris and Thoth as central figures in Egyptian initiation systems, guardians of sacred rites, and transmitters of hidden knowledge to initiates.",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "On the Mysteries of the Egyptians, Chaldeans, and Assyrians",
+            "author": "Iamblichus",
+            "year": 1997,
+            "publisher": "Wizards Bookshelf",
+            "source_type": "ancient",
+            "isbn": "091351070X",
+            "url": null,
+            "summary": "Claims Egyptian temple initiations use theurgy to unite the initiate with divine intelligences through ritual, implying priestly orders who keep cosmic knowledge.",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "Metamorphoses (The Golden Ass)",
+            "author": "Apuleius",
+            "year": 1989,
+            "publisher": "Harvard University Press / Loeb Classical Library",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.poetryintranslation.com/PITBR/Latin/TheGoldenAssXI.php",
+            "summary": "Describes the narrator's initiation into the mysteries of Isis, emphasizing secret rites, vows of silence, and transmission of salvific knowledge.",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece",
+            "author": "Three Initiates",
+            "year": 1908,
+            "publisher": "Yogi Publication Society",
+            "source_type": "esoteric",
+            "isbn": null,
+            "url": "https://sacred-texts.com/eso/kyb/kyb04.htm",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "The Ancient Egyptian Book of Thoth: A Demotic Discourse on Knowledge",
+            "author": "Richard Jasnow and Karl-Theodor Zauzich (editors/translators)",
+            "year": 2005,
+            "publisher": "Harrassowitz Verlag",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Thoth is portrayed as the divine teacher and revealer of knowledge, instructing the disciple in sacred speech, cosmology, and ritual power.",
+            "astronomical_component": "unspecified",
+            "used_for": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law"
+          },
+          {
+            "title": "The Secret Teachings of All Ages",
+            "author": "Manly P. Hall",
+            "year": 2003,
+            "publisher": "Tarcher/Penguin",
+            "source_type": "research",
+            "isbn": "1585422503",
+            "url": "https://www.prs.org/store/p2/The_Secret_Teachings_of_All_Ages",
+            "summary": "Presents Thoth-Hermes as founder of wisdom schools, scribe of the gods, and keeper of cosmic law entrusted to initiates.",
+            "astronomical_component": "unspecified",
+            "used_for": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law"
+          },
+          {
+            "title": "Corpus Hermeticum",
+            "author": "Attributed to Hermes Trismegistus",
+            "year": 1906,
+            "publisher": "John M. Watkins",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://sacred-texts.com/gno/th1/th106.htm",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law"
+          },
+          {
+            "title": "The Ra Material: An Ancient Astronaut Speaks (The Law of One, Book I)",
+            "author": "Don Elkins, Carla Rueckert, James Allen McCarty",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "089865260X",
+            "url": "https://www.lawofone.info/s/16",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Positive polarity and service-to-others vs. Orion negative service-to-self (modern esoteric polarity model)"
+          }
+        ],
+        "shadow_sources": [],
+        "all_sources": [
+          {
+            "title": "The Ancient Egyptian Pyramid Texts",
+            "author": "Ancient Egyptian",
+            "year": 1969,
+            "publisher": "Oxford University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://pyramidtextsonline.com/translation.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Orion-Osiris as spiritual rebirth and resurrection archetype"
+          },
+          {
+            "title": "Moralia, Volume V: Isis and Osiris",
+            "author": "Plutarch",
+            "year": 1936,
+            "publisher": "Harvard University Press / Loeb Classical Library",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://archive.org/details/plutarch-isis-osiris-loeb",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Orion-Osiris as spiritual rebirth and resurrection archetype"
+          },
+          {
+            "title": "The Orion Mystery: Unlocking the Secrets of the Pyramids",
+            "author": "Robert Bauval",
+            "year": 1994,
+            "publisher": "Crown Publishers",
+            "source_type": "research",
+            "isbn": "0517884542",
+            "url": null,
+            "summary": "Argues that Osiris is mythically mapped onto Orion, and that the pharaoh's resurrection path follows Orion's stars, making Orion-Osiris the core Egyptian rebirth current.",
+            "astronomical_component": "A",
+            "used_for": "Orion-Osiris as spiritual rebirth and resurrection archetype"
+          },
+          {
+            "title": "The Secret Teachings of All Ages: An Encyclopedic Outline of Masonic, Hermetic, Qabbalistic and Rosicrucian Symbolical Philosophy",
+            "author": "Manly P. Hall",
+            "year": 2003,
+            "publisher": "Tarcher/Penguin",
+            "source_type": "research",
+            "isbn": "1585422503",
+            "url": "https://www.prs.org/store/p2/The_Secret_Teachings_of_All_Ages",
+            "summary": "Presents Osiris and Thoth as central figures in Egyptian initiation systems, guardians of sacred rites, and transmitters of hidden knowledge to initiates.",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "On the Mysteries of the Egyptians, Chaldeans, and Assyrians",
+            "author": "Iamblichus",
+            "year": 1997,
+            "publisher": "Wizards Bookshelf",
+            "source_type": "ancient",
+            "isbn": "091351070X",
+            "url": null,
+            "summary": "Claims Egyptian temple initiations use theurgy to unite the initiate with divine intelligences through ritual, implying priestly orders who keep cosmic knowledge.",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "Metamorphoses (The Golden Ass)",
+            "author": "Apuleius",
+            "year": 1989,
+            "publisher": "Harvard University Press / Loeb Classical Library",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.poetryintranslation.com/PITBR/Latin/TheGoldenAssXI.php",
+            "summary": "Describes the narrator's initiation into the mysteries of Isis, emphasizing secret rites, vows of silence, and transmission of salvific knowledge.",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece",
+            "author": "Three Initiates",
+            "year": 1908,
+            "publisher": "Yogi Publication Society",
+            "source_type": "esoteric",
+            "isbn": null,
+            "url": "https://sacred-texts.com/eso/kyb/kyb04.htm",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Mystery school initiation and preservation of sacred teachings"
+          },
+          {
+            "title": "Echoes of the Ancient Skies: The Astronomy of Lost Civilizations",
+            "author": "E. C. Krupp",
+            "year": 1983,
+            "publisher": "Oxford University Press",
+            "source_type": "research",
+            "isbn": "0195088018",
+            "url": null,
+            "summary": "Explores how Egyptian temples and pyramids embed stellar alignments, including Orion-related orientations, as part of ritual and royal ideology.",
+            "astronomical_component": "A",
+            "used_for": "Sacred geometry and architectural stellar encoding"
+          },
+          {
+            "title": "The Ancient Egyptian Book of Thoth: A Demotic Discourse on Knowledge",
+            "author": "Richard Jasnow and Karl-Theodor Zauzich (editors/translators)",
+            "year": 2005,
+            "publisher": "Harrassowitz Verlag",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Thoth is portrayed as the divine teacher and revealer of knowledge, instructing the disciple in sacred speech, cosmology, and ritual power.",
+            "astronomical_component": "unspecified",
+            "used_for": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law"
+          },
+          {
+            "title": "The Secret Teachings of All Ages",
+            "author": "Manly P. Hall",
+            "year": 2003,
+            "publisher": "Tarcher/Penguin",
+            "source_type": "research",
+            "isbn": "1585422503",
+            "url": "https://www.prs.org/store/p2/The_Secret_Teachings_of_All_Ages",
+            "summary": "Presents Thoth-Hermes as founder of wisdom schools, scribe of the gods, and keeper of cosmic law entrusted to initiates.",
+            "astronomical_component": "unspecified",
+            "used_for": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law"
+          },
+          {
+            "title": "Corpus Hermeticum",
+            "author": "Attributed to Hermes Trismegistus",
+            "year": 1906,
+            "publisher": "John M. Watkins",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://sacred-texts.com/gno/th1/th106.htm",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Thoth-Hermes lineage as divine scribe and transmitter of cosmic law"
+          },
+          {
+            "title": "The Ra Material: An Ancient Astronaut Speaks (The Law of One, Book I)",
+            "author": "Don Elkins, Carla Rueckert, James Allen McCarty",
+            "year": 1984,
+            "publisher": "L/L Research",
+            "source_type": "channeled",
+            "isbn": "089865260X",
+            "url": "https://www.lawofone.info/s/16",
+            "summary": "",
+            "astronomical_component": "unspecified",
+            "used_for": "Positive polarity and service-to-others vs. Orion negative service-to-self (modern esoteric polarity model)"
+          },
+          {
+            "title": "Archaeoastronomical Study of the Main Pyramids of Giza, Egypt: Possible Correlations with the Stars?",
+            "author": "Giulio Magli",
+            "year": 2016,
+            "publisher": "Archaeological Discovery",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Argues that the proposed one-to-one match between pyramid placement and Orion’s Belt is statistically weak and may be coincidental, warning that Orion Correlation Theory overstates precision and ignores other architectural, geological, and ritual constraints.",
+            "astronomical_component": "A",
+            "used_for": "Disputed: The three main Giza pyramids were deliberately laid out to mirror the three stars of Orion’s Belt, e"
+          }
+        ],
+        "source_count": 13
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "The Ancient Egyptian Pyramid Texts. Faulkner, R. O. (translator). Oxford University Press, 1969. (Original Old Kingdom funerary corpus, ~2400 BCE).",
+          "The Ancient Egyptian Pyramid Texts. Allen, James P. (translator). SBL Press, 2015. Modern scholarly translation and commentary.",
+          "Plutarch. Moralia V: Isis and Osiris. Translated by Frank Cole Babbitt. Loeb Classical Library, Harvard University Press, 1936. (Original ~1st-2nd century CE).",
+          "Iamblichus. On the Mysteries. Translated by Thomas Taylor. Wizards Bookshelf, 1997. (Original ~3rd-4th century CE).",
+          "Apuleius. Metamorphoses (The Golden Ass). Translated by J. Arthur Hanson. Loeb Classical Library, Harvard University Press, 1989. (Original ~2nd century CE).",
+          "Corpus Hermeticum. Translated by G. R. S. Mead. John M. Watkins, 1906. (Original ~2nd-3rd century CE)."
+        ],
+        "modern_research": [
+          "Bauval, Robert. The Orion Mystery: Unlocking the Secrets of the Pyramids. Crown Publishers, 1994. ISBN 0517884542.",
+          "Krupp, E. C. Echoes of the Ancient Skies: The Astronomy of Lost Civilizations. Oxford University Press, 1983. ISBN 0195088018.",
+          "Hall, Manly P. The Secret Teachings of All Ages. Tarcher/Penguin, 2003 (orig. 1928). ISBN 1585422503.",
+          "Allen, James P. The Ancient Egyptian Pyramid Texts (Second Edition). SBL Press, 2015. ISBN 9781628371144.",
+          "Jasnow, Richard & Zauzich, Karl-Theodor. The Ancient Egyptian Book of Thoth: A Demotic Discourse on Knowledge. Harrassowitz Verlag, 2005."
+        ],
+        "channeled_sources": [
+          "Elkins, Don; Rueckert, Carla; McCarty, James Allen. The Ra Material: An Ancient Astronaut Speaks (The Law of One, Book I). L/L Research, 1984 (orig. sessions 1981). ISBN 089865260X."
+        ],
+        "esoteric_sources": [
+          "Three Initiates. The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece. Yogi Publication Society, 1908."
+        ],
+        "academic_foundations": [
+          "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching. Princeton University Press, mid-20th century printings.",
+          "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine.",
+          "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken Books (orig. lectures 1941)."
+        ]
+      }
+    },
+    "pleiades": {
+      "name": "Pleiades",
+      "version": "4.2",
+      "last_updated": "2025-10-27",
+      "core_themes": [
+        "Emotional co-regulation and nervous system soothing",
+        "Caretaking and feeding/nurturing behavior",
+        "Bonding panic and need-sensitivity",
+        "Maternal protection and keeping everyone alive",
+        "Compassion training and emotional healing",
+        "Collective nurturing and sisterhood unity",
+        "Stewarding seasonal cycles of care and making sure the group has what it needs to survive and recover together"
+      ],
+      "shadow_themes": [
+        "Caretaking panic and anxious attachment",
+        "Emotional enmeshment and boundary dissolution",
+        "Martyrdom through over-giving",
+        "Crisis-for-attachment and emotional escalation as bonding strategy"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "Metamorphoses",
+            "author": "Ovid",
+            "year": 1916,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": "9780674990463",
+            "url": null,
+            "summary": "Niobe boasts noble lineage by invoking her descent from the Pleiades, described as seven daughters of Atlas. The cluster is framed as an ancestral feminine line conferring status.",
+            "astronomical_component": "A",
+            "used_for": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers"
+          },
+          {
+            "title": "The Library",
+            "author": "Apollodorus",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus3.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers"
+          },
+          {
+            "title": "The Seven Sisters of the Pleiades: Stories from Around the World",
+            "author": "Munya Andrews",
+            "year": 2004,
+            "publisher": "Spinifex Press",
+            "source_type": "research",
+            "isbn": "9781876756451",
+            "url": null,
+            "summary": "Synthesizes cross-cultural motifs in which the Pleiades are remembered as a council of ancestral sisters who watch over, nurture, warn, or protect humankind.",
+            "astronomical_component": "A",
+            "used_for": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers"
+          },
+          {
+            "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+            "author": "Barbara Marciniak",
+            "year": 1992,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9780939680986",
+            "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+            "summary": "Pleiadians are portrayed as guides teaching humanity emotional release, self-love, and compassion as prerequisites for planetary awakening.",
+            "astronomical_component": "H",
+            "used_for": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)"
+          },
+          {
+            "title": "The Pleiadian Agenda: A New Cosmology for the Age of Light",
+            "author": "Barbara Hand Clow",
+            "year": 1995,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9781879181304",
+            "url": "https://www.innertraditions.com/books/the-pleiadian-agenda",
+            "summary": "Describes a nine-dimensional Pleiadian teaching program guiding Earth's leap in consciousness, emotional integration, and preparation for an 'Age of Light'.",
+            "astronomical_component": "H",
+            "used_for": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)"
+          },
+          {
+            "title": "The Pleiadian Workbook: Awakening Your Divine Ka",
+            "author": "Amorah Quan Yin",
+            "year": 1995,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9781879181311",
+            "url": null,
+            "summary": "Presents Pleiadian 'lightwork' as energetic healing: emotional clearing, vibrational recalibration, and compassionate frequency medicine for human evolution.",
+            "astronomical_component": "H",
+            "used_for": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)"
+          },
+          {
+            "title": "The Mahabharata",
+            "author": "Vyasa (attributed)",
+            "year": 1883,
+            "publisher": "P. C. Roy, Calcutta",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://sacred-texts.com/hin/m03/m03228.htm",
+            "summary": "The Krittikas (Pleiades) are described as collectively nursing and raising Kartikeya/Skanda (a war god), acting as divine foster-mothers.",
+            "astronomical_component": "A",
+            "used_for": "Feminine energy and divine mothers (nursing, protection, maternal initiation)"
+          },
+          {
+            "title": "Harima Fudoki: A Record of Ancient Japan Reinterpreted, Translated, Annotated, and with Commentary",
+            "author": "Anonymous provincial compilers (Nara period)",
+            "year": 2016,
+            "publisher": "Brill",
+            "source_type": "ancient",
+            "isbn": "9789004269361",
+            "url": null,
+            "summary": "The Old Japanese term 'Subaru' (to gather/cluster together) is linked to the Pleiades as an image of collective harmony, group cohesion, and social unity.",
+            "astronomical_component": "A",
+            "used_for": "Symbol of unity and togetherness (Japanese Subaru)"
+          },
+          {
+            "title": "A Japanese Myth of the Origin of the Pleiades",
+            "author": "Edwina Palmer",
+            "year": 2010,
+            "publisher": "Asian Ethnology",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Analyzes early Japanese mythic material where the Pleiades are explicitly associated with gathering, clustering, and communal identity.",
+            "astronomical_component": "A",
+            "used_for": "Symbol of unity and togetherness (Japanese Subaru)"
+          }
+        ],
+        "shadow_sources": [
+          {
+            "title": "Astronomy Fragment (Fragment 4)",
+            "author": "Hesiod (attributed)",
+            "year": 1914,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com",
+            "summary": "Describes Orion pursuing the Pleiades, who are accompanied by Artemis; the sisters flee and become fixed as stars.",
+            "astronomical_component": "A",
+            "used_for": "Cross-cultural pursuit motif (Orion chasing the Seven Sisters)"
+          },
+          {
+            "title": "Why Are There Seven Sisters?",
+            "author": "Ray P. Norris and Barnaby R. M. Norris",
+            "year": 2021,
+            "publisher": "Springer",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Argues that the Orion-chasing-seven-sisters storyline recurs in Greek and Aboriginal Australian traditions, implying very ancient diffusion or shared skywatching logic.",
+            "astronomical_component": "A",
+            "used_for": "Cross-cultural pursuit motif (Orion chasing the Seven Sisters)"
+          }
+        ],
+        "all_sources": [
+          {
+            "title": "Metamorphoses",
+            "author": "Ovid",
+            "year": 1916,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": "9780674990463",
+            "url": null,
+            "summary": "Niobe boasts noble lineage by invoking her descent from the Pleiades, described as seven daughters of Atlas. The cluster is framed as an ancestral feminine line conferring status.",
+            "astronomical_component": "A",
+            "used_for": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers"
+          },
+          {
+            "title": "The Library",
+            "author": "Apollodorus",
+            "year": 1921,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/Apollodorus3.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers"
+          },
+          {
+            "title": "The Seven Sisters of the Pleiades: Stories from Around the World",
+            "author": "Munya Andrews",
+            "year": 2004,
+            "publisher": "Spinifex Press",
+            "source_type": "research",
+            "isbn": "9781876756451",
+            "url": null,
+            "summary": "Synthesizes cross-cultural motifs in which the Pleiades are remembered as a council of ancestral sisters who watch over, nurture, warn, or protect humankind.",
+            "astronomical_component": "A",
+            "used_for": "Seven Sisters as universal feminine collective and nurturers / ancestral mothers"
+          },
+          {
+            "title": "Works and Days",
+            "author": "Hesiod",
+            "year": 1914,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com/Text/HesiodWorksDays.html",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Agricultural and seasonal time markers / New Year signal"
+          },
+          {
+            "title": "Matariki: The Star of the Year",
+            "author": "Rangi Matamua",
+            "year": 2017,
+            "publisher": "Huia Publishers",
+            "source_type": "research",
+            "isbn": "9781775503255",
+            "url": null,
+            "summary": "Documents Matariki (the Pleiades) as the marker of the Māori New Year and as a seasonal/planting signal in Indigenous Māori astronomy and agriculture.",
+            "astronomical_component": "A",
+            "used_for": "Agricultural and seasonal time markers / New Year signal"
+          },
+          {
+            "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+            "author": "Barbara Marciniak",
+            "year": 1992,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9780939680986",
+            "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+            "summary": "Pleiadians are portrayed as guides teaching humanity emotional release, self-love, and compassion as prerequisites for planetary awakening.",
+            "astronomical_component": "H",
+            "used_for": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)"
+          },
+          {
+            "title": "The Pleiadian Agenda: A New Cosmology for the Age of Light",
+            "author": "Barbara Hand Clow",
+            "year": 1995,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9781879181304",
+            "url": "https://www.innertraditions.com/books/the-pleiadian-agenda",
+            "summary": "Describes a nine-dimensional Pleiadian teaching program guiding Earth's leap in consciousness, emotional integration, and preparation for an 'Age of Light'.",
+            "astronomical_component": "H",
+            "used_for": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)"
+          },
+          {
+            "title": "The Pleiadian Workbook: Awakening Your Divine Ka",
+            "author": "Amorah Quan Yin",
+            "year": 1995,
+            "publisher": "Bear & Company",
+            "source_type": "channeled",
+            "isbn": "9781879181311",
+            "url": null,
+            "summary": "Presents Pleiadian 'lightwork' as energetic healing: emotional clearing, vibrational recalibration, and compassionate frequency medicine for human evolution.",
+            "astronomical_component": "H",
+            "used_for": "Emotional healers and teachers of compassion (modern channeled Pleiadian material)"
+          },
+          {
+            "title": "The Mahabharata",
+            "author": "Vyasa (attributed)",
+            "year": 1883,
+            "publisher": "P. C. Roy, Calcutta",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://sacred-texts.com/hin/m03/m03228.htm",
+            "summary": "The Krittikas (Pleiades) are described as collectively nursing and raising Kartikeya/Skanda (a war god), acting as divine foster-mothers.",
+            "astronomical_component": "A",
+            "used_for": "Feminine energy and divine mothers (nursing, protection, maternal initiation)"
+          },
+          {
+            "title": "Star Myths of the Greeks and Romans: A Sourcebook",
+            "author": "Theony Condos",
+            "year": 1997,
+            "publisher": "Phanes Press",
+            "source_type": "research",
+            "isbn": "9781890482930",
+            "url": null,
+            "summary": "Collects classical sources linking the Pleiades to Artemis and narrates their transformation into a star cluster to escape Orion's pursuit.",
+            "astronomical_component": "A",
+            "used_for": "Companions of Artemis (virgin huntresses / celibate sisterhood)"
+          },
+          {
+            "title": "Harima Fudoki: A Record of Ancient Japan Reinterpreted, Translated, Annotated, and with Commentary",
+            "author": "Anonymous provincial compilers (Nara period)",
+            "year": 2016,
+            "publisher": "Brill",
+            "source_type": "ancient",
+            "isbn": "9789004269361",
+            "url": null,
+            "summary": "The Old Japanese term 'Subaru' (to gather/cluster together) is linked to the Pleiades as an image of collective harmony, group cohesion, and social unity.",
+            "astronomical_component": "A",
+            "used_for": "Symbol of unity and togetherness (Japanese Subaru)"
+          },
+          {
+            "title": "A Japanese Myth of the Origin of the Pleiades",
+            "author": "Edwina Palmer",
+            "year": 2010,
+            "publisher": "Asian Ethnology",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Analyzes early Japanese mythic material where the Pleiades are explicitly associated with gathering, clustering, and communal identity.",
+            "astronomical_component": "A",
+            "used_for": "Symbol of unity and togetherness (Japanese Subaru)"
+          },
+          {
+            "title": "Astronomy Fragment (Fragment 4)",
+            "author": "Hesiod (attributed)",
+            "year": 1914,
+            "publisher": "Harvard University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "https://www.theoi.com",
+            "summary": "Describes Orion pursuing the Pleiades, who are accompanied by Artemis; the sisters flee and become fixed as stars.",
+            "astronomical_component": "A",
+            "used_for": "Cross-cultural pursuit motif (Orion chasing the Seven Sisters)"
+          },
+          {
+            "title": "Why Are There Seven Sisters?",
+            "author": "Ray P. Norris and Barnaby R. M. Norris",
+            "year": 2021,
+            "publisher": "Springer",
+            "source_type": "research",
+            "isbn": null,
+            "url": null,
+            "summary": "Argues that the Orion-chasing-seven-sisters storyline recurs in Greek and Aboriginal Australian traditions, implying very ancient diffusion or shared skywatching logic.",
+            "astronomical_component": "A",
+            "used_for": "Cross-cultural pursuit motif (Orion chasing the Seven Sisters)"
+          },
+          {
+            "title": "How Far Away are the Pleiades, Really?",
+            "author": "Harvard-Smithsonian Center for Astrophysics (CfA)",
+            "year": 2014,
+            "publisher": "Harvard-Smithsonian Center for Astrophysics",
+            "source_type": "research",
+            "isbn": null,
+            "url": "https://www.cfa.harvard.edu/news/2014-17",
+            "summary": "Describes the Pleiades as an open cluster of young, hot stars ~100 million years old and roughly 440+ light-years away, with no evidence of civilizations or consciousness-bearing healer collectives.",
+            "astronomical_component": "A",
+            "used_for": "Disputed: The Pleiades are an advanced collective of higher-dimensional beings guiding human emotional healing"
+          }
+        ],
+        "source_count": 15
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "Hesiod. Works and Days. Translated by Hugh G. Evelyn-White. Loeb Classical Library. Harvard University Press, 1914. (Original ~7th century BCE). Agricultural timing via Pleiades heliacal rising.",
+          "Apollodorus. The Library. Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921. (Original ~2nd century BCE). Pleiades as daughters of Atlas, companions of Artemis.",
+          "Vyasa (attributed). The Mahabharata. Translated by Kisari Mohan Ganguli. P. C. Roy, Calcutta, 1883–1896. (Epic layers ~4th century BCE and later). Krittikas/Pleiades as foster-mothers of Kartikeya.",
+          "Harima Fudoki (Province Records, 8th century CE). Translated by Edwina Palmer. Brill, 2016. (Original 714 CE). Pleiades/Subaru as symbol of gathered unity and social cohesion."
+        ],
+        "modern_research": [
+          "Matamua, Rangi. Matariki: The Star of the Year. Huia Publishers, 2017. ISBN 9781775503255. Māori astronomy and seasonal New Year timing tied to Matariki (Pleiades).",
+          "Andrews, Munya. The Seven Sisters of the Pleiades: Stories from Around the World. Spinifex Press, 2004. ISBN 9781876756451. Cross-cultural synthesis of Seven Sisters myths.",
+          "Condos, Theony. Star Myths of the Greeks and Romans: A Sourcebook. Phanes Press, 1997. ISBN 9781890482930. Classical constellation narratives including the Pleiades and Orion.",
+          "Norris, Ray P. & Norris, Barnaby R. M. \"Why Are There Seven Sisters?\" In Advancing Cultural Astronomy: Studies in Honour of Clive Ruggles. Springer, 2021. Comparative analysis of global Seven Sisters / Orion pursuit motifs.",
+          "Harvard-Smithsonian Center for Astrophysics. \"How Far Away are the Pleiades, Really?\" CfA Press Release 2014-17, 2014. Astrophysical distance/age discussion of the Pleiades open cluster."
+        ],
+        "channeled_sources": [
+          "Marciniak, Barbara. Bringers of the Dawn: Teachings from the Pleiadians. Bear & Company, 1992. ISBN 9780939680986. Positions Pleiadians as emotional healers and guides.",
+          "Hand Clow, Barbara. The Pleiadian Agenda: A New Cosmology for the Age of Light. Bear & Company, 1995. ISBN 9781879181304. Describes nine-dimensional Pleiadian guidance of Earth's evolution.",
+          "Quan Yin, Amorah. The Pleiadian Workbook: Awakening Your Divine Ka. Bear & Company, 1995. ISBN 9781879181311. Outlines Pleiadian energetic healing and Ka activation practices."
+        ],
+        "academic_foundations": [
+          "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching. Princeton University Press, mid-20th century printings. Core text for Human Design gate mapping.",
+          "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure.",
+          "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Foundational academic study of Kabbalah."
+        ]
+      }
+    },
+    "sirius": {
+      "name": "Sirius",
+      "version": "4.2",
+      "last_updated": "2025-10-25",
+      "core_themes": [
+        "Spiritual initiation and liberation current",
+        "Sacred knowledge transmission and cosmic law teaching",
+        "Royal resurrection and pharaonic renewal (Isis-Sothis-Osiris)",
+        "Path to freedom through higher initiation",
+        "Love-wisdom transmission and spiritual hierarchy guidance",
+        "Acts as a timing signal for collective renewal and rebirth rituals ('this is when we begin again, re-consecrate, or restore life to the group')",
+        "Teachers and bringers of sacred instruction"
+      ],
+      "shadow_themes": [
+        "Initiatory elitism and spiritual gatekeeping",
+        "Dogmatic adherence to cosmic law without compassion",
+        "Spiritual hierarchy as power structure"
+      ],
+      "sources": {
+        "core_sources": [
+          {
+            "title": "Esoteric Astrology",
+            "author": "Alice A. Bailey",
+            "year": 1951,
+            "publisher": "Lucis Publishing Company",
+            "source_type": "channeled",
+            "isbn": "978-0-853-30120-2",
+            "url": "[https://www.lucistrust.org/store/item/esoteric_astrology](https://www.lucistrust.org/store/item/esoteric_astrology)",
+            "summary": "Sirius described as the higher Lodge; initiation path of freedom leading to admission at fifth initiation via Sirian force.",
+            "astronomical_component": "unspecified",
+            "used_for": "Cosmic freedom and liberation current - Path to Sirius as advanced spiritual initiation"
+          },
+          {
+            "title": "The Secret Doctrine",
+            "author": "Helena Petrovna Blavatsky",
+            "year": 1888,
+            "publisher": "Theosophical Publishing Company",
+            "source_type": "channeled",
+            "isbn": null,
+            "url": "[https://www.theosociety.org/pasadena/sd/sd-hp.htm](https://www.theosociety.org/pasadena/sd/sd-hp.htm)",
+            "summary": "Names Sirius as the Dog Star, star of Mercury/Budha, the Great Instructor of humanity.",
+            "astronomical_component": "unspecified",
+            "used_for": "Cosmic freedom and liberation current - Path to Sirius as advanced spiritual initiation"
+          },
+          {
+            "title": "The Zend-Avesta, Part II: The Sîrôzahs, Yasts, and Nyâyis",
+            "author": "Avesta",
+            "year": 1883,
+            "publisher": "Oxford University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "[https://sacred-texts.com/zor/sbe23/](https://sacred-texts.com/zor/sbe23/)",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Teachers and bringers of sacred knowledge"
+          },
+          {
+            "title": "A Treatise on Cosmic Fire",
+            "author": "Alice A. Bailey",
+            "year": 1925,
+            "publisher": "Lucis Publishing Company",
+            "source_type": "channeled",
+            "isbn": null,
+            "url": "[https://www.theosophy.world/sites/default/files/ebooks/alice-a-bailey-a-treatise-on-cosmic-fire.pdf](https://www.theosophy.world/sites/default/files/ebooks/alice-a-bailey-a-treatise-on-cosmic-fire.pdf)",
+            "summary": "Sirius described as fountainhead of logoic mind principle (manas), forming a cosmic triangle with the Pleiades and our Sun.",
+            "astronomical_component": "unspecified",
+            "used_for": "Source of cosmic manas (mind principle) and logoic mental plane energy"
+          }
+        ],
+        "shadow_sources": [],
+        "all_sources": [
+          {
+            "title": "The Pyramid Texts",
+            "author": "Ancient Egyptian",
+            "year": 1952,
+            "publisher": "Longmans, Green and Co.",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "[https://sacred-texts.com/egy/pyt/pyt19.htm](https://sacred-texts.com/egy/pyt/pyt19.htm)",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Royal resurrection and pharaonic initiation through Isis-Sothis-Osiris alignment"
+          },
+          {
+            "title": "Goddess Sopdet in Ancient Egyptian Religion",
+            "author": "Mona Ezz Ali",
+            "year": 2021,
+            "publisher": "Journal of Association of Arab Universities for Tourism and Hospitality",
+            "source_type": "research",
+            "isbn": null,
+            "url": "[https://journals.ekb.eg/article_157941.html](https://journals.ekb.eg/article_157941.html)",
+            "summary": "Sopdet (Sirius A) identified with Isis-Sothis; heliacal rising tied to rebirth, Nile inundation, fertility, and royal renewal rites.",
+            "astronomical_component": "A",
+            "used_for": "Royal resurrection and pharaonic initiation through Isis-Sothis-Osiris alignment"
+          },
+          {
+            "title": "Esoteric Astrology",
+            "author": "Alice A. Bailey",
+            "year": 1951,
+            "publisher": "Lucis Publishing Company",
+            "source_type": "channeled",
+            "isbn": "978-0-853-30120-2",
+            "url": "[https://www.lucistrust.org/store/item/esoteric_astrology](https://www.lucistrust.org/store/item/esoteric_astrology)",
+            "summary": "Sirius described as the higher Lodge; initiation path of freedom leading to admission at fifth initiation via Sirian force.",
+            "astronomical_component": "unspecified",
+            "used_for": "Cosmic freedom and liberation current - Path to Sirius as advanced spiritual initiation"
+          },
+          {
+            "title": "The Secret Doctrine",
+            "author": "Helena Petrovna Blavatsky",
+            "year": 1888,
+            "publisher": "Theosophical Publishing Company",
+            "source_type": "channeled",
+            "isbn": null,
+            "url": "[https://www.theosociety.org/pasadena/sd/sd-hp.htm](https://www.theosociety.org/pasadena/sd/sd-hp.htm)",
+            "summary": "Names Sirius as the Dog Star, star of Mercury/Budha, the Great Instructor of humanity.",
+            "astronomical_component": "unspecified",
+            "used_for": "Cosmic freedom and liberation current - Path to Sirius as advanced spiritual initiation"
+          },
+          {
+            "title": "The Zend-Avesta, Part II: The Sîrôzahs, Yasts, and Nyâyis",
+            "author": "Avesta",
+            "year": 1883,
+            "publisher": "Oxford University Press",
+            "source_type": "ancient",
+            "isbn": null,
+            "url": "[https://sacred-texts.com/zor/sbe23/](https://sacred-texts.com/zor/sbe23/)",
+            "summary": "",
+            "astronomical_component": "A",
+            "used_for": "Teachers and bringers of sacred knowledge"
+          },
+          {
+            "title": "The Sirius Mystery: New Scientific Evidence of Alien Contact 5,000 Years Ago",
+            "author": "Robert K. G. Temple",
+            "year": 2019,
+            "publisher": "Inner Traditions",
+            "source_type": "controversial",
+            "isbn": "978-1-64411-101-7",
+            "url": "[https://www.simonandschuster.com/books/The-Sirius-Mystery/Robert-Temple/9780892817504](https://www.simonandschuster.com/books/The-Sirius-Mystery/Robert-Temple/9780892817504)",
+            "summary": "Claims Dogon received teachings from amphibious Nommo beings from Sirius, including knowledge of invisible companion star Sirius B.",
+            "astronomical_component": "B",
+            "used_for": "Amphibious genetic engineers (Nommo tradition) - DISPUTED"
+          },
+          {
+            "title": "Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule",
+            "author": "Walter E. A. van Beek",
+            "year": 1991,
+            "publisher": "Current Anthropology / University of Chicago Press",
+            "source_type": "research",
+            "isbn": null,
+            "url": "[https://www.jstor.org/stable/i327999](https://www.jstor.org/stable/i327999)",
+            "summary": "Follow-up fieldwork found no consistent Dogon tradition of Sirius B; informants said knowledge came from Griaule's prompting.",
+            "astronomical_component": "B",
+            "used_for": "Amphibious genetic engineers (Nommo tradition) - DISPUTED"
+          },
+          {
+            "title": "Broca's Brain: Reflections on the Romance of Science",
+            "author": "Carl Sagan",
+            "year": 1979,
+            "publisher": "Random House",
+            "source_type": "research",
+            "isbn": "978-0394410683",
+            "url": null,
+            "summary": "Argues Dogon 'Sirius B' knowledge likely reflects modern contact with Western astronomy rather than prehistoric extraterrestrial encounter.",
+            "astronomical_component": "B",
+            "used_for": "Amphibious genetic engineers (Nommo tradition) - DISPUTED"
+          },
+          {
+            "title": "A Treatise on Cosmic Fire",
+            "author": "Alice A. Bailey",
+            "year": 1925,
+            "publisher": "Lucis Publishing Company",
+            "source_type": "channeled",
+            "isbn": null,
+            "url": "[https://www.theosophy.world/sites/default/files/ebooks/alice-a-bailey-a-treatise-on-cosmic-fire.pdf](https://www.theosophy.world/sites/default/files/ebooks/alice-a-bailey-a-treatise-on-cosmic-fire.pdf)",
+            "summary": "Sirius described as fountainhead of logoic mind principle (manas), forming a cosmic triangle with the Pleiades and our Sun.",
+            "astronomical_component": "unspecified",
+            "used_for": "Source of cosmic manas (mind principle) and logoic mental plane energy"
+          }
+        ],
+        "source_count": 9
+      },
+      "bibliography": {
+        "ancient_texts": [
+          "The Pyramid Texts (Mercer translation, 1952). Longmans, Green and Co. Sopdet/Sothis (Sirius A) as royal resurrection current.",
+          "Avesta: Tir Yasht / Tishtrya (Darmesteter translation, 1883). Oxford University Press. Sirius A invoked as rain-bringer and fertility power."
+        ],
+        "modern_research": [
+          "Ali, Mona Ezz (2021). Goddess Sopdet in Ancient Egyptian Religion. Journal of Association of Arab Universities for Tourism and Hospitality.",
+          "Temple, Robert K. G. (1976/2019). The Sirius Mystery. Inner Traditions.",
+          "van Beek, Walter E. A. (1991). Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule. Current Anthropology / University of Chicago Press.",
+          "Sagan, Carl (1979). Broca's Brain. Random House."
+        ],
+        "channeled_sources": [
+          "Bailey, Alice A. (1951). Esoteric Astrology. Lucis Publishing Company.",
+          "Bailey, Alice A. (1925). A Treatise on Cosmic Fire. Lucis Publishing Company.",
+          "Blavatsky, Helena P. (1888). The Secret Doctrine. Theosophical Publishing Company."
+        ],
+        "academic_foundations": [
+          "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.",
+          "Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize).",
+          "Scholem, G. (1941). Major Trends in Jewish Mysticism."
+        ]
+      }
+    }
+  },
+  "source_library": {
+    "categories": [
+      "🌟 Mesopotamian/Sumerian",
+      "🕉️ Vedic/Hindu",
+      "🐉 Chinese/Taoist",
+      "🏛️ Greek/Hermetic/Mystery Schools",
+      "🌎 Indigenous North American",
+      "🌏 Indigenous Global",
+      "🔮 Theosophical Society (Beyond Bailey)",
+      "🌌 Lesser-Known Channeled/Esoteric (Pre-1950)",
+      "🌠 Star Mythology & Astronomy",
+      "📖 Obscure Esoteric Publishers",
+      "🏺 Museum & Archive Collections",
+      "🔬 Academic Journals (Obscure but Verifiable)",
+      "📡 Disciplined Channeled/Contact Material",
+      "🧬 Esoteric Systems Used in S³",
+      "🌍 Comparative Mythology & Religious Structure",
+      "🔥 Zoroastrian/Persian",
+      "🌙 Islamic/Sufi Cosmology",
+      "🔬 Archaeoastronomy (Hard Technical Sources)",
+      "💎 The Really Obscure Gems",
+      "🎯 How to Use This List",
+      "⚠️ Remember:"
+    ],
+    "total_sources": "400+",
+    "library_path": "lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md"
+  }
+}
