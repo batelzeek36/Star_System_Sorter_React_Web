@@ -148,6 +148,8 @@ export const ClassificationResultSchema = z.object({
     lore_version: z.string().optional(),
     rules_hash: z.string().optional(),
     input_hash: z.string().optional(),
+    gpt_explanation: z.string().optional(), // GPT-4o user-facing explanation
+    gpt_reasoning: z.string().optional(), // GPT-4o technical reasoning
   }),
 });
 

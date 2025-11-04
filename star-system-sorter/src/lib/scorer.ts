@@ -1,10 +1,16 @@
 /**
  * Core Scoring Algorithm for React Web
  * 
- * Implements weighted scoring logic for star system classification.
- * This is the deterministic algorithm that classifies users into star systems
- * based on their Human Design birth chart data.
+ * ⚠️ DEPRECATED: This deterministic scoring algorithm has been replaced by GPT-4o classification.
+ * 
+ * This file is kept for reference and can be re-enabled via feature flag if needed.
+ * The new classification happens server-side via /api/classify endpoint.
+ * 
+ * To re-enable deterministic scoring, set: VITE_USE_DETERMINISTIC_SCORING=true
  */
+
+// Feature flag to enable/disable deterministic scoring
+export const USE_DETERMINISTIC_SCORING = import.meta.env.VITE_USE_DETERMINISTIC_SCORING === 'true';
 
 import { loreBundle } from './lore.bundle';
 import type { LoreRule } from './schemas';

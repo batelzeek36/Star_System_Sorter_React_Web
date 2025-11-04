@@ -91,6 +91,59 @@ The Express server validates the request, checks node-cache (30-day TTL), calls 
 - Use HTTPS in production
 - Hashed cache keys (no raw PII)
 
+### Star System Classification (GPT-4o)
+
+**⚠️ CURRENT IMPLEMENTATION: GPT-4o Classification**
+
+The app now uses **GPT-4o for real-time star system classification** instead of the deterministic scoring algorithm. The deterministic scorer is preserved but disabled.
+
+**Client → POST /api/classify (Express)**
+
+After fetching HD data, the client automatically sends it to GPT-4o for classification.
+
+**Flow**:
+
+1. Client fetches HD data from `/api/hd`
+2. Client sends HD data to `/api/classify` (POST)
+3. Express server validates HD data with Zod schema
+4. Server calls OpenAI GPT-4o with comprehensive system prompt
+5. GPT analyzes gate.line placements, type, authority, profile
+6. GPT returns classification, percentages, explanation, reasoning
+7. Client stores classification in Zustand and displays results
+
+**GPT System Prompt Includes**:
+
+- All 8 star system archetypes (behavioral descriptions)
+- Gate.line interpretation guidelines
+- Human Design attribute meanings
+- Classification rules (primary/hybrid/unresolved)
+- Emphasis on behavioral patterns over lore
+
+**Security**:
+
+- API key stored as `OPENAI_API_KEY` (NO `VITE_` prefix)
+- Server reads `process.env.OPENAI_API_KEY`
+- Never expose key in client bundle or logs
+- Rate limiting applies (100 req/15min)
+
+**Cost**: ~$0.004 per classification (GPT-4o pricing)
+
+**Toggle Back to Deterministic Scoring**:
+
+To re-enable the deterministic scorer:
+
+1. Set environment variable: `VITE_USE_DETERMINISTIC_SCORING=true`
+2. Update `useHDData.ts` to check feature flag
+3. Use `classifyWithGateLines()` instead of `classifyWithGPT()`
+
+All deterministic scoring code is preserved in:
+- `star-system-sorter/src/lib/scorer.ts` (marked as deprecated)
+- `star-system-sorter/src/lib/scorer-config.ts`
+- `star-system-sorter/src/lib/gateline-map.ts`
+- `star-system-sorter/src/hooks/useGateLineScoring.ts`
+
+**See**: `GPT_CLASSIFICATION_MIGRATION.md` for full details
+
 ## Form Handling
 
 ### React Hook Form + Zod Pattern

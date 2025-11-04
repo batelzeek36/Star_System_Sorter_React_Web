@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import rateLimit from 'express-rate-limit';
 import hdRouter from './routes/hd.js';
 import narrativeRouter from './routes/narrative.js';
+import classifyRouter from './routes/classify.js';
 import { initializeRedis } from './lib/redis-startup.js';
 
 // Load environment variables - override system env vars
@@ -50,6 +51,7 @@ app.get('/debug/env', (req, res) => {
 // Mount routes
 app.use('/api', hdRouter);
 app.use('/api', narrativeRouter);
+app.use('/api', classifyRouter);
 
 // Start server
 app.listen(PORT, async () => {

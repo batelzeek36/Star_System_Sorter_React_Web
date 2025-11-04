@@ -94,7 +94,9 @@ Configure in `tsconfig.json` and `vite.config.ts`:
 
 **Lib** (pure logic, no React):
 - `lib/schemas.ts`: Zod schemas (BirthDataFormSchema, HDExtractSchema, etc.)
-- `lib/scorer.ts`: Classification algorithm (computeClassification)
+- `lib/scorer.ts`: ⚠️ DEPRECATED - Deterministic classification algorithm (preserved for rollback)
+- `lib/scorer-config.ts`: Sparsify/sharpen config (preserved)
+- `lib/gateline-map.ts`: Gate.line mappings loader (preserved)
 - `lib/canon.ts`: Canon data loader and validator
 
 **API**:
@@ -104,7 +106,9 @@ Configure in `tsconfig.json` and `vite.config.ts`:
 - `store/birthDataStore.ts`: Zustand store for birth data and classification results
 
 **Hooks**:
-- `hooks/useHDData.ts`: Fetch HD data from API
+- `hooks/useHDData.ts`: Fetch HD data from API + call GPT classification
+- `hooks/useGPTClassification.ts`: ⚠️ NEW - Call GPT-4o classification endpoint
+- `hooks/useGateLineScoring.ts`: ⚠️ DEPRECATED - Deterministic scoring (preserved for rollback)
 - `hooks/useClassification.ts`: Compute classification from HD data
 
 **Screens**:
@@ -115,7 +119,16 @@ Configure in `tsconfig.json` and `vite.config.ts`:
 
 ### Server (server/src/)
 
+**Routes**:
 - `routes/hd.ts`: POST /api/hd endpoint with caching logic
+- `routes/classify.ts`: ⚠️ NEW - POST /api/classify endpoint for GPT-4o classification
+- `routes/narrative.ts`: POST /api/narrative endpoint for narrative generation
+
+**Services**:
+- `services/gpt-classification.ts`: ⚠️ NEW - GPT-4o classification service
+- `services/narrative.ts`: GPT-4o narrative generation service
+
+**Core**:
 - `index.ts`: Express app setup with CORS, rate limiting, error handling
 
 ### Figma Components

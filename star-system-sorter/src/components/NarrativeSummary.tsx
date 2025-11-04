@@ -56,10 +56,22 @@ export function NarrativeSummary({ classification, hdData }: NarrativeSummaryPro
   const [forceRefresh, setForceRefresh] = useState(0);
   const [showContent, setShowContent] = useState(false);
   const [letters, setLetters] = useState<string[]>([]);
-  const { narrative, loading, error, cached } = useNarrative(classification, hdData, forceRefresh);
+  
+  // Check if we have GPT explanation in classification meta
+  const gptExplanation = classification.meta?.gpt_explanation;
+  
+  // Only fetch narrative if we don't have GPT explanation
+  const { narrative: fetchedNarrative, loading, error, cached } = useNarrative(
+    classification, 
+    hdData, 
+    gptExplanation ? -1 : forceRefresh // Skip narrative fetch if we have GPT explanation
+  );
+  
+  // Use GPT explanation if available, otherwise use fetched narrative
+  const narrative = gptExplanation || fetchedNarrative;
   
   const MAX_REGENERATIONS = 3;
-  const canRegenerate = regenerateCount < MAX_REGENERATIONS;
+  const canRegenerate = regenerateCount < MAX_REGENERATIONS && !gptExplanation; // Can't regenerate GPT classification
   
   // Split narrative into letters for animation
   useEffect(() => {
@@ -187,7 +199,8 @@ export function NarrativeSummary({ classification, hdData }: NarrativeSummaryPro
       <div className="mt-4 pt-4 border-t border-purple-500/20">
         <p className="text-xs text-purple-300/70">
           Based on Human Design and the I Ching • Star system classification
-          {cached && ' • Cached result'}
+          {gptExplanation && ' • AI-powered classification'}
+          {!gptExplanation && cached && ' • Cached result'}
         </p>
       </div>
       

@@ -2,15 +2,19 @@
 
 ## What We're Building
 
-Star System Sorter (S³) is a React web app that provides deterministic star system classification based on Human Design birth chart data. Users input their birth information, we retrieve their Human Design data via the BodyGraph Chart API, apply a proprietary scoring algorithm, and present their star system classification with visual crests and ally systems.
+Star System Sorter (S³) is a React web app that provides star system classification based on Human Design birth chart data. Users input their birth information, we retrieve their Human Design data via the BodyGraph Chart API, and **GPT-4o analyzes their chart** to classify them into one of 8 star systems with detailed explanations.
+
+**⚠️ CURRENT IMPLEMENTATION**: The app now uses **GPT-4o for real-time classification** instead of the deterministic scoring algorithm. The deterministic scorer is preserved but disabled (can be re-enabled via feature flag).
 
 ## Core Value Proposition
 
-- **Deterministic Results**: Same birth data always produces the same classification
+- **AI-Powered Classification**: GPT-4o analyzes gate.line placements and HD attributes to provide nuanced classifications
+- **Automatic Explanations**: Every classification includes a personalized explanation of why and how
 - **Privacy-First**: No logging of PII, secure API key handling, hashed cache keys
 - **Cosmic Experience**: Dark theme with lavender gradients, starfield backgrounds, and star system crests
 - **Fast & Efficient**: 30-day caching reduces API calls and improves performance
 - **Academic-Grade Research**: Built on rigorous comparative mythology with proper citations, not typical astrology blog content
+- **Adaptive Intelligence**: GPT handles edge cases and ambiguous patterns better than rigid rules
 
 ## Academic Foundation (Competitive Moat)
 
@@ -83,6 +87,51 @@ Classifications can be:
 - **Primary**: Clear winner (>6% lead)
 - **Hybrid**: Top two systems within 6% of each other
 - **Unresolved**: No clear classification
+
+## Classification System
+
+### Current Implementation: GPT-4o (November 2024)
+
+The app now uses **GPT-4o for real-time classification** instead of the deterministic scoring algorithm.
+
+**How It Works**:
+
+1. User enters birth data
+2. Fetch HD data from BodyGraph API (cached 30 days)
+3. Send HD data to GPT-4o via `/api/classify`
+4. GPT analyzes:
+   - Gate.line placements (personality & design)
+   - Type, authority, profile
+   - Defined centers
+   - Active gates and channels
+5. GPT returns:
+   - Classification (primary/hybrid/unresolved)
+   - Percentages for all 8 systems (sum to 100%)
+   - User-facing explanation
+   - Technical reasoning
+
+**Benefits**:
+- Leverages all 384 gate.line mappings from research
+- Natural language explanations included automatically
+- Adaptive intelligence for edge cases
+- Easier to maintain (refine prompt vs complex algorithms)
+
+**Cost**: ~$0.004 per classification
+
+**Toggle Back to Deterministic**:
+
+The deterministic scorer is preserved but disabled. To re-enable:
+
+1. Set `VITE_USE_DETERMINISTIC_SCORING=true`
+2. Update `useHDData.ts` to check feature flag
+3. Use `classifyWithGateLines()` instead of `classifyWithGPT()`
+
+All deterministic code is intact in:
+- `star-system-sorter/src/lib/scorer.ts` (deprecated)
+- `star-system-sorter/src/lib/scorer-config.ts`
+- `star-system-sorter/src/lib/gateline-map.ts`
+
+**See**: `GPT_CLASSIFICATION_MIGRATION.md` for full technical details
 
 ## Key Terminology
 
