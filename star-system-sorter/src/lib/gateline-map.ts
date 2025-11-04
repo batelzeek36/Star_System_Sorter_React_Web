@@ -8,7 +8,7 @@
 export interface GateLineMapping {
   star_system: string;
   weight: number;
-  alignment_type: 'core' | 'shadow' | 'none';
+  alignment_type: 'core' | 'secondary' | 'none';
   why: string;
 }
 

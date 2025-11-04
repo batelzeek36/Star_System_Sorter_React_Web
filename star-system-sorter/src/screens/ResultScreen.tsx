@@ -123,11 +123,8 @@ export default function ResultScreen() {
   const radius = 80;
   const circumference = 2 * Math.PI * radius;
 
-  // Get top 3 allies (core alignments only)
-  const allies = classification.allies?.slice(0, 3) || [];
-  
-  // Get top 3 shadow work areas
-  const shadowWork = classification.shadowWork?.slice(0, 3).filter((s: { percentage: number }) => s.percentage > 0) || [];
+  // Get top 3 systems overall (unified percentage, not separate scales)
+  const topSystems = classification.allies?.slice(0, 3) || [];
 
   // Get research sources for the primary system
   const systemSources = getSystemSources(primarySystem);
@@ -224,46 +221,73 @@ export default function ResultScreen() {
             </div>
           )}
 
-          {/* Ally Star Systems (Core Alignments) */}
-          {allies.length > 0 && (
+          {/* Core Star Systems */}
+          {topSystems.length > 0 && (
             <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Ally Star Systems (Core)</p>
+              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Your Core Star Systems</p>
               <div className="flex flex-wrap gap-2">
-                {allies.map((ally, index) => (
-                  <div 
-                    key={ally.system}
-                    className="animate-fade-in-up transition-all duration-300 hover:scale-105"
-                    style={{ animationDelay: `${0.5 + index * 0.1}s`, animationFillMode: 'both' }}
-                  >
-                    <Chip 
-                      starSystem={ally.system} 
-                      percentage={parseFloat(ally.percentage.toFixed(1))} 
-                      variant={index === 0 ? 'gold' : 'lavender'} 
-                    />
-                  </div>
-                ))}
+                {topSystems.map((system: { system: string; percentage: number }, index: number) => {
+                  // Check if this system is core-dominant or secondary-dominant
+                  const systemData = classification.contributorsWithWeights?.[system.system] || [];
+                  const coreCount = systemData.filter((c: any) => c.label?.includes('(core)')).length;
+                  const secondaryCount = systemData.filter((c: any) => c.label?.includes('(secondary)')).length;
+                  const isSecondaryDominant = secondaryCount > coreCount;
+                  
+                  // Only show core-dominant systems in this section
+                  if (isSecondaryDominant) return null;
+                  
+                  return (
+                    <div 
+                      key={system.system}
+                      className="animate-fade-in-up transition-all duration-300 hover:scale-105"
+                      style={{ animationDelay: `${0.5 + index * 0.1}s`, animationFillMode: 'both' }}
+                    >
+                      <Chip 
+                        starSystem={system.system}
+                        percentage={parseFloat(system.percentage.toFixed(1))} 
+                        variant={index === 0 ? 'gold' : 'lavender'} 
+                      />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
 
-          {/* Shadow Work Areas */}
-          {shadowWork.length > 0 && (
+          {/* Secondary Traits */}
+          {topSystems.length > 0 && topSystems.some((system: { system: string; percentage: number }) => {
+            const systemData = classification.contributorsWithWeights?.[system.system] || [];
+            const coreCount = systemData.filter((c: any) => c.label?.includes('(core)')).length;
+            const secondaryCount = systemData.filter((c: any) => c.label?.includes('(secondary)')).length;
+            return secondaryCount > coreCount;
+          }) && (
             <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.45s', animationFillMode: 'both' }}>
-              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Shadow Work Areas</p>
+              <p className="text-xs text-[var(--s3-text-subtle)] mb-3">Secondary Traits</p>
               <div className="flex flex-wrap gap-2">
-                {shadowWork.map((shadow: { system: string; percentage: number }, index: number) => (
-                  <div 
-                    key={shadow.system}
-                    className="animate-fade-in-up transition-all duration-300 hover:scale-105"
-                    style={{ animationDelay: `${0.55 + index * 0.1}s`, animationFillMode: 'both' }}
-                  >
-                    <Chip 
-                      starSystem={shadow.system} 
-                      percentage={parseFloat(shadow.percentage.toFixed(1))} 
-                      variant="warning" 
-                    />
-                  </div>
-                ))}
+                {topSystems.map((system: { system: string; percentage: number }, index: number) => {
+                  // Check if this system is secondary-dominant
+                  const systemData = classification.contributorsWithWeights?.[system.system] || [];
+                  const coreCount = systemData.filter((c: any) => c.label?.includes('(core)')).length;
+                  const secondaryCount = systemData.filter((c: any) => c.label?.includes('(secondary)')).length;
+                  const isSecondaryDominant = secondaryCount > coreCount;
+                  
+                  // Only show secondary-dominant systems in this section
+                  if (!isSecondaryDominant) return null;
+                  
+                  return (
+                    <div 
+                      key={system.system}
+                      className="animate-fade-in-up transition-all duration-300 hover:scale-105"
+                      style={{ animationDelay: `${0.55 + index * 0.1}s`, animationFillMode: 'both' }}
+                    >
+                      <Chip 
+                        starSystem={`${system.system} (secondary)`}
+                        percentage={parseFloat(system.percentage.toFixed(1))} 
+                        variant="warning" 
+                      />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}

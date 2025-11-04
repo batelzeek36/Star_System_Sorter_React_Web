@@ -42,7 +42,7 @@ For each gate.line in the batch, you will:
 ```json
 "<gate>.<line>": {
   "weight": <number between 0.0 and 1.0>,
-  "alignment_type": "core" | "shadow" | "none",
+  "alignment_type": "core" | "secondary" | "none",
   "why": "<1-sentence behavioral explanation>"
 }
 ```
@@ -93,7 +93,7 @@ A single sentence that:
 
 1. Describes the gate.line’s real interpersonal/psychological behavior in plain language.
 
-   * Use the `behavioral_axis` and `shadow_axis` from the `gate-line-API-call` file.
+   * Use the `behavioral_axis` and `secondary_axis` from the `gate-line-API-call` file.
    * Do NOT write lore. Write behavior (“what this person actually does in human terms”).
 2. Explains why that behavior is (or is not) this star system.
 
@@ -107,7 +107,7 @@ For each `<gate>.<line>`:
 
 1. Look up that line in `gate-line-API-call/gate-line-<gate>.json`
 
-   * Pull out the `behavioral_axis` and `shadow_axis`.
+   * Pull out the `behavioral_axis` and `secondary_axis`.
    * This tells you what that line *does socially / psychologically / somatically.*
 
 #### Hexagram Cross-Check (to prevent semantic drift)
@@ -229,7 +229,7 @@ That redirect language is REQUIRED. We need those redirects because later we’l
    * Healing via light / frequency repair / trauma field cleanup → Arcturus, NOT Pleiades bonding.
    * Liberating someone from exploitation / restoring sovereignty / anti-domination ethics → Andromeda, NOT Draco.
    * Status climb / ordeal-initiation / “prove yourself through crisis to ascend” → Sirius / Orion-Light, NOT Pleiades.
-   * Exploit/enslave / hierarchical predation / weaponized leverage → Orion-Dark or Draco shadow, NOT Andromeda core.
+   * Exploit/enslave / hierarchical predation / weaponized leverage → Orion-Dark or Draco secondary, NOT Andromeda core.
 
 If a line matches one of these lanes, score it accordingly.
 
@@ -242,7 +242,7 @@ For the batch you’re producing (e.g. `draco-batch4.json`, `pleiades-batch6.jso
 * Every gate.line object must include `weight`, `alignment_type`, and `why`.
 * Every `why` must mention the specific behavior of that gate.line in human terms.
 * If `weight` is `0`, `alignment_type` MUST be `"none"`.
-* If `weight` is nonzero, `alignment_type` MUST be `"core"` or `"shadow"`.
+* If `weight` is nonzero, `alignment_type` MUST be `"core"` or `"secondary"`.
 * If you mark `"none"`, you should still route it verbally: clarify which system’s vibe it actually is, if that’s obvious from the behavior (Draco vs Pleiades vs Andromeda etc.). This prevents cross-system contamination later.
 * Do not assign multiple star systems in the JSON here. This batch is only for THIS star system. You’re just naming other systems in the `"why"` for clarity, not mapping them here.
 

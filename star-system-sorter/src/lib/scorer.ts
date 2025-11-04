@@ -9,6 +9,12 @@
 import { loreBundle } from './lore.bundle';
 import type { LoreRule } from './schemas';
 import type { GateLineMap } from './gateline-map';
+import { 
+  DEFAULT_SPARSIFY_CONFIG, 
+  sparsifyLine, 
+  type SparsifyConfig,
+  type MapEntry 
+} from './scorer-config';
 
 /**
  * Compute SHA-256 hash of a string
@@ -114,9 +120,9 @@ export interface SystemScore {
   contributors: Contributor[];
   enhancedContributors?: EnhancedContributor[];
   coreScore?: number;
-  shadowScore?: number;
+  secondaryScore?: number;
   corePercentage?: number;
-  shadowPercentage?: number;
+  secondaryPercentage?: number;
 }
 
 export interface ClassificationResult {
@@ -124,10 +130,10 @@ export interface ClassificationResult {
   primary?: string;
   hybrid?: [string, string];
   allies: Array<{ system: string; percentage: number }>;
-  shadowWork: Array<{ system: string; percentage: number }>;
+  secondaryTraits?: Array<{ system: string; percentage: number }>;
   percentages: Record<string, number>;
-  corePercentages: Record<string, number>;
-  shadowPercentages: Record<string, number>;
+  corePercentages?: Record<string, number>;
+  secondaryPercentages?: Record<string, number>;
   contributorsPerSystem: Record<string, string[]>;
   contributorsWithWeights: Record<string, Contributor[]>;
   enhancedContributorsWithWeights?: Record<string, EnhancedContributor[]>;
@@ -450,34 +456,6 @@ function normalizeScores(
 }
 
 /**
- * Planet weights for scoring (v4.3 - November 2024)
- * 
- * Based on standard Human Design interpretation hierarchy:
- * - Sun/Earth are foundational (conscious/unconscious design) - 2.0x
- * - Moon/Nodes are life path markers - 1.5x
- * - Outer planets are transpersonal/generational - 1.3x
- * - Inner planets are personality/surface traits - 1.0x
- * 
- * This weighting emphasizes core identity over surface-level traits.
- * See SCORING_UPGRADE_COMPLETE.md for full rationale.
- */
-const PLANET_WEIGHTS: Record<string, number> = {
-  'Sun': 2.0,
-  'Earth': 2.0,
-  'Moon': 1.5,
-  'North Node': 1.5,
-  'South Node': 1.5,
-  'Pluto': 1.3,
-  'Mars': 1.3,
-  'Saturn': 1.3,
-  'Jupiter': 1.3,
-  'Mercury': 1.0,
-  'Venus': 1.0,
-  'Uranus': 1.0,
-  'Neptune': 1.0,
-};
-
-/**
  * Compute scores using gate-line mappings with actual placements (v4.3 - November 2024)
  * 
  * CRITICAL FIX: This function now scores only the specific gate.line combinations
@@ -488,26 +466,29 @@ const PLANET_WEIGHTS: Record<string, number> = {
  * 
  * Key features:
  * 1. Scores only actual placements from Personality and Design
- * 2. Applies planet weighting (Sun/Earth 2x, Moon/Nodes 1.5x, etc.)
- * 3. Separates core alignments from shadow expressions
- * 4. Normalizes core and shadow percentages independently
+ * 2. Applies SPARSIFY + SHARPEN algorithm to reduce muddy spread
+ * 3. Applies planet weighting (Sun/Earth 2x, Moon/Nodes 1.5x, etc.)
+ * 4. Separates core alignments from secondary expressions
+ * 5. Normalizes to unified percentage (core + secondary combined)
  * 
  * @param extract - HD data including placements array
  * @param gateLineMap - Gate-line to star system mappings (384 combinations)
- * @returns Array of system scores sorted by core percentage
+ * @param config - Optional sparsify configuration (defaults to DEFAULT_SPARSIFY_CONFIG)
+ * @returns Array of system scores sorted by total percentage
  * 
  * See SCORING_UPGRADE_COMPLETE.md for full documentation.
  */
 export function computeScoresWithGateLines(
   extract: HDExtract,
-  gateLineMap: GateLineMap
+  gateLineMap: GateLineMap,
+  config: SparsifyConfig = DEFAULT_SPARSIFY_CONFIG
 ): SystemScore[] {
   // Initialize scores for all systems
   const systemScores: Record<string, {
     coreScore: number;
-    shadowScore: number;
+    secondaryScore: number;
     coreContributors: Contributor[];
-    shadowContributors: Contributor[];
+    secondaryContributors: Contributor[];
   }> = {};
   
   // System labels (canonical names)
@@ -526,11 +507,45 @@ export function computeScoresWithGateLines(
   systemLabels.forEach(label => {
     systemScores[label] = { 
       coreScore: 0, 
-      shadowScore: 0,
+      secondaryScore: 0,
       coreContributors: [],
-      shadowContributors: [],
+      secondaryContributors: [],
     };
   });
+  
+  // Consistency rescue: track which systems appear consistently across placements
+  const consistencyCounts: Record<string, { core: number; secondary: number }> = {};
+  const consistentSystems = new Set<string>();
+  
+  if (config.consistency_rescue && extract.placements && extract.placements.length > 0) {
+    // First pass: count appearances before sparsification
+    for (const placement of extract.placements) {
+      const gateLineKey = `${placement.gate}.${placement.line}`;
+      const mappings = gateLineMap[gateLineKey];
+      
+      if (!mappings || !Array.isArray(mappings)) continue;
+      
+      for (const mapping of mappings) {
+        if (mapping.weight >= config.consistency_rescue.min_weight_before_sparsify) {
+          if (!consistencyCounts[mapping.star_system]) {
+            consistencyCounts[mapping.star_system] = { core: 0, secondary: 0 };
+          }
+          if (mapping.alignment_type === 'core') {
+            consistencyCounts[mapping.star_system].core++;
+          } else if (mapping.alignment_type === 'secondary') {
+            consistencyCounts[mapping.star_system].secondary++;
+          }
+        }
+      }
+    }
+    
+    // Identify systems that qualify for rescue
+    for (const [system, counts] of Object.entries(consistencyCounts)) {
+      if (counts.core >= config.consistency_rescue.core_min_placements) {
+        consistentSystems.add(system);
+      }
+    }
+  }
   
   // Score each actual placement
   if (extract.placements && extract.placements.length > 0) {
@@ -538,83 +553,113 @@ export function computeScoresWithGateLines(
       const gateLineKey = `${placement.gate}.${placement.line}`;
       const mappings = gateLineMap[gateLineKey];
       
-      // Get planet weight
-      const planetWeight = PLANET_WEIGHTS[placement.planet] || 1.0;
+      if (!mappings || !Array.isArray(mappings)) {
+        continue;
+      }
       
-      if (mappings && Array.isArray(mappings)) {
-        for (const mapping of mappings) {
-          const system = mapping.star_system;
-          const baseWeight = mapping.weight;
-          const alignmentType = mapping.alignment_type;
-          
-          // Only include positive weights
-          if (baseWeight > 0 && systemScores[system]) {
-            // Apply planet weighting
-            const weightedScore = baseWeight * planetWeight;
-            
-            const contributor: Contributor = {
-              key: gateLineKey,
-              weight: weightedScore,
-              label: `${placement.planet} ${placement.gate}.${placement.line} (${alignmentType})`,
-            };
-            
-            // Separate core from shadow
-            if (alignmentType === 'core') {
-              systemScores[system].coreScore += weightedScore;
-              systemScores[system].coreContributors.push(contributor);
-            } else if (alignmentType === 'shadow') {
-              systemScores[system].shadowScore += weightedScore;
-              systemScores[system].shadowContributors.push(contributor);
-            }
+      // Convert mappings to MapEntry format for sparsification
+      const lineMap: Record<string, MapEntry> = {};
+      for (const mapping of mappings) {
+        if (mapping.weight > 0) {
+          lineMap[mapping.star_system] = {
+            weight: mapping.weight,
+            alignment_type: mapping.alignment_type as 'core' | 'secondary',
+          };
+        }
+      }
+      
+      // Apply sparsify + sharpen algorithm
+      const sparsified = sparsifyLine(lineMap, config);
+      
+      // Consistency rescue: re-add systems that were dropped but qualify
+      if (config.consistency_rescue && consistentSystems.size > 0) {
+        for (const system of consistentSystems) {
+          const original = lineMap[system];
+          if (original && 
+              original.alignment_type === 'core' &&
+              original.weight >= config.consistency_rescue.min_weight_before_sparsify &&
+              !sparsified.core.some(s => s.system === system)) {
+            // System was dropped but qualifies for rescue - re-add it
+            sparsified.core.push({ system, w: original.weight });
           }
+        }
+      }
+      
+      // Get planet weight
+      const planetWeight = config.planet_weights[placement.planet] || 1.0;
+      
+      // Apply line 3 secondary dampener if configured
+      const line3Multiplier = placement.line === 3 
+        ? (config.line_secondary_multiplier['3'] || 1.0)
+        : 1.0;
+      
+      // Score core systems
+      for (const { system, w } of sparsified.core) {
+        if (systemScores[system]) {
+          const weightedScore = w * planetWeight;
+          
+          systemScores[system].coreScore += weightedScore;
+          systemScores[system].coreContributors.push({
+            key: gateLineKey,
+            weight: weightedScore,
+            label: `${placement.planet} ${placement.gate}.${placement.line} (core)`,
+          });
+        }
+      }
+      
+      // Score secondary systems
+      for (const { system, w } of sparsified.secondary) {
+        if (systemScores[system]) {
+          const weightedScore = w * planetWeight * line3Multiplier;
+          
+          systemScores[system].secondaryScore += weightedScore;
+          systemScores[system].secondaryContributors.push({
+            key: gateLineKey,
+            weight: weightedScore,
+            label: `${placement.planet} ${placement.gate}.${placement.line} (secondary)`,
+          });
         }
       }
     }
   }
   
-  // Convert to array and normalize separately for core and shadow
+  // Convert to array - use COMBINED score (core + secondary) for single unified percentage
   const rawScores = Object.entries(systemScores).map(([system, data]) => ({
     system,
     coreScore: data.coreScore,
-    shadowScore: data.shadowScore,
+    secondaryScore: data.secondaryScore,
+    totalScore: data.coreScore + data.secondaryScore,
     coreContributors: data.coreContributors,
-    shadowContributors: data.shadowContributors,
+    secondaryContributors: data.secondaryContributors,
   }));
   
-  // Normalize core scores
-  const corePercentages = normalizeScores(rawScores.map(s => ({
+  // Normalize TOTAL scores to 100% (not separate channels)
+  const percentages = normalizeScores(rawScores.map(s => ({
     system: s.system,
-    rawScore: s.coreScore,
+    rawScore: s.totalScore,
   })));
   
-  // Normalize shadow scores
-  const shadowPercentages = normalizeScores(rawScores.map(s => ({
-    system: s.system,
-    rawScore: s.shadowScore,
-  })));
-  
-  // Create system scores with both core and shadow data
+  // Create system scores with unified percentage
   const scores: SystemScore[] = rawScores.map(s => {
-    // Combined contributors for backward compatibility
-    const allContributors = [
-      ...s.coreContributors,
-      ...s.shadowContributors,
-    ].sort((a, b) => b.weight - a.weight);
+    // Separate core and secondary contributors for display
+    const coreContributors = s.coreContributors.sort((a, b) => b.weight - a.weight);
+    const secondaryContributors = s.secondaryContributors.sort((a, b) => b.weight - a.weight);
+    const allContributors = [...coreContributors, ...secondaryContributors];
     
     return {
       system: s.system,
-      rawScore: s.coreScore + s.shadowScore,
-      percentage: corePercentages[s.system], // Use core percentage for primary classification
+      rawScore: s.totalScore,
+      percentage: percentages[s.system],
       contributors: allContributors,
       coreScore: s.coreScore,
-      shadowScore: s.shadowScore,
-      corePercentage: corePercentages[s.system],
-      shadowPercentage: shadowPercentages[s.system],
+      secondaryScore: s.secondaryScore,
+      coreContributors,
+      secondaryContributors,
     };
   });
   
-  // Sort by core percentage (allies are based on core, not shadow)
-  scores.sort((a, b) => (b.corePercentage || 0) - (a.corePercentage || 0));
+  // Sort by total percentage
+  scores.sort((a, b) => b.percentage - a.percentage);
   return scores;
 }
 
@@ -747,32 +792,19 @@ export function classify(
     classification = 'unresolved';
   }
 
-  // Allies are based on core percentages only (v4.3 - November 2024)
-  // This ensures shadow expressions (like Orion-Dark) don't appear as "allies"
+  // Top 3 systems by unified percentage
   const allies = scores.slice(0, 3).map(s => ({
     system: s.system,
-    percentage: s.corePercentage || s.percentage,
-  }));
-  
-  // Shadow work shows top shadow contributors separately
-  // These are growth edges, not supportive alignments
-  const shadowScores = [...scores].sort((a, b) => (b.shadowPercentage || 0) - (a.shadowPercentage || 0));
-  const shadowWork = shadowScores.slice(0, 3).map(s => ({
-    system: s.system,
-    percentage: s.shadowPercentage || 0,
+    percentage: s.percentage,
   }));
 
   const percentages: Record<string, number> = {};
-  const corePercentages: Record<string, number> = {};
-  const shadowPercentages: Record<string, number> = {};
   const contributorsPerSystem: Record<string, string[]> = {};
   const contributorsWithWeights: Record<string, Contributor[]> = {};
   const enhancedContributorsWithWeights: Record<string, EnhancedContributor[]> = {};
 
   scores.forEach(s => {
     percentages[s.system] = s.percentage;
-    corePercentages[s.system] = s.corePercentage || s.percentage;
-    shadowPercentages[s.system] = s.shadowPercentage || 0;
     
     // Sort contributors by weight descending
     const sortedContributors = [...s.contributors].sort((a, b) => b.weight - a.weight);
@@ -797,10 +829,7 @@ export function classify(
     primary,
     hybrid,
     allies,
-    shadowWork,
     percentages,
-    corePercentages,
-    shadowPercentages,
     contributorsPerSystem,
     contributorsWithWeights,
     ...(hasEnhancedContributors && { enhancedContributorsWithWeights }),
