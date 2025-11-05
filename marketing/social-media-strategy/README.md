@@ -105,9 +105,46 @@ Contains:
 
 ---
 
-### 5. `COLLABORATION_FRAMEWORK.md`
+### 5. `COLLAB_SOP.md` 📋
 
-**Your legal and operational guide for working with others.**
+**Your 1-page quick reference for collaboration (plain English).**
+
+Contains:
+- 4 tiers explained simply (T0-T3)
+- What each legal doc does (translated from legalese)
+- 90-day trial process for Research Co-Founder
+- Compensation cheat sheet
+- Red/green flags
+- Leak response plan
+- Decision rights matrix
+- When to use which doc
+
+**Use this when**: You need a quick answer about who sees what and which docs to use
+
+---
+
+### 6. `LEGAL_TEMPLATES.md` ⚖️
+
+**Ready-to-use legal templates (have a lawyer review first).**
+
+Contains:
+- CLA (Contributor License Agreement)
+- NDA-Lite (for T1 contributors)
+- Full NDA (for T2-T3)
+- IP Assignment Agreement
+- Equity Agreement (with vesting schedule)
+- Privacy Policy (1-page minimal)
+- Bounty Agreement
+- State-specific notes
+- When to hire a lawyer
+
+**Use this when**: You need to send someone a legal doc to sign
+
+---
+
+### 7. `COLLABORATION_FRAMEWORK.md`
+
+**Your detailed legal and operational guide for working with others.**
 
 Contains:
 - What's protected (Tier 1: Never share, Tier 2: NDA only, Tier 3: Public)
