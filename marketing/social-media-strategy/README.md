@@ -85,7 +85,27 @@ Contains:
 
 ---
 
-### 4. `COLLABORATION_FRAMEWORK.md`
+### 4. `LAUNCH_SPRINT.md` ⚡
+
+**Your 7-day operation order to go from zero to launched.**
+
+Contains:
+- Day-by-day tactical plan (Days -3 to +7)
+- Discord setup checklist
+- Pre-consented chart protocol
+- Methods one-pager (show on stream)
+- Code of Conduct (pin in Discord)
+- NDA + CLA templates
+- Role-based intake (BUILD/GUIDE/MIRROR/MAP/SPEAK)
+- Auto-reply forms
+- Month 1 metrics targets
+- Final checklist
+
+**Use this when**: You're ready to launch THIS WEEK and need a step-by-step plan
+
+---
+
+### 5. `COLLABORATION_FRAMEWORK.md`
 
 **Your legal and operational guide for working with others.**
 
@@ -104,6 +124,16 @@ Contains:
 ---
 
 ## Quick Start
+
+### If You're Launching THIS WEEK (7-Day Sprint):
+
+1. Read `LAUNCH_SPRINT.md` (ALL OF IT - this is your operation order)
+2. Follow the day-by-day checklist (Days -3 to +7)
+3. Set up Discord (channels, roles, Code of Conduct, mod)
+4. Collect 5 pre-consented charts with blur overlays
+5. Record 3 short-form videos (post Days -3, -2, -1)
+6. Go live Stream 1A on Day 0 (45 min MAX)
+7. Execute the rest of the sprint
 
 ### If You're Starting Short-Form Content This Week:
 
@@ -146,6 +176,10 @@ Contains:
 ---
 
 ## Key Principles (Remember These)
+
+### 0. Consistency is Credibility
+
+**Always say "1,200+ hours"** - not "862-1,656 hours" or any range. Pick one number and repeat it everywhere. Ranges invite nitpicks and sound uncertain. You did the work. Own the number.
 
 ### 1. Show the Magic, Hide the Method
 
