@@ -31,10 +31,11 @@ Contains:
 
 ### 2. `STREAM_SCRIPTS.md`
 
-**Your detailed scripts for 4 different stream types.**
+**Your detailed scripts for 5 different stream types.**
 
 Contains:
-- Stream 1: "The Big Reveal" (60-90 min)
+- Stream 1A: "The Vision & Demo" (45 min - TIGHT)
+- Stream 1B: "The Research Behind It" (60 min - for nerds)
 - Stream 2: "Live Readings" (90-120 min)
 - Stream 3: "Tech Deep Dive" (90-120 min)
 - Stream 4: "Research Deep Dive" (90-120 min)
@@ -48,7 +49,43 @@ Contains:
 
 ---
 
-### 3. `COLLABORATION_FRAMEWORK.md`
+### 4. `SHORT_FORM_CONTENT.md`
+
+**Your TikTok / Instagram Reels / YouTube Shorts strategy.**
+
+Contains:
+- 3 content pillars (Gate Lore Drops, Research Flex, Live Result Reactions)
+- 20+ example scripts (30-60 seconds each)
+- Daily breadcrumb strategy (pre-launch)
+- Hook formulas (first 3 seconds)
+- Visual style guide
+- Repurposing strategy (turn streams into clips)
+- Metrics to track
+- Tools you'll need
+
+**Use this when**: Creating short-form content, building daily momentum, reaching new audiences
+
+---
+
+### 3. `SHORT_FORM_CONTENT.md`
+
+**Your TikTok / Instagram Reels / YouTube Shorts strategy.**
+
+Contains:
+- 3 content pillars (Gate Lore Drops, Research Flex, Live Result Reactions)
+- 20+ example scripts (30-60 seconds each)
+- Daily breadcrumb strategy (pre-launch)
+- Hook formulas (first 3 seconds)
+- Visual style guide
+- Repurposing strategy (turn streams into clips)
+- Metrics to track
+- Tools you'll need
+
+**Use this when**: Creating short-form content, building daily momentum, reaching new audiences
+
+---
+
+### 4. `COLLABORATION_FRAMEWORK.md`
 
 **Your legal and operational guide for working with others.**
 
@@ -68,14 +105,25 @@ Contains:
 
 ## Quick Start
 
+### If You're Starting Short-Form Content This Week:
+
+1. Read `SHORT_FORM_CONTENT.md` (all of it - it's your discovery engine)
+2. Pick 3 scripts from "Gate Lore Drops" or "Research Flex"
+3. Record them on your phone (30-60 seconds each)
+4. Edit in CapCut (add text overlays, end card with CTA)
+5. Post 1 per day for 7 days
+6. Track which ones get the most engagement
+7. Double down on what works
+
 ### If You're Streaming This Week:
 
 1. Read `SOFT_REVEAL_GAMEPLAN.md` (sections: "What You CAN Show", "What You CANNOT Show", "The Pitch")
-2. Read `STREAM_SCRIPTS.md` (pick the stream type you're doing)
+2. Read `STREAM_SCRIPTS.md` - **Start with Stream 1A (45 min), NOT the 90-min version**
 3. Practice your pitch out loud 3-5 times
 4. Prepare your screen (close sensitive tabs, have the app ready, queue up examples)
 5. Set up Discord invite link and Google Form for beta testers
-6. Go live and have fun
+6. Set a STRICT 45-minute timer
+7. Go live and have fun
 
 ### If You're Planning Long-Term:
 
