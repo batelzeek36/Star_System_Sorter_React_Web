@@ -12,28 +12,82 @@ You need help, but you also need to protect your IP. Here's how to balance that.
 
 ## What's Protected (The Moat)
 
-### Tier 1: Never Share (Even Under NDA)
+### Tier 1: Share ONLY with Research Co-Founder (Equity Required)
 
-These are the crown jewels. No one sees these except you and maybe 1-2 core team members who have equity.
+These are the crown jewels. You WILL need to share these with 1-2 people to finish the mappings, but they must be:
+- **Heavily invested** (equity stake, not just profit-sharing)
+- **Proven trustworthy** (worked with you for 3-6 months first)
+- **Deeply aligned** (as obsessed with this as you are)
+- **Under NDA** (signed, enforceable, with real consequences)
+
+**What you're sharing:**
 
 1. **The gate.line → star system mappings** (`star-mapping-by-gate/*.json`)
-   - This is 1,200 hours of research
+   - This is 1,200+ hours of research
    - This is what makes the classification work
    - This is impossible to replicate without doing the work
+   - **Why you need help**: You need someone to verify, refine, and complete the remaining mappings
+   - **Who gets access**: 1-2 Research Co-Founders with 5-15% equity
 
-2. **The GPT classification prompt** (`gpt-classification.ts`)
-   - This is the secret sauce
-   - This is what makes GPT give good results
-   - This is easy to copy if revealed
-
-3. **The narrative generation prompt** (`narrative-mission-prompt.md`)
-   - This is what makes the narratives feel magical
-   - This is what differentiates you from generic astrology
-
-4. **The scorer config** (`scorer-config.ts`)
+2. **The scorer config** (`scorer-config.ts`)
    - The weights, sparsify, sharpen settings
    - The exact algorithm for aggregating gate.line scores
    - The thresholds for primary/hybrid/unresolved
+   - **Why you need help**: You need someone to help calibrate and test accuracy
+   - **Who gets access**: Same Research Co-Founder(s)
+
+**What stays private (even from Research Co-Founder until later):**
+
+3. **The narrative generation prompt** (`narrative-mission-prompt.md`)
+   - This is what makes the narratives feel magical
+   - This is easier to protect (lives server-side)
+   - **When to share**: Only after 6+ months of proven collaboration
+
+**The Research Co-Founder Vetting Process:**
+
+This person needs to earn access through a multi-stage process:
+
+**Stage 1: Prove Competence (Weeks 1-4)**
+- Tiny task: Verify 5 gate.line mappings against sources
+- If quality is high → Invite to Discord as @Map role
+- Assign: Verify 20 more gate.lines, suggest improvements
+- If suggestions are insightful → Move to Stage 2
+
+**Stage 2: Prove Commitment (Weeks 5-12)**
+- Assign: Research 10 NEW gate.lines from scratch (ones you haven't done yet)
+- Must follow your methodology exactly
+- Must cite sources properly
+- Must match your quality bar
+- If they deliver consistently → Move to Stage 3
+
+**Stage 3: Prove Alignment (Weeks 13-24)**
+- Weekly 1-hour calls to discuss research
+- Do they "get it"? Do they care about rigor?
+- Do they respect the IP boundaries?
+- Do they show up consistently?
+- If yes to all → Offer Research Co-Founder role
+
+**Stage 4: Equity + NDA (Week 25+)**
+- Offer: 5-15% equity (vesting over 4 years, 1-year cliff)
+- Sign: NDA + Equity Agreement + IP Assignment
+- Grant: Full access to mappings and scorer config
+- Assign: Own the completion of remaining gate.lines
+
+**Red Flags (Disqualify Immediately):**
+- Asks to see the mappings before proving value
+- Wants equity before doing any work
+- Doesn't respect your methodology
+- Misses deadlines or ghosts
+- Tries to "improve" your system before understanding it
+- Talks about the project publicly without permission
+
+**Green Flags (Fast-Track):**
+- Has academic background in comparative mythology
+- Already knows I Ching, HD, and star systems deeply
+- Obsessed with source quality and provenance
+- Delivers better work than you asked for
+- Asks smart questions that improve your thinking
+- Respects boundaries without being told
 
 ### Tier 2: Share Under NDA (Core Team Only)
 
@@ -155,21 +209,25 @@ Signed: _________________ Date: _______
 **Who**: 2-5 people who are building this with you long-term
 
 **What They Can See**:
-- Everything (including mappings, prompts, methodology)
+- **Research Co-Founder(s)**: Full access to mappings + scorer config (after 6-month vetting)
+- **Technical Co-Founder**: Full access to codebase, architecture, deployment (but NOT mappings unless they also do research)
+- **Business Co-Founder**: Access to strategy, financials, partnerships (but NOT technical IP)
 
 **What They Can Do**:
-- Make architectural decisions
-- Own entire systems (e.g., "You own the classification engine")
-- Represent the project publicly
+- Make architectural decisions in their domain
+- Own entire systems (e.g., "You own the research layer" or "You own the infrastructure")
+- Represent the project publicly (with your approval)
 - Help with fundraising/business strategy
 
 **What They Get**:
 - Equity stake (5-20% depending on role and timing)
 - Co-founder title
 - Profit-sharing (in addition to equity)
-- Decision-making power
+- Decision-making power (within their domain)
 
 **Legal**: NDA + Equity Agreement (vesting schedule, cliff, buyback rights)
+
+**Important**: Not all Core Team members need access to the mappings. Only the Research Co-Founder(s) who are actively working on completing them. The Technical Co-Founder can build the app without seeing the mappings - they just need the API that consumes them.
 
 **Template NDA**:
 
@@ -324,6 +382,68 @@ Signed: _________________ Date: _______
 ### When Someone Wants to Build a Competing Product
 
 "Go for it. But you'll need to replicate 1,200 hours of research, and I don't think you'll get the same results. If you want to build something in this space, I'd rather collaborate than compete - there's room for multiple approaches. But if you're just trying to copy what I've done, you're going to have a hard time."
+
+---
+
+## How to Share the Mappings Safely
+
+If you're going to share the crown jewels with a Research Co-Founder, here's how to protect yourself:
+
+### 1. Watermark the Files
+
+Before sharing, add a unique identifier to each mapping file that traces back to this specific person:
+
+```json
+{
+  "metadata": {
+    "shared_with": "Research Co-Founder Name",
+    "shared_date": "2024-11-04",
+    "access_id": "RC-001-[random-hash]"
+  },
+  "gate": "1",
+  "lines": { ... }
+}
+```
+
+If the mappings leak, you'll know who leaked them.
+
+### 2. Share Incrementally
+
+Don't give them all 384 mappings at once. Share in batches:
+
+**Week 1**: Gates 1-10 (60 lines)  
+**Week 2**: Gates 11-20 (60 lines)  
+**Week 3**: Gates 21-30 (60 lines)  
+...and so on.
+
+If they leak early, you've only lost a fraction of the work.
+
+### 3. Use a Private Repo with Audit Logs
+
+- Host the mappings in a private GitHub repo
+- Give them read-only access initially
+- Enable audit logging (GitHub Enterprise or similar)
+- You'll see every time they access a file
+
+### 4. Require Them to Work On-Site (If Possible)
+
+If they're local, have them work at your place (or a shared workspace) for the first 3 months. They can view the mappings on your machine, but they can't download them.
+
+### 5. Use a Non-Compete Clause
+
+In the NDA, include:
+
+"Recipient agrees not to create, contribute to, or consult on any competing star system classification tool for 3 years after termination of this agreement."
+
+### 6. Document Everything
+
+- Keep a log of what you shared and when
+- Save all communications (Slack, email, Discord)
+- If they breach, you'll need evidence
+
+### 7. Trust Your Gut
+
+If something feels off, don't share. You can always find someone else. You can't un-share the mappings.
 
 ---
 
