@@ -101,14 +101,40 @@ The `"why"` is not allowed to be generic boilerplate like “This is not about X
 
 ---
 
+## CRITICAL: Motivation Determines System, Not Just Behavior
+
+**The same surface behavior can belong to different star systems depending on the underlying MOTIVATION.**
+
+### Example: Secrecy
+
+The behavior "keeps information secret" can map to multiple systems:
+
+* **Draco secrecy:** "I keep secrets to maintain power/control/survival advantage" (predator scanning, strategic dominance)
+* **Andromeda secrecy:** "I keep plans secret so oppressors can't interfere with my liberation" (anti-capture, sovereignty protection)
+* **Sirius secrecy:** "I keep sacred knowledge secret until the student is ready" (initiatory gatekeeping, earned revelation)
+* **Orion-Light secrecy:** "I keep battle plans secret as tactical discipline in honorable combat" (warrior strategy, code of honor)
+
+**Always ask: WHY is this person doing this behavior? What's the underlying drive/motivation?**
+
+Read Ra's FULL commentary for context clues:
+* Words like "survival", "threat", "control", "dominance" → Draco
+* Words like "freedom", "interference", "sovereignty", "liberation" → Andromeda
+* Words like "sacred", "teaching", "earned", "initiation" → Sirius
+* Words like "honor", "warrior", "discipline", "code" → Orion-Light
+
+**Do not map based on surface behavior alone. Map based on the energetic motivation behind the behavior.**
+
+---
+
 ## The workflow per gate.line
 
 For each `<gate>.<line>`:
 
 1. Look up that line in `gate-line-API-call/gate-line-<gate>.json`
 
-   * Pull out the `behavioral_axis` and `secondary_axis`.
+   * Pull out the `behavioral_axis` and `shadow_axis`.
    * This tells you what that line *does socially / psychologically / somatically.*
+   * **IMPORTANT:** Read Ra's full commentary to understand the MOTIVATION/ENERGY behind the behavior, not just the surface action.
 
 #### Hexagram Cross-Check (to prevent semantic drift)
 

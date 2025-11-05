@@ -1,0 +1,84 @@
+{
+  "gate": 3,
+  "gate_name": "Difficulty at the Beginning",
+  "lines": {
+    "3.1": {
+      "line": 1,
+      "hd_title": "Synthesis",
+      "hd_quote": "If you have the first line and you don't know that you are confused, then you are really confused.",
+      "keywords": [
+        "introspective acceptance",
+        "patient foundation",
+        "confusion awareness"
+      ],
+      "behavioral_axis": "Waits in introspection, accepts confusion as natural, lets life explain itself without forcing order or seeking external solutions.",
+      "shadow_axis": "Denies confusion, thinks they know what is going on, forces premature order onto naturally chaotic beginnings.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.2": {
+      "line": 2,
+      "hd_title": "Immaturity",
+      "hd_quote": "The unrelenting energy for growth will eventually triumph.",
+      "keywords": [
+        "projected confusion",
+        "guidance receptivity",
+        "unstable growth"
+      ],
+      "behavioral_axis": "Projects confused energy outward, attracts guidance from others, experiments with different directions until finding natural order through growth.",
+      "shadow_axis": "Accepts and rejects authority simultaneously, gets conditioned by others' directions, cycles between following guides and resenting them.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.3": {
+      "line": 3,
+      "hd_title": "Survival",
+      "hd_quote": "In order to survive confusion, you have to be willing to make those mistakes.",
+      "keywords": [
+        "trial and error",
+        "mutative volatility",
+        "biological selection"
+      ],
+      "behavioral_axis": "Experiments through trial and error, recognizes what is fertile versus sterile, adapts and survives by making mistakes until finding what works.",
+      "shadow_axis": "Refuses to mutate, denies evolutionary standards, becomes contrary and stuck despite repeated failures or harmful patterns.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.4": {
+      "line": 4,
+      "hd_title": "Charisma",
+      "hd_quote": "These people are focused on being confused. That is their charisma.",
+      "keywords": [
+        "attractive confusion",
+        "guided resolution",
+        "fixed openness"
+      ],
+      "behavioral_axis": "Draws valued guidance through natural charisma, stays focused on confusion with one-track openness, allows others to provide solutions.",
+      "shadow_axis": "Attracts manipulative guidance, becomes dependent on others to solve confusion, loses integrity by following unsuitable directions.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.5": {
+      "line": 5,
+      "hd_title": "Victimization",
+      "hd_quote": "The courage to stand by one's convictions.",
+      "keywords": [
+        "projected confusion",
+        "courageous integrity",
+        "external domination"
+      ],
+      "behavioral_axis": "Stands by convictions despite others projecting confusion onto them, maintains individuality when others attempt to guide or fix them.",
+      "shadow_axis": "Appeases others' projections, suffers victimization by letting external forces dominate their natural ordering process, alienates others trying to prove clarity.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.6": {
+      "line": 6,
+      "hd_title": "Surrender",
+      "hd_quote": "The ultimate maturity to recognize when struggle is futile.",
+      "keywords": [
+        "non-struggle",
+        "natural ordering",
+        "existential acceptance"
+      ],
+      "behavioral_axis": "Surrenders to confusion without struggle, trusts that ordering comes naturally, observes the whole process from detached perspective.",
+      "shadow_axis": "Falls into depression from overwhelming confusion, refuses to participate in life until perfect order appears, withdraws from mutative process entirely.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

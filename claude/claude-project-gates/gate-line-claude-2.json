@@ -1,0 +1,84 @@
+{
+  "gate": 2,
+  "gate_name": "The Receptive",
+  "lines": {
+    "2.1": {
+      "line": 1,
+      "hd_title": "Intuition",
+      "hd_quote": "We are trying to find a way to avoid ugliness and disharmony.",
+      "keywords": [
+        "aesthetics",
+        "sensitivity",
+        "navigation"
+      ],
+      "behavioral_axis": "Moves toward beauty and harmony aesthetically, finding direction that brings pleasure and avoids ugliness in life",
+      "shadow_axis": "Asserts ego and willpower to control direction, ignoring inner wisdom and discovering it's disastrous each time",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.2": {
+      "line": 2,
+      "hd_title": "Genius",
+      "hd_quote": "They are the direction. If you have the second gate, you are the direction.",
+      "keywords": [
+        "naturalness",
+        "projection",
+        "delusion"
+      ],
+      "behavioral_axis": "Goes naturally in the right direction without knowing it, letting it flow out uninterfered because they don't know how to interfere with themselves",
+      "shadow_axis": "Claims their direction comes from their own genius and hard work, pumping up ego and becoming a paper tiger",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.3": {
+      "line": 3,
+      "hd_title": "Patience",
+      "hd_quote": "The teacher that never stops being a student.",
+      "keywords": [
+        "experimentation",
+        "adaptation",
+        "learning"
+      ],
+      "behavioral_axis": "Experiments with different fuels and directions through trial and error, breaking bonds and trying new paths until finding what works",
+      "shadow_axis": "Either stubbornly stays with one direction refusing to change, or jumps rapidly from one to the next breaking bonds constantly",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.4": {
+      "line": 4,
+      "hd_title": "Secretiveness",
+      "hd_quote": "Loose lips sink ships.",
+      "keywords": [
+        "discretion",
+        "silence",
+        "protection"
+      ],
+      "behavioral_axis": "Keeps their direction secret in a one-tracked way, not telling others which way they're turning until they actually make the turn",
+      "shadow_axis": "Lets ego announce their direction beforehand, blabbing about which way they're going and inviting interference that creates problems",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.5": {
+      "line": 5,
+      "hd_title": "Intelligent application",
+      "hd_quote": "Higher knowing as an exclusively individual and selfish process.",
+      "keywords": [
+        "strategy",
+        "management",
+        "control"
+      ],
+      "behavioral_axis": "Manages resources from others who offer fuel, accepting their energy while maintaining control of where they drive",
+      "shadow_axis": "Pushes everyone away refusing to share responsibility, keeping direction exclusively for themselves and refusing anyone else's input",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.6": {
+      "line": 6,
+      "hd_title": "Fixation",
+      "hd_quote": "Unable or unwilling to see the whole picture.",
+      "keywords": [
+        "limitation",
+        "security-seeking",
+        "blindness"
+      ],
+      "behavioral_axis": "Sits on the roof with limited view of all possible roads, waiting for the right moment to come down from their perspective",
+      "shadow_axis": "Gets fixed on mundane security and money-making, letting ego take over and blocking mutation entirely",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}
