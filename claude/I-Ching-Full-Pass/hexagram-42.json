@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 42,
+  "hexagram_name_legge": "Yi",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Yi indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.",
+  "image_text": "(The trigram representing) wind and that for thunder form Yi. The superior man, in accordance with this, when he sees what is good, moves towards it; and when he sees his errors, he turns from them.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XLII. The Yi Hexagram.\n\nYi indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.\n\n1. The first line, undivided, shows that it will be advantageous for its subject in his position to make a great movement. If it be greatly fortunate, no blame will be imputed to him.\n\n2. The second line, divided, shows parties adding to the stores of its subject ten pairs of tortoise shells whose oracles cannot be opposed. Let him persevere in being firm and correct, and there will be good fortune. Let the king, (having the virtues thus distinguished), employ them in presenting his offerings to God, and there will be good fortune.\n\n3. The third line, divided, shows increase given to its subject by means of what is evil, so that he shall (be led to good), and be without blame. Let him be sincere and pursue the path of the Mean, (so shall he secure the recognition of the ruler, like) an officer who announces himself to his prince by the symbol of his rank.\n\n4. The fourth line, divided, shows its subject pursuing the due course. His advice to his prince is followed. He can with advantage be relied on in such a movement as that of removing the capital.\n\n5. The fifth line, undivided, shows its subject with sincere heart seeking to benefit (all below). There need be no question about it; the result will be great good fortune. (All below) will with sincere heart acknowledge his goodness.\n\n6. In the sixth line, undivided, we see one to whose increase none will contribute, while many will seek to assail him. He observes no regular rule in the ordering of his heart. There will be evil.\n\n(The trigram representing) wind and that for thunder form Yi. The superior man, in accordance with this, when he sees what is good, moves towards it; and when he sees his errors, he turns from them.\n\n1. 'If the movement be greatly fortunate, no blame will be imputed to him:'—though it is not for one in so low a position to have to do with great affairs.\n\n2. 'Parties add to his stores:'—they come from beyond (his immediate circle) to do so.\n\n3. 'Increase is given by means of what is evil and difficult:'—as he has in himself (the qualities called forth).\n\n4. 'His advice to his prince is followed:'—his (only) object in it being the increase (of the general good).\n\n5. '(The ruler) with sincere heart seeks to benefit (all below):'—there need be no question (about the result). '(All below) with sincere heart acknowledge (his goodness):'—he gets what he desires on a great scale.\n\n6. 'To his increase none will contribute:' this expresses but half the result. 'Many will seek to assail him:'—they will come from beyond (his immediate circle) to do so.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows that it will be advantageous for its subject in his position to make a great movement. If it be greatly fortunate, no blame will be imputed to him."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows parties adding to the stores of its subject ten pairs of tortoise shells whose oracles cannot be opposed. Let him persevere in being firm and correct, and there will be good fortune. Let the king, (having the virtues thus distinguished), employ them in presenting his offerings to God, and there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows increase given to its subject by means of what is evil, so that he shall (be led to good), and be without blame. Let him be sincere and pursue the path of the Mean, (so shall he secure the recognition of the ruler, like) an officer who announces himself to his prince by the symbol of his rank."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject pursuing the due course. His advice to his prince is followed. He can with advantage be relied on in such a movement as that of removing the capital."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject with sincere heart seeking to benefit (all below). There need be no question about it; the result will be great good fortune. (All below) will with sincere heart acknowledge his goodness."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "In the sixth line, undivided, we see one to whose increase none will contribute, while many will seek to assail him. He observes no regular rule in the ordering of his heart. There will be evil."
+    }
+  ],
+  "notes": []
+}

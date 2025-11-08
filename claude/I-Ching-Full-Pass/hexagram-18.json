@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 18,
+  "hexagram_name_legge": "Kü",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Kü indicates great progress and success (to him who deals properly with the condition represented by it). There will be advantage in (efforts like that of) crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XVIII. The Kü Hexagram.\n\nKü indicates great progress and success (to him who deals properly with the condition represented by it). There will be advantage in (efforts like that of) crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it.\n\n1. The first line, divided, shows (a son) dealing with the troubles caused by his father. If he be an (able) son, the father will escape the blame of having erred. The position is perilous, but there will be good fortune in the end.\n\n2. The second line, undivided, shows (a son) dealing with the troubles caused by his mother. He should not (carry) his firm correctness (to the utmost).\n\n3. The third line, undivided, shows (a son) dealing with the troubles caused by his father. There may be some small occasion for repentance, but there will not be any great error.\n\n4. The fourth line, divided, shows (a son) viewing indulgently the troubles caused by his father. If he go forward, he will find cause to regret it.\n\n5. The fifth line, divided, shows (a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work).\n\n6. The sixth line, undivided, shows us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows (a son) dealing with the troubles caused by his father. If he be an (able) son, the father will escape the blame of having erred. The position is perilous, but there will be good fortune in the end."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows (a son) dealing with the troubles caused by his mother. He should not (carry) his firm correctness (to the utmost)."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows (a son) dealing with the troubles caused by his father. There may be some small occasion for repentance, but there will not be any great error."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows (a son) viewing indulgently the troubles caused by his father. If he go forward, he will find cause to regret it."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows (a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work)."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, undivided, shows us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs."
+    }
+  ],
+  "notes": []
+}

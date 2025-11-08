@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 35,
+  "hexagram_name_legge": "Bin",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "In 3 in we see a prince who secures the tranquillity (of the people) presented on that account with numerous horses (by the king), and three times in a day received at interviews.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XXXV. The Bin Hexagram.\n\nIn 3 in we see a prince who secures the tranquillity (of the people) presented on that account with numerous horses (by the king), and three times in a day received at interviews.\n\n1. The first line, divided, shows one wishing to advance, and (at the same time) kept back. Let him be firm and correct, and there will be good fortune. If trust be not reposed in him, let him maintain a large and generous mind, and there will be no error.\n\n2. The second line, divided, shows its subject with the appearance of advancing, and yet of being sorrowful. If he be firm and correct, there will be good fortune. He will receive this great blessing from his grandmother.\n\n3. The third line, divided, shows its subject trusted by all (around him). All occasion for repentance will disappear.\n\n4. The fourth line, undivided, shows its subject with the appearance of advancing, but like a marmot. However firm and correct he may be, the position is one of peril.\n\n5. The fifth line, divided, shows how all occasion for repentance disappears (from its subject). (But) let him not concern himself about whether he shall fail or succeed. To advance will be fortunate, and in every way advantageous.\n\n6. The topmost line, undivided, shows one advancing his horns. But he only uses them to punish the (rebellious people of his own) city. The position is perilous, but there will be good fortune. (Yet) however firm and correct he may be, there will be occasion for regret.\n\nXXXV. 1 he Thwan of this hexagram expresses its subject more fully and plainly than that of any of the previous thirty-four, It is about a feudal prince whose services to the country have made him acceptable to his king. The king's favour has been shown to him by gifts and personal attentions such as form the theme of more than one ode in the Shih; see especially III, iii, y. The symbolism of the lines dimly indicates the qualities of such a prince. Bin means 'to advance.' Hexagrams 46 and 53 agree with this in being called by names that indicate progress and advance. The advance in Bin is like that of the sun, 'the shining light, shining more and more to the perfect day.'\n\nLine 1 is weak, and in the lowest place, and its correlate in 4 is neither central nor in its correct position. This indicates the small and obstructed beginnings of his subject. But by his firm correctness he pursues the way to good fortune; and though the king does not yet believe in him, he the more pursues his noble course.\n\nLine 2 is weak, and its correlate in 5 is also weak. Its subject therefore has still to mourn in obscurity. But his position is central and correct, and he holds on his way, till success comes ere long. The symbolism says he receives it 'from his grandmother;' and readers will be startled by the extraordinary statement, as I was when I first read it. Literally the Text says 'the king's mother/ as P, Regis rendered it,—' Istam magnam felicitatem a matre regis recipit.' He also tries to give the name a historical referenceto TMi-A'iang, the grandmother of king Wan; Thdi- ^hn, his mother; or to Thdi-sze, hi9 wife, and the mother of king Wfi and the duke of A!u, all famous in Chinese history, and celebrated in the Shih. But 'Icing's father' and 'king's mother' are well-known Chinese appellations for 'grandfather' and 'grandmother.' This is the view given on the passage, by Alang-jze, Affi HsJ, and the Khang-hsi editors, the latter of whom, indeed, account for the use of the name, instead of 'deceased mother/ which we find in hexagram 62, by the regulations observed in the ancestral temple. These authorities, moreover, all agree in saying that the name points us to line 5, the correlate of 2, and 'the lord of the hexagram.' Now the subject of line g is the sovereign, who at length acknowledges the worth of the feudal lord, and gives him the great blessing.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows one wishing to advance, and (at the same time) kept back. Let him be firm and correct, and there will be good fortune. If trust be not reposed in him, let him maintain a large and generous mind, and there will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows its subject with the appearance of advancing, and yet of being sorrowful. If he be firm and correct, there will be good fortune. He will receive this great blessing from his grandmother."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject trusted by all (around him). All occasion for repentance will disappear."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject with the appearance of advancing, but like a marmot. However firm and correct he may be, the position is one of peril."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows how all occasion for repentance disappears (from its subject). (But) let him not concern himself about whether he shall fail or succeed. To advance will be fortunate, and in every way advantageous."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, shows one advancing his horns. But he only uses them to punish the (rebellious people of his own) city. The position is perilous, but there will be good fortune. (Yet) however firm and correct he may be, there will be occasion for regret."
+    }
+  ],
+  "notes": []
+}

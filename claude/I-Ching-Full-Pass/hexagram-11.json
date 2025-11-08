@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 11,
+  "hexagram_name_legge": "ThÂ£i",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "In Thfii (we see) the little gone and the great come. (It indicates that) there will be good fortune, with progress and success.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XI. The ThÂ£i Hexagram.\n\nIn Thfii (we see) the little gone and the great come. (It indicates that) there will be good fortune, with progress and success.\n\n1. The first line, undivided, suggests the idea of grass pulled up, and bringing with it other stalks with whose roots it is connected. Advance (on the part of its subject) will be fortunate.\n\n2. The second line, undivided, shows one who can bear with the uncultivated, will cross the Ho without a boat, does not forget the distant, and has no (selfish) friendships. Thus does he prove himself acting in accordance with the course of the due Mean.\n\n3. The third line, undivided, shows that, while there is no state of peace that is not liable to be disturbed, and no departure (of evil men) so that they shall not return, yet when one is firm and correct, as he realises the distresses that may arise, he will commit no error. There is no occasion for sadness at the certainty (of such recurring changes); and in this mood the happiness (of the present) may be (long) enjoyed.\n\n4. The fourth line, divided, shows its subject fluttering (down);—not relying on his own rich resources, but calling in his neighbours. (They all come) not as having received warning, but in the sincerity (of their hearts).\n\n5. The fifth line, divided, reminds us of (king) Ti-yiâ€™s (rule about the) marriage of his younger sister. By such a course there is happiness and there will be great good fortune.\n\n6. The sixth line, divided, shows us the city wall returned into the moat. It is not the time to use the army. (The subject of the line) may, indeed, announce his orders to the people of his own city; but however correct and firm he may be, he will have cause for regret.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, suggests the idea of grass pulled up, and bringing with it other stalks with whose roots it is connected. Advance (on the part of its subject) will be fortunate."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows one who can bear with the uncultivated, will cross the Ho without a boat, does not forget the distant, and has no (selfish) friendships. Thus does he prove himself acting in accordance with the course of the due Mean."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows that, while there is no state of peace that is not liable to be disturbed, and no departure (of evil men) so that they shall not return, yet when one is firm and correct, as he realises the distresses that may arise, he will commit no error. There is no occasion for sadness at the certainty (of such recurring changes); and in this mood the happiness (of the present) may be (long) enjoyed."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject fluttering (down);—not relying on his own rich resources, but calling in his neighbours. (They all come) not as having received warning, but in the sincerity (of their hearts)."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, reminds us of (king) Ti-yiâ€™s (rule about the) marriage of his younger sister. By such a course there is happiness and there will be great good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, shows us the city wall returned into the moat. It is not the time to use the army. (The subject of the line) may, indeed, announce his orders to the people of his own city; but however correct and firm he may be, he will have cause for regret."
+    }
+  ],
+  "notes": []
+}

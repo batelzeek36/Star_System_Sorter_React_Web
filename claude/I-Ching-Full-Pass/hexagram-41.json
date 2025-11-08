@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 41,
+  "hexagram_name_legge": "Sun",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "In (what is denoted by) Sun, if there be sincerity (in him who employs it), there will be great good fortune freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this (sincerity in the exercise of Sun) be employed? (Even) in sacrifice two baskets of grain, (though there be nothing else), may be presented.",
+  "image_text": "(The trigram representing) a mountain and beneath it that for the waters of a marsh form Sun. The superior man, in accordance with this, restrains his wrath and represses his desires.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XLI. The Sun Hexagram.\n\nIn (what is denoted by) Sun, if there be sincerity (in him who employs it), there will be great good fortune freedom from error; firmness and correctness that can be maintained; and advantage in every movement that shall be made. In what shall this (sincerity in the exercise of Sun) be employed? (Even) in sacrifice two baskets of grain, (though there be nothing else), may be presented.\n\n1. The first line, undivided, shows its subject suspending his own affairs, and hurrying away (to help the subject of the fourth line). He will commit no error, but let him consider how far he should contribute of what is his (for the other).\n\n2. The second line, undivided, shows that it will be advantageous for its subject to maintain a firm correctness, and that action on his part will be evil. He can give increase (to his correlate) without taking from himself.\n\n3. The third line, divided, shows how of three men walking together, the number is diminished by one; and how one, walking, finds his friend.\n\n4. The fourth line, divided, shows its subject diminishing the ailment under which he labours by making (the subject of the first line) hasten (to his help), and make him glad. There will be no error.\n\n5. The fifth line, divided, shows parties adding to (the stores of) its subject ten pairs of tortoise shells, and accepting no refusal. There will be great good fortune.\n\n6. The topmost line, undivided, shows its subject giving increase to others without taking from himself. There will be no error. With firm correctness there will be good fortune. There will be advantage in every movement that shall be made. He will find ministers more than can be counted by their clans.\n\nXiang Commentary:\n\n(The trigram representing) a mountain and beneath it that for the waters of a marsh form Sun. The superior man, in accordance with this, restrains his wrath and represses his desires.\n\n1. 'He suspends his own affairs and hurries away (to help the subject of the fourth line):'—the (subject of that) upper (line) mingles his wishes with his.\n\n2. 'It will be advantageous for (the subject of) the second line, undivided, to maintain his firm correctness:'—his central position gives its character to his aim.\n\n3. 'One man, walking,' (finds his friend)—when three are together, doubts rise among them.\n\n4. 'He diminishes the ailment under which he labours:'—this is matter for joy.\n\n5. 'The great good fortune attached to the fifth line, divided,' is due to the blessing from above.\n\n6. 'He gives increase to others without taking from what is his own:'—he obtains his wish on a grand scale.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject suspending his own affairs, and hurrying away (to help the subject of the fourth line). He will commit no error, but let him consider how far he should contribute of what is his (for the other)."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows that it will be advantageous for its subject to maintain a firm correctness, and that action on his part will be evil. He can give increase (to his correlate) without taking from himself."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows how of three men walking together, the number is diminished by one; and how one, walking, finds his friend."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject diminishing the ailment under which he labours by making (the subject of the first line) hasten (to his help), and make him glad. There will be no error."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows parties adding to (the stores of) its subject ten pairs of tortoise shells, and accepting no refusal. There will be great good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, shows its subject giving increase to others without taking from himself. There will be no error. With firm correctness there will be good fortune. There will be advantage in every movement that shall be made. He will find ministers more than can be counted by their clans."
+    }
+  ],
+  "notes": []
+}

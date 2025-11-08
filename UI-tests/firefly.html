@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Star System Sorter (S³) – Results</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #101828 0, #020617 55%, #000 100%);
+      color: #e5e7eb;
+    }
+    /* Custom gradient accents */
+    .bg-gradient-orion {
+      background: radial-gradient(circle at 0% 0%, rgba(94, 234, 212, 0.18), transparent 55%),
+                  radial-gradient(circle at 100% 0%, rgba(96, 165, 250, 0.22), transparent 55%),
+                  linear-gradient(135deg, #020617 0%, #020617 25%, #020617 50%, #020617 100%);
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 1.25rem;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      box-shadow:
+        0 18px 60px rgba(15, 23, 42, 0.75),
+        0 0 0 1px rgba(148, 163, 184, 0.1);
+      backdrop-filter: blur(18px);
+    }
+    .chip {
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      background: radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.3), transparent 60%);
+      box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.8);
+    }
+    .crest-orb {
+      background: conic-gradient(from 220deg,
+        rgba(56, 189, 248, 0.1),
+        rgba(94, 234, 212, 0.7),
+        rgba(129, 140, 248, 0.8),
+        rgba(248, 250, 252, 0.95),
+        rgba(56, 189, 248, 0.6),
+        rgba(56, 189, 248, 0.1)
+      );
+      box-shadow:
+        0 0 80px rgba(59, 130, 246, 0.75),
+        0 0 120px rgba(56, 189, 248, 0.5);
+    }
+    .crest-inner {
+      background: radial-gradient(circle at 30% 10%, #e5e7eb 0, #bae6fd 18%, #0f172a 68%, #020617 100%);
+    }
+    .glow-border {
+      position: relative;
+      overflow: hidden;
+    }
+    .glow-border::before {
+      content: "";
+      position: absolute;
+      inset: -2px;
+      background: conic-gradient(from 180deg,
+        rgba(94, 234, 212, 0.1),
+        rgba(59, 130, 246, 0.5),
+        rgba(147, 51, 234, 0.5),
+        rgba(94, 234, 212, 0.1)
+      );
+      filter: blur(14px);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+    .glow-border:hover::before {
+      opacity: 1;
+    }
+    .glow-border-inner {
+      position: relative;
+      border-radius: inherit;
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.95), #020617);
+    }
+    /* Progress bar */
+    .progress-track {
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.9), #020617);
+    }
+    .progress-fill {
+      background: linear-gradient(90deg, #38bdf8, #22c55e, #eab308);
+      box-shadow:
+        0 0 0 1px rgba(15, 23, 42, 0.8),
+        0 8px 30px rgba(34, 197, 94, 0.4);
+    }
+    /* Smooth animations */
+    .fade-in-up {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeInUp 0.65s ease-out forwards;
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+    .fade-in-delayed {
+      opacity: 0;
+      animation: fadeIn 0.7s ease-out 0.15s forwards;
+    }
+    .float-slow {
+      animation: floatSlow 12s ease-in-out infinite;
+    }
+    .pulse-soft {
+      animation: pulseSoft 6s ease-in-out infinite;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes pulseSoft {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    /* Mobile tweaks */
+    @media (max-width: 640px) {
+      .card {
+        border-radius: 1rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gradient-orion text-slate-100">
+  <div class="min-h-screen flex flex-col">
+    <!-- Starry background accents -->
+    <div class="pointer-events-none fixed inset-0 overflow-hidden -z-10">
+      <div class="absolute -top-32 -right-10 w-72 h-72 rounded-full bg-cyan-500/10 blur-3xl"></div>
+      <div class="absolute top-64 -left-12 w-80 h-80 rounded-full bg-indigo-500/15 blur-3xl"></div>
+      <div class="absolute bottom-10 right-1/4 w-64 h-64 rounded-full bg-emerald-500/10 blur-3xl"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="w-full border-b border-slate-800/70 bg-slate-950/60 backdrop-blur-xl">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <div class="w-9 h-9 rounded-2xl bg-sky-500/20 border border-sky-300/40 flex items-center justify-center shadow-lg shadow-sky-500/40">
+              <span class="text-sky-300 text-lg font-semibold tracking-tight">S³</span>
+            </div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-slate-50 font-semibold tracking-tight text-sm sm:text-base">Star System Sorter</span>
+              <span class="hidden sm:inline text-[11px] px-2 py-0.5 rounded-full bg-emerald-400/10 border border-emerald-400/40 text-emerald-200">Deterministic</span>
+            </div>
+            <p class="text-xs text-slate-400">React-powered Human Design star alignment</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <button class="hidden sm:inline-flex items-center gap-1.5 text-xs px-3 py-1 rounded-full border border-slate-600/70 text-slate-200 hover:border-sky-400/60 hover:text-sky-200 transition">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Alignment locked in
+          </button>
+          <button class="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-sky-500/10 text-sky-100 border border-sky-400/60 hover:bg-sky-500/20 transition">
+            <span class="i">⟳</span>
+            <span>Re-run</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="flex-1">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-6 sm:space-y-8">
+        <!-- Top section: primary alignment + crest -->
+        <section class="grid md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] gap-6 lg:gap-8 items-stretch fade-in-up">
+          <!-- Left: summary card -->
+          <div class="card glow-border">
+            <div class="glow-border-inner p-5 sm:p-6 lg:p-7 flex flex-col h-full gap-5">
+              <div class="flex flex-wrap items-center justify-between gap-3">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.23em] text-slate-400 mb-1.5">Star system classification</p>
+                  <div class="flex items-center gap-2 flex-wrap">
+                    <h1 class="text-2xl sm:text-3xl font-semibold tracking-tight text-slate-50">Primary Alignment: Orion</h1>
+                    <span class="chip text-[11px] text-sky-100 px-2.5 py-1 bg-slate-950/60">
+                      v1.0 • chart-locked
+                    </span>
+                  </div>
+                </div>
+                <div class="flex flex-col items-end gap-1">
+                  <span class="text-[11px] uppercase tracking-[0.22em] text-slate-400">Alignment score</span>
+                  <div class="flex items-baseline gap-1 text-slate-50">
+                    <span class="text-3xl font-semibold leading-none">68</span>
+                    <span class="text-sm text-slate-400">%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Progress bar -->
+              <div>
+                <div class="flex items-center justify-between text-[11px] text-slate-400 mb-1.5">
+                  <span>Orion resonance</span>
+                  <span>Deterministic threshold: 52%</span>
+                </div>
+                <div class="progress-track h-2.5 rounded-full border border-slate-700/80 overflow-hidden">
+                  <div class="progress-fill h-full rounded-full w-[68%] relative">
+                    <div class="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-slate-900/70 to-transparent"></div>
+                  </div>
+                </div>
+                <p class="mt-2 text-[11px] sm:text-xs text-slate-400">
+                  Your chart exhibits a strong Orion signature with structured mental energy, strategic orientation, and a defined relationship to conflict and refinement.
+                </p>
+              </div>
+
+              <!-- Quick breakdown -->
+              <div class="grid sm:grid-cols-3 gap-3 mt-1">
+                <div class="rounded-xl border border-slate-700/80 bg-slate-950/60 p-3">
+                  <p class="text-[11px] uppercase tracking-[0.18em] text-slate-400 mb-1.5">Human Design type</p>
+                  <p class="text-sm font-medium text-slate-50">Generator</p>
+                  <p class="mt-1 text-[11px] text-slate-400">
+                    Sustained energy mapped to Orion’s enduring, tactical focus.
+                  </p>
+                </div>
+                <div class="rounded-xl border border-slate-700/80 bg-slate-950/60 p-3">
+                  <p class="text-[11px] uppercase tracking-[0.18em] text-slate-400 mb-1.5">Authority + Strategy</p>
+                  <p class="text-sm font-medium text-slate-50">Sacral • Wait to respond</p>
+                  <p class="mt-1 text-[11px] text-slate-400">
+                    Responsive decision-making under pressure amplifies Orion coding.
+                  </p>
+                </div>
+                <div class="rounded-xl border border-slate-700/80 bg-slate-950/60 p-3">
+                  <p class="text-[11px] uppercase tracking-[0.18em] text-slate-400 mb-1.5">Profile</p>
+                  <p class="text-sm font-medium text-slate-50">1 / 3 Investigator–Martyr</p>
+                  <p class="mt-1 text-[11px] text-slate-400">
+                    Trial, error, and deep research heavily weight toward Orion.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Chart-based explanation -->
+              <div class="mt-2">
+                <p class="text-xs uppercase tracking-[0.22em] text-slate-400 mb-2">
+                  Why you calibrated to Orion (68%)
+                </p>
+                <ul class="space-y-1.5 text-[13px] text-slate-200">
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                    <span>
+                      Defined Ajna and Head centers indicate consistent mental processing and pattern recognition, mirroring Orion’s strategic, map‑making archetype.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                    <span>
+                      Activated logic circuit gates (e.g., 4, 17, 62) create a strong analytical streak, heavily weighted in our scoring as a core Orion frequency.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                    <span>
+                      Your 1/3 profile combines investigation with experiential trial-and-error, aligning with Orion’s “tactical strategist” narrative rather than purely mystical line configurations.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                    <span>
+                      Multiple Channel activations connecting Spleen/Root to the Sacral show resilience under pressure and strategic adaptation, key to Orion’s conflict‑tempering archetype.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-fuchsia-400"></span>
+                    <span>
+                      A relatively undefined G Center keeps life direction flexible, favoring Orion’s “situational alignment” pattern over fixed-heart systems like Sirius.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: crest + constellation -->
+          <div class="card relative overflow-hidden">
+            <div class="absolute inset-0 opacity-60 pointer-events-none">
+              <!-- subtle starfield -->
+              <svg class="w-full h-full" preserveAspectRatio="none">
+                <defs>
+                  <radialGradient id="grad-star" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#e5e7eb"/>
+                    <stop offset="100%" stop-color="transparent"/>
+                  </radialGradient>
+                </defs>
+                <circle cx="8%" cy="12%" r="1" fill="url(#grad-star)" opacity="0.8"></circle>
+                <circle cx="32%" cy="22%" r="1.2" fill="url(#grad-star)" opacity="0.6"></circle>
+                <circle cx="70%" cy="18%" r="1.1" fill="url(#grad-star)" opacity="0.7"></circle>
+                <circle cx="84%" cy="40%" r="1.4" fill="url(#grad-star)" opacity="0.8"></circle>
+                <circle cx="16%" cy="56%" r="1" fill="url(#grad-star)" opacity="0.7"></circle>
+                <circle cx="60%" cy="68%" r="1.2" fill="url(#grad-star)" opacity="0.8"></circle>
+                <circle cx="78%" cy="82%" r="1" fill="url(#grad-star)" opacity="0.7"></circle>
+              </svg>
+            </div>
+            <div class="p-6 lg:p-7 relative z-10 h-full flex flex-col">
+              <div class="flex items-center justify-between gap-3">
+                <div>
+                  <p class="text-[11px] uppercase tracking-[0.24em] text-slate-400 mb-1.5">Orion crest</p>
+                  <p class="text-sm text-slate-200">
+                    A visual representation of your Orion-coded Human Design signature.
+                  </p>
+                </div>
+                <button class="text-[11px] px-3 py-1 rounded-full border border-slate-600/70 text-slate-200 hover:border-sky-400/70 hover:text-sky-100 transition">
+                  Download crest
+                </button>
+              </div>
+
+              <!-- Crest graphic -->
+              <div class="mt-6 flex-1 flex items-center justify-center">
+                <div class="relative w-40 h-40 sm:w-48 sm:h-48 float-slow">
+                  <div class="absolute inset-0 crest-orb rounded-full opacity-80 pulse-soft"></div>
+                  <div class="absolute inset-[11%] rounded-full crest-inner border border-sky-200/40 shadow-[0_0_40px_rgba(56,189,248,0.6)] overflow-hidden">
+                    <!-- Orion-ish constellation -->
+                    <svg class="w-full h-full" viewBox="0 0 200 200">
+                      <defs>
+                        <radialGradient id="starCore" cx="50%" cy="50%" r="50%">
+                          <stop offset="0%" stop-color="#e5f0ff"/>
+                          <stop offset="40%" stop-color="#60a5fa"/>
+                          <stop offset="100%" stop-color="transparent"/>
+                        </radialGradient>
+                      </defs>
+                      <!-- lines -->
+                      <g stroke="#bae6fd" stroke-width="1.3" stroke-linecap="round" opacity="0.8">
+                        <line x1="70" y1="40" x2="100" y2="60"/>
+                        <line x1="100" y1="60" x2="130" y2="40"/>
+                        <line x1="100" y1="60" x2="100" y2="110"/>
+                        <line x1="70" y1="140" x2="100" y2="110"/>
+                        <line x1="130" y1="140" x2="100" y2="110"/>
+                        <line x1="70" y1="140" x2="130" y2="140"/>
+                        <line x1="70" y1="40" x2="55" y2="80"/>
+                        <line x1="130" y1="40" x2="145" y2="80"/>
+                      </g>
+                      <!-- stars -->
+                      <g fill="url(#starCore)">
+                        <circle cx="70" cy="40" r="4.5"></circle>
+                        <circle cx="100" cy="60" r="4.2"></circle>
+                        <circle cx="130" cy="40" r="4.5"></circle>
+                        <circle cx="100" cy="110" r="4.4"></circle>
+                        <circle cx="70" cy="140" r="4.1"></circle>
+                        <circle cx="130" cy="140" r="4.1"></circle>
+                        <circle cx="55" cy="80" r="3.2"></circle>
+                        <circle cx="145" cy="80" r="3.2"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <!-- overlay ring -->
+                  <div class="absolute -inset-1 rounded-full border border-sky-300/50 opacity-60"></div>
+                  <!-- percentage ring indicator -->
+                  <svg class="absolute inset-[-10px] w-[calc(100%+20px)] h-[calc(100%+20px)]" viewBox="0 0 220 220">
+                    <defs>
+                      <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#38bdf8"/>
+                        <stop offset="50%" stop-color="#22c55e"/>
+                        <stop offset="100%" stop-color="#facc15"/>
+                      </linearGradient>
+                    </defs>
+                    <circle cx="110" cy="110" r="98" stroke="rgba(15,23,42,0.7)" stroke-width="6" fill="none"/>
+                    <circle id="ring" cx="110" cy="110" r="98" stroke="url(#ringGrad)" stroke-width="7" fill="none" stroke-linecap="round" stroke-dasharray="615" stroke-dashoffset="197"></circle>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Pill tags -->
+              <div class="mt-4 flex flex-wrap gap-2 text-[11px]">
+                <span class="px-2.5 py-1 rounded-full bg-emerald-400/10 text-emerald-200 border border-emerald-400/40">Structured mind</span>
+                <span class="px-2.5 py-1 rounded-full bg-sky-400/10 text-sky-100 border border-sky-400/40">Conflict to refinement</span>
+                <span class="px-2.5 py-1 rounded-full bg-indigo-400/10 text-indigo-100 border border-indigo-400/40">Strategic experimenter</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Ally systems + distribution -->
+        <section class="grid lg:grid-cols-[minmax(0,3.5fr)_minmax(0,4.5fr)] gap-6 lg:gap-8 fade-in-delayed">
+          <!-- Left: ally systems -->
+          <div class="card">
+            <div class="p-5 sm:p-6 flex flex-col h-full gap-4">
+              <div class="flex items-center justify-between gap-3">
+                <div>
+                  <p class="text-[11px] uppercase tracking-[0.22em] text-slate-400 mb-1.5">Ally systems</p>
+                  <p class="text-sm text-slate-200">
+                    Secondary star families that co‑pattern with your Orion core.
+                  </p>
+                </div>
+                <span class="text-[11px] text-slate-400">Based on full BodyGraph data</span>
+              </div>
+
+              <div class="space-y-3">
+                <!-- Pleiades -->
+                <div class="flex items-start gap-3 rounded-xl border border-slate-700/80 bg-slate-950/70 px-3.5 py-3">
+                  <div class="mt-0.5 w-2 h-2 rounded-full bg-sky-400 shadow-[0_0_12px_rgba(56,189,248,0.9)]"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center justify-between gap-2">
+                      <div class="flex items-center gap-2">
+                        <p class="text-sm font-medium text-slate-50">Pleiades</p>
+                        <span class="text-[11px] px-2 py-0.5 rounded-full bg-sky-500/10 text-sky-200 border border-sky-400/50">
+                          Ally • 24%
+                        </span>
+                      </div>
+                    </div>
+                    <p class="mt-1 text-[13px] text-slate-300">
+                      Emotional openness and a partially defined Solar Plexus soften Orion’s tactical edge, inviting Pleiadian empathy and heart‑centric communication into your strategy.
+                    </p>
+                  </div>
+                </div>
+                <!-- Sirius -->
+                <div class="flex items-start gap-3 rounded-xl border border-slate-700/80 bg-slate-950/70 px-3.5 py-3">
+                  <div class="mt-0.5 w-2 h-2 rounded-full bg-indigo-400 shadow-[0_0_12px_rgba(129,140,248,0.9)]"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center justify-between gap-2">
+                      <div class="flex items-center gap-2">
+                        <p class="text-sm font-medium text-slate-50">Sirius</p>
+                        <span class="text-[11px] px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-100 border border-indigo-400/50">
+                          Ally • 19%
+                        </span>
+                      </div>
+                    </div>
+                    <p class="mt-1 text-[13px] text-slate-300">
+                      Your consistent willpower themes (Ego activations) hint at Sirian leadership coding, but they’re moderated by Orion’s research-first approach rather than pure command energy.
+                    </p>
+                  </div>
+                </div>
+                <!-- Andromeda -->
+                <div class="flex items-start gap-3 rounded-xl border border-slate-700/80 bg-slate-950/70 px-3.5 py-3">
+                  <div class="mt-0.5 w-2 h-2 rounded-full bg-fuchsia-400 shadow-[0_0_12px_rgba(217,70,239,0.9)]"></div>
+                  <div class="flex-1">
+                    <div class="flex items-center justify-between gap-2">
+                      <div class="flex items-center gap-2">
+                        <p class="text-sm font-medium text-slate-50">Andromeda</p>
+                        <span class="text-[11px] px-2 py-0.5 rounded-full bg-fuchsia-500/10 text-fuchsia-100 border border-fuchsia-400/50">
+                          Subtle • 11%
+                        </span>
+                      </div>
+                    </div>
+                    <p class="mt-1 text-[13px] text-slate-300">
+                      Occasional mystical gates in your chart add a visionary, future‑leaning slant, but they function as nuance atop Orion’s structured, evidence‑driven foundation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-1 flex flex-wrap items-center gap-2 text-[11px] text-slate-400">
+                <span>Weights are derived from:</span>
+                <span class="px-2 py-0.5 rounded-full bg-slate-900/80 border border-slate-700/80">Center definition</span>
+                <span class="px-2 py-0.5 rounded-full bg-slate-900/80 border border-slate-700/80">Circuitry &amp; channels</span>
+                <span class="px-2 py-0.5 rounded-full bg-slate-900/80 border border-slate-700/80">Type • Profile • Authority</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: distribution chart + details -->
+          <div class="card">
+            <div class="p-5 sm:p-6 flex flex-col gap-4 h-full">
+              <div class="flex items-center justify-between gap-3">
+                <div>
+                  <p class="text-[11px] uppercase tracking-[0.22em] text-slate-400 mb-1.5">Star system distribution</p>
+                  <p class="text-sm text-slate-200">
+                    How your BodyGraph resolves across the 8-system matrix.
+                  </p>
+                </div>
+                <button class="text-[11px] px-2.5 py-1 rounded-full border border-slate-600/80 text-slate-200 hover:border-sky-400/70 hover:text-sky-100 transition">
+                  View algorithm note
+                </button>
+              </div>
+
+              <!-- Bar chart -->
+              <div class="mt-1 space-y-2">
+                <!-- Orion -->
+                <div>
+                  <div class="flex justify-between text-[11px] text-slate-400 mb-1">
+                    <span>Orion</span>
+                    <span>68%</span>
+                  </div>
+                  <div class="h-2.5 rounded-full bg-slate-900/80 overflow-hidden border border-slate-700/80">
+                    <div class="h-full w-[68%] bg-gradient-to-r from-sky-400 via-emerald-400 to-amber-300 shadow-[0_0_16px_rgba(56,189,248,0.7)]"></div>
+                  </div>
+                </div>
+                <!-- Pleiades -->
+                <div>
+                  <div class="flex justify-between text-[11px] text-slate-400 mb-1">
+                    <span>Pleiades</span>
+                    <span>24%</span>
+                  </div>
+                  <div class="h-2 rounded-full bg-slate-900/80 overflow-hidden border border-slate-800">
+                    <div class="h-full w-[24%] bg-gradient-to-r from-sky-300 to-cyan-300"></div>
+                  </div>
+                </div>
+                <!-- Sirius -->
+                <div>
+                  <div class="flex justify-between text-[11px] text-slate-400 mb-1">
+                    <span>Sirius</span>
+                    <span>19%</span>
+                  </div>
+                  <div class="h-2 rounded-full bg-slate-900/80 overflow-hidden border border-slate-800">
+                    <div class="h-full w-[19%] bg-gradient-to-r from-indigo-300 to-violet-300"></div>
+                  </div>
+                </div>
+                <!-- Remaining systems -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 text-[11px] text-slate-300">
+                  <div class="rounded-lg bg-slate-950/80 border border-slate-800/80 px-2.5 py-1.5 flex flex-col gap-0.5">
+                    <span>Andromeda</span>
+                    <span class="text-slate-400">11%</span>
+                  </div>
+                  <div class="rounded-lg bg-slate-950/80 border border-slate-800/80 px-2.5 py-1.5 flex flex-col gap-0.5">
+                    <span>Lyra</span>
+                    <span class="text-slate-400">7%</span>
+                  </div>
+                  <div class="rounded-lg bg-slate-950/80 border border-slate-800/80 px-2.5 py-1.5 flex flex-col gap-0.5">
+                    <span>Arcturus</span>
+                    <span class="text-slate-400">6%</span>
+                  </div>
+                  <div class="rounded-lg bg-slate-950/80 border border-slate-800/80 px-2.5 py-1.5 flex flex-col gap-0.5">
+                    <span>Vega</span>
+                    <span class="text-slate-400">5%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Orion-focused interpretation -->
+              <div class="mt-1 border-t border-slate-800/80 pt-3 space-y-2.5">
+                <p class="text-xs uppercase tracking-[0.2em] text-slate-400">
+                  How your chart drives the Orion weighting
+                </p>
+                <ul class="space-y-1.5 text-[13px] text-slate-200">
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                    <span>
+                      High concentration of logic and collective circuits creates a preference for systems, frameworks, and repeatable strategies—core Orion markers in our algorithm.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                    <span>
+                      The Generator motor combined with Sacral Authority is scored as “sustained engagement under pressure,” echoing Orion’s “long game” conflict‑to‑mastery archetype.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                    <span>
+                      Defined Head/Ajna with open G Center yields directional flexibility but mental consistency—our model maps this to Orion’s role as strategist rather than fixed kingmaker.
+                    </span>
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="mt-1 w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                    <span>
+                      Your 1/3 profile shifts points away from purely mystical systems and into “tactical experimentation,” a primary Orion scoring vector in the BodyGraph Chart API output.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Call to action -->
+              <div class="pt-2 flex flex-col sm:flex-row gap-2 sm:items-center justify-between text-[13px]">
+                <div class="text-slate-400">
+                  Next, explore how your Orion coding behaves across different life cycles.
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <button class="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-500 text-slate-950 text-xs font-medium hover:bg-sky-400 transition-shadow shadow-lg shadow-sky-500/40">
+                    View Saturn return projection
+                  </button>
+                  <button class="inline-flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-full border border-slate-600/80 text-slate-200 text-xs hover:border-sky-400/70 hover:text-sky-100">
+                    Export result JSON
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer hint -->
+        <footer class="pb-6 pt-2 text-[11px] text-slate-500 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+          <p>
+            This result is deterministic for the provided birth data. Re-running with the same data will always return 68% Orion alignment.
+          </p>
+          <p class="text-slate-600">
+            Powered by BodyGraph Chart API • Proprietary S³ scoring engine
+          </p>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Simple mount animation for the progress ring if needed
+    (function () {
+      const ring = document.getElementById('ring');
+      if (!ring) return;
+      const total = 615; // circumference
+      const target = 615 - (0.68 * 615);
+      ring.style.transition = 'stroke-dashoffset 1.1s ease-out';
+      ring.style.strokeDashoffset = 615;
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          ring.style.strokeDashoffset = target;
+        }, 60);
+      });
+    })();
+  </script>
+</body>
+</html>

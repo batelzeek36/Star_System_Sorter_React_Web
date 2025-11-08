@@ -1,0 +1,58 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 40,
+  "hexagram_name_legge": "Hsieh",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "In (the state indicated by) Hsieh advantage will be found in the south-west. If no (further) operations be called for, there will be good fortune in coming back (to the old conditions). If some operations be called for, there will be good fortune in the early conducting of them.",
+  "image_text": "(The trigram representing) thunder and that for rain, with these phenomena in a state of manifestation, form Hsieh. The superior man, in accordance with this, forgives errors, and deals gently with crimes.",
+  "addendum": {
+    "type": "commentary",
+    "text": "Hsieh is the symbol of loosing,—untying a knot or unravelling a complication; and as the name of this hexagram, it denotes a condition in which the obstruction and difficulty indicated by the preceding Kien have been removed. The object of the author is to show, as if from the lines of the figure, how this new and better state of the kingdom is to be dealt with. See what is said on the Thwan of Kien for 'the advantage to be found in the south-west.' If further active operations be not necessary to complete the subjugation of the country, the sooner things fall into their old channels the better. The new masters of the kingdom should not be anxious to change all the old manners and ways. Let them do, as the duke of Kau actually did do with the subjugated people of Shang."
+  },
+  "full_text": "XL. The Hsieh Hexagram.\n\nIn (the state indicated by) Hsieh advantage will be found in the south-west. If no (further) operations be called for, there will be good fortune in coming back (to the old conditions). If some operations be called for, there will be good fortune in the early conducting of them.\n\n1. The first line, divided, shows that its subject will commit no error.\n\n2. The second line, undivided, shows its subject catch, in hunting, three foxes, and obtain the yellow (=golden) arrows. With firm correctness there will be good fortune.\n\n3. The third line, divided, shows a porter with his burden, (yet) riding in a carriage. He will (only) tempt robbers to attack him. However firm and correct he may (try to) be, there will be cause for regret.\n\n4. (To the subject of) the fourth line, undivided, (it is said), 'Remove your toes. Friends will (then) come, between you and whom there will be mutual confidence.'\n\n5. The fifth line, divided, shows (its subject), the superior man (=the ruler), executing his function of removing (whatever is injurious to the idea of the hexagram), in which case there will be good fortune, and confidence in him will be shown even by the small men.\n\n6. In the sixth line, divided, we see a feudal prince (with his bow) shooting at a falcon on the top of a high wall, and hitting it. (The effect of his action) will be in every way advantageous.\n\nAPPENDIX I.\n\nXL. 1. In Hsieh we have (the trigram expressive of) peril going on to that expressive of movement. By movement there is an escape from the peril:—(this is the meaning of) Hsieh.\n\n2. 'In (the state indicated by) Hsieh, advantage will be found in the south-west:'—the movement (thus) intimated will win all. That 'there will be good fortune in coming back (to the old conditions)' shows that such action is that of the due medium. That 'if some operations be necessary, there will be good fortune in the early conducting of them' shows that such operations will be successful.\n\n3. When heaven and earth are freed (from the grasp of winter), we have thunder and rain. When these come, the buds of the plants and trees that produce the various fruits begin to burst. Great indeed are the phenomena in the time intimated by Hsieh.\n\nAPPENDIX II.\n\nXL. (The trigram representing) thunder and that for rain, with these phenomena in a state of manifestation, form Hsieh. The superior man, in accordance with this, forgives errors, and deals gently with crimes.\n\n1. The strong (fourth) line and the weak line here are in correlation:—we judge rightly in saying that 'its subject will commit no error.'\n\n2. 'The good fortune springing from the firm correctness of the second line, undivided,' is due to its subject holding the due mean.\n\n3. For 'a porter with his burden to be riding in a carriage' is a thing to be ashamed of. 'It is he himself that tempts the robbers to come:'—on whom besides can we lay the blame? (See Appendix III, i, 48.)\n\n4. 'Remove your toes:'—the places (of this line and of the third and first) are all inappropriate to them.\n\n5. When 'the superior man executes his function of removing (whatever is injurious to the idea of the hexagram),' small men will of themselves retire.\n\n6. 'A prince with his bow shoots a falcon:'—thus he removes (the promoters of) rebellion.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows that its subject will commit no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject catch, in hunting, three foxes, and obtain the yellow (=golden) arrows. With firm correctness there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows a porter with his burden, (yet) riding in a carriage. He will (only) tempt robbers to attack him. However firm and correct he may (try to) be, there will be cause for regret."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "(To the subject of) the fourth line, undivided, (it is said), 'Remove your toes. Friends will (then) come, between you and whom there will be mutual confidence.'"
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows (its subject), the superior man (=the ruler), executing his function of removing (whatever is injurious to the idea of the hexagram), in which case there will be good fortune, and confidence in him will be shown even by the small men."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "In the sixth line, divided, we see a feudal prince (with his bow) shooting at a falcon on the top of a high wall, and hitting it. (The effect of his action) will be in every way advantageous."
+    }
+  ],
+  "notes": [
+    "Line 1 is weak, whereas it ought to be strong as being in an odd place. If its subject advance, he will not be able to cope with the difficulties of the situation, but be overwhelmed by them. Let him wait for a more favourable time.",
+    "Line 2 is weak, but in its proper place. Its correlation with the strong 5, and consequent significance, are well set forth.",
+    "Line 3 is strong, and in a place of strength; but its correlate in 6 is weak, so that the advance of its subject would be unsupported. He waits therefore for a better time, and cherishes the subjects of the two lines below, who naturally cling to him.",
+    "Line 4 is weak, and, though in its proper place, its subject could do little of himself. He is immediately below the king or great man, however, and cultivates his loyal attachment to him, waiting for the time when he shall be required to act.",
+    "Line 5 is the king, the man great and strong. He can cope with the difficulties, and the subjects of 2 and the other lines of the lower trigram give their help.",
+    "The action of the hexagram is over; where can the weak 6 go forward to? Let him abide where he is, and serve the great man immediately below him. So shall he also be great—in meritorious action at least."
+  ]
+}

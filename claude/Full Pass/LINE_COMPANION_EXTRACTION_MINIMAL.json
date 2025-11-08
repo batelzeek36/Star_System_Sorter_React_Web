@@ -1,0 +1,42 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Line Companion text verbatim into 'full_text' - no summarization, no trimming",
+    "Copy line title verbatim into 'hd_title'",
+    "Return exactly six lines (1–6)"
+  ],
+  "gate": 1,
+  "gate_name": "The Creative",
+  "source": "Line Companion (Ra Uru Hu)",
+  "lines": [
+    {
+      "line": 1,
+      "hd_title": "[VERBATIM]",
+      "full_text": "[COMPLETE UNEDITED TEXT]"
+    },
+    {
+      "line": 2,
+      "hd_title": "[VERBATIM]",
+      "full_text": "[COMPLETE UNEDITED TEXT]"
+    },
+    {
+      "line": 3,
+      "hd_title": "[VERBATIM]",
+      "full_text": "[COMPLETE UNEDITED TEXT]"
+    },
+    {
+      "line": 4,
+      "hd_title": "[VERBATIM]",
+      "full_text": "[COMPLETE UNEDITED TEXT]"
+    },
+    {
+      "line": 5,
+      "hd_title": "[VERBATIM]",
+      "full_text": "[COMPLETE UNEDITED TEXT]"
+    },
+    {
+      "line": 6,
+      "hd_title": "[VERBATIM]",
+      "full_text": "[COMPLETE UNEDITED TEXT]"
+    }
+  ]
+}

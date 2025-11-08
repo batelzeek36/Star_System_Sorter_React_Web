@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 5,
+  "hexagram_name_legge": "Hsü",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Hsü intimates that, with the sincerity which is declared in it, there will be brilliant success. With firmness there will be good fortune; and it will be advantageous to cross the great stream.",
+  "image_text": "Clouds have risen up to heaven, (forming the symbolism of) Hsü. The superior man, in accordance with this, eats and drinks, feasts and enjoys himself (as if there were nothing else to employ him).",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "V. The Hsü Hexagram.\n\nHsü intimates that, with the sincerity which is declared in it, there will be brilliant success. With firmness there will be good fortune; and it will be advantageous to cross the great stream.\n\n1. The first line, undivided, shows its subject waiting in the distant border. It will be well for him constantly to maintain (the purpose thus shown), in which case there will be no error.\n\n2. The second line, undivided, shows its subject waiting on the sand (of the mountain stream). He will (suffer) the small (injury of) being spoken (against), but in the end there will be good fortune.\n\n3. The third line, undivided, shows its subject in the mud (close by the stream). He thereby invites the approach of injury.\n\n4. The fourth line, divided, shows its subject waiting in (the place of) blood. But he will get out of the cavern.\n\n5. The fifth line, undivided, shows its subject waiting amidst the appliances of a feast. Through his firmness and correctness there will be good fortune.\n\n6. The topmost line, divided, shows its subject entered into the cavern. (But) there are three guests coming, without being urged, (to his help). If he receive them respectfully, there will be good fortune in the end.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject waiting in the distant border. It will be well for him constantly to maintain (the purpose thus shown), in which case there will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject waiting on the sand (of the mountain stream). He will (suffer) the small (injury of) being spoken (against), but in the end there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows its subject in the mud (close by the stream). He thereby invites the approach of injury."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject waiting in (the place of) blood. But he will get out of the cavern."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject waiting amidst the appliances of a feast. Through his firmness and correctness there will be good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject entered into the cavern. (But) there are three guests coming, without being urged, (to his help). If he receive them respectfully, there will be good fortune in the end."
+    }
+  ],
+  "notes": []
+}

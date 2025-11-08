@@ -1,0 +1,55 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 16,
+  "hexagram_name_legge": "Yu",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "YU indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.",
+  "image_text": "(The trigrams for) the earth and thunder issuing from it with its crashing noise form Yu. The ancient kings, in accordance with this, composed their music and did honour to virtue, presenting it especially and most grandly to God, when they associated with Him (at the service) their highest ancestor and their father.",
+  "addendum": {
+    "type": "commentary",
+    "text": "XVI, The Yu hexagram denoted to King Wan a condition of harmony and happy contentment throughout the kingdom, when the people rejoiced in and readily obeyed their sovereign. At such a time his appointments and any military undertakings would be hailed and supported, The fourth line, undivided, is the lord of the figure, and being close to the fifth or place of dignity, is to be looked on as the minister or chief officer of the ruler, The ruler gives to him his confidence; and all represented by the other lines yield their obedience."
+  },
+  "full_text": "XVI. The Yu Hexagram.\n\nYU indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.\n\n1, The first line, divided, shows its subject proclaiming his pleasure and satisfaction. There will be evil.\n\n2, The second line, divided, shows one who is firm as a rock. (He sees a thing) without waiting till it has come to pass; with his firm correctness there will be good fortune.\n\n3, The third line, divided, shows one looking up (for favours), while he indulges the feeling of pleasure and satisfaction. If he would understand!—If he be late in doing so, there will indeed be occasion for repentance.\n\n4, The fourth line, undivided, shows him from whom the harmony and satisfaction come. Great is the success which he obtains. Let him not allow suspicions to enter his mind, and thus friends will gather around him.\n\n5. The fifth line, divided, shows one with a chronic complaint, but who lives on without dying.\n\n6. The topmost line, divided, shows its subject with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no error.\n\nXVI, The Yu hexagram denoted to King Wan a condition of harmony and happy contentment throughout the kingdom, when the people rejoiced in and readily obeyed their sovereign. At such a time his appointments and any military undertakings would be hailed and supported, The fourth line, undivided, is the lord of the figure, and being close to the fifth or place of dignity, is to be looked on as the minister or chief officer of the ruler, The ruler gives to him his confidence; and all represented by the other lines yield their obedience,\n\nLine 1 is weak, and has for its correlate the strong 4. Its subject may well enjoy the happiness of the time. But he cannot contain himself, and proclaims, or boasts of, his satisfaction;—which is evil.\n\nLine 2, though weak, is in its correct position, the centre, moreover, of the lower trigram. Quietly and firmly its subject is able to abide in his place, and exercise a far-seeing discrimination. All is indicative of good fortune.\n\nLine 3 is weak, and in an odd place. Immediately below line 4, its subject keeps looking up to the lord of the figure, and depends on him, thinking of doing nothing, but how to enjoy himself. The consequence will be as described; but there is still hope of a change for the better.\n\nThe strong line 4 is the lord of the hexagram, and described, as has been observed, as it is here, and in other passages. He is in the act of passing on to the ruler's seat, and by his admirable qualities draws all the others after him, so that their help is secured without the shadow of suspicion. The friends would be the subjects of the three weak lines, and not those of line 5, who is in the place of honour, and has no proper correlate below.\n\nLine 5, though in the place of honour, is weak, and as the Khang-hsi editors say, receives the yang or active influence from 4. Hence he is represented as suffering from a chronic complaint, but nevertheless he does not die. See Appendix II on the line.\n\nLine 6, at the very top or end of the hexagram, is weak, and its subject is all but lost. Still even for him there is a chance of safety, if he will but change.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows its subject proclaiming his pleasure and satisfaction. There will be evil."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows one who is firm as a rock. (He sees a thing) without waiting till it has come to pass; with his firm correctness there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows one looking up (for favours), while he indulges the feeling of pleasure and satisfaction. If he would understand!—If he be late in doing so, there will indeed be occasion for repentance."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows him from whom the harmony and satisfaction come. Great is the success which he obtains. Let him not allow suspicions to enter his mind, and thus friends will gather around him."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows one with a chronic complaint, but who lives on without dying."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no error."
+    }
+  ],
+  "notes": [
+    "Line commentaries from Legge's edition are included in the full_text field.",
+    "The Appendix II (Great Symbolism) text is included in the image_text field.",
+    "Additional commentary from Appendix I and II regarding individual lines has been preserved in the full_text."
+  ]
+}

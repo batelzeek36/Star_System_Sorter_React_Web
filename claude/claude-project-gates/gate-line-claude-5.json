@@ -1,83 +1,89 @@
 {
-  "gate": 1,
-  "gate_name": "The Creative",
+  "gate": 5,
+  "gate_name": "Waiting",
   "lines": {
-    "1.1": {
+    "5.1": {
       "line": 1,
-      "hd_title": "[Exact line title from Line Companion]",
-      "hd_quote": "[Verbatim quote ≤25 words from Line Companion - the KEY insight, not Ra's full commentary]",
+      "hd_title": "Perseverance",
+      "hd_quote": "If the captain must, he goes down with the ship.",
       "keywords": [
-        "[behavioral keyword 1]",
-        "[behavioral keyword 2]",
-        "[behavioral keyword 3]"
+        "perseverance",
+        "fixed rhythm",
+        "ritual maintenance",
+        "courage under pressure"
       ],
-      "behavioral_axis": "[One sentence: what this person DOES interpersonally/psychologically in healthy expression]",
-      "shadow_axis": "[One sentence: what this person DOES when distorted/wounded]",
+      "behavioral_axis": "Maintains fixed natural rhythm as ritual despite external pressures, refusing interference with established patterns.",
+      "shadow_axis": "Prematurely abandons rhythm when challenged, breaking ritual out of fear and cutting losses disastrously.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.2": {
+    "5.2": {
       "line": 2,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Inner Peace",
+      "hd_quote": "The ability to ignore the temptation to take premature action.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "natural composure",
+        "called out for rhythm",
+        "projected tranquility",
+        "inner peace"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Naturally embodies fixed rhythm that others recognize and call out, maintaining composure without premature action.",
+      "shadow_axis": "Projects stagnant rhythm that produces nothing, breaks ritual when comfort deteriorates into doubt about productivity.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.3": {
+    "5.3": {
       "line": 3,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Compulsiveness",
+      "hd_quote": "Logic requires an enormous amount of imagination.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "trial-and-error with rhythm",
+        "experiments with patterns",
+        "compulsive doubt",
+        "imaginative testing"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Experiments with rhythm through trial-and-error, using imagination to test whether patterns work without forcing change.",
+      "shadow_axis": "Constantly breaks rhythm believing it's mistaken, repeats errors without surrendering to natural pattern.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.4": {
+    "5.4": {
       "line": 4,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Hunter",
+      "hd_quote": "Waiting as a guarantee of survival.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "externalizes rhythm",
+        "survival guarantee",
+        "creative transformation",
+        "network contribution"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Externalizes fixed rhythm as contribution to humanity, transforming passive waiting into active creative achievement for survival.",
+      "shadow_axis": "Breaks rhythm out of impatience to serve, denying own pattern with predictable costs to health and survival.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.5": {
+    "5.5": {
       "line": 5,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Joy",
+      "hd_quote": "Enlightenment is a projection of those from the outside onto somebody else.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "projection field",
+        "enlightened calm",
+        "projected mastery",
+        "reputation at stake"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Holds steady under projection field of enlightenment, remaining calm within fixed rhythm as others project joy and mastery.",
+      "shadow_axis": "Dismissed as illusion when calm fails to meet projections, disillusioned by waiting's failure to deliver enlightenment.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.6": {
+    "5.6": {
       "line": 6,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Yielding",
+      "hd_quote": "Waiting is never free from pressure and is often punctuated by the unexpected.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "yielding to flow",
+        "growth through unexpected",
+        "universal rhythm",
+        "objectivity under pressure"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Yields to universal flow despite pressures, accepting growth empowered by unexpected disruptions within fixed rhythm.",
+      "shadow_axis": "Pulled into flow unexpectedly by societal demands, uncertain whether rhythm can truly lead to leadership.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     }
   }

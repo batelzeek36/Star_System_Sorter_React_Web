@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Star System Sorter (S³) – Human Design Star Classification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1b1b3a 0, #050516 40%, #02010a 100%);
+      color: #f9fafb;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif;
+      min-height: 100vh;
+    }
+
+    /* Galaxy background */
+    .starfield {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+      z-index: -1;
+      background: radial-gradient(circle at 20% 0%, rgba(59,130,246,0.25) 0, transparent 45%),
+                  radial-gradient(circle at 80% 0%, rgba(236,72,153,0.2) 0, transparent 50%),
+                  radial-gradient(circle at 10% 80%, rgba(45,212,191,0.18) 0, transparent 45%),
+                  #02010a;
+    }
+
+    .stars, .stars2, .stars3 {
+      position: absolute;
+      inset: -50%;
+      background-repeat: repeat;
+      background-size: 200px 200px;
+      animation: moveStars 120s linear infinite;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .stars {
+      background-image:
+        radial-gradient(1px 1px at 25px 25px, rgba(255,255,255,.9) 0, transparent 40%),
+        radial-gradient(1px 1px at 75px 75px, rgba(255,255,255,.7) 0, transparent 40%),
+        radial-gradient(1px 1px at 50px 150px, rgba(255,255,255,.5) 0, transparent 40%);
+      animation-duration: 160s;
+    }
+    .stars2 {
+      background-image:
+        radial-gradient(1px 1px at 60px 40px, rgba(255,255,255,.4) 0, transparent 40%),
+        radial-gradient(1px 1px at 120px 90px, rgba(255,255,255,.35) 0, transparent 40%),
+        radial-gradient(1px 1px at 170px 140px, rgba(255,255,255,.3) 0, transparent 40%);
+      animation-duration: 260s;
+    }
+    .stars3 {
+      background-image:
+        radial-gradient(2px 2px at 30px 80px, rgba(255,255,255,.5) 0, transparent 45%),
+        radial-gradient(2px 2px at 140px 20px, rgba(255,255,255,.35) 0, transparent 45%);
+      animation-duration: 360s;
+      opacity: 0.4;
+    }
+
+    @keyframes moveStars {
+      from { transform: translate3d(0, 0, 0); }
+      to   { transform: translate3d(-200px, -400px, 0); }
+    }
+
+    /* Glass panel */
+    .glass {
+      background: linear-gradient(135deg, rgba(15,23,42,0.9), rgba(15,23,42,0.75));
+      border: 1px solid rgba(148,163,184,0.28);
+      box-shadow:
+        0 0 0 1px rgba(15,23,42,0.9),
+        0 22px 45px rgba(15,23,42,0.85),
+        0 0 80px rgba(59,130,246,0.35);
+      backdrop-filter: blur(26px) saturate(140%);
+    }
+
+    .pill {
+      background: radial-gradient(circle at 0 0, rgba(96,165,250,0.5), transparent 55%),
+                  radial-gradient(circle at 100% 100%, rgba(236,72,153,0.45), transparent 50%),
+                  rgba(15,23,42,0.96);
+      border: 1px solid rgba(148,163,184,0.45);
+      box-shadow: 0 12px 30px rgba(15,23,42,0.7);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #38bdf8, #6366f1, #ec4899);
+      background-size: 200% 200%;
+      animation: gradientFlow 8s ease infinite;
+      box-shadow:
+        0 10px 25px rgba(56,189,248,0.35),
+        0 0 40px rgba(129,140,248,0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px) scale(1.01);
+      box-shadow:
+        0 15px 35px rgba(56,189,248,0.5),
+        0 0 50px rgba(129,140,248,0.6);
+    }
+
+    @keyframes gradientFlow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .badge {
+      background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(244,63,94,0.15));
+      border: 1px solid rgba(96,165,250,0.5);
+      box-shadow: 0 0 18px rgba(59,130,246,0.35);
+    }
+
+    .crest-orbit {
+      background: radial-gradient(circle at 50% 20%, rgba(248,250,252,0.35), transparent 55%),
+                  radial-gradient(circle at 0 100%, rgba(56,189,248,0.38), transparent 55%),
+                  radial-gradient(circle at 100% 100%, rgba(244,114,182,0.4), transparent 55%);
+      box-shadow:
+        0 0 0 1px rgba(148,163,184,0.5),
+        0 20px 45px rgba(15,23,42,0.95),
+        0 0 80px rgba(56,189,248,0.5);
+    }
+
+    .crest-core {
+      background: conic-gradient(from 210deg, #22d3ee, #6366f1, #f97316, #22d3ee);
+      box-shadow:
+        0 0 0 2px rgba(15,23,42,1),
+        0 0 0 4px rgba(248,250,252,0.9),
+        0 18px 35px rgba(15,23,42,0.9);
+    }
+
+    .crest-pulse {
+      animation: crestPulse 4s ease-in-out infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes crestPulse {
+      0%, 100% { transform: scale(1); opacity: 0.55; }
+      50% { transform: scale(1.12); opacity: 0.95; }
+    }
+
+    .orbit-ring {
+      border-style: dashed;
+      border-radius: 9999px;
+      opacity: 0.55;
+      animation: orbitSpin 30s linear infinite;
+    }
+
+    @keyframes orbitSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .chip {
+      background: rgba(15,23,42,0.96);
+      border: 1px solid rgba(148,163,184,0.5);
+      box-shadow:
+        0 6px 18px rgba(15,23,42,0.9),
+        0 0 20px rgba(59,130,246,0.35);
+    }
+
+    .input-glass {
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.55);
+      box-shadow: 0 0 0 1px rgba(15,23,42,0.9);
+    }
+    .input-glass:focus {
+      border-color: rgba(96,165,250,0.95);
+      box-shadow:
+        0 0 0 1px rgba(15,23,42,0.9),
+        0 0 0 1px rgba(96,165,250,0.95),
+        0 0 24px rgba(56,189,248,0.6);
+      outline: none;
+    }
+
+    .field-label {
+      letter-spacing: 0.09em;
+    }
+
+    .fade-in-up {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.45s; }
+    .delay-5 { animation-delay: 0.6s; }
+
+    .toast {
+      background: rgba(15,23,42,0.98);
+      border: 1px solid rgba(96,165,250,0.6);
+      box-shadow:
+        0 12px 30px rgba(15,23,42,0.9),
+        0 0 40px rgba(59,130,246,0.75);
+    }
+
+    .ally-pill {
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148,163,184,0.5);
+    }
+
+    .glow-soft {
+      box-shadow: 0 0 50px rgba(96,165,250,0.4);
+    }
+
+    .badge-pill {
+      background: rgba(15,23,42,0.96);
+      border: 1px solid rgba(148,163,184,0.7);
+      box-shadow: 0 8px 22px rgba(15,23,42,0.9);
+    }
+
+    @media (max-width: 640px) {
+      .crest-orbit {
+        box-shadow:
+          0 0 0 1px rgba(148,163,184,0.5),
+          0 12px 30px rgba(15,23,42,0.95),
+          0 0 60px rgba(56,189,248,0.4);
+      }
+      .glass {
+        box-shadow:
+          0 0 0 1px rgba(15,23,42,0.95),
+          0 16px 32px rgba(15,23,42,0.9),
+          0 0 50px rgba(56,189,248,0.25);
+      }
+    }
+  </style>
+</head>
+<body class="antialiased text-slate-100">
+  <div class="starfield">
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+  </div>
+
+  <div class="min-h-screen flex flex-col">
+    <header class="w-full z-10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="relative">
+            <div class="h-9 w-9 rounded-2xl bg-gradient-to-tr from-sky-400 via-indigo-500 to-pink-500 flex items-center justify-center shadow-lg shadow-sky-500/40">
+              <span class="text-xs font-semibold tracking-[0.12em]">S³</span>
+            </div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <p class="text-sm sm:text-base font-semibold tracking-[0.24em] uppercase text-slate-200">Star System Sorter</p>
+              <span class="hidden sm:inline-flex text-[10px] px-2 py-0.5 rounded-full border border-emerald-400/60 text-emerald-300 bg-emerald-500/10">Deterministic</span>
+            </div>
+            <p class="text-[11px] text-slate-400/80 leading-tight mt-0.5 hidden sm:block">Human Design powered star lineage classification</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <button class="hidden sm:inline-flex items-center gap-2 text-xs px-3 py-1.5 rounded-full badge text-sky-100 backdrop-blur">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-[ping_1.4s_ease-out_infinite]"></span>
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            <span>Live scoring engine</span>
+          </button>
+          <a href="#how-it-works" class="hidden sm:inline-flex text-xs text-slate-300 hover:text-sky-300 transition-colors">How it works</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1 flex items-stretch">
+      <div class="w-full max-w-6xl mx-auto px-4 sm:px-6 pb-16 pt-4 sm:pt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 sm:gap-10 items-start">
+          <!-- Left: Hero + Form -->
+          <section class="space-y-6 sm:space-y-7 fade-in-up delay-1">
+            <div class="pill rounded-3xl px-4 py-3 inline-flex items-center gap-2 mt-1">
+              <span class="inline-flex h-6 w-6 rounded-full bg-sky-400/15 border border-sky-300/50 items-center justify-center text-sky-200 text-xs shadow-md shadow-sky-500/40">
+                <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2L14.4721 8.52786L21 11L14.4721 13.4721L12 20L9.52786 13.4721L3 11L9.52786 8.52786L12 2Z" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+              </span>
+              <div class="flex flex-col">
+                <span class="text-[11px] font-medium tracking-[0.18em] uppercase text-slate-200">Beta constellation</span>
+                <span class="text-[11px] text-slate-400">Classify into 8 star systems in seconds</span>
+              </div>
+            </div>
+
+            <div class="space-y-3 sm:space-y-4">
+              <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-slate-50">
+                Determine your
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-sky-300 via-indigo-300 to-pink-300">Star System Origin</span>
+                with S³
+              </h1>
+              <p class="text-sm sm:text-base text-slate-300 max-w-xl leading-relaxed">
+                Input your birth details, let S³ fetch your Human Design bodygraph, and receive a deterministic classification into one of eight archetypal star systems like Pleiades, Sirius, or Orion — complete with crests, allies, and energetic signatures.
+              </p>
+              <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+                <div class="flex -space-x-2">
+                  <div class="h-7 w-7 rounded-full bg-gradient-to-tr from-sky-500 to-indigo-500 border border-slate-900 shadow-md"></div>
+                  <div class="h-7 w-7 rounded-full bg-gradient-to-tr from-fuchsia-500 to-rose-500 border border-slate-900 shadow-md"></div>
+                  <div class="h-7 w-7 rounded-full bg-gradient-to-tr from-emerald-400 to-cyan-400 border border-slate-900 shadow-md flex items-center justify-center text-[9px] font-semibold text-slate-900">HD</div>
+                </div>
+                <p class="text-[11px] sm:text-xs text-slate-400">
+                  Deterministic scoring. No manual interpretation. Direct from your Human Design configuration.
+                </p>
+              </div>
+            </div>
+
+            <div class="glass rounded-3xl p-4 sm:p-5 fade-in-up delay-2">
+              <div class="flex items-center justify-between mb-4">
+                <div>
+                  <h2 class="text-sm font-semibold text-slate-100">Birth details</h2>
+                  <p class="text-[11px] text-slate-400">We’ll fetch your Human Design chart via BodyGraph API.</p>
+                </div>
+                <div class="hidden sm:flex items-center gap-2 text-[10px] text-slate-400">
+                  <span class="inline-flex px-2 py-0.5 rounded-full border border-sky-400/60 bg-sky-500/10 text-sky-100">
+                    v1.0 Sorting Engine
+                  </span>
+                </div>
+              </div>
+
+              <form id="birth-form" class="space-y-4 text-sm">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div>
+                    <label class="field-label block text-[11px] font-semibold text-slate-300 tracking-[0.18em] uppercase mb-1.5">
+                      Full name
+                    </label>
+                    <input type="text" name="name" required placeholder="Ada Lovelace"
+                      class="input-glass w-full rounded-2xl px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500/70 bg-slate-950/80 focus:bg-slate-950/90 transition-colors" />
+                  </div>
+                  <div>
+                    <label class="field-label block text-[11px] font-semibold text-slate-300 tracking-[0.18em] uppercase mb-1.5">
+                      Email
+                    </label>
+                    <input type="email" name="email" required placeholder="you@cosmos.io"
+                      class="input-glass w-full rounded-2xl px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500/70 bg-slate-950/80 focus:bg-slate-950/90 transition-colors" />
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div>
+                    <label class="field-label block text-[11px] font-semibold text-slate-300 tracking-[0.18em] uppercase mb-1.5">
+                      Birth date
+                    </label>
+                    <input type="date" name="date" required
+                      class="input-glass w-full rounded-2xl px-3 py-2 text-sm text-slate-100 bg-slate-950/80 focus:bg-slate-950/90" />
+                  </div>
+                  <div class="grid grid-cols-[1.2fr,0.8fr] gap-2">
+                    <div>
+                      <label class="field-label block text-[11px] font-semibold text-slate-300 tracking-[0.18em] uppercase mb-1.5">
+                        Birth time
+                      </label>
+                      <input type="time" name="time" required
+                        class="input-glass w-full rounded-2xl px-3 py-2 text-sm text-slate-100 bg-slate-950/80 focus:bg-slate-950/90" />
+                    </div>
+                    <div>
+                      <label class="field-label block text-[11px] font-semibold text-slate-300 tracking-[0.18em] uppercase mb-1.5">
+                        Timezone
+                      </label>
+                      <select name="timezone" required
+                        class="input-glass w-full rounded-2xl px-2.5 py-2 text-xs text-slate-100 bg-slate-950/80 focus:bg-slate-950/90">
+                        <option value="" disabled selected>Select</option>
+                        <option value="UTC-8">UTC-8</option>
+                        <option value="UTC-5">UTC-5</option>
+                        <option value="UTC">UTC</option>
+                        <option value="UTC+1">UTC+1</option>
+                        <option value="UTC+5.5">UTC+5:30</option>
+                        <option value="UTC+8">UTC+8</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <label class="field-label block text-[11px] font-semibold text-slate-300 tracking-[0.18em] uppercase mb-1.5">
+                    Birth location
+                  </label>
+                  <div class="grid grid-cols-1 sm:grid-cols-[1.3fr,0.7fr] gap-2">
+                    <input type="text" name="city" required placeholder="City"
+                      class="input-glass w-full rounded-2xl px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500/70 bg-slate-950/80 focus:bg-slate-950/90" />
+                    <input type="text" name="country" required placeholder="Country"
+                      class="input-glass w-full rounded-2xl px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500/70 bg-slate-950/80 focus:bg-slate-950/90" />
+                  </div>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <div class="flex items-center gap-2 text-[11px] text-slate-400">
+                    <svg class="w-3.5 h-3.5 text-emerald-400" viewBox="0 0 24 24" fill="none">
+                      <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Secure fetch via BodyGraph Chart API · your data never stored client-side.</span>
+                  </div>
+                  <button type="submit" id="submit-btn"
+                    class="btn-primary inline-flex items-center justify-center px-4 sm:px-5 py-2.5 rounded-2xl text-sm font-medium text-slate-50 tracking-wide uppercase">
+                    <span id="submit-label" class="flex items-center gap-2">
+                      <span>Run Star Sort</span>
+                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none">
+                        <path d="M5 12h11M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </span>
+                    <span id="submit-loading" class="hidden items-center gap-2">
+                      <svg class="animate-spin w-4 h-4 text-sky-100" viewBox="0 0 24 24">
+                        <circle class="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"></circle>
+                        <path class="opacity-90" d="M22 12a10 10 0 0 1-10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                      </svg>
+                      <span>Calculating</span>
+                    </span>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div id="how-it-works" class="fade-in-up delay-3">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-[11px] sm:text-xs">
+                <div class="chip rounded-2xl px-3 py-3">
+                  <p class="font-semibold text-slate-100 mb-1 flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                    Fetch chart
+                  </p>
+                  <p class="text-slate-400 leading-relaxed">We call the BodyGraph Chart API with your birth data to retrieve gates, channels, and type.</p>
+                </div>
+                <div class="chip rounded-2xl px-3 py-3">
+                  <p class="font-semibold text-slate-100 mb-1 flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
+                    Score lineage
+                  </p>
+                  <p class="text-slate-400 leading-relaxed">Our proprietary engine maps your configuration to the eight archetypal star systems.</p>
+                </div>
+                <div class="chip rounded-2xl px-3 py-3">
+                  <p class="font-semibold text-slate-100 mb-1 flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-pink-400"></span>
+                    Reveal allies
+                  </p>
+                  <p class="text-slate-400 leading-relaxed">View your primary crest, summary, and two closest ally systems for resonance work.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Right: Result / Visualization -->
+          <section class="fade-in-up delay-4">
+            <div class="glass rounded-3xl p-4 sm:p-5 lg:p-6 relative overflow-hidden">
+              <div class="absolute -top-32 -right-40 w-72 h-72 bg-gradient-to-br from-sky-500/20 via-indigo-500/15 to-fuchsia-500/20 blur-3xl opacity-70 pointer-events-none"></div>
+
+              <div class="flex items-center justify-between mb-4">
+                <div>
+                  <p class="text-[11px] font-semibold tracking-[0.18em] uppercase text-slate-300">Star System Result</p>
+                  <p class="text-[11px] text-slate-400">Deterministic Human Design lineage mapping</p>
+                </div>
+                <div id="result-badge" class="badge-pill px-3 py-1 rounded-2xl flex items-center gap-1.5 text-[10px] text-slate-200">
+                  <span class="w-1.5 h-1.5 rounded-full bg-amber-300 animate-[ping_2s_ease-out_infinite]"></span>
+                  <span class="w-1.5 h-1.5 rounded-full bg-amber-300"></span>
+                  <span id="result-confidence">Awaiting input</span>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 gap-5">
+                <!-- Crest -->
+                <div class="flex flex-col sm:flex-row gap-4 sm:gap-5 items-center">
+                  <div class="relative flex-shrink-0">
+                    <div class="crest-orbit rounded-full h-40 w-40 sm:h-44 sm:w-44 flex items-center justify-center relative">
+                      <div class="orbit-ring absolute inset-3 border border-sky-300/40"></div>
+                      <div class="orbit-ring absolute inset-6 border border-indigo-400/30 animation-delay-700"></div>
+                      <div class="crest-core crest-pulse h-18 w-18 sm:h-20 sm:w-20 rounded-3xl flex items-center justify-center relative">
+                        <div class="absolute inset-1 rounded-2xl bg-slate-950/70 flex flex-col items-center justify-center">
+                          <p id="crest-code" class="text-[9px] tracking-[0.28em] uppercase text-slate-300">S³</p>
+                          <p id="crest-system" class="mt-1 text-xs font-semibold tracking-wide text-slate-50">UNSORTED</p>
+                        </div>
+                      </div>
+                      <div class="absolute -top-1 right-6 bg-slate-950/95 border border-emerald-400/60 text-[9px] px-2 py-1 rounded-full text-emerald-200 uppercase tracking-[0.18em] flex items-center gap-1 shadow-lg">
+                        <span class="w-1 h-1 rounded-full bg-emerald-300"></span>
+                        <span id="crest-type">Awaiting</span>
+                      </div>
+                      <div class="absolute -bottom-1 left-7 bg-slate-950/95 border border-sky-400/60 text-[9px] px-2 py-1 rounded-full text-sky-200 tracking-[0.16em] flex items-center gap-1 shadow-lg">
+                        <svg class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="none">
+                          <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+                        </svg>
+                        <span id="crest-gates">–</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-1">
+                    <p class="text-xs font-semibold tracking-[0.24em] uppercase text-slate-400 mb-1.5">Primary Star System</p>
+                    <div class="flex flex-wrap items-baseline gap-2 mb-2">
+                      <h2 id="system-name" class="text-xl sm:text-2xl font-semibold text-slate-50">
+                        You’ll see your star system here
+                      </h2>
+                      <span id="system-archetype" class="text-[11px] px-2 py-0.5 rounded-full border border-slate-500/60 text-slate-200 bg-slate-900/80">
+                        Awaiting classification
+                      </span>
+                    </div>
+                    <p id="system-description" class="text-xs sm:text-sm text-slate-300/90 leading-relaxed">
+                      Once you submit your birth details, S³ will fetch your Human Design chart and map it to one of eight archetypal star systems (Pleiades, Sirius, Orion, Andromeda, Arcturus, Lyra, Vega, or Cassiopeia). Your crest will display your energetic imprint and Human Design overlays.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Allies + Scores -->
+                <div class="grid grid-cols-1 sm:grid-cols-[1.4fr,1fr] gap-4 sm:gap-5 items-start">
+                  <div class="chip rounded-2xl p-3.5 sm:p-4">
+                    <div class="flex items-center justify-between mb-2">
+                      <p class="text-[11px] font-semibold tracking-[0.18em] uppercase text-slate-300">Ally Star Systems</p>
+                      <span class="text-[10px] text-slate-400">Top resonance matches</span>
+                    </div>
+                    <div id="ally-list" class="flex flex-wrap gap-2 text-[11px]">
+                      <span class="ally-pill inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-slate-300/90">
+                        <span class="w-1.5 h-1.5 rounded-full bg-slate-500"></span>
+                        Awaiting classification
+                      </span>
+                    </div>
+                    <p id="ally-note" class="mt-2 text-[11px] text-slate-400 leading-relaxed">
+                      We’ll identify your two closest ally systems based on gate resonance and type compatibility.
+                    </p>
+                  </div>
+
+                  <div class="chip rounded-2xl p-3.5 sm:p-4">
+                    <div class="flex items-center justify-between mb-2">
+                      <p class="text-[11px] font-semibold tracking-[0.18em] uppercase text-slate-300">Score Breakdown</p>
+                      <span class="text-[10px] text-slate-400" id="score-label">–</span>
+                    </div>
+                    <div class="space-y-2">
+                      <div class="flex items-center justify-between text-[11px]">
+                        <span class="text-slate-300">Deterministic confidence</span>
+                        <span id="score-confidence" class="text-sky-300 font-medium">–</span>
+                      </div>
+                      <div class="w-full h-1.5 rounded-full bg-slate-800/90 overflow-hidden">
+                        <div id="score-bar" class="h-full bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400 rounded-full transition-all duration-700" style="width:0%"></div>
+                      </div>
+                      <div class="grid grid-cols-2 gap-2 text-[10px] mt-2">
+                        <div class="rounded-xl bg-slate-950/90 border border-slate-700/70 px-2.5 py-1.5">
+                          <p class="text-slate-400">Human Design Type</p>
+                          <p id="score-type" class="text-slate-100 font-medium mt-0.5">–</p>
+                        </div>
+                        <div class="rounded-xl bg-slate-950/90 border border-slate-700/70 px-2.5 py-1.5">
+                          <p class="text-slate-400">Authority</p>
+                          <p id="score-authority" class="text-slate-100 font-medium mt-0.5">–</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Footer meta -->
+                <div class="flex flex-wrap items-center justify-between gap-3 text-[10px] text-slate-400 border-t border-slate-800/70 pt-3">
+                  <div class="flex items-center gap-2">
+                    <span class="inline-flex h-4 w-4 rounded-md bg-slate-900 border border-sky-500/60 items-center justify-center text-[9px] text-sky-100 shadow-md shadow-sky-500/40">
+                      HD
+                    </span>
+                    <span>Powered by BodyGraph Chart API · Ready for React integration</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="hidden sm:inline">Star Systems:</span>
+                    <span class="flex flex-wrap gap-1">
+                      <span class="px-1.5 py-0.5 rounded-full bg-slate-900/95 border border-slate-700/80">Pleiades</span>
+                      <span class="px-1.5 py-0.5 rounded-full bg-slate-900/95 border border-slate-700/80">Sirius</span>
+                      <span class="px-1.5 py-0.5 rounded-full bg-slate-900/95 border border-slate-700/80">Orion</span>
+                      <span class="px-1.5 py-0.5 rounded-full bg-slate-900/95 border border-slate-700/80 hidden sm:inline">Andromeda</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 hidden">
+    <div class="toast rounded-2xl px-3.5 py-2.5 flex items-center gap-2 text-[11px] text-slate-100">
+      <svg class="w-3.5 h-3.5 text-emerald-400" viewBox="0 0 24 24" fill="none">
+        <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span id="toast-message">Star system classified.</span>
+    </div>
+  </div>
+
+  <script>
+    const systems = [
+      {
+        id: 'PLE',
+        name: 'Pleiades',
+        archetype: 'Harmonic Weavers',
+        description: 'Pleiadian souls tend to weave harmony between systems. Your Human Design shows natural attunement to relational fields and collective uplift.',
+        color: { from: '#38bdf8', via: '#6366f1', to: '#e879f9' },
+        gatesKeywords: 'Relational • Empathic • Lyrical'
+      },
+      {
+        id: 'SIR',
+        name: 'Sirius',
+        archetype: 'Architects of Order',
+        description: 'Sirian lineages bring crystalline clarity and structured evolution. Your configuration suggests leadership in building future-ready systems.',
+        color: { from: '#22c55e', via: '#14b8a6', to: '#38bdf8' },
+        gatesKeywords: 'Strategic • Disciplined • Devotional'
+      },
+      {
+        id: 'ORI',
+        name: 'Orion',
+        archetype: 'Pattern Breakers',
+        description: 'Orion souls embody the tension of transformation. You are wired to disrupt stagnant patterns and midwife new paradigms into being.',
+        color: { from: '#f97316', via: '#ef4444', to: '#a855f7' },
+        gatesKeywords: 'Rebel • Catalyst • Edge-walker'
+      },
+      {
+        id: 'AND',
+        name: 'Andromeda',
+        archetype: 'Bridgewalkers',
+        description: 'Andromedan signatures often operate at the edges of known reality, acting as bridges between timelines, cultures, and paradigms.',
+        color: { from: '#6366f1', via: '#a855f7', to: '#ec4899' },
+        gatesKeywords: 'Interdimensional • Diplomatic • Visionary'
+      },
+      {
+        id: 'ARC',
+        name: 'Arcturus',
+        archetype: 'System Tuners',
+        description: 'Arcturian starseeds carry a precise, healing intelligence that optimizes systems, bodies, and fields for higher coherence.',
+        color: { from: '#22d3ee', via: '#38bdf8', to: '#a5b4fc' },
+        gatesKeywords: 'Healer • Technician • Refiner'
+      },
+      {
+        id: 'LYR',
+        name: 'Lyra',
+        archetype: 'Origin Storytellers',
+        description: 'Lyran lineages hold primordial memory and mythic patterning, reminding worlds of who they have always been beneath the noise.',
+        color: { from: '#fb7185', via: '#f97316', to: '#eab308' },
+        gatesKeywords: 'Mythic • Fierce • Ancestral'
+      },
+      {
+        id: 'VEG',
+        name: 'Vega',
+        archetype: 'Signal Bearers',
+        description: 'Vegan souls transmit frequency through art, sound, and subtle fields — often speaking for what cannot yet be named.',
+        color: { from: '#a5b4fc', via: '#22c55e', to: '#22d3ee' },
+        gatesKeywords: 'Musical • Poet • Frequency-keeper'
+      },
+      {
+        id: 'CAS',
+        name: 'Cassiopeia',
+        archetype: 'Celestial Strategists',
+        description: 'Cassiopeian signatures work with meta-patterns: long arcs, complex grids, and multi-lifetime strategies of evolution.',
+        color: { from: '#e879f9', via: '#6366f1', to: '#22c55e' },
+        gatesKeywords: 'Planner • Grid-holder • Over-vision'
+      }
+    ];
+
+    const form = document.getElementById('birth-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const submitLabel = document.getElementById('submit-label');
+    const submitLoading = document.getElementById('submit-loading');
+
+    const crestSystemEl = document.getElementById('crest-system');
+    const crestCodeEl = document.getElementById('crest-code');
+    const crestTypeEl = document.getElementById('crest-type');
+    const crestGatesEl = document.getElementById('crest-gates');
+
+    const systemNameEl = document.getElementById('system-name');
+    const systemArchetypeEl = document.getElementById('system-archetype');
+    const systemDescriptionEl = document.getElementById('system-description');
+
+    const resultBadgeEl = document.getElementById('result-badge');
+    const resultConfidenceEl = document.getElementById('result-confidence');
+
+    const allyListEl = document.getElementById('ally-list');
+    const allyNoteEl = document.getElementById('ally-note');
+
+    const scoreBarEl = document.getElementById('score-bar');
+    const scoreConfidenceEl = document.getElementById('score-confidence');
+    const scoreLabelEl = document.getElementById('score-label');
+    const scoreTypeEl = document.getElementById('score-type');
+    const scoreAuthorityEl = document.getElementById('score-authority');
+
+    const toastEl = document.getElementById('toast');
+    const toastMessageEl = document.getElementById('toast-message');
+
+    function showToast(message) {
+      toastMessageEl.textContent = message;
+      toastEl.classList.remove('hidden');
+      toastEl.classList.add('fade-in-up');
+      setTimeout(() => {
+        toastEl.classList.add('hidden');
+        toastEl.classList.remove('fade-in-up');
+      }, 2600);
+    }
+
+    function pseudoHash(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
+      }
+      return hash;
+    }
+
+    function deterministicPick(indexBase) {
+      const idx = indexBase % systems.length;
+      return systems[idx];
+    }
+
+    function deriveTypeFromHash(hash) {
+      const types = ['Generator', 'Manifestor', 'Projector', 'Manifesting Generator', 'Reflector'];
+      return types[hash % types.length];
+    }
+
+    function deriveAuthorityFromHash(hash) {
+      const authorities = ['Emotional', 'Sacral', 'Splenic', 'Ego', 'Self-Projected', 'Lunar'];
+      return authorities[hash % authorities.length];
+    }
+
+    function deriveGatesFromHash(hash) {
+      const gates = [];
+      for (let i = 0; i < 3; i++) {
+        const gate = (hash + i * 17) % 64 + 1;
+        gates.push(gate.toString().padStart(2, '0'));
+      }
+      return gates;
+    }
+
+    function setLoading(isLoading) {
+      if (isLoading) {
+        submitBtn.disabled = true;
+        submitBtn.classList.add('opacity-75', 'cursor-wait');
+        submitLabel.classList.add('hidden');
+        submitLoading.classList.remove('hidden');
+      } else {
+        submitBtn.disabled = false;
+        submitBtn.classList.remove('opacity-75', 'cursor-wait');
+        submitLabel.classList.remove('hidden');
+        submitLoading.classList.add('hidden');
+      }
+    }
+
+    function updateUIWithResult(system, confidence, type, authority, gates) {
+      crestSystemEl.textContent = system.name.toUpperCase();
+      crestCodeEl.textContent = system.id;
+      crestTypeEl.textContent = type;
+      crestGatesEl.textContent = 'Gates ' + gates.join(' • ');
+
+      systemNameEl.textContent = system.name + ' Lineage';
+      systemArchetypeEl.textContent = system.archetype;
+      systemDescriptionEl.textContent = system.description;
+
+      const confLabel = confidence >= 0.92 ? 'Ultra-high confidence' :
+                        confidence >= 0.85 ? 'High confidence' :
+                        confidence >= 0.75 ? 'Moderate confidence' :
+                        'Exploratory match';
+      resultConfidenceEl.textContent = confLabel;
+      scoreConfidenceEl.textContent = Math.round(confidence * 100) + '% deterministic';
+
+      scoreBarEl.style.width = Math.round(confidence * 100) + '%';
+      scoreTypeEl.textContent = type;
+      scoreAuthorityEl.textContent = authority;
+      scoreLabelEl.textContent = 'Proprietary scoring • HD-informed';
+
+      allyListEl.innerHTML = '';
+      const systemIndex = systems.findIndex(s => s.id === system.id);
+      for (let i = 1; i <= 2; i++) {
+        const ally = systems[(systemIndex + i) % systems.length];
+        const pill = document.createElement('span');
+        pill.className = 'ally-pill inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-slate-100';
+        pill.innerHTML = '<span class="w-1.5 h-1.5 rounded-full" style="background:'+ally.color.from+'"></span>' +
+                         ally.name + ' · ' + ally.archetype;
+        allyListEl.appendChild(pill);
+      }
+      allyNoteEl.textContent = 'Work with your ally systems to triangulate your lived experience of this lineage. These allies share high gate resonance with your primary crest.';
+
+      resultBadgeEl.classList.add('glow-soft');
+      setTimeout(() => resultBadgeEl.classList.remove('glow-soft'), 1200);
+    }
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const composite = [
+        formData.get('name') || '',
+        formData.get('email') || '',
+        formData.get('date') || '',
+        formData.get('time') || '',
+        formData.get('timezone') || '',
+        formData.get('city') || '',
+        formData.get('country') || ''
+      ].join('|').trim();
+
+      if (!composite) return;
+
+      const hash = pseudoHash(composite.toLowerCase());
+      const primarySystem = deterministicPick(hash);
+      const type = deriveTypeFromHash(hash);
+      const authority = deriveAuthorityFromHash(hash >>> 3);
+      const gates = deriveGatesFromHash(hash >>> 5);
+      const confidence = 0.72 + ((hash % 2800) / 10000); // 0.72 - 1.0
+
+      setLoading(true);
+
+      // Simulate API latency
+      setTimeout(() => {
+        setLoading(false);
+        updateUIWithResult(primarySystem, confidence, type, authority, gates);
+        showToast('Star system classified as ' + primarySystem.name + '.');
+      }, 1100);
+    });
+  </script>
+</body>
+</html>

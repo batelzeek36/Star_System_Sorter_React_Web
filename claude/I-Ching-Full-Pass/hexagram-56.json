@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 56,
+  "hexagram_name_legge": "Lü (The Wanderer)",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Lu intimates that (in the condition which it denotes) there may be some little attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.",
+  "image_text": "(The trigram representing) a mountain and above it that for fire form Lii. The superior man, in accordance with this, exerts his wisdom and caution in the use of punishments and not allowing litigations to continue.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "LVI. The Lu Hexagram.\n\nLu intimates that (in the condition which it denotes) there may be some little attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.\n\n1. The first line, divided, shows the stranger mean and meanly occupied. It is thus that he brings on himself (further) calamity.\n\n2. The second line, divided, shows the stranger, occupying his lodging-house, carrying with him his means of livelihood, and provided with good and trusty servants.\n\n3. The third line, undivided, shows the stranger, burning his lodging-house, and having lost his servants. However firm and correct he (try to) be, he will be in peril.\n\n4. The fourth line, undivided, shows the traveller in a resting-place, having (also) the means of livelihood and the axe, (but still saying), 'I am not at ease in my mind.'\n\n5. The fifth line, divided, shows its subject shooting a pheasant. He will lose his arrow, but in the end he will obtain praise and a (high) charge.\n\n6. The sixth line, undivided, suggests the idea of a bird burning its nest. The stranger, (thus represented), first laughs and then cries out. He has lost his ox(-like docility) too readily and easily. There will be evil.\n\nImage: (The trigram representing) a mountain and above it that for fire form Lii. The superior man, in accordance with this, exerts his wisdom and caution in the use of punishments and not allowing litigations to continue.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows the stranger mean and meanly occupied. It is thus that he brings on himself (further) calamity."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows the stranger, occupying his lodging-house, carrying with him his means of livelihood, and provided with good and trusty servants."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows the stranger, burning his lodging-house, and having lost his servants. However firm and correct he (try to) be, he will be in peril."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows the traveller in a resting-place, having (also) the means of livelihood and the axe, (but still saying), 'I am not at ease in my mind.'"
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows its subject shooting a pheasant. He will lose his arrow, but in the end he will obtain praise and a (high) charge."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, undivided, suggests the idea of a bird burning its nest. The stranger, (thus represented), first laughs and then cries out. He has lost his ox(-like docility) too readily and easily. There will be evil."
+    }
+  ],
+  "notes": []
+}

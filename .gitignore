@@ -90,3 +90,7 @@ lore-research/**/*-backup/
 
 # Split task files (redundant - keep main tasks.md)
 .kiro/specs/quote-extraction/tasks-part*.md
+
+# Claude project backup directories
+claude/I-Ching-Full-Pass/__old/
+claude/Full Pass/__backup/

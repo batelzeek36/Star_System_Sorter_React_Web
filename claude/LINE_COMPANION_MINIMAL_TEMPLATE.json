@@ -1,0 +1,70 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy the COMPLETE Line Companion text for each line into 'full_text' - no summarization, no trimming",
+    "Extract 3-5 keywords that describe observable behavioral traits (not mystical concepts)",
+    "Write behavioral_axis as ONE SENTENCE describing what this person DOES in healthy expression",
+    "Write shadow_axis as ONE SENTENCE describing what this person DOES when distorted/wounded",
+    "Use concrete action verbs: 'waits', 'protects', 'withdraws', 'confronts', 'experiments', 'externalizes'",
+    "Avoid abstract verbs: 'recognizes', 'understands', 'knows', 'realizes', 'sees'",
+    "Line archetypes: 1=foundation/research, 2=hermit/called-out, 3=trial-and-error, 4=externalization/network, 5=projection-field, 6=role-model/objectivity",
+    "Check gate-index.json for this gate's center and circuit, apply those themes to your interpretation"
+  ],
+  "gate": 1,
+  "gate_name": "The Creative",
+  "lines": {
+    "1.1": {
+      "line": 1,
+      "hd_title": "[Copy verbatim from Line Companion]",
+      "full_text": "[COMPLETE unedited Line Companion text - every word, every paragraph]",
+      "keywords": ["[behavioral trait]", "[behavioral trait]", "[behavioral trait]"],
+      "behavioral_axis": "[One sentence: what does this person DO in healthy expression?]",
+      "shadow_axis": "[One sentence: what does this person DO when distorted?]",
+      "source": "Line Companion (Ra Uru Hu)"
+    },
+    "1.2": {
+      "line": 2,
+      "hd_title": "[Copy verbatim]",
+      "full_text": "[COMPLETE unedited text]",
+      "keywords": ["[trait]", "[trait]", "[trait]"],
+      "behavioral_axis": "[Line 2 = hermit/natural - they are CALLED OUT by others, not projecting outward]",
+      "shadow_axis": "[Observable dysfunction]",
+      "source": "Line Companion (Ra Uru Hu)"
+    },
+    "1.3": {
+      "line": 3,
+      "hd_title": "[Copy verbatim]",
+      "full_text": "[COMPLETE unedited text]",
+      "keywords": ["[trait]", "[trait]", "[trait]"],
+      "behavioral_axis": "[Line 3 = trial-and-error - explicitly use 'experiments', 'learns through mistakes']",
+      "shadow_axis": "[Observable dysfunction]",
+      "source": "Line Companion (Ra Uru Hu)"
+    },
+    "1.4": {
+      "line": 4,
+      "hd_title": "[Copy verbatim]",
+      "full_text": "[COMPLETE unedited text]",
+      "keywords": ["[trait]", "[trait]", "[trait]"],
+      "behavioral_axis": "[Line 4 = externalization - 'says yes first then figures it out', network/friendship foundation]",
+      "shadow_axis": "[Observable dysfunction]",
+      "source": "Line Companion (Ra Uru Hu)"
+    },
+    "1.5": {
+      "line": 5,
+      "hd_title": "[Copy verbatim]",
+      "full_text": "[COMPLETE unedited text]",
+      "keywords": ["[trait]", "[trait]", "[trait]"],
+      "behavioral_axis": "[Line 5 = projection field - others project ONTO them (savior/heretic), must deliver practical solutions]",
+      "shadow_axis": "[Observable dysfunction]",
+      "source": "Line Companion (Ra Uru Hu)"
+    },
+    "1.6": {
+      "line": 6,
+      "hd_title": "[Copy verbatim]",
+      "full_text": "[COMPLETE unedited text]",
+      "keywords": ["[trait]", "[trait]", "[trait]"],
+      "behavioral_axis": "[Line 6 = role model - objectivity, wisdom through three life phases (trial/roof/model)]",
+      "shadow_axis": "[Observable dysfunction]",
+      "source": "Line Companion (Ra Uru Hu)"
+    }
+  }
+}

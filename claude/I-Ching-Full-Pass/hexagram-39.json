@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 39,
+  "hexagram_name_legge": "Kien",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "In (the state indicated by) Kien advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet with the great man. (In these circumstances), with firmness and correctness, there will be good fortune.",
+  "image_text": "(The trigram representing) a mountain, and above it that for water, form Kien. The superior man, in accordance with this, turns round (and examines) himself, and cultivates his virtue.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XXXIX. The Kien Hexagram.\n\nIn (the state indicated by) Kien advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet with the great man. (In these circumstances), with firmness and correctness, there will be good fortune.\n\n1. From the first line, divided, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise.\n\n2. The second line, divided, shows the minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage.\n\n3. The third line, undivided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and returns (to his former associates).\n\n4. The fourth line, divided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above).\n\n5. The fifth line, undivided, shows its subject struggling with the greatest difficulties, while friends are coming to help him.\n\n6. The topmost line, divided, shows its subject going forward, (only to increase) the difficulties, while his remaining stationary will be (productive of) great (merit). There will be good fortune, and it will be advantageous to meet with the great man.\n\nThe Image: (The trigram representing) a mountain, and above it that for water, form Kien. The superior man, in accordance with this, turns round (and examines) himself, and cultivates his virtue.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "From the first line, divided, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows the minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and returns (to his former associates)."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above)."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject struggling with the greatest difficulties, while friends are coming to help him."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject going forward, (only to increase) the difficulties, while his remaining stationary will be (productive of) great (merit). There will be good fortune, and it will be advantageous to meet with the great man."
+    }
+  ],
+  "notes": []
+}

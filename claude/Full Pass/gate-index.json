@@ -1,0 +1,261 @@
+{
+  "gates": [
+    {
+      "number": 1,
+      "name": "The Creative"
+    },
+    {
+      "number": 2,
+      "name": "The Receptive"
+    },
+    {
+      "number": 3,
+      "name": "Difficulty at the Beginning"
+    },
+    {
+      "number": 4,
+      "name": "Youthful Folly"
+    },
+    {
+      "number": 5,
+      "name": "Waiting"
+    },
+    {
+      "number": 6,
+      "name": "Conflict"
+    },
+    {
+      "number": 7,
+      "name": "The Army"
+    },
+    {
+      "number": 8,
+      "name": "Holding Together"
+    },
+    {
+      "number": 9,
+      "name": "Small Taming"
+    },
+    {
+      "number": 10,
+      "name": "Treading"
+    },
+    {
+      "number": 11,
+      "name": "Peace"
+    },
+    {
+      "number": 12,
+      "name": "Standstill"
+    },
+    {
+      "number": 13,
+      "name": "Fellowship"
+    },
+    {
+      "number": 14,
+      "name": "Great Possessing"
+    },
+    {
+      "number": 15,
+      "name": "Modesty"
+    },
+    {
+      "number": 16,
+      "name": "Enthusiasm"
+    },
+    {
+      "number": 17,
+      "name": "Following"
+    },
+    {
+      "number": 18,
+      "name": "Work on the Decayed"
+    },
+    {
+      "number": 19,
+      "name": "Approach"
+    },
+    {
+      "number": 20,
+      "name": "Contemplation"
+    },
+    {
+      "number": 21,
+      "name": "Biting Through"
+    },
+    {
+      "number": 22,
+      "name": "Grace"
+    },
+    {
+      "number": 23,
+      "name": "Splitting Apart"
+    },
+    {
+      "number": 24,
+      "name": "Return"
+    },
+    {
+      "number": 25,
+      "name": "Innocence"
+    },
+    {
+      "number": 26,
+      "name": "The Taming Power of the Great"
+    },
+    {
+      "number": 27,
+      "name": "Nourishment"
+    },
+    {
+      "number": 28,
+      "name": "Preponderance of the Great"
+    },
+    {
+      "number": 29,
+      "name": "The Abysmal"
+    },
+    {
+      "number": 30,
+      "name": "The Clinging Fire"
+    },
+    {
+      "number": 31,
+      "name": "Influence"
+    },
+    {
+      "number": 32,
+      "name": "Duration"
+    },
+    {
+      "number": 33,
+      "name": "Retreat"
+    },
+    {
+      "number": 34,
+      "name": "The Power of the Great"
+    },
+    {
+      "number": 35,
+      "name": "Progress"
+    },
+    {
+      "number": 36,
+      "name": "Darkening of the Light"
+    },
+    {
+      "number": 37,
+      "name": "The Family"
+    },
+    {
+      "number": 38,
+      "name": "Opposition"
+    },
+    {
+      "number": 39,
+      "name": "Obstruction"
+    },
+    {
+      "number": 40,
+      "name": "Deliverance"
+    },
+    {
+      "number": 41,
+      "name": "Decrease"
+    },
+    {
+      "number": 42,
+      "name": "Increase"
+    },
+    {
+      "number": 43,
+      "name": "Breakthrough"
+    },
+    {
+      "number": 44,
+      "name": "Coming to Meet"
+    },
+    {
+      "number": 45,
+      "name": "Gathering Together"
+    },
+    {
+      "number": 46,
+      "name": "Pushing Upward"
+    },
+    {
+      "number": 47,
+      "name": "Oppression"
+    },
+    {
+      "number": 48,
+      "name": "The Well"
+    },
+    {
+      "number": 49,
+      "name": "Revolution"
+    },
+    {
+      "number": 50,
+      "name": "The Cauldron"
+    },
+    {
+      "number": 51,
+      "name": "The Arousing"
+    },
+    {
+      "number": 52,
+      "name": "Keeping Still"
+    },
+    {
+      "number": 53,
+      "name": "Development"
+    },
+    {
+      "number": 54,
+      "name": "The Marrying Maiden"
+    },
+    {
+      "number": 55,
+      "name": "Abundance"
+    },
+    {
+      "number": 56,
+      "name": "The Wanderer"
+    },
+    {
+      "number": 57,
+      "name": "The Gentle"
+    },
+    {
+      "number": 58,
+      "name": "The Joyous"
+    },
+    {
+      "number": 59,
+      "name": "Dispersion"
+    },
+    {
+      "number": 60,
+      "name": "Limitation"
+    },
+    {
+      "number": 61,
+      "name": "Inner Truth"
+    },
+    {
+      "number": 62,
+      "name": "Small Exceeding"
+    },
+    {
+      "number": 63,
+      "name": "After Completion"
+    },
+    {
+      "number": 64,
+      "name": "Before Completion"
+    }
+  ],
+  "total": 64
+}

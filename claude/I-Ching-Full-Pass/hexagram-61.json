@@ -1,0 +1,56 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 61,
+  "hexagram_name_legge": "Kung Fu (Inmost Sincerity)",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Kung Fu (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.",
+  "image_text": null,
+  "addendum": {
+    "type": "commentary",
+    "text": "Kung Fu, the name of this hexagram, may be represented in English by 'Inmost Sincerity.' It denotes the highest quality of man, and gives its possessor power so that he prevails with spiritual beings, with other men, and with the lower creatures. It is the subject of the 'Doctrine of the Mean' from the 21st chapter onwards, where Remusat rendered it by 'la perfection,' 'la perfection morale,' and Intorcetta and his coadjutors by 'vera solidaque perfectio.' The lineal figure has suggested to the Chinese commentators, from the author of the first Appendix, two ideas in it which deserve to be pointed out. There are two divided lines in the centre and two undivided below them and above them. The divided lines in the centre are held to represent the heart or mind free from all pre-occupation, without any consciousness of self; and the undivided lines, on each side of it, in the centre of the constituent trigrams are held to denote the solidity of the virtue of one so free from selfishness. There is no unreality in it, not a single flaw.\n\nThe 'Daily Lecture' at the conclusion of its paraphrase of the Thwan refers to the history of the ancient Shun, and the wonderful achievements of his virtue. The authors give no instance of the affecting of 'pigs and fishes' by sincerity, and say that these names are symbolical of men, the rudest and most unsusceptible of being acted on. The Text says that the man thus gifted with sincerity will succeed in the most difficult enterprises. Remarkable is the concluding sentence that he must be firm and correct. Here, as elsewhere throughout the Yi, there comes out the practical character which has distinguished the Chinese people and their best teaching all along the line of history.\n\nThe translation of paragraph 1 is according to the view approved by the Khang-hsi editors. The ordinary view makes the other to whom the subject of line 1 looks or might look to be the subject of 4; but they contend that, excepting in the case of 3 and 6, the force of correlation should be discarded from the study of this"
+  },
+  "full_text": "LXI. The Kung Fu Hexagram.\n\nKung Fu (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.\n\n1. The first line, undivided, shows its subject resting (in himself). There will be good fortune. If he sought to any other, he would not find rest\n\n2. The second line, undivided, shows its subject (like) the crane crying out in her hidden retirement, and her young ones responding to her. (It is as if it were said), 'I have a cup of good spirits,' (and the response were), 'I will partake of it with you.'\n\n3. The third line, divided, shows its subject having met with his mate. Now he beats his drum, and now he leaves off. Now he weeps, and now he sings.\n\n4. The fourth line, divided, shows its subject (like) the moon nearly full, and (like) a horse (in a chariot) whose fellow disappears. There will be no error.\n\n5. The fifth line, undivided, shows its subject perfectly sincere, and linking (others) to him in closest union. There will be no error.\n\n6. The topmost line, undivided, shows its subject in chanticleer (trying to) mount to heaven. Even with firm correctness there will be evil.\n\nLine 6 is weak, in its proper place. The subject of the topmost line must be supposed to possess an exaggerated desire for enacting regulations. They will be too severe, and the effect will be evil. But as Confucius (Analects 3.3) says, that is not so great a fault as to be easy and remiss. It may be remedied, and cause for repentance will disappear.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject resting (in himself). There will be good fortune. If he sought to any other, he would not find rest"
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject (like) the crane crying out in her hidden retirement, and her young ones responding to her. (It is as if it were said), 'I have a cup of good spirits,' (and the response were), 'I will partake of it with you.'"
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject having met with his mate. Now he beats his drum, and now he leaves off. Now he weeps, and now he sings."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject (like) the moon nearly full, and (like) a horse (in a chariot) whose fellow disappears. There will be no error."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject perfectly sincere, and linking (others) to him in closest union. There will be no error."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, shows its subject in chanticleer (trying to) mount to heaven. Even with firm correctness there will be evil."
+    }
+  ],
+  "notes": [
+    "Kung Fu, the name of this hexagram, may be represented in English by 'Inmost Sincerity.' It denotes the highest quality of man, and gives its possessor power so that he prevails with spiritual beings, with other men, and with the lower creatures.",
+    "The lineal figure has suggested to the Chinese commentators two ideas: There are two divided lines in the centre and two undivided below them and above them. The divided lines in the centre are held to represent the heart or mind free from all pre-occupation, without any consciousness of self; and the undivided lines, on each side of it, in the centre of the constituent trigrams are held to denote the solidity of the virtue of one so free from selfishness.",
+    "The authors give no instance of the affecting of 'pigs and fishes' by sincerity, and say that these names are symbolical of men, the rudest and most unsusceptible of being acted on.",
+    "Line 6 is weak, in its proper place. The subject of the topmost line must be supposed to possess an exaggerated desire for enacting regulations. They will be too severe, and the effect will be evil. But as Confucius (Analects 3.3) says, that is not so great a fault as to be easy and remiss. It may be remedied, and cause for repentance will disappear."
+  ]
+}

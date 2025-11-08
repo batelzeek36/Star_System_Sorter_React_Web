@@ -11,6 +11,44 @@
       "Choose the most PUNCHY/MEMORABLE quote from Ra's text - prefer declarative statements",
       "Each behavioral_axis and shadow_axis must be ONE SENTENCE describing what this person DOES"
     ],
+    "MECHANICAL_PRECISION_RULES": [
+      "ALWAYS consider the gate's CENTER location (Head/Ajna/Throat/G/Ego/Sacral/Spleen/Solar Plexus/Root)",
+      "ALWAYS consider the gate's CIRCUIT (Individual/Tribal/Collective; Knowing/Sensing/Understanding/etc.)",
+      "Individual circuit gates: Include 'melancholy', 'mutation', 'pulse' themes - creativity can't be forced",
+      "Collective/Understanding (Logic): Patterns, formulas, proof/testing. DO NOT equate 'logic' with Ajna—logic spans centers (e.g., 4/17 in Ajna, 62 in Throat)",
+      "Tribal circuit gates: Bargains, support, resources, family/community bonds",
+      "Collective circuit gates: Sharing, patterns, abstract thinking, universal themes",
+      "G Center gates: Identity, direction, love - NOT work or productivity",
+      "Ajna Center gates: Mental conceptualizing - NOT instinctive knowing",
+      "Spleen Center gates: Instinctive, in-the-moment awareness - NOT mental processing",
+      "Root Center gates: Pressure, stress, drive - often adrenal",
+      "Sacral Center gates: Life force, response, work capacity - Generator energy"
+    ],
+    "LINE_ARCHETYPE_PRECISION": [
+      "Line 1 (Foundation): Introspection, research, insecurity without solid base - NOT projection",
+      "Line 2 (Hermit/Natural): Natural talent, called out, projection FROM others - NOT projecting outward",
+      "Line 3 (Martyr): Trial-and-error, experimentation, learning through mistakes - bonds made/broken",
+      "Line 4 (Opportunist): Externalization, network, friendship foundation - role-playing to learn",
+      "Line 5 (Heretic): PROJECTION FIELD - others project onto them, seduction, practical solutions, reputation at stake",
+      "Line 6 (Role Model): Three life phases - trial (0-30), roof/withdrawal (30-50), role model (50+), objectivity"
+    ],
+    "LANGUAGE_REFINEMENTS": [
+      "Use 'auric boundaries' or 'non-interference' instead of 'isolation' (unless truly hermit mode)",
+      "Use 'projection field' for 5th lines - they receive projections, don't just project",
+      "Use 'consequences' instead of 'punishment' (less moralistic)",
+      "Use 'role-playing to learn' instead of 'lying' for 4th line (unless Ra explicitly says 'liar')",
+      "Use 'melancholy as fuel' for Individual circuit gates (not pathology)",
+      "Use 'mental pressure' for Ajna gates, 'instinctive knowing' for Spleen gates",
+      "Use 'creative timing' instead of 'waiting' for Individual gates (waiting is Type strategy, not gate theme)",
+      "Use 'trial-and-error' explicitly for 3rd lines",
+      "Use 'externalization' for 4th lines (they learn by saying yes first, then figuring it out)",
+      "NO Type/Authority coaching - don't write 'wait for invitation/response' in gate text (that's Type strategy)",
+      "For Solar Plexus gates: avoid 'control emotions' framing; use 'rides/acknowledges wave; times engagement'",
+      "For Spleen gates: avoid mental language; use 'instantaneous instinct', 'in-the-moment sensing'",
+      "Line 2: 'Called out by others' ≠ 'seeking audience' - if they're chasing attention, that's shadow",
+      "Line 5: Must acknowledge APPLAUSE AND BLAME dynamics - shadow often = performing the role to satisfy projections"
+    ],
+    "QUOTE_FALLBACK_RULE": "If no self-contained ≤25-word sentence exists, select the most declarative contiguous span ≤25 words (no ellipses). Prefer imperative/gnomic lines.",
     "GOOD_EXAMPLES": {
       "behavioral_axis": "Waits for creative impulses without forcing them, letting timing unfold naturally",
       "shadow_axis": "Tries to control creative output through willpower and ego, becoming unstable and frustrated"
@@ -18,6 +56,44 @@
     "BAD_EXAMPLES": {
       "behavioral_axis": "Recognizes that timing follows its own law and cannot be forced",
       "shadow_axis": "Experiences instability when not patient"
+    },
+    "GATE_MECHANICS_QUICK_REFERENCE": {
+      "WARNING": "DO NOT trust hardcoded circuit lists - they contain errors. Use CENTER_MAP only (which is accurate), then look up circuit from canonical gate metadata.",
+      "CENTER_MAP": {
+        "G": [1, 2, 7, 10, 13, 15, 25, 46],
+        "AJNA": [4, 11, 17, 24, 43, 47],
+        "SPLEEN": [18, 28, 32, 44, 48, 50, 57],
+        "ROOT": [19, 39, 41, 52, 53, 54, 58, 60],
+        "SACRAL": [3, 5, 9, 14, 27, 29, 34, 42, 59],
+        "THROAT": [8, 12, 16, 20, 23, 31, 33, 35, 45, 56, 62],
+        "EGO": [21, 26, 40, 51],
+        "SOLAR_PLEXUS": [6, 22, 30, 36, 37, 49, 55],
+        "HEAD": [61, 63, 64]
+      },
+      "REQUIRE_META_LOOKUP": {
+        "instruction": "Read circuit metadata from s3-data/gates/_meta/gate-index.json (fields: center, circuit_family, subcircuit). DO NOT infer from memory or quick lists.",
+        "expected_values": {
+          "circuit_family": ["Individual", "Tribal", "Collective"],
+          "subcircuit": ["Knowing", "Integration", "Defense", "Ego", "Sensing", "Understanding"]
+        }
+      },
+      "CIRCUIT_TEMPLATES": {
+        "Individual": ["mutation", "melancholy", "pulse", "creative timing (not Type strategy)"],
+        "Tribal": ["bargains", "support/resources", "kinship/community", "consequences for breaking deals"],
+        "Collective/Sensing": ["experience", "story", "memory", "abstract sharing"],
+        "Collective/Understanding": ["logic", "patterns", "formulas", "proof/testing"]
+      },
+      "CENTER_THEMES": {
+        "G": "Identity, direction, love - NOT work or productivity",
+        "AJNA": "Mental conceptualizing, formulas, patterns - NOT instinctive",
+        "SPLEEN": "Instinctive, in-the-moment awareness - NOT mental processing",
+        "ROOT": "Pressure, stress, drive - often adrenal",
+        "SACRAL": "Life force, response, work capacity - Generator energy",
+        "THROAT": "Expression, manifestation, communication",
+        "EGO": "Willpower, ego, material world, promises",
+        "SOLAR_PLEXUS": "Emotional wave, awareness through time - NOT control emotions",
+        "HEAD": "Mental pressure, inspiration, questions"
+      }
     }
   },
   "gate": 1,
@@ -42,10 +118,10 @@
       "hd_quote": "[VERBATIM ≤25 words - most memorable/punchy quote]",
       "keywords": [
         "[observable action/trait]",
-        "[interpersonal pattern]",
-        "[psychological stance]"
+        "[interpersonal pattern - HERMIT/NATURAL themes]",
+        "[psychological stance - PROJECTION FROM OTHERS, not projecting outward]"
       ],
-      "behavioral_axis": "[Observable behavior in healthy expression - use action verbs]",
+      "behavioral_axis": "[2nd line = HERMIT/NATURAL. They have natural talent, get CALLED OUT by others. They don't project - others project ONTO them. Use: 'naturally embodies', 'called out', 'withdraws when not recognized'. AVOID: 'projects answers outward' (that's 5th line)]",
       "shadow_axis": "[Observable behavior when distorted - show the actual dysfunction]",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
@@ -54,12 +130,12 @@
       "hd_title": "[Exact line title - verbatim]",
       "hd_quote": "[VERBATIM ≤25 words - most memorable/punchy quote]",
       "keywords": [
-        "[observable action/trait]",
-        "[interpersonal pattern]",
-        "[psychological stance]"
+        "[observable action/trait - TRIAL-AND-ERROR]",
+        "[interpersonal pattern - EXPERIMENTATION]",
+        "[psychological stance - LEARNING THROUGH MISTAKES]"
       ],
-      "behavioral_axis": "[Observable behavior in healthy expression - use action verbs]",
-      "shadow_axis": "[Observable behavior when distorted - show the actual dysfunction]",
+      "behavioral_axis": "[3rd line = MARTYR/EXPERIMENTER. Explicitly use 'trial-and-error', 'experiments', 'learns through mistakes'. They discover what works by discovering what doesn't. Bonds made and broken through experience.]",
+      "shadow_axis": "[Observable behavior when distorted - often premature fixing, avoiding the experimental process, or rationalizing repeated mistakes]",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
     "1.4": {
@@ -67,12 +143,12 @@
       "hd_title": "[Exact line title - verbatim]",
       "hd_quote": "[VERBATIM ≤25 words - most memorable/punchy quote]",
       "keywords": [
-        "[observable action/trait]",
-        "[interpersonal pattern]",
-        "[psychological stance]"
+        "[observable action/trait - EXTERNALIZATION]",
+        "[interpersonal pattern - NETWORK/FRIENDSHIP]",
+        "[psychological stance - ROLE-PLAYING TO LEARN]"
       ],
-      "behavioral_axis": "[Observable behavior in healthy expression - use action verbs]",
-      "shadow_axis": "[Observable behavior when distorted - show the actual dysfunction]",
+      "behavioral_axis": "[4th line = OPPORTUNIST/EXTERNALIZER. They learn by SAYING YES FIRST, then figuring it out. Use 'externalizes', 'role-plays to learn', 'says yes then races to understand'. Network/friendship foundation is critical. AVOID harsh 'liar' language unless Ra explicitly uses it - prefer 'role-playing as learning mechanism'.]",
+      "shadow_axis": "[Observable behavior when distorted - confuses fantasy with fact, faces humiliation when time reveals the gap between pretense and reality]",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
     "1.5": {
@@ -80,12 +156,12 @@
       "hd_title": "[Exact line title - verbatim]",
       "hd_quote": "[VERBATIM ≤25 words - most memorable/punchy quote]",
       "keywords": [
-        "[observable action/trait]",
-        "[interpersonal pattern]",
-        "[psychological stance]"
+        "[observable action/trait - PROJECTION FIELD]",
+        "[interpersonal pattern - SEDUCTION/RECOGNITION]",
+        "[psychological stance - PRACTICAL SOLUTIONS, REPUTATION]"
       ],
-      "behavioral_axis": "[Observable behavior in healthy expression - use action verbs]",
-      "shadow_axis": "[Observable behavior when distorted - show the actual dysfunction]",
+      "behavioral_axis": "[5th line = HERETIC/PROJECTION FIELD. CRITICAL: Others project expectations ONTO them (savior/heretic). They must deliver practical solutions. Use 'projection field', 'holds steady under projection', 'seduces energy', 'reputation at stake'. They don't just project - they RECEIVE projections and must navigate them. Include 'recognition' themes.]",
+      "shadow_axis": "[Observable behavior when distorted - performs the role to satisfy projections, becomes cynical from always needing to seduce energy, bitter when others get credit]",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
     "1.6": {
@@ -93,13 +169,100 @@
       "hd_title": "[Exact line title - verbatim]",
       "hd_quote": "[VERBATIM ≤25 words - most memorable/punchy quote]",
       "keywords": [
-        "[observable action/trait]",
-        "[interpersonal pattern]",
-        "[psychological stance]"
+        "[observable action/trait - OBJECTIVITY]",
+        "[interpersonal pattern - ROLE MODEL]",
+        "[psychological stance - THREE LIFE PHASES, WISDOM]"
       ],
-      "behavioral_axis": "[Observable behavior in healthy expression - use action verbs]",
-      "shadow_axis": "[Observable behavior when distorted - show the actual dysfunction]",
+      "behavioral_axis": "[6th line = ROLE MODEL. Three life phases: trial/experimentation (0-30), roof/withdrawal (30-50), role model/wisdom (50+). Develops objectivity over time. Use 'objectivity', 'role model', 'wisdom through experience', 'timeless vs fashion'. Early life feels subjective; true objectivity matures post-Saturn return. Use 'consequences' instead of 'punishment' for shadow.]",
+      "shadow_axis": "[Observable behavior when distorted - mistakes subjective preference for universal truth, refuses understanding and accepts consequences as price of excess, dismissive of incomplete processes]",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  },
+  "_VALIDATION": {
+    "hd_quote": {
+      "max_words": 25,
+      "verbatim_required": true,
+      "allow_ellipses": false,
+      "notes": "Choose a contiguous ≤25-word span. Preserve punctuation/case exactly. Count words carefully."
+    },
+    "behavioral_axis": {
+      "sentence_regex": "^[^.!?]+[.!?]$",
+      "max_sentences": 1,
+      "banned_verbs": ["recognizes", "understands", "knows", "realizes", "sees", "is aware"],
+      "required_style": "Observable interpersonal action; use concrete verbs (waits, protects, withdraws, confronts, soothes, controls, seduces, externalizes, experiments)"
+    },
+    "shadow_axis": {
+      "sentence_regex": "^[^.!?]+[.!?]$",
+      "max_sentences": 1,
+      "required_style": "Observable dysfunctional behavior; show what goes wrong in practice, not just conceptually"
+    },
+    "keywords": {
+      "max_items": 5,
+      "min_items": 3,
+      "style": "Behavioral traits (not mystical concepts); observable actions and interpersonal patterns"
+    },
+    "mechanics_checks": [
+      "Assert: center exists in CENTER_MAP and gate is in CENTER_MAP[center]",
+      "Assert: center/circuit_family/subcircuit exactly match gate-index.json for this gate",
+      "If circuit_family=='Individual' then text includes one of ['melancholy', 'mutation', 'pulse', 'creative timing'] (non-dogmatic usage)",
+      "If line==2 then behavioral_axis contains 'called out' or 'natural' or 'hermit' (NOT 'projects outward')",
+      "If line==3 then behavioral_axis contains 'trial-and-error' or 'experiments' or 'learns through mistakes'",
+      "If line==4 then behavioral_axis includes one of ['externalizes', 'role-plays', 'network', 'says yes then learns']",
+      "If line==5 then behavioral_axis contains 'projection field' or a synonym meaning 'receives projections'",
+      "If line==6 then behavioral_axis includes one of ['objectivity', 'role model', 'wisdom', 'roof']",
+      "If center=='AJNA' then avoid 'instinctive' language; use 'mental', 'conceptual', 'formulas'",
+      "If center=='SPLEEN' then avoid 'mental' language; use 'instinctive', 'in-the-moment', 'survival'",
+      "If center=='G' then avoid 'work' or 'productivity' framing; use 'identity', 'direction', 'love'",
+      "If center=='SOLAR_PLEXUS' then avoid 'control emotions'; use 'rides wave', 'acknowledges wave', 'times engagement'"
+    ]
+  },
+  "_FINAL_CHECKLIST": {
+    "BEFORE_SUBMITTING": [
+      "✓ Checked gate's CENTER and CIRCUIT from canonical gate-index.json",
+      "✓ Applied circuit-specific themes (Individual = melancholy/mutation; Collective/Understanding (Logic) = patterns/formulas/proof; Collective/Sensing (Abstract) = experience/story/memory; Tribal = bargains/resources/kinship)",
+      "✓ Applied line archetype correctly (2nd=hermit, 3rd=trial-and-error, 4th=externalization, 5th=projection field, 6th=role model)",
+      "✓ Used concrete action verbs, not abstract awareness verbs",
+      "✓ Quotes are VERBATIM from Line Companion",
+      "✓ Behavioral/shadow axes are ONE SENTENCE each",
+      "✓ Keywords are behavioral traits, not mystical concepts",
+      "✓ Language is grounded (auric boundaries not isolation, consequences not punishment, role-playing not lying)",
+      "✓ 4th lines include externalization/network language",
+      "✓ 5th lines explicitly mention 'projection field'",
+      "✓ 6th lines include objectivity/role model/wisdom language",
+      "✓ Individual circuit gates include melancholy/mutation themes",
+      "✓ Ajna gates use 'mental' language, not 'instinctive'",
+      "✓ G Center gates avoid work/productivity framing"
+    ]
+  },
+  "_OUTPUT_RULES": {
+    "format": "JSON_ONLY",
+    "disallow_extra_keys": true,
+    "allowed_top_keys": [
+      "_EXTRACTION_RULES",
+      "gate",
+      "gate_name",
+      "lines",
+      "_VALIDATION",
+      "_FINAL_CHECKLIST",
+      "_OUTPUT_RULES",
+      "_SCHEMA"
+    ],
+    "enforce_key_order": false,
+    "instruction": "Output JSON only, no prose. If any validator fails, auto-fix and re-emit."
+  },
+  "_SCHEMA": {
+    "lines.*": {
+      "required": [
+        "line",
+        "hd_title",
+        "hd_quote",
+        "keywords",
+        "behavioral_axis",
+        "shadow_axis",
+        "source"
+      ],
+      "keywords.min_items": 3,
+      "keywords.max_items": 5
     }
   }
 }

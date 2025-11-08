@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Star System Sorter (S³) — Results: Orion Alignment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <style>
+    /* Fonts (optional) */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+    :root{
+      --bg-0: #090d19;
+      --bg-1: #0b1020;
+      --bg-2: #0e1530;
+      --glass: rgba(255,255,255,0.06);
+      --glass-2: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.12);
+      --text: #e8ecff;
+      --muted: #b4b9d7;
+      --accent-a: #82e0ff;
+      --accent-b: #b388ff;
+      --accent-c: #6cf7c5;
+      --accent-d: #ffd166;
+      --success: #3ee7a2;
+      --warning: #ffd166;
+      --danger: #ff7b7b;
+      --shadow: 0 10px 30px rgba(0,0,0,0.45);
+      --round: 14px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body{
+      margin: 0;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 10% -10%, #1a2556 0%, transparent 60%), radial-gradient(1000px 900px at 110% 10%, #2c1f52 0%, transparent 55%), linear-gradient(160deg, var(--bg-1), var(--bg-2));
+      overflow-x: hidden;
+    }
+
+    /* Starfield canvas */
+    #bg-stars{
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.65;
+      mix-blend-mode: screen;
+    }
+
+    header{
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: saturate(140%) blur(10px);
+      background: linear-gradient(to bottom, rgba(8,12,26,0.85), rgba(8,12,26,0.35));
+      border-bottom: 1px solid var(--border);
+    }
+    .nav{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      color: #eaf2ff;
+      font-family: Space Grotesk, Inter, sans-serif;
+    }
+    .brand .logo{
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: conic-gradient(from 180deg at 50% 50%, var(--accent-a), var(--accent-b), var(--accent-a));
+      box-shadow: 0 0 30px rgba(130, 224, 255, 0.35);
+      display: grid; place-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .brand .logo::after{
+      content: "S³";
+      font-weight: 800;
+      color: #0c1229;
+      font-size: 14px;
+      transform: translateY(1px);
+    }
+    .nav .actions{ display:flex; gap:10px; align-items:center; }
+    .btn{
+      appearance: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      padding: 9px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform .15s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+    }
+    .btn:hover{ transform: translateY(-1px); box-shadow: 0 10px 18px rgba(0,0,0,0.3); }
+    .btn.primary{
+      border: none;
+      background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+      color: #0a0f21;
+      box-shadow: 0 12px 28px rgba(144, 100, 255, 0.25), 0 6px 14px rgba(126, 224, 255, 0.18);
+    }
+    .btn.ghost{
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    main{
+      max-width: 1200px;
+      margin: 26px auto 80px;
+      padding: 0 20px;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 980px){
+      .grid{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      border: 1px solid var(--border);
+      border-radius: var(--round);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .card .content{ padding: 24px; }
+    .card .title{
+      font-family: Space Grotesk, Inter, sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: .2px;
+      margin: 0 0 12px;
+    }
+    .muted{ color: var(--muted); }
+
+    /* Hero */
+    .hero{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+    @media (max-width: 980px){
+      .hero{ grid-template-columns: 1fr; }
+    }
+    .crest-card{
+      position: relative;
+      min-height: 320px;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+      padding: 22px;
+      overflow: hidden;
+    }
+    .crest-wrap{
+      display: grid; place-items: center;
+      position: relative;
+      transform-style: preserve-3d;
+      perspective: 800px;
+    }
+    .crest-shadow{
+      position: absolute;
+      width: 270px; height: 270px; border-radius: 999px;
+      background: radial-gradient(closest-side, rgba(130,224,255,0.25), transparent 72%);
+      filter: blur(30px);
+      z-index: 0;
+    }
+    .crest{
+      width: 240px; height: 280px;
+      z-index: 1;
+      transition: transform .6s cubic-bezier(.2,.7,.3,1);
+      will-change: transform;
+    }
+    .crest-card:hover .crest{
+      transform: translateY(-2px) rotateX(6deg) rotateY(-8deg);
+    }
+    .crest-label{
+      text-align: center;
+      margin-top: 14px;
+    }
+    .crest-label .system{
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: Space Grotesk, Inter, sans-serif;
+      font-weight: 800;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+      background: linear-gradient(120deg, var(--accent-a), var(--accent-b));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-size: 22px;
+    }
+    .crest-label .tag{
+      margin-top: 4px;
+      display: inline-block;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 13px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03);
+    }
+
+    .actions-row{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 18px;
+    }
+
+    /* Gauge */
+    .gauge-card{
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+      padding: 22px;
+      position: relative;
+      overflow: hidden;
+    }
+    .gauge{
+      width: 240px; height: 240px;
+      border-radius: 999px;
+      position: relative;
+      display: grid; place-items: center;
+      background:
+        conic-gradient(var(--accent-a) 0deg, var(--accent-b) 140deg, var(--accent-a) 360deg);
+      mask: radial-gradient(farthest-side, transparent calc(50% - 16px), black calc(50% - 15px));
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(50% - 16px), black calc(50% - 15px));
+      filter: drop-shadow(0 10px 30px rgba(128, 120, 255, 0.25));
+    }
+    .gauge-track{
+      position: absolute; inset: 0;
+      border-radius: 999px;
+      background: conic-gradient(var(--accent-a) 0turn, var(--accent-b) 0turn);
+      opacity: .25;
+      mask: radial-gradient(farthest-side, transparent calc(50% - 16px), black calc(50% - 15px));
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(50% - 16px), black calc(50% - 15px));
+    }
+    .gauge-progress{
+      position: absolute; inset: 0;
+      border-radius: 999px;
+      background: conic-gradient(from -90deg, #8f93ff 0deg, #8f93ff var(--angle), rgba(143,147,255,0.12) var(--angle));
+      mask: radial-gradient(farthest-side, transparent calc(50% - 16px), black calc(50% - 15px));
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(50% - 16px), black calc(50% - 15px));
+      transition: background .6s ease;
+    }
+    .gauge-center{
+      position: absolute; inset: 24px;
+      background: linear-gradient(180deg, rgba(4,7,18,0.9), rgba(10,14,28,0.75));
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      display: grid; place-items: center;
+      text-align: center;
+      padding: 12px;
+    }
+    .gauge-number{
+      font-family: Space Grotesk, Inter, sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      letter-spacing: .3px;
+    }
+    .gauge-sub{
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: .3px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .gauge-meta{
+      margin-top: 18px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* Tabs and details */
+    .tabs{
+      margin-top: 24px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .tab{
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: rgba(255,255,255,0.03);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .2s ease, color .2s ease, border-color .2s ease;
+      user-select: none;
+    }
+    .tab.active{
+      color: #0a0f21;
+      border-color: transparent;
+      background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+      text-shadow: none;
+    }
+
+    .panel{
+      display: none;
+      margin-top: 16px;
+    }
+    .panel.active{ display: block; }
+
+    .list{
+      display: grid;
+      gap: 12px;
+      margin: 12px 0 4px;
+    }
+    .list-item{
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 10px;
+      align-items: start;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .icon{
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      display: grid; place-items: center;
+      background: linear-gradient(135deg, rgba(130,224,255,0.25), rgba(179,136,255,0.25));
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+    .item-title{ font-weight: 700; }
+    .item-desc{ color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+    /* Contributions / progress */
+    .progress-row{
+      display: grid;
+      gap: 8px;
+      margin: 10px 0 4px;
+    }
+    .bar{
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.07);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .bar > span{
+      display: block;
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(135deg, var(--accent-a), var(--accent-b));
+      border-radius: inherit;
+      box-shadow: 0 6px 16px rgba(160, 140, 255, 0.2) inset;
+      transition: width .8s cubic-bezier(.2,.7,.3,1);
+    }
+    .bar-label{
+      display: flex; align-items: center; justify-content: space-between;
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    /* Allies */
+    .ally-grid{
+      margin-top: 10px;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 680px){ .ally-grid{ grid-template-columns: 1fr; } }
+    .ally{
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 12px;
+      align-items: center;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .ally .badge{
+      width: 52px; height: 52px; border-radius: 14px;
+      display: grid; place-items: center;
+      background: linear-gradient(135deg, rgba(130,224,255,0.2), rgba(179,136,255,0.22));
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+    .ally .name{ font-weight: 700; }
+    .ally .note{ color: var(--muted); font-size: 13px; margin-top: 2px; }
+
+    /* Comparison chart */
+    .systems{
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .system-row{
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+    }
+    .system-head{
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .system-name{
+      display: flex; align-items: center; gap: 10px;
+      font-weight: 700;
+    }
+    .system-bar{
+      height: 10px; border-radius: 999px; background: rgba(255,255,255,0.08);
+      overflow: hidden; border: 1px solid var(--border);
+    }
+    .system-bar > span{
+      display: block; height: 100%; width: 0%;
+      background: linear-gradient(90deg, var(--accent-a), var(--accent-b));
+      box-shadow: 0 5px 12px rgba(130, 224, 255,0.18) inset;
+      transition: width 1s cubic-bezier(.2,.7,.3,1);
+    }
+
+    /* Footer */
+    footer{
+      max-width: 1200px;
+      margin: 40px auto 80px;
+      padding: 0 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .footer-card{
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+
+    /* Reduced motion preference */
+    @media (prefers-reduced-motion: reduce){
+      .crest-card:hover .crest{ transform: none; }
+      .btn:hover{ transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="bg-stars" aria-hidden="true"></canvas>
+
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>Star System Sorter</div>
+      </div>
+      <div class="actions">
+        <button class="btn ghost" id="btn-new">New Sort</button>
+        <button class="btn primary" id="btn-share">Share Result</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <section class="card hero">
+        <div class="crest-card">
+          <div class="content" style="text-align:center;">
+            <h2 class="title" style="margin-bottom:6px;">Primary Alignment</h2>
+            <div class="muted">Your star system classification based on Human Design data</div>
+          </div>
+
+          <div class="crest-wrap">
+            <div class="crest-shadow"></div>
+            <div id="orion-crest" aria-label="Orion crest">
+              <!-- Export-friendly SVG crest -->
+              <svg class="crest" viewBox="0 0 260 300" xmlns="http://www.w3.org/2000/svg" role="img">
+                <defs>
+                  <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0%" stop-color="#82e0ff"/>
+                    <stop offset="100%" stop-color="#b388ff"/>
+                  </linearGradient>
+                  <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(255,255,255,0.8)"/>
+                    <stop offset="100%" stop-color="rgba(255,255,255,0.1)"/>
+                  </linearGradient>
+                  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+                    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                    <feMerge>
+                      <feMergeNode in="coloredBlur"/>
+                      <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                  </filter>
+                </defs>
+
+                <!-- Shield -->
+                <path d="M130 18 C185 18, 240 48, 240 108 C240 188, 185 238, 130 280 C75 238, 20 188, 20 108 C20 48, 75 18, 130 18Z"
+                      fill="url(#g1)" opacity="0.22"/>
+                <path d="M130 24 C181 24, 232 52, 232 108 C232 184, 181 232, 130 272 C79 232, 28 184, 28 108 C28 52, 79 24, 130 24Z"
+                      fill="none" stroke="url(#g1)" stroke-width="2"/>
+                <path d="M130 40 C172 40, 212 64, 212 108 C212 172, 172 212, 130 252 C88 212, 48 172, 48 108 C48 64, 88 40, 130 40Z"
+                      fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+                <!-- Orion constellation stylization -->
+                <g filter="url(#glow)">
+                  <!-- connecting lines -->
+                  <path d="M85 110 L175 120" stroke="url(#g1)" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+                  <path d="M100 70 L85 110" stroke="url(#g1)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+                  <path d="M175 120 L190 85" stroke="url(#g1)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+                  <path d="M175 120 L165 160" stroke="url(#g1)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+                  <path d="M85 110 L70 150" stroke="url(#g1)" stroke-width="1.2" stroke-linecap="round" opacity="0.8"/>
+                  <!-- three belt stars -->
+                  <circle cx="110" cy="114" r="5.2" fill="url(#g2)" stroke="url(#g1)" stroke-width="1.2"/>
+                  <circle cx="130" cy="116" r="5.5" fill="url(#g2)" stroke="url(#g1)" stroke-width="1.2"/>
+                  <circle cx="150" cy="118" r="5.0" fill="url(#g2)" stroke="url(#g1)" stroke-width="1.2"/>
+                  <!-- other stars -->
+                  <circle cx="100" cy="70" r="4.2" fill="url(#g2)" stroke="url(#g1)" stroke-width="1"/>
+                  <circle cx="190" cy="85" r="4.6" fill="url(#g2)" stroke="url(#g1)" stroke-width="1"/>
+                  <circle cx="165" cy="160" r="4.4" fill="url(#g2)" stroke="url(#g1)" stroke-width="1"/>
+                  <circle cx="70" cy="150" r="4.1" fill="url(#g2)" stroke="url(#g1)" stroke-width="1"/>
+                </g>
+
+                <!-- Label -->
+                <text x="130" y="292" text-anchor="middle" font-family="Space Grotesk, Inter, Arial" font-size="20" font-weight="800" fill="url(#g1)" letter-spacing="2">ORION</text>
+              </svg>
+            </div>
+            <div class="crest-label">
+              <div class="system">Orion <span style="display:inline-block;width:8px;height:8px;border-radius:999px;background:linear-gradient(135deg,var(--accent-a),var(--accent-b));box-shadow:0 0 12px rgba(145,115,255,.8);"></span></div>
+              <div class="tag">Strategist & Pathfinder</div>
+            </div>
+          </div>
+
+          <div class="actions-row">
+            <button class="btn" id="btn-download">Download Crest</button>
+            <button class="btn ghost" id="btn-details">See Why</button>
+          </div>
+        </div>
+
+        <div class="gauge-card">
+          <div class="content" style="text-align:center;">
+            <h2 class="title" style="margin-bottom:6px;">Alignment Score</h2>
+            <div class="muted">Deterministic classification confidence</div>
+          </div>
+          <div class="gauge" aria-hidden="true">
+            <div class="gauge-track"></div>
+            <div class="gauge-progress" id="gaugeProgress" style="--angle: 0deg;"></div>
+            <div class="gauge-center">
+              <div>
+                <div class="gauge-number" id="gaugeNumber">0%</div>
+                <div class="gauge-sub">Orion Alignment</div>
+              </div>
+            </div>
+          </div>
+          <div class="gauge-meta">
+            Weighted features: Strategy & Authority, Circuitry, Channels, Centers, Profile
+          </div>
+          <div class="actions-row" style="margin-top:14px;">
+            <button class="btn primary" id="btn-copy">Copy Result</button>
+            <button class="btn ghost" id="btn-print">Print</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="content">
+          <h3 class="title">Why Orion?</h3>
+          <div class="muted">What aspects of your Human Design chart most strongly matched the Orion signature</div>
+
+          <div class="tabs" role="tablist" aria-label="Details tabs">
+            <button class="tab active" role="tab" aria-selected="true" data-panel="overview">Overview</button>
+            <button class="tab" role="tab" aria-selected="false" data-panel="influences">Chart Influences</button>
+            <button class="tab" role="tab" aria-selected="false" data-panel="contrib">Contribution Breakdown</button>
+            <button class="tab" role="tab" aria-selected="false" data-panel="allies">Allies</button>
+          </div>
+
+          <div id="panel-overview" class="panel active">
+            <div class="list">
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.09 6.26H21l-5.17 3.76L17.91 21 12 16.99 6.09 21l2.08-7.98L3 9.26h6.91L12 3z" stroke="url(#g1)" stroke-width="1.4"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Strategic, pattern-oriented leadership</div>
+                  <div class="item-desc">Your chart emphasizes logical awareness and the articulation of insight, aligning with Orion’s “Strategist & Pathfinder” archetype.</div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="url(#g1)" stroke-width="1.4"/><path d="M12 7v5l3 3" stroke="url(#g1)" stroke-width="1.6" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Decisive awareness</div>
+                  <div class="item-desc">Splenic influence and defined awareness centers suggest rapid recognition and timely decision-making—core Orion traits.</div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M12 4v16" stroke="url(#g1)" stroke-width="1.6" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Communicating insight</div>
+                  <div class="item-desc">Strong Ajna–Throat dynamics favor clear transmission of ideas and frameworks—an Orion hallmark.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="panel-influences" class="panel">
+            <div class="list">
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3c4.97 0 9 4.03 9 9s-4.03 9-9 9-9-4.03-9-9 4.03-9 9-9z" stroke="url(#g1)" stroke-width="1.4"/><path d="M7 9h10M8 13h8" stroke="url(#g1)" stroke-width="1.4" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Centers</div>
+                  <div class="item-desc">Defined Head & Ajna with a defined Throat emphasize pattern recognition and expression. Defined Spleen lends intuitive timing and pragmatic guidance.</div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 3l7 4 7-4v8l-7 4-7-4V3z" stroke="url(#g1)" stroke-width="1.4"/><path d="M12 11v8M5 11l7 4 7-4" stroke="url(#g1)" stroke-width="1.4"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Channels & Gates</div>
+                  <div class="item-desc">Prominent logical/leadership circuitry: 7–31 (Leadership), 43–23 (Structuring), and 17–62 (Synthesis) all map strongly to Orion’s strategic profile.</div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 18l6-12 6 12" stroke="url(#g1)" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="18" r="2" fill="url(#g1)"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Authority & Strategy</div>
+                  <div class="item-desc">Splenic authority (fast, embodied recognition) combined with a communication-forward design supports Orion’s “inform, orient, and lead” pattern.</div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M7 17l5-10 5 10" stroke="url(#g1)" stroke-width="1.4" stroke-linecap="round"/><path d="M6 19h12" stroke="url(#g1)" stroke-width="1.4"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Profile Dynamics</div>
+                  <div class="item-desc">A leadership-leaning profile (e.g., 5/1) signals practical problem-solving, projection management, and structural thinking—traits weighted toward Orion.</div>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="url(#g1)" stroke-width="1.4"/><path d="M12 3a9 9 0 009 9" stroke="url(#g1)" stroke-width="1.4" stroke-linecap="round"/></svg>
+                </div>
+                <div>
+                  <div class="item-title">Planetary Emphasis</div>
+                  <div class="item-desc">Key placements in logic/collective gates (e.g., 7, 31, 17, 62, 43, 23) increased Orion weighting by reinforcing strategic and synthesis themes.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="panel-contrib" class="panel">
+            <div class="muted" style="margin-bottom:8px;">Weighted feature match contributing to the 68% Orion alignment</div>
+            <div class="progress-row">
+              <div class="bar-label"><span>Strategy & Authority congruence</span><span id="c1v">0%</span></div>
+              <div class="bar"><span id="c1" style="--h:210;"></span></div>
+
+              <div class="bar-label"><span>Circuitry emphasis (Logic/Collective)</span><span id="c2v">0%</span></div>
+              <div class="bar"><span id="c2"></span></div>
+
+              <div class="bar-label"><span>Leadership channels (7–31, 43–23, 17–62)</span><span id="c3v">0%</span></div>
+              <div class="bar"><span id="c3"></span></div>
+
+              <div class="bar-label"><span>Center configuration (Head/Ajna/Throat/Spleen)</span><span id="c4v">0%</span></div>
+              <div class="bar"><span id="c4"></span></div>
+
+              <div class="bar-label"><span>Profile dynamics (e.g., 5/1)</span><span id="c5v">0%</span></div>
+              <div class="bar"><span id="c5"></span></div>
+            </div>
+            <div class="muted" style="margin-top:10px; font-size:13px;">
+              Weighting heuristic: Strategy & Authority (25%), Circuitry (25%), Channels (20%), Centers (15%), Profile (15%). Final Orion score is a normalized blend across these features.
+            </div>
+          </div>
+
+          <div id="panel-allies" class="panel">
+            <div class="ally-grid">
+              <div class="ally">
+                <div class="badge">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                    <circle cx="12" cy="12" r="9" stroke="url(#g1)" stroke-width="1.4"/>
+                    <path d="M12 7l3 5h-6l3-5z" fill="url(#g1)"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="name">Sirius</div>
+                  <div class="note">Ally: clarity and precision. Pairs with Orion’s strategy to produce crisp execution and focus.</div>
+                </div>
+              </div>
+              <div class="ally">
+                <div class="badge">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                    <rect x="4" y="4" width="16" height="16" rx="4" stroke="url(#g1)" stroke-width="1.4"/>
+                    <path d="M8 14l4-4 4 4" stroke="url(#g1)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="name">Draco</div>
+                  <div class="note">Ally: steadfastness and protection. Grounds Orion’s long-range plans with endurance and guardrails.</div>
+                </div>
+              </div>
+            </div>
+            <div class="muted" style="margin-top:10px; font-size:13px;">
+              Ally systems are suggested complements based on your chart’s secondary signatures.
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:24px;">
+      <div class="content">
+        <h3 class="title">Other Star System Alignments</h3>
+        <div class="muted">Your broader resonance across the eight-system model</div>
+        <div class="systems" id="systemsList">
+          <!-- System rows will be animated by JS -->
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,var(--accent-a),var(--accent-b));box-shadow:0 0 10px rgba(140,120,255,.7);display:inline-block;"></span>
+                Orion
+              </div>
+              <div>68%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#9be7ff,#85ffc7);box-shadow:0 0 10px rgba(133,255,199,.6);display:inline-block;"></span>
+                Sirius
+              </div>
+              <div>57%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #9be7ff, #85ffc7);"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#ffd166,#ff8fb1);box-shadow:0 0 10px rgba(255,209,102,.5);display:inline-block;"></span>
+                Pleiades
+              </div>
+              <div>53%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #ffd166, #ff8fb1);"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#a8e6ff,#b388ff);box-shadow:0 0 10px rgba(164,143,255,.5);display:inline-block;"></span>
+                Andromeda
+              </div>
+              <div>49%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #a8e6ff, #b388ff);"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#7dd3fc,#c4b5fd);box-shadow:0 0 10px rgba(125,211,252,.5);display:inline-block;"></span>
+                Arcturus
+              </div>
+              <div>44%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #7dd3fc, #c4b5fd);"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#f9f871,#a7f3d0);box-shadow:0 0 10px rgba(249,248,113,.45);display:inline-block;"></span>
+                Lyra
+              </div>
+              <div>39%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #f9f871, #a7f3d0);"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#93c5fd,#60a5fa);box-shadow:0 0 10px rgba(147,197,253,.45);display:inline-block;"></span>
+                Vega
+              </div>
+              <div>35%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #93c5fd, #60a5fa);"></span></div>
+          </div>
+
+          <div class="system-row">
+            <div class="system-head">
+              <div class="system-name">
+                <span style="width:10px;height:10px;border-radius:999px;background:linear-gradient(135deg,#8b5cf6,#ef4444);box-shadow:0 0 10px rgba(139,92,246,.45);display:inline-block;"></span>
+                Draco
+              </div>
+              <div>31%</div>
+            </div>
+            <div class="system-bar"><span style="width:0%; background: linear-gradient(90deg, #8b5cf6, #ef4444);"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-card">
+        Data source: BodyGraph Chart API. Results are generated by the S³ deterministic scoring algorithm using your Human Design chart features. This page is mobile-friendly and ready for export.
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Config
+    const PRIMARY_SYSTEM = "Orion";
+    const PRIMARY_SCORE = 68; // As requested
+    const contributions = [
+      { id: "c1", labelId: "c1v", value: 82 },
+      { id: "c2", labelId: "c2v", value: 74 },
+      { id: "c3", labelId: "c3v", value: 69 },
+      { id: "c4", labelId: "c4v", value: 71 },
+      { id: "c5", labelId: "c5v", value: 61 },
+    ];
+
+    // Animate gauge
+    const gaugeProgress = document.getElementById('gaugeProgress');
+    const gaugeNumber = document.getElementById('gaugeNumber');
+
+    function animateGauge(to) {
+      const start = performance.now();
+      const duration = 1100;
+      const from = 0;
+      function ease(t){ return 1 - Math.pow(1 - t, 3); }
+      function step(now){
+        const p = Math.min(1, (now - start) / duration);
+        const v = Math.round(from + (to - from) * ease(p));
+        const angle = (v / 100) * 360;
+        gaugeProgress.style.setProperty('--angle', angle + 'deg');
+        gaugeNumber.textContent = v + '%';
+        if(p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    // Animate bars
+    function animateBars() {
+      const rows = document.querySelectorAll('.systems .system-row');
+      rows.forEach((row, i) => {
+        const label = row.querySelector('.system-head div:last-child').textContent;
+        const pct = parseInt(label.replace('%',''), 10);
+        const bar = row.querySelector('.system-bar > span');
+        setTimeout(() => {
+          bar.style.width = pct + '%';
+        }, 150 + i * 120);
+      });
+
+      contributions.forEach((c, i) => {
+        const bar = document.getElementById(c.id);
+        const label = document.getElementById(c.labelId);
+        setTimeout(() => {
+          bar.style.width = c.value + '%';
+          label.textContent = c.value + '%';
+        }, 200 + i * 160);
+      });
+    }
+
+    // Tabs
+    const tabs = document.querySelectorAll('.tab');
+    const panels = {
+      overview: document.getElementById('panel-overview'),
+      influences: document.getElementById('panel-influences'),
+      contrib: document.getElementById('panel-contrib'),
+      allies: document.getElementById('panel-allies')
+    };
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        Object.values(panels).forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        const k = tab.dataset.panel;
+        panels[k].classList.add('active');
+      });
+    });
+
+    // Buttons
+    document.getElementById('btn-details').addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tabs[1].classList.add('active'); // Chart Influences
+      Object.values(panels).forEach(p => p.classList.remove('active'));
+      panels.influences.classList.add('active');
+      panels.influences.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    document.getElementById('btn-print').addEventListener('click', () => window.print());
+
+    document.getElementById('btn-copy').addEventListener('click', async () => {
+      const shareText = `S³ Result — ${PRIMARY_SYSTEM} ${PRIMARY_SCORE}% alignment\nSee your classification and crest.`;
+      try{
+        if(navigator.share){
+          await navigator.share({ title: 'S³ Orion Result', text: shareText, url: window.location.href });
+        }else{
+          await navigator.clipboard.writeText(shareText + '\n' + window.location.href);
+          toast('Result copied to clipboard.');
+        }
+      }catch(e){
+        console.warn('Share error', e);
+        toast('Could not share. Copied text to clipboard.');
+        try{ await navigator.clipboard.writeText(shareText + '\n' + window.location.href); } catch(_){}
+      }
+    });
+
+    document.getElementById('btn-share').addEventListener('click', () => {
+      document.getElementById('btn-copy').click();
+    });
+
+    document.getElementById('btn-new').addEventListener('click', () => {
+      // In a multi-page app, this would route back to input.
+      toast('Navigate to input form to start a new sort.');
+    });
+
+    // Crest export (SVG -> PNG)
+    document.getElementById('btn-download').addEventListener('click', async () => {
+      const svgEl = document.querySelector('#orion-crest svg');
+      if(!svgEl) return;
+      const serializer = new XMLSerializer();
+      const svgStr = serializer.serializeToString(svgEl);
+      const svgBlob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(svgBlob);
+
+      // Create a canvas and draw
+      const img = new Image();
+      img.onload = () => {
+        const padding = 24;
+        const w = img.width + padding * 2;
+        const h = img.height + padding * 2 + 60;
+        const canvas = document.createElement('canvas');
+        canvas.width = w * devicePixelRatio;
+        canvas.height = h * devicePixelRatio;
+        const ctx = canvas.getContext('2d');
+        ctx.scale(devicePixelRatio, devicePixelRatio);
+
+        // Background
+        const grad = ctx.createLinearGradient(0, 0, w, h);
+        grad.addColorStop(0, '#0b1020');
+        grad.addColorStop(1, '#131a3a');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, w, h);
+
+        // Title text
+        ctx.fillStyle = '#e8ecff';
+        ctx.font = '700 18px "Space Grotesk", Inter, Arial, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('Star System Sorter — Orion Crest', w/2, 28);
+
+        ctx.drawImage(img, padding, padding + 20);
+
+        // Footer
+        ctx.font = '600 12px Inter, Arial, sans-serif';
+        ctx.fillStyle = '#b4b9d7';
+        ctx.fillText('68% Orion Alignment', w/2, h - 16);
+
+        canvas.toBlob((blob) => {
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'S3-Orion-Crest.png';
+          a.click();
+          URL.revokeObjectURL(url);
+        }, 'image/png', 0.95);
+      };
+      img.src = url;
+    });
+
+    // Toast utility
+    function toast(msg){
+      let el = document.getElementById('toast');
+      if(!el){
+        el = document.createElement('div');
+        el.id = 'toast';
+        Object.assign(el.style, {
+          position: 'fixed', bottom: '18px', left: '50%', transform: 'translateX(-50%)',
+          background: 'rgba(15,20,40,0.9)', color: '#e8ecff', padding: '10px 14px',
+          border: '1px solid rgba(255,255,255,0.16)', borderRadius: '10px',
+          boxShadow: '0 10px 22px rgba(0,0,0,0.35)', zIndex: 1000, fontWeight: '600'
+        });
+        document.body.appendChild(el);
+      }
+      el.textContent = msg;
+      el.style.opacity = '0';
+      el.style.transition = 'opacity .2s ease';
+      requestAnimationFrame(() => { el.style.opacity = '1'; });
+      clearTimeout(el._t);
+      el._t = setTimeout(() => {
+        el.style.opacity = '0';
+      }, 1800);
+    }
+
+    // Starfield background (lightweight)
+    (function starfield(){
+      const canvas = document.getElementById('bg-stars');
+      const ctx = canvas.getContext('2d');
+      let stars = [];
+      let width, height, dpr;
+
+      function resize(){
+        dpr = Math.max(1, window.devicePixelRatio || 1);
+        width = canvas.clientWidth;
+        height = canvas.clientHeight;
+        canvas.width = width * dpr;
+        canvas.height = height * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        initStars();
+      }
+      function initStars(){
+        const count = Math.min(140, Math.floor((width * height) / 12000));
+        stars = new Array(count).fill(0).map(() => ({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          r: Math.random() * 1.2 + 0.2,
+          a: Math.random() * 0.6 + 0.2,
+          tw: Math.random() * 2 + 0.5,
+          p: Math.random() * Math.PI * 2
+        }));
+      }
+      function loop(t){
+        ctx.clearRect(0,0,width,height);
+        for(const s of stars){
+          const alpha = s.a + Math.sin(t/1000 * s.tw + s.p) * 0.25;
+          ctx.beginPath();
+          ctx.arc(s.x, s.y, s.r + Math.sin(t/1300 + s.p)*0.1, 0, Math.PI*2);
+          ctx.fillStyle = `rgba(180,200,255,${Math.max(0, Math.min(1, alpha))})`;
+          ctx.fill();
+          // occasional subtle streak
+          if(Math.random() < 0.0006){
+            ctx.strokeStyle = 'rgba(130,224,255,0.5)';
+            ctx.lineWidth = 0.6;
+            ctx.beginPath();
+            ctx.moveTo(s.x-6, s.y);
+            ctx.lineTo(s.x+6, s.y);
+            ctx.stroke();
+          }
+        }
+        requestAnimationFrame(loop);
+      }
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(loop);
+    })();
+
+    // Kick off
+    animateGauge(PRIMARY_SCORE);
+    animateBars();
+  </script>
+</body>
+</html>

@@ -1,83 +1,83 @@
 {
-  "gate": 1,
-  "gate_name": "The Creative",
+  "gate": 4,
+  "gate_name": "Youthful Folly",
   "lines": {
-    "1.1": {
+    "4.1": {
       "line": 1,
-      "hd_title": "[Exact line title from Line Companion]",
-      "hd_quote": "[Verbatim quote ≤25 words from Line Companion - the KEY insight, not Ra's full commentary]",
+      "hd_title": "Pleasure",
+      "hd_quote": "Ultimate pleasure cannot be achieved without perfect timing.",
       "keywords": [
-        "[behavioral keyword 1]",
-        "[behavioral keyword 2]",
-        "[behavioral keyword 3]"
+        "timing-aware",
+        "waits for readiness",
+        "seductive formulas"
       ],
-      "behavioral_axis": "[One sentence: what this person DOES interpersonally/psychologically in healthy expression]",
-      "shadow_axis": "[One sentence: what this person DOES when distorted/wounded]",
+      "behavioral_axis": "Waits for the right moment to share mental formulas, recognizing that timing determines whether understanding is rewarded or punished.",
+      "shadow_axis": "Forces formulas at the wrong time through exaggerated self-discipline, ignoring readiness and facing angry rejection.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.2": {
+    "4.2": {
       "line": 2,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Acceptance",
+      "hd_quote": "The recognition of limitation in oneself and others leads to tolerance and the suspension of judgment.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "naturally projects patterns",
+        "called out for formulas",
+        "tolerant of timing gaps"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Naturally projects mental formulas outward without awareness of timing, patiently accepting that not everyone can understand yet.",
+      "shadow_axis": "Takes advantage of others' lack of understanding, asserting ego and hoarding formulas rather than sharing them collectively.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.3": {
+    "4.3": {
       "line": 3,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Irresponsibility",
+      "hd_quote": "I claim it boldly: I am not responsible.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "collects formulas",
+        "trial-and-error",
+        "detached experimentation"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Experiments with collecting mental formulas through trial-and-error without personally applying them, learning patterns without commitment.",
+      "shadow_axis": "Rationalizes irresponsibility as refocalization, collecting answers through adaptation while refusing to test them in lived experience.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.4": {
+    "4.4": {
       "line": 4,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Eavesdropping",
+      "hd_quote": "First they lie and then they run like hell to catch up with their lie.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "externalizes formulas",
+        "role-plays understanding",
+        "races to learn"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Externalizes formulas by saying yes first and racing to understand before being exposed, role-playing answers to learn through network pressure.",
+      "shadow_axis": "Confuses fantasy with fact, faces humiliation when time reveals the gap between pretended understanding and actual knowledge.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.5": {
+    "4.5": {
       "line": 5,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Seduction",
+      "hd_quote": "An answer that has universal potential is deeply seductive.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "projection field",
+        "seduces energy",
+        "universal formulas"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Holds steady under projection field dynamics, seducing energy from others to test mental formulas and prove universal patterns collectively.",
+      "shadow_axis": "Becomes cynical from always needing to seduce energy while others who voice the opinion get credit and recognition.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.6": {
+    "4.6": {
       "line": 6,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Excess",
+      "hd_quote": "The answer does not mean anything; only life means something.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "objectivity about formulas",
+        "seeks life over answers",
+        "patient with incompleteness"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Develops objectivity about mental formulas over time, recognizing when understanding is incomplete and waiting patiently for the full process.",
+      "shadow_axis": "Dismisses understanding as irrelevant intellectual exercise, refuses to engage with incomplete processes and accepts consequences as price of excess.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     }
   }

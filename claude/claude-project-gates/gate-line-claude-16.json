@@ -1,83 +1,91 @@
 {
-  "gate": 1,
-  "gate_name": "The Creative",
+  "gate": 16,
+  "gate_name": "Skills",
+  "center": "THROAT",
+  "circuit_family": "Collective",
+  "subcircuit": "Understanding",
+  "channel": "16-48",
   "lines": {
-    "1.1": {
+    "16.1": {
       "line": 1,
-      "hd_title": "[Exact line title from Line Companion]",
-      "hd_quote": "[Verbatim quote ≤25 words from Line Companion - the KEY insight, not Ra's full commentary]",
+      "hd_title": "Delusion",
+      "hd_quote": "The tendency to express fantasy as fact.",
       "keywords": [
-        "[behavioral keyword 1]",
-        "[behavioral keyword 2]",
-        "[behavioral keyword 3]"
+        "daydreaming patterns",
+        "fantasy without energy",
+        "unrealized claims"
       ],
-      "behavioral_axis": "[One sentence: what this person DOES interpersonally/psychologically in healthy expression]",
-      "shadow_axis": "[One sentence: what this person DOES when distorted/wounded]",
+      "behavioral_axis": "Daydreams skills and configurations without motor access, identifying with talent through mental patterns rather than manifestation.",
+      "shadow_axis": "Publicly communicates fantasy as proven fact, declaring skills that cannot manifest without sustained energy connection.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.2": {
+    "16.2": {
       "line": 2,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Cynic",
+      "hd_quote": "Self-reliance and the skill to judge objectively any claim regardless of rhetoric.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "bursting bubbles",
+        "projecting judgment",
+        "assessing energy",
+        "uncertain depth"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Called out by others seeking skills, naturally bursts bubbles by assessing whose energy can actually manifest the claim.",
+      "shadow_axis": "Compulsively bursts bubbles about own and others' talent, remaining uncertain of personal depth through never accessing motor energy.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.3": {
+    "16.3": {
       "line": 3,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Independence",
+      "hd_quote": "The proper timing to maintain rhythm and avoid deflation.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "trial-and-error timing",
+        "waiting for energy",
+        "self-generating rhythm"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Experiments through trial-and-error to learn which people bring the right energy to manifest skills at proper timing.",
+      "shadow_axis": "Forces skills without waiting for energy, becoming frustrated and dependent on others to regenerate enthusiasm.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.4": {
+    "16.4": {
       "line": 4,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Leader",
+      "hd_quote": "The skill to recognize and support the talents of others.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "externalizing recognition",
+        "supporting energy sources",
+        "creative leadership",
+        "transpersonal service"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Externalizes by identifying who has energy in the network, supporting and preparing others so collective talent manifests.",
+      "shadow_axis": "Refuses to support others' talents, becoming a demagogue who controls rather than enables collective manifestation.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.5": {
+    "16.5": {
       "line": 5,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Grinch",
+      "hd_quote": "The lack of confidence in the expression of skills that needs the encouragement of others.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "projection field",
+        "withholds until encouraged",
+        "universalizing talent",
+        "reluctant sharing"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Holds the projection field of having skills, waiting until others repeatedly encourage them before committing talent to manifestation.",
+      "shadow_axis": "Refuses to share skills with others, believing that giving talent away hampers personal development when lacking confidence.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.6": {
+    "16.6": {
       "line": 6,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Gullibility",
+      "hd_quote": "The ability to experience, examine and then reject misleading enthusiasm.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "assessing technique",
+        "susceptible to propaganda",
+        "disinterested critic",
+        "withholding commitment"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Develops objectivity through examining many techniques, withholding commitment until finding which skills can manifest perfection.",
+      "shadow_axis": "Becomes a disinterested critic of others' techniques, painfully withdrawing when the ideal skill remains unseen and unproven.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     }
   }

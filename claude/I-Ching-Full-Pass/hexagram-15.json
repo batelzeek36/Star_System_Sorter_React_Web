@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 15,
+  "hexagram_name_legge": "Kh'ien",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Kh'ien indicates progress and success. The superior man, (being humble as it implies), will have a (good) issue (to his undertakings).",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XV. The Kh'ien Hexagram.\n\nKh'ien indicates progress and success. The superior man, (being humble as it implies), will have a (good) issue (to his undertakings).\n\n1. The first line, divided, shows us the superior man who adds humility to humility. (Even) the great stream may be crossed with this, and there will be good fortune.\n\n2. The second line, divided, shows us humility that has made itself recognised. With firm correctness there will be good fortune.\n\n3. The third line, undivided, shows the superior man of (acknowledged) merit. He will maintain his success to the end, and have good fortune.\n\n4. The fourth line, divided, shows one, whose action would be in every way advantageous, stirring up (the more) his humility.\n\n5. The fifth line, divided, shows one who, without being rich, is able to employ his neighbours. He may advantageously use the force of arms. All his movements will be advantageous.\n\n6. The sixth line, divided, shows us humility that has made itself recognised. The subject of it will with advantage put his hosts in motion; but (he will only) punish his own towns and state.\n\nXV. An essay on humility rightly follows that on abundant possessions. The third line, which is a whole line amid five others divided, occupying the topmost place in the lower trigram, is held by the Khang-hsi editors and many others to be 'the lord of the hexagram,' the representative of humility, strong, but abasing itself. There is nothing here in the text to make us enter further on the symbolism of the figure. Humility is the way to permanent success.\n\nA weak line, at the lowest place of the figure, is the fitting symbol of the superior man adding humility to humility.\n\nLine 2 is weak, but in the central and proper place, representing a humility that has 'proclaimed itself.'\n\nLine 3 is strong, and occupies an odd (its proper) place. It is lord of the hexagram, to whom all represented by the lines above and below turn.\n\nLine 4 is weak and in its proper position. Its subject is sure to be successful and prosperous, but being so near the fifth line, he should still use the greatest precaution.\n\nAll men love and honour humility, in itself and without the adjuncts which usually command obedience and respect. Hence his neighbours follow the ruler in the fifth line, though he may not be very rich or powerful. His humility need not keep him from asserting the right, even by force of arms.\n\nThe subject of the sixth line, which is weak, is outside the game, so to speak, that has been played out. He will use force, but only within his own sphere and to assert what is right. He will not be aggressive.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows us the superior man who adds humility to humility. (Even) the great stream may be crossed with this, and there will be good fortune."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows us humility that has made itself recognised. With firm correctness there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows the superior man of (acknowledged) merit. He will maintain his success to the end, and have good fortune."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows one, whose action would be in every way advantageous, stirring up (the more) his humility."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows one who, without being rich, is able to employ his neighbours. He may advantageously use the force of arms. All his movements will be advantageous."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, shows us humility that has made itself recognised. The subject of it will with advantage put his hosts in motion; but (he will only) punish his own towns and state."
+    }
+  ],
+  "notes": []
+}

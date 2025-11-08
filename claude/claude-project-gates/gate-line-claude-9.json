@@ -1,83 +1,99 @@
 {
-  "gate": 1,
-  "gate_name": "The Creative",
+  "gate": 9,
+  "gate_name": "The Taming Power of the Small",
+  "center": "SACRAL",
+  "circuit_family": "Collective",
+  "subcircuit": "Understanding",
+  "channel": "9-52",
   "lines": {
-    "1.1": {
+    "9.1": {
       "line": 1,
-      "hd_title": "[Exact line title from Line Companion]",
-      "hd_quote": "[Verbatim quote ≤25 words from Line Companion - the KEY insight, not Ra's full commentary]",
+      "hd_title": "Sensibility",
+      "hd_quote": "The ability to avoid frustration through the creation of new forms.",
       "keywords": [
-        "[behavioral keyword 1]",
-        "[behavioral keyword 2]",
-        "[behavioral keyword 3]"
+        "focused attention",
+        "pattern-seeking",
+        "new forms",
+        "frustration management",
+        "sensible approach"
       ],
-      "behavioral_axis": "[One sentence: what this person DOES interpersonally/psychologically in healthy expression]",
-      "shadow_axis": "[One sentence: what this person DOES when distorted/wounded]",
+      "behavioral_axis": "Creates new forms and patterns to maintain attention and focus, avoiding frustration through sensible problem-solving approaches.",
+      "shadow_axis": "Searches hastily without recognizing the pattern, kicks in the door when the key is in the pocket, loses focus without knowing where to concentrate.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.2": {
+    "9.2": {
       "line": 2,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Misery loves company",
+      "hd_quote": "Collaboration with others to temper frustration.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "collective focus",
+        "projection field",
+        "collaboration",
+        "depth vs appearance",
+        "called out"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Projects outward the ability to solve problems through concentration, naturally drawing others into collaborative focus within the collective logical process.",
+      "shadow_axis": "Studies and focuses endlessly without learning anything, overwhelmed by need for expansion that leads to errors in judgment and missed opportunities.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.3": {
+    "9.3": {
       "line": 3,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Straw that breaks the camel's back",
+      "hd_quote": "The overlooked minor element that always predetermines failure.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "trial-and-error",
+        "overlooked details",
+        "concentration breaks",
+        "learning from mistakes",
+        "minor elements"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Learns through trial-and-error what details matter, experimenting with force to temporarily overcome impediments in the concentrative process.",
+      "shadow_axis": "Misses critical minor elements when concentration breaks at key moments, applies persistent force that saps vitality and turns molehills into mountains.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.4": {
+    "9.4": {
       "line": 4,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Dedication",
+      "hd_quote": "The capacity to focus selflessly without concern for the final result.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "externalization",
+        "selfless focus",
+        "group concentration",
+        "network support",
+        "dedication"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Externalizes concentrative power to help groups stay focused, keeps the network dedicated to the logical process without concern for final results.",
+      "shadow_axis": "Succumbs to persistent urge to skip essential steps and act prematurely, ignoring details in the drive for action.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.5": {
+    "9.5": {
       "line": 5,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Faith",
+      "hd_quote": "The trust that detailed adherence will lead to fulfillment.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "projection field",
+        "faith under pressure",
+        "loyalty to process",
+        "doubt and trust",
+        "belief system"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Receives projections of faith from others who trust that concentration will yield solutions, holding steady under pressure to maintain loyalty to the letter of the law.",
+      "shadow_axis": "Doubts the illogic of the process, questioning how mere concentration can fulfill the faith projected onto them when solutions remain elusive.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.6": {
+    "9.6": {
       "line": 6,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Gratitude",
+      "hd_quote": "The joy which comes with accepting small rewards for small victories.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "joy in process",
+        "small victories",
+        "gratitude",
+        "role model",
+        "cyclical engagement"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Models joy in each step of the concentrative process, finding gratitude in small victories rather than waiting for final solutions that may never come.",
+      "shadow_axis": "Withholds energy for the logical process when unable to find joy until the journey is complete, pulling back when no single step brings satisfaction.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     }
   }

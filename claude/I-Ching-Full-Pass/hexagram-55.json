@@ -1,0 +1,60 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 55,
+  "hexagram_name_legge": "Fâng",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Fâng intimates progress and development. When a king has reached the point (which the name denotes) there is no occasion to be anxious (through fear of a change). Let him be as the sun at noon.",
+  "image_text": "(The trigrams representing) thunder and lightning combine to form Fâng. The superior man, in accordance with this, decides cases of litigation, and apportions punishments with exactness.",
+  "addendum": {
+    "type": "appendix_commentary",
+    "text": "1. Fâng has the signification of being great. It is made up of the trigrams (representing) intelligence and movement directed by that intelligence. It is thus that it has that signification.\n\n2. 'The king has reached the condition (denoted by Fâng):'—he has still to make it greater.\n\n'There is no occasion to be anxious. Let him be as the sun at noon'—it is for him to cause his light to shine on all under the sky.\n\n3. When the sun has reached the meridian height, it begins to decline. When the moon has become full, it begins to wane. The (interaction of) heaven and earth is now vigorous and abundant, now dull and scanty, growing and diminishing according to the seasons. How much more must it be so with (the operations of) men! How much more also with the spiritual agency!"
+  },
+  "full_text": "LV. The Fâng Hexagram.\n\nFâng intimates progress and development. When a king has reached the point (which the name denotes) there is no occasion to be anxious (through fear of a change). Let him be as the sun at noon.\n\n1. The first line, undivided, shows its subject meeting with his mate. Though they are both of the same character, there will be no error. Advance will call forth approval.\n\n2. The second line, divided, shows its subject surrounded by screens so large and thick that at midday he can see from them the constellation of the Bushel. If he go (and try to enlighten his ruler who is thus emblemed), he will make himself to be viewed with suspicion and dislike. Let him cherish his feeling of sincere devotion that he may thereby move (his ruler's mind), and there will be good fortune.\n\n3. The third line, undivided, shows its subject with an (additional) screen of a large and thick banner, through which at midday he can see (the small) Mei star. (In the darkness) he breaks his right arm; but there will be no error.\n\n4. The fourth line, undivided, shows its subject in a tent so large and thick that at midday he can see from it the constellation of the Bushel. But he meets with the subject of the (first) line, undivided like himself. There will be good fortune.\n\n5. The fifth line, divided, shows its subject bringing around him the men of brilliant ability. There will be occasion for congratulation and praise. There will be good fortune.\n\n6. The topmost line, divided, shows its subject with his house made large, but only serving as a screen to his household. When he looks at his door, it is still, and there is nobody about it. For three years no one is to be seen. There will be evil.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject meeting with his mate. Though they are both of the same character, there will be no error. Advance will call forth approval."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows its subject surrounded by screens so large and thick that at midday he can see from them the constellation of the Bushel. If he go (and try to enlighten his ruler who is thus emblemed), he will make himself to be viewed with suspicion and dislike. Let him cherish his feeling of sincere devotion that he may thereby move (his ruler's mind), and there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows its subject with an (additional) screen of a large and thick banner, through which at midday he can see (the small) Mei star. (In the darkness) he breaks his right arm; but there will be no error."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject in a tent so large and thick that at midday he can see from it the constellation of the Bushel. But he meets with the subject of the (first) line, undivided like himself. There will be good fortune."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows its subject bringing around him the men of brilliant ability. There will be occasion for congratulation and praise. There will be good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject with his house made large, but only serving as a screen to his household. When he looks at his door, it is still, and there is nobody about it. For three years no one is to be seen. There will be evil."
+    }
+  ],
+  "notes": [
+    "The character Fâng is the symbol of being large and abundant, and, as the name of this hexagram, denotes a condition of abundant prosperity.",
+    "The component trigrams have the attributes of intelligence and of motive force, and the second is under the direction of the first.",
+    "Line 1 is strong, and in an odd place. Its correlate is 4. The lesson taught is that mutual helpfulness is the great instrument for the maintenance of prosperity.",
+    "Line 2 is divided, and in its proper place. Occupying the centre of the trigram of brightness, the intelligence of it should be concentrated in its subject; but his correlate is the weak 5, weak and in an improper place.",
+    "Line 3 is strong, in its proper place. It is the last line moreover of the trigram of Brightness. But its correlate is the weak 6, which is at the extremity of the trigram of movement.",
+    "Line 4: The symbolism of line 4 is the same as that of 2, till we come to the last sentence. Then there is the strange correlation of the two strong lines in 4 and 1; and the issue is good.",
+    "Line 5: The subject of line 5 is in the ruler's place, himself weak, but 'the lord' of the trigram of movement. If he can bring into the work and employ in his service the talents of 1, 3, and 4, and even of 2, his correlate, the results will be admirable.",
+    "Line 6: All the conditions of line 6 are unfavourable, and its subject is left to himself without any helpers. He is isolated for long, and undone."
+  ]
+}

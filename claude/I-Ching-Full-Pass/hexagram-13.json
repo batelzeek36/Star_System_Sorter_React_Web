@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 13,
+  "hexagram_name_legge": "Thung Zan",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Thung Zan (or ' Union of men ') appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.",
+  "image_text": "(The trigrams for) heaven and fire form Thung Zan. The superior man, in accordance with this, distinguishes things according to their kinds and classes.",
+  "addendum": {
+    "type": "commentary",
+    "text": "XIII, Thung Zan describes a condition of nature and of the state opposite to that of Phi. There was distress and obstruction; here is union. But the union must be based entirely on public considerations, without taint of selfishness.\n\nThe strong line in the fifth, its correct, place, occupies the most important position, and has for its correlate the weak second line, also in its correct place. The one divided line is naturally sought after by all the strong lines. The upper trigram is that of heaven, which is above; the lower is that of fire, whose tendency is to mount upwards. All these things are in harmony with the idea of union. But the union must be free from all selfish motives, and this is indicated by its being in the remote districts of the country, where people are unsophisticated, and free from the depraving effects incident to large societies. A union from such motives will cope with the greatest difficulties; and yet a word of caution is added.\n\nLine 1 emblems the first attempts at union. It is strong, but in the lowest place; and it has no proper correlate above. There is, however, no intermixture of selfishness in it.\n\nLines 2 and 5 are proper correlates, which fact suggests in this hexagram the idea of their union being limited and partial, and such as may afford ground for blame.\n\nLine 3 is strong, and in an odd place; but it has not a proper correlate in 6. This makes its subject more anxious to unite with 2; but 2 is devoted to its proper correlate in 5, of whose strength 3 is afraid, and takes the measures described. His abstaining so long, however, from any active attempt, will save him from misfortune.\n\nLine 4 is strong, but in an even place, which weakens its subject. He also would fain make an attempt on 2; but he is afraid, and does not carry his purpose into effect.\n\nLine 5 is strong, in an odd, and the central place; and would fain unite with 2, which indeed is the proper correlate of its subject. But 3 and 4 are powerful foes that oppose the union. Their opposition makes him weep; but he collects his forces, defeats them, and effects his purpose.\n\nThe union reaches to all within the suburbs, and is not yet universal; but still there is no cause for repentance."
+  },
+  "full_text": "XIII. The Thung Zan Hexagram.\n\nThung Zan (or ' Union of men ') appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.\n\n1. The first line, undivided, (shows the representative of) the union of men just issuing from his gate. There will be no error.\n\n2. The second line, divided, (shows the representative of) the union of men in relation with his kindred. There will be occasion for regret.\n\n3. The third line, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration.\n\n4. The fourth line, undivided, (shows its subject) mounted on the city wall; but he does not proceed to make the attack (he contemplates). There will be good fortune.\n\n5. In the fifth line, undivided, (the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together.\n\n6. The topmost line, undivided, (shows the representative of) the union of men in the suburbs. There will be no occasion for repentance.\n\nXIII. (The trigrams for) heaven and fire form Thung Zan. The superior man, in accordance with this, distinguishes things according to their kinds and classes.\n\n1. ' (The representative of) the union of men is just issuing from his gate: '—who will blame him?\n\n2. '(The representative of) the union of men appears in relation with his kindred: '—that is the path to regret.\n\n3. 'He hides his arms in the thick grass: '— because of the strength of his opponent! ' For three years he makes no demonstration: '—how can he do anything?\n\n4. ' He is mounted on his city-wall; ' but yielding to the right, ' he does not proceed to make the attack (he contemplated).' (Where it is said), ' There will be good fortune,' (that shows how) he feels the strait he is in, and returns to the rule of law.\n\n5. The first action of (the representative of) the union of men (here described) arises from his central position and straightforward character. ' The meeting secured by his great host' intimates that the opponents of it have been overcome.\n\n6. '(The representative of) the union of men appears in the suburbs: '—his object has not yet been attained.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, (shows the representative of) the union of men just issuing from his gate. There will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, (shows the representative of) the union of men in relation with his kindred. There will be occasion for regret."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, (shows its subject) mounted on the city wall; but he does not proceed to make the attack (he contemplates). There will be good fortune."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "In the fifth line, undivided, (the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, (shows the representative of) the union of men in the suburbs. There will be no occasion for repentance."
+    }
+  ],
+  "notes": []
+}

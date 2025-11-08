@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Star System Sorter - Results</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root {
+      --bg-deep-space: #0a0612;
+      --accent: #8b5cf6;
+      --accent-soft: #a78bfa;
+      --accent-strong: #7c3aed;
+      --glass-bg: rgba(15, 23, 42, 0.78);
+      --glass-border: rgba(148, 163, 184, 0.25);
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1e1630 0, #05010b 45%, #000000 100%);
+      min-height: 100vh;
+      color: #e5e7eb;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      overflow: hidden;
+    }
+
+    /* Starfield canvas overlay */
+    #starfield {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+    }
+
+    /* Glassmorphism cards */
+    .glass {
+      background: linear-gradient(
+        135deg,
+        rgba(15, 23, 42, 0.88),
+        rgba(30, 64, 175, 0.28)
+      );
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(18px) saturate(130%);
+      -webkit-backdrop-filter: blur(18px) saturate(130%);
+      box-shadow:
+        0 18px 60px rgba(15, 23, 42, 0.85),
+        0 0 0 1px rgba(148, 163, 184, 0.12);
+    }
+
+    .glass-soft {
+      background: linear-gradient(
+        145deg,
+        rgba(15, 23, 42, 0.85),
+        rgba(76, 29, 149, 0.4)
+      );
+      border: 1px solid rgba(129, 140, 248, 0.35);
+      backdrop-filter: blur(14px) saturate(150%);
+      -webkit-backdrop-filter: blur(14px) saturate(150%);
+      box-shadow:
+        0 14px 40px rgba(15, 23, 42, 0.75),
+        0 0 0 1px rgba(129, 140, 248, 0.2);
+    }
+
+    /* Accent glow */
+    .accent-glow {
+      box-shadow:
+        0 0 25px rgba(139, 92, 246, 0.6),
+        0 0 60px rgba(56, 189, 248, 0.35);
+    }
+
+    /* Crest icon */
+    .crest-orbit {
+      animation: orbitPulse 4s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .crest-core {
+      animation: coreGlow 3.4s ease-in-out infinite;
+    }
+
+    @keyframes orbitPulse {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+
+    @keyframes coreGlow {
+      0%, 100% { filter: drop-shadow(0 0 12px rgba(139, 92, 246, 0.9)); }
+      50% { filter: drop-shadow(0 0 26px rgba(129, 140, 248, 1)); }
+    }
+
+    /* Donut chart */
+    .donut-container {
+      position: relative;
+      width: 100%;
+      max-width: 320px;
+      aspect-ratio: 1 / 1;
+      margin-inline: auto;
+    }
+
+    .donut-center {
+      position: absolute;
+      inset: 18%;
+      border-radius: 999px;
+      background: radial-gradient(circle at top, rgba(248, 250, 252, 0.12), transparent 60%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .donut-segment {
+      transition: transform 0.35s ease, filter 0.35s ease, opacity 0.35s ease;
+      cursor: pointer;
+    }
+
+    .donut-segment:hover {
+      transform: scale(1.02);
+      filter: drop-shadow(0 0 12px rgba(139, 92, 246, 0.9));
+      opacity: 1 !important;
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -140%);
+      transition: opacity 0.18s ease;
+      z-index: 20;
+    }
+
+    /* Ally chips */
+    .ally-chip {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ally-chip::before {
+      content: "";
+      position: absolute;
+      inset: -40%;
+      background: radial-gradient(circle at 0 0, rgba(129, 140, 248, 0.4), transparent 55%);
+      opacity: 0;
+      transform: translate3d(-40%, -40%, 0);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      pointer-events: none;
+    }
+
+    .ally-chip:hover::before {
+      opacity: 0.8;
+      transform: translate3d(0, 0, 0);
+    }
+
+    /* Layout tweaks for small viewports */
+    @media (max-width: 768px) {
+      body {
+        overflow-y: auto;
+      }
+    }
+
+    /* Smooth scroll for CTA buttons target */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="text-slate-100">
+  <canvas id="starfield"></canvas>
+
+  <div class="relative min-h-screen flex items-center justify-center px-4 py-6 sm:px-6 lg:px-10">
+    <!-- Decorative gradient orbs -->
+    <div class="pointer-events-none fixed inset-0 z-0">
+      <div class="absolute -top-32 -left-10 w-72 h-72 bg-purple-700/40 blur-3xl rounded-full mix-blend-screen"></div>
+      <div class="absolute -bottom-40 right-0 w-80 h-80 bg-indigo-500/40 blur-3xl rounded-full mix-blend-screen"></div>
+    </div>
+
+    <main class="relative z-10 w-full max-w-6xl">
+      <!-- Top nav / title -->
+      <header class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 sm:mb-8">
+        <div>
+          <p class="text-xs tracking-[0.28em] uppercase text-slate-400 mb-1">Star System Sorter</p>
+          <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight text-slate-50">
+            Your Cosmic Alignment
+          </h1>
+        </div>
+        <button
+          class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 via-violet-500 to-sky-400 text-sm font-medium text-slate-50 shadow-lg shadow-purple-900/60 hover:shadow-purple-500/70 hover:-translate-y-0.5 transition duration-200"
+          onclick="restartSorting()"
+        >
+          <span class="inline-block h-2 w-2 rounded-full bg-emerald-300 shadow-[0_0_12px_rgba(52,211,153,0.9)]"></span>
+          Recalibrate Sorting
+        </button>
+      </header>
+
+      <!-- Layout: main results + sidebar -->
+      <section class="flex flex-col lg:flex-row gap-6 lg:gap-8">
+        <!-- Main result -->
+        <section class="flex-1 glass rounded-3xl p-5 sm:p-7 lg:p-8 relative overflow-hidden">
+          <!-- Light streak -->
+          <div class="pointer-events-none absolute -top-40 -right-40 w-96 h-96 bg-gradient-to-bl from-purple-400/40 via-transparent to-transparent blur-3xl opacity-60"></div>
+
+          <div class="relative flex flex-col xl:flex-row gap-6 xl:gap-8">
+            <!-- Crest + match -->
+            <div class="flex flex-col items-center xl:items-start gap-4 xl:w-1/3">
+              <div
+                class="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full bg-gradient-to-br from-purple-500 via-indigo-500 to-violet-600 p-[2px] accent-glow"
+              >
+                <div class="w-full h-full rounded-full bg-slate-950/80 flex items-center justify-center">
+                  <svg
+                    viewBox="0 0 160 160"
+                    class="w-32 h-32 text-slate-100"
+                  >
+                    <!-- Outer orbit -->
+                    <circle
+                      cx="80" cy="80" r="65"
+                      fill="none"
+                      stroke="url(#orbitGradient)"
+                      stroke-width="2"
+                      stroke-dasharray="4 8"
+                      class="crest-orbit"
+                    />
+                    <!-- Star polygon -->
+                    <polygon
+                      points="80,25 96,58 132,60 104,84 112,120 80,102 48,120 56,84 28,60 64,58"
+                      fill="url(#coreGradient)"
+                      opacity="0.9"
+                      class="crest-core"
+                    />
+                    <!-- Inner ring -->
+                    <circle
+                      cx="80" cy="80" r="22"
+                      fill="none"
+                      stroke="#e5e7eb"
+                      stroke-opacity="0.42"
+                      stroke-width="1.5"
+                    />
+                    <!-- Inner orb -->
+                    <circle
+                      cx="80" cy="80" r="10"
+                      fill="url(#coreGradientInner)"
+                    >
+                    </circle>
+
+                    <defs>
+                      <radialGradient id="coreGradientInner" cx="50%" cy="35%" r="75%">
+                        <stop offset="0%" stop-color="#e5e7eb" />
+                        <stop offset="40%" stop-color="#a78bfa" />
+                        <stop offset="100%" stop-color="#4c1d95" />
+                      </radialGradient>
+
+                      <linearGradient id="coreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#c4b5fd" />
+                        <stop offset="45%" stop-color="#8b5cf6" />
+                        <stop offset="100%" stop-color="#22d3ee" />
+                      </linearGradient>
+
+                      <linearGradient id="orbitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.4" />
+                        <stop offset="40%" stop-color="#8b5cf6" stop-opacity="0.8" />
+                        <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.6" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <!-- Twinkling spark -->
+                  <span class="absolute -top-1 right-8 h-2 w-2 rounded-full bg-sky-300 shadow-[0_0_10px_rgba(125,211,252,0.9)]"></span>
+                </div>
+              </div>
+
+              <div class="text-center xl:text-left space-y-1">
+                <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Primary Star Lineage</p>
+                <div class="flex items-center justify-center xl:justify-start gap-2">
+                  <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight">
+                    Pleiades
+                  </h2>
+                  <span class="px-2.5 py-1 rounded-full bg-indigo-500/10 text-[11px] font-medium text-indigo-200 border border-indigo-400/40">
+                    Mystic Navigator
+                  </span>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center xl:items-start gap-1">
+                <div class="flex items-baseline gap-2">
+                  <span class="text-4xl sm:text-5xl font-semibold leading-none" id="matchValue">
+                    0
+                  </span>
+                  <span class="text-xl sm:text-2xl text-indigo-200">%</span>
+                </div>
+                <p class="text-xs text-slate-400 uppercase tracking-[0.16em]">
+                  Alignment Match
+                </p>
+                <div class="mt-1 flex items-center gap-1.5">
+                  <span class="flex h-1.5 w-16 rounded-full bg-gradient-to-r from-emerald-400 via-sky-300 to-purple-400"></span>
+                  <span class="text-[11px] text-emerald-300/90">Stable resonance</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Donut chart -->
+            <div class="flex-1">
+              <div class="donut-container" id="donutContainer">
+                <svg
+                  viewBox="0 0 220 220"
+                  class="w-full h-full"
+                >
+                  <defs>
+                    <radialGradient id="donutGlow" cx="50%" cy="15%" r="80%">
+                      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.7" />
+                      <stop offset="35%" stop-color="#a5b4fc" stop-opacity="0.3" />
+                      <stop offset="75%" stop-color="#0f172a" stop-opacity="0.2" />
+                      <stop offset="100%" stop-color="#020617" stop-opacity="0.7" />
+                    </radialGradient>
+                  </defs>
+
+                  <!-- Base glow -->
+                  <circle
+                    cx="110" cy="110" r="82"
+                    fill="url(#donutGlow)"
+                    opacity="0.45"
+                  ></circle>
+
+                  <!-- Base ring -->
+                  <circle
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#0f172a"
+                    stroke-width="12"
+                    stroke-opacity="0.9"
+                  ></circle>
+
+                  <!-- Segments (donut chart) -->
+                  <!-- Stroke-dasharray uses 2πr ≈ 490 -->
+                  <!-- Orion Light 22% -->
+                  <circle
+                    class="donut-segment"
+                    data-name="Orion Light"
+                    data-value="22%"
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#38bdf8"
+                    stroke-width="14"
+                    stroke-linecap="round"
+                    stroke-dasharray="108 382"
+                    stroke-dashoffset="-20"
+                    opacity="0.72"
+                  ></circle>
+
+                  <!-- Pleiades 34% (primary) -->
+                  <circle
+                    class="donut-segment"
+                    data-name="Pleiades"
+                    data-value="34%"
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#a855f7"
+                    stroke-width="16"
+                    stroke-linecap="round"
+                    stroke-dasharray="167 323"
+                    stroke-dashoffset="-128"
+                    opacity="1"
+                  ></circle>
+
+                  <!-- Lyra 14% -->
+                  <circle
+                    class="donut-segment"
+                    data-name="Lyra"
+                    data-value="14%"
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#f97316"
+                    stroke-width="13"
+                    stroke-linecap="round"
+                    stroke-dasharray="69 421"
+                    stroke-dashoffset="-305"
+                    opacity="0.75"
+                  ></circle>
+
+                  <!-- Sirius 12% -->
+                  <circle
+                    class="donut-segment"
+                    data-name="Sirius"
+                    data-value="12%"
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#22c55e"
+                    stroke-width="12"
+                    stroke-linecap="round"
+                    stroke-dasharray="59 431"
+                    stroke-dashoffset="-382"
+                    opacity="0.75"
+                  ></circle>
+
+                  <!-- Andromeda 10% -->
+                  <circle
+                    class="donut-segment"
+                    data-name="Andromeda"
+                    data-value="10%"
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#e5e7eb"
+                    stroke-width="11"
+                    stroke-linecap="round"
+                    stroke-dasharray="49 441"
+                    stroke-dashoffset="-441"
+                    opacity="0.7"
+                  ></circle>
+
+                  <!-- Arcturus 8% -->
+                  <circle
+                    class="donut-segment"
+                    data-name="Arcturus"
+                    data-value="8%"
+                    cx="110" cy="110" r="78"
+                    fill="none"
+                    stroke="#facc15"
+                    stroke-width="11"
+                    stroke-linecap="round"
+                    stroke-dasharray="39 451"
+                    stroke-dashoffset="-490"
+                    opacity="0.7"
+                  ></circle>
+                </svg>
+
+                <!-- Tooltip -->
+                <div
+                  id="donutTooltip"
+                  class="tooltip glass-soft rounded-xl px-3 py-1.5 text-xs text-slate-100 border border-violet-400/50 shadow-lg"
+                >
+                  <div class="flex items-center gap-1.5">
+                    <span id="tooltipName" class="font-medium"></span>
+                    <span class="text-slate-400">•</span>
+                    <span id="tooltipValue" class="text-violet-200"></span>
+                  </div>
+                </div>
+
+                <!-- Center content -->
+                <div class="donut-center">
+                  <p class="text-[10px] uppercase tracking-[0.26em] text-slate-400 mb-1">
+                    System Spectrum
+                  </p>
+                  <p class="text-xs text-slate-300 mb-2">
+                    Harmony across stellar archetypes
+                  </p>
+                  <div class="flex items-center justify-center gap-2 text-[11px] text-slate-400">
+                    <span class="inline-flex items-center gap-1">
+                      <span class="h-1.5 w-1.5 rounded-full bg-purple-400"></span>
+                      Pleiades
+                    </span>
+                    <span class="inline-flex items-center gap-1">
+                      <span class="h-1.5 w-1.5 rounded-full bg-sky-400"></span>
+                      Orion
+                    </span>
+                    <span class="inline-flex items-center gap-1">
+                      <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+                      Sirius
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Legend -->
+              <div class="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs text-slate-300">
+                <div class="flex items-center justify-between bg-slate-900/60 rounded-xl px-3 py-2 border border-slate-700/60">
+                  <div class="flex items-center gap-2">
+                    <span class="h-1.5 w-5 rounded-full bg-purple-400"></span>
+                    <span>Pleiades</span>
+                  </div>
+                  <span class="text-slate-100 font-medium">34%</span>
+                </div>
+                <div class="flex items-center justify-between bg-slate-900/60 rounded-xl px-3 py-2 border border-slate-800/80">
+                  <div class="flex items-center gap-2">
+                    <span class="h-1.5 w-5 rounded-full bg-sky-400"></span>
+                    <span>Orion Light</span>
+                  </div>
+                  <span class="text-slate-100 font-medium">22%</span>
+                </div>
+                <div class="flex items-center justify-between bg-slate-900/60 rounded-xl px-3 py-2 border border-slate-800/80">
+                  <div class="flex items-center gap-2">
+                    <span class="h-1.5 w-5 rounded-full bg-emerald-400"></span>
+                    <span>Sirius</span>
+                  </div>
+                  <span class="text-slate-100 font-medium">12%</span>
+                </div>
+                <div class="flex items-center justify-between bg-slate-900/60 rounded-xl px-3 py-2 border border-slate-800/80">
+                  <div class="flex items-center gap-2">
+                    <span class="h-1.5 w-5 rounded-full bg-orange-400"></span>
+                    <span>Lyra</span>
+                  </div>
+                  <span class="text-slate-100 font-medium">14%</span>
+                </div>
+                <div class="flex items-center justify-between bg-slate-900/60 rounded-xl px-3 py-2 border border-slate-800/80">
+                  <div class="flex items-center gap-2">
+                    <span class="h-1.5 w-5 rounded-full bg-slate-200"></span>
+                    <span>Andromeda</span>
+                  </div>
+                  <span class="text-slate-100 font-medium">10%</span>
+                </div>
+                <div class="flex items-center justify-between bg-slate-900/60 rounded-xl px-3 py-2 border border-slate-800/80">
+                  <div class="flex items-center gap-2">
+                    <span class="h-1.5 w-5 rounded-full bg-yellow-300"></span>
+                    <span>Arcturus</span>
+                  </div>
+                  <span class="text-slate-100 font-medium">8%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interpretive text -->
+          <div class="mt-6 grid md:grid-cols-[minmax(0,1.6fr)_minmax(0,1.2fr)] gap-4 text-sm text-slate-300">
+            <div class="space-y-2">
+              <p class="font-medium text-slate-100">
+                Your core resonance is Pleiadian, marked by intuitive navigation, empathic perception, and crystalline clarity.
+              </p>
+              <p class="text-slate-400">
+                Orion frequencies contribute strategic focus and boundary wisdom, while Lyra and Sirius add creative brilliance and crystalline logic. Together, they form a uniquely balanced star signature.
+              </p>
+            </div>
+            <div class="flex flex-col gap-2">
+              <div class="flex items-center justify-between">
+                <span class="text-xs uppercase tracking-[0.16em] text-slate-400">Stability Index</span>
+                <span class="text-emerald-300 text-xs font-medium">High</span>
+              </div>
+              <div class="w-full h-1.5 rounded-full bg-slate-900 overflow-hidden">
+                <div class="h-full w-3/4 rounded-full bg-gradient-to-r from-emerald-400 via-sky-300 to-purple-400"></div>
+              </div>
+              <div class="flex items-center justify-between text-[11px] text-slate-400">
+                <span>Grounded</span>
+                <span>Fluid</span>
+                <span>Quantum</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="w-full lg:max-w-sm flex flex-col gap-6">
+          <!-- Ally systems -->
+          <section class="glass-soft rounded-3xl p-5 sm:p-6">
+            <div class="flex items-center justify-between mb-3">
+              <div>
+                <p class="text-xs uppercase tracking-[0.22em] text-slate-400">Ally Systems</p>
+                <p class="text-sm text-slate-300">Closest supporting lineages</p>
+              </div>
+              <div class="text-right">
+                <p class="text-[11px] text-slate-400">Harmonic Support</p>
+                <p class="text-xs font-medium text-sky-200">87% synergistic</p>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2.5">
+              <!-- Ally 1 -->
+              <button
+                class="ally-chip flex-1 min-w-[46%] rounded-2xl border border-sky-400/40 bg-slate-950/60 px-3 py-2.5 text-left shadow-md hover:shadow-sky-500/40 hover:-translate-y-0.5 transition duration-200"
+              >
+                <div class="flex items-center justify-between gap-2 mb-1">
+                  <div class="flex items-center gap-2">
+                    <span class="h-7 w-7 rounded-full bg-sky-500/20 flex items-center justify-center border border-sky-300/60">
+                      <span class="h-3 w-3 rounded-full bg-sky-300 shadow-[0_0_10px_rgba(56,189,248,0.9)]"></span>
+                    </span>
+                    <div>
+                      <p class="text-xs font-medium text-slate-100">Orion Light</p>
+                      <p class="text-[10px] text-sky-200/90">Strategic Guardian</p>
+                    </div>
+                  </div>
+                  <span class="text-xs font-semibold text-sky-200">22%</span>
+                </div>
+                <p class="text-[10px] leading-snug text-slate-400">
+                  Offers clarity in conflict, pattern recognition, and grounded discernment.
+                </p>
+              </button>
+
+              <!-- Ally 2 -->
+              <button
+                class="ally-chip flex-1 min-w-[46%] rounded-2xl border border-purple-400/40 bg-slate-950/60 px-3 py-2.5 text-left shadow-md hover:shadow-purple-500/40 hover:-translate-y-0.5 transition duration-200"
+              >
+                <div class="flex items-center justify-between gap-2 mb-1">
+                  <div class="flex items-center gap-2">
+                    <span class="h-7 w-7 rounded-full bg-purple-500/20 flex items-center justify-center border border-purple-300/70">
+                      <span class="h-3 w-3 rounded-full bg-purple-300 shadow-[0_0_10px_rgba(216,180,254,0.9)]"></span>
+                    </span>
+                    <div>
+                      <p class="text-xs font-medium text-slate-100">Lyra</p>
+                      <p class="text-[10px] text-purple-200/90">Creative Architect</p>
+                    </div>
+                  </div>
+                  <span class="text-xs font-semibold text-purple-200">14%</span>
+                </div>
+                <p class="text-[10px] leading-snug text-slate-400">
+                  Amplifies artistry, voice, and the capacity to anchor beauty into form.
+                </p>
+              </button>
+
+              <!-- Ally 3 -->
+              <button
+                class="ally-chip flex-1 min-w-full rounded-2xl border border-emerald-400/40 bg-slate-950/60 px-3 py-2.5 text-left shadow-md hover:shadow-emerald-500/40 hover:-translate-y-0.5 transition duration-200"
+              >
+                <div class="flex items-center justify-between gap-2 mb-1">
+                  <div class="flex items-center gap-2">
+                    <span class="h-7 w-7 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-300/70">
+                      <span class="h-3 w-3 rounded-full bg-emerald-300 shadow-[0_0_10px_rgba(52,211,153,0.9)]"></span>
+                    </span>
+                    <div>
+                      <p class="text-xs font-medium text-slate-100">Sirius</p>
+                      <p class="text-[10px] text-emerald-200/90">Crystal Coder</p>
+                    </div>
+                  </div>
+                  <span class="text-xs font-semibold text-emerald-200">12%</span>
+                </div>
+                <p class="text-[10px] leading-snug text-slate-400">
+                  Refines mental clarity, crystalline communication, and technological intuition.
+                </p>
+              </button>
+            </div>
+          </section>
+
+          <!-- Suggested next steps -->
+          <section class="glass rounded-3xl p-5 sm:p-6">
+            <div class="flex items-center justify-between mb-3">
+              <p class="text-xs uppercase tracking-[0.22em] text-slate-400">Next Trajectory</p>
+              <span class="text-[11px] text-indigo-200">Calibrated to your match</span>
+            </div>
+            <ul class="space-y-2.5 text-xs text-slate-300">
+              <li class="flex items-start gap-2.5">
+                <span class="mt-0.5 h-5 w-5 rounded-full bg-purple-500/20 flex items-center justify-center text-[9px] border border-purple-400/60">
+                  1
+                </span>
+                <div>
+                  <p class="font-medium text-slate-100">Download your star map</p>
+                  <p class="text-slate-400">
+                    Receive a visual chart of your star system spectrum and daily attunement prompts.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-0.5 h-5 w-5 rounded-full bg-sky-500/20 flex items-center justify-center text-[9px] border border-sky-400/60">
+                  2
+                </span>
+                <div>
+                  <p class="font-medium text-slate-100">Activate ally resonance</p>
+                  <p class="text-slate-400">
+                    Explore short guided practices to consciously weave Orion, Lyra, and Sirian energies.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="mt-0.5 h-5 w-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-[9px] border border-emerald-400/60">
+                  3
+                </span>
+                <div>
+                  <p class="font-medium text-slate-100">Schedule a deep-dive session</p>
+                  <p class="text-slate-400">
+                    Work with a guide to map life themes, timelines, and gifts tied to your star origin.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="mt-4 flex flex-col sm:flex-row gap-2.5">
+              <button
+                class="flex-1 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-purple-500 via-violet-500 to-sky-400 px-3 py-2 text-xs font-medium text-slate-50 shadow-lg shadow-purple-900/70 hover:shadow-purple-500/80 hover:-translate-y-0.5 transition duration-200"
+              >
+                Download Star Profile
+              </button>
+              <button
+                class="flex-1 inline-flex items-center justify-center gap-2 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-2 text-xs font-medium text-slate-200 hover:border-purple-400/70 hover:bg-slate-900 transition"
+              >
+                Share Alignment
+              </button>
+            </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    // Starfield animation
+    (function initStarfield() {
+      const canvas = document.getElementById("starfield");
+      const ctx = canvas.getContext("2d");
+      let width, height;
+      let stars = [];
+      const STAR_COUNT = 160;
+
+      function resize() {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+        createStars();
+      }
+
+      function createStars() {
+        stars = [];
+        for (let i = 0; i < STAR_COUNT; i++) {
+          stars.push({
+            x: Math.random() * width,
+            y: Math.random() * height,
+            z: Math.random() * width,
+            o: Math.random(),
+          });
+        }
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, width, height);
+        ctx.fillStyle = "#020617";
+        ctx.fillRect(0, 0, width, height);
+
+        ctx.fillStyle = "#f9fafb";
+        for (let i = 0; i < STAR_COUNT; i++) {
+          const star = stars[i];
+          star.z -= 0.6;
+          if (star.z <= 0) {
+            star.z = width;
+          }
+          const k = 128 / star.z;
+          const px = star.x * k + width / 2;
+          const py = star.y * k + height / 2;
+          if (px >= 0 && px <= width && py >= 0 && py <= height) {
+            const size = (1 - star.z / width) * 1.6;
+            ctx.globalAlpha = star.o;
+            ctx.fillRect(px, py, size, size);
+          }
+        }
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener("resize", resize);
+      resize();
+      draw();
+    })();
+
+    // Animate primary match percentage
+    (function animateMatch() {
+      const target = 68;
+      const duration = 1200;
+      const el = document.getElementById("matchValue");
+      let startTime = null;
+
+      function step(timestamp) {
+        if (!startTime) startTime = timestamp;
+        const progress = Math.min((timestamp - startTime) / duration, 1);
+        const value = Math.floor(progress * target);
+        el.textContent = value;
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        }
+      }
+
+      requestAnimationFrame(step);
+    })();
+
+    // Donut segment hover tooltip
+    (function initDonutTooltip() {
+      const container = document.getElementById("donutContainer");
+      const tooltip = document.getElementById("donutTooltip");
+      const nameEl = document.getElementById("tooltipName");
+      const valueEl = document.getElementById("tooltipValue");
+      const segments = container.querySelectorAll(".donut-segment");
+
+      segments.forEach(seg => {
+        seg.addEventListener("mousemove", e => {
+          const rect = container.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          tooltip.style.left = x + "px";
+          tooltip.style.top = y + "px";
+          tooltip.style.opacity = "1";
+
+          nameEl.textContent = seg.dataset.name;
+          valueEl.textContent = seg.dataset.value;
+        });
+
+        seg.addEventListener("mouseleave", () => {
+          tooltip.style.opacity = "0";
+        });
+      });
+    })();
+
+    // Placeholder for restart action
+    function restartSorting() {
+      // In a real app, this would navigate back to the quiz / sorter
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>

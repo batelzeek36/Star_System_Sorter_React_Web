@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 7,
+  "hexagram_name_legge": "Sze",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Sze indicates how, in the case which it supposes, with firmness and correctness, and (a leader of) age and experience, there will be good fortune and no error.",
+  "image_text": "(The trigram representing) the earth and in the midst of it that representing water, form Sze. The superior man, in accordance with this, nourishes and educates the people, and collects (from among them) the multitudes (of the hosts).",
+  "addendum": {
+    "type": "commentary",
+    "text": "The conduct of military expeditions in a feudal kingdom, and we may say, generally, is denoted by the hexagram Sze. Referring to Appendixes I and II for an explanation of the way in which the combination of lines, in it is made out to suggest the idea of an army and that idea being assumed, it is easy to see how the undivided line in the second place should be interpreted of the genera who is responded to by the divided line in the fifth and royal place. Thus entire trust is reposed in him. He is strong and correct, and his enterprises will be successful. He is denominated 長人, 'an old, experienced man.'"
+  },
+  "full_text": "VII. The Sze Hexagram.\n\nSze indicates how, in the case which it supposes, with firmness and correctness, and (a leader of) age and experience, there will be good fortune and no error.\n\n1. The first line, divided, shows the host going forth according to the rules (for such a movement). If these be not good, there will be evil.\n\n2. The second line, undivided, shows (the leader) in the midst of the host. There will be good fortune and no error. The king has thrice conveyed to him the orders (of his favour).\n\n3. The third line, divided, shows how the host may, possibly, have many inefficient leaders. There will be evil.\n\n4. The fourth line, divided, shows the host in retreat. There is no error.\n\n5. The fifth line, divided, shows birds in the fields, which it will be advantageous to seize (and destroy). In that case there will be no error. If the oldest son leads the host, and younger men (idly occupy offices assigned to them), however firm and correct he may be, there will be evil,\n\n6. The topmost line, divided, shows the great ruler delivering his charges, (appointing some) to be rulers of states, and others to undertake the headship of clans; but small men should not be employed (in such positions).\n\nVII. The conduct of military expeditions in a feudal kingdom, and we may say, generally, is denoted by the hexagram Sze. Referring to Appendixes I and II for an explanation of the way in which the combination of lines, in it is made out to suggest the idea of an army and that idea being assumed, it is easy to see how the undivided line in the second place should be interpreted of the genera who is responded to by the divided line in the fifth and royal place. Thus entire trust is reposed in him. He is strong and correct, and his enterprises will be successful. He is denominated 長人, 'an old, experienced man.'",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows the host going forth according to the rules (for such a movement). If these be not good, there will be evil."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows (the leader) in the midst of the host. There will be good fortune and no error. The king has thrice conveyed to him the orders (of his favour)."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows how the host may, possibly, have many inefficient leaders. There will be evil."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows the host in retreat. There is no error."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows birds in the fields, which it will be advantageous to seize (and destroy). In that case there will be no error. If the oldest son leads the host, and younger men (idly occupy offices assigned to them), however firm and correct he may be, there will be evil,"
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows the great ruler delivering his charges, (appointing some) to be rulers of states, and others to undertake the headship of clans; but small men should not be employed (in such positions)."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 63,
+  "hexagram_name_legge": "Ki 3i",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "K\\ 3 i intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "LXIII. The Ki 3i Hexagram.\n\nK\\ 3 i intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.\n\n1. The first line, undivided, (shows its subject as a driver) who drags back his wheel, (or as a fox) which has wet his tail. There will be no error.\n\n2. The second line, divided, (shows its subject as) a wife who has lost her (carriage-)screen. There is no occasion to go in pursuit of it. In seven days she will find it.\n\n3. The third line, undivided, (suggests the case of) Kao Sung who attacked the Demon region, but was three years in subduing it. Small men should not be employed (in such enterprises).\n\n4. The fourth line, divided, shows its subject with rags provided against any leak (in his boat), and on his guard all day long.\n\n5. The fifth line, undivided, shows its subject (as) the neighbour in the east who slaughters an ox (for his sacrifice); but this is not equal to the (small) spring sacrifice of the neighbour in the west, whose sincerity receives the blessing.\n\n6. The topmost line, divided, shows its subject with (even) his head immersed. The position is perilous.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, (shows its subject as a driver) who drags back his wheel, (or as a fox) which has wet his tail. There will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, (shows its subject as) a wife who has lost her (carriage-)screen. There is no occasion to go in pursuit of it. In seven days she will find it."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, (suggests the case of) Kao Sung who attacked the Demon region, but was three years in subduing it. Small men should not be employed (in such enterprises)."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject with rags provided against any leak (in his boat), and on his guard all day long."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject (as) the neighbour in the east who slaughters an ox (for his sacrifice); but this is not equal to the (small) spring sacrifice of the neighbour in the west, whose sincerity receives the blessing."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject with (even) his head immersed. The position is perilous."
+    }
+  ],
+  "notes": []
+}

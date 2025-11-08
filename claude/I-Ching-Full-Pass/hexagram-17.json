@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 17,
+  "hexagram_name_legge": "Sui",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Sui indicates that (under its conditions) there will be great progress and success. But it will be advantageous to be firm and correct. There will (then) be no error.",
+  "image_text": "(The trigram for the waters of) a marsh and (that for) thunder (hidden) in the midst of it form Sui. The superior man in accordance with this, when it is getting towards dark, enters (his house) and rests.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XVII. The Sui Hexagram.\n\nSui indicates that (under its conditions) there will be great progress and success. But it will be advantageous to be firm and correct. There will (then) be no error.\n\n1. The first line, undivided, shows us one changing the object of his pursuit; but if he be firm and correct, there will be good fortune. Going beyond (his own) gate to find associates, he will achieve merit.\n\n2. The second line, divided, shows us one who cleaves to the little boy, and lets go the man of age and experience.\n\n3. The third line, divided, shows us one who cleaves to the man of age and experience, and lets go the little boy. Such following will get what it seeks; but it will be advantageous to adhere to what is firm and correct.\n\n4. The fourth line, undivided, shows us one followed and obtaining (adherents). Though he be firm and correct, there will be evil. If he be sincere (however) in his course, and make that evident, into what error will he fall?\n\n5. The fifth line, undivided, shows us (the ruler) sincere in (fostering all) that is excellent. There will be good fortune.\n\n6. The topmost line, divided, shows us (that sincerity) firmly held and clung to, yea, and bound fast. (We see) the king with it presenting his offerings on the western mountain.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows us one changing the object of his pursuit; but if he be firm and correct, there will be good fortune. Going beyond (his own) gate to find associates, he will achieve merit."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows us one who cleaves to the little boy, and lets go the man of age and experience."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows us one who cleaves to the man of age and experience, and lets go the little boy. Such following will get what it seeks; but it will be advantageous to adhere to what is firm and correct."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows us one followed and obtaining (adherents). Though he be firm and correct, there will be evil. If he be sincere (however) in his course, and make that evident, into what error will he fall?"
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows us (the ruler) sincere in (fostering all) that is excellent. There will be good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows us (that sincerity) firmly held and clung to, yea, and bound fast. (We see) the king with it presenting his offerings on the western mountain."
+    }
+  ],
+  "notes": []
+}

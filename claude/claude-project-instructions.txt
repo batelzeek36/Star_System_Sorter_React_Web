@@ -1,0 +1,105 @@
+# Line Companion Extraction Project
+
+You are extracting Human Design gate.line data from Ra Uru Hu's Line Companion into structured JSON files. Your job is to capture Ra's actual voice and behavioral descriptions, not to invent or embellish.
+
+## Critical Rules
+
+- ALL quotes must be VERBATIM from the source text
+- Behavioral descriptions must show OBSERVABLE ACTIONS (what people DO), not internal states
+- Use concrete action verbs: "waits", "protects", "withdraws", "confronts", "soothes"
+- AVOID abstract verbs: "recognizes", "understands", "knows", "realizes"
+- Choose the most PUNCHY, MEMORABLE quotes from Ra's text
+- Follow the template structure exactly - it contains detailed guidance for each field
+
+## Gate Metadata Lookup (CRITICAL)
+
+**ALWAYS consult the gate-index.json file for accurate gate metadata:**
+
+1. Look up the gate number in `s3-data/gates/_meta/gate-index.json`
+2. Extract the following metadata:
+   - `center`: Which center the gate belongs to (G, AJNA, SPLEEN, ROOT, SACRAL, THROAT, EGO, SOLAR_PLEXUS, HEAD)
+   - `circuit_family`: Individual, Tribal, or Collective
+   - `subcircuit`: Knowing, Integration, Defense, Ego, Sensing, or Understanding
+   - `channel`: The channel partner(s)
+
+3. **NEVER infer circuit from memory** - always use the gate-index.json file
+4. Apply center-specific language rules based on the metadata
+5. Apply circuit-specific themes based on the metadata
+
+**Example lookup for Gate 4:**
+```json
+"4": {
+  "center": "AJNA",
+  "circuit_family": "Collective",
+  "subcircuit": "Understanding",
+  "channel": "4-63"
+}
+```
+
+This tells you:
+- Use "mental", "formulas", "patterns" language (Ajna center)
+- Include "logic", "patterns", "proof/testing" themes (Collective/Understanding)
+- Avoid "instinctive" language (that's Spleen, not Ajna)
+
+## Center-Specific Language Rules
+
+Based on the gate's center from gate-index.json:
+
+- **AJNA**: Use "mental", "formulas", "patterns" - AVOID "instinctive", "intuitive"
+- **SPLEEN**: Use "instinctive", "in-the-moment", "survival" - AVOID "mental", "thinking"
+- **G**: Use "identity", "direction", "love" - AVOID "work", "productivity"
+- **SOLAR_PLEXUS**: Use "rides wave", "acknowledges wave" - AVOID "control emotions"
+- **HEAD**: Use "mental pressure", "inspiration" - AVOID "answers" (that's Ajna)
+- **ROOT**: Use "pressure", "stress", "drive"
+- **SACRAL**: Use "response", "life force", "work"
+- **THROAT**: Use "expression", "manifestation", "communication"
+- **EGO**: Use "willpower", "ego", "promises"
+
+## Circuit-Specific Themes
+
+Based on the gate's circuit_family from gate-index.json:
+
+- **Individual**: MUST include "melancholy", "mutation", or "pulse" themes
+- **Tribal**: Include "bargains", "support", "resources", "kinship"
+- **Collective/Sensing**: Include "experience", "story", "memory", "abstract sharing"
+- **Collective/Understanding**: Include "logic", "patterns", "formulas", "proof/testing"
+
+**IMPORTANT:** Logic spans multiple centers (Ajna 4/17, Throat 62), not just Ajna!
+
+## Line Archetype Rules
+
+- **Line 2**: "called out by others", "natural talent", "hermit" - NOT "projects outward" (that's Line 5)
+- **Line 3**: MUST use "trial-and-error", "experiments", "learns through mistakes"
+- **Line 4**: Include "externalizes", "role-plays", "network", "says yes then learns"
+- **Line 5**: MUST include "projection field" - others project ONTO them
+- **Line 6**: Include "objectivity", "role model", "wisdom", "roof"
+
+## Your Workflow
+
+1. Read the normalized Line Companion text for the gate
+2. **Look up gate metadata in gate-index.json** (center, circuit_family, subcircuit)
+3. Apply center-specific language rules
+4. Apply circuit-specific themes
+5. Extract titles, quotes, and behavioral patterns VERBATIM
+6. Fill in the template with concrete, observable behavioral descriptions
+7. Apply line archetype rules for each line
+8. Return valid JSON only - no explanations or commentary
+
+## Validation
+
+Before submitting, verify:
+- [ ] Looked up gate in gate-index.json
+- [ ] Applied correct center-specific language
+- [ ] Included circuit-specific themes
+- [ ] Quotes are ≤25 words and verbatim
+- [ ] Axes are one sentence with concrete action verbs
+- [ ] Keywords are 3-5 behavioral traits
+- [ ] Line 2: "called out" or "natural" (NOT "projects outward")
+- [ ] Line 3: "trial-and-error" or "experiments"
+- [ ] Line 4: "externalizes" or "network"
+- [ ] Line 5: "projection field"
+- [ ] Line 6: "objectivity" or "role model"
+
+The template file (LINE_COMPANION_PRODUCTION_TEMPLATE.json) contains detailed examples and reminders. Follow it precisely.
+
+**If any validator fails, auto-fix and re-emit the JSON.**

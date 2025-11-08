@@ -1,83 +1,95 @@
 {
-  "gate": 1,
-  "gate_name": "The Creative",
+  "gate": 18,
+  "gate_name": "Correction (Work on What Has Been Spoiled)",
   "lines": {
-    "1.1": {
+    "18.1": {
       "line": 1,
-      "hd_title": "[Exact line title from Line Companion]",
-      "hd_quote": "[Verbatim quote ≤25 words from Line Companion - the KEY insight, not Ra's full commentary]",
+      "hd_title": "Conservatism",
+      "hd_quote": "The adherence to traditional patterns despite changing circumstances.",
       "keywords": [
-        "[behavioral keyword 1]",
-        "[behavioral keyword 2]",
-        "[behavioral keyword 3]"
+        "conservative",
+        "gradual modification",
+        "authority-respecting",
+        "introspective foundation",
+        "traditional patterns"
       ],
-      "behavioral_axis": "[One sentence: what this person DOES interpersonally/psychologically in healthy expression]",
-      "shadow_axis": "[One sentence: what this person DOES when distorted/wounded]",
+      "behavioral_axis": "Corrects through gradual modifications of judgments, establishing foundation by respecting traditional authority while slowly bringing about necessary change.",
+      "shadow_axis": "Refuses to correct established authority, rigidly adhering to patterns that guarantee deterioration through inflexibility.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.2": {
+    "18.2": {
       "line": 2,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Terminal disease",
+      "hd_quote": "The recognition that what has been spoilt is irreversible.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "projection outward",
+        "acceptance",
+        "called to discern",
+        "futile raging",
+        "natural recognition"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Naturally recognizes what cannot be corrected, called out by others to project correction needs outward or accept irreversibility.",
+      "shadow_axis": "Rages futilely against unchangeable patterns, refusing to accept that correction is impossible and projecting obsessively without letting go.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.3": {
+    "18.3": {
       "line": 3,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Zealot",
+      "hd_quote": "The energetic obsession to clean house.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "zealous correction",
+        "trial-and-error",
+        "obsessive perfecting",
+        "critical capacity",
+        "bonds made and broken"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Experiments obsessively with corrections through trial-and-error, dissolving old forms and perfecting patterns through energetic critical engagement.",
+      "shadow_axis": "Corrects compulsively without satisfaction, creating as many problems as solved through rigid judgmentation that never achieves completion.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.4": {
+    "18.4": {
       "line": 4,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "The Incompetent",
+      "hd_quote": "The inability to correct and its potential for suffering.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "inadequacy",
+        "externalization",
+        "one unfixable thing",
+        "anxiety-generating",
+        "network dependent"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Externalizes competence in correcting many patterns while recognizing one thing they cannot fix, seeking networks and relationships to address inadequacy.",
+      "shadow_axis": "Generates chronic anxiety and indecision from the one pattern they cannot correct, suffering from demands of correction beyond their capacity.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.5": {
+    "18.5": {
       "line": 5,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Therapy",
+      "hd_quote": "The wisdom to both seek and provide guidance.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "projection field",
+        "therapeutic relationship",
+        "collective correction",
+        "guidance seeker and provider",
+        "universalized process"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Holds steady under projection field as both therapist and patient, correcting others through relationships while accepting correction from others in universalized process.",
+      "shadow_axis": "Becomes chronically unstable or mentally fragmented when relationships cannot assist in correction, projecting correction outward while unable to self-correct.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     },
-    "1.6": {
+    "18.6": {
       "line": 6,
-      "hd_title": "[Line title]",
-      "hd_quote": "[Verbatim quote ≤25 words]",
+      "hd_title": "Buddhahood",
+      "hd_quote": "Everything is correct, whether it is or not.",
       "keywords": [
-        "[keyword 1]",
-        "[keyword 2]",
-        "[keyword 3]"
+        "perfected form",
+        "objectivity of completion",
+        "eternal child",
+        "wants to be spoiled",
+        "role model of acceptance"
       ],
-      "behavioral_axis": "[Healthy behavioral description]",
-      "shadow_axis": "[Shadow behavioral description]",
+      "behavioral_axis": "Assumes perfection through completed correction, sharing methodology of why life is perfect while seeking to be spoiled and avoiding corrective engagement.",
+      "shadow_axis": "Shares values of correction with others while refusing to participate in corrective process, demanding to be served as consequence of assumed perfection.",
       "source": "Line Companion (Ra Uru Hu) via normalized chunks"
     }
   }
