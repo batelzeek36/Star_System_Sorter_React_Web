@@ -94,3 +94,6 @@ lore-research/**/*-backup/
 # Claude project backup directories
 claude/I-Ching-Full-Pass/__old/
 claude/Full Pass/__backup/
+
+# Test files (validation testing)
+*_TEST.json

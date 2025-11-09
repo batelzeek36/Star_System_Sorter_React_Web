@@ -256,6 +256,77 @@ def validate_polarity_presence(weights: Dict) -> List[str]:
     return errors
 
 
+def validate_canonical_names(weights: Dict) -> List[str]:
+    """Validate all star system names use exact canonical format."""
+    errors = []
+    
+    for line_key in sorted([k for k in weights.keys() if k != "_meta"]):
+        systems = weights[line_key]
+        
+        if not isinstance(systems, list):
+            continue
+        
+        for sys in systems:
+            star_system = sys.get("star_system", "")
+            
+            if star_system not in CANONICAL_SYSTEMS:
+                # Find closest match for helpful error message
+                closest = None
+                star_lower = star_system.lower()
+                for canonical in CANONICAL_SYSTEMS:
+                    if canonical.lower() == star_lower:
+                        closest = canonical
+                        break
+                
+                if closest:
+                    errors.append(
+                        f"{line_key}: Non-canonical system name '{star_system}' "
+                        f"(should be '{closest}' with exact case and spacing)"
+                    )
+                else:
+                    errors.append(
+                        f"{line_key}: Invalid system name '{star_system}' "
+                        f"(must be one of: {', '.join(CANONICAL_SYSTEMS)})"
+                    )
+    
+    return errors
+
+
+def validate_key_format(weights: Dict) -> List[str]:
+    """Validate line keys follow NN.L format (zero-padded gate, dot, line 1-6)."""
+    errors = []
+    
+    gate_num = weights.get("_meta", {}).get("gate", "")
+    
+    for line_key in [k for k in weights.keys() if k != "_meta"]:
+        # Check format: NN.L where NN is zero-padded gate, L is 1-6
+        if not line_key or len(line_key) != 4:
+            errors.append(f"Invalid key format '{line_key}' (expected 'NN.L' format)")
+            continue
+        
+        parts = line_key.split(".")
+        if len(parts) != 2:
+            errors.append(f"Invalid key format '{line_key}' (expected 'NN.L' with dot separator)")
+            continue
+        
+        gate_part, line_part = parts
+        
+        # Validate gate part matches metadata
+        if gate_part != gate_num:
+            errors.append(
+                f"Key gate mismatch '{line_key}' (gate part '{gate_part}' "
+                f"doesn't match metadata gate '{gate_num}')"
+            )
+        
+        # Validate line part is 1-6
+        if not line_part.isdigit() or int(line_part) < 1 or int(line_part) > 6:
+            errors.append(
+                f"Invalid line number in '{line_key}' (must be 1-6, got '{line_part}')"
+            )
+    
+    return errors
+
+
 def validate_sorting(weights: Dict) -> List[str]:
     """Validate line keys are sorted and systems within lines are sorted."""
     errors = []
@@ -280,6 +351,89 @@ def validate_sorting(weights: Dict) -> List[str]:
             errors.append(
                 f"{line_key}: Systems not sorted by weight descending: {weights_list}"
             )
+        
+        # Check tie-breaking: if weights are equal, use canonical order
+        for i in range(len(systems) - 1):
+            curr_sys = systems[i]
+            next_sys = systems[i + 1]
+            curr_weight = curr_sys.get("weight", 0.0)
+            next_weight = next_sys.get("weight", 0.0)
+            
+            if abs(curr_weight - next_weight) < 0.001:  # Equal weights (within float precision)
+                curr_name = curr_sys.get("star_system", "")
+                next_name = next_sys.get("star_system", "")
+                
+                try:
+                    curr_idx = CANONICAL_SYSTEMS.index(curr_name)
+                    next_idx = CANONICAL_SYSTEMS.index(next_name)
+                    
+                    if curr_idx > next_idx:
+                        errors.append(
+                            f"{line_key}: Tie-breaking order violated - "
+                            f"{curr_name} (weight {curr_weight}) should come after "
+                            f"{next_name} (weight {next_weight}) in canonical order"
+                        )
+                except ValueError:
+                    # Invalid system name, will be caught by canonical name validation
+                    pass
+    
+    return errors
+
+
+def validate_sparse_format(weights: Dict) -> List[str]:
+    """Verify sparse format: only non-zero weights present."""
+    errors = []
+    
+    for line_key in sorted([k for k in weights.keys() if k != "_meta"]):
+        systems = weights[line_key]
+        
+        if not isinstance(systems, list):
+            continue
+        
+        for sys in systems:
+            weight = sys.get("weight", 0.0)
+            star_system = sys.get("star_system", "")
+            
+            if weight == 0.0:
+                errors.append(
+                    f"{line_key}: Sparse format violation - {star_system} has weight 0.0 "
+                    f"(should be omitted from output)"
+                )
+    
+    return errors
+
+
+def validate_sum_unorm(weights: Dict) -> List[str]:
+    """Verify sum_unorm equals sum of all non-zero weights across all 6 lines."""
+    errors = []
+    
+    declared_sum = weights.get("_meta", {}).get("sum_unorm")
+    
+    if declared_sum is None:
+        errors.append("Missing sum_unorm in _meta block")
+        return errors
+    
+    # Compute actual sum
+    actual_sum = 0.0
+    for line_key in [k for k in weights.keys() if k != "_meta"]:
+        systems = weights[line_key]
+        
+        if not isinstance(systems, list):
+            continue
+        
+        for sys in systems:
+            weight = sys.get("weight", 0.0)
+            actual_sum += weight
+    
+    # Round to 2 decimal places for comparison (accounting for float precision)
+    actual_sum = round(actual_sum, 2)
+    declared_sum = round(declared_sum, 2)
+    
+    if abs(actual_sum - declared_sum) > 0.01:
+        errors.append(
+            f"sum_unorm mismatch: declared {declared_sum}, "
+            f"but sum of all weights = {actual_sum}"
+        )
     
     return errors
 
@@ -432,19 +586,63 @@ def main():
         print("  ✓ Polarity presence valid")
     print()
     
+    # Canonical names
+    print("7. Canonical names...")
+    errors = validate_canonical_names(weights)
+    if errors:
+        all_errors.extend(errors)
+        for err in errors:
+            print(f"  ✗ {err}")
+    else:
+        print("  ✓ Canonical names valid")
+    print()
+    
+    # Key format
+    print("8. Key format...")
+    errors = validate_key_format(weights)
+    if errors:
+        all_errors.extend(errors)
+        for err in errors:
+            print(f"  ✗ {err}")
+    else:
+        print("  ✓ Key format valid")
+    print()
+    
     # Sorting
-    print("7. Sorting...")
+    print("9. Sorting and tie-breaking...")
     errors = validate_sorting(weights)
     if errors:
         all_errors.extend(errors)
         for err in errors:
             print(f"  ✗ {err}")
     else:
-        print("  ✓ Sorting valid")
+        print("  ✓ Sorting and tie-breaking valid")
+    print()
+    
+    # Sparse format
+    print("10. Sparse format...")
+    errors = validate_sparse_format(weights)
+    if errors:
+        all_errors.extend(errors)
+        for err in errors:
+            print(f"  ✗ {err}")
+    else:
+        print("  ✓ Sparse format valid")
+    print()
+    
+    # Sum unorm
+    print("11. Sum unorm...")
+    errors = validate_sum_unorm(weights)
+    if errors:
+        all_errors.extend(errors)
+        for err in errors:
+            print(f"  ✗ {err}")
+    else:
+        print("  ✓ Sum unorm valid")
     print()
     
     # Beacon match
-    print("8. Beacon match...")
+    print("12. Beacon match...")
     errors = validate_beacon_match(weights, evidence, args.beacon)
     if errors:
         all_errors.extend(errors)

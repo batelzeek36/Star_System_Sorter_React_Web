@@ -110,3 +110,12 @@ Schemas are located in `GPT-5/schemas/`:
 - `polarity: "shadow"` → "Growth Edge" (UI display)
 - `role: "primary"` → "Primary Signal" (UI display)
 - `role: "secondary"` → "Supporting Signal" (UI display)
+
+### Important: Role vs Polarity
+**Role** = ranking/priority (primary = 1st place, secondary = 2nd place by weight)  
+**Polarity** = behavioral quality (core = healthy, shadow = distorted)
+
+These are independent concepts:
+- A system can be `role: "secondary"` with `polarity: "core"` (2nd-ranked, healthy)
+- A system can be `role: "secondary"` with `polarity: "shadow"` (2nd-ranked, distorted)
+- The "why" field in star-maps should reference the **polarity**, not the role (e.g., "Sirius core —" not "Sirius secondary —")

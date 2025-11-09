@@ -30,20 +30,20 @@
   - Create refinement notes document
   - _Requirements: 1.1, 7.1-7.5_
 
-- [ ] 5. Prompt Generation Automation
+- [x] 5. Prompt Generation Automation
   - Create script to generate 64 gate-specific prompts from template
   - Verify all required input files exist for each gate
   - Write prompts to GPT-5/prompts/gates/ directory
-  - _Requirements: 8.1_
+  - _Requirements: 8.1_a
 
-- [ ] 6. Context Packing Script
+- [x] 6. Context Packing Script
   - Implement script to inline baseline, gate, and hexagram files into prompts
   - Ensure packed prompts are self-contained and ready to use
   - Test with Gate 1 prompt
   - _Requirements: 5.1-5.3, 8.1_
 
 - [ ] 7. Validation Script Suite
-- [ ] 7.1 Core validation script
+- [x] 7.1 Core validation script
   - Implement JSON schema validation
   - Add top-2 constraint checking
   - Add pairwise exclusion rule verification

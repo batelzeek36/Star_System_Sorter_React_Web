@@ -1,35 +1,21 @@
-# Claude Projects Upload Package - Star System Mapping
+# Claude Projects Upload - DEPRECATED
 
-This folder contains all the essential files needed to upload to Claude Projects for gate.line → star system mapping work.
+**⚠️ The files in this directory use pre-v4.2 terminology and are DEPRECATED.**
 
-## Contents
+## What Changed in v4.2
 
-### Core Instructions
-- `CLAUDE_PROJECTS_SCORING_UPLOAD.md` - Main workflow and instructions (symlink)
-- `gate-line-standard.md` - Universal mapping methodology (motivation-based) **[CANONICAL LOCATION]**
-- `SHADOW_AS_DISTORTION_NOT_OPPOSITION.md` - Critical conceptual framework (symlink)
-- `BATCH_FILE_SPECIFICATION.md` - Expected output format (symlink)
+The v4.2 model separates two independent concepts:
+- **`role`**: Ranking/priority (`"primary"` = 1st place, `"secondary"` = 2nd place by weight)
+- **`polarity`**: Behavioral quality (`"core"` = healthy, `"shadow"` = distorted)
 
-### Star System Baselines (v4.2)
-All 8 star system baseline files in `star-system-baselines/`:
-- `andromeda-baseline-4.2.json`
-- `arcturus-baseline-4.2.json`
-- `draco-baseline-4.2.json`
-- `lyra-baseline-4.2.json`
-- `orion-dark-baseline-4.2.json`
-- `orion-light-baseline-4.2.json`
-- `pleiades-baseline-4.2.json`
-- `sirius-baseline-4.2.json`
+The old model used `alignment_type: "core" | "secondary" | "none"` which conflated ranking with behavioral quality.
 
-### Research Context
-- `METHODOLOGY.md` - Research methodology documentation
+## Use This Instead
 
-## Usage
+**Current prompt template**: `GPT-5/prompts/gate-scoring-prompt-template.md`
 
-Upload all files in this folder to your Claude Project. The gate-line-API-call files (gate-line-1.json through gate-line-64.json) should be referenced from their original location as needed per batch.
+This template uses the correct v4.2 `role` + `polarity` separation.
 
-## Note
+## Archived Files
 
-Most files are symlinks to their canonical locations in the repo. This keeps the upload package in sync with any updates to the source files.
-
-**Exception:** `gate-line-standard.md` lives here as its canonical location. It was moved from `.kiro/steering/` to avoid consuming tokens in every Kiro conversation, since it's only needed for Claude Projects star system mapping work.
+Original files moved to `_ARCHIVED_PRE_V4.2/` for reference only. Do not use these for new work.
