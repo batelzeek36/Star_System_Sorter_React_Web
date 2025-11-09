@@ -1,0 +1,286 @@
+{
+  "version": "4.2",
+  "source": "auto-combined from separate v4.2 baselines",
+  "systems": [
+    {
+      "name": "Pleiades",
+      "source_file": "pleiades-baseline-4_2.json",
+      "beacon": "8485865f",
+      "mapping_digest": {
+        "core_themes": [
+          "Emotional co-regulation and nervous system soothing",
+          "Caretaking and feeding/nurturing behavior",
+          "Bonding panic and need-sensitivity",
+          "Maternal protection and keeping everyone alive",
+          "Compassion training and emotional healing",
+          "Collective nurturing and sisterhood unity",
+          "Stewarding seasonal cycles of care and making sure the group has what it needs to survive and recover together"
+        ],
+        "shadow_themes": [
+          "Caretaking panic and anxious attachment",
+          "Emotional enmeshment and boundary dissolution",
+          "Martyrdom through over-giving",
+          "Crisis-for-attachment and emotional escalation as bonding strategy"
+        ],
+        "quick_rules": [
+          "If the behavior is emotional co-regulation, nervous system soothing, caretaking panic, feeding/nurturing, or keeping everyone alive through bonding, that's Pleiades.",
+          "If the behavior is predator scanning, hierarchical enforcement, loyalty control, or survival through dominance, that's Draco, not Pleiades.",
+          "If the behavior is spiritual initiation through ordeal or sacred instruction, that's Sirius or Orion-Light, not Pleiades.",
+          "If the behavior is frequency healing or vibrational recalibration, that's Arcturus, not Pleiades.",
+          "If the behavior is empire management or coercive control, that's Orion-Dark, not Pleiades.",
+          "If the behavior is liberation from captivity or anti-domination intervention, that's Andromeda, not Pleiades.",
+          "Pleiades is about emotional safety and nurturing, not about power hierarchies, spiritual ordeals, frequency work, or liberation struggles."
+        ]
+      },
+      "counts": {
+        "core": 7,
+        "shadow": 4
+      }
+    },
+    {
+      "name": "Sirius",
+      "source_file": "sirius-baseline-4_2.json",
+      "beacon": "182956e1",
+      "mapping_digest": {
+        "core_themes": [
+          "Spiritual initiation and liberation current",
+          "Sacred knowledge transmission and cosmic law teaching",
+          "Royal resurrection and pharaonic renewal (Isis-Sothis-Osiris)",
+          "Path to freedom through higher initiation",
+          "Love-wisdom transmission and spiritual hierarchy guidance",
+          "Acts as a timing signal for collective renewal and rebirth rituals ('this is when we begin again, re-consecrate, or restore life to the group')",
+          "Teachers and bringers of sacred instruction"
+        ],
+        "shadow_themes": [
+          "Initiatory elitism and spiritual gatekeeping",
+          "Dogmatic adherence to cosmic law without compassion",
+          "Spiritual hierarchy as power structure"
+        ],
+        "quick_rules": [
+          "If the behavior is spiritual initiation, liberation through higher teaching, sacred instruction, cosmic law transmission, royal resurrection current, or path to freedom through advanced knowledge, that's Sirius.",
+          "If the behavior is honorable trial or warrior initiation through ordeal, that's Orion-Light, not Sirius (Sirius is about liberation and teaching, Orion-Light is about ordeal and mystery schools).",
+          "If the behavior is predator scanning or loyalty enforcement, that's Draco, not Sirius.",
+          "If the behavior is emotional co-regulation or caretaking, that's Pleiades, not Sirius.",
+          "If the behavior is frequency healing or vibrational uplift, that's Arcturus, not Sirius.",
+          "If the behavior is empire management or coercive control, that's Orion-Dark, not Sirius.",
+          "Sirius is about liberation through sacred teaching and spiritual initiation, not about dominance, emotional bonding, frequency work, or empire control."
+        ]
+      },
+      "counts": {
+        "core": 7,
+        "shadow": 3
+      }
+    },
+    {
+      "name": "Lyra",
+      "source_file": "lyra-baseline-4_2.json",
+      "beacon": "83e32839",
+      "mapping_digest": {
+        "core_themes": [
+          "Musical and artistic enchantment",
+          "Creative expression and aesthetic power",
+          "Progenitor consciousness and genetic seeding (modern)",
+          "Unity through artistic collaboration and harmonic co-creation",
+          "Immortalization through beauty and art",
+          "Volunteer soul missions and incarnational assistance"
+        ],
+        "shadow_themes": [
+          "Artistic elitism and aesthetic superiority",
+          "Grief and mourning that becomes identity",
+          "Progenitor pride and genetic supremacy narratives"
+        ],
+        "quick_rules": [
+          "If the behavior is about musical enchantment, artistic creation, aesthetic power, creative collaboration, or immortalization through beauty, that's Lyra.",
+          "If the behavior is predator scanning, loyalty enforcement, or survival through dominance, that's Draco, not Lyra.",
+          "If the behavior is emotional caretaking, nervous system soothing, or feeding/nurturing, that's Pleiades, not Lyra.",
+          "If the behavior is liberation through sacred instruction, cosmic law, or higher teaching that frees the captive, that's Sirius, not Lyra.",
+          "If the behavior is honorable trial, ordeal, warrior initiation, or earning rank through courage and discipline, that's Orion-Light, not Lyra.",
+          "If the behavior is frequency calibration or vibrational healing, that's Arcturus, not Lyra.",
+          "If the behavior is liberation from captivity or anti-domination intervention, that's Andromeda, not Lyra.",
+          "If the behavior is empire management, coercive control, obedience enforcement, psychological pressure at scale, or genetic manipulation to dominate and enslave, that's Orion-Dark, not Lyra (Lyra may talk about ancestry or seeding, but not about controlling you through it).",
+          "Lyra is about artistic expression and creative power, not about dominance hierarchies, emotional bonding, spiritual ordeals, or liberation struggles."
+        ]
+      },
+      "counts": {
+        "core": 6,
+        "shadow": 3
+      }
+    },
+    {
+      "name": "Andromeda",
+      "source_file": "andromeda-baseline-4_2.json",
+      "beacon": "f3d43f29",
+      "mapping_digest": {
+        "core_themes": [
+          "Liberation from captivity and unjust bondage",
+          "Intervention to free the bound and restore sovereignty",
+          "Anti-domination ethics and non-hierarchical council governance",
+          "Cosmic justice alignment and restoration of balance",
+          "Extragalactic perspective and separate civilization consciousness"
+        ],
+        "shadow_themes": [
+          "Passive victimhood and waiting for rescue",
+          "Martyrdom complex and self-sacrifice without agency",
+          "Idealistic council structures that avoid direct action"
+        ],
+        "quick_rules": [
+          "If the behavior is breaking chains, freeing captives, interrupting abuse, challenging domination, or restoring sovereignty to someone who was claimed/owned, that's Andromeda.",
+          "If the behavior is predator scanning, loyalty enforcement, territorial control, or survival-through-dominance inside a threatened group, that's Draco, not Andromeda. Draco protects by controlling access; Andromeda liberates by removing the captor.",
+          "If the behavior is empire management, obedience infrastructure, psychological pressure at scale, or 'the many must submit to the few,' that's Orion-Dark, not Andromeda. Orion-Dark builds domination systems; Andromeda dismantles them.",
+          "If the behavior is emotional co-regulation, nervous system soothing, feeding, tending, holding someone until they feel safe, that's Pleiades, not Andromeda. Pleiades heals through nurture; Andromeda rescues through intervention.",
+          "If the behavior is clinical/vibrational healing, frequency calibration, energetic repair, clearing trauma residue after harm, or running people through light/sound chambers, that's Arcturus, not Andromeda. Arcturus is post-liberation stabilization.",
+          "If the behavior is honorable ordeal, spiritual trial, warrior initiation, rank earned through suffering for a sacred code, that's Orion-Light, not Andromeda.",
+          "If the behavior is sacred-law liberation from ownership ('you are not property under cosmic law') and proclamation of inherent freedom as a teaching, that's Sirius, not Andromeda. Sirius is liberation doctrine; Andromeda is physical/structural rescue.",
+          "If the behavior is aesthetic legacy, mythic artistry, immortalizing beauty, cultural refinement, or 'our lineage is the original creative template,' that's Lyra, not Andromeda. Lyra elevates through art and mythic prestige; Andromeda intervenes against captivity.",
+          "Andromeda is about anti-domination action and sovereignty restoration, not territorial dominance, emotional caretaking, vibrational medicine, aesthetic immortality, ordeal-initiation, or empire control."
+        ]
+      },
+      "counts": {
+        "core": 5,
+        "shadow": 3
+      }
+    },
+    {
+      "name": "Orion Light",
+      "source_file": "orion-light-baseline-4_2.json",
+      "beacon": "c2dea011",
+      "mapping_digest": {
+        "core_themes": [
+          "Honorable trial and spiritual warrior initiation",
+          "Ascending through ordeal in service to a higher code",
+          "Mystery school preservation and sacred knowledge transmission",
+          "Ritual death-and-rebirth initiation that grants rightful leadership duty and moral authority",
+          "Embedding cosmic law and the initiation path into physical systems, oaths, or institutions so future generations stay aligned",
+          "Thoth-Hermes lineage as divine scribe and cosmic law transmitter",
+          "Record keeping and preservation of primordial knowledge"
+        ],
+        "shadow_themes": [
+          "Initiatory elitism and gatekeeping of sacred knowledge",
+          "Ordeal fetishization and unnecessary suffering",
+          "Spiritual pride in having 'passed the test'"
+        ],
+        "quick_rules": [
+          "If the behavior is honorable trial, spiritual/warrior initiation, ascending through ordeal in service to a higher code, mystery school transmission, sacred knowledge preservation, or earning rank through courage and integrity, that's Orion-Light.",
+          "If the behavior is empire management, coercive control structures, obedience enforcement, or psychological pressure at scale, that's Orion-Dark, not Orion-Light.",
+          "If the behavior is predator scanning and loyalty enforcement at the tribal level, that's Draco, not Orion-Light.",
+          "If the behavior is emotional co-regulation or caretaking, that's Pleiades, not Orion-Light.",
+          "If the behavior is frequency healing or vibrational uplift, that's Arcturus, not Orion-Light.",
+          "If the behavior is liberation teaching or spiritual instruction for freedom, that's Sirius, not Orion-Light (Sirius is about liberation, Orion-Light is about ordeal and mystery schools).",
+          "If the behavior is rescuing the captive, breaking chains of exploitation, or intervening against unjust domination, that's Andromeda, not Orion-Light (Andromeda breaks chains, Orion-Light tests worthiness through ordeal).",
+          "Orion-Light is about initiation through ordeal and sacred teaching, not about empire control, emotional bonding, or liberation struggles."
+        ]
+      },
+      "counts": {
+        "core": 7,
+        "shadow": 3
+      }
+    },
+    {
+      "name": "Orion Dark",
+      "source_file": "orion-dark-baseline-4_2.json",
+      "beacon": "963b586d",
+      "mapping_digest": {
+        "core_themes": [
+          "Empire management and coercive control structures",
+          "Hierarchical power consolidation through obedience enforcement",
+          "Bureaucratic psychological pressure and population-scale manipulation infrastructure",
+          "Genetic engineering and DNA control programs",
+          "Telepathic influence and thought-form seeding",
+          "Service-to-self polarity and power-through-enslavement",
+          "Advancing in a rigid chain of command by proving you can control and extract obedience from others"
+        ],
+        "shadow_themes": [
+          "Spiritual entropy and alliance instability",
+          "Loss of coherence through negative polarity",
+          "Manipulation through fear and hostile thought-forms",
+          "Enslavement of the less powerful as power source"
+        ],
+        "quick_rules": [
+          "If the behavior is empire management, coercive control structures at scale, obedience enforcement across systems, psychological pressure infrastructure, or genetic manipulation for control, that's Orion-Dark.",
+          "If the behavior is honorable trial, spiritual/warrior initiation, or ascending through ordeal in service to a higher code, that's Orion-Light, not Orion-Dark.",
+          "If the behavior is predator scanning and loyalty enforcement at the tribal/survival level, that's Draco, not Orion-Dark (Orion-Dark operates at imperial/planetary scale, Draco is tribal/immediate).",
+          "If the behavior is emotional co-regulation or caretaking panic, that's Pleiades, not Orion-Dark.",
+          "If the behavior is spiritual initiation or sacred teaching for liberation, that's Sirius, not Orion-Dark.",
+          "If the behavior is stepping in to break chains, free the captive, or end unjust domination, that's Andromeda, not Orion-Dark (Orion-Dark is the captor/system, Andromeda is the liberator).",
+          "If the behavior is frequency healing, vibrational recalibration, or technical energetic tuning to restore coherence, that's Arcturus, not Orion-Dark.",
+          "Orion-Dark is about empire-scale control and psychological manipulation, not tribal survival, emotional bonding, or honorable initiation."
+        ]
+      },
+      "counts": {
+        "core": 7,
+        "shadow": 4
+      }
+    },
+    {
+      "name": "Arcturus",
+      "source_file": "arcturus-baseline-4_2.json",
+      "beacon": "25cdcc92",
+      "mapping_digest": {
+        "core_themes": [
+          "Frequency calibration and vibrational healing",
+          "Energetic recalibration and consciousness uplift",
+          "Soul transit gateway and incarnational checkpoint",
+          "Light and sound healing modalities",
+          "Dimensional ascension assistance and frequency medicine",
+          "Emotional and spiritual field clearing"
+        ],
+        "shadow_themes": [
+          "Spiritual bypassing through frequency work without integration",
+          "Detachment from embodied experience in favor of 'higher vibrations'",
+          "Elitism around vibrational purity"
+        ],
+        "quick_rules": [
+          "If the behavior is about frequency tuning, vibrational recalibration, energetic healing chambers, dimensional ascension support, clearing distortion, or clinical/technical repair of the field, that's Arcturus.",
+          "If the behavior is emotional co-regulation, nervous system soothing, feeding/nurturing, or 'I will hold you so you feel safe,' that's Pleiades, not Arcturus. Pleiades heals through comfort and bonding; Arcturus heals through frequency engineering.",
+          "If the behavior is predator scanning, loyalty enforcement, territorial defense, resource/energy hoarding, or survival through dominance hierarchy, that's Draco, not Arcturus. Draco protects by controlling access; Arcturus heals by recalibrating.",
+          "If the behavior is honorable trial, warrior initiation, rank earned through ordeal, or passing tests under a sacred code, that's Orion-Light, not Arcturus.",
+          "If the behavior is liberation teaching â€” freeing captives, dissolving domination structures, invoking sacred law that says 'you are not property' â€” that's Sirius, not Arcturus.",
+          "If the behavior is breaking chains, overthrowing captors, insisting on absolute freedom and 'no one owns me/us,' that's Andromeda, not Arcturus. Andromeda is liberation impulse; Arcturus is post-liberation healing/calibration.",
+          "If the behavior is aesthetic power, artistic enchantment, legacy beauty, cultural refinement, or 'we are the original template' pride, that's Lyra, not Arcturus. Lyra elevates through art and lineage; Arcturus elevates through energetic medicine.",
+          "If the behavior is empire management, obedience infrastructure across populations, psychological control at scale, or enforced hierarchy for planetary takeover, that's Orion-Dark, not Arcturus. Orion-Dark restructures by domination; Arcturus stabilizes by healing.",
+          "Arcturus is about frequency healing, vibrational recalibration, and transit support â€” not emotional caretaking, territorial dominance, artistic prestige, liberation warfare, or imperial control."
+        ]
+      },
+      "counts": {
+        "core": 6,
+        "shadow": 3
+      }
+    },
+    {
+      "name": "Draco",
+      "source_file": "draco-baseline-4_2.json",
+      "beacon": "d1ed173b",
+      "mapping_digest": {
+        "core_themes": [
+          "Survival through dominance hierarchy and power consolidation",
+          "Predator scanning and threat assessment",
+          "Loyalty enforcement and access control",
+          "Strategic resource hoarding and territorial defense",
+          "Survival continuity and fear of collapse",
+          "Hierarchical order and pecking-order maintenance"
+        ],
+        "shadow_themes": [
+          "Paranoid control and power hoarding",
+          "Ruthless elimination of perceived threats",
+          "Greed and apocalyptic entropy (Western dragon archetype)",
+          "Coercive obedience enforcement"
+        ],
+        "quick_rules": [
+          "If the behavior is predator scanning, hierarchical enforcement, loyalty control, survival through dominance, strategic resource hoarding, or tribal fear-based access control, that's Draco.",
+          "If the behavior is emotional co-regulation, nervous system soothing, caretaking panic, or feeding/nurturing others, that's Pleiades, not Draco.",
+          "If the behavior is empire management, coercive control structures at scale, or obedience infrastructure across systems, that's Orion-Dark, not Draco (Draco is tribal/immediate survival, Orion-Dark is empire-scale colonizer control).",
+          "If the behavior is liberation through sacred instruction, higher teaching, cosmic law, or spiritual guidance that frees the captive, that's Sirius, not Draco.",
+          "If the behavior is honorable trial, ordeal, warrior initiation, or earning rank through courage and discipline in service to a higher code, that's Orion-Light, not Draco.",
+          "If the behavior is frequency healing or vibrational uplift, that's Arcturus, not Draco.",
+          "If the behavior is breaking chains, freeing captives, overthrowing domination, or insisting on personal/collective freedom from control, that's Andromeda, not Draco. Draco enforces a perimeter; Andromeda breaks cages.",
+          "If the behavior is aesthetic superiority, artistic mystique, 'we are the refined original pattern,' or legacy pride framed as beauty/lineage rather than force, that's Lyra, not Draco. Draco asserts control through threat and loyalty, not through aesthetic refinement.",
+          "Draco is about survival through power and dominance at the tribal/immediate level, not about emotional safety, empire management, or spiritual teaching."
+        ]
+      },
+      "counts": {
+        "core": 6,
+        "shadow": 4
+      }
+    }
+  ]
+}
