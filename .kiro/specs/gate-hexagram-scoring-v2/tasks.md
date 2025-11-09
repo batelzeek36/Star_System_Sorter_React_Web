@@ -6,7 +6,7 @@
   - Validate schemas against example files from requirements
   - _Requirements: 1.2, 6.3_
 
-- [ ] 2. Master Prompt Template Creation
+- [x] 2. Master Prompt Template Creation
   - Write comprehensive prompt template with three-phase instructions
   - Include top-2 constraint enforcement rules
   - Document all pairwise exclusion invariants
@@ -14,7 +14,7 @@
   - Include weight calibration scale and canonical system names
   - _Requirements: 1.1, 1.4, 3.1, 3.2, 4.1-4.6_
 
-- [ ] 3. Gate 1 Pilot Test
+- [x] 3. Gate 1 Pilot Test
   - Apply prompt template to Gate 1
   - Generate weight and evidence files
   - Validate outputs against schemas
@@ -23,7 +23,7 @@
   - Confirm baseline beacon matches
   - _Requirements: 1.1, 1.2, 2.1-2.5, 3.1-3.5, 4.1-4.6, 5.1-5.5, 6.1-6.6, 7.1-7.5_
 
-- [ ] 4. Prompt Refinement
+- [x] 4. Prompt Refinement
   - Document issues found in Gate 1 test
   - Update prompt template to address failures
   - Re-test Gate 1 to confirm fixes
