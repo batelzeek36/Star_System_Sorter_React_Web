@@ -3,283 +3,217 @@
     "version": "4.2",
     "baseline_beacon": "59bfc617",
     "gate": "01",
-    "generated_at": "2025-01-15T10:30:00Z",
+    "generated_at": "2025-01-15T18:30:00Z",
     "generator": "Manual"
   },
   "01.1": [
     {
       "star_system": "Lyra",
-      "polarity": "core",
       "sources": {
         "legge1899": {
-          "quote": "the dragon lies hid in the deep; it is not the time for active doing",
-          "locator": "Legge 1899, Hex 1, Line 1",
+          "quote": "the dragon lying hid (in the deep). It is not the time for active doing.",
+          "locator": "Hex 1, Line 1",
           "attribution": "Legge 1899"
         },
         "line_companion": {
           "quote": "Time is everything. You have to wait for it.",
-          "locator": "Line Companion, Gate 1 Line 1",
-          "attribution": "Line Companion"
+          "locator": "Gate 1, Line 1",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["waits", "conserves energy", "does not force", "private incubation"],
-        "ic_atoms": ["hidden dragon", "timing", "restraint", "latent potential"]
+        "hd_keywords": ["time", "wait", "patience", "mutation"],
+        "ic_atoms": ["lying hid", "not the time"]
       },
-      "why_cited": "HD favors waiting and self-timed creation; IC names hidden dragon and no action, emphasizing restrained potential.",
+      "why_cited": "Patient incubation without premature display = Lyra creative expression held until ripe (quick_rule: 'artistic creation, aesthetic power').",
+      "polarity": "core",
       "confidence": 5
-    },
-    {
-      "star_system": "Sirius",
-      "polarity": "core",
-      "sources": {
-        "legge1899": {
-          "quote": "the dragon lies hid in the deep; it is not the time for active doing",
-          "locator": "Legge 1899, Hex 1, Line 1",
-          "attribution": "Legge 1899"
-        },
-        "line_companion": {
-          "quote": "Time is everything. You have to wait for it.",
-          "locator": "Line Companion, Gate 1 Line 1",
-          "attribution": "Line Companion"
-        }
-      },
-      "atoms": {
-        "hd_keywords": ["waits", "conserves energy", "sacred timing", "initiation"],
-        "ic_atoms": ["hidden dragon", "timing", "restraint"]
-      },
-      "why_cited": "Healthy behavior honors sacred timing and initiation; IC's hidden dragon signals pause before ritual emergence.",
-      "confidence": 4
     }
   ],
   "01.2": [
     {
       "star_system": "Orion Light",
-      "polarity": "core",
       "sources": {
         "legge1899": {
-          "quote": "the dragon appearing in the field; it will be advantageous to see the great man",
-          "locator": "Legge 1899, Hex 1, Line 2",
+          "quote": "the dragon appearing in the field. It will be advantageous to meet with the great man.",
+          "locator": "Hex 1, Line 2",
           "attribution": "Legge 1899"
         },
         "line_companion": {
-          "quote": "When you are called out, you must respond.",
-          "locator": "Line Companion, Gate 1 Line 2",
-          "attribution": "Line Companion"
+          "quote": "Somebody looks inside and sees that difference.",
+          "locator": "Gate 1, Line 2",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["answers a call", "meets ally", "shows work", "accepts guidance"],
-        "ic_atoms": ["appearing", "meeting the great man", "recognition", "benefit"]
+        "hd_keywords": ["called out", "interfered with", "seen", "recognized"],
+        "ic_atoms": ["appearing", "meet the great man"]
       },
-      "why_cited": "Emergence + meeting the great one = initiation/ordeal pattern (Orion Light quick_rule).",
+      "why_cited": "Emergence + meeting the great one = initiation/ordeal pattern (Orion Light quick_rule: 'honorable trial, mystery school').",
+      "polarity": "core",
       "confidence": 5
     },
     {
       "star_system": "Sirius",
-      "polarity": "core",
       "sources": {
         "legge1899": {
-          "quote": "the dragon appearing in the field; it will be advantageous to see the great man",
-          "locator": "Legge 1899, Hex 1, Line 2",
+          "quote": "",
+          "locator": "Hex 1, Line 2",
           "attribution": "Legge 1899"
         },
         "line_companion": {
-          "quote": "When you are called out, you must respond.",
-          "locator": "Line Companion, Gate 1 Line 2",
-          "attribution": "Line Companion"
+          "quote": "Love is light. Venus exalted as a symbol of beauty.",
+          "locator": "Gate 1, Line 2",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["answers a call", "shares responsibly", "teacher", "instruction"],
-        "ic_atoms": ["appearance", "ally/mentor", "recognition"]
+        "hd_keywords": ["love", "light", "beauty", "harmony"],
+        "ic_atoms": ["appearing", "field"]
       },
-      "why_cited": "Seeks initiation through contact with a worthy teacher; IC favors audience with the great person.",
-      "confidence": 4
+      "why_cited": "Love as light + harmony between values = touches sacred instruction aspect (Sirius quick_rule: 'sacred knowledge transmission').",
+      "polarity": "core",
+      "confidence": 3
     }
   ],
   "01.3": [
     {
-      "star_system": "Lyra",
-      "polarity": "core",
+      "star_system": "Orion Light",
       "sources": {
         "legge1899": {
-          "quote": "all the day long the superior man is creatively active; at nightfall his mind is still beset with cares",
-          "locator": "Legge 1899, Hex 1, Line 3",
+          "quote": "the superior man active and vigilant all the day, and in the evening still careful and apprehensive.",
+          "locator": "Hex 1, Line 3",
           "attribution": "Legge 1899"
         },
         "line_companion": {
-          "quote": "You work and work and work.",
-          "locator": "Line Companion, Gate 1 Line 3",
-          "attribution": "Line Companion"
+          "quote": "Mars exalted as the symbol of a profound need for self-expression.",
+          "locator": "Gate 1, Line 3",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["persists", "works long hours", "self-propels", "vigilant"],
-        "ic_atoms": ["unceasing action", "risk/danger", "vigilance", "strain"]
+        "hd_keywords": ["energy", "sustain", "Mars", "endurance"],
+        "ic_atoms": ["vigilant", "careful", "apprehensive", "dangerous"]
       },
-      "why_cited": "Drives creation through sustained effort; IC emphasizes ceaseless activity and vigilance amid difficulty.",
-      "confidence": 4
-    },
-    {
-      "star_system": "Arcturus",
+      "why_cited": "Sustained vigilance through danger + Martian endurance = honorable trial (Orion Light quick_rule: 'honorable trial, warrior initiation').",
       "polarity": "core",
-      "sources": {
-        "legge1899": {
-          "quote": "all the day long the superior man is creatively active; at nightfall his mind is still beset with cares",
-          "locator": "Legge 1899, Hex 1, Line 3",
-          "attribution": "Legge 1899"
-        },
-        "line_companion": {
-          "quote": "You work and work and work.",
-          "locator": "Line Companion, Gate 1 Line 3",
-          "attribution": "Line Companion"
-        }
-      },
-      "atoms": {
-        "hd_keywords": ["persists", "manages risk", "stays vigilant", "structures"],
-        "ic_atoms": ["unceasing action", "risk/danger", "vigilance"]
-      },
-      "why_cited": "Builds structure to handle load; IC warns of danger during nonstop striving, inviting disciplined management.",
-      "confidence": 4
+      "confidence": 5
     }
   ],
   "01.4": [
     {
-      "star_system": "Sirius",
-      "polarity": "core",
+      "star_system": "Lyra",
       "sources": {
         "legge1899": {
-          "quote": "wavering flight over the depths; there will be no error",
-          "locator": "Legge 1899, Hex 1, Line 4",
+          "quote": "the dragon looking as if he were leaping up, but still in the deep.",
+          "locator": "Hex 1, Line 4",
           "attribution": "Legge 1899"
         },
         "line_companion": {
-          "quote": "This is a time of testing and transition.",
-          "locator": "Line Companion, Gate 1 Line 4",
-          "attribution": "Line Companion"
+          "quote": "Aloneness as the medium of creativity.",
+          "locator": "Gate 1, Line 4",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["tests limits", "seeks counsel", "adjusts course", "holds nerve"],
-        "ic_atoms": ["threshold/abyss", "risk with guidance", "no blame", "transition"]
+        "hd_keywords": ["aloneness", "creativity", "inner tension", "no influence"],
+        "ic_atoms": ["leaping", "still in deep"]
       },
-      "why_cited": "Accepts initiation across an abyss; IC shows perilous flight with counsel yielding no blame.",
+      "why_cited": "Aloneness as creative medium + personal perspective outside influence = Lyra artistic creation (quick_rule: 'artistic creation, aesthetic power').",
+      "polarity": "core",
       "confidence": 5
-    },
-    {
-      "star_system": "Andromeda",
-      "polarity": "core",
-      "sources": {
-        "legge1899": {
-          "quote": "wavering flight over the depths; there will be no error",
-          "locator": "Legge 1899, Hex 1, Line 4",
-          "attribution": "Legge 1899"
-        },
-        "line_companion": {
-          "quote": "This is a time of testing and transition.",
-          "locator": "Line Companion, Gate 1 Line 4",
-          "attribution": "Line Companion"
-        }
-      },
-      "atoms": {
-        "hd_keywords": ["tests limits", "adjusts course", "moves cautiously", "adapts"],
-        "ic_atoms": ["threshold/abyss", "risk with guidance", "no blame"]
-      },
-      "why_cited": "Moves into uncertainty and adapts mid-flight; IC depicts risky passage without fault.",
-      "confidence": 4
     }
   ],
   "01.5": [
     {
-      "star_system": "Orion Light",
-      "polarity": "core",
-      "sources": {
-        "legge1899": {
-          "quote": "the dragon is on the wing in the sky; it will be advantageous to see the great man",
-          "locator": "Legge 1899, Hex 1, Line 5",
-          "attribution": "Legge 1899"
-        },
-        "line_companion": {
-          "quote": "You have earned the right to lead.",
-          "locator": "Line Companion, Gate 1 Line 5",
-          "attribution": "Line Companion"
-        }
-      },
-      "atoms": {
-        "hd_keywords": ["leads by example", "shows mastery", "elevates others", "excellence"],
-        "ic_atoms": ["flying dragon", "heaven", "leadership", "recognition"]
-      },
-      "why_cited": "Creative mastery ascends; IC's flying dragon in heaven signals recognized leadership.",
-      "confidence": 5
-    },
-    {
       "star_system": "Sirius",
-      "polarity": "core",
       "sources": {
         "legge1899": {
-          "quote": "the dragon is on the wing in the sky; it will be advantageous to see the great man",
-          "locator": "Legge 1899, Hex 1, Line 5",
+          "quote": "the dragon on the wing in the sky. It will be advantageous to meet with the great man.",
+          "locator": "Hex 1, Line 5",
           "attribution": "Legge 1899"
         },
         "line_companion": {
-          "quote": "You have earned the right to lead.",
-          "locator": "Line Companion, Gate 1 Line 5",
-          "attribution": "Line Companion"
+          "quote": "The energy to attract society.",
+          "locator": "Gate 1, Line 5",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["leads by example", "elevates others", "radiates", "teaching"],
-        "ic_atoms": ["flying dragon", "heaven", "leadership"]
+        "hd_keywords": ["attract", "society", "projection", "talented"],
+        "ic_atoms": ["on the wing", "in the sky", "great man"]
       },
-      "why_cited": "Initiated creator now radiates; IC associates ascent with the great person and broad benefit.",
-      "confidence": 5
-    }
-  ],
-  "01.6": [
-    {
-      "star_system": "Orion Dark",
+      "why_cited": "Attracts society's projection + powerful recognition field = Sirius shadow gatekeeping through fame (quick_rule: 'sacred knowledge transmission').",
       "polarity": "shadow",
-      "sources": {
-        "legge1899": {
-          "quote": "the dragon exceeds the proper limits; there will be occasion for repentance",
-          "locator": "Legge 1899, Hex 1, Line 6",
-          "attribution": "Legge 1899"
-        },
-        "line_companion": {
-          "quote": "Arrogance brings downfall.",
-          "locator": "Line Companion, Gate 1 Line 6",
-          "attribution": "Line Companion"
-        }
-      },
-      "atoms": {
-        "hd_keywords": ["forces outcomes", "seizes control", "ignores counsel", "overextends"],
-        "ic_atoms": ["arrogant dragon", "excess", "regret", "fall/correction"]
-      },
-      "why_cited": "Overreach and control-seeking mark distortion; IC warns of arrogant dragon and regret.",
       "confidence": 4
     },
     {
       "star_system": "Draco",
-      "polarity": "shadow",
       "sources": {
         "legge1899": {
-          "quote": "the dragon exceeds the proper limits; there will be occasion for repentance",
-          "locator": "Legge 1899, Hex 1, Line 6",
+          "quote": "",
+          "locator": "Hex 1, Line 5",
           "attribution": "Legge 1899"
         },
         "line_companion": {
-          "quote": "Arrogance brings downfall.",
-          "locator": "Line Companion, Gate 1 Line 6",
-          "attribution": "Line Companion"
+          "quote": "Mars exalted for its powerful ego endurance.",
+          "locator": "Gate 1, Line 5",
+          "attribution": "Ra Uru Hu (LC)"
         }
       },
       "atoms": {
-        "hd_keywords": ["forces outcomes", "dominates", "hoards power", "status"],
-        "ic_atoms": ["arrogant dragon", "excess", "regret"]
+        "hd_keywords": ["ego", "endurance", "eccentric", "attention"],
+        "ic_atoms": ["on the wing", "sky"]
       },
-      "why_cited": "Status-hoarding and dominance reflect shadow; IC's excess brings downfall and correction.",
+      "why_cited": "Powerful ego endurance + eccentricity for attention = Draco survival through status dominance (quick_rule: 'hierarchical enforcement, loyalty control').",
+      "polarity": "shadow",
       "confidence": 3
+    }
+  ],
+  "01.6": [
+    {
+      "star_system": "Lyra",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon exceeding the proper limits. There will be occasion for repentance.",
+          "locator": "Hex 1, Line 6",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Clear assessment of creative value.",
+          "locator": "Gate 1, Line 6",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["objectivity", "assessment", "creative value", "perspective"],
+        "ic_atoms": ["exceeding limits", "repentance"]
+      },
+      "why_cited": "Objective assessment of creative value across generations = Lyra immortalization through art (quick_rule: 'immortalization through beauty and art').",
+      "polarity": "core",
+      "confidence": 5
+    },
+    {
+      "star_system": "Sirius",
+      "sources": {
+        "legge1899": {
+          "quote": "",
+          "locator": "Hex 1, Line 6",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Mutation is a movement and it goes far beyond a single lifetime.",
+          "locator": "Gate 1, Line 6",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["mutation", "movement", "generations", "transcendent"],
+        "ic_atoms": ["exceeding", "repentance"]
+      },
+      "why_cited": "Mutation as generational movement + timing perspective = Sirius timing signal for renewal (quick_rule: 'timing signal for collective renewal').",
+      "polarity": "core",
+      "confidence": 4
     }
   ]
 }
