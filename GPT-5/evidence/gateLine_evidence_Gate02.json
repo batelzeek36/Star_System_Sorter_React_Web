@@ -1,0 +1,656 @@
+{
+  "02.1": [
+    {
+      "star_system": "Lyra",
+      "alignment_type": "core",
+      "why_cited": "HD favors waiting and self-timed creation; IC names hidden dragon and no action, emphasizing restrained potential.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 1,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 1"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 1,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 1"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "waits",
+          "conserves energy",
+          "does not force",
+          "private incubation",
+          "timing awareness"
+        ],
+        "ic_atoms": [
+          "hidden dragon",
+          "timing",
+          "restraint",
+          "latent potential"
+        ]
+      }
+    },
+    {
+      "star_system": "Sirius",
+      "alignment_type": "core",
+      "why_cited": "Healthy behavior honors sacred timing and initiation; IC\u2019s hidden dragon signals pause before ritual emergence.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 1,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 1"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 1,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 1"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "waits",
+          "conserves energy",
+          "does not force",
+          "private incubation",
+          "timing awareness"
+        ],
+        "ic_atoms": [
+          "hidden dragon",
+          "timing",
+          "restraint",
+          "latent potential"
+        ]
+      }
+    },
+    {
+      "star_system": "Orion Light",
+      "alignment_type": "secondary",
+      "why_cited": "Holds creative seed quietly until mentor or right audience appears; IC stresses concealed strength.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 1,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 1"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 1,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 1"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "waits",
+          "conserves energy",
+          "does not force",
+          "private incubation",
+          "timing awareness"
+        ],
+        "ic_atoms": [
+          "hidden dragon",
+          "timing",
+          "restraint",
+          "latent potential"
+        ]
+      }
+    }
+  ],
+  "02.2": [
+    {
+      "star_system": "Orion Light",
+      "alignment_type": "core",
+      "why_cited": "Emergence to meet guidance; IC shows dragon appearing and benefit from meeting the great person.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 2,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 2"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 2,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 2"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "answers a call",
+          "shares responsibly",
+          "meets ally",
+          "shows work",
+          "accepts guidance"
+        ],
+        "ic_atoms": [
+          "appearance",
+          "ally/mentor",
+          "recognition",
+          "benefit"
+        ]
+      }
+    },
+    {
+      "star_system": "Sirius",
+      "alignment_type": "core",
+      "why_cited": "Seeks initiation through contact with a worthy teacher; IC favors audience with the great person.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 2,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 2"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 2,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 2"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "answers a call",
+          "shares responsibly",
+          "meets ally",
+          "shows work",
+          "accepts guidance"
+        ],
+        "ic_atoms": [
+          "appearance",
+          "ally/mentor",
+          "recognition",
+          "benefit"
+        ]
+      }
+    },
+    {
+      "star_system": "Arcturus",
+      "alignment_type": "secondary",
+      "why_cited": "Organizes support and role within a structured field; IC notes appearing in the field with advantage.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 2,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 2"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 2,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 2"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "answers a call",
+          "shares responsibly",
+          "meets ally",
+          "shows work",
+          "accepts guidance"
+        ],
+        "ic_atoms": [
+          "appearance",
+          "ally/mentor",
+          "recognition",
+          "benefit"
+        ]
+      }
+    }
+  ],
+  "02.3": [
+    {
+      "star_system": "Lyra",
+      "alignment_type": "core",
+      "why_cited": "Drives creation through sustained effort; IC emphasizes ceaseless activity and vigilance amid difficulty.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 3,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 3"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 3,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 3"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "persists",
+          "works long hours",
+          "self-propels",
+          "manages risk",
+          "stays vigilant"
+        ],
+        "ic_atoms": [
+          "unceasing action",
+          "risk/danger",
+          "vigilance",
+          "strain"
+        ]
+      }
+    },
+    {
+      "star_system": "Arcturus",
+      "alignment_type": "core",
+      "why_cited": "Builds structure to handle load; IC warns of danger during nonstop striving, inviting disciplined management.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 3,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 3"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 3,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 3"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "persists",
+          "works long hours",
+          "self-propels",
+          "manages risk",
+          "stays vigilant"
+        ],
+        "ic_atoms": [
+          "unceasing action",
+          "risk/danger",
+          "vigilance",
+          "strain"
+        ]
+      }
+    },
+    {
+      "star_system": "Sirius",
+      "alignment_type": "secondary",
+      "why_cited": "Submits to discipline through trials; IC frames demanding exertion as a proving ground.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 3,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 3"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 3,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 3"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "persists",
+          "works long hours",
+          "self-propels",
+          "manages risk",
+          "stays vigilant"
+        ],
+        "ic_atoms": [
+          "unceasing action",
+          "risk/danger",
+          "vigilance",
+          "strain"
+        ]
+      }
+    }
+  ],
+  "02.4": [
+    {
+      "star_system": "Sirius",
+      "alignment_type": "core",
+      "why_cited": "Accepts initiation across an abyss; IC shows perilous flight with counsel yielding no blame.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 4,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 4"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 4,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 4"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "tests limits",
+          "seeks counsel",
+          "adjusts course",
+          "moves cautiously",
+          "holds nerve"
+        ],
+        "ic_atoms": [
+          "threshold/abyss",
+          "risk with guidance",
+          "no blame",
+          "transition"
+        ]
+      }
+    },
+    {
+      "star_system": "Andromeda",
+      "alignment_type": "core",
+      "why_cited": "Moves into uncertainty and adapts mid-flight; IC depicts risky passage without fault.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 4,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 4"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 4,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 4"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "tests limits",
+          "seeks counsel",
+          "adjusts course",
+          "moves cautiously",
+          "holds nerve"
+        ],
+        "ic_atoms": [
+          "threshold/abyss",
+          "risk with guidance",
+          "no blame",
+          "transition"
+        ]
+      }
+    },
+    {
+      "star_system": "Orion Light",
+      "alignment_type": "secondary",
+      "why_cited": "Consults mentors while crossing a dangerous threshold; IC allows safe passage with prudence.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 4,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 4"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 4,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 4"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "tests limits",
+          "seeks counsel",
+          "adjusts course",
+          "moves cautiously",
+          "holds nerve"
+        ],
+        "ic_atoms": [
+          "threshold/abyss",
+          "risk with guidance",
+          "no blame",
+          "transition"
+        ]
+      }
+    }
+  ],
+  "02.5": [
+    {
+      "star_system": "Orion Light",
+      "alignment_type": "core",
+      "why_cited": "Creative mastery ascends; IC\u2019s flying dragon in heaven signals recognized leadership.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 5,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 5"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 5,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 5"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "leads by example",
+          "shows mastery",
+          "elevates others",
+          "sustains excellence"
+        ],
+        "ic_atoms": [
+          "flying dragon",
+          "heaven",
+          "leadership",
+          "recognition"
+        ]
+      }
+    },
+    {
+      "star_system": "Sirius",
+      "alignment_type": "core",
+      "why_cited": "Initiated creator now radiates; IC associates ascent with the great person and broad benefit.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 5,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 5"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 5,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 5"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "leads by example",
+          "shows mastery",
+          "elevates others",
+          "sustains excellence"
+        ],
+        "ic_atoms": [
+          "flying dragon",
+          "heaven",
+          "leadership",
+          "recognition"
+        ]
+      }
+    },
+    {
+      "star_system": "Lyra",
+      "alignment_type": "secondary",
+      "why_cited": "Claims sovereign expression at altitude; IC\u2019s flight imagery mirrors independent creative authority.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 5,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 5"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 5,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 5"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "leads by example",
+          "shows mastery",
+          "elevates others",
+          "sustains excellence"
+        ],
+        "ic_atoms": [
+          "flying dragon",
+          "heaven",
+          "leadership",
+          "recognition"
+        ]
+      }
+    }
+  ],
+  "02.6": [
+    {
+      "star_system": "Orion Dark",
+      "alignment_type": "secondary",
+      "why_cited": "Overreach and control-seeking mark distortion; IC warns of arrogant dragon and regret.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 6,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 6"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 6,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 6"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "forces outcomes",
+          "seizes control",
+          "ignores counsel",
+          "overextends"
+        ],
+        "ic_atoms": [
+          "arrogant dragon",
+          "excess",
+          "regret",
+          "fall/correction"
+        ]
+      }
+    },
+    {
+      "star_system": "Draco",
+      "alignment_type": "secondary",
+      "why_cited": "Status-hoarding and dominance reflect shadow; IC\u2019s excess brings downfall and correction.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 6,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 6"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 6,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 6"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "forces outcomes",
+          "seizes control",
+          "ignores counsel",
+          "overextends"
+        ],
+        "ic_atoms": [
+          "arrogant dragon",
+          "excess",
+          "regret",
+          "fall/correction"
+        ]
+      }
+    },
+    {
+      "star_system": "Arcturus",
+      "alignment_type": "secondary",
+      "why_cited": "Rigid ordering and refusal to adjust signal distortion; IC flags excessive height leading to repentance.",
+      "citations": [
+        {
+          "source": "Legge1899",
+          "hexagram": 2,
+          "line": 6,
+          "quote": "",
+          "locator": "Legge 1899, Hex 2, Line 6"
+        },
+        {
+          "source": "Line Companion",
+          "gate": 2,
+          "line": 6,
+          "quote": "",
+          "locator": "Line Companion, Gate 2 Line 6"
+        }
+      ],
+      "atoms": {
+        "hd_keywords": [
+          "forces outcomes",
+          "seizes control",
+          "ignores counsel",
+          "overextends"
+        ],
+        "ic_atoms": [
+          "arrogant dragon",
+          "excess",
+          "regret",
+          "fall/correction"
+        ]
+      }
+    }
+  ]
+}

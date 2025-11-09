@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "version": "4.2",
+    "baseline_beacon": "59bfc617",
+    "gate": "01",
+    "generated_at": "2025-01-15T10:30:00Z",
+    "generator": "Manual",
+    "sum_unorm": 9.99
+  },
+  "01.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.80,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Patient timing; private incubation; no premature display",
+      "keywords": ["waits", "incubates", "doesn't force", "timing", "restraint"],
+      "why": "Lyra core — creative expression held until ripe (quick_rule: 'artistic creation, aesthetic power')"
+    },
+    {
+      "star_system": "Sirius",
+      "weight": 0.62,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Honors sacred timing; refrains from premature action",
+      "keywords": ["sacred timing", "restraint", "initiation", "waiting"],
+      "why": "Sirius core — honors sacred timing before initiation (quick_rule: 'spiritual initiation and liberation current')"
+    }
+  ],
+  "01.2": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.75,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Emerges to meet worthy mentor; accepts guidance",
+      "keywords": ["called out", "meets ally", "shows work", "guidance"],
+      "why": "Orion Light core — honorable initiation through ordeal/mentor (quick_rule: 'trial/initiation')"
+    },
+    {
+      "star_system": "Sirius",
+      "weight": 0.60,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Seeks worthy teacher; enters initiation through service",
+      "keywords": ["teacher", "instruction", "service", "initiation"],
+      "why": "Sirius core — liberation via teaching (quick_rule: 'sacred knowledge transmission')"
+    }
+  ],
+  "01.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.62,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Persists at craft all day; drives creation personally",
+      "keywords": ["persists", "craft", "sustained effort", "vigilance"],
+      "why": "Lyra core — sustained creative effort (quick_rule: 'artistic creation')"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Structures sustained effort; manages overload risk",
+      "keywords": ["structures", "manages", "discipline", "order"],
+      "why": "Arcturus core — frequency calibration through disciplined structure"
+    }
+  ],
+  "01.4": [
+    {
+      "star_system": "Sirius",
+      "weight": 0.63,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Crosses threshold under guidance; accepts ordeal",
+      "keywords": ["threshold", "guidance", "ordeal", "transition"],
+      "why": "Sirius core — spiritual initiation through ordeal (quick_rule: 'spiritual initiation')"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.57,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Ventures into the unknown; adapts mid-flight",
+      "keywords": ["unknown", "adapts", "ventures", "freedom"],
+      "why": "Andromeda core — liberation through bold action (quick_rule: 'liberation from captivity')"
+    }
+  ],
+  "01.5": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.85,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Leads with matured creation; demonstrates mastery",
+      "keywords": ["leads", "mastery", "demonstrates", "authority"],
+      "why": "Orion Light core — earned leadership through ordeal (quick_rule: 'honorable trial')"
+    },
+    {
+      "star_system": "Sirius",
+      "weight": 0.35,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Radiates accomplished work; uplifts others",
+      "keywords": ["radiates", "uplifts", "accomplished", "teaching"],
+      "why": "Sirius secondary — liberation teaching from mastery (quick_rule: 'sacred knowledge transmission')"
+    }
+  ],
+  "01.6": [
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.60,
+      "role": "primary",
+      "polarity": "shadow",
+      "confidence": 4,
+      "behavioral_match": "Overreaches for control; forces outcomes",
+      "keywords": ["overreach", "control", "forces", "dominance"],
+      "why": "Orion Dark shadow — coercive control (quick_rule: 'empire management and coercive control')"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.45,
+      "role": "secondary",
+      "polarity": "shadow",
+      "confidence": 3,
+      "behavioral_match": "Dominates from status; hoards power",
+      "keywords": ["dominates", "status", "hoards", "power"],
+      "why": "Draco shadow — survival through dominance (quick_rule: 'survival through dominance hierarchy')"
+    }
+  ]
+}

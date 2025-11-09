@@ -1,0 +1,285 @@
+{
+  "_meta": {
+    "version": "4.2",
+    "baseline_beacon": "59bfc617",
+    "gate": "01",
+    "generated_at": "2025-01-15T10:30:00Z",
+    "generator": "Manual"
+  },
+  "01.1": [
+    {
+      "star_system": "Lyra",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon lies hid in the deep; it is not the time for active doing",
+          "locator": "Legge 1899, Hex 1, Line 1",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Time is everything. You have to wait for it.",
+          "locator": "Line Companion, Gate 1 Line 1",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["waits", "conserves energy", "does not force", "private incubation"],
+        "ic_atoms": ["hidden dragon", "timing", "restraint", "latent potential"]
+      },
+      "why_cited": "HD favors waiting and self-timed creation; IC names hidden dragon and no action, emphasizing restrained potential.",
+      "confidence": 5
+    },
+    {
+      "star_system": "Sirius",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon lies hid in the deep; it is not the time for active doing",
+          "locator": "Legge 1899, Hex 1, Line 1",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Time is everything. You have to wait for it.",
+          "locator": "Line Companion, Gate 1 Line 1",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["waits", "conserves energy", "sacred timing", "initiation"],
+        "ic_atoms": ["hidden dragon", "timing", "restraint"]
+      },
+      "why_cited": "Healthy behavior honors sacred timing and initiation; IC's hidden dragon signals pause before ritual emergence.",
+      "confidence": 4
+    }
+  ],
+  "01.2": [
+    {
+      "star_system": "Orion Light",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon appearing in the field; it will be advantageous to see the great man",
+          "locator": "Legge 1899, Hex 1, Line 2",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "When you are called out, you must respond.",
+          "locator": "Line Companion, Gate 1 Line 2",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["answers a call", "meets ally", "shows work", "accepts guidance"],
+        "ic_atoms": ["appearing", "meeting the great man", "recognition", "benefit"]
+      },
+      "why_cited": "Emergence + meeting the great one = initiation/ordeal pattern (Orion Light quick_rule).",
+      "confidence": 5
+    },
+    {
+      "star_system": "Sirius",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon appearing in the field; it will be advantageous to see the great man",
+          "locator": "Legge 1899, Hex 1, Line 2",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "When you are called out, you must respond.",
+          "locator": "Line Companion, Gate 1 Line 2",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["answers a call", "shares responsibly", "teacher", "instruction"],
+        "ic_atoms": ["appearance", "ally/mentor", "recognition"]
+      },
+      "why_cited": "Seeks initiation through contact with a worthy teacher; IC favors audience with the great person.",
+      "confidence": 4
+    }
+  ],
+  "01.3": [
+    {
+      "star_system": "Lyra",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "all the day long the superior man is creatively active; at nightfall his mind is still beset with cares",
+          "locator": "Legge 1899, Hex 1, Line 3",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "You work and work and work.",
+          "locator": "Line Companion, Gate 1 Line 3",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["persists", "works long hours", "self-propels", "vigilant"],
+        "ic_atoms": ["unceasing action", "risk/danger", "vigilance", "strain"]
+      },
+      "why_cited": "Drives creation through sustained effort; IC emphasizes ceaseless activity and vigilance amid difficulty.",
+      "confidence": 4
+    },
+    {
+      "star_system": "Arcturus",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "all the day long the superior man is creatively active; at nightfall his mind is still beset with cares",
+          "locator": "Legge 1899, Hex 1, Line 3",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "You work and work and work.",
+          "locator": "Line Companion, Gate 1 Line 3",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["persists", "manages risk", "stays vigilant", "structures"],
+        "ic_atoms": ["unceasing action", "risk/danger", "vigilance"]
+      },
+      "why_cited": "Builds structure to handle load; IC warns of danger during nonstop striving, inviting disciplined management.",
+      "confidence": 4
+    }
+  ],
+  "01.4": [
+    {
+      "star_system": "Sirius",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "wavering flight over the depths; there will be no error",
+          "locator": "Legge 1899, Hex 1, Line 4",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "This is a time of testing and transition.",
+          "locator": "Line Companion, Gate 1 Line 4",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["tests limits", "seeks counsel", "adjusts course", "holds nerve"],
+        "ic_atoms": ["threshold/abyss", "risk with guidance", "no blame", "transition"]
+      },
+      "why_cited": "Accepts initiation across an abyss; IC shows perilous flight with counsel yielding no blame.",
+      "confidence": 5
+    },
+    {
+      "star_system": "Andromeda",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "wavering flight over the depths; there will be no error",
+          "locator": "Legge 1899, Hex 1, Line 4",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "This is a time of testing and transition.",
+          "locator": "Line Companion, Gate 1 Line 4",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["tests limits", "adjusts course", "moves cautiously", "adapts"],
+        "ic_atoms": ["threshold/abyss", "risk with guidance", "no blame"]
+      },
+      "why_cited": "Moves into uncertainty and adapts mid-flight; IC depicts risky passage without fault.",
+      "confidence": 4
+    }
+  ],
+  "01.5": [
+    {
+      "star_system": "Orion Light",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon is on the wing in the sky; it will be advantageous to see the great man",
+          "locator": "Legge 1899, Hex 1, Line 5",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "You have earned the right to lead.",
+          "locator": "Line Companion, Gate 1 Line 5",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["leads by example", "shows mastery", "elevates others", "excellence"],
+        "ic_atoms": ["flying dragon", "heaven", "leadership", "recognition"]
+      },
+      "why_cited": "Creative mastery ascends; IC's flying dragon in heaven signals recognized leadership.",
+      "confidence": 5
+    },
+    {
+      "star_system": "Sirius",
+      "polarity": "core",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon is on the wing in the sky; it will be advantageous to see the great man",
+          "locator": "Legge 1899, Hex 1, Line 5",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "You have earned the right to lead.",
+          "locator": "Line Companion, Gate 1 Line 5",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["leads by example", "elevates others", "radiates", "teaching"],
+        "ic_atoms": ["flying dragon", "heaven", "leadership"]
+      },
+      "why_cited": "Initiated creator now radiates; IC associates ascent with the great person and broad benefit.",
+      "confidence": 5
+    }
+  ],
+  "01.6": [
+    {
+      "star_system": "Orion Dark",
+      "polarity": "shadow",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon exceeds the proper limits; there will be occasion for repentance",
+          "locator": "Legge 1899, Hex 1, Line 6",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Arrogance brings downfall.",
+          "locator": "Line Companion, Gate 1 Line 6",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["forces outcomes", "seizes control", "ignores counsel", "overextends"],
+        "ic_atoms": ["arrogant dragon", "excess", "regret", "fall/correction"]
+      },
+      "why_cited": "Overreach and control-seeking mark distortion; IC warns of arrogant dragon and regret.",
+      "confidence": 4
+    },
+    {
+      "star_system": "Draco",
+      "polarity": "shadow",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon exceeds the proper limits; there will be occasion for repentance",
+          "locator": "Legge 1899, Hex 1, Line 6",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Arrogance brings downfall.",
+          "locator": "Line Companion, Gate 1 Line 6",
+          "attribution": "Line Companion"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["forces outcomes", "dominates", "hoards power", "status"],
+        "ic_atoms": ["arrogant dragon", "excess", "regret"]
+      },
+      "why_cited": "Status-hoarding and dominance reflect shadow; IC's excess brings downfall and correction.",
+      "confidence": 3
+    }
+  ]
+}
