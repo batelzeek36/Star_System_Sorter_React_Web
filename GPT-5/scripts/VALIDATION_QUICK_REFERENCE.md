@@ -3,11 +3,15 @@
 ## Quick Start
 
 ```bash
-# Validate a gate
+# Validate gate structure and rules
 python3 validate_gate_outputs.py 01
+
+# Verify quotes against source texts
+python3 verify_quotes.py 01
 
 # Run all tests
 python3 test_validate_gate_outputs.py
+python3 test_verify_quotes.py
 
 # Compute baseline beacon
 python3 compute_beacon.py
@@ -204,6 +208,101 @@ python3 compute_beacon.py
   "_meta": {"sum_unorm": 5.48},  // 0.78 + 1.00 + 0.70 + 0.85 + 1.00 + 1.15
   ...
 }
+```
+
+### Quote Length Violations
+
+**Error:** `Quote exceeds 25 words (actual: 32 words)`
+
+**Fix:** Shorten the quote to ≤25 words while maintaining verbatim accuracy.
+
+```json
+// Before (✗)
+"quote": "the dragon lying hid in the deep and it is not the time for active doing because patience is required and one must wait for the proper moment to emerge"
+
+// After (✓)
+"quote": "the dragon lying hid (in the deep). It is not the time for active doing."
+```
+
+### Quote Verbatim Violations
+
+**Error:** `Quote not found verbatim in source: Legge Hex 1, Line 1`
+
+**Fix:** Ensure quote is an exact substring from the source text (after normalization).
+
+```json
+// Before (✗) - paraphrased
+"quote": "the dragon is hiding in the depths"
+
+// After (✓) - verbatim
+"quote": "the dragon lying hid (in the deep)"
+```
+
+**Common causes:**
+- Paraphrasing instead of exact quote
+- Combining non-contiguous sentences
+- Typos or missing words
+- Wrong source file
+
+### Locator Violations
+
+**Error:** `Locator line mismatch: expected Hex 01 Line 1, but quote found in Line 2`
+
+**Fix:** Ensure Legge quotes come from the same line number as the line_key.
+
+```json
+// Before (✗)
+// In 01.1 evidence:
+"legge1899": {
+  "quote": "the dragon appearing in the field",  // This is from Line 2!
+  "locator": "Hex 1, Line 1"
+}
+
+// After (✓)
+"legge1899": {
+  "quote": "the dragon lying hid (in the deep)",  // From Line 1
+  "locator": "Hex 1, Line 1"
+}
+```
+
+**Error:** `Locator gate mismatch: expected Gate 1, but quote found in Gate 2`
+
+**Fix:** Ensure Line Companion quotes come from the correct gate.
+
+```json
+// Before (✗)
+// In 01.1 evidence:
+"line_companion": {
+  "quote": "This is from gate 2",
+  "locator": "Gate 1, Line 1"
+}
+
+// After (✓)
+"line_companion": {
+  "quote": "Time is everything",  // From Gate 1
+  "locator": "Gate 1, Line 1"
+}
+```
+
+**Note:** Line Companion quotes are line-agnostic within the gate - they can be from any line in the gate, but must be from the correct gate.
+
+### Missing Legge Quote Violations
+
+**Error:** `Missing Legge quote for weight >0.50 (weight: 0.75, system: Lyra)`
+
+**Fix:** Add a Legge quote from the same line number, or reduce weight to ≤0.50.
+
+```json
+// Option 1: Add Legge quote (✓)
+"legge1899": {
+  "quote": "the dragon lying hid (in the deep). It is not the time for active doing.",
+  "locator": "Hex 1, Line 1",
+  "attribution": "Legge 1899"
+}
+
+// Option 2: Reduce weight (✓)
+// In weight file:
+{"star_system": "Lyra", "weight": 0.50, "role": "primary"}
 ```
 
 ### Sorting Violations
