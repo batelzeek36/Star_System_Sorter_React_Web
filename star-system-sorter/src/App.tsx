@@ -19,6 +19,8 @@ const NarrativeScreen = lazy(() => import('./screens/NarrativeScreen'));
 const DevLoreScreen = lazy(() => import('./screens/DevLoreScreen'));
 const ProfileScreen = lazy(() => import('./screens/ProfileScreen'));
 const CommunityScreen = lazy(() => import('./screens/CommunityScreen'));
+const ComparisonScreen = lazy(() => import('./screens/ComparisonScreen'));
+const InsightsScreen = lazy(() => import('./screens/InsightsScreen'));
 
 // Loading fallback component
 function LoadingFallback() {
@@ -89,6 +91,16 @@ function App() {
           <Route path="/community" element={
             <ProtectedRoute>
               <CommunityScreen />
+            </ProtectedRoute>
+          } />
+          <Route path="/compare" element={
+            <ProtectedRoute>
+              <ComparisonScreen />
+            </ProtectedRoute>
+          } />
+          <Route path="/insights" element={
+            <ProtectedRoute>
+              <InsightsScreen />
             </ProtectedRoute>
           } />
         </Routes>
