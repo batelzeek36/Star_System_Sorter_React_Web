@@ -166,10 +166,6 @@ export function ComparisonScreen() {
   const { loading: hdLoading, fetchHDData } = useHDData();
   const { loading: classifyLoading, classify } = useClassification();
 
-  // Birth data store (for reading Chart B's computed data)
-  const hdDataFromStore = useBirthDataStore((state) => state.hdData);
-  const classificationFromStore = useBirthDataStore((state) => state.classification);
-
   // Comparison store
   const chartA = useComparisonStore((state) => state.chartA);
   const setChartB = useComparisonStore((state) => state.setChartB);

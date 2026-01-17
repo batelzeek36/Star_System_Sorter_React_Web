@@ -15,12 +15,8 @@ import {
   calculateCompatibilityScores,
   ALL_CENTERS,
   CHANNEL_DEFINITIONS,
-  ChartComparison,
-  SharedGate,
-  SharedCenters,
-  TypeDynamic,
-  StarSystemOverlap,
 } from './comparison';
+import type { SharedGate } from './comparison';
 import type { HDExtract, ClassificationResult } from './schemas';
 import type { GateLine } from './lore-retriever';
 
@@ -262,12 +258,13 @@ describe('compareSharedCenters', () => {
   });
 
   it('should include all nine centers in total', () => {
-    const result = compareSharedCenters(
+    // Compare arbitrary centers to ensure function executes
+    compareSharedCenters(
       ['Throat', 'Sacral'],
       ['Ajna', 'Root']
     );
 
-    // bothDefined + bothUndefined + uniqueToA + uniqueToB should equal 9
+    // Verify ALL_CENTERS constant is correct
     expect(ALL_CENTERS.length).toBe(9);
   });
 });
@@ -710,7 +707,7 @@ describe('Edge Cases', () => {
 
 describe('Channel Definitions', () => {
   it('should have valid channel definitions', () => {
-    for (const [name, [gate1, gate2]] of Object.entries(CHANNEL_DEFINITIONS)) {
+    for (const [_name, [gate1, gate2]] of Object.entries(CHANNEL_DEFINITIONS)) {
       expect(gate1).toBeGreaterThanOrEqual(1);
       expect(gate1).toBeLessThanOrEqual(64);
       expect(gate2).toBeGreaterThanOrEqual(1);

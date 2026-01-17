@@ -287,7 +287,7 @@ function findChannelsInChart(gates: number[]): string[] {
   const channels: string[] = [];
   const gateSet = new Set(gates);
 
-  for (const [channelName, [gate1, gate2]] of Object.entries(CHANNEL_DEFINITIONS)) {
+  for (const [_channelName, [gate1, gate2]] of Object.entries(CHANNEL_DEFINITIONS)) {
     if (gateSet.has(gate1) && gateSet.has(gate2)) {
       // Use canonical format (lower gate first)
       const canonicalName = gate1 < gate2 ? `${gate1}-${gate2}` : `${gate2}-${gate1}`;
@@ -310,7 +310,7 @@ function findElectromagneticChannels(gatesA: number[], gatesB: number[]): string
   const gateSetA = new Set(gatesA);
   const gateSetB = new Set(gatesB);
 
-  for (const [channelName, [gate1, gate2]] of Object.entries(CHANNEL_DEFINITIONS)) {
+  for (const [_channelName, [gate1, gate2]] of Object.entries(CHANNEL_DEFINITIONS)) {
     // Check if one gate is in A and the other in B (either direction)
     const aHasGate1 = gateSetA.has(gate1);
     const aHasGate2 = gateSetA.has(gate2);
@@ -538,8 +538,6 @@ export function calculateCompatibilityScores(
   overall += starOverlap.shared.length * 5;
 
   // Type dynamics adjustment based on type combinations
-  const typeKey = getTypeDynamicKey(typeDynamic.typeA, typeDynamic.typeB);
-
   // Energy types together have higher energy compatibility
   const energyTypes = ['generator', 'manifesting-generator', 'manifestor'];
   const typeANorm = normalizeType(typeDynamic.typeA);

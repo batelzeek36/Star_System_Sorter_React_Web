@@ -244,7 +244,7 @@ function ChartsSummary() {
         {/* Chart A */}
         <div className="flex-1 flex items-center gap-2">
           <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 flex items-center justify-center">
-            <CrestA size={20} className="text-[var(--s3-lavender-400)]" />
+            <CrestA size={24} className="text-[var(--s3-lavender-400)]" />
           </div>
           <div className="min-w-0">
             <p className="text-xs text-[var(--s3-text-subtle)]">{chartA.name || 'You'}</p>
@@ -271,7 +271,7 @@ function ChartsSummary() {
             <p className="text-xs text-[var(--s3-lavender-300)]">{systemB}</p>
           </div>
           <div className="w-10 h-10 rounded-full bg-[var(--s3-lavender-500)]/20 flex items-center justify-center">
-            <CrestB size={20} className="text-[var(--s3-lavender-400)]" />
+            <CrestB size={24} className="text-[var(--s3-lavender-400)]" />
           </div>
         </div>
       </div>
@@ -292,7 +292,6 @@ export default function InsightsScreen() {
   const comparison = useComparisonStore((state) => state.comparison);
   const insights = useComparisonStore((state) => state.insights);
   const isLoading = useComparisonStore((state) => state.isLoading);
-  const storeError = useComparisonStore((state) => state.error);
   const setInsights = useComparisonStore((state) => state.setInsights);
   const setLoading = useComparisonStore((state) => state.setLoading);
   const setError = useComparisonStore((state) => state.setError);

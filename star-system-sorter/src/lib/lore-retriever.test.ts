@@ -19,7 +19,6 @@ import {
   getHexagramInfo,
   getGatesWithStarMappings,
   type GateLine,
-  type GateLore,
   type RelevantLore,
 } from './lore-retriever';
 
