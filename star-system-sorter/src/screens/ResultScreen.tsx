@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '@/store/birthDataStore';
+import { useComparisonStore } from '@/store/comparisonStore';
 import { useClassification } from '@/hooks/useClassification';
 import { Button } from '@/components/figma/Button';
 import { Chip } from '@/components/figma/Chip';
@@ -46,6 +47,10 @@ export default function ResultScreen() {
   const navigate = useNavigate();
   const hdData = useBirthDataStore((state) => state.hdData);
   const classification = useBirthDataStore((state) => state.classification);
+  const birthDate = useBirthDataStore((state) => state.date);
+  const birthTime = useBirthDataStore((state) => state.time);
+  const location = useBirthDataStore((state) => state.location);
+  const setChartA = useComparisonStore((state) => state.setChartA);
   const { loading, classify } = useClassification();
   
   // Animated percentage counter
@@ -244,7 +249,19 @@ export default function ResultScreen() {
             <Button
               variant="secondary"
               className="w-full transition-all duration-300 hover:scale-105"
-              onClick={() => navigate('/compare')}
+              onClick={() => {
+                // Set chartA from current chart data before navigating
+                if (hdData) {
+                  setChartA({
+                    hdData,
+                    classification,
+                    birthDate,
+                    birthTime,
+                    location,
+                  });
+                }
+                navigate('/compare');
+              }}
             >
               Compare with another chart
             </Button>
