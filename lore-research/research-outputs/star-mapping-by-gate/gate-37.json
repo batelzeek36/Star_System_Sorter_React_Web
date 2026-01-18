@@ -1,0 +1,278 @@
+{
+  "37.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sets sovereign boundaries in closeness—consent-first contact."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes basic house norms—who engages, when, and how."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early privacy can read as gatekeeping or ranky access."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Simple ritual/gesture makes welcome legible."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Comfort sought through rigid ‘family rules.’"
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Courage to hold a kind but firm boundary."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Attuned hospitality and soothing presence define safe contact."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private bonding hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-37.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "37.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reciprocity without surrender—retain authorship in the bond."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Clarifies roles, timing, and scope—clean family contract."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards loyalty and threshold access to the inner circle."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Courteous form helps the agreement land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Tradition used to compel conformity over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to honor the bargain without overreach."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Nurturing tone and attunement stabilize the pact."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational reciprocity, not codified teaching yet.",
+      "confidence": 5,
+      "sources": ["gate-line-37.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "37.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Belonging-seeking outsources agency; victim/savior dynamics."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Messy roles and timing—container of the bond wobbles."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Clique policing around ‘real family’ access."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performative warmth replaces true care."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "House rules weaponized to force compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal teaches clean reciprocity and boundary."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement distorts nurture."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error community bonding.",
+      "confidence": 5,
+      "sources": ["gate-line-37.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "37.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Ends exploitative bargains; protects sovereignty within the clan."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds fair agreements, cadence, and escalation paths."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to the deal and to dependents."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Welcoming culture supports adoption of the terms."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into rigid household doctrine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models integrity under pressure to favor or exclude."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned hospitality keeps nerves calm during negotiation."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches household/contract protocol by example.",
+      "confidence": 4,
+      "sources": ["gate-line-37.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "hospitality/contract-protocol",
+      "keywords": ["reciprocity", "thresholds", "escalation"]
+    }
+  },
+  "37.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses authority to free family from coercive traditions."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets community standards, roles, and review cadence."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Upholds loyalty to vulnerable members and to the pact."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Establishes a culture of dignified welcome."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk: orthodoxy policing as ‘family values.’"
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when favoritism or scarcity press."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports adoption without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in community covenant—contracts that truly nourish.",
+      "confidence": 4,
+      "sources": ["gate-line-37.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "community-standards/contract-teacher",
+      "keywords": ["covenant", "standards", "review"]
+    }
+  },
+  "37.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied welcome preserves freedom—no bonding by force."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for covenant, access, and timing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to ‘real family’ privilege."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Archetypal host—plain forms carry cultural weight."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Family canon risks law-over-life and coercive hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to include, exclude, or release by truth."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: hospitality/covenant canon transmitted by presence.",
+      "confidence": 4,
+      "sources": ["gate-line-37.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-hospitality/covenant-canon",
+      "keywords": ["covenant", "access", "presence"]
+    }
+  }
+}

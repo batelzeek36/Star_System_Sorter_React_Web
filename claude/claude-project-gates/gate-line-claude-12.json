@@ -1,0 +1,90 @@
+{
+  "gate": 12,
+  "gate_name": "Standstill (Caution)",
+  "lines": {
+    "12.1": {
+      "line": 1,
+      "hd_title": "The Monk",
+      "hd_quote": "If you are not in the mood, you can't bring mutation.",
+      "keywords": [
+        "withdrawal",
+        "restraint",
+        "articulation",
+        "contemplative timing"
+      ],
+      "behavioral_axis": "Withdraws from social contact until the mood arrives to articulate mutation, requiring communal support for periods of creative isolation.",
+      "shadow_axis": "Withdraws absurdly into extreme isolation, losing the capacity to articulate or experiencing muteness even when mutation is ready.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "12.2": {
+      "line": 2,
+      "hd_title": "Purification",
+      "hd_quote": "They are always projecting out that they are not interested.",
+      "keywords": [
+        "natural withdrawal",
+        "projection field",
+        "boredom",
+        "restrained unknowingly"
+      ],
+      "behavioral_axis": "Projects a natural field of disinterest, called out only when they've unknowingly ripened a mutation worth articulating socially.",
+      "shadow_axis": "Says no reflexively without knowing why, becoming bored and confused by their own restrained nature and lack of stimulation.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "12.3": {
+      "line": 3,
+      "hd_title": "Confession",
+      "hd_quote": "These are people that hate or are hated and, mostly, the hatred in them is self-hatred.",
+      "keywords": [
+        "trial-and-error",
+        "self-analysis",
+        "confession",
+        "painful learning"
+      ],
+      "behavioral_axis": "Experiments socially through bonds made and broken, learning through painful trial-and-error when their mutation can be adequately explained.",
+      "shadow_axis": "Drowns in perverse and exaggerated self-hatred after failed social interactions, unable to separate inadequate timing from personal inadequacy.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "12.4": {
+      "line": 4,
+      "hd_title": "The Prophet",
+      "hd_quote": "Prophets show up exactly at the right time: when people are ready to hear their word.",
+      "keywords": [
+        "externalization",
+        "foresight",
+        "timing",
+        "articulation difficulties"
+      ],
+      "behavioral_axis": "Externalizes mutation by foreseeing when the emotional field is ready, waiting to articulate the mutative message at exactly the right moment.",
+      "shadow_axis": "Speaks into the wilderness with speech impediments or poor timing, unable to get their mutative message across to deaf ears.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "12.5": {
+      "line": 5,
+      "hd_title": "The Pragmatist",
+      "hd_quote": "It is projected on all 12th gate people that they are pragmatic, that they are cautious and that they are careful.",
+      "keywords": [
+        "projection field",
+        "pragmatism",
+        "social experience",
+        "cautious memory"
+      ],
+      "behavioral_axis": "Receives projections of being pragmatic and social, developing special social skills through repeated projected experience with the emotional field.",
+      "shadow_axis": "Remembers only the most painful social lessons, becoming overly cautious and avoiding potentially valuable interactions from conditioned fear.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "12.6": {
+      "line": 6,
+      "hd_title": "Metamorphosis",
+      "hd_quote": "Faith in, and energy applied towards change and emergence from standstill.",
+      "keywords": [
+        "metamorphosis",
+        "social mutation",
+        "objectivity",
+        "role model"
+      ],
+      "behavioral_axis": "Waits with faith for the major social mutation to emerge, embodying the objective example of what new mutative forms can bring to humanity.",
+      "shadow_axis": "Accepts social limitations as perfected and permanent, refusing to engage because the full mutation hasn't manifested yet and won't be worth the effort.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 24,
+  "hexagram_name_legge": "Fu",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Fu indicates that there will be free course and progress (in what it denotes). (The subject of it) finds no one to distress him in his exits and entrances; friends come to him, and no error is committed. He will return and repeat his (proper) course. In seven days comes his return, There will be advantage in whatever direction movement is made.",
+  "image_text": "(The trigram representing) the earth and that for thunder in the midst of it form Fft. The ancient kings, in accordance with this, on the day of the (winter) solstice, shut the gates of the passes (from one state to another), so that the travelling merchants could not (then) pursue their journeys, nor the princes go on with the inspection of their states.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XXIV. The Fu Hexagram.\n\nFu indicates that there will be free course and progress (in what it denotes). (The subject of it) finds no one to distress him in his exits and entrances; friends come to him, and no error is committed. He will return and repeat his (proper) course. In seven days comes his return, There will be advantage in whatever direction movement is made.\n\n1. The first line, undivided, shows its subject returning (from an error) of no great extent, which would not proceed to anything requiring repentance, There will be great good fortune.\n\n2. The second line, divided, shows the admirable return (of its subject). There will be good fortune.\n\n3. The third line, divided, shows one who has made repeated returns. The position is perilous, but there will he no error.\n\n4. The fourth line, divided, shows its subject moving right in the centre (among those represented by the other divided lines), and yet returning alone (to his proper path).\n\n5. The fifth line, divided, shows the noble return of its subject. 1 here will be no ground for repentance,\n\n6. The topmost line, divided, shows its subject all astray on the subject of returning. There will be evil. There will be calamities and errors. If with his views he put the hosts in motion, the end will be a great defeat, whose issues will extend to the rulei of the state. Even in ten years he will not be able to repair the disaster,",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject returning (from an error) of no great extent, which would not proceed to anything requiring repentance, There will be great good fortune."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows the admirable return (of its subject). There will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows one who has made repeated returns. The position is perilous, but there will he no error."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject moving right in the centre (among those represented by the other divided lines), and yet returning alone (to his proper path)."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows the noble return of its subject. 1 here will be no ground for repentance,"
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject all astray on the subject of returning. There will be evil. There will be calamities and errors. If with his views he put the hosts in motion, the end will be a great defeat, whose issues will extend to the rulei of the state. Even in ten years he will not be able to repair the disaster,"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,278 @@
+{
+  "62.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced claims; speaks only when the naming is true."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Fact hygiene—define terms, verify data, constrain scope before speaking."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Nitpicking as control—using ‘facts’ to posture rank."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Elegant wording—clear phrasing that makes detail receivable."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Jargon as obedience—bureaucratic wording to force agreement."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Discipline to speak precisely and admit what’s unknown."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Gentle tone keeps listeners engaged with precise content."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Personal detail-hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-62.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "62.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines pressured statements; consent-first precision."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Classification frameworks, data dictionary, and placement of claims."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Perimeter accuracy—guards against sloppy or predatory ‘facts’."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Clear diction and cadence improve comprehension."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol used to silence dissent rather than refine accuracy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable curation—state only what can be responsibly supported."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Digestible presentation keeps the bond while sorting details."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement of language; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-62.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "62.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims voice after narrative misuse—returns to honest specifics."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Over/under-correction—oscillating between pedantry and vagueness."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Weaponized ‘facts’ to humiliate or dominate."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Style/cleverness eclipses substance."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Bureaucratic spin—metrics/jargon to compel obedience."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—retract, restate, and ground the claim."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Soothing edits that distort truth to ‘keep harmony.’"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through error; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-62.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "62.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Names reality accurately to free it from manipulative story."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Codifies precision—glossaries, checklists, acceptance criteria."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Perimeter checking keeps falsehoods from entering the system."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Lucid phrasing—beauty in exact language."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rigidity risk—rule over reality."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—model sober, dispassionate exactness."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Kind onboarding—makes precise terms accessible."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Naming-protocol teaching: law of correct terms and measures by example.",
+      "confidence": 4,
+      "sources": ["gate-line-62.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "naming-protocol/logos-discipline",
+      "keywords": ["taxonomy", "definitions", "checklists", "precision"]
+    }
+  },
+  "62.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Refuses propaganda—won’t sell obedience with ‘facts.’"
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected to ‘speak for all’ → burnout/scapegoat when declining spin."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Fact-policing as status theater."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Credible plain speech—unshowy accuracy under scrutiny."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Narrative control—data/terms bent to maintain hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—state only what truly fits."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing edits that sand off necessary sharpness."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: language ethics under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-62.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/language-ethics",
+      "keywords": ["definitions", "truth", "projection", "ethics"]
+    }
+  },
+  "62.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates by naming precisely—truth cuts through capture narrative."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards—term reviews, measurement doctrine, exception handling."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guardian against misinformation without slipping into tyranny."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Quiet majesty—refined language as cultural beacon."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing wording into dogma."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—right moment, right words; the blade of exact truth."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is law/standards, not bonding or soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Logos sage—teaches the law of names, measures, and proportion by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-62.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "logos-sage/law-of-names-and-measure",
+      "keywords": ["logos", "measure", "proportion", "elder", "law"]
+    }
+  }
+}

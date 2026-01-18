@@ -1,0 +1,173 @@
+{
+  "id": "hx38",
+  "number": 38,
+  "unicode_hexagram": "䷥",
+  "name": "Opposition / Estrangement (睽, Kuí)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "-Owei indicates that, (notwithstanding the con dition of things which it denotes), in small matters there will (still) be good success. 1. The first line, undivided, shows that (to its subject) occasion for repentance will disappear. He has lost his horses, but let him not seek for them; —they will return of themselves. Should he meet with bad men, he will not err (in communicating with them). 2. The second line, undivided, shows its subject happening to meet with his lord in a bye-passage. There will be no error. 3. In the third line, divided, we see one whose carriage is dragged back, while the oxen in it are pushed back, and he is himself subjected to the shaving of his head and the cutting otf of his nose. There is no good beginning, but there will be a good end. 4. The fourth line, undivided, shows its subject solitary amidst the (prevailing) disunion, (But) he meets with the good man (represented by the first Line 6 is also strong, and being in an even place, the subject of it might degenerate into stern severity, but he is supposed to be sincere, complete in his personal character and self-culture, and hence his action will only lead to good fortune. THE Yt KING. line), and they blend their sincere desires together. The position is one of peril, but there will be no mistake. 5. The fifth line, divided, shows that (to its sub ject) occasion for repentance will disappear. With his relative (and minister he unites closely and readily) as if he were biting through a piece of skin. When he goes forward (with this help), what error can there be ? 6. The topmost line, undivided, shows its subject solitary amidst the (prevailing) disunion. (In the subject of the third line, he seems to) see a pig bearing on its back a load of mud, (or fancies) there is a carriage full of ghosts. He first bends his bow against him, and afterwards unbends it, (for he discovers) that he is not an assailant to injure, but a near relative. Going forward, he shall meet with (genial) rain, and there will be good fortune. XXXVIII. A 7 zwei denotes a social state in which division and mutual alienation prevail, and the hexagram teaches how in small matters this condition may be healed, and the way prepared for the cure of the whole system. The writer or writers of Appendixes I and II point out the indication in the figure of division and dis union according to their views. In Appendix VI those things appear as a necessary sequel to the regulation of the family; while it is impossible to discover any allusion to the family in the Text. Line 1 is strong, and in an odd place. A successful course might be auspiced for its subject; but the correlate in line 4 is also strong, and therefore disappointment and repentance are likely to ensue. In the condition, however, indicated by AfAwei, where people have a common virtue, they will help one another. Through the good services of 4, the other will not have to repent. His condition may be emblemed by a traveller’s loss of his horses, which return to him of themselves, Should he meet with bad men, however, let him not shrink from them. Communication with them will be of benefit. His good THE 2 £IEN HEX AGE AM",
+    "normalized_summary": "Estrangement. People’s aims and loyalties are out of sync, so large unified action is not possible. But you can still find workable, honest collaboration in specific, limited contexts. The strategy is: don’t panic, don’t force total agreement, and don’t lash out in paranoia — instead, meet quietly, build trust in small ways, and let misunderstanding soften."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, undivided, shows that (to its subject) occasion for repentance will disappear. He has lost his horses, but let him not seek for them; —they will return of themselves. Should he meet with bad men, he will not err (in communicating with them).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：悔亡，喪馬勿逐，自復；見惡人，無咎。"
+        }
+      ],
+      "normalized_meaning": "Regret fades. What’s gone will come back on its own — no chasing. You can even engage with people you consider ‘bad’ without harm, as long as you stay clear and don’t escalate.",
+      "keywords": [
+        "regret dissolves",
+        "lost horse returns",
+        "do not pursue",
+        "contact across division",
+        "no blame"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, undivided, shows its subject happening to meet with his lord in a bye-passage. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：遇主于巷，無咎。"
+        }
+      ],
+      "normalized_meaning": "A quiet, offstage meeting with real authority. Loyalty is recognized in private, not ceremony. This low-profile contact is blameless.",
+      "keywords": [
+        "chance meeting",
+        "private audience",
+        "discreet loyalty",
+        "no blame",
+        "side passage"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. In the third line, divided, we see one whose carriage is dragged back, while the oxen in it are pushed back, and he is himself subjected to the shaving of his head and the cutting otf of his nose. There is no good beginning, but there will be a good end.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：見輿曳，其牛掣，其人天且劓，無初有終。"
+        }
+      ],
+      "normalized_meaning": "You’re stopped, humiliated, punished. The start is ugly. But if you endure, the end can still come out right.",
+      "keywords": [
+        "humiliation",
+        "being blocked",
+        "punishment",
+        "bad start good finish",
+        "endurance"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, undivided, shows its subject solitary amidst the (prevailing) disunion, (But) he meets with the good man (represented by the first Line 6 is also strong, and being in an even place, the subject of it might degenerate into stern severity, but he is supposed to be sincere, complete in his personal character and self-culture, and hence his action will only lead to good fortune. THE Yt KING. line), and they blend their sincere desires together. The position is one of peril, but there will be no mistake.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：睽孤，遇元夫，交孚，厲無咎。"
+        }
+      ],
+      "normalized_meaning": "You feel alone in a divided time, then you meet a true ally. You unify intentions honestly. It’s dangerous, but if the bond is sincere, there’s no blame.",
+      "keywords": [
+        "isolation",
+        "finding an ally",
+        "mutual sincerity",
+        "danger without blame",
+        "bridge across division"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, divided, shows that (to its sub ject) occasion for repentance will disappear. With his relative (and minister he unites closely and readily) as if he were biting through a piece of skin. When he goes forward (with this help), what error can there be ?",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：悔亡，厥宗噬膚，往何咎。"
+        }
+      ],
+      "normalized_meaning": "You close ranks with someone deeply trusted — kin / true minister. The connection is immediate and effortless, like biting through thin skin. Moving ahead together clears regret.",
+      "keywords": [
+        "reconciliation",
+        "trusted kin",
+        "tight alliance",
+        "acting with support",
+        "no error"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The topmost line, undivided, shows its subject solitary amidst the (prevailing) disunion. (In the subject of the third line, he seems to) see a pig bearing on its back a load of mud, (or fancies) there is a carriage full of ghosts. He first bends his bow against him, and afterwards unbends it, (for he discovers) that he is not an assailant to injure, but a near relative. Going forward, he shall meet with (genial) rain, and there will be good fortune. XXXVIII. A 7 zwei denotes a social state in which division and mutual alienation prevail, and the hexagram teaches how in small matters this condition may be healed, and the way prepared for the cure of the whole system. The writer or writers of Appendixes I and II point out the indication in the figure of division and dis union according to their views. In Appendix VI those things appear as a necessary sequel to the regulation of the family; while it is impossible to discover any allusion to the family in the Text. Line 1 is strong, and in an odd place. A successful course might be auspiced for its subject; but the correlate in line 4 is also strong, and therefore disappointment and repentance are likely to ensue. In the condition, however, indicated by AfAwei, where people have a common virtue, they will help one another. Through the good services of 4, the other will not have to repent. His condition may be emblemed by a traveller’s loss of his horses, which return to him of themselves, Should he meet with bad men, however, let him not shrink from them. Communication with them will be of benefit. His good THE 2 £IEN HEX AGE AM",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：睽孤，見豕負塗，載鬼一車，先張之弧，後說之弧，匪寇婚媾，往遇雨則吉。"
+        }
+      ],
+      "normalized_meaning": "When you feel cut off, you start seeing threats everywhere — filthy pigs, ghosts, attackers. You almost shoot. Then you realize it’s not an enemy, it’s kin. Misunderstanding dissolves like welcome rain, and fortune returns.",
+      "keywords": [
+        "paranoia",
+        "misjudged threat",
+        "stand down",
+        "reunion",
+        "rain / good fortune"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.555453Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 164,
+      "leaf_end": 167,
+      "page_candidates": [
+        "298",
+        "299",
+        "23",
+        "300",
+        "301",
+        "27",
+        "5",
+        "302",
+        "303",
+        "29",
+        "I",
+        "305",
+        "31",
+        "1"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

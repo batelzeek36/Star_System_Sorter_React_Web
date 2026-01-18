@@ -1,0 +1,278 @@
+{
+  "5.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Establishing a personal rhythm is inner regulation, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Foundational pacing and routine—setting the baseline container is classic Arcturan regulation."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early instability can trigger schedule-policing or rank-y correctness."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/creative-display axis."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Grabbing rigid rules for safety—control-first patterning."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Micro-ordeal of discipline: hold the pattern through the unknown."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle self-soothing and attunement make the pattern sustainable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching phase: no transmission of higher law yet.",
+      "confidence": 5,
+      "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "5.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Patience with timing ≠ anti-domination action."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Clean, quiet adherence to the right tempo—container keeps coherence."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Impatience can flip into correctness policing of others’ timing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry vector."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Over-structuring the schedule to force control/compliance."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "The ordeal is restraint—waiting until the sacral ‘yes’ aligns with time."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Attunement to safety/conditions before movement supports real patience."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical self-regulation, not formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "5.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Struggle with impatience is personal regulation, not liberation work."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Pattern breaks and anxious timing tweaks—regulation gets choppy (Arcturan dysregulation)."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Tension triggers pecking-order timing demands or gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic-display theme."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Forcing compliance to ‘the schedule’ to escape uncertainty."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Trial by frustration: cultivating endurance until true timing emerges."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement/people-pleasing can distort natural tempo."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is self-forging patience, not transmission of law.",
+      "confidence": 5,
+      "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "5.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Crisis pacing/containment ≠ chain-breaking mission."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Stabilizes under pressure—turns volatility into a workable cadence."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Success can invite status gating or timing-police behavior."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry axis."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Risk of codifying ‘what works’ into rigid, coercive routine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of steadiness in turbulence: hold rhythm without panic."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational attunement helps pace the group through the spike."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-timing: others learn correct pacing from your crisis cadence.",
+      "confidence": 4,
+      "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "timing-as-teaching",
+      "keywords": ["cadence", "protocol", "example"]
+    }
+  },
+  "5.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Fruit of patience is maturation, not anti-oppression action."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Mature, reliable rhythm that others can organize around—container excellence."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Authority aura around ‘right time’ can slip into policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic authorship theme."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Doctrine-lock: mistaking ritual for law; enforcing the schedule."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Honorable discipline: sustaining form until the moment ripens."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Hospitality/attunement: timing that nourishes receivers."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Royal instruction-by-presence: demonstrating ‘right timing’ as living law.",
+      "confidence": 4,
+      "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "timing-mentor",
+      "keywords": ["waiting", "ripeness", "example"]
+    }
+  },
+  "5.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Long-view attunement to cycles isn’t a rescue vector."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Elder pacing—ritual rhythm aligned to natural cycles stabilizes systems."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Status-preserving rigidity can masquerade as ‘sacred timing.’"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning rhythm into dogma/hierarchy (timing-as-control)."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elder ordeal: humility to serve the cycle rather than force outcomes."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is cycle integrity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Transmits the law of timing itself—ritual presence as sacred instruction.",
+      "confidence": 4,
+      "sources": ["gate-line-5.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "ritual-timing-teacher",
+      "keywords": ["cycles", "ritual", "example"]
+    }
+  }
+}

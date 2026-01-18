@@ -1,0 +1,469 @@
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (8-MODEL VALIDATION CONSENSUS - NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. Blog sources (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. Anonymous authors ("Various researchers", "Contemporary researchers") - UNACCEPTABLE
+3. Fabricated quotes or page numbers - UNACCEPTABLE
+4. Paraphrases presented as direct quotes - MUST mark as paraphrase
+5. Wrong book attribution - VERIFY book title matches quote
+6. HIGH confidence for channeled-only sources - UNACCEPTABLE
+7. Highest weights on weakest evidence - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+TIER 1 - ACCEPTABLE PRIMARY SOURCES:
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established esoteric texts (Bailey, Blavatsky, Steiner)
+4. Documented oral traditions via anthropologists
+
+TIER 2 - ACCEPTABLE SECONDARY SOURCES:
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+TIER 3 - UNACCEPTABLE:
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 CONFIDENCE CALIBRATION FRAMEWORK (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+HIGH Confidence (Use sparingly):
+✅ Multiple published books explicitly state connection
+✅ Ancient historical records document association
+✅ Cross-cultural pattern with 3+ independent traditions
+❌ NOT ALLOWED for channeled-only sources (even if "explicit")
+❌ NOT ALLOWED for single-source claims
+
+MEDIUM Confidence:
+✅ Single established channeled source (Bailey, Marciniak, Royal)
+✅ Thematic pattern across 2+ published sources
+✅ Ancient association + modern esoteric support
+✅ Channeled sources with cross-verification
+
+LOW Confidence:
+✅ Single modern published source only
+✅ Thematic inference without explicit statement
+✅ Contemporary spiritual community consensus (if from books)
+✅ Disputed claims even if widely cited
+
+SPECULATIVE:
+✅ Blog-level sources (if absolutely necessary, downgrade to speculative)
+✅ Single-source inference
+✅ Intuitive connections without published support
+
+═══════════════════════════════════════════════════════════════════════════════
+
+⚖️ WEIGHT CALIBRATION RULES (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Assign weights based on EVIDENCE QUALITY, not thematic importance:
+
+Weight 5: Multiple published sources + ancient records + cross-cultural
+Weight 4: Established channeled source + ancient association
+Weight 3: Single established channeled source OR strong thematic pattern
+Weight 2: Contemporary interpretation with published book sources
+Weight 1: Speculative connection with minimal support
+
+RULES:
+- Total weight across all systems should be ≤15 per gate
+- DO NOT assign weight 5 to channeled-only sources, even if "explicit"
+- DO NOT assign highest weight to weakest evidence
+- Weights must align with confidence levels
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚨 DISPUTE INTEGRATION REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+If a source is disputed (e.g., Temple/Dogon, Collier/Andromeda):
+1. State the claim
+2. IMMEDIATELY note the dispute in the same section
+3. Cite the counter-source (e.g., van Beek 1991)
+4. Adjust confidence accordingly (usually to LOW)
+5. Separate credible elements from disputed ones
+
+Example format:
+"ancient_support": [
+  {
+    "claim": "Egyptian Sopdet/Isis association",
+    "status": "CREDIBLE",
+    "note": "Well-documented historical association"
+  },
+  {
+    "claim": "Dogon Sirius B knowledge",
+    "status": "DISPUTED",
+    "dispute": "Van Beek (1991) fieldwork found no evidence of pre-colonial Sirius B knowledge",
+    "note": "Temple's interpretation remains controversial"
+  }
+]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📚 ANCIENT TEXT PRIORITY - USE YOUR LIBRARY!
+═══════════════════════════════════════════════════════════════════════════════
+
+BEFORE citing channeled sources, SEARCH FOR ANCIENT TEXT SUPPORT:
+
+✨ PRIORITIZE THESE ANCIENT SOURCES (when thematically relevant):
+
+EGYPTIAN/KEMETIC:
+- Pyramid Texts (Mercer 1952, Faulkner 1969) - Sirius/Sopdet, Orion/Osiris
+- Coffin Texts (Faulkner 1973-1978) - Stellar transformation spells
+- Book of the Dead (Budge 1895) - "Imperishable Stars" passages
+- Dendera Zodiac (Cauville 1997) - Temple stellar alignments
+
+MESOPOTAMIAN/SUMERIAN:
+- MUL.APIN (Hunger & Pingree 1989) - Babylonian star catalog
+- Enuma Elish (Heidel 1942) - Creation mythology with stellar references
+- Cuneiform tablets (British Museum K-series) - Specific star omens
+
+VEDIC/HINDU:
+- Rig Veda (Griffith 1896) - Stellar hymns with mandala/sukta references
+- Atharva Veda (Whitney 1905) - Healing stars, Arcturus (Brihaspati)
+- Surya Siddhanta (Burgess 1860) - Ancient astronomy with Pleiades (Krittika)
+
+CHINESE/TAOIST:
+- I Ching (Wilhelm/Baynes 1950) - Already required, but look for stellar commentary
+- Science and Civilisation in China Vol. 3 (Needham 1959) - Star catalogs
+- Shi Shen star catalog references (370 BCE)
+
+GREEK/HERMETIC:
+- Corpus Hermeticum (Copenhaver 1992) - Stellar spheres, cosmic mind
+- Greek Magical Papyri (Betz 1986) - Sirius invocations (PGM IV.154-285)
+- Orphic Hymns (Taylor 1792, Athanassakis 1977) - Star hymns
+- Plato's Timaeus (Jowett) - Stellar souls, cosmic order
+
+INDIGENOUS NORTH AMERICAN:
+- Cherokee myths (Mooney 1900, BAE Report 19) - Pleiades origin myths
+- Pawnee mythology (Dorsey 1906) - Stellar theology, star priests
+- Navajo astronomy (Hibben 1960) - Pleiades as "Black God"
+- Lakota star chants (Densmore 1918, BAE Bulletin 61)
+
+INDIGENOUS GLOBAL:
+- Māori star lore (Best 1922) - Matariki (Pleiades), Atutahi (Sirius)
+- Dogon cosmology (Griaule 1948) - Sirius system (note disputes!)
+- Aboriginal astronomy (Norris 2009) - Seven Sisters, Orion hunter
+- Maya/Aztec (Aveni 1980) - Pleiades zenith passages
+
+THEOSOPHICAL (Pre-1950):
+- Blavatsky "Secret Doctrine" (1888) - Sirius as central sun
+- Bailey "Treatise on Cosmic Fire" (1925) - Seven ray system
+- Leadbeater "The Inner Life" (1911) - Sirian hierarchy
+- Steiner "Cosmic Memory" (1904) - Stellar origins
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 RESEARCH STRATEGY FOR EACH STAR SYSTEM:
+
+For SIRIUS alignments, prioritize:
+1. Egyptian Pyramid Texts (Sopdet/Isis references)
+2. Dogon cosmology (with dispute notes)
+3. Greek Magical Papyri (Sirius invocations)
+4. Bailey/Blavatsky (Sirian hierarchy)
+5. THEN modern channeled sources
+
+For PLEIADES alignments, prioritize:
+1. Indigenous myths (Cherokee, Pawnee, Māori, Aboriginal)
+2. MUL.APIN (Babylonian "Seven Stars")
+3. Greek mythology (Seven Sisters)
+4. Vedic Krittika references
+5. THEN modern channeled sources
+
+For ORION alignments, prioritize:
+1. Egyptian Pyramid Texts (Sah/Osiris)
+2. Indigenous hunter myths (Cherokee, Aboriginal)
+3. Greek mythology (Orion the Hunter)
+4. Hermetic/Thoth connections
+5. THEN modern channeled sources
+
+For ARCTURUS alignments, prioritize:
+1. Vedic Atharva Veda (Brihaspati healing)
+2. Greek Hesiod (harvest timing)
+3. Chinese star catalogs (Da Jiao)
+4. Indigenous references (if available)
+5. THEN modern channeled sources
+
+For ANDROMEDA alignments:
+⚠️ WARNING: Very limited ancient sources
+1. Greek mythology (Andromeda myth - freedom theme)
+2. Academic star mythology (Allen 1899)
+3. Modern esoteric sources (clearly labeled as such)
+4. Note: Mostly modern channeled material
+
+For LYRA alignments:
+⚠️ WARNING: Very limited ancient sources
+1. Greek mythology (Orpheus's lyre)
+2. Vedic references (if any)
+3. Academic star mythology (Allen 1899)
+4. Modern esoteric sources (Royal/Priest - clearly labeled)
+5. Note: Mostly modern channeled material
+
+═══════════════════════════════════════════════════════════════════════════════
+
+💡 CONFIDENCE ADJUSTMENT BASED ON ANCIENT SUPPORT:
+
+HIGH Confidence requires:
+✅ Ancient text support (1000+ years old) + modern esoteric convergence
+✅ Cross-cultural pattern (3+ independent traditions)
+✅ Academic verification of ancient association
+
+MEDIUM Confidence:
+✅ Single ancient text + modern esoteric support
+✅ Strong thematic pattern across 2+ published sources
+✅ Established channeled source (Bailey, Marciniak, Royal)
+
+LOW Confidence:
+✅ Modern channeled sources only (even if explicit)
+✅ Single published source
+✅ Thematic inference without ancient support
+
+SPECULATIVE:
+✅ No ancient support, limited modern sources
+✅ Intuitive connections
+✅ Contemporary interpretation only
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 GOOD SOURCE COMBINATIONS (Examples):
+
+STRONG (HIGH Confidence):
+- Ancient: Pyramid Texts (Faulkner 1969), "Utterance 251, pp. 45-47"
+- Modern: Bailey "Treatise on Cosmic Fire" (1925), pp. 567-569
+- Academic: Sellers "Death of Gods in Ancient Egypt" (1992), pp. 123-125
+- Result: Sirius-Osiris connection with cross-cultural verification
+
+MEDIUM (MEDIUM Confidence):
+- Ancient: Orphic Hymns (Athanassakis 1977), "Hymn 7, pp. 12-13"
+- Modern: Marciniak "Bringers of the Dawn" (1992), pp. 88-90
+- Result: Pleiades nurturing theme with ancient + channeled support
+
+WEAK (LOW Confidence):
+- Modern only: Royal "Prism of Lyra" (1989), pp. 45-47
+- No ancient support found
+- Result: Lyra feline origins (channeled source only)
+
+UNACCEPTABLE:
+- Blog: "Starseed Awakening" website (NO!)
+- Anonymous: "Contemporary researchers suggest..." (NO!)
+- No source: "It is widely known that..." (NO!)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔍 DISCOVERY ENCOURAGED - FIND THE HIDDEN GEMS!
+═══════════════════════════════════════════════════════════════════════════════
+
+The MORE OBSCURE and verifiable, the BETTER! We want deep esoteric sources, not just the popular ones.
+
+✨ ACTIVELY SEEK:
+- Obscure Theosophical publications beyond Bailey (e.g., C.W. Leadbeater, Geoffrey Hodson)
+- Lesser-known channeled works from established publishers (e.g., early 1900s spiritualist texts)
+- Academic papers on star mythology from comparative religion journals
+- Rare mystery school texts from university special collections
+- Overlooked passages in canonical esoteric texts (e.g., obscure Bailey chapters, Blavatsky footnotes)
+- Indigenous star lore documented by anthropologists (e.g., Polynesian, Aboriginal, Native American)
+- Historical astronomical texts with mythological content (e.g., medieval Arabic star catalogs)
+- Obscure Hermetic, Gnostic, or Kabbalistic texts with star references
+
+🎯 EXAMPLES OF GREAT DISCOVERIES:
+- "The Inner Life" by C.W. Leadbeater (1911), Theosophical Publishing, pp. 234-237
+- "Star Names: Their Lore and Meaning" by Richard Hinckley Allen (1899), Dover, pp. 45-48
+- "Aboriginal Astronomy" by Ray Norris & Cilla Norris (2009), academic paper with indigenous sources
+- Obscure passage from Blavatsky's "The Secret Doctrine" Vol. 2, pp. 567-569
+- "The Sirius Connection" by Murry Hope (1996), Element Books - lesser-known than Temple
+- Indigenous Polynesian star navigation documented by David Lewis (1972)
+
+⚠️ STILL MUST BE:
+✅ Published book with ISBN (not blog or website)
+✅ Named author (not "Various researchers")
+✅ Specific page/chapter numbers
+✅ Publisher information
+✅ Verifiable via Comet browser
+✅ Follows source hierarchy (Tier 1 or 2)
+
+💡 SEARCH STRATEGY:
+- Search beyond Bailey/Marciniak/Royal - find the lesser-known channelers
+- Look for academic papers on star mythology (JSTOR, academia.edu)
+- Check Theosophical Society archives and publications
+- Search for indigenous star lore via anthropological sources
+- Look for historical astronomical texts with mythological content
+- Search university special collections for rare esoteric texts
+- Check archive.org for out-of-print esoteric books
+- Look beyond the "top 5" Google results
+
+🌟 BONUS POINTS FOR:
+- Finding connections NO ONE else has documented
+- Discovering indigenous traditions that parallel the star system archetype
+- Locating obscure Theosophical or Hermetic texts that explicitly mention the star system
+- Uncovering academic papers that validate esoteric claims
+- Finding historical astronomical texts that bridge science and mythology
+
+═══════════════════════════════════════════════════════════════════════════════
+
+EXECUTION REQUIREMENT:
+- Use Perplexity Sonar Deep Research with Comet browser enabled
+- Verify all citations by accessing actual sources via web browsing
+- Mark any citations you cannot directly verify as "not available" with explanation
+
+Task: Using Gate 7's essence (leadership, direction, democracy, role of the self), map to candidate star systems:
+
+STAR SYSTEMS:
+- Sirius (teachers, guardians, Sirian-Christos lineage)
+- Pleiades (nurturers, artists, empaths, Seven Sisters)
+- Orion Light/Osirian (historians, Egyptian mystery schools, Thoth/Hermes)
+- Arcturus (engineers, healers, geometric consciousness)
+- Andromeda (explorers, iconoclasts, freedom, sovereignty)
+- Lyra (primordial builders, feline beings, instinct)
+- Draco (power, will, hierarchy, kundalini - disputed)
+- Zeta Reticuli (analysts, experimenters, detachment)
+
+QUOTE VERIFICATION CHECKLIST (Complete before submitting):
+□ Exact wording matches source (or marked as paraphrase)
+□ Correct book title and edition
+□ Accurate page number (not "throughout text" or "referenced throughout")
+□ Author name spelled correctly
+□ Publication year correct
+□ URL leads to actual source (not summary/review)
+□ NO blog sources used
+□ NO anonymous authors
+□ Confidence levels reflect epistemology (channeled ≠ HIGH)
+□ Weights align with evidence quality
+□ Disputes integrated into main text (not just noted)
+
+Rules:
+- 3–5 alignments max
+- Mark confidence: high|medium|low|speculative (follow framework above)
+- Tag evidence_type per alignment: explicit|thematic|cross_cultural|inferred
+- Include 2–3 sources per alignment (mix ancient + modern esoteric when possible)
+- For Orion, specify "Orion Light" or "Osirian" (not just "Orion")
+- All arrays must be present (can be empty [])
+- Each alignment needs 2-3 PUBLISHED BOOK sources with FULL metadata
+
+EVIDENCE TYPE CLARIFICATION:
+
+EXPLICIT: Source directly states the connection
+- Must be from published book or established text
+- Channeled sources marked as "explicit (channeled)" to avoid confusion
+- NOT "explicit" if only found in blogs
+
+THEMATIC: Connection inferred from patterns
+- Multiple sources suggest theme
+- Cross-cultural symbolic resonance
+- Archetypal parallels
+
+CROSS_CULTURAL: Pattern appears across multiple traditions
+- 3+ independent cultural sources
+- Ancient + modern convergence
+
+INFERRED: Contemporary interpretation
+- Modern spiritual community consensus
+- Single-source inference
+- Intuitive connections
+
+SOURCE TIER DEFINITIONS:
+- ancient: Texts 1000+ years old (Egyptian, Vedic, I Ching, etc.)
+- scholarly: Academic research, peer-reviewed studies
+- historical: Mystery school texts, indigenous traditions (100-1000 years)
+- channeled: Modern channeled material (post-1900)
+- modern: Contemporary esoteric synthesis from PUBLISHED BOOKS (not blogs)
+
+Output shape (minified JSON only):
+{
+  "gate": 7,
+  "star_system_alignments": [
+    {
+      "system": "Sirius|Pleiades|Orion Light|Arcturus|Andromeda|Lyra|Draco|Zeta",
+      "confidence": "high|medium|low|speculative (FOLLOW FRAMEWORK ABOVE)",
+      "evidence_type": "explicit|explicit (channeled)|thematic|cross_cultural|inferred",
+      "primary_rationale": "2–3 sentences tying Gate 7 essence to this system's signature.",
+      "ancient_support": [
+        {
+          "claim": "Specific claim",
+          "status": "CREDIBLE|DISPUTED",
+          "dispute": "If disputed, cite counter-source here",
+          "note": "Brief context"
+        }
+      ],
+      "modern_support": ["…","…"],
+      "cross_cultural_pattern": "… or 'unknown'",
+      "sources": [
+        { 
+          "title":"MUST BE SPECIFIC PUBLISHED BOOK (not blog)",
+          "author":"MUST BE SPECIFIC (not 'Various researchers')",
+          "edition":"MUST BE SPECIFIC (e.g., '2nd Edition 2005')",
+          "year":1234,
+          "publisher":"MUST INCLUDE (e.g., 'Bear & Company')",
+          "isbn":"INCLUDE IF AVAILABLE",
+          "source_type":"ancient|channeled|research|indigenous",
+          "source_tier":"ancient|scholarly|historical|channeled|modern",
+          "quote":"MUST BE ACTUAL QUOTE ≤25 words (not 'unknown' unless truly unavailable)",
+          "quote_type":"exact|paraphrase",
+          "page":"MUST BE SPECIFIC (e.g., 'Chapter 5, pp. 78-80' or 'p. 88')",
+          "url":"MUST INCLUDE IF AVAILABLE",
+          "disputed":false,
+          "dispute_note":"If disputed=true, explain why"
+        }
+      ]
+    }
+  ],
+  "weights_hint": [
+    {
+      "system_id": "lyra|sirius|pleiades|orion_light|arcturus|andromeda",
+      "suggested_w": 1-5,
+      "reason": "Brief explanation why this weight (must align with evidence quality)"
+    }
+  ],
+  "mind_blowing_connections": [],
+  "contradictions": [],
+  "notes": "unknown|brief"
+}
+
+WEIGHTS_HINT RULES:
+- Total weight across all systems should be ≤15 per gate
+- Higher weight = stronger EVIDENCE (not thematic importance)
+- Must match the confidence levels you assigned
+- Reason should be 5-10 words max
+- DO NOT assign weight 5 to channeled-only sources
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Does each alignment have 2-3 PUBLISHED BOOK sources with full metadata?
+- ✅ Do all sources have specific page numbers or sections (or "not available" with explanation)?
+- ✅ Do all sources have actual quotes (or "not available" with explanation)?
+- ✅ Are paraphrases clearly marked with "quote_type": "paraphrase"?
+- ✅ Do all sources have edition and publisher information?
+- ✅ Are ISBNs included where available?
+- ✅ Are URLs included where available?
+- ✅ Does each alignment include at least 1 "ancient" or "scholarly" tier source (when available)?
+- ✅ Is each source properly tagged with source_tier?
+- ✅ Do confidence levels follow the framework (channeled-only ≠ HIGH)?
+- ✅ Do weights align with evidence quality (strongest evidence = highest weight)?
+- ✅ Are disputes integrated into ancient_support structure (not just noted)?
+- ✅ Have you searched for sources that CONTRADICT this star system alignment?
+- ✅ If contradictions found, are they listed in the "contradictions" array?
+- ⚠️ If critical information is "not available", have you explained why in "notes"?
+- ❌ Are there ANY blog sources? (If yes, REMOVE them or downgrade to speculative)
+- ❌ Are there ANY anonymous authors? (If yes, find actual author or remove)
+- ❌ Is there HIGH confidence on channeled-only sources? (If yes, downgrade to MEDIUM)
+- ❌ Is highest weight on weakest evidence? (If yes, recalibrate weights)
+
+VALIDATION LESSONS LEARNED (Gate 1 Results):
+- Marciniak "Emit your own frequency" is from Family of Light (1998), NOT Bringers of the Dawn (1992)
+- Hopi sources MUST be Frank Waters or anthropologists, NOT blogs
+- Royal/Priest Lyra quotes are often paraphrases - mark as such
+- Lyra confidence should be MEDIUM (channeled source only), not HIGH
+- Andromeda sources from blogs are UNACCEPTABLE - find published books or downgrade to LOW
+- Sirius/Dogon dispute MUST be integrated into ancient_support structure
+- Weights should reflect evidence quality: Sirius (historical + esoteric) > Lyra (channeled only)
+- Bailey page numbers are verifiable - include them
+- Temple quotes exist but are disputed - mark accordingly

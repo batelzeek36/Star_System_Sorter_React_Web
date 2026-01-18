@@ -1,0 +1,84 @@
+{
+  "gate": 42,
+  "gate_name": "",
+  "lines": {
+    "42.1": {
+      "line": 1,
+      "hd_title": "Diversification",
+      "hd_quote": "The ability when surplus resources are available to extend one's activities beyond their normal scope.",
+      "keywords": [
+        "many experiences",
+        "use surplus well",
+        "cycle starter"
+      ],
+      "behavioral_axis": "Knows growth begins by not repeating the same experience; branches to new cycles when there is energy.",
+      "shadow_axis": "Scatters sacral energy into too many half-finished experiences → 'decadence'.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "42.2": {
+      "line": 2,
+      "hd_title": "Identification",
+      "hd_quote": "Recognition and acute capitalization of trends.",
+      "keywords": [
+        "spots new experiences",
+        "projects resourcefulness",
+        "trend surfer"
+      ],
+      "behavioral_axis": "Projects, 'I can grow with this,' and rides collective trends into increase.",
+      "shadow_axis": "Overidentifies with trends it cannot actually resource; stops growth when change hits.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "42.3": {
+      "line": 3,
+      "hd_title": "Trial and error",
+      "hd_quote": "Mistakes are a natural part of the process.",
+      "keywords": [
+        "bonds made/broken",
+        "experiential realism",
+        "learn by doing"
+      ],
+      "behavioral_axis": "Accepts that growth = messy cycles; keeps moving through experience despite errors.",
+      "shadow_axis": "Broods over mistakes; becomes overly cautious and blocks maturation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "42.4": {
+      "line": 4,
+      "hd_title": "The Middle Man",
+      "hd_quote": "The quintessential manifestation of the mediator.",
+      "keywords": [
+        "midwife energy",
+        "resource conduit",
+        "transpersonal growth"
+      ],
+      "behavioral_axis": "Mediates resources so others can complete their cycles; knows experience needs company.",
+      "shadow_axis": "Overconcern with harmony distorts mediation and slows growth.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "42.5": {
+      "line": 5,
+      "hd_title": "Self-actualization",
+      "hd_quote": "The fulfillment and actualization of purpose as a natural path.",
+      "keywords": [
+        "projected maturity",
+        "inner growth track",
+        "visible completion"
+      ],
+      "behavioral_axis": "Appears mature → is entrusted with resources → fulfills purpose through growth.",
+      "shadow_axis": "Turns growth inward and reclusive; withholds energy from collective increase.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "42.6": {
+      "line": 6,
+      "hd_title": "Nurturing",
+      "hd_quote": "The power to share the process of growth with others.",
+      "keywords": [
+        "selective sharing",
+        "experienced historian",
+        "growth teacher"
+      ],
+      "behavioral_axis": "From the roof, chooses when growth is worth transmitting; shares mature experience.",
+      "shadow_axis": "Refuses to share gains; materialistic protection of energy → aggression from others.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 6,
+  "hexagram_name_legge": "Sung",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Sung intimates how, though there is sincerity in oneâ€™s contention, he will yet meet with opposition and obstruction; but if he cherish an apprehensive caution, there will be good fortune, while, if he must prosecute the contention to the (bitter) end, there will be evil. It will be advantageous to see the great man; it will not be advantageous to cross the great stream.",
+  "image_text": "(The trigram representing) heaven and (that representing) water, moving away from each other, form Sung. The superior man, in accordance with this, in the transaction of affairs takes good counsel about his first steps.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "VI. The Sung Hexagram.\n\nSung intimates how, though there is sincerity in oneâ€™s contention, he will yet meet with opposition and obstruction; but if he cherish an apprehensive caution, there will be good fortune, while, if he must prosecute the contention to the (bitter) end, there will be evil. It will be advantageous to see the great man; it will not be advantageous to cross the great stream.\n\n1. The first line, divided, shows its subject not perpetuating the matter about which (the contention is). He will suffer the small (injury) of being spoken against, but the end will be fortunate.\n\n2. The second line, undivided, shows its subject unequal to the contention. If he retire and keep concealed (where) the inhabitants of his city are (only) three hundred families, he will fall into no mistake.\n\n3. The third line, divided, shows its subject keeping in the old place assigned for his support, and firmly correct. Perilous as the position is, there will be good fortune in the end. Should he perchance engage in the kingâ€™s business, he will not (claim the merit of) achievement.\n\n4, The fourth line, undivided, shows its subject unequal to the contention. He returns to (the study of Heavenâ€™s) ordinances, changes (his wish to contend), and rests in being firm and correct. There will be good fortune.\n\n5, The fifth line, undivided, shows its subject contendingand with great good fortune.\n\n6, The topmost line, undivided, shows how its subject may have the leathern belt conferred on him (by the sovereign), and thrice it shall be taken from him in a morning.\n\n(The trigram representing) heaven and (that representing) water, moving away from each other, form Sung. The superior man, in accordance with this, in the transaction of affairs takes good counsel about his first steps.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows its subject not perpetuating the matter about which (the contention is). He will suffer the small (injury) of being spoken against, but the end will be fortunate."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject unequal to the contention. If he retire and keep concealed (where) the inhabitants of his city are (only) three hundred families, he will fall into no mistake."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject keeping in the old place assigned for his support, and firmly correct. Perilous as the position is, there will be good fortune in the end. Should he perchance engage in the kingâ€™s business, he will not (claim the merit of) achievement."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject unequal to the contention. He returns to (the study of Heavenâ€™s) ordinances, changes (his wish to contend), and rests in being firm and correct. There will be good fortune."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject contendingand with great good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, shows how its subject may have the leathern belt conferred on him (by the sovereign), and thrice it shall be taken from him in a morning."
+    }
+  ],
+  "notes": []
+}

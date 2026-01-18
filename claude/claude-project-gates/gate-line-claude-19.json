@@ -1,0 +1,90 @@
+{
+  "gate": 19,
+  "gate_name": "Approach",
+  "lines": {
+    "19.1": {
+      "line": 1,
+      "hd_title": "Interdependence",
+      "hd_quote": "The tribe is not meant to be homogeneous.",
+      "keywords": [
+        "interdependence",
+        "individual autonomy",
+        "tribal support",
+        "resource pressure"
+      ],
+      "behavioral_axis": "Maintains individual identity while seeking tribal support, contributing resources without losing autonomy in interdependent relationships.",
+      "shadow_axis": "Falls into dependency instead of interdependence, loses identity and goes against own principles to secure resources.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "19.2": {
+      "line": 2,
+      "hd_title": "Service",
+      "hd_quote": "The dedication of personal resources as a result of external contact.",
+      "keywords": [
+        "called out to serve",
+        "natural bargaining",
+        "resource exchange",
+        "tribal service"
+      ],
+      "behavioral_axis": "Called out by others as naturally ready to serve, trades personal resources for tribal support in mutually beneficial bargains.",
+      "shadow_axis": "Becomes oversensitive when resources aren't reciprocated, feels exploited despite projecting willingness to serve.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "19.3": {
+      "line": 3,
+      "hd_title": "Sensitivity",
+      "hd_quote": "The need to be wanted validated by numbers.",
+      "keywords": [
+        "trial-and-error bonding",
+        "resource sensitivity",
+        "learning through mistakes",
+        "testing relationships"
+      ],
+      "behavioral_axis": "Experiments through trial-and-error with tribal bonds, learns what works by discovering who genuinely pulls their weight in resource exchanges.",
+      "shadow_axis": "Becomes oversensitive about inadequate resources, fixates on numbers of people rather than the value inherent in relationships.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "19.4": {
+      "line": 4,
+      "hd_title": "The Team Player",
+      "hd_quote": "The energy to seek out and exalt in the company of others.",
+      "keywords": [
+        "driving force",
+        "externalized energy",
+        "team player",
+        "interdependent work"
+      ],
+      "behavioral_axis": "Externalizes driving force to gather tribal resources, brings enormous energy to work interdependently as long as others can keep up.",
+      "shadow_axis": "Becomes dissatisfied with others' contributions, feels everyone is dependent on them and they must carry all the weight.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "19.5": {
+      "line": 5,
+      "hd_title": "Sacrifice",
+      "hd_quote": "The need to limit personal potential in order to achieve a larger goal.",
+      "keywords": [
+        "projection field",
+        "tribal sacrifice",
+        "higher principle",
+        "resource martyrdom"
+      ],
+      "behavioral_axis": "Receives projections of willingness to sacrifice for the tribe, recognized for potential to serve larger goals beyond personal resource needs.",
+      "shadow_axis": "Becomes desensitized from constant sacrifice, condescends to those they serve, or performs self-sacrifice to satisfy projected expectations without proper principles.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "19.6": {
+      "line": 6,
+      "hd_title": "The Recluse",
+      "hd_quote": "The avoidance of contact in general but not exclusively.",
+      "keywords": [
+        "reclusive objectivity",
+        "conditional engagement",
+        "prove worthiness",
+        "sage on the hill"
+      ],
+      "behavioral_axis": "Withdraws from tribal engagement unless convinced the whole process is worthwhile, waits to be sought out as proof of being genuinely needed.",
+      "shadow_axis": "Oversensitive to rejection fuels self-imposed exile, sulks until others prove they need them by seeking them out and soothing their withdrawal.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

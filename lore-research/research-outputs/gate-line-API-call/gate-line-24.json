@@ -1,0 +1,84 @@
+{
+  "gate": 24,
+  "gate_name": "",
+  "lines": {
+    "24.1": {
+      "line": 1,
+      "hd_title": "The Sin of Omission",
+      "hd_quote": "Transformation that requires retrogressive periods before renewal can take place.",
+      "keywords": [
+        "review past thinking",
+        "retrograde then renew",
+        "originality check"
+      ],
+      "behavioral_axis": "Cycles back to test whether an inspiration is new and worth knowing.",
+      "shadow_axis": "Loops on the past; stalls creative mutation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "24.2": {
+      "line": 2,
+      "hd_title": "Recognition",
+      "hd_quote": "The proper and spontaneous adaptation to new forms.",
+      "keywords": [
+        "spontaneous concept",
+        "projected certainty",
+        "no introspection"
+      ],
+      "behavioral_axis": "Shares fresh concepts quickly, without checking provenance.",
+      "shadow_axis": "Projects originality; risks public correction for unoriginal ideas.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "24.3": {
+      "line": 3,
+      "hd_title": "The Addict",
+      "hd_quote": "The powerful attraction of regressive forms.",
+      "keywords": [
+        "bonding then breaking",
+        "inspiration hopping",
+        "irrational fixation"
+      ],
+      "behavioral_axis": "Hooks into inspiration then drops it; tests knowability irresponsibly.",
+      "shadow_axis": "Glorifies old patterns; rationalizes regression.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "24.4": {
+      "line": 4,
+      "hd_title": "The Hermit",
+      "hd_quote": "Transformation that can only take place in isolation.",
+      "keywords": [
+        "anti-influence",
+        "alone to think",
+        "fixed mental boundary"
+      ],
+      "behavioral_axis": "Protects originality by withdrawing to process alone.",
+      "shadow_axis": "Isolation drifts into fantasy; resists helpful input.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "24.5": {
+      "line": 5,
+      "hd_title": "Confession",
+      "hd_quote": "The courage to admit the mistakes of the past.",
+      "keywords": [
+        "clean slate",
+        "public correction",
+        "mutation doorway"
+      ],
+      "behavioral_axis": "Admits prior error to unlock the next mutation.",
+      "shadow_axis": "Justifies the past; turns confession into self-defense.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "24.6": {
+      "line": 6,
+      "hd_title": "The Gift Horse",
+      "hd_quote": "The possibility of being deaf when opportunity knocks.",
+      "keywords": [
+        "waiting for real mutation",
+        "missed chances",
+        "roof perspective"
+      ],
+      "behavioral_axis": "Ignores options until one truly mutative path appears.",
+      "shadow_axis": "Paralysis by suspicion; overlooks workable opportunities.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

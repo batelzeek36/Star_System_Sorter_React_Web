@@ -1,0 +1,278 @@
+{
+  "38.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses coerced fights; sovereignty chooses if a struggle is worthy."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Initial risk/fitness check—don’t deploy force until the frame is sound."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Picking fights to assert rank rather than meaning."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is a meaning/force axis, not an aesthetic one."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Using opposition to compel obedience or fear."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior discipline: conserve strength for the right cause."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Reads human cost so the fight doesn’t harm the tribe."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching struggle hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-38.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "38.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines forced ‘necessary’ battles; protects free consent."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places people/effort where opposition yields real gain—viability first."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Loyalty tests around ‘prove you’ll fight for us.’"
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Sober, inspiring framing clarifies the cause without theatrics."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Etiquette or protocol used to mask coercion into conflict."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Choose the honorable contest; ignore bait and spectacle."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Attunes to bonds so the struggle remains humane."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical selection of battles; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-38.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "38.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after misdirected or manipulated contests."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—over/under-committing while learning what’s worthy."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Predatory provocation—fighting to dominate, not to liberate."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Performative defiance/image over substance."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Dogma of conflict—manufacturing enemies to tighten control."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction: admit misreads, reset aims, engage cleanly."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement fights—swinging to ‘keep peace’ rather than truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging via trial-and-error; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-38.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "38.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Advocates freedom by selecting struggles that actually restore sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Turns opposition into protocol—criteria, thresholds, disengage rules."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guards perimeter so predation doesn’t hijack the fight."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Composed cadence makes the stand receivable by many."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—‘one right way’ to resist can erase nuance."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-stance: model principled, proportionate resistance."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps the human heart intact while pursuing the stand."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "‘Worthy struggle’ protocol—teaches how to oppose without becoming what you oppose.",
+      "confidence": 4,
+      "sources": ["gate-line-38.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "worthy-struggle-protocol",
+      "keywords": ["criteria", "proportionality", "disengage"]
+    }
+  },
+  "38.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that sanctifies pointless sacrifice."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as fixer/warrior-for-all → burnout & scapegoat when refusing bad fights."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Status contests about who will ‘fight hardest’ for rank."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Iconic steadiness that inspires without theater."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine of conflict used to compel obedience."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—only fight for the true cause."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Enmeshment—joining battles to be liked or to calm others."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethical opposition despite pressure and mythmaking.",
+      "confidence": 4,
+      "sources": ["gate-line-38.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["ethics", "resistance", "projection"]
+    }
+  },
+  "38.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Frees communities from endless, meaningless conflict; restores choice."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Elder standards for when/how to oppose—readiness, proportionality, review."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy rank can ossify into ‘eternal enemies’ narratives."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet, dignified stance becomes a cultural signal for meaning-first courage."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing conflict as identity and hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Warrior elder—fights only when it gives life meaning; refuses spectacle."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of resistance, not bonding/soothing at this altitude."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Meaning-struggle sage—teaches the law of worthy opposition by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-38.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "meaning-law/warrior-elder",
+      "keywords": ["worthy", "proportionality", "elder", "law"]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "gate": 36,
+  "gate_name": "",
+  "lines": {
+    "36.1": {
+      "line": 1,
+      "hd_title": "Resistance",
+      "hd_quote": "The energy and determination to persevere in the face of opposition.",
+      "keywords": [
+        "raw emotional stamina",
+        "holds through decline",
+        "first-contact turbulence"
+      ],
+      "behavioral_axis": "Meets crisis head-on and stays in the wave until it shifts.",
+      "shadow_axis": "Rigid resistance that creates more drama than needed.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "36.2": {
+      "line": 2,
+      "hd_title": "Support",
+      "hd_quote": "Assistance to others in times of decline.",
+      "keywords": [
+        "compassion in crisis",
+        "applied imagination",
+        "quiet help"
+      ],
+      "behavioral_axis": "Uses feeling-awareness to help others ride their wave.",
+      "shadow_axis": "Selective help; rescues only when convenient.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "36.3": {
+      "line": 3,
+      "hd_title": "Transition",
+      "hd_quote": "The point at which decline has exhausted its power.",
+      "keywords": [
+        "cycle turning",
+        "phoenix moment",
+        "emotional reformer"
+      ],
+      "behavioral_axis": "Rebuilds a new order after the crisis wave breaks.",
+      "shadow_axis": "Carries over old patterns into the new cycle.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "36.4": {
+      "line": 4,
+      "hd_title": "Espionage",
+      "hd_quote": "The ability to prepare for and anticipate decline through the accumulation of secret or privileged information.",
+      "keywords": [
+        "intel gathering",
+        "covert emotional awareness",
+        "preparing for downturns"
+      ],
+      "behavioral_axis": "Uses insight and intel to soften or divert crisis.",
+      "shadow_axis": "Information hoarding; double-agent vibes under stress.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "36.5": {
+      "line": 5,
+      "hd_title": "The Underground",
+      "hd_quote": "Perfected survival regardless of conditions.",
+      "keywords": [
+        "immunity to crisis",
+        "operates under radar",
+        "endurance"
+      ],
+      "behavioral_axis": "Can generate or survive crisis without losing center.",
+      "shadow_axis": "Nervousness → self-betrayal in high-stakes moments.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "36.6": {
+      "line": 6,
+      "hd_title": "Justice",
+      "hd_quote": "The inevitable survival of right.",
+      "keywords": [
+        "long-view compassion",
+        "darkness self-annihilates",
+        "emotional jurisprudence"
+      ],
+      "behavioral_axis": "Knows real crisis purifies what’s correct.",
+      "shadow_axis": "Cynicism from seeing endless cycles of crisis.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

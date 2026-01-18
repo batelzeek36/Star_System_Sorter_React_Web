@@ -1,0 +1,539 @@
+# ANDROMEDA BASELINE RESEARCH (V4)
+
+## CONTEXT
+
+You are conducting Phase 0 baseline research for the Star System Sorter project. This research establishes the foundational characteristics of Andromeda that will later be used to map Human Design gates to star systems. Academic rigor and proper citations are CRITICAL.
+
+**IMPORTANT TERMINOLOGY SCOPE FOR THIS TASK:**
+
+* "Andromeda" may refer to:
+
+  * The **Andromeda Galaxy (M31)** in modern astronomy
+  * The **constellation Andromeda** (rooted in Greco-Roman myth of Princess Andromeda)
+  * "Andromedans" / "Andromedan Council" / "Andromedan beings" in modern esoteric and channeled sources
+* You MUST capture all three. You MUST NOT collapse them into one undifferentiated blob. Treat them as potentially related or unrelated lineages and mark consensus honestly.
+
+**V4 PHILOSOPHY:** This version uses honest field naming to distinguish provisional research (location hints + summaries) from locked citations (exact pages + verbatim quotes). You provide the research scaffold, the human locks it down later.
+
+**V4 IMPROVEMENTS:**
+
+1. Relaxed trait coverage rule for low-consensus characteristics
+2. Optimized handling of fully accessible online sources (sacred-texts.com, archive.org)
+3. Clarified translator full name expectations
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Wrong book attribution** - VERIFY book title matches content
+5. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+6. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+7. **Wiki-style sites without citations** - UNACCEPTABLE
+8. **Wikipedia or online encyclopedias** - UNACCEPTABLE (find the primary source instead)
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+❌ Wikipedia (find the primary source it cites instead)
+
+═══════════════════════════════════════════════════════════════════════════════
+🔥 V4 CITATION POLICY: PROVISIONAL vs LOCKED
+═══════════════════════════════════════════════════════════════════════════════
+
+## Citation Status Types
+
+### PROVISIONAL (when you can't access full text)
+
+Use when you've identified a legitimate source but can't access the complete text:
+
+**Required fields:**
+
+* `location_hint` - Chapter, section, session number, etc.
+* `summary` - ≤25 word paraphrase of what source says about the trait
+* `citation_status: "provisional"`
+
+**Example:**
+
+```json
+{
+  "title": "Defending Sacred Ground: The Andromedan Compendium",
+  "author": "Alex Collier",
+  "edition": "Revised Edition",
+  "year": 1997,
+  "original_year": 1994,
+  "publisher": "Val Valerian / Leading Edge Research",
+  "location_hint": "Transcript Section: 'Andromedan Council Directives'",
+  "summary": "Andromedans warn about control systems and emphasize collective sovereignty and non-manipulation ethics",
+  "url": "https://example-access",
+  "isbn": "ISBN 1-883487-16-4",
+  "source_type": "channeled",
+  "astronomical_component": "unspecified",
+  "component_reasoning": "Describes 'Andromedans' without clarifying galaxy vs constellation origin point",
+  "citation_status": "provisional"
+}
+```
+
+### LOCKED (when you have verbatim access)
+
+Use when you can copy exact text from a source you can fully access:
+
+**Required fields:**
+
+* `page` - Exact locator in the cited edition OR a canonical unit such as "Session 3", "Section IV", "Plate XXV"
+* `quote` - Verbatim text ≤25 words from source
+* `citation_status: "locked"`
+
+**Example (with ISBN):**
+
+```json
+{
+  "title": "The Mythology of All Races, Volume I: Greek and Roman",
+  "author": "William Sherwood Fox",
+  "translator_or_editor": "Louis Herbert Gray (editor)",
+  "edition": "Marshall Jones Company Edition",
+  "year": 1916,
+  "publisher": "Marshall Jones Company",
+  "page": "pp. 128-130",
+  "quote": "Andromeda, daughter of Cepheus and Cassiopeia, was chained to a rock as an offering to a sea-monster until rescued by Perseus",
+  "url": "https://archive.org/details/mythologyofallra01gray",
+  "isbn": null,
+  "source_type": "ancient",
+  "astronomical_component": "A",
+  "component_reasoning": "Classical myth → visible constellation Andromeda, pre-modern naked-eye tradition",
+  "citation_status": "locked"
+}
+```
+
+**Example (peer-reviewed astronomy source with DOI instead of ISBN):**
+
+```json
+{
+  "title": "The Distance to the Andromeda Nebula",
+  "author": "Edwin P. Hubble",
+  "edition": "Astrophysical Journal, Vol. 63",
+  "year": 1926,
+  "publisher": "University of Chicago Press",
+  "page": "pp. 236-274",
+  "quote": "The measured Cepheid variables indicate the Andromeda Nebula is an extragalactic system",
+  "url": "https://archive.org/details/apj-1926-hubble",
+  "isbn": null,
+  "doi": "10.1086/143018",
+  "source_type": "research",
+  "astronomical_component": "G",
+  "component_reasoning": "Identifies Andromeda as an external galaxy with independent star systems",
+  "citation_status": "locked"
+}
+```
+
+## What You MAY Do
+
+✅ **PROVISIONAL citations when:**
+
+* Full text is behind paywall
+* Only preview pages available on Google Books
+* Source exists but you can't access complete text
+* You can identify chapter/section but not exact page
+
+✅ **LOCKED citations when:**
+
+* Source is fully accessible on Archive.org (full text, not just table of contents)
+* Source is on sacred-texts.com with full text
+* Public-domain scans of historical astronomy papers
+* Google Books has full preview available
+* You can copy verbatim text
+
+**CRITICAL:** If a source is fully available at archive.org, sacred-texts.com, HathiTrust full view, or similar full-scan archive, you MUST treat it as `citation_status: "locked"` and include a `quote` + locator. Do NOT use provisional mode for fully accessible sources.
+
+## What You MAY NOT Do
+
+❌ **NEVER:**
+
+* Fabricate page numbers or quotes
+* Label a paraphrase as a direct quote
+* Use `citation_status: locked` unless the quote is truly verbatim
+* Use placeholder quotes like "[EXAMPLE QUOTE]"
+* Guess at page numbers
+* Use Wikipedia or blogs as sources
+* Give up and return empty results
+
+## Field Usage Rules
+
+**Use `location_hint` + `summary` when:**
+
+* You know the source exists (verified ISBN, DOI, author, edition)
+* You can identify approximate location (chapter, section)
+* You can't access full text for verbatim quote
+* Set `citation_status: "provisional"`
+
+**Use `page` + `quote` when:**
+
+* You have full text access
+* You can copy exact words from source
+* You can verify exact locator
+* Set `citation_status: "locked"`
+
+**DO NOT include `verified: true` field** - that will be added during manual verification phase.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+
+Research and document the characteristics attributed to ANDROMEDA across:
+
+1. Classical/ancient myth associated with the Andromeda constellation (Princess Andromeda, Perseus rescue, royal bloodline duty)
+2. Modern astronomy of the Andromeda Galaxy (M31 as separate galactic civilization space)
+3. Modern esoteric, contact, and channeled material about "Andromedans" (ethics, sovereignty, anti-control, evolutionary pressure toward freedom)
+
+Return findings as **minified JSON** with complete citations.
+
+## ACADEMIC CONTEXT
+
+This research supports Star System Sorter, which maps Human Design's I Ching-based gate system to star mythology and cosmology.
+
+**Human Design's Academic Foundations:**
+
+* **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung engagement via Wilhelm/Baynes translation (1950)
+* **64 DNA codons** - Nobel-recognized genetic code work (Marshall Nirenberg, Har Gobind Khorana, 1960s)
+* **Kabbalah (Tree of Life)** - Deep academic study (Gershom Scholem, Moshe Idel)
+* **Chakra system** - Religious studies / Indological scholarship (Georg Feuerstein)
+* **Western Astrology** - Cultural/intellectual history (Richard Tarnas)
+
+**Mathematical Correspondences:**
+
+* 64 I Ching hexagrams = 64 DNA codons (documented parallel in Human Design origin literature)
+* Binary yin/yang logic = Binary genetic code model (A/T, C/G)
+
+**Your Task:** Document Andromeda system characteristics using rigorous sourcing standards (ancient/classical myth, astronomy, published books, proper citations). This is **comparative mythology and cosmology research**, not pseudoscience.
+
+**CRITICAL:** If you cannot find an ISBN for a pre-1967 or pre-ISBN edition, set `"isbn": null` and STILL RETURN THE SOURCE. Do not omit the source.
+
+## HYPOTHESIS TO VALIDATE
+
+Based on preliminary research, Andromeda is associated with:
+
+* Liberation from control systems and authoritarian empires
+* High ethical governance / non-hierarchical councils
+* Advanced/extragalactic origin status (not local to Milky Way)
+* Rescue/deliverance archetypes (Andromeda myth: bound, then freed)
+* Warnings about manipulation and timeline steering
+
+Your task is to find evidence that confirms, refutes, or nuances these characteristics.
+
+## PRIMARY SOURCES TO RESEARCH
+
+### Classical / Mythic (HIGH PRIORITY for constellation-level Andromeda)
+
+* Greek heroic cycle: Perseus, Andromeda, Cepheus, Cassiopeia
+* Sources that explicitly tie Andromeda (the princess) to the **constellation** placement in the sky
+* Classical compilations still in print, public-domain mythography, and star lore texts that identify Andromeda as a named constellation
+
+### Historical & Academic Astronomy (HIGH PRIORITY for Andromeda Galaxy)
+
+* Edwin Hubble (1920s) identifying Andromeda as extragalactic
+* Historical identification of the "Andromeda Nebula" as an island universe
+* Modern galactic-scale framing of Andromeda as a separate system with its own stellar population
+
+### Modern Esoteric / Contact Literature (HIGH PRIORITY for "Andromedans")
+
+* Alex Collier (Andromedan Council material, 1990s)
+* Contact/telepathic briefings describing Andromedan socio-ethical structure, non-interference, collective sovereignty
+* Other published Andromedan communications in print with ISBN (e.g. Val Valerian / Leading Edge Research imprints)
+
+### Comparative / UFO / Metaphysical Studies
+
+* Works that distinguish Andromedans from "Pleiadians" or "Sirians" in terms of ethos, mission profile, intervention rules, social organization
+* Works that present councils, charters, accords
+
+**NOTE:** You may include credible UFOlogy / contactee literature with ISBN (e.g. 1980s–1990s contactee publications) as "channeled" or "controversial" sources. You MUST mark them honestly as such in `source_type`.
+
+## CITATION REQUIREMENTS
+
+Every source MUST include:
+
+**ALWAYS REQUIRED (both provisional and locked):**
+
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names preferred; initials acceptable if that's the standard in the academic record)
+3. **Translator/Editor** (for classical/ancient myth collections and star lore translations — MUST include translator/editor with `(translator)` or `(editor)` designation when applicable)
+4. **Edition information** (e.g., "Revised Edition", "Marshall Jones Company Edition", "2nd Printing", "Updated 1997 Issue")
+5. **Publication year** (and original_year if different)
+6. **Publisher/imprint** (Princeton University Press, Oxford University Press, University of Chicago Press, Marshall Jones Company, Inner Light Publications, etc.)
+7. **URL** (if available online - archive.org, HathiTrust full view, publisher scan, etc.)
+8. **ISBN or DOI** (required for verification. If neither exists for pre-1967 publications, 19th/early 20th century myth compilations, or early astronomy journals, use `"isbn": null` and ensure publisher is specified)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+10. **Astronomical component** (see Andromeda component mapping below)
+11. **Component reasoning** (brief explanation of why you chose that component)
+12. **Citation status** (provisional|locked)
+
+**FOR PROVISIONAL citations:**
+13. **location_hint** - Chapter, section, session, lecture ID, etc.
+14. **summary** - ≤25 word paraphrase of what source says
+
+**FOR LOCKED citations:**
+13. **page** - Exact locator in the cited edition OR canonical unit (e.g. "Book IV, Chapter 2", "Session 3", "pp. 128-130")
+14. **quote** - Verbatim text ≤25 words from source
+
+### ASTRONOMICAL COMPONENT INFERENCE RULES (MANDATORY FOR ANDROMEDA)
+
+Because "Andromeda" can mean different astronomical referents, you MUST choose one of the following component tags:
+
+**Component C (CONSTELLATION):**
+
+* Use `astronomical_component: "C"` for references to the **constellation Andromeda** in the night sky
+* Includes Greek myth of Princess Andromeda, Perseus rescuing Andromeda, royal lineage, sacrifice to the sea monster
+* Includes classical star lore and pre-modern constellation naming traditions
+* **Rule:** If the source is discussing the Greek mythic princess Andromeda, the chained maiden, or the constellation as understood to the naked eye → Component C
+
+**Component G (GALACTIC / M31):**
+
+* Use `astronomical_component: "G"` for references to the **Andromeda Galaxy (Messier 31)** as a separate galaxy / "island universe" / extragalactic civilization zone
+* Includes modern astronomy (Hubble 1920s and later)
+* Includes any esoteric source that explicitly calls Andromeda "another galaxy" or "outside the Milky Way"
+* **Rule:** If the source says Andromeda is another galaxy, an extragalactic civilization, or a governing council beyond the Milky Way → Component G
+
+**Component U (UNSPECIFIED OR AMBIGUOUS ANDROMEDANS):**
+
+* Use `astronomical_component: "U"` for sources that describe "Andromedans" or "Andromedan Council" without clearly saying if they are from the constellation or the galaxy
+* This commonly appears in contactee / telepathic / council-transcript literature
+* **Rule:** If the origin is "Andromeda" but no distinction is made → Component U
+
+**Unspecified (RARE FALLBACK):**
+
+* Use `astronomical_component: "unspecified"` ONLY if a source clearly references "Andromeda" as an origin but refuses to define ANY spatial context (no constellation, no galaxy, no extragalactic framing, no council identifier). Most modern sources will still give at least "galaxy" or "council" → prefer "G" or "U" over "unspecified" whenever possible.
+
+**MANDATORY:** Every source MUST include `astronomical_component` AND a short `component_reasoning`.
+
+## DISPUTED CLAIMS - SPECIAL HANDLING
+
+Some claims about Andromedans (e.g. "Andromedan Council gave Earth non-interference ultimatums", "Andromedans warned of timeline manipulation") are not academically verifiable and are treated skeptically by mainstream research. You MUST include both sides:
+
+### Supporting Evidence
+
+* Alex Collier, "Defending Sacred Ground" (1990s)
+* Other published Andromedan Council transcripts with ISBN or publisher imprint
+
+### Counter-Evidence / Skeptical Framing
+
+* Academic or UFOlogy critiques noting unverifiability, lack of physical evidence, or self-referential sourcing
+* Comparative works that classify such material as "contactee narrative" rather than empirical astronomy
+
+**Required handling example:**
+
+```json
+{
+  "trait": "Andromedan Council warns against hierarchical planetary control",
+  "consensus_level": "low",
+  "disputed": true,
+  "sources": [
+    {
+      "title": "Defending Sacred Ground: The Andromedan Compendium",
+      "author": "Alex Collier",
+      "position": "supporting",
+      "citation_status": "provisional",
+      ...
+    },
+    {
+      "title": "UFO Contactees and the Reinvention of Space Utopias",
+      "author": "ACADEMIC AUTHOR NAME",
+      "position": "counter-evidence",
+      "citation_status": "provisional",
+      ...
+    }
+  ]
+}
+```
+
+## CONSENSUS LEVELS
+
+Assign based on evidence quality:
+
+* **HIGH**: 3+ independent sources, mixing classical/mythic and modern, minimal dispute
+* **MEDIUM**: 2-3 sources, or strong in one category only
+* **LOW**: 1-2 sources, heavily disputed, or channeled-only
+
+**V4 NOTE:** For low-consensus or single-source-type characteristics (e.g. purely contactee material), 2 sources minimum is acceptable. The 3-5 sources target applies mostly to medium/high consensus traits.
+
+## ANCIENT / CLASSICAL SUPPORT LEVELS
+
+Separate from consensus - indicates historical depth:
+
+* **HIGH**: Explicit references in classical myth or pre-modern star lore about Andromeda (the chained maiden / sacrifice / royal daughter → constellation)
+* **MEDIUM**: Inferred thematic links (rescue, cosmic justice, liberation motifs)
+* **LOW**: Symbolic resonance only
+* **UNKNOWN**: No classical support found
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be **valid JSON only**, with NO commentary. No narrative text, no explanations, no markdown.
+
+You MUST output **minified JSON**: everything on one line, no pretty-print.
+Start with `{` and end with `}`. Nothing else.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OUTPUT FORMAT
+
+You MUST output a single minified JSON object shaped like this (this is an EXAMPLE for ANDROMEDA — Comet must generate real data, not placeholders):
+
+{"star_system":"Andromeda","version":"4.0","last_updated":"2025-10-25","methodology":{"framework":"Comparative mythology + I Ching-based Human Design system","academic_foundations":["I Ching (64 hexagrams → 64 Human Design gates)","Classical Greco-Roman star mythology (Perseus/Andromeda cycle)","Modern extragalactic astronomy (Andromeda Galaxy / M31)","Contactee-era esoteric literature on 'Andromedans'"],"source_standards":"Classical sources with named translators/editors, peer-reviewed astronomy, published UFO/ET contact literature with ISBN/DOI. V4: provisional vs locked citation status, explicit component tagging (C|G|U).","research_date":"2025-10-25"},"academic_context":{"human_design_foundations":["I Ching - 3,000+ years of scholarship (Wilhelm, Baynes, Jung)","64 DNA codons - Nobel-recognized genetic code work (Nirenberg, Khorana 1960s)","Kabbalah - Academic study (Scholem, Idel)","Chakra system - Religious studies / Indology (Feuerstein)","Western Astrology - Cultural history (Tarnas)"],"mathematical_correspondences":["64 I Ching hexagrams = 64 DNA codons","Binary yin/yang logic = Binary genetic code (A/T, C/G)"]},"characteristics":[{"trait":"Liberation from captivity / intervention to free the bound","consensus_level":"high","ancient_support":"high","evidence_type":"direct","disputed":false,"sources":[{"title":"The Mythology of All Races, Volume I: Greek and Roman","author":"William Sherwood Fox","translator_or_editor":"Louis Herbert Gray (editor)","edition":"Marshall Jones Company Edition","year":1916,"original_year":1916,"publisher":"Marshall Jones Company","page":"pp.128-130","quote":"Andromeda... was chained to a rock... until Perseus freed her and took her in marriage.","url":"[https://archive.org/details/mythologyofallra01gray","isbn](https://archive.org/details/mythologyofallra01gray%22,%22isbn)":null,"source_type":"ancient","astronomical_component":"C","component_reasoning":"Classical Andromeda myth mapped to constellation Andromeda in naked-eye astronomy","citation_status":"locked"},{"title":"Star Names: Their Lore and Meaning","author":"Richard Hinckley Allen","translator_or_editor":"Richard Hinckley Allen (compiler)","edition":"G.E. Stechert & Co. Edition","year":1899,"original_year":1899,"publisher":"G.E. Stechert & Co.","location_hint":"Chapter 'Andromeda'","summary":"Describes constellation Andromeda as 'The Chained Woman', fixed in the sky after her rescue by Perseus.","url":"[https://archive.org/details/starnamestheirlo00allerich","isbn](https://archive.org/details/starnamestheirlo00allerich%22,%22isbn)":null,"source_type":"research","astronomical_component":"C","component_reasoning":"Links myth of the chained royal daughter directly to constellation identity","citation_status":"provisional"}]},{"trait":"Andromeda as an extragalactic origin point / separate civilization space","consensus_level":"medium","ancient_support":"unknown","evidence_type":"direct","disputed":false,"sources":[{"title":"The Distance to the Andromeda Nebula","author":"Edwin Powell Hubble","translator_or_editor":"Edwin Powell Hubble (author)","edition":"Astrophysical Journal Vol.63","year":1926,"original_year":1926,"publisher":"University of Chicago Press","page":"pp.236-274","quote":"The measured Cepheid variables indicate the Andromeda Nebula is an extragalactic system.","url":"[https://archive.org/details/apj-1926-hubble","isbn](https://archive.org/details/apj-1926-hubble%22,%22isbn)":null,"doi":"10.1086/143018","source_type":"research","astronomical_component":"G","component_reasoning":"Defines Andromeda as a distinct galaxy external to the Milky Way, implying independent star systems","citation_status":"locked"},{"title":"Defending Sacred Ground: The Andromedan Compendium","author":"Alex Collier","translator_or_editor":"Alex Collier (presenter)","edition":"Revised Edition","year":1997,"original_year":1994,"publisher":"Val Valerian / Leading Edge Research","location_hint":"Section 'Andromedan Council Origins'","summary":"Claims Andromedans come from the Andromeda Galaxy and function as a council of advanced non-imperial civilizations.","url":"https://example-access","isbn":"ISBN 1-883487-16-4","source_type":"channeled","astronomical_component":"G","component_reasoning":"Explicitly frames Andromedans as extragalactic beings from Andromeda Galaxy (M31)","citation_status":"provisional"}]},{"trait":"Non-hierarchical ethical council / anti-domination doctrine","consensus_level":"low","ancient_support":"low","evidence_type":"direct","disputed":true,"sources":[{"title":"Defending Sacred Ground: The Andromedan Compendium","author":"Alex Collier","translator_or_editor":"Alex Collier (presenter)","edition":"Revised Edition","year":1997,"original_year":1994,"publisher":"Val Valerian / Leading Edge Research","location_hint":"'Council Directives to Earth' transcript","summary":"States Andromedan Council condemns Earth control systems and urges sovereignty, transparency, non-manipulation.","url":"https://example-access","isbn":"ISBN 1-883487-16-4","source_type":"channeled","astronomical_component":"U","component_reasoning":"Describes 'Andromedan Council' without clarifying constellation vs galaxy, framed as oversight body","citation_status":"provisional"},{"title":"UFO Contactees and the Reinvention of Space Utopias","author":"(Academic author with full name required)","translator_or_editor":"(If applicable)","edition":"Journal/University Press Edition","year":1990,"original_year":1990,"publisher":"(University Press / Journal Imprint)","location_hint":"Section on council-based extraterrestrial governance narratives","summary":"Analyzes contactee claims of benevolent councils as sociopolitical utopian projections, not verifiable encounters.","url":"https://example-academic-source","isbn":null,"doi":"DOI-GOES-HERE","source_type":"research","astronomical_component":"U","component_reasoning":"Discusses 'Andromedan Council' narratives without astronomical specificity, frames it as sociocultural myth-making","citation_status":"provisional"}]},{"trait":"Royal sacrifice and cosmic justice alignment","consensus_level":"medium","ancient_support":"high","evidence_type":"inferred","disputed":false,"sources":[{"title":"Star Names: Their Lore and Meaning","author":"Richard Hinckley Allen","translator_or_editor":"Richard Hinckley Allen (compiler)","edition":"G.E. Stechert & Co. Edition","year":1899,"original_year":1899,"publisher":"G.E. Stechert & Co.","page":"Chapter 'Andromeda'","quote":"Cassiopeia's pride doomed Andromeda to be chained as an offering to the sea-monster.","url":"[https://archive.org/details/starnamestheirlo00allerich","isbn](https://archive.org/details/starnamestheirlo00allerich%22,%22isbn)":null,"source_type":"research","astronomical_component":"C","component_reasoning":"Positions Andromeda as an unjustly condemned royal daughter whose fate encodes duty and reparation in the sky","citation_status":"locked"},{"title":"The Mythology of All Races, Volume I: Greek and Roman","author":"William Sherwood Fox","translator_or_editor":"Louis Herbert Gray (editor)","edition":"Marshall Jones Company Edition","year":1916,"original_year":1916,"publisher":"Marshall Jones Company","location_hint":"Chapter 'Perseus and Andromeda'","summary":"Frames Andromeda as a bargaining sacrifice for her mother's hubris, encoding cosmic law, innocence, and ransom themes.","url":"[https://archive.org/details/mythologyofallra01gray","isbn](https://archive.org/details/mythologyofallra01gray%22,%22isbn)":null,"source_type":"ancient","astronomical_component":"C","component_reasoning":"Classical narrative ties Andromeda's chained body to a fixed astral position in the constellation","citation_status":"provisional"}]}],"disputed_points":[{"claim":"The Andromedan Council is actively guiding Earth governance and warning against hierarchical control.","counter_evidence":"Academic UFOlogy treats 'Andromedan Council' claims as unverifiable sociopolitical myth rather than demonstrable extraterrestrial policy.","sources":[{"title":"UFO Contactees and the Reinvention of Space Utopias","author":"(Academic author with full name required)","year":1990,"page":"Section on benevolent councils","quote":"Claims of interstellar councils often reflect contemporary political aspirations rather than confirmed off-world intervention.","url":"https://example-academic-source","doi":"DOI-GOES-HERE","source_type":"research","astronomical_component":"U","component_reasoning":"Discusses 'Andromedan Council' narratives without establishing physical astronomical origin","citation_status":"locked"}]}],"research_notes":"Patterns: (1) Classical myth encodes captivity, ransom, and liberation in the Andromeda constellation (Component C). (2) Modern astronomy reframes Andromeda (M31) as an external galaxy with its own worlds, establishing extraterrestrial distance and autonomy (Component G). (3) Contactee/channeled material attributes high ethics, anti-control doctrine, and council governance to 'Andromedans', often without falsifiable evidence and with ambiguous spatial origin (Component U). Mix of locked vs provisional shows which claims are text-verifiable vs restricted-access.","bibliography":{"classical_and_star_lore":["Fox, W.S. (1916). The Mythology of All Races, Vol. I. Marshall Jones Company.","Allen, R.H. (1899). Star Names: Their Lore and Meaning. G.E. Stechert & Co."],"astronomy_and_extragalactic_research":["Hubble, E.P. (1926). The Distance to the Andromeda Nebula. Astrophysical Journal 63. University of Chicago Press."],"esoteric_and_contact_material":["Collier, A. (1997). Defending Sacred Ground: The Andromedan Compendium. Val Valerian / Leading Edge Research."],"academic_foundations":["Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.","Nirenberg, M.W. & Khorana, H.G. (1960s). Genetic code research (Nobel-recognized).","Scholem, G. (1941). Major Trends in Jewish Mysticism. Schocken.","Feuerstein, G. (1998). The Yoga Tradition. Hohm Press.","Tarnas, R. (2006). Cosmos and Psyche. Viking."]}}
+
+## QUALITY CHECKLIST
+
+Before submitting, verify:
+
+✅ Each characteristic has 3-5 sources (target); 2 sources minimum acceptable for low-consensus traits
+✅ All sources have ISBN or DOI or `"isbn": null`
+✅ All sources have either (`location_hint` + `summary`) OR (`page` + `quote`)
+✅ All sources have `citation_status: "provisional"` OR `citation_status: "locked"`
+✅ Ancient/classical sources include translator/editor attribution if applicable
+✅ **All sources specify `astronomical_component` (C|G|U|unspecified)** with `component_reasoning`
+✅ Classical constellation lore = Component C
+✅ Extragalactic M31 / "island universe" = Component G
+✅ Channeled "Andromedan Council" with unclear spatial detail = Component U
+✅ URLs included where available
+✅ Source types are labeled
+✅ Consensus levels are justified
+✅ Ancient/classical support levels are noted
+✅ Disputed claims include counter-evidence
+✅ Mix of classical myth, modern astronomy, and channeled esoteric material
+✅ **NO `verified: true` field** (added later in manual verification)
+
+## RESEARCH STRATEGY
+
+1. **Start with classical/constellation sources**
+
+   * Perseus/Andromeda rescue cycle
+   * Andromeda as "The Chained Woman" (constellation identity)
+   * Public-domain star lore (Allen 1899) for LOCKED citations
+
+2. **Add extragalactic astronomy**
+
+   * Hubble (1920s) proving Andromeda is an external galaxy
+   * Any modern work establishing M31 as independent galactic civilization space in speculative cosmology
+
+3. **Add Andromedan Council material**
+
+   * Collier and similar publications with ISBN
+   * Claims about anti-control ethics, sovereignty, non-interference, warnings about Earth hierarchy
+
+4. **Document disputes and skepticism**
+
+   * Academic framing of contactee narratives as sociopolitical myth-making, utopian projection, unverifiable
+
+5. **Track component mapping**
+
+   * Constellation myth = Component C
+   * Galaxy M31 = Component G
+   * Ambiguous 'Andromedans' = Component U
+
+6. **Note gaps**
+
+   * Where there is no classical support for modern claims
+   * Where 'council' narratives cannot be independently verified
+
+## EXPECTED CHARACTERISTICS
+
+You are strongly expected to return (at minimum) traits covering:
+
+* Liberation-from-captivity / intervention theme (Perseus freeing Andromeda → constellation codex)
+* Andromeda as extragalactic home / "separate civilization space" (M31, Hubble extragalactic proof)
+* Non-hierarchical council / anti-domination ethical doctrine (Andromedan Council narratives)
+* Royal sacrifice / cosmic justice imprint (Andromeda chained for Cassiopeia's offense, guilt-payment dynamic)
+
+If you find other recurring traits with enough sources, include them with full citations.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 MANDATORY ANDROMEDA-SPECIFIC CHARACTERISTICS (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+**You MUST include these two characteristics as separate traits. Do NOT merge them with anything else.**
+
+### MANDATORY #1: Liberation-from-captivity archetype (Andromeda chained, then freed)
+
+This MUST appear as its own trait. Treat it as a foundational Andromeda signature:
+
+* Andromeda is chained to the rock, condemned
+* Rescue by Perseus is framed as deliverance from unjust domination
+* The constellation encodes that liberation moment in the sky
+* Themes: ransom, sovereignty restitution, personal innocence vs inherited guilt
+
+**Required sources:**
+
+* Public-domain classical/myth compilations that explicitly tie the chained maiden to the **constellation Andromeda** (e.g. Richard Hinckley Allen, "Star Names: Their Lore and Meaning", 1899 — available on Archive.org, LOCKED ok)
+* Classical myth summaries in academically published works (e.g. "The Mythology of All Races" series, 1916+, Marshall Jones Company — should be LOCKED or PROVISIONAL depending on full-text access)
+
+**Trait name examples:**
+
+* "Liberation from captivity and wrongful bondage"
+* "Rescue of the Chained Woman / cosmic anti-bondage code"
+* "Deliverance from sacrificial imprisonment"
+
+This MUST be its own trait.
+
+### MANDATORY #2: Andromedan Council / Sovereignty Doctrine
+
+This MUST appear as its own trait:
+
+* Andromedan Council framed as anti-domination, anti-manipulation, pro-collective sovereignty
+* Narrative that Andromedans oppose top-down planetary control structures
+* Narrative that Andromedans pressure Earth toward transparency and self-responsibility
+* You MUST also mark this as DISPUTED and LOW consensus
+
+**Required sources:**
+
+* Alex Collier, "Defending Sacred Ground: The Andromedan Compendium" (1990s)
+* At least one academically framed skeptical source treating these claims as utopian or unverifiable
+
+**Trait name examples:**
+
+* "Andromedan Council: anti-domination sovereignty doctrine"
+* "Non-hierarchical extragalactic council ethic"
+* "Andromedan oversight warning against hierarchical control"
+
+This MUST be its own trait, distinct from "liberation-from-captivity" and distinct from "Andromeda as extragalactic origin" cosmology.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## FINAL REMINDER
+
+**DO NOT give up and return empty results.**
+If you cannot provide a LOCKED citation for a relevant source, you MUST still include that source as PROVISIONAL.
+If you cannot provide a page number, you MUST still include `location_hint` + `summary`.
+
+**LOCKED mode requires a verbatim quote and a concrete locator (page, pp. range, section, session).**
+**PROVISIONAL mode requires `location_hint` + `summary`.**
+
+**Every source MUST include:**
+
+* `astronomical_component`
+* `component_reasoning`
+* `citation_status`
+
+**OUTPUT REQUIREMENT TO COMET:**
+Return ONE SINGLE OBJECT as **minified JSON**. No pretty-print. No line breaks. No commentary. Only valid JSON.

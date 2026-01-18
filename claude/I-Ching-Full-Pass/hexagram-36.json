@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 36,
+  "hexagram_name_legge": "Ming I",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Ming I indicates that (in the circumstances which it denotes) it will be advantageous to realise the difficulty (of the position), and maintain firm correctness.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XXXVI. The Ming I Hexagram.\n\nMing I indicates that (in the circumstances which it denotes) it will be advantageous to realise the difficulty (of the position), and maintain firm correctness.\n\n1. The first line, undivided, shows its subject, (in the condition indicated by) Ming I, flying, but with drooping wings. When the superior man (is revolving) his going away, he may be for three days without eating. Wherever he goes, the people there may speak (derisively of him).\n\n2. The second line, divided, shows its subject, (in the condition indicated by) Ming I, wounded in the left thigh. He saves himself by the strength of a (swift) horse; and is fortunate.\n\n3. The third line, undivided, shows its subject, (in the condition indicated by) Ming I, hunting in the south, and taking the great chief (of the darkness). He should not be eager to make (all) correct (at once).\n\n4. The fourth line, divided, shows its subject (just) entered into the left side of the belly (of the dark land). (But) he is able to carry out the mind appropriate (in the condition indicated by) Ming I, quitting the gate and courtyard (of the lord of darkness).\n\n5. The fifth line, divided, shows how the count of Ki fulfilled the condition indicated by Ming I. It will be advantageous to be firm and correct.\n\n6. The sixth line, divided, shows the case where there is no light, but (only) obscurity. (Its subject) had at first ascended to (the top of) the sky; his future shall be to go into the earth.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject, (in the condition indicated by) Ming I, flying, but with drooping wings. When the superior man (is revolving) his going away, he may be for three days without eating. Wherever he goes, the people there may speak (derisively of him)."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows its subject, (in the condition indicated by) Ming I, wounded in the left thigh. He saves himself by the strength of a (swift) horse; and is fortunate."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows its subject, (in the condition indicated by) Ming I, hunting in the south, and taking the great chief (of the darkness). He should not be eager to make (all) correct (at once)."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject (just) entered into the left side of the belly (of the dark land). (But) he is able to carry out the mind appropriate (in the condition indicated by) Ming I, quitting the gate and courtyard (of the lord of darkness)."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows how the count of Ki fulfilled the condition indicated by Ming I. It will be advantageous to be firm and correct."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, shows the case where there is no light, but (only) obscurity. (Its subject) had at first ascended to (the top of) the sky; his future shall be to go into the earth."
+    }
+  ],
+  "notes": []
+}

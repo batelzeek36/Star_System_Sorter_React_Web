@@ -1,0 +1,84 @@
+{
+  "gate": 58,
+  "gate_name": "",
+  "lines": {
+    "58.1": {
+      "line": 1,
+      "hd_title": "Love of life",
+      "hd_quote": "The very stimulation of the world is the basis of an aesthetic appreciation of its beauty and wonder.",
+      "keywords": [
+        "pure vitality",
+        "aesthetic joy",
+        "life-loving correction fuel"
+      ],
+      "behavioral_axis": "Radiates joy first, then spends it on fixing patterns.",
+      "shadow_axis": "If no outlet (no 18), joy turns to frustration.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "58.2": {
+      "line": 2,
+      "hd_title": "Perversion",
+      "hd_quote": "I will provide energy for any kind of process.",
+      "keywords": [
+        "open projection field",
+        "unusual stimulations",
+        "joy in odd experiments"
+      ],
+      "behavioral_axis": "Projects ‘my energy is available,’ so weird/edge projects appear.",
+      "shadow_axis": "Gets judged by moralistic collectives for where energy goes.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "58.3": {
+      "line": 3,
+      "hd_title": "Electricity",
+      "hd_quote": "The individual whose electric vitality creates its own stimulation and is not dependent on others.",
+      "keywords": [
+        "self-stimulating joy",
+        "independent experimentation",
+        "trial-and-error fuel"
+      ],
+      "behavioral_axis": "Wants to run its own experiments and lead the stimulation.",
+      "shadow_axis": "Refuses others’ experiments, then has to depend on them anyway.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "58.4": {
+      "line": 4,
+      "hd_title": "Focusing",
+      "hd_quote": "A natural specialization that when confronted with a multiplicity of stimulations will have no inner difficulty in focusing on the appropriate influence.",
+      "keywords": [
+        "social focusing",
+        "one-track vitality",
+        "choose-the-right-experiment"
+      ],
+      "behavioral_axis": "Narrows the joy-field to what’s actually worth energizing.",
+      "shadow_axis": "Too narrow → can ignore valid corrections.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "58.5": {
+      "line": 5,
+      "hd_title": "Defense",
+      "hd_quote": "The natural and practical instinct to protect oneself, regardless of temptations.",
+      "keywords": [
+        "projected energy source",
+        "self-protective joy",
+        "filters stimulations"
+      ],
+      "behavioral_axis": "Everyone thinks they can tap this joy; it defends its fuel.",
+      "shadow_axis": "Drops defenses and explores questionable stimulations.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "58.6": {
+      "line": 6,
+      "hd_title": "Carried away",
+      "hd_quote": "The tendency to practicality that while thoroughly enjoying external stimulation, has the instinct to draw back when its independent integrity is threatened.",
+      "keywords": [
+        "roof-level discernment",
+        "only-for-real-experiments",
+        "independent integrity"
+      ],
+      "behavioral_axis": "Will give everything to the right experiment; otherwise holds energy back.",
+      "shadow_axis": "Over-identifies with stimulation and loses self.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

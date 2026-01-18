@@ -1,0 +1,141 @@
+# LYRA BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research LYRA as primordial root race in esoteric and channeled texts. Note: Ancient support expected to be LOW/UNKNOWN.
+
+## HYPOTHESIS TO VALIDATE
+- Primordial humanoid root race
+- Feline (or avian) ancestry
+- Builders of early civilizations
+- Refugees after war with Draco
+- Carry "first template" consciousness
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES
+
+### Modern Channeled Material
+- "The Prism of Lyra" by Lyssa Royal Holt (1989)
+- "The Three Waves of Volunteers" by Dolores Cannon (2011)
+- Bashar (Darryl Anka) mentions
+- Starseed literature (various authors)
+
+### Theosophical/Root Race Theory
+- Helena Blavatsky "The Secret Doctrine" (1888)
+- Root race theories (Lemurian connections)
+
+### Ancient Sources
+- Limited to none expected
+- Greek: Lyra constellation (Orpheus's lyre)
+- Note: Mythological lyre ≠ ET claims
+
+## SPECIAL FOCUS: Feline vs Avian Confusion
+
+Sources disagree on Lyran form:
+- Some say feline beings
+- Others say avian or humanoid
+- Document both, note inconsistency
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Lyra",
+  "characteristics": [
+    {
+      "trait": "Primordial root race and builders",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "low|unknown",
+      "evidence_type": "direct",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "edition": "EDITION",
+          "year": 1989,
+          "original_year": 1989,
+          "page": "SPECIFIC LOCATION",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "channeled"
+        }
+      ]
+    }
+  ],
+  "form_inconsistencies": "Feline vs avian vs humanoid - document disagreements",
+  "lyran_draco_war": "Summary of war narrative if found in multiple sources",
+  "research_notes": "Predominantly modern spiritual narrative; no ancient support"
+}
+```
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Feline vs avian inconsistency documented
+✅ Ancient support explicitly noted as LOW/UNKNOWN
+✅ Root race theory connections noted
+✅ Lyran-Draco war references compiled
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information included
+✅ URLs where available
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include:
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names, not initials)
+3. **Translator/Editor** (for ancient texts if applicable)
+4. **Edition information** (e.g., "Revised Edition", "2nd Edition")
+5. **Publication year** (original and edition if different)
+6. **Specific location** (page numbers, chapter, section)
+7. **Direct quote** (≤25 words, actual text from source - NOT PLACEHOLDER)
+8. **URL** (if available online)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+
+⚠️ **CITATION EXAMPLES ARE EXAMPLES ONLY - DO NOT COPY INTO OUTPUT**
+⚠️ **YOU MUST FIND AND VERIFY ACTUAL SOURCES WITH REAL QUOTES**
+
+**If a commonly believed claim cannot be verified** (e.g., "Lyran feline DNA"), include it in `research_notes` with:
+> "Note: No credible evidence found for [claim], despite prevalence in New Age discourse."
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), form inconsistencies noted.**

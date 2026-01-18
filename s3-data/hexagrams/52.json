@@ -1,0 +1,172 @@
+{
+  "id": "hx52",
+  "number": 52,
+  "unicode_hexagram": "䷳",
+  "name": "Keeping Still / Mountain (艮, Gèn)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Right stillness. Be motionless at the right time and move at the right time. This is composure so complete that ego-chatter drops away. Keep the body, speech, and mind orderly; do not chase externals. In that steadiness there is no blame.",
+    "normalized_summary": "Right stillness. Be motionless at the right time and move at the right time. This is composure so complete that ego-chatter drops away. Keep the body, speech, and mind orderly; do not chase externals. In that steadiness there is no blame."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows its subject keeping his toes at rest. There will be no error; but it will be advantageous for him to be persistently firm and correct.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：艮其趾，無咎，利永貞。"
+        }
+      ],
+      "normalized_meaning": "Stop at the first step. Hold yourself at the threshold and commit to long-term correctness. Early restraint prevents mistakes.",
+      "keywords": [
+        "halt at the start",
+        "prudence",
+        "foundation of discipline",
+        "no blame",
+        "long-term firmness"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows its subject keeping the calves of his legs at rest. He cannot help (the subject of the line above) whom he follows, and is dissatisfied in his mind.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：艮其腓，不拯其隨，其心不快。"
+        }
+      ],
+      "normalized_meaning": "You want to move with others but can’t. Accept limits; forcing aid now only breeds frustration. Still the impulse to chase.",
+      "keywords": [
+        "frustrated support",
+        "accept limits",
+        "don’t force",
+        "inner unease",
+        "patience"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows its subject keeping his loins at rest, and separating the ribs (from the body below). The situation is perilous, and the heart glows with suppressed excitement.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：艮其限，列其夤，厲薰心。"
+        }
+      ],
+      "normalized_meaning": "Over-tension locks the center; breath and energy jam. This is dangerous fixation. Soften; don’t harden your core against life.",
+      "keywords": [
+        "overcontrol",
+        "blocked center",
+        "suppressed agitation",
+        "peril",
+        "release tension"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject keeping his trunk at rest. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：艮其身，無咎。"
+        }
+      ],
+      "normalized_meaning": "Composed in the whole body. Plain, unshowy steadiness avoids blame.",
+      "keywords": [
+        "whole-body stillness",
+        "centered posture",
+        "no blame",
+        "stability",
+        "composure"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows its subject keeping his jawbones at rest, so that his words are (all) orderly. Occasion for repentance will disappear.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：艮其輔，言有序，悔亡。"
+        }
+      ],
+      "normalized_meaning": "Still the mouth; speak with order. Careful speech restores integrity and removes regret.",
+      "keywords": [
+        "measured speech",
+        "silence then order",
+        "verbal discipline",
+        "regret dissolves",
+        "clarity"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows its subject devotedly maintaining his restfulness. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：敦艮，吉。"
+        }
+      ],
+      "normalized_meaning": "Sincere, thick stillness. When steadiness is wholehearted, it is auspicious.",
+      "keywords": [
+        "wholehearted stillness",
+        "sincerity",
+        "consistency",
+        "good fortune",
+        "completion"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.560266Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 207,
+      "leaf_end": 210,
+      "page_candidates": [
+        "384",
+        "2",
+        "386",
+        "387",
+        "3",
+        "18",
+        "388",
+        "389",
+        "5",
+        "i",
+        "390",
+        "391",
+        "39"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

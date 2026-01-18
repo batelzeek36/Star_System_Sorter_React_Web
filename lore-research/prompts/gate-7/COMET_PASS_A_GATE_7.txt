@@ -1,0 +1,106 @@
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+Research "Human Design Gate 7".
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (8-MODEL VALIDATION CONSENSUS - NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. Blog sources (WordPress, Medium, personal websites) - UNACCEPTABLE
+2. Anonymous authors ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. Fabricated quotes or page numbers - UNACCEPTABLE
+4. Paraphrases presented as direct quotes - MUST mark as paraphrase
+5. Wrong book attribution - VERIFY book title matches quote
+
+✅ MANDATORY REQUIREMENTS:
+1. Verify exact quote wording against source (or mark as paraphrase)
+2. Provide specific page numbers (not "Gate 7 Section")
+3. Include edition information for all sources
+4. Use published books with ISBN, not summaries or reviews
+5. If unavailable despite thorough search, mark "not available" with explanation
+
+═══════════════════════════════════════════════════════════════════════════════
+
+EXECUTION REQUIREMENT:
+- Use Perplexity Sonar Deep Research with Comet browser enabled
+- Verify all citations by accessing actual sources via web browsing
+- Mark any citations you cannot directly verify as "not available" with explanation
+
+QUOTE VERIFICATION CHECKLIST (Complete before submitting):
+□ Exact wording matches source (or marked as paraphrase)
+□ Correct book title and edition
+□ Accurate page number (not "throughout text" or vague section)
+□ Author name spelled correctly
+□ Publication year correct
+□ URL leads to actual source (not summary/review)
+
+Requirements:
+- Pull Ra Uru Hu's meaning (1–2 sentences) with exact page or section and book/edition metadata
+- Pull Gene Keys (shadow, gift, siddhi) with exact page or section
+- I Ching Hexagram 7: canonical name + brief meaning + why it maps to Gate 7
+- All arrays must be present (can contain "not available" only if truly unavailable)
+
+Output shape (minified JSON only):
+{
+  "gate": 7,
+  "gate_name": "…",
+  "hd_meaning": "…",
+  "gene_keys": { "shadow": "…", "gift": "…", "siddhi": "…" },
+  "i_ching_parallel": { "hexagram": 7, "name": "…", "meaning": "…", "relevance": "…" },
+  "citations": {
+    "primary": [
+      { 
+        "title":"The Rave I'Ching" or "The Complete Rave I'Ching",
+        "author":"Ra Uru Hu",
+        "edition":"MUST BE SPECIFIC (e.g., '2nd Edition', 'Line Companion')",
+        "year":1994,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Gate 7, pp. 23-25' or 'Gate 7, Lines 1-6')",
+        "url":"MUST INCLUDE IF AVAILABLE (official HD sources preferred)",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words OR mark as 'paraphrased summary' if condensed",
+        "quote_type":"exact|paraphrase"
+      }
+    ],
+    "secondary": [
+      { 
+        "title":"Gene Keys" or "The Gene Keys",
+        "author":"Richard Rudd",
+        "edition":"MUST BE SPECIFIC (e.g., '1st Edition', 'Golden Path Edition')",
+        "year":2009,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Gene Key 7: [Title]' or 'pp. 45-47')",
+        "url":"MUST INCLUDE IF AVAILABLE (genekeys.com preferred)",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words OR mark as 'paraphrased summary' if condensed",
+        "quote_type":"exact|paraphrase"
+      },
+      {
+        "title":"I Ching (Wilhelm/Baynes translation preferred)",
+        "author":"Richard Wilhelm (translator)",
+        "edition":"MUST BE SPECIFIC (e.g., 'Princeton 1967', 'Penguin 1989')",
+        "year":1950,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Hexagram 7, Judgment')",
+        "url":"MUST INCLUDE IF AVAILABLE",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words",
+        "quote_type":"exact"
+      }
+    ]
+  },
+  "notes": "unknown|brief"
+}
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Do all citations have specific page numbers or sections (or "not available" with explanation)?
+- ✅ Do all citations have actual quotes (or "not available" with explanation)?
+- ✅ Are paraphrases clearly marked with "quote_type": "paraphrase"?
+- ✅ Do all citations have edition information?
+- ✅ Are URLs included where available?
+- ✅ Have you searched for sources that CONTRADICT this gate meaning?
+- ✅ If contradictions found, are they noted in "notes" or "contradictions" field?
+- ⚠️ If critical information is "not available", have you explained why in "notes"?
+- ❌ Are there ANY blog sources? (If yes, REMOVE them)
+- ❌ Are there ANY anonymous authors? (If yes, find actual author or remove)
+
+VALIDATION LESSONS LEARNED:
+- Ra Uru Hu quotes are often condensed summaries - mark as paraphrase if not exact
+- Gene Keys quotes are poetic - verify exact wording or mark as paraphrase
+- I Ching Wilhelm/Baynes is gold standard - always verifiable
+- Provide specific page numbers, not "Gate 7 Section"

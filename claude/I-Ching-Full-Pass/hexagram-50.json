@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 50,
+  "hexagram_name_legge": "Ting",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Ting gives the intimation of great progress and success.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "L. The Ting Hexagram.\n\nTing gives the intimation of great progress and success.\n\n1. The first line, divided, shows the caldron overthrown and its feet turned up. (But) there will be advantage in its getting rid of what was bad in it. (Or it shows us) the concubine (whose position is improved) by means of her son. There will be no error.\n\n2. The second line, undivided, shows the caldron with the things (to be cooked) in it. (If its subject can say), 'My enemy dislikes me, but he cannot approach me,' there will be good fortune.\n\n3. The third line, undivided, shows the caldron with (the places of) its ears changed. The progress (of its subject) is (thus) stopped. The fat flesh of the pheasant (which is in the caldron) will not be eaten. But the (genial) rain will come, and the grounds for repentance will disappear. There will be good fortune in the end.\n\n4. The fourth line, undivided, shows the caldron with its feet broken; and its contents, designed for the ruler's use, overturned and spilt. Its subject will be made to blush for shame. There will be evil.\n\n5. The fifth line, divided, shows the caldron with yellow ears and rings of metal in them. There will be advantage through being firm and correct.\n\n6. The sixth line, undivided, shows the caldron with rings of jade. There will be great good fortune, and all action taken will be in every way advantageous.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows the caldron overthrown and its feet turned up. (But) there will be advantage in its getting rid of what was bad in it. (Or it shows us) the concubine (whose position is improved) by means of her son. There will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows the caldron with the things (to be cooked) in it. (If its subject can say), 'My enemy dislikes me, but he cannot approach me,' there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows the caldron with (the places of) its ears changed. The progress (of its subject) is (thus) stopped. The fat flesh of the pheasant (which is in the caldron) will not be eaten. But the (genial) rain will come, and the grounds for repentance will disappear. There will be good fortune in the end."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows the caldron with its feet broken; and its contents, designed for the ruler's use, overturned and spilt. Its subject will be made to blush for shame. There will be evil."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows the caldron with yellow ears and rings of metal in them. There will be advantage through being firm and correct."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, undivided, shows the caldron with rings of jade. There will be great good fortune, and all action taken will be in every way advantageous."
+    }
+  ],
+  "notes": []
+}

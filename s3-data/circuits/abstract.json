@@ -1,0 +1,15 @@
+{
+  "id": "circuit.abstract",
+  "family": "Collective",
+  "name": "Abstract / Sensing",
+  "purpose": "Share experiential narratives; learn from the past to guide the future.",
+  "channels": [
+    "ch.11-56",
+    "ch.13-33",
+    "ch.29-46",
+    "ch.30-41",
+    "ch.35-36",
+    "ch.42-53",
+    "ch.47-64"
+  ]
+}

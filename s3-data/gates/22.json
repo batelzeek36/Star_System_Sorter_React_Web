@@ -1,0 +1,205 @@
+{
+  "id": "gate.22",
+  "hexagram": "hx22",
+  "center": "Solar Plexus",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.47",
+  "polarity": {
+    "opposite_on_wheel": "gate.47"
+  },
+  "themes": [
+    "grace ↔ disgrace; socially mutative 12–22 channel",
+    "mood-based timing for expression",
+    "attentiveness and listening that opens others",
+    "acoustic/voice-led individual influence"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "22.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Second class ticket",
+        "hd_quote": "The ability to accept and enjoy a subordinate position."
+      },
+      "interpretation": {
+        "keywords": [
+          "humility",
+          "attentive presence",
+          "wait your turn"
+        ],
+        "behavioral_axis": "Opens social space by yielding first; empowers others to speak.",
+        "shadow_axis": "Humiliation or resentment when forcing first place."
+      },
+      "relationship_needs": {
+        "needs_room_to_listen_first": true,
+        "prefers_polite_exchange": true,
+        "rejects_status_games": true
+      },
+      "group_role": "attunement primer / space-opener",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "22.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Charm school",
+        "hd_quote": "The belief that style can mask nature."
+      },
+      "interpretation": {
+        "keywords": [
+          "style projects",
+          "social magnetism",
+          "limited depth"
+        ],
+        "behavioral_axis": "Generates attention through style; may lack substance to deliver mutation.",
+        "shadow_axis": "Form over substance; projection confusion."
+      },
+      "relationship_needs": {
+        "needs_low_pressure_visibility": true,
+        "prefers_organic_invitations": true,
+        "rejects_forced_intimacy": true
+      },
+      "group_role": "greeter / attention-gatherer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "22.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Enchanter",
+        "hd_quote": "Form as a definition and actualization of substance."
+      },
+      "interpretation": {
+        "keywords": [
+          "perfected grace",
+          "come-and-go openness",
+          "romantic projection"
+        ],
+        "behavioral_axis": "Displays irresistible grace briefly; bonds made/broken by mood.",
+        "shadow_axis": "Mixed signals; others mistake openness for intimacy."
+      },
+      "relationship_needs": {
+        "needs_room_for_moods": true,
+        "partners_handle_flux": true,
+        "rejects_clinging": true
+      },
+      "group_role": "spark of enchantment / morale booster",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "22.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Sensitivity",
+        "hd_quote": "The modification of behavior to enrich interactions."
+      },
+      "interpretation": {
+        "keywords": [
+          "context-aware",
+          "behavioral tuning",
+          "informality preference"
+        ],
+        "behavioral_axis": "Adjusts behavior to create real contact and opportunity.",
+        "shadow_axis": "Over-managed style blocks authentic mutation."
+      },
+      "relationship_needs": {
+        "needs_informal_contexts": true,
+        "prefers_warm_tone": true,
+        "rejects_rigid_protocol": true
+      },
+      "group_role": "social tuner / vibe-setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "22.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Directness",
+        "hd_quote": "The disregard of form when required."
+      },
+      "interpretation": {
+        "keywords": [
+          "mood honors truth",
+          "projected leadership",
+          "universalized grace"
+        ],
+        "behavioral_axis": "Acts or speaks only when in the mood; then it lands universally.",
+        "shadow_axis": "Forcing performance; crude reputation when mismatched."
+      },
+      "relationship_needs": {
+        "needs_mood_honoring": true,
+        "expects_clear_requests": true,
+        "rejects_obligation_performance": true
+      },
+      "group_role": "mood-right spokesperson",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "22.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Maturity",
+        "hd_quote": "The alignment with experience of form with substance."
+      },
+      "interpretation": {
+        "keywords": [
+          "authoritative grace",
+          "social mutation leader",
+          "measured presence"
+        ],
+        "behavioral_axis": "Embodies seasoned grace that points to a new social horizon.",
+        "shadow_axis": "Detached superiority; mood-weary withdrawal."
+      },
+      "relationship_needs": {
+        "needs_respect_for_authority": true,
+        "prefers_low_drama": true,
+        "rejects_short_term_demands": true
+      },
+      "group_role": "social metamorphosis steward",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu's Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
+}

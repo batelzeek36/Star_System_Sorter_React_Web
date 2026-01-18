@@ -1,0 +1,249 @@
+{
+  "1.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.1 is about privately building a unique creative identity; that's self-expression, not trauma-field stabilization or nervous-system regulation (Arcturus)."
+  },
+  "1.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.2 radiates natural style and resents being pushed to perform; that's authenticity under pressure, not clinical cleanup of a dysregulated field (Arcturus)."
+  },
+  "1.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.3 learns creative voice by trial-and-error in public; that's identity iteration, not structured trauma repair or rhythm calibration (Arcturus)."
+  },
+  "1.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.4 broadcasts aesthetic so others can align around it; that's cultural influence, not field decongestion or crisis de-escalation (Arcturus)."
+  },
+  "1.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.5 becomes the projected taste-setter for everyone; that's public creative expectation, not trauma triage or nervous-system pacing (Arcturus)."
+  },
+  "1.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "1.6 embodies 'this is who I am' as an example; that's legacy authenticity, not frequency repair or container-building for others (Arcturus)."
+  },
+
+  "2.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.1 needs inner clarity before moving; that's personal orientation work, not stabilizing someone else's dysregulated field (Arcturus)."
+  },
+  "2.2": {
+    "weight": 0.25,
+    "alignment_type": "core",
+    "why": "2.2 intuitively knows where people and resources belong and quietly places them for correct flow, which matches Arcturus core triage and functional placement for stability."
+  },
+  "2.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "2.3 course-corrects through messy trial and gets judged as unreliable; that's self-navigation under chaos, not structured cleanup of others (Arcturus)."
+  },
+  "2.4": {
+    "weight": 0.30,
+    "alignment_type": "core",
+    "why": "2.4 links the right people and spots so the network runs on healthier alignment, which echoes Arcturus core system engineering and resource calibration."
+  },
+  "2.5": {
+    "weight": 0.20,
+    "alignment_type": "shadow",
+    "why": "2.5 gets cast as 'show us the way and fix it now' and is blamed if the route doesn't save everyone, which is Arcturus shadow healer-projection and scapegoat load."
+  },
+  "2.6": {
+    "weight": 0.15,
+    "alignment_type": "shadow",
+    "why": "2.6 holds long-term direction and can go aloof and above normal concerns, which mirrors Arcturus shadow clinical detachment and superiority."
+  },
+
+  "3.1": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "3.1 wants to stabilize chaos and build a workable base before change spreads, which is Arcturus core trauma containment and safe-structure setup."
+  },
+  "3.2": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "3.2 privately engineers elegant fixes for early-stage chaos and resists interference, which is Arcturus core specialist field-tech behavior."
+  },
+  "3.3": {
+    "weight": 0.30,
+    "alignment_type": "core",
+    "why": "3.3 stress-tests systems in real conditions to force mutation toward something functional, which matches Arcturus diagnostic stress-calibration work."
+  },
+  "3.4": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "3.4 translates unstable beginnings into something others can actually use, which is Arcturus core: converting raw crisis into stable protocol."
+  },
+  "3.5": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "3.5 gets projected on as the one who can 'make this broken system work for everyone' and then scapegoated, which is classic Arcturus shadow burnout-healer pattern."
+  },
+  "3.6": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "3.6 understands how chaotic beginnings mature into stable long-term forms, which is Arcturus core evolution-architect / systems-stabilizer wisdom."
+  },
+
+  "4.1": {
+    "weight": 0.30,
+    "alignment_type": "core",
+    "why": "4.1 insists on solid internal reasoning before acting, which is Arcturus core diagnostic-before-intervention discipline."
+  },
+  "4.2": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "4.2 can translate doubt into a clean logical answer that calms people, which is Arcturus core field-clarification to reduce panic noise."
+  },
+  "4.3": {
+    "weight": 0.35,
+    "alignment_type": "core",
+    "why": "4.3 pokes holes in bad logic and patches what fails, which is Arcturus core audit-and-recalibrate protocol work."
+  },
+  "4.4": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "4.4 spreads a workable mental model through the group so everyone runs on the same clean protocol, which is Arcturus core system standardization."
+  },
+  "4.5": {
+    "weight": 0.35,
+    "alignment_type": "shadow",
+    "why": "4.5 becomes the 'go-to' mind who must resolve confusion fast and then gets blamed if the fix is uncomfortable, which is Arcturus shadow fixer-conscription."
+  },
+  "4.6": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "4.6 holds future-proof clarity and explains why the structure will still make sense later, which is Arcturus core long-range stabilization of the field."
+  },
+
+  "5.1": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "5.1 protects its natural timing and demands predictable rhythm to feel safe, which is Arcturus core nervous-system regulation and boundarying the field."
+  },
+  "5.2": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "5.2 moves in correct pacing and shuts down if rushed, which is Arcturus core self-regulation and refusal to dysregulate the body for others."
+  },
+  "5.3": {
+    "weight": 0.35,
+    "alignment_type": "core",
+    "why": "5.3 keeps breaking and rebuilding routine to find sustainable rhythm, which is Arcturus core iterative recalibration of timing."
+  },
+  "5.4": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "5.4 anchors the group's daily pace and stabilizes everyone by modeling cadence, which is strong Arcturus core co-regulation of the collective nervous system."
+  },
+  "5.5": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "5.5 is expected to 'fix our timing' and then blamed when others can't self-regulate, which is Arcturus shadow burnout-healer responsibility dumping."
+  },
+  "5.6": {
+    "weight": 0.60,
+    "alignment_type": "core",
+    "why": "5.6 carries elder-level pacing wisdom and teaches sustainable rhythm over a lifetime, which is Arcturus core long-term regulation blueprint."
+  },
+
+  "6.1": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "6.1 builds a safe container and tests emotional safety before letting anyone in, which is Arcturus core trauma-informed boundarying to prevent further damage."
+  },
+  "6.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.2 bonds or rejects instantly and may ghost instead of talking; that's reactive chemistry/avoidance, not deliberate field calibration or de-escalation (Arcturus)."
+  },
+  "6.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "6.3 learns intimacy through volatile clashes and survival of conflict; that's emotional trial by fire, not structured crisis de-escalation (Arcturus)."
+  },
+  "6.4": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "6.4 mediates emotional tension so the network can hold together, which is Arcturus core crisis de-escalation and containment of the emotional field."
+  },
+  "6.5": {
+    "weight": 0.55,
+    "alignment_type": "shadow",
+    "why": "6.5 is cast as the one who must defuse everyone else's emotional crisis and then gets called toxic for enforcing boundaries, which is Arcturus shadow burned-out stabilizer."
+  },
+  "6.6": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "6.6 embodies 'this is healthy closeness' and refuses chaotic bonding, which is Arcturus core maintaining a clean relational field."
+  },
+
+  "7.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.1 wants clear definition of their leadership role before acting; that's authority positioning, not trauma-field stabilization (Arcturus)."
+  },
+  "7.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.2 quietly radiates direction and withdraws if unrecognized; that's recognition-dependent leadership, not nervous-system repair (Arcturus)."
+  },
+  "7.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.3 adjusts strategy live and risks looking unreliable; that's battlefield leadership learning, not clinical cleanup or group regulation (Arcturus)."
+  },
+  "7.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.4 becomes spokesperson for the group; that's political narrative steering, not trauma triage or protocolized stabilization (Arcturus)."
+  },
+  "7.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.5 gets projected on as commander or tyrant; that's power optics, not frequency repair or container-building (Arcturus)."
+  },
+  "7.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "7.6 carries mature long-term vision for where the collective should go; that's strategic governance, not trauma-field regulation (Arcturus)."
+  },
+
+  "8.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.1 won't promote their voice until they trust its integrity; that's authenticity gating, not trauma sanitation or nervous-system pacing (Arcturus)."
+  },
+  "8.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.2 can step forward and represent the vibe for everyone; that's spotlight/identity amplification, not crisis de-escalation or field repair (Arcturus)."
+  },
+  "8.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.3 offers value by showing battle scars in public; that's credibility-through-exposure, not containment and stabilization (Arcturus)."
+  },
+  "8.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.4 uses personal style to give the network a shared banner; that's culture unification, not nervous-system regulation (Arcturus)."
+  },
+  "8.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.5 becomes the public face expected to carry the whole message; that's spokesperson load, not trauma-field cleanup (Arcturus)."
+  },
+  "8.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "8.6 embodies a legacy contribution and gatekeeps who is 'real enough'; that's cultural standard-setting, not frequency repair or clinical stabilization (Arcturus)."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "s3-lore-research-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Data harvesting scripts for S³ lore research",
+  "scripts": {
+    "harvest": "tsx harvest-gate-lines.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.7.0"
+  }
+}

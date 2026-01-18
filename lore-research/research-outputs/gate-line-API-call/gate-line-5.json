@@ -1,0 +1,84 @@
+{
+  "gate": 5,
+  "gate_name": "",
+  "lines": {
+    "5.1": {
+      "line": 1,
+      "hd_title": "Perseverance",
+      "hd_quote": "If the captain must, he goes down with the ship.",
+      "keywords": [
+        "ritual keeper",
+        "unflinching timing",
+        "pattern discipline"
+      ],
+      "behavioral_axis": "Protects personal rituals; holds the schedule even under pressure.",
+      "shadow_axis": "Rigidness that ignores real-time safety or context.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "5.2": {
+      "line": 2,
+      "hd_title": "Inner Peace",
+      "hd_quote": "The ability to ignore the temptation to take premature action.",
+      "keywords": [
+        "calm timing",
+        "projected composure",
+        "steady cadence"
+      ],
+      "behavioral_axis": "Appears serenely in-rhythm; models not forcing action.",
+      "shadow_axis": "Stagnation disguised as peace; avoids momentum.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "5.3": {
+      "line": 3,
+      "hd_title": "Compulsiveness",
+      "hd_quote": "The fear engendered by the sense of helplessness resulting in unnecessary stress and activity.",
+      "keywords": [
+        "pattern doubt",
+        "start–stop impulse",
+        "trial-and-error rhythm"
+      ],
+      "behavioral_axis": "Swings between over-activity and collapse; experiments to find correct tempo.",
+      "shadow_axis": "Breaks routine impulsively; stress loops about timing.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "5.4": {
+      "line": 4,
+      "hd_title": "The Hunter",
+      "hd_quote": "Waiting as a guarantee of survival.",
+      "keywords": [
+        "externally guiding rhythm",
+        "strategic patience",
+        "timed intervention"
+      ],
+      "behavioral_axis": "Externalizes rhythm to protect and provision the network.",
+      "shadow_axis": "Impatient breaks from rhythm threaten stability and health.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "5.5": {
+      "line": 5,
+      "hd_title": "Joy",
+      "hd_quote": "Waiting as an aspect of enlightenment.",
+      "keywords": [
+        "projected calm",
+        "exemplary poise",
+        "beauty of restraint"
+      ],
+      "behavioral_axis": "Others project mastery onto visible, serene rhythm.",
+      "shadow_axis": "Crumbles under projections; disillusionment with timing.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "5.6": {
+      "line": 6,
+      "hd_title": "Yielding",
+      "hd_quote": "Waiting is never free from pressure, physical or mental, and is often punctuated by the unexpected.",
+      "keywords": [
+        "yield to flow",
+        "pressure-aware patience",
+        "serendipitous timing"
+      ],
+      "behavioral_axis": "Holds rhythm amid pressure; moves with unforeseen currents.",
+      "shadow_axis": "Aloof detachment; avoids committing energy unless certain.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "15.1": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Choose personal rhythm over imposed norms; humility refuses domination by trend."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets a humble, steady behavior cadence—field stabilizes around it."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early moral correctness can become behavior policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/authorship axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing 'proper conduct' rules for safety."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Ordeal of humility under pressure—hold tone without pride."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Kind acceptance calms the group around varied rhythms."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private comportment practice, not transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-15.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "15.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Hold your rhythm while allowing others’ extremes."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Places behavior in context and tempo for easy contact."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Subtle status cues around what is 'appropriate.'"
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Graceful comportment sets a gentle tone."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Deference to 'house rules' over lived truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to stay modest and steady amidst difference."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned hospitality bridges diverse behaviors."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational tuning, not codified protocol yet.",
+      "confidence": 5,
+      "sources": ["gate-line-15.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "15.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Swinging between conformity and rebellion outsources sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Irregular rhythms create choppy regulation and mixed signals."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Shaming or gatekeeping of 'too much'/'too little' behavior."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performative virtue/image management over truth."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Rules weaponized to force 'proper' conduct."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Trial refines honest humility and proportion."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing bends rhythm into distortion."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—this is trial-and-error moderation.",
+      "confidence": 5,
+      "sources": ["gate-line-15.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "15.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Advocates sovereignty for diverse expressions."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Designs inclusive norms and pacing for varied rhythms."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Role authority can read as exclusivity or gate."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Humanity-forward tone shapes culture without vanity."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policy risks law-over-life if over-fixed."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled moderation under pressure."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Warm hospitality makes extremes safe to be around."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches inclusion protocol by presence and example.",
+      "confidence": 4,
+      "sources": ["gate-line-15.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "inclusion-protocol",
+      "keywords": ["humility", "inclusion", "norms"]
+    }
+  },
+  "15.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses influence to free people from behavioral conformity."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Codifies humane standards and rhythm for the group."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guards loyalty to humane norms; deters predatory conduct."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Sets the aesthetic of dignity and modesty."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Standard-setting can ossify into moralism."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when challenged by extremes."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring tone steadies the community without coddling."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Instruction on conduct and tempo—liberation through humane protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-15.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "humility-mentor/standards",
+      "keywords": ["standards", "tempo", "conduct"]
+    }
+  },
+  "15.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodied humility protects sovereignty across extremes."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for humane pace and behavior."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Presence can feel like a gate to 'proper' behavior."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Becomes a cultural beacon of humaneness."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Canonizing humility risks dogma or puritanism."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to meet extremes without superiority."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains present, without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: behavior law transmitted by presence and protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-15.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/humility-canon",
+      "keywords": ["presence", "canon", "humility"]
+    }
+  }
+}

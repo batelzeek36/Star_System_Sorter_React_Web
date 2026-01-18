@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 34,
+  "hexagram_name_legge": "Ta Kwang",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Ta Kwang indicates that (under the conditions which it symbolises) it will be advantageous to be firm and correct.",
+  "image_text": "(The trigram representing) heaven and above it that for thunder form Ta Kwang. The superior man, in accordance with this, does not take a step which is not according to propriety.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XXXIV. The Ta Kwang Hexagram.\n\nTa Kwang indicates that (under the conditions which it symbolises) it will be advantageous to be firm and correct.\n\n1. The first line, undivided, shows its subject manifesting his strength in his toes. But advance will lead to evil—most certainly.\n\n2. The second line, undivided, shows that with firm correctness there will be good fortune.\n\n3. The third line, undivided, shows, in the case of a small man, one using all his strength; and in the case of a superior man, one whose rule is not to do so. Even with firm correctness the position would be perilous. (The exercise of strength in it might be compared to the case of) a ram butting against a fence, and getting his horns entangled.\n\n4. The fourth line, undivided, shows (a case in which) firm correctness leads to good fortune, and occasion for repentance disappears. (We see) the fence opened without the horns being entangled. The strength is like that in the wheel-spokes of a large waggon.\n\n5. The fifth line, divided, shows one who loses his ram(-like strength) in the ease of his position. (But) there will be no occasion for repentance.\n\n6. The sixth line, divided, shows (one who may be compared to) the ram butting against the fence, and unable either to retreat, or to advance as he would fain do. There will not be advantage in any respect; but if he realise the difficulty (of his position), there will be good fortune.\n\nXIANG:\n\n(The trigram representing) heaven and above it that for thunder form Ta Kwang. The superior man, in accordance with this, does not take a step which is not according to propriety.\n\n1. 'He manifests his vigour in his toes:'—this will certainly lead to exhaustion.\n\n2. ' The second line, undivided, shows that with firm correctness there will be good fortune: '—this is due to its being in the centre, (and its subject exemplifying the due mean).\n\n3. ' The small man uses all his strength; in the case of the superior man it is his rule not to do so.'\n\n4. ' The fence is opened and the horns are not entangled: —(the subject of the line) still advances.\n\n5. 'He loses his ram and hardly perceives it:'— he is not in bis appropriate place.\n\n6. ' He is unable either to retreat or to advance: this is owing to his want of care. ' If he realise the difficulty (of his position), there will be good fortune : —his error will not be prolonged.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject manifesting his strength in his toes. But advance will lead to evil—most certainly."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows that with firm correctness there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows, in the case of a small man, one using all his strength; and in the case of a superior man, one whose rule is not to do so. Even with firm correctness the position would be perilous. (The exercise of strength in it might be compared to the case of) a ram butting against a fence, and getting his horns entangled."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows (a case in which) firm correctness leads to good fortune, and occasion for repentance disappears. (We see) the fence opened without the horns being entangled. The strength is like that in the wheel-spokes of a large waggon."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows one who loses his ram(-like strength) in the ease of his position. (But) there will be no occasion for repentance."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, shows (one who may be compared to) the ram butting against the fence, and unable either to retreat, or to advance as he would fain do. There will not be advantage in any respect; but if he realise the difficulty (of his position), there will be good fortune."
+    }
+  ],
+  "notes": []
+}

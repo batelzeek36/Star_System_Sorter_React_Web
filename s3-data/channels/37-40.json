@@ -1,0 +1,27 @@
+{
+  "id": "ch.37-40",
+  "gates": [
+    37,
+    40
+  ],
+  "centers": [
+    "center.solar_plexus",
+    "center.ego"
+  ],
+  "circuit": "circuit.tribal.defense",
+  "stream": "tribal.bargain.family",
+  "voice": "I will work if we belong.",
+  "display_name": "Channel of Community (37↔40)",
+  "keynotes": [
+    "Emotional warmth and touch (37) meets willpower to work/provide (40).",
+    "Core tribal bargain: I give work → I get family/belonging.",
+    "Sets terms for community, clan, crew, household.",
+    "Runs on emotional waves → clarity is not in the now.",
+    "40 must actually have the will before it promises.",
+    "37 wants fairness, food, touch, and a place at the table.",
+    "Healthy: loyal, generous, protective, clear about deals.",
+    "Shadow: guilt, emotional blackmail, ‘after all I’ve done for you.’"
+  ],
+  "notes": "37–40 is the classic **Channel of Community** in the Tribal Defense circuit. **Gate 37** in the Solar Plexus brings emotional warmth, touch, friendliness, and the desire for a fair, human deal. **Gate 40** in the Ego/Heart brings the will to work, to provide, to go off alone and ‘do the job’ for the tribe. Together they form the **bargain of belonging**: *I will work for you / protect us (40) if I am fed, touched, included, and treated fairly (37).* \n\nBecause 37 is emotional, this channel should **wait for emotional clarity** before making or changing agreements. When clean, it creates the healthiest form of tribe/family/community — everyone knows the terms and everyone is cared for. When distorted, it becomes the classic tribal guilt pattern: “Look at everything I did for you,” or, from 37’s side, “If you loved me, you’d do X.” \n\nUse it in your dataset anywhere you need to model **mutual obligation, hospitality, clan membership, and emotional economics.**",
+  "last_updated": "2025-11-01"
+}

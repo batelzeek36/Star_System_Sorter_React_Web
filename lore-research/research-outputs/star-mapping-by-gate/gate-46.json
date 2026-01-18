@@ -1,0 +1,278 @@
+{
+  "46.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses forced hustle; sovereignty to let the body set the pace."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Early somatic calibration—safety, pacing, and conditions before entry."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Proving strength by overriding the body to win status."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodied grace—joy of being in the body, not performance."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rank/etiquette used to push ‘right place’ before readiness."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline of restraint—wait for the true opening."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attuned care—nervous-system ease so placement can happen naturally."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching embodiment hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-46.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "46.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines coercion into roles/places that the body refuses."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places body/resources where they function best—conditions for flow."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping: ‘prove you belong here’ despite somatic cues."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Natural elegance—the right place reveals effortless beauty."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Protocol-as-control to override true bodily timing."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to hold position until timing is genuinely right."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Relational pacing and comfort so the placement bonds can form."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement, not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-46.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "46.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after misplacement/overreach—body sovereignty reset."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—injury/strain while learning correct conditions."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Predatory ‘toughen up’ scripts that punish sensitivity."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Performative wellness/optics over real embodiment."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Hierarchy of ‘worthy bodies’ enforcing the wrong place/time."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit misread, re-center, recommit cleanly."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Enmeshment soothing that ignores the body’s ‘no.’"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging of embodied wisdom; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-46.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "46.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Advocates freedom to follow the body’s route, not external scripts."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Translates embodiment into protocol—conditions, pacing, access rules."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guards boundaries so predatory pressure doesn’t force placement."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Becomes an example of relaxed, resonant physical presence."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Purity codes risk turning embodiment into orthodoxy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-presence—model right-place/right-time under pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Humane pacing and care keep the body in trustful flow."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodiment protocol teaching—law of place and timing by example.",
+      "confidence": 4,
+      "sources": ["gate-line-46.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "embodiment-protocol/law-of-place",
+      "keywords": ["conditions", "timing", "flow", "placement"]
+    }
+  },
+  "46.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that the ‘good body’ must endure anything."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal exemplar → burnout/scapegoat when refusing bad contexts."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Status games around who can push through the most."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic, untheatrical poise—embodiment inspires without vanity."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine of ‘right place’ used to legitimize coercion."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—honor the true place, decline the wrong stage."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasing the room by staying where the body says ‘no.’"
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethical embodiment under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-46.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/embodied-ethics",
+      "keywords": ["example", "ethics", "projection", "poise"]
+    }
+  },
+  "46.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from ‘place capture’—choose life-giving contexts."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards—review of conditions, renewal/sunset of placements."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Guards thresholds so placement serves life, not predation."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet majesty—culture tunes to embodied dignity."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing ‘right place’ into hierarchy rather than living intelligence."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—moves (or refuses) with impeccable bodily timing."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is standards/placement law, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Embodiment sage—teaches the law of place and timing by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-46.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "embodiment-sage/law-of-place-and-timing",
+      "keywords": ["elder", "placement", "timing", "law", "flow"]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "gate": 3,
+  "gate_name": "",
+  "lines": {
+    "3.1": {
+      "line": 1,
+      "hd_title": "Synthesis",
+      "hd_quote": "If you have the 3.1 and you are really introspective, the first thing that you know is that you are confused.",
+      "keywords": [
+        "confusion-aware",
+        "patient witness",
+        "primordial ordering"
+      ],
+      "behavioral_axis": "Trusts that order will emerge over time; allows confusion without forcing.",
+      "shadow_axis": "Panics and tries to force clarity too early, then everything breaks down.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "3.2": {
+      "line": 2,
+      "hd_title": "Immaturity",
+      "hd_quote": "Everybody looks at the 3.2 and they say, \"Aren't they confused? They do not know where they are going.\"",
+      "keywords": [
+        "projected confusion",
+        "unsolicited guidance",
+        "outer-directed wobble"
+      ],
+      "behavioral_axis": "Projects \"I don't know\" and pulls in fixers, teachers, rescuers.",
+      "shadow_axis": "Lets others steer their mutation, creating dependence and instability.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "3.3": {
+      "line": 3,
+      "hd_title": "Survival",
+      "hd_quote": "An innate knowing of what is sterile and fertile, where the mutation is specifically biological and dependant on collaboration with others.",
+      "keywords": [
+        "trial and error",
+        "mutational mating",
+        "survival hacking"
+      ],
+      "behavioral_axis": "Mutates through messy experimentation, choosing what’s actually fertile and viable.",
+      "shadow_axis": "Chaotic trial-and-error in sex/resources that leaves wreckage behind.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "3.4": {
+      "line": 4,
+      "hd_title": "Charisma",
+      "hd_quote": "Innate quality which attracts valued guidance.",
+      "keywords": [
+        "guidance magnet",
+        "visible confusion signal",
+        "networked orientation"
+      ],
+      "behavioral_axis": "Draws in allies and advisors just by broadcasting \"I’m confused.\"",
+      "shadow_axis": "Ignores guidance out of ego; externalizes confusion to manipulate attention.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "3.5": {
+      "line": 5,
+      "hd_title": "Victimization",
+      "hd_quote": "When actions designed to overcome confusion alienate others.",
+      "keywords": [
+        "projected savior/culprit",
+        "boundary test",
+        "public lesson"
+      ],
+      "behavioral_axis": "Holds convictions under projection: \"I'm not confused, let me show you.\"",
+      "shadow_axis": "Becomes the scapegoat, appeasing others and suffering to keep the peace.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "3.6": {
+      "line": 6,
+      "hd_title": "Surrender",
+      "hd_quote": "It is not up to us to dictate the nature of the solution. Ordering comes of itself.",
+      "keywords": [
+        "existential acceptance",
+        "non-striving clarity",
+        "order emerges"
+      ],
+      "behavioral_axis": "Embodies \"it’ll sort itself\" patience; recognizes when struggle is futile.",
+      "shadow_axis": "Detached fatalism that drifts into depression and gives up on life.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

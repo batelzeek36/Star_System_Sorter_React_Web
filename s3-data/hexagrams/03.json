@@ -1,0 +1,149 @@
+{
+  "id": "hx03",
+  "number": 3,
+  "unicode_hexagram": "䷂",
+  "name": "Difficulty at the Beginning / Sprouting (屯, Zhūn)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Chun (indicates that in the case which it presupposes) there will be great progress and success, and the advantage will come from being correct and firm. (But) any movement in advance should not be (lightly) undertaken. There will be advantage in appointing feudal princes.",
+    "normalized_summary": "Birth through chaos. New growth wants to emerge but it's tangled and unstable. Don’t rush forward blindly — organize support, establish structure, and move with guidance."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows the difficulty (its subject has) in advancing. It will be advantageous for him to abide correct and firm; advantageous (also) to be made a feudal ruler.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：磐桓，利居貞，利建侯。"
+        }
+      ],
+      "normalized_meaning": "Early-stage struggle. Progress feels blocked, so hold position, stay principled, and establish competent leadership instead of charging ahead.",
+      "keywords": [
+        "slow start",
+        "stability first",
+        "patience",
+        "foundational authority",
+        "structured beginning"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows (its subject) distressed and obliged to return; (even) the horses of her chariot (also) seem to be retreating. (But) not by a spoiler (is she assailed), but by one who seeks her to be his wife. The young lady maintains her firm correctness, and declines a union. After ten years she will be united, and have children.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：屯如邅如，乘馬班如。匪寇婚媾，女子貞不字。十年乃字。"
+        }
+      ],
+      "normalized_meaning": "Setbacks and reversals are not attacks — they’re timing pressure. Hold boundaries. The right partnership/structure will come, but only when it's actually aligned, not when it's merely available.",
+      "keywords": [
+        "delay",
+        "right timing",
+        "not settling",
+        "patient union",
+        "integrity under pressure"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third SIX, divided, shows one following the deer without (the guidance of) the forester, and only finding himself in the midst of the forest. The superior man, acquainted with the secret risks, thinks it better to give up the chase. If he went forward, he would regret it.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：即鹿無虞，惟入于林中。君子幾不如舍，往吝。"
+        }
+      ],
+      "normalized_meaning": "If you chase opportunity without a guide, you get lost. Know when to stop instead of forcing progress just to feel like you’re doing something.",
+      "keywords": [
+        "lack of guidance",
+        "risk awareness",
+        "cut losses",
+        "don’t force it",
+        "humility"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows (its subject as a lady), the horses of whose chariot appear in retreat. She seeks, however, (the help of) him who seeks her to be his wife. Advance will be fortunate; all will turn out advantageously.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：乘馬班如，求婚媾。往吉，無不利。"
+        }
+      ],
+      "normalized_meaning": "Accept qualified help and move together. Collaboration is now appropriate, and moving forward with support brings good fortune.",
+      "keywords": [
+        "seeking alliance",
+        "mutual support",
+        "cooperation",
+        "forward motion",
+        "favorable advance"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the difficulties in the way of (its subject's) dispensing the rich favours that might be expected from him. With firmness and correctness there will be good fortune in small things; (even) with them in great things there will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：屯其膏。小貞吉，大貞凶。"
+        }
+      ],
+      "normalized_meaning": "Resources are building but not yet flowing. You can distribute support in small ways, but trying to ‘do it all’ right now backfires.",
+      "keywords": [
+        "limited resources",
+        "measured generosity",
+        "small-scale success",
+        "don't overextend",
+        "leadership restraint"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost SIX, divided, shows (its subject) with the horses of his chariot obliged to retreat, and weeping tears of blood in streams.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：乘馬班如，泣血漣如。"
+        }
+      ],
+      "normalized_meaning": "Pushing past the natural limit leads to collapse. This is emotional and physical overwhelm — it’s not sustainable. Withdraw.",
+      "keywords": [
+        "exhaustion",
+        "forced retreat",
+        "emotional overload",
+        "unsustainable pressure",
+        "stop now"
+      ]
+    }
+  ]
+}

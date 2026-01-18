@@ -1,0 +1,2958 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "generated_at_utc": "2025-11-03T21:23:16.493031+00:00",
+    "source_star_system_version": "4.2",
+    "total_gate_lines": 384,
+    "systems": [
+      "andromeda",
+      "arcturus",
+      "draco",
+      "lyra",
+      "orion-dark",
+      "orion-light",
+      "pleiades",
+      "sirius"
+    ]
+  },
+  "1.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Creative expression and artistic enchantment - core Lyran gift"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "1.2": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Creative expression and artistic enchantment - core Lyran gift"
+    }
+  ],
+  "1.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 1,
+      "alignment_type": "core",
+      "why": "Original authentic expression - core Lyran signature"
+    }
+  ],
+  "1.4": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Aesthetic refinement and beauty as power - core Lyran pattern"
+    }
+  ],
+  "1.5": [],
+  "1.6": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Creative expression and artistic enchantment - core Lyran gift"
+    }
+  ],
+  "2.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "2.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "2.2 intuitively knows where people and resources belong and quietly places them for correct flow, which matches Arcturus core triage and functional placement for stability."
+    }
+  ],
+  "2.3": [],
+  "2.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "2.4 links the right people and spots so the network runs on healthier alignment, which echoes Arcturus core system engineering and resource calibration."
+    }
+  ],
+  "2.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "2.5 gets cast as 'show us the way and fix it now' and is blamed if the route doesn't save everyone, which is Arcturus shadow healer-projection and scapegoat load."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "2.5 can wait for someone else to define the path or save the situation instead of claiming self-direction; that's Andromeda shadow (passive victimhood / surrendered sovereignty)."
+    }
+  ],
+  "2.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "2.6 holds long-term direction and can go aloof and above normal concerns, which mirrors Arcturus shadow clinical detachment and superiority."
+    }
+  ],
+  "3.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "3.1 wants to stabilize chaos and build a workable base before change spreads, which is Arcturus core trauma containment and safe-structure setup."
+    }
+  ],
+  "3.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "3.2 privately engineers elegant fixes for early-stage chaos and resists interference, which is Arcturus core specialist field-tech behavior."
+    }
+  ],
+  "3.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "3.3 stress-tests systems in real conditions to force mutation toward something functional, which matches Arcturus diagnostic stress-calibration work."
+    }
+  ],
+  "3.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "3.4 translates unstable beginnings into something others can actually use, which is Arcturus core: converting raw crisis into stable protocol."
+    }
+  ],
+  "3.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "3.5 gets projected on as the one who can 'make this broken system work for everyone' and then scapegoated, which is classic Arcturus shadow burnout-healer pattern."
+    }
+  ],
+  "3.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "3.6 understands how chaotic beginnings mature into stable long-term forms, which is Arcturus core evolution-architect / systems-stabilizer wisdom."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Detached cynicism: ‘everything starts broken so why care.’ (weak thematic resonance with lyra)"
+    }
+  ],
+  "4.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "4.1 insists on solid internal reasoning before acting, which is Arcturus core diagnostic-before-intervention discipline."
+    }
+  ],
+  "4.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "4.2 can translate doubt into a clean logical answer that calms people, which is Arcturus core field-clarification to reduce panic noise."
+    }
+  ],
+  "4.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "4.3 pokes holes in bad logic and patches what fails, which is Arcturus core audit-and-recalibrate protocol work."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Cynical nitpicker, invalidates everything to feel smart. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "4.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "4.4 spreads a workable mental model through the group so everyone runs on the same clean protocol, which is Arcturus core system standardization."
+    }
+  ],
+  "4.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "4.5 becomes the 'go-to' mind who must resolve confusion fast and then gets blamed if the fix is uncomfortable, which is Arcturus shadow fixer-conscription."
+    }
+  ],
+  "4.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "4.6 holds future-proof clarity and explains why the structure will still make sense later, which is Arcturus core long-range stabilization of the field."
+    }
+  ],
+  "5.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "5.1 protects its natural timing and demands predictable rhythm to feel safe, which is Arcturus core nervous-system regulation and boundarying the field."
+    }
+  ],
+  "5.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "5.2 moves in correct pacing and shuts down if rushed, which is Arcturus core self-regulation and refusal to dysregulate the body for others."
+    }
+  ],
+  "5.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "5.3 keeps breaking and rebuilding routine to find sustainable rhythm, which is Arcturus core iterative recalibration of timing."
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "5.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "5.4 anchors the group's daily pace and stabilizes everyone by modeling cadence, which is strong Arcturus core co-regulation of the collective nervous system."
+    }
+  ],
+  "5.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "5.5 is expected to 'fix our timing' and then blamed when others can't self-regulate, which is Arcturus shadow burnout-healer responsibility dumping."
+    }
+  ],
+  "5.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "5.6 carries elder-level pacing wisdom and teaches sustainable rhythm over a lifetime, which is Arcturus core long-term regulation blueprint."
+    }
+  ],
+  "6.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "6.1 builds a safe container and tests emotional safety before letting anyone in, which is Arcturus core trauma-informed boundarying to prevent further damage."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Hyper-guarded, assumes threat in every approach. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "6.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "6.3": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.8,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "6.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "6.4 mediates emotional tension so the network can hold together, which is Arcturus core crisis de-escalation and containment of the emotional field."
+    }
+  ],
+  "6.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "shadow",
+      "why": "6.5 is cast as the one who must defuse everyone else's emotional crisis and then gets called toxic for enforcing boundaries, which is Arcturus shadow burned-out stabilizer."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "6.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.8,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "6.6 embodies 'this is healthy closeness' and refuses chaotic bonding, which is Arcturus core maintaining a clean relational field."
+    }
+  ],
+  "7.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "7.2": [],
+  "7.3": [],
+  "7.4": [],
+  "7.5": [],
+  "7.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "8.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "8.2": [],
+  "8.3": [],
+  "8.4": [],
+  "8.5": [],
+  "8.6": [],
+  "9.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "9.1 builds a solid base so sustained focus is possible; that's Arcturus core containment and setup of a stable work field to calm scattered energy."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "9.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "9.2 can lock into one task with surgical depth and will block interruption to protect that focus, which mirrors Arcturus core boundarying to keep the field clean."
+    }
+  ],
+  "9.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "9.3 burns itself out on the wrong stuff to learn what actually matters, which is Arcturus-style iterative calibration of where energy should and should not go."
+    }
+  ],
+  "9.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "9.4 filters the noise for everyone and tells the group 'this matters, that doesn't,' which is Arcturus core attention triage and collective field focusing."
+    }
+  ],
+  "9.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "shadow",
+      "why": "9.5 gets called in to streamline chaos and is then blamed as controlling, which is Arcturus shadow fixer-projection and scapegoat load."
+    }
+  ],
+  "9.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "9.6 lives as proof that disciplined focus becomes mastery and can judge people who can't match it; that's Arcturus core long-haul regulation with a hint of clinical superiority."
+    }
+  ],
+  "10.1": [],
+  "10.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Just exists as themselves without needing outside approval and will withdraw instead of letting others script their identity, which is a boundary-level defense of personal sovereignty — Andromeda core."
+    }
+  ],
+  "10.3": [],
+  "10.4": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Lives in a stable sense of 'this is who I am' and resists being behavior-shaped by the group, which is active sovereignty defense — Andromeda core."
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "10.4 becomes the behavioral template the group copies, enforcing 'this is how we act,' which echoes Arcturus core protocol-setting of acceptable conduct for stability."
+    }
+  ],
+  "10.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "shadow",
+      "why": "10.5 is expected to restore integrity for everyone and gets crucified if it doesn't land, which is Arcturus shadow healer-projection and blame."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Holds self-respect under projection and refuses to submit to shaming or control, which is direct protection of dignity — Andromeda core."
+    }
+  ],
+  "10.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "10.6 holds long-term self-honoring standards and can act 'above your drama,' which matches Arcturus shadow clinical distance / superior regulator posture."
+    }
+  ],
+  "11.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "11.1 quietly gathers and organizes ideas until they're safe and coherent to share, which is Arcturus core creating mental order so the room calms down."
+    }
+  ],
+  "11.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "11.2 can explain possibilities in a way people immediately get, which is Arcturus core translating confusion into a stabilizing narrative."
+    }
+  ],
+  "11.3": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "11.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "11.4 gives the tribe a shared story that orients everyone, which is Arcturus core field alignment through narrative coherence."
+    }
+  ],
+  "11.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "11.5 is asked to 'answer our confusion' and then accused of manipulation if people don't like the answer, which is Arcturus shadow scapegoated clarity-bringer."
+    }
+  ],
+  "11.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "11.6 holds the long-arc myth of where we're going and risks sounding like an untouchable oracle, which is Arcturus shadow elevated-knower distance."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "12.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "12.1 will not speak unless the emotional field feels clean and safe, which is Arcturus core trauma-aware restraint to avoid re-injuring the room."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Self-silences and hopes tension passes without risking themselves to confront unfair treatment, which is passive endurance of oppression — Andromeda shadow."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Doesn't express unless it feels correct and clean. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-silencing out of fear of rejection. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "12.2": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Artistic expression and creative enchantment - Lyran pattern"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "12.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Original authentic expression - core Lyran signature"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "12.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "12.4 translates emotional intensity so the circle can actually stay together, which is Arcturus core crisis de-escalation / nervous-system soothing for the group."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "12.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Gets expected to say the thing nobody else can say and voice the uncomfortable truth on behalf of everyone, even if it draws backlash, which is speaking truth to power to restore dignity — Andromeda core."
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "12.5 is pushed to say the thing nobody else can and then gets accused of manipulation, which is Arcturus shadow high-pressure spokesperson / blame sink."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "People expect you to say the thing nobody else can say. (weak thematic resonance with lyra)"
+    }
+  ],
+  "12.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "12.6 times truth like a surgical intervention and withholds constant output, which is Arcturus core precision-release to prevent emotional overload."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "13.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "13.1 quietly holds other people's secrets and carries that weight, which is Arcturus core trauma containment / safe storage of the field's pain."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Quietly holds other people's trauma stories and keeps their secrets without challenging the situation, which is carrying oppression as a witness instead of changing it — Andromeda shadow."
+    }
+  ],
+  "13.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "13.2 becomes the person everyone unloads on and eventually resents being used as an emotional dump, which is Arcturus shadow burnout-healer pattern."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Becomes the safe confessional for the mistreated and feels responsible to hold their pain without disrupting the structure, which is compassionate martyr listening — Andromeda shadow."
+    }
+  ],
+  "13.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "13.3 absorbs messy human stories firsthand and risks living in 'everything is heavy,' which is Arcturus shadow trauma saturation / compassion fatigue."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Absorbs messy lived drama and trauma firsthand and keeps going, which is self-sacrificial witness mode instead of direct intervention — Andromeda shadow."
+    }
+  ],
+  "13.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "13.4 speaks for what the group has lived so the pattern is known, which is Arcturus core integration of collective trauma into useful memory."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Speaks the tribe's buried story out loud so abuse can't stay hidden, which is public advocacy for dignity and release from mistreatment — Andromeda core."
+    }
+  ],
+  "13.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "shadow",
+      "why": "13.5 is relied on to explain what went wrong and how not to repeat it, then scapegoated if egos get bruised; that's Arcturus shadow post-crisis analyst getting blamed."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Gets cast as the one who will name what went wrong and call out injustice for everyone, which is acting as a liberator voice for the collective — Andromeda core."
+    }
+  ],
+  "13.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "13.6 holds 'here is our true story' at civilization scale, which is Arcturus core long-range trauma integration so the system stops re-wounding itself."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Holds long-arc memory of what has been done to people and can sit in sorrow rather than intervening, which is archivist-martyr of oppression — Andromeda shadow."
+    }
+  ],
+  "14.1": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    }
+  ],
+  "14.2": [],
+  "14.3": [],
+  "14.4": [],
+  "14.5": [],
+  "14.6": [],
+  "15.1": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Normalizes wide emotional and behavioral range and refuses to shame human difference, which defends basic dignity against social domestication — Andromeda core."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "15.2": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Radiates unconditional acceptance so outsiders feel permitted to exist as they are instead of being forced to conform, which is active safeguarding of personal sovereignty — Andromeda core."
+    }
+  ],
+  "15.3": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Lives the extremes and keeps insisting 'this is who I am' even after backlash, which is defiance of imposed control — Andromeda core."
+    }
+  ],
+  "15.4": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Publicly anchors the ethic that difference is human and control is abuse, challenging norms that punish outsiders, which is collective liberation work — Andromeda core."
+    }
+  ],
+  "15.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Gets positioned as the one who's supposed to humanize everyone and stop intolerance, which is standing guard over inherent sovereignty — Andromeda core."
+    }
+  ],
+  "15.6": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "Embodies long-term radical acceptance as a way of life and demands systems honor each person's right to exist unedited, which is principled resistance to behavioral control — Andromeda core."
+    }
+  ],
+  "16.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "16.2": [],
+  "16.3": [],
+  "16.4": [],
+  "16.5": [],
+  "16.6": [],
+  "17.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "17.1 builds opinions on a clear internal framework before speaking, which is Arcturus core diagnostic discipline to create a stable mental container for others."
+    }
+  ],
+  "17.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "17.2 sees what's logically off and can articulate it simply, which is Arcturus core clean troubleshooting of the field."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sees what's logically off and can articulate it simply. (weak thematic resonance with lyra)"
+    }
+  ],
+  "17.3": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "17.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "17.4 gives the tribe an organized way to think about the problem, which is Arcturus core group sense-making to calm confusion."
+    }
+  ],
+  "17.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "shadow",
+      "why": "17.5 is expected to diagnose what's broken and propose 'the fix' and then gets called cold or controlling, which is Arcturus shadow healer-scapegoat."
+    }
+  ],
+  "17.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "17.6 holds 'this is the most stable way to understand this long-term' and can judge everyone else's logic as childish, which is Arcturus shadow clinical superiority in mental governance."
+    }
+  ],
+  "18.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "18.1 feels what’s off and wants structural integrity restored, which is Arcturus core corrective instinct to repair a sick system."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Feels what's unhealthy in the structure and pushes to restore integrity rather than tolerate damage, which is defending people from harmful patterns — Andromeda core."
+    }
+  ],
+  "18.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "18.2 quietly improves quality and refines what's wrong without drama, which is Arcturus core subtle calibration of the field."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "18.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "shadow",
+      "why": "18.3 stress-tests what's broken in real conditions and lives in constant crisis mode, which is Arcturus shadow burnout identity around nonstop triage."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Lives in nonstop troubleshooting and crisis identity — 'everything is broken and someone needs to fix it' — which is externalized blame without direct liberation action, a martyr-critic stance — Andromeda shadow."
+    }
+  ],
+  "18.4": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Calls out the flaw in the group out loud so the harm can’t be ignored anymore, which is confronting dysfunction to protect collective dignity — Andromeda core."
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "18.4 calls out dysfunction so the group can’t ignore it, which is Arcturus core protective correction to keep the system healthy."
+    }
+  ],
+  "18.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "shadow",
+      "why": "18.5 gets handed rotten structures and expected to fix them, then scapegoated if the repair hurts, which is Arcturus shadow accountability mule."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Gets handed corrupted systems and is expected to repair them for everyone, acting as the one who restores safety and accountability for the tribe — Andromeda core."
+    }
+  ],
+  "18.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "18.6 stands for 'this is healthy' over an entire timeline, which is Arcturus core long-arc standard-bearing for systemic integrity."
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Holds a long-arc standard of 'this is healthy, this is not' for the whole timeline, which is long-term guardianship of integrity and refusal to normalize abuse — Andromeda core."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "19.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 1,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "19.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Focuses on feeding/nurturing to maintain bonds - core Pleiadian caretaking"
+    }
+  ],
+  "19.3": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "19.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "19.5": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Soothes nervous systems to prevent abandonment - core Pleiadian behavior"
+    }
+  ],
+  "19.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Emotional superiority, judging others as heartless. (weak thematic resonance with lyra)"
+    }
+  ],
+  "20.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "20.2": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Original authentic expression - core Lyran signature"
+    }
+  ],
+  "20.3": [],
+  "20.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "20.4 gives the group an instant read on 'what is happening right now,' which is Arcturus core real-time situational translation to orient and calm the room."
+    }
+  ],
+  "20.5": [],
+  "20.6": [],
+  "21.1": [],
+  "21.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "21.3": [],
+  "21.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    }
+  ],
+  "21.5": [],
+  "21.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Maintains dominance hierarchy for group survival - core Draco structure"
+    }
+  ],
+  "22.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "22.1 feels whether the space is safe for genuine openness and withholds warmth if it isn’t, which is Arcturus core trauma-aware gatekeeping of emotional access."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Withdraws warmth, becomes icy to stay safe. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "22.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "22.2 draws people in and sets the emotional atmosphere, which is Arcturus core mood-field modulation to help others settle."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "22.3": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "22.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "22.4 actively shapes the social vibe so everyone can relax and connect, which is strong Arcturus core group nervous-system soothing."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "22.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "shadow",
+      "why": "22.5 is expected to soothe everyone and gets blamed as fake or seductive if outcomes get messy, which is Arcturus shadow 'make the room safe for us' projection."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others assume you can disarm tension and make everyone feel seen. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "22.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "22.6 opens only when it’s actually correct and refuses to be emotionally available on demand, which is Arcturus core boundarying to prevent emotional overload."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "23.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "23.1 waits until the insight is crisp enough to explain simply, which is Arcturus core holding clarity until it's safe to drop into the field."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Locks up, thinks they’re broken if they can't articulate yet. (weak thematic resonance with lyra)"
+    }
+  ],
+  "23.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "23.2 can drop one clean sentence that unlocks a whole concept for others, which is Arcturus core decomplexifying so the group can regulate."
+    }
+  ],
+  "23.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Finds the right wording by saying the wrong thing out loud first. (weak thematic resonance with lyra)"
+    }
+  ],
+  "23.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "23.4 introduces disruptive knowing in a way people can actually swallow, which is Arcturus core translating mutation without blowing people out."
+    }
+  ],
+  "23.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "shadow",
+      "why": "23.5 is pressured to deliver 'the breakthrough' on command and then called arrogant or manipulative, which is Arcturus shadow genius/freak scapegoat pattern."
+    }
+  ],
+  "23.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "23.6 becomes the voice whose clarity defines 'the new normal' and can slip into 'I get reality, you don't,' which is Arcturus shadow elevated authority over collective understanding."
+    }
+  ],
+  "24.1": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "24.1 loops inward until the insight is stable enough to trust, which is Arcturus core internal integration before exposing it to the field."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "24.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "24.2 quietly synthesizes disruptive knowing without needing outside help, which is Arcturus core private regulation of shock so others won't get rattled."
+    }
+  ],
+  "24.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "24.3 cycles between clarity and noise and looks obsessive/unstable, which is Arcturus shadow rumination while trying to force resolution."
+    }
+  ],
+  "24.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "24.4 turns a personal epiphany into something the group can actually use, which is Arcturus core practical synthesis for communal stability."
+    }
+  ],
+  "24.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "shadow",
+      "why": "24.5 is asked to 'explain the unexplainable' so everyone else can feel safe and then blamed if they're still upset, which is Arcturus shadow emotional-stability mule."
+    }
+  ],
+  "24.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.55,
+      "alignment_type": "core",
+      "why": "24.6 holds mature understanding of disruptive ideas without panic and can go a bit 'you wouldn’t get it,' which is Arcturus core long-term stabilizer with mild clinical distance."
+    }
+  ],
+  "25.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Holds a quiet, principled heart that isn't trying to prove goodness. (weak thematic resonance with lyra)"
+    }
+  ],
+  "25.2": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "25.2 radiates unguarded compassion that makes others feel spiritually safe, which matches Arcturus core holding a clean, safe field for nervous-system relief."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Radiates unconditional acceptance without effort, makes others feel spiritually safe. (weak thematic resonance with lyra)"
+    }
+  ],
+  "25.3": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "25.3 survives violation and chaos and turns that pain into authentic compassion, which is Arcturus core trauma integration and repair after shock."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aesthetic elitism and beauty-as-superiority - Lyran shadow"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "25.4": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "25.4 stitches the group back together after harm through radical nonjudgment, which is strong Arcturus core post-crisis unification of the emotional field."
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritual bypassing to keep the peace and keep access. (weak thematic resonance with orion-dark)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritual bypassing to keep the peace and keep access. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "25.5": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.6,
+      "alignment_type": "shadow",
+      "why": "25.5 is cast as the emergency soul medic who must cleanse corruption for everyone and then gets blamed as fake if healing isn't instant, which is Arcturus shadow burnout-healer / scapegoat dynamic."
+    }
+  ],
+  "25.6": [
+    {
+      "star_system": "Arcturus",
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "25.6 holds detached 'universal love' and can go cold like 'your pain is just a lesson,' which is Arcturus shadow clinical distance posing as compassion."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Cold cosmic distance: 'your pain is just part of the lesson, accept it.' (weak thematic resonance with lyra)"
+    }
+  ],
+  "26.1": [],
+  "26.2": [],
+  "26.3": [],
+  "26.4": [],
+  "26.5": [],
+  "26.6": [],
+  "27.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Focuses on feeding/nurturing to maintain bonds - core Pleiadian caretaking"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    }
+  ],
+  "27.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "27.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Martyr script: 'after all I've done for you.' (weak thematic resonance with lyra)"
+    }
+  ],
+  "27.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    }
+  ],
+  "27.5": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "27.6": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "28.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Needs proof the fight actually matters before committing and can fall into 'what's the point of any of this' despair instead of acting, which echoes Andromeda shadow collapse into hopelessness under perceived injustice rather than claiming agency — Andromeda shadow."
+    }
+  ],
+  "28.2": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Endures hardship quietly when the cause feels worthy and refuses to fold under pressure, which is standing in the fight to defend what matters instead of submitting to domination — Andromeda core."
+    }
+  ],
+  "28.3": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Finds purpose by surviving near-collapse and choosing to continue rather than surrender, which is personal refusal to submit to oppressive force and a commitment to keep resisting — Andromeda core."
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Finds true purpose by facing near-collapse and choosing to continue. (weak thematic resonance with draco)"
+    }
+  ],
+  "28.4": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Rallies allies around the message that this struggle is worth it and calls people to stand together, which is organizing collective resistance to a threat in defense of dignity — Andromeda core."
+    }
+  ],
+  "28.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Gets cast as the one who must stand against the monster for everyone and is punished if they show weakness, which is the savior/martyr projection of carrying liberation alone for the group — Andromeda shadow."
+    }
+  ],
+  "28.6": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Lives like the struggle itself is sacred because they declare it so and can romanticize suffering as identity, which mirrors Andromeda shadow of turning endless resistance and self-sacrifice into a role instead of shared liberation — Andromeda shadow."
+    }
+  ],
+  "29.1": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Fear of overcommitting, stalls instead of answering. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "29.2": [],
+  "29.3": [],
+  "29.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    }
+  ],
+  "29.5": [],
+  "29.6": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "30.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "30.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "30.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Finds clarity by surviving emotional intensity spikes and crashes. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "30.4": [],
+  "30.5": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "30.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "31.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Insecure about authority, won't speak unless guaranteed status. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "31.2": [],
+  "31.3": [],
+  "31.4": [],
+  "31.5": [],
+  "31.6": [],
+  "32.1": [
+    {
+      "star_system": "Draco",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    }
+  ],
+  "32.2": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    }
+  ],
+  "32.3": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "32.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards long-term stability for the group: 'will this still feed us later?' (weak thematic resonance with draco)"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Focuses on feeding/nurturing to maintain bonds - core Pleiadian caretaking"
+    }
+  ],
+  "32.5": [
+    {
+      "star_system": "Draco",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    }
+  ],
+  "32.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'I carry what must not be lost.' (weak thematic resonance with orion-light)"
+    }
+  ],
+  "33.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "33.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Knows when to step away and recover without making drama. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "33.3": [],
+  "33.4": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "33.5": [],
+  "33.6": [],
+  "34.1": [
+    {
+      "star_system": "Draco",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    }
+  ],
+  "34.2": [],
+  "34.3": [],
+  "34.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    }
+  ],
+  "34.5": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others expect you to ‘handle it right now’ with sheer force. (weak thematic resonance with orion-dark)"
+    }
+  ],
+  "34.6": [],
+  "35.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "35.2": [],
+  "35.3": [],
+  "35.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "35.5": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others expect you to break the rut and bring something exciting. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "35.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'I've tasted life; here's what it actually costs and gives.' (weak thematic resonance with arcturus)"
+    }
+  ],
+  "36.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Feels incoming chaos and braces for impact. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "36.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Can move inside emotional turbulence without totally losing center. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "36.3": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Learns maturity by surviving high-stress breakdowns. (weak thematic resonance with arcturus)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "36.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Stabilizes people through the worst part of emotional chaos. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Stabilizes trauma fields and restores balance - core Arcturian work"
+    }
+  ],
+  "36.5": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Gets summoned as the crisis fixer when everything melts down and is expected to take charge for everyone, then is blamed as manipulative if relief isn't instant — that's the Andromeda shadow savior/martyr pattern where you're forced to absorb the danger for the group and punished for having boundaries."
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others expect you to take charge when everything melts down. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "36.6": [],
+  "37.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    }
+  ],
+  "37.2": [],
+  "37.3": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Learns what fair partnership is by butting heads and renegotiating. (weak thematic resonance with lyra)"
+    }
+  ],
+  "37.4": [],
+  "37.5": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others assume you will stabilize the emotional home base. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Stabilizes trauma fields and restores balance - core Arcturian work"
+    }
+  ],
+  "37.6": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "38.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Needs a cause worth struggling for and collapses into aimless hopelessness if the fight seems pointless; that's Andromeda shadow burnout — when liberation feels impossible the will to resist drops instead of acting — Andromeda shadow."
+    }
+  ],
+  "38.2": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Stands ground against what feels wrong without needing applause and refuses to 'just go along,' which is direct refusal to submit to coercion and defense of personal sovereignty — Andromeda core."
+    }
+  ],
+  "38.3": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Figures out what is worth defending by entering real confrontations and testing the line, risking backlash to locate the injustice that must be resisted; that's prototyping resistance in live conditions — Andromeda core."
+    }
+  ],
+  "38.4": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Rallies others around 'we don't let this happen to our people,' actively organizing collective defense of the vulnerable against harm; that's textbook Andromeda core liberation / protection of the oppressed — Andromeda core."
+    }
+  ],
+  "38.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Gets cast as the public champion who's expected to confront injustice and take the hit, then is labeled 'aggressive' or 'the problem' for doing it; that's the Andromeda shadow martyr/savior projection — Andromeda shadow."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Blamed as aggressive, toxic, 'problem starter.' (weak thematic resonance with lyra)"
+    }
+  ],
+  "38.6": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Lives as 'I exist to stand against what's wrong' and can turn that stance into a suffering-as-identity posture where pain becomes the brand; that's Andromeda shadow — resistance internalized as personal crucifixion instead of shared liberation — Andromeda shadow."
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Detached martyr identity; suffering becomes the brand. (weak thematic resonance with lyra)"
+    }
+  ],
+  "39.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Probes for where the real emotional blockage is. (weak thematic resonance with arcturus)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Fears rejection if others shut down instead of responding. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "39.2": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Can poke someone emotionally in a way that opens closeness. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "39.3": [],
+  "39.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.8,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Shakes the group out of emotional dead zones so connection can come back. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "39.5": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others assume you can spark passion where it's gone flat. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "39.6": [],
+  "40.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Resentful martyr, exhausted but can't admit it. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Focuses on feeding/nurturing to maintain bonds - core Pleiadian caretaking"
+    }
+  ],
+  "40.2": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    }
+  ],
+  "40.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Hot/cold availability, seen as unreliable partner. (weak thematic resonance with lyra)"
+    }
+  ],
+  "40.4": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Insists on clear agreements: support must be mutual and respected. (weak thematic resonance with lyra)"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Insists on clear agreements: support must be mutual and respected. (weak thematic resonance with orion-dark)"
+    }
+  ],
+  "40.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Gets cast as the emergency provider who's supposed to 'save the day' when everyone else bails, then is attacked as controlling if they ask for terms — that's the Andromeda shadow martyr/savior imprint where you're expected to rescue the group at personal cost — Andromeda shadow."
+    }
+  ],
+  "40.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "41.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Begins new experiences only when the container and timing feel right. (weak thematic resonance with lyra)"
+    }
+  ],
+  "41.2": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Resents pressure to start on command; withdraws the spark. (weak thematic resonance with lyra)"
+    }
+  ],
+  "41.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Learns correct initiation by surviving a few awkward launches. (weak thematic resonance with lyra)"
+    }
+  ],
+  "41.4": [],
+  "41.5": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others expect you to launch the next cycle for everyone. (weak thematic resonance with lyra)"
+    }
+  ],
+  "41.6": [],
+  "42.1": [],
+  "42.2": [],
+  "42.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Discovers sustainable closure through messy attempts. (weak thematic resonance with lyra)"
+    }
+  ],
+  "42.4": [],
+  "42.5": [],
+  "42.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Focuses on feeding/nurturing to maintain bonds - core Pleiadian caretaking"
+    }
+  ],
+  "43.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    }
+  ],
+  "43.2": [],
+  "43.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Finds the right framing by surviving awkward first drafts. (weak thematic resonance with lyra)"
+    }
+  ],
+  "43.4": [],
+  "43.5": [],
+  "43.6": [],
+  "44.1": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    }
+  ],
+  "44.2": [],
+  "44.3": [],
+  "44.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    }
+  ],
+  "44.5": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    }
+  ],
+  "44.6": [],
+  "45.1": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Tribal survival through dominance and loyalty enforcement - Draco pattern"
+    }
+  ],
+  "45.2": [],
+  "45.3": [],
+  "45.4": [],
+  "45.5": [],
+  "45.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Maintains dominance hierarchy for group survival - core Draco structure"
+    },
+    {
+      "star_system": "Sirius",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies that leadership serves people before hierarchy. (weak thematic resonance with sirius)"
+    }
+  ],
+  "46.1": [],
+  "46.2": [],
+  "46.3": [],
+  "46.4": [],
+  "46.5": [],
+  "46.6": [
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritual superiority about ‘right place’ purity. (weak thematic resonance with orion-dark)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritual superiority about ‘right place’ purity. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "47.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "47.2": [],
+  "47.3": [],
+  "47.4": [],
+  "47.5": [],
+  "47.6": [],
+  "48.1": [],
+  "48.2": [],
+  "48.3": [],
+  "48.4": [],
+  "48.5": [],
+  "48.6": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "49.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.95,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Needs a clear standard of loyalty and respect before opening the door. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "49.2": [
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.35,
+      "alignment_type": "light",
+      "why": "Actively defends loved ones by enforcing 'you don't get to treat us like that.' That's boundarying against disrespect and emotional violation, which echoes Andromeda's protection of the oppressed and insistence on dignified terms."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Defends loved ones by enforcing emotional terms of the bond. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "49.3": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "49.4": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "light",
+      "why": "Openly declares 'this treatment is no longer acceptable here' and pushes to end it for everyone. That's calling out abuse and demanding new terms for the group, which is core Andromeda liberation energy."
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pushes 'this treatment is no longer acceptable here' for the group. (weak thematic resonance with orion-dark)"
+    }
+  ],
+  "49.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.8,
+      "alignment_type": "light",
+      "why": "Gets cast as the one who should lead the break from abusive dynamics and purge corruption. That is literally 'end the exploitation and free us,' which is central Andromeda work. The blame and traitor projection is the classic risk for visible liberators."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others expect you to lead the break from abusive dynamics. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "49.6": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "light",
+      "why": "Embodies 'love has requirements that protect life' and holds emotional sovereignty as non-negotiable. That's long-arc Andromeda frequency: boundaries that prevent further violation of the heart and body."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'love has requirements, and those requirements protect life.' (weak thematic resonance with arcturus)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "50.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Maintains emotional safety and bonding - Pleiadian caretaking pattern"
+    }
+  ],
+  "50.2": [],
+  "50.3": [],
+  "50.4": [],
+  "50.5": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+    }
+  ],
+  "50.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Warrior path with honor and discipline - core Orion-Light code"
+    }
+  ],
+  "51.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "51.2": [],
+  "51.3": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    }
+  ],
+  "51.4": [],
+  "51.5": [],
+  "51.6": [
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Detached superiority: 'only the forged are worthy.' (weak thematic resonance with orion-dark)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'impact breaks ego and reveals the real you.' (weak thematic resonance with orion-light)"
+    }
+  ],
+  "52.1": [],
+  "52.2": [],
+  "52.3": [],
+  "52.4": [],
+  "52.5": [],
+  "52.6": [],
+  "53.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Wants to begin something real and test its viability. (weak thematic resonance with lyra)"
+    }
+  ],
+  "53.2": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Can energize new beginnings without overexplaining. (weak thematic resonance with lyra)"
+    }
+  ],
+  "53.3": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Discovers sustainable beginnings by failing some early starts. (weak thematic resonance with lyra)"
+    }
+  ],
+  "53.4": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Brings the tribe into ‘we're doing this now.’ (weak thematic resonance with lyra)"
+    }
+  ],
+  "53.5": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others lean on you to generate momentum for the mission. (weak thematic resonance with lyra)"
+    }
+  ],
+  "53.6": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Embodies 'start what actually deserves a life, not every impulse.' (weak thematic resonance with lyra)"
+    }
+  ],
+  "54.1": [],
+  "54.2": [],
+  "54.3": [],
+  "54.4": [],
+  "54.5": [],
+  "54.6": [],
+  "55.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "light",
+      "why": "Feels the raw need for emotional freedom and honest feeling. That's 'I refuse emotional captivity,' which sits in Andromeda's liberation and sovereignty theme."
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Feels the raw need for emotional freedom and honest feeling. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "55.2": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.45,
+      "alignment_type": "light",
+      "why": "Radiates permission to feel huge and unedited, pushing back on emotional suppression. That's emotional sovereignty and de-shaming of aliveness, aligned with Andromeda freedom frequency."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Radiates permission to feel huge, alive, unedited. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "55.3": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.4,
+      "alignment_type": "light",
+      "why": "Learns emotional sovereignty through messy highs and lows instead of submitting to emotional control. That's personal liberation from emotional captivity, consistent with Andromeda."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Learns emotional sovereignty through messy highs/lows. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "55.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.5,
+      "alignment_type": "light",
+      "why": "Re-ignites collective aliveness - 'let's FEEL again' - when the field has gone numb. That's waking people out of emotional shutdown and returning them to self, echoing Andromeda's refusal to tolerate deadened compliance."
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Lights the group's emotional fire, restores aliveness. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "55.5": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.6,
+      "alignment_type": "light",
+      "why": "Gets cast as the emotional liberator who's supposed to flip despair into hope for everyone. That's 'free us from hopelessness and collapse,' a classic Andromeda projection."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others assume you can flip despair into hope for the room. (weak thematic resonance with arcturus)"
+    }
+  ],
+  "55.6": [
+    {
+      "star_system": "Andromeda",
+      "weight": 0.65,
+      "alignment_type": "light",
+      "why": "Lives as sovereign emotional freedom and mystical ecstatic presence - 'my inner state is mine.' That's long-arc Andromeda: embodied proof that the spirit cannot be owned."
+    },
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    {
+      "star_system": "Arcturus",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frequency healing and energetic calibration - Arcturian pattern"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritualized mood elitism: 'my depth > your numbness.' (weak thematic resonance with orion-dark)"
+    }
+  ],
+  "56.1": [],
+  "56.2": [],
+  "56.3": [],
+  "56.4": [],
+  "56.5": [],
+  "56.6": [],
+  "57.1": [
+    {
+      "star_system": "Draco",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    }
+  ],
+  "57.2": [],
+  "57.3": [],
+  "57.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    }
+  ],
+  "57.5": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    }
+  ],
+  "57.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    }
+  ],
+  "58.1": [],
+  "58.2": [],
+  "58.3": [],
+  "58.4": [],
+  "58.5": [],
+  "58.6": [],
+  "59.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    }
+  ],
+  "59.2": [],
+  "59.3": [],
+  "59.4": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Lyra",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Creates alliances, bloodlines, loyalty ties through intimacy. (weak thematic resonance with lyra)"
+    }
+  ],
+  "59.5": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others assume you can reopen closed hearts and bodies. (weak thematic resonance with lyra)"
+    }
+  ],
+  "59.6": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritualizes boundary collapse; superiority about 'true intimacy.' (weak thematic resonance with orion-dark)"
+    }
+  ],
+  "60.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Andromeda",
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Understands 'these are the limits right now' but can collapse into hopelessness when the constraint feels permanent. That resignation to the cage - 'there's no way out' - mirrors Andromeda's shadow of internalized captivity instead of reclaiming sovereignty."
+    }
+  ],
+  "60.2": [],
+  "60.3": [],
+  "60.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+    }
+  ],
+  "60.5": [],
+  "60.6": [],
+  "61.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    }
+  ],
+  "61.2": [],
+  "61.3": [],
+  "61.4": [
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Uses 'mystery' to sound above everyone. (weak thematic resonance with orion-dark)"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Uses 'mystery' to sound above everyone. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "61.5": [],
+  "61.6": [],
+  "62.1": [],
+  "62.2": [],
+  "62.3": [],
+  "62.4": [],
+  "62.5": [],
+  "62.6": [],
+  "63.1": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Paranoid skepticism toward everything and everyone. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "63.2": [],
+  "63.3": [],
+  "63.4": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    {
+      "star_system": "Orion Dark",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+    }
+  ],
+  "63.5": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Blamed if the plan fails anyway. (weak thematic resonance with orion-light)"
+    }
+  ],
+  "63.6": [
+    {
+      "star_system": "Draco",
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'healthy doubt protects us from collapse.' (weak thematic resonance with draco)"
+    }
+  ],
+  "64.1": [],
+  "64.2": [],
+  "64.3": [
+    {
+      "star_system": "Pleiades",
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    }
+  ],
+  "64.4": [],
+  "64.5": [],
+  "64.6": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "circuit.logic",
+  "family": "Collective",
+  "name": "Logic / Understanding",
+  "purpose": "Correct patterns for the common good; testable improvement.",
+  "channels": [
+    "ch.4-63",
+    "ch.5-15",
+    "ch.7-31",
+    "ch.9-52",
+    "ch.16-48",
+    "ch.17-62",
+    "ch.18-58"
+  ]
+}

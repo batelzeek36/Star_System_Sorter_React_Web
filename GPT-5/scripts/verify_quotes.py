@@ -9,8 +9,6 @@ This script validates:
 - Legge same-line requirement for weights >0.50
 - Line Companion line-agnostic matching within gate
 
-See: GPT-5/docs/QUOTE_VALIDATION_RULES.md for canonical rules and error formats.
-
 Usage:
     python verify_quotes.py GATE_NUMBER
     python verify_quotes.py 01

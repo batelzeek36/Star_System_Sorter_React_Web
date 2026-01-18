@@ -1,0 +1,83 @@
+{
+  "id": "center.head",
+  "name": "Head",
+  "awareness": "pressure (questions / inspiration); not an awareness center itself",
+  "biological_themes": [
+    "Pineal / crown correspondence (inspirational input, ‘light’ into the system)",
+    "Upper endocrine relay to Ajna (pressure → conceptualization)",
+    "Sensory/imaginative spark sources (images, hunches, questions)",
+    "Subtle-body crown / sahasrara mapping (impersonal inspiration)"
+  ],
+  "fears": [
+    {
+      "id": "head.fear.of.unanswered.questions",
+      "label": "Fear of unanswered questions",
+      "description": "Mental restlessness that insists every question must be resolved.",
+      "primary_gates": ["gate.63", "gate.64"]
+    },
+    {
+      "id": "head.fear.of.meaninglessness",
+      "label": "Fear of meaninglessness / mystery",
+      "description": "Tension around what can’t be proved or known but keeps pressuring awareness.",
+      "primary_gates": ["gate.61"]
+    },
+    {
+      "id": "head.fear.of.mental.stress",
+      "label": "Fear of chronic mental stress",
+      "description": "Worry that thinking will never stop or that there’s ‘too much to know.’",
+      "primary_gates": ["gate.63", "gate.64"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.63",
+      "name": "63 — After Completion (Doubt)",
+      "stream": "Logic inspiration stream (63 → 4 → 17 → 62)",
+      "pressure_theme": "Pressure to question logically and test what is claimed.",
+      "fear": "fear of unanswered doubt",
+      "quotes": [
+        "“The gate of doubt.”",
+        "“Mental pressure to verify the pattern.”"
+      ],
+      "notes": "This is the logical questioner. It sends doubt to the Ajna (Gate 4) to produce answers. Not-self gets stuck doubting everything, including itself.",
+      "sources": [
+        "Rave I’Ching – Hexagram 63",
+        "Jovian Archive – Head Center / logic stream"
+      ]
+    },
+    {
+      "id": "gate.64",
+      "name": "64 — Before Completion (Confusion)",
+      "stream": "Abstract inspiration stream (64 → 47 → 11 → 56)",
+      "pressure_theme": "Pressure to make sense of many images and experiences.",
+      "fear": "fear of permanent confusion",
+      "quotes": [
+        "“The gate of confusion.”",
+        "“Pressure from unfinished, abstract impressions.”"
+      ],
+      "notes": "This is the ‘big download’ gate. It floods the Ajna through Gate 47. Healthy 64 waits for the right moment; unhealthy 64 panics and overthinks.",
+      "sources": [
+        "Rave I’Ching – Hexagram 64",
+        "Jovian Archive – Abstract stream"
+      ]
+    },
+    {
+      "id": "gate.61",
+      "name": "61 — Inner Truth / Mystery",
+      "stream": "Individual inspiration stream (61 → 24 → 43 → 23)",
+      "pressure_theme": "Pressure to know the unknowable, to find inner truth.",
+      "fear": "fear of the unknowable",
+      "quotes": [
+        "“The gate of mystery.”",
+        "“Inspiration from an inner source.”"
+      ],
+      "notes": "This is the mystical pressure. It doesn’t want data; it wants revelation. Not-self 61 tries to answer mystery with mind instead of waiting.",
+      "sources": [
+        "Rave I’Ching – Hexagram 61",
+        "Jovian Archive – Individual circuit"
+      ]
+    }
+  ],
+  "notes": "The Head is the *only* pressure center above the Throat. It doesn’t decide, act, or even truly ‘know’ — it *presses* the Ajna to think. Three inspiration streams start here:\n1) **Logic**: 63 → 4 → 17 → 62 (pressure to doubt → answer → opinion → detail)\n2) **Abstract**: 64 → 47 → 11 → 56 (pressure to resolve impressions → realization → ideas → storytelling)\n3) **Individual**: 61 → 24 → 43 → 23 (pressure to know → rationalize → insight → express)\n\nKey Jovian-style lines (< 25 words):\n- “This center only provides mental pressure.”\n- “You are *not* here to answer everybody’s questions.”\n- “Inspiration is inconsistent and impersonal.”\n\nNot-self Head: chasing *other people’s* questions, researching things that have nothing to do with your Strategy & Authority, feeling guilty for not ‘figuring it all out.’ Correct use: notice inspiration, let it pass through, and only engage the questions your Authority says yes to.",
+  "last_updated": "2025-11-01"
+}

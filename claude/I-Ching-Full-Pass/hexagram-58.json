@@ -1,0 +1,56 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 58,
+  "hexagram_name_legge": "Tui",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Tui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.",
+  "image_text": "LVI 11 . 1. Tui has the meaning of pleased satisfaction.\n\n2. (We have) the strong (lines) in the centre, and the weak (lines) on the outer edge (of the two trigrams), (indicating that) in pleasure what is most advantageous is the maintenance of firm correctness. Through this there will be found an accordance with (the will of) heaven, and a correspondence with (the feelings of) men. When (such) pleasure goes before the people, (and leads them on), they forget their toils; when it animates them in encountering difficulties, they forget (the risk of) death. How great is (the power of) this pleased satisfaction, stimulating in such a way the people!",
+  "addendum": {
+    "type": "commentary",
+    "text": "LVIII. The trigram Tui symbolises water as collected in a marsh or lake; and its attribute or virtus is pleasure or complacent satisfaction. It is a matter of some difficulty to determine in one's mind how this attribute came to be connected with the trigram. The Khang-hsi editors say—'When the airs of spring begin to blow, from the collections of water on the earth the moistening vapours rise up (and descend again); so, when the breath of health is vigorous in a man's person, the hue of it is displayed in his complexion. Akin to this is the significance of the hexagram Tui representing a marsh, as denoting pleasure. Although the yin lines give it its special character they owe their power and effect to the yang; so when the qualities of mildness and harmony prevail in a man, without true-heartedness and integrity to control and direct them, they will fail to be correct, and may degenerate into what is evil. Hence it is said that it will be advantageous to be firm and correct!'\n\nThe feeling then of pleasure is the subject of this hexagram. The above quotation sufficiently explains the concluding characters of the Thwan; but where is the intimation in Tui of progress and attainments? It is supposed to be in the one weak line surmounting each trigram and supported by the two strong lines. Fancy sees in that mildness and benignity energised by a double portion of strength.\n\nLine 1, strong in the place of strength, with no proper correlate above, is thus confined to itself. But its subject is sufficient for himself, and, though he has no place in the world of affairs, he can enjoy himself with the internal consciousness of being what he ought to be.\n\nLine 2, though strong, is in the place of a weak line. This is supposed to temper the strength of its subject; and in his supremacy of satisfaction he forgets himself. No one will mind him.\n\nIt is only a weak line that will be proper in 3. The subject of it, occupied only with the thought of pleasure, and careless of what is right, will not escape the evil consequences of error.\n\nLine 4 is strong, but in the place of a weak line. Hence its subject will be in perplexity. Away from pleasure and towards what is right, how can he be happy?\n\nLine 5 is strong, and in its correct place. It might be expected to be happy; but its correlate is the weak 2, with its subject too much given to pleasure to help the ruler in his difficulties. Hence the line is said to be 'in danger.'\n\nThe limit of pleasure has been reached by the subject of 6; and he is in danger of losing himself. This would be evil, and only leading and attracting others to pleasure can prevent this danger being realised."
+  },
+  "full_text": "LV III. The Tui Hexagram.\n\nTui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.\n\n1. The first line, undivided, shows the pleasure of (inward) harmony. There will be good fortune.\n\n2. The second line, undivided, shows the pleasure arising from (inward) sincerity. There will be good fortune. Occasion for repentance will disappear.\n\n3. The third line, divided, shows its subject bringing round himself whatever can give pleasure. There will be evil.\n\n4. The fourth line, undivided, shows its subject deliberating about what to seek his pleasure in, and not at rest. He borders on what would be injurious, but there will be cause for joy.\n\n5. The fifth line, undivided, shows its subject trusting in one who would injure him. The situation is perilous.\n\n6. The topmost line, divided, shows the pleasure of its subject in leading and attracting others.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows the pleasure of (inward) harmony. There will be good fortune."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows the pleasure arising from (inward) sincerity. There will be good fortune. Occasion for repentance will disappear."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject bringing round himself whatever can give pleasure. There will be evil."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject deliberating about what to seek his pleasure in, and not at rest. He borders on what would be injurious, but there will be cause for joy."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject trusting in one who would injure him. The situation is perilous."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows the pleasure of its subject in leading and attracting others."
+    }
+  ],
+  "notes": [
+    "Tui (䷹) is the hexagram of pleasure, satisfaction, and joy",
+    "The trigram Tui represents a marsh or lake, symbolizing collected water",
+    "The hexagram emphasizes that true pleasure must be grounded in firm correctness and integrity",
+    "Legge's translation includes extensive commentary from the Khang-hsi editors explaining the symbolism"
+  ]
+}

@@ -1,0 +1,132 @@
+# ANDROMEDA BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research ANDROMEDAN characteristics in mythology and channeling. Note: Ancient support expected to be LOW (symbolic only).
+
+## HYPOTHESIS TO VALIDATE
+- Sovereignty / anti-control ethos
+- Galactic explorers, nomadic
+- Non-hierarchical culture
+- Technically advanced yet tribal
+- Often anti-interventionist
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES
+
+### Ancient Mythology
+- Greek: Princess Andromeda (chained, freed by Perseus)
+- Astronomical: Andromeda Galaxy (M31)
+- Note: Greek myth is SYMBOLIC resonance only, not ET claim
+
+### Modern Contactee/Channeled Material
+- "Defending Sacred Ground" by Alex Collier (1996)
+- Lyssa Royal Holt works
+- Andromedan Council channeled material
+- Bashar (Darryl Anka) contrasts/mentions
+
+## SPECIAL NOTE: Symbolic vs Direct Evidence
+
+Greek mythology provides SYMBOLIC resonance (freedom from chains = sovereignty theme) but is NOT direct evidence of ET contact. Mark as:
+- `evidence_type: "symbolic"`
+- `ancient_support: "low"`
+
+Modern contactee material is direct but unverified:
+- `source_type: "channeled"` or `"contactee"`
+- `consensus_level: "medium"` (consistent across sources but modern-only)
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Andromeda",
+  "characteristics": [
+    {
+      "trait": "Freedom-seeking and sovereignty-focused",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "low|unknown",
+      "evidence_type": "direct|symbolic",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "edition": "EDITION",
+          "year": 1996,
+          "original_year": 1996,
+          "page": "SPECIFIC LOCATION",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "channeled|contactee|ancient"
+        }
+      ]
+    }
+  ],
+  "symbolic_resonance": "Greek myth of Andromeda freed from chains parallels sovereignty themes",
+  "research_notes": "Predominantly modern contactee material; Greek myth is symbolic only"
+}
+```
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include:
+1. **Full title**, **Author name(s)**, **Translator/Editor** (if applicable)
+2. **Edition information**, **Publication year**
+3. **Specific location** (page numbers, chapter, section)
+4. **Direct quote** (≤25 words, actual text - NOT PLACEHOLDER)
+5. **URL** (if available), **Source type**
+
+⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Greek mythology marked as symbolic (not direct evidence)
+✅ Ancient support noted as LOW
+✅ Contactee sources labeled appropriately
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information and URLs included
+
+**If unverifiable claims exist**, note in `research_notes`:
+> "Note: No credible evidence found for [claim], despite prevalence in discourse."
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), symbolic vs direct evidence distinguished.**

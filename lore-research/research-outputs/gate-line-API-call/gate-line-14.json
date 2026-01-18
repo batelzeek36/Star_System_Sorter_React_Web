@@ -1,0 +1,84 @@
+{
+  "gate": 14,
+  "gate_name": "",
+  "lines": {
+    "14.1": {
+      "line": 1,
+      "hd_title": "Money isn't everything",
+      "hd_quote": "The recognition that wealth has its own problems.",
+      "keywords": [
+        "values-first resource use",
+        "principled funding",
+        "currency ≠ purpose"
+      ],
+      "behavioral_axis": "Anchors prosperity to higher principles before committing fuel.",
+      "shadow_axis": "Throws energy/money at problems without discernment.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "14.2": {
+      "line": 2,
+      "hd_title": "Management",
+      "hd_quote": "The wisdom that investing in expertise brings rewards.",
+      "keywords": [
+        "delegate to experts",
+        "resource stewardship",
+        "projection management"
+      ],
+      "behavioral_axis": "Shares power; invests in competent drivers.",
+      "shadow_axis": "Insists on doing everything alone; resists delegation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "14.3": {
+      "line": 3,
+      "hd_title": "Service",
+      "hd_quote": "The utilization of talent and wealth for the highest good.",
+      "keywords": [
+        "trial-and-error service",
+        "channel fuel outward",
+        "experiment with drivers"
+      ],
+      "behavioral_axis": "Learns where to place energy by serving and iterating.",
+      "shadow_axis": "Hoarding fuel; misplacing resources through naive zeal.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "14.4": {
+      "line": 4,
+      "hd_title": "Security",
+      "hd_quote": "The concentration on establishing a strong foundation.",
+      "keywords": [
+        "fix the flow",
+        "focus resources",
+        "foundation building"
+      ],
+      "behavioral_axis": "Fixes power on one path to build durable security.",
+      "shadow_axis": "Overconfident rigidity; easy to exploit blind spots.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "14.5": {
+      "line": 5,
+      "hd_title": "Arrogance",
+      "hd_quote": "The ever present risk inherent in positions of power.",
+      "keywords": [
+        "public projection",
+        "visible authority",
+        "reputation risk"
+      ],
+      "behavioral_axis": "Holds dignity under projection; minds optics and ethics.",
+      "shadow_axis": "Superior stance; devalues others’ contributions.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "14.6": {
+      "line": 6,
+      "hd_title": "Humility",
+      "hd_quote": "Wealth and power at its most exalted.",
+      "keywords": [
+        "humble patronage",
+        "big-picture stewardship",
+        "fortune with responsibility"
+      ],
+      "behavioral_axis": "Acknowledges power as given; waits for the right driver.",
+      "shadow_axis": "Non-commitment; aloof detachment from practical needs.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

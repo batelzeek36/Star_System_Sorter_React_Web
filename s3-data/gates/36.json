@@ -1,0 +1,206 @@
+{
+  "id": "gate.36",
+  "hexagram": "hx36",
+  "center": "Solar Plexus",
+  "circuit": "Collective / Sensing (Abstract)",
+  "programming_partner": "gate.6",
+  "polarity": {
+    "opposite_on_wheel": "gate.6"
+  },
+  "themes": [
+    "crisis as a natural emotional cycle",
+    "moving from inexperience to experience",
+    "emotional turbulence → compassion",
+    "desire for new experiences (35–36 Channel)",
+    "testing light in dark conditions"
+  ],
+  "fear": "fear of inadequacy (emotional / sexual)",
+  "lines": [
+    {
+      "id": "36.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Resistance",
+        "hd_quote": "The energy and determination to persevere in the face of opposition."
+      },
+      "interpretation": {
+        "keywords": [
+          "raw emotional stamina",
+          "holds through decline",
+          "first-contact turbulence"
+        ],
+        "behavioral_axis": "Meets crisis head-on and stays in the wave until it shifts.",
+        "shadow_axis": "Rigid resistance that creates more drama than needed."
+      },
+      "relationship_needs": {
+        "needs_respect_for_emotional_process": true,
+        "prefers_direct_support": true,
+        "rejects_forced_change": true
+      },
+      "group_role": "frontline crisis holder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "36.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Support",
+        "hd_quote": "Assistance to others in times of decline."
+      },
+      "interpretation": {
+        "keywords": [
+          "compassion in crisis",
+          "applied imagination",
+          "quiet help"
+        ],
+        "behavioral_axis": "Uses feeling-awareness to help others ride their wave.",
+        "shadow_axis": "Selective help; rescues only when convenient."
+      },
+      "relationship_needs": {
+        "needs_to_feel_useful": true,
+        "needs_clear_requests": true,
+        "rejects_entitlement": true
+      },
+      "group_role": "emotional medic / crisis aide",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "36.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Transition",
+        "hd_quote": "The point at which decline has exhausted its power."
+      },
+      "interpretation": {
+        "keywords": [
+          "cycle turning",
+          "phoenix moment",
+          "emotional reformer"
+        ],
+        "behavioral_axis": "Rebuilds a new order after the crisis wave breaks.",
+        "shadow_axis": "Carries over old patterns into the new cycle."
+      },
+      "relationship_needs": {
+        "needs_room_to_reset": true,
+        "partners_handle_wave_ends": true,
+        "rejects_fixing_during_crisis": true
+      },
+      "group_role": "transition leader / reset ops",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "36.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Espionage",
+        "hd_quote": "The ability to prepare for and anticipate decline through the accumulation of secret or privileged information."
+      },
+      "interpretation": {
+        "keywords": [
+          "intel gathering",
+          "covert emotional awareness",
+          "preparing for downturns"
+        ],
+        "behavioral_axis": "Uses insight and intel to soften or divert crisis.",
+        "shadow_axis": "Information hoarding; double-agent vibes under stress."
+      },
+      "relationship_needs": {
+        "needs_trust_and_confidentiality": true,
+        "prefers_informed_decisions": true,
+        "rejects_exposure": true
+      },
+      "group_role": "crisis scout / intel broker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "36.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Underground",
+        "hd_quote": "Perfected survival regardless of conditions."
+      },
+      "interpretation": {
+        "keywords": [
+          "immunity to crisis",
+          "operates under radar",
+          "endurance"
+        ],
+        "behavioral_axis": "Can generate or survive crisis without losing center.",
+        "shadow_axis": "Nervousness → self-betrayal in high-stakes moments."
+      },
+      "relationship_needs": {
+        "needs_loyal_allies": true,
+        "prefers_low_visibility": true,
+        "rejects_panicking_partners": true
+      },
+      "group_role": "deep-ops survivor / crisis generator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "36.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Justice",
+        "hd_quote": "The inevitable survival of right."
+      },
+      "interpretation": {
+        "keywords": [
+          "long-view compassion",
+          "darkness self-annihilates",
+          "emotional jurisprudence"
+        ],
+        "behavioral_axis": "Knows real crisis purifies what’s correct.",
+        "shadow_axis": "Cynicism from seeing endless cycles of crisis."
+      },
+      "relationship_needs": {
+        "needs_long_term_context": true,
+        "prefers_mature_emotional_fields": true,
+        "rejects_short_term_drama": true
+      },
+      "group_role": "emotional judge / cycle closer",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Rave I’Ching / Line Companion material as syndicated via IHDS Daily View (gates 36.1–36.6, 2017–2022 captures). Interpretations are original behavioral mappings for S³."
+  }
+}

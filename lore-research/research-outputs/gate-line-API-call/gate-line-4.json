@@ -1,0 +1,84 @@
+{
+  "gate": 4,
+  "gate_name": "",
+  "lines": {
+    "4.1": {
+      "line": 1,
+      "hd_title": "Pleasure",
+      "hd_quote": "Ultimate pleasure cannot be achieved without perfect timing.",
+      "keywords": [
+        "answer timing",
+        "introspective logic",
+        "foundation of solutions"
+      ],
+      "behavioral_axis": "Knows answers land when timing is correct; waits for readiness.",
+      "shadow_axis": "Forces answers prematurely; creates backlash or misunderstanding.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "4.2": {
+      "line": 2,
+      "hd_title": "Acceptance",
+      "hd_quote": "The recognition of limitation in oneself and others leads to tolerance and the suspension of judgment.",
+      "keywords": [
+        "projection line",
+        "humility",
+        "tolerance"
+      ],
+      "behavioral_axis": "Accepts limits; reduces judgment; lets answers meet people where they are.",
+      "shadow_axis": "Projects certainty; dismisses others’ capacity; mistimes delivery.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "4.3": {
+      "line": 3,
+      "hd_title": "Irresponsibility",
+      "hd_quote": "The potential to enjoy the formulas with no regard to their practical application.",
+      "keywords": [
+        "trial-and-error thinking",
+        "collecting answers",
+        "application gap"
+      ],
+      "behavioral_axis": "Generates/collects answers; tests later through real life.",
+      "shadow_axis": "Hoarding theories; avoiding implementation; rationalizing delays.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "4.4": {
+      "line": 4,
+      "hd_title": "The Liar",
+      "hd_quote": "Role playing as an art form.",
+      "keywords": [
+        "persona management",
+        "network-facing expertise",
+        "fake-it-then-learn"
+      ],
+      "behavioral_axis": "Says yes publicly, then learns fast to fulfill the role.",
+      "shadow_axis": "Confuses fantasy with fact; gets exposed by time.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "4.5": {
+      "line": 5,
+      "hd_title": "Seduction",
+      "hd_quote": "This fifth line is called Seduction.",
+      "keywords": [
+        "universalizer",
+        "resource magnet",
+        "funding logic"
+      ],
+      "behavioral_axis": "Attracts energy/resources to test and prove answers.",
+      "shadow_axis": "Oversells unproven solutions; others take the credit or backlash.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "4.6": {
+      "line": 6,
+      "hd_title": "Excess",
+      "hd_quote": "They are not interested in answers.",
+      "keywords": [
+        "roof view",
+        "seeking understanding",
+        "cross-circuit pull"
+      ],
+      "behavioral_axis": "Transcends answers; searches for life/idea beyond formulas.",
+      "shadow_axis": "Impatient with process; detaches from practical understanding.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

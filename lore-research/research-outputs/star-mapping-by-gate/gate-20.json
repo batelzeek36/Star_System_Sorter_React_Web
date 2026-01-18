@@ -1,0 +1,278 @@
+{
+  "20.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Early vigilance about what to say/do now is self-governance, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Sets a clean timing container—observe, pace, then act/speak in the present."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "‘Correct’ immediacy can become status policing of what’s said/done now."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "When the moment is right, the delivery has crisp, compelling presence."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Forcing pronouncements to control the room instead of waiting for clarity."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Micro-ordeal of restraint: only act/speak when the moment is true."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Attunes to audience safety so presence can land without friction."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching: personal timing hygiene, not transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-20.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "20.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses pressure to perform on command; guards sovereign timing."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Composure and pacing: stabilize the field before speaking/acting."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping who ‘gets’ to speak now under stress."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Quiet poise gives the moment a graceful shape."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Hiding behind procedure to avoid authentic immediacy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable restraint: wait until the now is clear, then move."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mood/audience attunement ensures the moment is receivable."
+    },
+    "sirius": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Beginnings of presence pedagogy—others learn by your timing.",
+      "confidence": 4,
+      "sources": ["gate-line-20.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "timing-by-example",
+      "keywords": ["pacing", "composure"]
+    }
+  },
+  "20.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Trial-and-error with immediacy is self-mastery, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Timing dysregulation: blurting or freezing under visibility."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Defensive posturing—use of ‘now’ statements to assert rank."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Expressive flair emerges when the moment truly opens."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Formulaic slogans to control the crowd instead of authentic presence."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ordeal of presence: own mistakes, refine immediacy, try again."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing timing bends presence out of truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging presence; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-20.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "20.4": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Champions sovereignty of timing in groups—no coerced urgency."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Converts immediacy into usable protocol: when/how to act in the now."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Presence success can attract access/voice gatekeeping."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Clear, charismatic delivery that carries the moment cleanly."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of canonizing ‘the way’ to be present (orthodoxy)."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentor-by-steadiness: others meet the ordeal of real-time integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational pacing makes the protocol welcome, not harsh."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Presence-as-teaching: the method of now is transmitted by example.",
+      "confidence": 4,
+      "sources": ["gate-line-20.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "presence-protocol",
+      "keywords": ["now", "protocol", "timing"]
+    }
+  },
+  "20.5": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses coercive narratives; protects sovereign pace under projection."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix the room now’ → burnout/scapegoat when nuance is needed."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura invites loyalty tests over who may speak/act now."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Iconic poise—visible signal of clean immediacy."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing ‘proper’ presence to preserve control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—choose the true moment over applause."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement distorts timing and truth of the moment."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: demonstrates ethical immediacy despite pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-20.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["immediacy", "ethics", "example"]
+    }
+  },
+  "20.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty frees others from time-pressure domination."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder pacing: durable standards for acting/speaking only when true."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy status can drift into gatekeeping of ‘real presence.’"
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Role-model elegance—presence has effortless style without vanity."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning timing into dogma/hierarchy instead of living practice."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: courage and humility to serve truth in the moment."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of presence, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Presence sage—teaches the law of the Now through embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-20.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "presence-sage",
+      "keywords": ["now", "witnessing", "role-model"]
+    }
+  }
+}

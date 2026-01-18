@@ -1,0 +1,16 @@
+{
+  "component": "DERIVATION_RULES",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "formula": [
+    "hexagram.core_meaning",
+    "hexagram.line[n].normalized_meaning",
+    "line_archetype[n].gift_shadow",
+    "center.fear_theme_if_any",
+    "circuit.purpose"
+  ],
+  "render": {
+    "behavioral_axis_template": "Applies {hexagram.core_meaning} with {line_archetype.gift} to improve {circuit.purpose}.",
+    "shadow_axis_template": "Falls into {center.fear} as {line_archetype.shadow}, e.g., {hexagram.line.meaning_shadow}."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "hx53",
+  "number": 53,
+  "unicode_hexagram": "䷴",
+  "name": "Development / Gradual Progress (漸, Jiàn)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Gradual, step-by-step progress. Like a proper marriage or geese advancing in stages, success comes through patience, timing, and steady correctness—not leaps or force.",
+    "normalized_summary": "Gradual, step-by-step progress. Like a proper marriage or geese advancing in stages, success comes through patience, timing, and steady correctness—not leaps or force."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows the wild geese gradually approaching the shore. A young officer (in similar circumstances) will be in a position of danger, and be spoken against; but there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：鴻漸於干，小子厲，有言，無咎。"
+        }
+      ],
+      "normalized_meaning": "Beginnings are exposed and precarious. Expect criticism and some danger, but keep to the right path and you’ll avoid real blame.",
+      "keywords": [
+        "early stage risk",
+        "criticism",
+        "exposure",
+        "hold correctness",
+        "no blame"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second SIX, divided, shows the geese gradually approaching the large rocks, where they eat and drink joyfully and at ease. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：鴻漸於磐，飲食衎衎，吉。"
+        }
+      ],
+      "normalized_meaning": "A stable ledge appears. Nourish, consolidate, and rest. Progress is gentle and auspicious here.",
+      "keywords": [
+        "secure footing",
+        "nourishment",
+        "consolidation",
+        "ease",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows them gradually advanced to the dry plains. (It suggests also the idea of) a husband who goes on an expedition from which he does not return, and of a wife who is pregnant, but will not nourish her child. There will be evil. (The case symbolised) might be advantageous in resisting plunderers.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：鴻漸於陸，夫征不復，婦孕不育，凶；利禦寇。"
+        }
+      ],
+      "normalized_meaning": "Overextension dries things out. Bonds strain; plans miscarry. Pull back or redirect into defense and protection.",
+      "keywords": [
+        "overreach",
+        "relationship strain",
+        "projects stall",
+        "defensive posture",
+        "misfortune risk"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows the geese gradually advanced to the trees. They may light on the flat branches. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：鴻漸於木，或得其桷，無咎。"
+        }
+      ],
+      "normalized_meaning": "A modest perch is enough. Choose the steady branch over the risky height. Safe, correct placement avoids blame.",
+      "keywords": [
+        "prudent positioning",
+        "modesty",
+        "intermediate step",
+        "no blame",
+        "stability"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows the geese gradually advanced to the high mound. (It suggests the idea of) a wife who for three years does not become pregnant; but in the end the natural issue cannot be prevented. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：鴻漸於陵，婦三歲不孕，終莫之勝，吉。"
+        }
+      ],
+      "normalized_meaning": "Long delay, then fruition. Stay true during the wait; what is natural and right ultimately prevails.",
+      "keywords": [
+        "delayed fruition",
+        "patience rewarded",
+        "inevitable outcome",
+        "good fortune",
+        "rightness prevails"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth NINE, undivided, shows the geese gradually advanced to the large heights (beyond). Their feathers can be used as ornaments. There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：鴻漸於逵，其羽可用為儀，吉。"
+        }
+      ],
+      "normalized_meaning": "Arrival with honor. The journey yields offerings and symbols of legitimacy. Share the virtue; adorn the rite.",
+      "keywords": [
+        "culmination",
+        "recognized merit",
+        "ritual value",
+        "public honor",
+        "good fortune"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.560762Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 210,
+      "leaf_end": 213,
+      "page_candidates": [
+        "390",
+        "391",
+        "5",
+        "39",
+        "392",
+        "393",
+        "I",
+        "394",
+        "395",
+        "6",
+        "44",
+        "396",
+        "397",
+        "7",
+        "48"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

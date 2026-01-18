@@ -1,0 +1,249 @@
+{
+  "17.1": {
+    "weight": 0.35,
+    "alignment_type": "core",
+    "why": "17.1 builds opinions on a clear internal framework before speaking, which is Arcturus core diagnostic discipline to create a stable mental container for others."
+  },
+  "17.2": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "17.2 sees what's logically off and can articulate it simply, which is Arcturus core clean troubleshooting of the field."
+  },
+  "17.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "17.3 keeps throwing viewpoints into the arena and flipping them to learn, which is self-experiment in logic not field stabilization or cleanup (Arcturus)."
+  },
+  "17.4": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "17.4 gives the tribe an organized way to think about the problem, which is Arcturus core group sense-making to calm confusion."
+  },
+  "17.5": {
+    "weight": 0.55,
+    "alignment_type": "shadow",
+    "why": "17.5 is expected to diagnose what's broken and propose 'the fix' and then gets called cold or controlling, which is Arcturus shadow healer-scapegoat."
+  },
+  "17.6": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "17.6 holds 'this is the most stable way to understand this long-term' and can judge everyone else's logic as childish, which is Arcturus shadow clinical superiority in mental governance."
+  },
+
+  "18.1": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "18.1 feels what’s off and wants structural integrity restored, which is Arcturus core corrective instinct to repair a sick system."
+  },
+  "18.2": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "18.2 quietly improves quality and refines what's wrong without drama, which is Arcturus core subtle calibration of the field."
+  },
+  "18.3": {
+    "weight": 0.55,
+    "alignment_type": "shadow",
+    "why": "18.3 stress-tests what's broken in real conditions and lives in constant crisis mode, which is Arcturus shadow burnout identity around nonstop triage."
+  },
+  "18.4": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "18.4 calls out dysfunction so the group can’t ignore it, which is Arcturus core protective correction to keep the system healthy."
+  },
+  "18.5": {
+    "weight": 0.60,
+    "alignment_type": "shadow",
+    "why": "18.5 gets handed rotten structures and expected to fix them, then scapegoated if the repair hurts, which is Arcturus shadow accountability mule."
+  },
+  "18.6": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "18.6 stands for 'this is healthy' over an entire timeline, which is Arcturus core long-arc standard-bearing for systemic integrity."
+  },
+
+  "19.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "19.1 scans who needs nurturing and panics if needs aren’t met; that’s attachment-care / emotional feeding (Pleiades style), not clinical field stabilization (Arcturus)."
+  },
+  "19.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "19.2 builds safe closeness by offering comfort and warmth, which is bonding nurture not structured trauma cleanup (Arcturus)."
+  },
+  "19.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "19.3 learns boundaries through messy dependency and drama-bonding, which is attachment friction not regulated field triage (Arcturus)."
+  },
+  "19.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "19.4 negotiates 'this is what we require to feel safe together' and can gatekeep belonging, which is resource/attachment mediation not nervous-system regulation for the whole field (Arcturus)."
+  },
+  "19.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "19.5 is expected to soothe hunger, fear, and loneliness for everyone and then blamed if they set limits, which is caretaker projection not clinical stabilization protocol (Arcturus)."
+  },
+  "19.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "19.6 embodies 'we take care of each other or we don't survive,' which is tribe nurture / bond architecture not trauma-field calibration (Arcturus)."
+  },
+
+  "20.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "20.1 needs to feel 'I am here now, correct in this moment,' which is self-presence validation not regulating the room’s state (Arcturus)."
+  },
+  "20.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "20.2 broadcasts clean immediacy and charisma on the spot, which is authentic self-expression not crisis containment for others (Arcturus)."
+  },
+  "20.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "20.3 improvises truth live and can blow trust with impulsive blurts, which is volatility under spotlight not field stabilization (Arcturus)."
+  },
+  "20.4": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "20.4 gives the group an instant read on 'what is happening right now,' which is Arcturus core real-time situational translation to orient and calm the room."
+  },
+  "20.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "20.5 is pushed to 'take charge now' and then blamed as reckless tyrant, which is emergency authority politics not trauma-field regulation (Arcturus)."
+  },
+  "20.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "20.6 models awake presence as a lifestyle and can act superior about it, which is identity-in-presence not clinical containment of distress (Arcturus)."
+  },
+
+  "21.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "21.1 wants clear control of resources and will grip power, which is territorial enforcement (Draco vibe) not nervous-system cleanup (Arcturus)."
+  },
+  "21.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "21.2 assumes responsibility for assets and resents being challenged, which is command of supply lines not trauma-field stabilization (Arcturus)."
+  },
+  "21.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "21.3 tests how far authority can go before trust breaks and can look domineering, which is power-boundary pushing not crisis de-escalation (Arcturus)."
+  },
+  "21.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "21.4 manages resources to secure group survival and can use access to enforce loyalty, which is survival control not nervous-system co-regulation (Arcturus)."
+  },
+  "21.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "21.5 is told 'take over and sort this' and then accused of dictatorship, which is emergency dominance energy not clinical stabilization protocol (Arcturus)."
+  },
+  "21.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "21.6 frames 'power should protect, not exploit' but from a command seat, which is stewardship/dominance ethics not field calibration (Arcturus)."
+  },
+
+  "22.1": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "22.1 feels whether the space is safe for genuine openness and withholds warmth if it isn’t, which is Arcturus core trauma-aware gatekeeping of emotional access."
+  },
+  "22.2": {
+    "weight": 0.30,
+    "alignment_type": "core",
+    "why": "22.2 draws people in and sets the emotional atmosphere, which is Arcturus core mood-field modulation to help others settle."
+  },
+  "22.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "22.3 overshares, misreads vibes, and swings chemistry for lessons, which is volatile vulnerability practice not stable container work (Arcturus)."
+  },
+  "22.4": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "22.4 actively shapes the social vibe so everyone can relax and connect, which is strong Arcturus core group nervous-system soothing."
+  },
+  "22.5": {
+    "weight": 0.60,
+    "alignment_type": "shadow",
+    "why": "22.5 is expected to soothe everyone and gets blamed as fake or seductive if outcomes get messy, which is Arcturus shadow 'make the room safe for us' projection."
+  },
+  "22.6": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "22.6 opens only when it’s actually correct and refuses to be emotionally available on demand, which is Arcturus core boundarying to prevent emotional overload."
+  },
+
+  "23.1": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "23.1 waits until the insight is crisp enough to explain simply, which is Arcturus core holding clarity until it's safe to drop into the field."
+  },
+  "23.2": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "23.2 can drop one clean sentence that unlocks a whole concept for others, which is Arcturus core decomplexifying so the group can regulate."
+  },
+  "23.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "23.3 blurts half-baked truth and rides the fallout to learn, which is destabilizing breakthrough-through-mistake not controlled stabilization (Arcturus)."
+  },
+  "23.4": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "23.4 introduces disruptive knowing in a way people can actually swallow, which is Arcturus core translating mutation without blowing people out."
+  },
+  "23.5": {
+    "weight": 0.60,
+    "alignment_type": "shadow",
+    "why": "23.5 is pressured to deliver 'the breakthrough' on command and then called arrogant or manipulative, which is Arcturus shadow genius/freak scapegoat pattern."
+  },
+  "23.6": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "23.6 becomes the voice whose clarity defines 'the new normal' and can slip into 'I get reality, you don't,' which is Arcturus shadow elevated authority over collective understanding."
+  },
+
+  "24.1": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "24.1 loops inward until the insight is stable enough to trust, which is Arcturus core internal integration before exposing it to the field."
+  },
+  "24.2": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "24.2 quietly synthesizes disruptive knowing without needing outside help, which is Arcturus core private regulation of shock so others won't get rattled."
+  },
+  "24.3": {
+    "weight": 0.40,
+    "alignment_type": "shadow",
+    "why": "24.3 cycles between clarity and noise and looks obsessive/unstable, which is Arcturus shadow rumination while trying to force resolution."
+  },
+  "24.4": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "24.4 turns a personal epiphany into something the group can actually use, which is Arcturus core practical synthesis for communal stability."
+  },
+  "24.5": {
+    "weight": 0.60,
+    "alignment_type": "shadow",
+    "why": "24.5 is asked to 'explain the unexplainable' so everyone else can feel safe and then blamed if they're still upset, which is Arcturus shadow emotional-stability mule."
+  },
+  "24.6": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "24.6 holds mature understanding of disruptive ideas without panic and can go a bit 'you wouldn’t get it,' which is Arcturus core long-term stabilizer with mild clinical distance."
+  }
+}

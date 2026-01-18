@@ -1,0 +1,84 @@
+{
+  "gate": 43,
+  "gate_name": "Breakthrough / Insight",
+  "lines": {
+    "43.1": {
+      "line": 1,
+      "hd_title": "Patience",
+      "hd_quote": "The recognition that new forms cannot be established until resistance has been eliminated.",
+      "keywords": [
+        "wait for correct audience",
+        "don’t rush the insight",
+        "hold the frequency"
+      ],
+      "behavioral_axis": "Knows the insight is real but waits until the field is ready.",
+      "shadow_axis": "Impatience to show the insight → sour taste, rejection.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "43.2": {
+      "line": 2,
+      "hd_title": "Dedication",
+      "hd_quote": "The maintenance of specialized attitudes which promote breakthrough.",
+      "keywords": [
+        "mental habits for insight",
+        "protecting the download",
+        "specialized mindset"
+      ],
+      "behavioral_axis": "Keeps a precise mental environment so insight can land.",
+      "shadow_axis": "Can get rigid or preachy about ‘right’ thinking.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "43.3": {
+      "line": 3,
+      "hd_title": "Expediency",
+      "hd_quote": "The powerful drive for regeneration that will, when breakthrough is threatened, use any means.",
+      "keywords": [
+        "will defend the insight",
+        "practical under pressure",
+        "survival of the new order"
+      ],
+      "behavioral_axis": "Fights for the insight when it’s about to be shut down.",
+      "shadow_axis": "Overreacts to criticism → abandons insight to stay accepted.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "43.4": {
+      "line": 4,
+      "hd_title": "The one-track mind",
+      "hd_quote": "A stubborn reliance on one's unique insights that demands focused mental ability to be properly conceptualized.",
+      "keywords": [
+        "laser mental focus",
+        "not easily distracted",
+        "refines the download"
+      ],
+      "behavioral_axis": "Stays with the odd idea until it can be explained.",
+      "shadow_axis": "Can ignore relationships while obsessed with the insight.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "43.5": {
+      "line": 5,
+      "hd_title": "Progression",
+      "hd_quote": "The step by step adaptation to relationships which hinder breakthrough.",
+      "keywords": [
+        "strategic disclosure",
+        "knows when to speak",
+        "social adaptation of insight"
+      ],
+      "behavioral_axis": "Times the insight for maximum group receptivity.",
+      "shadow_axis": "Over-harmonizes → insight gets diluted or never shared.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "43.6": {
+      "line": 6,
+      "hd_title": "Breakthrough",
+      "hd_quote": "Unique knowing that is both personally and collectively of value.",
+      "keywords": [
+        "mature insight",
+        "insight that reorders life",
+        "collective value"
+      ],
+      "behavioral_axis": "Carries the fully formed insight into the new order.",
+      "shadow_axis": "Smuggles personal ego patterns into the new order.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

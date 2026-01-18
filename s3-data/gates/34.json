@@ -1,0 +1,206 @@
+{
+  "id": "gate.34",
+  "hexagram": "hx34",
+  "center": "Sacral",
+  "circuit": "Individual / Integration",
+  "programming_partner": "gate.20",
+  "polarity": {
+    "opposite_on_wheel": "gate.20"
+  },
+  "themes": [
+    "pure, nonrelational power",
+    "power must serve the common good",
+    "charisma in the now (34–20)",
+    "three power outlets (20, 57, 10)",
+    "survival via display, not constant force"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "34.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The Bully",
+        "hd_quote": "Power is only great when its display or use serves the common good."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational power",
+          "display over impact",
+          "protective force"
+        ],
+        "behavioral_axis": "Shows power to deter threats; uses force only when survival or role demands it.",
+        "shadow_axis": "Intimidation as identity; power not tied to service."
+      },
+      "relationship_needs": {
+        "needs_respect_for_power": true,
+        "prefers_clear_hierarchies": true,
+        "rejects_attempts_to_dominate": true
+      },
+      "group_role": "visible protector / power demonstrator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "34.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Momentum",
+        "hd_quote": "The ability when victory is in sight not to lose perspective."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected power",
+          "don’t get drunk on winning",
+          "steady push"
+        ],
+        "behavioral_axis": "Projects confident power and stays on mission when success is close.",
+        "shadow_axis": "Power rush; emotionally carried away by winning."
+      },
+      "relationship_needs": {
+        "needs_momentum_supported": true,
+        "prefers_low-drama_allies": true,
+        "rejects_emotional_derailing": true
+      },
+      "group_role": "battle-momentum keeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "34.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Machismo",
+        "hd_quote": "The indiscriminate display of power."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error display",
+          "power as proof",
+          "role definition through force"
+        ],
+        "behavioral_axis": "Tests how much power can be shown before it breaks things.",
+        "shadow_axis": "Showboating; performs power to cover insecurity."
+      },
+      "relationship_needs": {
+        "needs_room_for_mistakes": true,
+        "partners_handle_power_spikes": true,
+        "rejects_shaming": true
+      },
+      "group_role": "edge tester / shock trooper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "34.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Triumph",
+        "hd_quote": "The freedom in absolute victory to unlimited use of power."
+      },
+      "interpretation": {
+        "keywords": [
+          "externalized power",
+          "earned authority",
+          "leave me to operate"
+        ],
+        "behavioral_axis": "After winning, wants space to wield power correctly and subtly.",
+        "shadow_axis": "Overuse once victorious; crushing interference."
+      },
+      "relationship_needs": {
+        "needs_to_be_left_alone": true,
+        "prefers_respectful_distance": true,
+        "rejects_constant_interference": true
+      },
+      "group_role": "victory operator / field clearer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "34.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Annihilation",
+        "hd_quote": "The total annihilation of resistance."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected invincibility",
+          "releasing power only when needed",
+          "deterrence"
+        ],
+        "behavioral_axis": "Power is so projected it rarely must be used; when used, it ends resistance.",
+        "shadow_axis": "Dictator paranoia; constant readiness to crush."
+      },
+      "relationship_needs": {
+        "needs_trust_in_power": true,
+        "prefers_clear_red_lines": true,
+        "rejects_nagging_challenges": true
+      },
+      "group_role": "deterrent / final enforcer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "34.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Common sense",
+        "hd_quote": "Knowing when enough is enough."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level power wisdom",
+          "restrain the force",
+          "use power sparingly"
+        ],
+        "behavioral_axis": "Recognizes that endless displays weaken power; withdraws to preserve it.",
+        "shadow_axis": "Total withdrawal; power unused even when needed."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low-drama": true,
+        "rejects_power_games": true
+      },
+      "group_role": "power governor / restraint model",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org for HEXAGRAM 34 THE POWER OF THE GREAT (lines 34.1–34.6)."
+  }
+}

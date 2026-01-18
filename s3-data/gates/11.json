@@ -1,0 +1,205 @@
+{
+  "id": "gate.11",
+  "hexagram": "hx11",
+  "center": "Ajna",
+  "circuit": "Collective / Abstract (Sensing)",
+  "programming_partner": "gate.12",
+  "polarity": {
+    "opposite_on_wheel": "gate.12"
+  },
+  "themes": [
+    "ideas and imagery",
+    "imagination that seeds stories",
+    "sharing concepts with the collective",
+    "belief systems and inspiration"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "11.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Attunement",
+        "hd_quote": "The serendipity of being in the right place at the right time."
+      },
+      "interpretation": {
+        "keywords": [
+          "right timing",
+          "inner listening",
+          "environment fit"
+        ],
+        "behavioral_axis": "Tunes ideas to place and timing before sharing.",
+        "shadow_axis": "Pushes ideas at the wrong moment; misses the window."
+      },
+      "relationship_needs": {
+        "needs_invitations_to_share": true,
+        "prefers_contextual_timing": true,
+        "rejects_rushed_output": true
+      },
+      "group_role": "ideas tuner / timing scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "11.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Rigor",
+        "hd_quote": "You are projecting ideas out without the value of introspection."
+      },
+      "interpretation": {
+        "keywords": [
+          "projection",
+          "boredom with ideas",
+          "inner rigor"
+        ],
+        "behavioral_axis": "Applies vigilance so ideas mature before exposure.",
+        "shadow_axis": "Projects half-baked concepts; chases attention."
+      },
+      "relationship_needs": {
+        "needs_space_for_reflection": true,
+        "dislikes_forced_brainstorms": true,
+        "benefits_from_editor_feedback": true
+      },
+      "group_role": "idea quality-control",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "11.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Realist",
+        "hd_quote": "Ideas are transitory."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error ideation",
+          "bonding then breaking",
+          "imagination reset"
+        ],
+        "behavioral_axis": "Learns which ideas endure by cycling through many.",
+        "shadow_axis": "Treats every idea as truth; stirs drama."
+      },
+      "relationship_needs": {
+        "needs_room_for_pivots": true,
+        "partners_handle_changes": true,
+        "rejects_ideological_fixation": true
+      },
+      "group_role": "ideation stress-tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "11.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Teacher",
+        "hd_quote": "The ability to express the essential nature of peace."
+      },
+      "interpretation": {
+        "keywords": [
+          "teaches the core concept",
+          "fixes on one idea",
+          "influences network"
+        ],
+        "behavioral_axis": "Externalizes a single clear idea that others can grasp.",
+        "shadow_axis": "Dogmatic; limits wisdom to a chosen few."
+      },
+      "relationship_needs": {
+        "needs receptive audience": true,
+        "prefers_clarity_over_volume": true,
+        "resists_forced_generalization": true
+      },
+      "group_role": "concept transmitter / instructor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "11.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Philanthropist",
+        "hd_quote": "The motiveless nurturing of the disenfranchised to ensure harmony."
+      },
+      "interpretation": {
+        "keywords": [
+          "universalizing ideas",
+          "give ideas away",
+          "protective outreach"
+        ],
+        "behavioral_axis": "Shares ideas for collective benefit without needing credit.",
+        "shadow_axis": "Withholds direct contact; gives ideas as defense."
+      },
+      "relationship_needs": {
+        "needs_clear_boundaries": true,
+        "prefers_asynchronous_contribution": true,
+        "rejects_personalization_of_ideas": true
+      },
+      "group_role": "philosophic benefactor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "11.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Adaptability",
+        "hd_quote": "The inner balance to accept transition."
+      },
+      "interpretation": {
+        "keywords": [
+          "idea cycles",
+          "form changes",
+          "big-picture timing"
+        ],
+        "behavioral_axis": "Tracks when ideas end and new ones must emerge.",
+        "shadow_axis": "Speculates for personal gain; aloof from people."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_ideological_rigidity": true
+      },
+      "group_role": "cycle-aware idea steward",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
+}

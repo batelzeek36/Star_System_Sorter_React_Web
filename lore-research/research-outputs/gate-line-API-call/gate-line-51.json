@@ -1,0 +1,84 @@
+{
+  "gate": 51,
+  "gate_name": "The Arousing / Shock",
+  "lines": {
+    "51.1": {
+      "line": 1,
+      "hd_title": "Reference",
+      "hd_quote": "The advantage of previous crisis experience.",
+      "keywords": [
+        "shock-tempered will",
+        "learns by surviving",
+        "needs recovery windows"
+      ],
+      "behavioral_axis": "Strength comes from having already been through it; experience = armor.",
+      "shadow_axis": "If rest is denied, ego stays weak and overreacts to the next shock.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "51.2": {
+      "line": 2,
+      "hd_title": "Withdrawal",
+      "hd_quote": "The recognition of the mechanics of shock that indicates when withdrawal is the only logical action.",
+      "keywords": [
+        "knows when to pull back",
+        "unlikely hero",
+        "ego self-protection"
+      ],
+      "behavioral_axis": "Reads the field and conserves will until the jump is survivable.",
+      "shadow_axis": "Shamed as ‘cowardly’ and pressured into shocks they can’t win.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "51.3": {
+      "line": 3,
+      "hd_title": "Adaptation",
+      "hd_quote": "The life-sustaining awareness that thinks on its feet and thus creates opportunities.",
+      "keywords": [
+        "improv in chaos",
+        "competitive responder",
+        "learns-by-mistakes"
+      ],
+      "behavioral_axis": "When shocked, dances with it, turns it into advantage.",
+      "shadow_axis": "In massive disorder, defaults to withdrawal and looks unreliable.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "51.4": {
+      "line": 4,
+      "hd_title": "Limitation",
+      "hd_quote": "A pure inventiveness and sometimes genius to find some opportunity even in the midst of the most devastating shocks.",
+      "keywords": [
+        "fixed competitive strategy",
+        "finds openings in crisis",
+        "shock-aware networker"
+      ],
+      "behavioral_axis": "Knows the terrain of challenge and can route through it.",
+      "shadow_axis": "If shock breaks the pattern, their fixed strategy collapses.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "51.5": {
+      "line": 5,
+      "hd_title": "Symmetry",
+      "hd_quote": "Perfected illumination that in grasping the nature of the shock can transform its normal patterns into a symmetrical adaptation.",
+      "keywords": [
+        "projected warrior",
+        "rides any shock",
+        "teaches courage"
+      ],
+      "behavioral_axis": "Others project ‘you can handle everything’; often they can.",
+      "shadow_axis": "If they indulge in victory, they lose vigilance and get hit by the next shock.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "51.6": {
+      "line": 6,
+      "hd_title": "Separation",
+      "hd_quote": "In times of crisis when all those around are confused and in disorder, the ability not to succumb to panic.",
+      "keywords": [
+        "aloof in crisis",
+        "initiatory survivor",
+        "above the drama"
+      ],
+      "behavioral_axis": "Holds will steady while everyone else scatters; survives alone if needed.",
+      "shadow_axis": "Looks unfeeling or non-competitive because they won’t join the panic.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

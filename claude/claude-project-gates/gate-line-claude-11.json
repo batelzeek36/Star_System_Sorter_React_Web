@@ -1,0 +1,97 @@
+{
+  "gate": 11,
+  "gate_name": "Peace",
+  "center": "AJNA",
+  "circuit_family": "Collective",
+  "subcircuit": "Sensing",
+  "channel": "11-56",
+  "lines": {
+    "11.1": {
+      "line": 1,
+      "hd_title": "Attunement",
+      "hd_quote": "The serendipity of being in the right place at the right time.",
+      "keywords": [
+        "serendipity",
+        "introspection",
+        "acceptance-seeking",
+        "idea-sharing",
+        "foundation"
+      ],
+      "behavioral_axis": "Seeks others who will value and share ideas, recognizing that ideas only have value when resonating with those in the right place at the right time.",
+      "shadow_axis": "Doubts whether anyone will value ideas, searching constantly for validation rather than allowing natural recognition and shared resonance.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "11.2": {
+      "line": 2,
+      "hd_title": "Rigor",
+      "hd_quote": "The recognition that without vigilance and risk, peace can lead to stagnation and collapse.",
+      "keywords": [
+        "boredom",
+        "creative-hermit",
+        "imagination",
+        "natural-artist"
+      ],
+      "behavioral_axis": "Naturally gifted with creative imagination, called out when others recognize the imaginative potential held within, working ideas internally as art.",
+      "shadow_axis": "Provokes others with ideas to escape boredom, projecting ideas outward that bore others instead of developing creative potential internally.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "11.3": {
+      "line": 3,
+      "hd_title": "The Realist",
+      "hd_quote": "Ideas are transitory.",
+      "keywords": [
+        "trial-and-error",
+        "transitory",
+        "bonds-made-broken",
+        "irresponsible-beauty"
+      ],
+      "behavioral_axis": "Experiments with ideas that come and go through trial-and-error, discovering the beauty that ideas need not be taken seriously or applied.",
+      "shadow_axis": "Becomes irresponsible with ideas, appreciating harmony to the point of delusion, believing beauty is eternal while fiddling as Rome burns.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "11.4": {
+      "line": 4,
+      "hd_title": "The Teacher",
+      "hd_quote": "Believe in me and you shall be redeemed.",
+      "keywords": [
+        "externalization",
+        "dogmatic-prophet",
+        "believer-seeking",
+        "missionary",
+        "fixed-track"
+      ],
+      "behavioral_axis": "Externalizes fixed ideas to stimulate belief in others, teaching concepts that attract the uneducated to believe first before understanding through experience.",
+      "shadow_axis": "Attracts only a fringe who can grasp narrow-minded concepts, becomes dangerously dogmatic, intentionally limiting wisdom to a few believers.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "11.5": {
+      "line": 5,
+      "hd_title": "The Philanthropist",
+      "hd_quote": "The philanthropist is about giving away your ideas.",
+      "keywords": [
+        "projection-field",
+        "humanitarian-ideas",
+        "defensive-giving",
+        "philosophical-writer"
+      ],
+      "behavioral_axis": "Holds steady under projection field, giving away humanitarian ideas that guide others through shared human experience, recognizing ideas emerge through others.",
+      "shadow_axis": "Withdraws from direct contact where giving becomes a form of defense, sending people away with ideas instead of truly sharing experience.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "11.6": {
+      "line": 6,
+      "hd_title": "Adaptability",
+      "hd_quote": "The innate awareness that all forms are transitory.",
+      "keywords": [
+        "objectivity",
+        "speculator",
+        "situational-wisdom",
+        "transition",
+        "role-model"
+      ],
+      "behavioral_axis": "Develops objectivity about which ideas have value in any situation, seeing how the whole collective process operates and timing transitions wisely.",
+      "shadow_axis": "Speculates with ideas for personal profit at expense of others, taking advantage of transitions in peace or war without concern for consequences.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

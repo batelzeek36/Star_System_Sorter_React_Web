@@ -1,0 +1,278 @@
+{
+  "24.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced conclusions; guards sovereignty over one’s own thinking."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Builds a clean cognition container—silence, pacing, and iterative review before speaking."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early correctness anxiety can drift into status/gatekeeping around ‘right ideas.’"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is mental processing, not aesthetic display."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing rigid formulas to feel safe—doctrine over discovery."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Micro-ordeal: wait for the authentic insight rather than perform a premature answer."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Attuned listening softens the field so the idea can mature."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching cognition hygiene; no transmission of law yet.",
+      "confidence": 5,
+      "sources": ["gate-line-24.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "24.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Won’t be forced into conclusions on others’ timelines—mental sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Methodical refinement—returns to the thought with better framing and evidence."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "‘Proper channels’ for thinking can become permission/rank games."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clear phrasing and cadence support reception when sharing."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Hiding behind procedure to avoid revising beliefs."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable restraint: share only when the reasoning is ready."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Relational pacing—checks audience readiness so the insight can land."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Process stewardship without formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-24.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "24.3": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses mental capture; learns to own a view after trial-and-error loops."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Timing dysregulation—obsessive rethinking or noisy blurting under pressure."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Defensive posturing and correctness policing when challenged."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Finds a cleaner, simpler articulation through iteration."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Dogma as a refuge from uncertainty—compliance over inquiry."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Initiatory grind: revise publicly when facts change; keep returning to truth."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing agreement erodes honest testing of ideas."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging rationalization; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-24.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "24.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Standardizing insight is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Turns raw ‘aha’ into reproducible model—definitions, steps, review loops."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can invite gatekeeping of who ‘gets’ to reason."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elegant rhetoric and example make the insight adoptable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol ossification—method treated as unquestionable law."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentor-by-method: others face the ordeal of aligning to evidence."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Considerate tone keeps minds open during critique and adoption."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-framework: teaches right reasoning via clear protocols.",
+      "confidence": 4,
+      "sources": ["gate-line-24.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "logic-protocol-teaching",
+      "keywords": ["model", "definitions", "review-loop"]
+    }
+  },
+  "24.5": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses propaganda capture; keeps opinion sovereign under projection."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix everyone’s thinking’ → burnout/scapegoat when nuance resists."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura invites rank tests and access policing in debates."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clear, resonant delivery sets a cultural tone for rational discourse."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing orthodoxy to preserve image/control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—stand by evidence, not applause."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement bends conclusions toward approval."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: models ethical critique despite crowd pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-24.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["critique", "ethics", "example"]
+    }
+  },
+  "24.6": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Loosens mental control in the collective—frees discourse from dogma."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder logic: maintains standards of evidence, review, and periodic return to source."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy status can drift into gatekeeping of ‘who is truly rational.’"
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Elegant, spare phrasing—illumines without theatrics."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning method into immutable canon—hierarchy over inquiry."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: hold intellectual courage and humility simultaneously."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of thought, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Insight sage—teaches the law of sound rationalization by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-24.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "insight-sage",
+      "keywords": ["evidence", "return", "review", "humility"]
+    }
+  }
+}

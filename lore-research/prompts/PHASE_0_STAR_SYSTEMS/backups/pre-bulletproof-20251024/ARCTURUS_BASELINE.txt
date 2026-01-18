@@ -1,0 +1,124 @@
+# ARCTURUS BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research ARCTURUS characteristics in esoteric literature and channeling. Note: Ancient support expected to be LOW/UNKNOWN.
+
+## HYPOTHESIS TO VALIDATE
+- Energy healers
+- Frequency-based consciousness
+- Architects of advanced tech + sacred geometry
+- Defenders of Earth's energy grids
+- Dreamtime and sleep-state engineers
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES
+
+### Modern Channeled Material
+- Edgar Cayce readings (indexed - search "Arcturus")
+- "We, the Arcturians" by Norma Milanovich (1990)
+- "The Arcturian Anthology" by Tom Kenyon (1996)
+- Bashar (Darryl Anka) mentions
+- Dolores Cannon starseed material
+
+### Ancient Sources
+- Limited to none expected
+- Check Greek mythology (Arcturus = "Bear Guard")
+- Astronomical references only (brightest in Boötes)
+
+## SPECIAL NOTE: Modern-Only Phenomenon
+
+Arcturus appears almost exclusively in modern channeled material (post-1950s). This is VALID but must be labeled:
+- `ancient_support: "low"` or `"unknown"`
+- `source_type: "channeled"` for most sources
+- Note the lack of ancient references explicitly
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Arcturus",
+  "characteristics": [
+    {
+      "trait": "Energy healers and frequency workers",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "low|unknown",
+      "evidence_type": "direct",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "edition": "EDITION",
+          "year": 1990,
+          "original_year": 1990,
+          "page": "Reading 254-87" or "Chapter 3, pp. 45-50",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "channeled"
+        }
+      ]
+    }
+  ],
+  "ancient_references": "None found" or "Limited to astronomical only",
+  "research_notes": "Predominantly modern channeled material; Cayce readings consistency"
+}
+```
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include full metadata, translator/editor if applicable, specific location, actual quotes (NOT PLACEHOLDERS), URLs, and source type.
+
+⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Edgar Cayce readings cited with reading numbers
+✅ Ancient support explicitly noted as LOW/UNKNOWN
+✅ All channeled sources labeled as such
+✅ Full citations with page/reading numbers (no placeholders)
+✅ Edition information and URLs included
+
+**If unverifiable claims exist**, note in `research_notes`.
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), ancient support gap noted.**

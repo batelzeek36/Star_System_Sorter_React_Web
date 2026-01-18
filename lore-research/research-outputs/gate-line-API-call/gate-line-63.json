@@ -1,0 +1,84 @@
+{
+  "gate": 63,
+  "gate_name": "",
+  "lines": {
+    "63.1": {
+      "line": 1,
+      "hd_title": "Composure",
+      "hd_quote": "The realization that doubt must be tempered by patience.",
+      "keywords": [
+        "patient questioning",
+        "baseline vigilance",
+        "don’t rush the logic"
+      ],
+      "behavioral_axis": "Holds the question steady so the pattern can be checked correctly.",
+      "shadow_axis": "Impatient doubt → suspicion sprayed everywhere.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "63.2": {
+      "line": 2,
+      "hd_title": "Structuring",
+      "hd_quote": "Doubt is resolved through ordered, logical structuring.",
+      "keywords": [
+        "projected problem-solver",
+        "systematize doubt",
+        "make the checklist"
+      ],
+      "behavioral_axis": "Turns vague suspicion into steps, models, and repeatable checks.",
+      "shadow_axis": "Looks organized but didn’t actually test anything.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "63.3": {
+      "line": 3,
+      "hd_title": "Continuance",
+      "hd_quote": "Sustained inquiry that continues despite uncertainty.",
+      "keywords": [
+        "trial-and-error doubt",
+        "keep checking",
+        "pressure to verify"
+      ],
+      "behavioral_axis": "Keeps questioning until a flaw or proof appears.",
+      "shadow_axis": "Endless suspicion → undermines trust in everything.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "63.4": {
+      "line": 4,
+      "hd_title": "Memory",
+      "hd_quote": "Referencing past experience to test current doubts.",
+      "keywords": [
+        "transpersonal recall",
+        "historical testing",
+        "compare to precedent"
+      ],
+      "behavioral_axis": "Uses what was proven before to evaluate today’s claim.",
+      "shadow_axis": "Over-relies on past → blocks new logic.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "63.5": {
+      "line": 5,
+      "hd_title": "Affirmation",
+      "hd_quote": "The power to confirm what the collective can trust.",
+      "keywords": [
+        "projected authority of doubt",
+        "collective reassurance",
+        "logic endorsement"
+      ],
+      "behavioral_axis": "Turns doubt into ‘yes, this passed the test.’",
+      "shadow_axis": "Affirms too soon → collective loses faith in logic.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "63.6": {
+      "line": 6,
+      "hd_title": "Nostalgia",
+      "hd_quote": "Remembering past understanding as the basis for future doubt.",
+      "keywords": [
+        "roof-level doubt",
+        "long-cycle logic",
+        "old answers spawn new questions"
+      ],
+      "behavioral_axis": "Sees the whole arc: every solved pattern births a new inquiry.",
+      "shadow_axis": "Gets stuck in old certainties; questions the present from the past.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

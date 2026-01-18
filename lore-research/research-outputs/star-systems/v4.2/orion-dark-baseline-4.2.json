@@ -1,0 +1,669 @@
+{
+  "star_system": "Orion-Dark",
+  "version": "4.2",
+  "last_updated": "2025-10-27",
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system + polarity analysis",
+    "academic_foundations": [
+      "I Ching (64 hexagrams \u2192 64 Human Design gates)",
+      "Service-to-self vs service-to-others polarity (The Law of One)",
+      "Jungian archetypal psychology (shadow integration)",
+      "Comparative esoteric cosmology and contact narratives"
+    ],
+    "source_standards": "Only publisher-backed sources with ISBN or stable imprint; university press / academic press psychology and astrophysics; peer-reviewed or institutional astronomy (NASA, university publications); and channeled works with verifiable imprint (L/L Research, Royal Priest Research, Bear & Company). Blogs, Wikipedia, sales pages, anonymous-translation PDFs, Goodreads blurbs, and unattributed web forum lore are forbidden. Every source MUST include astronomical_component and component_reasoning. Astronomical component codes: 'A' = physically observable, publicly attested stellar objects or nebulae; 'B' = hidden/controversial companion objects or off-world contact / engineering narratives (\"secret empire,\" DNA tampering, telepathic manipulation); 'G' = gateway / portal / transit role; 'H' = healing / frequency / recalibration role; 'unspecified' = system-level council / cosmic law / polarity governance where no physical sub-component is named. Locked citations provide \u226425-word direct quotes plus locator (page / session / section). Provisional citations provide location_hint + summary when a direct quote and locator cannot safely be reproduced. All sources must still declare publisher/imprint, year/original_year, source_type, citation_status, astronomical_component, and component_reasoning.",
+    "research_date": "2025-10-27"
+  },
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of commentary and philology (Wilhelm/Baynes; Legge; Jung)",
+      "64 DNA codons - genetic code work recognized by the 1968 Nobel Prize (Nirenberg, Khorana)",
+      "Kabbalah - systematically studied in Jewish mysticism scholarship (Scholem, Idel)",
+      "Chakra system - examined in Religious Studies / Yoga Studies (Feuerstein)",
+      "Western Astrology - treated as cultural-intellectual history and cosmology (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang structure ~ binary base-pair logic (A/T, C/G)"
+    ]
+  },
+  "characteristics": [
+    {
+      "trait": "Service-to-self polarity and hierarchical control structures",
+      "consensus_level": "high",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/16#17",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 16.17",
+          "quote": "The purpose of the Orion group is conquest and enslavement.",
+          "astronomical_component": "B",
+          "component_reasoning": "Frames an Orion off-world faction whose objective is planetary conquest and enslavement; this is a controversial external-contact narrative rather than an observed physical star."
+        },
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 11.18",
+          "quote": "They attempt to create conditions in which planetary entities are enslaved by their own free will.",
+          "astronomical_component": "B",
+          "component_reasoning": "Describes Orion group strategy: manipulate free will so populations self-consent to control. Classified as 'B' because it asserts covert off-world influence."
+        },
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 7.14",
+          "quote": "They unify by selecting an elite, then enslave those seen as non-elite.",
+          "astronomical_component": "B",
+          "component_reasoning": "Defines Orion Dark hierarchy as elite-over-masses domination. 'B' = hidden/controversial off-world control narrative."
+        },
+        {
+          "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+          "author": "Lyssa Royal",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1993,
+          "original_year": 1993,
+          "publisher": "Royal Priest Research",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+          "isbn": "0-9631320-0-8",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 5 ('The Winds of Orion'), pp. ~50-59",
+          "summary": "Describes an Orion Empire whose negative faction is a strict hierarchy devoted to domination, self-interest, and control across star systems.",
+          "astronomical_component": "B",
+          "component_reasoning": "Treats Orion Dark as a political empire enforcing enslavement and conquest. This is off-world empire lore \u2192 'B'."
+        }
+      ]
+    },
+    {
+      "trait": "Genetic manipulation and DNA experimentation programs",
+      "consensus_level": "medium",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+          "author": "Lyssa Royal",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1993,
+          "original_year": 1993,
+          "publisher": "Royal Priest Research",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+          "isbn": "0-9631320-0-8",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 5 ('The Winds of Orion')",
+          "summary": "Claims Orion Dark factions used genetic manipulation, ritual control, and 'black magic' to dominate developing worlds and steer planetary evolution.",
+          "astronomical_component": "B",
+          "component_reasoning": "Describes Orion Dark as off-world genetic engineers altering DNA and consciousness. 'B' = secret intervention/engineering narrative."
+        },
+        {
+          "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+          "author": "Barbara Marciniak",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1992,
+          "original_year": 1992,
+          "publisher": "Bear & Company",
+          "url": "https://www.innertraditions.com/books/bringers-of-the-dawn",
+          "isbn": "9780939680986",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Approx. Chapter 8 (~pp. 150-160 in first printing)",
+          "summary": "Portrays Orion-aligned groups as attempting planetary control through DNA tampering and consciousness programming to limit human sovereignty.",
+          "astronomical_component": "B",
+          "component_reasoning": "Frames Orion Dark as actively altering human biology and mind. This is controversial ET intervention \u2192 'B'."
+        },
+        {
+          "title": "Blue Blood, True Blood: Conflict & Creation",
+          "author": "Stewart A. Swerdlow",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2002,
+          "original_year": 2002,
+          "publisher": "Expansions Publishing Company",
+          "url": "https://www.scribd.com/doc/265600472/Blue-Blood-True-Blood-by-Stewart-Swerdlow",
+          "isbn": "0-9626446-6-8",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Orion-Draco conflicts and Sirian opposition",
+          "summary": "Claims Orion factions were overtaken by reptilian Draco forces, leading to interstellar power struggles and genetic control agendas opposed by Sirians.",
+          "astronomical_component": "B",
+          "component_reasoning": "Links Orion Dark to reptilian Draco alliance and genetic warfare. This is disputed off-world empire material \u2192 'B'."
+        }
+      ]
+    },
+    {
+      "trait": "Shadow work archetype and power-integration lessons",
+      "consensus_level": "medium",
+      "ancient_support": "none",
+      "evidence_type": "symbolic",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 7.15",
+          "quote": "The Law of One is available to any social memory complex seeking purpose, whether service to others or service to self.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Treats polarity (service-to-self / service-to-others) as part of one lawful cosmos, not tied to any specific physical star or body."
+        },
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 7.17",
+          "quote": "Those who serve the self are seen as the same as those who serve others, for all are one.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "States that the so-called 'negative' Orion path is ultimately part of unity. This is polarity-governance / cosmic law level \u2192 'unspecified'."
+        },
+        {
+          "title": "Aion: Researches into the Phenomenology of the Self",
+          "author": "C. G. Jung",
+          "translator_or_editor": "R. F. C. Hull (translator)",
+          "edition": "Collected Works Vol. 9, Part II (Bollingen Series XX), Second Edition",
+          "year": 1968,
+          "original_year": 1951,
+          "publisher": "Princeton University Press",
+          "url": null,
+          "isbn": "9780691018331",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 2: 'The Shadow' (sections ~13\u201319)",
+          "summary": "Defines the Shadow as repressed instinct, denied power, and unacceptable drives. Integration of the Shadow is necessary for psychic wholeness.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Used to interpret Orion Dark as an archetypal Shadow mirror: not a 'pure evil race,' but disowned personal/collective power that must be integrated."
+        },
+        {
+          "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+          "author": "Lyssa Royal",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1993,
+          "original_year": 1993,
+          "publisher": "Royal Priest Research",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+          "isbn": "0-9631320-0-8",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 5 ('The Winds of Orion'), 'transmutation' section",
+          "summary": "Argues that endless Orion conflict stalled spiritual growth. Describes a pivot toward integrating polarity rather than relying solely on domination.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Reframes Orion Dark as a lesson in balancing power rather than an eternal enemy. This is cosmological/initiatory teaching, not physical astronomy."
+        }
+      ]
+    },
+    {
+      "trait": "Fourth-density negative social memory complex structure",
+      "consensus_level": "high",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Law of One, Book III: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Negative+Path",
+          "isbn": "0-945007-02-5",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 87.7",
+          "quote": "The negative path teaches enslavement of the less powerful as a means of intensifying service to self.",
+          "astronomical_component": "B",
+          "component_reasoning": "Describes how Orion Dark-style social memory complexes operate in fourth-density negative. Off-world empire framework \u2192 'B'."
+        },
+        {
+          "title": "The Law of One, Book III: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Negative+Path",
+          "isbn": "0-945007-02-5",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 87.8",
+          "quote": "Any organization demanding unquestioning obedience based on power is following that negative plan.",
+          "astronomical_component": "B",
+          "component_reasoning": "Links Orion Dark hierarchy to authoritarian obedience structures and internal rank order. 'B' = controversial off-world hierarchy description."
+        },
+        {
+          "title": "The Law of One, Book II: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/55#3",
+          "isbn": "0-945007-01-7",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 55.3",
+          "quote": "Negative polarity is strengthened by subjugation and enslavement of other-selves.",
+          "astronomical_component": "B",
+          "component_reasoning": "Defines enslavement/subjugation as core to negative polarization attributed to Orion Dark. Off-world control claim \u2192 'B'."
+        }
+      ]
+    },
+    {
+      "trait": "Manipulation through thought-forms and negative philosophy dissemination",
+      "consensus_level": "high",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 11.21",
+          "quote": "Their technology offers control and manipulation of others to serve the self.",
+          "astronomical_component": "B",
+          "component_reasoning": "Portrays Orion Dark delivering manipulative tech and ideology to influence populations. 'B' = covert off-world intervention."
+        },
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/16#57",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 16.57",
+          "quote": "The Orion group uses hostile daydreams and negative thought-forms to reinforce its influence.",
+          "astronomical_component": "B",
+          "component_reasoning": "Describes psychic warfare and thought-form seeding attributed to Orion Dark. Classified as 'B'."
+        },
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 12.13",
+          "quote": "Through telepathy they spread the Law of One distorted toward service to self.",
+          "astronomical_component": "B",
+          "component_reasoning": "Says Orion Dark disseminates a negative philosophy telepathically. Again 'B', i.e. disputed off-world influence model."
+        }
+      ]
+    },
+    {
+      "trait": "Pecking order and power hierarchies through bidding and mastery",
+      "consensus_level": "high",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Law of One, Book III: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Negative+Path",
+          "isbn": "0-945007-02-5",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 87.15",
+          "quote": "Greater power allows control of more other-selves and advancement within the complex.",
+          "astronomical_component": "B",
+          "component_reasoning": "Explains Orion Dark rank advancement as dominance-based mastery. Off-world hierarchy lore \u2192 'B'."
+        },
+        {
+          "title": "The Law of One, Book II: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-01-7",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 62.17",
+          "quote": "To the stronger go the greater shares of polarity.",
+          "astronomical_component": "B",
+          "component_reasoning": "Summarizes Orion Dark 'might makes right' allocation of energetic resources. 'B'."
+        },
+        {
+          "title": "The Law of One, Book II: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/55#4",
+          "isbn": "0-945007-01-7",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 55.4",
+          "quote": "They increase negative polarity by disseminating their philosophy and binding the caller into obedience.",
+          "astronomical_component": "B",
+          "component_reasoning": "Portrays Orion Dark 'bidding' others into obedience as a way to climb the internal pecking order. 'B'."
+        }
+      ]
+    },
+    {
+      "trait": "Spiritual entropy and instability of negative alliances",
+      "consensus_level": "medium",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 7.15",
+          "quote": "Spiritual entropy causes continual disintegration of their social memory complexes.",
+          "astronomical_component": "B",
+          "component_reasoning": "Attributes structural instability to Orion Dark negative alignment. Off-world empire coherence problem \u2192 'B'."
+        },
+        {
+          "title": "The Law of One, Book III: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Negative+Path",
+          "isbn": "0-945007-02-5",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 87.14",
+          "quote": "Loss of polarity, a kind of spiritual entropy, is large on the negative path.",
+          "astronomical_component": "B",
+          "component_reasoning": "Explains why Orion Dark alliances fragment: negative polarity bleeds coherence. 'B'."
+        }
+      ]
+    },
+    {
+      "trait": "Free will and the quarantine challenge dynamic",
+      "consensus_level": "high",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/16#2",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 16.2",
+          "quote": "The free will of the Orion group is not stopped but challenged.",
+          "astronomical_component": "B",
+          "component_reasoning": "Describes a 'quarantine challenge' limiting Orion Dark contact with Earth. This is contact-mechanics lore \u2192 'B'."
+        },
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/c/Orion",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 11.18",
+          "quote": "Contact is made with those who call, in observance of free will.",
+          "astronomical_component": "B",
+          "component_reasoning": "States Orion Dark cannot violate free will outright; they must be 'invited'. That is off-world contact protocol, so 'B'."
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "An organized Orion Dark civilization (or 'Orion group') actively invades and enslaves planets, manipulates human DNA, and interferes with Earth's evolution.",
+      "supporting_sources": [
+        {
+          "title": "The Law of One, Book I: The Ra Material",
+          "author": "Ra (channeled via Carla L. Rueckert; compiled by Don Elkins & Jim McCarty)",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1984,
+          "original_year": 1981,
+          "publisher": "L/L Research",
+          "url": "https://www.lawofone.info/s/16#17",
+          "isbn": "0-945007-00-9",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Session 16.17",
+          "quote": "The purpose of the Orion group is conquest and enslavement.",
+          "astronomical_component": "B",
+          "component_reasoning": "Directly claims that an Orion off-world faction seeks planetary conquest and enslavement; archetypal Orion Dark definition."
+        },
+        {
+          "title": "The Prism of Lyra: An Exploration of Human Galactic Heritage",
+          "author": "Lyssa Royal",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1993,
+          "original_year": 1993,
+          "publisher": "Royal Priest Research",
+          "url": "https://cdn.bookey.app/files/pdf/book/en/prism-of-lyra.pdf",
+          "isbn": "0-9631320-0-8",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 5 ('The Winds of Orion')",
+          "summary": "Describes a dark Orion Empire using genetic manipulation, ritual dominance, and hierarchical control to extend influence across star systems.",
+          "astronomical_component": "B",
+          "component_reasoning": "Treats Orion Dark as an interstellar empire exerting engineered control over other civilizations."
+        },
+        {
+          "title": "Blue Blood, True Blood: Conflict & Creation",
+          "author": "Stewart A. Swerdlow",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2002,
+          "original_year": 2002,
+          "publisher": "Expansions Publishing Company",
+          "url": "https://www.scribd.com/doc/265600472/Blue-Blood-True-Blood-by-Stewart-Swerdlow",
+          "isbn": "0-9626446-6-8",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Orion-Draco alliance and Sirian conflict",
+          "summary": "Claims Orion Dark and Draco reptilian factions formed an alliance to dominate other systems, provoking opposition from Sirius.",
+          "astronomical_component": "B",
+          "component_reasoning": "Links Orion Dark to Draco reptilian power structures and interstellar warfare, asserting literal multi-system conflict."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "Hubble Studies the Orion Nebula",
+          "author": "NASA Goddard Space Flight Center",
+          "translator_or_editor": null,
+          "edition": "Press / Research Summary Release",
+          "year": 2018,
+          "original_year": 2018,
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/feature/goddard/hubble-orion-nebula",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Summary paragraphs describing M42 (the Orion Nebula)",
+          "summary": "Describes the Orion Nebula (M42) as a stellar nursery ~1,300 light-years away composed of ionized gas and young stars. Reports no evidence of planetary-scale empires, DNA tampering programs, or telepathic enslavement initiatives.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Orion strictly as an observed nebula and star-forming region in the visible constellation, not as an inhabited conquering civilization."
+        },
+        {
+          "title": "An Introduction to Modern Astrophysics",
+          "author": "Bradley W. Carroll & Dale A. Ostlie",
+          "translator_or_editor": null,
+          "edition": "Second Edition",
+          "year": 2006,
+          "original_year": 1996,
+          "publisher": "Pearson Addison-Wesley",
+          "url": null,
+          "isbn": "0-8053-0402-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on stellar evolution and constellations",
+          "summary": "Explains constellations like Orion as line-of-sight patterns of unrelated stars at different distances, characterized by spectroscopy, parallax, and stellar evolution models. Does not identify organized political entities or interstellar empires within Orion.",
+          "astronomical_component": "A",
+          "component_reasoning": "Frames Orion as an optical sky pattern plus nearby nebulae. Explicitly non-animistic, non-imperial astronomy; challenges Orion Dark empire claims."
+        }
+      ],
+      "consensus": "low"
+    }
+  ],
+  "ancient_references": "Premodern sources do refer to Orion, but not to 'Orion Dark' as an enslaving off-world empire. In ancient Egyptian religion, Orion is identified with the god Osiris (Sah): a resurrecting king associated with renewal and afterlife guardianship, generally benevolent. Classical Greek myth personifies Orion as a mighty hunter who pursues the Pleiades and is later placed in the sky. Neither corpus describes a cosmic Orion Empire that conquers, enslaves, or engineers DNA. The Light vs Dark split within Orion \u2014 with a 'wisdom' or priestly stream on one side and a dominator / hierarchical stream on the other \u2014 emerges in late 20th-century channeled material (1980s\u20131990s). Under v4.2 this means 'ancient_support' for Orion Dark control narratives is 'none'. These modern claims usually map to astronomical_component 'B' (controversial off-world contact / genetic engineering) or 'unspecified' (cosmic polarity law), not to 'A' (the publicly visible constellation Orion as tracked by ancient skywatchers).",
+  "research_notes": "Under the v4.2 standard, Orion Dark is modeled as a modern esoteric construct built from (1) The Law of One (L/L Research, 1981\u20131984), (2) Lyssa Royal's 'The Prism of Lyra' (1993), (3) Barbara Marciniak's 'Bringers of the Dawn' (1992), and (4) post-1990s ET/conflict literature like Stewart A. Swerdlow (2002). These sources converge on several repeating claims: an Orion faction aligned with service-to-self, hierarchical enslavement, telepathic manipulation, genetic engineering, and alliances with Draco/reptilian power structures. All of those are classified as astronomical_component 'B' because they assert a hidden or controversial contact narrative rather than a publicly observed astronomical object. The Law of One also reframes this so-called Orion group as part of a lawful cosmology in which negative and positive polarities are both valid evolutionary paths. That polarity framing is tagged astronomical_component 'unspecified' because it describes metaphysical governance and cosmic law rather than a literal star, nebula, or 'secret companion'. Jung (Aion, 1951/1968, Princeton University Press) is incorporated as 'research' to ground the psychological read: Orion Dark becomes a Shadow archetype \u2014 an externalized image of domination and predatory control that, when confronted and integrated, forces maturation. Mainstream astrophysics (NASA research summaries, university-press astronomy texts like Carroll & Ostlie 2006) treats Orion strictly as a constellation and stellar nursery (astronomical_component 'A'), with no credible evidence of telepathic conquest programs or interstellar enslavement hierarchies. Because of that, the claim that an Orion Dark empire actively manipulates Earth is explicitly quarantined in 'disputed_points' with consensus marked 'low' and paired with counter_evidence. Operationally for downstream archetype mapping: traits with 'polarity': 'dark' capture domination, hierarchy, Draco alliances, service-to-self ideology, weaponized control of genetics and thought-forms; traits with 'polarity': 'neutral' capture integration and Shadow alchemy (\"own your power rather than projecting it as an alien invader\"). 'ancient_support' distinguishes Osirian / heroic Orion lore (benevolent/renewal) from late-20th-century ET-war lore (enslavement / mind control). 'astronomical_component' lets UX gate user experience: 'A' = mainstream astronomy only; 'B' = controversial off-world empire/engineering lore; 'unspecified' = high-level polarity/metaphysical governance.",
+  "bibliography": {
+    "ancient_texts": [
+      "Ancient Egyptian funerary and stellar theology identifies Orion (Sah) with Osiris, a resurrected king associated with renewal and afterlife guidance. This material does not describe a conquering Orion empire or 'Orion Dark'.",
+      "Classical Greek myth portrays Orion as a giant hunter and companion/pursuer of the Pleiades. These myths do not describe hierarchical off-world enslavement agendas or Draco alliances."
+    ],
+    "modern_research": [
+      "Jung, C. G. Aion: Researches into the Phenomenology of the Self. Translated by R. F. C. Hull. Princeton University Press, 1968 (orig. 1951). Explores the Shadow and integration of repressed power.",
+      "NASA Goddard Space Flight Center. 'Hubble Studies the Orion Nebula.' NASA, 2018. Describes the Orion Nebula (M42) as a stellar nursery ~1,300 light-years away consisting of gas and young stars.",
+      "Carroll, Bradley W., & Ostlie, Dale A. An Introduction to Modern Astrophysics. Pearson Addison-Wesley, 2006. ISBN 0-8053-0402-9. Explains Orion as a constellation / nebula with no evidence of organized extraterrestrial empires."
+    ],
+    "channeled_sources": [
+      "Rueckert, Carla L.; Elkins, Don; McCarty, Jim. The Law of One (The Ra Material), Books I\u2013III. L/L Research, 1984 (sessions recorded 1981). ISBNs 0-945007-00-9 / 0-945007-01-7 / 0-945007-02-5. Defines an 'Orion group' pursuing service-to-self conquest, mind control, enslavement, and telepathic manipulation.",
+      "Royal, Lyssa. The Prism of Lyra: An Exploration of Human Galactic Heritage. Royal Priest Research, 1993. ISBN 0-9631320-0-8. Introduces an Orion Empire with hierarchical domination, genetic manipulation, and eventual polarity-integration lessons.",
+      "Marciniak, Barbara. Bringers of the Dawn: Teachings from the Pleiadians. Bear & Company, 1992. ISBN 9780939680986. Describes Orion-aligned factions attempting planetary control through DNA manipulation and consciousness programming."
+    ],
+    "controversial_sources": [
+      "Swerdlow, Stewart A. Blue Blood, True Blood: Conflict & Creation. Expansions Publishing Company, 2002. ISBN 0-9626446-6-8. Claims Orion Dark and Draco reptilian factions allied to dominate other systems, provoking Sirian resistance."
+    ],
+    "academic_foundations": [
+      "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching or Book of Changes. Princeton University Press, mid-20th century printings. Core symbolic system later mapped into Human Design gates.",
+      "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure that Human Design maps to 64 I Ching hexagrams.",
+      "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Establishes academic study of Kabbalah, supporting the 'cosmic governance / hierarchy of intelligences' framing.",
+      "Tarnas, Richard. Cosmos and Psyche: Intimations of a New World View. Viking, 2006. Treats planetary/astrological patterns as meaningful cultural and psychological structures rather than mere superstition."
+    ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Empire management and coercive control structures",
+      "Hierarchical power consolidation through obedience enforcement",
+      "Bureaucratic psychological pressure and population-scale manipulation infrastructure",
+      "Genetic engineering and DNA control programs",
+      "Telepathic influence and thought-form seeding",
+      "Service-to-self polarity and power-through-enslavement",
+      "Advancing in a rigid chain of command by proving you can control and extract obedience from others"
+    ],
+    "shadow_themes": [
+      "Spiritual entropy and alliance instability",
+      "Loss of coherence through negative polarity",
+      "Manipulation through fear and hostile thought-forms",
+      "Enslavement of the less powerful as power source"
+    ],
+    "quick_rules": [
+      "If the behavior is empire management, coercive control structures at scale, obedience enforcement across systems, psychological pressure infrastructure, or genetic manipulation for control, that's Orion-Dark.",
+      "If the behavior is honorable trial, spiritual/warrior initiation, or ascending through ordeal in service to a higher code, that's Orion-Light, not Orion-Dark.",
+      "If the behavior is predator scanning and loyalty enforcement at the tribal/survival level, that's Draco, not Orion-Dark (Orion-Dark operates at imperial/planetary scale, Draco is tribal/immediate).",
+      "If the behavior is emotional co-regulation or caretaking panic, that's Pleiades, not Orion-Dark.",
+      "If the behavior is spiritual initiation or sacred teaching for liberation, that's Sirius, not Orion-Dark.",
+      "If the behavior is stepping in to break chains, free the captive, or end unjust domination, that's Andromeda, not Orion-Dark (Orion-Dark is the captor/system, Andromeda is the liberator).",
+      "If the behavior is frequency healing, vibrational recalibration, or technical energetic tuning to restore coherence, that's Arcturus, not Orion-Dark.",
+      "Orion-Dark is about empire-scale control and psychological manipulation, not tribal survival, emotional bonding, or honorable initiation."
+    ],
+    "notes_for_alignment": "Score Orion-Dark high (0.7\u20131.0) when the gate.line is about empire management, coercive control structures at scale, obedience enforcement infrastructure, psychological pressure across systems, genetic manipulation for control, or service-to-self power consolidation. Score Orion-Dark shadow (0.4\u20130.6) when it's spiritual entropy, alliance instability, manipulation through fear, or enslavement as power source. Give Orion-Dark ~0 when the behavior is honorable trial or spiritual warrior initiation (that's Orion-Light), tribal predator scanning or loyalty enforcement (that's Draco\u2014Orion-Dark is imperial, not tribal), emotional caretaking (that's Pleiades), or liberation teaching (that's Sirius), or direct intervention to free someone from captivity/break unjust control (that's Andromeda\u2014Andromeda is the rescuer, Orion-Dark is the captor), or frequency healing/vibrational recalibration/energetic tune-up (that's Arcturus)."
+  }
+}

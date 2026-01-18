@@ -1,0 +1,206 @@
+{
+  "id": "gate.33",
+  "hexagram": "hx33",
+  "center": "Throat",
+  "circuit": "Collective / Abstract (Sensing)",
+  "programming_partner": "gate.19",
+  "polarity": {
+    "opposite_on_wheel": "gate.19"
+  },
+  "themes": [
+    "active withdrawal (not hiding)",
+    "privacy to complete the abstract cycle",
+    "remembrance / storytelling after reflection",
+    "13–33 Channel of the Prodigal (witnessing)",
+    "turning a weak position into strength"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "33.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Avoidance",
+        "hd_quote": "The wisdom in a weak position to recognize that survival demands complete withdrawal."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundation of privacy",
+          "finish before sharing",
+          "auric boundary"
+        ],
+        "behavioral_axis": "Knows to step back right after an experience to process it alone.",
+        "shadow_axis": "Ghosting everyone so no lessons get transmitted."
+      },
+      "relationship_needs": {
+        "needs_solo_decompression": true,
+        "prefers_uninterrupted_space": true,
+        "rejects_forced_disclosure": true
+      },
+      "group_role": "experience archivist (post-op debrief)",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "33.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Surrender",
+        "hd_quote": "The recognition that surrender to superior forces can be an opportunity to expand one's own strength and eventually triumph."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected privacy",
+          "strategic yielding",
+          "strength through retreat"
+        ],
+        "behavioral_axis": "Lets the bigger force pass so it can resume reflection later, stronger.",
+        "shadow_axis": "Publicly ‘private’ but not actually doing the reflection."
+      },
+      "relationship_needs": {
+        "needs_respect_for_withdrawal": true,
+        "prefers_low-pressure_invitations": true,
+        "rejects_power_over": true
+      },
+      "group_role": "situational retreater / timing scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "33.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Spirit",
+        "hd_quote": "Privacy as a path to success; or A drive for privacy that will cut off its relationships, often abruptly."
+      },
+      "interpretation": {
+        "keywords": [
+          "bonds made/broken around privacy",
+          "essential witness energy",
+          "abrupt exits"
+        ],
+        "behavioral_axis": "Uses privacy to protect the value of the story before sharing.",
+        "shadow_axis": "Cuts people off so hard the story never reaches the collective."
+      },
+      "relationship_needs": {
+        "needs_room_for_abrupt_exits": true,
+        "partners_handle_silence": true,
+        "rejects_guilt_tripping": true
+      },
+      "group_role": "keeper-of-the-story / release-when-ready",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "33.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Dignity",
+        "hd_quote": "A lack of turmoil in retreat."
+      },
+      "interpretation": {
+        "keywords": [
+          "calm withdrawal",
+          "religious/mystical tone",
+          "steady witness"
+        ],
+        "behavioral_axis": "Shows others how to retreat gracefully and regenerate.",
+        "shadow_axis": "Retreat becomes moral superiority or spiritual bypassing."
+      },
+      "relationship_needs": {
+        "needs_accepting_circle": true,
+        "prefers_consistent_context": true,
+        "rejects_drama_invasion": true
+      },
+      "group_role": "calm historian / orderly debriefer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "33.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Timing",
+        "hd_quote": "As important as the timing itself is the ability to keep secret one's intentions until the appropriate moment."
+      },
+      "interpretation": {
+        "keywords": [
+          "release protocol",
+          "seducer/seduced wave",
+          "secret until ready"
+        ],
+        "behavioral_axis": "Holds the story until the field is ready to receive it.",
+        "shadow_axis": "Leaks too early, causes confusion or gets locked away."
+      },
+      "relationship_needs": {
+        "needs_to_choose_timing": true,
+        "prefers_trust-based_allies": true,
+        "rejects_forced_reveals": true
+      },
+      "group_role": "story releaser / intel gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "33.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Disassociation",
+        "hd_quote": "The ability to let go in retreat, to enjoy privacy."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level privateness",
+          "permanent retreat",
+          "impersonal witness"
+        ],
+        "behavioral_axis": "Can stay private even when public; observes for humanity.",
+        "shadow_axis": "So withdrawn the collective never benefits."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_drama": true,
+        "rejects_intrusive_demands": true
+      },
+      "group_role": "high-level archivist / detached witness",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
+}

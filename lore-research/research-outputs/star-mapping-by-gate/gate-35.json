@@ -1,0 +1,278 @@
+{
+  "35.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Chooses experience rather than being swept by trend—seed of sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Paces first steps and frames a simple container for change."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early ‘been there’ optics can drift into status flex."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clean phrasing helps the story of change land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Following ‘how it’s done’ to fit in—doctrine over truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to step into the new without overreach."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Gentle bonding around shared first moves."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private trial phase; no explicit transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-35.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "35.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Says yes to change without surrendering authorship."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Right timing and placement let progress flow."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Sensitivity to VIP access—who ‘gets’ the new thing."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elegant curation turns experience into a receivable story."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to the approved script of ‘progress’."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Disciplined openness to the next step."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Hospitality and attunement make shared ventures safe."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational uptake of experience, not protocol teaching yet.",
+      "confidence": 5,
+      "sources": ["gate-line-35.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "35.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Novelty/savior loops outsource agency to the next experience."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced timing/venue—structure of change wobbles."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Clique status around ‘adventures’ and access."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performative travel/story eclipses substance."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Trend compliance masquerades as progress."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal teaches right-sized change and honest review."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Joining to belong—enmeshment distorts experience."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error progress cycle.",
+      "confidence": 5,
+      "sources": ["gate-line-35.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "35.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Breaks stagnation by designing shared, liberating experiences."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds itinerary, safety nets, and debrief cadence—container mastery."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Screens risks and guards thresholds for the group."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Curates moments into a coherent cultural story."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policies can ossify into ‘this is the only way’ doctrine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models integrity under pressure during the journey."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned hosting keeps nerves steady through change."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches experience protocol by example—how to progress safely.",
+      "confidence": 4,
+      "sources": ["gate-line-35.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "experience-protocol/field-guide",
+      "keywords": ["itinerary", "safety", "debrief"]
+    }
+  },
+  "35.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses influence to free the group from stale routines."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for journeys—scope, cadence, and review."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to safety and mission integrity en route."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Turns lived experience into culture-shaping narrative."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Projection risk: orthodoxy about the ‘right’ way to progress."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when change is pressured or politicized."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth helps adoption without coercion."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in experiential curriculum—liberation through standards.",
+      "confidence": 4,
+      "sources": ["gate-line-35.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "curriculum/experience-standards-teacher",
+      "keywords": ["standards", "cadence", "risk"]
+    }
+  },
+  "35.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom to move or stay—choice beyond novelty."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for integration and timing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as gate to ‘real’ experiences."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model storyteller—few distilled lessons carry far."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Canon of progress risks law-over-life."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Courage to declare the journey complete or ongoing by truth."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: the canon of story/integration transmitted by presence.",
+      "confidence": 4,
+      "sources": ["gate-line-35.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/progress-canon",
+      "keywords": ["integration", "story-law", "presence"]
+    }
+  }
+}

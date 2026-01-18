@@ -1,0 +1,57 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 1,
+  "hexagram_name_legge": "Khien",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Khien (represents) what is great and originating, penetrating, advantageous, correct and firm,",
+  "image_text": null,
+  "addendum": {
+    "type": "supernumerary_line",
+    "text": "(The lines of this hexagram are all strong and undivided, as appears from) the use of the number nine. If the host of dragons (thus) appearing were to divest themselves of their heads, there would be good fortune."
+  },
+  "full_text": "I. The Khien Hexagram.\n\nExplanation of the entire figure by king Wan.\n\nKhien (represents) what is great and originating, penetrating, advantageous, correct and firm,\n\nExplanation of the separate lines by the duke of Wau.\n\n1. In the first (or lowest) line, undivided, (we see its subject as) the dragon lying hid (in the deep). It is not the time for active doing.\n\n2. In the second line, undivided, (we see its subject as) the dragon appearing in the field. It will be advantageous to meet with the great man.\n\n3. In the third line, undivided, (we see its subject as) the superior man active and vigilant all the day, and in the evening still careful and apprehensive. (The position is) dangerous, but there will be no mistake.\n\n4. In the fourth line, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake.\n\n5. In the fifth line, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man.\n\n6. In the sixth (or topmost) line, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance.\n\n7. (The lines of this hexagram are all strong and undivided, as appears from) the use of the number nine. If the host of dragons (thus) appearing were to divest themselves of their heads, there would be good fortune.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "In the first (or lowest) line, undivided, (we see its subject as) the dragon lying hid (in the deep). It is not the time for active doing."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "In the second line, undivided, (we see its subject as) the dragon appearing in the field. It will be advantageous to meet with the great man."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "In the third line, undivided, (we see its subject as) the superior man active and vigilant all the day, and in the evening still careful and apprehensive. (The position is) dangerous, but there will be no mistake."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "In the fourth line, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "In the fifth line, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "In the sixth (or topmost) line, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance."
+    }
+  ],
+  "notes": [
+    "The Text under each hexagram consists of one paragraph by king Wan, explaining the figure as a whole, and of six (in the case of hexagrams 1 and 2, of seven) paragraphs by the duke of Zau, explaining the individual lines.",
+    "Each hexagram consists of two of the trigrams of Fu-hsi, the lower being called 'the inner,' and the one above 'the outer.' The lines, however, are numbered from one to six, commencing with the lowest.",
+    "'The dragon' is the symbol employed by the duke of Zau to represent 'the superior man' and especially 'the great man,' exhibiting the virtues or attributes characteristic of heaven. The creature's proper home is in the water, but it can disport itself on the land, and also fly and soar aloft. It has been from the earliest time the emblem with the Chinese of the highest dignity and wisdom, of sovereignty and sagehood, the combination of which constitutes 'the great man.'",
+    "The dragon appears in the sixth line as going beyond the proper limits. The ruling-sage has gone through all the sphere in which he is called on to display his attributes; it is time for him to relax. The line should not be always pulled tight; the bow should not be always kept drawn. The unchanging use of force will give occasion for repentance. The moral meaning found in the line is that 'the high shall be abased.'",
+    "The meaning given to the supernumerary paragraph is the opposite of that of paragraph 6. The 'host of dragons without their heads' would give us the next hexagram, or Khwan, made up of six divided lines. Force would have given place to submission, and haughtiness to humility; and the result would be good fortune."
+  ]
+}

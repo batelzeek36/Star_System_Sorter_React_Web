@@ -1,0 +1,278 @@
+{
+  "22.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced sociability; keeps sovereignty over when to open."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Regulates timing and mood—builds a clean container before engaging."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early ‘right vibe’ anxiety can slip into status/correctness policing."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Gentle aesthetic poise, even in restraint."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Using politeness as control/doctrine rather than truth."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Micro-ordeal: wait until the feeling is true before speaking."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attunes to room safety and receptivity—mood-first hospitality."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching restraint; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-22.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "22.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Protects self-sovereign pacing; refuses forced charm."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Composure and pacing—keeps the channel clean for real connection."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Popularity gatekeeping can creep in under pressure."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Natural elegance; grace flows when the timing is right."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Hiding behind etiquette to avoid authenticity."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Honorable restraint—speak or engage only when aligned."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "High social attunement; reads the room and welcomes gently."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational tuning, not codified instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-22.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "22.3": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses social capture; learns to own openness without coercion."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Timing dysregulation—over-sharing or clamping down under critique."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Clique defense and correctness policing around ‘good manners.’"
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Creative confession—authentic style shows even in mistakes."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Formulaic charm to control perception instead of truth."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ordeal of timing: own missteps, refine grace, try again."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing bends openness into appeasement."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging social skill; no pedagogy yet.",
+      "confidence": 5,
+      "sources": ["gate-line-22.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "22.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Advocates sovereignty-in-connection—no forced niceness."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Designs usable norms for mood, timing, and consent in social space."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract gatekeeping of ‘who belongs’ socially."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Charismatic hosting; beauty and tone that invite authentic contact."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning manners into dogma; image over living grace."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentor-by-presence: others meet the ordeal of honest, paced openness."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Hospitality that genuinely soothes and includes without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Etiquette-as-teaching: protocols of grace transmit higher order.",
+      "confidence": 4,
+      "sources": ["gate-line-22.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "social-protocol-teaching",
+      "keywords": ["hospitality", "consent", "timing", "tone"]
+    }
+  },
+  "22.5": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses propaganda of ‘polite compliance’; guards speech/feeling sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix the room with your grace’ → burnout/scapegoat under projection."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status games: who gets access to the host/audience."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic presence—style and tone signal cultural standards."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing ‘nice’ behavior to preserve control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—choose true openness over flattery."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement distorts boundaries and exhausts the host."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: demonstrates ethical hospitality under pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-22.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["hospitality", "boundaries", "example"]
+    }
+  },
+  "22.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty in relationship—no domination via ‘niceness.’"
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder hosting—durable standards for mood, pacing, and consent."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy authority can drift into social gatekeeping."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Role-model elegance—beauty and grace without vanity."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing manners into orthodoxy/hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: courageous, honest openness that serves truth."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of grace, not bonding/soothing per se."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Grace sage—teaches the law of right hospitality by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-22.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "grace-sage/etiquette-by-presence",
+      "keywords": ["grace", "hospitality", "consent", "role-model"]
+    }
+  }
+}

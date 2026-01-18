@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "version": "4.2",
+    "baseline_beacon": "59bfc617",
+    "gate": "01",
+    "generated_at": "2025-01-15T18:30:00Z",
+    "generator": "Manual",
+    "sum_unorm": 5.48
+  },
+  "01.1": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.78,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Patient timing; private incubation; no premature display; waiting for mutation to ripen.",
+      "keywords": ["waits", "incubates", "patience", "timing"],
+      "why": "Lyra core — creative expression held until ripe, independent of will (quick_rule: 'artistic creation, aesthetic power')."
+    }
+  ],
+  "01.2": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.75,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Emerges when called; meets worthy mentor; shows work to the great one.",
+      "keywords": ["appearing", "meets ally", "recognition"],
+      "why": "Orion Light core — honorable emergence through meeting the great man (quick_rule: 'trial/initiation, mystery school')."
+    },
+    {
+      "star_system": "Sirius",
+      "weight": 0.25,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 3,
+      "behavioral_match": "Light as beauty; harmony between values and ideals enriches inspiration.",
+      "keywords": ["light", "beauty", "harmony"],
+      "why": "Sirius core — love as light touches sacred instruction aspect (quick_rule: 'sacred knowledge transmission')."
+    }
+  ],
+  "01.3": [
+    {
+      "star_system": "Orion Light",
+      "weight": 0.70,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Active and vigilant all day; careful and apprehensive; dangerous position but no mistake through sustained effort.",
+      "keywords": ["vigilant", "careful", "endurance", "trial"],
+      "why": "Orion Light core — sustained trial through danger with Martian endurance (quick_rule: 'honorable trial, warrior initiation')."
+    }
+  ],
+  "01.4": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.85,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Aloneness as medium of creativity; inner tension; personal perspective outside influence.",
+      "keywords": ["aloneness", "inner light", "no interference"],
+      "why": "Lyra core — creative expression requires solitude and freedom from interference (quick_rule: 'artistic creation, aesthetic power')."
+    }
+  ],
+  "01.5": [
+    {
+      "star_system": "Sirius",
+      "weight": 0.65,
+      "role": "primary",
+      "polarity": "shadow",
+      "confidence": 4,
+      "behavioral_match": "Dragon on wing attracts society; powerful projection field; endurance through ego.",
+      "keywords": ["attracts", "society", "projection", "recognition"],
+      "why": "Sirius shadow — attracts society's projection but risks spiritual gatekeeping through fame (quick_rule: 'sacred knowledge transmission')."
+    },
+    {
+      "star_system": "Draco",
+      "weight": 0.35,
+      "role": "secondary",
+      "polarity": "shadow",
+      "confidence": 3,
+      "behavioral_match": "Powerful ego endurance; eccentricity for attention; playing the creative role.",
+      "keywords": ["ego", "eccentric", "attention"],
+      "why": "Draco shadow — survival through dominance of attention and status maintenance (quick_rule: 'hierarchical enforcement, loyalty control')."
+    }
+  ],
+  "01.6": [
+    {
+      "star_system": "Lyra",
+      "weight": 0.75,
+      "role": "primary",
+      "polarity": "core",
+      "confidence": 5,
+      "behavioral_match": "Objectivity; clear assessment of creative value; wisdom perspective on mutation across generations.",
+      "keywords": ["objectivity", "wisdom", "perspective", "transcendent"],
+      "why": "Lyra core — artistic legacy judged across time; mutation's generational power (quick_rule: 'immortalization through beauty and art')."
+    },
+    {
+      "star_system": "Sirius",
+      "weight": 0.40,
+      "role": "secondary",
+      "polarity": "core",
+      "confidence": 4,
+      "behavioral_match": "Dragon exceeding limits; timing signal for renewal; repentance as wisdom.",
+      "keywords": ["exceeds", "repentance", "renewal", "timing"],
+      "why": "Sirius core — timing signal for collective renewal and restoration (quick_rule: 'timing signal for collective renewal')."
+    }
+  ]
+}

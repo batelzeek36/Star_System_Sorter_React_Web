@@ -1,0 +1,84 @@
+{
+  "gate": 15,
+  "gate_name": "",
+  "lines": {
+    "15.1": {
+      "line": 1,
+      "hd_title": "Duty",
+      "hd_quote": "The ability to confront any challenge without expectations.",
+      "keywords": [
+        "foundational steadiness",
+        "humble service",
+        "accept broad ranges"
+      ],
+      "behavioral_axis": "Holds steady through extremes without demanding outcomes.",
+      "shadow_axis": "Self-denial; resentful duty.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "15.2": {
+      "line": 2,
+      "hd_title": "Influence",
+      "hd_quote": "Modesty and right action result in enduring standards.",
+      "keywords": [
+        "natural influence",
+        "environmental fit",
+        "visible example"
+      ],
+      "behavioral_axis": "Influences by simply living one’s correct extremes.",
+      "shadow_axis": "Unseen projection; others assume consistency.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "15.3": {
+      "line": 3,
+      "hd_title": "Ego inflation",
+      "hd_quote": "The risk that modesty, once recognized, will self-destruct.",
+      "keywords": [
+        "trial-and-error extremes",
+        "strategy vs nature",
+        "ego pitfalls"
+      ],
+      "behavioral_axis": "Learns not to game extremism as a tactic.",
+      "shadow_axis": "Performative extremes to control outcomes.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "15.4": {
+      "line": 4,
+      "hd_title": "The Wallflower",
+      "hd_quote": "Modesty as a shield against exposure of inadequacy.",
+      "keywords": [
+        "fixed extreme",
+        "social inadequacy theme",
+        "find the right milieu"
+      ],
+      "behavioral_axis": "Feels out of place until environment matches their rhythm.",
+      "shadow_axis": "Self-isolation; hiding gifts.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "15.5": {
+      "line": 5,
+      "hd_title": "Sensitivity",
+      "hd_quote": "The ability to sense when otherwise balanced behavior must be adjusted to meet the requirements of a changing environment.",
+      "keywords": [
+        "projected sensitivity",
+        "environmental tuning",
+        "magnetic aura"
+      ],
+      "behavioral_axis": "Adjusts visible extremes to conditions and timing.",
+      "shadow_axis": "Overcompensates; swings between poles.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "15.6": {
+      "line": 6,
+      "hd_title": "Self-defense",
+      "hd_quote": "Modesty that is never confused with weakness.",
+      "keywords": [
+        "reserve from the roof",
+        "think before speaking",
+        "protect the flow"
+      ],
+      "behavioral_axis": "Engages rarely; acts when wisdom serves the pattern.",
+      "shadow_axis": "Apathy; disengagement from humanity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

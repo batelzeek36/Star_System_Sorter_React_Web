@@ -1,0 +1,84 @@
+{
+  "gate": 4,
+  "gate_name": "Youthful Folly",
+  "lines": {
+    "4.1": {
+      "line": 1,
+      "hd_title": "Pleasure",
+      "hd_quote": "Ultimate pleasure cannot be achieved without perfect timing.",
+      "keywords": [
+        "timing-aware",
+        "waits for readiness",
+        "seductive formulas"
+      ],
+      "behavioral_axis": "Waits for the right moment to share mental formulas, recognizing that timing determines whether understanding is rewarded or punished.",
+      "shadow_axis": "Forces formulas at the wrong time through exaggerated self-discipline, ignoring readiness and facing angry rejection.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "4.2": {
+      "line": 2,
+      "hd_title": "Acceptance",
+      "hd_quote": "The recognition of limitation in oneself and others leads to tolerance and the suspension of judgment.",
+      "keywords": [
+        "naturally projects patterns",
+        "called out for formulas",
+        "tolerant of timing gaps"
+      ],
+      "behavioral_axis": "Naturally projects mental formulas outward without awareness of timing, patiently accepting that not everyone can understand yet.",
+      "shadow_axis": "Takes advantage of others' lack of understanding, asserting ego and hoarding formulas rather than sharing them collectively.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "4.3": {
+      "line": 3,
+      "hd_title": "Irresponsibility",
+      "hd_quote": "I claim it boldly: I am not responsible.",
+      "keywords": [
+        "collects formulas",
+        "trial-and-error",
+        "detached experimentation"
+      ],
+      "behavioral_axis": "Experiments with collecting mental formulas through trial-and-error without personally applying them, learning patterns without commitment.",
+      "shadow_axis": "Rationalizes irresponsibility as refocalization, collecting answers through adaptation while refusing to test them in lived experience.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "4.4": {
+      "line": 4,
+      "hd_title": "Eavesdropping",
+      "hd_quote": "First they lie and then they run like hell to catch up with their lie.",
+      "keywords": [
+        "externalizes formulas",
+        "role-plays understanding",
+        "races to learn"
+      ],
+      "behavioral_axis": "Externalizes formulas by saying yes first and racing to understand before being exposed, role-playing answers to learn through network pressure.",
+      "shadow_axis": "Confuses fantasy with fact, faces humiliation when time reveals the gap between pretended understanding and actual knowledge.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "4.5": {
+      "line": 5,
+      "hd_title": "Seduction",
+      "hd_quote": "An answer that has universal potential is deeply seductive.",
+      "keywords": [
+        "projection field",
+        "seduces energy",
+        "universal formulas"
+      ],
+      "behavioral_axis": "Holds steady under projection field dynamics, seducing energy from others to test mental formulas and prove universal patterns collectively.",
+      "shadow_axis": "Becomes cynical from always needing to seduce energy while others who voice the opinion get credit and recognition.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "4.6": {
+      "line": 6,
+      "hd_title": "Excess",
+      "hd_quote": "The answer does not mean anything; only life means something.",
+      "keywords": [
+        "objectivity about formulas",
+        "seeks life over answers",
+        "patient with incompleteness"
+      ],
+      "behavioral_axis": "Develops objectivity about mental formulas over time, recognizing when understanding is incomplete and waiting patiently for the full process.",
+      "shadow_axis": "Dismisses understanding as irrelevant intellectual exercise, refuses to engage with incomplete processes and accepts consequences as price of excess.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

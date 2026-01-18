@@ -1,0 +1,209 @@
+{
+  "id": "gate.1",
+  "hexagram": "hx01",
+  "center": "G",
+  "circuit": "circuit.individual",
+  "programming_partner": "gate.2",
+  "polarity": {
+    "opposite_on_wheel": "gate.2"
+  },
+  "themes": [
+    "creative self-expression",
+    "individual mutative pulse",
+    "creation is independent of will",
+    "timing is everything"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "1.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Creation is independent of will",
+        "hd_quote": "Creation is independent of will. Time is everything."
+      },
+      "interpretation": {
+        "keywords": [
+          "deep creative pressure",
+          "private self-expression",
+          "inner incubation"
+        ],
+        "behavioral_axis": "Builds creative identity from a strong inner base before showing it.",
+        "shadow_axis": "Tries to force mutation with ego/will and gets unstable."
+      },
+      "relationship_needs": {
+        "wants_audience_not_editor": true,
+        "needs_safe_private_lab": true,
+        "cannot_be_forced": true
+      },
+      "group_role": "internal artisan / prototype generator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Love is light",
+        "hd_quote": "Love is light. Venus exalted as a symbol of beauty in individual expression."
+      },
+      "interpretation": {
+        "keywords": [
+          "natural flair",
+          "unforced style",
+          "leave me alone and let it happen"
+        ],
+        "behavioral_axis": "Radiates unique creative energy without trying; inspires by just existing.",
+        "shadow_axis": "Withdraws or sulks if pushed to perform on demand."
+      },
+      "relationship_needs": {
+        "needs_to_be_seen_as_inherently_special": true,
+        "rejects_management": true,
+        "prefers_supportive_observation_over_advice": true
+      },
+      "group_role": "muse / aesthetic field holder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The energy to sustain creative work",
+        "hd_quote": "Mars exalted as the symbol of a profound need for self-expression."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error artistry",
+          "raw experimentation",
+          "learning through interference"
+        ],
+        "behavioral_axis": "Builds authentic voice by testing, failing, iterating in public.",
+        "shadow_axis": "Gets pulled into materialism and loses the mutative thread."
+      },
+      "relationship_needs": {
+        "requires_patience_from_others": true,
+        "benefits_from_people_who_dont_panic_at_mess": true,
+        "pushes_partners_into_adapt_mode": true
+      },
+      "group_role": "frontline tester / edge scout",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Aloneness as the medium of creativity",
+        "hd_quote": "When one has to be creative, one needs to be alone."
+      },
+      "interpretation": {
+        "keywords": [
+          "broadcasted identity",
+          "creative influence",
+          "signal others align to"
+        ],
+        "behavioral_axis": "Turns personal self-expression into a recognizable frequency others can gather around.",
+        "shadow_axis": "Gets pulled into marketing/promotion and loses the mutative edge."
+      },
+      "relationship_needs": {
+        "needs_respect_for_brand_boundary": true,
+        "wants_loyal_circle_not_crowd": true,
+        "needs_space_to_refuel_offstage": true
+      },
+      "group_role": "field anchor / style standard",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The energy to attract society",
+        "hd_quote": "This assumption that one is creative is very attractive to society."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected icon",
+          "creative representative",
+          "public-facing individuality"
+        ],
+        "behavioral_axis": "Gets cast as the one who can redefine the vibe for everyone.",
+        "shadow_axis": "Becomes a lightning rod when projections aren’t met; performs creativity instead of living it."
+      },
+      "relationship_needs": {
+        "needs_clear_expectations_not_projection": true,
+        "wants_partners_who_can_handle_public_agenda": true,
+        "requires_loyal_defense_against_public_attack": true
+      },
+      "group_role": "banner carrier / mythic figurehead",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "1.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Objectivity",
+        "hd_quote": "You will never live long enough to appreciate the impact of that mutation."
+      },
+      "interpretation": {
+        "keywords": [
+          "aloof embodiment",
+          "lives the frequency",
+          "high-altitude perspective"
+        ],
+        "behavioral_axis": "Becomes a walking example of pure individuality; ‘this is my frequency.’",
+        "shadow_axis": "Detaches and appears superior or cold; feels too far ahead of the era."
+      },
+      "relationship_needs": {
+        "needs_space_for_observation": true,
+        "requires_emotional_maturity_in_inner_circle": true,
+        "rejects_drama_cycles": true
+      },
+      "group_role": "pattern calibrator / horizon spotter",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.4",
+    "last_updated": "2025-11-02",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote adapted from Ra Uru Hu Line Companion (<25 words). interpretation is original behavioral mapping for relational/systemic use.",
+    "source_files": [
+      "lore-research/research-outputs/line-companion/gates.json",
+      "lore-research/research-outputs/line-companion/gates/gate-01.json"
+    ]
+  }
+}

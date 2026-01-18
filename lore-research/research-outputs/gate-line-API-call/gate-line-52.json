@@ -1,0 +1,84 @@
+{
+  "gate": 52,
+  "gate_name": "",
+  "lines": {
+    "52.1": {
+      "line": 1,
+      "hd_title": "Think before you speak",
+      "hd_quote": "The pause that is so profound that it leads to silence.",
+      "keywords": [
+        "root pause",
+        "pre-action assessment",
+        "contain the pulse"
+      ],
+      "behavioral_axis": "Uses stillness to prevent impulsive action; speaks or moves only when field is clear.",
+      "shadow_axis": "Speaks first, processes later → “energy that cannot be stilled.”",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "52.2": {
+      "line": 2,
+      "hd_title": "Concern",
+      "hd_quote": "The pause that is initiated to benefit others.",
+      "keywords": [
+        "restrain for the tribe",
+        "protective stillness",
+        "pressure managed"
+      ],
+      "behavioral_axis": "Uses its own inaction to keep others safe or to protect the situation.",
+      "shadow_axis": "Selfish pause that endangers others → “to selfishly restrain energy at the expense of others.”",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "52.3": {
+      "line": 3,
+      "hd_title": "Controls",
+      "hd_quote": "The ability by its very nature to understand restraint with the potential in acceptance, to use the period to redefine strategies.",
+      "keywords": [
+        "externally enforced stillness",
+        "strategy reset",
+        "pressure → plan"
+      ],
+      "behavioral_axis": "Takes enforced downtime and actually improves the system; inaction becomes design time.",
+      "shadow_axis": "Deep dissatisfaction with controls → emotional withdrawal; pressure disturbs tranquillity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "52.4": {
+      "line": 4,
+      "hd_title": "Self-discipline",
+      "hd_quote": "Perfected self-discipline and restraint that deals easily and wisely with impulsive temptations.",
+      "keywords": [
+        "model stillness",
+        "impulse control",
+        "value of focus"
+      ],
+      "behavioral_axis": "Shows others how to hold pressure without leaking energy.",
+      "shadow_axis": "Doubts the value of restraint → restlessness in the face of restraint.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "52.5": {
+      "line": 5,
+      "hd_title": "Explanation",
+      "hd_quote": "In times of inaction, the often important ability, to explain one's position.",
+      "keywords": [
+        "terse clarity",
+        "communicate the stillness",
+        "focus → detail"
+      ],
+      "behavioral_axis": "Can tell the group exactly why it is pausing → maintains cohesion.",
+      "shadow_axis": "Too much inaction → loss of focus, not detail.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "52.6": {
+      "line": 6,
+      "hd_title": "Peacefulness",
+      "hd_quote": "A harmonic and balanced attunement that is at ease regardless of the situation.",
+      "keywords": [
+        "roof-level calm",
+        "no-pressure field",
+        "true mountain"
+      ],
+      "behavioral_axis": "Embodies stillness so completely that pressure cannot disturb it.",
+      "shadow_axis": "Delusion as substitute for tranquillity; looks peaceful but is detached.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

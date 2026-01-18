@@ -1,0 +1,171 @@
+# PLEIADES BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research and document characteristics attributed to the PLEIADES star cluster across ancient mythology, indigenous traditions, modern esoteric literature, and channeled material. Return findings as minified JSON with complete citations.
+
+## HYPOTHESIS TO VALIDATE
+- Emotional empaths and healers
+- Artistic, sensual, aesthetic beings
+- Feminine-coded (Yin, Venusian energy)
+- Starseed origin point for many souls
+- Spiritual midwives of awakening
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md`
+
+This library contains 300+ verified sources. Use these as examples of source quality. Find sources AS GOOD AS or BETTER THAN these.
+
+## PRIMARY SOURCES
+
+### Ancient Mythology (Cross-Cultural Seven Sisters Pattern)
+- Greek: Seven Sisters (daughters of Atlas, companions of Artemis)
+- Aboriginal Australian: Songlines and Dreamtime stories
+- Cherokee: Seven boys who became stars
+- Maya: Tzab (rattlesnake's tail)
+- Hindu: Krittika (nurturing mothers of Kartikeya)
+- Japanese: Subaru (unity, harmony)
+- Maori: Matariki (New Year celebration)
+
+### Modern Esoteric Literature
+- "Bringers of the Dawn" by Barbara Marciniak (1992)
+- "The Pleiadian Agenda" by Barbara Hand Clow (1995)
+- "The Pleiadian Workbook" by Amorah Quan Yin (1996)
+- "Family of Light" by Barbara Marciniak (1998)
+
+### Scholarly Works
+- "The Seven Sisters of the Pleiades" by Munya Andrews (2004)
+- "Star Myths of the Greeks and Romans" by Theony Condos (1997)
+- Academic papers on cross-cultural Seven Sisters myths
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include:
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names, not initials)
+3. **Translator/Editor** (for ancient texts - e.g., "Theony Condos (translator)")
+4. **Edition information** (e.g., "Revised Edition", "2nd Edition")
+5. **Publication year** (original and edition if different)
+6. **Specific location** (page numbers, chapter, section, verse/line for ancient texts)
+7. **Direct quote** (≤25 words, actual text from source - NOT PLACEHOLDER)
+8. **URL** (if available online - archive.org, publisher, academic database)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+
+## SPECIAL FOCUS: Cross-Cultural Validation
+
+The Seven Sisters pattern appears in 6+ cultures globally. Document:
+- Which cultures have Seven Sisters myths?
+- What characteristics are attributed to them?
+- Are there consensus patterns (nurturing, feminine, artistic)?
+- How do ancient myths compare to modern channeled material?
+
+## CONSENSUS LEVELS
+- **HIGH**: 3+ independent sources, cross-cultural validation
+- **MEDIUM**: 2-3 sources, or strong in one category
+- **LOW**: Single source, disputed, or channeled-only
+
+## ANCIENT SUPPORT LEVELS
+- **HIGH**: Explicit in ancient texts/myths (Seven Sisters ubiquity)
+- **MEDIUM**: Inferred from deity associations
+- **LOW**: Symbolic resonance only
+- **UNKNOWN**: No ancient references
+
+## OUTPUT FORMAT (Minified JSON only)
+
+```json
+{
+  "star_system": "Pleiades",
+  "characteristics": [
+    {
+      "trait": "Nurturers and artistic beings",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "high|medium|low|unknown",
+      "evidence_type": "direct|inferred|symbolic",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "FULL NAME (translator/editor) - REQUIRED FOR ANCIENT TEXTS",
+          "edition": "EDITION",
+          "year": 1992,
+          "original_year": 1992,
+          "page": "SPECIFIC LOCATION (verse/line for ancient texts)",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL IF AVAILABLE",
+          "source_type": "ancient|research|channeled|indigenous"
+        }
+      ]
+    }
+  ],
+  "cross_cultural_patterns": [
+    {
+      "pattern": "Seven Sisters motif",
+      "cultures": ["Greek", "Aboriginal", "Cherokee", "Maya", "Hindu", "Japanese", "Maori"],
+      "consensus": "Universal recognition of Pleiades as seven female entities"
+    }
+  ],
+  "research_notes": "Summary of consensus patterns and notable findings"
+}
+```
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Cross-cultural validation documented
+✅ Ancient myths separated from modern overlay
+✅ Specific page numbers and quotes (no placeholders)
+✅ Ancient sources include translator/editor attribution
+✅ Edition information included
+✅ URLs where available
+✅ Source types labeled
+
+## EXPECTED FINDINGS
+- Seven Sisters pattern: HIGH ancient support
+- Nurturing/feminine themes: MEDIUM-HIGH consensus
+- Artistic/aesthetic overlay: MEDIUM consensus (mostly modern)
+- Starseed origin claims: LOW consensus (channeled-only)
+
+⚠️ **CITATION EXAMPLES ARE EXAMPLES ONLY - DO NOT COPY INTO OUTPUT**
+⚠️ **YOU MUST FIND AND VERIFY ACTUAL SOURCES WITH REAL QUOTES**
+
+**If a commonly believed claim cannot be verified** (e.g., "Pleiadian dolphin connection"), include it in `research_notes` with:
+> "Note: No credible evidence found for [claim], despite prevalence in New Age discourse."
+
+**Minimum acceptable: 3-5 characteristics, each with 5+ fully cited sources (minimum 3 if truly limited), cross-cultural validation noted.**

@@ -1,0 +1,56 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 28,
+  "hexagram_name_legge": "Ta Kwo",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Ta Kwo suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.",
+  "image_text": null,
+  "addendum": {
+    "type": "commentary",
+    "text": "XXVIII. Very extraordinary times require very extraordinary gifts in the conduct of affairs in them. This is the text on which king Wan and his son discourse after their fashion in this hexagram. What goes, in their view, to constitute anything extraordinary is its greatness and difficulty. There need not be about it what is not right.\n\nLooking at the figure we see two weak lines at the top and bottom, and four strong lines between them, giving us the idea of a great beam unable to sustain its own weight. But the second and fifth lines are both strong and in the centre; and from this and the attributes of the component trigrams a good auspice is obtained.\n\nLine x being weak, and at the bottom of the figure, and of the trigram Sun, which denotes flexibility and humility, its subject is distinguished by his carefulness, as in the matter mentioned; and there is a good auspice.\n\nLine 2 has no proper correlate above. Hence he inclines to the weak 1 below him; and we have the symbolism of the line. An old husband with a young wife will yet have children; the action of the subject of 2 will be successful.\n\nLine 3 is strong, and in an odd place. Its subject is confident in his own strength, but his correlate in 6 is weak. Alone, he is unequal to the extraordinary strain on him, and has for his symbol the weak beam.\n\nLine 4 is near 5, the ruler's place. On its subject devolves the duty of meeting the extraordinary exigency of the time; but he is strong; and, the line being in an even place, his strength is tempered. He will be equal to his task, Should he look out for the help of the subject of 1, that would affect him with another element of weakness; and his action would give cause for regret."
+  },
+  "full_text": "XXVIII. The Ta Kwo Hexagram.\n\nTa Kwo suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.\n\n1. The first line, divided, shows one placing mats of the white mao grass under things set on the ground. There will be no error.\n\n2. The second line, undivided, shows a decayed willow producing shoots, or an old husband in possession of his young wife. There will be advantage in every way.\n\n3. The third line, undivided, shows a beam that is weak. There will be evil.\n\n4. The fourth line, undivided, shows a beam curving upwards. There will be good fortune. If (the subject of it) looks for other (help but that of line one), there will be cause for regret.\n\n5. The fifth line, undivided, shows a decayed willow producing flowers, or an old wife in possession of her young husband. There will be occasion neither for blame nor for praise.\n\n6. The topmost line, divided, shows its subject with extraordinary (boldness) wading through a stream, till the water hides the crown of his head. There will be evil, but no ground for blame.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows one placing mats of the white mao grass under things set on the ground. There will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows a decayed willow producing shoots, or an old husband in possession of his young wife. There will be advantage in every way."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows a beam that is weak. There will be evil."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows a beam curving upwards. There will be good fortune. If (the subject of it) looks for other (help but that of line one), there will be cause for regret."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows a decayed willow producing flowers, or an old wife in possession of her young husband. There will be occasion neither for blame nor for praise."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject with extraordinary (boldness) wading through a stream, till the water hides the crown of his head. There will be evil, but no ground for blame."
+    }
+  ],
+  "notes": [
+    "Appendix I commentary: XXVIII. 1. Ta Kwo shows the great ones (— the undivided lines) in excess. 2. In 'the beam that is weak' we see weakness both in the lowest and the topmost (lines). 3. The strong lines are in excess, but (two of them) are in the central positions. The action (of the hexagram is represented by the symbols of) flexibility and satisfaction. (Hence it is said), 'There will be advantage in moving in any direction whatever; yea, there will be success.' 4. Great indeed is (the work to be done in) this very extraordinary time.",
+    "Appendix I note: Paragraph 3. In the Great Symbolism 'wood' appears as the natural object symbolised by Sun, and not 'wind,' which we find more commonly, The attribute of 'flexibility,' however, is the quality of Sun, whether used of wind or of wood. Paragraph 4, Such a time, it is said, was that of Yao and Shun, of Chang the Successful, and of king Wan. What these heroes did, however, was all called for by the exigency of their times, and not by whim or principle of their own, which they wished to make prominent.",
+    "Appendix II commentary: XXVIII. (The trigram representing) trees hidden beneath that for the waters of a marsh forms Ta Kwo. The superior man, in accordance with this, stands up alone and has no fear, and keeps retired from the world without regret. 1. 'He places mats of the white mao grass under things set on the ground:'—he feels his weakness and his being in the lowest place, (and uses extraordinary care). 2. 'An old husband and a young wife:'—such association is extraordinary. 3. 'The evil connected with the beam that is weak' arises from this, that no help can be given (to the condition thus represented). 4. 'The good fortune connected with the beam curving upwards' arises from this, that it does not bend towards what is below. 5. 'A decayed willow produces flowers:'—but how can this secure its long continuance? 'An old wife and a young husband:'—this also is a thing to be ashamed of. 6. 'Evil follows wading with (extraordinary) boldness (through the stream):'—but (the act) affords no ground for blame.",
+    "Appendix II note: Khang-jze says on the Great Symbolism 'The waters of a marsh moisten and nourish the trees. When here it is said that they destroy and extinguish the trees, their action is very extraordinary.' This explanation is very far-fetched; and so is what the same scholar says on the application of it. Paragraph 2. 'Such an association is extraordinary:'—the characters also imply, perhaps, that it is successful. Paragraph 3. The beam being broken, any attempt to sustain it will have no effect in supporting the roof. Paragraph 5. The shoots produced in line 2 will grow into a new and vigorous tree. The flowers here will soon decay, and the husband will not continue the same. For what will a young man marry an old woman? There will be no children;—it will probably be from some mercenary object."
+  ]
+}

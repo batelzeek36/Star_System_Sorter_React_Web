@@ -1,0 +1,206 @@
+{
+  "id": "gate.54",
+  "hexagram": "hx54",
+  "center": "Root",
+  "circuit": "Tribal / Ego (Transformation)",
+  "programming_partner": "gate.32",
+  "polarity": {
+    "opposite_on_wheel": "gate.53"
+  },
+  "themes": [
+    "ambition / the Marrying Maiden",
+    "rising through alliances and sponsorship",
+    "fuel for material and spiritual transformation",
+    "secret or covert relationships to gain position",
+    "service to the tribe as the path to ascent"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "54.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Influence",
+        "hd_quote": "The ability to achieve influence through secret relationships, anywhere from the private adviser to the Satanist."
+      },
+      "interpretation": {
+        "keywords": [
+          "back-channel ambition",
+          "rise-by-serving-others",
+          "behind-the-throne"
+        ],
+        "behavioral_axis": "Ambition aimed at helping someone else rise, so you rise with them.",
+        "shadow_axis": "Demands public credit → influence collapses."
+      },
+      "relationship_needs": {
+        "needs_discretion": true,
+        "prefers_power-partnerships": true,
+        "rejects_forced_publicity": true
+      },
+      "group_role": "covert adviser / court whisperer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "54.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Discretion",
+        "hd_quote": "Don't let them see how ambitious you really are."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected modesty",
+          "closed-door deals",
+          "ambition under wraps"
+        ],
+        "behavioral_axis": "Signals reliability by keeping ambitions and alliances out of public view.",
+        "shadow_axis": "Leaks intentions → allies stop trusting the channel."
+      },
+      "relationship_needs": {
+        "needs_confidentiality": true,
+        "prefers_low-visibility_roles": true,
+        "rejects_gossip_circuits": true
+      },
+      "group_role": "trusted go-between / discreet operator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "54.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Covert interaction",
+        "hd_quote": "The ability, when stymied in formal relationships, to use secret or purely informal channels when it is the only resort."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error alliances",
+          "workaround diplomacy",
+          "ambition under blockage"
+        ],
+        "behavioral_axis": "If the ladder is blocked, it finds side doors and informal patrons.",
+        "shadow_axis": "Shady networks → reputation risk, relationships broken."
+      },
+      "relationship_needs": {
+        "needs_room_for_experiments": true,
+        "partners_handle_mixed_loyalties": true,
+        "rejects_moralizing_about_tactics": true
+      },
+      "group_role": "network patcher / side-door operator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "54.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Enlightenment/Endarkenment",
+        "hd_quote": "Do for the totality what you hope the totality will do for you."
+      },
+      "interpretation": {
+        "keywords": [
+          "mystical tribe service",
+          "spiritualized ambition",
+          "serve-to-rise"
+        ],
+        "behavioral_axis": "Uses ambition in service of the whole → personal elevation arrives indirectly.",
+        "shadow_axis": "Self-focused ‘enlightenment’ quest that bypasses the tribe."
+      },
+      "relationship_needs": {
+        "needs_service-mission_alignment": true,
+        "prefers_spiritually_literate_allies": true,
+        "rejects_purely_extractive_ties": true
+      },
+      "group_role": "tribal mystic / service externalizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "54.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Magnanimity",
+        "hd_quote": "The natural authority and actualizing spirit, that in a position of power can have genuine and fruitful relationships with the less advantaged."
+      },
+      "interpretation": {
+        "keywords": [
+          "power behind the throne",
+          "projected benefactor",
+          "ambition-through-generosity"
+        ],
+        "behavioral_axis": "Appears generous; actually moving up through empowering others.",
+        "shadow_axis": "If unrecognized → withholds support; ambition stalls."
+      },
+      "relationship_needs": {
+        "needs_respected_power_position": true,
+        "prefers_hierarchies_that_honor_service": true,
+        "rejects_disrespect_from_dependents": true
+      },
+      "group_role": "patron / influential fixer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "54.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Selectivity",
+        "hd_quote": "The energy to restrict relationships that hinder ambition."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level choosing",
+          "mutual-benefit filter",
+          "ambition-only alliances"
+        ],
+        "behavioral_axis": "Only fuels relationships that can reach the 45/queen level.",
+        "shadow_axis": "Writes people off too quickly → isolation at the top."
+      },
+      "relationship_needs": {
+        "needs_mutually_beneficial_bonds": true,
+        "prefers_high-signal_allies": true,
+        "rejects_low-yield_connections": true
+      },
+      "group_role": "high-caste selector / ambition gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org, section “HEXAGRAM 54 THE MARRYING MAIDEN,” lines 54.1–54.6: 54.1 Influence L14090–L14094; 54.2 Discretion L14110–L14118; 54.3 Covert interaction L14138–L14145; 54.4 Enlightenment/Endarkenment L14193–L14199; 54.5 Magnanimity L14220–L14223; 54.6 Selectivity L14249–L14253. Interpretations are original behavioral mappings aligned to the user’s HD–S³ schema."
+  }
+}

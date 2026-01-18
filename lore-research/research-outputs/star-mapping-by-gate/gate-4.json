@@ -1,0 +1,278 @@
+{
+  "4.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Foundational inquiry into how answers work; not a sovereignty-restoration or rescue vector."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Lays the logical base: hypothesis, definitions, test conditions—classic Arcturan system-coherence setup."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early ‘I’m right’ correctness policing can surface under stress."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/creative-display theme."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Grabbing rigid formulas for safety can ossify into obedience-to-doctrine."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Micro-ordeal of discipline: hold to reason while the unknown presses in."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sensitivity to being ‘wrong’ or unreceived modulates how/when the first answers are offered."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching formulation; no sacred-law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "4.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Natural answerer protecting energy from misuse ≠ anti-domination action."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Innate knack for clean, functional answers; resists interference to keep the signal coherent."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Projection pressure can trigger ‘prove-it’ posturing or correctness dominance."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Being cast as ‘the answer authority’ can slide into doctrinal compliance demands."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "The ordeal is to answer only when correctly invited; restraint proves integrity."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Shy/natural dynamic; attunes to when others are truly ready to receive."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical answering, not formal instruction/initiatory teaching yet.",
+      "confidence": 5,
+      "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "4.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Trial-and-error with answers is resilience, not liberation work."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Stress-testing hypotheses under real conditions to evolve a functional logic stack."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Criticism can provoke competitive defensiveness and rank-guarding."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not creative-display oriented."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Forcing premature conformity to ‘the right answer’ to escape ambiguity."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Initiatory grind: wrong answers refine courage and method until clarity emerges."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Sensitivity to being judged colors how iteration proceeds."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging logic phase; no transmission of sacred law yet.",
+      "confidence": 5,
+      "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "4.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Networking answers for utility ≠ chain-breaking mission."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Converts logic into usable guidance for the network—clean protocols and shared mental maps."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract clique gatekeeping or status filters on ‘who gets the answer.’"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of turning protocols into rigid orthodoxy inside the network."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Steadiness in sharing only what’s tested—others pass a light ordeal by aligning to reason."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational attunement helps time the answer so it can be received."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-logic: translating tested reasoning into guidance others can follow.",
+      "confidence": 4,
+      "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "logic-connector/teacher",
+      "keywords": ["protocol", "reasoning", "network"]
+    }
+  },
+  "4.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Projection dynamics around ‘fix it for all’ ≠ liberation action."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "shadow",
+      "why": "Universalizing answer-projection → burnout/scapegoat when reality resists one-size-fits-all (Arcturan shadow)."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Crisis can trigger dominance tactics to force acceptance of ‘the answer.’"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not about artistic authorship."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Authority capture: enforcing doctrine/compliance to preserve image of ‘the fix.’"
+    },
+    "orion-light": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Integrity-under-projection: hold to what actually works, not what flatters."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "People-pleasing/appeasement can distort logic to gain acceptance."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Mostly boundary/projection work here, not formal sacred instruction.",
+      "confidence": 5,
+      "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "4.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Role-model objectivity isn’t a direct anti-oppression mission."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Mature logical poise: clean methods, clear standards, humorous detachment—system-stability exemplar."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Authority aura can drift into status protection/correctness policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Doctrine-lock risk: elevating formulas over living inquiry."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Elder ordeal: hold courage and fairness as the mind teaches through example."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is objectivity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Royal instruction by example—pedagogy-by-reason; others learn correct thinking from your stance.",
+      "confidence": 4,
+      "sources": ["gate-line-4.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "logical-sage",
+      "keywords": ["objectivity", "method", "teaching-by-example"]
+    }
+  }
+}

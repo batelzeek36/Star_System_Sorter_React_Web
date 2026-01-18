@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "created_at": "[ISO 8601 timestamp]",
+    "extracted_from": "Line Companion chunked text files",
+    "source": "line-companion-normalized.clean-partXX.txt",
+    "extraction_method": "manual_search",
+    "notes": "Extracted by searching Line Companion chunks for Gate [X] content"
+  },
+  "gate": "[gate number 1-64]",
+  "lines": {
+    "1": {
+      "heading": "[Line heading/title from source]",
+      "raw": "[Complete raw text for this line, including all commentary, exaltation/detriment descriptions, and Ra's teaching notes. Preserve paragraph breaks with \\n\\n]",
+      "segments": [
+        {
+          "type": "intro",
+          "text": "[Introductory commentary before exaltation/detriment discussion]"
+        },
+        {
+          "type": "exaltation",
+          "planet": "[Planet name: Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Sun, Earth, North Node, South Node]",
+          "text": "[Complete exaltation text including the planet statement and all Ra's commentary about the exalted expression]"
+        },
+        {
+          "type": "detriment",
+          "planet": "[Planet name]",
+          "text": "[Complete detriment text including the planet statement and all Ra's commentary about the detriment expression]"
+        }
+      ]
+    },
+    "2": {
+      "heading": "[Line heading/title]",
+      "raw": "[Complete raw text]",
+      "segments": [
+        {
+          "type": "intro",
+          "text": "[Intro text]"
+        },
+        {
+          "type": "exaltation",
+          "planet": "[Planet]",
+          "text": "[Exaltation text]"
+        },
+        {
+          "type": "detriment",
+          "planet": "[Planet]",
+          "text": "[Detriment text]"
+        }
+      ]
+    },
+    "3": {
+      "heading": "[Line heading/title]",
+      "raw": "[Complete raw text]",
+      "segments": [
+        {
+          "type": "intro",
+          "text": "[Intro text]"
+        },
+        {
+          "type": "exaltation",
+          "planet": "[Planet]",
+          "text": "[Exaltation text]"
+        },
+        {
+          "type": "detriment",
+          "planet": "[Planet]",
+          "text": "[Detriment text]"
+        }
+      ]
+    },
+    "4": {
+      "heading": "[Line heading/title]",
+      "raw": "[Complete raw text]",
+      "segments": [
+        {
+          "type": "intro",
+          "text": "[Intro text]"
+        },
+        {
+          "type": "exaltation",
+          "planet": "[Planet]",
+          "text": "[Exaltation text]"
+        },
+        {
+          "type": "detriment",
+          "planet": "[Planet]",
+          "text": "[Detriment text]"
+        }
+      ]
+    },
+    "5": {
+      "heading": "[Line heading/title]",
+      "raw": "[Complete raw text]",
+      "segments": [
+        {
+          "type": "intro",
+          "text": "[Intro text]"
+        },
+        {
+          "type": "exaltation",
+          "planet": "[Planet]",
+          "text": "[Exaltation text]"
+        },
+        {
+          "type": "detriment",
+          "planet": "[Planet]",
+          "text": "[Detriment text]"
+        }
+      ]
+    },
+    "6": {
+      "heading": "[Line heading/title]",
+      "raw": "[Complete raw text]",
+      "segments": [
+        {
+          "type": "intro",
+          "text": "[Intro text]"
+        },
+        {
+          "type": "exaltation",
+          "planet": "[Planet]",
+          "text": "[Exaltation text]"
+        },
+        {
+          "type": "detriment",
+          "planet": "[Planet]",
+          "text": "[Detriment text]"
+        }
+      ]
+    }
+  },
+  "raw_text": "[Complete raw text for the entire gate, including the gate overview/introduction that appears before line 1. This should be the full unprocessed text exactly as it appears in the Line Companion.]"
+}

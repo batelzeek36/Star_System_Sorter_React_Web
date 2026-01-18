@@ -1,0 +1,278 @@
+{
+  "52.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses forced hustle; sovereignty to be still before engaging."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Baseline regulation—create a still container so focus can arise."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Stoic performance to prove toughness despite dysregulation."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Function and pacing, not an aesthetic/authorship axis."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Freeze-as-obedience: stillness demanded to enforce control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to quiet the root and ready the will before action."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Soothing cadence protects bonds from frantic pressure."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching focus hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-52.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "52.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Declines coercive pacing—chooses when to hold still."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Places resources and bodies for concentration—conditions-first design."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Sentry focus—guarding the perimeter while the work concentrates."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clean, unfussy tone that makes calm focus receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol to suppress spontaneity rather than enable focus."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Fortitude to maintain a steady hold until the opening."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Supportive pacing and comfort so concentration can settle."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement—no teaching channel yet.",
+      "confidence": 5,
+      "sources": ["gate-line-52.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "52.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after being manipulated into ‘sit still’ against truth."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—oscillation between fidget and rigid freeze."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Stoic policing of others’ pace to maintain rank."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Performative calm/optics instead of real stillness."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Freeze as control doctrine—obedience masquerading as ‘focus.’"
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit misreads, reset posture, refine focus."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Sedating/coddling that avoids building true capacity."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-52.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "52.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protects sovereignty to pause—stillness serves freedom, not capture."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Translates stillness into protocol—focus windows, buffers, guardrails."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Gate watch—keeps distractions/predators from breaking the hold."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Economy of motion—graceful minimalism supports the work."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk: ritualized stillness over living intelligence."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-presence—hold the line under pressure, then act."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Humane pacing preserves trust during concentrated effort."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Focus protocol teaching—discipline of stillness by example.",
+      "confidence": 4,
+      "sources": ["gate-line-52.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "focus-protocol/discipline-of-stillness",
+      "keywords": ["buffers", "cadence", "guardrails", "windows"]
+    }
+  },
+  "52.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that your stillness must be available on demand."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as the universal ‘calm anchor’ → burnout/scapegoat when refusing."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Rank contests over who can suppress motion longest."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic steadiness—unshowy presence steadies the field."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Stillness-as-image: PR stoicism to control the room."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—focus only where it is rightful."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Placating via ‘calm’ instead of naming misfit conditions."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: focus ethics under pressure and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-52.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/focus-ethics",
+      "keywords": ["boundaries", "availability", "ethics", "steadiness"]
+    }
+  },
+  "52.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from frantic capture—restoring the right to be still."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder standards—cadence doctrine, review cycles, renewal/sunset of holds."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guardian presence—keeps the vigil so the work can mature safely."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet majesty—culture tunes to dignified calm and economy."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing stillness into hierarchy rather than service to life."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—impeccable timing to hold or move."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is standards and guardianship, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Stillness sage—teaches the law of focus and rightful pacing by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-52.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "stillness-sage/law-of-focus",
+      "keywords": ["cadence", "review", "renewal", "elder", "law"]
+    }
+  }
+}

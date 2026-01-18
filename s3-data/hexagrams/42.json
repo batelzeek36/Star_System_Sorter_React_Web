@@ -1,0 +1,172 @@
+{
+  "id": "hx42",
+  "number": 42,
+  "unicode_hexagram": "䷩",
+  "name": "Increase / Augment (益, Yì)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Yi indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream. 1. The first line, undivided, shows that it will be advantageous for its subject in his position to make and that the third line, taken away and made to be the topmost line, or the third, in what was originally Khw&n, three divided lines, was ‘ the putting away of one man; ’ and that then the change of place by 3 and 6, while they continued their proper correlation, was, one going away, and finding his friend. I cannot lay hold of any thread of reason in this. Line 4 is weak, and in an even place; like an individual ailing and unable to perform his proper work. But the correlate in 1 is strong; and is made to hasten to its relief. The 1 joy ’ of the line shows the desire of its subject to do his part in the work of the hexagram. Line 5 is the seat of the ruler, who is here humble, and welcomes the assistance of his correlate, the subject of 2. He is a ruler whom all his subjects of ability will rejoice to serve in eveiy pos sible way; and the result will be great good fortune. Line 6 has been changed from a weak into a strong line from line 3; has received therefore the greatest increase, and will carry out the idea of the hexagram in the highest degree and. style. But he can give increase to others without diminishing his own resources, and of course the benefit he will confer will be incalcula ble, Ministers will come to serve him; and not one from each clan merely, but many. Such is the substance of what is said on this last paragraph. I confess that I only discern the meaning darkly. THE Yl KING. a great movement. If it be greatly fortunate, no blame will be imputed to him. 2. The second line, divided, shows parties adding to the stores of its subject ten pairs of tortoise shells whose oracles cannot be opposed. Let him per severe in being firm and correct, and there will be good fortune. Let the king, (having the virtues thus distinguished), employ them in presenting his offer ings to God, and there will be good fortune. 3. The third line, divided, shows increase given to its subject by means of what is evil, so that he shall (be led to good), and be without blame. Let him be sincere and pursue the path of the Mean, (so shall he secure the recognition of the ruler, like) an officer who announces himself to his prince by the symbol of his rank. 4. The fourth line, divided, shows its subject pursuing the due course. His advice to his prince is followed. He can with advantage be relied on In such a movement as that of removing the capital. 5. The fifth line, undivided, shows its subject with sincere heart seeking to benefit (all below). There need be no question about it; the result will be great good fortune. (All below) will with sincere heart acknowledge his goodness. 6. In the sixth line, undivided, we see one to whose increase none will contribute, while many will seek to assail him. He observes no regular rule in the ordering of bis heart. There will be evil. XLII, Yt has the opposite meaning to Sun, and is the symbol of addition or increasing. What king Wk had in his mind, in con nexion with the hexagram, was a ruler or a government operating",
+    "normalized_summary": "Increase. Favor flows downward from those in power to those in need, and that shared abundance creates momentum. This is a moment to act boldly for the common good, not to hoard. Give sincerely, receive humbly, correct what’s wrong, and move fast on worthy action. Done properly, this attracts allies, trust, and mandate. Done selfishly, it isolates you and invites attack."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, undivided, shows that it will be advantageous for its subject in his position to make and that the third line, taken away and made to be the topmost line, or the third, in what was originally Khw&n, three divided lines, was ‘ the putting away of one man; ’ and that then the change of place by 3 and 6, while they continued their proper correlation, was, one going away, and finding his friend. I cannot lay hold of any thread of reason in this. Line 4 is weak, and in an even place; like an individual ailing and unable to perform his proper work. But the correlate in 1 is strong; and is made to hasten to its relief. The 1 joy ’ of the line shows the desire of its subject to do his part in the work of the hexagram. Line 5 is the seat of the ruler, who is here humble, and welcomes the assistance of his correlate, the subject of 2. He is a ruler whom all his subjects of ability will rejoice to serve in eveiy pos sible way; and the result will be great good fortune. Line 6 has been changed from a weak into a strong line from line 3; has received therefore the greatest increase, and will carry out the idea of the hexagram in the highest degree and. style. But he can give increase to others without diminishing his own resources, and of course the benefit he will confer will be incalcula ble, Ministers will come to serve him; and not one from each clan merely, but many. Such is the substance of what is said on this last paragraph. I confess that I only discern the meaning darkly. THE Yl KING. a great movement. If it be greatly fortunate, no blame will be imputed to him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：利用為大作，元吉，無咎。"
+        }
+      ],
+      "normalized_meaning": "You’re authorized to act big. Take initiative and move decisively while fortune is with you. Bold, well-timed effort brings blessing, not blame.",
+      "keywords": [
+        "bold initiative",
+        "timely action",
+        "green light",
+        "great undertaking",
+        "no blame if it succeeds"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, divided, shows parties adding to the stores of its subject ten pairs of tortoise shells whose oracles cannot be opposed. Let him per severe in being firm and correct, and there will be good fortune. Let the king, (having the virtues thus distinguished), employ them in presenting his offer ings to God, and there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：或益之，十朋之龜弗克違，永貞吉。王用享于帝，吉。"
+        }
+      ],
+      "normalized_meaning": "Support pours in from others — valuable, legitimizing support. Stay upright and dedicate that gain to rightful service, not personal luxury, and it becomes deeply auspicious.",
+      "keywords": [
+        "receiving aid",
+        "shared resources",
+        "sacred use of gain",
+        "firm correctness",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. The third line, divided, shows increase given to its subject by means of what is evil, so that he shall (be led to good), and be without blame. Let him be sincere and pursue the path of the Mean, (so shall he secure the recognition of the ruler, like) an officer who announces himself to his prince by the symbol of his rank.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：益之用凶事，無咎。有孚中行，告公用圭。"
+        }
+      ],
+      "normalized_meaning": "Increase comes through crisis or trouble. Handle that gain with sincerity and balance, not opportunism, and you’ll be received honorably by those in power.",
+      "keywords": [
+        "benefit from hardship",
+        "no blame if sincere",
+        "walk the middle path",
+        "recognized by authority",
+        "earned legitimacy"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, divided, shows its subject pursuing the due course. His advice to his prince is followed. He can with advantage be relied on In such a movement as that of removing the capital.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：中行，告公從。利用為依遷國。"
+        }
+      ],
+      "normalized_meaning": "You counsel correctly and leaders actually listen. You’re now trusted with major structural change — even relocation of the center of power. This is high-responsibility influence.",
+      "keywords": [
+        "trusted adviser",
+        "right course",
+        "policy adopted",
+        "large-scale transition",
+        "reliability"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, undivided, shows its subject with sincere heart seeking to benefit (all below). There need be no question about it; the result will be great good fortune. (All below) will with sincere heart acknowledge his goodness.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：有孚惠心，勿問元吉。有孚惠我德。"
+        }
+      ],
+      "normalized_meaning": "The ruler honestly wants to help everyone, and everyone knows it. True generosity from the center creates unanimous goodwill and great fortune.",
+      "keywords": [
+        "benevolent leadership",
+        "public trust",
+        "open-handed giving",
+        "great good fortune",
+        "mutual sincerity"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. In the sixth line, undivided, we see one to whose increase none will contribute, while many will seek to assail him. He observes no regular rule in the ordering of bis heart. There will be evil. XLII, Yt has the opposite meaning to Sun, and is the symbol of addition or increasing. What king Wk had in his mind, in con nexion with the hexagram, was a ruler or a government operating",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：莫益之，或擊之。立心勿恆，凶。"
+        }
+      ],
+      "normalized_meaning": "At the top, if you hoard benefit for yourself and abandon steady principle, allies disappear and attackers gather. Selfish increase becomes downfall.",
+      "keywords": [
+        "isolation at the top",
+        "inviting attack",
+        "loss of support",
+        "unstable heart",
+        "misfortune"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.556820Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 176,
+      "leaf_end": 179,
+      "page_candidates": [
+        "322",
+        "323",
+        "4",
+        "1",
+        "6",
+        "324",
+        "325",
+        "47",
+        "326",
+        "327",
+        "48",
+        "329",
+        "50"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

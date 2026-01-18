@@ -1,0 +1,205 @@
+{
+  "id": "gate.27",
+  "hexagram": "hx27",
+  "center": "Sacral",
+  "circuit": "Tribal / Defence",
+  "programming_partner": "gate.28",
+  "polarity": {
+    "opposite_on_wheel": "gate.28"
+  },
+  "themes": [
+    "caring",
+    "nourishment",
+    "preservation",
+    "custodianship"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "27.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Selfishness",
+        "hd_quote": "The ego-driven first law of caring for oneself which is not necessarily at the expense of others."
+      },
+      "interpretation": {
+        "keywords": [
+          "self-care first",
+          "boundaries",
+          "resource intake"
+        ],
+        "behavioral_axis": "Prioritizes personal fuel so care is sustainable.",
+        "shadow_axis": "Envy or martyrdom when depleted."
+      },
+      "relationship_needs": {
+        "needs_space_to_refuel": true,
+        "rejects_guilt_based_care": true,
+        "requires_clear_boundaries": true
+      },
+      "group_role": "baseline provider (self-maintenance first)",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "27.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Self-sufficiency",
+        "hd_quote": "The obvious law that to give, one must have."
+      },
+      "interpretation": {
+        "keywords": [
+          "resource check",
+          "capacity awareness",
+          "sane giving"
+        ],
+        "behavioral_axis": "Gives from fullness; monitors inflow vs. outflow.",
+        "shadow_axis": "Over-gives, then collapses."
+      },
+      "relationship_needs": {
+        "needs_recognition_of_limits": true,
+        "needs_invitational_requests": true,
+        "rejects_constant_demands": true
+      },
+      "group_role": "capacity assessor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "27.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Greed",
+        "hd_quote": "The obsession with having much more than one needs."
+      },
+      "interpretation": {
+        "keywords": [
+          "overconsumption risk",
+          "trial-and-error care",
+          "impulse control"
+        ],
+        "behavioral_axis": "Learns limits by overshooting.",
+        "shadow_axis": "Takes resources from others; trust erodes."
+      },
+      "relationship_needs": {
+        "needs_room_to_course_correct": true,
+        "partners_must_hold_boundaries": true,
+        "prefers_feedback_over_shame": true
+      },
+      "group_role": "risk tester / limit finder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "27.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Generosity",
+        "hd_quote": "The natural sharing of attained abundance."
+      },
+      "interpretation": {
+        "keywords": [
+          "community support",
+          "sharing surplus",
+          "network care"
+        ],
+        "behavioral_axis": "Channels surplus to those in need.",
+        "shadow_axis": "Indiscriminate giving drains stores."
+      },
+      "relationship_needs": {
+        "needs_trust_without_micromanagement": true,
+        "keeps_strategy_private": false,
+        "resists_forced_generosity": true
+      },
+      "group_role": "resource redistributor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "27.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The executor",
+        "hd_quote": "The ability to distribute effectively the resources of others."
+      },
+      "interpretation": {
+        "keywords": [
+          "logistics",
+          "allocation",
+          "stewardship"
+        ],
+        "behavioral_axis": "Directs resources with principled strategy.",
+        "shadow_axis": "Controls or hoards; blamed for shortfalls."
+      },
+      "relationship_needs": {
+        "needs_clear_mandate": true,
+        "expects_support_for_execution": true,
+        "rejects_blame_without_authority": true
+      },
+      "group_role": "steward / allocator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    },
+    {
+      "id": "27.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Wariness",
+        "hd_quote": "A protection against an abuse of generosity."
+      },
+      "interpretation": {
+        "keywords": [
+          "guardianship",
+          "qualifying need",
+          "abuse prevention"
+        ],
+        "behavioral_axis": "Sets safeguards so caring isn’t exploited.",
+        "shadow_axis": "Overprotects; withholds rightful support."
+      },
+      "relationship_needs": {
+        "needs_long_term_stability": true,
+        "needs_respect_for_vetting": true,
+        "rejects_entitlement": true
+      },
+      "group_role": "gatekeeper / custodian",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "locked"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-29",
+    "status": "locked",
+    "provenance": "Line titles and quotes from Ra Uru Hu, The Complete Rave I’Ching (Jovian Archive, 2001). Interpretations are original."
+  }
+}

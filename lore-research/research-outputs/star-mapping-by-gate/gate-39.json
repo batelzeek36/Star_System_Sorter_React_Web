@@ -1,0 +1,278 @@
+{
+  "39.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Provokes to reclaim choice from stagnation, not to dominate."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Regulates pressure—small, paced tests in a safe container."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Sentinel vibe—tests for predatory weakness and false strength."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clean phrasing makes the challenge receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of poking to force obedience or compliance."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable ordeal—invite courage, not collapse."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle attunement prevents the test from becoming harm."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Personal calibration of pressure; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-39.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "39.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Uses challenge to free stuck will without stealing agency."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places the provocation—right person, moment, and dose."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Checks loyalty and resolve at the threshold."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Frames the challenge with crisp, elegant language."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Temptation to use tests as doctrine or gatekeeping ritual."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Disciplined courage—apply pressure only to elevate."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned support steadies nerves through the push."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled delivery, not yet codified as teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-39.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "39.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Provokes to be saved or noticed—outsourced agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced, erratic pressure breaks the container."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Bullying/status-testing masquerades as strength."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performative edginess over truthful challenge."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Coercive trials used to force conformity."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: refine target, dose, and intent of the test."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement after misfires fosters enmeshment, not growth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error provocation.",
+      "confidence": 5,
+      "sources": ["gate-line-39.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "39.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Strategic challenge frees others from stuck patterns."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds challenge protocols—safe bounds, timing, and debrief."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guards the gate—tests are proportional and fair."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Crisp formulation helps the challenge be heard."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process may ossify into ritualized ordeal."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models clean pressure under scrutiny."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Supportive tone keeps the system regulated."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches challenge protocol by example—how to test without harm.",
+      "confidence": 4,
+      "sources": ["gate-line-39.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "challenge-protocol/coach",
+      "keywords": ["dose", "timing", "debrief"]
+    }
+  },
+  "39.5": {
+    "andromeda": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Uses ordeal to break domination patterns and unlock will."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for trials—scope, consent, and safeguards."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces fair thresholds; no intimidation theatre."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Narrativizes trials so culture can adopt the lesson."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—ordeal becomes doctrine."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity under pressure—tests reveal character, not just compliance."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports recovery and integration."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in ordeal-curriculum—liberation-through-teaching standards.",
+      "confidence": 4,
+      "sources": ["gate-line-39.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "ordeal-curriculum/standards-teacher",
+      "keywords": ["consent", "safeguards", "integration"]
+    }
+  },
+  "39.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodied challenge liberates by presence—press or refrain by truth."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for when, how, and whether to provoke."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as rank gate to 'real tests.'"
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words set the tone of trial."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Canonized ordeal risks law-over-life coercion."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to challenge or withhold by integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: the canon of challenge transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-39.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/challenge-canon",
+      "keywords": ["canon", "thresholds", "ordeal"]
+    }
+  }
+}

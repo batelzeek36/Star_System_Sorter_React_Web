@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 29,
+  "hexagram_name_legge": "Khan",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Khan, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value.",
+  "image_text": null,
+  "addendum": {
+    "type": "commentary",
+    "text": "The trigram Khan, which is doubled to form this hexagram, is the lineal symbol of water. Its meaning, as a character, is 'a pit,' 'a perilous cavity, or defile;' and here and elsewhere in the Yi it leads the reader to think of a dangerous defile, with water flowing through it. It becomes symbolic of danger, and what the authors of the Text had in mind was to show how danger should be encountered, its effect on the mind, and how to get out of it.\n\nThe trigram exhibits a strong central line, between two divided lines. The central represented to king Wan the sincere honesty and goodness of the subject of the hexagram, whose mind was sharpened and made penetrating by contact with danger, and who acted in a manner worthy of his character. It is implied, though the Thwan does not say it, that he would get out of the danger.\n\nLine 1 is weak, at the bottom of the figure, and has no correlate above, no helper, that is, beyond itself. All these things render the case of its subject hopeless. He will by his efforts only involve himself more deeply in danger.\n\nLine 2 is strong, and in the centre. Its subject will do his best, and do it successfully; but this is all that can be said of him. He will make some small escape from the danger. Line 3 is weak, and occupies the place of a strong line. Its subject is in an evil case.\n\nLine 4 is weak, and will get no help from its correlate in 1. Its subject is not one who can avert the danger threatening himself and others. His associated friend in 5 will do this in the end, and their union is represented by the things mentioned,—a bottle of spirits and a subsidiary basket of rice, though there were other things, mentioned in the ritual, but omitted here. Legge thinks this does not fall in with the meaning of the hexagram, as taught in the Thwan; but the Khang-hsi editors say that of all the six lines this is the only one devoted to the exhibition of human virtue; and that we must be ruled by the significance of the Thwan in our interpretation.\n\nLine 5 is strong and central; but it is in the midst of danger. Its subject can only do his part in his situation, and thus it is said he will not err in doing what is right. See the analogue in Appendix I.\n\nLine 6 is weak, and is at the top of the figure. The danger is extreme, and its subject cannot escape. He will for long, 'for three years,' continue in prison and penal servitude."
+  },
+  "full_text": "XXIX. The Khan Hexagram.\n\nKhan, here repeated, shows the possession of sincerity, through which the mind is penetrating. Action (in accordance with this) will be of high value.\n\n1. The first line, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil.\n\n2. The second line, undivided, shows its subject in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks.\n\n3. The third line, divided, shows its subject, whether he comes or goes (= descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case).\n\n4. The fourth line, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a subsidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his important lessons (as his ruler's) intelligence admits. There will in the end be no error.\n\n5. The fifth line, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error.\n\n6. The topmost line, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil.\n\n[APPENDIX I. Thwan]\n\nXXIX. 1. Khan repeated shows us one defile succeeding another.\n\n2. This is the nature of water;—it flows on, without accumulating its volume (so as to overflow); it pursues its way through a dangerous defile, without losing its true (nature).\n\n3. That 'the mind is penetrating' is indicated by the strong (line) in the centre. That 'action (in accordance with this) will be of high value' tells us that advance will be followed by achievement.\n\n4. The dangerous (height) of heaven cannot be ascended; the difficult places of the earth are mountains, rivers, hills, and mounds. Kings and princes arrange, by means of such strengths, to maintain their territories. Great indeed is the use of (what is here) taught about seasons of peril.\n\n[APPENDIX II. Hsiang]\n\nXXIX. (The representation of) water flowing on continuously forms the repeated Khan. The superior man, in accordance with this, maintains constantly the virtue (of his heart) and (the integrity of) his conduct, and practises the business of instruction.\n\n1. 'In the double defile, he enters a cavern within it:'—he has missed his (proper) way, and there will be evil.\n\n2. 'He will get a little (of the deliverance) that he seeks:'—he will not yet escape from his environed position.\n\n3. 'Whether he comes or goes, he is confronted by a defile:'—he will never (in such circumstances) achieve any success.\n\n4. '(Nothing but) a bottle of spirits and a subsidiary basket of rice:'—(these describe) the meeting at this point of (those who are represented by) the strong and weak lines.\n\n5. 'The water in the defile is not full (so as to flow away):'—(the virtue indicated by) the central situation is not yet (sufficiently) great.\n\n6. 'The sixth line, divided, shows its subject missing his (proper) course:'—'there will be evil for three years.'",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject, whether he comes or goes (= descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case)."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a subsidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his important lessons (as his ruler's) intelligence admits. There will in the end be no error."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil."
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,84 @@
+{
+  "gate": 35,
+  "gate_name": "Progress / The Gate of Change",
+  "lines": {
+    "35.1": {
+      "line": 1,
+      "hd_title": "Humility",
+      "hd_quote": "The ability to accept rejection.",
+      "keywords": [
+        "rejection-tolerant",
+        "resilient learner",
+        "non-personalized no"
+      ],
+      "behavioral_axis": "Can take a ‘no’ and keep moving through the experience cycle.",
+      "shadow_axis": "Takes rejection as humiliation; stops seeking new experiences.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "35.2": {
+      "line": 2,
+      "hd_title": "Creative block",
+      "hd_quote": "Lack of inspiration which stops progress.",
+      "keywords": [
+        "boredom as signal",
+        "need for fresh input",
+        "cycle restart"
+      ],
+      "behavioral_axis": "Senses when the experiential strand has run dry and needs renewal.",
+      "shadow_axis": "Forces progress without inspiration → empty motion.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "35.3": {
+      "line": 3,
+      "hd_title": "Collaboration",
+      "hd_quote": "The whole is greater than the sum of its parts.",
+      "keywords": [
+        "progress via others",
+        "cooperative change",
+        "shared experience"
+      ],
+      "behavioral_axis": "Knows progress accelerates through interaction and shared stories.",
+      "shadow_axis": "Insists on being the center and blocks collaborative progress.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "35.4": {
+      "line": 4,
+      "hd_title": "Hunger",
+      "hd_quote": "The insatiable appetite for progress.",
+      "keywords": [
+        "experience-seeking",
+        "restless change",
+        "emotional appetite"
+      ],
+      "behavioral_axis": "Feels ‘it’s time for a change’ and moves the cycle forward.",
+      "shadow_axis": "Change for change’s sake; burns out self and group.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "35.5": {
+      "line": 5,
+      "hd_title": "Altruism",
+      "hd_quote": "The sacrifice of personal for communal progress.",
+      "keywords": [
+        "collective good",
+        "progressive communication",
+        "service orientation"
+      ],
+      "behavioral_axis": "Uses experience and communication to bring beneficial change to the whole.",
+      "shadow_axis": "Resentment when personal expansion feels sacrificed.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "35.6": {
+      "line": 6,
+      "hd_title": "Rectification",
+      "hd_quote": "The energy to correct.",
+      "keywords": [
+        "corrective change",
+        "mature progress",
+        "timely intervention"
+      ],
+      "behavioral_axis": "Applies experience to correct course and crystallize what actually works.",
+      "shadow_axis": "Over-severe correction that meets resistance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

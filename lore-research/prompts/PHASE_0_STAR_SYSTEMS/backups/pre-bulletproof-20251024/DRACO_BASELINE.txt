@@ -1,0 +1,151 @@
+# DRACO BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research DRACO and dragon archetype across cultures. CRITICAL: Separate ancient dragon symbolism from modern conspiracy theories.
+
+## HYPOTHESIS TO VALIDATE
+- Power, control, dominance
+- Hierarchy and royalty
+- Reptilian/dragon archetype
+- Genetic manipulators (disputed)
+- Often misunderstood or polarized as evil (but not inherently so)
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES
+
+### Ancient Dragon Mythology (HIGH ancient support)
+- Chinese: Dragons as wisdom, imperial power, yang energy
+- European: Dragons as guardians of treasure, chaos
+- Mayan: Kukulkan/Quetzalcoatl (feathered serpent)
+- Norse: Níðhöggr, Fáfnir
+- Babylonian: Tiamat (primordial chaos dragon)
+- Hindu/Buddhist: Naga serpents (wisdom, power)
+
+### Astronomical
+- Thuban (Alpha Draconis) - former pole star (3000 BCE)
+- Draco constellation mythology
+
+### Modern Esoteric (CONTROVERSIAL)
+- "The Biggest Secret" by David Icke (1999) - MARK AS DISPUTED
+- "Blue Blood, True Blood" by Stewart Swerdlow
+- Various channeled material on Draco entities
+
+## CRITICAL: Disputed Claims Handling
+
+**David Icke's "reptilian" conspiracy theories are highly controversial.** You MUST:
+1. Include them (they're part of the discourse)
+2. Mark as `disputed: true`
+3. Include counter-evidence or skeptical sources
+4. Note: `source_type: "controversial"`
+
+## SPECIAL FOCUS: Shadow vs Light Draco
+
+Document any sources that distinguish:
+- Shadow Draco (control, manipulation, negative)
+- Light Draco (power, sovereignty, positive)
+- Eastern vs Western dragon duality (wisdom vs evil)
+
+**IMPORTANT:** Do NOT conflate Draco with kundalini - that's a common stretch in the lore community without solid evidence.
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Draco",
+  "characteristics": [
+    {
+      "trait": "Power and hierarchical structure",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "high|medium|low",
+      "evidence_type": "direct|symbolic",
+      "disputed": false,
+      "polarity": "neutral|shadow|light",
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "FULL NAME (translator/editor) - REQUIRED FOR ANCIENT TEXTS",
+          "edition": "EDITION",
+          "year": 1999,
+          "original_year": 1999,
+          "page": "SPECIFIC LOCATION",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "ancient|research|channeled|controversial"
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "Reptilian shapeshifters control world governments",
+      "source": "David Icke",
+      "counter_evidence": "No scientific evidence; widely disputed by mainstream sources",
+      "consensus": "Fringe theory, not academically accepted"
+    }
+  ],
+  "east_west_duality": "Eastern dragons = wisdom/power; Western dragons = chaos/evil",
+  "research_notes": "Ancient dragon myths are solid; modern reptilian theories are controversial"
+}
+```
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include full metadata, translator/editor for ancient texts, specific location, actual quotes (NOT PLACEHOLDERS), URLs, and source type.
+
+⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Ancient dragon myths documented (HIGH ancient support)
+✅ Ancient sources include translator/editor attribution
+✅ Icke material marked as controversial and disputed
+✅ Shadow vs Light Draco distinguished
+✅ East vs West dragon duality noted
+✅ Kundalini NOT conflated with Draco (common stretch to avoid)
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information and URLs included
+
+**If unverifiable claims exist**, note in `research_notes`.
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), ancient myths separated from modern conspiracy theories.**

@@ -1,0 +1,191 @@
+{
+  "id": "center.root",
+  "name": "Root",
+  "awareness": "pressure (adrenal drive) — motor + pressure, not an awareness center",
+  "biological_themes": [
+    "Adrenal glands / cortisol response (start–stop pressure)",
+    "Kidneys and lower spine / pelvic root stabilization",
+    "Fight–flight–freeze activation (somatic stress → movement or stillness)",
+    "Hormonal timing for cycles of work, growth, and mutation"
+  ],
+  "fears": [
+    {
+      "id": "root.fear.of.not.starting",
+      "label": "Fear of not being able to start",
+      "description": "Stress about never launching or getting moving, even when the cycle is correct.",
+      "primary_gates": ["gate.53", "gate.41"]
+    },
+    {
+      "id": "root.fear.of.not.finishing",
+      "label": "Fear of not completing the experience",
+      "description": "Pressure to see something through so the body can relax again.",
+      "primary_gates": ["gate.41", "gate.60"]
+    },
+    {
+      "id": "root.fear.of.limitation",
+      "label": "Fear of limitation / restriction",
+      "description": "Anxiety that life will stay tight, slow, or blocked.",
+      "primary_gates": ["gate.60", "gate.52"]
+    },
+    {
+      "id": "root.fear.of.need",
+      "label": "Fear of need / dependency",
+      "description": "Stress about having needs (or the tribe’s needs) that might not be met.",
+      "primary_gates": ["gate.19"]
+    },
+    {
+      "id": "root.fear.of.not.progressing",
+      "label": "Fear of stagnation",
+      "description": "Restlessness that demands improvement, correction, or challenge.",
+      "primary_gates": ["gate.58", "gate.38"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.41",
+      "name": "41 — Decrease / Contraction (Gate of Imagination)",
+      "circuitry": "Collective (Abstract) – Root → Solar Plexus (41–30)",
+      "pressure_theme": "Pressure to begin an emotional experience or cycle.",
+      "fear": "fear of not getting the experience",
+      "quotes": [
+        "“The Root fuels the start of a cycle.”",
+        "“41 is the start codon of experience.”"
+      ],
+      "notes": "41 is the only ‘start-codon’ gate: it narrows possibilities to one experience. Healthy 41 waits for clarity (Solar Plexus). Not-self 41 chases fantasy.",
+      "sources": [
+        "Rave I’Ching – Hexagram 41",
+        "Jovian Archive – Root Center mechanics"
+      ]
+    },
+    {
+      "id": "gate.58",
+      "name": "58 — The Joyous",
+      "circuitry": "Collective (Logic) – Root → Spleen (58–18)",
+      "pressure_theme": "Pressure to correct, improve, and bring more vitality.",
+      "fear": "fear of stagnation / no improvement",
+      "quotes": [
+        "“Pressure to perfect what is.”",
+        "“Joy in aliveness and correction.”"
+      ],
+      "notes": "58 is the motor behind the Channel of Judgment (58–18). It wants things to be better, healthier, more joyful. Distortion → chronic criticism.",
+      "sources": [
+        "Rave I’Ching – Hexagram 58",
+        "HD material on the Understanding Circuit"
+      ]
+    },
+    {
+      "id": "gate.38",
+      "name": "38 — Opposition (The Fighter)",
+      "circuitry": "Individual (Knowing) – Root → Spleen (38–28)",
+      "pressure_theme": "Pressure to find a purpose worth fighting for.",
+      "fear": "fear of life without purpose",
+      "quotes": [
+        "“The gate of the fighter.”",
+        "“Struggle must be meaningful.”"
+      ],
+      "notes": "38 supplies individual stubbornness. With 28, it fights death/emptiness. Not-self 38 fights everything; correct 38 fights only what is worth it.",
+      "sources": [
+        "Rave I’Ching – Hexagram 38",
+        "Jovian Archive – Individual circuit, struggle stream"
+      ]
+    },
+    {
+      "id": "gate.54",
+      "name": "54 — The Marrying Maiden (Ambition)",
+      "circuitry": "Tribal (Ego) – Root → Spleen (54–32)",
+      "pressure_theme": "Pressure to rise up the material/spiritual ladder.",
+      "fear": "fear of never advancing",
+      "quotes": [
+        "“The fuel for ambition.”",
+        "“Aspiration to transform.”"
+      ],
+      "notes": "54 is the fuel; 32 is the instinct to transform it. It can be purely material or deeply spiritual. Distortion → chasing status for its own sake.",
+      "sources": [
+        "Rave I’Ching – Hexagram 54",
+        "Jovian – Tribal transformation channel 54–32"
+      ]
+    },
+    {
+      "id": "gate.53",
+      "name": "53 — Development (Beginnings)",
+      "circuitry": "Collective (Abstract) – Root → Sacral (53–42)",
+      "pressure_theme": "Pressure to begin a new cycle or project.",
+      "fear": "fear of never getting it started",
+      "quotes": [
+        "“The gate of beginnings.”",
+        "“Fuel to start the process.”"
+      ],
+      "notes": "53 starts; 42 finishes. Not-self 53 starts too many things and burns the adrenals. Correct 53 waits for response/invitation before initiating.",
+      "sources": [
+        "Rave I’Ching – Hexagram 53",
+        "Jovian Archive – Format energy of cycles"
+      ]
+    },
+    {
+      "id": "gate.60",
+      "name": "60 — Limitation",
+      "circuitry": "Individual (Knowing) – Root → Sacral (60–3)",
+      "pressure_theme": "Pressure through limitation → mutation.",
+      "fear": "fear of permanent limitation",
+      "quotes": [
+        "“Acceptance of limitation is the first step.”",
+        "“Fuel for mutation.”"
+      ],
+      "notes": "60 provides the ‘gate’ that keeps mutation sane. Without accepting limits, mutation is chaotic. With 3 it becomes structured innovation.",
+      "sources": [
+        "Rave I’Ching – Hexagram 60",
+        "HD individual circuit / mutative pulse teachings"
+      ]
+    },
+    {
+      "id": "gate.52",
+      "name": "52 — Keeping Still (The Mountain)",
+      "circuitry": "Collective (Logic) – Root → Ajna (52–9)",
+      "pressure_theme": "Pressure to be still and focus.",
+      "fear": "fear of being stuck",
+      "quotes": [
+        "“The gate of inaction for evaluation.”",
+        "“Root pressure to concentrate.”"
+      ],
+      "notes": "52 is the still mountain. It *immobilizes* so the mind (9) can focus. Distortion → paralysis or apathy. Correct → calm, steady attention.",
+      "sources": [
+        "Rave I’Ching – Hexagram 52",
+        "Jovian Archive – Logic and concentration"
+      ]
+    },
+    {
+      "id": "gate.19",
+      "name": "19 — Approach (Neediness)",
+      "circuitry": "Tribal (Defense) – Root → Solar Plexus (19–49)",
+      "pressure_theme": "Pressure to have needs met and to bond.",
+      "fear": "fear of rejection / lack of resources",
+      "quotes": [
+        "“The gate of wanting.”",
+        "“Fuel for social and material needs.”"
+      ],
+      "notes": "19 is hypersensitive to resources, animals, people. With 49 it brings the whole social bargain into form. Distortion → emotional/empathic overwhelm.",
+      "sources": [
+        "Rave I’Ching – Hexagram 19",
+        "HD tribal defense circuit material"
+      ]
+    },
+    {
+      "id": "gate.39",
+      "name": "39 — Obstruction (Provocation)",
+      "circuitry": "Individual (Knowing) – Root → Solar Plexus (39–55)",
+      "pressure_theme": "Pressure to provoke spirit / mood change.",
+      "fear": "fear of emotional deadness",
+      "quotes": [
+        "“The gate of provocation.”",
+        "“Fuel to stir the spirit.”"
+      ],
+      "notes": "39 pokes the spirit to wake it up. With 55 it creates the mood/spirit wave. Distortion → provoking the wrong people, wrong time.",
+      "sources": [
+        "Rave I’Ching – Hexagram 39",
+        "Jovian Archive – 39–55 Emoting / Spirit"
+      ]
+    }
+  ],
+  "notes": "The Root Center is the body’s **stress-and-timing motor**. It pushes *upward* into the chart, sending physical pressure to move, begin, mutate, improve, or connect. It is **not** trying to solve mental problems — it is trying to **discharge pressure**.\n\nKey Jovian-style lines (< 25 words):\n- “The Root is a motor and a pressure center.”\n- “Pressure rises from below.”\n- “You are not here to live under constant stress.”\n- “Wait for your Strategy & Authority to release Root pressure correctly.”\n\nDefined Root → consistent access to stress fuel, often misread as urgency. Undefined / open Root → **amplifies** others’ stress and hurries to get rid of it. Core not-self pattern: doing things fast just to feel *done*, not because they are correct.",
+  "last_updated": "2025-11-01"
+}

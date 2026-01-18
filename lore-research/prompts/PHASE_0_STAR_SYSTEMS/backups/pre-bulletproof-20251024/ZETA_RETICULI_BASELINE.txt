@@ -1,0 +1,150 @@
+# ZETA RETICULI BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research ZETA RETICULI entities from UFO lore, channeling, and regression material. Note: Ancient support = NONE (modern phenomenon only).
+
+## HYPOTHESIS TO VALIDATE
+- Emotionally detached intelligence
+- Genetic researchers / experimenters
+- Interdimensional abductors (neutral to negative)
+- Timeline engineers
+- Carry karmic debt from past implosions
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES
+
+### Astronomical Facts (SOLID)
+- Zeta Reticuli binary star system (~39 light-years from Earth)
+- Not visible to naked eye (requires telescope)
+- Therefore: NO ancient references possible
+
+### UFO Lore (DISPUTED)
+- Betty and Barney Hill case (1961) - star map
+- Marjorie Fish analysis (1969) - attempted star map match
+- Counter-evidence: Hipparcos satellite data (1990s) undercuts Fish's match
+- Mark Hill star map as `disputed: true`
+
+### Modern Channeled Material
+- Bashar (Darryl Anka) - Zeta-human hybrid perspective
+- "The Prism of Lyra" by Lyssa Royal (Zeta hybrid programs)
+- Dolores Cannon regression sessions
+
+### UFO Research
+- "The Threat" by David Jacobs (1998)
+- "Communion" by Whitley Strieber (1987)
+- Abduction literature (various authors)
+
+## CRITICAL: Hill Star Map Dispute
+
+**Betty Hill's star map is academically disputed:**
+- Supporting: Marjorie Fish's 1969 analysis
+- Counter: Later Hipparcos data shows Fish's match was incorrect
+- Mark as `disputed: true` with counter-evidence
+
+## SPECIAL FOCUS: Evolution of Zeta Narrative
+
+Document if sources show:
+- Original Zeta (emotionally detached, abductors)
+- Hybrid programs (Essassani, more benevolent)
+- Karmic redemption themes
+- Timeline engineering claims
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Zeta Reticuli",
+  "characteristics": [
+    {
+      "trait": "Analytical and emotionally detached",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "edition": "EDITION",
+          "year": 1961,
+          "original_year": 1961,
+          "page": "Case Report" or "Chapter 3, pp. 45-50",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "ufo_lore|channeled|research"
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "Betty Hill's star map matches Zeta Reticuli",
+      "supporting_source": "Marjorie Fish (1969)",
+      "counter_evidence": "Hipparcos satellite data (1990s) shows Fish's match was incorrect",
+      "consensus": "Disputed; not scientifically validated"
+    }
+  ],
+  "hybrid_evolution": "Summary of Zeta → Essassani hybrid narrative if found",
+  "research_notes": "Modern UFO lore only; no ancient support possible (not visible to naked eye)"
+}
+```
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include full metadata, translator/editor if applicable, specific location, actual quotes (NOT PLACEHOLDERS), URLs, and source type.
+
+⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ Hill star map marked as disputed with counter-evidence
+✅ Ancient support explicitly noted as NONE
+✅ Astronomical facts separated from ET claims
+✅ Hybrid program evolution documented
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information and URLs included
+
+**If unverifiable claims exist**, note in `research_notes`.
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), Hill map dispute noted, ancient support = none.**

@@ -1,0 +1,55 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 53,
+  "hexagram_name_legge": "Kien",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "/Lien suggests to us the marriage of a young lady, and the good fortune (attending it). There will be advantage in being firm and correct.",
+  "image_text": "(The trigram representing) a mountain and above it that for a tree form Afien. The superior man, in accordance with this, attains to and maintains his extraordinary virtue, and makes the manners of the people good.",
+  "addendum": {
+    "type": "commentary",
+    "text": "/Tien is ordinarily used in the sense of gradually; but there is connected with that the idea also of progress or advance, The element of meaning in the character is the symbol of water; and the whole of it denotes gradual advance, like the soaking in of water. Three hexagrams contain in them the idea of advance,—gin (35), Shang (46), and this /Tien; but each has its peculiarity of meaning, and that of /Tien is the gradual manner in which the advance takes place. The subject then of the hexagram is the advance of men to offices in the state, how it should take place gradually and by successive steps, as well as on certain other conditions that may be gathered from the Text."
+  },
+  "full_text": "LIII. The /Lien Hexagram.\n\n/Lien suggests to us the marriage of a young lady, and the good fortune (attending it). There will be advantage in being firm and correct.\n\n1. The first line, divided, shows the wild geese gradually approaching the shore. A young officer (in similar circumstances) will be in a position of danger, and be spoken against; but there will be no error.\n\n2. The second line, divided, shows the geese gradually approaching the large rocks, where they eat and drink joyfully and at ease. There will be good fortune.\n\n3. The third line, undivided, shows them gradually advanced to the dry plains. (It suggests also the idea of) a husband who goes on an expedition from which he does not return, and of a wife who is pregnant, but will not nourish her child. There will be evil. (The case symbolised) might be advantageous in resisting plunderers.\n\n4. The fourth line, divided, shows the geese gradually advanced to the trees. They may light on the flat branches. There will be no error.\n\n5. The fifth line, undivided, shows the geese gradually advanced to the high mound. (It suggests the idea of) a wife who for three years does not become pregnant; but in the end the natural issue cannot be prevented. There will be good fortune.\n\n6. The sixth line, undivided, shows the geese gradually advanced to the large heights (beyond). Their feathers can be used as ornaments. There will be good fortune.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows the wild geese gradually approaching the shore. A young officer (in similar circumstances) will be in a position of danger, and be spoken against; but there will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows the geese gradually approaching the large rocks, where they eat and drink joyfully and at ease. There will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows them gradually advanced to the dry plains. (It suggests also the idea of) a husband who goes on an expedition from which he does not return, and of a wife who is pregnant, but will not nourish her child. There will be evil. (The case symbolised) might be advantageous in resisting plunderers."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows the geese gradually advanced to the trees. They may light on the flat branches. There will be no error."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows the geese gradually advanced to the high mound. (It suggests the idea of) a wife who for three years does not become pregnant; but in the end the natural issue cannot be prevented. There will be good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, undivided, shows the geese gradually advanced to the large heights (beyond). Their feathers can be used as ornaments. There will be good fortune."
+    }
+  ],
+  "notes": [
+    "Legge uses '/Lien' for the romanization of this hexagram name.",
+    "The hexagram depicts gradual progress, illustrated through the metaphor of wild geese progressively advancing through different landscapes.",
+    "The commentary explains this represents the gradual advance of men to offices in the state."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "hx27",
+  "number": 27,
+  "unicode_hexagram": "䷚",
+  "name": "Nourishment / Corners of the Mouth (頤, Yí)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "I indicates that with firm correctness there will be good fortune fin what is denoted by it). We must look at what we are seeking to nourish, and by the exercise of our thoughts seek for the proper aliment. 1. The first line, undivided, (seems to be thus addressed), 'You leave your efficacious tortoise, and look at me till your lower jaw hangs down.’ There will be evil. 2. The second line, divided, shows one looking downwards for nourishment, which is contrary to what is proper; or seeking it from the height (above), advance towards which will lead to evil. 3. The third line, divided, shows one acting con trary to the method of nourishing. However firm he may be, there will be evil. For ten years let him not take any action, (for) it will not be in any way advantageous. A boar is a powerful and dangerous animal. Let him be cas trated, and though his tusks remain, he cares little to use them. Heie line 5 represents the ruler in the hexagram, whose work is to repress the advance of evil. A conflict with the subject of the strong second line in its advance would be perilous; but 5, taking early precaution, reduces it to the condition of the castrated pig. Not only is there no evil, but there is good fortune. The work of repression is over, and the strong subject of line 6 _ias now the amplest scope to carry out the idea of the hexagram m the accumulation of virtue. sect. 1. 4. The fourth line, divided, shows one looking downwards for (the power to) nourish. There will be good fortune. Looking with a tiger’s downward unwavering glare, and with his desire that impels him to spring after spring, he will fall into no error. 5* The fifth line, divided, shows one acting con trary to what is regular and proper; but if he abide in firmness, there will be good fortune. He should not, (however, try to) cross the great stream. 6. The sixth line, undivided, shows him from whom comes the nourishing. His position is perilous, but there will be good fortune. It will be advantageous to cross the great stream. XXVII. I is the symbol of the upper jaw, and gives name to the hexagram; but the whole figure suggests the appearance of the mouth. There are the two undivided lines at the bottom and top, and the four divided lines between them. The first line is the first in the trigram Aan, denoting movement; and the sixth is the third in Alan, denoting what is solid. The former is the lower jaw, part of the mobile chin; and the other the more fixed upper jaw, The open lines are the cavity of the mouth. As the name of the hexagram, I denotes nourishing,—one's body or mind, one’s self or others. The nourishment in both the matter and method will differ according to the object of it; and every one must deter mine what to employ and do in every case by exercising his own thoughts, only one thing being premised,—that in both respects the nourishing must be correct, and in harmony with what is right. The auspice of the whole hexagram is good. The first line is strong, and in its proper place; its subject might suffice for the nourishing of himself, like a tortoise, which is sup posed to live on air, without more solid nourishment. But he is drawn out of himself by desire for the weak 4, his proper correlate, at whom he looks till his jaw hangs down, or, as we say, his mouth waters. Hence the auspice is bad. The symbolism takes the form of an expostulation addressed, we must suppose, by the fourth line to the first, The weak 2, insufficient for itself, seeks nourishment first from THE Yf KING. TF.XT, THE TA KWO HEXAGRAM. Il6 _____ _ j,",
+    "normalized_summary": "Right nourishment is not just food — it's how you feed body, mind, character, and those who depend on you. When nourishment is upright and consciously sourced, it brings good fortune. Begging, flattering, grasping, or feeding corruption poisons the whole system."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, undivided, (seems to be thus addressed), 'You leave your efficacious tortoise, and look at me till your lower jaw hangs down.’ There will be evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：舍爾靈龜，觀我朵頤，凶."
+        }
+      ],
+      "normalized_meaning": "You drop your own inner source of sustenance and start craving what someone else appears to have. That hungry envy is dangerous.",
+      "keywords": [
+        "envy of others' resources",
+        "abandoning inner wisdom",
+        "improper desire",
+        "dependence",
+        "misfortune"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, divided, shows one looking downwards for nourishment, which is contrary to what is proper; or seeking it from the height (above), advance towards which will lead to evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：顛頤，拂經，于丘頤，征凶。"
+        }
+      ],
+      "normalized_meaning": "Scrambling for support in the wrong place — flattering up, begging down — warps integrity. Chasing nourishment like that leads to trouble.",
+      "keywords": [
+        "misaligned seeking",
+        "improper dependence",
+        "social grasping",
+        "loss of integrity",
+        "approaching danger"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. The third line, divided, shows one acting con trary to the method of nourishing. However firm he may be, there will be evil. For ten years let him not take any action, (for) it will not be in any way advantageous. A boar is a powerful and dangerous animal. Let him be cas trated, and though his tusks remain, he cares little to use them. Heie line 5 represents the ruler in the hexagram, whose work is to repress the advance of evil. A conflict with the subject of the strong second line in its advance would be perilous; but 5, taking early precaution, reduces it to the condition of the castrated pig. Not only is there no evil, but there is good fortune. The work of repression is over, and the strong subject of line 6 _ias now the amplest scope to carry out the idea of the hexagram m the accumulation of virtue. sect. 1.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：拂頤，貞凶。十年勿用，無攸利。"
+        }
+      ],
+      "normalized_meaning": "You keep feeding yourself in a way that’s fundamentally wrong and double down out of stubborn pride. That path stays bad for a long time; suspend action.",
+      "keywords": [
+        "stubborn misnourishment",
+        "bad habits",
+        "long-term stagnation",
+        "pause activity",
+        "danger even if 'principled'"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, divided, shows one looking downwards for (the power to) nourish. There will be good fortune. Looking with a tiger’s downward unwavering glare, and with his desire that impels him to spring after spring, he will fall into no error. 5* The fifth line, divided, shows one acting con trary to what is regular and proper; but if he abide in firmness, there will be good fortune. He should not, (however, try to) cross the great stream.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：顛頤，吉；虎視眈眈，其欲逐逐，無咎。"
+        }
+      ],
+      "normalized_meaning": "You take responsibility for feeding others below you. Steady, watchful focus — like a tiger locked in — brings good fortune and no blame.",
+      "keywords": [
+        "responsible stewardship",
+        "focused vigilance",
+        "proper care of dependents",
+        "no blame",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth SIX, divided, shows one acting contrary to what is regular and proper; but if he abide in firmness, there will be good fortune. He should not, (however, try to) cross the great stream.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：拂經，居貞吉，不可涉大川。"
+        }
+      ],
+      "normalized_meaning": "Your way of providing isn't standard, maybe even awkward — but if you hold to inner correctness, it’s still auspicious. Just don’t overextend into high-risk moves.",
+      "keywords": [
+        "imperfect method",
+        "inner firmness",
+        "qualified good fortune",
+        "know your limits",
+        "do not overreach"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The sixth line, undivided, shows him from whom comes the nourishing. His position is perilous, but there will be good fortune. It will be advantageous to cross the great stream. XXVII. I is the symbol of the upper jaw, and gives name to the hexagram; but the whole figure suggests the appearance of the mouth. There are the two undivided lines at the bottom and top, and the four divided lines between them. The first line is the first in the trigram Aan, denoting movement; and the sixth is the third in Alan, denoting what is solid. The former is the lower jaw, part of the mobile chin; and the other the more fixed upper jaw, The open lines are the cavity of the mouth. As the name of the hexagram, I denotes nourishing,—one's body or mind, one’s self or others. The nourishment in both the matter and method will differ according to the object of it; and every one must deter mine what to employ and do in every case by exercising his own thoughts, only one thing being premised,—that in both respects the nourishing must be correct, and in harmony with what is right. The auspice of the whole hexagram is good. The first line is strong, and in its proper place; its subject might suffice for the nourishing of himself, like a tortoise, which is sup posed to live on air, without more solid nourishment. But he is drawn out of himself by desire for the weak 4, his proper correlate, at whom he looks till his jaw hangs down, or, as we say, his mouth waters. Hence the auspice is bad. The symbolism takes the form of an expostulation addressed, we must suppose, by the fourth line to the first, The weak 2, insufficient for itself, seeks nourishment first from THE Yf KING. TF.XT, THE TA KWO HEXAGRAM. Il6 _____ _ j,",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：由頤，厲吉，利涉大川。"
+        }
+      ],
+      "normalized_meaning": "You become the source of nourishment itself. The role is demanding and risky, but if you accept that weight cleanly, you can lead great undertakings.",
+      "keywords": [
+        "true provider",
+        "leadership burden",
+        "high stakes",
+        "good fortune through service",
+        "major undertaking"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.550771Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 130,
+      "leaf_end": 133,
+      "page_candidates": [
+        "230",
+        "22",
+        "9",
+        "2",
+        "1",
+        "23",
+        "I",
+        "234",
+        "235",
+        "27",
+        "236",
+        "37",
+        "30"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "center.solar_plexus",
+  "name": "Solar Plexus",
+  "awareness": "emotional (wave awareness) — awareness in time, not in the now",
+  "biological_themes": [
+    "Autonomic nervous system (sympathetic/parasympathetic emotional charge)",
+    "Digestive tract around the solar plexus (gut–emotion linkage)",
+    "Pancreas / liver involvement in sugar–mood regulation",
+    "Vagal pathways mediating social/emotional bonding signals"
+  ],
+  "fears": [
+    {
+      "id": "solar_plexus.fear.of.confrontation",
+      "label": "Fear of confrontation / truth",
+      "description": "Anxiety about emotional honesty, conflict, or intimacy that could change the relationship.",
+      "primary_gates": ["gate.6", "gate.49"]
+    },
+    {
+      "id": "solar_plexus.fear.of.rejection",
+      "label": "Fear of rejection / exclusion",
+      "description": "Worry that emotional needs or principles will get you cast out.",
+      "primary_gates": ["gate.37", "gate.49"]
+    },
+    {
+      "id": "solar_plexus.fear.of.turbulence",
+      "label": "Fear of emotional turbulence",
+      "description": "Stress about emotional crises, mood swings, and ‘too much’ feeling.",
+      "primary_gates": ["gate.36", "gate.30"]
+    },
+    {
+      "id": "solar_plexus.fear.of.spiritual.emptiness",
+      "label": "Fear of spiritual emptiness",
+      "description": "A wave-based anxiety that the spirit will not be met or recognized.",
+      "primary_gates": ["gate.55"]
+    },
+    {
+      "id": "solar_plexus.fear.of.losing.grace",
+      "label": "Fear of losing grace / charm",
+      "description": "Concern that mood won’t support openness or social ease.",
+      "primary_gates": ["gate.22"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.6",
+      "name": "6 — Friction (Conflict / Intimacy)",
+      "circuitry": "Tribal (Defense) – Sacral 59 ↔ Solar Plexus 6",
+      "emotional_theme": "Establishing and maintaining emotional/sexual boundaries.",
+      "wave": "Tribal wave (needs, touch, connection)",
+      "quotes": [
+        "The gate of intimacy and conflict.",
+        "Emotional clarity before entering."
+      ],
+      "notes": "6 is the door for emotional/sexual contact. It says yes/no based on the wave. Distortion → premature contact → drama. Correct → wait for clarity.",
+      "sources": [
+        "Rave I’Ching – Hexagram 6",
+        "Jovian Archive – Solar Plexus as motor/awareness"
+      ]
+    },
+    {
+      "id": "gate.22",
+      "name": "22 — Openness (Grace)",
+      "circuitry": "Individual (Knowing) – 12/22 social mutative",
+      "emotional_theme": "Mood-based openness to social interaction and artistry.",
+      "wave": "Individual wave (melancholy → inspiration → expression)",
+      "quotes": [
+        "The gate of grace.",
+        "Mood determines openness."
+      ],
+      "notes": "22 must honor its mood. With 12 at the Throat, it speaks beautifully when the wave is right. Not-self tries to be charming all the time.",
+      "sources": [
+        "Rave I’Ching – Hexagram 22",
+        "Standard HD material on 22–12"
+      ]
+    },
+    {
+      "id": "gate.37",
+      "name": "37 — Friendship / The Family",
+      "circuitry": "Tribal (Defense) – 37 ↔ 40",
+      "emotional_theme": "Emotional warmth, touch, and belonging in the tribe.",
+      "wave": "Tribal wave (needs → bargain → peace)",
+      "quotes": [
+        "The gate of the family.",
+        "Emotional bonds and touch."
+      ],
+      "notes": "37 wants a fair, human deal. It meets Gate 40’s will to work. Distortion → guilt or emotional blackmail when the bargain fails.",
+      "sources": [
+        "Rave I’Ching – Hexagram 37",
+        "Jovian Archive – Tribal Defense circuit"
+      ]
+    },
+    {
+      "id": "gate.49",
+      "name": "49 — Principles / Revolution",
+      "circuitry": "Tribal (Defense) – 19 ↔ 49",
+      "emotional_theme": "Emotional laws, principles, and who is ‘in’ or ‘out.’",
+      "wave": "Tribal wave (sensitivity → judgment → reform)",
+      "quotes": [
+        "The gate of principles.",
+        "Revolution when needs aren’t met."
+      ],
+      "notes": "49 tests loyalty and need fulfillment. If principles are violated, it can end the bond. Distortion → rejection from mood, not from clarity.",
+      "sources": [
+        "Rave I’Ching – Hexagram 49",
+        "Jovian Archive – 19–49 social bargain"
+      ]
+    },
+    {
+      "id": "gate.55",
+      "name": "55 — Abundance / Spirit",
+      "circuitry": "Individual (Knowing) – 39 ↔ 55",
+      "emotional_theme": "Emotional abundance, spirit, and mood-based freedom.",
+      "wave": "Individual wave (mood → spirit → melancholy → creative depth)",
+      "quotes": [
+        "The gate of spirit.",
+        "Abundance is a mood."
+      ],
+      "notes": "55 is pure emotional mutative power. With 39 it gets provoked into spirit. Distortion → thinking money/people will fix mood. Correct → ride the wave.",
+      "sources": [
+        "Rave I’Ching – Hexagram 55",
+        "Jovian Archive – Solar Plexus mutation teachings"
+      ]
+    },
+    {
+      "id": "gate.30",
+      "name": "30 — Clinging Fire (Feelings / Desire)",
+      "circuitry": "Collective (Abstract) – 41 ↔ 30",
+      "emotional_theme": "Intense desire to have the experience.",
+      "wave": "Collective abstract wave (feeling → crisis → meaning)",
+      "quotes": [
+        "The gate of feelings and desire.",
+        "Desire fuels experience."
+      ],
+      "notes": "30 binds us to what 41 began. It amplifies feeling and can dramatize outcomes. Correct → accept the rise/fall of the wave.",
+      "sources": [
+        "Rave I’Ching – Hexagram 30",
+        "Jovian Archive – 41–30 experiential stream"
+      ]
+    },
+    {
+      "id": "gate.36",
+      "name": "36 — Crisis / The Darkening of the Light",
+      "circuitry": "Collective (Abstract) – 35 ↔ 36",
+      "emotional_theme": "Emotional turbulence that seeks experience and change.",
+      "wave": "Collective abstract wave (from rest → chaos → new normal)",
+      "quotes": [
+        "The gate of crisis.",
+        "Emotional turbulence in experience."
+      ],
+      "notes": "36 needs experience to discharge the wave. With 35, it is the whole ‘adventure and mess’ channel. Distortion → creating drama to feel alive.",
+      "sources": [
+        "Rave I’Ching – Hexagram 36",
+        "Jovian Archive – 35–36 Channel of Transitoriness"
+      ]
+    }
+  ],
+  "notes": "The Solar Plexus is both a motor and an emerging awareness. It does not know in the now — it knows over time as the wave stabilizes. Classic instruction: if your Solar Plexus is defined, **wait for emotional clarity** before decisions.\n\nThree main waves:\n1. Tribal (needs, touch, inclusion, fair bargain)\n2. Individual (mood, spirit, melancholy → creativity)\n3. Collective/abstract (experience, drama, meaning)\n\nKey lines (< 25 words):\n- “The Solar Plexus is the emotional authority for humanity.”\n- “Clarity never comes in the now.”\n- “Ride the wave before deciding.”\n- “Emotions are chemistry; let it change.”",
+  "last_updated": "2025-11-01"
+}

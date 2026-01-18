@@ -1,0 +1,206 @@
+{
+  "id": "gate.7",
+  "hexagram": "hx07",
+  "center": "G",
+  "circuit": "Collective / Understanding",
+  "programming_partner": "gate.13",
+  "polarity": {
+    "opposite_on_wheel": "gate.13"
+  },
+  "themes": [
+    "collective leadership",
+    "direction & governance",
+    "selected/elected authority",
+    "power behind the throne",
+    "patterned guidance"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "7.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The Authoritarian",
+        "hd_quote": "The capacity of the Self to insist that its authority is best."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational authority",
+          "definitive direction",
+          "command presence"
+        ],
+        "behavioral_axis": "Establishes firm direction; expects compliance to the pattern.",
+        "shadow_axis": "Overbearing; assumes leadership without consensus."
+      },
+      "relationship_needs": {
+        "needs_recognized_authority": true,
+        "rejects_second_guessing": true,
+        "benefits_from_clear_mandates": true
+      },
+      "group_role": "decisive initiator / pattern setter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "7.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Democrat",
+        "hd_quote": "The capacity of the Self to lead when chosen."
+      },
+      "interpretation": {
+        "keywords": [
+          "selected leadership",
+          "recognized guidance",
+          "humble authority"
+        ],
+        "behavioral_axis": "Leads naturally once elected or invited.",
+        "shadow_axis": "Feels superior once chosen; loses touch with base."
+      },
+      "relationship_needs": {
+        "needs_invitational_leadership_not_orders": true,
+        "needs_respect_for_selection_process": true,
+        "avoids_forced_leadership": true
+      },
+      "group_role": "elected guide / spokesperson",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "7.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Anarchist",
+        "hd_quote": "The rejection of any institutionalized order."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error leadership",
+          "anti-institution",
+          "counter-pattern"
+        ],
+        "behavioral_axis": "Tests structures; refuses roles that feel imposed.",
+        "shadow_axis": "Alienates allies; chaos instead of reform."
+      },
+      "relationship_needs": {
+        "needs_room_to_rewrite_rules": true,
+        "partners_must_handle_course_changes": true,
+        "rejects_rigid_hierarchies": true
+      },
+      "group_role": "reformer / structure tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "7.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Abdicator",
+        "hd_quote": "The capacity of the Self to accept the judgment of others."
+      },
+      "interpretation": {
+        "keywords": [
+          "term-limited service",
+          "graceful exit",
+          "lawful deference"
+        ],
+        "behavioral_axis": "Steps down when the mandate ends; respects rule of law.",
+        "shadow_axis": "Clings to power; breeds revolt."
+      },
+      "relationship_needs": {
+        "needs_clear_mandate_limits": true,
+        "rejects_personality_cults": true,
+        "prefers_process_over_ego": true
+      },
+      "group_role": "lawful steward / mandate respecter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "7.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The General",
+        "hd_quote": "The commander isolated from his troops and obsessed with victory at any price."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected savior",
+          "crisis leadership",
+          "visibility pressure"
+        ],
+        "behavioral_axis": "Carries mass projections to lead in crisis.",
+        "shadow_axis": "Withdraws when needed; isolates and loses loyalty."
+      },
+      "relationship_needs": {
+        "needs_clear_expectation_boundaries": true,
+        "expects_support_not_projection": true,
+        "rejects_savior_roles": true
+      },
+      "group_role": "crisis commander / projected leader",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "7.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Administrator",
+        "hd_quote": "The capacity of the Self through its role to communicate responsibility."
+      },
+      "interpretation": {
+        "keywords": [
+          "apportions power",
+          "systems view",
+          "framework communication"
+        ],
+        "behavioral_axis": "Shares power wisely; articulates roles and responsibilities.",
+        "shadow_axis": "Bureaucratic power-hoarding; administration over service."
+      },
+      "relationship_needs": {
+        "needs_shared_mission": true,
+        "needs_long_horizon": true,
+        "rejects_short_term_drama": true
+      },
+      "group_role": "systems steward / power allocator",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
+}

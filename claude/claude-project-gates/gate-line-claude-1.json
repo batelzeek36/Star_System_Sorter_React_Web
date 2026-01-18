@@ -1,0 +1,84 @@
+{
+  "gate": 1,
+  "gate_name": "The Creative",
+  "lines": {
+    "1.1": {
+      "line": 1,
+      "hd_title": "Creation is independent of will",
+      "hd_quote": "Time is everything. You have to wait for it and there is nothing that you can do.",
+      "keywords": [
+        "waits for creative timing",
+        "protects non-interference",
+        "refuses to force output"
+      ],
+      "behavioral_axis": "Waits for creative impulses without forcing them, surrendering to mutation's timing rather than willpower.",
+      "shadow_axis": "Tries to control creative output through ego and willpower, becoming unstable and distorted when pushing revolution.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "1.2": {
+      "line": 2,
+      "hd_title": "Love is light",
+      "hd_quote": "The required harmony between established values and ideals that enriches inspiration.",
+      "keywords": [
+        "natural uniqueness",
+        "called out by others",
+        "withdraws when not recognized"
+      ],
+      "behavioral_axis": "Naturally embodies unique creative expression, called out when others recognize this innate difference.",
+      "shadow_axis": "Gets interfered with by others who pump up the ego, placing desire and passion into uniqueness instead of letting it unfold naturally.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "1.3": {
+      "line": 3,
+      "hd_title": "The energy to sustain creative work",
+      "hd_quote": "Material forces can disrupt creativity and lead to overambition.",
+      "keywords": [
+        "trial-and-error experimentation",
+        "learning from interference",
+        "material disruption"
+      ],
+      "behavioral_axis": "Experiments through trial-and-error, learning what works by discovering what doesn't, pushing through interference with sustained energy.",
+      "shadow_axis": "Gets pulled away from unique creative process by material forces and commercial possibilities, selling out mutation to mundane security.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "1.4": {
+      "line": 4,
+      "hd_title": "Aloneness as the medium of creativity",
+      "hd_quote": "Aloneness as the medium of creativity, not as the medium for contribution, just for the creativity.",
+      "keywords": [
+        "externalizes need for solitude",
+        "protects studio boundaries",
+        "says no to interruptions"
+      ],
+      "behavioral_axis": "Externalizes the need for aloneness to protect the creative process, staying one-tracked in protecting studio boundaries.",
+      "shadow_axis": "Abandons aloneness to externalize and market the mutation, spending creative energy trying to get recognition instead of sustaining solitary creativity.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "1.5": {
+      "line": 5,
+      "hd_title": "The energy to attract society",
+      "hd_quote": "This assumption that one is creative is very attractive to society.",
+      "keywords": [
+        "projection field attracts society",
+        "ego endurance under interference",
+        "eccentricity seeking attention"
+      ],
+      "behavioral_axis": "Holds steady under society's constant projection of creative talent, enduring interference through powerful ego while attracting mutation out into the world.",
+      "shadow_axis": "Performs the creative role to satisfy projections, becoming increasingly eccentric for attention until the game crashes and they become famous has-beens.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "1.6": {
+      "line": 6,
+      "hd_title": "Objectivity",
+      "hd_quote": "You will never live long enough to appreciate the impact of that mutation.",
+      "keywords": [
+        "objective assessment over time",
+        "roof perspective",
+        "lets time test value"
+      ],
+      "behavioral_axis": "Waits on a long horizon and lets time test which mutations endure, offering role-model objectivity across generations.",
+      "shadow_axis": "Mistakes early subjective preference for objective truth, facing disappointment when time reveals the mutation was merely fashion, not transcendent.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

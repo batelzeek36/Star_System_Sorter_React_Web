@@ -1,0 +1,249 @@
+{
+  "25.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "25.1 protects a principled, innocent heart and collapses when exposed to cruelty; that's personal shock/innocence, not active trauma-field stabilization for others (Arcturus)."
+  },
+  "25.2": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "25.2 radiates unguarded compassion that makes others feel spiritually safe, which matches Arcturus core holding a clean, safe field for nervous-system relief."
+  },
+  "25.3": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "25.3 survives violation and chaos and turns that pain into authentic compassion, which is Arcturus core trauma integration and repair after shock."
+  },
+  "25.4": {
+    "weight": 0.60,
+    "alignment_type": "core",
+    "why": "25.4 stitches the group back together after harm through radical nonjudgment, which is strong Arcturus core post-crisis unification of the emotional field."
+  },
+  "25.5": {
+    "weight": 0.60,
+    "alignment_type": "shadow",
+    "why": "25.5 is cast as the emergency soul medic who must cleanse corruption for everyone and then gets blamed as fake if healing isn't instant, which is Arcturus shadow burnout-healer / scapegoat dynamic."
+  },
+  "25.6": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "25.6 holds detached 'universal love' and can go cold like 'your pain is just a lesson,' which is Arcturus shadow clinical distance posing as compassion."
+  },
+
+  "26.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "26.1 wants fair deals and defends the tribe's interests; that's negotiation and willpower management, not trauma-field calibration or nervous-system regulation (Arcturus)."
+  },
+  "26.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "26.2 can persuade and rearrange agreements with charisma, which is leverage/optics work, not stabilizing an overwhelmed emotional field (Arcturus)."
+  },
+  "26.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "26.3 learns the ethics line by actually crossing it and recovering, which is hustle/reputation volatility, not clinical trauma cleanup (Arcturus)."
+  },
+  "26.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "26.4 shapes the story so the group keeps leverage and can gatekeep resources, which is strategic spin and loyalty control, not emotional field stabilization (Arcturus)."
+  },
+  "26.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "26.5 is called in to fix optics and salvage the deal and then blamed as manipulative, which is PR damage control, not healer-scapegoat around emotional regulation (Arcturus)."
+  },
+  "26.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "26.6 guards the tribe's brand and narrative long-term, which is influence management, not trauma-field repair or nervous-system pacing (Arcturus)."
+  },
+
+  "27.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "27.1 feels duty to feed and protect the close circle and will overgive to keep everyone alive, which is Pleiadian nurture/survival caregiving, not Arcturian clinical stabilization."
+  },
+  "27.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "27.2 quietly provides what people need and goes cold if taken for granted; that's tribe caregiving and resource warmth (Pleiades), not structured trauma-field calibration (Arcturus)."
+  },
+  "27.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "27.3 learns boundaries by burning out in service and sliding into martyr script, which is overgiving/resentment caregiving, not technical nervous-system regulation (Arcturus)."
+  },
+  "27.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "27.4 makes sure everyone gets fed and can weaponize access to enforce loyalty, which is tribal provision/control, not trauma-field stabilization (Arcturus)."
+  },
+  "27.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "27.5 is expected to keep the whole tribe emotionally fed and then blamed as smothering when asking for reciprocity; that's caregiver projection (Pleiades core/shadow), not Arcturus healer-scapegoat."
+  },
+  "27.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "27.6 treats care as sacred structure and can judge others for not nurturing, which is guardian-nurturer ethic, not trauma-field technician work (Arcturus)."
+  },
+
+  "28.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "28.1 needs proof the struggle actually matters and falls into 'what's the point' despair; that's existential purpose testing, not field stabilization (Arcturus)."
+  },
+  "28.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "28.2 endures hardship quietly for a worthy cause and refuses help, which is lone-warrior survival, not group nervous-system repair (Arcturus)."
+  },
+  "28.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "28.3 finds purpose by walking the edge of collapse and flirting with self-destruction, which is risk-ritual for meaning, not trauma-field stabilization (Arcturus)."
+  },
+  "28.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "28.4 rallies allies around 'this is worth the fight' and pressures loyalty, which is cause evangelism, not calm containment of distress (Arcturus)."
+  },
+  "28.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "28.5 is cast as fearless champion and crucified if they show weakness, which is heroic resistance projection, not healer projection (Arcturus)."
+  },
+  "28.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "28.6 romanticizes suffering as identity ('the fight is meaningful because I chose it'), which is existential martyr logic, not trauma-field cleanup (Arcturus)."
+  },
+
+  "29.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "29.1 wants a structurally sound yes and stalls from fear of overcommitting; that's selective devotion, not emotional field triage (Arcturus)."
+  },
+  "29.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "29.2 quietly carries the work through perseverance and then resents being expected to carry everything forever; that's loyalty endurance, not nervous-system stabilization (Arcturus)."
+  },
+  "29.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "29.3 goes all in too fast, burns out, collapses, and is seen as unreliable; that's boundary learning through overcommitment, not trauma-field repair (Arcturus)."
+  },
+  "29.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "29.4 forges 'we're in this together' morale and pressures others to stay, which is contract/bond maintenance, not clinical calm-the-field work (Arcturus)."
+  },
+  "29.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "29.5 is expected to hold the line when everyone else quits and then blamed as controlling if they call out quitters; that's reliability projection, not healer-scapegoat projection (Arcturus)."
+  },
+  "29.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "29.6 treats a true yes as sacred oath and judges people for changing course; that's oathkeeping/discipline, not trauma-field stabilization (Arcturus)."
+  },
+
+  "30.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "30.1 names 'I want this' without shame and fears wanting too much; that's raw emotional desire, not calibrated containment of intensity for others (Arcturus)."
+  },
+  "30.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "30.2 magnetizes deep emotional experiences and withdraws bitterly if shamed; that's passion-pull and drama sensitivity, not field regulation (Arcturus)."
+  },
+  "30.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "30.3 rides burn-surge heartbreak cycles and can chase chaos for the high, which escalates volatility instead of calming it (not Arcturus)."
+  },
+  "30.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "30.4 ignites shared emotional heat and can stir drama to keep people bonded, which amps the field rather than stabilizing it (not Arcturus)."
+  },
+  "30.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "30.5 is expected to voice the deep craving nobody else will admit and then blamed if desire disrupts comfort; that's passion-provoker projection, not healer-regulator projection (Arcturus)."
+  },
+  "30.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "30.6 treats longing as sacred fuel and can act superior about the depth of that hunger, which is intensity worship, not trauma-field containment (Arcturus)."
+  },
+
+  "31.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "31.1 wants structurally valid authority before speaking for others and won't speak unless status is legit; that's legitimacy politics, not trauma-field stabilization (Arcturus)."
+  },
+  "31.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "31.2 naturally says 'this is the direction' and people listen, which is leadership voice, not nervous-system regulation (Arcturus)."
+  },
+  "31.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "31.3 learns public leadership voice by messing up in view of everyone and adapting, which is spokesperson trial cycle, not emotional field triage (Arcturus)."
+  },
+  "31.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "31.4 speaks as 'we' and aligns direction through consensus, sometimes politicking for loyalty; that's governance, not clinical de-escalation (Arcturus)."
+  },
+  "31.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "31.5 is pushed to 'save the group' and then blamed as tyrant if people don't like the call; that's emergency leadership projection, not healer-scapegoat around regulation (Arcturus)."
+  },
+  "31.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "31.6 embodies archetypal direction and can act above 'the uninformed masses'; that's rulership posture, not trauma-field repair (Arcturus)."
+  },
+
+  "32.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "32.1 needs proof something can endure and clings to dying structures out of loyalty; that's survival-continuity anxiety (Draco core), not Arcturus regulation work."
+  },
+  "32.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "32.2 quietly senses which people/ideas are worth investing in long-term and grows bitter if ignored; that's loyalty/value assessment for continuity (Draco lens), not trauma-field stabilization (Arcturus)."
+  },
+  "32.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "32.3 gambles reputation by backing what might survive and gets blamed if it fails; that's long-term survival vetting, not nervous-system triage (Arcturus)."
+  },
+  "32.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "32.4 guards 'will this still feed us later?' and pressures obedience with fear of collapse, which is tribal continuity enforcement (Draco), not Arcturus clinical repair."
+  },
+  "32.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "32.5 is expected to prevent collapse and then blamed as controlling old guard, which is guardian-of-legacy projection (Draco), not healer-scapegoat projection (Arcturus)."
+  },
+  "32.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "32.6 embodies 'I carry what must not be lost' and resists change as betrayal, which is lineage-preservation / loyalty enforcement (Draco core), not trauma-field calibration (Arcturus)."
+  }
+}

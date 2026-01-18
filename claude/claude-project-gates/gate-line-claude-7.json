@@ -1,0 +1,90 @@
+{
+  "gate": 7,
+  "gate_name": "The Army (The Role of the Self in Interaction)",
+  "lines": {
+    "7.1": {
+      "line": 1,
+      "hd_title": "The Authoritarian",
+      "hd_quote": "The iron hand, both enlightened and despotic.",
+      "keywords": [
+        "authoritarian",
+        "hierarchical foundation",
+        "establishes boundaries",
+        "security through structure"
+      ],
+      "behavioral_axis": "Establishes clear authority structures and hierarchical boundaries to provide security and foundation for collective leadership.",
+      "shadow_axis": "Insists only they know best and refuses input from others, creating rigidity and eventual organizational failure.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "7.2": {
+      "line": 2,
+      "hd_title": "The Democrat",
+      "hd_quote": "The ability to lead by serving the will of the majority.",
+      "keywords": [
+        "called out by others",
+        "natural leadership",
+        "democratic process",
+        "serves collective will"
+      ],
+      "behavioral_axis": "Naturally embodies leadership capacity that others recognize and call out, leading by serving the will of the majority through democratic process.",
+      "shadow_axis": "Once chosen, feels superior to those who selected them and dismisses the intelligence of the very people who recognized their role.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "7.3": {
+      "line": 3,
+      "hd_title": "The Anarchist",
+      "hd_quote": "The rejection of any institutionalized order.",
+      "keywords": [
+        "trial-and-error with roles",
+        "experiments with institutions",
+        "anarchist patterns",
+        "pessimism as catalyst"
+      ],
+      "behavioral_axis": "Experiments through trial and error to discover which leadership roles and institutional patterns work, breaking bonds and burning structures to make space for new forms.",
+      "shadow_axis": "Denies value in any role through pure nihilism, destroying patterns without purpose and creating destabilization through constant rejection.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "7.4": {
+      "line": 4,
+      "hd_title": "The Abdicator",
+      "hd_quote": "The grace and wisdom to step down for the benefit of the whole.",
+      "keywords": [
+        "externalizes leadership",
+        "opportunistic timing",
+        "abdicates gracefully",
+        "network foundation"
+      ],
+      "behavioral_axis": "Externalizes leadership role through networks and opportunities, stepping down gracefully when collective backing shifts to accept the judgment of others.",
+      "shadow_axis": "Refuses to accept when their time is up and must be forced from power by overwhelming opposition, breeding revolt through expired leadership.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "7.5": {
+      "line": 5,
+      "hd_title": "The General",
+      "hd_quote": "Leadership whose authority must be absolute and is sanctioned by society in times of crisis.",
+      "keywords": [
+        "projection field for crisis",
+        "called in emergency",
+        "attracts loyalty",
+        "savior or heretic"
+      ],
+      "behavioral_axis": "Receives projections as the savior leader in times of crisis and selectively answers the call, attracting loyalty necessary to harmonize society's potential through absolute authority.",
+      "shadow_axis": "Remains isolated when crisis demands leadership, threatening others through absence and creating danger by refusing to fulfill the projected role when needed.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "7.6": {
+      "line": 6,
+      "hd_title": "The Administrator",
+      "hd_quote": "The ability to share and justly apportion power.",
+      "keywords": [
+        "objectivity about roles",
+        "recognizes all leaders",
+        "communicates responsibility",
+        "role model wisdom"
+      ],
+      "behavioral_axis": "Recognizes that all human beings have leadership roles and communicates frameworks for sharing and apportioning power justly across the collective.",
+      "shadow_axis": "Creates entrenched bureaucracies whose administrative power destabilizes organizations and overshadows those elected to lead, accumulating power through systemic control.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

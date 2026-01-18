@@ -1,0 +1,785 @@
+# DRACO BASELINE RESEARCH (V4)
+
+## CONTEXT
+You are conducting Phase 0 baseline research for the Star System Sorter project. This research establishes the foundational characteristics of Draco that will later be used to map Human Design gates to star systems. Academic rigor and proper citations are CRITICAL.
+
+**V4 PHILOSOPHY:** This version uses honest field naming to distinguish provisional research (location hints + summaries) from locked citations (exact pages + verbatim quotes). You provide the research scaffold, the human locks it down later.
+
+**V4 IMPROVEMENTS:**
+1. Relaxed trait coverage rule for low-consensus characteristics
+2. Optimized handling of fully accessible online sources (sacred-texts.com, archive.org)
+3. Clarified translator full name expectations
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+   - **Exception:** It is acceptable to use `"author": "Anonymous"` ONLY for genuinely anonymous pre-modern sources (e.g., Enuma Elish, Beowulf). It is NOT acceptable to use placeholders like "Various sources", "Multiple authors", "Contemporary channelers", etc.
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+❌ Commercial websites (jewelry, art sales, psychic services, etc.)
+❌ Astrology/spiritual blogs without academic credentials
+❌ Personal artist or practitioner websites
+
+⚠️ **WIKIPEDIA & ONLINE ENCYCLOPEDIAS:**
+Wikipedia, Encyclopedia.com, Britannica.com, and ALL online encyclopedia/aggregator sites are **COMPLETELY FORBIDDEN** - not as primary sources, not as secondary sources, not at all. These are lazy shortcuts. Instead:
+- Find the PRIMARY SOURCE that the encyclopedia cites (the actual book, journal, or ancient text)
+- Cite that source directly with full bibliographic information
+- Example: Don't cite "Wikipedia article on Draco" → Cite the actual ancient text or published book
+- If an encyclopedia mentions a scholar's work, find and cite that scholar's published book or paper
+
+**FORBIDDEN ENCYCLOPEDIA SITES (NEVER USE):**
+❌ Wikipedia.org
+❌ Encyclopedia.com
+❌ Britannica.com / Encyclopaedia Britannica
+❌ Ancient.eu / WorldHistory.org
+❌ Mythopedia.com
+❌ Any site with "encyclopedia", "wiki", or "pedia" in the domain
+
+**FORBIDDEN BLOG/PERSONAL SITES (NEVER USE):**
+❌ WordPress blogs (*.wordpress.com)
+❌ Tripod sites (*.tripod.com)
+❌ Personal domains (crystalinks, preterhuman.net, etc.)
+❌ Goodreads.com (book review site, not primary source)
+
+**ACCEPTABLE SOURCES - USE THESE:**
+✅ Archive.org - Full book scans with page numbers
+✅ Sacred-texts.com - Proper ancient text translations
+✅ Publisher websites - Book excerpts with ISBNs
+✅ Academic databases - JSTOR, academia.edu, university repositories
+✅ Google Books - Preview pages with actual page numbers
+✅ Lawofone.info - For Law of One / Ra Material access
+
+**IMPORTANT:** If you use Law of One / Ra Material, you MUST cite the published book edition from L/L Research with its ISBN (e.g., "The Ra Material" ISBN 0-945007-00-9), not just the website. The URL can still point to lawofone.info for access.
+
+This is a **lore-grade research project**, not a homework assignment. Use authoritative primary sources only.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔥 V4 CITATION POLICY: PROVISIONAL vs LOCKED
+═══════════════════════════════════════════════════════════════════════════════
+
+## Citation Status Types
+
+### PROVISIONAL (when you can't access full text)
+Use when you've identified a legitimate source but can't access the complete text:
+
+**Required fields:**
+- `location_hint` - Chapter, section, verse/line reference
+- `summary` - ≤25 word paraphrase of what source says about the trait
+- `citation_status: "provisional"`
+
+**Example:**
+```json
+{
+  "title": "The Biggest Secret",
+  "author": "David Icke",
+  "edition": "First Edition",
+  "year": 1999,
+  "publisher": "Bridge of Love Publications",
+  "location_hint": "Chapter 2, pp. 30-45",
+  "summary": "Reptilian entities from Draco constellation controlling human power structures",
+  "url": "https://archive.org/details/biggestsecret00icke",
+  "isbn": "ISBN 0-9526147-6-6",
+  "source_type": "controversial",
+  "citation_status": "provisional"
+}
+```
+
+### LOCKED (when you have verbatim access)
+Use when you can copy exact text from a source you can fully access:
+
+**Required fields:**
+- `page` - Exact locator in the cited edition. This MAY be a physical page number OR an internal canonical unit (e.g., "Tablet IV, lines 110-114"). Canonical units are acceptable as LOCKED citations.
+- `quote` - Verbatim text ≤25 words from source
+- `citation_status: "locked"`
+
+**Example (ancient text with canonical reference):**
+```json
+{
+  "title": "Enuma Elish: The Babylonian Epic of Creation",
+  "author": "Anonymous",
+  "translator_or_editor": "L. W. King (translator)",
+  "edition": "Sacred Texts Edition",
+  "year": 1902,
+  "original_year": -1200,
+  "publisher": "Sacred Texts",
+  "page": "Tablet IV, lines 93-104",
+  "quote": "Tiamat opened her mouth to consume him, he drove in the evil wind that she close not her lips",
+  "url": "https://sacred-texts.com/ane/enuma.htm",
+  "isbn": null,
+  "source_type": "ancient",
+  "citation_status": "locked"
+}
+```
+
+**Example (modern research book):**
+```json
+{
+  "title": "Dragons: A Natural History",
+  "author": "Karl Shuker",
+  "edition": "First Edition",
+  "year": 1995,
+  "publisher": "Simon & Schuster",
+  "page": "Chapter 3, p. 67",
+  "quote": "Dragons across cultures represent primal power, chaos, and the untamed forces of nature",
+  "url": "https://archive.org/details/dragonsnaturalhi00shuk",
+  "isbn": "ISBN 0-684-81443-9",
+  "source_type": "research",
+  "citation_status": "locked"
+}
+```
+
+## What You MAY Do
+
+✅ **PROVISIONAL citations when:**
+- Full text is behind paywall
+- Only preview pages available on Google Books
+- Source exists but you can't access complete text
+- You can identify chapter/section but not exact page
+
+✅ **LOCKED citations when:**
+- Source is fully accessible on Archive.org (full text, not just table of contents)
+- Source is on sacred-texts.com with full text
+- Google Books has full preview available
+- You can copy verbatim text
+
+**CRITICAL:** If a source is fully available at sacred-texts.com, archive.org, or similar with complete searchable text, you MUST treat it as `citation_status: "locked"` and include a `quote` + canonical locator. Do NOT use provisional mode for fully accessible sources.
+
+## What You MAY NOT Do
+
+❌ **NEVER:**
+- Fabricate page numbers or quotes
+- Label a paraphrase as a direct quote
+- Use `citation_status: locked` unless quote is truly verbatim
+- Use placeholder quotes like "[EXAMPLE QUOTE]"
+- Guess at page numbers
+- Use Wikipedia or blogs as sources
+- Use anonymous authors like "Various sources", "Multiple authors", "Contemporary sources"
+- Include traits that can only be sourced to blogs - DROP THE TRAIT instead
+- Give up and return empty results
+
+## Field Usage Rules
+
+**Use `location_hint` + `summary` when:**
+- You know the source exists (verified ISBN, author, edition)
+- You can identify approximate location (chapter, section)
+- You can't access full text for verbatim quote
+- Set `citation_status: "provisional"`
+
+**Use `page` + `quote` when:**
+- You have full text access
+- You can copy exact words from source
+- You can verify exact page/tablet/line number
+- Set `citation_status: "locked"`
+
+**CRITICAL BINARY RULE:**
+- If `citation_status` = "locked", you MUST include `page` and `quote`, and you MUST NOT include `summary` or `location_hint`.
+- If `citation_status` = "provisional", you MUST include `location_hint` and `summary`, and you MUST NOT include `quote` or `page`.
+- Never mix fields from both modes in a single source block.
+
+**DO NOT include `verified: true` field** - that will be added during manual verification phase
+
+═══════════════════════════════════════════════════════════════════════════════
+
+**DO NOT give up and return empty results.** The Sirius and Pleiades baseline research successfully found complete citations.
+
+**YOU MUST DO THE SAME FOR DRACO.**
+
+**Where to find sources:**
+✅ Archive.org - Full book scans with page numbers
+✅ Google Books - Preview pages with quotes
+✅ Publisher websites - Book excerpts and ISBNs
+✅ Academic databases - JSTOR, academia.edu, university repositories
+✅ Sacred-texts.com - Ancient text translations
+
+**Known sources you MUST find and cite properly:**
+
+**Ancient Dragon Mythology:**
+1. Chinese texts - "Classic of Mountains and Seas" (Shanhaijing)
+2. European medieval texts - "Beowulf", dragon legends
+3. Mesopotamian - Tiamat in Enuma Elish
+4. Greek - Ladon (dragon guarding golden apples)
+
+**Academic/Scholarly:**
+5. "Dragons: A Natural History" by Karl Shuker
+6. "The Dragon in China and Japan" by M.W. de Visser
+7. Academic papers on comparative dragon mythology
+
+**Modern Esoteric (Mark as controversial):**
+8. David Icke - "The Biggest Secret" (1999) - Reptilian claims (DISPUTED)
+9. R.A. Boulay - "Flying Serpents and Dragons" (1990)
+
+**FORBIDDEN SOURCES (DO NOT USE):**
+❌ Conspiracy theory blogs
+❌ Reptilian/shapeshifter websites without published books
+❌ Wikipedia (find the primary source it cites instead)
+
+**If you return empty characteristics or say "I cannot access books", your response will be REJECTED.**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research DRACO and dragon archetype across cultures. CRITICAL: Separate ancient dragon symbolism from modern conspiracy theories.
+
+## ACADEMIC CONTEXT
+
+This research supports Star System Sorter, which maps Human Design's I Ching-based gate system to star mythology.
+
+**Human Design's Academic Foundations:**
+- **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
+- **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968)
+- **Kabbalah (Tree of Life)** - Extensive academic study (Scholem, Idel)
+- **Chakra system** - Religious Studies, Yoga Studies (Feuerstein)
+- **Western Astrology** - Cultural/historical phenomenon (Tarnas)
+
+**Mathematical Correspondences:**
+- 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
+- Binary yin/yang logic = Binary genetic code (A/T, C/G)
+
+**Your Task:** Document star system characteristics using rigorous sourcing standards (ancient texts, published books, proper citations). This is **comparative mythology research**, not pseudoscience.
+
+**CRITICAL:** If you cannot find an ISBN for a pre-1967 or pre-ISBN edition, set `"isbn": null` and STILL RETURN THE SOURCE. Do not omit the source.
+
+## HYPOTHESIS TO VALIDATE
+Based on preliminary research, Draco is associated with:
+- Power, control, dominance
+- Hierarchy and royalty
+- Reptilian/dragon archetype
+- Genetic manipulators (disputed)
+- Often misunderstood or polarized as evil (but not inherently so)
+- Eastern vs Western dragon duality (wisdom vs chaos)
+
+Your task is to find evidence that confirms, refutes, or nuances these characteristics.
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES TO RESEARCH
+
+### Ancient Dragon Mythology (HIGH PRIORITY - Often fully accessible)
+- **Enuma Elish** (Babylonian creation epic) - Tiamat as primordial chaos dragon (sacred-texts.com)
+- **Beowulf** - European dragon mythology (sacred-texts.com or archive.org)
+- **Classic of Mountains and Seas** (Shanhaijing) - Chinese dragon mythology
+- **Norse Eddas** - Níðhöggr, Fáfnir (sacred-texts.com)
+- **Greek mythology** - Ladon (dragon guarding golden apples), Python
+- **Hindu/Buddhist texts** - Naga serpents (wisdom, power)
+
+### Scholarly Works on Dragon Mythology
+- **Karl Shuker**: "Dragons: A Natural History" (1995, ISBN 0-684-81443-9)
+- **M.W. de Visser**: "The Dragon in China and Japan" (1913)
+- **Joseph Fontenrose**: "Python: A Study of Delphic Myth and Its Origins" (1959)
+- **David E. Jones**: "An Instinct for Dragons" (2000, ISBN 0-415-93721-8)
+
+### Astronomical/Historical
+- **Thuban (Alpha Draconis)** - Former pole star (3942-1793 BCE) - DO NOT cite Wikipedia for this
+  - Use standard astronomical references or historical astronomy texts
+  - If you cannot find a non-Wikipedia source, use provisional citation with generic astronomical reference
+  - Example: "Standard astronomical chronologies" as author, no Wikipedia URL
+- **Draco constellation mythology** - Greek sources (Hyginus, Eratosthenes)
+
+### Modern Esoteric (CONTROVERSIAL - Mark as disputed)
+- **David Icke**: "The Biggest Secret" (1999, ISBN 0-9526147-6-6) - Reptilian claims (DISPUTED)
+- **R.A. Boulay**: "Flying Serpents and Dragons" (1990, ISBN 0-9626534-0-2)
+- **Stewart Swerdlow**: "Blue Blood, True Blood" (2002)
+- **Law of One / Ra Material** (L/L Research, 1981–1984) - References to Orion-Draco alliance
+  - You MUST attribute authorship as: `"author": "Ra via Carla Rueckert"`
+  - You MUST include the L/L Research publisher and ISBN (e.g., `"publisher": "L/L Research", "isbn": "ISBN 0-945007-00-9"` for Book I)
+  - You MAY include the `url` field pointing to "https://www.lawofone.info/..." for accessibility
+  - Treat each session or Q&A reference as a canonical locator (e.g., `"page": "Session 38.7"`)
+  - This counts as `"citation_status": "locked"` if you're quoting exact language from the session (full-text accessible)
+  - Use `"astronomical_component": "B"` if discussing Orion group/reptilian influence, or `"unspecified"` for general dragon archetype references
+
+## CITATION REQUIREMENTS
+
+Every source MUST include:
+
+**ALWAYS REQUIRED (both provisional and locked):**
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names preferred; initials acceptable if that's how the translator is commonly cited in academic literature. NEVER use "Various sources", "Multiple authors", "Contemporary sources", or other anonymous attributions. For ancient texts, use "Anonymous" or the culture name like "Babylonian (Enuma Elish)")
+3. **Translator/Editor** (REQUIRED for ALL pre-modern or non-English sources, including Mesopotamian, Chinese, Norse, Greek, Sanskrit, etc. Must include full name with "(translator)" designation. Example: "Leonard William King (translator)" for Enuma Elish, "Arthur Waley (translator)" for Chinese texts, "R. K. Gordon (translator)" for Beowulf. For modern English-language sources, omit translator_or_editor entirely unless the book actually has a translator/editor.)
+4. **Edition information** (e.g., "First Edition", "Oxford World's Classics")
+5. **Publication year** (year of the cited edition)
+6. **Original year** (OPTIONAL but recommended - if the cited edition is not the original, include estimated composition era. Examples: `-1200` for Enuma Elish, `800` for Beowulf, `1902` for first English translation. Use `null` if unknown or same as publication year)
+7. **Publisher/imprint** (e.g., "Oxford University Press", "Bridge of Love Publications")
+8. **URL** (if available online - archive.org, publisher, academic database. NEVER use blog URLs or Wikipedia)
+9. **ISBN or DOI** (required for verification. If neither exists for pre-1967 publications or ancient translations, use `"isbn": null` and ensure publisher is specified)
+10. **Source type** (ancient|research|channeled|indigenous|controversial)
+11. **Citation status** (provisional|locked)
+12. **Astronomical component** (REQUIRED - see below)
+13. **Component reasoning** (REQUIRED - see below)
+
+**FOR PROVISIONAL citations:**
+13. **location_hint** - Chapter, section, tablet/line reference
+14. **summary** - ≤25 word paraphrase of what source says
+
+**FOR LOCKED citations:**
+13. **page** - Exact locator in the cited edition. This MAY be a physical page number OR an internal canonical unit (e.g., "Tablet IV, lines 110-114", "Spell 632"). Canonical units are acceptable as LOCKED citations.
+14. **quote** - Verbatim text ≤25 words from source
+
+## ASTRONOMICAL COMPONENT REQUIREMENT (NEW FOR V4 DRACO)
+
+**CRITICAL:** Every source MUST include `astronomical_component` and `component_reasoning` fields.
+
+**For Draco, use this mapping:**
+
+- **"unspecified"** - General dragon archetype/mythology (most sources will use this)
+- **"P"** - Pole star / Thuban lineage (axis/sovereignty theme, ancient Egyptian alignment)
+- **"B"** - Bloodline reptilian Draco narrative / off-world reptilians (modern conspiracy theories)
+
+**Examples:**
+
+```json
+{
+  "title": "The Seven Tablets of Creation, Volume I",
+  "author": "Babylonian (Enuma Elish)",
+  "translator_or_editor": "Leonard William King (translator)",
+  "astronomical_component": "unspecified",
+  "component_reasoning": "Tiamat dragon myth is cultural/mythological, not tied to specific Draco constellation component"
+}
+```
+
+```json
+{
+  "title": "Historical Notes on Thuban as Ancient Pole Star",
+  "author": "Standard astronomical chronologies",
+  "astronomical_component": "P",
+  "component_reasoning": "Thuban (Alpha Draconis) served as pole star for ancient Egypt, marking celestial axis and sovereignty"
+}
+```
+
+```json
+{
+  "title": "The Biggest Secret",
+  "author": "David Icke",
+  "astronomical_component": "B",
+  "component_reasoning": "Claims reptilian entities from Draco constellation control human bloodlines"
+}
+```
+
+**Default for most sources:** Use `"astronomical_component": "unspecified"` with reasoning explaining it's cultural/mythological dragon archetype.
+
+## CONSENSUS LEVELS
+
+Assign based on evidence quality:
+
+- **HIGH**: 3+ independent sources, cross-cultural validation, minimal disputes
+- **MEDIUM**: 2-3 sources, or strong in one category only
+- **LOW**: 1-2 sources, heavily disputed, or channeled-only
+
+**V4 NOTE:** For low-consensus or single-source-type characteristics (e.g., channeled-only), 2 sources minimum is acceptable. The 3-5 sources target applies primarily to high and medium consensus traits.
+
+## ANCIENT SUPPORT LEVELS
+
+Separate from consensus - indicates historical depth:
+
+- **HIGH**: Explicit references in ancient texts (e.g., Babylonian, Chinese, Greek dragon myths)
+- **MEDIUM**: Inferred connections to ancient deities/myths
+- **LOW**: Symbolic resonance only
+- **UNKNOWN**: No ancient references found (expected for modern "reptilian" characteristics)
+
+## POLARITY REQUIREMENT (MANDATORY)
+
+**Every characteristic MUST include a `"polarity"` field with one of these values:**
+
+- **"light"** - Benevolent/wise/imperial-order dragon aspects (e.g., Chinese wisdom dragons, imperial mandate, rain bringers)
+- **"shadow"** - Predatory/control/reptilian/bloodline narratives (e.g., Icke reptilian theories, chaos wyrms, destructive dragons)
+- **"neutral"** - Descriptive/archetypal traits without inherent moral coding (e.g., "guardian of treasure," "transformation abilities," "axis sovereignty")
+
+**Examples:**
+- Eastern wisdom dragons → `"polarity": "light"`
+- Reptilian shapeshifter conspiracy → `"polarity": "shadow"`
+- Dragon as guardian of knowledge → `"polarity": "neutral"`
+- Hierarchical power structures → `"polarity": "neutral"` (can be used for order or control)
+
+## CRITICAL: Disputed Claims Handling
+
+**David Icke's "reptilian" conspiracy theories are highly controversial.** You MUST:
+1. Include them (they're part of the discourse)
+2. Mark as `disputed: true`
+3. Include counter-evidence or skeptical sources in `disputed_points` section
+4. Note: `source_type: "controversial"`
+
+## SPECIAL FOCUS: Shadow vs Light Draco
+
+Document any sources that distinguish:
+- Shadow Draco (control, manipulation, negative)
+- Light Draco (power, sovereignty, positive)
+- Eastern vs Western dragon duality (wisdom vs evil)
+
+**IMPORTANT:** Do NOT conflate Draco with kundalini - that's a common stretch in the lore community without solid evidence.
+
+## CRITICAL FIXES FOR KNOWN ISSUES
+
+### Issue #1: Translator Attribution for Ancient Texts
+
+**WRONG:**
+```json
+{
+  "title": "The Seven Tablets of Creation, Volume I",
+  "author": "Leonard William King",
+  "translator_or_editor": null
+}
+```
+
+**CORRECT:**
+```json
+{
+  "title": "The Seven Tablets of Creation, Volume I",
+  "author": "Babylonian (Enuma Elish)",
+  "translator_or_editor": "Leonard William King (translator)"
+}
+```
+
+**Rule:** For ancient texts, the author is the culture/text name (or "Anonymous"), and the translator goes in `translator_or_editor` field with "(translator)" designation.
+
+### Issue #2: Thuban/Pole Star Source
+
+**FORBIDDEN:**
+```json
+{
+  "title": "Draco Constellation Historical Astronomy",
+  "author": "Various Astronomical Sources",
+  "url": "https://en.wikipedia.org/wiki/Thuban"
+}
+```
+
+**CORRECT:**
+```json
+{
+  "title": "Historical Notes on Thuban (Alpha Draconis) as Pole Star",
+  "author": "Standard astronomical chronologies",
+  "translator_or_editor": null,
+  "edition": "General astronomical reference",
+  "year": 2024,
+  "publisher": "Commonly cited in archaeoastronomy of Old Kingdom Egypt",
+  "location_hint": "Thuban (Alpha Draconis) pole star role ca. 3942–1793 BCE in Egyptian pyramid age alignments",
+  "summary": "Thuban (Alpha Draconis) functioned as North Star for ancient Egypt and was used as a polar reference for pyramid alignment",
+  "url": null,
+  "isbn": null,
+  "source_type": "research",
+  "citation_status": "provisional",
+  "astronomical_component": "P",
+  "component_reasoning": "Thuban (Alpha Draconis) served as pole star, marking celestial axis and sovereignty theme"
+}
+```
+
+**Rule:** Never cite Wikipedia. For well-known astronomical facts like Thuban's pole star role, use a generic provisional citation with no Wikipedia URL.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 MANDATORY DRACO-SPECIFIC CHARACTERISTICS (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+**You MUST include these characteristics as separate traits. Do NOT fold them into other characteristics.**
+
+### MANDATORY #1: Ancient Dragon Mythology Across Cultures
+
+**You MUST include a characteristic documenting cross-cultural dragon mythology.**
+
+This is the strongest ancient support for Draco:
+- Babylonian: Tiamat (primordial chaos dragon)
+- Chinese: Dragons as wisdom, imperial power, yang energy
+- European: Dragons as guardians, chaos, treasure hoarders
+- Norse: Níðhöggr, Fáfnir
+- Greek: Ladon, Python
+
+**Required sources:**
+- At least one ancient text (Enuma Elish, Beowulf, Norse Eddas, or Greek mythology)
+- At least one scholarly work on comparative dragon mythology (Shuker, de Visser, Fontenrose, or Jones)
+- At least one additional cultural tradition (Chinese, Hindu/Buddhist Naga, or Mayan)
+
+**This characteristic MUST have ≥3 sources (at least one ancient LOCKED, at least one scholarly).**
+
+**Trait name examples:**
+- "Cross-cultural dragon mythology: power, chaos, and guardianship"
+- "Ancient dragon archetypes across civilizations"
+- "Primordial chaos and power symbolism in dragon myths"
+
+**This MUST be its own trait with HIGH ancient support documented.**
+
+### MANDATORY #2: Eastern vs Western Dragon Duality
+
+**You MUST include a characteristic documenting the Eastern/Western dragon distinction.**
+
+This is a critical pattern in dragon mythology:
+- Eastern dragons (Chinese, Japanese): Wisdom, benevolence, imperial power, yang energy
+- Western dragons (European, Norse): Chaos, greed, destruction, evil
+- This duality reflects different cultural values and cosmologies
+
+**Required sources:**
+- At least one source on Chinese dragon mythology
+- At least one source on European dragon mythology
+- At least one comparative mythology source discussing the East/West distinction
+
+**This characteristic MUST have ≥2 sources showing the contrast.**
+
+**Trait name examples:**
+- "Eastern wisdom dragons vs Western chaos dragons"
+- "Cultural duality: benevolent Eastern vs malevolent Western dragons"
+- "Contrasting dragon archetypes across civilizations"
+
+**This MUST be its own trait with HIGH ancient support and cross-cultural validation.**
+
+### MANDATORY #3: Modern Reptilian/Draco Controversy
+
+**You MUST include a characteristic (or disputed_points entry) documenting modern reptilian claims.**
+
+This is the most controversial aspect of Draco lore:
+- David Icke's reptilian shapeshifter theories
+- Genetic manipulation claims
+- Control and hierarchy themes
+- MUST be marked as disputed and controversial
+
+**Required sources:**
+- David Icke "The Biggest Secret" (1999) or similar controversial source
+- At least one counter-evidence source (skeptical/scientific)
+- Note: Ancient support = UNKNOWN (modern conspiracy theory only)
+
+**This characteristic MUST have ≥2 sources (one supporting, one counter-evidence).**
+
+**Trait name examples:**
+- "Modern reptilian conspiracy theories (disputed)"
+- "Draco as genetic manipulators and controllers (controversial)"
+- "Reptilian shapeshifter claims and counter-evidence"
+
+**This MUST be its own trait OR documented in disputed_points section, clearly marked as controversial with counter-evidence.**
+
+═══════════════════════════════════════════════════════════════════════════════
+WHERE TO FIND VERIFIED SOURCES (USE THESE LOCATIONS)
+═══════════════════════════════════════════════════════════════════════════════
+
+**Archive.org - Search for these books:**
+- Ancient dragon mythology texts (Greek, Chinese, Norse)
+- Published channeled works with ISBNs (Law of One, etc.)
+- David Icke books (mark as controversial)
+
+**Sacred-texts.com - Use for:**
+- Ancient Greek texts (Hesiod, Apollodorus)
+- Chinese dragon mythology
+- Comparative mythology collections
+
+**Other Acceptable Sources:**
+- Publisher websites (Penguin, Oxford, Cambridge)
+- University .edu domains for academic papers
+- Lawofone.info for Law of One material
+
+**ABSOLUTELY FORBIDDEN - CHECK EVERY URL:**
+❌ britannica.com, encyclopedia.com, wikipedia.org
+❌ wordpress.com, blogspot.com, medium.com, tripod.com
+❌ goodreads.com, theosophy trust articles, crystalinks
+❌ Any domain with "encyclopedia", "wiki", or "pedia"
+
+**SOURCE QUALITY IS NON-NEGOTIABLE. Use archive.org and sacred-texts.com first.**
+
+═══════════════════════════════════════════════════════════════════════════════
+RESEARCH STRATEGY
+═══════════════════════════════════════════════════════════════════════════════
+
+1. **Start with ancient dragon mythology** - Enuma Elish, Beowulf, Chinese texts (LOCKED on sacred-texts.com or archive.org)
+   - Check sacred-texts.com for Enuma Elish (L. W. King translation) - LOCKED citations possible
+   - Check sacred-texts.com for Beowulf - LOCKED citations possible
+   - Check archive.org for Chinese dragon mythology texts
+2. **Add scholarly dragon mythology** - Shuker, de Visser, Fontenrose, Jones (likely mix of PROVISIONAL and LOCKED)
+3. **Include Greek/Norse sources** - Hyginus, Apollodorus, Norse Eddas (LOCKED on sacred-texts.com)
+4. **Add controversial modern sources** - David Icke, R.A. Boulay (likely PROVISIONAL unless on Archive.org)
+5. **Include counter-evidence** - Skeptical/scientific sources on dragon myths (likely PROVISIONAL)
+6. **Document East/West duality** - Chinese wisdom dragons vs European chaos dragons
+7. **Document shadow vs light** - If sources distinguish positive/negative Draco factions
+
+**CRITICAL RULE:** If a characteristic can ONLY be sourced to blogs, starseed websites, or anonymous "Various sources", DO NOT include that characteristic. Drop it entirely rather than violate source quality standards.
+
+═══════════════════════════════════════════════════════════════════════════════
+OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be valid JSON only. No narrative text, no explanations, no markdown.
+Start with { and end with }. Nothing else.
+
+If you write anything other than pure JSON, your response will be REJECTED.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OUTPUT FORMAT (Minified JSON)
+
+**Structure reference (minified to save tokens):**
+
+```json
+{"star_system":"Draco","version":"4.0","last_updated":"2025-10-25","methodology":{"framework":"Comparative mythology + I Ching-based Human Design system","academic_foundations":["I Ching (64 hexagrams → 64 Human Design gates)","Cross-cultural dragon mythology (Chinese, European, Mesopotamian)","Jungian archetypal psychology","Comparative religious studies"],"source_standards":"Ancient texts with named translators, published books with ISBNs, evidence typing (direct/inferred/symbolic), consensus levels documented. V4: Uses provisional (location_hint + summary) vs locked (page + quote) citation status. Optimized for fully accessible online sources. Relaxed trait coverage for low-consensus characteristics. All sources include astronomical_component field.","research_date":"2025-10-25"},"academic_context":{"human_design_foundations":["I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)","64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)","Kabbalah - Extensive academic study (Scholem, Idel)","Chakra system - Religious Studies, Yoga Studies","Western Astrology - Cultural/historical phenomenon (Tarnas)"],"mathematical_correspondences":["64 I Ching hexagrams = 64 DNA codons","Binary yin/yang logic = Binary genetic code (A/T, C/G)"]},"characteristics":[{"trait":"Power and hierarchical structure","consensus_level":"high|medium|low","ancient_support":"high|medium|low|unknown","evidence_type":"direct|inferred|symbolic","disputed":false,"polarity":"neutral|shadow|light","sources":[{"title":"FULL TITLE","author":"FULL NAME (For ancient texts: 'Babylonian (Enuma Elish)' or 'Anonymous')","translator_or_editor":"FULL NAME (translator) - REQUIRED FOR ANCIENT TEXTS","edition":"SPECIFIC EDITION","year":1999,"original_year":1999,"publisher":"PUBLISHER NAME","location_hint":"Chapter 3, Tablet IV lines 110-114, etc.","summary":"≤25 word paraphrase of what source says about trait","url":"WORKING URL IF AVAILABLE (NOT blog URLs or Wikipedia)","isbn":"ISBN NUMBER or null if pre-1967","source_type":"ancient|research|channeled|controversial","citation_status":"provisional","astronomical_component":"unspecified|P|B","component_reasoning":"Explanation of which Draco component this relates to"},{"title":"FULL TITLE FOR LOCKED SOURCE","author":"FULL NAME","translator_or_editor":"IF APPLICABLE","edition":"SPECIFIC EDITION","year":1995,"publisher":"PUBLISHER NAME","page":"Chapter 3, p. 67 (or canonical unit like Tablet IV, lines 93-104)","quote":"Verbatim text ≤25 words from source","url":"URL","isbn":"ISBN or null if pre-1967","source_type":"research","citation_status":"locked","astronomical_component":"unspecified|P|B","component_reasoning":"Explanation of which Draco component this relates to"}]}],"disputed_points":[{"claim":"Reptilian shapeshifters control world governments","supporting_sources":[{"title":"The Biggest Secret","author":"David Icke","year":1999,"publisher":"Bridge of Love Publications","location_hint":"Chapters 1-3, reptilian bloodline claims","summary":"Claims reptilian entities from Draco control human power structures through bloodlines","url":"https://archive.org/details/biggestsecret00icke","isbn":"ISBN 0-9526147-6-6","source_type":"controversial","citation_status":"provisional","astronomical_component":"B","component_reasoning":"Bloodline reptilian Draco narrative"}],"counter_evidence":[{"title":"An Instinct for Dragons","author":"David E. Jones","year":2000,"publisher":"Routledge","location_hint":"Chapter 5, evolutionary psychology of dragon myths","summary":"Dragon myths arise from evolutionary fear responses to predators, not extraterrestrial contact","url":"https://www.routledge.com/An-Instinct-for-Dragons/Jones/p/book/9780415937214","isbn":"ISBN 0-415-93721-8","source_type":"research","citation_status":"provisional","astronomical_component":"unspecified","component_reasoning":"General dragon mythology, not specific to Draco constellation components"}],"consensus":"low - Fringe theory, not academically accepted; dragon myths have evolutionary/psychological explanations"}],"east_west_duality":"Eastern dragons = wisdom/power; Western dragons = chaos/evil","research_notes":"Ancient dragon myths are solid; modern reptilian theories are controversial","bibliography":{"ancient_texts":["List key ancient texts cited (e.g., 'Enuma Elish - Tiamat', 'Chinese dragon mythology')"],"modern_research":["List key modern research books (e.g., 'Shuker, K. Dragons: A Natural History')"],"academic_foundations":["Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press","Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize)","Scholem, G. (1941). Major Trends in Jewish Mysticism"]}}
+```
+
+## TRAIT INCLUSION DECISION TREE
+
+**Before including ANY characteristic, ask:**
+
+1. **Can I find ≥2 sources with ISBNs and named authors?**
+   - YES → Include the trait with PROVISIONAL or LOCKED citations
+   - NO → Go to step 2
+
+2. **Are the only sources I can find blogs, "Various sources", or anonymous?**
+   - YES → **DROP THE TRAIT ENTIRELY**. Do not include it.
+   - NO → Go to step 3
+
+3. **Can I find 1 ISBN source + 1 academic/ancient source?**
+   - YES → Include the trait, mark consensus as LOW
+   - NO → **DROP THE TRAIT ENTIRELY**
+
+**Examples of traits to DROP if only blog-sourced:**
+- Any trait sourced only to conspiracy blogs or personal websites
+- Any trait sourced only to "Various starseed literature" or "Contemporary sources"
+
+**Better to have 5-6 well-sourced characteristics than 8-9 characteristics with blog contamination.**
+
+## EXPECTED CHARACTERISTICS
+
+Based on preliminary research, expect to find evidence for:
+- Ancient dragon mythology across cultures (likely HIGH consensus, HIGH ancient support, LOCKED)
+- Eastern vs Western dragon duality (likely HIGH consensus, HIGH ancient support, LOCKED)
+- Power, hierarchy, and control themes (likely MEDIUM consensus, HIGH ancient support, mix)
+- Reptilian/shapeshifter conspiracy theories (likely LOW consensus, UNKNOWN ancient support, PROVISIONAL, DISPUTED)
+- Genetic manipulation claims (likely LOW consensus, UNKNOWN ancient support, PROVISIONAL, DISPUTED)
+- Shadow vs Light Draco distinction (likely LOW consensus, UNKNOWN ancient support, PROVISIONAL if sources exist)
+
+If you find characteristics NOT in this list, include them with full citations.
+
+## FINAL REMINDER
+
+**DO NOT give up and return empty results.** Ancient dragon mythology sources are widely available online.
+
+**If you cannot fully satisfy a field under LOCKED mode, fall back to PROVISIONAL mode instead of omitting the source.** If you cannot produce `page` + `quote` for a relevant source, you MUST still include that source as `citation_status: "provisional"` with `location_hint` + `summary`. Do NOT omit the source.
+
+**However, if you cannot find ISBN-backed sources for a trait, DROP THE TRAIT rather than cite blogs.**
+
+**Prioritize LOCKED citations from:**
+- Sacred-texts.com (Enuma Elish, Beowulf, Norse Eddas, Greek mythology)
+- Archive.org (Scholarly dragon mythology books, David Icke books)
+- Lawofone.info (Law of One material if relevant)
+
+**Use PROVISIONAL citations for:**
+- Modern esoteric books (David Icke, R.A. Boulay, Stewart Swerdlow) unless on Archive.org
+- Recent scholarly publications
+- Sources behind paywalls
+
+**Remember:** Canonical units like "Tablet IV, lines 93-104" or "Spell 632" count as LOCKED citations. You don't need physical page numbers for ancient texts if you have the canonical reference.
+
+**Minimum acceptable response: 5-7 characteristics (including 3 mandatory), each with 2-5 fully cited sources (mix of provisional and locked), with East/West duality and modern controversy documented, and citation status marked.**
+
+**The final JSON MUST include, as separate objects in `"characteristics"`:**
+
+1. **"Ancient dragon mythology across cultures"** - Cross-cultural dragon myths with HIGH ancient support
+2. **"Eastern vs Western dragon duality"** - Contrasting archetypes with HIGH ancient support
+3. **"Modern reptilian/Draco controversy"** - Marked `"disputed": true` and `"source_type": "controversial"` for supporting sources
+
+## QUALITY CHECKLIST
+
+Before submitting, verify:
+
+✅ Each characteristic has 3-5 sources (target); 2 sources minimum acceptable for low-consensus traits
+✅ Each characteristic has `"polarity"` field (light|shadow|neutral)
+✅ All sources have ISBN or DOI (or null with publisher specified)
+✅ All sources have either (location_hint + summary) OR (page + quote) - NEVER both
+✅ All sources have `citation_status: "provisional"` or `citation_status: "locked"`
+✅ All sources have `astronomical_component` and `component_reasoning` fields
+✅ Ancient sources include translator/editor attribution in `translator_or_editor` field
+✅ Ancient sources use culture/text name as author (e.g., "Babylonian (Enuma Elish)"), NOT translator name
+✅ `original_year` included when citing translations of ancient texts (e.g., `-1200` for Enuma Elish)
+✅ URLs included where available (but NEVER Wikipedia or blogs)
+✅ Source types are labeled
+✅ Consensus levels are justified
+✅ Ancient support levels are noted
+✅ Ancient dragon myths documented (HIGH ancient support)
+✅ Icke material marked as controversial and disputed with `"polarity": "shadow"`
+✅ Shadow vs Light Draco distinguished (if sources exist)
+✅ East vs West dragon duality noted
+✅ Kundalini NOT conflated with Draco (common stretch to avoid)
+✅ Mix of ancient texts, scholarly works, and modern esoteric sources
+✅ **NO `verified: true` field** (added during manual verification)
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Missing "Ancient dragon mythology across cultures" characteristic
+❌ Missing "Eastern vs Western dragon duality" characteristic
+❌ Missing "Modern reptilian/Draco controversy" characteristic or disputed_points entry
+❌ Any source missing `citation_status` field
+❌ Any source missing `astronomical_component` field
+❌ Any source missing `component_reasoning` field
+❌ Any characteristic missing `"polarity"` field
+❌ Any source with `citation_status: locked` but no verbatim `quote`
+❌ Any source with `citation_status: provisional` but no `summary`
+❌ Any source with both `quote` and `summary` fields (pick one based on status)
+❌ Any source with both `page` and `location_hint` fields (pick one based on status)
+❌ Any locked source with `location_hint` or `summary` (should have `page` + `quote` only)
+❌ Any provisional source with `page` or `quote` (should have `location_hint` + `summary` only)
+❌ Any source with "Wikipedia Contributors" as author
+❌ Any Wikipedia or online encyclopedia sources (INCLUDING IN DISPUTED_POINTS)
+❌ Any "Various scholars" or "Various sources" or "Multiple authors" as author (Exception: "Anonymous" is acceptable for genuinely anonymous ancient texts)
+❌ Any "Various Astronomical Sources" or similar anonymous attributions
+❌ Any blog sources or personal websites
+❌ Any abbreviated titles
+❌ Any missing edition information
+❌ Any social media posts or YouTube videos
+❌ Any source with `verified: true` field (DO NOT include this)
+❌ Missing `east_west_duality` field
+❌ Kundalini conflated with Draco (common stretch to avoid)
+❌ Ancient text translators listed as "author" instead of "translator_or_editor" (e.g., Leonard William King should be translator, not author)
+
+**PASS CRITERIA:**
+✅ All 3 mandatory characteristics included as separate traits
+✅ Every characteristic has `"polarity"` field (light|shadow|neutral)
+✅ Every source has `citation_status: "provisional"` OR `citation_status: "locked"`
+✅ Every source has `astronomical_component` field (unspecified|P|B)
+✅ Every source has `component_reasoning` field
+✅ Every source has `publisher` field
+✅ Provisional sources have `location_hint` + `summary` (NO `page` or `quote`)
+✅ Locked sources have `page` + `quote` (NO `location_hint` or `summary`)
+✅ No source has both `quote` and `summary` fields (binary choice based on citation_status)
+✅ All sources have ISBN/DOI OR `"isbn": null` with publisher specified
+✅ All translator names include proper attribution in `translator_or_editor` field
+✅ Ancient texts use "Babylonian (Enuma Elish)" or "Anonymous" as author, NOT the translator's name
+✅ Translators listed in `translator_or_editor` field with "(translator)" designation
+✅ `original_year` included for ancient text translations (e.g., `-1200` for Enuma Elish)
+✅ Canonical units (Tablet IV, lines 93-104, etc.) are acceptable as LOCKED citations
+✅ All sources have complete bibliographic information
+✅ Ancient dragon myths documented (HIGH ancient support)
+✅ Icke material marked as controversial and disputed with `astronomical_component: "B"` and `"polarity": "shadow"`
+✅ Shadow vs Light Draco distinguished (if sources exist)
+✅ East vs West dragon duality noted
+✅ Kundalini NOT conflated with Draco
+✅ Zero Wikipedia or encyclopedia sources
+✅ Zero "Various sources" or "Various Astronomical Sources" attributions
+✅ NO `verified: true` field anywhere
+✅ Thuban/pole star sources do NOT cite Wikipedia (use generic astronomical reference if needed)
+✅ Law of One sources use `"author": "Ra via Carla Rueckert"` with L/L Research ISBN
+
+**V4 allows provisional citations, but you must still find legitimate sources and mark them honestly.**

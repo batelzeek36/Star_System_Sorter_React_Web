@@ -1,0 +1,149 @@
+{
+  "id": "hx07",
+  "number": 7,
+  "unicode_hexagram": "䷆",
+  "name": "The Army / Organized Force (師, Shī)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "[paraphrase] Shī (The Army) points to a situation requiring coordinated force. Firmness and correctness are essential. The army should be led by someone seasoned and qualified, not by the immature. With perseverance under right leadership, there is good fortune and no blame.",
+    "normalized_summary": "Collective force must be disciplined and ethically led. Power succeeds when guided by experienced command and moral restraint, not ego aggression."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "[paraphrase] The army goes out: it must leave under strict discipline. If the force is disordered or motives are corrupt, misfortune.",
+          "citation_status": "public_domain_draft"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：師出以律，否臧凶。"
+        }
+      ],
+      "normalized_meaning": "Before you mobilize a group / act in force, you need rules and alignment. If you rush in without order, it collapses badly.",
+      "keywords": [
+        "discipline at launch",
+        "command structure",
+        "don’t rush",
+        "ethical mobilization",
+        "misuse of force = ruin"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "[paraphrase] In the center of the army: good fortune. The king three times confers commands/honors.",
+          "citation_status": "public_domain_draft"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：在師中，吉，无咎。王三錫命。"
+        }
+      ],
+      "normalized_meaning": "Right person, right place, right backing. Competent leadership inside the group is recognized and trusted from above.",
+      "keywords": [
+        "legitimate command",
+        "earned authority",
+        "recognition",
+        "support from leadership",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "[paraphrase] The army hauling corpses in its wagons: misfortune.",
+          "citation_status": "public_domain_draft"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：師或輿尸，凶。"
+        }
+      ],
+      "normalized_meaning": "When force is misused or morale collapses, it turns ugly. If leadership fails, the campaign becomes pointless loss.",
+      "keywords": [
+        "misused force",
+        "demoralization",
+        "grinding cost",
+        "avoidable loss",
+        "bad command"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "[paraphrase] The army encamps off to the left side of the main force. No blame.",
+          "citation_status": "public_domain_draft"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：師左次，无咎。"
+        }
+      ],
+      "normalized_meaning": "Strategic pause / holding position slightly aside from direct confrontation is acceptable. You don't have to charge. Regrouping is not failure.",
+      "keywords": [
+        "tactical hold",
+        "flank position",
+        "rest and regroup",
+        "prudence",
+        "no blame"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "[paraphrase] There is game in the field — it is favorable to capture it; no blame. Let the elder/qualified one lead the army. If the younger/less qualified takes command and ends up hauling corpses, perseverance is disastrous.",
+          "citation_status": "public_domain_draft"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：田有禽，利執言，无咎。長子帥師，弟子輿尸，貞凶。"
+        }
+      ],
+      "normalized_meaning": "Put mature leadership in charge. When power is handed to the unready, the mission becomes wasteful and cruel. Skillful pursuit is fine; reckless pursuit kills people.",
+      "keywords": [
+        "qualified leadership",
+        "ethical command",
+        "mission clarity",
+        "misplaced authority = danger",
+        "avoid ego-driven conquest"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "[paraphrase] The great ruler issues mandates, founds states, assigns clans their domains. Do not employ inferior people.",
+          "citation_status": "public_domain_draft"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：大君有命，開國承家。小人勿用。"
+        }
+      ],
+      "normalized_meaning": "At culmination, real authority restructures the world — gives territory, builds legacy. This level of power must NOT elevate the unworthy.",
+      "keywords": [
+        "founding authority",
+        "statecraft",
+        "legacy building",
+        "choose worthy lieutenants",
+        "do not empower the unfit"
+      ]
+    }
+  ]
+}

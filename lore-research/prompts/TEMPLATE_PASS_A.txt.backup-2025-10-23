@@ -1,0 +1,150 @@
+Research "Human Design Gate {{GATE_NUMBER}}" using web search and browser tools.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (8-MODEL VALIDATION CONSENSUS - NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. Blog sources (WordPress, Medium, personal websites) - UNACCEPTABLE
+2. Anonymous authors ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. Fabricated quotes or page numbers - UNACCEPTABLE
+4. Paraphrases presented as direct quotes - MUST mark as paraphrase
+5. Wrong book attribution - VERIFY book title matches quote
+
+✅ MANDATORY REQUIREMENTS:
+1. Verify exact quote wording against source (or mark as paraphrase)
+2. Provide specific page numbers WHEN ACCESSIBLE (see pragmatic guidelines below)
+3. Include edition information for all sources
+4. Use published books with ISBN, not summaries or reviews
+5. Prioritize CONTENT QUALITY over citation perfection
+
+📖 PRAGMATIC PAGE NUMBER GUIDELINES:
+
+For Ra Uru Hu / Human Design sources:
+✅ ACCEPTABLE: "Gate {{GATE_NUMBER}} Section" or "Gate {{GATE_NUMBER}}, Lines 1-6"
+✅ ACCEPTABLE: "The Rave I'Ching, Gate {{GATE_NUMBER}}" (these books are organized by gate)
+⚠️ WHY: HD books are indexed by gate number, not page numbers. Gate section IS the citation.
+
+For Gene Keys:
+✅ ACCEPTABLE: "Gene Key {{GATE_NUMBER}}: [Title]" or "The {{GATE_NUMBER}}st/nd/rd Gene Key"
+✅ ACCEPTABLE: Quotes from genekeys.com official site (it's the author's official platform)
+⚠️ WHY: Gene Keys book is organized by gene key number. The gene key number IS the citation.
+
+For I Ching:
+✅ REQUIRED: "Hexagram {{GATE_NUMBER}}, [Judgment/Image/Lines]" with translator name
+✅ BEST: Wilhelm/Baynes translation (gold standard, widely available)
+⚠️ WHY: I Ching is universally organized by hexagram number across all translations.
+
+💡 FOCUS ON VALUE, NOT BUREAUCRACY:
+- A great quote with "Gate 5 Section" is BETTER than no quote with perfect page numbers
+- Official websites (humandesign.com, genekeys.com) are ACCEPTABLE for these specific systems
+- Rich contextual notes are MORE VALUABLE than defensive explanations about missing page numbers
+
+═══════════════════════════════════════════════════════════════════════════════
+
+EXECUTION REQUIREMENT:
+- Use Perplexity Sonar Deep Research with Comet browser enabled
+- Verify all citations by accessing actual sources via web browsing
+- Mark any citations you cannot directly verify as "not available" with explanation
+
+QUOTE VERIFICATION CHECKLIST (Complete before submitting):
+□ Exact wording matches source (or marked as paraphrase)
+□ Correct book title and edition
+□ Accurate page number (not "throughout text" or vague section)
+□ Author name spelled correctly
+□ Publication year correct
+□ URL leads to actual source (not summary/review)
+
+Requirements:
+- Pull Ra Uru Hu's meaning (1–2 sentences) with exact page or section and book/edition metadata
+- Pull Gene Keys (shadow, gift, siddhi) with exact page or section
+- I Ching Hexagram {{GATE_NUMBER}}: canonical name + brief meaning + why it maps to Gate {{GATE_NUMBER}}
+- All arrays must be present (can contain "not available" only if truly unavailable)
+
+═══════════════════════════════════════════════════════════════════════════════
+📤 OUTPUT FORMAT
+═══════════════════════════════════════════════════════════════════════════════
+
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+💎 NOTES FIELD - MAKE IT VALUABLE:
+
+The "notes" field should provide RICH CONTEXT, not excuses. Include:
+- Which center/circuit this gate belongs to
+- Channel connections (e.g., "Gate 1 connects to Gate 8 via Channel of Inspiration")
+- Circuit type (Individual/Tribal/Collective)
+- Key concepts from Ra's Line Companion or other HD sources
+- Gene Keys frequency spectrum details (shadow → gift → siddhi progression)
+- I Ching trigram composition and symbolism
+- Cross-references to related gates or themes
+
+❌ BAD NOTES: "Page numbers not available despite extensive search..."
+✅ GOOD NOTES: "Gate 1 (G-Center/Identity) connects to Gate 8 via Channel of Inspiration (Individual Circuit). Ra's Line Companion: 'Creation is independent of will' and 'Time is everything' for mutation. Gene Keys frequency: Entropy (chaos) → Freshness (vitality) → Beauty (union). I Ching: Two Heaven trigrams (☰☰) representing pure yang creative energy."
+
+Output shape (minified JSON only):
+{
+  "gate": {{GATE_NUMBER}},
+  "gate_name": "…",
+  "hd_meaning": "…",
+  "gene_keys": { "shadow": "…", "gift": "…", "siddhi": "…" },
+  "i_ching_parallel": { "hexagram": {{GATE_NUMBER}}, "name": "…", "meaning": "…", "relevance": "…" },
+  "citations": {
+    "primary": [
+      { 
+        "title":"The Rave I'Ching" or "The Complete Rave I'Ching",
+        "author":"Ra Uru Hu",
+        "edition":"MUST BE SPECIFIC (e.g., '2nd Edition', 'Line Companion')",
+        "year":1994,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Gate {{GATE_NUMBER}}, pp. 23-25' or 'Gate {{GATE_NUMBER}}, Lines 1-6')",
+        "url":"MUST INCLUDE IF AVAILABLE (official HD sources preferred)",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words OR mark as 'paraphrased summary' if condensed",
+        "quote_type":"exact|paraphrase"
+      }
+    ],
+    "secondary": [
+      { 
+        "title":"Gene Keys" or "The Gene Keys",
+        "author":"Richard Rudd",
+        "edition":"MUST BE SPECIFIC (e.g., '1st Edition', 'Golden Path Edition')",
+        "year":2009,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Gene Key {{GATE_NUMBER}}: [Title]' or 'pp. 45-47')",
+        "url":"MUST INCLUDE IF AVAILABLE (genekeys.com preferred)",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words OR mark as 'paraphrased summary' if condensed",
+        "quote_type":"exact|paraphrase"
+      },
+      {
+        "title":"I Ching (Wilhelm/Baynes translation preferred)",
+        "author":"Richard Wilhelm (translator)",
+        "edition":"MUST BE SPECIFIC (e.g., 'Princeton 1967', 'Penguin 1989')",
+        "year":1950,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Hexagram {{GATE_NUMBER}}, Judgment')",
+        "url":"MUST INCLUDE IF AVAILABLE",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words",
+        "quote_type":"exact"
+      }
+    ]
+  },
+  "notes": "unknown|brief"
+}
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Do all citations have gate/hexagram/gene key numbers (the primary organizational unit)?
+- ✅ Do all citations have actual quotes (prioritize content over perfect formatting)?
+- ✅ Are paraphrases clearly marked with "quote_type": "paraphrase"?
+- ✅ Do all citations have edition information?
+- ✅ Are URLs included where available?
+- ✅ Does "notes" field provide RICH CONTEXT (centers, channels, circuits, frequency spectrum)?
+- ✅ Have you searched for sources that CONTRADICT this gate meaning?
+- ✅ If contradictions found, are they noted in "notes" or "contradictions" field?
+- ❌ Are there ANY blog sources? (If yes, REMOVE them - official author sites are OK)
+- ❌ Are there ANY anonymous authors? (If yes, find actual author or remove)
+- ❌ Is "notes" field just explaining missing page numbers? (If yes, ADD ACTUAL CONTEXT instead)
+
+VALIDATION LESSONS LEARNED:
+- Ra Uru Hu quotes are often condensed summaries - mark as paraphrase if not exact
+- Gene Keys quotes are poetic - verify exact wording or mark as paraphrase
+- I Ching Wilhelm/Baynes is gold standard - always verifiable
+- "Gate {{GATE_NUMBER}} Section" IS a valid citation for HD books (they're organized by gate)
+- "Gene Key {{GATE_NUMBER}}" IS a valid citation for Gene Keys (organized by key number)
+- Focus on RICH CONTEXTUAL NOTES (centers, channels, circuits) not defensive explanations
+- Official author websites (humandesign.com, genekeys.com) are acceptable sources

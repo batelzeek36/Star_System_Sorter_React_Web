@@ -1,0 +1,105 @@
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+EXECUTION REQUIREMENT:
+- Use Perplexity Sonar Deep Research with Comet browser enabled
+- Verify all citations by accessing actual sources via web browsing
+- Mark any citations you cannot directly verify as "not available" with explanation
+
+Task: Using Gate {{GATE_NUMBER}}'s essence ({{GATE_ARCHETYPE}}), map to candidate star systems:
+
+STAR SYSTEMS:
+- Sirius (teachers, guardians, Sirian-Christos lineage)
+- Pleiades (nurturers, artists, empaths, Seven Sisters)
+- Orion Light/Osirian (historians, Egyptian mystery schools, Thoth/Hermes)
+- Arcturus (engineers, healers, geometric consciousness)
+- Andromeda (explorers, iconoclasts, freedom, sovereignty)
+- Lyra (primordial builders, feline beings, instinct)
+- Draco (power, will, hierarchy, kundalini - disputed)
+- Zeta Reticuli (analysts, experimenters, detachment)
+
+CRITICAL CITATION REQUIREMENTS (NON-NEGOTIABLE):
+- You MUST find exact page numbers, chapters, or specific sections for EVERY source
+- You MUST extract actual quotes ≤25 words from the source material
+- You MUST include edition/publication information (e.g., "1st Edition 1998", "Revised 2015")
+- You MUST include working URLs when available
+- If a citation element is unavailable despite thorough search with Comet:
+  * Mark the field as "not available"
+  * Add explanation in "notes" (e.g., "Source is paywalled", "Channeled material without page numbers")
+  * Continue with available information rather than fabricating
+- DO NOT dump URLs outside the JSON structure - parse them into the sources array with full metadata
+- DO NOT fabricate citations - honest "not available" is better than fake precision
+- Each alignment needs 2-3 sources with FULL metadata (not just URLs)
+- Each alignment should include at least 1 "ancient" or "scholarly" tier source when available
+
+Rules:
+- 3–5 alignments max
+- Mark confidence: high|medium|low|speculative
+- Tag evidence_type per alignment: explicit|thematic|cross_cultural|inferred
+- Include 2–3 sources per alignment (mix ancient + modern esoteric when possible)
+- For Orion, specify "Orion Light" or "Osirian" (not just "Orion")
+- All arrays must be present (can be empty [])
+
+SOURCE TIER DEFINITIONS:
+- ancient: Texts 1000+ years old (Egyptian, Vedic, I Ching, etc.)
+- scholarly: Academic research, peer-reviewed studies
+- historical: Mystery school texts, indigenous traditions (100-1000 years)
+- channeled: Modern channeled material (post-1900)
+- modern: Contemporary esoteric synthesis, blog posts, recent interpretations
+
+Output shape (minified JSON only):
+{
+  "gate": {{GATE_NUMBER}},
+  "star_system_alignments": [
+    {
+      "system": "Sirius|Pleiades|Orion Light|Arcturus|Andromeda|Lyra|Draco|Zeta",
+      "confidence": "high|medium|low|speculative",
+      "evidence_type": "explicit|thematic|cross_cultural|inferred",
+      "primary_rationale": "2–3 sentences tying Gate {{GATE_NUMBER}} essence to this system's signature.",
+      "ancient_support": ["…","…"],
+      "modern_support": ["…","…"],
+      "cross_cultural_pattern": "… or 'unknown'",
+      "sources": [
+        { 
+          "title":"MUST BE SPECIFIC",
+          "author":"MUST BE SPECIFIC",
+          "edition":"MUST BE SPECIFIC (e.g., '2nd Edition 2005')",
+          "year":1234,
+          "source_type":"ancient|channeled|research|indigenous",
+          "source_tier":"ancient|scholarly|historical|channeled|modern",
+          "quote":"MUST BE ACTUAL QUOTE ≤25 words (not 'unknown' unless truly unavailable)",
+          "page":"MUST BE SPECIFIC (e.g., 'Chapter 5, pp. 78-80')",
+          "url":"MUST INCLUDE IF AVAILABLE",
+          "disputed":false
+        }
+      ]
+    }
+  ],
+  "weights_hint": [
+    {
+      "system_id": "lyra|sirius|pleiades|orion_light|arcturus|andromeda",
+      "suggested_w": 1-5,
+      "reason": "Brief explanation why this weight"
+    }
+  ],
+  "mind_blowing_connections": [],
+  "contradictions": [],
+  "notes": "unknown|brief"
+}
+
+WEIGHTS_HINT RULES:
+- Total weight across all systems should be ≤15 per gate
+- Higher weight = stronger alignment (1=weak, 5=very strong)
+- Must match the alignments you identified above
+- Reason should be 5-10 words max
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Does each alignment have 2-3 sources with full metadata?
+- ✅ Do all sources have specific page numbers or sections (or "not available" with explanation)?
+- ✅ Do all sources have actual quotes (or "not available" with explanation)?
+- ✅ Do all sources have edition information?
+- ✅ Are URLs included where available?
+- ✅ Does each alignment include at least 1 "ancient" or "scholarly" tier source (when available)?
+- ✅ Is each source properly tagged with source_tier?
+- ✅ Have you searched for sources that CONTRADICT this star system alignment?
+- ✅ If contradictions found, are they listed in the "contradictions" array?
+- ⚠️ If critical information is "not available", have you explained why in "notes"?

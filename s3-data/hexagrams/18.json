@@ -1,0 +1,170 @@
+{
+  "id": "hx18",
+  "number": 18,
+  "unicode_hexagram": "䷑",
+  "name": "Work on What Has Been Spoiled / Decay (蠱, Gǔ)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Krt indicates great progress and success (to him who deals properly with the condition represented by it). I here will be advantage in (efforts like that «0 crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it 1. I he first line, divided, shows (a son) dealing with the troubles caused by his father. If lie be an (aide) son, the father will escape the blame of having erred. I he position is perilous, but there will be good fortune in the end. 2. I he second line, undivided, shows (a son) dealing with the troubles caused by his mother. He should not (carry) his firm correctness (to the utmost). ,L 1 he third line, undivided, shows (a son) dealing with the troubles caused by his father, There may bo some small occasion for repentance, but there will not be any great error. 4. The fourth line, divided, shows (a son) viewing what i» right. This influence not only extends to men, but also to spiritual beings. ‘The western hill' is mount Kh\\, at the foot of which was the original settlement of the house of ZEu, in it.c. 1325, The use of the name ‘king’ here brings us down hunt Wan into the time of king Wft at least. indulgently the troubles caused by his father. If he go forward, he will find cause to regret it. 5. The fifth line, divided, shows (a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work). 6. The sixth line, undivided, shows us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs. XVIII. In the 6th Appendix it is said, ‘They who follow another are sure to have services (to perform), and hence Sui is followed by Ku. But Kfi means the having painful or troublesome services to do. It denotes here a state in which things are going to ruin, as if through poison or venomous worms; and the figure is sup posed to describe the arrest of the decay and the restoration to soundness and vigour, so as to justify its auspice of great progress and success. To realise such a result, however, great efforts will lie required, as in crossing the great stream; and a careful con sideration of the events that have brought on the state of decay, and the measures to be taken to remedy it is also necessary. See Appendix I on the ‘ three days.' The subject oi line 1, and of all the other lines, excepting per haps 6, appears as a son. Yet the line itself is of the yin nature, and the trigram in which it plays the principal part is also yin! Line 2 is strong, and of the yang nature, with the yin line 5 as its proper correlate. In line 2,5 appears as the mother; but its sub ject there is again a son, and the upper trigram altogether is yang. Iam unable to account for these things. As is said in the note of Kegis on line 2 1 Haec matris filiique denominate ad has lineas mere translatitia est, et, ut ait commentarius vulgaris, ad explicatio- nem sententiarum eas pro matre et filio supponere dicendum !T° ''I'” “ qtiS iD “ roque hoc roysterium quaerat. Cur emm alus m figuris hneae mine regem, nunc vasal- lum jam imperii administrum, mox summum armorum praefec Iim referre ,earner? Aceommodantu, ecilieet lineae ad „ . .. , . wu \"‘ uui ouuiuci nueae aa verba sententiae e verba sententiae ad sensum, quemadmodum faci endum de methods ; libri Shih King docet Mencius, V, i, ode 4.2.' . * mus eave thls d| fficuky. Line 1 i s weak, and its correlate 4 is also weak. What can its subject do to remedy the state of decay? But the line is the first of the figure, and the decay is not",
+    "normalized_summary": "Rot has set in. Something inherited is corrupted and must be repaired. This hexagram says: do the cleanup, even if it’s heavy, and study both what led to the decay (three days before) and what must follow after (three days after). The work is sacred duty, not vanity — you fix the mess, restore order, and sometimes step outside the existing power structure if that structure is the source of decay."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first SIX, divided, shows (a son) dealing with the troubles caused by his father. If he be an (able) son, the father will escape the blame of having erred. The position is perilous, but there will be good fortune in the end.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：干父之蛊，有子，考无咎，厉终吉。"
+        }
+      ],
+      "normalized_meaning": "You inherit a mess from the previous generation and take responsibility for fixing it. It's risky and stressful, but doing the repair work protects their name and ends well.",
+      "keywords": [
+        "repairing the father's damage",
+        "filial duty",
+        "inherited corruption",
+        "danger but ends well",
+        "restoring reputation"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows (a son) dealing with the troubles caused by his mother. He should not (carry) his firm correctness (to the utmost).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：干母之蛊，不可贞。"
+        }
+      ],
+      "normalized_meaning": "Clean up the damage, but don't be harsh or self-righteous. Correction here has to be gentle and humane, not rigid.",
+      "keywords": [
+        "repairing the mother's damage",
+        "measured response",
+        "avoid rigidity",
+        "gentle correction",
+        "maintain relationship"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, shows (a son) dealing with the troubles caused by his father. There may be some small occasion for repentance, but there will not be any great error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：干父之蛊，小有悔，无大咎。"
+        }
+      ],
+      "normalized_meaning": "You take action and maybe overstep a little. You’ll wish you’d handled part of it better, but it’s not a catastrophe.",
+      "keywords": [
+        "course correction",
+        "minor remorse",
+        "no major blame",
+        "active cleanup",
+        "learning through action"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, divided, shows (a son) viewing what i» right. This influence not only extends to men, but also to spiritual beings. ‘The western hill' is mount Kh\\, at the foot of which was the original settlement of the house of ZEu, in it.c. 1325, The use of the name ‘king’ here brings us down hunt Wan into the time of king Wft at least. indulgently the troubles caused by his father. If he go forward, he will find cause to regret it.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：裕父之蛊，往见吝。"
+        }
+      ],
+      "normalized_meaning": "This is enabling. Being lenient with corruption out of loyalty or comfort leads to shame later if you keep going that way.",
+      "keywords": [
+        "enabling decay",
+        "excess tolerance",
+        "avoiding confrontation",
+        "future regret",
+        "bad compliance"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, divided, shows (a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：干父之蛊，用誉。"
+        }
+      ],
+      "normalized_meaning": "You handle the cleanup well and choose the right tools / allies for the fix. People recognize and praise the quality of how you restore order.",
+      "keywords": [
+        "competent stewardship",
+        "right tool for the job",
+        "public praise",
+        "restoring order",
+        "reputation for integrity"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The sixth line, undivided, shows us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs. XVIII. In the 6th Appendix it is said, ‘They who follow another are sure to have services (to perform), and hence Sui is followed by Ku. But Kfi means the having painful or troublesome services to do. It denotes here a state in which things are going to ruin, as if through poison or venomous worms; and the figure is sup posed to describe the arrest of the decay and the restoration to soundness and vigour, so as to justify its auspice of great progress and success. To realise such a result, however, great efforts will lie required, as in crossing the great stream; and a careful con sideration of the events that have brought on the state of decay, and the measures to be taken to remedy it is also necessary. See Appendix I on the ‘ three days.' The subject oi line 1, and of all the other lines, excepting per haps 6, appears as a son. Yet the line itself is of the yin nature, and the trigram in which it plays the principal part is also yin! Line 2 is strong, and of the yang nature, with the yin line 5 as its proper correlate. In line 2,5 appears as the mother; but its sub ject there is again a son, and the upper trigram altogether is yang. Iam unable to account for these things. As is said in the note of Kegis on line 2 1 Haec matris filiique denominate ad has lineas mere translatitia est, et, ut ait commentarius vulgaris, ad explicatio- nem sententiarum eas pro matre et filio supponere dicendum !T° ''I'” “ qtiS iD “ roque hoc roysterium quaerat. Cur emm alus m figuris hneae mine regem, nunc vasal- lum jam imperii administrum, mox summum armorum praefec Iim referre ,earner? Aceommodantu, ecilieet lineae ad „ . .. , . wu \"‘ uui ouuiuci nueae aa verba sententiae e verba sententiae ad sensum, quemadmodum faci endum de methods ; libri Shih King docet Mencius, V, i, ode 4.2.' . * mus eave thls d| fficuky. Line 1 i s weak, and its correlate 4 is also weak. What can its subject do to remedy the state of decay? But the line is the first of the figure, and the decay is not",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：不事王侯，高尚其事。"
+        }
+      ],
+      "normalized_meaning": "Highest expression: you refuse corrupt power structures entirely. You serve principle itself, not a ruler. Sovereign duty over obedience.",
+      "keywords": [
+        "sovereign integrity",
+        "refusal to serve corruption",
+        "lofty independence",
+        "personal mission",
+        "pure principle"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.547818Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 102,
+      "leaf_end": 105,
+      "page_candidates": [
+        "174",
+        "175",
+        "176",
+        "177",
+        "2",
+        "Vi",
+        "179",
+        "I",
+        "180",
+        "i",
+        "6"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

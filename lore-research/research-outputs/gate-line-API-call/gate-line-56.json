@@ -1,0 +1,84 @@
+{
+  "gate": 56,
+  "gate_name": "",
+  "lines": {
+    "56.1": {
+      "line": 1,
+      "hd_title": "Quality",
+      "hd_quote": "Expression of practical ideas that have value.",
+      "keywords": [
+        "practical stimulation",
+        "value-first storytelling",
+        "finish the idea"
+      ],
+      "behavioral_axis": "Wants to stimulate only with ideas that are useful to the listener.",
+      "shadow_axis": "Trivial stimulation for feedback; talks before finishing idea.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "56.2": {
+      "line": 2,
+      "hd_title": "Linkage",
+      "hd_quote": "Isolated genius that will eventually find continuity through recognition and support.",
+      "keywords": [
+        "projected storyteller",
+        "genius waiting for audience",
+        "recognition-dependent"
+      ],
+      "behavioral_axis": "Projects ‘I can stimulate’ and eventually attracts the right field to do it.",
+      "shadow_axis": "Feels unseen → overprojects stimulation without depth.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "56.3": {
+      "line": 3,
+      "hd_title": "Alienation",
+      "hd_quote": "A will and egoism that often proves overbearing and guarantees continued isolation.",
+      "keywords": [
+        "controls room",
+        "teacher energy",
+        "risk of pushiness"
+      ],
+      "behavioral_axis": "Wants to control how, when, and to whom the story is told.",
+      "shadow_axis": "Overbearing delivery → audience leaves → isolation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "56.4": {
+      "line": 4,
+      "hd_title": "Expediency",
+      "hd_quote": "The perfection of the superficial personality that can mask, when essential, its true feelings to secure protection.",
+      "keywords": [
+        "role-based storytelling",
+        "parable delivery",
+        "social opportunism"
+      ],
+      "behavioral_axis": "Tells the story the audience can receive, not necessarily the one it believes.",
+      "shadow_axis": "Becomes ‘just a performer’ and hides actual spirit.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "56.5": {
+      "line": 5,
+      "hd_title": "Attracting attention",
+      "hd_quote": "Unusualness, innovation and sometimes genius as guarantees of eventually attracting attention and support.",
+      "keywords": [
+        "projected genius",
+        "attention magnet",
+        "innovative stimulation"
+      ],
+      "behavioral_axis": "Audience projects ‘you’re the storyteller’ → gets the mic → stimulates widely.",
+      "shadow_axis": "Attracts attention that backfires; audience doubts the story.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "56.6": {
+      "line": 6,
+      "hd_title": "Caution",
+      "hd_quote": "The prudence, when linkage has been achieved, to honor its new commitments in order to secure its footing.",
+      "keywords": [
+        "selective storyteller",
+        "anti-stimulation phase",
+        "live by your word"
+      ],
+      "behavioral_axis": "Will only stimulate when the idea is worth living and finishing.",
+      "shadow_axis": "Cynical detachment; refuses to tell any story.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

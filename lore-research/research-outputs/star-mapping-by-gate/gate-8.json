@@ -1,0 +1,278 @@
+{
+  "8.1": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Choose authentic voice over conformity—sovereign contribution."
+    },
+    "arcturus": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Places the signal on the right platform with clean pacing."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early scene-cred anxiety can trigger gatekeeping."
+    },
+    "lyra": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Style/aesthetic beacon begins to broadcast."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Temptation to adopt brand dogma to be accepted."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Courage to present uniqueness publicly."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Warm tone invites connection and belonging."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No explicit transmission yet—pre-teaching phase.",
+      "confidence": 5,
+      "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "8.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Serve the whole without surrendering agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Fit contribution into a useful role and cadence."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status sensitivity over whose project gets the shine."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Refines the shared work’s aesthetic signal."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Service can slide into compliance with the ‘house style.’"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Disciplined craft in service to the collective."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned support strengthens group cohesion."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational service, not codified instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "8.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Approval-seeking outsources authorship."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Packaging over substance—over-structured image management."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Clique gatekeeping and posture policing."
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Performative style replaces truth—vanity signal."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Obedience to brand rules and dogma."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Exposure ordeal invites honest self-correction."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing blurs authentic contribution."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No clear pedagogy—trial-and-error authenticity work.",
+      "confidence": 5,
+      "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "8.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Models sovereignty—unique voice intact within the group."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Sets format and cadence others can follow."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Role prestige can become a status barrier."
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Cultural beacon—beauty as example."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of turning style into doctrine."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Initiates by example under pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Confident, welcoming presence uplifts others’ nerves."
+    },
+    "sirius": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Teaching-by-presence: standard-setting through lived protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "mentor/standard-setter",
+      "keywords": ["role-model", "example", "format"]
+    }
+  },
+  "8.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Uses influence to free others’ authentic expression."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Curates channels/resources—structural patronage."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guards mission integrity and loyalty to the craft."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Sponsors culture/beauty that elevates the field."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Patronage can drift into PR compliance or leverage."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Backs what is worthy despite pressure—integrity under trial."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Hospitable platforms and care for contributors."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Codifies stewardship protocols—how to sponsor and shepherd.",
+      "confidence": 4,
+      "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "patron/structure-teacher",
+      "keywords": ["patronage", "stewardship", "platform"]
+    }
+  },
+  "8.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodied exemplar of sovereign contribution."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for where/how culture is voiced."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Aura may read as exclusive gate."
+    },
+    "lyra": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Iconic beacon—authorship that sets the cultural tone."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Taste can ossify into law—doctrine-lock risk."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Holds integrity of expression through public trial."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is canon/standard, not soothing/bonding."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Royal transmission of contribution law—presence instructs without words.",
+      "confidence": 4,
+      "sources": ["gate-line-8.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "presence/royal-instruction",
+      "keywords": ["beacon", "canon", "standard"]
+    }
+  }
+}

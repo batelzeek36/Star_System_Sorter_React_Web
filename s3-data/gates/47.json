@@ -1,0 +1,206 @@
+{
+  "id": "gate.47",
+  "hexagram": "hx47",
+  "center": "Ajna",
+  "circuit": "Collective / Abstract (Sensing)",
+  "programming_partner": "gate.22",
+  "polarity": {
+    "opposite_on_wheel": "gate.22"
+  },
+  "themes": [
+    "realization from the abstract past",
+    "processing sequences into meaning",
+    "oppression from mental pressure",
+    "blame / guilt / shame sorting",
+    "need for the 'aha' to relieve pressure"
+  ],
+  "fear": "futility / not being able to realize",
+  "lines": [
+    {
+      "id": "47.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Taking Stock",
+        "hd_quote": "The ability in times of hardship to concentrate on eradicating the negative factors that have led to oppression."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational introspection",
+          "clearing old narratives",
+          "mental housekeeping"
+        ],
+        "behavioral_axis": "Looks back to identify what went wrong so realization can emerge.",
+        "shadow_axis": "Projects blame outward and can’t stop reviewing the past."
+      },
+      "relationship_needs": {
+        "needs_space_for_introspection": true,
+        "rejects_blame_games": true,
+        "benefits_from_clear_problem_statements": true
+      },
+      "group_role": "post-mission analyst / historian of mistakes",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "47.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Ambition",
+        "hd_quote": "The ambition and drive to overcome personal oppression in order to achieve security."
+      },
+      "interpretation": {
+        "keywords": [
+          "busy to stay sane",
+          "projection line",
+          "escape through activity"
+        ],
+        "behavioral_axis": "Stays active so the mind doesn’t sink into oppression.",
+        "shadow_axis": "Gets busy with the wrong things and oppression returns."
+      },
+      "relationship_needs": {
+        "needs_productive_activity": true,
+        "needs_acknowledgement_for_effort": true,
+        "rejects_forced_introspection": true
+      },
+      "group_role": "operator who keeps the system moving",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "47.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Self-Oppression",
+        "hd_quote": "The conscious and well integrated being whose natural right action will eventually come to see the unfoundedness of its oppression."
+      },
+      "interpretation": {
+        "keywords": [
+          "turning point through experience",
+          "emotional wave awareness",
+          "counsellor of ordeal"
+        ],
+        "behavioral_axis": "Learns that the mind’s oppression isn’t the present-moment reality.",
+        "shadow_axis": "Loops in self-oppression and can’t accept ‘I’m actually okay today.’"
+      },
+      "relationship_needs": {
+        "needs_empathic_witness": true,
+        "partners_must_not_minimize_struggle": true,
+        "benefits_from_experiential_sharing": true
+      },
+      "group_role": "guide through mental/emotional ordeals",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "47.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Repression",
+        "hd_quote": "The constraints of external oppression."
+      },
+      "interpretation": {
+        "keywords": [
+          "fixed external issue",
+          "identity under pressure",
+          "can still nourish others"
+        ],
+        "behavioral_axis": "Holds identity steady even when outer forces won’t resolve.",
+        "shadow_axis": "Personalizes all external pressure and burns out."
+      },
+      "relationship_needs": {
+        "needs_loyal_allies": true,
+        "keeps_core_issue_private": true,
+        "resists_over-conditioning": true
+      },
+      "group_role": "front-line stabilizer under stress",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "47.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "The Saint",
+        "hd_quote": "The gift in times of oppression to maintain, without hypocrisy, a harmonic relationship with one's oppressors, while providing aid and succor to the oppressed."
+      },
+      "interpretation": {
+        "keywords": [
+          "universalizer of the ordeal",
+          "grace in pressure",
+          "service while oppressed"
+        ],
+        "behavioral_axis": "Shows everyone oppression can be lived with grace and usefulness.",
+        "shadow_axis": "Becomes over-available because ‘there is nothing else to do.’"
+      },
+      "relationship_needs": {
+        "needs_recognition_of_service": true,
+        "expects_maturity_from_others": true,
+        "rejects_hypocrisy": true
+      },
+      "group_role": "saintly mediator / harmonic bridge",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    },
+    {
+      "id": "47.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Futility",
+        "hd_quote": "Life as an ordeal stripped of realization."
+      },
+      "interpretation": {
+        "keywords": [
+          "ajna anxiety apex",
+          "sees limits of mind",
+          "seeks truth beyond pattern"
+        ],
+        "behavioral_axis": "Knows mental realization can’t fully end oppression; conserves resources.",
+        "shadow_axis": "Depression, ‘why bother,’ rejects all attempts at meaning."
+      },
+      "relationship_needs": {
+        "needs_truth_not_reassurance": true,
+        "rejects_chronic_complainers": true,
+        "needs_respect_for_withdrawal": true
+      },
+      "group_role": "truth-filter / stop-wasting-resources sentinel",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "verified",
+    "provenance": "All classical.hd_title and classical.hd_quote strings taken verbatim (≤25 words) from Ra Uru Hu, “Line Companion,” archive.org stream around lines 12263–12470."
+  }
+}

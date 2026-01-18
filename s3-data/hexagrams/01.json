@@ -1,0 +1,149 @@
+{
+  "id": "hx01",
+  "number": 1,
+  "unicode_hexagram": "䷀",
+  "name": "The Creative / Heaven (乾, Qián)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Pure creative force: great, originating, penetrating, correct, and firmly persevering. This hexagram describes the primal, initiating power that establishes order.",
+    "normalized_summary": "Sovereign creative will. The force that initiates reality, aligned with disciplined correctness rather than ego."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The dragon lies hid in the deep; it is not the time for active doing.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "潜龙勿用 (Qián lóng wù yòng)"
+        }
+      ],
+      "normalized_meaning": "Power exists but remains intentionally concealed. Acting now would be premature.",
+      "keywords": [
+        "hidden potential",
+        "preparation",
+        "restraint",
+        "timing",
+        "strategic invisibility"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The dragon appears in the field. It will be advantageous to see the great man.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "见龙在田，利见大人 (Jiàn lóng zài tián, lì jiàn dà rén)"
+        }
+      ],
+      "normalized_meaning": "Creative force is emerging into visibility. Align yourself with wise leadership / high-caliber alliance.",
+      "keywords": [
+        "emergence",
+        "public presence",
+        "alliance",
+        "seeking counsel",
+        "activation"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "Active all the day, the superior man is ever vigilant at night. There is danger, but no blame.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "君子终日乾乾，夕惕若，厉无咎 (Jūn zǐ zhōng rì qián qián, xī tì ruò, lì wú jiù)"
+        }
+      ],
+      "normalized_meaning": "Relentless drive, intense vigilance. You're pushing hard and you know the stakes. It's tiring but still correct.",
+      "keywords": [
+        "tireless striving",
+        "vigilance",
+        "burnout risk",
+        "responsibility",
+        "integrity under pressure"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "He seems to be leaping up, but is still in the deep; there will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "或跃在渊，无咎 (Huò yuè zài yuān, wú jiù)"
+        }
+      ],
+      "normalized_meaning": "You're coiled and ready to launch, but you're technically still below the surface. Holding tension a little longer is wise.",
+      "keywords": [
+        "readiness",
+        "restrained leap",
+        "situational awareness",
+        "poised potential",
+        "careful timing"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The dragon is flying in the sky; it will be advantageous to see the great man.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "飞龙在天，利见大人 (Fēi lóng zài tiān, lì jiàn dà rén)"
+        }
+      ],
+      "normalized_meaning": "Full ascendancy. Legitimate authority. Lead visibly and responsibly.",
+      "keywords": [
+        "sovereignty",
+        "public authority",
+        "recognized leadership",
+        "influence",
+        "flourishing presence"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The arrogant dragon will have cause to repent.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "亢龙有悔 (Kàng lóng yǒu huǐ)"
+        }
+      ],
+      "normalized_meaning": "Overextension and pride cause downfall. Power without humility collapses.",
+      "keywords": [
+        "hubris",
+        "overreach",
+        "fall from power",
+        "repentance",
+        "loss of mandate"
+      ]
+    }
+  ]
+}

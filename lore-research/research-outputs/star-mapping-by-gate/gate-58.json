@@ -1,0 +1,278 @@
+{
+  "58.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refuses forced positivity; sovereignty to improve only where it’s true."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Baseline QA impulse—spot what’s off and set conditions for betterment."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policing ‘joy’ and standards to display rank/control."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Playful craftsmanship—making better is enjoyable and elegant."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Toxic-positivity as obedience script to hide dysfunction."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Discipline to direct vitality into what truly improves function."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle encouragement—morale support that sustains effort."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching improvement hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-58.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "58.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines coerced cheer; joy and betterment must be voluntary."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Places processes/tools so quality rises—checklists, cadence, scope."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Gatekeeping low-fitness patterns to protect standards."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Design ‘better’ to feel fun—elegant improvements welcome adoption."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol-as-control: metrics used to dominate rather than guide."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honor the process—steady, honorable upgrades over hype."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uplifts morale and bonding so iteration is sustainable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement phase—not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-58.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "58.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims joy after burnout/exploitation—chooses clean improvement."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble: swings between nitpicking and apathy while calibrating."
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Punitive perfectionism and mockery as dominance posturing."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Performative ‘fun’/optics in place of real vitality."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Morale manipulation—propaganda metrics to enforce obedience."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of correction—admit errors, reset standards with proportion."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Coddling that avoids needed feedback and keeps decay."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-58.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "58.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Advocates freedom to improve without fear or capture."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Codifies kaizen: retros, thresholds, feedback loops, standard work."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Perimeter ethics—keeps decay/predation out of the system."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Culture of joyful excellence—beauty in well-made improvement."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Metrics worship ossifies into control rather than learning."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—hold proportionate standards under pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Humane feedback culture—care that enables growth."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Improvement-protocol teaching—joy as lawful pressure toward better.",
+      "confidence": 4,
+      "sources": ["gate-line-58.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "improvement-protocol/joyful-standards",
+      "keywords": ["kaizen", "feedback loops", "standards", "proportion"]
+    }
+  },
+  "58.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists PR/metric games—chooses true betterment over optics."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as universal fixer → burnout/scapegoat when refusing bad briefs."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Punishing ‘standards’ to maintain status hierarchy."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Credible, untheatrical tone—joy in real quality, not show."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Weaponized metrics/‘happiness’ to control the group."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—improve only what truly fits and serves."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement that keeps a ‘happy face’ while rot persists."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethics of improvement amid politics and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-58.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/improvement-ethics",
+      "keywords": ["ethics", "metrics", "proportion", "credibility"]
+    }
+  },
+  "58.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Liberates communities from demoralization—returns to living joy."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder stewardship—review cadence, renewal/sunset of standards, learning loops."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Guardian presence—prevents slide into decay without tyranny."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Quiet majesty—joy as cultural baseline through well-made life."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonized ‘best practice’ ossifies into hierarchy and stasis."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—courageous, proportionate correction for the whole."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is standards and law, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Joy sage—teaches the law of vitality and improvement by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-58.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "joy-sage/law-of-vitality",
+      "keywords": ["vitality", "learning loops", "elder", "law", "renewal"]
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "gate.52",
+  "hexagram": "hx52",
+  "center": "Root",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.58",
+  "polarity": {
+    "opposite_on_wheel": "gate.58"
+  },
+  "themes": [
+    "temporary and self-imposed inaction for assessment",
+    "pressure to keep still so focus can arise (52–9 Concentration)",
+    "root-format fuel for the whole Understanding circuit",
+    "restlessness → depression when there is no focus",
+    "being the mountain: unshakable, calm, a steady field"
+  ],
+  "fear": "restless pressure with nothing to focus on",
+  "lines": [
+    {
+      "id": "52.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Think before you speak",
+        "hd_quote": "The pause that is so profound that it leads to silence."
+      },
+      "interpretation": {
+        "keywords": [
+          "root pause",
+          "pre-action assessment",
+          "contain the pulse"
+        ],
+        "behavioral_axis": "Uses stillness to prevent impulsive action; speaks or moves only when field is clear.",
+        "shadow_axis": "Speaks first, processes later → “energy that cannot be stilled.”"
+      },
+      "relationship_needs": {
+        "needs_slow_start": true,
+        "prefers_low-reactivity_space": true,
+        "rejects_forced_immediacy": true
+      },
+      "group_role": "initial stabilizer / mountain in the room",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "52.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Concern",
+        "hd_quote": "The pause that is initiated to benefit others."
+      },
+      "interpretation": {
+        "keywords": [
+          "restrain for the tribe",
+          "protective stillness",
+          "pressure managed"
+        ],
+        "behavioral_axis": "Uses its own inaction to keep others safe or to protect the situation.",
+        "shadow_axis": "Selfish pause that endangers others → “to selfishly restrain energy at the expense of others.”"
+      },
+      "relationship_needs": {
+        "needs_purpose_for_stillness": true,
+        "prefers_roles_with_guardian_vibe": true,
+        "rejects_extractive_demands": true
+      },
+      "group_role": "protective pauser / situational brake",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "52.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Controls",
+        "hd_quote": "The ability by its very nature to understand restraint with the potential in acceptance, to use the period to redefine strategies."
+      },
+      "interpretation": {
+        "keywords": [
+          "externally enforced stillness",
+          "strategy reset",
+          "pressure → plan"
+        ],
+        "behavioral_axis": "Takes enforced downtime and actually improves the system; inaction becomes design time.",
+        "shadow_axis": "Deep dissatisfaction with controls → emotional withdrawal; pressure disturbs tranquillity."
+      },
+      "relationship_needs": {
+        "needs_time_to_restrategize": true,
+        "partners_handle_enforced_pauses": true,
+        "rejects_micromanaged_restraint": true
+      },
+      "group_role": "tactical planner during downtime",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "52.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Self-discipline",
+        "hd_quote": "Perfected self-discipline and restraint that deals easily and wisely with impulsive temptations."
+      },
+      "interpretation": {
+        "keywords": [
+          "model stillness",
+          "impulse control",
+          "value of focus"
+        ],
+        "behavioral_axis": "Shows others how to hold pressure without leaking energy.",
+        "shadow_axis": "Doubts the value of restraint → restlessness in the face of restraint."
+      },
+      "relationship_needs": {
+        "needs_consistent_context": true,
+        "prefers_mature_allies": true,
+        "rejects_chaotic_impulsivity": true
+      },
+      "group_role": "discipline exemplar / focus preserver",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "52.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Explanation",
+        "hd_quote": "In times of inaction, the often important ability, to explain one's position."
+      },
+      "interpretation": {
+        "keywords": [
+          "terse clarity",
+          "communicate the stillness",
+          "focus → detail"
+        ],
+        "behavioral_axis": "Can tell the group exactly why it is pausing → maintains cohesion.",
+        "shadow_axis": "Too much inaction → loss of focus, not detail."
+      },
+      "relationship_needs": {
+        "needs_space_to_articulate": true,
+        "prefers_clear_reasoning": true,
+        "rejects_demands_for_constant_action": true
+      },
+      "group_role": "translator of inaction / rationale voice",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "52.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Peacefulness",
+        "hd_quote": "A harmonic and balanced attunement that is at ease regardless of the situation."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level calm",
+          "no-pressure field",
+          "true mountain"
+        ],
+        "behavioral_axis": "Embodies stillness so completely that pressure cannot disturb it.",
+        "shadow_axis": "Delusion as substitute for tranquillity; looks peaceful but is detached."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low-drama_field": true,
+        "rejects_needless_activation": true
+      },
+      "group_role": "field stabilizer / pressure absorber",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote taken verbatim (<25 words) from Ra Uru Hu’s The Complete Rave I’Ching / Line Companion text on Archive.org for “KEEPING STILL (MOUNTAIN) 52” lines 1–6 (L3475–L3446). Interpretations are original behavioral mappings for the user’s S³ schema."
+  }
+}

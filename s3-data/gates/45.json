@@ -1,0 +1,206 @@
+{
+  "id": "gate.45",
+  "hexagram": "hx45",
+  "center": "Throat",
+  "circuit": "Tribal / Ego (Community)",
+  "programming_partner": "gate.26",
+  "polarity": {
+    "opposite_on_wheel": "gate.26"
+  },
+  "themes": [
+    "the Gatherer / the Queen / the tribal mouth",
+    "material leadership through benefit",
+    "education of the tribe as power",
+    "possessive voice: “I have / I own / I control resources”",
+    "integration of outsiders for tribal mutation (45.6)"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "45.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Canvassing",
+        "hd_quote": "The ability to promote and develop gathering together through the education of the uncommitted."
+      },
+      "interpretation": {
+        "keywords": [
+          "educational rulership",
+          "benefit-first leadership",
+          "resource evangelist"
+        ],
+        "behavioral_axis": "Knows power = educate the people, then gather them.",
+        "shadow_axis": "Overzealous promotion feels like proselytizing and repels the tribe."
+      },
+      "relationship_needs": {
+        "needs_to_teach_first": true,
+        "needs_benefit_recognized": true,
+        "rejects_uneducated_followers": true
+      },
+      "group_role": "tribal educator / recruiter of resources",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "45.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Consensus",
+        "hd_quote": "Gathering together is strengthened by acknowledged common interest."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected authority",
+          "shared-interest filter",
+          "benefit techniques"
+        ],
+        "behavioral_axis": "Projects, “I can lead you,” and cements it with shared material interests.",
+        "shadow_axis": "Rejects others’ techniques; becomes the power-behind-the-throne controller."
+      },
+      "relationship_needs": {
+        "needs_common_interest_named": true,
+        "prefers_clear_material_terms": true,
+        "rejects_competing_techniques": true
+      },
+      "group_role": "consensus builder / technique projector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "45.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Exclusion",
+        "hd_quote": "The ability when excluded to take whatever measures are necessary to dissolve the antiquated form and to accept even humiliation to achieve inclusion."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error rulership",
+          "will do anything to get to center",
+          "material succession drama"
+        ],
+        "behavioral_axis": "If barred from power, will find or force a way back in.",
+        "shadow_axis": "Violent or reactive exclusion → tribal fracture."
+      },
+      "relationship_needs": {
+        "needs_path_to_inclusion": true,
+        "partners_handle_status_swings": true,
+        "rejects_public_humiliation_without_reward": true
+      },
+      "group_role": "access negotiator / succession challenger",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "45.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Direction",
+        "hd_quote": "The ability to focus the opportunity of gathering together for the service of higher principles."
+      },
+      "interpretation": {
+        "keywords": [
+          "externalized benefit",
+          "higher-principle materialism",
+          "service-focused rulership"
+        ],
+        "behavioral_axis": "Points the whole tribe’s resources at what truly benefits them.",
+        "shadow_axis": "Uses group direction to advance private agenda."
+      },
+      "relationship_needs": {
+        "needs_service_orientation": true,
+        "prefers_structured_tribal_roles": true,
+        "rejects_direction_without_benefit": true
+      },
+      "group_role": "material strategist / benefit director",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "45.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Leadership",
+        "hd_quote": "All gathering must have a center and a focus."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected king/queen",
+          "charismatic center",
+          "respect-for-the-throne"
+        ],
+        "behavioral_axis": "Becomes the obvious material center; leads by educating and delegating.",
+        "shadow_axis": "Assumes respect before it’s earned → appears aristocratic or entitled."
+      },
+      "relationship_needs": {
+        "needs_respect_for_authority": true,
+        "prefers_loyal_circle": true,
+        "rejects_challenges_in_public": true
+      },
+      "group_role": "central leader / resource distributor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "45.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Reconsideration",
+        "hd_quote": "A material direction which serves the outsider; or a material direction that is focused on conditioning the outsider to conform."
+      },
+      "interpretation": {
+        "keywords": [
+          "heretical ruler",
+          "integrates outsiders",
+          "tribal mutation"
+        ],
+        "behavioral_axis": "Sees tribe must mutate by bringing in new blood/resources.",
+        "shadow_axis": "Brings outsiders in then overcontrols to appease the tribe."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_high-caliber_allies": true,
+        "rejects_xenophobic_pressure": true
+      },
+      "group_role": "mutative monarch / outsider integrator",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion on Archive.org, section “HEXAGRAM 45 GATHERING TOGETHER,” lines 45.1–45.6 (approx. L11781–L11975 of the djvu text). Interpretations are original behavioral mappings aligned to the user’s S³ schema."
+  }
+}

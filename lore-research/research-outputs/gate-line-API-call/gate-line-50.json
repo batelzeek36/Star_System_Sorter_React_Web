@@ -1,0 +1,84 @@
+{
+  "gate": 50,
+  "gate_name": "",
+  "lines": {
+    "50.1": {
+      "line": 1,
+      "hd_title": "The Immigrant",
+      "hd_quote": "Humbleness of origin that benefits rather than restricts destiny.",
+      "keywords": [
+        "adopt new values",
+        "refine inherited standards",
+        "service-first origin"
+      ],
+      "behavioral_axis": "Starts from humble position and refines values that actually work for the tribe.",
+      "shadow_axis": "Embarrassment about origins; over-refinement to prove worth.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "50.2": {
+      "line": 2,
+      "hd_title": "Determination",
+      "hd_quote": "The strength of purpose that can enjoy overcoming adversity to achieve its goals.",
+      "keywords": [
+        "values under pressure",
+        "enjoys challenge",
+        "holds lawline"
+      ],
+      "behavioral_axis": "Keeps the tribe’s values intact even when opposed or conditioned.",
+      "shadow_axis": "Withdraws when opposed; values get bent to avoid conflict.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "50.3": {
+      "line": 3,
+      "hd_title": "Adaptability",
+      "hd_quote": "The Moon exalted, that when unable to make it alone will naturally align itself with nurturing and protective forces.",
+      "keywords": [
+        "needs allies",
+        "cooperative values",
+        "tribal interdependence"
+      ],
+      "behavioral_axis": "Knows values are upheld better with support and bonding.",
+      "shadow_axis": "Resents having to curry favor for survival.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "50.4": {
+      "line": 4,
+      "hd_title": "Corruption",
+      "hd_quote": "The lack of enriching values.",
+      "keywords": [
+        "tests integrity",
+        "material success vs values",
+        "exposure of rot"
+      ],
+      "behavioral_axis": "Can hold strength even when surrounded by inferior values.",
+      "shadow_axis": "Turns inferior values into success; may spread corruption.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "50.5": {
+      "line": 5,
+      "hd_title": "Consistency",
+      "hd_quote": "When continuity has brought success, it should not be tampered with.",
+      "keywords": [
+        "conservative stewardship",
+        "don’t fix what works",
+        "tribal reliability"
+      ],
+      "behavioral_axis": "Guards proven rules of caring; keeps the cauldron stable.",
+      "shadow_axis": "Rebels against the very methods that made things work.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "50.6": {
+      "line": 6,
+      "hd_title": "Leadership",
+      "hd_quote": "The gift in a position of power to maintain harmony even in severity.",
+      "keywords": [
+        "tribal judge",
+        "firm but fair",
+        "harmonic authority"
+      ],
+      "behavioral_axis": "Uses power to keep values alive without losing relationship field.",
+      "shadow_axis": "Maintains values but alienates people through moodiness.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge I Ching hexagram text verbatim into 'full_text' - no summarization, no trimming",
+    "Copy line text verbatim into 'legge_line_text'",
+    "Return exactly six lines (1–6)",
+    "DO NOT attempt to guess gate names - fill in exactly the name from the material provided",
+    "Extract from Legge translation (1899) only (this work is NOT copyrighted)"
+  ],
+  "hexagram": 1,
+  "hexagram_name": "[DO NOT GUESS - EXTRACT FROM SOURCE]",
+  "source": "I Ching (James Legge translation, 1899)",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "[VERBATIM LINE TEXT]",
+      "full_text": "[COMPLETE UNEDITED HEXAGRAM TEXT FOR THIS LINE]"
+    },
+    {
+      "line": 2,
+      "legge_line_text": "[VERBATIM LINE TEXT]",
+      "full_text": "[COMPLETE UNEDITED HEXAGRAM TEXT FOR THIS LINE]"
+    },
+    {
+      "line": 3,
+      "legge_line_text": "[VERBATIM LINE TEXT]",
+      "full_text": "[COMPLETE UNEDITED HEXAGRAM TEXT FOR THIS LINE]"
+    },
+    {
+      "line": 4,
+      "legge_line_text": "[VERBATIM LINE TEXT]",
+      "full_text": "[COMPLETE UNEDITED HEXAGRAM TEXT FOR THIS LINE]"
+    },
+    {
+      "line": 5,
+      "legge_line_text": "[VERBATIM LINE TEXT]",
+      "full_text": "[COMPLETE UNEDITED HEXAGRAM TEXT FOR THIS LINE]"
+    },
+    {
+      "line": 6,
+      "legge_line_text": "[VERBATIM LINE TEXT]",
+      "full_text": "[COMPLETE UNEDITED HEXAGRAM TEXT FOR THIS LINE]"
+    }
+  ]
+}

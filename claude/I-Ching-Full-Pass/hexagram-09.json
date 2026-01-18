@@ -1,0 +1,56 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 9,
+  "hexagram_name_legge": "Hsiao Khu",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Hsiao Khu indicates that (under its conditions) there will be progress and success. (We see) dense clouds, but no rain coming from our borders in the west.",
+  "image_text": null,
+  "addendum": {
+    "type": "commentary",
+    "text": "The name Hsiao Khu is interpreted as meaning 'small restraint.' The idea of 'restraint' having once been determined on as that to be conveyed by the figure, it is easily made out that the restraint must be small, for its representative is the divided line in the fourth place; and the check given by that to all the undivided lines cannot be great. Even if we suppose, as many critics do, that all the virtue of that upper trigram Sun is concentrated in its first line, the attribute ascribed to Sun is that of docile flexibility, which cannot long be successful against the strength emblemed by the lower trigram Khien. The restraint therefore is small, and in the end there will be 'progress and success.'\n\nThe second sentence of the Thwan contains indications of the place, time, and personality of the writer which it seems possible to ascertain. The fief of Khau was the western portion of the kingdom of Yin or Shang, the China of the twelfth century b.c., the era of king Wan. Rain coming and moistening the ground is the cause of the beauty and luxuriance of the vegetable world, and the emblem of the blessings flowing from good training and good government. Here therefore in the west, the hereditary territory of the house of Wan, are blessings which might enrich the whole kingdom; but they are somehow restrained. The dense clouds do not empty their stores.\n\nP. Regis says:—'To declare openly that no rain fell from the heavens long covered with dense clouds over the great tract of country, which stretched from the western border to the court and on to the eastern sea, was nothing else but leaving it to all thoughtful minds to draw the conclusion that the family of Wan was as worthy of the supreme seat as that of Shau, the tyrant, however ancient, was unworthy of it (vol. i, p. 356).' The intimation is not put in the Text, however, so clearly as by P. Regis."
+  },
+  "full_text": "IX. The Hsiao Khu Hexagram.\n\nHsiao Khu indicates that (under its conditions) there will be progress and success. (We see) dense clouds, but no rain coming from our borders in the west.\n\n1. The first line, undivided, shows its subject returning and pursuing his own course. What mistake should he fall into ? There will be good fortune.\n\n2. The second line, undivided, shows its subject, by the attraction (of the former line), returning (to the proper course). There will be good fortune.\n\n3. The third line, undivided, suggests the idea of a carriage, the strap beneath which has been removed, or of a husband and wife looking on each other with averted eyes.\n\n4. The fourth line, divided, shows its subject possessed of sincerity. The danger of bloodshed is thereby averted, and his (ground for) apprehension dismissed. There will be no mistake.\n\n5. The fifth line, undivided, shows its subject possessed of sincerity, and drawing others to unite with him. Rich in resources, he employs his neighbours (in the same cause with himself).\n\n6. The topmost line, undivided, shows how the rain has fallen, and the (onward progress) is stayed;—(so) must we value the full accumulation of the virtue (represented by the upper trigram), But a wife (exercising restraint), however firm and correct she may be, is in a position of peril, (and like) the moon approaching to the full. If the superior man prosecute his measures (in such circumstances), there will be evil.\n\nIX. The name Hsiao Khu is interpreted as meaning 'small restraint.' The idea of 'restraint' having once been determined on as that to be conveyed by the figure, it is easily made out that the restraint must be small, for its representative is the divided line in the fourth place; and the check given by that to all the undivided lines cannot be great. Even if we suppose, as many critics do, that all the virtue of that upper trigram Sun is concentrated in its first line, the attribute ascribed to Sun is that of docile flexibility, which cannot long be successful against the strength emblemed by the lower trigram Khien. The restraint therefore is small, and in the end there will be 'progress and success.'\n\nThe second sentence of the Thwan contains indications of the place, time, and personality of the writer which it seems possible to ascertain. The fief of Khau was the western portion of the kingdom of Yin or Shang, the China of the twelfth century b.c., the era of king Wan. Rain coming and moistening the ground is the cause of the beauty and luxuriance of the vegetable world, and the emblem of the blessings flowing from good training and good government. Here therefore in the west, the hereditary territory of the house of Wan, are blessings which might enrich the whole kingdom; but they are somehow restrained. The dense clouds do not empty their stores.\n\nP. Regis says:—'To declare openly that no rain fell from the heavens long covered with dense clouds over the great tract of country, which stretched from the western border to the court and on to the eastern sea, was nothing else but leaving it to all thoughtful minds to draw the conclusion that the family of Wan was as worthy of the supreme seat as that of Shau, the tyrant, however ancient, was unworthy of it (vol. i, p. 356).' The intimation is not put in the Text, however, so clearly as by P. Regis.\n\nLine 1 is undivided, the first line of Khien, occupying its proper place, Its subject, therefore, notwithstanding the check of line 4, resumes his movement, and will act according to his strong nature, and go forward.\n\nLine 2 is also strong, and though an even place is not appropriate to it, that place being central, its subject will make common cause with the subject of line 1; and there will be good fortune.\n\nLine 3, though strong, and in a proper place, yet not being in the centre, is supposed to be less able to resist the restraint of line 4; and hence it has the ill omens that are given.\n\nThe subject of line 4, one weak line against all the strong lines of the hexagram, might well expect wounds, and feel apprehension in trying to restrain the others; but it is in its proper place; it is the first line also of Sun, whose attribute is docile flexibility.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject returning and pursuing his own course. What mistake should he fall into ? There will be good fortune."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject, by the attraction (of the former line), returning (to the proper course). There will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, suggests the idea of a carriage, the strap beneath which has been removed, or of a husband and wife looking on each other with averted eyes."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, shows its subject possessed of sincerity. The danger of bloodshed is thereby averted, and his (ground for) apprehension dismissed. There will be no mistake."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject possessed of sincerity, and drawing others to unite with him. Rich in resources, he employs his neighbours (in the same cause with himself)."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, shows how the rain has fallen, and the (onward progress) is stayed;—(so) must we value the full accumulation of the virtue (represented by the upper trigram), But a wife (exercising restraint), however firm and correct she may be, is in a position of peril, (and like) the moon approaching to the full. If the superior man prosecute his measures (in such circumstances), there will be evil."
+    }
+  ],
+  "notes": [
+    "Line 1 is undivided, the first line of Khien, occupying its proper place, Its subject, therefore, notwithstanding the check of line 4, resumes his movement, and will act according to his strong nature, and go forward.",
+    "Line 2 is also strong, and though an even place is not appropriate to it, that place being central, its subject will make common cause with the subject of line 1; and there will be good fortune.",
+    "Line 3, though strong, and in a proper place, yet not being in the centre, is supposed to be less able to resist the restraint of line 4; and hence it has the ill omens that are given.",
+    "The subject of line 4, one weak line against all the strong lines of the hexagram, might well expect wounds, and feel apprehension in trying to restrain the others; but it is in its proper place; it is the first line also of Sun, whose attribute is docile flexibility."
+  ]
+}

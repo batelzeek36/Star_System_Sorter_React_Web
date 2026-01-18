@@ -1,0 +1,90 @@
+{
+  "gate": 10,
+  "gate_name": "Treading (Self-Behavior)",
+  "circuit_info": {
+    "center": "G",
+    "circuit_family": "Individual",
+    "subcircuit": "Integration",
+    "channel": "10-20, 10-34, 10-57"
+  },
+  "lines": {
+    "10.1": {
+      "line": 1,
+      "hd_title": "Modesty",
+      "hd_quote": "The correct behavior is simply to accept one's place.",
+      "keywords": [
+        "accepts hierarchy naturally",
+        "comfortable in any environment",
+        "selfless comportment"
+      ],
+      "behavioral_axis": "Accepts their place in the hierarchy without asserting ego, moving comfortably between princes and outcasts with equal ease.",
+      "shadow_axis": "Becomes oversensitive with hurt feelings when others challenge their behavior, knowing genetically their actions are correct but wounded by outside pressure.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "10.2": {
+      "line": 2,
+      "hd_title": "The Hermit",
+      "hd_quote": "Withdraw rather than accept conditioning away from what is your nature.",
+      "keywords": [
+        "withdraws from conditioning",
+        "natural isolation",
+        "called to preserve authenticity"
+      ],
+      "behavioral_axis": "Withdraws from negative forces and conditioning to preserve independent behavior, waiting in natural isolation until called out by others who recognize their gifts.",
+      "shadow_axis": "Either becomes an angry exile who resents withdrawal, or confuses being pulled out with genuine love, allowing others to motivate and condition their nature.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "10.3": {
+      "line": 3,
+      "hd_title": "The Martyr",
+      "hd_quote": "That trial and error in behavior can be something of enormous value to humanity.",
+      "keywords": [
+        "experiments with behavior",
+        "learns through resistance",
+        "trial-and-error discovery"
+      ],
+      "behavioral_axis": "Experiments with behavior through trial-and-error, attracting attention as they discover what works through discovering what doesn't, potentially bringing mutation through their resistance.",
+      "shadow_axis": "Either pursues martyrdom for personal attention and aggrandizement, or becomes thin-skinned and reactive, unable to sustain their experimental nature under criticism.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "10.4": {
+      "line": 4,
+      "hd_title": "The Opportunist",
+      "hd_quote": "The acceptance of norms until a successful transformation can be engendered.",
+      "keywords": [
+        "waits for opportunity",
+        "externalizes when ready",
+        "network foundation"
+      ],
+      "behavioral_axis": "Holds steady in current behavioral patterns until the right opportunity arrives to externalize their nature, never abandoning stability prematurely.",
+      "shadow_axis": "Treats opportunism as a mental game or speculation, altering behavior patterns to chase opportunities without the motor force to actually manifest transformation.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "10.5": {
+      "line": 5,
+      "hd_title": "The Heretic",
+      "hd_quote": "Principled behavior which directly challenges tradition.",
+      "keywords": [
+        "challenges behavioral tradition",
+        "projection field for mutation",
+        "practical revolutionary"
+      ],
+      "behavioral_axis": "Holds the projection field for society's need to mutate behavioral norms, challenging the underlying framework of tradition rather than attacking individual surface behavior.",
+      "shadow_axis": "Makes challenges personal and attacks individual behavior directly, getting burned at the stake for confronting surface expressions rather than systemic tradition.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "10.6": {
+      "line": 6,
+      "hd_title": "The Role Model",
+      "hd_quote": "The perfect expression of the norms through action rather than words.",
+      "keywords": [
+        "self-conscious about behavior",
+        "role model through action",
+        "wisdom despite hypocrisy"
+      ],
+      "behavioral_axis": "Points out correct behavior to others through recognition and wisdom, knowing deeply what right action looks like even when unable to perfectly embody it themselves.",
+      "shadow_axis": "Becomes hypocritical with 'do as I say not as I do' positioning, or retreats to the roof refusing to be seen because they suffer from their own behavioral inconsistencies.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

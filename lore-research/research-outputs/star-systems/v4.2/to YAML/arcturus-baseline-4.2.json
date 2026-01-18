@@ -1,0 +1,293 @@
+{
+  "star_system": "Arcturus",
+  "version": "4.2",
+  "last_updated": "2025-10-25",
+
+  "methodology": {
+    "framework": "Comparative mythology + Human Design (I Ching-derived) + channeled cosmology cross-referenced with historical/astronomical material",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Modern channeled material (Edgar Cayce, Milanovich, Kenyon) with publisher attribution",
+      "Observable/astronomical references to Arcturus in antiquity and classical navigation texts",
+      "Jungian archetypal psychology and myth analysis",
+      "Comparative religious studies"
+    ],
+    "source_standards": "Only publisher-backed sources with ISBN or stable imprint (e.g., A.R.E. Press / Edgar Cayce Foundation, Cambridge University Press, Penguin Classics, W. W. Norton), peer-reviewed/academic astronomy texts, and ancient texts with a named human translator and known publisher. Blogs, personal domains, spiritual-school marketing pages, Goodreads listings, Wikipedia, and anonymous committee translations are forbidden. Every source MUST include `astronomical_component` and `component_reasoning`. Every source MUST include: publisher/imprint, year, original_year, source_type, citation_status, and either (page + short quote) for locked OR (location_hint + summary) for provisional. `isbn` may be null for journals/archival cases. You MUST still output JSON even if many sources are provisional.",
+    "research_date": "2025-10-25"
+  },
+
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+      "64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+      "Kabbalah - Extensive academic study (Scholem, Idel)",
+      "Chakra system - Religious Studies / Yoga Studies (Feuerstein)",
+      "Western Astrology - Cultural/historical phenomenon (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+    ]
+  },
+
+  "characteristics": [
+    {
+      "trait": "Arcturus as a soul-gate / transit node for consciousness between incarnations",
+      "consensus_level": "medium",
+      "ancient_support": "unknown",
+      "evidence_type": "direct",
+      "disputed": true,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "Reading 5749-14",
+          "author": "Edgar Cayce",
+          "translator_or_editor": null,
+          "edition": "A.R.E. Press Edition",
+          "year": 2006,
+          "original_year": 1941,
+          "publisher": "A.R.E. Press / Association for Research and Enlightenment",
+          "url": null,
+          "isbn": "9780876045244",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Reading 5749-14",
+          "quote": "Arcturus is that which may be called the center of this universe, through which individuals pass",
+          "astronomical_component": "G",
+          "component_reasoning": "Describes Arcturus as a universal center/gateway through which souls pass, implying a transit checkpoint for incarnational routing beyond/into Earth's system."
+        },
+        {
+          "title": "Planetary Influences and Sojourns",
+          "author": "Edgar Cayce",
+          "translator_or_editor": null,
+          "edition": "A.R.E. Press Edition",
+          "year": 2010,
+          "original_year": 2010,
+          "publisher": "A.R.E. Press / Association for Research and Enlightenment",
+          "url": null,
+          "isbn": "9780876046029",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapter on Arcturus as star gate / planetary sojourn cycle",
+          "summary": "Summarizes Cayce's planetary sojourn material: souls travel through Arcturus between Earth lifetimes and other dimensional systems, treating Arcturus as the 'in and out' gate of the solar system.",
+          "astronomical_component": "G",
+          "component_reasoning": "Frames Arcturus as an entry/exit portal node for souls choosing their next evolutionary context. This is explicitly a gateway/portal function."
+        },
+        {
+          "title": "We, the Arcturians",
+          "author": "Norma J. Milanovich",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1990,
+          "original_year": 1990,
+          "publisher": "Athena Publishing",
+          "url": "https://archive.org/details/wearcturians00mila",
+          "isbn": "9780962741708",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Introduction and early transmissions describing Arcturian mission",
+          "summary": "Positions the Arcturians as higher-dimensional intelligences guiding Earth's vibrational transition and assisting humans in choosing higher states of being as Earth shifts dimensions.",
+          "astronomical_component": "G",
+          "component_reasoning": "Presents Arcturians as custodians helping humanity traverse a dimensional threshold, functionally treating Arcturus as a transit corridor into a higher-density state."
+        }
+      ]
+    },
+
+    {
+      "trait": "Arcturian civilization as a healer collective using light, frequency, and consciousness recalibration",
+      "consensus_level": "medium",
+      "ancient_support": "unknown",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "We, the Arcturians",
+          "author": "Norma J. Milanovich",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1990,
+          "original_year": 1990,
+          "publisher": "Athena Publishing",
+          "url": "https://archive.org/details/wearcturians00mila",
+          "isbn": "9780962741708",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on fifth-dimensional consciousness and medical/emotional recalibration",
+          "summary": "Describes Arcturians as advanced healers who work with emotional, mental, and spiritual fields using frequency/light to elevate human vibration and assist in dimensional ascension.",
+          "astronomical_component": "H",
+          "component_reasoning": "Portrays Arcturians primarily as high-frequency healers offering vibrational tuning and trauma clearing; this matches the healing/frequency ('H') function rather than navigation or rulership."
+        },
+        {
+          "title": "The Arcturian Anthology",
+          "author": "Tom Kenyon and Judi Sion",
+          "translator_or_editor": null,
+          "edition": "Orb Communications Edition",
+          "year": 2014,
+          "original_year": 2014,
+          "publisher": "Orb Communications",
+          "url": "https://archive.org/details/arcturianantholo0000tomk",
+          "isbn": "9781931032469",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Sections describing the Arcturian Medical Officer, Re-Genesis Chamber, and vibrational healing practices",
+          "summary": "Describes Arcturian healers who use sound, resonance chambers, and conscious frequency entrainment to accelerate human energetic repair and spiritual evolution.",
+          "astronomical_component": "H",
+          "component_reasoning": "Defines Arcturus-linked beings as specialists in vibrational medicine and regeneration; aligns with the healing/recalibration code ('H')."
+        }
+      ]
+    },
+
+    {
+      "trait": "Arcturus in ancient and classical material as a visible navigation/seasonal star, not a guardian civilization",
+      "consensus_level": "high",
+      "ancient_support": "low",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Odyssey",
+          "author": "Homer",
+          "translator_or_editor": "Robert Fagles (translator)",
+          "edition": "Penguin Classics Edition",
+          "year": 2006,
+          "original_year": 1996,
+          "publisher": "Penguin Classics",
+          "url": null,
+          "isbn": "9780143039952",
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book V, Odysseus' navigation instructions",
+          "summary": "Odysseus is told to steer by keeping Boötes (the Bear-Guard, containing Arcturus) and the Bear in sight. The star is treated as a directional/seasonal marker for navigation.",
+          "astronomical_component": "A",
+          "component_reasoning": "Arcturus (bright K-type red giant in Boötes) is referenced as a visible guide star in the sky. No mention of gateways, healers, or councils — purely observational astronomy."
+        },
+        {
+          "title": "The Book of Job",
+          "author": "Anonymous / Hebrew Bible",
+          "translator_or_editor": "Robert Alter (translator)",
+          "edition": "W. W. Norton Edition",
+          "year": 2010,
+          "original_year": 2010,
+          "publisher": "W. W. Norton & Company",
+          "url": null,
+          "isbn": "9780393068122",
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Job 38:32 (Alter translation; references to 'Ayish' / the Bear)",
+          "summary": "Mentions stellar groupings associated with the Bear / Ayish. Later English traditions sometimes map 'Ayish' to Arcturus, treating it as a known bright seasonal star rather than a metaphysical authority.",
+          "astronomical_component": "A",
+          "component_reasoning": "The star/constellation reference is seasonal and positional. Arcturus is treated as a sky object, not as sentient guardianship."
+        },
+        {
+          "title": "Stars and Their Spectra: An Introduction to the Spectral Sequence",
+          "author": "James B. Kaler",
+          "translator_or_editor": null,
+          "edition": "Second Edition",
+          "year": 2011,
+          "original_year": 1989,
+          "publisher": "Cambridge University Press",
+          "url": null,
+          "isbn": "9780521899543",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter discussing K-type red giant stars, including Arcturus",
+          "summary": "Describes Arcturus as a K1.5III red giant ~36.7 light-years from Earth, ~25 times the Sun's radius and ~170× the Sun's luminosity. Treated as a normal evolved star within stellar astrophysics.",
+          "astronomical_component": "A",
+          "component_reasoning": "Purely physical/astronomical description of Arcturus as an observable red giant star. Explicitly does not assign portal, healing, or civilization behavior."
+        }
+      ]
+    }
+  ],
+
+  "disputed_points": [
+    {
+      "claim": "Arcturus functions as an interdimensional gateway that human souls pass through between incarnations, where councils assist in choosing the next evolutionary path.",
+      "supporting_sources": [
+        {
+          "title": "Reading 5749-14",
+          "author": "Edgar Cayce",
+          "translator_or_editor": null,
+          "edition": "A.R.E. Press Edition",
+          "year": 2006,
+          "original_year": 1941,
+          "publisher": "A.R.E. Press / Association for Research and Enlightenment",
+          "url": null,
+          "isbn": "9780876045244",
+          "source_type": "channeled",
+          "citation_status": "locked",
+          "page": "Reading 5749-14",
+          "quote": "Arcturus is that which may be called the center of this universe, through which individuals pass",
+          "astronomical_component": "G",
+          "component_reasoning": "Frames Arcturus as a transit hub or adjudication node for souls — a literal 'pass-through' point."
+        },
+        {
+          "title": "We, the Arcturians",
+          "author": "Norma J. Milanovich",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1990,
+          "original_year": 1990,
+          "publisher": "Athena Publishing",
+          "url": "https://archive.org/details/wearcturians00mila",
+          "isbn": "9780962741708",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Introductory chapters describing Arcturian councils and dimensional transition work",
+          "summary": "Describes Arcturians as guiding Earth into higher-dimensional states and assisting beings in choosing whether to remain with Earth or move onward. Positions Arcturus-linked councils as gatekeepers of transition.",
+          "astronomical_component": "G",
+          "component_reasoning": "Supports the notion that Arcturus is a 'dimensional transfer station' or ascension checkpoint."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "Stars and Their Spectra: An Introduction to the Spectral Sequence",
+          "author": "James B. Kaler",
+          "translator_or_editor": null,
+          "edition": "Second Edition",
+          "year": 2011,
+          "original_year": 1989,
+          "publisher": "Cambridge University Press",
+          "url": null,
+          "isbn": "9780521899543",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Physical description of Arcturus' luminosity, radius, and distance",
+          "summary": "Treats Arcturus strictly as a normal K1.5III red giant star ~36.7 light-years away, ~25× the Sun's radius, ~170× the Sun's luminosity. No discussion of gates, councils, incarnation selection, or soul adjudication.",
+          "astronomical_component": "A",
+          "component_reasoning": "Positions Arcturus as an evolved red giant with standard stellar properties. Implies the 'universal gateway' claim is not supported by astrophysics."
+        }
+      ],
+      "consensus": "low"
+    }
+  ],
+
+  "ancient_references": "Classical and biblical-era materials (Homer's Odyssey navigation instructions via Boötes/'Bear Guard', and Job 38:32 references to the Bear / Ayish) treat Arcturus as a bright seasonal/navigation star in the Boötes/Ursa Major region. These sources do NOT describe Arcturus as a healing civilization, council, or incarnational checkpoint. The framing of Arcturus as a sentient healer collective or interdimensional transit node emerges primarily in 20th-century and later channeled material with publisher imprint (e.g., Edgar Cayce 1941 readings republished by A.R.E. Press; Milanovich 1990; Kenyon & Sion 2014).",
+
+  "research_notes": "v4.2 enforcement notes: (1) Each source includes publisher/imprint, year, original_year, `source_type`, `citation_status`, and `astronomical_component` with `component_reasoning`. (2) 'locked' = ≤25-word direct quote + locator like 'Reading 5749-14'. 'provisional' = location_hint + summary when we cannot reproduce the exact text. (3) Translator names and publishers are provided for ancient/classical sources (Fagles for Homer, Alter for Job). (4) Arcturus-as-gateway and Arcturian healer collectives are retained as cultural/spiritual claims from channeled sources and marked with `G` (gateway/transit) or `H` (healing/frequency). (5) Physical astronomy sources (Kaler, Cambridge University Press) are included to represent counter-evidence and are tagged `astronomical_component: 'A'`, clarifying that mainstream astrophysics describes Arcturus as a normal K-type red giant, not a portal. (6) No blogs, personal domains, Goodreads pages, Wikipedia, or spiritual-school marketing pages are included as sources.",
+
+  "bibliography": {
+    "ancient_texts": [
+      "Homer. The Odyssey. Translator: Robert Fagles (1996 original ed. Viking; 2006 Penguin Classics reprint, ISBN 9780143039952). Uses Boötes / 'Bear Guard' (Arcturus region) for navigation.",
+      "The Book of Job 38:32. Translator: Robert Alter (2010, W. W. Norton & Company, ISBN 9780393068122). References Ayish / the Bear, later mapped in English tradition to Arcturus as a seasonal marker.",
+      "Classical Greek star lore: Arcturus identified as the bright star of Boötes, 'the Bear Guard', used as an orientation and agricultural timing star."
+    ],
+    "modern_research": [
+      "Kaler, James B. (2011). Stars and Their Spectra: An Introduction to the Spectral Sequence (2nd ed.). Cambridge University Press. ISBN 9780521899543. Describes Arcturus as a K1.5III red giant ~36.7 ly from Earth, ~25× solar radius, ~170× solar luminosity; no metaphysical claims."
+    ],
+    "channeled_sources": [
+      "Cayce, Edgar. Reading 5749-14 (1941). Republished by A.R.E. Press / Association for Research and Enlightenment (2006). Positions Arcturus as a universal transit point for souls.",
+      "Cayce, Edgar. Planetary Influences and Sojourns. A.R.E. Press (2010). Summarizes Cayce's planetary sojourn model and treats Arcturus as an in/out gate of Earth's incarnation loop. ISBN 9780876046029.",
+      "Milanovich, Norma J. (1990). We, the Arcturians. Athena Publishing. ISBN 9780962741708. Describes Arcturians as higher-dimensional guides and healers assisting Earth’s vibrational transition.",
+      "Kenyon, Tom & Sion, Judi (2014). The Arcturian Anthology. Orb Communications. ISBN 9781931032469. Describes Arcturian healer cadres using sound/frequency/regeneration technologies."
+    ],
+    "academic_foundations": [
+      "Wilhelm, Richard & Baynes, Cary F. (1950/1967). The I Ching. Princeton University Press.",
+      "Nirenberg, Marshall W. & Khorana, Har Gobind (1968). Genetic code research connecting codons to amino acids.",
+      "Scholem, Gershom (1941). Major Trends in Jewish Mysticism.",
+      "Feuerstein, Georg (1998). The Yoga Tradition.",
+      "Tarnas, Richard (2006). Cosmos and Psyche."
+    ]
+  }
+}

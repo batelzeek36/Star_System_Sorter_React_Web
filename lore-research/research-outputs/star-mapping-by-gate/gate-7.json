@@ -1,0 +1,278 @@
+{
+  "7.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Establishing command for group direction is order-making, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Defines chain of command and basic rules to keep the group coherent—container-first leadership."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early stress can provoke loyalty/status policing to enforce rank."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/creative-display axis."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Risk of imposing control/obedience as a shortcut to order (authoritarian tilt)."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline and courage to hold the line while uncertainty tests leadership."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is order/command, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching governance; no sacred-instruction transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "7.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Respecting the will of the people ≠ anti-domination rescue mission."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Functional placement and clean process keep group logic coherent (democratic structure)."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Projection pressure can spark correctness policing or rank posturing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry axis."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Can default to procedural rigidity over listening if threatened."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "The honorable trial is to lead by consent—integrity under the people’s gaze."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Relational attunement and hospitality to voices enable true consensus."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Process leadership without explicit teaching/codification yet.",
+      "confidence": 5,
+      "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "7.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Challenging/reshaping authority is internal governance learning, not rescue/extraction."
+    },
+    "arcturus": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Iterates structure under real pressure to find what actually functions."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Tension can tip into factional loyalty checks and gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic-display theme."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Temptation to seize/control the hierarchy when legitimacy feels shaky."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Micro-ordeal of leadership: earn authority through tested integrity, not titles."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Sensitivity to group feedback guides course-correction."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging of civic stance; no royal-instruction vector yet.",
+      "confidence": 5,
+      "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "7.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Stabilizing governance is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Translates group will into usable roles, procedures, and institutions—clean civic container."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract clique enforcement or rank filters on access."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an artistry vector."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of ossifying protocol into doctrinal obedience."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Mentoring by steadiness: others face the ordeal of aligning to fair process."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Relational timing helps procedures be received and adopted."
+    },
+    "sirius": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pedagogy-by-governance: codifying fair process teaches civic law by example.",
+      "confidence": 4,
+      "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "civic-protocol-teaching",
+      "keywords": ["roles", "procedure", "institution"]
+    }
+  },
+  "7.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Being the visible leader is stewardship, not anti-domination rescue."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Provides a stable cadence and structure the collective can organize around."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Authority aura can slip into loyalty policing or favoritism."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not about aesthetic authorship."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Projection into ‘the savior’ can calcify into doctrinal control."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Leadership-by-example under pressure—honor and discipline in the open."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Attuned care ensures the people feel carried, not coerced."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Royal instruction-by-presence: others learn right governance from your stance.",
+      "confidence": 4,
+      "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "leadership-by-example",
+      "keywords": ["general", "stewardship", "example"]
+    }
+  },
+  "7.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Long-view administration isn’t a direct anti-oppression intervention."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Elder administrator: maintains fair standards, procedures, and civic cadence that endure."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Status preservation and gatekeeping can creep in around legacy roles."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetics axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Doctrine-lock: elevating structure over living consent and review."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Elder ordeal: hold integrity and courage as policy meets real life."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is governance integrity, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Governance sage: teaches the law of fair rule through consistent example and review.",
+      "confidence": 4,
+      "sources": ["gate-line-7.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "governance-sage",
+      "keywords": ["administrator", "policy", "stewardship"]
+    }
+  }
+}

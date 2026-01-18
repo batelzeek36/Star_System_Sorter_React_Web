@@ -1,0 +1,278 @@
+{
+  "60.1": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Refuses forced acceleration; accepts limits to preserve sovereignty."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Constraint audit—define scope, buffers, and rules so mutation can be safe."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Stoic posturing—using hardship to signal rank/control."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Beauty-in-constraints—elegant simplicity under real limits."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "‘Limits’ framed as obedience doctrine."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to accept reality and prepare for the pulse."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle patience stabilizes morale amidst restriction."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching phase—personal acceptance, no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-60.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "60.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Declines coercive deadlines; consent-first pacing within limits."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Places people/resources for throughput under constraint—work design, cadence."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Gatekeeping leakage—protects boundary so limited energy isn’t poached."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Economy of form—clean minimalism that fits the box."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Policy that suppresses life in the name of ‘order.’"
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honor the constraint; earn progress step by step."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Supportive pacing and care make restraint workable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical placement within limits; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-60.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "60.3": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Reclaims choice when frustration or scarcity is exploited."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—swinging between over-restriction and rule-breaking."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Punitive enforcement to display dominance under stress."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Optics of ‘aesthetic austerity’ over true fit."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Using scarcity narratives to compel obedience."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of patience—reset timing; wait for the mutative pulse."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Coddling that avoids necessary boundaries and timing."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging in constraint; no canon yet.",
+      "confidence": 5,
+      "sources": ["gate-line-60.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "60.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Advocates limits that protect sovereignty rather than capture."
+    },
+    "arcturus": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Translates limits into protocol—windows, quotas, buffers, review cadence."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Perimeter control—keeps opportunists from gaming the rules."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Graceful ritual—rhythm and form that make constraint feel right."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—ritual replaces living intelligence."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Mentor-by-conduct—endure the rule so mutation can arrive cleanly."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Humane pacing preserves bonds under rationed energy."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Limitation protocol teaching—law of cycles, constraint, and proportion by example.",
+      "confidence": 4,
+      "sources": ["gate-line-60.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "limitation-protocol/ritual-constraint",
+      "keywords": ["cycles", "quota", "buffers", "proportion", "ritual"]
+    }
+  },
+  "60.5": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Resists propaganda that sanctifies oppressive limits."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected to ‘make it work for everyone’ → burnout/scapegoat when refusing."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Rule contests—discipline as status theater."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Sober optics—credible minimalism under pressure."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Control narrative—limits as regime tool."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—apply proportionate constraint only where rightful."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasing leniency that erodes needed boundaries."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: ethics of constraint amid politics and myth.",
+      "confidence": 4,
+      "sources": ["gate-line-60.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection/constraint-ethics",
+      "keywords": ["proportion", "timing", "ethics", "politics"]
+    }
+  },
+  "60.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates communities from capture-codes—returns to living limits that serve life."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder stewardship—renewal/sunset of rules, review cycles, exception doctrine."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Measured perimeter—firm against exploitation without tyranny."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet majesty—culture tunes to dignified simplicity under wise limits."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing constraint into untouchable hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Warrior elder—right timing to hold/release; honors the pulse of mutation."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Altitude here is law and stewardship, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Limitation sage—teaches the law of constraint, cycles, and rightful release by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-60.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "limitation-sage/law-of-constraint",
+      "keywords": ["cycles", "release", "renewal", "elder", "law"]
+    }
+  }
+}

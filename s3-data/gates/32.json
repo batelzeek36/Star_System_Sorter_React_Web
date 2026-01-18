@@ -1,0 +1,208 @@
+{
+  "id": "gate.32",
+  "hexagram": "hx32",
+  "name": "The Gate of Continuity (Duration)",
+  "center": "Spleen",
+  "circuit": "Tribal / Ego (Instinctive Stream)",
+  "channel": "54-32 (Transformation)",
+  "programming_partner": "gate.42",
+  "polarity": {
+    "opposite_on_wheel": "gate.42"
+  },
+  "themes": [
+    "instinct to preserve what works",
+    "continuity during change",
+    "conservative adaptation",
+    "fear of failure in transformation",
+    "sensing what can and cannot be transformed"
+  ],
+  "fear": "fear of failure (splenic)", 
+  "lines": [
+    {
+      "id": "32.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Conservation",
+        "hd_quote": "A life sustaining respect and attention to all aspects of a process."
+      },
+      "interpretation": {
+        "keywords": [
+          "keeps systems alive",
+          "process guardian",
+          "detail-aware continuity"
+        ],
+        "behavioral_axis": "Honors tested methods and slows change so the tribe survives the transition.",
+        "shadow_axis": "Overprotects legacy systems and resists necessary upgrades."
+      },
+      "relationship_needs": {
+        "needs_time_to_assess_change": true,
+        "prefers_stable_processes": true,
+        "rejects_chaotic_pivots": true
+      },
+      "group_role": "process conservator / continuity keeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "32.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Restraint",
+        "hd_quote": "The control of power for the benefit and enhancement of harmony."
+      },
+      "interpretation": {
+        "keywords": [
+          "measured use of influence",
+          "tribal protection",
+          "non-reactive change"
+        ],
+        "behavioral_axis": "Uses instinct to decide when to apply or withhold transformative pressure.",
+        "shadow_axis": "Bottles change so long the field stagnates."
+      },
+      "relationship_needs": {
+        "needs_respect_for_timing": true,
+        "prefers_low_conflict_environments": true,
+        "rejects_forced_disclosure": true
+      },
+      "group_role": "harmonizer / change gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "32.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Lack of continuity",
+        "hd_quote": "Indecision in times of transformation."
+      },
+      "interpretation": {
+        "keywords": [
+          "hesitant change",
+          "reassessment loop",
+          "testing viability"
+        ],
+        "behavioral_axis": "Keeps re-evaluating whether the change will actually endure.",
+        "shadow_axis": "Gets stuck in indecision and loses tribal trust."
+      },
+      "relationship_needs": {
+        "needs_room_to_reassess": true,
+        "partners_handle_inconsistency": true,
+        "avoid_high_pressure_deadlines": true
+      },
+      "group_role": "risk checker / viability tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "32.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Right is might",
+        "hd_quote": "The instinct to maintain one's principles in times of change."
+      },
+      "interpretation": {
+        "keywords": [
+          "principled adaptation",
+          "value-based continuity",
+          "tribal standards"
+        ],
+        "behavioral_axis": "Holds the line on core values while everything shifts.",
+        "shadow_axis": "Becomes dogmatic and rejects healthy innovation."
+      },
+      "relationship_needs": {
+        "needs_values_alignment": true,
+        "prefers_clear_hierarchy": true,
+        "rejects_opportunistic_switching": true
+      },
+      "group_role": "standards holder / tribal ethic anchor",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "32.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Flexibility",
+        "hd_quote": "Easy adaption to circumstances."
+      },
+      "interpretation": {
+        "keywords": [
+          "adaptive conservatism",
+          "smart pivot",
+          "contextual transformation"
+        ],
+        "behavioral_axis": "Knows what to keep and what to bend so continuity survives.",
+        "shadow_axis": "Over-bends and dilutes the original successful pattern."
+      },
+      "relationship_needs": {
+        "needs_trust_in_discernment": true,
+        "prefers_collaborative_planning": true,
+        "rejects_rigid_orders": true
+      },
+      "group_role": "adaptive strategist / tribal adjuster",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "32.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Tranquillity",
+        "hd_quote": "The need to calmly face impermanence."
+      },
+      "interpretation": {
+        "keywords": [
+          "calm transformation",
+          "legacy thinking",
+          "high-level continuity"
+        ],
+        "behavioral_axis": "Accepts that change is constant and continuity is an art.",
+        "shadow_axis": "Detached calm looks like indifference to tribal survival risks."
+      },
+      "relationship_needs": {
+        "needs_long_term_view": true,
+        "prefers_low_reactivity_partners": true,
+        "rejects_panic_modes": true
+      },
+      "group_role": "senior tribal stabilizer / long-horizon instinct",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "Line titles and <25-word line texts taken directly from Ra Uru Hu, The Complete Rave I’Ching, Gate 32, p. 67–68 (archive/Jovian PDF). :contentReference[oaicite:0]{index=0}"
+  }
+}

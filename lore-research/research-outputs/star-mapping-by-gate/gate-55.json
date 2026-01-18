@@ -1,0 +1,278 @@
+{
+  "55.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Claims mood sovereignty—feel without ceding agency."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Regulates the wave—pace, containment, and simple rituals."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early ‘good vibes’ policing and status optics."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Channels melancholy into clean expression."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rules used to suppress feelings rather than steward them."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Courage to face the first crest without performance."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Attuned self-soothing and gentle bonding stabilize spirit."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Personal mood hygiene—no explicit transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-55.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["mood", "wave", "containment"]
+    }
+  },
+  "55.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protects spirit from exploitative settings; says yes by choice."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places the experience—right timing, dose, and environment."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Screens for predatory hype or vibe-parasites."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Names the emotional theme so culture can follow."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to ‘high vibe only’ doctrine over truth."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Disciplined restraint—let the spirit ripen before sharing."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Relational attunement keeps the wave humane and receivable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement of feeling, not yet teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-55.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["setting", "dose", "readiness"]
+    }
+  },
+  "55.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim/savior loops around mood ‘rescue.’"
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Erratic pacing; container collapses under volatility."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Clique vibe-gating and intimidation masquerade as discernment."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Performative spirituality eclipses authentic spirit."
+    },
+    "orion-dark": {
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Dogmatic ‘good/bad’ mood control enforces compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: simplify, slow the wave, rebuild integrity."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement to keep harmony distorts truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error with feeling and faith.",
+      "confidence": 5,
+      "sources": ["gate-line-55.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["performative", "enmeshment"]
+    }
+  },
+  "55.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberates spirit from transactional vibes; consent-first sharing."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Builds mood-hospitality protocol—space, pacing, aftercare."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Fair thresholds prevent vibe predation and status siphoning."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Crafts simple forms (song/ritual) to carry the spirit cleanly."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of ossifying ‘proper mood’ rules."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models integrity: feel fully without flooding others."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned hosting soothes and dignifies the wave."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches spirit-hospitality by example—how to steward abundance of feeling.",
+      "confidence": 4,
+      "sources": ["gate-line-55.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "spirit-hospitality/attunement-teaching",
+      "keywords": ["aftercare", "ritual", "bounds"]
+    }
+  },
+  "55.5": {
+    "andromeda": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Ends coercive ‘good vibes’ control; spirit equals free abundance."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for mood stewardship—cadence, consent, repair."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to truth of feeling over optics."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Articulates a cultural phrase/sound that transmits spirit cleanly."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Projection risk: canonizing ‘right’ emotion as doctrine."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity under pressure—choose expression or restraint by truth."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports integration for receivers."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in spirit-economy—liberation through mood-literacy standards.",
+      "confidence": 4,
+      "sources": ["gate-line-55.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "spirit-standards/teacher",
+      "keywords": ["consent", "repair", "cadence", "abundance"]
+    }
+  },
+  "55.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom: abundance as inner spirit, not control."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for stewarding collective mood."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can read as gate to ‘real’ spirit access."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—song/gesture transmits the frame."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "‘Good vibes’ canon risks law-over-life coercion."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to feel or refrain without proving."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: spirit/abundance canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-55.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/spirit-canon",
+      "keywords": ["canon", "abundance", "presence", "mood-literacy"]
+    }
+  }
+}

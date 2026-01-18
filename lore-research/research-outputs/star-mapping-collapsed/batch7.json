@@ -1,0 +1,4034 @@
+{
+  "49.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Sets loyalty tests at the door and can instantly exile people out of fear of betrayal. That's fear-based gatekeeping of access, not collective liberation or sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Needs a clear standard of loyalty and respect before opening the door. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.95,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "49.2": {
+    "andromeda": {
+      "weight": 0.35,
+      "alignment_type": "light",
+      "why": "Actively defends loved ones by enforcing 'you don't get to treat us like that.' That's boundarying against disrespect and emotional violation, which echoes Andromeda's protection of the oppressed and insistence on dignified terms."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Defends loved ones by enforcing emotional terms of the bond. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "49.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Cycles through breakups and ultimatums to figure out dealbreakers. That's volatile bonding and emotional instability, not principled revolt against abuse or restoration of sovereignty - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    },
+    "pleiades": {
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "49.4": {
+    "andromeda": {
+      "weight": 0.6,
+      "alignment_type": "light",
+      "why": "Openly declares 'this treatment is no longer acceptable here' and pushes to end it for everyone. That's calling out abuse and demanding new terms for the group, which is core Andromeda liberation energy."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Paranoid control and ruthless threat elimination - Draconian shadow"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Pushes 'this treatment is no longer acceptable here' for the group. (weak thematic resonance with orion-dark)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "49.5": {
+    "andromeda": {
+      "weight": 0.8,
+      "alignment_type": "light",
+      "why": "Gets cast as the one who should lead the break from abusive dynamics and purge corruption. That is literally 'end the exploitation and free us,' which is central Andromeda work. The blame and traitor projection is the classic risk for visible liberators."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others expect you to lead the break from abusive dynamics. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "49.6": {
+    "andromeda": {
+      "weight": 0.6,
+      "alignment_type": "light",
+      "why": "Embodies 'love has requirements that protect life' and holds emotional sovereignty as non-negotiable. That's long-arc Andromeda frequency: boundaries that prevent further violation of the heart and body."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'love has requirements, and those requirements protect life.' (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "50.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Builds 'this is right care / this is wrong neglect' rules and worries about breaking them. That's moral caretaking structure, not confronting domination or freeing captives - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Maintains emotional safety and bonding - Pleiadian caretaking pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "50.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Maintains healthy standards for how we treat each other and may pull support if unappreciated. That's protective caregiving logic, not rebellion against abuse structures - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "50.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Finds sustainable values by messing up boundaries and repairing. That's ethics calibration in close care bonds, not dismantling exploitation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "50.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Organizes roles so everyone is fed, sheltered, and respected, and can use 'care' to control loyalty. That's household order and provision management, not liberation from oppressive force - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "50.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to enforce fairness and keep rot out. That's being projected on as moral authority for the tribe, not as a breaker of chains - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "50.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'our survival depends on honoring these core values' and may resist needed evolution. That's lineage lawkeeping, not sovereignty reclamation from abuse - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Warrior path with honor and discipline - core Orion-Light code"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "51.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Needs intense tests to feel alive and may self-sabotage for adrenaline. That's self-initiation through shock, not ending exploitation or defending the oppressed - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "51.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Shows up as disruptive competitive spark that wakes people up, then goes icy if called aggressive. That's jolt and impact energy, not liberation-from-oppressor work - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "51.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Builds true bravery by leaping into chaos and surviving it, sometimes recklessly. That's resilience training, not organized resistance to domination - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "51.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Ignites 'this is your true test' moments for the group and can use shock to secure loyalty. That's initiation leadership, not collective sovereignty reclamation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "51.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to jump first and prove it's survivable. That's being projected on as courage avatar, not as a liberator of the exploited - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "51.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'impact breaks ego and reveals who you are' and can act superior about who's 'worthy.' That's spiritualized shock-initiation, not anti-oppression liberation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Detached superiority: 'only the forged are worthy.' (weak thematic resonance with orion-dark)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'impact breaks ego and reveals the real you.' (weak thematic resonance with orion-light)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "52.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Stabilizes energy and holds position so attention can lock in, and can get stuck in paralysis. That's focus containment, not sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "52.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Creates calm anchoring that lets others focus and will withdraw if pushed to move too soon. That's pressure management for productivity, not liberation work - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "52.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Learns concentration by bouncing between boredom and overexertion and may look inconsistent. That's internal focus training, not ending domination - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "52.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Grounds the team in 'this is what we're working on now' and can control pacing to stay important. That's collective focus coordination, not breaking chains - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "52.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to hold the container so everyone can be productive and is blamed if they can't. That's projected focus-manager, not projected liberator - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "52.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Models grounded, sustainable concentration and may judge others as undisciplined. That's disciplined stillness, not sovereignty reclamation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "53.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Wants to begin something real and test its viability, and can rush unstable launches. That's cycle ignition, not liberation from abusive control - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Wants to begin something real and test its viability. (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "53.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Naturally kicks off new momentum and resents being told when to start. That's pure starter impulse, not anti-domination uprising - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Can energize new beginnings without overexplaining. (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "53.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Finds sustainable beginnings by failing messy early starts and gains a 'never finishes' rep. That's learning how to launch, not freeing anyone from oppressive terms - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Discovers sustainable beginnings by failing some early starts. (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "53.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets everyone moving into 'we're doing this now' and can push people into starts they didn't consent to. That's activation energy for the group, not sovereignty restoration - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Brings the tribe into \u2018we're doing this now.\u2019 (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "53.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets leaned on to break stagnation and provide launch authority, then is blamed if follow-through drops. That's jumpstarter projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others lean on you to generate momentum for the mission. (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "53.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'start what actually deserves a life' and can gatekeep what counts as worthy to begin. That's timing-aware catalyst work, not direct defiance of exploitation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Embodies 'start what actually deserves a life, not every impulse.' (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "54.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Builds motive to rise and fears staying small. That's ambition and status drive, not dismantling oppressive control - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "54.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pushes toward elevation without wanting micromanagement and resents oversight. That's self-directed ambition, not sovereignty defense for the collective - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "54.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Proves drive through setbacks and may sell out values to advance. That's social climbing under pressure, not liberation work - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "54.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Builds alliances to rise and bring the tribe along, and can turn loyalty into transaction. That's networked mobility inside hierarchy, not tearing down exploitative hierarchy - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "54.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to open doors and translate status for everyone, and is accused of elitism if access is filtered. That's projected ladder-operator, not projected liberator - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "54.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'climbing should serve a higher code, not just ego,' and can judge 'shallow strivers.' That's ethical ambition, not anti-domination revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "55.1": {
+    "andromeda": {
+      "weight": 0.4,
+      "alignment_type": "light",
+      "why": "Feels the raw need for emotional freedom and honest feeling. That's 'I refuse emotional captivity,' which sits in Andromeda's liberation and sovereignty theme."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Feels the raw need for emotional freedom and honest feeling. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.6,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "55.2": {
+    "andromeda": {
+      "weight": 0.45,
+      "alignment_type": "light",
+      "why": "Radiates permission to feel huge and unedited, pushing back on emotional suppression. That's emotional sovereignty and de-shaming of aliveness, aligned with Andromeda freedom frequency."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Radiates permission to feel huge, alive, unedited. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "55.3": {
+    "andromeda": {
+      "weight": 0.4,
+      "alignment_type": "light",
+      "why": "Learns emotional sovereignty through messy highs and lows instead of submitting to emotional control. That's personal liberation from emotional captivity, consistent with Andromeda."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Learns emotional sovereignty through messy highs/lows. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "55.4": {
+    "andromeda": {
+      "weight": 0.5,
+      "alignment_type": "light",
+      "why": "Re-ignites collective aliveness - 'let's FEEL again' - when the field has gone numb. That's waking people out of emotional shutdown and returning them to self, echoing Andromeda's refusal to tolerate deadened compliance."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Lights the group's emotional fire, restores aliveness. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "55.5": {
+    "andromeda": {
+      "weight": 0.6,
+      "alignment_type": "light",
+      "why": "Gets cast as the emotional liberator who's supposed to flip despair into hope for everyone. That's 'free us from hopelessness and collapse,' a classic Andromeda projection."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Others assume you can flip despair into hope for the room. (weak thematic resonance with arcturus)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "55.6": {
+    "andromeda": {
+      "weight": 0.65,
+      "alignment_type": "light",
+      "why": "Lives as sovereign emotional freedom and mystical ecstatic presence - 'my inner state is mine.' That's long-arc Andromeda: embodied proof that the spirit cannot be owned."
+    },
+    "arcturus": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frequency healing and energetic calibration - Arcturian pattern"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritualized mood elitism: 'my depth > your numbness.' (weak thematic resonance with orion-dark)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "56.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Builds identity around telling the story of what happened and fears being boring. That's narrative and meaning work, not confronting abusive power structures - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "56.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Holds attention and transmits perspective through story, then resents being used as entertainment. That's communication charisma, not liberation or sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "56.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Tests truth by oversharing the messy version first and surviving fallout. That's social calibration via story, not breaking oppression - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "56.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Shapes the group's shared myth and keeps morale up, and can spin narrative to hold loyalty. That's morale management and PR, not ending exploitation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "56.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to explain 'our journey' for everyone and is blamed as manipulative PR if people dislike the framing. That's spokesperson projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "56.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Carries 'our story is sacred' and can rewrite history to elevate self. That's myth stewardship for cohesion or status, not sovereignty reclamation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "57.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Tunes into subtle danger in real time and can hear threat everywhere. That's survival instinct and constant scanning, not direct anti-oppression revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "57.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Drops 'this is safe / not safe' instantly and hates being pushed to justify gut intel. That's intuitive safety calling, not liberation-from-abuse activism - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "57.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Sharpens instinct by surviving wrong calls and gets seen as paranoid. That's calibrating threat radar, not restoring sovereignty - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "57.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Warns the group 'energy's off, don't ignore this,' and can use fear to steer loyalty. That's protective vigilance, not chain-breaking liberation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "57.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets treated like the seer who's supposed to detect threats and keep everyone safe, then is blamed if danger isn't obvious. That's projected guardian, not projected liberator - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Scans for threats and predators to protect the group - core Draco survival pattern"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "57.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Lives as pure now-awareness and can act superior about 'I sense truth, you don't.' That's intuitive authority stance, not anti-domination action - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Focuses on survival continuity and avoiding collapse - core Draco pattern"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "58.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Feels alive when things can get better and pushes to fix what's broken; can fall into 'nothing's ever good enough.' That's improvement drive, not 'stop abusing us' liberation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "58.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Improves systems with playful critique and resents being told to chill. That's joyful upgrader energy, not direct sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "58.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Tests fixes, breaks them, fixes again, and looks chaotic. That's iterative optimization, not ending exploitation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "58.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Rallies everyone around 'we can do better' for quality of life and can weaponize standards for obedience. That's collective optimization, not 'you will not violate us anymore' liberation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "58.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to raise the bar for everyone's vitality and is blamed as perfectionist tyrant. That's improvement-chief projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "58.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Lives as proof that joyful pressure to evolve is sacred and may judge people who accept 'good enough.' That's vitality standard-setting, not anti-domination revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "59.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Wants honest, safe closeness where walls can drop and may withhold intimacy out of fear. That's intimacy and bonding work, not liberation from exploitation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Centers emotional bonding and relational safety - core Pleiadian pattern"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "59.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Generates instant deep contact and resents being sexualized or claimed without consent. That's sexual boundary and access energy, not systemic sovereignty revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "59.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Learns healthy merging by crossing lines and repairing, and can weaponize closeness. That's boundary negotiation in intimacy, not anti-oppression action - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "59.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Creates alliances and loyalty ties through intimacy and can gatekeep access to control belonging. That's bonding and kin-creation, not freeing captives - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.5,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Creates alliances, bloodlines, loyalty ties through intimacy. (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.65,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "59.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to heal sexual or emotional distance for everyone and is blamed as manipulative seducer. That's intimacy-healer projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Others assume you can reopen closed hearts and bodies. (weak thematic resonance with lyra)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "59.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'deep fusion is holy and transformative' and can claim superiority about 'true intimacy.' That's sacred-union archetype, not sovereignty restoration from abuse - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Spiritualizes boundary collapse; superiority about 'true intimacy.' (weak thematic resonance with orion-dark)"
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Self-righteous crusader with no compassion - Orion-Light shadow"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "60.1": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Understands 'these are the limits right now' but can collapse into hopelessness when the constraint feels permanent. That resignation to the cage - 'there's no way out' - mirrors Andromeda's shadow of internalized captivity instead of reclaiming sovereignty."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "60.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Improvises inside limits without complaint and resents having to justify the rules. That's pragmatic constraint navigation, not either the liberation stance or the collapsed captive stance - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "60.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Finds workable structure by repeatedly smashing into restriction and risks self-sabotage. That's stress-testing limits for personal functionality, not explicit anti-oppressor revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "60.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "States 'here's what's actually possible right now' for the group and can use restriction to suppress growth. That's reality enforcement and limit policing, not Andromeda liberation."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "60.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to make miracles under ridiculous limits and is blamed as obstructive if it fails. That's constraint-engineer projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "60.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'evolution happens inside pressure' and can shame others with 'accept the cage.' That's normalizing restriction and enforcing compliance, not Andromeda's liberation or its collapsed victim shadow."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "61.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Needs stable inner space to contemplate the unknown and can self-torment for not having answers. That's inner mystic pressure, not sovereignty or anti-abuse revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.65,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "61.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Receives deep knowing without linear proof and hates being pushed to justify it. That's mystical download energy, not liberation work - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "61.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Finds authentic truth by risking being 'wrong' out loud and can spiral into self-doubt or defiance when called delusional. That's revelation testing, not breaking chains - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "61.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Frames the unanswerable in a way the group can sit with and can use mystery to sound above everyone. That's spiritual context-framing, not direct sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Uses 'mystery' to sound above everyone. (weak thematic resonance with orion-dark)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Uses 'mystery' to sound above everyone. (weak thematic resonance with orion-light)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "61.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to deliver cosmic meaning and is blamed as manipulative guru if it doesn't soothe people. That's oracle projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "61.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'not all truth is explainable and that's sacred' and can go cryptic-on-purpose superiority. That's reverent mystery holding, not anti-domination liberation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "62.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Wants precise language so things stop being vague and can get anxious or pedantic about correctness. That's naming and definition work, not sovereignty reclamation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "62.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Labels reality cleanly so others can actually use it and resents dumbing it down. That's technical clarity, not liberation from abuse - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "62.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Finds accurate wording by making imperfect calls live and adjusting, and may look sloppy. That's iterative specificity, not anti-oppression revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "62.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Turns complexity into step-by-step guidance for the tribe and can over-control process to stay needed. That's operational architect energy, not chain-breaking - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "62.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to make sense of chaos with precise language and is blamed as rigid or condescending. That's systems explainer projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "62.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Lives as 'correct words shape correct reality' and can nitpick to dominate. That's linguistic authority, not sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "63.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Questions claims to prevent collective self-deception and can slide into total paranoia. That's structural doubt, not explicit liberation from domination - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Paranoid skepticism toward everything and everyone. (weak thematic resonance with orion-light)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Hyper-attuned to needs and abandonment fears - core Pleiadian sensitivity"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "63.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Quietly verifies 'is this structurally true' and resents being told to 'just trust.' That's integrity testing, not sovereignty reclamation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "63.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Learns accurate doubt by sometimes doubting the wrong target and risks a toxic or undermining reputation. That's discernment calibration, not anti-oppressor revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "63.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Calls out weak logic on behalf of the collective and can weaponize doubt to control narrative. That's logical auditing, not chain-breaking liberation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Enforces loyalty and tests allegiance - core Draco tribal control"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Empire management and obedience enforcement - Orion-Dark pattern"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "63.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to vet what's safe to believe or act on and is blamed if the plan fails anyway. That's truth-tester projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Blamed if the plan fails anyway. (weak thematic resonance with orion-light)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "63.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'healthy doubt protects us from collapse' and can become detached cynic superiority. That's guardian-of-truth-standards energy, not sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodies 'healthy doubt protects us from collapse.' (weak thematic resonance with draco)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "64.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Holds floods of impressions from the past and tries to make sense of them, then feels shame for not being clear yet. That's internal integration pressure, not anti-domination revolt - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "64.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Allows nonlinear memory and images to surface without panic and gets annoyed when rushed to be logical. That's imaginal integration, not sovereignty defense - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "64.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Finds the real lesson by telling the wrong story first and then revising, and may spiral in embarrassment. That's iterative meaning-making, not liberation from abuse - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Caretaking panic and codependent fusion to avoid abandonment - Pleiadian shadow"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "64.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Distills 'what this was about' for the group and can spin that narrative for politics. That's collective meaning synthesis, not freedom-from-oppression action - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "64.5": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Gets expected to give closure by explaining what it all meant and is blamed as self-serving if people dislike the frame. That's abstract interpreter projection, not liberator projection - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  },
+  "64.6": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Embodies 'confusion becomes wisdom with time and honesty' and can slip into detached guru stance. That's visionary hindsight, not sovereignty reclamation - not Andromeda."
+    },
+    "arcturus": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about frequency healing, energetic calibration, or trauma field repair (Arcturus core patterns)"
+    },
+    "draco": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about predator scanning, loyalty enforcement, or survival-through-dominance (Draco core patterns)"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about artistic expression, creative enchantment, or aesthetic refinement (Lyra core patterns)"
+    },
+    "orion-dark": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about empire-scale control, obedience systems, or coercive hierarchy (Orion-Dark core patterns)"
+    },
+    "orion-light": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about honorable trial, warrior initiation, or spiritual ordeal (Orion-Light core patterns)"
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about emotional bonding, feeding, or nervous system soothing (Pleiades core patterns)"
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is not about sacred law, liberation through crisis, or cosmic justice teaching (Sirius core patterns)"
+    }
+  }
+}

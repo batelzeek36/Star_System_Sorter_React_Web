@@ -1,0 +1,474 @@
+{
+"star_system": "Sirius",
+"version": "4.2",
+"last_updated": "2025-10-25",
+"methodology": {
+"framework": "Comparative mythology + I Ching-based Human Design system",
+"academic_foundations": [
+"I Ching (64 hexagrams → 64 Human Design gates)",
+"Cross-cultural star mythology (Egyptian, Greek, Avestan, Indigenous)",
+"Jungian archetypal psychology",
+"Comparative religious studies"
+],
+"source_standards": "Only publisher-backed sources with ISBN or known imprint; university press astronomy/anthropology sources; peer-reviewed journals; Theosophical/Lucis Trust publications; ancient texts with a named translator and known publisher imprint. Blogs, Goodreads, personal domains, spiritual-school marketing pages, Wikipedia, and anonymous committee translations are forbidden. Each source MUST include astronomical_component: 'A' = visible Sirius A (calendar, Nile flood, royal initiation), 'B' = hidden/controversial Sirius B or Nommo contact narrative, 'unspecified' = references to 'Sirius system' / cosmic lodge without specifying stellar component. Every source MUST include component_reasoning. Use provisional (location_hint + summary) when you cannot provide a verbatim quote. Use locked (page + quote) only when you provide ≤25-word exact text plus a locator. Ancient texts MUST name a human translator (e.g. Mercer, Darmesteter). Post-1967 books should include ISBN; peer-reviewed journal articles may use isbn:null. You MUST still produce JSON even if many sources are provisional.",
+"research_date": "2025-10-25"
+},
+"academic_context": {
+"human_design_foundations": [
+"I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+"64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+"Kabbalah - Extensive academic study (Scholem, Idel)",
+"Chakra system - Religious Studies, Yoga Studies",
+"Western Astrology - Cultural/historical phenomenon (Tarnas)"
+],
+"mathematical_correspondences": [
+"64 I Ching hexagrams = 64 DNA codons",
+"Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+]
+},
+"characteristics": [
+{
+"trait": "Royal resurrection and pharaonic initiation through Isis-Sothis-Osiris alignment",
+"consensus_level": "high",
+"ancient_support": "high",
+"evidence_type": "direct",
+"disputed": false,
+"polarity": "neutral",
+"sources": [
+{
+"title": "The Pyramid Texts",
+"author": "Ancient Egyptian",
+"translator_or_editor": "Samuel A. B. Mercer (translator)",
+"edition": "Public Domain Online Edition",
+"year": 1952,
+"original_year": 1952,
+"publisher": "Longmans, Green and Co.",
+"url": "[https://sacred-texts.com/egy/pyt/pyt19.htm](https://sacred-texts.com/egy/pyt/pyt19.htm)",
+"isbn": null,
+"source_type": "ancient",
+"citation_status": "locked",
+"page": "Utterance 632",
+"quote": "thy seed may go into her, pointed like Sothis. Horus the pointed has come forth from thee",
+"astronomical_component": "A",
+"component_reasoning": "Identifies Sopdet/Sothis (Sirius A) with royal regeneration and sexual-resurrection symbolism in Pharaonic ascent."
+},
+{
+"title": "The Pyramid Texts",
+"author": "Ancient Egyptian",
+"translator_or_editor": "Samuel A. B. Mercer (translator)",
+"edition": "Public Domain Online Edition",
+"year": 1952,
+"original_year": 1952,
+"publisher": "Longmans, Green and Co.",
+"url": "[https://sacred-texts.com/egy/pyt/pyt19.htm](https://sacred-texts.com/egy/pyt/pyt19.htm)",
+"isbn": null,
+"source_type": "ancient",
+"citation_status": "locked",
+"page": "Utterance 366",
+"quote": "Thy sister comes to thee, rejoicing for love of thee",
+"astronomical_component": "A",
+"component_reasoning": "Isis-Sothis resurrection current aligns the king with Isis and Osiris under Sirius A as celestial timing marker."
+},
+{
+"title": "Goddess Sopdet in Ancient Egyptian Religion",
+"author": "Mona Ezz Ali",
+"translator_or_editor": null,
+"edition": "Journal Publication Edition",
+"year": 2021,
+"original_year": 2021,
+"publisher": "Journal of Association of Arab Universities for Tourism and Hospitality",
+"url": "[https://journals.ekb.eg/article_157941.html](https://journals.ekb.eg/article_157941.html)",
+"isbn": null,
+"source_type": "research",
+"citation_status": "provisional",
+"location_hint": "Abstract and main body, pages 15-42",
+"summary": "Sopdet (Sirius A) identified with Isis-Sothis; heliacal rising tied to rebirth, Nile inundation, fertility, and royal renewal rites.",
+"astronomical_component": "A",
+"component_reasoning": "Academic treatment of Sirius A (Sopdet) as celestial trigger for kingship renewal and cosmic fertility."
+}
+]
+},
+{
+"trait": "Cosmic freedom and liberation current - Path to Sirius as advanced spiritual initiation",
+"consensus_level": "medium",
+"ancient_support": "low",
+"evidence_type": "symbolic",
+"disputed": false,
+"polarity": "light",
+"sources": [
+{
+"title": "Esoteric Astrology",
+"author": "Alice A. Bailey",
+"translator_or_editor": null,
+"edition": "Paperback Edition",
+"year": 1951,
+"original_year": 1951,
+"publisher": "Lucis Publishing Company",
+"url": "[https://www.lucistrust.org/store/item/esoteric_astrology](https://www.lucistrust.org/store/item/esoteric_astrology)",
+"isbn": "978-0-853-30120-2",
+"source_type": "channeled",
+"citation_status": "provisional",
+"location_hint": "Pages 299-300, Leo chapter discussing Sirius as home of greater Lodge",
+"summary": "Sirius described as the higher Lodge; initiation path of freedom leading to admission at fifth initiation via Sirian force.",
+"astronomical_component": "unspecified",
+"component_reasoning": "Refers to 'Sirius' as initiatory source of liberation; no distinction between Sirius A/B is made."
+},
+{
+"title": "Esoteric Astrology",
+"author": "Alice A. Bailey",
+"translator_or_editor": null,
+"edition": "Paperback Edition",
+"year": 1951,
+"original_year": 1951,
+"publisher": "Lucis Publishing Company",
+"url": "[https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf](https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf)",
+"isbn": "978-0-853-30120-2",
+"source_type": "channeled",
+"citation_status": "locked",
+"page": "416",
+"quote": "The energies coming from the sun, Sirius, are related to the love-wisdom aspect or to the attractive power of the solar Logos, to the soul of that Great Being",
+"astronomical_component": "unspecified",
+"component_reasoning": "Positioning Sirius as transmitter of love-wisdom and evolutionary pull; does not identify which stellar component."
+},
+{
+"title": "The Secret Doctrine",
+"author": "Helena Petrovna Blavatsky",
+"translator_or_editor": null,
+"edition": "Original Edition",
+"year": 1888,
+"original_year": 1888,
+"publisher": "Theosophical Publishing Company",
+"url": "[https://www.theosociety.org/pasadena/sd/sd-hp.htm](https://www.theosociety.org/pasadena/sd/sd-hp.htm)",
+"isbn": null,
+"source_type": "channeled",
+"citation_status": "provisional",
+"location_hint": "Volume II, page 391, Sirius as Dog Star / Instructor",
+"summary": "Names Sirius as the Dog Star, star of Mercury/Budha, the Great Instructor of humanity.",
+"astronomical_component": "unspecified",
+"component_reasoning": "Frames Sirius as cosmic teacher of initiation without specifying Sirius A/B."
+}
+]
+},
+{
+"trait": "Spiritual Hierarchy headquarters and love-wisdom transmission",
+"consensus_level": "medium",
+"ancient_support": "unknown",
+"evidence_type": "symbolic",
+"disputed": false,
+"polarity": "light",
+"sources": [
+{
+"title": "Esoteric Astrology",
+"author": "Alice A. Bailey",
+"translator_or_editor": null,
+"edition": "Paperback Edition",
+"year": 1951,
+"original_year": 1951,
+"publisher": "Lucis Publishing Company",
+"url": "[https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf](https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf)",
+"isbn": "978-0-853-30120-2",
+"source_type": "channeled",
+"citation_status": "locked",
+"page": "197",
+"quote": "Scorpio is under the influence or inflowing energy of Sirius. This is the great star of initiation because our Hierarchy is under the supervision or spiritual magnetic control of the Hierarchy of Sirius",
+"astronomical_component": "unspecified",
+"component_reasoning": "Describes a cosmic governing lodge on Sirius guiding Earth's Hierarchy, without naming Sirius A or B."
+},
+{
+"title": "Esoteric Astrology",
+"author": "Alice A. Bailey",
+"translator_or_editor": null,
+"edition": "Paperback Edition",
+"year": 1951,
+"original_year": 1951,
+"publisher": "Lucis Publishing Company",
+"url": "[https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf](https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf)",
+"isbn": "978-0-853-30120-2",
+"source_type": "channeled",
+"citation_status": "locked",
+"page": "416",
+"quote": "the great White Lodge on Sirius finds its reflection and a mode of spiritual service and outlet in the great White Lodge of our planet, the Hierarchy",
+"astronomical_component": "unspecified",
+"component_reasoning": "Links Sirius to Earth's White Lodge/Hierarchy but treats 'Sirius' as a system-level spiritual council, not a specific star."
+}
+]
+},
+{
+"trait": "Teachers and bringers of sacred knowledge",
+"consensus_level": "medium",
+"ancient_support": "medium",
+"evidence_type": "inferred",
+"disputed": false,
+"polarity": "light",
+"sources": [
+{
+"title": "The Zend-Avesta, Part II: The Sîrôzahs, Yasts, and Nyâyis",
+"author": "Avesta",
+"translator_or_editor": "James Darmesteter (translator)",
+"edition": "Sacred Books of the East, Volume 23",
+"year": 1883,
+"original_year": 1883,
+"publisher": "Oxford University Press",
+"url": "[https://sacred-texts.com/zor/sbe23/](https://sacred-texts.com/zor/sbe23/)",
+"isbn": null,
+"source_type": "ancient",
+"citation_status": "locked",
+"page": "Yasht 8 (Tir Yasht), sections 1-64",
+"quote": "We sacrifice unto Tishtrya the bright and glorious star who is the seed of the waters",
+"astronomical_component": "A",
+"component_reasoning": "Ancient Persian Tishtrya identified with visible Sirius A as bringer of rains, fertility, and guidance."
+},
+{
+"title": "The Secret Doctrine",
+"author": "Helena Petrovna Blavatsky",
+"translator_or_editor": null,
+"edition": "Original Edition",
+"year": 1888,
+"original_year": 1888,
+"publisher": "Theosophical Publishing Company",
+"url": "[https://www.theosociety.org/pasadena/sd/sd-hp.htm](https://www.theosociety.org/pasadena/sd/sd-hp.htm)",
+"isbn": null,
+"source_type": "channeled",
+"citation_status": "locked",
+"page": "Volume II, 391",
+"quote": "Sirius was called the dog-star. It was the star of Mercury or Budha, called the great instructor of mankind",
+"astronomical_component": "unspecified",
+"component_reasoning": "Theosophical framing of Sirius as 'instructor of mankind', without naming A/B."
+}
+]
+},
+{
+"trait": "Amphibious genetic engineers (Nommo tradition) - DISPUTED",
+"consensus_level": "low",
+"ancient_support": "medium",
+"evidence_type": "direct",
+"disputed": true,
+"polarity": "neutral",
+"sources": [
+{
+"title": "The Sirius Mystery: New Scientific Evidence of Alien Contact 5,000 Years Ago",
+"author": "Robert K. G. Temple",
+"translator_or_editor": null,
+"edition": "50th Anniversary Edition",
+"year": 2019,
+"original_year": 1976,
+"publisher": "Inner Traditions",
+"url": "[https://www.simonandschuster.com/books/The-Sirius-Mystery/Robert-Temple/9780892817504](https://www.simonandschuster.com/books/The-Sirius-Mystery/Robert-Temple/9780892817504)",
+"isbn": "978-1-64411-101-7",
+"source_type": "controversial",
+"citation_status": "provisional",
+"location_hint": "Chapter 3 and related sections discussing Dogon Nommo tradition",
+"summary": "Claims Dogon received teachings from amphibious Nommo beings from Sirius, including knowledge of invisible companion star Sirius B.",
+"astronomical_component": "B",
+"component_reasoning": "Temple assigns advanced amphibious visitors and hidden astronomical data to Sirius B as 'Nommo' origin."
+},
+{
+"title": "Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule",
+"author": "Walter E. A. van Beek",
+"translator_or_editor": null,
+"edition": "Current Anthropology Vol. 32 No. 2 Edition",
+"year": 1991,
+"original_year": 1991,
+"publisher": "Current Anthropology / University of Chicago Press",
+"url": "[https://www.jstor.org/stable/i327999](https://www.jstor.org/stable/i327999)",
+"isbn": null,
+"source_type": "research",
+"citation_status": "provisional",
+"location_hint": "Volume 32, Number 2, pages 139-167",
+"summary": "Follow-up fieldwork found no consistent Dogon tradition of Sirius B; informants said knowledge came from Griaule's prompting.",
+"astronomical_component": "B",
+"component_reasoning": "Directly challenges Temple's Sirius B transmission claims by attributing 'hidden star' lore to researcher contamination, not extraterrestrials."
+},
+{
+"title": "Broca's Brain: Reflections on the Romance of Science",
+"author": "Carl Sagan",
+"translator_or_editor": null,
+"edition": "First Edition",
+"year": 1979,
+"original_year": 1979,
+"publisher": "Random House",
+"url": null,
+"isbn": "978-0394410683",
+"source_type": "research",
+"citation_status": "provisional",
+"location_hint": "Chapter discussing Dogon/Sirius claims and white dwarfs",
+"summary": "Argues Dogon 'Sirius B' knowledge likely reflects modern contact with Western astronomy rather than prehistoric extraterrestrial encounter.",
+"astronomical_component": "B",
+"component_reasoning": "Sagan critiques the Sirius B / Nommo hypothesis, attributing it to cultural contamination rather than alien genetic engineers."
+}
+]
+},
+{
+"trait": "Calendar marker and agricultural fertility bringer",
+"consensus_level": "high",
+"ancient_support": "high",
+"evidence_type": "direct",
+"disputed": false,
+"polarity": "neutral",
+"sources": [
+{
+"title": "Goddess Sopdet in Ancient Egyptian Religion",
+"author": "Mona Ezz Ali",
+"translator_or_editor": null,
+"edition": "Journal Publication Edition",
+"year": 2021,
+"original_year": 2021,
+"publisher": "Journal of Association of Arab Universities for Tourism and Hospitality",
+"url": "[https://journals.ekb.eg/article_157941.html](https://journals.ekb.eg/article_157941.html)",
+"isbn": null,
+"source_type": "research",
+"citation_status": "provisional",
+"location_hint": "Abstract and pages 15-42",
+"summary": "Sopdet’s (Sirius A) heliacal rising after ~70-day absence announced Nile flood, Egyptian New Year, agricultural fertility, and cosmic timing.",
+"astronomical_component": "A",
+"component_reasoning": "Links visible Sirius A heliacal rising to Nile inundation and fertility cycles in Pharaonic calendrical practice."
+},
+{
+"title": "The Zend-Avesta, Part II: The Sîrôzahs, Yasts, and Nyâyis",
+"author": "Avesta",
+"translator_or_editor": "James Darmesteter (translator)",
+"edition": "Sacred Books of the East, Volume 23",
+"year": 1883,
+"original_year": 1883,
+"publisher": "Oxford University Press",
+"url": "[https://sacred-texts.com/zor/sbe23/](https://sacred-texts.com/zor/sbe23/)",
+"isbn": null,
+"source_type": "ancient",
+"citation_status": "locked",
+"page": "Yasht 8 (Tir Yasht), section 15",
+"quote": "To whosoever doth worship with libation of milk & Haoma shall I grant the immense wealth of sons, multiple progeny",
+"astronomical_component": "A",
+"component_reasoning": "Tishtrya (Sirius A) invoked as a rain-bringer and fertility power regulating agricultural abundance."
+}
+]
+},
+{
+"trait": "Source of cosmic manas (mind principle) and logoic mental plane energy",
+"consensus_level": "low",
+"ancient_support": "unknown",
+"evidence_type": "symbolic",
+"disputed": false,
+"polarity": "light",
+"sources": [
+{
+"title": "Esoteric Astrology",
+"author": "Alice A. Bailey",
+"translator_or_editor": null,
+"edition": "Paperback Edition",
+"year": 1951,
+"original_year": 1951,
+"publisher": "Lucis Publishing Company",
+"url": "[https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf](https://theosophy.world/sites/default/files/ebooks/A.%20Bailey%20-%20Esoteric%20Astrology.pdf)",
+"isbn": "978-0-853-30120-2",
+"source_type": "channeled",
+"citation_status": "locked",
+"page": "659",
+"quote": "The sun, Sirius, is the source of the Logoic mind (manas) in the same sense that the Pleiades are connected with the evolution of mind in the seven Heavenly Men",
+"astronomical_component": "unspecified",
+"component_reasoning": "Frames Sirius as origin of cosmic mind/Manas without naming Sirius A or B."
+},
+{
+"title": "A Treatise on Cosmic Fire",
+"author": "Alice A. Bailey",
+"translator_or_editor": null,
+"edition": "Lucis Publishing Company Edition",
+"year": 1925,
+"original_year": 1925,
+"publisher": "Lucis Publishing Company",
+"url": "[https://www.theosophy.world/sites/default/files/ebooks/alice-a-bailey-a-treatise-on-cosmic-fire.pdf](https://www.theosophy.world/sites/default/files/ebooks/alice-a-bailey-a-treatise-on-cosmic-fire.pdf)",
+"isbn": null,
+"source_type": "channeled",
+"citation_status": "provisional",
+"location_hint": "Pages 347, 375, Sirius as source of manas",
+"summary": "Sirius described as fountainhead of logoic mind principle (manas), forming a cosmic triangle with the Pleiades and our Sun.",
+"astronomical_component": "unspecified",
+"component_reasoning": "Positions Sirius as transmitter of cosmic mental energy without specifying stellar component."
+}
+]
+}
+],
+"disputed_points": [
+{
+"claim": "Dogon people possessed advanced knowledge of Sirius B invisible companion star through contact with amphibious Nommo beings from Sirius",
+"supporting_sources": [
+{
+"title": "The Sirius Mystery: New Scientific Evidence of Alien Contact 5,000 Years Ago",
+"author": "Robert K. G. Temple",
+"translator_or_editor": null,
+"edition": "50th Anniversary Edition",
+"year": 2019,
+"original_year": 1976,
+"publisher": "Inner Traditions",
+"url": "[https://www.simonandschuster.com/books/The-Sirius-Mystery/Robert-Temple/9780892817504](https://www.simonandschuster.com/books/The-Sirius-Mystery/Robert-Temple/9780892817504)",
+"isbn": "978-1-64411-101-7",
+"source_type": "controversial",
+"citation_status": "provisional",
+"location_hint": "Chapter 3 and related sections discussing Dogon Nommo tradition",
+"summary": "Temple asserts Dogon Nommo are amphibious extraterrestrials from Sirius B who seeded knowledge and genetics on Earth.",
+"astronomical_component": "B",
+"component_reasoning": "Assigns off-world amphibious Nommo contact and secret stellar data specifically to Sirius B."
+}
+],
+"counter_evidence": [
+{
+"title": "Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule",
+"author": "Walter E. A. van Beek",
+"translator_or_editor": null,
+"edition": "Current Anthropology Vol. 32 No. 2 Edition",
+"year": 1991,
+"original_year": 1991,
+"publisher": "Current Anthropology / University of Chicago Press",
+"url": "[https://www.jstor.org/stable/i327999](https://www.jstor.org/stable/i327999)",
+"isbn": null,
+"source_type": "research",
+"citation_status": "provisional",
+"location_hint": "Volume 32, Number 2, pages 139-167",
+"summary": "Independent ethnographic restudy reports Dogon informants did not originally possess Sirius B data; attribution traced to Griaule-era prompting.",
+"astronomical_component": "B",
+"component_reasoning": "Challenges pre-contact Sirius B lore; attributes 'hidden star' details to ethnographic contamination, not Nommo."
+},
+{
+"title": "Broca's Brain: Reflections on the Romance of Science",
+"author": "Carl Sagan",
+"translator_or_editor": null,
+"edition": "First Edition",
+"year": 1979,
+"original_year": 1979,
+"publisher": "Random House",
+"url": null,
+"isbn": "978-0394410683",
+"source_type": "research",
+"citation_status": "provisional",
+"location_hint": "Chapter discussing Dogon/Sirius claims and white dwarfs",
+"summary": "Argues that Dogon Sirius B lore is better explained by modern scientific contact than by extraterrestrial intervention.",
+"astronomical_component": "B",
+"component_reasoning": "Treats the Nommo/Sirius B story as a modern myth shaped by exposure to Western astronomy, not ancient evidence."
+}
+],
+"consensus": "low"
+}
+],
+"research_notes": "Sirius baseline shows deep ancient anchoring around Sirius A (Sopdet/Sothis in Egypt, Tishtrya in Avestan material) as a calendrical and royal-resurrection star tied to Nile flood, fertility, and pharaonic renewal. Esoteric/channeled sources (Bailey, Blavatsky) frame Sirius as the initiatory source of liberation, White Lodge governance, love-wisdom transmission, and cosmic mind (manas), generally referring to 'Sirius' as a spiritual headquarters without distinguishing stellar components. The Dogon/Nommo amphibious genetic-engineer narrative is explicitly tagged as DISPUTED: Temple links it to Sirius B and ancient contact, while van Beek and Sagan present methodological and ethnographic counter-evidence. Many esoteric claims map to 'unspecified' Sirius system rather than Sirius A or B specifically. All sources are normalized under provisional vs locked citation mode and include astronomical_component for traceability.",
+"bibliography": {
+"ancient_texts": [
+"The Pyramid Texts (Mercer translation, 1952). Longmans, Green and Co. Sopdet/Sothis (Sirius A) as royal resurrection current.",
+"Avesta: Tir Yasht / Tishtrya (Darmesteter translation, 1883). Oxford University Press. Sirius A invoked as rain-bringer and fertility power."
+],
+"modern_research": [
+"Ali, Mona Ezz (2021). Goddess Sopdet in Ancient Egyptian Religion. Journal of Association of Arab Universities for Tourism and Hospitality.",
+"Temple, Robert K. G. (1976/2019). The Sirius Mystery. Inner Traditions.",
+"van Beek, Walter E. A. (1991). Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule. Current Anthropology / University of Chicago Press.",
+"Sagan, Carl (1979). Broca's Brain. Random House."
+],
+"channeled_sources": [
+"Bailey, Alice A. (1951). Esoteric Astrology. Lucis Publishing Company.",
+"Bailey, Alice A. (1925). A Treatise on Cosmic Fire. Lucis Publishing Company.",
+"Blavatsky, Helena P. (1888). The Secret Doctrine. Theosophical Publishing Company."
+],
+"academic_foundations": [
+"Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.",
+"Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize).",
+"Scholem, G. (1941). Major Trends in Jewish Mysticism."
+]
+}
+}

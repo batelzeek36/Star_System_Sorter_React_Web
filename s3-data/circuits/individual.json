@@ -1,0 +1,17 @@
+{
+  "id": "circuit.individual",
+  "family": "Individual",
+  "name": "Knowing",
+  "purpose": "Introduce mutation through individual insight and empowerment.",
+  "channels": [
+    "ch.1-8",
+    "ch.2-14",
+    "ch.3-60",
+    "ch.12-22",
+    "ch.24-61",
+    "ch.25-51",
+    "ch.28-38",
+    "ch.39-55",
+    "ch.43-23"
+  ]
+}

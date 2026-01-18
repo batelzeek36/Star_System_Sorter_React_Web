@@ -1,0 +1,317 @@
+{
+  "star_system": "Andromeda",
+  "version": "4.2",
+  "last_updated": "2025-10-27",
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Classical Greco-Roman star mythology (Perseus/Andromeda cycle)",
+      "Modern extragalactic astronomy (Andromeda Galaxy / M31)",
+      "Contactee-era esoteric literature on 'Andromedans'"
+    ],
+    "source_standards": "Classical sources with named translators/editors, peer-reviewed astronomy, and publisher-backed esoteric material with ISBN or imprint. v4.2 requires full provenance per source (publisher, edition, year, original_year, isbn/null), provisional vs locked citation status, and explicit astronomical_component (A|B|G|H|unspecified) with component_reasoning.",
+    "research_date": "2025-10-27"
+  },
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of scholarship (Wilhelm, Baynes, Jung)",
+      "64 DNA codons - Nobel-recognized genetic code work (Nirenberg, Khorana 1960s)",
+      "Kabbalah - Academic study (Scholem, Idel)",
+      "Chakra system - Religious studies / Indology (Feuerstein)",
+      "Western Astrology - Cultural history (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+    ]
+  },
+  "characteristics": [
+    {
+      "trait": "Liberation from captivity / intervention to free the bound (Andromeda chained, then freed by Perseus)",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Star Names: Their Lore and Meaning",
+          "author": "Richard Hinckley Allen",
+          "translator_or_editor": "Richard Hinckley Allen (compiler)",
+          "edition": "G.E. Stechert & Co. Edition",
+          "year": 1899,
+          "original_year": 1899,
+          "publisher": "G.E. Stechert & Co.",
+          "url": "https://archive.org",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 'Andromeda'",
+          "summary": "Identifies the constellation Andromeda as 'The Chained Woman', fixed in the sky to commemorate her rescue by Perseus.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Andromeda as a visible constellation in the night sky representing a bound royal daughter who is liberated."
+        },
+        {
+          "title": "Metamorphoses",
+          "author": "Ovid (Publius Ovidius Naso)",
+          "translator_or_editor": "Frank Justus Miller (translator)",
+          "edition": "Loeb Classical Library",
+          "year": 1916,
+          "original_year": 8,
+          "publisher": "Harvard University Press",
+          "url": "https://archive.org",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book IV, lines 663-705",
+          "summary": "Perseus encounters Andromeda chained as a sacrificial victim to a sea monster, kills the monster, and wins her freedom and marriage.",
+          "astronomical_component": "A",
+          "component_reasoning": "Classical rescue narrative linked to the visible constellation Andromeda as the freed maiden."
+        },
+        {
+          "title": "The Library (Bibliotheca)",
+          "author": "Apollodorus (attributed) / Pseudo-Apollodorus",
+          "translator_or_editor": "James George Frazer (translator)",
+          "edition": "Loeb Classical Library",
+          "year": 1921,
+          "original_year": -150,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/Apollodorus2.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book 2.4.3–2.4.4 (also cited as 2.43–44)",
+          "summary": "Andromeda is exposed on the rocks because of Cassiopeia’s boast; Perseus kills the sea monster using Medusa’s head and frees her.",
+          "astronomical_component": "A",
+          "component_reasoning": "Links the captive princess myth, later mapped to the visible constellation Andromeda, to liberation from unjust bondage."
+        }
+      ]
+    },
+    {
+      "trait": "Andromeda as an extragalactic origin point / separate civilization space (M31 as 'island universe')",
+      "consensus_level": "high",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "Cepheids in the Andromeda Nebula",
+          "author": "Edwin Powell Hubble",
+          "translator_or_editor": "Edwin Powell Hubble (author)",
+          "edition": "Publications of the American Astronomical Society, Vol. 5",
+          "year": 1925,
+          "original_year": 1925,
+          "publisher": "American Astronomical Society",
+          "url": "https://science.nasa.gov",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Report on Cepheid variable measurements in Andromeda",
+          "summary": "Distance calculations from Cepheid variables in Andromeda show it lies far beyond the Milky Way, implying an external galaxy with its own suns.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Andromeda (M31) as a physically observed luminous galaxy, not a metaphysical gateway."
+        },
+        {
+          "title": "The Realm of the Nebulae",
+          "author": "Edwin Powell Hubble",
+          "translator_or_editor": "Edwin Powell Hubble (author)",
+          "edition": "The Terry Lectures / First Edition",
+          "year": 1936,
+          "original_year": 1936,
+          "publisher": "Yale University Press",
+          "url": "https://archive.org",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Lecture II 'The Realm of the Nebulae'",
+          "summary": "Describes spiral nebulae such as the Andromeda Galaxy as independent 'island universes', each containing innumerable suns beyond the Milky Way.",
+          "astronomical_component": "A",
+          "component_reasoning": "Frames the Andromeda Galaxy as an observable extragalactic stellar system, empirically established."
+        }
+      ]
+    },
+    {
+      "trait": "Non-hierarchical ethical council / anti-domination sovereignty doctrine (Andromedan Council narratives)",
+      "consensus_level": "low",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": true,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "Defending Sacred Ground: The Andromedan Compendium",
+          "author": "Alex Collier",
+          "translator_or_editor": "Valdamar Valerian (editor)",
+          "edition": "Brotherton Press / Leading Edge International Research Edition",
+          "year": 1998,
+          "original_year": 1997,
+          "publisher": "Brotherton Press / Leading Edge International Research",
+          "url": "https://archive.org",
+          "isbn": "ISBN 1-883487-16-4",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Chapters 'Andromedan Council' and 'Earth Manipulation Agendas'",
+          "summary": "Claims an Andromedan Council demands planetary sovereignty, rejects hierarchical control systems, and warns against deception by ruling elites.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Describes a high-level Andromedan council overseeing Earth without naming a physical sub-component or stellar locus."
+        },
+        {
+          "title": "A Culture of Conspiracy: Apocalyptic Visions in Contemporary America",
+          "author": "Michael Barkun",
+          "translator_or_editor": "Michael Barkun (author)",
+          "edition": "University of California Press Edition",
+          "year": 2003,
+          "original_year": 2003,
+          "publisher": "University of California Press",
+          "url": "https://www.ucpress.edu",
+          "isbn": "ISBN 978-0-520-27582-8",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 6 'Millennial Visions and UFO Narratives'",
+          "summary": "Analyzes benevolent extraterrestrial councils and galactic federations as utopian political mythology rather than verified off-world governance.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Treats 'Andromedan Council' claims as sociocultural narrative about cosmic oversight with no defined astronomical location."
+        }
+      ]
+    },
+    {
+      "trait": "Royal sacrifice and cosmic justice alignment (Andromeda as unjust ransom / innocence condemned)",
+      "consensus_level": "medium",
+      "ancient_support": "high",
+      "evidence_type": "inferred",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "Metamorphoses",
+          "author": "Ovid (Publius Ovidius Naso)",
+          "translator_or_editor": "Frank Justus Miller (translator)",
+          "edition": "Loeb Classical Library",
+          "year": 1916,
+          "original_year": 8,
+          "publisher": "Harvard University Press",
+          "url": "https://archive.org",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book IV, lines 663-752",
+          "summary": "Andromeda is condemned as a sacrifice because of Cassiopeia’s boast, encoding inherited guilt, ransom logic, and cosmic rebalancing.",
+          "astronomical_component": "A",
+          "component_reasoning": "Maps Andromeda’s unjust punishment onto her immortalization as a visible constellation symbolizing duty, guilt, and restored balance."
+        },
+        {
+          "title": "The Library (Bibliotheca)",
+          "author": "Apollodorus (attributed) / Pseudo-Apollodorus",
+          "translator_or_editor": "James George Frazer (translator)",
+          "edition": "Loeb Classical Library",
+          "year": 1921,
+          "original_year": -150,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/Apollodorus2.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book 2.4.3–2.4.4 (also cited as 2.43–44)",
+          "summary": "Frames Andromeda as an innocent bargaining sacrifice for her mother's arrogance, establishing duty-guilt-ransom dynamic in the sky.",
+          "astronomical_component": "A",
+          "component_reasoning": "Positions the constellation Andromeda as an image of unjust ransom and cosmic justice once Perseus intervenes."
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "An Andromedan Council is actively guiding Earth's governance and warning humanity against hierarchical planetary control.",
+      "consensus": "low",
+      "supporting_sources": [
+        {
+          "title": "Defending Sacred Ground: The Andromedan Compendium",
+          "author": "Alex Collier",
+          "translator_or_editor": "Valdamar Valerian (editor)",
+          "edition": "Brotherton Press / Leading Edge International Research Edition",
+          "year": 1998,
+          "original_year": 1997,
+          "publisher": "Brotherton Press / Leading Edge International Research",
+          "url": "https://archive.org",
+          "isbn": "ISBN 1-883487-16-4",
+          "source_type": "channeled",
+          "citation_status": "provisional",
+          "location_hint": "Sections 'Andromedan Council' / 'Council Directives to Earth'",
+          "summary": "Claims the Council issues ethical directives to Earth, condemns manipulation, and insists on planetary sovereignty.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Describes an overseeing council from 'Andromeda' without tying it to a specific visible or hidden astronomical body."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "A Culture of Conspiracy: Apocalyptic Visions in Contemporary America",
+          "author": "Michael Barkun",
+          "translator_or_editor": "Michael Barkun (author)",
+          "edition": "University of California Press Edition",
+          "year": 2003,
+          "original_year": 2003,
+          "publisher": "University of California Press",
+          "url": "https://www.ucpress.edu",
+          "isbn": "ISBN 978-0-520-27582-8",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 6 'Millennial Visions and UFO Narratives'",
+          "summary": "Interprets benevolent extraterrestrial councils and galactic federations as sociocultural myth-making that encodes political desire, not verifiable off-world governance.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Treats 'Andromedan Council' narratives as human cultural constructions with no demonstrable astronomical locus."
+        }
+      ]
+    }
+  ],
+  "research_notes": "In this file: (1) 'A' marks physically observed luminous structures (the visible constellation Andromeda and the Andromeda Galaxy/M31), which ground themes of captivity, liberation, ransom, and extragalactic distance in historically anchored, observational astronomy. These have medium-to-high consensus and strong ancient_support in mythic form. (2) 'unspecified' marks system-level governance narratives (the Andromedan Council) that present anti-domination ethics and sovereignty mandates but do not name a physical stellar locus. These narratives are modern, low-consensus, and explicitly disputed. (3) No 'B', 'G', or 'H' components are currently present for Andromeda in this baseline. All sources are provisional; no locked quotes with page/utterance locators have been attached yet.",
+  "bibliography": {
+    "ancient_texts": [
+      "Ovid (8 CE / 1916 Loeb ed.). Metamorphoses. Harvard University Press.",
+      "Apollodorus (c. 150 BCE / 1921 Loeb ed.). The Library (Bibliotheca). Harvard University Press."
+    ],
+    "modern_research": [
+      "Allen, R.H. (1899). Star Names: Their Lore and Meaning. G.E. Stechert & Co.",
+      "Hubble, E.P. (1925). Cepheids in the Andromeda Nebula. Publications of the American Astronomical Society.",
+      "Hubble, E.P. (1936). The Realm of the Nebulae. Yale University Press.",
+      "Barkun, M. (2003). A Culture of Conspiracy: Apocalyptic Visions in Contemporary America. University of California Press."
+    ],
+    "channeled_sources": [
+      "Collier, A. (1998). Defending Sacred Ground: The Andromedan Compendium. Brotherton Press / Leading Edge International Research."
+    ],
+    "academic_foundations": [
+      "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.",
+      "Nirenberg, M.W. & Khorana, H.G. (1960s). Genetic code research (Nobel-recognized).",
+      "Scholem, G. (1941). Major Trends in Jewish Mysticism. Schocken.",
+      "Feuerstein, G. (1998). The Yoga Tradition. Hohm Press.",
+      "Tarnas, R. (2006). Cosmos and Psyche. Viking."
+    ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Liberation from captivity and unjust bondage",
+      "Intervention to free the bound and restore sovereignty",
+      "Anti-domination ethics and non-hierarchical council governance",
+      "Cosmic justice alignment and restoration of balance",
+      "Extragalactic perspective and separate civilization consciousness"
+    ],
+    "shadow_themes": [
+      "Passive victimhood and waiting for rescue",
+      "Martyrdom complex and self-sacrifice without agency",
+      "Idealistic council structures that avoid direct action"
+    ],
+    "quick_rules": [
+      "If the behavior is breaking chains, freeing captives, interrupting abuse, challenging domination, or restoring sovereignty to someone who was claimed/owned, that's Andromeda.",
+      "If the behavior is predator scanning, loyalty enforcement, territorial control, or survival-through-dominance inside a threatened group, that's Draco, not Andromeda. Draco protects by controlling access; Andromeda liberates by removing the captor.",
+      "If the behavior is empire management, obedience infrastructure, psychological pressure at scale, or 'the many must submit to the few,' that's Orion-Dark, not Andromeda. Orion-Dark builds domination systems; Andromeda dismantles them.",
+      "If the behavior is emotional co-regulation, nervous system soothing, feeding, tending, holding someone until they feel safe, that's Pleiades, not Andromeda. Pleiades heals through nurture; Andromeda rescues through intervention.",
+      "If the behavior is clinical/vibrational healing, frequency calibration, energetic repair, clearing trauma residue after harm, or running people through light/sound chambers, that's Arcturus, not Andromeda. Arcturus is post-liberation stabilization.",
+      "If the behavior is honorable ordeal, spiritual trial, warrior initiation, rank earned through suffering for a sacred code, that's Orion-Light, not Andromeda.",
+      "If the behavior is sacred-law liberation from ownership ('you are not property under cosmic law') and proclamation of inherent freedom as a teaching, that's Sirius, not Andromeda. Sirius is liberation doctrine; Andromeda is physical/structural rescue.",
+      "If the behavior is aesthetic legacy, mythic artistry, immortalizing beauty, cultural refinement, or 'our lineage is the original creative template,' that's Lyra, not Andromeda. Lyra elevates through art and mythic prestige; Andromeda intervenes against captivity.",
+      "Andromeda is about anti-domination action and sovereignty restoration, not territorial dominance, emotional caretaking, vibrational medicine, aesthetic immortality, ordeal-initiation, or empire control."
+    ],
+    "notes_for_alignment": "Score Andromeda high (0.7–1.0) when the gate.line is about liberating the captive, disrupting an abuser/controller, restoring sovereignty to someone treated as property, or openly defying unjust hierarchy/power capture. Score Andromeda shadow (0.4–0.6) when it slips into martyr fantasy ('I'm the sacrifice'), helpless damsel expectation ('someone will save me because I'm pure'), or purely performative council rhetoric ('we condemn domination' with no action). Give Andromeda ~0 when the behavior is predator scanning, loyalty enforcement, resource hoarding, 'obey or get exiled' (Draco), empire-scale obedience engineering or planetary takeover (Orion-Dark), emotional mothering / nervous-system soothing / feeding (Pleiades), frequency medicine, vibrational recalibration, trauma field repair after the rescue (Arcturus), warrior ordeal / rank earned through trials (Orion-Light), proclamation of cosmic law that nullifies ownership, 'you are not property in the eyes of Source' (Sirius), or immortalizing beauty, mythic art, aesthetic superiority or 'we are the original lineage' (Lyra)."
+  }
+}

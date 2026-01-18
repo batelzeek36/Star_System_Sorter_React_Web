@@ -1,0 +1,278 @@
+{
+  "59.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Early approach keeps sovereignty—consent-first, no seduction capture."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Contain the approach with pace and clear edges; simple, safe frame."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Intimidation/status optics can color first contact."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Clean, unfancy invitation keeps the signal receivable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing rules to force closeness rather than aligning consent."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Quiet courage to be honest and measured in vulnerability."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Attuned soothing and warmth create felt safety for contact."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Personal intimacy hygiene—no explicit transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-59.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["consent", "pace", "safety"]
+    }
+  },
+  "59.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Chooses who to open to—agency remains with the self."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places conditions for bonding: timing, boundaries, context."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Sentinel scan for predatory vibes or covert pressure."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Plain phrasing communicates desire without theater."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to seduction scripts over truth of readiness."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Discipline to wait for a clean ‘yes’ in the body."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Co-regulation and gentle closeness stabilize the opening."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement, not yet protocol teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-59.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["boundaries", "readiness", "co-regulation"]
+    }
+  },
+  "59.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim/savior intimacy loops outsource agency to the other."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Boundary failures and erratic pacing collapse the container."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Jealousy and possession become status/intimidation games."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Performative eroticism eclipses authentic connection."
+    },
+    "orion-dark": {
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Control/coercion masquerade as ‘relationship rules.’"
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reset agreements, slow down, realign consent."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement to keep peace distorts truth."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error intimacy.",
+      "confidence": 5,
+      "sources": ["gate-line-59.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["jealousy", "enmeshment", "coercion"]
+    }
+  },
+  "59.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates closeness via explicit consent and self-possession."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Designs intimacy protocol—signals, pace, aftercare, exits."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Keeps thresholds—no entry for predatory patterns."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Simple ritual language/gesture makes closeness legible."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol can ossify into rigid ‘right way’ to be intimate."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models courageous vulnerability with disciplined pacing."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned hospitality keeps bodies and nerves safe together."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches intimacy-by-protocol—how to approach, engage, and repair.",
+      "confidence": 4,
+      "sources": ["gate-line-59.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "consent/attunement-protocol",
+      "keywords": ["signals", "aftercare", "exits"]
+    }
+  },
+  "59.5": {
+    "andromeda": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Ends coercive intimacy norms; champions agency and choice."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards—consent, boundaries, repair cadence, disclosure."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to consent; no predatory access or status play."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Cultural phrasing/ritual dignifies honest erotic connection."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Projection risk: purity/control doctrine disguised as care."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity under pressure—speak truth or refrain without proving."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports regulation and trust in receivers."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in intimacy standards—liberation through consent literacy.",
+      "confidence": 4,
+      "sources": ["gate-line-59.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "intimacy-standards/teacher",
+      "keywords": ["consent", "repair", "boundaries", "disclosure"]
+    }
+  },
+  "59.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied sovereignty in closeness—opens or withholds by truth."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for consent-and-connection stewardship."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to ‘real’ intimacy or status access."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few gestures/words convey safety and desire."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Intimacy canon risks law-over-life control or moral policing."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to hold boundaries and heart without performance."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion stays present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: intimacy canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-59.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/intimacy-canon",
+      "keywords": ["canon", "consent", "presence"]
+    }
+  }
+}

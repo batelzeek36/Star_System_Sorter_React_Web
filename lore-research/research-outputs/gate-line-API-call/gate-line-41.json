@@ -1,0 +1,84 @@
+{
+  "gate": 41,
+  "gate_name": "Decrease / Contraction",
+  "lines": {
+    "41.1": {
+      "line": 1,
+      "hd_title": "Reasonableness",
+      "hd_quote": "The appropriate delegation of responsibility.",
+      "keywords": [
+        "makes the most of little",
+        "selective emotional release",
+        "practical steward of resources"
+      ],
+      "behavioral_axis": "Knows who should hold what feeling/resource so nothing is wasted.",
+      "shadow_axis": "Dumps feelings too fast or onto the wrong person when pressured.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "41.2": {
+      "line": 2,
+      "hd_title": "Caution",
+      "hd_quote": "Humanism tempered by pragmatism.",
+      "keywords": [
+        "helps without losing stability",
+        "emotional triage",
+        "protects core resources"
+      ],
+      "behavioral_axis": "Shares feelings/resources only when personal base is secure.",
+      "shadow_axis": "People-pleasing that burns through limited fuel.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "41.3": {
+      "line": 3,
+      "hd_title": "Efficiency",
+      "hd_quote": "In times of decrease selfishness is justified.",
+      "keywords": [
+        "tight focus",
+        "solo drive",
+        "no energy leaks"
+      ],
+      "behavioral_axis": "Pulls energy back to ensure the cycle can actually start.",
+      "shadow_axis": "Looks selfish or ungenerous when resources are low.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "41.4": {
+      "line": 4,
+      "hd_title": "Correction",
+      "hd_quote": "Successful adaptation to limitation.",
+      "keywords": [
+        "adapts to scarcity",
+        "cuts emotional cords",
+        "survival-oriented"
+      ],
+      "behavioral_axis": "Reorganizes relationships and feelings around what the field actually has.",
+      "shadow_axis": "Holds on to weak ties and bleeds energy.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "41.5": {
+      "line": 5,
+      "hd_title": "Authorization",
+      "hd_quote": "The external recognition of one's potential despite limitations.",
+      "keywords": [
+        "recognized fuel",
+        "endorsed feeling",
+        "licensed to spend energy"
+      ],
+      "behavioral_axis": "When seen, can direct the cycle and feelings for the group.",
+      "shadow_axis": "If not seen, turns dissatisfaction into emotional negativity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "41.6": {
+      "line": 6,
+      "hd_title": "Contagion",
+      "hd_quote": "The law that the maximization of potential not only ends decrease but inevitably such transcendence benefits others.",
+      "keywords": [
+        "overflowing fuel",
+        "success that spreads",
+        "emotional transcendence"
+      ],
+      "behavioral_axis": "When the feeling is right and maximized, everyone nearby benefits.",
+      "shadow_axis": "Withholds success out of fear it will be taken.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

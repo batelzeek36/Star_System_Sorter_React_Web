@@ -1,0 +1,278 @@
+{
+  "26.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced deals; honors sovereignty over ‘closing at any cost.’"
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Sets an honest container for promises—scope, limits, and deliverables before pitch."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status-posturing and pressure tactics to force agreement."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Glimmers of persuasive style, but foundation > show."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Manipulative framing to secure obedience or control."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal of integrity: underpromise, keep word, earn trust."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Attunes to the other’s needs so the bargain truly nourishes."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching stewardship—personal will hygiene, not formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-26.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "26.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Won’t be strong-armed into overcommitment; defends free consent."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Calibrates claims to capacity; builds a reliable exchange container."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Correctness/loyalty tests around ‘proper’ deal-making."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Persuasive story gains clarity and tasteful rhythm."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Procedure as cover for subtle coercion."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honor-bound bargaining: say the true price and terms."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Relational attunement makes the agreement humane and sustainable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical stewardship of will/resources; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-26.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "26.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Pushes back on manipulative sales; reclaims consent after missteps."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—over-sell/under-deliver while learning limits."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Rank games and access gatekeeping around resources."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Style over substance—spin eclipses truth."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Propaganda impulse: shaping obedience by bending facts."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity ordeal: admit error, correct the deal, re-earn trust."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing promises that drain will and warp terms."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial-and-error; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-26.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "26.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Advocates consent-centric commerce; refuses coercive bargains."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Turns persuasion into protocol—clear offers, verifiable delivery, review cycles."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping who ‘deserves’ preferred terms."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Clean, charismatic narrative that helps the right deal land."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy of ‘best practices’ used to strong-arm outcomes."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentor-by-example: others face the ordeal of honest bargaining."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ensures the exchange actually nourishes all parties."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Market-ethic pedagogy—teaches right use of will in trade by protocol and example.",
+      "confidence": 4,
+      "sources": ["gate-line-26.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "market-protocol-teaching",
+      "keywords": ["consent", "offer/accept", "verification"]
+    }
+  },
+  "26.5": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Resists propaganda capture; defends truthful terms under projection."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as the fixer/closer for everyone → burnout/scapegoat when nuance resists."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura breeds loyalty tests and access policing."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic pitch presence—style that still points to substance."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing ‘the way to sell’ to preserve control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—keep the bargain clean despite pressure."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement offers that later harm capacity and trust."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: models ethical persuasion under heat.",
+      "confidence": 4,
+      "sources": ["gate-line-26.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["ethics", "persuasion", "example"]
+    }
+  },
+  "26.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodied consent leadership—commerce without domination."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder steward of will/resources—durable standards for honest exchange."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy rank rigidity can creep into who gets ‘premium’ terms."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model charisma that serves truth rather than image."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning methods into hierarchy—orthodoxy over living consent."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Elder ordeal: courage and restraint so willpower serves the tribe rightly."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of trade and will, not bonding/soothing per se."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Commerce sage—teaches the law of right persuasion/pledge by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-26.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "commerce-sage/right-use-of-will",
+      "keywords": ["oath", "pledge", "exchange", "stewardship"]
+    }
+  }
+}

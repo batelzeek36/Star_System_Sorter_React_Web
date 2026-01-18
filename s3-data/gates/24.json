@@ -1,0 +1,205 @@
+{
+  "id": "gate.24",
+  "hexagram": "hx24",
+  "center": "Ajna",
+  "circuit": "Individual / Knowing",
+  "programming_partner": "gate.44",
+  "polarity": {
+    "opposite_on_wheel": "gate.44"
+  },
+  "themes": [
+    "returning to a thought (rationalization loop)",
+    "resolving inspiration to find mental silence",
+    "addiction to regressive forms (line 3)",
+    "61–24 Channel of Awareness (the Thinker)"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "24.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "The Sin of Omission",
+        "hd_quote": "Transformation that requires retrogressive periods before renewal can take place."
+      },
+      "interpretation": {
+        "keywords": [
+          "review past thinking",
+          "retrograde then renew",
+          "originality check"
+        ],
+        "behavioral_axis": "Cycles back to test whether an inspiration is new and worth knowing.",
+        "shadow_axis": "Loops on the past; stalls creative mutation."
+      },
+      "relationship_needs": {
+        "needs_quiet_time": true,
+        "prefers_patience_over_pressure": true,
+        "rejects_forced_answers": true
+      },
+      "group_role": "quality control for originality",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "24.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Recognition",
+        "hd_quote": "The proper and spontaneous adaptation to new forms."
+      },
+      "interpretation": {
+        "keywords": [
+          "spontaneous concept",
+          "projected certainty",
+          "no introspection"
+        ],
+        "behavioral_axis": "Shares fresh concepts quickly, without checking provenance.",
+        "shadow_axis": "Projects originality; risks public correction for unoriginal ideas."
+      },
+      "relationship_needs": {
+        "hates_being_micro-managed": true,
+        "needs_space_to_share_spontaneously": true,
+        "needs_kind_feedback": true
+      },
+      "group_role": "quick conceptual adapter",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "24.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "The Addict",
+        "hd_quote": "The powerful attraction of regressive forms."
+      },
+      "interpretation": {
+        "keywords": [
+          "bonding then breaking",
+          "inspiration hopping",
+          "irrational fixation"
+        ],
+        "behavioral_axis": "Hooks into inspiration then drops it; tests knowability irresponsibly.",
+        "shadow_axis": "Glorifies old patterns; rationalizes regression."
+      },
+      "relationship_needs": {
+        "needs_room_for_experimentation": true,
+        "partners_handle_pivots": true,
+        "rejects_moralizing": true
+      },
+      "group_role": "myth-buster / false-knower detector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "24.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Hermit",
+        "hd_quote": "Transformation that can only take place in isolation."
+      },
+      "interpretation": {
+        "keywords": [
+          "anti-influence",
+          "alone to think",
+          "fixed mental boundary"
+        ],
+        "behavioral_axis": "Protects originality by withdrawing to process alone.",
+        "shadow_axis": "Isolation drifts into fantasy; resists helpful input."
+      },
+      "relationship_needs": {
+        "needs_solo_time": true,
+        "prefers_low_noise_environment": true,
+        "rejects_unsolicited_advice": true
+      },
+      "group_role": "solitary synthesizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "24.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Confession",
+        "hd_quote": "The courage to admit the mistakes of the past."
+      },
+      "interpretation": {
+        "keywords": [
+          "clean slate",
+          "public correction",
+          "mutation doorway"
+        ],
+        "behavioral_axis": "Admits prior error to unlock the next mutation.",
+        "shadow_axis": "Justifies the past; turns confession into self-defense."
+      },
+      "relationship_needs": {
+        "needs_honest_reflection": true,
+        "expects_clear_requests": true,
+        "rejects_blame_games": true
+      },
+      "group_role": "reset lever / course corrector",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "24.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Gift Horse",
+        "hd_quote": "The possibility of being deaf when opportunity knocks."
+      },
+      "interpretation": {
+        "keywords": [
+          "waiting for real mutation",
+          "missed chances",
+          "roof perspective"
+        ],
+        "behavioral_axis": "Ignores options until one truly mutative path appears.",
+        "shadow_axis": "Paralysis by suspicion; overlooks workable opportunities."
+      },
+      "relationship_needs": {
+        "needs_long_horizon_view": true,
+        "prefers_low_pressure": true,
+        "rejects_urgent_timelines": true
+      },
+      "group_role": "mutation gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
+}

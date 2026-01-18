@@ -1,0 +1,84 @@
+{
+  "gate": 23,
+  "gate_name": "",
+  "lines": {
+    "23.1": {
+      "line": 1,
+      "hd_title": "Proselytization",
+      "hd_quote": "The attempt to undermine one set of values for another.",
+      "keywords": [
+        "foundational explaining",
+        "belief seeding",
+        "value-challenging insight"
+      ],
+      "behavioral_axis": "Builds a base for new ideas by challenging prevailing values.",
+      "shadow_axis": "Becomes evangelical or dogmatic; alienates allies.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "23.2": {
+      "line": 2,
+      "hd_title": "Self-defense",
+      "hd_quote": "The need to abandon tolerance when survival is threatened.",
+      "keywords": [
+        "projection hotspot",
+        "defense of expression",
+        "\"I know\" boundary"
+      ],
+      "behavioral_axis": "Protects expression when identity/knowing is threatened.",
+      "shadow_axis": "Overreacts to critique; confuses disagreement with danger.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "23.3": {
+      "line": 3,
+      "hd_title": "Individuality",
+      "hd_quote": "Independent expression that is by its nature not detrimental to others.",
+      "keywords": [
+        "trial-and-error language",
+        "non-threatening originality",
+        "adaptation"
+      ],
+      "behavioral_axis": "Learns to phrase insights so others aren’t threatened.",
+      "shadow_axis": "Mysteriousness attracts suspicion; ‘freak’ effect.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "23.4": {
+      "line": 4,
+      "hd_title": "Fragmentation",
+      "hd_quote": "Diversification without a perceived potential for synthesis.",
+      "keywords": [
+        "one-track output",
+        "scatter without synthesis",
+        "paranoia risk"
+      ],
+      "behavioral_axis": "Broadcasts disparate knowings with little integration.",
+      "shadow_axis": "Anxious, feels rejected; retreats into isolated knowing.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "23.5": {
+      "line": 5,
+      "hd_title": "Assimilation",
+      "hd_quote": "The practical acceptance of the values of another path.",
+      "keywords": [
+        "translator to collective",
+        "social integration",
+        "communicating insight"
+      ],
+      "behavioral_axis": "Adapts language to be received by the collective.",
+      "shadow_axis": "Sells out knowing for acceptance and protection.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "23.6": {
+      "line": 6,
+      "hd_title": "Fusion",
+      "hd_quote": "The gradual attunement of diversity through synthesis.",
+      "keywords": [
+        "long-horizon synthesis",
+        "speaks only when mutative",
+        "structuring completion"
+      ],
+      "behavioral_axis": "Waits until knowings synthesize into a mutative, speakable whole.",
+      "shadow_axis": "Holds diversity without synthesis; loses power in expression.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

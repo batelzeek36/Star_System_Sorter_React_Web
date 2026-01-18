@@ -1,0 +1,169 @@
+{
+  "id": "hx13",
+  "number": 13,
+  "unicode_hexagram": "䷌",
+  "name": "Fellowship / Union of People (同人, Tóng Rén)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Thung Zan (or ‘ Union of men ’) appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advan tageous to cross the great stream. It will be ad vantageous to maintain the firm correctness of the superior man. 1. The first line, undivided, (shows the repre sentative of) the union of men just issuing from his gate. There will be no error. 2. The second line, divided, (shows the repre sentative of) the union of men in relation with his kindred. There will be occasion for regret. > The third line, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration. 4. The fourth line, undivided, (shows its subject) mounted on the city wall; but he does not proceed to make the attack (he contemplates). There will be good fortune. 5. In the fifth line, undivided, (the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together. 6. The topmost line, undivided, (shows the repre sser. I. THE THUNG ZAN HEXAGRAM. 87 sentative of) the union of men in the suburbs. There will be no occasion for repentance. XIII, Thung Zln describes a condition of nature and of the state opposite to that of Phi. There was distress and obstruction ; here is union. But the union must be based entirely on public considerations, without taint of selfishness, The strong line in the fifth, its correct, place, occupies the most important position, and has for its correlate the weak second line, also in its correct place. The one divided line is naturally sought after by all the strong lines. The upper trigram is that of heaven, which is above; the lower is that of fire, whose tendency is to mount upwards. All these things are in harmony with the idea of union. But the union must be free from all selfish motives, and this is indicated by its being in the remote districts of the country, where people are unsophisticated, and free from the depraving effects incident to large societies. A union from such motives will cope with the greatest difficulties; and yet a word of caution is added. Line 1 emblems the first attempts at union. It is strong, but in the lowest place; and it has no proper correlate above. There is, however, no intermixture of selfishness in it. Lines 2 and 5 are proper correlates, which fact suggests in this hexagram the idea of their union being limited and partial, and such as may afford ground for blame. Line 3 is strong, and in an odd place; but it has not a proper cor relate in 6. This makes its subject more anxious to unite with 2; but 2 is devoted to its proper correlate in 5, of whose strength 3 is afraid, and takes the measures described. His abstaining so long, however, from any active attempt, will save him from misfortune. Line 4 is strong, but in an even place, which weakens its subject. He also would fain make an attempt on 2; but he is afraid, and does not carry his purpose into effect, Line 5 is strong, in an odd, and the central place; and would fain unite with 2, which indeed is the proper correlate of its subject. But 3 and 4 are powerful foes that oppose the union. Their opposition makes him weep; but he collects his forces, defeats them, and effects his purpose. The union reaches to all within the suburbs, and is not yet uni versal; but still there is no cause for repentance. THE Yl KING.",
+    "normalized_summary": "True alliance. People unite around shared purpose, openly and without selfish agenda. This kind of fellowship is strong enough to take on major challenges and cross big thresholds — but only if integrity stays centered, not factional loyalty."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, undivided, (shows the repre sentative of) the union of men just issuing from his gate. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：同人于門，無咎。"
+        }
+      ],
+      "normalized_meaning": "You begin by making yourself available and visible. Opening the gate to others — showing up honestly — is safe.",
+      "keywords": [
+        "open approach",
+        "initiating contact",
+        "public availability",
+        "no blame",
+        "beginning alliance"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, divided, (shows the repre sentative of) the union of men in relation with his kindred. There will be occasion for regret. > The third line, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：同人于宗，吝。"
+        }
+      ],
+      "normalized_meaning": "If you only ally with ‘your own people,’ it degrades. Cliques, blood loyalty, in-groups: this limits the union and creates regret.",
+      "keywords": [
+        "tribalism",
+        "nepotism",
+        "closed circle",
+        "narrow loyalty",
+        "regret"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：伏戎于莽，升其高陵，三歲不興。"
+        }
+      ],
+      "normalized_meaning": "Suspicion poisons unity. Hiding weapons, watching from high ground, waiting to strike — that posture freezes true cooperation for a long time.",
+      "keywords": [
+        "mistrust",
+        "paranoia",
+        "armed standoff",
+        "stalemate",
+        "withheld cooperation"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, undivided, (shows its subject) mounted on the city wall; but he does not proceed to make the attack (he contemplates). There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：乘其墉，弗克攻，吉。"
+        }
+      ],
+      "normalized_meaning": "You have position and leverage. Choosing not to attack is actually the win. Restraint preserves the possibility of alliance.",
+      "keywords": [
+        "strategic restraint",
+        "holding position",
+        "non-aggression",
+        "preventing escalation",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. In the fifth line, undivided, (the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：同人，先號咷而後笑。大師克，相遇。"
+        }
+      ],
+      "normalized_meaning": "Real fellowship is forged through shared struggle. After crisis and grief comes reunion, decisive success, and reconciliation between leaders/allies who were previously divided.",
+      "keywords": [
+        "reconciliation",
+        "shared hardship",
+        "emotional release",
+        "victory through unity",
+        "meeting in truth"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The topmost line, undivided, (shows the repre sser. I. THE THUNG ZAN HEXAGRAM. 87 sentative of) the union of men in the suburbs. There will be no occasion for repentance. XIII, Thung Zln describes a condition of nature and of the state opposite to that of Phi. There was distress and obstruction ; here is union. But the union must be based entirely on public considerations, without taint of selfishness, The strong line in the fifth, its correct, place, occupies the most important position, and has for its correlate the weak second line, also in its correct place. The one divided line is naturally sought after by all the strong lines. The upper trigram is that of heaven, which is above; the lower is that of fire, whose tendency is to mount upwards. All these things are in harmony with the idea of union. But the union must be free from all selfish motives, and this is indicated by its being in the remote districts of the country, where people are unsophisticated, and free from the depraving effects incident to large societies. A union from such motives will cope with the greatest difficulties; and yet a word of caution is added. Line 1 emblems the first attempts at union. It is strong, but in the lowest place; and it has no proper correlate above. There is, however, no intermixture of selfishness in it. Lines 2 and 5 are proper correlates, which fact suggests in this hexagram the idea of their union being limited and partial, and such as may afford ground for blame. Line 3 is strong, and in an odd place; but it has not a proper cor relate in 6. This makes its subject more anxious to unite with 2; but 2 is devoted to its proper correlate in 5, of whose strength 3 is afraid, and takes the measures described. His abstaining so long, however, from any active attempt, will save him from misfortune. Line 4 is strong, but in an even place, which weakens its subject. He also would fain make an attempt on 2; but he is afraid, and does not carry his purpose into effect, Line 5 is strong, in an odd, and the central place; and would fain unite with 2, which indeed is the proper correlate of its subject. But 3 and 4 are powerful foes that oppose the union. Their opposition makes him weep; but he collects his forces, defeats them, and effects his purpose. The union reaches to all within the suburbs, and is not yet uni versal; but still there is no cause for repentance. THE Yl KING.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：同人于郊，無悔。"
+        }
+      ],
+      "normalized_meaning": "Mature alliance doesn’t depend on central authority. Fellowship extends outward, beyond walls and titles, and you don’t have to regret standing in that wider human bond.",
+      "keywords": [
+        "broad network",
+        "beyond the center",
+        "open collective",
+        "no regret",
+        "post-tribal unity"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.545693Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 87,
+      "leaf_end": 90,
+      "page_candidates": [
+        "145",
+        "6",
+        "146",
+        "47",
+        "I",
+        "5",
+        "149",
+        "150",
+        "151",
+        "4"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

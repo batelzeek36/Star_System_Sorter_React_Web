@@ -1,0 +1,496 @@
+# ARCTURUS BASELINE RESEARCH (V4)
+
+## CONTEXT
+
+You are running Phase 0 baseline research for the Star System Sorter project. Goal: define core characteristics of Arcturus that will later map to Human Design gates. Academic rigor and proper citations are CRITICAL.
+
+**V4 PHILOSOPHY:** You distinguish `provisional` vs `locked` sourcing. You produce the scaffold; humans will later hard-lock every claim.
+
+**V4 IMPROVEMENTS:**
+
+1. Relaxed trait coverage rule for low-consensus traits
+2. Optimized for sources available on sacred-texts.com / archive.org
+3. Translator attribution rules clarified
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ FORBIDDEN:
+
+1. Blogs (WordPress, Medium, personal "starseed" sites)
+2. Anonymous/unsourced claims ("Various sources", "contemporary researchers"). Exception: true pre-modern anonymous texts like Enuma Elish are allowed with `"author": "Anonymous"`.
+3. Fabricated quotes, fake page numbers
+4. Paraphrases pretending to be verbatim
+5. Wrong book attribution
+6. Social media posts
+7. YouTube/podcast audio unless it exists as a published transcript with ISBN
+8. Wiki-style sites without original sources
+
+⚠️ WIKIPEDIA / ENCYCLOPEDIA BAN:
+Do NOT cite Wikipedia, Encyclopedia.com, Britannica.com, WorldHistory.org / Ancient.eu, Mythopedia.com, or any site with "encyclopedia", "wiki", or "pedia". Instead: trace what they cite and use the actual primary book, paper, or translated ancient text.
+
+❌ Also forbidden as sources:
+
+* crystalinks, goodreads, personal spiritual shops, astrology blogs
+* "King James Version" or any anonymous committee translation for Bible/Classics
+
+✅ ACCEPTABLE SOURCE TIERS:
+
+**Tier 1 (Preferred):**
+
+* Published books with ISBN (channeled or scholarly)
+* Peer-reviewed papers
+* Ancient texts with credited translators
+* Anthropological reports of oral traditions
+
+**Tier 2 (Acceptable Secondary):**
+
+* University / museum publications with citations
+* Mystery school publications with authors
+* Historical channeled works (pre-1950)
+
+**Tier 3 (Reject):**
+
+* Blogs, anonymous channeling online, generic starseed sites, social media
+
+Use archive.org, sacred-texts.com, edgarcayce.org, publisher sites, university repos, JSTOR, academia.edu, Google Books page previews. These are all acceptable.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔥 CITATION POLICY: PROVISIONAL vs LOCKED
+═══════════════════════════════════════════════════════════════════════════════
+
+### PROVISIONAL
+
+Use when you have a legit published source but not full text access.
+
+Required fields:
+
+* `location_hint` (chapter / section / reading number / page range shown in preview)
+* `summary` (≤25-word paraphrase of what that source says about the trait)
+* `citation_status: "provisional"`
+
+Example:
+{
+"title":"We, the Arcturians",
+"author":"Norma Milanovich",
+"edition":"First Edition",
+"year":1990,
+"original_year":1990,
+"publisher":"Athena Publishing",
+"location_hint":"Ch.5, pp.78-92",
+"summary":"Arcturians are fifth-dimensional healers using frequency and light tech",
+"url":"[https://archive.org/…](https://archive.org/…)",
+"isbn":"ISBN 0-9625119-0-8",
+"source_type":"channeled",
+"citation_status":"provisional"
+}
+
+### LOCKED
+
+Use ONLY when you have direct access to the exact wording (archive.org full scan, edgarcayce.org reading text, full Google Books preview).
+
+Required fields:
+
+* `page` – explicit locator. Can be a literal page number OR a canonical unit like "Reading 5749-14" or "Session 38.7".
+* `quote` – ≤25 exact words
+* `citation_status: "locked"`
+
+Example:
+{
+"title":"Edgar Cayce Readings",
+"author":"Edgar Cayce",
+"edition":"A.R.E. Press Edition",
+"year":1971,
+"original_year":1971,
+"publisher":"Association for Research and Enlightenment",
+"page":"Reading 5749-14",
+"quote":"Arcturus is that which may be called the center of this universe, through which individuals pass",
+"url":"[https://www.edgarcayce.org/](https://www.edgarcayce.org/)",
+"isbn":null,
+"source_type":"channeled",
+"citation_status":"locked"
+}
+
+RULES:
+
+* `locked` MUST have `page` + `quote`. NO `location_hint` or `summary`.
+* `provisional` MUST have `location_hint` + `summary`. NO `page` or `quote`.
+* Never mix modes in one source block.
+* If archive.org / edgarcayce.org gives you full searchable text, you MUST treat that source as `locked`.
+
+You MUST NOT fabricate page numbers, quotes, or sections. If you can't lock it, you still include it provisionally.
+
+═══════════════════════════════════════════════════════════════════════════════
+SCOPE / CONTEXT FOR THIS RESEARCH
+═══════════════════════════════════════════════════════════════════════════════
+
+This is comparative mythology / esoteric systems research. Arcturus is mostly modern-channeling lore, not classical myth.
+
+**Academic foundation of Star System Sorter:**
+
+* Human Design is built from:
+
+  * I Ching’s 64 hexagrams (3,000+ years scholarship; Wilhelm/Baynes 1950; Jung commentary)
+  * 64 DNA codons (Nirenberg & Khorana, Nobel 1968)
+  * Kabbalah / Tree of Life (Scholem, Idel)
+  * Chakra system (yoga studies: Feuerstein)
+  * Western astrology as historical/cultural system (Tarnas)
+* Math correspondences:
+
+  * 64 hexagrams ↔ 64 codons
+  * Binary yin/yang ↔ binary genetic code (A/T, C/G)
+
+Your job: derive Arcturus traits with sourced evidence, using those same academic rigor standards.
+
+IMPORTANT EXPECTATION:
+
+* Ancient references to “Arcturus” mostly treat it as a navigation star in Boötes (“Bear Guard”), not as a civilization. That is OK. You are REQUIRED to document this under its own characteristic.
+
+═══════════════════════════════════════════════════════════════════════════════
+MANDATORY SOURCES / DOMAINS
+═══════════════════════════════════════════════════════════════════════════════
+
+You MUST attempt to pull from:
+
+1. **Edgar Cayce readings** mentioning Arcturus
+
+   * MUST cite specific reading numbers (e.g. "Reading 5749-14"). Treat as LOCKED if the reading text is accessible online.
+2. **Edgar Evans Cayce**, e.g. "Edgar Cayce on Atlantis" (1968)
+3. **Norma Milanovich**, "We, the Arcturians" (1990, ISBN 0-9625119-0-8)
+4. **Tom Kenyon**, "The Arcturian Anthology" (1996, ISBN 1-886940-00-5)
+5. **Dolores Cannon** (if ISBN and relevant Arcturus content)
+6. **Astronomical / academic sources** on Arcturus as a star (e.g. Kaler, Cambridge Univ. Press)
+7. **Ancient sources** where Arcturus appears as a star:
+
+   * The Book of Job (Bible)
+   * Homer, "Odyssey" (Arcturus as navigation star)
+   * Greek astronomy / Boötes as “Bear Guardian”
+     For all ancient sources, you MUST credit a specific translator, with "(translator)" in `translator_or_editor`. You may NOT say "King James Version" or "Various translators".
+
+All URLs must be to archive.org, publisher sites, university .edu, sacred-texts.com, edgarcayce.org, or similar acceptable sources. NEVER Wikipedia or blogs.
+
+═══════════════════════════════════════════════════════════════════════════════
+ASTRONOMICAL COMPONENT (REQUIRED PER SOURCE)
+════════════════════════════════════════════
+
+Every source MUST include:
+
+* `"astronomical_component"` with one of:
+
+  * `"G"` = gateway / soul transit / ascension portal
+  * `"H"` = healing / frequency / light-tech
+  * `"A"` = Arcturus as a physical/nav star / astronomy
+  * `"unspecified"` = if it doesn’t cleanly fit G/H/A
+* `"component_reasoning"` = short justification of that mapping
+
+Examples:
+
+* Cayce: `"G"` (“Arcturus as spiritual transit gate for souls”)
+* Milanovich / Kenyon: `"H"` (“Arcturians as fifth-dimensional healers using light/frequency tech”)
+* Homer: `"A"` (“Arcturus used for navigation; no civilization claims”)
+
+Every source block MUST have both `astronomical_component` and `component_reasoning`.
+
+═══════════════════════════════════════════════════════════════════════════════
+CRITICAL MANDATORY CHARACTERISTICS
+═══════════════════════════════════════════════════════════════════════════════
+
+You MUST output these 3 traits as separate characteristic objects in `"characteristics"`:
+
+### 1. "Edgar Cayce's Arcturus as cosmic gateway and soul transit point"
+
+This is foundational Cayce material:
+
+* Arcturus as "center of this universe"
+* Souls pass through Arcturus between incarnations
+* Fifth-dimensional consciousness / ascension portal
+
+Rules:
+
+* Consensus level likely "medium"
+* Ancient support likely "unknown"
+* Polarity usually `"neutral"` unless a source explicitly frames Arcturus as benevolent protectors of Earth, then `"light"`
+* MUST have ≥3 sources:
+
+  * At least one LOCKED Cayce reading with reading number
+  * At least one published Cayce-related book
+  * At least one other channeled text confirming Arcturus as gateway, ascension node, etc.
+
+### 2. "Energy healing and frequency work"
+
+Core Arcturian theme in channeled lit:
+
+* Light / frequency healing
+* Consciousness transformation via sound / vibration
+* Fifth-dimensional medicine / tech
+
+Rules:
+
+* Consensus level likely "medium"
+* Ancient support "unknown"
+* Polarity `"light"` unless stated purely clinically
+* MUST have ≥2 sources:
+
+  * Norma Milanovich and/or Tom Kenyon
+  * Another credible channeled source (Dolores Cannon, etc.)
+  * At least one of these must explicitly reference frequency/sound/light as modality
+
+### 3. "Limited ancient references (astronomical only)"
+
+You MUST include this as its own characteristic, not just in research notes.
+This trait documents:
+
+* Arcturus appears in antiquity only as a star for navigation / timing (“Bear Guard” in Boötes)
+* Almost zero ancient mythic/civilizational narrative tied to Arcturus specifically
+* Modern 'Arcturian civilization' lore is almost entirely post-1950s channeling
+
+Rules:
+
+* Consensus level "high"
+* Ancient support "low"
+* Polarity `"neutral"`
+* MUST include:
+
+  * At least one ancient source (Job, Homer, Greek astronomy/Boötes) as LOCKED if you can quote a named translator’s line
+  * At least one modern source acknowledging Arcturus is mainly treated astronomically in antiquity
+
+These three traits are mandatory. They cannot be merged.
+
+═══════════════════════════════════════════════════════════════════════════════
+OPTIONAL / EXPECTED ADDITIONAL CHARACTERISTICS
+═══════════════════════════════════════════════════════════════════════════════
+
+Include additional traits ONLY if you can source them to ≥2 qualified sources (ISBN-bearing channeled works, Edgar Cayce readings, academic astronomy texts). If only blogs mention it, DROP IT.
+
+Likely candidates:
+
+* Fifth-dimensional consciousness / ascension training
+* Guardians / protectors of Earth / grid defenders
+* Advanced tech and sacred geometry / energetic architecture
+* Dreamtime work, sleep-state intervention / psychic engineering
+
+For each:
+
+* Give `consensus_level` (HIGH/MEDIUM/LOW)
+* Give `ancient_support` (HIGH/MEDIUM/LOW/UNKNOWN)
+* Give `polarity` ("light","shadow","neutral")
+
+MINIMUM: 5–7 total characteristics including the 3 mandatory ones. Each characteristic should have 2–5 sources. 2 sources is acceptable for low-consensus traits if they’re both legitimate.
+
+═══════════════════════════════════════════════════════════════════════════════
+DISPUTED POINTS ARRAY (REQUIRED)
+═══════════════════════════════════════════════════════════════════════════════
+
+Add a `"disputed_points"` array at top level.
+
+Each disputed point object should include:
+
+* `claim` (e.g. "Arcturus is an interdimensional gateway for souls between incarnations")
+* `supporting_sources` = channeled sources (Cayce, Milanovich, Kenyon, etc.). Each must include full fields (author, publisher, ISBN/null, etc.) and `"source_type": "channeled"`, with `"astronomical_component": "G"` or "H" and a `component_reasoning`.
+* `counter_evidence` = mainstream astronomy with ISBN (e.g. James B. Kaler, "Stars and Their Spectra", Cambridge University Press, 1989, ISBN 0-521-30494-6). Use `"source_type": "research"`, `"astronomical_component": "A"`, and explain it treats Arcturus as a red giant star ~37 ly away with no evidence of portals, civilizations, etc.
+* `consensus` field (likely "low")
+
+Do NOT use Wikipedia for astronomy. Use published astronomy texts or university sources with ISBN/DOI.
+
+═══════════════════════════════════════════════════════════════════════════════
+OUTPUT FORMAT (STRICT)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your final answer MUST be valid minified JSON (no Markdown fences, no commentary). Start with `{` and end with `}`.
+
+High-level structure (keys and ordering should match this pattern):
+
+{
+"star_system":"Arcturus",
+"version":"4.0",
+"last_updated":"2025-10-25",
+"methodology":{
+"framework":"Comparative mythology + I Ching-based Human Design system",
+"academic_foundations":[
+"I Ching (64 hexagrams → 64 Human Design gates)",
+"Modern channeled material (Edgar Cayce, Milanovich, Kenyon)",
+"Limited ancient astronomical references",
+"Jungian archetypal psychology"
+],
+"source_standards":"Ancient texts with named translators; published books with ISBNs; evidence typing (direct/inferred/symbolic); consensus levels documented. V4 uses provisional vs locked; prefers archive.org, sacred-texts.com, edgarcayce.org; relaxed trait coverage for low-consensus traits. All sources MUST include astronomical_component.",
+"research_date":"2025-10-25"
+},
+"academic_context":{
+"human_design_foundations":[
+"I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+"64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+"Kabbalah - Extensive academic study (Scholem, Idel)",
+"Chakra system - Religious Studies, Yoga Studies (Feuerstein)",
+"Western Astrology - Cultural/historical phenomenon (Tarnas)"
+],
+"mathematical_correspondences":[
+"64 I Ching hexagrams = 64 DNA codons",
+"Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+]
+},
+"characteristics":[
+{
+"trait":"Edgar Cayce's Arcturus as cosmic gateway and soul transit point",
+"consensus_level":"medium",
+"ancient_support":"unknown",
+"evidence_type":"direct",
+"disputed":false,
+"polarity":"neutral",
+"sources":[
+{...Cayce reading as LOCKED...},
+{...Cayce-related published book...},
+{...channeled corroboration...}
+]
+},
+{
+"trait":"Energy healing and frequency work",
+"consensus_level":"medium",
+"ancient_support":"unknown",
+"evidence_type":"direct",
+"disputed":false,
+"polarity":"light",
+"sources":[
+{...Milanovich or Kenyon...},
+{...2nd channeled/ISBN source mentioning frequency/sound/light healing...}
+]
+},
+{
+"trait":"Limited ancient references (astronomical only)",
+"consensus_level":"high",
+"ancient_support":"low",
+"evidence_type":"direct",
+"disputed":false,
+"polarity":"neutral",
+"sources":[
+{
+"title":"The Odyssey",
+"author":"Homer",
+"translator_or_editor":"Richmond Lattimore (translator)",
+"edition":"University of Chicago Press",
+"year":1965,
+"original_year":-700,
+"publisher":"University of Chicago Press",
+"page":"Book V, line 272",
+"quote":"[Arcturus referenced as a navigational star, ≤25 words]",
+"url":"ACCEPTABLE SOURCE URL",
+"isbn":"(actual ISBN)",
+"source_type":"ancient",
+"citation_status":"locked",
+"astronomical_component":"A",
+"component_reasoning":"Arcturus treated purely as a navigation star / 'Bear Guard', not a civilization"
+},
+{
+"title":"[Modern astronomy text acknowledging Arcturus as a red giant star]",
+"author":"[Full Name]",
+"edition":"[Edition]",
+"year":1989,
+"original_year":1989,
+"publisher":"[Publisher]",
+"location_hint":"Chapter on Boötes/Arcturus",
+"summary":"Identifies Arcturus as bright K-type red giant in Boötes; no mythic civilization",
+"url":"archive.org or publisher URL",
+"isbn":"ISBN ...",
+"source_type":"research",
+"citation_status":"provisional",
+"astronomical_component":"A",
+"component_reasoning":"Confirms strictly astronomical framing, not metaphysical"
+}
+]
+}
+// + any other sourced traits that meet criteria
+],
+"disputed_points":[
+{
+"claim":"Arcturus is an interdimensional gateway for souls between incarnations",
+"supporting_sources":[
+{
+"title":"Edgar Cayce Readings",
+"author":"Edgar Cayce",
+"edition":"A.R.E. Press Edition",
+"year":1971,
+"original_year":1971,
+"publisher":"Association for Research and Enlightenment",
+"location_hint":"Reading 5749-14",
+"summary":"Describes Arcturus as a universal center and soul transit point",
+"url":"[https://www.edgarcayce.org/](https://www.edgarcayce.org/)",
+"isbn":null,
+"source_type":"channeled",
+"citation_status":"provisional",
+"astronomical_component":"G",
+"component_reasoning":"Frames Arcturus as gateway/ascension node"
+}
+],
+"counter_evidence":[
+{
+"title":"Stars and Their Spectra",
+"author":"James B. Kaler",
+"edition":"Cambridge University Press Edition",
+"year":1989,
+"original_year":1989,
+"publisher":"Cambridge University Press",
+"location_hint":"Chapter on red giants / Arcturus",
+"summary":"Arcturus is a K-type red giant ~37 ly away; no evidence of portals or civilizations",
+"url":"[https://archive.org/details/starstheirspectr00kale](https://archive.org/details/starstheirspectr00kale)",
+"isbn":"ISBN 0-521-30494-6",
+"source_type":"research",
+"citation_status":"provisional",
+"astronomical_component":"A",
+"component_reasoning":"Strict astrophysical description, no metaphysical gateway"
+}
+],
+"consensus":"low"
+}
+],
+"ancient_references":"Ancient mentions treat Arcturus as an astronomical/navigation star (Book of Job; Homer, Odyssey; Boötes 'Bear Guard'), not as a civilization. Modern Arcturian lore is almost entirely post-1950 channeling.",
+"research_notes":"Cayce is the keystone source for Arcturus-as-gateway. Milanovich/Kenyon establish healing/frequency work. Ancient support is minimal and strictly astronomical, unlike Pleiades/Sirius/Orion.",
+"bibliography":{
+"ancient_texts":[
+"Book of Job - Arcturus astronomical mention (with a named translator, not 'KJV')",
+"Homer - Odyssey (Arcturus as navigation star)",
+"Greek astronomy - Boötes/'Bear Guard' identification of Arcturus"
+],
+"modern_research":[
+"Cayce, E. (1971). Edgar Cayce Readings. A.R.E. Press.",
+"Milanovich, N. (1990). We, the Arcturians. Athena Publishing.",
+"Kenyon, T. (1996). The Arcturian Anthology. S.E.E. Publishing.",
+"Kaler, J.B. (1989). Stars and Their Spectra. Cambridge University Press."
+],
+"academic_foundations":[
+"Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press.",
+"Nirenberg, M.W. & Khorana, H.G. (1968). Genetic code work (Nobel Prize).",
+"Scholem, G. (1941). Major Trends in Jewish Mysticism.",
+"Feuerstein, G. (1998). The Yoga Tradition.",
+"Tarnas, R. (2006). Cosmos and Psyche."
+]
+}
+}
+
+═══════════════════════════════════════════════════════════════════════════════
+VALIDATION CHECKLIST (DO NOT SKIP)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response WILL BE REJECTED if:
+
+* You omit any of the 3 mandatory characteristics
+* Any characteristic is missing `"polarity"`
+* Any source is missing `citation_status`, `astronomical_component`, `component_reasoning`, `publisher`, `year`, or `edition`
+* Any `locked` source is missing `page` OR `quote`, or incorrectly includes `summary` / `location_hint`
+* Any `provisional` source is missing `location_hint` OR `summary`, or incorrectly includes `page` / `quote`
+* You use Wikipedia, blogs, "Various sources", or anonymous Bible translations
+* You include `verified: true` (do NOT include this field)
+* You fail to include a `disputed_points` array
+* You forget translator_or_editor for ancient sources (e.g. "Richmond Lattimore (translator)") and instead cite anonymous translations
+
+PASS CRITERIA:
+
+* 5–7 traits total, including all 3 mandatory traits
+* Each trait has 2–5 properly sourced citations
+* Cayce readings include specific reading numbers
+* Healing/frequency work is sourced to Milanovich/Kenyon/etc.
+* "Limited ancient references (astronomical only)" exists as its own trait
+* All ancient sources have named translators with publisher
+* No blogs or wikis
+* Final output is valid minified JSON ONLY, no Markdown, no commentary.
+
+Remember: if you can't LOCK a source, PROVISIONAL is fine — but you MUST still include fully formed provisional metadata. If a trait cannot be supported by at least two qualified sources (Cayce counts as one, if ISBN-bearing book is the other), DROP THAT TRAIT instead of polluting the dataset.

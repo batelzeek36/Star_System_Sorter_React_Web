@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 64,
+  "hexagram_name_legge": "Wei Chi",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Wei Chi intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "LXIV. The Wei Chi Hexagram.\n\nWei Chi intimates progress and success (in the circumstances which it implies). (We see) a young fox that has nearly crossed (the stream), when its tail gets immersed. There will be no advantage in any way.\n\n1. The first line, divided, shows its subject (like a fox) whose tail gets immersed. There will be occasion for regret.\n\n2. The second line, undivided, shows its subject dragging back his (carriage-)wheel. With firmness and correctness there will be good fortune.\n\n3. The third line, divided, shows its subject, with (the state of things) not yet remedied, advancing on; which will lead to evil. But there will be advantage in (trying to) cross the great stream.\n\n4. The fourth line, undivided, shows its subject by firm correctness obtaining good fortune, so that all occasion for repentance disappears. Let him stir himself up, as if he were invading the Demon region, where for three years rewards will come to him (and his troops) from the great kingdom.\n\n5. The fifth line, divided, shows its subject by firm correctness obtaining good fortune, and having no occasion for repentance. (We see in him) the brightness of a superior man, and the possession of sincerity. There will be good fortune.\n\n6. The topmost line, undivided, shows its subject full of confidence and therefore feasting (quietly). There will be no error. (If he) cherish this confidence, till he (is like the fox who) gets his head immersed, it will fail of what is right.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows its subject (like a fox) whose tail gets immersed. There will be occasion for regret."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject dragging back his (carriage-)wheel. With firmness and correctness there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject, with (the state of things) not yet remedied, advancing on; which will lead to evil. But there will be advantage in (trying to) cross the great stream."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject by firm correctness obtaining good fortune, so that all occasion for repentance disappears. Let him stir himself up, as if he were invading the Demon region, where for three years rewards will come to him (and his troops) from the great kingdom."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, shows its subject by firm correctness obtaining good fortune, and having no occasion for repentance. (We see in him) the brightness of a superior man, and the possession of sincerity. There will be good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The topmost line, undivided, shows its subject full of confidence and therefore feasting (quietly). There will be no error. (If he) cherish this confidence, till he (is like the fox who) gets his head immersed, it will fail of what is right."
+    }
+  ],
+  "notes": []
+}

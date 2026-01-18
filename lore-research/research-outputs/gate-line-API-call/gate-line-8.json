@@ -1,0 +1,84 @@
+{
+  "gate": 8,
+  "gate_name": "",
+  "lines": {
+    "8.1": {
+      "line": 1,
+      "hd_title": "Honesty",
+      "hd_quote": "The truthful acceptance of limitation and the recognition that it can only be transcended through sharing.",
+      "keywords": [
+        "humble truth",
+        "own your limits",
+        "share to move"
+      ],
+      "behavioral_axis": "Opens doors by naming limits and inviting support.",
+      "shadow_axis": "Postures as self-sufficient; blocks contribution.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "8.2": {
+      "line": 2,
+      "hd_title": "Service",
+      "hd_quote": "It is the great line of service.",
+      "keywords": [
+        "offer help",
+        "be useful",
+        "quiet leadership"
+      ],
+      "behavioral_axis": "Contributes naturally when invited or recognized.",
+      "shadow_axis": "Resentful helper; feels used or unseen.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "8.3": {
+      "line": 3,
+      "hd_title": "The Phony",
+      "hd_quote": "The acceptance of the style and not the substance of communal actions.",
+      "keywords": [
+        "style trap",
+        "signal vs substance",
+        "performative allyship"
+      ],
+      "behavioral_axis": "Learns to align presentation with real contribution.",
+      "shadow_axis": "Chases optics; neglects results.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "8.4": {
+      "line": 4,
+      "hd_title": "Respect",
+      "hd_quote": "The gift of naturally recognizing the contributions of others and particularly, the acknowledgement of those who lead by example.",
+      "keywords": [
+        "spot the real ones",
+        "amplify others",
+        "community glue"
+      ],
+      "behavioral_axis": "Builds networks by honoring genuine contributors.",
+      "shadow_axis": "Plays politics; rewards appearances.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "8.5": {
+      "line": 5,
+      "hd_title": "Dharma",
+      "hd_quote": "Holding together does not exclude eventual separation.",
+      "keywords": [
+        "guide then release",
+        "teach and let go",
+        "right timing"
+      ],
+      "behavioral_axis": "Leads to the waypoint, then releases attachment.",
+      "shadow_axis": "Clings to students or roles; over-identifies.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "8.6": {
+      "line": 6,
+      "hd_title": "Communion",
+      "hd_quote": "The awareness of patterns that ensures correct timing.",
+      "keywords": [
+        "timing sense",
+        "pattern awareness",
+        "collective attunement"
+      ],
+      "behavioral_axis": "Contributes when the field is ready; watches for openings.",
+      "shadow_axis": "Acts too soon or too late; becomes aloof.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

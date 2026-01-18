@@ -1,0 +1,172 @@
+{
+  "id": "hx34",
+  "number": 34,
+  "unicode_hexagram": "䷡",
+  "name": "Great Power / Power of the Great (大壯, Dà Zhuàng)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Tff K wang indicates that (under the conditions which it symbolises) it will be advantageous to be firm and correct. the necessity of the time requires superior men to withdraw before them.’ Yet the auspice of Thun is not all bad. By firm correct ness the threatened evil may be arrested to a small extent. ‘ A retiring tail ’ seems to suggest the idea of the subject of the lines hurrying away, which would only aggravate the evil and danger of the time. ‘ His purpose ’ in line 2 is the purpose to withdraw. The weak 2 responds correctly to the strong 5, and both are central. The purpose therefore is symbolled as in the text. The ‘yellow’ colour of the ox is introduced because of its being 1 correct,’ and of a piece with the central place of the line. Line 3 has no proper correlate in 6; and its subject allows himself to be entangled and impeded by the subjects of 1 and 2. He is too familiar with them, and they presume, and fetter his movements;—compare Analects, 17.25. He should keep them at a distance. Line 4 has a correlate in 1, and is free to exercise the decision belonging to its subject. The line is the first in ZAien, symbolic of strength. In the Shfi, IV, v, Section 2.9, the worthy! Yin is made to say, ' The minister will not for favour or gain continue in an office whose work is done;’ and the Khang-hsl editors refer to his words as an illustration of what is said on line 5. It has its correlate in 2, and its subject carries out the purpose to retire ‘in an admirable way.’ Line 6 is strong, and with no correlate to detain it in 3, Its subject vigorously and happily carries out the idea of the hexagram. 1. The first line, undivided, shows its subject manifesting his strength in his toes. But advance will lead to evil—most certainly. 2. The second line, undivided, shows that with firm correctness there will be good fortune. 3. The third line, undivided, shows, in the case of a small man, one using all his strength; and in the case of a superior man, one whose rule is not to do so. Even with firm correctness the position would be perilous. (The exercise of strength in it might be compared to the case of) a ram butting against a fence, and getting his horns entangled. 4. The fourth line, undivided, shows (a case in which) firm correctness leads to good fortune, and occasion for repentance disappears. (We see) the fence opened without the horns being entangled. The strength is like that in the wheel-spokes of a large waggon. 5. The fifth line, divided, shows one who loses his ram(-like strength) in the ease of his position. (But) there will be no occasion for repentance. 6. The sixth line, divided, shows (one who may be compared to) the ram butting against the fence, and unable either to retreat, or to advance as he would fain do. There will not be advantage in any respect; but if he realise the difficulty (of his position), there will be good fortune, XXXIV, The strong lines predominate in Ta Zwang, It suggested to ting Wan a state or condition of things in which there was abundance of strength and vigour. Was strength alone enough for the conduct of affairs? No. He saw also in the figure that which suggested to him that strength should be held in subor dination to the idea of right, and exerted only in harmony with it. * 3 !",
+    "normalized_summary": "Great force is available. This is powerful, surging yang energy — but it only brings benefit if it’s guided by integrity and restraint. Power without restraint turns into collision, entanglement, and getting stuck. Power aligned with what’s right becomes stable, load-bearing strength."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, undivided, shows its subject manifesting his strength in his toes. But advance will lead to evil—most certainly.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：壯于趾，征凶，有孚。"
+        }
+      ],
+      "normalized_meaning": "Raw force surges and wants to move immediately. But this is just impulse at the toes, not grounded position. Charging ahead right now is guaranteed trouble.",
+      "keywords": [
+        "premature action",
+        "impulsive charge",
+        "lack of footing",
+        "guaranteed misfortune",
+        "overeager force"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, undivided, shows that with firm correctness there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：貞吉。"
+        }
+      ],
+      "normalized_meaning": "Strength plus integrity works. If you stay steady, principled, and controlled — not reckless — this power turns into good fortune.",
+      "keywords": [
+        "disciplined strength",
+        "firm correctness",
+        "self-control",
+        "good fortune",
+        "ethical power"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. The third line, undivided, shows, in the case of a small man, one using all his strength; and in the case of a superior man, one whose rule is not to do so. Even with firm correctness the position would be perilous. (The exercise of strength in it might be compared to the case of) a ram butting against a fence, and getting his horns entangled.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：小人用壯，君子用罔，貞厲。羝羊觸藩，羸其角。"
+        }
+      ],
+      "normalized_meaning": "The unwise person tries to muscle through everything. The wise person refuses to rely only on brute force here, because this stage is dangerous: push too hard and you get stuck like a ram tangled in the fence.",
+      "keywords": [
+        "brute force danger",
+        "ego vs wisdom",
+        "overextension",
+        "entanglement",
+        "peril despite effort"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, undivided, shows (a case in which) firm correctness leads to good fortune, and occasion for repentance disappears. (We see) the fence opened without the horns being entangled. The strength is like that in the wheel-spokes of a large waggon.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：貞吉悔亡，藩決不羸，壯于大輿之輹。"
+        }
+      ],
+      "normalized_meaning": "Rightly applied strength breaks through cleanly. No mess, no backlash, no regret. This is mature, load-bearing power — not frantic ramming, but engineered force.",
+      "keywords": [
+        "skillful application",
+        "breaking through cleanly",
+        "no regret",
+        "structural strength",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, divided, shows one who loses his ram(-like strength) in the ease of his position. (But) there will be no occasion for repentance.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：喪羊于易，無悔。"
+        }
+      ],
+      "normalized_meaning": "You’re in a comfortable or central position, so you don’t have to push like a battering ram. Dropping the aggressive stance here is actually fine — no blame.",
+      "keywords": [
+        "restraint in comfort",
+        "no need to force",
+        "softening power",
+        "no regret",
+        "ease in authority"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The sixth line, divided, shows (one who may be compared to) the ram butting against the fence, and unable either to retreat, or to advance as he would fain do. There will not be advantage in any respect; but if he realise the difficulty (of his position), there will be good fortune, XXXIV, The strong lines predominate in Ta Zwang, It suggested to ting Wan a state or condition of things in which there was abundance of strength and vigour. Was strength alone enough for the conduct of affairs? No. He saw also in the figure that which suggested to him that strength should be held in subor dination to the idea of right, and exerted only in harmony with it. * 3 !",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：羝羊觸藩，不能退，不能遂，無攸利，艱則吉。"
+        }
+      ],
+      "normalized_meaning": "When you keep forcing against resistance, you get locked in a no-win bind — can’t go forward, can’t back out. Nothing is favorable until you admit you’re stuck and stop pushing. That honesty opens the path to eventual good fortune.",
+      "keywords": [
+        "stalemate",
+        "obstinate pushback",
+        "blocked movement",
+        "humility and pause",
+        "hard-won good fortune"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.553631Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 152,
+      "leaf_end": 155,
+      "page_candidates": [
+        "274",
+        "275",
+        "6",
+        "1",
+        "276",
+        "77",
+        "8",
+        "5",
+        "278",
+        "279",
+        "9",
+        "i",
+        "I"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "gate": 18,
+  "gate_name": "Correction (Work on What Has Been Spoiled)",
+  "lines": {
+    "18.1": {
+      "line": 1,
+      "hd_title": "Conservatism",
+      "hd_quote": "The adherence to traditional patterns despite changing circumstances.",
+      "keywords": [
+        "conservative",
+        "gradual modification",
+        "authority-respecting",
+        "introspective foundation",
+        "traditional patterns"
+      ],
+      "behavioral_axis": "Corrects through gradual modifications of judgments, establishing foundation by respecting traditional authority while slowly bringing about necessary change.",
+      "shadow_axis": "Refuses to correct established authority, rigidly adhering to patterns that guarantee deterioration through inflexibility.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "18.2": {
+      "line": 2,
+      "hd_title": "Terminal disease",
+      "hd_quote": "The recognition that what has been spoilt is irreversible.",
+      "keywords": [
+        "projection outward",
+        "acceptance",
+        "called to discern",
+        "futile raging",
+        "natural recognition"
+      ],
+      "behavioral_axis": "Naturally recognizes what cannot be corrected, called out by others to project correction needs outward or accept irreversibility.",
+      "shadow_axis": "Rages futilely against unchangeable patterns, refusing to accept that correction is impossible and projecting obsessively without letting go.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "18.3": {
+      "line": 3,
+      "hd_title": "The Zealot",
+      "hd_quote": "The energetic obsession to clean house.",
+      "keywords": [
+        "zealous correction",
+        "trial-and-error",
+        "obsessive perfecting",
+        "critical capacity",
+        "bonds made and broken"
+      ],
+      "behavioral_axis": "Experiments obsessively with corrections through trial-and-error, dissolving old forms and perfecting patterns through energetic critical engagement.",
+      "shadow_axis": "Corrects compulsively without satisfaction, creating as many problems as solved through rigid judgmentation that never achieves completion.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "18.4": {
+      "line": 4,
+      "hd_title": "The Incompetent",
+      "hd_quote": "The inability to correct and its potential for suffering.",
+      "keywords": [
+        "inadequacy",
+        "externalization",
+        "one unfixable thing",
+        "anxiety-generating",
+        "network dependent"
+      ],
+      "behavioral_axis": "Externalizes competence in correcting many patterns while recognizing one thing they cannot fix, seeking networks and relationships to address inadequacy.",
+      "shadow_axis": "Generates chronic anxiety and indecision from the one pattern they cannot correct, suffering from demands of correction beyond their capacity.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "18.5": {
+      "line": 5,
+      "hd_title": "Therapy",
+      "hd_quote": "The wisdom to both seek and provide guidance.",
+      "keywords": [
+        "projection field",
+        "therapeutic relationship",
+        "collective correction",
+        "guidance seeker and provider",
+        "universalized process"
+      ],
+      "behavioral_axis": "Holds steady under projection field as both therapist and patient, correcting others through relationships while accepting correction from others in universalized process.",
+      "shadow_axis": "Becomes chronically unstable or mentally fragmented when relationships cannot assist in correction, projecting correction outward while unable to self-correct.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "18.6": {
+      "line": 6,
+      "hd_title": "Buddhahood",
+      "hd_quote": "Everything is correct, whether it is or not.",
+      "keywords": [
+        "perfected form",
+        "objectivity of completion",
+        "eternal child",
+        "wants to be spoiled",
+        "role model of acceptance"
+      ],
+      "behavioral_axis": "Assumes perfection through completed correction, sharing methodology of why life is perfect while seeking to be spoiled and avoiding corrective engagement.",
+      "shadow_axis": "Shares values of correction with others while refusing to participate in corrective process, demanding to be served as consequence of assumed perfection.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

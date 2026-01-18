@@ -1,0 +1,62 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 31,
+  "hexagram_name_legge": "Hsien",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Hsien indicates that, (on the fulfilment of the conditions implied in it), there will be free course and success. Its advantageousness will depend on the being firm and correct, (as) in marrying a young lady. There will be good fortune.",
+  "image_text": "(The trigram representing) a mountain and above it that for (the waters of) a marsh form Hsien. The superior man, in accordance with this, keeps his mind free from pre-occupation, and open to receive (the influences of) others.",
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "XXXI. The Hsien Hexagram.\n\nHsien indicates that, (on the fulfilment of the conditions implied in it), there will be free course and success. Its advantageousness will depend on the being firm and correct, (as) in marrying a young lady. There will be good fortune.\n\n1. The first line, divided, shows one moving his great toes.\n\n2. The second line, divided, shows one moving the calves of his leg. There will be evil. If he abide (quiet in his place), there will be good fortune.\n\n3. The third line, undivided, shows one moving his thighs, and keeping close hold of those whom he follows. Going forward (in this way) will cause regret.\n\n4. The fourth line, undivided, shows that firm correctness which will lead to good fortune, and prevent all occasion for repentance. If its subject be unsettled in his movements, (only) his friends will follow his purpose.\n\n5. The fifth line, undivided, shows one moving the flesh along the spine above the heart. There will be no occasion for repentance.\n\n6. The sixth line, divided, shows one moving his jaws and tongue.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows one moving his great toes."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, shows one moving the calves of his leg. There will be evil. If he abide (quiet in his place), there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, undivided, shows one moving his thighs, and keeping close hold of those whom he follows. Going forward (in this way) will cause regret."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows that firm correctness which will lead to good fortune, and prevent all occasion for repentance. If its subject be unsettled in his movements, (only) his friends will follow his purpose."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows one moving the flesh along the spine above the heart. There will be no occasion for repentance."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, shows one moving his jaws and tongue."
+    }
+  ],
+  "notes": [
+    "XXXI, With the 31st hexagram commences the Second Section of the Text. It is difficult to say why any division of the hexagrams should be made here, for the student tries in vain to discover any continuity in the thoughts of the author that is now broken. The First Section does not contain a class of subjects different from those which we find in the Second. That the division was made, however, at a very early time, appears from the sixth Appendix on the Sequence of the Hexagrams, where the writer sets forth an analogy between the first and second figures, representing heaven and earth, as the originators of all things, and this figure and the next, representing (each of them) husband and wife, as the originators of all the social relations.",
+    "Hsien, as explained in the treatise on the Thwan, has here the meaning of mutual influence, and the duke of Cau, on the various lines, always uses Kan for it in the sense of 'moving' or 'influencing by movement or action.' This is to my mind the subject of the hexagram considered as an essay,—'Influence; the different ways of bringing it to bear, and their issues.'",
+    "With regard to the idea of husband and wife being in the teaching of the hexagram, it is derived from the more recent symbolism of the trigrams ascribed to king Wan.",
+    "Coming now to the figure, and its lines, the subject is that of mutual influence; and the author teaches that that influence, correct in itself, and for correct ends, is sure to be effective. He gives an instance,—the case of a man marrying a young lady, the regulations for which have been laid down in China from the earliest times with great strictness and particularity. Such influence will be effective and fortunate.",
+    "Line 1 is weak, and at the bottom of the hexagram. Though 4 be a proper correlate, yet the influence indicated by it must be ineffective. 'However much a man's great toes may be moved, that will not enable him to walk.'",
+    "The calves cannot move of themselves. They follow the moving of the feet. The moving of them indicates too much anxiety to move. Line 2, moreover, is weak. But it is also the central line, and if its subject abide quiet, till he is acted on from above, there will be good fortune.",
+    "Neither can the thighs move of themselves. The attempt to move them is inauspicious. Its subject, however, the line being strong, and in an odd place, will wish to move, and follows the subject of 4, which is understood to be the seat of the mind. He exercises his influence therefore with a mind and purpose, which is not good.",
+    "Line 4 is strong, but in an even place. It is the seat of the mind. Its subject therefore is warned to be firm and correct in order to a good issue. If he be wavering and uncertain, his influence will not extend beyond the circle of his friends.",
+    "The symbolism of line 5 refers to a part of the body behind the heart, and is supposed therefore to indicate an influence, ineffective indeed, but free from selfish motive, and not needing to be repented of.",
+    "Line 6 is weak, and in an even place. It is the topmost line also of the trigram of satisfaction. Its influence by means of speech will only be that of loquacity and flattery, the evil of which needs not to be pointed out."
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "_meta": {
+    "version": "4.2",
+    "baseline_beacon": "59bfc617",
+    "gate": "01",
+    "generated_at": "2025-01-15T18:30:00Z",
+    "generator": "Manual"
+  },
+  "01.1": [
+    {
+      "star_system": "Lyra",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon lying hid (in the deep). It is not the time for active doing.",
+          "locator": "Hex 1, Line 1",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Time is everything. You have to wait for it.",
+          "locator": "Gate 1, Line 1",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["time", "wait", "patience", "mutation"],
+        "ic_atoms": ["lying hid", "not the time"]
+      },
+      "why_cited": "Patient incubation without premature display = Lyra creative expression held until ripe (quick_rule: 'artistic creation, aesthetic power').",
+      "polarity": "core",
+      "confidence": 5
+    }
+  ],
+  "01.2": [
+    {
+      "star_system": "Orion Light",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon appearing in the field. It will be advantageous to meet with the great man.",
+          "locator": "Hex 1, Line 2",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Somebody looks inside and sees that difference.",
+          "locator": "Gate 1, Line 2",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["called out", "interfered with", "seen", "recognized"],
+        "ic_atoms": ["appearing", "meet the great man"]
+      },
+      "why_cited": "Emergence + meeting the great one = initiation/ordeal pattern (Orion Light quick_rule: 'honorable trial, mystery school').",
+      "polarity": "core",
+      "confidence": 5
+    },
+    {
+      "star_system": "Sirius",
+      "sources": {
+        "legge1899": {
+          "quote": "",
+          "locator": "Hex 1, Line 2",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Love is light. Venus exalted as a symbol of beauty.",
+          "locator": "Gate 1, Line 2",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["love", "light", "beauty", "harmony"],
+        "ic_atoms": ["appearing", "field"]
+      },
+      "why_cited": "Love as light + harmony between values = touches sacred instruction aspect (Sirius quick_rule: 'sacred knowledge transmission').",
+      "polarity": "core",
+      "confidence": 3
+    }
+  ],
+  "01.3": [
+    {
+      "star_system": "Orion Light",
+      "sources": {
+        "legge1899": {
+          "quote": "the superior man active and vigilant all the day, and in the evening still careful and apprehensive.",
+          "locator": "Hex 1, Line 3",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Mars exalted as the symbol of a profound need for self-expression.",
+          "locator": "Gate 1, Line 3",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["energy", "sustain", "Mars", "endurance"],
+        "ic_atoms": ["vigilant", "careful", "apprehensive", "dangerous"]
+      },
+      "why_cited": "Sustained vigilance through danger + Martian endurance = honorable trial (Orion Light quick_rule: 'honorable trial, warrior initiation').",
+      "polarity": "core",
+      "confidence": 5
+    }
+  ],
+  "01.4": [
+    {
+      "star_system": "Lyra",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon looking as if he were leaping up, but still in the deep.",
+          "locator": "Hex 1, Line 4",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Aloneness as the medium of creativity.",
+          "locator": "Gate 1, Line 4",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["aloneness", "creativity", "inner tension", "no influence"],
+        "ic_atoms": ["leaping", "still in deep"]
+      },
+      "why_cited": "Aloneness as creative medium + personal perspective outside influence = Lyra artistic creation (quick_rule: 'artistic creation, aesthetic power').",
+      "polarity": "core",
+      "confidence": 5
+    }
+  ],
+  "01.5": [
+    {
+      "star_system": "Sirius",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon on the wing in the sky. It will be advantageous to meet with the great man.",
+          "locator": "Hex 1, Line 5",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "The energy to attract society.",
+          "locator": "Gate 1, Line 5",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["attract", "society", "projection", "talented"],
+        "ic_atoms": ["on the wing", "in the sky", "great man"]
+      },
+      "why_cited": "Attracts society's projection + powerful recognition field = Sirius shadow gatekeeping through fame (quick_rule: 'sacred knowledge transmission').",
+      "polarity": "shadow",
+      "confidence": 4
+    },
+    {
+      "star_system": "Draco",
+      "sources": {
+        "legge1899": {
+          "quote": "",
+          "locator": "Hex 1, Line 5",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Mars exalted for its powerful ego endurance.",
+          "locator": "Gate 1, Line 5",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["ego", "endurance", "eccentric", "attention"],
+        "ic_atoms": ["on the wing", "sky"]
+      },
+      "why_cited": "Powerful ego endurance + eccentricity for attention = Draco survival through status dominance (quick_rule: 'hierarchical enforcement, loyalty control').",
+      "polarity": "shadow",
+      "confidence": 3
+    }
+  ],
+  "01.6": [
+    {
+      "star_system": "Lyra",
+      "sources": {
+        "legge1899": {
+          "quote": "the dragon exceeding the proper limits. There will be occasion for repentance.",
+          "locator": "Hex 1, Line 6",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Clear assessment of creative value.",
+          "locator": "Gate 1, Line 6",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["objectivity", "assessment", "creative value", "perspective"],
+        "ic_atoms": ["exceeding limits", "repentance"]
+      },
+      "why_cited": "Objective assessment of creative value across generations = Lyra immortalization through art (quick_rule: 'immortalization through beauty and art').",
+      "polarity": "core",
+      "confidence": 5
+    },
+    {
+      "star_system": "Sirius",
+      "sources": {
+        "legge1899": {
+          "quote": "",
+          "locator": "Hex 1, Line 6",
+          "attribution": "Legge 1899"
+        },
+        "line_companion": {
+          "quote": "Mutation is a movement and it goes far beyond a single lifetime.",
+          "locator": "Gate 1, Line 6",
+          "attribution": "Ra Uru Hu (LC)"
+        }
+      },
+      "atoms": {
+        "hd_keywords": ["mutation", "movement", "generations", "transcendent"],
+        "ic_atoms": ["exceeding", "repentance"]
+      },
+      "why_cited": "Mutation as generational movement + timing perspective = Sirius timing signal for renewal (quick_rule: 'timing signal for collective renewal').",
+      "polarity": "core",
+      "confidence": 4
+    }
+  ]
+}

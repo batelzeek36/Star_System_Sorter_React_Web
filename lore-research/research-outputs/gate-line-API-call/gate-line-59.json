@@ -1,0 +1,84 @@
+{
+  "gate": 59,
+  "gate_name": "",
+  "lines": {
+    "59.1": {
+      "line": 1,
+      "hd_title": "The Preemptive Strike",
+      "hd_quote": "Go make love to somebody, you fool, and find out how incredible it is.",
+      "keywords": [
+        "initiate intimacy first",
+        "break distance",
+        "body-confidence through sex"
+      ],
+      "behavioral_axis": "Closes the gap before it hardens; uses intimacy to confirm value.",
+      "shadow_axis": "Premature intimacy with the wrong people; disperses aura too widely.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "59.2": {
+      "line": 2,
+      "hd_title": "Shyness",
+      "hd_quote": "A calculated shyness, rooted in deep psychological barriers, that even in dynamic individuals will always resist interaction.",
+      "keywords": [
+        "needs bold partner",
+        "genetic reserve",
+        "protected sexuality"
+      ],
+      "behavioral_axis": "Wants intimacy but waits for the correct, insistent other to break the field.",
+      "shadow_axis": "No one breaks through → infertility of bond; unnecessary distance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "59.3": {
+      "line": 3,
+      "hd_title": "Openness",
+      "hd_quote": "This is bonds being made and broken.",
+      "keywords": [
+        "trial-and-error mating",
+        "promiscuity theme",
+        "genetic experimentation"
+      ],
+      "behavioral_axis": "Tests multiple bonds to find the right genetic/tribal match.",
+      "shadow_axis": "Unstable intimacy → tribe can’t rely on the connection.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "59.4": {
+      "line": 4,
+      "hd_title": "Brotherhood/Sisterhood",
+      "hd_quote": "First you make friends with that person and then finally become their lover.",
+      "keywords": [
+        "friendship-first mating",
+        "social gateway",
+        "tribal belonging"
+      ],
+      "behavioral_axis": "Opens intimacy through trust, companionship, shared circle.",
+      "shadow_axis": "Can’t do casual; feels ‘wrong’ outside friendship channel.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "59.5": {
+      "line": 5,
+      "hd_title": "The Femme Fatale or Casanova",
+      "hd_quote": "They attract all of the love that gets projected on them.",
+      "keywords": [
+        "projected sexual dissolver",
+        "universalized union",
+        "others think ‘you’re the one’"
+      ],
+      "behavioral_axis": "Field says ‘you can break any barrier,’ so people pour love into them.",
+      "shadow_axis": "Takes people for a ride; receives love but doesn’t return it.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "59.6": {
+      "line": 6,
+      "hd_title": "The One Night Stand",
+      "hd_quote": "The drive for sexual and intimate diversity.",
+      "keywords": [
+        "roof-level sampling",
+        "transition to 40/37 duties",
+        "soulmate-or-nothing"
+      ],
+      "behavioral_axis": "Keeps options open until a truly correct bond shows up.",
+      "shadow_axis": "Perpetual sampling → never commits → misses genetic/historic mate.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 2,
+  "hexagram_name_legge": "Khwan",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Khwan (represents) what is great and originating, penetrating, advantageous, correct and having the firmness of a mare. When the superior man (here intended) has to make any movement, if he take the initiative, he will go astray; if he follow, he will find his (proper) lord. The advantageousness will be seen in his getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.",
+  "image_text": null,
+  "addendum": {
+    "type": "supplementary_line",
+    "text": "(The lines of this hexagram are all weak and divided, as appears from) the use of the number six. If those (who are thus represented) be perpetually correct and firm, advantage will arise."
+  },
+  "full_text": "Khwan (represents) what is great and originating, penetrating, advantageous, correct and having the firmness of a mare. When the superior man (here intended) has to make any movement, if he take the initiative, he will go astray; if he follow, he will find his (proper) lord. The advantageousness will be seen in his getting friends in the south-west, and losing friends in the north-east. If he rest in correctness and firmness, there will be good fortune.\n\n1. In the first line, divided, (we see its subject) treading on hoarfrost. The strong ice will come (by and by).\n\n2. The second line, divided, (shows the attribute of) being straight, square, and great. (Its operation), without repeated efforts, will be in every respect advantageous.\n\n3. The third line, divided, (shows its subject) keeping his excellence under restraint, but firmly maintaining it. If he should have occasion to engage in the king's service, though he will not claim the success (for himself), he will bring affairs to a good issue.\n\n4. The fourth line, divided, (shows the symbol of) a sack tied up. There will be no ground for blame or for praise.\n\n5. The fifth line, divided, (shows) the yellow lower garment. There will be great good fortune.\n\n6. The sixth line, divided, (shows) dragons fighting in the wild. Their blood is purple and yellow.\n\n7. (The lines of this hexagram are all weak and divided, as appears from) the use of the number six. If those (who are thus represented) be perpetually correct and firm, advantage will arise.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "In the first line, divided, (we see its subject) treading on hoarfrost. The strong ice will come (by and by)."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, divided, (shows the attribute of) being straight, square, and great. (Its operation), without repeated efforts, will be in every respect advantageous."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, (shows its subject) keeping his excellence under restraint, but firmly maintaining it. If he should have occasion to engage in the king's service, though he will not claim the success (for himself), he will bring affairs to a good issue."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, divided, (shows the symbol of) a sack tied up. There will be no ground for blame or for praise."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, divided, (shows) the yellow lower garment. There will be great good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, (shows) dragons fighting in the wild. Their blood is purple and yellow."
+    }
+  ],
+  "notes": [
+    "Hexagram Khwan represents receptivity, submission, and the earth principle in contrast to Hexagram 1 (Ch'ien/Qian) which represents creativity and heaven.",
+    "All six lines are divided (yin) lines, symbolizing complete receptivity and yielding.",
+    "The imagery of the mare emphasizes docility combined with strength in service.",
+    "Line 7 is a supplementary statement about using the number six, characteristic of this hexagram's all-yin nature."
+  ]
+}

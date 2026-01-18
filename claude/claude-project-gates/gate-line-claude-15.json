@@ -1,0 +1,84 @@
+{
+  "gate": 15,
+  "gate_name": "The Creative",
+  "lines": {
+    "15.1": {
+      "line": 1,
+      "hd_title": "Duty",
+      "hd_quote": "The love of humanity can only exist when all of the extremes are permitted.",
+      "keywords": [
+        "extreme rhythm",
+        "non-interference",
+        "harmonic relationships"
+      ],
+      "behavioral_axis": "Accepts any place within the spectrum of extremes without expectations, seeking relationships that honor natural rhythm.",
+      "shadow_axis": "Becomes alienated through exaggerated claims about extreme nature, disturbed when others interfere with rhythm.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "15.2": {
+      "line": 2,
+      "hd_title": "Influence",
+      "hd_quote": "Right action is to follow one's extreme.",
+      "keywords": [
+        "natural extremism",
+        "called out by others",
+        "enduring standards"
+      ],
+      "behavioral_axis": "Naturally embodies extreme rhythms without knowing it, called out by others who recognize the extremism in the aura.",
+      "shadow_axis": "Uses extreme nature to influence and manipulate others through contrived rather than natural extremism.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "15.3": {
+      "line": 3,
+      "hd_title": "Ego inflation",
+      "hd_quote": "The confusion is between what is natural and comes to us choicelessly and what the ego claims to be its own.",
+      "keywords": [
+        "trial-and-error",
+        "conditioned extreme",
+        "strategic control"
+      ],
+      "behavioral_axis": "Experiments with extreme rhythms through trial and error, discovering which extremes are natural versus strategic adaptations.",
+      "shadow_axis": "Controls extreme behavior as protective strategy, relying on one conditioned extreme rather than flowing through natural rhythm.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "15.4": {
+      "line": 4,
+      "hd_title": "The Wallflower",
+      "hd_quote": "These people feel inadequate because all they can ever do is externalize their extreme.",
+      "keywords": [
+        "externalization",
+        "fixed extreme",
+        "finding flow"
+      ],
+      "behavioral_axis": "Externalizes fixed extreme rhythm into networks and relationships, seeking environments where that extreme fits into the flow.",
+      "shadow_axis": "Feels deeply inadequate and out of place when extreme doesn't match environment, experiencing humiliation from exposure.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "15.5": {
+      "line": 5,
+      "hd_title": "Sensitivity",
+      "hd_quote": "The ability to sense when otherwise balanced behavior must be adjusted to meet the requirements of a changing environment.",
+      "keywords": [
+        "projection field",
+        "magnetic timing",
+        "environmental sensitivity"
+      ],
+      "behavioral_axis": "Holds projection field that draws others into rhythms, adjusting extreme expression when the right moment in changed environment genuinely calls for it.",
+      "shadow_axis": "Overcompensates by swinging between extremes to satisfy conditioning demands, disturbing natural flow and performing the role for projections.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "15.6": {
+      "line": 6,
+      "hd_title": "Self-defense",
+      "hd_quote": "Modesty that is never confused with weakness.",
+      "keywords": [
+        "objectivity",
+        "withdrawal",
+        "selective expression"
+      ],
+      "behavioral_axis": "Withdraws to the roof early in life with objectivity, thinking before speaking and waiting to express extreme nature at the right moment.",
+      "shadow_axis": "Uses harmony as weapon in problem situations rather than focusing on root causes, ignoring weakness in favor of superficial peace.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

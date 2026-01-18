@@ -1,0 +1,33 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": null,
+  "hexagram_name_legge": "",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "",
+  "lines": [
+    { "line": 1, "legge_line_text": "" },
+    { "line": 2, "legge_line_text": "" },
+    { "line": 3, "legge_line_text": "" },
+    { "line": 4, "legge_line_text": "" },
+    { "line": 5, "legge_line_text": "" },
+    { "line": 6, "legge_line_text": "" }
+  ],
+  "notes": []
+}

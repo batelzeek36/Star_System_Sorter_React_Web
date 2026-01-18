@@ -1,0 +1,84 @@
+{
+  "gate": 8,
+  "gate_name": "The Creative (Contribution)",
+  "lines": {
+    "8.1": {
+      "line": 1,
+      "hd_title": "Honesty",
+      "hd_quote": "The awareness that the whole is always greater than the sum of its parts.",
+      "keywords": [
+        "honest contribution",
+        "individual integrity",
+        "collective penetration"
+      ],
+      "behavioral_axis": "Accepts limitations as individual, shares unique knowing to guide collective while maintaining distinct identity and protecting against conformity.",
+      "shadow_axis": "Withdraws from sharing creative direction, fears losing individuality in group environment and becoming absorbed into collective sameness.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "8.2": {
+      "line": 2,
+      "hd_title": "Service",
+      "hd_quote": "The highest good, to serve selflessly.",
+      "keywords": [
+        "selfless service",
+        "natural projection",
+        "called to contribute"
+      ],
+      "behavioral_axis": "Naturally projects capacity to guide and make contributions, called out by others to offer direction without deep recognition of what's actually being contributed.",
+      "shadow_axis": "Projects signal of contribution like paper tiger, cannot fulfill when called upon to deliver, faces crisis when collective withdraws attention.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "8.3": {
+      "line": 3,
+      "hd_title": "The Phony",
+      "hd_quote": "The acceptance of the style and not the substance of communal actions.",
+      "keywords": [
+        "style over substance",
+        "trial-and-error masks",
+        "adaptive expression"
+      ],
+      "behavioral_axis": "Experiments with styles and masks through trial-and-error to connect with collective, learns what roles work for expressing individual contribution.",
+      "shadow_axis": "Over-relies on style without substance, underestimates others' ability to detect superficiality and becomes confused when mask fails to work.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "8.4": {
+      "line": 4,
+      "hd_title": "Respect",
+      "hd_quote": "The gift of naturally recognizing the contributions of others and particularly, the acknowledgement of those who lead by example.",
+      "keywords": [
+        "recognizes creative potential",
+        "fixed contribution",
+        "externalizes connection"
+      ],
+      "behavioral_axis": "Externalizes through fixed communication, recognizes creative potential in others and connects that potential to collective through selfless contribution and example.",
+      "shadow_axis": "Makes contributions without feeling recognized, becomes fixed on needing acknowledgment for their example despite being themselves rather than best.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "8.5": {
+      "line": 5,
+      "hd_title": "Dharma",
+      "hd_quote": "The ultimate goal of the individual teacher is to have students that not only transcend them but leave them.",
+      "keywords": [
+        "teacher projection field",
+        "directional guidance",
+        "separation acceptance"
+      ],
+      "behavioral_axis": "Holds projection field as teacher/guide who contributes direction then releases others to their path, accepts that successful guidance means eventual separation.",
+      "shadow_axis": "Cannot let go after making contribution, holds on to those who receive guidance and feels loss when they leave despite recognizing limitation.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "8.6": {
+      "line": 6,
+      "hd_title": "Communion",
+      "hd_quote": "The success of individual contribution is determined by timing.",
+      "keywords": [
+        "pattern recognition",
+        "mutative timing",
+        "cosmic moment"
+      ],
+      "behavioral_axis": "Recognizes patterns to contribute at correct timing, waits for cosmic moment when contribution can unleash mutation rather than mundane guidance.",
+      "shadow_axis": "Doubts timing even in ideal circumstances, becomes paralyzed seeking perfect mutative moment and questions whether contribution has real value for change.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

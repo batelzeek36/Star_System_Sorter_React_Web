@@ -1,0 +1,209 @@
+{
+  "id": "gate.39",
+  "hexagram": "hx39",
+  "name": "Obstruction / The Gate of Provocation",
+  "center": "Root",
+  "circuit": "Individual / Knowing (Emoting Stream)",
+  "channel": "39-55 (Emoting / Spirit)",
+  "programming_partner": "gate.38",
+  "polarity": {
+    "opposite_on_wheel": "gate.38"
+  },
+  "gate_quote": "The 39th gate is the gate of Obstruction, and it is the gate of provocation.",
+  "themes": [
+    "provocation to find the right spirit",
+    "pressure to test emotional readiness",
+    "mutation through teasing/obstruction",
+    "not everyone is correct to engage",
+    "fueling 55 for spirit consciousness"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "39.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Disengagement",
+        "hd_quote": "The energy to provoke by refusing to confront obstacles."
+      },
+      "interpretation": {
+        "keywords": [
+          "testing by backing off",
+          "tease-withdraw pattern",
+          "finds who still shows up"
+        ],
+        "behavioral_axis": "Provokes by stepping back; the withdrawal itself is the test of spirit.",
+        "shadow_axis": "Withdraws so much that no mutation can happen."
+      },
+      "relationship_needs": {
+        "needs_space_after_trigger": true,
+        "needs_others_who_dont_chase_drama": true,
+        "rejects_overreaction": true
+      },
+      "group_role": "provocative scout / spirit-tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "39.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Confrontation",
+        "hd_quote": "The instinctual and direct assault of obstacles."
+      },
+      "interpretation": {
+        "keywords": [
+          "straight-up provocation",
+          "called out for no reason",
+          "others project on them"
+        ],
+        "behavioral_axis": "Looks provocative even when quiet, so ends up having to meet it head-on.",
+        "shadow_axis": "Avoids needed confrontation, feels picked on anyway."
+      },
+      "relationship_needs": {
+        "needs_clear_direct_comms": true,
+        "needs_partners_who_handle_heat": true,
+        "rejects_passive_aggression": true
+      },
+      "group_role": "frontline provoker / obstacle-puncher",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "39.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Responsibility",
+        "hd_quote": "The avoidance of confronting obstacles if failure puts others at risk."
+      },
+      "interpretation": {
+        "keywords": [
+          "provokes on behalf of others",
+          "mutative self-sacrifice",
+          "risk-aware pressure"
+        ],
+        "behavioral_axis": "Chooses which fights to pick because mutation affects everyone.",
+        "shadow_axis": "Uses ‘others at risk’ to justify never provoking."
+      },
+      "relationship_needs": {
+        "needs_respect_for_caution": true,
+        "needs_team_support_when_provoking": true,
+        "rejects_reckless_push": true
+      },
+      "group_role": "protective provocateur / guardian of spirit-field",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "39.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Temperance",
+        "hd_quote": "Careful evaluation and assessment before taking action."
+      },
+      "interpretation": {
+        "keywords": [
+          "timed provocation",
+          "checks spirit first",
+          "disciplined teasing"
+        ],
+        "behavioral_axis": "Feels when it’s the right moment to poke the field.",
+        "shadow_axis": "Over-thinks and never tests spirit, so mutation stalls."
+      },
+      "relationship_needs": {
+        "needs_timing_respected": true,
+        "needs_low-drama_environment": true,
+        "rejects_forced_immediacy": true
+      },
+      "group_role": "timing specialist / mood-gatekeeper",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "39.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Single-mindedness",
+        "hd_quote": "The rare ability not to overcome but to bypass obstacles."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected-on provoker",
+          "bypasses drama",
+          "mutation without fight"
+        ],
+        "behavioral_axis": "Because everyone expects provocation, they often don’t have to do it.",
+        "shadow_axis": "Bypassing everything = no spirit gets tested."
+      },
+      "relationship_needs": {
+        "needs_projection_cleanups": true,
+        "needs_acknowledgement_of_effort": true,
+        "rejects_constant_challenge": true
+      },
+      "group_role": "field-shifter / non-confrontational mutator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "39.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Troubleshooter",
+        "hd_quote": "The energy to provoke others by attempting to solve their problems."
+      },
+      "interpretation": {
+        "keywords": [
+          "problem-fixing provocation",
+          "mutation delivery",
+          "spirit-level service"
+        ],
+        "behavioral_axis": "Provokes because it sees the core problem and wants to correct it.",
+        "shadow_axis": "Becomes domineering ‘I know what’s wrong with you.’"
+      },
+      "relationship_needs": {
+        "needs_people_who_want_help": true,
+        "needs_space_to_offer_solutions": true,
+        "rejects_rejection_of_gift": true
+      },
+      "group_role": "mutative troubleshooter / spirit-corrector",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "All line titles and quotes (<25 words) taken directly from Ra Uru Hu, Line Companion, HEXAGRAM 39 OBSTRUCTION, lines 39.1–39.6. Source: archive.org Line Companion. :contentReference[oaicite:0]{index=0}"
+  }
+}

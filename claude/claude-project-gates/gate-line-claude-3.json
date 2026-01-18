@@ -1,0 +1,84 @@
+{
+  "gate": 3,
+  "gate_name": "Difficulty at the Beginning",
+  "lines": {
+    "3.1": {
+      "line": 1,
+      "hd_title": "Synthesis",
+      "hd_quote": "Confusion is natural before mutation can take place.",
+      "keywords": [
+        "introspective about confusion",
+        "accepts natural process",
+        "waits for order to emerge"
+      ],
+      "behavioral_axis": "Accepts confusion as natural and waits for life to reveal order without forcing solutions.",
+      "shadow_axis": "Tries to control and hammer confusion into order through willpower, creating deeper confusion.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.2": {
+      "line": 2,
+      "hd_title": "Immaturity",
+      "hd_quote": "The unrestrained acceptance of guidance.",
+      "keywords": [
+        "projects confused energy",
+        "called out by others",
+        "accepts guidance indiscriminately"
+      ],
+      "behavioral_axis": "Naturally projects immature, confused energy and gets called out by others who offer to show the way.",
+      "shadow_axis": "Accepts guidance from anyone without depth, becoming more confused by people equally lost.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.3": {
+      "line": 3,
+      "hd_title": "Survival",
+      "hd_quote": "Trial and error is built into survival.",
+      "keywords": [
+        "trial-and-error experimentation",
+        "tests what is fertile",
+        "learns through mistakes"
+      ],
+      "behavioral_axis": "Experiments through trial and error to discover which mutations are fertile and which are sterile.",
+      "shadow_axis": "Denies evolutionary standards perversely, refusing to adapt through the trial-and-error process.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.4": {
+      "line": 4,
+      "hd_title": "Charisma",
+      "hd_quote": "Innate quality which attracts valued guidance.",
+      "keywords": [
+        "externalizes confusion",
+        "attracts guidance naturally",
+        "network-dependent direction"
+      ],
+      "behavioral_axis": "Externalizes confusion charismatically, attracting others who provide guidance and count the money.",
+      "shadow_axis": "Becomes dependent on external guidance, unable to recognize own capacity to resolve confusion.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.5": {
+      "line": 5,
+      "hd_title": "Victimization",
+      "hd_quote": "The world sees confusion as an opportunity for victimization.",
+      "keywords": [
+        "projection field of confusion",
+        "stands by convictions",
+        "withstands external pressure"
+      ],
+      "behavioral_axis": "Holds steady under projections that confusion is bad, maintaining integrity despite pressure to conform.",
+      "shadow_axis": "Appeases others who impose order, becoming victimized by those who see confusion as weakness.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "3.6": {
+      "line": 6,
+      "hd_title": "Surrender",
+      "hd_quote": "The ultimate maturity to recognize when struggle is futile.",
+      "keywords": [
+        "objectivity about process",
+        "surrenders without struggle",
+        "trusts natural ordering"
+      ],
+      "behavioral_axis": "Surrenders to confusion without fighting it, trusting that ordering emerges naturally as a process.",
+      "shadow_axis": "Becomes depressed by overwhelming confused energy, refusing engagement unless absolute proof exists.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

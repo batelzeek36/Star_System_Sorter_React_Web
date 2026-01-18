@@ -1,0 +1,139 @@
+{
+  "id": "center.ajna",
+  "name": "Ajna",
+  "awareness": "conceptualization (mental awareness)",
+  "biological_themes": [
+    "Pituitary / hypothalamic regulation (conceptual → endocrine translation)",
+    "Neocortical association areas (pattern recognition, comparison, evaluation)",
+    "Sensory-integration pathways that support analysis and meaning-making",
+    "Third-eye / prefrontal correspondence in chakra-based mappings"
+  ],
+  "fears": [
+    {
+      "id": "ajna.fear.of.not.knowing",
+      "label": "Fear of not knowing / ignorance",
+      "description": "Mental anxiety about never getting the answer or being unable to explain it.",
+      "primary_gates": ["gate.24", "gate.47", "gate.4"]
+    },
+    {
+      "id": "ajna.fear.of.chaos",
+      "label": "Fear of mental chaos",
+      "description": "Pressure to impose logic and formulas so the mind feels ordered.",
+      "primary_gates": ["gate.4", "gate.17"]
+    },
+    {
+      "id": "ajna.fear.of.rejection",
+      "label": "Fear of rejection of insight",
+      "description": "Anxiety that a unique knowing won’t be accepted or heard.",
+      "primary_gates": ["gate.43", "gate.11", "gate.17"]
+    },
+    {
+      "id": "ajna.fear.of.darkness",
+      "label": "Fear of inner darkness / no ideas",
+      "description": "Concern that inspiration will stop or there will be nothing to share.",
+      "primary_gates": ["gate.11"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.47",
+      "name": "47 — Realizing (Oppression)",
+      "stream": "Abstract stream (64 → 47 → 11 → 56)",
+      "fear": "fear of futility",
+      "core_theme": "Making sense of pressured, abstract, past impressions.",
+      "quotes": [
+        "“The Ajna governs mental awareness, analysis, and conceptualization.”",
+        "“It’s where you process and organize information.”"
+      ],
+      "notes": "Receives pressured imagery from Gate 64 and tries to form a complete realization. Not-self here tries to ‘solve’ life in the mind.",
+      "sources": [
+        "Jovian Archive – The Nine Centers of the BodyGraph",
+        "myBodyGraph – Ajna Center article"
+      ]
+    },
+    {
+      "id": "gate.24",
+      "name": "24 — Rationalization (The Return)",
+      "stream": "Individual stream (61 → 24 → 43 → 23)",
+      "fear": "fear of ignorance",
+      "core_theme": "A knowing returns again and again until it can be explained.",
+      "quotes": [
+        "“Core theme: fear of ignorance.”",
+        "“The natural and spontaneous process of transformation and renewal.”"
+      ],
+      "notes": "Loops on an inspiration until it can be rationalized. Healthy when it waits; anxious when it tries to decide for you.",
+      "sources": [
+        "christieinge.com – Human Design Gate 24",
+        "wholeandunleashed.com – Gate 24"
+      ]
+    },
+    {
+      "id": "gate.4",
+      "name": "4 — Formulization (Youthful Folly)",
+      "stream": "Logic stream (63 → 4 → 17 → 62)",
+      "fear": "fear of never-ending chaos",
+      "core_theme": "Producing logical answers that relieve doubt.",
+      "quotes": [
+        "“Core theme: fear of never-ending chaos.”",
+        "“This gate is concerned with coming up with answers.”"
+      ],
+      "notes": "Takes doubt from 63 and proposes formulas. Mind wants to supply answers even when no one asked.",
+      "sources": [
+        "christieinge.com – Human Design Gate 4",
+        "wholeandunleashed.com – Gate 4",
+        "jamielpalmer.com – Gate 4 and the neocortex"
+      ]
+    },
+    {
+      "id": "gate.43",
+      "name": "43 — Breakthrough (Insight)",
+      "stream": "Individual stream (61 → 24 → 43 → 23)",
+      "fear": "fear of rejection",
+      "core_theme": "Inner, acoustically received insight that demands expression.",
+      "quotes": [
+        "“Core theme: fear of rejection.”",
+        "“From genius to freak.”"
+      ],
+      "notes": "Knows before it can prove. Anxiety comes from not having Gate 23 to explain it cleanly.",
+      "sources": [
+        "christieinge.com – Human Design Gate 43",
+        "wholeandunleashed.com – Gate 43",
+        "Jovian / Rave Anatomy references for 43-23"
+      ]
+    },
+    {
+      "id": "gate.17",
+      "name": "17 — Opinions",
+      "stream": "Logic stream (63 → 4 → 17 → 62)",
+      "fear": "fear of challenge",
+      "core_theme": "Organizing a logical viewpoint to be tested by the collective.",
+      "quotes": [
+        "“Core theme: fear of challenge.”",
+        "“Looks for one concept we can all trust.”"
+      ],
+      "notes": "Wants its opinions accepted; anxiety when details (Gate 62) are missing. Best when invited or recognized.",
+      "sources": [
+        "christieinge.com – Human Design Gate 17",
+        "ashleymosaic.com – Source Code 17"
+      ]
+    },
+    {
+      "id": "gate.11",
+      "name": "11 — Ideas",
+      "stream": "Abstract stream (64 → 47 → 11 → 56)",
+      "fear": "fear of darkness",
+      "core_theme": "A well of ideas drawn from experience and imagination.",
+      "quotes": [
+        "“Carries a fear of darkness, of emptiness.”",
+        "“Of being uninspired and having nothing to share.”"
+      ],
+      "notes": "Not every idea is to be acted on. Wants the right audience (56) to receive it.",
+      "sources": [
+        "christieinge.com – Human Design Gate 11",
+        "wholeandunleashed.com – Gate 11"
+      ]
+    }
+  ],
+  "notes": "Ajna is a pressure-processing awareness center, not a decision-making center. Defined Ajna fixes the way of thinking; undefined Ajna amplifies others and tries to appear certain. Three streams move through it: logic (63-4-17-62), abstract (64-47-11-56), and individual (61-24-43-23). Core not-self theme: attempting to be certain about things the mind can never be certain about.\n\nKey Jovian phrases used:\n- “The Ajna governs mental awareness, analysis, and conceptualization.”\n- “It’s where you process and organize information.”\n- “A defined Ajna means you have a fixed way of thinking.”",
+  "last_updated": "2025-11-01"
+}

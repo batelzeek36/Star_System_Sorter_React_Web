@@ -1,0 +1,177 @@
+{
+  "id": "hx32",
+  "number": 32,
+  "unicode_hexagram": "䷟",
+  "name": "Duration / Constancy (恆, Héng)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "H ang indicates successful progress and no error (in what it denotes). But the advantage will come from being firm and correct; and movement in any direction whatever will be advantageous. 1. The first line, divided, shows its subject deeply (desirous) of long continuance. Even with firm No influence, it is said, is so powerful and constant as that between husband and wife; and where these are young, it is especially active. Hence it is that Ilsicn is made up of Kan and Tui. All this is to me very doubtful. I can dimly apprehend why the whole line (- . . .- ) was assumed as the symbol of strength and authority, and the broken line as that of weakness and submission. Beyond this I cannot follow FCt-hsi in his formation of the trigrams; and still less can I assent to the more recent symbolism of them ascribed to king Wan, Coming now to the figure, and its lines, the subject is that of mutual influence; and the author teaches that that influence, correct in itself, and for correct ends, is sure to be effective. He gives an instance,—the case of a man marrying a young lady, the regulations for which have been laid down in China from the earliest times with great strictness and particularity, Such influence will be effective and fortunate. Line 1 is weak, and at the bottom of the hexagram, Though 4 be a proper correlate, yet the influence indicated by it must be ineffective. 1 however much a man’s great toes may be moved, that will not enable him to walk. The calves cannot move of themselves. They follow the moving of the feet. The moving of them indicates too much anxiety to move, Line 2, moreover, is weak. But it is also the central line, and if its subject abide quiet, till he is acted on from above, there will be good fortune. Neither can the thighs move of themselves. The attempt to THE y! KING, I27 correctness there will be evil; there will be no advantage in any way. 2. The second line, undivided, shows all occasion for repentance disappearing. 3. The third line, undivided, shows one who does not continuously maintain his virtue. There are those who will impute this to him as a disgrace. However firm he may be, there will be ground for regret. 4. The fourth line, undivided, shows a field where there is no game. 5. The fifth line, divided, shows its subject con tinuously maintaining the virtue indicated by it. In a wife this will be fortunate; in a husband, evil. 6. The topmost line, divided, shows its subject exciting himself to long continuance. There will be evil. move them is inauspicious. Its subject, however, the line Idiig strong, and in an odd place, will wish to move, and follows the sub ject of 4, which is understood to be the seat of the mind. 1 exercises his influence therefore with a mind and purpose, which is | not good, Line 4 is strong, but in an even place. It is the seal of the mind. Its subject therefore is warned to be firm and correct in order to u good issue. If he be wavering and uncertain, his influence will not extend beyond the circle of his friends. The symbolism of line 5 refers to a part of the body behind the heart, and is supposed therefore to indicate an influence, ineffec tive indeed, but free from selfish motive, and not needing to be repented of. Line 6 is weak, and in an even place. It is the topmost line also of the trigram of satisfaction. Its influence by means of speech will only be that of loquacity and flattery, the evil of which needs not to be pointed out. XXXII. The subject of this hexagram may be given as persever ance in well doing, or in continuously acting out the law of one’s SECT. II,",
+    "normalized_summary": "Endurance. Right constancy — holding to correct principle over time — creates stable success. This is not blind stubbornness or clinging. It's living in a way that can last. If you force permanence too fast, or you try to lock in something that isn't true, it turns toxic. If you cultivate steady character and appropriate loyalty, you become structurally reliable, and that reliability can move through the world."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, divided, shows its subject deeply (desirous) of long continuance. Even with firm No influence, it is said, is so powerful and constant as that between husband and wife; and where these are young, it is especially active. Hence it is that Ilsicn is made up of Kan and Tui. All this is to me very doubtful. I can dimly apprehend why the whole line (- . . .- ) was assumed as the symbol of strength and authority, and the broken line as that of weakness and submission. Beyond this I cannot follow FCt-hsi in his formation of the trigrams; and still less can I assent to the more recent symbolism of them ascribed to king Wan, Coming now to the figure, and its lines, the subject is that of mutual influence; and the author teaches that that influence, correct in itself, and for correct ends, is sure to be effective. He gives an instance,—the case of a man marrying a young lady, the regulations for which have been laid down in China from the earliest times with great strictness and particularity, Such influence will be effective and fortunate. Line 1 is weak, and at the bottom of the hexagram, Though 4 be a proper correlate, yet the influence indicated by it must be ineffective. 1 however much a man’s great toes may be moved, that will not enable him to walk. The calves cannot move of themselves. They follow the moving of the feet. The moving of them indicates too much anxiety to move, Line 2, moreover, is weak. But it is also the central line, and if its subject abide quiet, till he is acted on from above, there will be good fortune. Neither can the thighs move of themselves. The attempt to THE y! KING, I27 correctness there will be evil; there will be no advantage in any way.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：浚恆，貞凶，無攸利。"
+        }
+      ],
+      "normalized_meaning": "Trying to force permanence immediately — locking it down before it's earned — backfires. You can't rush 'forever.' Pushing for guarantees now brings misfortune.",
+      "keywords": [
+        "impatience",
+        "forcing commitment",
+        "premature attachment",
+        "no advantage",
+        "misfortune"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, undivided, shows all occasion for repentance disappearing.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：悔亡。"
+        }
+      ],
+      "normalized_meaning": "You settle into a steady course that actually works. Because you're consistent in a clean way, regret falls away.",
+      "keywords": [
+        "stability",
+        "reliability",
+        "no regret",
+        "alignment",
+        "calm continuity"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. The third line, undivided, shows one who does not continuously maintain his virtue. There are those who will impute this to him as a disgrace. However firm he may be, there will be ground for regret.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：不恆其德，或承之羞，貞吝。"
+        }
+      ],
+      "normalized_meaning": "Inconsistency in character gets exposed. People notice when you can't hold your own standard. Even doubling down defensively brings shame.",
+      "keywords": [
+        "inconstancy",
+        "character leak",
+        "loss of credibility",
+        "public embarrassment",
+        "shame"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, undivided, shows a field where there is no game.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九四：田無禽。"
+        }
+      ],
+      "normalized_meaning": "Effort without result. You keep showing up, but there's nothing to harvest here. Constancy in the wrong place gives you an empty field.",
+      "keywords": [
+        "barren pursuit",
+        "wrong target",
+        "wasted effort",
+        "reassess strategy",
+        "no reward"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, divided, shows its subject con tinuously maintaining the virtue indicated by it. In a wife this will be fortunate; in a husband, evil.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：恆其德貞。婦人吉，夫子凶。"
+        }
+      ],
+      "normalized_meaning": "Loyal, steady devotion in a receptive/support role is blessed. But if a leader clings in the same rigid way, it becomes weakness. Constancy must fit the role.",
+      "keywords": [
+        "role-appropriate loyalty",
+        "devotional steadiness",
+        "healthy support",
+        "misapplied rigidity",
+        "context matters"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The topmost line, divided, shows its subject exciting himself to long continuance. There will be evil. move them is inauspicious. Its subject, however, the line Idiig strong, and in an odd place, will wish to move, and follows the sub ject of 4, which is understood to be the seat of the mind. 1 exercises his influence therefore with a mind and purpose, which is | not good, Line 4 is strong, but in an even place. It is the seal of the mind. Its subject therefore is warned to be firm and correct in order to u good issue. If he be wavering and uncertain, his influence will not extend beyond the circle of his friends. The symbolism of line 5 refers to a part of the body behind the heart, and is supposed therefore to indicate an influence, ineffec tive indeed, but free from selfish motive, and not needing to be repented of. Line 6 is weak, and in an even place. It is the topmost line also of the trigram of satisfaction. Its influence by means of speech will only be that of loquacity and flattery, the evil of which needs not to be pointed out. XXXII. The subject of this hexagram may be given as persever ance in well doing, or in continuously acting out the law of one’s SECT. II,",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：振恆，凶。"
+        }
+      ],
+      "normalized_meaning": "This is obsession. Forcing endurance past its natural life becomes destructive. Constancy turns into fixation, and fixation collapses.",
+      "keywords": [
+        "obsessive persistence",
+        "burnout",
+        "clinging past viability",
+        "inflexibility",
+        "misfortune"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.552734Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 145,
+      "leaf_end": 149,
+      "page_candidates": [
+        "260",
+        "261",
+        "59",
+        "5",
+        "I",
+        "262",
+        "263",
+        "61",
+        "1",
+        "264",
+        "265",
+        "64",
+        "2",
+        "266",
+        "7",
+        "268",
+        "269",
+        "M"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

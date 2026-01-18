@@ -1,0 +1,206 @@
+{
+  "id": "gate.58",
+  "hexagram": "hx58",
+  "center": "Root",
+  "circuit": "Collective / Understanding (Logic)",
+  "programming_partner": "gate.52",
+  "polarity": {
+    "opposite_on_wheel": "gate.52"
+  },
+  "themes": [
+    "joy as fuel for correction",
+    "vitality that wants to improve patterns",
+    "stimulation is the key to joy",
+    "pressure to engage with experimentation (58–18 Judgment)",
+    "love of life that challenges bad authority"
+  ],
+  "fear": "fear there is nothing worth energizing / no pattern to improve",
+  "lines": [
+    {
+      "id": "58.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Love of life",
+        "hd_quote": "The very stimulation of the world is the basis of an aesthetic appreciation of its beauty and wonder."
+      },
+      "interpretation": {
+        "keywords": [
+          "pure vitality",
+          "aesthetic joy",
+          "life-loving correction fuel"
+        ],
+        "behavioral_axis": "Radiates joy first, then spends it on fixing patterns.",
+        "shadow_axis": "If no outlet (no 18), joy turns to frustration."
+      },
+      "relationship_needs": {
+        "needs_shared_enjoyment": true,
+        "prefers_uplifted_environments": true,
+        "rejects_life-hating_fields": true
+      },
+      "group_role": "joy igniter / morale battery",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "58.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Perversion",
+        "hd_quote": "I will provide energy for any kind of process."
+      },
+      "interpretation": {
+        "keywords": [
+          "open projection field",
+          "unusual stimulations",
+          "joy in odd experiments"
+        ],
+        "behavioral_axis": "Projects ‘my energy is available,’ so weird/edge projects appear.",
+        "shadow_axis": "Gets judged by moralistic collectives for where energy goes."
+      },
+      "relationship_needs": {
+        "needs_nonjudgmental_allies": true,
+        "prefers_creative_experiments": true,
+        "rejects_moralistic_containment": true
+      },
+      "group_role": "energy wildcard / unusual pattern tester",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "58.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Electricity",
+        "hd_quote": "The individual whose electric vitality creates its own stimulation and is not dependent on others."
+      },
+      "interpretation": {
+        "keywords": [
+          "self-stimulating joy",
+          "independent experimentation",
+          "trial-and-error fuel"
+        ],
+        "behavioral_axis": "Wants to run its own experiments and lead the stimulation.",
+        "shadow_axis": "Refuses others’ experiments, then has to depend on them anyway."
+      },
+      "relationship_needs": {
+        "needs_room_to_self-start": true,
+        "partners_handle_impulses": true,
+        "rejects_over-control": true
+      },
+      "group_role": "independent energizer / sparks new tests",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "58.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Focusing",
+        "hd_quote": "A natural specialization that when confronted with a multiplicity of stimulations will have no inner difficulty in focusing on the appropriate influence."
+      },
+      "interpretation": {
+        "keywords": [
+          "social focusing",
+          "one-track vitality",
+          "choose-the-right-experiment"
+        ],
+        "behavioral_axis": "Narrows the joy-field to what’s actually worth energizing.",
+        "shadow_axis": "Too narrow → can ignore valid corrections."
+      },
+      "relationship_needs": {
+        "needs_clear_targets": true,
+        "prefers_single-mission_groups": true,
+        "rejects_scattered_projects": true
+      },
+      "group_role": "experiment selector / energy focuser",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "58.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Defense",
+        "hd_quote": "The natural and practical instinct to protect oneself, regardless of temptations."
+      },
+      "interpretation": {
+        "keywords": [
+          "projected energy source",
+          "self-protective joy",
+          "filters stimulations"
+        ],
+        "behavioral_axis": "Everyone thinks they can tap this joy; it defends its fuel.",
+        "shadow_axis": "Drops defenses and explores questionable stimulations."
+      },
+      "relationship_needs": {
+        "needs_respected_boundaries": true,
+        "prefers_high-value_requests": true,
+        "rejects_energy_vampires": true
+      },
+      "group_role": "gatekeeper of vitality / decides who gets fuel",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "58.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Carried away",
+        "hd_quote": "The tendency to practicality that while thoroughly enjoying external stimulation, has the instinct to draw back when its independent integrity is threatened."
+      },
+      "interpretation": {
+        "keywords": [
+          "roof-level discernment",
+          "only-for-real-experiments",
+          "independent integrity"
+        ],
+        "behavioral_axis": "Will give everything to the right experiment; otherwise holds energy back.",
+        "shadow_axis": "Over-identifies with stimulation and loses self."
+      },
+      "relationship_needs": {
+        "needs_high-signal_experiments": true,
+        "prefers_long-horizon_projects": true,
+        "rejects_low-value_stimulation": true
+      },
+      "group_role": "senior vitality steward / ‘only if it’s worth it’",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-31",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s “The Rave I’Ching Line Companion – A Guide to the 384 Lines” on Archive.org / pdfcoffee.com, section “Hexagram 58 The Joyous,” lines 58.1–58.6 (approx. L4464–L4515). Interpretations are original behavioral mappings aligned to the user’s HD→S³ schema."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "center.ego",
+  "name": "Ego (Heart/Will)",
+  "awareness": "will / ego / tribal bargains (motor, not an awareness center)",
+  "biological_themes": [
+    "Heart and cardiac drive (will to live, will to commit)",
+    "Stomach / digestion link (material support → nourishment → tribal survival)",
+    "Gallbladder / decision and assertion themes (taking, claiming, protecting)",
+    "Thymus / immune-tribal vitality correspondence in some HD lineages"
+  ],
+  "fears": [
+    {
+      "id": "ego.fear.of.unworthiness",
+      "label": "Fear of unworthiness",
+      "description": "Anxiety about not being valuable enough to be chosen, paid, or trusted.",
+      "primary_gates": ["gate.40", "gate.26"]
+    },
+    {
+      "id": "ego.fear.of.not.proving",
+      "label": "Fear of not being able to prove it",
+      "description": "Pressure to demonstrate willpower and deliver what was promised.",
+      "primary_gates": ["gate.21", "gate.26", "gate.51"]
+    },
+    {
+      "id": "ego.fear.of.broken.bargain",
+      "label": "Fear of the bargain failing",
+      "description": "Concern the tribe won’t uphold its side, or you can’t uphold yours.",
+      "primary_gates": ["gate.40", "gate.21"]
+    },
+    {
+      "id": "ego.fear.of.being.overpowered",
+      "label": "Fear of being controlled by others",
+      "description": "Defensive push to manage territory, resources, and rules.",
+      "primary_gates": ["gate.21", "gate.51"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.21",
+      "name": "21 — The Hunter / Huntress",
+      "circuitry": "Tribal (Ego) – Ego Management / Defense",
+      "bargain_theme": "I control the resources → we survive.",
+      "core_theme": "Skilled control of territory, goods, and people in service to the tribe.",
+      "quotes": [
+        "“Control in service of the tribe.”",
+        "“The ego’s will to manage resources.”"
+      ],
+      "notes": "Operates best when recognized as the correct manager. Not-self 21 tries to control everything out of insecurity. Paired with Gate 45 for the full material circuit (21-45).",
+      "sources": [
+        "Jovian teachings on the Ego/Heart center (tribal control)",
+        "Standard Human Design gate keynotes for Gate 21"
+      ]
+    },
+    {
+      "id": "gate.26",
+      "name": "26 — The Egoist",
+      "circuitry": "Tribal (Ego) – Ego / Defense",
+      "bargain_theme": "I market it / remember it → tribe benefits.",
+      "core_theme": "Will-powered sales, persuasion, and curation of what is remembered.",
+      "quotes": [
+        "“The art of the egoist.”",
+        "“Only promise what the will can deliver.”"
+      ],
+      "notes": "This is the ‘seller’ of the tribe. Healthy 26 is impeccably honest about capacity. Not-self 26 overpromises to prove worth.",
+      "sources": [
+        "Jovian Archive material on Gate 26",
+        "HD courses on the Ego center and the Spleen-Ego-Identity axis"
+      ]
+    },
+    {
+      "id": "gate.40",
+      "name": "40 — Aloneness",
+      "circuitry": "Tribal (Ego) – Ego / Defense",
+      "bargain_theme": "I will work for us → I get rest/love/belonging.",
+      "core_theme": "The will to work for the tribe, and the will to rest.",
+      "quotes": [
+        "“The will to work for the community.”",
+        "“True work deserves true rest.”"
+      ],
+      "notes": "This is the gate that completes the classic 37–40 bargain: 40 offers work and provision, 37 offers family and recognition. Not-self 40 keeps working without receiving.",
+      "sources": [
+        "Jovian Archive – Tribal circuitry",
+        "Classic 37–40 channel teachings"
+      ]
+    },
+    {
+      "id": "gate.51",
+      "name": "51 — Shock / The Arousing",
+      "circuitry": "Individual (Ego) – Centering / Initiation",
+      "bargain_theme": "I initiate through shock → you awaken.",
+      "core_theme": "Competitive will that initiates others through challenge or shock.",
+      "quotes": [
+        "“The gate of shock and initiation.”",
+        "“Courage to compete.”"
+      ],
+      "notes": "This is the only individual gate in the Ego center. It uses will to break complacency. Can look provocative or harsh if not invited.",
+      "sources": [
+        "Jovian Archive – Gate 51 keynotes",
+        "Rave I’Ching – Hexagram 51 thematic material"
+      ]
+    }
+  ],
+  "notes": "The Ego / Heart / Will center is the motor for promises, worth, and material/tribal bargains. It is small and intermittent — it is not designed to work all day. Defined Ego → fixed sense of value and capacity to commit; undefined Ego → vulnerability to proving, overworking, and taking on promises to look worthy. Classic Jovian-style teachings stress: “Never promise from an undefined Heart.”\n\nApprox. Jovian-style keynotes under 25 words (not verbatim from Line Companion):\n- “This is the center of willpower and material commitments.”\n- “Ego is tribal: it bargains, it doesn’t universalize.”\n- “Only promise what the Heart can actually do.”\n- “Rest is part of the bargain.”",
+  "last_updated": "2025-11-01"
+}

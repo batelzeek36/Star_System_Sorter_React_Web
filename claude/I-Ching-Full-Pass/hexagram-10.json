@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 10,
+  "hexagram_name_legge": "Lî",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "(Lî suggests the idea of) one treading on the tail of a tiger, which does not bite him. There will be progress and success.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "X. The Lî Hexagram.\n\n(Lî suggests the idea of) one treading on the tail of a tiger, which does not bite him. There will be progress and success.\n\n1. The first line, undivided, shows its subject treading his accustomed path. If he go forward, there will be no error.\n\n2. The second line, undivided, shows its subject treading the path that is level and easy;—a quiet and solitary man, to whom, if he be firm and correct, there will be good fortune.\n\n3. The third line, divided, shows a one-eyed man (who thinks he) can see; a lame man (who thinks he) can walk well; one who treads on the tail of a tiger and is bitten. (All this indicates) ill fortune. We have a (mere) bravo acting the part of a great ruler.\n\n4. The fourth line, undivided, shows its subject treading on the tail of a tiger. He becomes full of apprehensive caution, and in the end there will be good fortune.\n\n5. The fifth line, undivided, shows the resolute tread of its subject. Though he be firm and correct, there will be peril.\n\n6. The sixth line, undivided, tells us to look at (the whole course) that is trodden, and examine the presage which that gives. If it be complete and without failure, there will be great good fortune.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, undivided, shows its subject treading his accustomed path. If he go forward, there will be no error."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject treading the path that is level and easy;—a quiet and solitary man, to whom, if he be firm and correct, there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows a one-eyed man (who thinks he) can see; a lame man (who thinks he) can walk well; one who treads on the tail of a tiger and is bitten. (All this indicates) ill fortune. We have a (mere) bravo acting the part of a great ruler."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject treading on the tail of a tiger. He becomes full of apprehensive caution, and in the end there will be good fortune."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows the resolute tread of its subject. Though he be firm and correct, there will be peril."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, undivided, tells us to look at (the whole course) that is trodden, and examine the presage which that gives. If it be complete and without failure, there will be great good fortune."
+    }
+  ],
+  "notes": []
+}

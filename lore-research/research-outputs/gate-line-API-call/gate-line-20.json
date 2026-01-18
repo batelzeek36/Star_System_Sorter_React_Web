@@ -1,0 +1,84 @@
+{
+  "gate": 20,
+  "gate_name": "",
+  "lines": {
+    "20.1": {
+      "line": 1,
+      "hd_title": "Superficiality",
+      "hd_quote": "A reliance on shallowness.",
+      "keywords": [
+        "present-tense scanning",
+        "peripheral awareness",
+        "keep it light"
+      ],
+      "behavioral_axis": "Tracks the now at the surface while staying alert beneath it.",
+      "shadow_axis": "Dismissed as shallow; misses depth by skimming.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "20.2": {
+      "line": 2,
+      "hd_title": "The Dogmatist",
+      "hd_quote": "Restrictive and intentionally limited understanding.",
+      "keywords": [
+        "narrow focus",
+        "projected certainty",
+        "strong opinions"
+      ],
+      "behavioral_axis": "Projects a crisp, limited slice of the now as truth.",
+      "shadow_axis": "Rigid perspective; misses broader context.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "20.3": {
+      "line": 3,
+      "hd_title": "Self-awareness",
+      "hd_quote": "Self-consciousness in the extreme that hampers development.",
+      "keywords": [
+        "watching oneself",
+        "trial-and-error timing",
+        "hyper-self-conscious"
+      ],
+      "behavioral_axis": "Learns by observing personal actions and effects in real time.",
+      "shadow_axis": "Paralyzing self-consciousness; performance anxiety.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "20.4": {
+      "line": 4,
+      "hd_title": "Application",
+      "hd_quote": "Recognition and awareness that can only be transformed into action in cooperation with those who have the ability to act upon understanding.",
+      "keywords": [
+        "externalization",
+        "right allies",
+        "opportunity"
+      ],
+      "behavioral_axis": "Shares recognition with those able to act on it now.",
+      "shadow_axis": "Talk without legs; misaligned allies.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "20.5": {
+      "line": 5,
+      "hd_title": "Realism",
+      "hd_quote": "Contemplation, in and of itself, is no guarantee of success.",
+      "keywords": [
+        "projected knower",
+        "pragmatic",
+        "teacher energy"
+      ],
+      "behavioral_axis": "Universalizes recognition through practical application.",
+      "shadow_axis": "Theory-only stance; withholds empowerment.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "20.6": {
+      "line": 6,
+      "hd_title": "Wisdom",
+      "hd_quote": "The expression of awareness in the now through dissatisfaction with the reality one sees.",
+      "keywords": [
+        "roof view",
+        "refined presence",
+        "discerning expression"
+      ],
+      "behavioral_axis": "Speaks to what is, pushing expression toward precision and value.",
+      "shadow_axis": "Chronic dissatisfaction; withholding voice.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

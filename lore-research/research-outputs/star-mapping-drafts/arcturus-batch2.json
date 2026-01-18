@@ -1,0 +1,249 @@
+{
+  "9.1": {
+    "weight": 0.35,
+    "alignment_type": "core",
+    "why": "9.1 builds a solid base so sustained focus is possible; that's Arcturus core containment and setup of a stable work field to calm scattered energy."
+  },
+  "9.2": {
+    "weight": 0.25,
+    "alignment_type": "core",
+    "why": "9.2 can lock into one task with surgical depth and will block interruption to protect that focus, which mirrors Arcturus core boundarying to keep the field clean."
+  },
+  "9.3": {
+    "weight": 0.20,
+    "alignment_type": "core",
+    "why": "9.3 burns itself out on the wrong stuff to learn what actually matters, which is Arcturus-style iterative calibration of where energy should and should not go."
+  },
+  "9.4": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "9.4 filters the noise for everyone and tells the group 'this matters, that doesn't,' which is Arcturus core attention triage and collective field focusing."
+  },
+  "9.5": {
+    "weight": 0.55,
+    "alignment_type": "shadow",
+    "why": "9.5 gets called in to streamline chaos and is then blamed as controlling, which is Arcturus shadow fixer-projection and scapegoat load."
+  },
+  "9.6": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "9.6 lives as proof that disciplined focus becomes mastery and can judge people who can't match it; that's Arcturus core long-haul regulation with a hint of clinical superiority."
+  },
+
+  "10.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "10.1 builds personal behavior around self-respect and honor; that's self-identity ethics, not trauma-field stabilization or nervous-system regulation (Arcturus)."
+  },
+  "10.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "10.2 just exists as themselves and withdraws if told to 'perform authenticity,' which is sovereignty of identity, not structured containment of group dysregulation (Arcturus)."
+  },
+  "10.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "10.3 learns who they are by messing up in public and rebuilding; that's identity experimentation, not calming a chaotic field for others (Arcturus)."
+  },
+  "10.4": {
+    "weight": 0.30,
+    "alignment_type": "core",
+    "why": "10.4 becomes the behavioral template the group copies, enforcing 'this is how we act,' which echoes Arcturus core protocol-setting of acceptable conduct for stability."
+  },
+  "10.5": {
+    "weight": 0.55,
+    "alignment_type": "shadow",
+    "why": "10.5 is expected to restore integrity for everyone and gets crucified if it doesn't land, which is Arcturus shadow healer-projection and blame."
+  },
+  "10.6": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "10.6 holds long-term self-honoring standards and can act 'above your drama,' which matches Arcturus shadow clinical distance / superior regulator posture."
+  },
+
+  "11.1": {
+    "weight": 0.30,
+    "alignment_type": "core",
+    "why": "11.1 quietly gathers and organizes ideas until they're safe and coherent to share, which is Arcturus core creating mental order so the room calms down."
+  },
+  "11.2": {
+    "weight": 0.40,
+    "alignment_type": "core",
+    "why": "11.2 can explain possibilities in a way people immediately get, which is Arcturus core translating confusion into a stabilizing narrative."
+  },
+  "11.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "11.3 throws half-baked narratives into the wild just to see what sticks; that's exploratory messaging, not nervous-system de-escalation or protocol repair (Arcturus)."
+  },
+  "11.4": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "11.4 gives the tribe a shared story that orients everyone, which is Arcturus core field alignment through narrative coherence."
+  },
+  "11.5": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "11.5 is asked to 'answer our confusion' and then accused of manipulation if people don't like the answer, which is Arcturus shadow scapegoated clarity-bringer."
+  },
+  "11.6": {
+    "weight": 0.45,
+    "alignment_type": "shadow",
+    "why": "11.6 holds the long-arc myth of where we're going and risks sounding like an untouchable oracle, which is Arcturus shadow elevated-knower distance."
+  },
+
+  "12.1": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "12.1 will not speak unless the emotional field feels clean and safe, which is Arcturus core trauma-aware restraint to avoid re-injuring the room."
+  },
+  "12.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "12.2 broadcasts a magnetic, intimate voice when open, but that's raw emotional impact/attraction rather than structured de-escalation or containment (Arcturus)."
+  },
+  "12.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "12.3 blurts messy truth and can perform pain for attention, which spikes volatility instead of stabilizing it (not Arcturus)."
+  },
+  "12.4": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "12.4 translates emotional intensity so the circle can actually stay together, which is Arcturus core crisis de-escalation / nervous-system soothing for the group."
+  },
+  "12.5": {
+    "weight": 0.45,
+    "alignment_type": "shadow",
+    "why": "12.5 is pushed to say the thing nobody else can and then gets accused of manipulation, which is Arcturus shadow high-pressure spokesperson / blame sink."
+  },
+  "12.6": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "12.6 times truth like a surgical intervention and withholds constant output, which is Arcturus core precision-release to prevent emotional overload."
+  },
+
+  "13.1": {
+    "weight": 0.45,
+    "alignment_type": "core",
+    "why": "13.1 quietly holds other people's secrets and carries that weight, which is Arcturus core trauma containment / safe storage of the field's pain."
+  },
+  "13.2": {
+    "weight": 0.50,
+    "alignment_type": "shadow",
+    "why": "13.2 becomes the person everyone unloads on and eventually resents being used as an emotional dump, which is Arcturus shadow burnout-healer pattern."
+  },
+  "13.3": {
+    "weight": 0.45,
+    "alignment_type": "shadow",
+    "why": "13.3 absorbs messy human stories firsthand and risks living in 'everything is heavy,' which is Arcturus shadow trauma saturation / compassion fatigue."
+  },
+  "13.4": {
+    "weight": 0.50,
+    "alignment_type": "core",
+    "why": "13.4 speaks for what the group has lived so the pattern is known, which is Arcturus core integration of collective trauma into useful memory."
+  },
+  "13.5": {
+    "weight": 0.60,
+    "alignment_type": "shadow",
+    "why": "13.5 is relied on to explain what went wrong and how not to repeat it, then scapegoated if egos get bruised; that's Arcturus shadow post-crisis analyst getting blamed."
+  },
+  "13.6": {
+    "weight": 0.55,
+    "alignment_type": "core",
+    "why": "13.6 holds 'here is our true story' at civilization scale, which is Arcturus core long-range trauma integration so the system stops re-wounding itself."
+  },
+
+  "14.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "14.1 defines how money/energy should flow and can hoard from fear; that's resource control, not emotional/somatic field stabilization (Arcturus)."
+  },
+  "14.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "14.2 naturally attracts resources and resents being directed, which is sovereignty over material power, not trauma-container work (Arcturus)."
+  },
+  "14.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "14.3 experiments with wealth and burns energy to learn value, which is risk/reward with resources, not nervous-system repair (Arcturus)."
+  },
+  "14.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "14.4 allocates resources to chosen people/missions and may gatekeep access for status; that's strategic resourcing / dominance politics, not clinical stabilization of distress (Arcturus)."
+  },
+  "14.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "14.5 is expected to 'fuel' the mission and then accused of control for setting terms; that's provider/financier projection, not trauma-field healer projection (Arcturus)."
+  },
+  "14.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "14.6 tries to embody 'power should serve purpose' and can judge others around money, which is moral framing of resources more than nervous-system cleanup (Arcturus)."
+  },
+
+  "15.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "15.1 builds safety in 'people are different and that's fine,' which is radical acceptance / human dignity work (Andromeda or Pleiades themes), not clinical trauma regulation (Arcturus)."
+  },
+  "15.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "15.2 radiates warm acceptance and invites people to be themselves, which is inclusion/soothing, not technical field calibration (Arcturus)."
+  },
+  "15.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "15.3 lurches between extremes to learn the range of human behavior; that's destabilizing self-exploration, not stabilizing the room (Arcturus)."
+  },
+  "15.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "15.4 normalizes 'our weird is our strength' for the network; that's social tolerance advocacy, not trauma triage (Arcturus)."
+  },
+  "15.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "15.5 is expected to harmonize wildly different people and then blamed as fake peacemaker, which is moral/social reconciliation work, not nervous-system containment protocol (Arcturus)."
+  },
+  "15.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "15.6 embodies long-term radical compassion and may judge normies, which is humanitarian permission energy, not clinical field repair (Arcturus)."
+  },
+
+  "16.1": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "16.1 wants a reliable base of skill before showing off; that's craft competency, not trauma-field stabilization (Arcturus)."
+  },
+  "16.2": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "16.2 displays talent with enthusiasm and gets moody if asked to perform; that's performance energy, not crisis de-escalation (Arcturus)."
+  },
+  "16.3": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "16.3 learns by bombing and refining in public; that's iterative mastery, not nervous-system repair (Arcturus)."
+  },
+  "16.4": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "16.4 teaches technique and spreads hype for practice; that's skill evangelism, not trauma container-building (Arcturus)."
+  },
+  "16.5": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "16.5 is called in to 'make this professional' and then seen as arrogant; that's competence policing, not emotional/somatic field cleanup (Arcturus)."
+  },
+  "16.6": {
+    "weight": 0,
+    "alignment_type": "none",
+    "why": "16.6 embodies lifetime mastery and can dismiss beginners as noise; that's elite craft identity, not clinical stabilization of a distressed group (Arcturus)."
+  }
+}

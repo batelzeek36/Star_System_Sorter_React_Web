@@ -1,0 +1,278 @@
+{
+  "28.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses fear-based control; chooses whether to engage the trial at all."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Calibrates risk—scope, safety, and baseline before entering the game."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Status-bravado: taking risks to dominate rather than to learn."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is survival calculus, not aesthetic display."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Using danger as obedience theater: ‘prove yourself now.’"
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Honorable trial begins privately—test the edge with discipline."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Gentle self-attunement steadies early encounters with fear."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching struggle hygiene; no formal transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-28.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "28.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Won’t be coerced into someone else’s ‘necessary’ risk."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Right-sizing the challenge—choose battles that a container can hold."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Loyalty tests and rank games around who ‘dares enough.’"
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This is sober selection, not style."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Pressuring conformity to dangerous norms."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Discipline of picking the meaningful ordeal, not every ordeal."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reads the room/body so the risk is humanly receivable."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Personal discernment phase; not yet a teaching channel.",
+      "confidence": 5,
+      "sources": ["gate-line-28.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "28.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Pushes back after coercive or meaningless trials; reclaims choice."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Risk regulation wobbles—reckless then over-cautious while learning limits."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Predatory stunt-taking to assert dominance."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Flashy bravado over substance."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrinal ‘rites’ weaponized to break will rather than forge it."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ordeal of correction: admit misreads, reset, re-engage cleanly."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement risks—saying yes to belong, not because it’s true."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial-and-error; no law transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-28.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "28.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Protects sovereignty by defining fair trials vs. abusive tests."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Turns risk into curriculum—standards, safeties, progressions."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping who is ‘worthy’ of the challenge."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Inspiring model—courage presented with clean form."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy around ‘the one right way’ to face danger."
+    },
+    "orion-light": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Mentor-by-trial: others face the ordeal in a pattern that builds them."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Humane pacing keeps courage from sliding into harm."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Ordeal protocol—teaches right struggle through clear initiatory frames.",
+      "confidence": 4,
+      "sources": ["gate-line-28.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "ordeal-protocol/meaningful-risk",
+      "keywords": ["curriculum", "standards", "progression"]
+    }
+  },
+  "28.5": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Refuses propaganda of ‘heroic sacrifice’ when it serves domination."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as the fixer/hero → scapegoated when refusing bad risks."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rank tests around who will ‘risk enough’ to please the gatekeepers."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Composed courage—visible, steady example without theatrics."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrinal valor used to compel obedience and spectacle."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Integrity under projection—choose meaningful risks, not applause risks."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Appeasing the crowd with unsafe concessions."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: models ethical courage despite pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-28.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["courage", "projection", "ethics"]
+    }
+  },
+  "28.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Embodied defender—frees others from coercive or meaningless ordeals."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Elder risk architecture—durable standards for training, hazard, recovery."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy rank can harden into access control over ‘real’ challenges."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Stoic elegance—courage with restraint becomes cultural signal."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Canonizing risk as hierarchy rather than service to meaning."
+    },
+    "orion-light": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Warrior elder—courage without bravado; fights only for what gives life meaning."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards of ordeal and meaning, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Ordeal sage—teaches the law of meaningful struggle and right risk by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-28.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "ordeal-sage/meaning-law",
+      "keywords": ["meaning", "risk", "standards", "elder"]
+    }
+  }
+}

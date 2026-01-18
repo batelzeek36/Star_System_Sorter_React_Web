@@ -1,0 +1,156 @@
+{
+  "id": "center.throat",
+  "name": "Throat",
+  "awareness": "metamorphosis / manifestation (expression hub, not its own awareness center)",
+  "biological_themes": [
+    "Larynx and vocal apparatus (sound → communication → manifestation)",
+    "Thyroid / metabolism modulation tied to speaking and doing",
+    "Upper trachea / vagus nerve communication pathways",
+    "Conversion of internal pressure (Head/Root) into outer action"
+  ],
+  "fears": [
+    {
+      "id": "throat.fear.of.not.being.heard",
+      "label": "Fear of not being heard",
+      "description": "Anxiety that the message, skill, or leadership won’t reach the right audience.",
+      "primary_gates": ["gate.23", "gate.56", "gate.31"]
+    },
+    {
+      "id": "throat.fear.of.speaking.wrongly",
+      "label": "Fear of speaking at the wrong time",
+      "description": "Concern that expression will backfire if the timing isn’t correct.",
+      "primary_gates": ["gate.12", "gate.20"]
+    },
+    {
+      "id": "throat.fear.of.no.role",
+      "label": "Fear of not having a place to contribute",
+      "description": "Stress about not being invited to lead, tell, or contribute.",
+      "primary_gates": ["gate.8", "gate.45", "gate.33"]
+    }
+  ],
+  "gates": [
+    {
+      "id": "gate.20",
+      "name": "20 — The Now",
+      "circuitry": "Individual (Centering) – Expression in the moment",
+      "expression_theme": "Pure, immediate expression of what is present.",
+      "quotes": [
+        "The gate of the now.",
+        "True power is always in the present."
+      ],
+      "notes": "20 makes things real right now. With 34 it becomes pure MG power. Distortion: talking impulsively without authority."
+    },
+    {
+      "id": "gate.23",
+      "name": "23 — Assimilation (Splitting Apart)",
+      "circuitry": "Individual (Knowing) – 61→24→43→23 expression",
+      "expression_theme": "Explaining individual insight in simple, acceptable terms.",
+      "quotes": [
+        "The gate of explanation.",
+        "From freak to genius through expression."
+      ],
+      "notes": "23 needs the right timing and audience. Distortion: over-explaining or dumbing down insights to gain approval."
+    },
+    {
+      "id": "gate.62",
+      "name": "62 — Details (Preponderance of the Small)",
+      "circuitry": "Collective (Logic) – 63→4→17→62",
+      "expression_theme": "Naming, listing, and logically describing.",
+      "quotes": [
+        "The gate of details.",
+        "Logic must be made precise."
+      ],
+      "notes": "62 verbalizes logic. Distortion: nitpicking with no invitation."
+    },
+    {
+      "id": "gate.56",
+      "name": "56 — The Wanderer (Stimulation)",
+      "circuitry": "Collective (Abstract) – 64→47→11→56",
+      "expression_theme": "Storytelling that stimulates curiosity and meaning.",
+      "quotes": [
+        "The gate of stimulation.",
+        "Stories make experience digestible."
+      ],
+      "notes": "Lives to tell about it. Distortion: talking for attention, not correctness."
+    },
+    {
+      "id": "gate.16",
+      "name": "16 — Skills (Enthusiasm)",
+      "circuitry": "Collective (Logic) – 48→16",
+      "expression_theme": "Vocal enthusiasm for practiced skill.",
+      "quotes": [
+        "The gate of skills.",
+        "Enthusiasm needs mastery."
+      ],
+      "notes": "16 loves to demonstrate what it has practiced. Distortion: enthusiasm without depth (48)."
+    },
+    {
+      "id": "gate.8",
+      "name": "8 — Contribution",
+      "circuitry": "Individual (Knowing) – G → Throat (1/8 axis)",
+      "expression_theme": "Offering a unique style or contribution to the collective.",
+      "quotes": [
+        "The gate of contribution.",
+        "I bring my uniqueness."
+      ],
+      "notes": "Needs to be recognized to have impact. Distortion: performing uniqueness to be seen."
+    },
+    {
+      "id": "gate.31",
+      "name": "31 — Influence (Leadership)",
+      "circuitry": "Collective (Logic) – 7→31",
+      "expression_theme": "Democratic, elected leadership through voice.",
+      "quotes": [
+        "The gate of the leader.",
+        "Influence comes by being chosen."
+      ],
+      "notes": "31 must be elected. Distortion: self-appointed leadership."
+    },
+    {
+      "id": "gate.33",
+      "name": "33 — Privacy / Retreat",
+      "circuitry": "Collective (Abstract) – 13→33",
+      "expression_theme": "Withdrawing and then sharing the distilled story.",
+      "quotes": [
+        "The gate of privacy.",
+        "Retreat to preserve the story."
+      ],
+      "notes": "Keeps some things sacred. Distortion: oversharing or total silence."
+    },
+    {
+      "id": "gate.35",
+      "name": "35 — Change / Progress",
+      "circuitry": "Collective (Abstract) – 36→35",
+      "expression_theme": "Describing experience, hunger for the next experience.",
+      "quotes": [
+        "The gate of change.",
+        "I’ve done this, now what?"
+      ],
+      "notes": "35 voices what’s next. Distortion: boredom → drama."
+    },
+    {
+      "id": "gate.45",
+      "name": "45 — The Gatherer (Rulership)",
+      "circuitry": "Tribal (Ego) – 21→45 material line",
+      "expression_theme": "Speaking for the tribe about resources and territory.",
+      "quotes": [
+        "The gate of the monarch.",
+        "I speak for the group."
+      ],
+      "notes": "45 gathers and distributes. Distortion: speaking as ruler without a tribe."
+    },
+    {
+      "id": "gate.12",
+      "name": "12 — Caution (Standstill)",
+      "circuitry": "Individual (Knowing) – 22→12",
+      "expression_theme": "Cautious, mood-based expression of feeling or artistry.",
+      "quotes": [
+        "The gate of caution.",
+        "Not every moment is for speaking."
+      ],
+      "notes": "12 checks if the field is ready. Distortion: forced performance in a closed field."
+    }
+  ],
+  "notes": "The Throat is the main conversion point in the BodyGraph. Everything wants to reach the Throat to be seen, heard, or acted on. It is where **pressure becomes expression**, **identity becomes role**, and **awareness becomes communication**. There is no single Throat voice — there are 11 different ways to speak.\n\nKey Jovian-style lines (< 25 words):\n- \"The Throat is the center of manifestation.\" \n- \"Nothing happens until it reaches the Throat.\" \n- \"Timing and audience matter.\" \n- \"Speak only from Strategy and Authority.\"\n\nDefined Throat → consistent access to expression; can look like it’s always “on.” Undefined / open Throat → amplifies others’ voices and often talks to get attention. Core not-self pattern: talking or doing just to be noticed.",
+  "last_updated": "2025-11-01"
+}

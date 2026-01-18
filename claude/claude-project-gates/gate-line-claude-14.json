@@ -1,0 +1,88 @@
+{
+  "gate": 14,
+  "gate_name": "Possession in Great Measure",
+  "center": "SACRAL",
+  "circuit_family": "Individual",
+  "subcircuit": "Knowing",
+  "channel": "2-14",
+  "lines": {
+    "14.1": {
+      "line": 1,
+      "hd_title": "Money isn't everything",
+      "hd_quote": "It does have this power for direction, but that does not mean that it knows what to do with it.",
+      "keywords": [
+        "protective of power",
+        "seeks right direction",
+        "vulnerable to misguidance"
+      ],
+      "behavioral_axis": "Protects their sacral power as currency for the right direction, waiting for the pulse that signals when to empower rather than force.",
+      "shadow_axis": "Throws energy at wrong directions or gives power to others hoping they'll provide direction, making attempts at things not for them.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "14.2": {
+      "line": 2,
+      "hd_title": "Management",
+      "hd_quote": "The key to power lies in not trying to be and do everything alone.",
+      "keywords": [
+        "projects power naturally",
+        "called to delegate",
+        "hermit with authority"
+      ],
+      "behavioral_axis": "Projects natural power outward as individual difference, called out by others to delegate responsibility and invest in expertise rather than doing everything alone.",
+      "shadow_axis": "Insists on being their own expert in everything, projecting big talk about direction without the capacity to get there alone.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "14.3": {
+      "line": 3,
+      "hd_title": "Service",
+      "hd_quote": "They will offer their energy to different drivers until they have the experience to recognize which driver can really be good for them.",
+      "keywords": [
+        "trial-and-error service",
+        "experiments with causes",
+        "learns through giving"
+      ],
+      "behavioral_axis": "Experiments with offering sacral energy to different causes through trial-and-error, learning which directions truly serve the highest good.",
+      "shadow_axis": "Hoards energy through greed, refusing to release power to any cause until finding the perfect one, becoming condemned for their retention.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "14.4": {
+      "line": 4,
+      "hd_title": "Security",
+      "hd_quote": "The key to power lies in developing skills to ensure a strong foundation.",
+      "keywords": [
+        "fixes power direction",
+        "externalizes one focus",
+        "one-directional commitment"
+      ],
+      "behavioral_axis": "Fixes sacral power in one focused direction, externalizing their energy commitment to develop skills that ensure a strong foundation.",
+      "shadow_axis": "Fixates overconfidently in one direction, leaving themselves exposed and easily manipulated from angles they haven't secured or anticipated.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "14.5": {
+      "line": 5,
+      "hd_title": "Arrogance",
+      "hd_quote": "When you meet a 14.5, you assume that they are powerful.",
+      "keywords": [
+        "projection field",
+        "receives power assumptions",
+        "innate dignity"
+      ],
+      "behavioral_axis": "Holds steady under the projection field where others assume they have power, maintaining innate dignity against the risk inherent in projected positions.",
+      "shadow_axis": "Judges and dismisses the drivers others provide, expressing dissatisfaction and superiority when the direction doesn't match their projected power.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "14.6": {
+      "line": 6,
+      "hd_title": "Humility",
+      "hd_quote": "It is the existential good luck of being in the right place at the right time.",
+      "keywords": [
+        "humility through serendipity",
+        "existential timing",
+        "path to silence and knowing"
+      ],
+      "behavioral_axis": "Stands back with humility and objectivity, treating power as existential gift while waiting for divine timing or serendipity to reveal the perfect direction.",
+      "shadow_axis": "Rarely commits energy to anything, withdrawing from opportunities unless absolutely certain the driver will take them where they need to go.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "12.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Holding the tongue for quality is personal discipline, not liberation/rescue."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Regulates pace and gate of expression—container-first speech hygiene."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Early ‘right speech’ anxiety can slip into correctness/status policing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "This line is about restraint more than artistic display."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Using silence as control/doctrine rather than discernment."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Micro-ordeal: courage to wait until the expression is true."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Attunes to mood/audience so speech can be received rather than resisted."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching restraint; no transmission of law yet.",
+      "confidence": 5,
+      "sources": ["gate-line-12.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "12.2": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Guarding one’s voice ≠ anti-domination intervention."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Keeps a clean timing container so words land."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Fear of judgment can provoke ‘prove-it’ or rank-guarding."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "When the mood is right, expression is stylistically potent."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Hiding behind formulaic phrases for safety."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Honorable restraint: speak only when aligned and ready."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Social attunement and hospitality shape when/how to speak."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Practical pacing of voice, not formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-12.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "12.3": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Vulnerability in speech is self-mastery work, not rescue."
+    },
+    "arcturus": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Timing dysregulation: speaking too soon or clamping down from anxiety."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Critique can trigger defensive posturing/gatekeeping of ‘correct speech’."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Creative confession—raw, emotive expression when the wave crests."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Leaning on canned rhetoric to avoid exposure."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Trial of timing: integrity to own mistakes and refine voice."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Attunes to safety/holding so truth can be spoken without harm."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging voice; no teaching transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-12.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "12.4": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Socializing expression is order-making, not chain-breaking."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Translates timing and tone into shareable norms for conversation."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Success can attract clique filters on who ‘gets a voice.’"
+    },
+    "lyra": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Refined, charismatic delivery—cultural beacon of style and tone."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of turning style into doctrine or gatekeeping."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentor-by-steadiness: others meet the ordeal of speaking with integrity."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Relational pacing and hospitality make the message receivable."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Voice-as-teaching: timing and tone themselves transmit higher order.",
+      "confidence": 4,
+      "sources": ["gate-line-12.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "voice-as-teaching",
+      "keywords": ["tone", "timing", "style", "protocol"]
+    }
+  },
+  "12.5": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coerced narratives; guards speech sovereignty under projection."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Cast as ‘fix the room with your words’ → burnout/scapegoat pattern."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Authority aura invites loyalty tests and correctness policing."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Iconic voice becomes a cultural signal of taste and tone."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine capture: enforcing speech norms to preserve image/control."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Integrity under projection—say what’s true, not what flatters."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement/people-pleasing can warp authentic timing and tone."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Royal instruction-by-presence: demonstrates clean speech under pressure.",
+      "confidence": 4,
+      "sources": ["gate-line-12.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["projection", "sovereignty", "example"]
+    }
+  },
+  "12.6": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coercion; speech or silence stays self-sovereign."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Elder pacing of voice—durable standards for when and how to speak."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy authority can slide into status/correctness policing."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Role-model style—beauty and restraint in expression."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning decorum into dogma/hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder ordeal: disciplined courage to use (or withhold) the voice impeccably."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is integrity and timing, not bonding/soothing."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Voice sage—teaches the law of right speech by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-12.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "voice-sage/teaches-by-presence",
+      "keywords": ["right-speech", "timing", "role-model"]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "hx11",
+  "number": 11,
+  "unicode_hexagram": "䷊",
+  "name": "Peace / Harmony / Flow (泰, Tài)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "In Thfii (we see) the little gone and the great come. (It indicates that) there will be good fortune, with progress and success. 1. The first line, undivided, suggests the idea of grass pulled up, and bringing with it other stalks with whose roots it is connected. Advance (on the part of its subject) will be fortunate. 2. The second line, undivided, shows one who can bear with the uncultivated, will cross the Ho without a boat, does not forget the distant, and has no (selfish) friendships. Thus does he prove himself acting in accordance with the course of the due Mean. 3. The third line, undivided, shows that, while there is no state of peace that is not liable to be disturbed, and no departure (of evil men) so that they shall not return, yet when one is firm and correct, as he realises the distresses that may arise, he will commit no error. There is no occasion for sadness at the certainty (of such recurring changes); and in this mood the happiness (of the present) may be (long) enjoyed. 4. The fourth line, divided, shows its subject fluttering (down);—-not relying on his own rich What is said on line 6 is good, but is only a truism. The whole course has been shown; if every step has been right and appropriate, the issue will be very good. THE yf KING. resources, but calling in his neighbours. (They all come) not as having received warning, but in the sincerity (of their hearts). 5. The fifth line, divided, reminds us of (king) Ti-yi’s (rule about the) marriage of his younger sister. By such a course there is happiness and there will be great good fortune. 6. The sixth line, divided, shows us the city wall returned into the moat. It is not the time to use the army. (The subject of the line) may, indeed, announce his orders to the people of his own city; but however correct and firm he may be, he will have cause for regret. —- ------- * XI. The language of the Thwan has reference to the form of Thai, •with the three strong lines of Khk n below, and the three weak lines of Khwan above. The former are ‘the great,’ active and vigorous; the latter are 1 the small,' inactive and submissive. But where have the former ‘ come ’ from, and whither are the latter ‘ gone f’ In many editions of the Yt beneath the hexagram of T hfii here, there appears that of Kwei Mei, the 54th in order (EHEr), which becomes Thfii, if the third and fourth lines exchange places, But in the notes on the Thwan, in the first Appendix, on hexa- * gram 6,1 have spoken of the doctrine of ‘changing figures,’ and intimated my disbelief of it. The different hexagrams arose , necessarily by the continued manipulation of the undivided and divided lines, and placing them each over itself and over the other. When king Wan wrote these Thwan, he was taking the 64 hexa grams, as they were ready to his hand, and not forming one from another by any process of divination. The ‘gone 1 and ‘come’ aie merely equivalent to ‘below 1 and ‘above/ in the lower trigram or in the upper. A course in which the motive forces are represented by the three !■ strong, and the opposing by the three weak lines, must be pro gressive and successful, Thai is called the hexagram of the r , first month of the year, the first month of the natural spring, when for six months, through the fostering sun and genial skies, the pro cesses of growth will be going on. sect. 1 .",
+    "normalized_summary": "True harmony: resources flow, support circulates, things work. Power becomes benevolent and accessible. This is prosperity through alignment between ‘above’ and ‘below’. It’s stable now — but it won’t stay this way forever unless it’s tended."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "1. The first line, undivided, suggests the idea of grass pulled up, and bringing with it other stalks with whose roots it is connected. Advance (on the part of its subject) will be fortunate.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：拔茅茹，以其彙，征吉。"
+        }
+      ],
+      "normalized_meaning": "When you move, you don’t move alone. Early progress happens by acting in mutual support. Choose companions who rise with you.",
+      "keywords": [
+        "shared ascent",
+        "collective movement",
+        "entangled destiny",
+        "early mobilization",
+        "mutual lift"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, undivided, shows one who can bear with the uncultivated, will cross the Ho without a boat, does not forget the distant, and has no (selfish) friendships. Thus does he prove himself acting in accordance with the course of the due Mean.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：包荒，用馮河，不遐遺，朋亡，得尚于中行。"
+        }
+      ],
+      "normalized_meaning": "Real harmony isn’t small or tribal. It includes the neglected, crosses danger, and doesn’t play favorites. Inclusive, principled leadership earns respect.",
+      "keywords": [
+        "inclusive leadership",
+        "bridging distance",
+        "courageous service",
+        "not cliquish",
+        "honor through fairness"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. The third line, undivided, shows that, while there is no state of peace that is not liable to be disturbed, and no departure (of evil men) so that they shall not return, yet when one is firm and correct, as he realises the distresses that may arise, he will commit no error. There is no occasion for sadness at the certainty (of such recurring changes); and in this mood the happiness (of the present) may be (long) enjoyed.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六三：無平不陂，無往不復。艱貞無咎。勿恤其孚，于食有福。"
+        }
+      ],
+      "normalized_meaning": "Even in good times, cycles turn. Stay steady when the ease starts tilting. Don’t panic about who believes in you — nourishment and support are still there.",
+      "keywords": [
+        "cycle awareness",
+        "perseverance in strain",
+        "hold center",
+        "don’t spiral",
+        "sustained support"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, divided, shows its subject fluttering (down);—-not relying on his own rich What is said on line 6 is good, but is only a truism. The whole course has been shown; if every step has been right and appropriate, the issue will be very good. THE yf KING. resources, but calling in his neighbours. (They all come) not as having received warning, but in the sincerity (of their hearts).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：翩翩，不富以其鄰；不戒以孚。"
+        }
+      ],
+      "normalized_meaning": "Genuine closeness doesn’t require status or ceremony. Humble, open-hearted connection is safe here.",
+      "keywords": [
+        "humility",
+        "easy alliance",
+        "trust without armor",
+        "community over status",
+        "natural rapport"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, divided, reminds us of (king) Ti-yi’s (rule about the) marriage of his younger sister. By such a course there is happiness and there will be great good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：帝乙歸妹，以祉元吉。"
+        }
+      ],
+      "normalized_meaning": "High-order union. Legitimate alliance is sealed at the highest level, creating stability and favor for everyone under it.",
+      "keywords": [
+        "sacred alliance",
+        "sanctioned union",
+        "legitimacy",
+        "dynastic blessing",
+        "supreme good fortune"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The sixth line, divided, shows us the city wall returned into the moat. It is not the time to use the army. (The subject of the line) may, indeed, announce his orders to the people of his own city; but however correct and firm he may be, he will have cause for regret. —- ------- * XI. The language of the Thwan has reference to the form of Thai, •with the three strong lines of Khk n below, and the three weak lines of Khwan above. The former are ‘the great,’ active and vigorous; the latter are 1 the small,' inactive and submissive. But where have the former ‘ come ’ from, and whither are the latter ‘ gone f’ In many editions of the Yt beneath the hexagram of T hfii here, there appears that of Kwei Mei, the 54th in order (EHEr), which becomes Thfii, if the third and fourth lines exchange places, But in the notes on the Thwan, in the first Appendix, on hexa- * gram 6,1 have spoken of the doctrine of ‘changing figures,’ and intimated my disbelief of it. The different hexagrams arose , necessarily by the continued manipulation of the undivided and divided lines, and placing them each over itself and over the other. When king Wan wrote these Thwan, he was taking the 64 hexa grams, as they were ready to his hand, and not forming one from another by any process of divination. The ‘gone 1 and ‘come’ aie merely equivalent to ‘below 1 and ‘above/ in the lower trigram or in the upper. A course in which the motive forces are represented by the three !■ strong, and the opposing by the three weak lines, must be pro gressive and successful, Thai is called the hexagram of the r , first month of the year, the first month of the natural spring, when for six months, through the fostering sun and genial skies, the pro cesses of growth will be going on. sect. 1 .",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：城復于隍，勿用師。自邑告命，貞吝。"
+        }
+      ],
+      "normalized_meaning": "Peace destabilizes. Defense structures fail. This is the end of the golden moment. Do not try to ‘hold power’ by force — contract, pull back, manage internally, and accept that the cycle is turning.",
+      "keywords": [
+        "end of stability",
+        "collapse of order",
+        "don’t escalate",
+        "contain internally",
+        "humbling correction"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.544633Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 80,
+      "leaf_end": 84,
+      "page_candidates": [
+        "130",
+        "3",
+        "5",
+        "132",
+        "133",
+        "34",
+        "135",
+        "i",
+        "d",
+        "136",
+        "37",
+        "I",
+        "139",
+        "11",
+        "6"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "18.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Correcting decay restores agency—free the system from corrupt patterns."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Diagnoses the flaw and places a safe container for remediation."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Nitpicking can become status policing and gatekeeping."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is pattern repair, not aesthetic display."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Rules weaponized as control rather than repair."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Courage to name the defect and face the ordeal of correction."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Gentle delivery keeps the nervous system open to feedback."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Early troubleshooting; no formal instruction yet.",
+      "confidence": 5,
+      "sources": ["gate-line-18.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "18.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Serve the truth of repair without ceding authorship."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Places feedback in the right scope, timing, and role."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Defensive rank games around who may correct whom."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Tasteful refinement helps the fix be adopted."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Yielding to ‘approved’ doctrine instead of real improvement."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline to address flaws cleanly under pressure."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned critique lands as care, not attack."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational correction, not codified teaching yet.",
+      "confidence": 5,
+      "sources": ["gate-line-18.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "18.3": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Outsourcing agency via blame/savior loops when fixes fail."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Inconsistent standards and messy placement of critique."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Correction becomes posture policing and clique defense."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Perfectionist image management over real repair."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Rigid rule-keeping to force compliance instead of learning."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Hard lessons forge honest, workable standards."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing avoids necessary critique and lets decay persist."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—this is trial-and-error correction.",
+      "confidence": 5,
+      "sources": ["gate-line-18.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "18.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Decontaminates systems from oppressive or decayed practices."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Builds clear review channels and pacing—structured remediation."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Loyalty to standards; guards access to quality."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Refines presentation so improvements are culturally adoptable."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into doctrine and control."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled critique under pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Supportive tone keeps participants receptive to change."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Demonstrates audit protocol—teaching-by-process.",
+      "confidence": 4,
+      "sources": ["gate-line-18.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "audit-protocol",
+      "keywords": ["review", "standards", "remediation"]
+    }
+  },
+  "18.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses authority to free the group from broken standards."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets clear quality bars, roles, and cadences—container mastery."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to the fix and to mission integrity."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elevates craft; beauty follows sound correction."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Projection risk: orthodoxy policing masquerading as quality."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when pressured to overlook defects."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring stance helps teams integrate feedback."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Teaches standards and remediation—liberation through instruction.",
+      "confidence": 4,
+      "sources": ["gate-line-18.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "standards-teacher/auditor",
+      "keywords": ["quality", "standards", "remediation"]
+    }
+  },
+  "18.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied correction frees future cycles from past decay."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for review and repair."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Aura can feel like an exclusive gate to 'quality.'"
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Sets the cultural tone for craftsmanship after correction."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Quality canon risks law-over-life and doctrinal rigidity."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to rework even revered patterns."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains, without diluting standards."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction of quality law—presence codifies the canon of correction.",
+      "confidence": 4,
+      "sources": ["gate-line-18.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "canon/quality-law",
+      "keywords": ["quality", "canon", "review"]
+    }
+  }
+}

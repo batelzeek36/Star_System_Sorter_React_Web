@@ -1,0 +1,73 @@
+{
+  "star_system": "Sirius",
+  "version": "1.0",
+  "last_updated": "2025-01-24",
+  
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Cross-cultural star mythology (Egyptian, Greek, Indigenous)",
+      "Jungian archetypal psychology",
+      "Comparative religious studies"
+    ],
+    "source_standards": "Ancient texts with named translators, published books with ISBNs, evidence typing (direct/inferred/symbolic), consensus levels documented",
+    "research_date": "2025-01-24"
+  },
+  
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+      "64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+      "Kabbalah - Extensive academic study (Scholem, Idel)",
+      "Chakra system - Religious Studies, Yoga Studies",
+      "Western Astrology - Cultural/historical phenomenon (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+    ]
+  },
+  
+  "characteristics": [
+    {
+      "trait": "Divine teachers and wisdom keepers",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "The Secret Doctrine",
+          "author": "Helena Petrovna Blavatsky",
+          "edition": "First Edition",
+          "year": 1888,
+          "page": "Volume II, p. 374 (also referenced p. 391)",
+          "quote": "Sirius was called the 'Dog Star.' It was the star of Mercury, or Buddha, called the 'Great Instructor of mankind.'",
+          "url": "https://www.theosociety.org/pasadena/sd/sd-hp.htm",
+          "isbn": "ISBN 0-911500-74-8",
+          "source_type": "research",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  
+  "research_notes": "Sirius has extensive ancient Egyptian documentation as Sopdet/Sothis...",
+  
+  "bibliography": {
+    "ancient_texts": [
+      "Pyramid Texts (Mercer translation, 1952)",
+      "Coffin Texts (Faulkner translation)"
+    ],
+    "modern_research": [
+      "Blavatsky, H.P. (1888). The Secret Doctrine",
+      "Bailey, A.A. (1925). A Treatise on Cosmic Fire"
+    ],
+    "academic_foundations": [
+      "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press",
+      "Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize)",
+      "Scholem, G. (1941). Major Trends in Jewish Mysticism"
+    ]
+  }
+}

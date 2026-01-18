@@ -1,0 +1,278 @@
+{
+  "53.1": {
+    "andromeda": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Root pressure to begin is self-calibration, not a rescue axis."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Frames the kickoff—scope, sequence, and cadence for a safe start."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early ‘go-time’ anxiety can flip into start-policing or rank optics."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Naming the kickoff clarifies the story of the cycle."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing rules to force a start rather than aligning readiness."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Small honorable ordeal: commit cleanly to the first step."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Self-soothing and support regulate nerves at ignition."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Internal start hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-53.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["kickoff", "sequence", "cadence"]
+    }
+  },
+  "53.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Chooses which cycle to begin without surrendering agency."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places the start—right time, budget, and capacity window."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Threshold guard against opportunists and scope-creep."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Crisp phrasing creates a receivable start signal."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Conforming to hustle doctrine over truth of timing."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Courage to commit to a modest, clean kickoff."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned support steadies nerves at the threshold."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled placement, not yet formal instruction.",
+      "confidence": 5,
+      "sources": ["gate-line-53.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["timing", "budget", "capacity"]
+    }
+  },
+  "53.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Novelty-seeking outsources agency to ‘the next start.’"
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced starts and tempo—container wobbles."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Clique gating and status tests around who ‘gets to start.’"
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performative kickoff eclipses true readiness."
+    },
+    "orion-dark": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Dogma of ‘always be starting’ forces compliance."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: reduce scope, re-time, and align intent."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement to keep momentum breeds enmeshment."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error beginnings.",
+      "confidence": 5,
+      "sources": ["gate-line-53.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["trend-chasing", "misplacement"]
+    }
+  },
+  "53.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Frees energy by limiting to viable cycle starts."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Designs start protocol—sequence, capacity gates, and review."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Fair thresholds protect from predatory or showy launches."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "A clear initiating image guides the run-up."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can ossify into ritualized ‘proper start.’"
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models integrity under kickoff pressure."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Supportive hosting keeps the team regulated at ignition."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches kickoff protocol by example—how to begin without harm.",
+      "confidence": 4,
+      "sources": ["gate-line-53.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "kickoff-protocol/field-guide",
+      "keywords": ["sequence", "gates", "review", "handoff-42"]
+    }
+  },
+  "53.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Uses influence to end coercive ‘go’ culture; starts that preserve freedom."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards for beginnings—criteria, pacing, and safeguards."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces fair thresholds and loyalty to the maturation path."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Turns the kickoff into a coherent cultural phrase/model."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—canonizing ‘the right way to start.’"
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity to initiate or delay under pressure to prove."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth supports adoption without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in start-standards—liberation-through-teaching of clean kickoffs.",
+      "confidence": 4,
+      "sources": ["gate-line-53.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "start-standards/teacher",
+      "keywords": ["criteria", "safeguards", "throughput", "handoff-42"]
+    }
+  },
+  "53.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Embodied freedom to begin or refrain—choice beyond start-pressure."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for initiating cycles responsibly."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to ‘real’ starts."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—few words ignite aligned cycles."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Start canon risks law-over-life control."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage to trigger or decline kickoff by integrity."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion remains present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: beginnings canon transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-53.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/beginnings-canon",
+      "keywords": ["canon", "initiation", "presence", "handoff-42"]
+    }
+  }
+}

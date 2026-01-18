@@ -1,0 +1,205 @@
+{
+  "id": "gate.21",
+  "hexagram": "hx21",
+  "center": "Ego",
+  "circuit": "Tribal / Ego",
+  "programming_partner": "gate.48",
+  "polarity": {
+    "opposite_on_wheel": "gate.48"
+  },
+  "themes": [
+    "control and management",
+    "material resources and authority",
+    "serving and protecting the community",
+    "enforcing boundaries, stopping interference"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "21.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Warning",
+        "hd_quote": "Warning. The use of force as a last resort."
+      },
+      "interpretation": {
+        "keywords": [
+          "sets boundaries first",
+          "measured authority",
+          "graduated response"
+        ],
+        "behavioral_axis": "Signals limits and expectations before acting.",
+        "shadow_axis": "Leads with force; burns trust and authority."
+      },
+      "relationship_needs": {
+        "needs_respect_for_boundaries": true,
+        "prefers_clear_rules": true,
+        "rejects_coercion": true
+      },
+      "group_role": "boundary setter / controller of interference",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "21.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Might is right",
+        "hd_quote": "The legitimacy of action in response to flagrant and persistent interference."
+      },
+      "interpretation": {
+        "keywords": [
+          "decisive intervention",
+          "shuts down interference",
+          "material authority"
+        ],
+        "behavioral_axis": "Acts swiftly when interference persists.",
+        "shadow_axis": "Overreacts; conflates criticism with interference."
+      },
+      "relationship_needs": {
+        "needs_invitational_respect": true,
+        "hates_needless_interference": true,
+        "needs_room_to_act": true
+      },
+      "group_role": "enforcer / decisive operator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "21.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Powerlessness",
+        "hd_quote": "Where the just are condemned to a futile confrontation with superior forces."
+      },
+      "interpretation": {
+        "keywords": [
+          "knows limits",
+          "won't work under control",
+          "ego-protection"
+        ],
+        "behavioral_axis": "Learns to avoid superior-control structures.",
+        "shadow_axis": "Chronic withdrawal; rejects the material path."
+      },
+      "relationship_needs": {
+        "needs_independence": true,
+        "rejects_hierarchical_bossing": true,
+        "partners_must_respect_autonomy": true
+      },
+      "group_role": "independent operator / contractor",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "21.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Strategy",
+        "hd_quote": "Careful appraisal of opposing forces to establish a proper response."
+      },
+      "interpretation": {
+        "keywords": [
+          "tactical leadership",
+          "resource orchestration",
+          "who/when/what to control"
+        ],
+        "behavioral_axis": "Designs the control plan to reach manifestation.",
+        "shadow_axis": "Misjudges opponents; overconfidence in being right."
+      },
+      "relationship_needs": {
+        "needs_trusted_access": true,
+        "keeps_operational_privacy": true,
+        "dislikes_micromanagement": true
+      },
+      "group_role": "operations strategist / president archetype",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "21.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Objectivity",
+        "hd_quote": "The use of force must be based on impartiality and not emotionally motivated."
+      },
+      "interpretation": {
+        "keywords": [
+          "impartial control",
+          "non-emotional decisions",
+          "projected leadership"
+        ],
+        "behavioral_axis": "Earns lasting authority through principled, fair action.",
+        "shadow_axis": "Plays favorites; loses respect and control."
+      },
+      "relationship_needs": {
+        "needs_clear_principles": true,
+        "rejects_emotional_pressure": true,
+        "requires_due_process": true
+      },
+      "group_role": "arbiter / objective controller",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "21.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Chaos",
+        "hd_quote": "Where ineffective action leads to disorder."
+      },
+      "interpretation": {
+        "keywords": [
+          "withdraws from chaos",
+          "inner order first",
+          "waits for correct action"
+        ],
+        "behavioral_axis": "Holds back until the material path is correct.",
+        "shadow_axis": "Fence-sitting; disengages to avoid disorder."
+      },
+      "relationship_needs": {
+        "needs_space_for_inner_order": true,
+        "rejects_hasty_moves": true,
+        "prefers_long_view": true
+      },
+      "group_role": "oversight steward / last-resort controller",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are exact (<25 words) from Ra Uru Hu’s Line Companion on Archive.org; interpretation fields are original."
+  }
+}

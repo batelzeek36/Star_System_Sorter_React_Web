@@ -1,0 +1,84 @@
+{
+  "gate": 45,
+  "gate_name": "",
+  "lines": {
+    "45.1": {
+      "line": 1,
+      "hd_title": "Canvassing",
+      "hd_quote": "The ability to promote and develop gathering together through the education of the uncommitted.",
+      "keywords": [
+        "educational rulership",
+        "benefit-first leadership",
+        "resource evangelist"
+      ],
+      "behavioral_axis": "Knows power = educate the people, then gather them.",
+      "shadow_axis": "Overzealous promotion feels like proselytizing and repels the tribe.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "45.2": {
+      "line": 2,
+      "hd_title": "Consensus",
+      "hd_quote": "Gathering together is strengthened by acknowledged common interest.",
+      "keywords": [
+        "projected authority",
+        "shared-interest filter",
+        "benefit techniques"
+      ],
+      "behavioral_axis": "Projects, “I can lead you,” and cements it with shared material interests.",
+      "shadow_axis": "Rejects others’ techniques; becomes the power-behind-the-throne controller.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "45.3": {
+      "line": 3,
+      "hd_title": "Exclusion",
+      "hd_quote": "The ability when excluded to take whatever measures are necessary to dissolve the antiquated form and to accept even humiliation to achieve inclusion.",
+      "keywords": [
+        "trial-and-error rulership",
+        "will do anything to get to center",
+        "material succession drama"
+      ],
+      "behavioral_axis": "If barred from power, will find or force a way back in.",
+      "shadow_axis": "Violent or reactive exclusion → tribal fracture.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "45.4": {
+      "line": 4,
+      "hd_title": "Direction",
+      "hd_quote": "The ability to focus the opportunity of gathering together for the service of higher principles.",
+      "keywords": [
+        "externalized benefit",
+        "higher-principle materialism",
+        "service-focused rulership"
+      ],
+      "behavioral_axis": "Points the whole tribe’s resources at what truly benefits them.",
+      "shadow_axis": "Uses group direction to advance private agenda.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "45.5": {
+      "line": 5,
+      "hd_title": "Leadership",
+      "hd_quote": "All gathering must have a center and a focus.",
+      "keywords": [
+        "projected king/queen",
+        "charismatic center",
+        "respect-for-the-throne"
+      ],
+      "behavioral_axis": "Becomes the obvious material center; leads by educating and delegating.",
+      "shadow_axis": "Assumes respect before it’s earned → appears aristocratic or entitled.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "45.6": {
+      "line": 6,
+      "hd_title": "Reconsideration",
+      "hd_quote": "A material direction which serves the outsider; or a material direction that is focused on conditioning the outsider to conform.",
+      "keywords": [
+        "heretical ruler",
+        "integrates outsiders",
+        "tribal mutation"
+      ],
+      "behavioral_axis": "Sees tribe must mutate by bringing in new blood/resources.",
+      "shadow_axis": "Brings outsiders in then overcontrols to appease the tribe.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

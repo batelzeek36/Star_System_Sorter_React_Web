@@ -1,0 +1,84 @@
+{
+  "gate": 6,
+  "gate_name": "",
+  "lines": {
+    "6.1": {
+      "line": 1,
+      "hd_title": "Retreat",
+      "hd_quote": "The very first lesson of this hexagram is to wait. It is about retreat. Wait and see.",
+      "keywords": [
+        "pause for clarity",
+        "resource protection",
+        "baseline boundaries"
+      ],
+      "behavioral_axis": "Begins intimacy by waiting, assessing odds, and conserving energy.",
+      "shadow_axis": "Reads patience as weakness; over-withdraws or ignores true risk.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.2": {
+      "line": 2,
+      "hd_title": "The Guerilla",
+      "hd_quote": "The sensitivity to find the weakest point in a conflict and to exploit it emotionally.",
+      "keywords": [
+        "advance/withdrawal wave",
+        "pressure-tested timing",
+        "tactical contact"
+      ],
+      "behavioral_axis": "Push–pull tactician; moves in or out at the critical moment.",
+      "shadow_axis": "Blunders into conflict; on/off pattern confuses allies.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.3": {
+      "line": 3,
+      "hd_title": "Allegiance",
+      "hd_quote": "The ability to secure support and create strength out of a weak position.",
+      "keywords": [
+        "bonds made & broken",
+        "adaptive fertility",
+        "re-aligning loyalties"
+      ],
+      "behavioral_axis": "Brokers bonds under stress; learns through making/breaking commitments.",
+      "shadow_axis": "Leaves scars when breaking ties; judged as unreliable.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.4": {
+      "line": 4,
+      "hd_title": "Triumph",
+      "hd_quote": "A position of natural and unchallengeable power.",
+      "keywords": [
+        "dominant emotional field",
+        "broadcast influence",
+        "lead-through-presence"
+      ],
+      "behavioral_axis": "Stabilizes others by broadcasting steady emotional leadership.",
+      "shadow_axis": "Steamrolls dissent; confuses dominance with resolution.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.5": {
+      "line": 5,
+      "hd_title": "Arbitration",
+      "hd_quote": "The faith derived from analytical diligence and emotional control that permits a higher authority to judge a conflict.",
+      "keywords": [
+        "mediator",
+        "time-based clarity",
+        "projection management"
+      ],
+      "behavioral_axis": "Holds space until time reveals fair resolution; manages projections.",
+      "shadow_axis": "Plays savior; takes on conflicts that time alone should decide.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "6.6": {
+      "line": 6,
+      "hd_title": "The Peacemaker",
+      "hd_quote": "I know that I have to have children, but in what kind of world will they live?",
+      "keywords": [
+        "world-level concern",
+        "legacy orientation",
+        "collective peacemaking"
+      ],
+      "behavioral_axis": "Seeks conditions for lasting peace; thinks beyond personal intimacy.",
+      "shadow_axis": "Becomes aloof; disengages from present bonds in favor of ideals.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

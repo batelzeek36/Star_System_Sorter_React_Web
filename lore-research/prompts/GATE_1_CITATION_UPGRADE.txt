@@ -1,0 +1,84 @@
+Return **JSON only** (no markdown, no pre/post text). Output **minified JSON**.
+
+Task: Upgrade citations for these 4 books with exact page numbers and working URLs.
+
+CRITICAL REQUIREMENTS:
+- Find EXACT page numbers or chapter/section references
+- Extract actual quotes ≤25 words from the books
+- Include working URLs (Archive.org, publisher sites, or academic databases)
+- Include full edition information
+
+Books to research:
+
+1. **"The Sirius Mystery" by Robert Temple**
+   - Topic: Dogon tribe knowledge of Sirius, Nommo beings as teachers
+   - Need: Specific pages discussing Dogon creation knowledge and Sirius binary nature
+   - Mark as: disputed=true (van Beek 1991 contested these claims)
+
+2. **"Bringers of the Dawn" by Barbara Marciniak (1992)**
+   - Topic: Pleiadian teachings on emitting original frequency and creative self-expression
+   - Need: Specific pages with quotes about "emit your own frequency" and "imprint intent on universe"
+
+3. **"The Prism of Lyra" by Lyssa Royal and Keith Priest (1989)**
+   - Topic: Lyra as birthplace of humanoid race, original seeders
+   - Need: Specific pages discussing Lyra as primordial creative source
+
+4. **"Initiation, Human and Solar" by Alice Bailey (1951)**
+   - Already have good citations (pp. 17-18, p. 98)
+   - Just verify URLs work or provide alternatives
+
+Output format (minified JSON):
+{
+  "upgraded_citations": [
+    {
+      "book": "The Sirius Mystery",
+      "author": "Robert Temple",
+      "edition": "1976 First Edition OR 1998 Revised Edition",
+      "year": 1976,
+      "topic": "Dogon/Sirius/Nommo",
+      "page": "MUST BE SPECIFIC (e.g., 'Chapter 3, pp. 45-52')",
+      "quote": "ACTUAL QUOTE ≤25 words",
+      "url": "WORKING URL (Archive.org, publisher, or academic database)",
+      "disputed": true,
+      "dispute_note": "van Beek (1991) found no evidence of ancient Sirius B knowledge in Dogon fieldwork"
+    },
+    {
+      "book": "Bringers of the Dawn",
+      "author": "Barbara Marciniak",
+      "edition": "1992 Bear & Company",
+      "year": 1992,
+      "topic": "emit frequency / creative self-expression",
+      "page": "MUST BE SPECIFIC",
+      "quote": "ACTUAL QUOTE ≤25 words",
+      "url": "WORKING URL"
+    },
+    {
+      "book": "The Prism of Lyra",
+      "author": "Lyssa Royal and Keith Priest",
+      "edition": "1989 Royal Priest Research",
+      "year": 1989,
+      "topic": "Lyra as birthplace/primordial source",
+      "page": "MUST BE SPECIFIC",
+      "quote": "ACTUAL QUOTE ≤25 words",
+      "url": "WORKING URL"
+    },
+    {
+      "book": "Initiation, Human and Solar",
+      "author": "Alice A. Bailey",
+      "edition": "1951 Lucis Trust Edition",
+      "year": 1951,
+      "topic": "Sirius as initiatory force",
+      "page": "pp. 17-18, p. 98 (already have)",
+      "quote": "Already have quotes",
+      "url": "VERIFY OR PROVIDE ALTERNATIVE",
+      "note": "Already have good citations, just verify URL"
+    }
+  ]
+}
+
+QUALITY CHECK:
+- ✅ All page numbers are specific (not "Referenced in...")
+- ✅ All quotes are ≤25 words and actually from the book
+- ✅ All URLs work (test them!)
+- ✅ Temple source marked as disputed=true
+- ❌ If any answer is NO, the response is REJECTED

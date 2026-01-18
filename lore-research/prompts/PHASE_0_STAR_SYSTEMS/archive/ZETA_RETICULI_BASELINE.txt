@@ -1,0 +1,256 @@
+# ZETA RETICULI BASELINE RESEARCH
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Paraphrases presented as direct quotes** - MUST mark as paraphrase
+5. **Wrong book attribution** - VERIFY book title matches quote
+6. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+7. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+8. **Wiki-style sites without citations** - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+
+⚠️ **WIKIPEDIA & ONLINE ENCYCLOPEDIAS:**
+Wikipedia, online encyclopedias, and similar aggregator sites are **NOT ACCEPTABLE** as primary sources. These are lazy shortcuts. Instead:
+- Find the PRIMARY SOURCE that Wikipedia cites (the actual book, journal, or ancient text)
+- Cite that source directly with full bibliographic information
+- Example: Don't cite "Wikipedia article on Sopdet" → Cite the actual Pyramid Texts translation by Faulkner
+- If Wikipedia mentions a scholar's work, find and cite that scholar's published book or paper
+
+This is a **lore-grade research project**, not a homework assignment. Use authoritative primary sources only.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research ZETA RETICULI entities from UFO lore, channeling, and regression material. Note: Ancient support = NONE (modern phenomenon only).
+
+## HYPOTHESIS TO VALIDATE
+- Emotionally detached intelligence
+- Genetic researchers / experimenters
+- Interdimensional abductors (neutral to negative)
+- Timeline engineers
+- Carry karmic debt from past implosions
+
+## REFERENCE LIBRARY
+
+**Before researching, review:** `lore-research/source-mining/!ESOTERIC_SOURCE_LIBRARY.md` - 300+ verified sources.
+
+## PRIMARY SOURCES
+
+### Astronomical Facts (SOLID)
+- Zeta Reticuli binary star system (~39 light-years from Earth)
+- Not visible to naked eye (requires telescope)
+- Therefore: NO ancient references possible
+
+### UFO Lore (DISPUTED)
+- Betty and Barney Hill case (1961) - star map
+- Marjorie Fish analysis (1969) - attempted star map match
+- Counter-evidence: Hipparcos satellite data (1990s) undercuts Fish's match
+- Mark Hill star map as `disputed: true`
+
+### Modern Channeled Material
+- Bashar (Darryl Anka) - Zeta-human hybrid perspective
+- "The Prism of Lyra" by Lyssa Royal (Zeta hybrid programs)
+- Dolores Cannon regression sessions
+
+### UFO Research
+- "The Threat" by David Jacobs (1998)
+- "Communion" by Whitley Strieber (1987)
+- Abduction literature (various authors)
+
+## CRITICAL: Hill Star Map Dispute
+
+**Betty Hill's star map is academically disputed:**
+- Supporting: Marjorie Fish's 1969 analysis
+- Counter: Later Hipparcos data shows Fish's match was incorrect
+- Mark as `disputed: true` with counter-evidence
+
+## SPECIAL FOCUS: Evolution of Zeta Narrative
+
+Document if sources show:
+- Original Zeta (emotionally detached, abductors)
+- Hybrid programs (Essassani, more benevolent)
+- Karmic redemption themes
+- Timeline engineering claims
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be valid JSON only. No narrative text, no explanations, no markdown.
+Start with { and end with }. Nothing else.
+
+If you write anything other than pure JSON, your response will be REJECTED.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OUTPUT FORMAT (Minified JSON)
+
+```json
+{
+  "star_system": "Zeta Reticuli",
+  "characteristics": [
+    {
+      "trait": "Analytical and emotionally detached",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "none",
+      "evidence_type": "direct",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "edition": "EDITION",
+          "year": 1961,
+          "original_year": 1961,
+          "page": "Case Report" or "Chapter 3, pp. 45-50",
+          "quote": "ACTUAL QUOTE ≤25 WORDS (NOT PLACEHOLDER)",
+          "url": "URL",
+          "source_type": "ufo_lore|channeled|research",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "disputed_points": [
+    {
+      "claim": "Betty Hill's star map matches Zeta Reticuli",
+      "supporting_source": "Marjorie Fish (1969)",
+      "counter_evidence": "Hipparcos satellite data (1990s) shows Fish's match was incorrect",
+      "consensus": "Disputed; not scientifically validated"
+    }
+  ],
+  "hybrid_evolution": "Summary of Zeta → Essassani hybrid narrative if found",
+  "research_notes": "Modern UFO lore only; no ancient support possible (not visible to naked eye)"
+}
+```
+
+## CITATION REQUIREMENTS (NON-NEGOTIABLE)
+
+Every source MUST include full metadata, translator/editor if applicable, specific location, actual quotes (NOT PLACEHOLDERS), URLs, and source type.
+
+### SOURCE QUALITY VERIFICATION RULES (MANDATORY)
+
+**Every source MUST pass these checks before inclusion:**
+
+✅ **ACCEPTABLE:**
+- Published book with verifiable ISBN
+- Academic journal with DOI or JSTOR link
+- Ancient text with named translator/editor
+- University/museum website with citations
+- Established channeled work (published book, not blog)
+- Documented abduction accounts (published books, not blogs)
+
+❌ **UNACCEPTABLE (will cause REJECTION):**
+- Blog posts or personal websites
+- "Unknown" or missing page numbers
+- Placeholder quotes like "[EXAMPLE QUOTE]" or "Discusses X"
+- Paraphrases presented as direct quotes
+- Anonymous authors or "Various researchers"
+- Social media posts
+- YouTube videos without published transcripts
+- Wiki-style sites without citations
+
+**Verification Process:**
+1. Can you find this book on Amazon, publisher site, or library catalog? → YES = proceed
+2. Does the page number/location exist in the actual source? → YES = proceed
+3. Is the quote verbatim from the source (≤25 words)? → YES = proceed
+4. Is the author's full name provided? → YES = proceed
+5. Is the edition specified? → YES = proceed
+
+**If ANY answer is NO → DO NOT include this source. Find a better one.**
+
+⚠️ **EXAMPLES ARE EXAMPLES ONLY - FIND ACTUAL SOURCES**
+
+## SOURCE QUALITY ENFORCEMENT
+
+**Before submitting, verify EVERY source passes these checks:**
+
+| Check | Requirement | Failure = Rejection |
+|-------|-------------|---------------------|
+| **Title** | Full, exact title (not abbreviated) | ❌ "Interrupted Journey" → ✅ "The Interrupted Journey" |
+| **Author** | Full name (not initials) | ❌ "B. Hill" → ✅ "Barney and Betty Hill" |
+| **Edition** | Specific edition info | ❌ "unknown" → ✅ "First Edition" or year |
+| **Page** | Exact location | ❌ "unknown" → ✅ Specific page/chapter |
+| **Quote** | Verbatim text ≤25 words | ❌ "[EXAMPLE]" → ✅ "actual quote from source" |
+| **URL** | Working link if available | ❌ Missing when source is online → ✅ Include URL |
+| **Translator** | Required for ancient texts | ❌ Missing → ✅ "Name (translator)" |
+| **Verified** | Must be `true` | ❌ Missing field → ✅ `"verified": true` |
+
+**Red Flags (indicate lazy research):**
+- ❌ More than 20% of sources missing URLs when available online
+- ❌ Any placeholder quotes or "unknown" fields
+- ❌ Vague page references like "throughout" or "various pages"
+- ❌ Missing translator/editor for ancient texts
+- ❌ Abbreviated titles or author names
+
+## QUALITY CHECKLIST
+✅ 5+ sources per characteristic (minimum 3 if truly limited)
+✅ **Every source has `"verified": true` field**
+✅ **Zero placeholder quotes or "unknown" fields**
+✅ Hill star map marked as disputed with counter-evidence
+✅ Ancient support explicitly noted as NONE
+✅ Astronomical facts separated from ET claims
+✅ Hybrid program evolution documented
+✅ Full citations with page numbers (no placeholders)
+✅ Edition information and URLs included
+
+**If unverifiable claims exist**, note in `research_notes`.
+
+**Minimum acceptable: 3-5 characteristics, 5+ sources each (minimum 3 if truly limited), Hill map dispute noted, ancient support = none.**
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Any source missing `"verified": true` field
+❌ Any placeholder quotes like "[EXAMPLE QUOTE]" or "Discusses X"
+❌ Any "unknown" or missing page numbers
+❌ Any missing translator/editor for ancient texts (if applicable)
+❌ Any abbreviated titles or author initials
+❌ Any missing edition information
+❌ Any blog sources or personal websites
+❌ Any social media posts or YouTube videos
+❌ More than 20% of sources missing URLs when available online
+❌ Vague page references like "throughout" or "various pages"
+
+**PASS CRITERIA:**
+✅ Every source has complete citation with all required fields
+✅ Every source has `"verified": true`
+✅ All quotes are verbatim from source (≤25 words)
+✅ All page numbers are specific and verifiable
+✅ All titles and author names are complete (not abbreviated)
+✅ Hill star map marked as disputed with counter-evidence
+✅ Ancient support explicitly noted as NONE
+✅ Astronomical facts separated from ET claims
+✅ Hybrid program evolution documented
+
+**If you cannot verify a source meets these standards, DO NOT include it. Find a better source instead.**

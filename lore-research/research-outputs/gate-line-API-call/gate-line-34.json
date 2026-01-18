@@ -1,0 +1,84 @@
+{
+  "gate": 34,
+  "gate_name": "",
+  "lines": {
+    "34.1": {
+      "line": 1,
+      "hd_title": "The Bully",
+      "hd_quote": "Power is only great when its display or use serves the common good.",
+      "keywords": [
+        "foundational power",
+        "display over impact",
+        "protective force"
+      ],
+      "behavioral_axis": "Shows power to deter threats; uses force only when survival or role demands it.",
+      "shadow_axis": "Intimidation as identity; power not tied to service.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "34.2": {
+      "line": 2,
+      "hd_title": "Momentum",
+      "hd_quote": "The ability when victory is in sight not to lose perspective.",
+      "keywords": [
+        "projected power",
+        "don’t get drunk on winning",
+        "steady push"
+      ],
+      "behavioral_axis": "Projects confident power and stays on mission when success is close.",
+      "shadow_axis": "Power rush; emotionally carried away by winning.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "34.3": {
+      "line": 3,
+      "hd_title": "Machismo",
+      "hd_quote": "The indiscriminate display of power.",
+      "keywords": [
+        "trial-and-error display",
+        "power as proof",
+        "role definition through force"
+      ],
+      "behavioral_axis": "Tests how much power can be shown before it breaks things.",
+      "shadow_axis": "Showboating; performs power to cover insecurity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "34.4": {
+      "line": 4,
+      "hd_title": "Triumph",
+      "hd_quote": "The freedom in absolute victory to unlimited use of power.",
+      "keywords": [
+        "externalized power",
+        "earned authority",
+        "leave me to operate"
+      ],
+      "behavioral_axis": "After winning, wants space to wield power correctly and subtly.",
+      "shadow_axis": "Overuse once victorious; crushing interference.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "34.5": {
+      "line": 5,
+      "hd_title": "Annihilation",
+      "hd_quote": "The total annihilation of resistance.",
+      "keywords": [
+        "projected invincibility",
+        "releasing power only when needed",
+        "deterrence"
+      ],
+      "behavioral_axis": "Power is so projected it rarely must be used; when used, it ends resistance.",
+      "shadow_axis": "Dictator paranoia; constant readiness to crush.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "34.6": {
+      "line": 6,
+      "hd_title": "Common sense",
+      "hd_quote": "Knowing when enough is enough.",
+      "keywords": [
+        "roof-level power wisdom",
+        "restrain the force",
+        "use power sparingly"
+      ],
+      "behavioral_axis": "Recognizes that endless displays weaken power; withdraws to preserve it.",
+      "shadow_axis": "Total withdrawal; power unused even when needed.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

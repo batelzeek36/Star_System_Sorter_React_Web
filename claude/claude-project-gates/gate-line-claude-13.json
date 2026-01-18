@@ -1,0 +1,96 @@
+{
+  "gate": 13,
+  "gate_name": "The Fellowship of Man",
+  "lines": {
+    "13.1": {
+      "line": 1,
+      "hd_title": "Empathy",
+      "hd_quote": "A role of openness in listening to others with affection.",
+      "keywords": [
+        "empathic listening",
+        "collects stories",
+        "affectionate receptivity",
+        "burdened by others",
+        "hidden motives"
+      ],
+      "behavioral_axis": "Listens empathically and collects people's stories, naturally pulling others to share their experiences with affection.",
+      "shadow_axis": "Offers superficial affection with hidden agendas, feels burdened by others who constantly seek them out.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "13.2": {
+      "line": 2,
+      "hd_title": "Bigotry",
+      "hd_quote": "Tolerance as the least offensive manifestation of bigotry.",
+      "keywords": [
+        "called out to listen",
+        "discriminatory",
+        "tolerant hermit",
+        "unwanted exposure",
+        "bitter about humanity"
+      ],
+      "behavioral_axis": "Called out by others who assume they'll listen empathetically, develops discrimination through unwanted exposure to many voices.",
+      "shadow_axis": "Becomes bitter and prejudiced from being forced to hear humanity's worthless stories, withdraws into intolerance.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "13.3": {
+      "line": 3,
+      "hd_title": "Pessimism",
+      "hd_quote": "The belief that what is best can never be achieved.",
+      "keywords": [
+        "trial-and-error listening",
+        "suspicious",
+        "mistrusting",
+        "satirical",
+        "disappointed by humanity"
+      ],
+      "behavioral_axis": "Experiments through trial-and-error with who to listen to, becoming deeply suspicious and mistrusting of propaganda.",
+      "shadow_axis": "Develops cruel satire as art form, says devastating things that humiliate others under guise of humor.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "13.4": {
+      "line": 4,
+      "hd_title": "Fatigue",
+      "hd_quote": "Openness which leads to exhaustion and the need for silence.",
+      "keywords": [
+        "externalizes listening",
+        "exhaustion",
+        "compulsive collection",
+        "burnout",
+        "vulnerable openness"
+      ],
+      "behavioral_axis": "Externalizes by actively going out to listen, collecting endlessly without pausing for reflection until exhaustion.",
+      "shadow_axis": "Listens compulsively in fixed pattern until total collapse, unable to stop unless physically exhausted.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "13.5": {
+      "line": 5,
+      "hd_title": "The Savior",
+      "hd_quote": "The ability to overcome all obstacles for the betterment of humanity.",
+      "keywords": [
+        "projection field",
+        "savior complex",
+        "charismatic listener",
+        "finds roles for others",
+        "burdened by secrets"
+      ],
+      "behavioral_axis": "Holds steady under projection field as others seek them to unburden, finding practical roles for people based on shared experience.",
+      "shadow_axis": "Performs the savior role to satisfy projections, becomes deeply burdened by others' need to confess.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "13.6": {
+      "line": 6,
+      "hd_title": "The Optimist",
+      "hd_quote": "The ability to accept any limited interaction as a necessary step towards greater union.",
+      "keywords": [
+        "unlimited hope",
+        "selective listening",
+        "role model wisdom",
+        "seeks soul mate experience",
+        "optimistic maturity"
+      ],
+      "behavioral_axis": "Maintains hope for meaningful experience while becoming selective in maturity about who deserves their listening attention.",
+      "shadow_axis": "Appears naive by translating personal commonality into universal expectations, presumed simple-minded by others.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

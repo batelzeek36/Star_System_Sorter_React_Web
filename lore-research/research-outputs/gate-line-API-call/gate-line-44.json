@@ -1,0 +1,84 @@
+{
+  "gate": 44,
+  "gate_name": "",
+  "lines": {
+    "44.1": {
+      "line": 1,
+      "hd_title": "Conditions",
+      "hd_quote": "The establishment of frameworks as the result of interaction.",
+      "keywords": [
+        "sets terms first",
+        "hierarchy-aware",
+        "framework keeper"
+      ],
+      "behavioral_axis": "Builds a clear container before engaging; knows the tribe needs rules to prosper.",
+      "shadow_axis": "Doesn’t apply conditions because it wants harmony / friendship more than correctness.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "44.2": {
+      "line": 2,
+      "hd_title": "Management",
+      "hd_quote": "The development and management of a proper collective structure.",
+      "keywords": [
+        "goal-oriented tribal manager",
+        "integrates weak with strong",
+        "structure builder"
+      ],
+      "behavioral_axis": "Focuses on the objective and organizes people around it.",
+      "shadow_axis": "Over-focus on goals → ignores weaker elements → qualitative failure in the human field.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "44.3": {
+      "line": 3,
+      "hd_title": "Interference",
+      "hd_quote": "The failure to interact based on circumstances.",
+      "keywords": [
+        "detects ego threats",
+        "approach–retreat",
+        "instinctive caution"
+      ],
+      "behavioral_axis": "Senses the other’s ego power and prepares or withdraws.",
+      "shadow_axis": "Makes/breaks bonds too fast; fear of past egos blocks correct alliances.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "44.4": {
+      "line": 4,
+      "hd_title": "Honesty",
+      "hd_quote": "The refusal to engage in hypocritical interaction.",
+      "keywords": [
+        "straightforward HR",
+        "calls it like it is",
+        "politically unfiltered"
+      ],
+      "behavioral_axis": "Externalizes the tribal management style through blunt, transparent interaction.",
+      "shadow_axis": "Can appear cold/indifferent; may later return to rejected contacts pragmatically.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "44.5": {
+      "line": 5,
+      "hd_title": "Manipulation",
+      "hd_quote": "The ability to transform interaction with inferior elements into the energizing of progressive processes.",
+      "keywords": [
+        "high-level tribal operator",
+        "keeps hierarchy healthy",
+        "uses influence for progress"
+      ],
+      "behavioral_axis": "Places everyone where they can contribute, while preserving material immunity of the tribe.",
+      "shadow_axis": "Becomes abusive / dictatorial: “I have the power and you don’t. Do what you’re told.”",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "44.6": {
+      "line": 6,
+      "hd_title": "Aloofness",
+      "hd_quote": "The awareness of patterns, which ensures one's instinctive well-being.",
+      "keywords": [
+        "above-the-fray pattern holder",
+        "future form seeker",
+        "transpersonal selector"
+      ],
+      "behavioral_axis": "Pulls back from ordinary meetings to wait for the truly correct ego / new form.",
+      "shadow_axis": "Detached, hard to access, may bolster ego at others’ expense if misaligned.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

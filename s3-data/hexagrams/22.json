@@ -1,0 +1,171 @@
+{
+  "id": "hx22",
+  "number": 22,
+  "unicode_hexagram": "䷕",
+  "name": "Grace / Adornment (賁, Bì)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "Grace, beauty, presentation. Adornment is useful when it supports the path — it smooths contact, attracts allies, and expresses respect. But style is not meant to dominate substance. Keep things sincere, simple, proportionate.",
+    "normalized_summary": "Grace, beauty, presentation. Adornment is useful when it supports the path — it smooths contact, attracts allies, and expresses respect. But style is not meant to dominate substance. Keep things sincere, simple, proportionate."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first line, undivided, shows one adorning (the way of) his feet. He can discard a carriage and walk on foot.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：賁其趾，舍車而徒。"
+        }
+      ],
+      "normalized_meaning": "Simple, honest presentation. You don’t need status display or fancy transport. Walking in your own strength is the right kind of ornament.",
+      "keywords": [
+        "humble dignity",
+        "self-reliance",
+        "simplicity over show",
+        "appropriate presentation",
+        "no need for display"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second line, divided, shows one adorning his beard.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：賁其須。"
+        }
+      ],
+      "normalized_meaning": "Attention to appearances, grooming, polish. This is mostly cosmetic — presentation meant to harmonize with and support someone above you.",
+      "keywords": [
+        "refinement",
+        "grooming",
+        "pleasing the superior",
+        "surface-level beauty",
+        "social alignment"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third line, undivided, shows its subject with the appearance of being adorned and bedewed (with rich favours). But let him ever maintain his firm correctness, and there will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：賁如濡如，永貞吉。"
+        }
+      ],
+      "normalized_meaning": "You’re radiant, favored, resourced. The test now is endurance: keep unwavering integrity so the blessing stays fortunate over the long run.",
+      "keywords": [
+        "favor and shine",
+        "continuous integrity",
+        "moral steadiness",
+        "sustained good fortune",
+        "not getting spoiled"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth line, divided, shows one looking as if adorned, but only in white. As if (mounted on) a white horse, and furnished with wings, (he seeks union with the subject of the first line), while (the intervening third pursues), not as a robber, but intent on a matrimonial alliance.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：賁如皤如，白馬翰如，匪寇婚媾。"
+        }
+      ],
+      "normalized_meaning": "Approach in purity and open intention. This is not predatory force; it’s an honorable attempt to unite. Sincere courtship / alliance, not exploitation.",
+      "keywords": [
+        "pure intentions",
+        "honorable approach",
+        "seeking union",
+        "no coercion",
+        "transparent motive"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth line, divided, shows its subject adorned by (the occupants of) the heights and gardens. He bears his roll of silk, small and slight. He may appear stingy; but there will be good fortune in the end.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六五：賁于丘園，束帛戔戔，吝，終吉。"
+        }
+      ],
+      "normalized_meaning": "Respected by those in high places, you arrive with a modest gift. It might look meager, even stingy — but sincerity and restraint lead to eventual good fortune.",
+      "keywords": [
+        "modest offering",
+        "humble tribute",
+        "recognized by the high",
+        "frugality",
+        "ends in good fortune"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The sixth line, undivided, shows one with white as his (only) ornament. There will be no error.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：白賁，無咎。"
+        }
+      ],
+      "normalized_meaning": "Ultimate grace is plain and clean. Nothing extra. Pure simplicity is blameless.",
+      "keywords": [
+        "austere beauty",
+        "purity",
+        "nothing excessive",
+        "blameless simplicity",
+        "completion"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.549210Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 114,
+      "leaf_end": 118,
+      "page_candidates": [
+        "198",
+        "200",
+        "4",
+        "202",
+        "203",
+        "204",
+        "205",
+        "3",
+        "6",
+        "206",
+        "207",
+        "5"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

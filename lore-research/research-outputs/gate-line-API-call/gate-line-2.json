@@ -1,0 +1,84 @@
+{
+  "gate": 2,
+  "gate_name": "",
+  "lines": {
+    "2.1": {
+      "line": 1,
+      "hd_title": "Intuition",
+      "hd_quote": "The first line gives you the basis. It is called Intuition here: sensitivity to disharmony and atrophy.",
+      "keywords": [
+        "inner compass building",
+        "quiet orientation work",
+        "mapping correct path"
+      ],
+      "behavioral_axis": "Needs solid internal clarity about direction before moving.",
+      "shadow_axis": "Paralyzed waiting for the perfect map from outside.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.2": {
+      "line": 2,
+      "hd_title": "Genius",
+      "hd_quote": "The second line is Genius. Everybody looks at the 2.2 and says, 'They know where they are going.'",
+      "keywords": [
+        "natural navigator",
+        "intuitive guidance flow",
+        "born sense of direction"
+      ],
+      "behavioral_axis": "Just 'knows' where resources and people belong.",
+      "shadow_axis": "Resents being asked to lead; hides gifts out of annoyance.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.3": {
+      "line": 3,
+      "hd_title": "Patience",
+      "hd_quote": "Here we have Patience: the teacher that never stops being a student.",
+      "keywords": [
+        "direction through chaos",
+        "improv routing",
+        "messy course-correction"
+      ],
+      "behavioral_axis": "Learns the right path by repeatedly taking wrong turns and adapting.",
+      "shadow_axis": "Feels unreliable, judged as aimless or reckless.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.4": {
+      "line": 4,
+      "hd_title": "Secretiveness",
+      "hd_quote": "Secretiveness: more than modesty, the ability to preserve harmony through discretion.",
+      "keywords": [
+        "guides the network",
+        "resource connector",
+        "placement strategist"
+      ],
+      "behavioral_axis": "Provides direction for others by linking the right people and places.",
+      "shadow_axis": "Political positioning, steering people for personal leverage.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.5": {
+      "line": 5,
+      "hd_title": "Intelligent application",
+      "hd_quote": "Intelligent application. The strategist. Developing a strategy for how to deal with that projection.",
+      "keywords": [
+        "projected guide",
+        "'show us the way' energy",
+        "strategic rescuer"
+      ],
+      "behavioral_axis": "Others expect you to fix direction for the group fast.",
+      "shadow_axis": "Blamed when the route doesn’t save everyone instantly.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "2.6": {
+      "line": 6,
+      "hd_title": "Fixation",
+      "hd_quote": "Fixation: unable or unwilling to see the whole picture.",
+      "keywords": [
+        "future pathkeeper",
+        "big-picture orientation",
+        "legacy navigation"
+      ],
+      "behavioral_axis": "Embodies long-term direction for a collective, not just short-term moves.",
+      "shadow_axis": "Becomes aloof, unreachable, 'above' normal concerns.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

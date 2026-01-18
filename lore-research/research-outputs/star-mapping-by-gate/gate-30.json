@@ -1,0 +1,278 @@
+{
+  "30.1": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Refuses coercive passion; chooses if/when to engage desire."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Begins regulating heat—pacing, containment, and sober framing."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Status-driven impulse to ‘claim’ through intensity."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Romantic spark and aesthetic warmth enter the field."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Using urgency/need to steer obedience."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Discipline of holding the flame without acting prematurely."
+    },
+    "pleiades": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "High affect sensitivity; feelings surge and seek safe holding."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Pre-teaching desire hygiene; no formal transmission.",
+      "confidence": 5,
+      "sources": ["gate-line-30.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "30.2": {
+    "andromeda": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Declines forced romance/enthusiasm; preserves consent."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Sets container and timing so intensity can be metabolized."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Correctness/loyalty tests around displays of passion."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Tasteful expression gives the feeling a graceful channel."
+    },
+    "orion-dark": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Etiquette as covert control of emotion."
+    },
+    "orion-light": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Honorable restraint—speak/act only when the feeling is true."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Reads the room/body; aligns contact to emotional receptivity."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Relational pacing rather than codified teaching yet.",
+      "confidence": 5,
+      "sources": ["gate-line-30.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "30.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Reclaims choice after being swept by passion or FOMO trials."
+    },
+    "arcturus": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Regulation wobble—overheating or collapse while learning limits."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Possessive moves and rank games via desire."
+    },
+    "lyra": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Theatrical romance substitutes for substance."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Manipulating outcomes through need/attachment scripts."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Ordeal: own misfires, refine conduct, reset the flame."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Enmeshment/appeasement to keep the feeling going."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Self-forging through trial; no pedagogy yet.",
+      "confidence": 5,
+      "sources": ["gate-line-30.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "30.4": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Differentiates free devotion from addictive clinging."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Turns heat into protocol—rituals, boundaries, and pacing."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Gatekeeping who ‘deserves’ access to the fire."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Aesthetic devotion—beauty channels intensity cleanly."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy of passion—‘the right way’ to feel."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentor-by-discipline: model faithful conduct under heat."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Humane tempo and consent preserve tenderness."
+    },
+    "sirius": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Teaches ‘fire protocol’—right use of desire as living law.",
+      "confidence": 4,
+      "sources": ["gate-line-30.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "desire-protocol/containment",
+      "keywords": ["ritual", "tempo", "consent", "devotion"]
+    }
+  },
+  "30.5": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Resists propaganda of heroic passion that erases consent."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "shadow",
+      "why": "Projected as ‘fix everyone’s feelings’ → burnout/scapegoat."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Rank tests and access control via intimacy."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Iconic romantic presence that still honors boundaries."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Doctrine of passion used to compel displays/obedience."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Integrity under projection—choose the true flame, not applause."
+    },
+    "pleiades": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Appeasement that sacrifices self to keep warmth."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Instruction-by-presence: demonstrates ethical passion under heat.",
+      "confidence": 4,
+      "sources": ["gate-line-30.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "integrity-under-projection",
+      "keywords": ["devotion", "ethics", "boundaries"]
+    }
+  },
+  "30.6": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Liberates from compulsion—chooses devotion rather than demand."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Elder regulation: durable standards for tending the inner fire."
+    },
+    "draco": {
+      "weight": 0.05,
+      "alignment_type": "shadow",
+      "why": "Legacy rank rigidity around access to love/passion."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Devotional beauty—radiant warmth without theatrics."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Turning passion into canon/hierarchy."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Warrior-heart elder—courage to love without possession."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Compassionate presence that neither fuses nor withholds."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Devotional-fire sage—teaches the law of right desire by embodied example.",
+      "confidence": 4,
+      "sources": ["gate-line-30.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "devotional-fire-sage",
+      "keywords": ["devotion", "desire-law", "consent", "elder"]
+    }
+  }
+}

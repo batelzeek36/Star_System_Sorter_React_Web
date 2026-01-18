@@ -1,0 +1,84 @@
+{
+  "gate": 2,
+  "gate_name": "The Receptive",
+  "lines": {
+    "2.1": {
+      "line": 1,
+      "hd_title": "Intuition",
+      "hd_quote": "Our direction is about trying to find the most beautiful way.",
+      "keywords": [
+        "aesthetics",
+        "direction toward beauty",
+        "harmony-seeking"
+      ],
+      "behavioral_axis": "Moves toward beauty and harmony as direction unfolds naturally, seeking aesthetic alignment in life's trajectory.",
+      "shadow_axis": "Tries to control direction through willpower and ego, ignoring innate wisdom and creating disharmony.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.2": {
+      "line": 2,
+      "hd_title": "Genius",
+      "hd_quote": "Unconscious and unlearnable alignment of stimulus and response.",
+      "keywords": [
+        "natural alignment",
+        "called out by others",
+        "unaware genius"
+      ],
+      "behavioral_axis": "Naturally moves in the right direction without knowing it, called out by others who see the way from outside.",
+      "shadow_axis": "Claims knowledge is power when recognized, letting ego distort natural direction into madness.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.3": {
+      "line": 3,
+      "hd_title": "Patience",
+      "hd_quote": "The teacher that never stops being a student.",
+      "keywords": [
+        "trial-and-error",
+        "lifelong receptivity",
+        "mutative experimentation"
+      ],
+      "behavioral_axis": "Experiments with different directions through trial and error, breaking bonds to try new mutations until finding what works.",
+      "shadow_axis": "Demands immediate expression without patience, either rigidly fixing on one direction or jumping rapidly between many.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.4": {
+      "line": 4,
+      "hd_title": "Secretiveness",
+      "hd_quote": "The ability to preserve harmony through discretion.",
+      "keywords": [
+        "discretion",
+        "quiet externalization",
+        "preserving direction"
+      ],
+      "behavioral_axis": "Externalizes direction quietly without announcing it beforehand, preserving harmony through strategic secrecy.",
+      "shadow_axis": "Announces direction prematurely with loose lips, letting ego claim ownership and creating enmity through interference.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.5": {
+      "line": 5,
+      "hd_title": "Intelligent application",
+      "hd_quote": "They are the direction.",
+      "keywords": [
+        "projection field",
+        "strategic resource management",
+        "directional reputation"
+      ],
+      "behavioral_axis": "Receives projections from others about knowing the way, strategically manages resources and fuel from those who recognize the direction.",
+      "shadow_axis": "Refuses to share responsibility or recognize others' abilities, hoarding direction selfishly when projections turn negative.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "2.6": {
+      "line": 6,
+      "hd_title": "Fixation",
+      "hd_quote": "Unable or unwilling to see the whole picture.",
+      "keywords": [
+        "selective objectivity",
+        "fixed on security",
+        "narrow receptivity"
+      ],
+      "behavioral_axis": "Sits on the roof seeking perspective, selective and narrow in receptivity about which mutations to embrace for the totality.",
+      "shadow_axis": "Gets fixed on mundane security concerns, distorting awareness destructively and missing mutative opportunities in life.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

@@ -4,8 +4,6 @@
 
 The `verify_quotes.py` script validates all quotes in evidence files against source texts to ensure academic rigor and reproducibility.
 
-**Reference**: [GPT-5/docs/QUOTE_VALIDATION_RULES.md](../docs/QUOTE_VALIDATION_RULES.md) (authoritative rule set)
-
 ## Features
 
 ### 1. Quote Length Validation

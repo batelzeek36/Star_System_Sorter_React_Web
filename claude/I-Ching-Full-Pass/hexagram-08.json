@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 8,
+  "hexagram_name_legge": "Pi",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "Pi indicates that (under the conditions which it supposes) there is good fortune. But let (the principal party intended in it) re-examine himself, (as if) by divination, whether his virtue be great, unintermitting, and firm. If it be so, there will be no error. Those who have not rest will then come to him; and with those who are (too) late in coming it will be ill.",
+  "image_text": null,
+  "addendum": {
+    "type": null,
+    "text": null
+  },
+  "full_text": "VIII. The Pi Hexagram.\n\nPi indicates that (under the conditions which it supposes) there is good fortune. But let (the principal party intended in it) re-examine himself, (as if) by divination, whether his virtue be great, unintermitting, and firm. If it be so, there will be no error. Those who have not rest will then come to him; and with those who are (too) late in coming it will be ill.\n\n1. The first line, divided, shows its subject seeking by his sincerity to win the attachment of his object. There will be no error. Let (the breast) be full of sincerity as an earthenware vessel is of its contents, and it will in the end bring other advantages.\n\n2. In the second line, divided, we see the movement towards union and attachment proceeding from the inward (mind). With firm correctness there will be good fortune.\n\n3. In the third line, divided, we see its subject seeking for union with such as ought not to be associated with.\n\n4. In the fourth line, divided, we see its subject seeking for union with the one beyond himself. With firm correctness there will be good fortune.\n\n5. The fifth line, undivided, affords the most illustrious instance of seeking union and attachment. (We seem to see in it) the king urging his pursuit of the game (only) in three directions, and allowing the escape of all the animals before him, while the people of his towns do not warn one another (to prevent it). There will be good fortune.\n\n6. In the topmost line, divided, we see one seeking union and attachment without having taken the first step (to such an end). There will be evil.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows its subject seeking by his sincerity to win the attachment of his object. There will be no error. Let (the breast) be full of sincerity as an earthenware vessel is of its contents, and it will in the end bring other advantages."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "In the second line, divided, we see the movement towards union and attachment proceeding from the inward (mind). With firm correctness there will be good fortune."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "In the third line, divided, we see its subject seeking for union with such as ought not to be associated with."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "In the fourth line, divided, we see its subject seeking for union with the one beyond himself. With firm correctness there will be good fortune."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, affords the most illustrious instance of seeking union and attachment. (We seem to see in it) the king urging his pursuit of the game (only) in three directions, and allowing the escape of all the animals before him, while the people of his towns do not warn one another (to prevent it). There will be good fortune."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "In the topmost line, divided, we see one seeking union and attachment without having taken the first step (to such an end). There will be evil."
+    }
+  ],
+  "notes": []
+}

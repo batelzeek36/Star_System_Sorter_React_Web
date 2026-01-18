@@ -1,0 +1,206 @@
+{
+  "id": "gate.23",
+  "hexagram": "hx23",
+  "center": "Throat",
+  "circuit": "Individual / Knowing",
+  "channel": "43-23 (Structuring)",
+  "programming_partner": "gate.43",
+  "polarity": {
+    "opposite_on_wheel": "gate.43"
+  },
+  "themes": [
+    "structuring insights into language",
+    "genius ⇄ freak projection",
+    "assimilation vs. purity of knowing",
+    "mutation through explanation"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "23.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Proselytization",
+        "hd_quote": "The attempt to undermine one set of values for another."
+      },
+      "interpretation": {
+        "keywords": [
+          "foundational explaining",
+          "belief seeding",
+          "value-challenging insight"
+        ],
+        "behavioral_axis": "Builds a base for new ideas by challenging prevailing values.",
+        "shadow_axis": "Becomes evangelical or dogmatic; alienates allies."
+      },
+      "relationship_needs": {
+        "needs_space_to_explain": true,
+        "prefers_inquiry_over_pushback": true,
+        "rejects_forced_alignment": true
+      },
+      "group_role": "foundational explainer / value challenger",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "23.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Self-defense",
+        "hd_quote": "The need to abandon tolerance when survival is threatened."
+      },
+      "interpretation": {
+        "keywords": [
+          "projection hotspot",
+          "defense of expression",
+          "\"I know\" boundary"
+        ],
+        "behavioral_axis": "Protects expression when identity/knowing is threatened.",
+        "shadow_axis": "Overreacts to critique; confuses disagreement with danger."
+      },
+      "relationship_needs": {
+        "needs_respect_for_expression": true,
+        "hates_interference": true,
+        "requires_clear_boundaries": true
+      },
+      "group_role": "guardian of individual expression",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "23.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Individuality",
+        "hd_quote": "Independent expression that is by its nature not detrimental to others."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error language",
+          "non-threatening originality",
+          "adaptation"
+        ],
+        "behavioral_axis": "Learns to phrase insights so others aren’t threatened.",
+        "shadow_axis": "Mysteriousness attracts suspicion; ‘freak’ effect."
+      },
+      "relationship_needs": {
+        "needs_room_to_make_mistakes": true,
+        "partners_handle_misunderstanding": true,
+        "values_constructive_feedback": true
+      },
+      "group_role": "experimental explainer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "23.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Fragmentation",
+        "hd_quote": "Diversification without a perceived potential for synthesis."
+      },
+      "interpretation": {
+        "keywords": [
+          "one-track output",
+          "scatter without synthesis",
+          "paranoia risk"
+        ],
+        "behavioral_axis": "Broadcasts disparate knowings with little integration.",
+        "shadow_axis": "Anxious, feels rejected; retreats into isolated knowing."
+      },
+      "relationship_needs": {
+        "needs_patience_from_others": true,
+        "benefits_from_integrators": true,
+        "resists_premature_unity": true
+      },
+      "group_role": "scattershot broadcaster",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "23.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Assimilation",
+        "hd_quote": "The practical acceptance of the values of another path."
+      },
+      "interpretation": {
+        "keywords": [
+          "translator to collective",
+          "social integration",
+          "communicating insight"
+        ],
+        "behavioral_axis": "Adapts language to be received by the collective.",
+        "shadow_axis": "Sells out knowing for acceptance and protection."
+      },
+      "relationship_needs": {
+        "needs_mutual_respect": true,
+        "expects_context_to_be_listened_to": true,
+        "rejects_tokenization": true
+      },
+      "group_role": "insight translator / integrator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "23.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Fusion",
+        "hd_quote": "The gradual attunement of diversity through synthesis."
+      },
+      "interpretation": {
+        "keywords": [
+          "long-horizon synthesis",
+          "speaks only when mutative",
+          "structuring completion"
+        ],
+        "behavioral_axis": "Waits until knowings synthesize into a mutative, speakable whole.",
+        "shadow_axis": "Holds diversity without synthesis; loses power in expression."
+      },
+      "relationship_needs": {
+        "needs_time_for_synthesis": true,
+        "prefers_high-signal_requests": true,
+        "rejects_short-term_pressure": true
+      },
+      "group_role": "synthesizing oracle",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Center/circuit/channel confirmed in the Complete Rave I’Ching (Jovian Archive)."
+  }
+}

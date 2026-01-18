@@ -1,0 +1,84 @@
+{
+  "gate": 26,
+  "gate_name": "",
+  "lines": {
+    "26.1": {
+      "line": 1,
+      "hd_title": "A Bird in the hand",
+      "hd_quote": "The ability to enjoy the dreams engendered by accomplishment in order to avoid delusion of unlikely potential.",
+      "keywords": [
+        "pragmatic ego",
+        "bank wins",
+        "recuperation"
+      ],
+      "behavioral_axis": "Builds confidence by banking real wins; protects energy with rest and realistic expectations.",
+      "shadow_axis": "Coasts on past success; entitlement after a win.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "26.2": {
+      "line": 2,
+      "hd_title": "The Lessons of History",
+      "hd_quote": "The energy and depth of reflection to learn from the past in anticipation of the future.",
+      "keywords": [
+        "seen & judged",
+        "receipts",
+        "reputation"
+      ],
+      "behavioral_axis": "Learns public accountability; reputation management through truthful tracking.",
+      "shadow_axis": "Paper-tiger bravado; gets ‘found out’ without records.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "26.3": {
+      "line": 3,
+      "hd_title": "Influence",
+      "hd_quote": "The ability, once prepared, to gather support.",
+      "keywords": [
+        "trial-and-error technique",
+        "coalition building",
+        "pitch timing"
+      ],
+      "behavioral_axis": "Iterates a persuasive craft and mobilizes backing when conditions are right.",
+      "shadow_axis": "Manipulative tactics; burned trust through shortcuts.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "26.4": {
+      "line": 4,
+      "hd_title": "Censorship",
+      "hd_quote": "The alteration of memory through elimination.",
+      "keywords": [
+        "selective disclosure",
+        "edit the record",
+        "context control"
+      ],
+      "behavioral_axis": "Shapes narrative by pruning details; practices strategic discretion.",
+      "shadow_axis": "Omission that erodes trust; ‘something’s missing’ aura.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "26.5": {
+      "line": 5,
+      "hd_title": "Adaptability",
+      "hd_quote": "The power of memory which maximizes the potential of the ego to attract others.",
+      "keywords": [
+        "magnetic pitch",
+        "environmental tuning",
+        "brand custodian"
+      ],
+      "behavioral_axis": "Reads the room and adjusts the message to maximize buy-in.",
+      "shadow_axis": "Stubborn method; resistance to adjusting technique.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "26.6": {
+      "line": 6,
+      "hd_title": "Authority",
+      "hd_quote": "The natural attainment of influence justified by the correctness of actions.",
+      "keywords": [
+        "earned authority",
+        "right place/right time",
+        "ego restraint"
+      ],
+      "behavioral_axis": "Holds fire until correctness is clear; then acts and embodies authority.",
+      "shadow_axis": "Symbolic authority with little substance; aloofness.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,602 @@
+# PLEIADES BASELINE RESEARCH (V4)
+
+## CONTEXT
+You are conducting Phase 0 baseline research for the Star System Sorter project. This research establishes the foundational characteristics of the Pleiades that will later be used to map Human Design gates to star systems. Academic rigor and proper citations are CRITICAL.
+
+**V4 PHILOSOPHY:** This version uses honest field naming to distinguish provisional research (location hints + summaries) from locked citations (exact pages + verbatim quotes). You provide the research scaffold, the human locks it down later.
+
+**V4 IMPROVEMENTS:**
+1. Relaxed trait coverage rule for low-consensus characteristics
+2. Optimized handling of fully accessible online sources (sacred-texts.com, archive.org)
+3. Clarified translator full name expectations
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 HARD RULES (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ ABSOLUTELY FORBIDDEN:
+1. **Blog sources** (WordPress, Medium, personal websites, starseed blogs) - UNACCEPTABLE
+2. **Anonymous authors** ("Various researchers", "Contemporary sources") - UNACCEPTABLE
+3. **Fabricated quotes or page numbers** - UNACCEPTABLE
+4. **Wrong book attribution** - VERIFY book title matches content
+5. **Social media posts** (Twitter, Reddit, Facebook) - UNACCEPTABLE
+6. **YouTube videos or podcasts** - UNACCEPTABLE (unless published transcript with ISBN)
+7. **Wiki-style sites without citations** - UNACCEPTABLE
+8. **Wikipedia or online encyclopedias** - UNACCEPTABLE (find the primary source instead)
+9. **Commercial websites** (jewelry, art sales, psychic services) - UNACCEPTABLE
+
+✅ SOURCE HIERARCHY (Use in order of preference):
+
+**TIER 1 - ACCEPTABLE PRIMARY SOURCES:**
+1. Published books with ISBN (channeled or research)
+2. Academic papers and peer-reviewed journals
+3. Established ancient texts with scholarly translations
+4. Documented oral traditions via anthropologists
+
+**TIER 2 - ACCEPTABLE SECONDARY SOURCES:**
+1. University/museum websites with citations
+2. Established mystery school publications
+3. Historical channeled works (pre-1950)
+
+**TIER 3 - UNACCEPTABLE:**
+❌ Blogs and personal websites
+❌ Anonymous "contemporary researchers"
+❌ Social media posts
+❌ Wiki-style sites without citations
+❌ YouTube videos or podcasts
+❌ Starseed community websites without published books
+❌ Wikipedia (find the primary source it cites instead)
+
+═══════════════════════════════════════════════════════════════════════════════
+🔥 V4 CITATION POLICY: PROVISIONAL vs LOCKED
+═══════════════════════════════════════════════════════════════════════════════
+
+## Citation Status Types
+
+### PROVISIONAL (when you can't access full text)
+Use when you've identified a legitimate source but can't access the complete text:
+
+**Required fields:**
+- `location_hint` - Chapter, section, verse/line reference
+- `summary` - ≤25 word paraphrase of what source says about the trait
+- `citation_status: "provisional"`
+
+**Example:**
+```json
+{
+  "title": "Bringers of the Dawn: Teachings from the Pleiadians",
+  "author": "Barbara Marciniak",
+  "edition": "First Edition",
+  "year": 1992,
+  "publisher": "Bear & Company",
+  "location_hint": "Chapter 3, pp. 45-47",
+  "summary": "Pleiadians described as emotional healers teaching humanity about feeling and compassion",
+  "url": "https://www.goodreads.com/book/show/119696.Bringers_of_the_Dawn",
+  "isbn": "ISBN 0-939680-98-5",
+  "source_type": "channeled",
+  "citation_status": "provisional"
+}
+```
+
+### LOCKED (when you have verbatim access)
+Use when you can copy exact text from a source you can fully access:
+
+**Required fields:**
+- `page` - Exact locator in the cited edition. This MAY be a physical page number OR an internal canonical unit (e.g., "Book III, lines 110-114", "Vana Parva, Section 225"). Canonical units like book/line/section numbers are acceptable as LOCKED citations.
+- `quote` - Verbatim text ≤25 words from source
+- `citation_status: "locked"`
+
+**Example (ancient text with canonical reference):**
+```json
+{
+  "title": "Metamorphoses",
+  "author": "Ovid",
+  "translator_or_editor": "A. S. Kline (translator)",
+  "edition": "Poetry in Translation Edition",
+  "year": 2000,
+  "original_year": 8,
+  "publisher": "Poetry in Translation",
+  "page": "Book III, lines 594-595",
+  "quote": "The seven sisters, daughters of Atlas, whom Jupiter placed among the stars",
+  "url": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph3.php",
+  "isbn": null,
+  "source_type": "ancient",
+  "citation_status": "locked"
+}
+```
+
+**Example (modern book with ISBN):**
+```json
+{
+  "title": "The Seven Sisters of the Pleiades: Stories from Around the World",
+  "author": "Munya Andrews",
+  "edition": "First Edition",
+  "year": 2004,
+  "publisher": "Spinifex Press",
+  "page": "Chapter 2, p. 34",
+  "quote": "Aboriginal Australians see the Seven Sisters as ancestral beings who taught women's law and ceremony",
+  "url": "https://www.spinifexpress.com.au",
+  "isbn": "ISBN 1-876756-45-5",
+  "source_type": "indigenous",
+  "citation_status": "locked"
+}
+```
+
+## What You MAY Do
+
+✅ **PROVISIONAL citations when:**
+- Full text is behind paywall
+- Only preview pages available on Google Books
+- Source exists but you can't access complete text
+- You can identify chapter/section but not exact page
+
+✅ **LOCKED citations when:**
+- Source is fully accessible on Archive.org (full text, not just table of contents)
+- Source is on sacred-texts.com with full text
+- Source is on poetryintranslation.com or similar full-text sites
+- Google Books has full preview available
+- You can copy verbatim text
+
+**CRITICAL:** If a source is fully available at sacred-texts.com, archive.org, or poetryintranslation.com with complete searchable text, you MUST treat it as `citation_status: "locked"` and include a `quote` + canonical locator. Do NOT use provisional mode for fully accessible sources.
+
+## What You MAY NOT Do
+
+❌ **NEVER:**
+- Fabricate page numbers or quotes
+- Label a paraphrase as a direct quote
+- Use `citation_status: locked` unless quote is truly verbatim
+- Use placeholder quotes like "[EXAMPLE QUOTE]"
+- Guess at page numbers
+- Use Wikipedia or blogs as sources
+- Give up and return empty results
+
+## Field Usage Rules
+
+**Use `location_hint` + `summary` when:**
+- You know the source exists (verified ISBN, author, edition)
+- You can identify approximate location (chapter, section)
+- You can't access full text for verbatim quote
+- Set `citation_status: "provisional"`
+
+**Use `page` + `quote` when:**
+- You have full text access
+- You can copy exact words from source
+- You can verify exact page/line/section number
+- Set `citation_status: "locked"`
+
+**DO NOT include `verified: true` field** - that will be added during manual verification phase
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OBJECTIVE
+Research and document the characteristics attributed to the PLEIADES star cluster across ancient texts, indigenous traditions, modern esoteric literature, and channeled material. Return findings as minified JSON with complete citations.
+
+## ACADEMIC CONTEXT
+
+This research supports Star System Sorter, which maps Human Design's I Ching-based gate system to star mythology.
+
+**Human Design's Academic Foundations:**
+- **I Ching (64 hexagrams)** - 3,000+ years of scholarship, Jung's endorsement (Wilhelm translation, 1950)
+- **64 DNA codons** - Nobel Prize research (Nirenberg & Khorana, 1968)
+- **Kabbalah (Tree of Life)** - Extensive academic study (Scholem, Idel)
+- **Chakra system** - Religious Studies, Yoga Studies (Feuerstein)
+- **Western Astrology** - Cultural/historical phenomenon (Tarnas)
+
+**Mathematical Correspondences:**
+- 64 I Ching hexagrams = 64 DNA codons (verifiable fact)
+- Binary yin/yang logic = Binary genetic code (A/T, C/G)
+
+**Your Task:** Document star system characteristics using rigorous sourcing standards (ancient texts, published books, proper citations). This is **comparative mythology research**, not pseudoscience.
+
+**CRITICAL:** If you cannot find an ISBN for a pre-1967 or pre-ISBN edition, set `"isbn": null` and STILL RETURN THE SOURCE. Do not omit the source.
+
+## HYPOTHESIS TO VALIDATE
+Based on preliminary research, the Pleiades are associated with:
+- Seven Sisters motif (cross-cultural pattern)
+- Nurturers, mothers, feminine energy
+- Emotional empaths and healers
+- Artistic, sensual, aesthetic beings
+- Teachers of feeling and compassion
+- Agricultural/seasonal markers
+
+Your task is to find evidence that confirms, refutes, or nuances these characteristics.
+
+## PRIMARY SOURCES TO RESEARCH
+
+### Ancient Texts (HIGH PRIORITY - Often fully accessible)
+- **Greek Mythology**: Ovid's Metamorphoses (A.S. Kline translation on poetryintranslation.com)
+- **Greek Mythology**: Hesiod's Works and Days (M.L. West translation)
+- **Greek Mythology**: Apollodorus' Library (J.G. Frazer translation on theoi.com)
+- **Hindu/Vedic**: Mahabharata (Kisari Mohan Ganguli translation on sacred-texts.com) - Krittika as nurturers
+- **Hindu/Vedic**: Ramayana (various translations on sacred-texts.com)
+- **Japanese**: Kojiki and Nihon Shoki (Subaru references)
+
+### Indigenous Traditions
+- **Aboriginal Australian**: Seven Sisters Songlines
+  - Munya Andrews "The Seven Sisters of the Pleiades" (2004, ISBN 1-876756-45-5)
+- **Maori**: Matariki traditions
+  - Rangi Matamua "Matariki: The Star of the Year" (2017, ISBN 978-0-947506-82-4)
+- **Cherokee**: Seven boys who became stars
+- **Maya**: Tzab (rattlesnake's tail) references
+
+### Modern Esoteric Literature
+- "Bringers of the Dawn" by Barbara Marciniak (1992, ISBN 0-939680-98-5)
+- "The Pleiadian Agenda" by Barbara Hand Clow (1995, ISBN 1-879181-30-4)
+- "The Pleiadian Workbook" by Amorah Quan Yin (1996, ISBN 1-879181-31-2)
+- "Family of Light" by Barbara Marciniak (1998)
+- Alice Bailey works (references to Pleiades and Seven Sisters)
+
+### Scholarly Works
+- "The Seven Sisters of the Pleiades" by Munya Andrews (2004, ISBN 1-876756-45-5)
+- "Star Myths of the Greeks and Romans" by Theony Condos (1997)
+- "The Myths and Gods of India" by Alain Daniélou (1991, ISBN 0-89281-354-7)
+- Academic papers on cross-cultural Seven Sisters myths
+
+## CITATION REQUIREMENTS
+
+Every source MUST include:
+
+**ALWAYS REQUIRED (both provisional and locked):**
+1. **Full title** (exact, not abbreviated)
+2. **Author name(s)** (full names preferred; initials acceptable if that's how the translator is commonly cited in academic literature)
+3. **Translator/Editor** (for ancient texts - MUST include translator name with "(translator)" designation. Example: "A. S. Kline (translator)" or "Kisari Mohan Ganguli (translator)")
+4. **Edition information** (e.g., "First Edition", "Revised Edition")
+5. **Publication year** (original and edition if different)
+6. **Publisher/imprint** (e.g., "Bear & Company", "Spinifex Press", "Oxford University Press")
+7. **URL** (if available online - archive.org, publisher, academic database)
+8. **ISBN or DOI** (required for verification. If neither exists for pre-1967 publications or ancient translations, use `"isbn": null` and ensure publisher is specified)
+9. **Source type** (ancient|research|channeled|indigenous|controversial)
+10. **Citation status** (provisional|locked)
+
+**FOR PROVISIONAL citations:**
+11. **location_hint** - Chapter, section, verse/line reference
+12. **summary** - ≤25 word paraphrase of what source says
+
+**FOR LOCKED citations:**
+11. **page** - Exact locator in the cited edition. This MAY be a physical page number OR an internal canonical unit (e.g., "Book III, lines 110-114", "Vana Parva, Section 225"). Canonical units are acceptable as LOCKED citations.
+12. **quote** - Verbatim text ≤25 words from source
+
+## SPECIAL FOCUS: Cross-Cultural Seven Sisters Pattern
+
+The Seven Sisters motif appears in 6+ cultures globally. This is one of the strongest cross-cultural patterns in star mythology. Document:
+
+**Required Analysis:**
+- Which cultures have Seven Sisters myths?
+- What characteristics are attributed to them in each culture?
+- Are there consensus patterns (nurturing, feminine, seasonal)?
+- How do ancient myths compare to modern channeled material?
+
+**Expected Cultures:**
+- Greek (daughters of Atlas, companions of Artemis)
+- Aboriginal Australian (ancestral women, Dreamtime)
+- Cherokee (seven boys transformed)
+- Maya (Tzab, agricultural marker)
+- Hindu (Krittika, nurses of Kartikeya)
+- Japanese (Subaru, unity)
+- Maori (Matariki, New Year)
+
+## CONSENSUS LEVELS
+
+Assign based on evidence quality:
+
+- **HIGH**: 3+ independent sources, cross-cultural validation, minimal disputes
+- **MEDIUM**: 2-3 sources, or strong in one category only
+- **LOW**: 1-2 sources, heavily disputed, or channeled-only
+
+**V4 NOTE:** For low-consensus or single-source-type characteristics (e.g., channeled-only), 2 sources minimum is acceptable. The 3-5 sources target applies primarily to high and medium consensus traits.
+
+## ANCIENT SUPPORT LEVELS
+
+Separate from consensus - indicates historical depth:
+
+- **HIGH**: Explicit references in ancient texts (e.g., Greek Seven Sisters, Hindu Krittika)
+- **MEDIUM**: Inferred connections to ancient deities/myths
+- **LOW**: Symbolic resonance only
+- **UNKNOWN**: No ancient references found
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 OUTPUT FORMAT REQUIREMENT (MANDATORY)
+═══════════════════════════════════════════════════════════════════════════════
+
+Your response MUST be valid JSON only. No narrative text, no explanations, no markdown.
+Start with { and end with }. Nothing else.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## OUTPUT FORMAT
+
+Return ONLY minified JSON (no markdown, no explanatory text):
+
+```json
+{
+  "star_system": "Pleiades",
+  "version": "4.0",
+  "last_updated": "2025-10-25",
+  
+  "methodology": {
+    "framework": "Comparative mythology + I Ching-based Human Design system",
+    "academic_foundations": [
+      "I Ching (64 hexagrams → 64 Human Design gates)",
+      "Cross-cultural star mythology (Greek, Aboriginal, Indigenous, Hindu)",
+      "Jungian archetypal psychology",
+      "Comparative religious studies"
+    ],
+    "source_standards": "Ancient texts with named translators, published books with ISBNs, evidence typing (direct/inferred/symbolic), consensus levels documented. V4: Uses provisional (location_hint + summary) vs locked (page + quote) citation status. Optimized for fully accessible online sources. Relaxed trait coverage for low-consensus characteristics.",
+    "research_date": "2025-10-25"
+  },
+  
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of scholarship (Wilhelm, Legge, Jung)",
+      "64 DNA codons - Nobel Prize research (Nirenberg, Khorana 1968)",
+      "Kabbalah - Extensive academic study (Scholem, Idel)",
+      "Chakra system - Religious Studies, Yoga Studies",
+      "Western Astrology - Cultural/historical phenomenon (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang logic = Binary genetic code (A/T, C/G)"
+    ]
+  },
+  
+  "characteristics": [
+    {
+      "trait": "Seven Sisters as nurturers and mothers",
+      "consensus_level": "high|medium|low",
+      "ancient_support": "high|medium|low|unknown",
+      "evidence_type": "direct|inferred|symbolic",
+      "disputed": false,
+      "sources": [
+        {
+          "title": "FULL TITLE",
+          "author": "FULL NAME",
+          "translator_or_editor": "FULL NAME (translator/editor) - REQUIRED FOR ANCIENT TEXTS",
+          "edition": "SPECIFIC EDITION",
+          "year": 1992,
+          "original_year": 1992,
+          "publisher": "PUBLISHER NAME",
+          "location_hint": "Chapter 3, Section 225, Book III lines 110-114, etc.",
+          "summary": "≤25 word paraphrase of what source says about trait",
+          "url": "WORKING URL IF AVAILABLE",
+          "isbn": "ISBN NUMBER or null if pre-1967",
+          "source_type": "ancient|research|channeled|indigenous|controversial",
+          "citation_status": "provisional"
+        },
+        {
+          "title": "FULL TITLE FOR LOCKED SOURCE",
+          "author": "FULL NAME",
+          "translator_or_editor": "IF APPLICABLE",
+          "edition": "SPECIFIC EDITION",
+          "year": 2004,
+          "publisher": "PUBLISHER NAME",
+          "page": "Chapter 2, p. 34 (or canonical unit like Book III, lines 110-114)",
+          "quote": "Verbatim text ≤25 words from source",
+          "url": "URL",
+          "isbn": "ISBN or null if pre-1967",
+          "source_type": "indigenous",
+          "citation_status": "locked"
+        }
+      ]
+    }
+  ],
+  
+  "cross_cultural_patterns": [
+    {
+      "pattern": "Seven Sisters motif",
+      "cultures": ["Greek", "Aboriginal Australian", "Cherokee", "Maya", "Hindu", "Japanese", "Maori"],
+      "consensus": "Universal recognition of Pleiades as seven female entities",
+      "sources": [
+        {
+          "title": "Cross-cultural source documenting this pattern",
+          "author": "FULL NAME",
+          "year": 2004,
+          "page": "SPECIFIC LOCATION",
+          "quote": "ACTUAL QUOTE or summary",
+          "url": "URL",
+          "isbn": "ISBN",
+          "source_type": "research",
+          "citation_status": "locked|provisional"
+        }
+      ]
+    }
+  ],
+  
+  "research_notes": "Brief summary of consensus patterns, gaps, or notable findings. Note how many sources are provisional vs locked. Highlight the strength of cross-cultural Seven Sisters pattern.",
+  
+  "bibliography": {
+    "ancient_texts": [
+      "List key ancient texts cited (e.g., 'Ovid - Metamorphoses (Kline translation, 2000)')"
+    ],
+    "modern_research": [
+      "List key modern research books (e.g., 'Andrews, M. (2004). The Seven Sisters of the Pleiades')"
+    ],
+    "channeled_sources": [
+      "List channeled sources (e.g., 'Marciniak, B. (1992). Bringers of the Dawn')"
+    ],
+    "academic_foundations": [
+      "Wilhelm, R. & Baynes, C.F. (1950). The I Ching. Princeton University Press",
+      "Nirenberg, M.W. & Khorana, H.G. (1968). Genetic Code Research (Nobel Prize)",
+      "Scholem, G. (1941). Major Trends in Jewish Mysticism"
+    ]
+  }
+}
+```
+
+## QUALITY CHECKLIST
+
+Before submitting, verify:
+
+✅ Each characteristic has 3-5 sources (target); 2 sources minimum acceptable for low-consensus traits
+✅ All sources have ISBN or DOI (or null with publisher specified)
+✅ All sources have either (location_hint + summary) OR (page + quote)
+✅ All sources have `citation_status: "provisional"` or `citation_status: "locked"`
+✅ Ancient sources include translator/editor attribution
+✅ URLs included where available
+✅ Source types are labeled
+✅ Consensus levels are justified
+✅ Ancient support levels are noted
+✅ Cross-cultural patterns documented with sources
+✅ Mix of ancient, indigenous, modern, and channeled sources
+✅ **NO `verified: true` field** (added during manual verification)
+
+## RESEARCH STRATEGY
+
+1. **Start with ancient sources** - Greek Seven Sisters is solid ground
+   - Check poetryintranslation.com for Ovid (LOCKED citations possible)
+   - Check sacred-texts.com for Mahabharata Krittika references (LOCKED citations possible)
+   - Check theoi.com for Apollodorus (LOCKED citations possible)
+2. **Add indigenous traditions** - Aboriginal, Maori, Cherokee (likely mix of LOCKED and PROVISIONAL)
+3. **Include modern channeled** - Marciniak, Clow, Quan Yin (likely PROVISIONAL unless on Archive.org)
+4. **Add scholarly synthesis** - Andrews, Condos (likely PROVISIONAL)
+5. **Cross-reference** - Look for consensus patterns across cultures
+6. **Document Seven Sisters pattern** - This is the strongest cross-cultural validation
+
+## EXPECTED CHARACTERISTICS
+
+Based on preliminary research, expect to find evidence for:
+- Seven Sisters motif (likely HIGH consensus, HIGH ancient support, mix of LOCKED and PROVISIONAL)
+- Nurturing/mothering archetype (likely HIGH consensus, especially Hindu Krittika)
+- Feminine/yin energy (likely MEDIUM-HIGH consensus)
+- Seasonal/agricultural markers (likely HIGH ancient support)
+- Emotional healing themes (likely LOW consensus, channeled-only, PROVISIONAL)
+- Artistic/aesthetic overlay (likely MEDIUM consensus)
+
+If you find characteristics NOT in this list, include them with full citations.
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 MANDATORY PLEIADES-SPECIFIC CHARACTERISTICS (NON-NEGOTIABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+**You MUST include these characteristics as separate traits. Do NOT fold them into other characteristics.**
+
+### MANDATORY #1: Seven Sisters Cross-Cultural Pattern
+
+**You MUST include a characteristic documenting the Seven Sisters motif across multiple cultures.**
+
+This is the strongest cross-cultural pattern in star mythology:
+- Greek: Seven daughters of Atlas, companions of Artemis
+- Hindu: Krittika, the six/seven nurses of Kartikeya
+- Aboriginal Australian: Seven ancestral women in Dreamtime
+- Maori: Matariki, seven sisters marking New Year
+- Cherokee: Seven boys transformed into stars
+- Japanese: Subaru, representing unity
+
+**Required sources:**
+- Ovid's Metamorphoses (Kline translation) - Greek Seven Sisters
+- Mahabharata (Ganguli translation) - Krittika as nurturers
+- Munya Andrews "The Seven Sisters of the Pleiades" (2004) - Cross-cultural synthesis
+- At least one additional indigenous source (Maori, Aboriginal, or Cherokee)
+
+**Trait name examples:**
+- "Seven Sisters as universal feminine collective"
+- "Cross-cultural Seven Sisters nurturing archetype"
+- "Seven female entities as cosmic mothers and teachers"
+
+**This MUST be its own trait with cross-cultural validation documented.**
+
+### MANDATORY #2: Emotional Empaths and Healers of Feeling
+
+**You MUST include a characteristic for the emotional healing/empathy theme from modern channeled sources.**
+
+This is the primary Pleiadian archetype in contemporary spiritual literature:
+- Teachers of emotional intelligence and feeling
+- Healers of the heart chakra
+- Guides for developing compassion and empathy
+- Contrast with more mental/logical star systems
+
+**Required sources:**
+- Barbara Marciniak "Bringers of the Dawn" (1992)
+- Barbara Hand Clow "The Pleiadian Agenda" (1995)
+- Amorah Quan Yin "The Pleiadian Workbook" (1996)
+
+**Trait name examples:**
+- "Emotional healers and teachers of compassion"
+- "Heart-centered empaths and feeling guides"
+- "Teachers of emotional intelligence and sensitivity"
+
+**This MUST be its own trait, not merged into 'nurturers' or 'feminine' characteristics.**
+
+### MANDATORY #3: Agricultural/Seasonal Markers
+
+**You MUST include a characteristic for the Pleiades as agricultural and seasonal markers.**
+
+This is one of the most ancient and practical uses of the Pleiades across cultures:
+- Greek: Heliacal rising/setting marks planting and harvest seasons
+- Maori: Matariki rising marks New Year and planting time
+- Hindu: Krittika marks seasonal transitions
+- Global: Used for agricultural timing across cultures
+
+**Required sources:**
+- Hesiod's Works and Days (agricultural calendar references)
+- Rangi Matamua "Matariki: The Star of the Year" (2017) - Maori seasonal marker
+- Academic source on Pleiades agricultural use (Andrews or similar)
+
+**Trait name examples:**
+- "Agricultural and seasonal time markers"
+- "Cosmic calendar for planting and harvest cycles"
+- "Seasonal guides and agricultural timekeepers"
+
+**This MUST be its own trait documenting the practical/observational use of Pleiades.**
+
+═══════════════════════════════════════════════════════════════════════════════
+
+## FINAL REMINDER
+
+**DO NOT give up and return empty results.** Ancient sources for Pleiades are widely available online.
+
+**If you cannot fully satisfy a field under LOCKED mode, fall back to PROVISIONAL mode instead of omitting the source.** If you cannot produce `page` + `quote` for a relevant source, you MUST still include that source as `citation_status: "provisional"` with `location_hint` + `summary`. Do NOT omit the source.
+
+**Prioritize LOCKED citations from:**
+- Poetryintranslation.com (Ovid, Hesiod)
+- Sacred-texts.com (Mahabharata, Ramayana)
+- Theoi.com (Apollodorus, Greek mythology)
+- Archive.org (older books, indigenous sources)
+
+**Use PROVISIONAL citations for:**
+- Modern channeled books (Marciniak, Clow, Quan Yin)
+- Recent academic books (Andrews, Matamua)
+- Sources behind paywalls
+
+**Remember:** Canonical units like book/line numbers, section numbers, and verse numbers count as LOCKED citations. You don't need physical page numbers for ancient texts if you have the canonical reference.
+
+**Minimum acceptable response: 5-7 characteristics (including 3 mandatory), each with 2-5 fully cited sources (mix of provisional and locked), with cross-cultural Seven Sisters pattern documented, and citation status marked.**
+
+═══════════════════════════════════════════════════════════════════════════════
+🔒 FINAL VALIDATION BEFORE SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+**MANDATORY CHECK - Your response will be REJECTED if:**
+
+❌ Missing "Seven Sisters cross-cultural pattern" characteristic
+❌ Missing "Emotional empaths/healers" characteristic
+❌ Missing "Agricultural/seasonal markers" characteristic
+❌ Any source missing `citation_status` field
+❌ Any source with `citation_status: locked` but no verbatim `quote`
+❌ Any source with `citation_status: provisional` but no `summary`
+❌ Any source with both `quote` and `summary` fields (pick one based on status)
+❌ Any source with "Wikipedia Contributors" as author
+❌ Any Wikipedia or online encyclopedia sources
+❌ Any "Various scholars" or anonymous authors
+❌ Any blog sources or personal websites
+❌ Any abbreviated titles or author initials
+❌ Any missing edition information
+❌ Any social media posts or YouTube videos
+❌ Any source with `verified: true` field (DO NOT include this)
+❌ Missing `cross_cultural_patterns` section
+
+**PASS CRITERIA:**
+✅ All 3 mandatory characteristics included as separate traits
+✅ Every source has `citation_status: "provisional"` OR `citation_status: "locked"`
+✅ Every source has `publisher` field
+✅ Provisional sources have `location_hint` + `summary`
+✅ Locked sources have `page` + `quote`
+✅ All sources have ISBN/DOI OR `"isbn": null` with publisher specified
+✅ All translator names include proper attribution
+✅ Canonical units (book/line/section) are acceptable as LOCKED citations
+✅ All sources have complete bibliographic information
+✅ Cross-cultural Seven Sisters pattern documented with sources
+✅ Zero Wikipedia or encyclopedia sources
+✅ Zero anonymous authors
+✅ NO `verified: true` field anywhere
+
+**V4 allows provisional citations, but you must still find legitimate sources and mark them honestly.**

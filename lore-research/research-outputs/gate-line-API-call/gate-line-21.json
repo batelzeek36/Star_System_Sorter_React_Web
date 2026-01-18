@@ -1,0 +1,84 @@
+{
+  "gate": 21,
+  "gate_name": "",
+  "lines": {
+    "21.1": {
+      "line": 1,
+      "hd_title": "Warning",
+      "hd_quote": "Warning. The use of force as a last resort.",
+      "keywords": [
+        "sets boundaries first",
+        "measured authority",
+        "graduated response"
+      ],
+      "behavioral_axis": "Signals limits and expectations before acting.",
+      "shadow_axis": "Leads with force; burns trust and authority.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "21.2": {
+      "line": 2,
+      "hd_title": "Might is right",
+      "hd_quote": "The legitimacy of action in response to flagrant and persistent interference.",
+      "keywords": [
+        "decisive intervention",
+        "shuts down interference",
+        "material authority"
+      ],
+      "behavioral_axis": "Acts swiftly when interference persists.",
+      "shadow_axis": "Overreacts; conflates criticism with interference.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "21.3": {
+      "line": 3,
+      "hd_title": "Powerlessness",
+      "hd_quote": "Where the just are condemned to a futile confrontation with superior forces.",
+      "keywords": [
+        "knows limits",
+        "won't work under control",
+        "ego-protection"
+      ],
+      "behavioral_axis": "Learns to avoid superior-control structures.",
+      "shadow_axis": "Chronic withdrawal; rejects the material path.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "21.4": {
+      "line": 4,
+      "hd_title": "Strategy",
+      "hd_quote": "Careful appraisal of opposing forces to establish a proper response.",
+      "keywords": [
+        "tactical leadership",
+        "resource orchestration",
+        "who/when/what to control"
+      ],
+      "behavioral_axis": "Designs the control plan to reach manifestation.",
+      "shadow_axis": "Misjudges opponents; overconfidence in being right.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "21.5": {
+      "line": 5,
+      "hd_title": "Objectivity",
+      "hd_quote": "The use of force must be based on impartiality and not emotionally motivated.",
+      "keywords": [
+        "impartial control",
+        "non-emotional decisions",
+        "projected leadership"
+      ],
+      "behavioral_axis": "Earns lasting authority through principled, fair action.",
+      "shadow_axis": "Plays favorites; loses respect and control.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "21.6": {
+      "line": 6,
+      "hd_title": "Chaos",
+      "hd_quote": "Where ineffective action leads to disorder.",
+      "keywords": [
+        "withdraws from chaos",
+        "inner order first",
+        "waits for correct action"
+      ],
+      "behavioral_axis": "Holds back until the material path is correct.",
+      "shadow_axis": "Fence-sitting; disengages to avoid disorder.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "gate": 64,
+  "gate_name": "",
+  "lines": {
+    "64.1": {
+      "line": 1,
+      "hd_title": "Transition",
+      "hd_quote": "Confusion that can accept its own process toward clarity.",
+      "keywords": [
+        "foundational confusion",
+        "trust the images",
+        "begin sorting"
+      ],
+      "behavioral_axis": "Holds the ‘mess’ without rushing, so the abstract story can form.",
+      "shadow_axis": "Panics in confusion → grabs the first wrong story.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "64.2": {
+      "line": 2,
+      "hd_title": "Qualification",
+      "hd_quote": "Recognition that confusion is a natural stage and not a failure.",
+      "keywords": [
+        "projected clarity-in-progress",
+        "self-acceptance",
+        "hold the images"
+      ],
+      "behavioral_axis": "Shows others: ‘this is the phase before the insight.’",
+      "shadow_axis": "Feels ashamed of not knowing → overcompensates with half-truths.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "64.3": {
+      "line": 3,
+      "hd_title": "Overextension",
+      "hd_quote": "Impatience in confusion that risks premature action.",
+      "keywords": [
+        "trial-and-error insight",
+        "jumping too soon",
+        "test the story"
+      ],
+      "behavioral_axis": "Acts on incomplete pictures to learn what the story isn’t.",
+      "shadow_axis": "Spreads confused narratives → collective misreads the past.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "64.4": {
+      "line": 4,
+      "hd_title": "Establishment",
+      "hd_quote": "Once clarity is achieved it must be maintained.",
+      "keywords": [
+        "externalize the story",
+        "hold the pattern",
+        "social retelling"
+      ],
+      "behavioral_axis": "Fixes the realized narrative and shares it with the group.",
+      "shadow_axis": "Locks into an early version and resists better stories.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "64.5": {
+      "line": 5,
+      "hd_title": "Rationalization",
+      "hd_quote": "Retrospective clarity that can be applied to others.",
+      "keywords": [
+        "projected realization",
+        "abstract teaching",
+        "resolving other people’s confusion"
+      ],
+      "behavioral_axis": "Turns its own ‘before completion’ into guidance for the collective.",
+      "shadow_axis": "Explains too soon → audience still confused.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "64.6": {
+      "line": 6,
+      "hd_title": "Completion",
+      "hd_quote": "The understanding that confusion will always precede realization.",
+      "keywords": [
+        "roof-level abstract wisdom",
+        "accept cyclical confusion",
+        "mutate when ready"
+      ],
+      "behavioral_axis": "Models ease with the whole cycle → others relax into their confusion.",
+      "shadow_axis": "Detached: uses ‘that’s just the process’ to avoid clarity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

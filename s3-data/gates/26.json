@@ -1,0 +1,206 @@
+{
+  "id": "gate.26",
+  "hexagram": "hx26",
+  "center": "Ego/Heart",
+  "circuit": "Tribal / Ego",
+  "programming_partner": "gate.45",
+  "polarity": {
+    "opposite_on_wheel": "gate.45"
+  },
+  "themes": [
+    "salesmanship & influence (26–44 Surrender)",
+    "memory as leverage",
+    "integrity vs manipulation",
+    "tribal commerce & persuasion",
+    "rest cycles of the Ego motor"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "26.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "A Bird in the hand",
+        "hd_quote": "The ability to enjoy the dreams engendered by accomplishment in order to avoid delusion of unlikely potential."
+      },
+      "interpretation": {
+        "keywords": [
+          "pragmatic ego",
+          "bank wins",
+          "recuperation"
+        ],
+        "behavioral_axis": "Builds confidence by banking real wins; protects energy with rest and realistic expectations.",
+        "shadow_axis": "Coasts on past success; entitlement after a win."
+      },
+      "relationship_needs": {
+        "needs_energy_respect": true,
+        "rejects_micromanagement": true,
+        "prefers_clear_targets": true
+      },
+      "group_role": "closer who paces the team’s energy",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "26.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Lessons of History",
+        "hd_quote": "The energy and depth of reflection to learn from the past in anticipation of the future."
+      },
+      "interpretation": {
+        "keywords": [
+          "seen & judged",
+          "receipts",
+          "reputation"
+        ],
+        "behavioral_axis": "Learns public accountability; reputation management through truthful tracking.",
+        "shadow_axis": "Paper-tiger bravado; gets ‘found out’ without records."
+      },
+      "relationship_needs": {
+        "needs_transparency": true,
+        "keeps_receipts": true,
+        "rejects_spin_without_facts": true
+      },
+      "group_role": "historian-seller / credibility builder",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "26.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Influence",
+        "hd_quote": "The ability, once prepared, to gather support."
+      },
+      "interpretation": {
+        "keywords": [
+          "trial-and-error technique",
+          "coalition building",
+          "pitch timing"
+        ],
+        "behavioral_axis": "Iterates a persuasive craft and mobilizes backing when conditions are right.",
+        "shadow_axis": "Manipulative tactics; burned trust through shortcuts."
+      },
+      "relationship_needs": {
+        "needs_room_for_iterations": true,
+        "prefers_prepared_moments": true,
+        "rejects_constant_pressure": true
+      },
+      "group_role": "campaigner / support wrangler",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "26.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Censorship",
+        "hd_quote": "The alteration of memory through elimination."
+      },
+      "interpretation": {
+        "keywords": [
+          "selective disclosure",
+          "edit the record",
+          "context control"
+        ],
+        "behavioral_axis": "Shapes narrative by pruning details; practices strategic discretion.",
+        "shadow_axis": "Omission that erodes trust; ‘something’s missing’ aura."
+      },
+      "relationship_needs": {
+        "needs_confidentiality": true,
+        "prefers_controlled_exposure": true,
+        "rejects_forced_disclosure": true
+      },
+      "group_role": "editor of the tribal story",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "26.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Adaptability",
+        "hd_quote": "The power of memory which maximizes the potential of the ego to attract others."
+      },
+      "interpretation": {
+        "keywords": [
+          "magnetic pitch",
+          "environmental tuning",
+          "brand custodian"
+        ],
+        "behavioral_axis": "Reads the room and adjusts the message to maximize buy-in.",
+        "shadow_axis": "Stubborn method; resistance to adjusting technique."
+      },
+      "relationship_needs": {
+        "needs_right_audience": true,
+        "expects_clear_requests": true,
+        "rejects_last_minute_pivots": false
+      },
+      "group_role": "head of messaging / rainmaker",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "26.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "Authority",
+        "hd_quote": "The natural attainment of influence justified by the correctness of actions."
+      },
+      "interpretation": {
+        "keywords": [
+          "earned authority",
+          "right place/right time",
+          "ego restraint"
+        ],
+        "behavioral_axis": "Holds fire until correctness is clear; then acts and embodies authority.",
+        "shadow_axis": "Symbolic authority with little substance; aloofness."
+      },
+      "relationship_needs": {
+        "needs_long_view": true,
+        "prefers_low_drama": true,
+        "rejects_short_term_demands": true
+      },
+      "group_role": "standard-bearer / exemplar",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Interpretations are original behavioral mappings."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "gate.17",
+  "hexagram": "hx17",
+  "name": "Following",
+  "center": "Ajna",
+  "circuit": "Collective / Understanding",
+  "channel": "17-62 (Acceptance)",
+  "programming_partner": "gate.18",
+  "polarity": {
+    "opposite_on_wheel": "gate.18"
+  },
+  "themes": [
+    "opinions and conceptualization",
+    "organizing formulas for expression",
+    "student–teacher dynamic",
+    "interdependence and hierarchy",
+    "service before rulership"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "17.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Openness",
+        "hd_quote": "The energy to sustain a broad spectrum of stimuli."
+      },
+      "interpretation": {
+        "keywords": [
+          "many opinions",
+          "baseline openness",
+          "wide sampling"
+        ],
+        "behavioral_axis": "Collects diverse inputs; forms many preliminary opinions.",
+        "shadow_axis": "Aesthetic bias; only entertains pleasing subjects and ignores the rest."
+      },
+      "relationship_needs": {
+        "needs_space_for_exploration": true,
+        "prefers_variety_over_rigidity": true,
+        "rejects_forced_focus": true
+      },
+      "group_role": "broad-scan opinion sampler",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "17.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "Discrimination",
+        "hd_quote": "The benefit of associations based on highest values."
+      },
+      "interpretation": {
+        "keywords": [
+          "value-based filtering",
+          "projection hotspot",
+          "who-to-follow sense"
+        ],
+        "behavioral_axis": "Aligns with high-value people and ideas; filters noise.",
+        "shadow_axis": "Projects superiority; tries to impose opinions rather than serve."
+      },
+      "relationship_needs": {
+        "seeks_high_values_alignment": true,
+        "needs_respect_for_discernment": true,
+        "avoids_coercive_environments": true
+      },
+      "group_role": "curator of credible opinions",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "17.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Understanding",
+        "hd_quote": "The awareness that the best road is not necessarily the most interesting."
+      },
+      "interpretation": {
+        "keywords": [
+          "toward detail",
+          "proof-seeking",
+          "experiment-ready"
+        ],
+        "behavioral_axis": "Moves opinions toward substantiating detail for testing.",
+        "shadow_axis": "Shortcutting details; weakens the case and blocks experimentation."
+      },
+      "relationship_needs": {
+        "requires_time_for_details": true,
+        "partners_respect_due_diligence": true,
+        "resists_pressure_to_rush": true
+      },
+      "group_role": "detail-anchored concept refiner",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "17.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "The Personnel manager",
+        "hd_quote": "The ability to probe and discover the underlying motivation and resources of those who wish to follow."
+      },
+      "interpretation": {
+        "keywords": [
+          "organizer",
+          "placement logic",
+          "resource mapping"
+        ],
+        "behavioral_axis": "Understands people’s motives and places them within the pattern.",
+        "shadow_axis": "Over-accepts followers; susceptibility to manipulation or misuse."
+      },
+      "relationship_needs": {
+        "needs_trust_in_placement": true,
+        "prefers_clear_roles": true,
+        "rejects_hidden_agendas": true
+      },
+      "group_role": "organizer / people-and-resources mapper",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "17.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "No man is an island",
+        "hd_quote": "The recognition, however understood, that there is no end to hierarchies."
+      },
+      "interpretation": {
+        "keywords": [
+          "interdependence",
+          "hierarchical awareness",
+          "systems thinking"
+        ],
+        "behavioral_axis": "Sees nested hierarchies; leverages networks to propagate sound opinions.",
+        "shadow_axis": "Becomes politicized or dependent on status; groupthink."
+      },
+      "relationship_needs": {
+        "values_mutual_support": true,
+        "needs_role_clarity": true,
+        "rejects_isolationism": true
+      },
+      "group_role": "connector within layered systems",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    },
+    {
+      "id": "17.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Bodhisattva",
+        "hd_quote": "Perfected following, one with and the same as perfected leading."
+      },
+      "interpretation": {
+        "keywords": [
+          "counsel when asked",
+          "vision of organization",
+          "servant-leader"
+        ],
+        "behavioral_axis": "Embodies service so fully that following and leading merge.",
+        "shadow_axis": "Withholds opinions unless implementation is assured; can appear aloof or arrogant."
+      },
+      "relationship_needs": {
+        "responds_to_clear_requests": true,
+        "needs_implementable_context": true,
+        "rejects_empty_theorizing": true
+      },
+      "group_role": "senior advisor / pattern steward",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "quotes-verified"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "quotes-verified",
+    "provenance": "Line titles and hd_quote sentences are verbatim (<25 words) from Ra Uru Hu’s Line Companion (Archive.org). Center/channel/circuit confirmed in the official Complete Rave I’Ching (Jovian Archive)."
+  }
+}

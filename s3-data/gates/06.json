@@ -1,0 +1,206 @@
+{
+  "id": "gate.6",
+  "hexagram": "hx06",
+  "center": "Solar Plexus",
+  "circuit": "Tribal / Defense",
+  "programming_partner": "gate.36",
+  "polarity": {
+    "opposite_on_wheel": "gate.36"
+  },
+  "themes": [
+    "friction in intimacy",
+    "emotional boundaries (barriers/pH)",
+    "advance & withdrawal",
+    "bonding or not",
+    "conflict as engine of growth"
+  ],
+  "fear": null,
+  "lines": [
+    {
+      "id": "6.1",
+      "line_number": 1,
+      "classical": {
+        "hd_title": "Retreat",
+        "hd_quote": "The very first lesson of this hexagram is to wait. It is about retreat. Wait and see."
+      },
+      "interpretation": {
+        "keywords": [
+          "pause for clarity",
+          "resource protection",
+          "baseline boundaries"
+        ],
+        "behavioral_axis": "Begins intimacy by waiting, assessing odds, and conserving energy.",
+        "shadow_axis": "Reads patience as weakness; over-withdraws or ignores true risk."
+      },
+      "relationship_needs": {
+        "needs_time_for_clarity": true,
+        "rejects_pressure": true,
+        "needs_safe_boundaries": true
+      },
+      "group_role": "intimacy sentinel / early-warning",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "6.2",
+      "line_number": 2,
+      "classical": {
+        "hd_title": "The Guerilla",
+        "hd_quote": "The sensitivity to find the weakest point in a conflict and to exploit it emotionally."
+      },
+      "interpretation": {
+        "keywords": [
+          "advance/withdrawal wave",
+          "pressure-tested timing",
+          "tactical contact"
+        ],
+        "behavioral_axis": "Push–pull tactician; moves in or out at the critical moment.",
+        "shadow_axis": "Blunders into conflict; on/off pattern confuses allies."
+      },
+      "relationship_needs": {
+        "accepts_on_off_cycles": true,
+        "no_shame_for_withdrawal": true,
+        "needs_invitation_not_management": true
+      },
+      "group_role": "push–pull tactician",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "6.3",
+      "line_number": 3,
+      "classical": {
+        "hd_title": "Allegiance",
+        "hd_quote": "The ability to secure support and create strength out of a weak position."
+      },
+      "interpretation": {
+        "keywords": [
+          "bonds made & broken",
+          "adaptive fertility",
+          "re-aligning loyalties"
+        ],
+        "behavioral_axis": "Brokers bonds under stress; learns through making/breaking commitments.",
+        "shadow_axis": "Leaves scars when breaking ties; judged as unreliable."
+      },
+      "relationship_needs": {
+        "partners_must_handle_course_changes": true,
+        "needs_room_to_realign": true,
+        "values_results_over_appearances": true
+      },
+      "group_role": "bond broker / crisis aligner",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": false,
+        "is_disruptive_on_purpose": true,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "6.4",
+      "line_number": 4,
+      "classical": {
+        "hd_title": "Triumph",
+        "hd_quote": "A position of natural and unchallengeable power."
+      },
+      "interpretation": {
+        "keywords": [
+          "dominant emotional field",
+          "broadcast influence",
+          "lead-through-presence"
+        ],
+        "behavioral_axis": "Stabilizes others by broadcasting steady emotional leadership.",
+        "shadow_axis": "Steamrolls dissent; confuses dominance with resolution."
+      },
+      "relationship_needs": {
+        "needs_trust_in_emotional_leadership": true,
+        "rejects_subtle_undermining": true,
+        "prefers_consensus_after_signal": true
+      },
+      "group_role": "dominant emotional field / stabilizer",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "6.5",
+      "line_number": 5,
+      "classical": {
+        "hd_title": "Arbitration",
+        "hd_quote": "The faith derived from analytical diligence and emotional control that permits a higher authority to judge a conflict."
+      },
+      "interpretation": {
+        "keywords": [
+          "mediator",
+          "time-based clarity",
+          "projection management"
+        ],
+        "behavioral_axis": "Holds space until time reveals fair resolution; manages projections.",
+        "shadow_axis": "Plays savior; takes on conflicts that time alone should decide."
+      },
+      "relationship_needs": {
+        "needs_clear_expectation_boundaries": true,
+        "needs_time_over_immediacy": true,
+        "rejects_blame_for_outcomes": true
+      },
+      "group_role": "arbiter / mediator",
+      "flags": {
+        "is_sensitive_to_criticism": true,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    },
+    {
+      "id": "6.6",
+      "line_number": 6,
+      "classical": {
+        "hd_title": "The Peacemaker",
+        "hd_quote": "I know that I have to have children, but in what kind of world will they live?"
+      },
+      "interpretation": {
+        "keywords": [
+          "world-level concern",
+          "legacy orientation",
+          "collective peacemaking"
+        ],
+        "behavioral_axis": "Seeks conditions for lasting peace; thinks beyond personal intimacy.",
+        "shadow_axis": "Becomes aloof; disengages from present bonds in favor of ideals."
+      },
+      "relationship_needs": {
+        "needs_shared_mission": true,
+        "needs_long_horizon": true,
+        "rejects_short_term_drama": true
+      },
+      "group_role": "collective peacemaker / future-conditions architect",
+      "flags": {
+        "is_sensitive_to_criticism": false,
+        "stabilizes_group_field": true,
+        "is_disruptive_on_purpose": false,
+        "requires_respect_for_autonomy": true
+      },
+      "status": "provisional"
+    }
+  ],
+  "meta": {
+    "version": "1.3",
+    "last_updated": "2025-10-29",
+    "status": "provisional",
+    "provenance": "classical.hd_title and classical.hd_quote are verbatim (<25 words) from Ra Uru Hu's Line Companion (Archive.org). Programming partner from standard opposite-wheel pairs."
+  }
+}

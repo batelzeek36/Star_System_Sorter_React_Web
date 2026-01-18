@@ -1,0 +1,109 @@
+Return **JSON only** for Human Design Gate 1.
+
+CRITICAL CITATION REQUIREMENTS (NON-NEGOTIABLE):
+- You MUST find exact page numbers or specific sections (e.g., "Gate 1, Lines 1-6", "Chapter 3, pp. 45-47")
+- You MUST extract actual quotes ≤25 words from the source material
+- You MUST include edition information (e.g., "2nd Edition", "Revised Edition", "1st Edition")
+- You MUST include working URLs when available
+- Only write "unknown" if the source is genuinely inaccessible or doesn't exist
+- DO NOT dump URLs outside the JSON structure - parse them into the citations/sources arrays with full metadata
+- If you find sources but can't extract metadata, that response is REJECTED - dig deeper
+- Each star system alignment needs 2-3 sources with FULL metadata (not just URLs)
+
+Include:
+- HD/Gene Keys/I Ching core meanings with FULL citations (page numbers, editions, quotes)
+- Best 4–6 ancient parallels total (Egyptian, Chinese, Vedic, Indigenous, Greek, Sumerian) with FULL citations
+- 3–5 star system alignments with confidence + evidence_type, 2–3 sources each with FULL metadata
+- All quotes must be ≤25 words and extracted from actual sources
+- All page/section numbers must be specific (not "unknown" unless truly unavailable)
+
+STAR SYSTEMS:
+- Sirius (teachers, guardians, Sirian-Christos)
+- Pleiades (nurturers, artists, empaths)
+- Orion Light/Osirian (historians, Egyptian mystery schools, Thoth)
+- Arcturus (engineers, healers, geometric consciousness)
+- Andromeda (explorers, iconoclasts, freedom)
+- Lyra (primordial builders, feline beings, instinct)
+- Draco (power, will, hierarchy - disputed)
+- Zeta Reticuli (analysts, experimenters, detachment)
+
+Output (JSON only):
+{ 
+  "gate": 1,
+  "gate_name":"…",
+  "hd_meaning":"…",
+  "gene_keys": { "shadow":"…","gift":"…","siddhi":"…" },
+  "i_ching_parallel": { "hexagram":1,"name":"…","meaning":"…","relevance":"…" },
+  "citations": {
+    "primary": [
+      { 
+        "title":"The Rave I'Ching",
+        "author":"Ra Uru Hu",
+        "edition":"MUST BE SPECIFIC (e.g., '2nd Edition')",
+        "year":1994,
+        "page_or_section":"MUST BE SPECIFIC (e.g., 'Gate 1, pp. 23-25')",
+        "url":"MUST INCLUDE IF AVAILABLE",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words"
+      }
+    ],
+    "secondary": [
+      { 
+        "title":"Gene Keys",
+        "author":"Richard Rudd",
+        "edition":"MUST BE SPECIFIC",
+        "year":2009,
+        "page_or_section":"MUST BE SPECIFIC",
+        "url":"MUST INCLUDE IF AVAILABLE",
+        "quote":"MUST BE ACTUAL QUOTE ≤25 words"
+      }
+    ]
+  },
+  "ancient_wisdom_connections":[ 
+    { 
+      "source_type":"egyptian|chinese|vedic|indigenous|greek|sumerian",
+      "text":"Emerald Tablets|I Ching|Rig Veda|…",
+      "author":"MUST BE SPECIFIC",
+      "edition":"MUST BE SPECIFIC (e.g., 'Wilhelm/Baynes translation, 3rd Edition')",
+      "year":1234,
+      "connection":"Specific archetype parallel in ≤2 sentences",
+      "quote":"MUST BE ACTUAL QUOTE ≤25 words",
+      "page_or_section":"MUST BE SPECIFIC (e.g., 'Hexagram 1, Line 1')",
+      "url":"MUST INCLUDE IF AVAILABLE"
+    }
+  ],
+  "star_system_alignments":[ 
+    { 
+      "system":"Sirius|Pleiades|Orion Light|Arcturus|Andromeda|Lyra|Draco|Zeta",
+      "confidence":"high|medium|low|speculative",
+      "evidence_type":"explicit|thematic|cross_cultural|inferred",
+      "primary_rationale":"2-3 sentences tying Gate 1 essence to this system's signature",
+      "ancient_support":["…","…"],
+      "modern_support":["…","…"],
+      "cross_cultural_pattern":"… or 'unknown'",
+      "sources":[
+        { 
+          "title":"MUST BE SPECIFIC",
+          "author":"MUST BE SPECIFIC",
+          "edition":"MUST BE SPECIFIC (e.g., '2nd Edition 2005')",
+          "year":1234,
+          "source_type":"ancient|channeled|research|indigenous",
+          "quote":"MUST BE ACTUAL QUOTE ≤25 words",
+          "page":"MUST BE SPECIFIC (e.g., 'Chapter 5, pp. 78-80')",
+          "url":"MUST INCLUDE IF AVAILABLE",
+          "disputed":false
+        }
+      ]
+    }
+  ],
+  "mind_blowing_connections":[ "…" ],
+  "contradictions":[ "…" ],
+  "notes":"…"
+}
+
+QUALITY CHECK BEFORE SUBMITTING:
+- ✅ Do all citations have specific page numbers or sections?
+- ✅ Do all citations have actual quotes (not "unknown")?
+- ✅ Do all citations have edition information?
+- ✅ Are URLs included where available?
+- ✅ Does each star system alignment have 2-3 sources with FULL metadata?
+- ❌ If any answer is NO, the response is REJECTED - research deeper

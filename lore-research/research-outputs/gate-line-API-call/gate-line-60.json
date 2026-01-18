@@ -1,0 +1,84 @@
+{
+  "gate": 60,
+  "gate_name": "",
+  "lines": {
+    "60.1": {
+      "line": 1,
+      "hd_title": "Acceptance",
+      "hd_quote": "The ability to maintain inner harmony when confronted by external limitations.",
+      "keywords": [
+        "foundational acceptance",
+        "calm under constraint",
+        "mutate only in pulse"
+      ],
+      "behavioral_axis": "Holds steady in limitation, trusting the mutative pulse.",
+      "shadow_axis": "Restless melancholy when limitation is not accepted.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "60.2": {
+      "line": 2,
+      "hd_title": "Decisiveness",
+      "hd_quote": "The understanding of the nature of limitation.",
+      "keywords": [
+        "projects ‘I can handle limits’",
+        "timed opportunity-taking",
+        "pressure management"
+      ],
+      "behavioral_axis": "Shows others how to accept restraints to seize openings.",
+      "shadow_axis": "Ignores limits for ego gratification → predictable suffering.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "60.3": {
+      "line": 3,
+      "hd_title": "Conservatism",
+      "hd_quote": "Enlightened self-interest that naturally handles restrictions and limitations, ensuring identity and security.",
+      "keywords": [
+        "trial-and-error with limits",
+        "habitual structures",
+        "self-protective mutation"
+      ],
+      "behavioral_axis": "Tests/breaks bonds to discover a workable limitation.",
+      "shadow_axis": "Gets addicted to specific limits; no mutation.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "60.4": {
+      "line": 4,
+      "hd_title": "Resourcefulness",
+      "hd_quote": "It lies in being able to release oneself from the pressure to mutate.",
+      "keywords": [
+        "transpersonal acceptance",
+        "wait-for-3 awareness",
+        "ease in limitation"
+      ],
+      "behavioral_axis": "Knows mutation will come → relaxes the field.",
+      "shadow_axis": "Over-relaxation → complacency, no movement.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "60.5": {
+      "line": 5,
+      "hd_title": "Leadership",
+      "hd_quote": "The awareness that the destruction of the old limitations simply creates new ones.",
+      "keywords": [
+        "projected leader",
+        "guides others through limits",
+        "realistic mutator"
+      ],
+      "behavioral_axis": "Teaches that mutation replaces, not removes, limitation.",
+      "shadow_axis": "Leads people to ‘break’ limits that only regenerate.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "60.6": {
+      "line": 6,
+      "hd_title": "Rigidity",
+      "hd_quote": "The intuitive intellect to recognize when absolute rigidity is essential.",
+      "keywords": [
+        "roof-level restraint",
+        "necessary severity",
+        "mutation only when real"
+      ],
+      "behavioral_axis": "Holds the line so mutation is authentic, not premature.",
+      "shadow_axis": "Unbearable, chronic restraint → depression.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

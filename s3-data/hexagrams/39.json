@@ -1,0 +1,173 @@
+{
+  "id": "hx39",
+  "number": 39,
+  "unicode_hexagram": "䷦",
+  "name": "Obstruction / Limping (蹇, Jiǎn)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+  "core_meaning": {
+    "legge_1899_public_domain": "In (the state indicated by) ATien advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet may overcome their evil, and at least it will help to silence their slanderous tongues. Line 5 is weak, and its subject is the proper correlate of the strong 2. They might meet openly; but for the separation and disunion that mark the time. A casual, as it were a stolen, inter view, as in a bye-lane or passage, however will be useful, and may lead on to a better understanding. Line 3 is weak, where it ought to be strong, Its correlate, how ever, in 6 is strong, and the relation between them might seem what it ought to be. But the weak 3 is between the strong lines in 2 and 4; and in a time of disunion there ensue the checking and repulsion emblemed in the Text. At the same time the subject of line 6 inflicts on that of 3 the punishments which are mentioned. It is thus bad for 3 at first, but we are told that in the end it will be well with him; and this will be due to the strength of the sixth line. The conclusion grows out of a conviction in the mind of the author that what is right and good is destined to triumph over what is wrong and bad. Disorder shall in the long run give place to order, and disunion to union. Line 4 has no proper correlate, and might seem to be solitary. But, as we saw on line 1, in this hexagram, correlates of the same class help each other. Hence the subjects of 4 and 1, meeting together, work with good will and success. The place of 5 is odd, but the line itself is weak, so that there might arise occasion for repentance. But the strong 2 is a proper correlate to the weak 5. Five being the sovereign's place, the sub ject of 2 is styled the sovereign’s relative, of the same surname with the great man. (In these circumstances), with firmness and correctness, there will be good fortune. 1. From the first line, divided, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise. 2. The second line, divided, shows the minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage. 3. The third line, undivided, shows its subject advancing, (but only) to (greater) difficulties. Fie remains stationary, and returns (to his former associates). 4. The fourth line, divided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above). 5. The fifth line, undivided, shows its subject struggling with the greatest difficulties, while friends are coming to help him. 6. The topmost line, divided, shows its subject going forward, (only to increase) the difficulties, with him, and head of some branch of the descendants of the royal house.. It is as easy for 5, so supported, to deal with the disunion of the time, as to bite through a piece of skin. Line 6 is an even place, and yet the line is strong;—what can its subject effect ? He looks at 3, which, as weak, is a proper correlate; but he looks with the evil eye of disunion. The subject of 3 appears no better than a filthy pig, nor more real than an impossible carriage-load of ghosts. He bends his bow against him, but he unbends it, discovering a friend in 3, as 1 did in 4, and 5 in 2. He acts and with good luck, comparable to the falling rain, which results from the happy union of the yang and yin in nature. while his remaining stationary will be (productive of) great (merit). There will be good fortune, and it will be advantageous to meet with the great man. XXXIX. Wien is the symbol for incompetency in the feet and legs, involving difficulty in walking; hence it is used in this hexa gram to indicate a state of the kingdom which makes the government of it an arduous task. How this task may be successfully performed, now by activity on the part of the ruler, and now by a discreet inactivity:—this is what the figure teaches, or at least gives hints about. For the development of the meaning of the symbolic character from the structure of the lineal figure, see Appendixes I and II. The Thwan seems to require three things—attention to place, the presence of the great man, and the firm observance of cor rectness—in order to cope successfully with the difficulties of the situation. The first thing is enigmatically expressed, and the lan guage should be compared with what we find in the Thwan of hexagrams 2 and 40. Referring to Figure 2, in Plate III, we find that, according to Wan’s arrangement of the trigrams, the south west is occupied by Ivhwan ( . i, and the north-east by Afan (in =“)■ The former represents the champaign country; the latter, the mountainous region. The former is easily traversed and held; the latter, with difficulty. The attention to place thus becomes transformed into a calculation of circumstances ; those that promise success in an enterprise, which should be taken advan tage of, and those that threaten difficulty and failure, which should be shunned. This is the generally accepted view of this difficult passage. The Khang-hsf editors have a view of their own. I have been myself inclined to find less symbolism in it, and to take the south west as the regions in the south and west of the kingdom, which we know from the Shih were more especially devoted to Wan and his house, while the strength of the kings of Shang lay in the north and east. ‘The idea of “the great man,\" Mencius’s “minister of Heaven/\" is illustrated by the strong line in the fifth place, having for its cor relate the weak line in 2. But favourableness of circumstances and place, and the presence cf the great man do not dispense from the observance of firm correctness. Throughout these essays of the Yi this is always insisted on. THE Yi KING. TEXT.",
+    "normalized_summary": "Serious difficulty. The path forward is blocked and forcing ahead just makes it worse. Pull back toward safer ground and allies (the 'south-west'), seek guidance from real authority or wisdom ('the great man'), and hold to correct conduct. Patient retreat and regrouping invite help and ultimately lead to good fortune; stubborn push-through does not."
+  },
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "From the first SIX, divided, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初六：往蹇，來譽。"
+        }
+      ],
+      "normalized_meaning": "If you try to push ahead right now, you just run into trouble. If you pause and come back instead of forcing it, people will actually respect you for being wise enough to wait.",
+      "keywords": [
+        "do not force progress",
+        "retreat earns respect",
+        "wait for timing",
+        "praise through restraint",
+        "early caution"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "2. The second line, divided, shows the minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六二：王臣蹇蹇，匪躬之故。"
+        }
+      ],
+      "normalized_meaning": "You’re working through layered hardship for the sake of something larger — loyalty, duty, the one you serve — not ego. The struggle isn’t selfish; it’s service.",
+      "keywords": [
+        "duty under hardship",
+        "service not ego",
+        "loyal endurance",
+        "shared difficulty",
+        "not your fault"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "3. The third line, undivided, shows its subject advancing, (but only) to (greater) difficulties. Fie remains stationary, and returns (to his former associates).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：往蹇，來反。"
+        }
+      ],
+      "normalized_meaning": "Trying to press forward only drags you deeper into obstruction. Turn back and reconnect with your people. Regroup instead of stubbornly charging alone.",
+      "keywords": [
+        "turn back",
+        "rejoin allies",
+        "abort the push",
+        "self-preservation",
+        "course correction"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "4. The fourth line, divided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：往蹇，來連。"
+        }
+      ],
+      "normalized_meaning": "Going forward alone just multiplies the problem. If you stop forcing movement and instead link up with reliable support, you create connection and safety.",
+      "keywords": [
+        "seek alliance",
+        "stop solo pushing",
+        "stability through union",
+        "cautious regrouping",
+        "supported position"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "5. The fifth line, undivided, shows its subject struggling with the greatest difficulties, while friends are coming to help him.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：大蹇，朋來。"
+        }
+      ],
+      "normalized_meaning": "This is peak obstruction. But you’re not abandoned — allies arrive. You attract real assistance by standing in the hard place with integrity.",
+      "keywords": [
+        "critical difficulty",
+        "help arrives",
+        "supportive friends",
+        "leadership under pressure",
+        "aid through integrity"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "6. The topmost line, divided, shows its subject going forward, (only to increase) the difficulties, with him, and head of some branch of the descendants of the royal house.. It is as easy for 5, so supported, to deal with the disunion of the time, as to bite through a piece of skin. Line 6 is an even place, and yet the line is strong;—what can its subject effect ? He looks at 3, which, as weak, is a proper correlate; but he looks with the evil eye of disunion. The subject of 3 appears no better than a filthy pig, nor more real than an impossible carriage-load of ghosts. He bends his bow against him, but he unbends it, discovering a friend in 3, as 1 did in 4, and 5 in 2. He acts and with good luck, comparable to the falling rain, which results from the happy union of the yang and yin in nature. while his remaining stationary will be (productive of) great (merit). There will be good fortune, and it will be advantageous to meet with the great man. XXXIX. Wien is the symbol for incompetency in the feet and legs, involving difficulty in walking; hence it is used in this hexa gram to indicate a state of the kingdom which makes the government of it an arduous task. How this task may be successfully performed, now by activity on the part of the ruler, and now by a discreet inactivity:—this is what the figure teaches, or at least gives hints about. For the development of the meaning of the symbolic character from the structure of the lineal figure, see Appendixes I and II. The Thwan seems to require three things—attention to place, the presence of the great man, and the firm observance of cor rectness—in order to cope successfully with the difficulties of the situation. The first thing is enigmatically expressed, and the lan guage should be compared with what we find in the Thwan of hexagrams 2 and 40. Referring to Figure 2, in Plate III, we find that, according to Wan’s arrangement of the trigrams, the south west is occupied by Ivhwan ( . i, and the north-east by Afan (in =“)■ The former represents the champaign country; the latter, the mountainous region. The former is easily traversed and held; the latter, with difficulty. The attention to place thus becomes transformed into a calculation of circumstances ; those that promise success in an enterprise, which should be taken advan tage of, and those that threaten difficulty and failure, which should be shunned. This is the generally accepted view of this difficult passage. The Khang-hsf editors have a view of their own. I have been myself inclined to find less symbolism in it, and to take the south west as the regions in the south and west of the kingdom, which we know from the Shih were more especially devoted to Wan and his house, while the strength of the kings of Shang lay in the north and east. ‘The idea of “the great man,\" Mencius’s “minister of Heaven/\" is illustrated by the strong line in the fifth place, having for its cor relate the weak line in 2. But favourableness of circumstances and place, and the presence cf the great man do not dispense from the observance of firm correctness. Throughout these essays of the Yi this is always insisted on. THE Yi KING. TEXT.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上六：往蹇，來碩，吉。利見大人。"
+        }
+      ],
+      "normalized_meaning": "If you insist on advancing alone, you just make the obstruction worse. If you halt, hold position, and seek counsel from someone truly capable, you gain real merit and things turn auspicious.",
+      "keywords": [
+        "stop advancing",
+        "merit in restraint",
+        "seek the great person",
+        "good fortune through guidance",
+        "wisdom over force"
+      ]
+    }
+  ],
+  "_meta": {
+    "verification": "legge-1899.sync.v1",
+    "verified_at": "2025-11-03T17:38:32.555826Z",
+    "legge_source": {
+      "index_file": "s3-data/hexagrams/legge-hx.json",
+      "leaf_start": 167,
+      "leaf_end": 170,
+      "page_candidates": [
+        "I",
+        "305",
+        "31",
+        "1",
+        "306",
+        "307",
+        "32",
+        "3",
+        "308",
+        "309",
+        "34",
+        "10",
+        "36",
+        "5"
+      ],
+      "page_confidence": 0.0
+    }
+  }
+}

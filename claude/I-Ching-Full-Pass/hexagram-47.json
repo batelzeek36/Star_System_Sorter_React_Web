@@ -1,0 +1,51 @@
+{
+  "_INSTRUCTIONS": [
+    "Copy COMPLETE Legge text verbatim into `full_text` (Judgment + Lines + Xiang if present).",
+    "Each `lines[i].legge_line_text` is copied verbatim.",
+    "Return exactly six lines (1–6).",
+    "Do not invent or alter punctuation/romanization.",
+    "Legge 1899 only (public domain)."
+  ],
+  "hexagram": 47,
+  "hexagram_name_legge": "Khwan",
+  "source": {
+    "work": "I Ching",
+    "translator": "James Legge",
+    "edition_year": 1899,
+    "public_domain": true
+  },
+  "judgment_text": "In (the condition denoted by) Khwan there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.",
+  "image_text": "(The trigram representing) a marsh, and (below it that for a defile, which has drained the other dry so that there is) no water in it, form Khwan. The superior man, in accordance with this, will sacrifice his life in order to carry out his purpose.",
+  "addendum": {
+    "type": "Thwan_Commentary",
+    "text": "1. In Khwan (we see) the strong (lines) covered and obscured (by the weak).\n\n2. We have in it (the attribute of) perilousness going on to that of satisfaction. Who is it but the superior man that, though straitened, still does not fail in making progress to his proper end ?\n\n' For the firm and correct, the (really) great man, there will be good fortune: '—this is shown by the central positions of the strong (lines).\n\n' If he make speeches, his words cannot be made good: '— to be fond of arguing or pleading is the way to be reduced to extremity,"
+  },
+  "full_text": "XLVII. The Khwan Hexagram.\n\nIn (the condition denoted by) Khwan there may (yet be) progress and success. For the firm and correct, the (really) great man, there will be good fortune. He will fall into no error. If he make speeches, his words cannot be made good.\n\n1. The first line, divided, shows its subject with bare buttocks straitened under the stump of a tree. He enters a dark valley, and for three years has no prospect (of deliverance).\n\n2. The second line, undivided, shows its subject straitened amidst his wine and viands, There come to him anon the red knee-covers (of the ruler). It will be well for him (to maintain his sincerity as) in sacrificing. Active operations (on his part) will lead to evil, but he will be free from blame.\n\n3. The third line, divided, shows its subject straitened before a (frowning) rock. He lays hold of thorns. He enters his palace, and does not see his wife, There will be evil.\n\n4. The fourth line, undivided, shows its subject proceeding very slowly (to help the subject of the first line), who is straitened by the carriage adorned with metal in front of him. There will be occasion for regret, but the end will be good.\n\n5. The fifth line, undivided, shows its subject with his nose and feet cut off. He is straitened by (his ministers in their) scarlet aprons. He is leisurely in his movements, however, and is satisfied. It will be well for him to be (as sincere) as in sacrificing (to spiritual beings).\n\n6. The sixth line, divided, shows its subject straitened, as if bound with creepers; or in a high and dangerous position, and saying (to himself), ' If I move, I shall repent it.' If he do repent of former errors, there will be good fortune in his going forward.\n\n(The trigram representing) a marsh, and (below it that for a defile, which has drained the other dry so that there is) no water in it, form Khwan. The superior man, in accordance with this, will sacrifice his life in order to carry out his purpose.\n\n1, ' He enters a dark valley: '—so benighted is he, and without clear vision.\n\n2. ' He is straitened amidst his wine and viands: '—(but) his position is central, and there will be ground for congratulation.\n\n3. 'He lays hold of thorns: '—(this is suggested by the position of the line) above the strong (line).\n\n' He enters his palace, and does not see his wife; '—this is inauspicious.\n\n4. ' He proceeds very slowly (to help the subject of the first line): '—his aim is directed to (help) that lower (line). Although he is not in his appropriate place, he and that other will (in the end) be together.\n\n5. ' His nose and feet are cut off'—his aim has not yet been gained.\n\n' He is leisurely, however, in his movements, and is satisfied: '—his position is central and (his virtue) is correct.\n\n' It will be well for him to be (as sincere as) in sacrificing: '—so shall he receive blessing.\n\n6. ' He is straitened as if bound with creepers: '— (his spirit and action) are unsuitable.\n\n' (He says), \"If I move, I shall repent of it. And he does repent (of former errors), which leads to good fortune: '—so he (now) goes on.",
+  "lines": [
+    {
+      "line": 1,
+      "legge_line_text": "The first line, divided, shows its subject with bare buttocks straitened under the stump of a tree. He enters a dark valley, and for three years has no prospect (of deliverance)."
+    },
+    {
+      "line": 2,
+      "legge_line_text": "The second line, undivided, shows its subject straitened amidst his wine and viands, There come to him anon the red knee-covers (of the ruler). It will be well for him (to maintain his sincerity as) in sacrificing. Active operations (on his part) will lead to evil, but he will be free from blame."
+    },
+    {
+      "line": 3,
+      "legge_line_text": "The third line, divided, shows its subject straitened before a (frowning) rock. He lays hold of thorns. He enters his palace, and does not see his wife, There will be evil."
+    },
+    {
+      "line": 4,
+      "legge_line_text": "The fourth line, undivided, shows its subject proceeding very slowly (to help the subject of the first line), who is straitened by the carriage adorned with metal in front of him. There will be occasion for regret, but the end will be good."
+    },
+    {
+      "line": 5,
+      "legge_line_text": "The fifth line, undivided, shows its subject with his nose and feet cut off. He is straitened by (his ministers in their) scarlet aprons. He is leisurely in his movements, however, and is satisfied. It will be well for him to be (as sincere) as in sacrificing (to spiritual beings)."
+    },
+    {
+      "line": 6,
+      "legge_line_text": "The sixth line, divided, shows its subject straitened, as if bound with creepers; or in a high and dangerous position, and saying (to himself), ' If I move, I shall repent it.' If he do repent of former errors, there will be good fortune in his going forward."
+    }
+  ],
+  "notes": []
+}

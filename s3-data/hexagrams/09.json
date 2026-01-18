@@ -1,0 +1,149 @@
+{
+  "id": "hx09",
+  "number": 9,
+  "unicode_hexagram": "䷈",
+  "name": "The Small Restraint / Small Accumulation (小畜, Xiǎo Chù)",
+  "component": "I_CHING",
+  "version": "1.0",
+  "last_updated": "2025-10-28",
+
+  "core_meaning": {
+    "legge_1899_public_domain": "Hsiao Ch‘u indicates that (under its conditions) there will be progress and success. (We see) dense clouds, but no rain coming from our borders in the west.",
+    "normalized_summary": "Tension is building but not yet released. Gentle influence, patience, holding back, and gathering resources are favored over force. Power is accumulating in small increments; timing is not fully ripe."
+  },
+
+  "lines": [
+    {
+      "line": 1,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The first NINE, undivided, shows its subject returning and pursuing his own course. What mistake should he fall into? There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "初九：復自道，何其咎，吉。"
+        }
+      ],
+      "normalized_meaning": "Go back to your correct path. Self-correct early and you avoid trouble. There's no blame in returning to what is right.",
+      "keywords": [
+        "self-correction",
+        "return to alignment",
+        "course adjustment",
+        "innocence restored",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 2,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The second NINE, undivided, shows its subject, by the attraction (of the former line), returning (to the proper course). There will be good fortune.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九二：牽復，吉。"
+        }
+      ],
+      "normalized_meaning": "You’re drawn back into alignment — possibly by someone/something that pulls you the right way. Let yourself be guided. This is auspicious.",
+      "keywords": [
+        "being guided back",
+        "cooperative correction",
+        "yielding to right influence",
+        "harmonizing",
+        "good fortune"
+      ]
+    },
+    {
+      "line": 3,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The third NINE, undivided, suggests the idea of a carriage, the strap beneath which has been removed, or of a husband and wife looking on each other with averted eyes.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九三：輿說輻，夫妻反目。"
+        }
+      ],
+      "normalized_meaning": "Structure is under strain. Support systems loosen, relationships polarize, cooperation breaks. Misalignment creates friction and stall-out.",
+      "keywords": [
+        "instability",
+        "tension in partnership",
+        "structural stress",
+        "breakdown of unity",
+        "friction"
+      ]
+    },
+    {
+      "line": 4,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fourth SIX, divided, shows its subject possessed of sincerity. The danger of bloodshed is thereby averted, and his (ground for) apprehension dismissed. There will be no mistake.",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "六四：有孚，血去惕出，无咎。"
+        }
+      ],
+      "normalized_meaning": "Real sincerity disarms escalation. Honest intent calms paranoia and prevents violence. Fear loosens.",
+      "keywords": [
+        "defusing conflict",
+        "sincere intent",
+        "de-escalation",
+        "safety restored",
+        "no blame"
+      ]
+    },
+    {
+      "line": 5,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The fifth NINE, undivided, shows its subject possessed of sincerity, and drawing others to unite with him. Rich in resources, he employs his neighbours (in the same cause with himself).",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "九五：有孚攣如，富以其鄰。"
+        }
+      ],
+      "normalized_meaning": "Trust pulls people together. Shared resources and loyalty create a network. This is leadership through honest cohesion, not domination.",
+      "keywords": [
+        "magnetic trust",
+        "resource sharing",
+        "coalition-building",
+        "mutual benefit",
+        "unifying center"
+      ]
+    },
+    {
+      "line": 6,
+      "translations": [
+        {
+          "translator_id": "legge_1899_public_domain",
+          "text": "The topmost NINE, undivided, shows how the rain has fallen, and the (onward progress) is stayed;—(so) must we value the full accumulation of the virtue (represented by the upper trigram). But a wife (exercising restraint), however firm and correct she may be, is in a position of peril, (and like) the moon approaching to the full; and the check given by that to all the undivided lines cannot be great. … The restraint therefore is small, and in the end there will be ‘progress and success.’",
+          "citation_status": "public_domain"
+        },
+        {
+          "translator_id": "chinese_original",
+          "text": "上九：既雨既處，尚德載，婦貞厲。月幾望，君子征凶。"
+        }
+      ],
+      "normalized_meaning": "Release finally comes (the rain falls), tension settles — but the ability to keep restraining powerful forces is fragile and temporary. Know when to stop pushing. Further aggressive advance is dangerous.",
+      "keywords": [
+        "pressure release",
+        "cycle peak",
+        "limit of control",
+        "risk in overextending",
+        "danger in forcing continuation"
+      ]
+    }
+  ]
+}

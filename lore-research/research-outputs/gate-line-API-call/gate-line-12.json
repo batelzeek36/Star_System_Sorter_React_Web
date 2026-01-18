@@ -1,0 +1,84 @@
+{
+  "gate": 12,
+  "gate_name": "",
+  "lines": {
+    "12.1": {
+      "line": 1,
+      "hd_title": "The Monk",
+      "hd_quote": "Withdrawal that can only be maintained with communal support.",
+      "keywords": [
+        "protective isolation",
+        "wait for the mood",
+        "inner preparation"
+      ],
+      "behavioral_axis": "Holds back expression until inner timing is correct.",
+      "shadow_axis": "Forced socializing; speaking before clarity.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "12.2": {
+      "line": 2,
+      "hd_title": "Purification",
+      "hd_quote": "Purify yourself from all negative forces.",
+      "keywords": [
+        "clean aura before contact",
+        "hermit rigor",
+        "boundary hygiene"
+      ],
+      "behavioral_axis": "Withdraws to cleanse influences before opening.",
+      "shadow_axis": "Angry exile; rejecting all contact.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "12.3": {
+      "line": 3,
+      "hd_title": "Confession",
+      "hd_quote": "The expression of inadequacies in social interaction that leads to self-analysis and caution.",
+      "keywords": [
+        "trial-and-error socializing",
+        "awkward honesty",
+        "learning boundaries"
+      ],
+      "behavioral_axis": "Learns through missteps; builds careful expression.",
+      "shadow_axis": "Self-recrimination; exaggerated self-critique.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "12.4": {
+      "line": 4,
+      "hd_title": "The Prophet",
+      "hd_quote": "The 12.4 is The Prophet, the arousing of the stagnant.",
+      "keywords": [
+        "externalized message",
+        "move the room",
+        "speak to the field"
+      ],
+      "behavioral_axis": "Senses when a group can receive mutation.",
+      "shadow_axis": "Messianic overreach; provoking unrest prematurely.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "12.5": {
+      "line": 5,
+      "hd_title": "The Pragmatist",
+      "hd_quote": "The success of restraint lies in not abandoning the lessons learnt when the phase ends.",
+      "keywords": [
+        "projected caution",
+        "steady social access",
+        "repeatable lessons"
+      ],
+      "behavioral_axis": "Carries forward learned restraint between waves.",
+      "shadow_axis": "Appears endlessly available; over-asked by others.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "12.6": {
+      "line": 6,
+      "hd_title": "Metamorphosis",
+      "hd_quote": "The capacity to mutate and express new social forms.",
+      "keywords": [
+        "future-facing expression",
+        "example over words",
+        "collective mutation"
+      ],
+      "behavioral_axis": "Models the new social pattern through expression.",
+      "shadow_axis": "Resigns to standstill; disengages from the field.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

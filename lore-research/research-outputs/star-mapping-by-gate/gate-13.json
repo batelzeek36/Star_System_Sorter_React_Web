@@ -1,0 +1,278 @@
+{
+  "13.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Listens without surrendering self; protects speaker’s agency."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Creates a clean container for confidences—placement and pacing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Keeps oaths and guards access—loyalty to the told story."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Phase is reception, not authorship."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Risk of collecting secrets as leverage or complying with hush-culture."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Courage to hear hard truths without flinching."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned, soothing presence that invites safe sharing."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private listening, not transmission or protocol yet.",
+      "confidence": 5,
+      "sources": ["gate-line-13.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "13.2": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Holds another’s story without taking it over."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Clarifies scope and boundaries—what is stored, where, and when to speak."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Enforces confidentiality—rank of access and trust."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not yet a storytelling/display line."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Silence can slide into coerced secrecy or doctrine deference."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ethical restraint under pressure to disclose."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Relational attunement steadies the nervous system of the teller."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No explicit teaching/codification yet.",
+      "confidence": 5,
+      "sources": ["gate-line-13.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "13.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim–savior loops emerge when stories are traded for belonging."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Boundary/placement fails—oversharing or misfiling of confidences."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Gossip as status control; clique gatekeeping of information."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Performative retelling eclipses truth."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Secrecy becomes a control vector—dogma and compliance via intel."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Ordeal teaches discernment and ethical containment."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "People-pleasing leaks or distorts the narrative."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—this is trial-and-error containment.",
+      "confidence": 5,
+      "sources": ["gate-line-13.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": []
+    }
+  },
+  "13.4": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Protects sovereignty by negotiating what can be shared."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Builds formats for listening and release—clear intake and timing."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Maintains loyalty and access rules around sensitive history."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Shapes narrative so memory becomes useable culture."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Process can harden into policy that suppresses inconvenient truths."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Models principled disclosure under pressure."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Hospitable forum that calms and includes witnesses."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches confidentiality and release protocol by example.",
+      "confidence": 4,
+      "sources": ["gate-line-13.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "confidentiality-protocol",
+      "keywords": ["intake", "timing", "release"]
+    }
+  },
+  "13.5": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Truth-telling liberates the group from oppressive narratives."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Curates archives, standards, and cadence for what is recorded and told."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Upholds oaths and mission loyalty around the record."
+    },
+    "lyra": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Canon-level storytelling that defines culture."
+    },
+    "orion-dark": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Risk of orthodoxy policing: history as leverage."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Holds integrity when pressured to edit the record."
+    },
+    "pleiades": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Mentoring tone helps communities integrate the past."
+    },
+    "sirius": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Instruction in record-keeping and release—liberation through teaching.",
+      "confidence": 4,
+      "sources": ["gate-line-13.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "story-keeper/archivist",
+      "keywords": ["archive", "standards", "canon"]
+    }
+  },
+  "13.6": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Elder witness frees futures by airing truths at right time."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring norms for containment and disclosure."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Presence can read as gate to history—ranked access."
+    },
+    "lyra": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Mythic narrator—memory becomes collective story."
+    },
+    "orion-dark": {
+      "weight": 0.2,
+      "alignment_type": "shadow",
+      "why": "Canon risks law-over-life—history as dogma."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Role-model courage to revise canon when truth demands."
+    },
+    "pleiades": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Focus is standards and truth-telling, not soothing."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal historian signal—teaches the law of memory and release by presence.",
+      "confidence": 4,
+      "sources": ["gate-line-13.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-historian/standard-setter",
+      "keywords": ["canon", "disclosure", "witness"]
+    }
+  }
+}

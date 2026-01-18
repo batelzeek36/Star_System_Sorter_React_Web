@@ -1,0 +1,84 @@
+{
+  "gate": 48,
+  "gate_name": "",
+  "lines": {
+    "48.1": {
+      "line": 1,
+      "hd_title": "Insignificance",
+      "hd_quote": "An instinctive recognition of what is practical and deserves attention.",
+      "keywords": [
+        "foundation of real depth",
+        "practical filter",
+        "patience while the Well fills"
+      ],
+      "behavioral_axis": "Goes inward, sorts what’s actually useful, builds depth quietly.",
+      "shadow_axis": "Feels unseen → judges its own depth as “insignificant.”",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "48.2": {
+      "line": 2,
+      "hd_title": "Degeneracy",
+      "hd_quote": "The awareness that to successfully establish a new form one cannot neglect the most positive attributes.",
+      "keywords": [
+        "projected depth",
+        "protect the pattern",
+        "don’t accommodate bad inputs"
+      ],
+      "behavioral_axis": "Knows the solution is good only if the high-quality parts stay intact.",
+      "shadow_axis": "Fear of inadequacy → lets others degrade the pattern into decadence.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "48.3": {
+      "line": 3,
+      "hd_title": "Incommunicado",
+      "hd_quote": "Symbolized by the 'no-moon' phase where the potential of light is unrecognized, unavailable and unknowable.",
+      "keywords": [
+        "depth not ready yet",
+        "long-term individual process",
+        "visibility gap"
+      ],
+      "behavioral_axis": "Stays with its process even when no one sees or understands it.",
+      "shadow_axis": "Anxiety that its brilliance will stay buried → premature sharing.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "48.4": {
+      "line": 4,
+      "hd_title": "Restructuring",
+      "hd_quote": "The good sense to take advantage of the restriction on short-term activity to assess the situation and restructure for long-term goals.",
+      "keywords": [
+        "externalizing depth",
+        "one-track long-term plan",
+        "use the pause"
+      ],
+      "behavioral_axis": "Uses slow periods to retool systems so the depth can finally be seen.",
+      "shadow_axis": "Resists restructuring → later must do it under pressure anyway.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "48.5": {
+      "line": 5,
+      "hd_title": "Action",
+      "hd_quote": "A natural urge to apply energy to action.",
+      "keywords": [
+        "seductive solutioning",
+        "let’s implement",
+        "collective application"
+      ],
+      "behavioral_axis": "Brings the well’s depth to the public and says, “Let’s do it.”",
+      "shadow_axis": "Pushes action before the depth is mature → others lose trust.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "48.6": {
+      "line": 6,
+      "hd_title": "Self-fulfillment",
+      "hd_quote": "An undiminishable resource.",
+      "keywords": [
+        "roof-level wellspring",
+        "gives and is refilled",
+        "non-inadequate depth"
+      ],
+      "behavioral_axis": "Shares depth and is refueled by the sharing → endless well.",
+      "shadow_axis": "Holds back out of ‘why bother,’ weakening the value loop.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

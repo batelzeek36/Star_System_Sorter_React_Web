@@ -1,0 +1,84 @@
+{
+  "gate": 30,
+  "gate_name": "",
+  "lines": {
+    "30.1": {
+      "line": 1,
+      "hd_title": "Focusing the spark",
+      "hd_quote": "Recognize desire without acting prematurely.",
+      "keywords": [
+        "impulse control",
+        "emotional awareness",
+        "slow ignition"
+      ],
+      "behavioral_axis": "Notices the rise of desire and lets clarity form before committing.",
+      "shadow_axis": "Acts too fast on a mood; burns fuel on the wrong targets.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "30.2": {
+      "line": 2,
+      "hd_title": "Measured appetite",
+      "hd_quote": "Restraint that prevents waste.",
+      "keywords": [
+        "temperance",
+        "resource pacing",
+        "clean boundaries"
+      ],
+      "behavioral_axis": "Channels feelings into sustainable steps and right-sized goals.",
+      "shadow_axis": "Suppresses feelings; loses the motivating heat of true desire.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "30.3": {
+      "line": 3,
+      "hd_title": "Entanglement",
+      "hd_quote": "When desire traps, step back and reassess.",
+      "keywords": [
+        "attachment risk",
+        "overheating",
+        "course correction"
+      ],
+      "behavioral_axis": "Notices when intensity becomes a loop; takes space to reset.",
+      "shadow_axis": "Chases what hurts; confuses intensity with destiny.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "30.4": {
+      "line": 4,
+      "hd_title": "Detachment",
+      "hd_quote": "Hold the feeling; release the outcome.",
+      "keywords": [
+        "non-attachment",
+        "clear seeing",
+        "equanimity"
+      ],
+      "behavioral_axis": "Feels deeply while staying flexible about how it unfolds.",
+      "shadow_axis": "Over-detaches; loses warmth and the heart of the mission.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "30.5": {
+      "line": 5,
+      "hd_title": "Maturity",
+      "hd_quote": "Carry intensity with responsibility.",
+      "keywords": [
+        "emotional stewardship",
+        "devotion",
+        "purposeful heat"
+      ],
+      "behavioral_axis": "Turns passion into consistent practice aligned with values.",
+      "shadow_axis": "Grand passion with poor follow-through; burns allies and bridges.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "30.6": {
+      "line": 6,
+      "hd_title": "The Fates",
+      "hd_quote": "Some fires are destined; ride the wave wisely.",
+      "keywords": [
+        "surrender",
+        "karma/fate",
+        "right timing"
+      ],
+      "behavioral_axis": "Accepts larger forces; chooses skillful participation over control.",
+      "shadow_axis": "Fatalism or melodrama; abdicates responsibility to 'destiny.'",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

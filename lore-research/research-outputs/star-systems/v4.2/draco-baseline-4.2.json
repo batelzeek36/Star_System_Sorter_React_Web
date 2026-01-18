@@ -1,0 +1,573 @@
+{
+  "star_system": "Draco",
+  "version": "4.2",
+  "last_updated": "2025-10-27",
+  "methodology": {
+    "framework": "Comparative mythology + archaeoastronomy + polarity analysis",
+    "academic_foundations": [
+      "Ancient Near Eastern creation epics (Tiamat as primordial dragon/serpent of chaos)",
+      "Classical Greek myth (Ladon, serpent-guardian; heroic dragon-slayer cycles)",
+      "Chinese imperial and cosmological dragon theology (rain, mandate, authority)",
+      "Norse eschatology and heroic cycles (Fáfnir, Níðhöggr, entropy and greed)",
+      "Archaeoastronomy of Draco/Thuban and kingship alignment in Old Kingdom Egypt",
+      "Modern reptilian/Draco narratives linking extraterrestrial control to human power structures (treated as controversial)"
+    ],
+    "source_standards": "Only publisher-backed sources with ISBN or stable imprint (University presses, Simon & Schuster, Routledge, Pearson Addison-Wesley, Nature Publishing Group), and ancient/medieval texts with a named human translator plus a publisher or imprint (Luzac and Company, Loeb Classical Library / Harvard University Press, J. M. Dent & Sons, Penguin Classics, The American-Scandinavian Foundation). Blogs, Wikipedia, fandom wikis, conspiracy forum posts, anonymous/unsigned PDFs, 'channeled' material without a verifiable imprint are forbidden. Every source MUST include: publisher/imprint, year/original_year, source_type (\"ancient\" / \"research\" / \"controversial\"), citation_status (\"locked\" or \"provisional\"), and ALSO: astronomical_component and component_reasoning. Astronomical component codes (v4.2): \"A\" = physically observable / historically attested celestial body or constellation (e.g. Draco/Thuban used for pole alignment); \"B\" = hidden or controversial off-world reptilian bloodline / control narrative (Draco reptilians, shapeshifters, alien intervention); \"G\" = gateway / transit / incarnation pathway (soul-volunteer passages across systems); \"H\" = healing / frequency / restorative current; \"unspecified\" = general dragon archetype, mythic cosmic serpent, guardian serpent, imperial dragon, etc., where no explicit astronomical body is identified. Locked citations provide a ≤25-word direct quote plus locator (page / tablet / lines). Provisional citations provide location_hint + summary when a direct quote/locator cannot safely be reproduced. All sources remain admissible only if they meet imprint / translator rules.",
+    "research_date": "2025-10-27"
+  },
+  "academic_context": {
+    "human_design_foundations": [
+      "I Ching - 3,000+ years of commentary and philology (Wilhelm/Baynes; Legge; Jung)",
+      "64 DNA codons - genetic code work recognized by the 1968 Nobel Prize (Nirenberg, Khorana)",
+      "Kabbalah - systematically studied in Jewish mysticism scholarship (Scholem, Idel)",
+      "Chakra system - examined in Religious Studies / Yoga Studies (Feuerstein)",
+      "Western Astrology - treated as cultural-intellectual history and cosmology (Tarnas)"
+    ],
+    "mathematical_correspondences": [
+      "64 I Ching hexagrams = 64 DNA codons",
+      "Binary yin/yang structure ~ binary base-pair logic (A/T, C/G)"
+    ],
+    "dragon_archetype_axes": [
+      "East Asian dragons: water, rain, mandate of heaven, imperial legitimacy, yang vitality, wisdom",
+      "West/Northern European dragons: greed, hoarding, entropy, world-gnawing chaos, apocalyptic threat"
+    ],
+    "axis_polar_sovereignty_themes": [
+      "Draco (especially Thuban / Alpha Draconis) near the north celestial pole in the 3rd millennium BCE is linked to cosmic axis, eternal circling stars, and royal immortality motifs in Old Kingdom Egypt",
+      "Pole-star symbolism ⇒ axis mundi ⇒ rulership legitimacy and cosmic order"
+    ],
+    "notes": "Draco spans (1) ancient dragon/serpent archetypes in myth and kingship cosmology, (2) archaeoastronomy of the Draco constellation and the former pole star Thuban, and (3) late-20th-century reptilian bloodline control narratives assigning a literal off-world reptilian empire to the Draco star system."
+  },
+  "east_west_duality": "Chinese dragons are framed as benevolent, rain-bringing, wisdom-bearing, and imperially sanctioned embodiments of cosmic order and yang vitality. European and Norse dragons are framed as hoarders, destroyers, and entropy agents: greed, chaos, apocalypse, gnawing at the roots of the world. This cultural polarity mirrors divergent attitudes toward power, nature, sovereignty, and predation.",
+  "characteristics": [
+    {
+      "trait": "Ancient dragon mythology as primordial chaos, cosmic power, and creation combat",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Seven Tablets of Creation (Enuma Elish)",
+          "author": "Anonymous Babylonian",
+          "translator_or_editor": "Leonard William King (translator)",
+          "edition": "Luzac and Company Edition",
+          "year": 1902,
+          "original_year": -1200,
+          "publisher": "Luzac and Company",
+          "url": "https://sacred-texts.com/ane/stc/index.htm",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "locked",
+          "page": "Tablet IV, lines 93-104",
+          "quote": "Then advanced Tiamat and Marduk to the fight. The lord spread out his net and caught her; he drove in the evil wind.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Tiamat is a primordial chaos dragon/serpent in Babylonian cosmogony. She is a cosmic force of disorder, not explicitly mapped to the Draco constellation or any specific star."
+        },
+        {
+          "title": "Dragons: A Natural History",
+          "author": "Karl Shuker",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1995,
+          "original_year": 1995,
+          "publisher": "Simon & Schuster",
+          "url": "https://archive.org/details/dragonsnaturalhi00shuk",
+          "isbn": "0-684-81443-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter 3, comparative dragon mythology section",
+          "summary": "Surveys global dragon lore: dragons stand for primal, uncontrollable forces (floods, storms, royal power, creative/chaotic potency), often predating organized religion.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Analyzes dragons as universal mythic archetypes — cosmic serpents, storm beasts, chaos forces — without claiming a link to the Draco constellation or extraterrestrial reptilian rulers."
+        },
+        {
+          "title": "The Dragon in China and Japan",
+          "author": "Marinus Willem de Visser",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1913,
+          "original_year": 1913,
+          "publisher": "J. Müller",
+          "url": "https://archive.org/details/cu31924021444728",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Introduction and Chapter I (pp. 1–50)",
+          "summary": "Documents dragons as divine water beings and rain controllers in Chinese cosmology, linking them to agricultural survival, imperial mandate, and cosmic order.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Frames dragons as cosmological water-kings, not as literal beings from the Draco star system. This is mythic-imperial symbolism."
+        }
+      ]
+    },
+    {
+      "trait": "Eastern wisdom/rain dragons vs Western chaos/greed dragons",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "The Dragon in China and Japan",
+          "author": "Marinus Willem de Visser",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1913,
+          "original_year": 1913,
+          "publisher": "J. Müller",
+          "url": "https://archive.org/details/cu31924021444728",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Preface and Chapter I, comparative framing of Chinese vs. other dragon types",
+          "summary": "Chinese dragons are portrayed as benevolent rain-bringers, patrons of dynastic legitimacy, and emblems of wisdom and fertility. Their creative force is socially sanctioned.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Positions dragons as cultural embodiments of rightful order (rain, harvest, sovereignty), not star-governed reptilian overlords."
+        },
+        {
+          "title": "Beowulf",
+          "author": "Anonymous (Old English epic)",
+          "translator_or_editor": "R. K. Gordon (translator)",
+          "edition": "J. M. Dent & Sons / E. P. Dutton & Co. Edition",
+          "year": 1923,
+          "original_year": 800,
+          "publisher": "J. M. Dent & Sons; E. P. Dutton & Co.",
+          "url": "https://sacred-texts.com/ang/beo/index.htm",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Dragon episode (approx. lines 2200–2400)",
+          "summary": "In the final act, Beowulf confronts a treasure-hoarding dragon that lays waste to his people after a cup is stolen from its hoard — the dragon is explicitly vengeful, destructive, and avaricious.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "The dragon here is an embodiment of greed and retribution, not a cosmic overseer or extraterrestrial reptilian ruler."
+        },
+        {
+          "title": "An Instinct for Dragons",
+          "author": "David E. Jones",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2000,
+          "original_year": 2000,
+          "publisher": "Routledge",
+          "url": null,
+          "isbn": "0-415-93721-8",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Final chapter on cultural variations and evolutionary psychology",
+          "summary": "Argues humans developed a 'dragon instinct' by synthesizing fear cues from snakes, big cats, and raptors. Notes strong cultural split: Chinese dragons = auspicious imperial order; European dragons = evil chaos.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Explains East/West dragon polarity via evolutionary psychology and culture, not by invoking Draco star beings."
+        }
+      ]
+    },
+    {
+      "trait": "Dragon/serpent as guardian of treasure and sacred cosmic objects",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "Beowulf",
+          "author": "Anonymous (Old English epic)",
+          "translator_or_editor": "R. K. Gordon (translator)",
+          "edition": "J. M. Dent & Sons / E. P. Dutton & Co. Edition",
+          "year": 1923,
+          "original_year": 800,
+          "publisher": "J. M. Dent & Sons; E. P. Dutton & Co.",
+          "url": "https://sacred-texts.com/ang/beo/index.htm",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Lines ~2200–2400",
+          "summary": "The dragon is an ancient hoard-guardian. Its rage over stolen treasure triggers apocalyptic destruction, making the hoard both sacred and dangerous.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Frames dragon as protector of a cursed royal hoard, not tied to specific celestial coordinates."
+        },
+        {
+          "title": "The Library (Bibliotheca)",
+          "author": "Apollodorus of Athens",
+          "translator_or_editor": "J. G. Frazer (translator)",
+          "edition": "Loeb Classical Library Edition",
+          "year": 1921,
+          "original_year": -150,
+          "publisher": "Harvard University Press",
+          "url": "https://www.theoi.com/Text/Apollodorus1.html",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Book 2.5.11 (Hesperides and Ladon)",
+          "summary": "The serpent/dragon Ladon guards Hera’s golden apples in the garden of the Hesperides until Heracles slays it. Later traditions visually associate Ladon with the circumpolar Draco constellation as a guarding serpent.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Ladon is a sacred guardian serpent. Later classical star lore links a dragon/serpent to the Draco constellation, but the text itself focuses on mythic guardianship, not alien control narratives."
+        },
+        {
+          "title": "Python: A Study of Delphic Myth and Its Origins",
+          "author": "Joseph Fontenrose",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1959,
+          "original_year": 1959,
+          "publisher": "University of California Press",
+          "url": null,
+          "isbn": "0-520-30823-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on dragon-combat myths and sacred-site guardianship",
+          "summary": "Compares dragon/serpent guardian myths from Mesopotamia to Greece to Delphi: heroes slay serpent protectors to seize sacred objects, holy spaces, or divine authority.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Treats dragons as threshold guardians of sacred power, not as literal extraterrestrial reptilian dynasts."
+        }
+      ]
+    },
+    {
+      "trait": "Thuban (Alpha Draconis) as pole star and axis of royal alignment",
+      "consensus_level": "high",
+      "ancient_support": "medium",
+      "evidence_type": "inferred",
+      "disputed": false,
+      "polarity": "neutral",
+      "sources": [
+        {
+          "title": "An Introduction to Modern Astrophysics",
+          "author": "Bradley W. Carroll & Dale A. Ostlie",
+          "translator_or_editor": null,
+          "edition": "Second Edition",
+          "year": 2006,
+          "original_year": 1996,
+          "publisher": "Pearson Addison-Wesley",
+          "url": null,
+          "isbn": "0-8053-0402-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on axial precession and changing pole stars",
+          "summary": "Explains that Earth's rotational axis precesses over millennia, causing different stars to become 'North Star' at different eras. Around the 3rd millennium BCE, Alpha Draconis (Thuban) lay close to the north celestial pole.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Thuban in Draco as an actual observed pole star. Draco here is an astronomical constellation used for orientation and royal/architectural alignment, not a reptilian empire."
+        },
+        {
+          "title": "Ancient Egyptian Chronology and the Astronomical Orientation of the Pyramids",
+          "author": "Kate Spence",
+          "translator_or_editor": null,
+          "edition": "Nature Article",
+          "year": 2000,
+          "original_year": 2000,
+          "publisher": "Nature Publishing Group",
+          "url": null,
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Nature 408 (2000): analysis of Old Kingdom pyramid alignment using circumpolar stars",
+          "summary": "Argues Old Kingdom pyramid builders aligned monuments using near-pole circumpolar stars. Discusses how stars in Draco (including Thuban/Alpha Draconis in earlier epochs) inform Egyptian royal axis and cosmic legitimacy.",
+          "astronomical_component": "A",
+          "component_reasoning": "Links Draco/Thuban to earthly kingship and cosmic axis: Pharaoh aligns monuments to the immortal northern stars. This is physical astronomy + rulership symbolism, not reptilian bloodline control."
+        }
+      ]
+    },
+    {
+      "trait": "Chinese dragons as imperial mandate, yang force, and wisdom-bringing rain",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "light",
+      "sources": [
+        {
+          "title": "The Dragon in China and Japan",
+          "author": "Marinus Willem de Visser",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1913,
+          "original_year": 1913,
+          "publisher": "J. Müller",
+          "url": "https://archive.org/details/cu31924021444728",
+          "isbn": null,
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Chapter VI ('Emperors connected with dragons')",
+          "summary": "Documents the Chinese emperor as 'son of the dragon.' The imperial dragon embodies yang force, seasonal rain-bringing power, cosmic legitimacy, and benevolent rulership.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Positions dragon as a sacred political symbol of rightful authority and cosmological harmony, not as an extraterrestrial reptile overlord."
+        },
+        {
+          "title": "The Classic of Mountains and Seas (Shanhaijing)",
+          "author": "Anonymous Chinese compilers",
+          "translator_or_editor": "Anne Birrell (translator)",
+          "edition": "Penguin Classics Edition",
+          "year": 1999,
+          "original_year": -300,
+          "publisher": "Penguin Books",
+          "url": "https://archive.org/details/shanhaijing0001unse",
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Descriptions of dragon kings and water-controlling spirits across regional sections",
+          "summary": "Describes dragon spirits and dragon kings linked to waters, weather, rivers, and wisdom. Dragons are guardians and regulators of regions and natural forces.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Places dragons within terrestrial cosmology as stewards of rain and waterways, elevating them as wise, lawful powers rather than invasive aliens."
+        }
+      ]
+    },
+    {
+      "trait": "Norse/Teutonic dragons: greed, entropy, and apocalyptic corrosion of the world",
+      "consensus_level": "high",
+      "ancient_support": "high",
+      "evidence_type": "direct",
+      "disputed": false,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Poetic Edda: Reginsmál and Fáfnismál",
+          "author": "Anonymous Norse poets",
+          "translator_or_editor": "Henry Adams Bellows (translator)",
+          "edition": "The American-Scandinavian Foundation Edition",
+          "year": 1923,
+          "original_year": 800,
+          "publisher": "The American-Scandinavian Foundation",
+          "url": null,
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Reginsmál / Fáfnismál sections on Fáfnir",
+          "summary": "Fáfnir, consumed by greed for a cursed hoard, turns into a dragon and is slain by Sigurd. The dragon form is greed incarnate.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Greed causes monstrous transformation; dragonhood = corruption. No link to Draco constellation or reptilian alien ancestry."
+        },
+        {
+          "title": "The Poetic Edda: Völuspá and Grímnismál",
+          "author": "Anonymous Norse poets",
+          "translator_or_editor": "Henry Adams Bellows (translator)",
+          "edition": "The American-Scandinavian Foundation Edition",
+          "year": 1923,
+          "original_year": 800,
+          "publisher": "The American-Scandinavian Foundation",
+          "url": null,
+          "isbn": null,
+          "source_type": "ancient",
+          "citation_status": "provisional",
+          "location_hint": "Passages on Níðhöggr gnawing Yggdrasil",
+          "summary": "Níðhöggr is a dragon/serpent that gnaws at the roots of Yggdrasil, the world tree, embodying decay, doom, and the corrosive approach of Ragnarök.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Positions dragon as cosmic entropy eating the world’s foundation, sign of apocalypse, not as extraterrestrial reptilian nobility."
+        }
+      ]
+    },
+    {
+      "trait": "Modern reptilian conspiracy narrative: Draco reptilians controlling human bloodlines (disputed)",
+      "consensus_level": "low",
+      "ancient_support": "none",
+      "evidence_type": "symbolic",
+      "disputed": true,
+      "polarity": "dark",
+      "sources": [
+        {
+          "title": "The Biggest Secret",
+          "author": "David Icke",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1999,
+          "original_year": 1999,
+          "publisher": "Bridge of Love Publications",
+          "url": "https://archive.org/details/biggestsecret00icke",
+          "isbn": "0-9526147-6-6",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters 1–2 on reptilian bloodlines allegedly from Draco",
+          "summary": "Claims shape-shifting reptilian beings from the Draco constellation infiltrated human royal and political bloodlines, secretly controlling global power structures.",
+          "astronomical_component": "B",
+          "component_reasoning": "Asserts Draco as origin point of literal reptilian overlords who control human institutions. This is an extraterrestrial conquest narrative labeled 'B'."
+        },
+        {
+          "title": "Flying Serpents and Dragons: The Story of Mankind's Reptilian Past",
+          "author": "R. A. Boulay",
+          "translator_or_editor": null,
+          "edition": "Revised Edition",
+          "year": 1990,
+          "original_year": 1990,
+          "publisher": "Book Tree",
+          "url": null,
+          "isbn": "1-885395-38-8",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Mesopotamia and genetic manipulation",
+          "summary": "Argues that an ancient reptilian species from space interbred with humans, founding early civilizations and establishing ruling castes.",
+          "astronomical_component": "B",
+          "component_reasoning": "Frames reptilian 'founders' as literal off-world genetic engineers. Retrofits Mesopotamian serpent lore into extraterrestrial Draco origin claims."
+        },
+        {
+          "title": "Blue Blood, True Blood: Conflict and Creation",
+          "author": "Stewart A. Swerdlow",
+          "translator_or_editor": null,
+          "edition": "Third Printing",
+          "year": 2002,
+          "original_year": 2002,
+          "publisher": "Expansions Publishing Company",
+          "url": null,
+          "isbn": "0-9626446-6-8",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Draco-Orion reptilian history and government control",
+          "summary": "Claims reptilian beings from Draco established hierarchical control structures, infiltrated human governments, and engineered bloodlines for domination on Earth.",
+          "astronomical_component": "B",
+          "component_reasoning": "Presents Draco as seat of an extraterrestrial empire that manipulates Earth via bloodline engineering and political capture. This is explicitly a 'B' (hidden off-world control) narrative."
+        }
+      ]
+    }
+  ],
+  "ancient_vs_modern_disconnect": "Ancient and classical sources describe dragons/serpents as (1) primordial chaos beings (Tiamat vs. Marduk); (2) guardians of sacred treasures or thresholds (Ladon, dragon in Beowulf); (3) cosmic forces of rain, mandate, and fertility legitimizing rulers (Chinese dragons); (4) apocalyptic corrupters of the world tree and embodiments of greed (Níðhöggr, Fáfnir). None of these identify dragons as literal extraterrestrial reptilians from the Draco constellation. Separately, archaeoastronomy treats Draco (and specifically Thuban / Alpha Draconis) as a visible circumpolar constellation and former pole star used for orientation and possibly for Egyptian royal/ritual alignment — an axis-of-the-world motif, not a reptilian empire. Only in late-20th-century controversial literature (1990s–2000s) do we see Draco explicitly reframed as the home of shape-shifting reptilian overlords who infiltrate human bloodlines. Under v4.2 this last narrative is isolated as astronomical_component 'B' with consensus_level 'low', disputed true, and ancient_support 'none'.",
+  "disputed_points": [
+    {
+      "claim": "Extraterrestrial reptilian beings from the Draco constellation infiltrated human royal bloodlines, secretly govern Earth, and maintain control through genetic manipulation and shapeshifting.",
+      "supporting_sources": [
+        {
+          "title": "The Biggest Secret",
+          "author": "David Icke",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 1999,
+          "original_year": 1999,
+          "publisher": "Bridge of Love Publications",
+          "url": "https://archive.org/details/biggestsecret00icke",
+          "isbn": "0-9526147-6-6",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters 1–2 ('reptilian origins from Draco', royal bloodlines)",
+          "summary": "Icke alleges a Draco-origin reptilian lineage that interbred into royal and political families and exerts covert planetary control.",
+          "astronomical_component": "B",
+          "component_reasoning": "Positions Draco as the seat of a secret off-world reptilian empire managing Earth via bloodline infiltration."
+        },
+        {
+          "title": "Flying Serpents and Dragons: The Story of Mankind's Reptilian Past",
+          "author": "R. A. Boulay",
+          "translator_or_editor": null,
+          "edition": "Revised Edition",
+          "year": 1990,
+          "original_year": 1990,
+          "publisher": "Book Tree",
+          "url": null,
+          "isbn": "1-885395-38-8",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Chapters on Mesopotamian contact and genetic engineering",
+          "summary": "Boulay reinterprets Mesopotamian serpent gods as literal reptilian extraterrestrials whose interbreeding produced elite bloodlines.",
+          "astronomical_component": "B",
+          "component_reasoning": "Treats serpent/dragon myths as eyewitness records of Draco reptilian colonizers modifying humanity."
+        },
+        {
+          "title": "Blue Blood, True Blood: Conflict and Creation",
+          "author": "Stewart A. Swerdlow",
+          "translator_or_editor": null,
+          "edition": "Third Printing",
+          "year": 2002,
+          "original_year": 2002,
+          "publisher": "Expansions Publishing Company",
+          "url": null,
+          "isbn": "0-9626446-6-8",
+          "source_type": "controversial",
+          "citation_status": "provisional",
+          "location_hint": "Sections on Draco-Orion alliances and control structures",
+          "summary": "Swerdlow claims Draco reptilians and Orion factions engineered hierarchical control systems and inserted themselves into human governance.",
+          "astronomical_component": "B",
+          "component_reasoning": "Frames Draco as headquarters of an interstellar reptilian hierarchy exerting geopolitical control."
+        }
+      ],
+      "counter_evidence": [
+        {
+          "title": "An Introduction to Modern Astrophysics",
+          "author": "Bradley W. Carroll & Dale A. Ostlie",
+          "translator_or_editor": null,
+          "edition": "Second Edition",
+          "year": 2006,
+          "original_year": 1996,
+          "publisher": "Pearson Addison-Wesley",
+          "url": null,
+          "isbn": "0-8053-0402-9",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Sections on constellations, stellar classification, and precession",
+          "summary": "Describes Draco as a constellation of ordinary stars, including Alpha Draconis (Thuban), which once lay near the north celestial pole due to axial precession. Does not report evidence of intelligent reptilian civilizations manipulating Earth.",
+          "astronomical_component": "A",
+          "component_reasoning": "Treats Draco strictly as an observed star pattern. Rejects any claim of Draco being populated by shapeshifting reptilian elites."
+        },
+        {
+          "title": "An Instinct for Dragons",
+          "author": "David E. Jones",
+          "translator_or_editor": null,
+          "edition": "First Edition",
+          "year": 2000,
+          "original_year": 2000,
+          "publisher": "Routledge",
+          "url": null,
+          "isbn": "0-415-93721-8",
+          "source_type": "research",
+          "citation_status": "provisional",
+          "location_hint": "Conclusions on evolutionary psychology of dragon imagery",
+          "summary": "Argues dragon myths emerge from evolved human predator-recognition circuits (snakes, raptors, big cats), not from literal extraterrestrial reptilian dynasties or off-world colonizers.",
+          "astronomical_component": "unspecified",
+          "component_reasoning": "Explains dragon imagery as evolutionary/cultural synthesis, not as historical evidence of Draco reptilian overlords."
+        }
+      ],
+      "consensus": "low"
+    }
+  ],
+  "research_notes": "Under the v4.2 standard, Draco resolves into three simultaneously active but clearly separated strands: (1) Ancient/early-medieval mythic dragons and serpents (Tiamat, Ladon, dragon in Beowulf, Fáfnir, Níðhöggr, Chinese dragon kings). These are high-consensus, high ancient_support, and strongly culture-bound. They are coded with astronomical_component \"unspecified\" because they are cosmic/ritual/imperial serpents, not literal astronomical bodies. (2) Archaeoastronomy and rulership symbolism around Draco/Thuban: Draco is a real circumpolar constellation. Alpha Draconis (Thuban) lay near the north celestial pole in the 3rd millennium BCE. Egyptological/archeoastronomical literature links that region of the northern sky to royal immortality and architectural alignment. These are coded \"A\" because they involve directly observable stars, navigational/architectural function, and cosmic axis-of-rule motifs. (3) Late-20th-/early-21st-century controversial narratives (Icke 1999; Boulay 1990; Swerdlow 2002) that identify Draco as the origin point of sentient reptilian overlords who infiltrate human bloodlines and run Earth through shadow governance. These are coded \"B\" because they assert covert off-world reptilian control, DNA manipulation, and interstellar political hierarchy. That claim is disputed by mainstream astronomy and anthropology, which frame Draco as an ordinary constellation and dragon myths as cultural/evolutionary constructs. There is no ancient textual witness directly linking the Draco constellation to shape-shifting reptilian elites. Consensus for strand (3) is explicitly 'low' and is quarantined under disputed_points.",
+  "bibliography": {
+    "ancient_texts": [
+      "Anonymous Babylonian. The Seven Tablets of Creation (Enuma Elish). Translated by Leonard William King. Luzac and Company, 1902 (original ~1200 BCE). Describes Tiamat, a primordial chaos dragon slain by Marduk.",
+      "Apollodorus of Athens. The Library (Bibliotheca). Translated by J. G. Frazer. Loeb Classical Library. Harvard University Press, 1921 (original ~2nd century BCE). Includes Ladon the serpent/dragon guarding Hera’s golden apples.",
+      "Anonymous (Old English epic). Beowulf. Translated by R. K. Gordon. J. M. Dent & Sons / E. P. Dutton & Co., 1923 (original ~8th century CE). Depicts the treasure-hoarding dragon slain by Beowulf.",
+      "Anonymous Norse Poets. The Poetic Edda (Reginsmál, Fáfnismál, Völuspá, Grímnismál). Translated by Henry Adams Bellows. The American-Scandinavian Foundation, 1923 (oral material ~8th–13th century CE). Fáfnir as greed-born dragon; Níðhöggr gnawing Yggdrasil.",
+      "Anonymous Chinese Compilers. The Classic of Mountains and Seas (Shanhaijing). Translated by Anne Birrell. Penguin Classics, 1999 (original compilation ~3rd century BCE). Describes dragon kings governing waters and regions, tied to rain and wisdom."
+    ],
+    "modern_research": [
+      "de Visser, Marinus Willem. The Dragon in China and Japan. J. Müller, 1913. Documents imperial, rain-bringing, and cosmological aspects of Chinese dragons.",
+      "Fontenrose, Joseph. Python: A Study of Delphic Myth and Its Origins. University of California Press, 1959. ISBN 0-520-30823-9. Comparative study of serpent/dragon guardian myths and heroic dragon-slayer narratives.",
+      "Shuker, Karl. Dragons: A Natural History. Simon & Schuster, 1995. ISBN 0-684-81443-9. Surveys global dragon archetypes, cataloging recurring biological and mythic motifs.",
+      "Jones, David E. An Instinct for Dragons. Routledge, 2000. ISBN 0-415-93721-8. Argues dragon imagery emerges from evolved predator-recognition circuitry and cultural elaboration.",
+      "Carroll, Bradley W., & Ostlie, Dale A. An Introduction to Modern Astrophysics. Second Edition. Pearson Addison-Wesley, 2006 (orig. 1996). ISBN 0-8053-0402-9. Explains axial precession and identifies Alpha Draconis (Thuban) as a former pole star.",
+      "Spence, Kate. \"Ancient Egyptian Chronology and the Astronomical Orientation of the Pyramids.\" Nature, 2000. Nature Publishing Group, 2000. Analyzes Old Kingdom pyramid alignments using circumpolar/pole stars, including Draco-region stars, to ground royal cosmic authority."
+    ],
+    "channeled_sources": [],
+    "controversial_sources": [
+      "Icke, David. The Biggest Secret. Bridge of Love Publications, 1999. ISBN 0-9526147-6-6. Claims Draco-origin reptilian shapeshifters infiltrate human royal bloodlines and governments.",
+      "Boulay, R. A. Flying Serpents and Dragons: The Story of Mankind's Reptilian Past. Book Tree, 1990. ISBN 1-885395-38-8. Argues humanity descends from an ancient reptilian extraterrestrial race.",
+      "Swerdlow, Stewart A. Blue Blood, True Blood: Conflict and Creation. Expansions Publishing Company, 2002. ISBN 0-9626446-6-8. Describes Draco reptilian and Orion factions as hierarchical controllers of Earth."
+    ],
+    "academic_foundations": [
+      "Wilhelm, Richard & Baynes, Cary F. (translators/editors). The I Ching or Book of Changes. Princeton University Press, mid-20th century printings. Provides a yin/yang binary system later mapped to Human Design’s gate logic.",
+      "Nirenberg, Marshall W. & Khorana, Har Gobind. Genetic code elucidation recognized by the 1968 Nobel Prize in Physiology or Medicine; establishes 64-codon structure, paralleling the 64 I Ching hexagrams.",
+      "Scholem, Gershom. Major Trends in Jewish Mysticism. Schocken / Schocken Books (orig. lectures 1941). Explores hierarchical cosmology, angelic authority, and esoteric rulership myths.",
+      "Tarnas, Richard. Cosmos and Psyche: Intimations of a New World View. Viking, 2006. Treats planetary/astrological symbolism as culturally and psychologically meaningful, supporting comparative myth analysis of cosmic sovereignty and apocalypse motifs."
+    ]
+  },
+  "mapping_digest": {
+    "core_themes": [
+      "Survival through dominance hierarchy and power consolidation",
+      "Predator scanning and threat assessment",
+      "Loyalty enforcement and access control",
+      "Strategic resource hoarding and territorial defense",
+      "Survival continuity and fear of collapse",
+      "Hierarchical order and pecking-order maintenance"
+    ],
+    "shadow_themes": [
+      "Paranoid control and power hoarding",
+      "Ruthless elimination of perceived threats",
+      "Greed and apocalyptic entropy (Western dragon archetype)",
+      "Coercive obedience enforcement"
+    ],
+    "quick_rules": [
+      "If the behavior is predator scanning, hierarchical enforcement, loyalty control, survival through dominance, strategic resource hoarding, or tribal fear-based access control, that's Draco.",
+      "If the behavior is emotional co-regulation, nervous system soothing, caretaking panic, or feeding/nurturing others, that's Pleiades, not Draco.",
+      "If the behavior is empire management, coercive control structures at scale, or obedience infrastructure across systems, that's Orion-Dark, not Draco (Draco is tribal/immediate survival, Orion-Dark is empire-scale colonizer control).",
+      "If the behavior is liberation through sacred instruction, higher teaching, cosmic law, or spiritual guidance that frees the captive, that's Sirius, not Draco.",
+      "If the behavior is honorable trial, ordeal, warrior initiation, or earning rank through courage and discipline in service to a higher code, that's Orion-Light, not Draco.",
+      "If the behavior is frequency healing or vibrational uplift, that's Arcturus, not Draco.",
+      "If the behavior is breaking chains, freeing captives, overthrowing domination, or insisting on personal/collective freedom from control, that's Andromeda, not Draco. Draco enforces a perimeter; Andromeda breaks cages.",
+      "If the behavior is aesthetic superiority, artistic mystique, 'we are the refined original pattern,' or legacy pride framed as beauty/lineage rather than force, that's Lyra, not Draco. Draco asserts control through threat and loyalty, not through aesthetic refinement.",
+      "Draco is about survival through power and dominance at the tribal/immediate level, not about emotional safety, empire management, or spiritual teaching."
+    ],
+    "notes_for_alignment": "Score Draco high (0.7–1.0) when the gate.line is about predator scanning, threat assessment, loyalty enforcement, survival through dominance hierarchy, resource hoarding, or fear-based access control at the tribal/immediate level. Score Draco shadow (0.4–0.6) when it's paranoid control, ruthless elimination of threats, greed, or coercive obedience enforcement. Give Draco ~0 when the behavior is emotional caretaking or bonding panic (that's Pleiades), empire-scale coercive control or obedience infrastructure (that's Orion-Dark—Draco is tribal, not imperial), or frequency healing (that's Arcturus). Give Draco ~0 when the line is about liberation from captivity, breaking chains, or insisting no one should be owned — that's Andromeda (freedom impulse), not Draco (territorial control). Give Draco ~0 when the line is about artistic prestige, beauty lineage, 'our blood is the original template,' or creative/aesthetic superiority — that's Lyra. Draco status is enforced through fear and loyalty, not through aesthetic refinement. When the line is 'I came here on a mission to help humanity evolve / I volunteered to incarnate to stabilize Earth,' that usually goes to Lyra (or sometimes Pleiades/Arcturus depending on tone), not Draco. Draco does not present as 'volunteer healer' or 'missioned helper'; Draco presents as 'protector/enforcer.' If the line is about soothing, feeding, holding, or co-regulating ('you're safe with me, I'll take care of you'), score Pleiades, not Draco. Draco safety is territorial enforcement, not emotional nurture. If the line is 'obey or be crushed, entire civilizations bow to us,' that's Orion-Dark, not Draco. Draco is about clan-level control, not galaxy-scale imperial logistics. For spiritual challenge language: If it's honorable trial / warrior initiation / surviving an ordeal to earn rank → Orion-Light. If it's liberation-through-teaching / cosmic law that frees slaves or dissolves domination → Sirius. Either way, score Draco ~0. If it scales to 'galactic empire, mass obedience, planetary subjugation, engineered bloodlines to rule entire civilizations', score ~0 for Draco and high for Orion-Dark. Draco does clan/den control, not interstellar fascist bureaucracy."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "gate": 6,
+  "gate_name": "Conflict",
+  "lines": {
+    "6.1": {
+      "line": 1,
+      "hd_title": "Retreat",
+      "hd_quote": "The Realization that wasting one's resources against overwhelming odds is not courage but folly.",
+      "keywords": [
+        "weakness and strength wave",
+        "emotional stability",
+        "waits before engaging",
+        "retreat as phase"
+      ],
+      "behavioral_axis": "Waits to assess intimacy through the emotional wave, recognizing both weakness and strength before engaging in bonding.",
+      "shadow_axis": "Rushes into intimacy without retreat, becoming emotionally unstable when the wave shifts from strength to weakness.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "6.2": {
+      "line": 2,
+      "hd_title": "The Guerilla",
+      "hd_quote": "The ability to maximize an inferior position",
+      "keywords": [
+        "advance and withdrawal",
+        "natural button pusher",
+        "called out for sensitivity",
+        "kamikaze intimacy"
+      ],
+      "behavioral_axis": "Called out for ability to find emotional weak points, advancing or withdrawing based on projection without examining intimacy's nature.",
+      "shadow_axis": "Lunges kamikaze-style into relationships blindly or withdraws aggressively, lacking sensitivity that blunders into non-productive conflicts.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "6.3": {
+      "line": 3,
+      "hd_title": "Allegiance",
+      "hd_quote": "The destruction of old forms through union",
+      "keywords": [
+        "bonds made and broken",
+        "allegiance and rejection",
+        "trial-and-error bonding",
+        "genetic diversity"
+      ],
+      "behavioral_axis": "Experiments with bonds made and broken through trial and error, bringing new genetic material into the tribe through diverse intimacy.",
+      "shadow_axis": "Rejects allegiance as submission to established order, becomes sensitive to control that eventually rejects intimacy completely.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "6.4": {
+      "line": 4,
+      "hd_title": "Triumph",
+      "hd_quote": "A position of natural and unchallengeable power.",
+      "keywords": [
+        "emotional dominance",
+        "kindness and meanness wave",
+        "externalizes power",
+        "friendship foundation"
+      ],
+      "behavioral_axis": "Externalizes emotional power to dominate the relationship field, requiring friendship as foundation before penetrating intimacy.",
+      "shadow_axis": "Lacks emotional control that becomes destructive, overwhelming others with kindness then flipping to meanness through the wave.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "6.5": {
+      "line": 5,
+      "hd_title": "Arbitration",
+      "hd_quote": "Time is the only authority that will allow clear assessment of the nature of any intimacy.",
+      "keywords": [
+        "selfishness and selflessness",
+        "projection field",
+        "seduction and harmony",
+        "maintained intimacy"
+      ],
+      "behavioral_axis": "Holds projection field that seduces intimacy maintainable over time, sensitive to whether relationships serve mutual harmony through emotional wave.",
+      "shadow_axis": "Performs arbitrator role to satisfy projections, insensitive to others' concerns, only accepts judgment if victor in the conflict.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    },
+    "6.6": {
+      "line": 6,
+      "hd_title": "The Peacemaker",
+      "hd_quote": "The highest form of reason is that life is sacred.",
+      "keywords": [
+        "sympathy and apathy wave",
+        "world conditions",
+        "objectivity",
+        "role model transition"
+      ],
+      "behavioral_axis": "Considers objectively what world children will live in before engaging intimacy, setting conditions for emotional quality of relationship from roof perspective.",
+      "shadow_axis": "Sets unacceptable terms for intimacy, emotionally controls relationship only after conditions satisfied, apathetic to partner's understanding of why.",
+      "source": "Line Companion (Ra Uru Hu) via normalized chunks"
+    }
+  }
+}

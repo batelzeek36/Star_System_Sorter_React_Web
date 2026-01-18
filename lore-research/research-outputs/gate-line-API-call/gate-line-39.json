@@ -1,0 +1,84 @@
+{
+  "gate": 39,
+  "gate_name": "Obstruction / The Gate of Provocation",
+  "lines": {
+    "39.1": {
+      "line": 1,
+      "hd_title": "Disengagement",
+      "hd_quote": "The energy to provoke by refusing to confront obstacles.",
+      "keywords": [
+        "testing by backing off",
+        "tease-withdraw pattern",
+        "finds who still shows up"
+      ],
+      "behavioral_axis": "Provokes by stepping back; the withdrawal itself is the test of spirit.",
+      "shadow_axis": "Withdraws so much that no mutation can happen.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "39.2": {
+      "line": 2,
+      "hd_title": "Confrontation",
+      "hd_quote": "The instinctual and direct assault of obstacles.",
+      "keywords": [
+        "straight-up provocation",
+        "called out for no reason",
+        "others project on them"
+      ],
+      "behavioral_axis": "Looks provocative even when quiet, so ends up having to meet it head-on.",
+      "shadow_axis": "Avoids needed confrontation, feels picked on anyway.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "39.3": {
+      "line": 3,
+      "hd_title": "Responsibility",
+      "hd_quote": "The avoidance of confronting obstacles if failure puts others at risk.",
+      "keywords": [
+        "provokes on behalf of others",
+        "mutative self-sacrifice",
+        "risk-aware pressure"
+      ],
+      "behavioral_axis": "Chooses which fights to pick because mutation affects everyone.",
+      "shadow_axis": "Uses ‘others at risk’ to justify never provoking.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "39.4": {
+      "line": 4,
+      "hd_title": "Temperance",
+      "hd_quote": "Careful evaluation and assessment before taking action.",
+      "keywords": [
+        "timed provocation",
+        "checks spirit first",
+        "disciplined teasing"
+      ],
+      "behavioral_axis": "Feels when it’s the right moment to poke the field.",
+      "shadow_axis": "Over-thinks and never tests spirit, so mutation stalls.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "39.5": {
+      "line": 5,
+      "hd_title": "Single-mindedness",
+      "hd_quote": "The rare ability not to overcome but to bypass obstacles.",
+      "keywords": [
+        "projected-on provoker",
+        "bypasses drama",
+        "mutation without fight"
+      ],
+      "behavioral_axis": "Because everyone expects provocation, they often don’t have to do it.",
+      "shadow_axis": "Bypassing everything = no spirit gets tested.",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    },
+    "39.6": {
+      "line": 6,
+      "hd_title": "The Troubleshooter",
+      "hd_quote": "The energy to provoke others by attempting to solve their problems.",
+      "keywords": [
+        "problem-fixing provocation",
+        "mutation delivery",
+        "spirit-level service"
+      ],
+      "behavioral_axis": "Provokes because it sees the core problem and wants to correct it.",
+      "shadow_axis": "Becomes domineering ‘I know what’s wrong with you.’",
+      "source": "s3-data/gates (paraphrased quotes + behavioral interpretation)"
+    }
+  }
+}

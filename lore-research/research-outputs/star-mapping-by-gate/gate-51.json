@@ -1,0 +1,278 @@
+{
+  "51.1": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Claims shock as self-initiation, not surrender to handlers."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Contains the jolt; small, paced trials create safety."
+    },
+    "draco": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Early bravado can slide into status testing."
+    },
+    "lyra": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Not an aesthetic/display axis."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Grabbing hazing rules to prove belonging."
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Courage to meet the first jolt cleanly."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Self-soothing and simple support after shock."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Private initiation hygiene; no transmission yet.",
+      "confidence": 5,
+      "sources": ["gate-line-51.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["shock", "contain", "aftercare"]
+    }
+  },
+  "51.2": {
+    "andromeda": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Refuses coercion; chooses when to be tested."
+    },
+    "arcturus": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Places the challenge—right dose, timing, handler."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Threshold guard against predatory initiation."
+    },
+    "lyra": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Plain rite/phrasing makes the passage legible."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Tradition leveraged to compel ‘proving.’"
+    },
+    "orion-light": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Steady courage without theatrics."
+    },
+    "pleiades": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Attuned aftercare stabilizes the nervous system."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "Skilled application, not yet protocol teaching.",
+      "confidence": 5,
+      "sources": ["gate-line-51.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["dose", "timing", "consent"]
+    }
+  },
+  "51.3": {
+    "andromeda": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Victim/savior loops attached to initiation."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Misplaced tests and poor pacing—container fails."
+    },
+    "draco": {
+      "weight": 0.35,
+      "alignment_type": "shadow",
+      "why": "Hazing/intimidation as rank theatre."
+    },
+    "lyra": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Performative shock eclipses integrity."
+    },
+    "orion-dark": {
+      "weight": 0.4,
+      "alignment_type": "shadow",
+      "why": "Coercive ordeal used to enforce obedience."
+    },
+    "orion-light": {
+      "weight": 0.1,
+      "alignment_type": "core",
+      "why": "Lesson: calibrate dose, consent, and target."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Appeasement after harm creates enmeshment."
+    },
+    "sirius": {
+      "weight": 0,
+      "alignment_type": "none",
+      "why": "No stable pedagogy—trial-and-error initiation.",
+      "confidence": 5,
+      "sources": ["gate-line-51.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "none",
+      "keywords": ["hazing", "overreach"]
+    }
+  },
+  "51.4": {
+    "andromeda": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Liberates through consent-based rites, not capture."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Designs initiation protocol—scope, consent, recovery."
+    },
+    "draco": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Guards thresholds; fair challenge without predation."
+    },
+    "lyra": {
+      "weight": 0.15,
+      "alignment_type": "core",
+      "why": "Simple rite marks passage without spectacle."
+    },
+    "orion-dark": {
+      "weight": 0.1,
+      "alignment_type": "shadow",
+      "why": "Protocol can ossify into control ritual."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Models clean courage under the strike."
+    },
+    "pleiades": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Attuned aftercare and bonding complete the rite."
+    },
+    "sirius": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Teaches initiation protocol by example—how to shock without harm.",
+      "confidence": 4,
+      "sources": ["gate-line-51.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "initiation-protocol/field-guide",
+      "keywords": ["rites", "safety", "debrief"]
+    }
+  },
+  "51.5": {
+    "andromeda": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Ends abusive hazing; initiation frees rather than binds."
+    },
+    "arcturus": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Sets standards—criteria, pacing, safeguards, and review."
+    },
+    "draco": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Enforces loyalty to fair challenge; no intimidation theatre."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Cultural form carries the passage cleanly."
+    },
+    "orion-dark": {
+      "weight": 0.25,
+      "alignment_type": "shadow",
+      "why": "Orthodoxy risk—ordeal canonized as control."
+    },
+    "orion-light": {
+      "weight": 0.3,
+      "alignment_type": "core",
+      "why": "Integrity under pressure defines the rite."
+    },
+    "pleiades": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Mentoring warmth and aftercare integrate the shock."
+    },
+    "sirius": {
+      "weight": 0.4,
+      "alignment_type": "core",
+      "why": "Instruction in initiation standards—liberation through disciplined ordeal.",
+      "confidence": 4,
+      "sources": ["gate-line-51.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "initiation-standards/teacher",
+      "keywords": ["criteria", "safeguards", "review"]
+    }
+  },
+  "51.6": {
+    "andromeda": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Embodied initiator liberates by presence—strikes or refrains by truth."
+    },
+    "arcturus": {
+      "weight": 0.35,
+      "alignment_type": "core",
+      "why": "Establishes enduring canon for when and how to initiate."
+    },
+    "draco": {
+      "weight": 0.15,
+      "alignment_type": "shadow",
+      "why": "Aura can feel like a gate to ‘real’ initiation."
+    },
+    "lyra": {
+      "weight": 0.2,
+      "alignment_type": "core",
+      "why": "Archetypal simplicity—spare rite, high dignity."
+    },
+    "orion-dark": {
+      "weight": 0.3,
+      "alignment_type": "shadow",
+      "why": "Initiation canon risks law-over-life coercion."
+    },
+    "orion-light": {
+      "weight": 0.25,
+      "alignment_type": "core",
+      "why": "Role-model courage amid shock without proving."
+    },
+    "pleiades": {
+      "weight": 0.05,
+      "alignment_type": "core",
+      "why": "Compassion present without enmeshment."
+    },
+    "sirius": {
+      "weight": 0.45,
+      "alignment_type": "core",
+      "why": "Royal instruction: the canon of initiation transmitted by presence/protocol.",
+      "confidence": 4,
+      "sources": ["gate-line-51.json", "sirius-baseline-4.2.json"],
+      "behavioral_match": "royal-instruction/initiation-canon",
+      "keywords": ["canon", "presence", "ordeal"]
+    }
+  }
+}
