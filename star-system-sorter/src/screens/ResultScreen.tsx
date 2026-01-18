@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useBirthDataStore } from '@/store/birthDataStore';
+import { useComparisonStore } from '@/store/comparisonStore';
 import { useClassification } from '@/hooks/useClassification';
 import { Button } from '@/components/figma/Button';
 import { Chip } from '@/components/figma/Chip';
@@ -46,6 +47,10 @@ export default function ResultScreen() {
   const navigate = useNavigate();
   const hdData = useBirthDataStore((state) => state.hdData);
   const classification = useBirthDataStore((state) => state.classification);
+  const birthDate = useBirthDataStore((state) => state.date);
+  const birthTime = useBirthDataStore((state) => state.time);
+  const location = useBirthDataStore((state) => state.location);
+  const setChartA = useComparisonStore((state) => state.setChartA);
   const { loading, classify } = useClassification();
   
   // Animated percentage counter
@@ -230,12 +235,35 @@ export default function ResultScreen() {
 
           {/* View Why Button */}
           <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.5s', animationFillMode: 'both' }}>
-            <Button 
-              variant="primary" 
+            <Button
+              variant="primary"
               className="w-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[var(--s3-lavender-500)]/30"
               onClick={() => navigate('/why-figma')}
             >
               View Why ✨
+            </Button>
+          </div>
+
+          {/* Compare Button */}
+          <div className="mb-4 animate-fade-in-up" style={{ animationDelay: '0.55s', animationFillMode: 'both' }}>
+            <Button
+              variant="secondary"
+              className="w-full transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                // Set chartA from current chart data before navigating
+                if (hdData) {
+                  setChartA({
+                    hdData,
+                    classification,
+                    birthDate,
+                    birthTime,
+                    location,
+                  });
+                }
+                navigate('/compare');
+              }}
+            >
+              Compare with another chart
             </Button>
           </div>
 
@@ -251,7 +279,7 @@ export default function ResultScreen() {
         </div> */}
 
           {/* Legal Disclaimer */}
-          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
+          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.65s', animationFillMode: 'both' }}>
             <div className="p-3 bg-[var(--s3-lavender-900)]/10 border border-[var(--s3-border-muted)] rounded-[var(--s3-radius-xl)] transition-all duration-300 hover:border-[var(--s3-border-emphasis)]">
               <p className="text-xs text-[var(--s3-text-subtle)] leading-relaxed">
                 For insight & entertainment. Not medical, financial, or legal advice.

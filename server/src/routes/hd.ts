@@ -124,7 +124,7 @@ router.post('/hd', async (req: Request, res: Response) => {
       });
     }
 
-    const bodyGraphData = await response.json();
+    const bodyGraphData = await response.json() as { error?: string; Properties?: Record<string, unknown> };
 
     // Check for API error response
     if (bodyGraphData.error) {

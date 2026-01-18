@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import rateLimit from 'express-rate-limit';
 import hdRouter from './routes/hd.js';
+import insightsRouter from './routes/insights.js';
 
 // Load environment variables
 dotenv.config();
@@ -38,6 +39,9 @@ app.get('/health', (req, res) => {
 
 // Mount HD route
 app.use('/api', hdRouter);
+
+// Mount Insights route
+app.use('/api', insightsRouter);
 
 // Start server
 app.listen(PORT, () => {
