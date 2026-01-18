@@ -1,0 +1,47 @@
+# Manual Scoring Run Manifest Template
+# This file defines the structure for tracking manual gate scoring sessions.
+# Copy this template and fill in the fields for each scoring session.
+
+# Schema version for this manifest format
+schema_version: "1.0"
+
+# Analyst performing the scoring (name or identifier)
+analyst: ""
+
+# Session date (ISO 8601 date format: YYYY-MM-DD)
+session_date: ""
+
+# Baseline beacon information
+baseline_beacon:
+  # SHA256 hash (first 8 characters) of combined-baselines-4.2.json
+  value: ""
+  
+  # Method used to compute the beacon (typically "sha256_canonical_json")
+  method: "sha256_canonical_json"
+  
+  # Relative path to the baseline file from repo root
+  source_path: "GPT-5/combined-baselines-4.2.json"
+  
+  # Full SHA256 hash of the baseline file
+  source_sha256: ""
+
+# Array of gate numbers that have been completed (scored and files generated)
+# Example: [1, 2, 3, 4, 5, 6, 7, 8]
+gates_completed: []
+
+# Array of gate numbers that have passed validation (both 7.1 and 7.2)
+# Example: [1, 2, 3, 4]
+gates_validated: []
+
+# Timestamp when this manifest was last updated (ISO 8601 format with timezone)
+# Example: "2025-01-15T18:30:00Z"
+timestamp_utc: ""
+
+# Git commit hash at the time of this session
+git_commit: ""
+
+# Whether the git working directory had uncommitted changes
+git_dirty: false
+
+# Optional session notes (free-form text)
+notes: ""

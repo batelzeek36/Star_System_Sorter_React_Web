@@ -2,6 +2,12 @@
 
 > **Guardrail**: Do **not** add new dependencies, swap build tools, or replace UI libraries without explicit approval. Stick to Figma components and the established tech stack.
 
+DO NOT create unecessary documentation please! You have a habit of over-doing it when not asked.
+
+## Task Completion Notification
+
+**IMPORTANT**: At the very end of completing any task, always run `./scripts/ding.sh` to play a completion sound notification for the user.
+
 ## Core Technologies
 
 ### Client (React Web App)

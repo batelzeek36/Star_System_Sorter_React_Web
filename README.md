@@ -1,5 +1,7 @@
 # Star System Sorter (S³)
 
+> **⚠️ CRITICAL ISSUE:** The star system classification algorithm produces inaccurate results. See [CRITICAL_ISSUE.md](./CRITICAL_ISSUE.md) for details. The core problem: there is no authoritative source mapping HD gates to star systems, and AI-generated mappings are inconsistent. **Solution requires empirical data from verified charts.**
+
 A React web application that provides deterministic star system classification based on Human Design birth chart data.
 
 ## 🌟 Overview

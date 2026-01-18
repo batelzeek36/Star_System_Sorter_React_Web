@@ -1,0 +1,65 @@
+================================================================================
+PAIRWISE EXCLUSION INVARIANTS FUZZ TEST REPORT
+================================================================================
+
+SUMMARY
+--------------------------------------------------------------------------------
+Gates tested: 1
+Total violations: 0
+Total passes: 0
+
+RULE STATISTICS
+--------------------------------------------------------------------------------
+Andromeda/Orion Dark:
+  Tested: 6
+  Violations: 0
+  Passes: 6
+  Pass rate: 100.0%
+
+Arcturus/Pleiades:
+  Tested: 6
+  Violations: 0
+  Passes: 6
+  Pass rate: 100.0%
+
+Lyra/Draco:
+  Tested: 6
+  Violations: 0
+  Passes: 6
+  Pass rate: 100.0%
+
+Orion Light/Orion Dark:
+  Tested: 6
+  Violations: 0
+  Passes: 6
+  Pass rate: 100.0%
+
+Pleiades/Draco:
+  Tested: 6
+  Violations: 0
+  Passes: 6
+  Pass rate: 100.0%
+
+Sirius/Orion Light:
+  Tested: 6
+  Violations: 0
+  Passes: 6
+  Pass rate: 100.0%
+
+✓ NO VIOLATIONS FOUND
+
+RULE DEFINITIONS
+--------------------------------------------------------------------------------
+
+• Pleiades > 0.0 → Draco = 0
+• Sirius ≥ 0.6 → Orion Light ≤ 0.35
+• Andromeda ≥ 0.6 → Orion Dark ≤ 0.0
+• Arcturus > 0.0 → Pleiades ≤ 0.0
+• Lyra > 0.0 → Draco = 0
+• Orion Light > 0 AND Orion Dark > 0 → one must be ≤ 0.35
+
+TESTED GATES
+--------------------------------------------------------------------------------
+01
+
+================================================================================
